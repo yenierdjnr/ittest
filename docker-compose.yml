@@ -1,0 +1,30 @@
+version: "3.2"
+services:
+  hugo:
+    build: ./hugo
+    working_dir: /usr/share/site
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./hugo/site:/usr/share/site
+      - ./nginx/www:/output
+    command: "hugo -w -d /output"
+  marketing:
+    build: nginx
+    ports:
+      - "1380:80"
+    volumes:
+      # Even though the Dockerfile specifies to copy these files over,
+      # mounting the volume here makes sure that as files are edited and
+      # rebuilt we are always serving the latest files from the local
+      # filesystem for development
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/www:/var/www
+    environment:
+      BRAND: "ITProTV"
+    depends_on:
+      - hugo
+networks:
+  default:
+    external:
+      name: itprotv_bridge

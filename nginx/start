@@ -1,0 +1,19 @@
+#!/bin/sh
+
+set -e
+
+check_env() {
+  local var=$1;
+  eval local value=\$$var
+
+  if [ "$value" == "" ]; then
+    echo "$var IS NOT SET. ABORTING"
+    exit 1
+  fi
+
+  echo "$var = $value"
+}
+
+check_env BRAND
+
+exec nginx -g 'daemon off;'

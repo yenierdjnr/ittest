@@ -1,0 +1,22 @@
+# Site settings
+languageCode = "en-us"
+baseurl = "https://itpro.tv/"
+theme = "itprotv-2018"
+
+[params]
+
+  title = "Information Technology Training Courses Online - Video Computer Classes"
+  brand = "ITProTV"
+  description = "Easy to understand IT Training & Certification courses online. Grow your IT skills. Engaging videos with expert trainers. Start FREE now!"
+  canonifyURLs = false
+
+  googletagmanager = "GTM-NQGDFWL" # required if you want to use google tag manager
+
+  tagcategory = "tagcategory"
+  tag = "tag"
+  course = "course"
+
+[sitemap]
+
+  changefreq = "monthly"
+  priority = 0.5
