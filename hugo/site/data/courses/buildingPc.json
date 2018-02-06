@@ -1,0 +1,86 @@
+{
+	"id": "5627afaa643ef907007f0753",
+	"name": "Building a PC",
+	"subtitle": "Assembly and configuration",
+	"description": "Dan and Wes walk you through the step-by-steps to build a personal computer. They demonstrate the installation of components like a motherboard, CPU, cooling systems, fans hard drives and power supplies.",
+	"descriptionMD": "",
+	"length": 8382,
+	"hidden": false,
+	"url": "building-pc",
+	"productionStart": "0001-01-01T00:00:00Z",
+	"productionEnd": "2015-10-15T04:00:00Z",
+	"episodes": [
+		{
+			"title": "Component Selection",
+			"topic": "5627afc8fa4a9b0700a3f478",
+			"description": "In this episode, Daniel and Wes explain some of the pre-planning required when preparing to build a custom PC. They then guide you through the process of shopping for components while sticking to the customer's budget.",
+			"vimeoId": "142391634",
+			"length": 1560,
+			"hidden": false,
+			"url": "component-selection",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection-101315-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection-101315-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection-101315-1-med.jpg"
+		},
+		{
+			"title": "Component Selection Part 2",
+			"topic": "5627afc8fa4a9b0700a3f478",
+			"description": "In this episode, Daniel and Wes finish up shopping for their custom PC build. They pick up where they left off choosing components like optical drives, video cards, sound cards, and RAM.",
+			"vimeoId": "142391646",
+			"length": 1740,
+			"hidden": false,
+			"url": "component-selection-2",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection_pt2-101315-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection_pt2-101315-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-1-component_selection_pt2-101315-1-med.jpg"
+		},
+		{
+			"title": "PC Assembly",
+			"topic": "5627afc8fa4a9b0700a3f478",
+			"description": "In this episode, Wes and Daniel walk you through assembling a PC from its individual components all the way to a functioning powered up state. They start with mounting the motherboard to the case and from there go though installing the CPU, RAM, liquid cooling system, hard drive, and power supply.",
+			"vimeoId": "143134312",
+			"length": 1756,
+			"hidden": false,
+			"url": "pc-assembly",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-2-assembling_components-101415-high.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-2-assembling_components-101415-high-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-2-assembling_components-101415-high-med.jpg"
+		},
+		{
+			"title": "BIOS Configuration",
+			"topic": "5627afc8fa4a9b0700a3f478",
+			"description": "In this episode, Daniel and Wes help you to understand and configure the Basic Input/Output System(BIOS) of a computer. Here they explain many of the sections like memory speed, cpu cores, and Hyper-Threading, then move into the importance of the system date/time. They also show you how to configure on board devices and determine hard drive detection.",
+			"vimeoId": "143136045",
+			"length": 1880,
+			"hidden": false,
+			"url": "bios-configuration",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration-101515-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration-101515-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration-101515-1-med.jpg"
+		},
+		{
+			"title": "BIOS Configuration Part 2",
+			"topic": "5627afc8fa4a9b0700a3f478",
+			"description": "In this episode, Wes and Daniel continue describing BIOS features. Here they cover topics like performance, which entails cpu speed, memory speed, and overclocking. Also they take a look at some BIOS security and power features. Finally they show you how to adjust the boot features of the system.",
+			"vimeoId": "143136416",
+			"length": 1446,
+			"hidden": false,
+			"url": "bios-configuration-2",
+			"order": 5,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration_pt2-101515-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration_pt2-101515-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-buildingpc/techskills-buildingpc-1-3-bios_configuration_pt2-101515-1-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Building a PC",
+			"id": "5627afc8fa4a9b0700a3f478",
+			"order": 1
+		}
+	]
+}

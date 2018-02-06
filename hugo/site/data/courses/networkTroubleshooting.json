@@ -1,0 +1,73 @@
+{
+	"id": "56fc18caca158407009a5898",
+	"name": "Network Troubleshooting",
+	"subtitle": "Command Line Tools for Diagnosing Network Issues",
+	"description": "Every technician faces time when the network is not running up to par. We will take a look at different utilities and techniques to identify network  issues like routing delays, DNS issues, DHCP failures and end-to-end communications. We demonstrate some of the utilities that can be used to not only identify but resolve issues that arise on the network.",
+	"descriptionMD": "",
+	"length": 7031,
+	"hidden": false,
+	"url": "network-troubleshooting",
+	"productionStart": "0001-01-01T00:00:00Z",
+	"productionEnd": "0001-01-01T00:00:00Z",
+	"episodes": [
+		{
+			"title": "Troubleshooting with CMD",
+			"topic": "56fc1e5975a2f90700cf5b44",
+			"description": "In this episode, Daniel and Wes show you how to troubleshoot common network issues using command line tools. Specific tools covered include ipconfig, ping, and tracert.",
+			"vimeoId": "160397193",
+			"length": 2033,
+			"hidden": false,
+			"url": "troubleshooting-cmd",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-1-trouble_shooting_with_CMD-031816-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-1-trouble_shooting_with_CMD-031816-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-1-trouble_shooting_with_CMD-031816-1-med.jpg"
+		},
+		{
+			"title": "Troubleshooting with CMD Part 2",
+			"topic": "56fc1e5975a2f90700cf5b44",
+			"description": "In this episode, Daniel and Wes show you how to troubleshoot common network issues using command line tools. Specific tools covered include netstat, netsh, and nslookup.",
+			"vimeoId": "160384094",
+			"length": 1333,
+			"hidden": false,
+			"url": "troubleshooting-cmd-2",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-2-trouble_shooting_with_CMD_pt2-031816-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-2-trouble_shooting_with_CMD_pt2-031816-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-networktroubleshooting/networktroubleshooting-1-2-trouble_shooting_with_CMD_pt2-031816-1-med.jpg"
+		},
+		{
+			"title": "Setting IP Information",
+			"topic": "56fc1e5975a2f90700cf5b44",
+			"description": "In this episode, Dan and Mike demonstrate configuring TCP/IP settings from the command line. They show how to statically map an IP address in a Linux environment using ifconfig and ip, as well as using netsh in a Windows environment.",
+			"vimeoId": "194370456",
+			"length": 1628,
+			"hidden": false,
+			"url": "setting-ip-information",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-setting_ip_information-113016-PGM.00_26_54_14.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-setting_ip_information-113016-PGM.00_26_54_14.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-setting_ip_information-113016-PGM.00_26_54_14.Still001-med.jpg"
+		},
+		{
+			"title": "Setting IP Information Part 2",
+			"topic": "56fc1e5975a2f90700cf5b44",
+			"description": "In this episode, Dan and Mike continue their demonstration on configuring TCP/IP settings from the command line. They show how to configure a Linux and a Windows node as a DHCP client. They also look at ways to release and renew a DHCP lease in both operating systems.",
+			"vimeoId": "194369718",
+			"length": 2037,
+			"hidden": false,
+			"url": "setting-ip-information2",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-2-setting_ip_information_pt2-113016-high.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-2-setting_ip_information_pt2-113016-high-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-commandlinenetworkingtools/techskills-commandline-networking-tools-1-1-2-setting_ip_information_pt2-113016-high-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Networking Troubleshooting",
+			"id": "56fc1e5975a2f90700cf5b44",
+			"order": 1
+		}
+	]
+}

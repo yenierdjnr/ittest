@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Page hiding snippet (recommended) -->
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>
+  (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+  h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+  (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+  })(window,document.documentElement,'async-hide','dataLayer',4000,{'{{ $.Site.Params.googletagmanager }}':true});
+  </script>
+  <!-- Google Tag Manager -->
+  <script id="gtmScript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ $.Site.Params.googletagmanager }}');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
+  <title id="page-title">{{ if .IsHome }}{{ .Site.Params.title }}{{ else }}{{ .Title }}{{ end }}</title>
+  <script>
+  (function(d) {
+    var config = {
+      kitId: 'gcc7nyr',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+  {{ $directory := "layouts/partials/stylesheets/" }}
+  {{ if (isset .Params "layout") and (in .Data.Partials (print .Params.layout ".html"))}}
+    {{ $stylesheet := (print "stylesheets/" .Params.layout) }}
+      <style>
+        {{ partial $stylesheet | safeCSS }}
+      </style>
+  {{ else }}
+    <style>{{ partial "stylesheets/default" | safeCSS }}</style>
+  {{end}}
+
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+
+  <noscript id="gtmNoScript"><iframe src="https://www.googletagmanager.com/ns.html?id={{ $.Site.Params.googletagmanager }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->

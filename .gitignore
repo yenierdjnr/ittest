@@ -1,3 +1,9 @@
 .DS_Store
 hugo/site/public/*
 nginx/www
+
+api-service
+docker-compose.api-service.yml
+
+node_modules
+npm-debug.log

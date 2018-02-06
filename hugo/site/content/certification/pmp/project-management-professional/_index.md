@@ -1,0 +1,6 @@
+{
+	"title": "Project Management Professional",
+	"description": "*** Updated to reflect changes to the exam effective Jan 2016 *** The Project Management Professional (PMP) certification from the Project Management Institute is the leading certification for individuals working as a project manager. The certification combines breadth of knowledge with extensive pre-requisites to ensure that candidates who successfully complete the exam are competent and well versed in the various tools and techniques used by successful project managers. The certificate is targeted at individuals with over five years of experience working as a project manager and seeking to validate their knowledge and experience through becoming certified. Individuals without five years of documented experience should consider the Certified Associate of Project Management (CAPM) certification. At ITProTV, our project management show is designed to prepare the viewer for both exams.",
+	"dataFileName": "projectManagementProfessional",
+	"layout": "course"
+}

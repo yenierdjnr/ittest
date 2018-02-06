@@ -1,0 +1,6 @@
+{
+	"title": "IC3-I Choose Life",
+	"description": "This show provides the very basic computer literacy skills by providing a comprehensive and full range of entry-level computing skills by Dr. Tonny Omwansa. It is foundational for anyone looking to move any profession using computers on a daily basis because entry-level computing skills have become a compulsory requirement in business today.\nDr. Omwansa helps the learner to come up to speed on computing basics, and helps them achieve competency and skills on a computer easily. The show  covers everything from computer hardware and software to the underlying functionality of a computer, and helps readers gain the skills and knowledge they need to move forward in their careers, or to successfully prepare for any of the IC3 Exams.  The show covers the following objectives\n•              Learn about computer hardware, software and other basic functions\n•              Get a full introduction to Windows and Microsoft Office\n•              Create polished documents and presentations in Microsoft Excel, PowerPoint and Word 2010\nGain an understanding of web basics, connectivity, security and privacy",
+	"dataFileName": "ic3iChooseLife",
+	"layout": "course"
+}

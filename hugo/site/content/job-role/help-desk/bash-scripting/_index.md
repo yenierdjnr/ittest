@@ -1,0 +1,6 @@
+{
+	"title": "Bash and Scripting",
+	"description": "Unix and Unix-like operating systems(Linux/BSD), known for their speed and reliability, are becoming an ever increasing presence in many data centers and server closets. That being the case, systems administrators that are new to the command-line driven nature of these systems will need to get up to speed on how to interact with the CLI shell environment found as the default on the majority of those systems. In this series, we introduce you to that shell environment known as the Bourne Again Shell or bash, for short. The series starts with an introduction to the bash environment, showing and explaining to you how to navigate through the system using text-based commands. This includes file system navigation, setting file permissions, manipulating output, etc. Then, building upon that foundation, we show you how to automate repetitive tasks by creating customized scripts. All the main bash scripting abilities are covered; from basic repetitive command execution, to more complex functionality like arithmetic, arrays, conditional statements(if-then/elif/case-esac), program loops(for/while/until), and functions/libraries.",
+	"dataFileName": "bashScripting",
+	"layout": "course"
+}

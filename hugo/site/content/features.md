@@ -1,0 +1,30 @@
+---
+type: "page"
+layout: "features"
+title: "Features | OfficeProTV"
+description: "Binge-worthy online MS Office video training for Excel, Word, PowerPoint, Outlook & more from certified Microsoft Office experts"
+features_header: "Stay up-to-date with the most current MS Office training"
+features_header_description: ["We stream live daily to deliver you the most current training on cutting-edge topics, and we make all trainings available online, on-demand, within 48 hours of the initial air date.",
+"But we don’t just deliver content faster than any other e-learning provider, we deliver content that is easy to retain and enjoyable to watch. Where traditional classrooms and boring PowerPoint e-courses fail, we succeed at offering a learning model that is interactive and flexible to suit the needs of any learner."]
+educator_section_header: "Learn from the Pros"
+educator_section_cta: "Course material you can trust so you can learn with confidence"
+educator_section_description: "Our courses are taught by first-rate hosts and subject-matter-experts with many years of professional experience as both traditional and online educators. Our hosts are committed to upholding a higher standard of education by teaching beyond traditional curriculums to create highly effective and engaging content."
+powered_by_section_header: "OfficeProTV is powered by ITProTV, leading IT training provider"
+powered_by_section_description: "Highly effective e-learning training solutions."
+powered_by_button: "Become an Office Pro"
+pre_footer_section_header: "Learn Anywhere, Anytime"
+pre_footer_description: "Our educational content is segmented into courses by topic and then broken down into 30-minute episodes accessible on-demand. It’s like Netflix for your favorite training shows, just browse our Course Library on the web, or log in using your Roku, AppleTV, or Amazon FireTV device and start watching instantly. As a premium member, you have the option to download courses and watch offline. Pick up where you left off and learn on-the-go between classes, during lunch, or while you travel."
+popular_courses:
+  - title: "Excel 2016 Essentials"
+    description: "Excel 2016 Essentials explores ways to enhance Excel workbooks with topics in analyzing data, collaborating and workbook security, and adding graphical elements."
+    thumbnail: "/assets/images/microsoft-office-excel-2016-essentials-1-1-introduction_to_excel-071717-PGM.00_26_28_12.Still001-med.jpg"
+    link: "/course-library/microsoft-excel/excel-2016-essentials/"
+  - title: "Outlook 2016"
+    description: "Whether using for personal email or work email as large business organization, this course covers everything one needs to become a skilled and informed user of Microsoft Outlook 2016."
+    thumbnail: "/assets/images/microsoft-office-outlook-2016-4-1-outlook_interface-051517-PGM.00_29_10_01.Still002-med.jpg"
+    link: "/course-library/microsoft-outlook/outlook-2016/"
+  - title: "Word 2016 Essentials"
+    description: "This series explores the essentials to getting started with Word 2016 on a Windows operating system. We begin with basic skills such as navigating a document, selecting text, inputting basic text, and document proofing."
+    thumbnail: "/assets/images/microsoft-office-word-2016-essentials-2-4-lists-061517-PGM.00_23_33_26.Still001-med.jpg"
+    link: "/course-library/microsoft-word/word-2016-essentials/"
+---

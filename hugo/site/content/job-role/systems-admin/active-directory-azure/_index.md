@@ -1,0 +1,6 @@
+{
+	"title": "Active Directory in Azure",
+	"description": "In this series, we will show you how to extend an on-premises Active Directory to Microsoft Azure. Extending Active Directory in Azure can be used for disaster recovery and supporting branch offices, to name a few. We will start at the beginning, by setting up our on-premises network, including Active Directory, DNS, and Routing and Remote Access. We will use the RRAS server as our VPN endpoint, which we will use to establish a site-to-site VPN tunnel to Azure. Then we will create our virtual network in Azure, including defining subnets, creating a gateway, and provisioning public IP addresses. Then we will create our Azure resources, including a virtual domain controller, storage accounts, and availability sets. Then we will verify that Active Directory is replicating properly. We will demonstrate using three different methods, with the classic portal, with the new portal and with Azure PowerShell.",
+	"dataFileName": "activeDirectoryAzure",
+	"layout": "course"
+}

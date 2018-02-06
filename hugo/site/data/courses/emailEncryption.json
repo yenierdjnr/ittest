@@ -1,0 +1,47 @@
+{
+	"id": "54fd95e1e974a00700572e58",
+	"name": "Email Encryption",
+	"subtitle": "with OpenPGP",
+	"description": "This video series examines using encrypted email communications. Many email servers store and transmit emails in a non-secure manner. This series covers how to use OpenPGP to encrypt email prior to sending it which provides for end-to-end encryption. This is a critical component in guaranteeing the confidentiality of any email communication.",
+	"descriptionMD": "",
+	"length": 2666,
+	"hidden": false,
+	"url": "email-encryption",
+	"productionStart": "0001-01-01T00:00:00Z",
+	"productionEnd": "2014-12-31T05:00:00Z",
+	"episodes": [
+		{
+			"title": "Email Encryption Overview",
+			"topic": "54fd99af90d8f707002fc1da",
+			"description": "",
+			"vimeoId": "115339250",
+			"length": 738,
+			"hidden": false,
+			"url": "email-encryption-overview",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-0-0-overview-122314.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-0-0-overview-122314-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-0-0-overview-122314-med.jpg"
+		},
+		{
+			"title": "OpenPGP with Windows",
+			"topic": "54fd99af90d8f707002fc1da",
+			"description": "",
+			"vimeoId": "121685272",
+			"length": 1928,
+			"hidden": false,
+			"url": "openpgp-windows",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-1-0-openpgp_with_windows-122914-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-1-0-openpgp_with_windows-122914-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/emailencryption/email_encryption-1-0-openpgp_with_windows-122914-1-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Email Encryption",
+			"id": "54fd99af90d8f707002fc1da",
+			"order": 1
+		}
+	]
+}

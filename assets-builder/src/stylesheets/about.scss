@@ -1,0 +1,110 @@
+@import "../variables";
+@import "../shared";
+@import "../partials/navigation/main";
+@import "../partials/navigation/footer";
+.about {
+  //mobile
+  img {
+    width: 100%;
+  }
+  .section-headers {
+    text-align: center;
+  }
+  .section-wrappers, #studio-wrapper {
+    padding: 1rem 1rem 0;
+  }
+  .section-wrappers {
+    margin-bottom: 2rem;
+  }
+  #studio-wrapper {
+    margin: 0 auto;
+    max-width: 38rem;
+    padding-top: 1rem;
+  }
+  .studio-section {
+    font-size: .85rem;
+    font-weight: 500;
+  }
+  .about-address {
+    text-align: center;
+  }
+  #team-photos {
+    display: inline-block;
+    max-width: 100%;
+    ul {
+      padding: 0;
+    }
+    li {
+      float: left;
+      list-style-type: none;
+      width: 50%;
+    }
+    figure {
+      margin: 0 1.2rem;
+    }
+    figcaption {
+      padding-top: .25rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      min-height: 4.5rem;
+      text-align: center;
+    }
+  }
+  section {
+    // small tablet
+    @media (min-width: $sm_bp) {
+      margin: 0 auto;
+      max-width: 48rem;
+      #team-photos {
+        li {
+          width: 50%;
+        }
+        figcaption {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    // large tablet
+    @media (min-width: $md_bp) {
+      margin: 0 auto;
+      max-width: 62rem;
+      #team-photos {
+        li {
+          width: 33.333%;
+        }
+        figcaption {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    // desktop
+    @media (min-width: $lg_bp) {
+      margin: 0 auto;
+      max-width: 75rem;
+      .section-padding {
+        padding-top: 3rem;
+      }
+      .section-wrappers {
+        #mission-content, #why-content {
+          display: block;
+          max-width: 45%;
+        }
+        #mission-content {
+          border-right: .5px solid #ededed;
+          padding-right: 3.5rem;
+        }
+        #why-content {
+          padding-left: 3.5rem;
+        }
+      }
+      #team-photos {
+        li {
+          width: 25%;
+        }
+        figcaption {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

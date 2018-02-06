@@ -1,0 +1,103 @@
+{{ $dataFile := (index $.Site.Data.courses .Params.dataFileName)}}
+{{if gt (len $dataFile.episodes) 0}}
+<div class="course">
+  <div class="page-wrapper">
+    <section id="course-title">
+      <h1>{{ .Title }}</h1>
+      <h5 class="course-subtitle">{{ $dataFile.subtitle }}</h5>
+    </section>
+    <div class="vimeo-container">
+        {{ $.Scratch.Set "video_data" (index $dataFile.episodes 0) }}
+        <iframe src="//player.vimeo.com/video/{{ (index $dataFile.episodes 0).vimeoId }}" allowfullscreen></iframe>
+    </div>
+    {{ end }}
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ $.Scratch.Add "path" .Site.BaseURL }}
+    <div id="breadcrumbs">
+      <ul>
+        {{ range $index, $element := split $url "/" }}
+          {{ $.Scratch.Add "path" $element }}
+            {{ if ne $element "" }}
+            <li><a href='{{ $.Scratch.Get "path" }}/'>{{ . }}</a></li>
+            {{ $.Scratch.Add "path" "/" }}
+            {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+    <section id="overview">
+      <h2 id="episode-overview-header">Overview</h2>
+      <p id="episode-description">{{ $.Param "description" }}</p>
+    </section>
+    <section id="course-details">
+      <h3>Recorded: <span class="lite-font">{{ dateFormat "January 2006" $dataFile.productionStart }}</span></h3>
+      {{ $hours := split ( (div $dataFile.length 3600) ) "." }}
+      {{ $intHours := int (index $hours 0) }}
+      {{ $minutes := split ( (div (sub $dataFile.length (mul $intHours 3600)) 60) ) "." }}
+      <h3>Duration: <span class="lite-font">{{ index $hours 0 }} hours, {{ (index $minutes 0 ) }} minutes</span></h3>
+    </section>
+    <section class="sign-up">
+      <a href="https://officepro.tv/plans/">
+        <button id="start-learning-btn" class="sign-up-btn">Start Learning Today</button>
+      </a>
+    </section>
+    {{if gt (len $dataFile.episodes) 0}}
+    <section id="episodes">
+      <h2 id="episode-list-header">Episode List</h2>
+      {{ if gt (len $dataFile.topics) 0 }}
+       {{ range $dataFile.topics }}
+        <h3 id="topic-title-{{ .order }}">{{ .title }}</h3>
+        {{ $topicId := .id }}
+        <ul class="clean-list clearfix">
+          {{ range $dataFile.episodes }}
+            {{ if eq .topic $topicId}}
+            <li onclick="openModal()" class="episode">
+              <h3 class="episode-title">{{ .title }}</h3>
+              <p class="episode-course-title">{{$.Title}}</p>
+              {{ $minutes := split ( (div .length 60) ) "." }}
+              {{ $intMinutes := int (index $minutes 0) }}
+              {{ $seconds := split ( (sub .length (mul $intMinutes 60) )) "." }}
+              <div class="episode-details">
+                <!-- <p class="hosts">Host 1 and Host 2</p> -->
+                <p class="episode-length">{{ index $minutes 0 }} minutes, {{ (index $seconds 0 ) }} seconds</p>
+              </div>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+        {{ end }}
+      {{ end }}
+    </section>
+    <div id="ctaModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Get access today</h2>
+        <p>Start this course today with a free trial of {{ .Site.Params.brand }}.</p>
+        <a id="episodeCta" class="sign-up-btn inline-block" href="https://officepro.tv/plans/">
+          Start a trial
+        </a>
+      </div>
+    </div>
+    <span class="clearfix"></span>
+    <div class="above-footer">
+    </div>
+  </div>
+</div>
+<script>
+  var modal = document.getElementById('ctaModal');
+  var close = document.getElementsByClassName('close')[0];
+
+  function openModal() {
+    modal.style.display = "block";
+  }
+
+  close.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+{{ end }}

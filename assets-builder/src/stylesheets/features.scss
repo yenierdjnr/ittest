@@ -1,0 +1,433 @@
+@import "../variables";
+@import "../shared";
+@import "../partials/navigation/main";
+@import "../partials/navigation/footer";
+.features {
+  // mobile
+  > :not(.triangle-down) {
+    @extend .px-min;
+  }
+  .triangle-left {
+    display: none;
+  }
+  #course-images {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  section {
+    h2 {
+      @extend .xcenter-text;
+      @extend .page-header-xs;
+    }
+  }
+
+  #features-header {
+    #description {
+      p {
+        text-align: left;
+      }
+    }
+    padding-top: 1rem;
+    @extend .blue-section;
+    h1, h3 {
+      @extend .xcenter-text;
+      @extend .page-header-xs;
+    }
+    #course-images {
+      margin-bottom: 1rem;
+      h3 {
+        margin-top: 2rem;
+        color: $white;
+        text-align: center;
+      }
+      figure {
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        margin: 0 0 1rem;
+        text-align: center;
+        img {
+            display: inline-block;
+            width: 90%;
+            height: auto;
+        }
+        figcaption {
+          display: inline-block;
+          vertical-align: top;
+          background: rgba(255, 255, 255, .07);
+          border-radius: 0 3px 3px 0;
+          box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+          -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+          -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+          width: 90%;
+          height: 110px;
+          box-sizing: border-box;
+          text-align: left;
+          padding: 8px;
+          h6 {
+            margin: 0;
+            padding-bottom: .45rem;
+            font-size: 1.1rem;
+            color: $white;
+          }
+          p {
+            color: $white;
+            margin: 0;
+            line-height: 1.1;
+            font-size: 0.8rem;
+          }
+        }
+      }
+      figure:hover, figure:active {
+        transform: scale(.97);
+      }
+    }
+    .btn-container {
+      text-align: center;
+      width: 244px;
+      margin: 40px auto 0 auto;
+      button {
+        z-index: 99;
+        position: relative;
+      }
+    }
+  }
+
+  .triangle-down {
+    margin-top: -2rem;
+    z-index: -1;
+    position: relative;
+  }
+
+  #educator-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    h2 {
+      @extend .blue-header;
+      margin-bottom: 0.313rem;
+    }
+    h5 {
+      margin: 0;
+      color: $light-blue;
+      @extend .xcenter-text;
+      font-size: 0.938rem;
+    }
+    #cta-text {
+      font-weight: 400;
+    }
+    #cta-text-link {
+      margin-top: 0.313rem;
+      text-decoration-color: $light-blue;
+    }
+    #educators-list {
+     list-style-type: none;
+     display: inline-block;
+     padding: 0;
+     li {
+        float: left;
+        width: 33%;
+      figure {
+        text-align: center;
+        margin: 0 0 1.250rem 0;
+      }
+      .educator-image {
+        @extend .mx-auto;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+      }
+     }
+    }
+  }
+
+  #powered-by-section {
+    h2 {
+      margin: 2rem auto 0;
+      color: $white;
+    }
+    @extend .blue-section;
+    text-align: center;
+    padding-bottom: 1.563rem;
+  }
+
+  #pre-footer-section {
+    p {
+      margin-top: 0;
+    }
+    h2 {
+      @extend .blue-header;
+      margin-bottom: 1rem;
+    }
+    .large-pre-footer-cta, #sign-up-lg {
+        display: none;
+    }
+    .pre-footer-cta {
+      text-align: center;
+      img {
+        width: 50%;
+      }
+    }
+    #pre-footer-description {
+      @extend .clearfix;
+    }
+    .pre-footer-content, .large-pre-footer-cta {
+      width: 100%;
+      @extend .column;
+    }
+  }
+
+  // small tablet
+  @media (min-width: $sm_bp) {
+    p {
+      max-width: 37.500rem;
+      margin: 0.938rem auto;
+    }
+
+    #features-header {
+      h1, h3 {
+        max-width: 31.250rem;
+        margin: 2rem auto;
+      }
+      .course-descriptions {
+        font-size: 16px;
+      }
+      h3 {
+        margin-top: 0;
+      }
+      #course-images {
+        max-width: 1055px;
+        figure {
+          margin: 0 0 2rem;
+          img {
+            max-width: 230px;
+          }
+          figcaption {
+            max-width: 320px;
+            height: 130px;
+            padding: 12px;
+            h6 {
+              font-size: 1rem;
+              padding-bottom: .75rem;
+            }
+            p {
+              font-size: .9rem;
+            }
+          }
+        }
+      }
+    }
+
+    #educator-section {
+      h5 {
+        font-size: 1.3rem;
+        margin: 0.625rem auto;
+        max-width: 25rem;
+      }
+      #educator-images {
+        max-width: 37.500rem;
+        margin: 0 auto;
+      }
+      #educators-list {
+        li {
+          width: 30%;
+          margin: 10px;
+          .educator-image {
+            width: 115px;
+            height: 110px;
+          }
+          figcaption {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    #powered-by-section {
+      h2 {
+        max-width: 29.2rem;
+      }
+    }
+
+    #pre-footer-section {
+      h2 {
+        max-width: 29.2rem;
+        margin: 1.563rem auto;
+      }
+      p {
+        margin: 0 auto 1.563rem auto;
+      }
+      #pre-footer-cta {
+        text-align: center;
+        margin-bottom: 3.125rem;
+        img {
+          width: 600px;
+          height: 308px;
+        }
+      }
+    }
+  }
+
+  // large tablet
+  @media (min-width: $md_bp) {
+    p {
+      max-width: $lg_cont;
+    }
+
+    #features-header {
+      h1 {
+        max-width: 44.375rem;
+      }
+      #course-images {
+        h3 {
+          text-align: center;
+        }
+        figure {
+          img {
+            max-width: 300px;
+            height: auto
+          }
+          figcaption {
+            width: 360px;
+            height: 169px;
+            p {
+              line-height: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+
+    #educator-section {
+      h5 {
+        max-width: 32.500rem;
+      }
+      h2 {
+        margin-top: 3.125rem;
+      }
+      #educator-images {
+        max-width: $lg_cont;
+        #educators-list {
+          text-align: center;
+          li {
+            display: inline-block;
+            width: 17%;
+          }
+        }
+      }
+    }
+
+    #powered-by-section {
+      h2 {
+        max-width: $lg_cont;
+      }
+    }
+
+    #pre-footer-cta {
+      img {
+        display: block;
+        margin: auto;
+      }
+      .large-pre-footer-cta {
+        display: none;
+      }
+    }
+  }
+
+  // desktop
+  @media (min-width: $lg_bp) {
+    .triangle-left {
+      display: unset;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+    #features-header {
+      .course-descriptions {
+        font-size: 11px;
+      }
+      h1 {
+        margin-top: 3.125rem;
+      }
+      #header-content-wrapper {
+        text-align: center;
+        margin-top: 3.125rem;
+      }
+      #main-description,
+      #course-images {
+        display: inline-block;
+        vertical-align: top;
+        margin: 2rem 1.5rem;
+      }
+      #main-description {
+        text-align: left;
+        p {
+          margin-top: 0;
+          max-width: 20rem;
+        }
+      }
+      #course-images {
+        h3 {
+          margin-top: 0;
+        }
+        figcaption {
+          h6 {
+            padding-bottom: .85rem;
+            font-size: 1.1rem;
+          }
+        }
+      }
+      .btn-container {
+        margin-top: 0px;
+      }
+    }
+
+    .triangle-down {
+      margin-top: -4rem;
+    }
+
+    #powered-by-section {
+      position: relative;
+      p {
+        max-width: 60rem;
+      }
+      h2 {
+        margin-top: 2rem;
+      }
+    }
+
+    #pre-footer-section {
+      #footer-wrapper {
+        margin: 6.250rem auto 1.25rem auto;
+        max-width: $lg_cont*1.1;
+        #pre-footer-description {
+          text-align: left;
+          max-width: 100%;
+          .pre-footer-content, .large-pre-footer-cta, #sign-up-lg {
+            display: block;
+          }
+          .pre-footer-content {
+            max-width: $lg_cont*0.5;
+          }
+          .large-pre-footer-cta {
+            max-width: $lg_cont*0.5;
+            img {
+              width: 100%;
+              margin-top: 5rem;
+              padding-left: 5rem;
+            }
+          }
+        }
+        .pre-footer-cta {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $xl_bp) {
+    .triangle-down {
+      margin-top: -10rem;
+    }
+  }
+}

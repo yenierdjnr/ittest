@@ -1,0 +1,428 @@
+@import "../variables";
+@import "../shared";
+@import "../partials/navigation/main";
+@import "../partials/navigation/footer";
+$max_content_width: 55rem;
+.home {
+  #welcome-section {
+    margin-top: -21px;
+    background-image: url('/assets/images/hero-xsmall-increased-size.jpg');
+    background-size: cover;
+    height: 100%;
+    color: $white;
+    text-align: center;
+    #h1Welcome {
+      width: 90%;
+      margin: 0 auto;
+      h1 {
+        padding-top: 12%;
+        font-size: 2.8em;
+        font-weight: 200;
+        -webkit-margin-after: .1em;
+      }
+    }
+    #pWelcomePrompt {
+      width: 90%;
+      margin: 1em auto;
+    }
+    #tryFreeHomepage {
+      margin-top: 2%;
+      margin-bottom: 10%;
+    }
+    .btn-hero {
+      font-size: 1.3rem;
+    }
+  }
+  #small-triangle-down {
+    display: none;
+    margin-top: -2%;
+  }
+  #triangle-down {
+    display: none;
+    margin-top: -3%;
+  }
+  #signup-section {
+    background-color: $blue;
+    color: $white;
+    text-align: center;
+    padding: 1.65em;
+    #pSignupSetup {
+      width: 90%;
+      margin: 1em auto;
+    }
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+  #product-preview {
+    @extend .responsive-container;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    a {
+      color: $light-blue;
+      text-decoration: underline;
+    }
+    .vimeo-container {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      padding-bottom: 56.25%;
+      z-index: 1;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .triangle-right {
+    display: none;
+  }
+  .triangle-left {
+    display: none;
+  }
+  .highlighted-cta {
+    @extend .blue-section;
+    padding-bottom: 1.563rem;
+    margin-top: 0;
+    position: relative;
+    h2 {
+      @extend .responsive-container;
+      color: $white;
+      padding-top: 25px;
+      margin: 3rem auto;
+    }
+    h2 a {
+      color: $white;
+    }
+    h2 {
+      &.h2-with-text {
+        margin: 2rem auto 0 auto;
+      }
+    }
+    p {
+      margin-bottom: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    @extend .blue-section;
+    text-align: center;
+    padding-bottom: 1.563rem;
+  }
+  #product-features {
+    @extend .responsive-container;
+    text-align: center;
+    margin-top: 10%;
+    .description {
+      margin-bottom: 5%;
+    }
+    .feature {
+      margin-bottom: 10%;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      .icon {
+        width: 25%;
+        margin: 0 auto;
+      }
+      .feature-details {
+        width: 70%;
+        height: 300px;
+        margin: -65px auto 0 auto;
+        padding-top: 70px;
+        border-radius: 3px;
+        -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.45);
+        -moz-box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.45);
+        box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.45);
+        h2 {
+          width: 65%;
+          margin: 1rem auto;
+        }
+        hr {
+          width: 80%;
+          border: 2px solid $light-blue;
+        }
+        p {
+          width: 80%;
+          margin: 1rem auto;
+        }
+      }
+    }
+    .feature:last-child .icon {
+      width: 35%;
+      margin: 0 auto;
+    }
+    .feature:hover, .feature:active {
+      transform: scale(.97);
+    }
+  }
+  #powered-by-section {
+    margin-bottom: 7%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+  #testimonials {
+    margin: 10% auto 0;
+    @extend .responsive-container;
+    padding: 0 5%;
+    blockquote:before {
+      content: open-quote;
+      color: #dedede;
+      font-family: Courier;
+      font-size: 6em;
+      line-height: 0.1em;
+      margin-right: 0.05em;
+    }
+    blockquote:first-child {
+      display: inline-block;
+    }
+    blockquote:last-child {
+      margin-bottom: 0;
+    }
+    blockquote {
+      margin: 1.5em 1em;
+      padding: 0.5em 1em;
+      quotes:"\201C""\201D";
+      .testimonial-container {
+        margin-left: 4rem;
+        margin-top: -3.4rem;
+        .testimonial {
+          display: inline;
+        }
+        .name {
+          margin-left: 2rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 670px) {
+    #product-features {
+      .feature {
+        .icon {
+          width: 20%
+        }
+        .feature-details {
+          height: 250px;
+          width: 55%;
+        }
+      }
+      .feature:last-child .icon {
+        width: 30%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  @media (min-width: $sm_bp) {
+    #welcome-section {
+      background-image: url('/assets/images/hero-small-increased-size.jpg');
+      padding-bottom: 3%;
+      h1 {
+        padding-top: 8%;
+      }
+    }
+    #small-triangle-down {
+      display: block;
+    }
+    #triangle-down {
+      display: none;
+    }
+    #signup-section {
+      margin-top: -25%;
+      background-color: rgba(255,255,255,.0);
+      margin-bottom: 10%;
+    }
+    #product-features {
+      .feature {
+        .feature-details {
+          width: 45%;
+        }
+      }
+    }
+    .highlighted-cta {
+      h2 {
+        margin: 2rem auto;
+      }
+    }
+    #testimonials {
+      margin: 10% auto 4%;
+    }
+  }
+
+  @media (min-width: $md_bp) {
+    #welcome-section {
+      background-image: url('/assets/images/hero-medium-increased-size.jpg');
+      #h1Welcome {
+        width: 73%;
+      }
+      #pWelcomePrompt {
+        width: 71%;
+      }
+    }
+    #small-triangle-down {
+      display: none;
+    }
+    #triangle-down {
+      display: block;
+      margin-top: 0%;
+    }
+    #signup-section {
+      margin-top: -20%;
+      margin-bottom: 5%;
+      #pSignupSetup {
+        width: 73%;
+      }
+    }
+    #product-preview {
+      margin-top: 10%;
+      margin-bottom: 7%;
+    }
+    #product-features {
+      margin: 5% 10% 0 10%;
+      .description {
+        margin-bottom: 7%;
+      }
+      .feature {
+        float: left;
+        width: 40%;
+        .icon {
+          width: 35%;
+          margin: 0 auto;
+        }
+        .feature-details {
+          width: 100%;
+          height: 300px;
+        }
+      }
+      .feature:nth-child(2n) {
+        margin-left: 20%;
+      }
+      .feature:last-child {
+        margin-left: 30%;
+      }
+      .feature:last-child .icon {
+        width: 58%;
+      }
+    }
+    #testimonials {
+      padding: 0 20%;
+    }
+  }
+
+  @media (min-width: $lg_bp) {
+    #welcome-section {
+      padding-bottom: 5%;
+      #h1Welcome {
+        width: 40%;
+        h1 {
+          padding-top: 18%;
+        }
+      }
+      #pWelcomePrompt {
+        width: 43%;
+      }
+    }
+    #signup-section {
+      margin-top: -19%;
+      #pSignupSetup {
+        width: 43%;
+      }
+    }
+    #product-preview {
+      width: 60%;
+    }
+    .triangle-right {
+      display: unset;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+    .triangle-left {
+      display: unset;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+    .highlighted-cta {
+      p {
+        padding-left: 15rem;
+        padding-right: 15rem;
+      }
+    }
+    #product-features {
+      margin: 5% auto;
+      .feature {
+        float: left;
+        width: 30%;
+        .feature-details {
+          h2 {
+            width: 45%;
+          }
+          hr {
+            width: 75%
+          }
+          p {
+            width: 60%;
+          }
+        }
+      }
+      .feature:nth-child(2n) {
+        margin-left: 5%;
+      }
+      .feature:last-child {
+        margin-left: 5%;
+      }
+    }
+    #testimonials {
+      margin: 7% auto 0;
+      padding: 0 25%;
+    }
+  }
+
+  @media (min-width: 1635px) {
+    #signup-section {
+      margin-top: -16%;
+    }
+  }
+
+  @media (min-width: $xl_bp) {
+    #welcome-section {
+      background-image: url('/assets/images/hero-xlarge-increased-size.jpg');
+      #h1Welcome {
+        width: 40%;
+      }
+      #pWelcomePrompt {
+        width: 38%;
+      }
+    }
+    #product-preview {
+      margin-top: 10%;
+      width: 50%;
+    }
+    #signup-section {
+      margin-top: -15%;
+      #pSignupSetup {
+        width: 38%;
+        margin: 1.8em auto;
+      }
+    }
+    #testimonials {
+      padding: 0 30%;
+    }
+  }
+
+}

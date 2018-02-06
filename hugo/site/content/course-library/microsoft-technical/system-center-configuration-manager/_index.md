@@ -1,0 +1,6 @@
+{
+	"title": "System Center 2012 Configuration Manager - 70-243",
+	"description": "A member of the Microsoft System Center suite of management solutions, System Center 2012 R2 Configuration Manager increases IT productivity and efficiency by reducing manual tasks and letting you focus on high-value projects, maximize hardware and software investments, and empower end-user productivity by providing the right software at the right time. Configuration Manager helps you deliver more effective IT services by enabling secure and scalable software deployment, compliance settings management, and comprehensive asset management of servers, desktops, laptops, and mobile devices. In addition, Configuration Manager can integrate with Windows Server Update Services (WSUS), Network Access Protection (NAP), Certificate Services, Exchange Server and Exchange Online, Group Policy, the DNS Server role, Windows Automated Installation Kit (Windows AIK) and the User State Migration Tool (USMT), Windows Deployment Services (WDS), and Remote Desktop and Remote Assistance.",
+	"dataFileName": "systemCenterConfigurationManager",
+	"layout": "course"
+}

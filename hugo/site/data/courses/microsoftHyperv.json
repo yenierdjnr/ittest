@@ -1,0 +1,60 @@
+{
+	"id": "54c2920ae10805157000002b",
+	"name": "Microsoft Hyper-V",
+	"subtitle": "Microsoft Virtualization",
+	"description": "Hyper-V is the advanced virtualization platform created by Microsoft. It is a fully featured Type 1 hypervisor capable of supporting environments ranging from small businesses with a single server to massive datacenters containing thousands of servers. This skills series covers installing, managing and maintaining Hyper-V. ",
+	"descriptionMD": "",
+	"length": 11162,
+	"hidden": false,
+	"url": "microsoft-hyperv",
+	"productionStart": "0001-01-01T00:00:00Z",
+	"productionEnd": "2014-06-06T04:00:00Z",
+	"episodes": [
+		{
+			"title": "Intro to Hyper-V",
+			"topic": "54c2920be10805157000062c",
+			"description": "",
+			"vimeoId": "97543970",
+			"length": 3943,
+			"hidden": false,
+			"url": "intro-hyperv",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/001-Installing-Hyper-V.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/001-Installing-Hyper-V-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/001-Installing-Hyper-V-med.jpg"
+		},
+		{
+			"title": "Creating Virtual Machines",
+			"topic": "54c2920be10805157000062c",
+			"description": "",
+			"vimeoId": "97543969",
+			"length": 4556,
+			"hidden": false,
+			"url": "creating-virtual-machines-4",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/002-Creating-Virtual-Machines.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/002-Creating-Virtual-Machines-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/002-Creating-Virtual-Machines-med.jpg"
+		},
+		{
+			"title": "Maintaining Hyper-V",
+			"topic": "54c2920be10805157000062c",
+			"description": "",
+			"vimeoId": "97543967",
+			"length": 2663,
+			"hidden": false,
+			"url": "maintaining-hyperv",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/003-Maintaining-Hyper-V.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/003-Maintaining-Hyper-V-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/hyperv/003-Maintaining-Hyper-V-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Configure Hyper-V",
+			"id": "54c2920be10805157000062c",
+			"order": 1
+		}
+	]
+}

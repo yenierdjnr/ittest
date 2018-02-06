@@ -1,0 +1,151 @@
+{
+	"id": "58ada8a0b2328f0b009ed5fd",
+	"name": "Wireshark 2.2.4",
+	"subtitle": "Network protocol analyzer",
+	"description": "Wireshark 2.2.4  is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer.  I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network.  It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems.  It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it.  This show helps the network professional get started with Wireshark!",
+	"descriptionMD": "Wireshark 2.2.4  is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer.  I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network.  It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems.  It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it.  This show helps the network professional get started with Wireshark!",
+	"length": 14206,
+	"hidden": false,
+	"url": "wireshark2",
+	"productionStart": "2017-02-22T05:00:00Z",
+	"productionEnd": "2017-02-25T00:00:00Z",
+	"episodes": [
+		{
+			"title": "Overview",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Wireshark 2.2.4 is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer. I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network. It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems. It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it. This show helps the network professional get started with Wireshark!",
+			"vimeoId": "214167143",
+			"length": 281,
+			"hidden": false,
+			"url": "overview-wireshark",
+			"order": 0,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001-med.jpg"
+		},
+		{
+			"title": "What is Wireshark",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "In this episode Ronnie and Cherokee introduce the protocol analyzing tool  Wireshark. Ronnie explains the differences between the terms packet capture, packet analyzer and protocol analyzer. You will also lean a brief history and description in addition to system requirements.",
+			"vimeoId": "205892612",
+			"length": 1610,
+			"hidden": false,
+			"url": "wireshark2",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001-med.jpg"
+		},
+		{
+			"title": "Install Wireshark",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "In this show Ronnie and Cherokee explain how to install Wireshark on different platforms. First, Ronnie walks through a Windows install followed by Mac OS X and Linux installations.",
+			"vimeoId": "205893039",
+			"length": 1656,
+			"hidden": false,
+			"url": "install-wireshark",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001-med.jpg"
+		},
+		{
+			"title": "Perform Data Capture",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Watch Cherokee and Ronnie cover different options to configure a custom capture. Wireshark offers several features such as abilities to generate predetermined file sizes, limit the number of packets captured and specify file extensions to name a few.",
+			"vimeoId": "205893318",
+			"length": 1815,
+			"hidden": false,
+			"url": "perform-data-capture",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001-med.jpg"
+		},
+		{
+			"title": "Use Wireshark Interface",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Navigating the Wireshark interface may be a little intimidating but Ronnie and Cherokee lessen that sting and demonstrate several settings to ease your experience. First, Ronnie breaks down the basic layout of the default profile then proceeds to demonstrate how to create custom profiles.",
+			"vimeoId": "205893628",
+			"length": 1692,
+			"hidden": false,
+			"url": "wireshark-interface",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001-med.jpg"
+		},
+		{
+			"title": "Use Filters",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Packet capturing can be overwhelming. Ronnie and Cherokee explain how to find the proverbial needle in the haystack. Ronnie explains and demonstrates the differences of capture versus display filters.",
+			"vimeoId": "205893963",
+			"length": 1759,
+			"hidden": false,
+			"url": "filters",
+			"order": 5,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001-med.jpg"
+		},
+		{
+			"title": "Capture Unicast Data",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Knowing where to logically place your sniffing tool depends on what type of data you are trying to collect or what type of problem you are trying. Ronnie explains methods such  to capture individual conversations or unicast transmissions.",
+			"vimeoId": "205894273",
+			"length": 1547,
+			"hidden": false,
+			"url": "capture-unicast-data",
+			"order": 6,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001-med.jpg"
+		},
+		{
+			"title": "Use Advanced Features",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "After exploring several features Cherokee and Ronnie take you further down the rabbit hole. By examining the TCP of a captured packet one may visually see the conversation happening. First, you will analyze Telnet packets followed by the secure alternative of SSH communications.",
+			"vimeoId": "206073884",
+			"length": 1624,
+			"hidden": false,
+			"url": "advanced-features",
+			"order": 7,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001-med.jpg"
+		},
+		{
+			"title": "Use Advanced Features Part 2",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "This is a continuation where Cherokee and Ronnie examine expert information to help narrow the scope of search results. Define these specific searches with parameters such as checksums, sequence info, response codes, request codes, undecoded packets, reassembled packets, malformed packets, protocol types and debug options.",
+			"vimeoId": "206074506",
+			"length": 1038,
+			"hidden": false,
+			"url": "advanced-features2",
+			"order": 8,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001-med.jpg"
+		},
+		{
+			"title": "Use Stats and Reporting",
+			"topic": "58b03217fe7cbf0b0070fddc",
+			"description": "Ronnie and Cherokee look at ways to help understand output. Ronnie explains and demonstrates how General statistics provide granular information in text or graphical representation.",
+			"vimeoId": "206250947",
+			"length": 1184,
+			"hidden": false,
+			"url": "statsreporting",
+			"order": 9,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Wireshark 2.2.4",
+			"id": "58b03217fe7cbf0b0070fddc",
+			"order": 1
+		}
+	]
+}

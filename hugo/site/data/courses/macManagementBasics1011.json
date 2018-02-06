@@ -1,0 +1,202 @@
+{
+	"id": "56e080b3e1d6350700b174b5",
+	"name": "Mac Management Basics 10.11",
+	"subtitle": "El Capitan 10.11",
+	"description": "Mac Management Basics is the first step in the Apple IT Pro certification path. Viewers who complete this exam will be awarded the Apple Certified Associate certification. The exam covers topics related to managing Macintosh networks and focuses on topics like deploying OS X, deploying software application, controlling machines with polices, and keeping systems up to date. It is an excellent starting point for anyone tasked with managing multiple Macintosh PCs.",
+	"descriptionMD": "",
+	"length": 21701,
+	"hidden": false,
+	"url": "mac-management-basics-1011",
+	"productionStart": "2016-03-07T05:00:00Z",
+	"productionEnd": "2016-03-15T04:00:00Z",
+	"episodes": [
+		{
+			"title": "Overview",
+			"topic": "56e08420e1d6350700b174ba",
+			"description": "Mac Management Basics is the first step in the Apple IT Pro certification path. Viewers who complete this exam will be awarded the Apple Certified Associate certification. The exam covers topics related to managing Macintosh networks and focuses on topics like deploying OS X, deploying software application, controlling machines with polices, and keeping systems up to date. It is an excellent starting point for anyone tasked with managing multiple Macintosh PCs.",
+			"vimeoId": "159118525",
+			"length": 395,
+			"hidden": false,
+			"url": "overview70718",
+			"order": 0,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-0-0-overview-031416-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-0-0-overview-031416-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-0-0-overview-031416-1-med.jpg"
+		},
+		{
+			"title": "Installation Images",
+			"topic": "56e08420e1d6350700b174ba",
+			"description": "In this episode Wes and Don introduce the image types that can be used to provision OS X El Capitan to machines. They explore system images like NetBoot, NetInstall, NetRestore and disk images like \"dmg\" files and the scenarios in which an administrator might use the different images as well as the utilities used to work with these image file types.",
+			"vimeoId": "158381197",
+			"length": 1785,
+			"hidden": false,
+			"url": "installation-images",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-1-installation_images-030816-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-1-installation_images-030816-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-1-installation_images-030816-1-med.jpg"
+		},
+		{
+			"title": "Building NetInstall Images",
+			"topic": "56e08420e1d6350700b174ba",
+			"description": "In this episode Wes and Don look at installation images. They talk about NetInstall and using the System Image utility. They will also dicuss how to customize setting using the Automater. They demonstrate the OS X utilities Disk Utility and System Image Utility.",
+			"vimeoId": "158381219",
+			"length": 2277,
+			"hidden": false,
+			"url": "building-netinstall-images",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-2-building_netinstall_images-030816-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-2-building_netinstall_images-030816-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-2-building_netinstall_images-030816-1-med.jpg"
+		},
+		{
+			"title": "Building NetRestore Images",
+			"topic": "56e08420e1d6350700b174ba",
+			"description": "In this episode Wes and Don explore building images with NetRestore. They demonstrate using a source computer running OS X El Capitan to create the NetRestore image as well as booting the source computer into Target mode to create the NetRestore image.",
+			"vimeoId": "159048182",
+			"length": 1806,
+			"hidden": false,
+			"url": "building-netrestore-images",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-3-building_netrestore_images-030916-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-3-building_netrestore_images-030916-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-1-3-building_netrestore_images-030916-1-med.jpg"
+		},
+		{
+			"title": "Deploying via USB",
+			"topic": "56e08429dcf79e07007b1815",
+			"description": "In this episode Wes and Don talk about how to deploy images to computers using removable media, specifically USB thumb drives. They also discuss the pro's and con's of using removable media to deploy and provision machine inside of a network.",
+			"vimeoId": "159224856",
+			"length": 1868,
+			"hidden": false,
+			"url": "deploying-via-usb",
+			"order": 20,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-1-deploying_via_usb-030916-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-1-deploying_via_usb-030916-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-1-deploying_via_usb-030916-1-med.jpg"
+		},
+		{
+			"title": "Deploying via Network",
+			"topic": "56e08429dcf79e07007b1815",
+			"description": "In this episode Wes and Don dive into deployment of OS X El Capitan images to machines over the network. They will demonstrate how to setup and build the NetInstall server that will be used to deploy the operating systems to the devices inisde of the local area network as well as connecting the client machine to the server to obtain the EL Capitan OS image.",
+			"vimeoId": "159048189",
+			"length": 1969,
+			"hidden": false,
+			"url": "deploying-via-network",
+			"order": 21,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-2-deploying_via_network-031016-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-2-deploying_via_network-031016-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-2-2-deploying_via_network-031016-1-med.jpg"
+		},
+		{
+			"title": "Apple Remote Desktop",
+			"topic": "56e08433e1d6350700b174bc",
+			"description": "In this episode Wes and Don introduce Apple Remote Desktop (ARD). They look at using ARD to install software, updating software, reporting, automating tasks and reporting.",
+			"vimeoId": "159048206",
+			"length": 2257,
+			"hidden": false,
+			"url": "apple-remote-desktop",
+			"order": 30,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-3-1-apple_remote_desktop-031016-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-3-1-apple_remote_desktop-031016-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-3-1-apple_remote_desktop-031016-1-med.jpg"
+		},
+		{
+			"title": "Open Directory",
+			"topic": "56e0843dd8d0fc0700beecb5",
+			"description": "In this episode Wes and Don take a look at policy-based management through Apple's One Directory. They talk about the benefits to using a directory such as Open Directory such as centralized user database management, centralized user account and password management. They explain the differences between and Open Directory Master server versus and Open Directory Replica server.",
+			"vimeoId": "159200868",
+			"length": 1481,
+			"hidden": false,
+			"url": "directory2",
+			"order": 40,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-1-open_directory-031416-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-1-open_directory-031416-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-1-open_directory-031416-1-med.jpg"
+		},
+		{
+			"title": "Profile Manager",
+			"topic": "56e0843dd8d0fc0700beecb5",
+			"description": "In this episode Wes and Don take a look at configuring and controlling setting to Apple devices through a powerful utility known as Profile Manager. They discuss the what is required to install and use the Profile Manager. They talk about the main components in Profile Manager like the Self-Service User Portal, Mobile Device Management (MDM) and the Web-based Administration Tool. They explore how the policies can be distributed through email, MDM or even user download.",
+			"vimeoId": "159200849",
+			"length": 1939,
+			"hidden": false,
+			"url": "profile-manager2",
+			"order": 41,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-1-profile_manager-031416-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-1-profile_manager-031416-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-1-profile_manager-031416-1-med.jpg"
+		},
+		{
+			"title": "Profile Manager Part 2",
+			"topic": "56e0843dd8d0fc0700beecb5",
+			"description": "In this episode Wes and Don continue their discussion on the Profile Manager. They will demonstrate how to setup and configure users and groups. They walk through the process of creating a configuration profile as well as confirming that the profile is applied appropriately to the device. They also explain how to perform a removal of a device that is managed with a configuration profile.",
+			"vimeoId": "159117358",
+			"length": 2054,
+			"hidden": false,
+			"url": "profile-manager",
+			"order": 42,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-2-profile_manager_pt2-031416-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-2-profile_manager_pt2-031416-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-4-2-2-profile_manager_pt2-031416-1-med.jpg"
+		},
+		{
+			"title": "Managing Updates",
+			"topic": "56e0844891c79007008ed507",
+			"description": "In this episode Wes and Don take a look at how to manage updates for not single machine but for hundreds or thousands of client machines through Apple's Software Update. They discuss Apple's recommended three phase best practice to deploying updates to clients. They demonstrate how to set up the Software Update server as well as configuring the client to recieve updates.",
+			"vimeoId": "159048222",
+			"length": 2113,
+			"hidden": false,
+			"url": "managing-updates",
+			"order": 50,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-1-managing_updates-031116-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-1-managing_updates-031116-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-1-managing_updates-031116-1-med.jpg"
+		},
+		{
+			"title": "Caching Downloads",
+			"topic": "56e08453dcf79e07007b1817",
+			"description": "In this episode Wes and Don explore Caching Software Downloads. They will demonstrate how bring a Caching server online and discuss the types of content that can be cached like Apple Software Updates, iOS App Store Software, Mac App Store Software and iBooks Software. They will talk about how to verify the Caching server is setup and ready through inspecting the logs files and Data store for the Caching server.",
+			"vimeoId": "159224806",
+			"length": 1757,
+			"hidden": false,
+			"url": "caching-downloads",
+			"order": 51,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-2-caching_downloads-031416-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-2-caching_downloads-031416-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-mmb1011/apple-mmb1011-5-2-caching_downloads-031416-1-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "Creating System Images",
+			"id": "56e08420e1d6350700b174ba",
+			"order": 1
+		},
+		{
+			"title": "Deploying Images",
+			"id": "56e08429dcf79e07007b1815",
+			"order": 2
+		},
+		{
+			"title": "Managing Mac Computers with Apple Remote Desktop",
+			"id": "56e08433e1d6350700b174bc",
+			"order": 3
+		},
+		{
+			"title": "Managing OS X Devices with Profile Manager",
+			"id": "56e0843dd8d0fc0700beecb5",
+			"order": 4
+		},
+		{
+			"title": "Managing Software Updates",
+			"id": "56e0844891c79007008ed507",
+			"order": 5
+		},
+		{
+			"title": "Caching Software Downloads",
+			"id": "56e08453dcf79e07007b1817",
+			"order": 6
+		}
+	]
+}

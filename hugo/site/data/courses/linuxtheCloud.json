@@ -1,0 +1,205 @@
+{
+	"id": "59a03b8693c3030b00cb42a5",
+	"name": "Linux in the Cloud",
+	"subtitle": "Configuring Linux in a cloud environment",
+	"description": "The Linux in the Cloud series focuses on implementing the Linux operating system in a virtualized environment. Companies are relying less and less on dedicated hardware and are instead turning to shared hardware to optimize resource utilization and increase deployment flexibility. The hosts demonstrate virtualizing Linux using technologies like KVM and Docker as well as public cloud deployments using Amazon EC2 and Microsoft Azure.",
+	"descriptionMD": "The *Linux in the Cloud series* focuses on implementing the Linux operating system in a virtualized environment. Companies are relying less and less on dedicated hardware and are instead turning to shared hardware to optimize resource utilization and increase deployment flexibility. The hosts demonstrate virtualizing Linux using technologies like KVM and Docker as well as public cloud deployments using Amazon EC2 and Microsoft Azure.",
+	"length": 19139,
+	"hidden": false,
+	"url": "linuxthe-cloud",
+	"productionStart": "2017-08-25T04:00:00Z",
+	"productionEnd": "2017-08-30T04:00:00Z",
+	"episodes": [
+		{
+			"title": "Overview",
+			"topic": "59a03bcd93c3030b00cb42aa",
+			"description": "The Linux in the Cloud series focuses on implementing the Linux operating system in a virtualized environment. Companies are relying less and less on dedicated hardware and are instead turning to shared hardware to optimize resource utilization and increase deployment flexibility. The hosts demonstrate virtualizing Linux using technologies like KVM and Docker as well as public cloud deployments using Amazon EC2 and Microsoft Azure.",
+			"vimeoId": "231746395",
+			"length": 210,
+			"hidden": false,
+			"url": "overview-linux-cloud",
+			"order": 0,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-0-0-overview-082917-PGM.00_05_17_09.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-0-0-overview-082917-PGM.00_05_17_09.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-0-0-overview-082917-PGM.00_05_17_09.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a KVM Host",
+			"topic": "59a03bcd93c3030b00cb42aa",
+			"description": "Don and Zach cover what is a KVM, how to know if your system supports KVM, how to find out if you have VMX or SVM, how to install KVM, rebooting after install, how we mange the server, and configuring KVM.",
+			"vimeoId": "230939285",
+			"length": 1844,
+			"hidden": false,
+			"url": "linuxa-kvm-host",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-1-linux_as_a_kvm_host-082317-PGM.00_30_27_24.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-1-linux_as_a_kvm_host-082317-PGM.00_30_27_24.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-1-linux_as_a_kvm_host-082317-PGM.00_30_27_24.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a KVM Host Part 2",
+			"topic": "59a03bcd93c3030b00cb42aa",
+			"description": "Don and Zach discuss storage issues \u0026 if storage needs to be configured, KVM Storage Pools, default storage pool, Custom Storage Pools, basic setup of the server, and starting to create virtual machines.",
+			"vimeoId": "230939085",
+			"length": 917,
+			"hidden": false,
+			"url": "linuxa-kvm-host2",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-2-linux_as_a_kvm_host_pt_2-082317-PGM.00_15_01_16.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-2-linux_as_a_kvm_host_pt_2-082317-PGM.00_15_01_16.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-1-2-linux_as_a_kvm_host_pt_2-082317-PGM.00_15_01_16.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a KVM Guest",
+			"topic": "59a03bcd93c3030b00cb42aa",
+			"description": "Don and Zach discuss what a KVM Guest is, what information we need before we create a VM, installation media, how KVM handles installation media, creating a VM, other VM options to configure, and beginning to install the Guest.",
+			"vimeoId": "231080043",
+			"length": 1877,
+			"hidden": false,
+			"url": "linuxa-kvm-guest",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-2-linux_as_a_kvm_guest-082417-PGM.00_31_01_18.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-2-linux_as_a_kvm_guest-082417-PGM.00_31_01_18.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-1-2-linux_as_a_kvm_guest-082417-PGM.00_31_01_18.Still001-med.jpg"
+		},
+		{
+			"title": "Creating an EC2 Instance",
+			"topic": "59a03bda93c3030b00cb42ac",
+			"description": "Don and Zach cover what EC2, what we need to know before we spin up our first instance, where we get the operating system for the instance, Amazon Machine Images (AMI), and how we launch the instance.",
+			"vimeoId": "231079767",
+			"length": 2105,
+			"hidden": false,
+			"url": "creatingec2-instance",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-1-creating_an_ec2_instance-082417-PGM.00_34_48_12.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-1-creating_an_ec2_instance-082417-PGM.00_34_48_12.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-1-creating_an_ec2_instance-082417-PGM.00_34_48_12.Still001-med.jpg"
+		},
+		{
+			"title": "Creating an EC2 Instance Part 2",
+			"topic": "59a03bda93c3030b00cb42ac",
+			"description": "Don and Zach discuss if the installation is the same for different operating systems, adding additional user accounts, Amazon automatically updates and maintains servers only, not our OS, and other recommended maintenance of our servers.",
+			"vimeoId": "231079480",
+			"length": 1329,
+			"hidden": false,
+			"url": "creatingec2-instance2",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-2-creating_an_ec2_instance_pt_2-082417-PGM.00_21_53_05.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-2-creating_an_ec2_instance_pt_2-082417-PGM.00_21_53_05.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-1-2-creating_an_ec2_instance_pt_2-082417-PGM.00_21_53_05.Still001-med.jpg"
+		},
+		{
+			"title": "Configuring an EC2 Instance",
+			"topic": "59a03bda93c3030b00cb42ac",
+			"description": "Don and Zach cover one of the first things you configure on an instance, if are there any security options to worry about, security groups, and what we do if we don't want to expose the instance to the internet.",
+			"vimeoId": "231396468",
+			"length": 1740,
+			"hidden": false,
+			"url": "configuringec2-instance",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-2-configuring_an_ec2_instance-082517-PGM.00_28_43_16.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-2-configuring_an_ec2_instance-082517-PGM.00_28_43_16.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-2-2-configuring_an_ec2_instance-082517-PGM.00_28_43_16.Still001-med.jpg"
+		},
+		{
+			"title": "Creating an Azure VM",
+			"topic": "59a03be593c3030b00cb42af",
+			"description": "Don an Zach discuss what Microsoft Azure is, what we need to know before we spin up our first Instance, Instance types, Linux VM pricing, where we get the operating system for the Instance, and deploying system image.",
+			"vimeoId": "231748623",
+			"length": 1543,
+			"hidden": false,
+			"url": "creatingazure-vm",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-1-creating_an_azure_vm-082917.00_25_29_29.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-1-creating_an_azure_vm-082917.00_25_29_29.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-1-creating_an_azure_vm-082917.00_25_29_29.Still001-med.jpg"
+		},
+		{
+			"title": "Creating an Azure VM Part 2",
+			"topic": "59a03be593c3030b00cb42af",
+			"description": "Don and Zach continue to create an Azure VM, what we need to do before launching the Instance, launching the Instance, logging into the Instance, initial access, and certificate or password.",
+			"vimeoId": "231746518",
+			"length": 1211,
+			"hidden": false,
+			"url": "creatingazure-vm2",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-2-creating_an_azure_vm_pt_2-082917-PGM.00_21_29_04.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-2-creating_an_azure_vm_pt_2-082917-PGM.00_21_29_04.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-1-2-creating_an_azure_vm_pt_2-082917-PGM.00_21_29_04.Still001-med.jpg"
+		},
+		{
+			"title": "Configuring an Azure VM",
+			"topic": "59a03be593c3030b00cb42af",
+			"description": "Don and Zach cover one of the first things to customize on an Azure VM, how people can access our VM, if Azure has a solution to protect our VM's, creating a vault, defining a policy, and choosing Enable Backups.",
+			"vimeoId": "231747110",
+			"length": 1335,
+			"hidden": false,
+			"url": "configuringazure-vm",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-2-configuring_an_azure_vm-082917-PGM.00_23_26_17.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-2-configuring_an_azure_vm-082917-PGM.00_23_26_17.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-3-2-configuring_an_azure_vm-082917-PGM.00_23_26_17.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a Docker Host",
+			"topic": "59a03bf193c3030b00cb42b2",
+			"description": "Don and Zach talk about what is 'Docker,' what we need to get Docker installed, the need to modify the configuration, creating containers, making the containers accessible locally \u0026 on the network, security settings, and name mapping in Docker.",
+			"vimeoId": "231747899",
+			"length": 2097,
+			"hidden": false,
+			"url": "linuxa-docker-host",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-1-linux_as_a_docker_host-082917-PGM.00_34_40_22.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-1-linux_as_a_docker_host-082917-PGM.00_34_40_22.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-1-linux_as_a_docker_host-082917-PGM.00_34_40_22.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a Docker Container",
+			"topic": "59a03bf193c3030b00cb42b2",
+			"description": "Don and Zach cover how we get started creating a container, using images to create build a container, running commands inside a container, and what happens when a container exits.",
+			"vimeoId": "231878479",
+			"length": 1741,
+			"hidden": false,
+			"url": "linuxa-docker-container",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-1-linux_as_a_docker_container-083017-PGM.00_28_45_28.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-1-linux_as_a_docker_container-083017-PGM.00_28_45_28.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-1-linux_as_a_docker_container-083017-PGM.00_28_45_28.Still001-med.jpg"
+		},
+		{
+			"title": "Linux as a Docker Container Part 2",
+			"topic": "59a03bf193c3030b00cb42b2",
+			"description": "Don and Zach continue looking at linux as a Docker container, saving changes, running a container in the background, if we normally run the containers interactively, how to clean up the containers we no longer need, stopping a container, and deleting a container.",
+			"vimeoId": "231879020",
+			"length": 1190,
+			"hidden": false,
+			"url": "linuxa-docker-container2",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-2-linux_as_a_docker_container_pt_2-083017-PGM.00_23_34_21.Still001.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-2-linux_as_a_docker_container_pt_2-083017-PGM.00_23_34_21.Still001-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxinthecloud/techskills-linuxinthecloud-4-2-2-linux_as_a_docker_container_pt_2-083017-PGM.00_23_34_21.Still001-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "KVM Virtual Machines",
+			"id": "59a03bcd93c3030b00cb42aa",
+			"order": 1
+		},
+		{
+			"title": "Amazon AWS EC2 Instances",
+			"id": "59a03bda93c3030b00cb42ac",
+			"order": 2
+		},
+		{
+			"title": "Microsoft Azure Compute",
+			"id": "59a03be593c3030b00cb42af",
+			"order": 3
+		},
+		{
+			"title": "Docker Containers",
+			"id": "59a03bf193c3030b00cb42b2",
+			"order": 4
+		}
+	]
+}

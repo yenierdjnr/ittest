@@ -1,0 +1,360 @@
+{
+	"id": "54c2920ae108051570000015",
+	"name": "Certified Support Professional 10.10",
+	"subtitle": "OS X Support Essentials 10.10",
+	"description": "Those looking to complete the Apple Certified Support Professional (ACSP) certification will find in this course an overview of the process involved in achieving the certification and details about the exam required to pass in order to receive the certification. The certification is designed for technicians working in business environments supporting Apple computers and confirms one understands OS X's core functionality. Viewers will learn in this course tactics like basic installation and configuration of OS X Yosemite, managing user accounts, file systems used by Mac OS, enforcing policy across a network, data management, applications and processes, network configurations, and system management and security.",
+	"descriptionMD": "",
+	"length": 78188,
+	"hidden": false,
+	"url": "certified-support-professional",
+	"productionStart": "0001-01-01T00:00:00Z",
+	"productionEnd": "2015-02-28T05:00:00Z",
+	"episodes": [
+		{
+			"title": "ACSP 10.10 Overview",
+			"topic": "54c2920be1080515700006b8",
+			"description": "The ACSP certification is for businesses when they deploy Macs for the use of basic installation, security, policy enforcement and for the purpose of getting Macs to interact with non-Apple operating systems. Viewers will hear an overview about the knowledge one needs to attain the ACSP certification, about the OS X Support Essentials Exam and the exam objectives of topics one should know for the exam.",
+			"vimeoId": "117268568",
+			"length": 872,
+			"hidden": false,
+			"url": "acsp-1010-overview",
+			"order": 0,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-0-0-overview-011915.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-0-0-overview-011915-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-0-0-overview-011915-med.jpg"
+		},
+		{
+			"title": "Getting Prepared",
+			"topic": "54c2920be1080515700006b0",
+			"description": "Before the initial installation of OS X Yosemite, one should do some prep work prior to installing the Yosemite software, like meeting minimum hardware and software requirements, have enough available memory, perform system and firmware updates, and backup data and settings. Viewers will hear extended preparation information and see the process of creating a bootable USB installer in preparation for installing OS X Yosemite.",
+			"vimeoId": "117268569",
+			"length": 3051,
+			"hidden": false,
+			"url": "getting-prepared",
+			"order": 1,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-1-1-getting_prepared-011915.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-1-1-getting_prepared-011915-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-1-1-getting_prepared-011915-med.jpg"
+		},
+		{
+			"title": "Installing Yosemite",
+			"topic": "54c2920be1080515700006b0",
+			"description": "Installing Yosemite as an upgrade or a clean install is something one needs to consider when in different situations. There is also the option of dividing the hardware into partitions, which viewers will also learn the benefits of.",
+			"vimeoId": "117382085",
+			"length": 2294,
+			"hidden": false,
+			"url": "installing-yosemite",
+			"order": 2,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-2-installing_yosemite-012015.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-2-installing_yosemite-012015-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-2-installing_yosemite-012015-med.jpg"
+		},
+		{
+			"title": "OS Recovery",
+			"topic": "54c2920be1080515700006b0",
+			"description": "When something goes wrong with the Mac OS, one will need to look into different recovery features. Viewers will hear discussions about the downloadable recovery disk assistant for older operating systems like OS X Lion, the built-in recovery partition that is included in most newer systems like Mavericks and Yosemite, the internet recovery feature, and using the recovery partition found in the USB installation media.",
+			"vimeoId": "117382087",
+			"length": 1440,
+			"hidden": false,
+			"url": "os-recovery",
+			"order": 3,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-3-os_recovery-012015.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-3-os_recovery-012015-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-3-os_recovery-012015-med.jpg"
+		},
+		{
+			"title": "Initial Configuration",
+			"topic": "54c2920be1080515700006b0",
+			"description": "Once a system is installed, initial configuration will need to be done. Viewers will see how to automate settings through the Profile Manager and move over data from an old console to a new one using the Migration Assistant tool. Viewers will also hear system preferences, network configurations, and the setup assistant be discussed.",
+			"vimeoId": "117483875",
+			"length": 3542,
+			"hidden": false,
+			"url": "initial-configuration",
+			"order": 4,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-4-initial_configuration-012115.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-4-initial_configuration-012115-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-1-4-initial_configuration-012115-med.jpg"
+		},
+		{
+			"title": "Managing User Accounts",
+			"topic": "54c2920be1080515700006b1",
+			"description": "Managing/ creating user accounts are an important step in starting to configure the Mac OS. Viewers will hear discussions on the capabilities between different user accounts, attributes associated with each account type, different ways to delete those accounts, and ways to restore them.",
+			"vimeoId": "117798443",
+			"length": 3951,
+			"hidden": false,
+			"url": "managing-user-accounts",
+			"order": 5,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-2-1-managing_user_accounts-012315.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-2-1-managing_user_accounts-012315-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/appleacsp1010-2-1-managing_user_accounts-012315-med.jpg"
+		},
+		{
+			"title": "Mulitple User Accounts",
+			"topic": "54c2920be1080515700006b1",
+			"description": "Not everybody shares their computer, but for those that do, it’s a good idea to create separate user accounts. Viewers will see demonstrations for those who might need to restrict and control the experience of other user accounts in Mac OS through Parental Controls and also hear about other features like Fast User Switching.",
+			"vimeoId": "118014795",
+			"length": 2131,
+			"hidden": false,
+			"url": "mulitple-user-accounts",
+			"order": 6,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-2-multiple_user_accounts-012715.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-2-multiple_user_accounts-012715-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-2-multiple_user_accounts-012715-med.jpg"
+		},
+		{
+			"title": "User Account Security",
+			"topic": "54c2920be1080515700006b1",
+			"description": "There are certain things one needs to be aware of when it comes to managing the accounts on a system and the security behind them. Viewers will hear about different ways to secure user information on Mac OS through: setting passwords, the use of keychain encryption, FileVault, and others.",
+			"vimeoId": "118140234",
+			"length": 3376,
+			"hidden": false,
+			"url": "user-account-security",
+			"order": 7,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-3-user_account_security-012815.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-3-user_account_security-012815-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-2-3-user_account_security-012815-med.jpg"
+		},
+		{
+			"title": "File Storage",
+			"topic": "54c2920be1080515700006b2",
+			"description": "Every Mac has storage attached to it, but additional storage might need to be added to internal storage or through removable media. Viewers will hear discussions on types of storage, various file systems, how to partition a drive's storage, and options for recovering data on a drive and keeping it safe.",
+			"vimeoId": "118268703",
+			"length": 3900,
+			"hidden": false,
+			"url": "file-storage",
+			"order": 8,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-1-file_storage-012915.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-1-file_storage-012915-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-1-file_storage-012915-med.jpg"
+		},
+		{
+			"title": "File Encryption",
+			"topic": "54c2920be1080515700006b2",
+			"description": "Encrypting files are a good security measure to protect data from being breached. Viewers will learn about the encryption process behind FileVault and Legacy FileVault, as well as hear how to securely destroy data.",
+			"vimeoId": "118480087",
+			"length": 3106,
+			"hidden": false,
+			"url": "file-encryption",
+			"order": 9,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-2-file_encryption-013015.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-2-file_encryption-013015-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-2-file_encryption-013015-med.jpg"
+		},
+		{
+			"title": "File Permissions",
+			"topic": "54c2920be1080515700006b2",
+			"description": "Every aspect of a computer is represented as a file, and file permission is what determines who's allowed to access those files. Viewers will hear extended information about how file permissions work, how they are seen, how they can be modified, ways to correct them, and ways to access them through the Terminal program.",
+			"vimeoId": "119857093",
+			"length": 4749,
+			"hidden": false,
+			"url": "file-permissions",
+			"order": 10,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-File_permissions-021615.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-File_permissions-021615-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-File_permissions-021615-med.jpg"
+		},
+		{
+			"title": "File Permissions Part 2",
+			"topic": "54c2920be1080515700006b2",
+			"description": "When using a system with multiple users, the need might arise for special file permissions for files shared between users. Viewers will hear about, special permissions for deleting files, ways to repair permissions, and permissions associated with removable media.",
+			"vimeoId": "119949007",
+			"length": 2367,
+			"hidden": false,
+			"url": "file-permissions-2",
+			"order": 11,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-file_permissions_pt2-021715.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-file_permissions_pt2-021715-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-3-3-file_permissions_pt2-021715-med.jpg"
+		},
+		{
+			"title": "Managing Files Part 1",
+			"topic": "54c2920be1080515700006b3",
+			"description": "There are times when one might want to have a file in more than one place on a hard drive, but not want more than one copy of the file. Managing files are a good way to keep track of important information that could be buried beneath all the different files a system holds. Viewers will hear discussions on cloning or linking files, making an alias for a file, and managing metadata.",
+			"vimeoId": "119949010",
+			"length": 3034,
+			"hidden": false,
+			"url": "managing-files-folders2",
+			"order": 12,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt1-021715.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt1-021715-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt1-021715-med.jpg"
+		},
+		{
+			"title": "Managing Files Part 2",
+			"topic": "54c2920be1080515700006b3",
+			"description": "For one to be able to effectively manage files, one should have the understanding to access a majority of files on a system. Viewers will hear about ways to hide files, manage fonts, and look at hidden system files and folders.",
+			"vimeoId": "120048315",
+			"length": 3946,
+			"hidden": false,
+			"url": "managing-files-folders1",
+			"order": 13,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt2-021815.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt2-021815-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-1-managing_files_pt2-021815-med.jpg"
+		},
+		{
+			"title": "File Archives and Images",
+			"topic": "54c2920be1080515700006b3",
+			"description": "File archives and images are a way to combine multiple files into one to make them easier to move around and distribute. Viewers will hear discussions on compressing files, creating disk images, and the benefits of using them.",
+			"vimeoId": "120048316",
+			"length": 1628,
+			"hidden": false,
+			"url": "file-archives-images",
+			"order": 14,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-2-file_archives_and_images-021815.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-2-file_archives_and_images-021815-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-2-file_archives_and_images-021815-med.jpg"
+		},
+		{
+			"title": "Time Machine",
+			"topic": "54c2920be1080515700006b3",
+			"description": "When one wants to prevent the possibility of complete data loss in result from a failed drive, one should backup their data. Time Machine is backup software built into Mac OS that makes for an easy solution to keep data safe. Viewers will hear about the process of backing up a hard drive through Time Machine, some of the advanced functionality behind it, and how to restore a system from Time Machine backups.",
+			"vimeoId": "120191786",
+			"length": 3078,
+			"hidden": false,
+			"url": "time-machine",
+			"order": 15,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-3-time_machine-021915-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-3-time_machine-021915-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-4-3-time_machine-021915-1-med.jpg"
+		},
+		{
+			"title": "Managing Applications",
+			"topic": "54c2920be1080515700006b4",
+			"description": "Applications can do a wide variety of different things and be very helpful to a user, but sometimes applications downloaded outside of the App Store can be less secure to download. Viewers will hear advantages and disadvantages of using the app store, different types of applications, and the process of uninstalling them.",
+			"vimeoId": "120191784",
+			"length": 2626,
+			"hidden": false,
+			"url": "managing-applications1",
+			"order": 16,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-1-managing_applications-022015-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-1-managing_applications-022015-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-1-managing_applications-022015-1-med.jpg"
+		},
+		{
+			"title": "Application Data",
+			"topic": "54c2920be1080515700006b4",
+			"description": "Every application installed onto Mac OS is going to generate data, so there are some things one should be aware of when it comes to that data. Viewers will hear about the preview functionality behind Quick Look, preserving data through the Autosave feature, and about preference files and how they work.",
+			"vimeoId": "120381956",
+			"length": 2646,
+			"hidden": false,
+			"url": "application-data",
+			"order": 17,
+			"thumbnail": "http://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-2-application_data-022015-1.png",
+			"thumbnailSm": "http://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-2-application_data-022015-1-sm.jpg",
+			"thumbnailMed": "http://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-2-application_data-022015-1-med.jpg"
+		},
+		{
+			"title": "Application Support",
+			"topic": "54c2920be1080515700006b4",
+			"description": "Supporting applications and application features are what allow the useful functions that come with them to run smoothly on a system. Viewers will hear about means of supporting applications like Java and features like iCloud services, VoiceOver, and the Activity Monitor, which are built into Mac systems.",
+			"vimeoId": "120471493",
+			"length": 5543,
+			"hidden": false,
+			"url": "application-support",
+			"order": 18,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-3-application_support-022315-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-3-application_support-022315-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-5-3-application_support-022315-1-med.jpg"
+		},
+		{
+			"title": "Network Configuration",
+			"topic": "54c2920be1080515700006b5",
+			"description": "Configuring a network connection is important because that's what allows one to share a connection with other computers and connect to the internet. Viewers will hear about basic connectivity to a network, different network protocols, and about wireless networks.",
+			"vimeoId": "120579299",
+			"length": 6142,
+			"hidden": false,
+			"url": "network-configuration",
+			"order": 19,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-6-1-network_configuration-022415-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-6-1-network_configuration-022415-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-6-1-network_configuration-022415-1-med.jpg"
+		},
+		{
+			"title": "Network Services",
+			"topic": "54c2920be1080515700006b6",
+			"description": "Network services are the things that one can use across a network once a connection is established. Viewers will hear about all the different things one can use a network for including different iCloud services like Back to My Mac, Find My Mac, and other sharing services featured on a local computer system.",
+			"vimeoId": "120579300",
+			"length": 4755,
+			"hidden": false,
+			"url": "network-services",
+			"order": 20,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-7-1-network_services-022415-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-7-1-network_services-022415-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-7-1-network_services-022415-1-med.jpg"
+		},
+		{
+			"title": "Peripheral Devices",
+			"topic": "54c2920be1080515700006b7",
+			"description": "Peripheral devices are accessories or devices that can be added on to a Mac that make it expandable like mice and keyboards, cameras, charging devices, printers, and external storage devices. Viewers will hear about peripheral devices and different ways to connect those devices through options like Bluetooth, FireWire, Thunderbolt, USB, and etc.",
+			"vimeoId": "120794117",
+			"length": 5849,
+			"hidden": false,
+			"url": "peripheral-devices2",
+			"order": 21,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-1-peripheral-devices-022615-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-1-peripheral-devices-022615-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-1-peripheral-devices-022615-1-med.jpg"
+		},
+		{
+			"title": "System Troubleshooting",
+			"topic": "54c2920be1080515700006b7",
+			"description": "When a system is not performing right, one should utilize the proper tools and troubleshooting techniques to assess the problem at hand. Viewers will hear about the different options to boot up a Mac and the phases of a system boot in order to implement troubleshooting diagnostics and tactics on a system.",
+			"vimeoId": "121023097",
+			"length": 4162,
+			"hidden": false,
+			"url": "system-troubleshooting",
+			"order": 22,
+			"thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-2-troubleshooting_system-0202715-1.png",
+			"thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-2-troubleshooting_system-0202715-1-sm.jpg",
+			"thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1010/apple-acsp1010-8-2-troubleshooting_system-0202715-1-med.jpg"
+		}
+	],
+	"topics": [
+		{
+			"title": "ACSP 10.10 Overview",
+			"id": "54c2920be1080515700006b8",
+			"order": 0
+		},
+		{
+			"title": "Installation and Configuration",
+			"id": "54c2920be1080515700006b0",
+			"order": 1
+		},
+		{
+			"title": "User Accounts",
+			"id": "54c2920be1080515700006b1",
+			"order": 2
+		},
+		{
+			"title": "File Systems",
+			"id": "54c2920be1080515700006b2",
+			"order": 3
+		},
+		{
+			"title": "Data Management",
+			"id": "54c2920be1080515700006b3",
+			"order": 4
+		},
+		{
+			"title": "Applications and Processes",
+			"id": "54c2920be1080515700006b4",
+			"order": 5
+		},
+		{
+			"title": "Network Configuration",
+			"id": "54c2920be1080515700006b5",
+			"order": 6
+		},
+		{
+			"title": "Network Services",
+			"id": "54c2920be1080515700006b6",
+			"order": 7
+		},
+		{
+			"title": "System Management",
+			"id": "54c2920be1080515700006b7",
+			"order": 8
+		}
+	]
+}
