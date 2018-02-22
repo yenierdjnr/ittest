@@ -1,6 +1,0 @@
-{
-	"title": "Accelerated CCNA Routing and Switching",
-	"description": "This Accelerated Cisco CCNA Routing + Switching show helps candidate review their exam readiness for 200-105 exam.  It’s a fast paced and hard hitting review of every exam objective for latest CCNA 200-105 exam. The accelerated pace is helpful for those that are ready for the exam and give an in-depth review of each objective you may encounter for CCNA R+S.\nThe episodes can be used as part of building a candidate's knowledge and skills in LAN switching technologies such as trunking, VLAN trunking protocol and dealing with Switching loops along with troubleshooting. IPv4 and IPv6 routing technologies in RIPng, EIGRP and OSPF are also discussed and configured helping the candidate to understand and troubleshoot configuration and routing issues. WAN technologies, infrastructure services, and infrastructure maintenance technologies are also described and configured to help the CCNA candidate not only for the exam but also for business and production use.",
-	"dataFileName": "ccnaRoutingSwitching2",
-	"layout": "course"
-}

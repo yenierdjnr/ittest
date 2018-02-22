@@ -1,8 +1,0 @@
-{{ define "main" }}
-  {{ if eq .Params.layout $.Site.Params.tagcategory }}{{ partial "tagcategory.html" . }}
-  {{ else if eq .Params.layout $.Site.Params.tag }}{{ partial "tag.html" . }}
-  {{ else if eq .Params.layout $.Site.Params.course }}{{ partial "course.html" . }}
-  {{ else }}
-  <h1>Neither a tag or tag category model calling this template.</h1>
-  {{ end }}
-{{ end }}

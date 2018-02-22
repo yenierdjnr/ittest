@@ -1,6 +1,0 @@
-{
-	"title": "MTA - Mobility and Devices Fundamentals - 98-368",
-	"description": "The Microsoft Technology Associate (MTA) is designed to be an entry point into the world of Microsoft certifications, validates building-block technology concepts and helps students explore, discover and pursue successful careers in Information Technology (IT) in an exciting and rewarding way! As the first step in the Microsoft Technology Certification Series, this new, entry-level certification provides students with confidence, credibility, and differentiation while focusing on the knowledge required for the 98-368: MTA Mobility and Devices Fundamentals Exam. One will also focus on desktops, laptops, tablets, cell phones and other devices typically used by an end user because when one first transitions over to IT, one will typically be starting in a role as help desk or desktop support and will need to identify and resolve the issues of such devices. To gain an MTA certification, you must pass only one MTA exam.",
-	"dataFileName": "mtaMobilityDevicesFundamentals",
-	"layout": "course"
-}
