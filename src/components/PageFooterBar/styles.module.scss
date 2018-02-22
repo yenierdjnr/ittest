@@ -1,0 +1,25 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.page-footer-bar__copyright {
+  padding: 1.6rem 0;
+
+  color: $color-offwhite;
+  @include adelle-sans-regular;
+  font-size: 1.2rem;
+}
+
+.page-footer-bar__social-media {
+  padding: 13px 0;
+
+  & a {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}
