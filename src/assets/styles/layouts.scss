@@ -1,0 +1,21 @@
+@mixin page-header-grid {
+  display: grid;
+  grid-template-columns: 1fr 208px 155px 223px 646px 208px 1fr;
+  grid-template-rows: 90px;
+  align-items: center;
+}
+
+
+%base-grid-tempalte-columns {
+  grid-template-columns: 1fr 120px 88px 314px 54px 137px 40px 137px 54px 314px 88px 120px 1fr;
+}
+
+@mixin home-page-grid-template {
+  display: grid;
+  grid-template-columns: 1fr 1440px 1fr;
+  grid-template-rows: 600px 80px 320px 100px 1325px 450px 500px 820px 650px 300px;
+}
+
+@mixin home-page-grid-column {
+  grid-column: 2 / 3;
+}
