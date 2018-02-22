@@ -1,6 +1,0 @@
-{
-	"title": "Certified Cloud Security Professional (UPDATED 2016)",
-	"description": "The Certified Cloud Security Professional (CCSP) is a credential that is going to be relevant especially for people who want to focus on the knowledge areas of architectural concepts and design requirements, cloud data security, cloud platform and infrastructure security, cloud application security, and compliance concerns in a traditional standard enterprise environment. As powerful as cloud computing is for the organization, understanding its information security risks and mitigation strategies are critical. Legacy approaches are inadequate, and organizations need competent, experienced professionals equipped with the right cloud security knowledge and skills to be successful. The CCSP certification is for IT professionals with a minimum of five years of cumulative IT experience with backgrounds and exposure to cloud related services.",
-	"dataFileName": "certifiedCloudSecurityProfessional2016",
-	"layout": "course"
-}

@@ -1,0 +1,68 @@
+$default-width: 250px !default;
+$default-font-size: 1.8rem !default;
+$default-text-color: $color-white;
+$default-background-color: $color-blue-dark;
+
+
+%btn-base {
+  height: 5.2rem;
+  padding: 1.3rem 0 1.5rem;
+  @include adelle-sans-bold;
+  letter-spacing: 1px;
+  line-height: 2.4rem;
+  text-align: center;
+
+  border-radius: 4px;
+}
+
+@mixin btn(
+  $width: $default-width,
+  $fontSize: $default-font-size,
+  $textColor: $default-text-color,
+  $bkColor: $default-background-color) {
+
+  @extend %btn-base;
+  width: $width;
+  font-size: $fontSize;
+  color: $textColor;
+  background-color: $bkColor;
+}
+
+@mixin boxShadow {
+  box-shadow: 8px 6px 14px 0 rgba($color-offblack, 0.102), -8px 6px 14px 0 rgba($color-offblack, 0.1), 0 2px 14px 0 rgba($color-offblack, 0.12);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  @include proxima-semi-bold;
+}
+.heading-1 {
+  font-size: 64px;
+  letter-spacing: 0.53px;
+  line-height: 66px;
+}
+.heading-2 {
+  font-size: 48px;
+  letter-spacing: auto;
+  line-height: 58px;
+}
+.heading-3 {
+  font-size: 42px;
+  letter-spacing: auto;
+  line-height: 58px;
+}
+.heading-4 {
+  font-size: 42px;
+  letter-spacing: auto;
+  line-height: 58px;
+
+  // display: block;
+  // font-size: .67em;
+  // margin-top: 2.33em;
+  // margin-bottom: 2.33em;
+  // margin-left: 0;
+  // margin-right: 0;
+  // font-weight: bold;
+}
+.heading-5 {}
+.heading-6 {}

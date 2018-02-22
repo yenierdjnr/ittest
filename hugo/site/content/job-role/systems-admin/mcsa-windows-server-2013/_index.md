@@ -1,6 +1,0 @@
-{
-	"title": "MCSA Windows Server 2012 - 70-411",
-	"description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 is designed to be a mid-tier certification for someone who has been working in the field for several years and has had exposure to large and enterprise size deployments of Microsoft Windows and covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA 70-411 Administering Windows Server 2012 exam covers administering Windows services, keeping them operational, advanced functionality and other areas that will help in your pursuit of the MCSA and also help in an after pursuit of the MCSE certification.",
-	"dataFileName": "mcsaWindowsServer2013",
-	"layout": "course"
-}
