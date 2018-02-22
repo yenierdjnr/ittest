@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "browserslist": [
+    "ie >= 11",
+    "firefox >= 57",
+    "chrome >= 63",
+    "edge >= 15",
+    "safari >= 11",
+    "ios >= 11"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.204",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-react-next": "^1.0.9",
+    "gatsby-plugin-sass": "^1.0.17"
+  }
+}
