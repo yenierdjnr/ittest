@@ -27,7 +27,7 @@ const HomePage = props => {
         </Card>
       </section>
 
-      <section className={ styles['engagements-container'] }>
+      <section className={ styles['home__Engagements'] }>
         <div className={ styles['courses'] }>
           <div className={ styles['left'] }>
             <img src="" alt="courses" />
