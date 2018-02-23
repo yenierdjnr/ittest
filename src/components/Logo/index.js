@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import logoPath from 'Images/logo.svg';
 
 
-const Logo = (props) => {
+const Logo = props => {
   const { className } = props;
 
   return (

@@ -6,6 +6,7 @@
 
 .page-header {
   @include page-header-grid;
+  background-color: $color-offwhite;
 }
 
 .page-header__logo-box {

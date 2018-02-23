@@ -1,0 +1,9 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+
+
+.button {
+  @include btn;
+  text-transform: capitalize;
+}

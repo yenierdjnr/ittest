@@ -4,7 +4,7 @@ import { IconTW, IconFB, IconLN, IconYT } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
 
-const PageFooterBar = (props) => {
+const PageFooterBar = props => {
   const { className } = props;
 
   return (

@@ -7,12 +7,15 @@ import Header from 'Components/Header';
 import Footer from 'Components/Footer';
 
 
-const Index = () => (
-	<div className="layout">
-		<Header />
-		<Footer />
-	</div>
-)
+const Index = props => {
+	return (
+		<div className="layout">
+			<Header />
+			{ props.children() }
+			<Footer />
+		</div>
+	);
+};
 
 
 export default Index;
