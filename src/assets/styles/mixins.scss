@@ -29,7 +29,7 @@ $default-background-color: $color-blue-dark;
 }
 
 @mixin boxShadow {
-  box-shadow: 8px 6px 14px 0 rgba($color-offblack, 0.102), -8px 6px 14px 0 rgba($color-offblack, 0.1), 0 2px 14px 0 rgba($color-offblack, 0.12);
+  box-shadow: 8px 6px 14px 0 rgba($color-offblack, 0.10), -8px 6px 14px 0 rgba($color-offblack, 0.10), 0 2px 14px 0 rgba($color-offblack, 0.12);
 }
 
 
@@ -37,9 +37,10 @@ h1, h2, h3, h4, h5, h6 {
   @include proxima-semi-bold;
 }
 .heading-1 {
-  font-size: 64px;
+  font-size: 6.4rem;
   letter-spacing: 0.53px;
-  line-height: 66px;
+  line-height: 6.6rem;
+  margin: 0.67rem 0;
 }
 .heading-2 {
   font-size: 48px;
