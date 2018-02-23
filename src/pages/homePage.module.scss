@@ -1,0 +1,309 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.home {
+  @include home-page-grid-template;
+
+  &__Hero {
+    @include home-page-grid-column;
+    grid-row: 1 / 3;
+  }
+
+  &__For {
+    @include home-page-grid-column;
+    grid-row:  2 / 4;
+    display: grid;
+
+    grid-template-columns: 120px 580px 40px 580px 120px;
+
+    & .left {
+      grid-column: 2 / 3;
+
+      .teams {
+        display: inline-block;
+        margin-bottom: 8px;
+
+        @include adelle-sans-bold;
+        color: $color-green-dark;
+        font-size: 2.4rem;
+        letter-spacing: 1.8px;
+        line-height: 3.6rem;
+      }
+
+      .head-one {
+        margin-bottom: 36px;
+
+        @include proxima-semi-bold;
+        color: $color-offblack;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+      }
+
+      p {
+        @include adelle-sans-regular;
+        color: $color-offblack;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+      }
+    }
+    & .right {
+      grid-column: 4 / 5;
+
+      .individuals {
+        display: inline-block;
+        margin-bottom: 8px;
+
+        @include adelle-sans-bold;
+        color: $color-orange-dark;
+        font-size: 2.4rem;
+        letter-spacing: 1.8px;
+        line-height: 3.6rem;
+      }
+
+      .head-one {
+        margin-bottom: 36px;
+
+        @include proxima-semi-bold;
+        color: $color-offblack;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+      }
+
+      p {
+        @include adelle-sans-regular;
+        color: $color-offblack;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+      }
+    }
+  }
+
+  & .engagements-container {
+    @include home-page-grid-column;
+    grid-row:  5 / 6;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 315px 130px 315px 110px 315px 120px;
+
+    & .courses, .labs, .exams {
+      display:  grid;
+      grid-template-columns: 314px 137px 137px 314px;
+      grid-row: auto;
+      grid-gap: 60px;
+    }
+
+    & .courses {
+      grid-column: 1 / -1;
+      grid-row: 1 / 2;
+
+      & .left {
+        width: 315px;
+        height: 315px;
+        position: relative;
+
+        border-radius: 157.5px;
+        background-color: $color-purple-primary;
+
+        & img {
+          position: absolute;
+          bottom: 20px;
+          left: 44px;
+        }
+      }
+      & .right {
+        grid-column: 2 / 5;
+        grid-row: auto;
+        margin-left: 20px;
+        & span {
+          display: inline-block;
+          margin: 33px 0 24px;
+
+          color: $color-orange-primary;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 24px;
+        }
+        & h2 {
+          margin-bottom: 8px;
+
+          color: $color-purple-dark;
+          @include proxima-semi-bold;
+          font-size: 4.2rem;
+          line-height: 52px;
+        }
+        & p {
+          margin-bottom: 16px;
+
+          color: $color-purple-dark;
+          @include adelle-sans-regular;
+          font-size: 2rem;
+          line-height: 30px;
+        }
+        & a {
+          color: $color-offblack;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 15px;
+
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+      }
+    }
+    & .labs {
+      grid-column: 1 / -1;
+      grid-row: 3 / 4;
+
+      & .left {
+        grid-column: 1 / 4;
+        grid-row: auto;
+        & span {
+          display: inline-block;
+          margin: 33px 0 24px;
+
+          color: $color-orange-primary;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 24px;
+        }
+        & h2 {
+          margin-bottom: 8px;
+
+          color: $color-purple-dark;
+          @include proxima-semi-bold;
+          font-size: 4.2rem;
+          line-height: 52px;
+        }
+        & p {
+          margin-bottom: 16px;
+
+          color: $color-purple-dark;
+          @include adelle-sans-regular;
+          font-size: 2rem;
+          line-height: 30px;
+        }
+        & a {
+          color: $color-offblack;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 15px;
+
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+      }
+      & .right {
+        width: 315px;
+        height: 315px;
+        position: relative;
+
+        border-radius: 157.5px;
+        background-color: $color-purple-dark;
+
+        & img {
+          position: absolute;
+          bottom: 21px;
+          left: -31px;
+        }
+      }
+    }
+    & .exams {
+      grid-column: 1 / -1;
+      grid-row: 5 / 6;
+
+      & .left {
+        width: 315px;
+        height: 315px;
+        position: relative;
+
+        border-radius: 157.5px;
+        background-color: $color-purple-dark;
+
+        & img {
+          position: absolute;
+          bottom: 26px;
+          left: 18px;
+        }
+      }
+      & .right {
+        grid-column: 2 / 5;
+        grid-row: auto;
+        margin-left: 20px;
+        & span {
+          display: inline-block;
+          margin: 33px 0 24px;
+
+          color: $color-orange-primary;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 24px;
+        }
+        & h2 {
+          margin-bottom: 8px;
+
+          color: $color-purple-dark;
+          @include proxima-semi-bold;
+          font-size: 4.2rem;
+          line-height: 52px;
+        }
+        & p {
+          margin-bottom: 16px;
+
+          color: $color-purple-dark;
+          @include adelle-sans-regular;
+          font-size: 2rem;
+          line-height: 30px;
+        }
+        & a {
+          color: $color-offblack;
+          @include odisseia-bold;
+          font-size: 1.8rem;
+          letter-spacing: 1px;
+          line-height: 15px;
+
+          text-decoration: none;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  & .stats-container {
+    @include home-page-grid-column;
+    grid-row:  6 / 7;
+    background-color: $color-blue-primary;
+  }
+
+  & .video-container {
+    @include home-page-grid-column;
+    grid-row:  7 / 8;
+    background-color: blue;
+  }
+
+  & .testimonials-container {
+    @include home-page-grid-column;
+    grid-row:  8 / 9;
+    background-color: green;
+  }
+
+  & .get-started-container {
+    @include home-page-grid-column;
+    grid-row:  9 / 10;
+    background-color: pink;
+  }
+
+  & .get-my-copy {
+    @include home-page-grid-column;
+    grid-row:  10 / 11;
+    background-color: $color-green-light;
+  }
+}

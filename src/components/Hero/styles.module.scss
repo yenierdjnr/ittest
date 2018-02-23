@@ -1,0 +1,50 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+
+
+.container {
+  padding: 112px 295px 196px;
+
+  background-image: url('Images/headerimage@2x.png');
+  background-size: 100%;
+}
+
+.intro {
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: $color-white;
+  text-align: center;
+}
+
+.title {
+  @include proxima-semi-bold;
+  font-size: 6.4rem;
+  letter-spacing: 0.53px;
+  line-height: 6.6rem;;
+}
+
+.subtitle {
+  &__sentence-1,
+  &__sentence-2 {
+    display: block;
+    @include adelle-sans-regular;
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+  }
+}
+
+
+.link {
+  margin-top: auto;
+
+  @include btn;
+  @include boxShadow;
+  text-transform: capitalize;
+}
+
