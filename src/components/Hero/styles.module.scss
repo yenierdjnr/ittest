@@ -44,6 +44,7 @@
   margin-top: auto;
 
   @include btn;
+  background-color: $color-orange-primary;
   @include boxShadow;
   text-transform: capitalize;
 }

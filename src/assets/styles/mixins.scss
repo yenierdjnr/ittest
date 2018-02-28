@@ -1,7 +1,6 @@
 $default-width: 250px !default;
 $default-font-size: 1.8rem !default;
 $default-text-color: $color-white;
-$default-background-color: $color-blue-dark;
 
 
 %btn-base {
@@ -18,14 +17,12 @@ $default-background-color: $color-blue-dark;
 @mixin btn(
   $width: $default-width,
   $fontSize: $default-font-size,
-  $textColor: $default-text-color,
-  $bkColor: $default-background-color) {
+  $textColor: $default-text-color) {
 
   @extend %btn-base;
   width: $width;
   font-size: $fontSize;
   color: $textColor;
-  background-color: $bkColor;
 }
 
 @mixin boxShadow {

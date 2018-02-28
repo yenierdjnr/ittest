@@ -33,12 +33,18 @@
   }
 
   & .page-header__login-link {
+    color: $color-orange-primary;
+    @include proxima-semi-bold;
+  }
+
+  & .page-header__try-free {
     display: inline-block;
-    @include btn($width: 110px, $fontSize: 1.6rem);
+    @include btn($width: 150px, $fontSize: 1.6rem);
+    background-color: $color-orange-primary;
     text-transform: capitalize;
   }
 
   &:not(:last-child) {
-    margin-right: 2.14rem;
+    margin-right: 2.4rem;
   }
 }

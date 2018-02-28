@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 const Card = ({ btmBarColor='black', children, className='' }) => {
   const _styles = {
-    'background-color': btmBarColor
+    'backgroundColor': btmBarColor
   };
 
   return (

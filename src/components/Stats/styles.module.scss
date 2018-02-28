@@ -1,0 +1,42 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+  @include stats-grid-column;
+  align-items: center;
+}
+
+.left {
+  grid-column: 2 / 3;
+}
+
+.center {
+  grid-column: 4 / 7;
+}
+
+.right {
+  grid-column: 8 / 9;
+}
+
+.num {
+  text-align: center;
+  color: $color-orange-primary;
+  @include proxima-semi-bold;
+  font-size: 7.2rem;
+  line-height: 8.7rem;
+
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.summary {
+  text-align: center;
+  color: $color-offblack;
+  @include adelle-sans-regular;
+  font-size: 2rem;
+  line-height: 3rem;
+}

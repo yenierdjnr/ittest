@@ -1,0 +1,69 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  width: 71rem;
+  height: 39rem;
+  padding: 24px 56px 36px 50px;
+
+  display: flex;
+  flex-flow: row;
+
+  border-radius: 2px;
+  background-color: $color-white;
+  box-shadow: 0 4px 20px 4px rgba(21,23,70,0.14);
+}
+
+.quotes {
+  color: $color-orange-primary;
+
+  @include proxima-bold;
+  font-size: 12rem;
+  line-height: 14.6rem;
+
+  margin-right: 8px;
+}
+
+.comment {
+  width: 54rem;
+  margin-top: 2rem;
+}
+
+.title {
+  padding-right: 7.7rem;
+
+  color: $color-offblack;
+  @include proxima-semi-bold;
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+
+  margin-bottom: 8px;
+}
+
+.summary {
+  color: $color-offblack;
+  @include adelle-sans-regular;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  margin-bottom: 24px;
+}
+
+.byUser {
+  color: $color-orange-dark;
+  @include adelle-sans-bold;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  line-height: 3rem;
+}
+
+.bottom-bar {
+  width: 100%;
+  height: 2px;
+
+  border-radius: 2px;
+  background-color: $color-blue-primary;
+}

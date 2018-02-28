@@ -12,7 +12,7 @@ const Header = props => {
       <nav className={ styles['page-header__menu'] }>
         <ul>
           <li className={ styles['page-header__menu-item'] }>
-            <a href="/course-library/">course library</a>
+            <a href="/course-library/">courses</a>
           </li>
           <li className={ styles['page-header__menu-item'] }>
             <a href="/live/">on air</a>
@@ -28,6 +28,9 @@ const Header = props => {
           </li>
           <li className={ styles['page-header__menu-item'] }>
             <a className={ styles['page-header__login-link'] } href="#">log in</a>
+          </li>
+          <li className={ styles['page-header__menu-item'] }>
+            <a className={ styles['page-header__try-free'] } href="#">try it free</a>
           </li>
         </ul>
       </nav>
