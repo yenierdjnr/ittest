@@ -4,16 +4,8 @@
 @import '~Styles/layouts';
 
 
-.page-footer-bar__copyright {
-  padding: 1.6rem 0;
-
-  color: $color-offwhite;
-  @include adelle-sans-regular;
-  font-size: 1.2rem;
-}
-
-.page-footer-bar__social-media {
-  padding: 13px 0;
+.social-media {
+  margin-bottom: 17px;
 
   & a {
     display: inline-block;
@@ -23,3 +15,12 @@
     }
   }
 }
+
+.copyright {
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.2rem;
+  letter-spacing: 0.15px;
+  line-height: 1.8rem;
+}
+

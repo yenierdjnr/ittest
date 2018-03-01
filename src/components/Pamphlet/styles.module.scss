@@ -1,0 +1,62 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+  @include pamphlet-grid-column
+
+  background-color: $color-offblack;
+}
+
+.article-img {
+  grid-column: 2 / 3;
+  align-self: center;
+}
+
+.info {
+  grid-column: 4 / 9;
+  align-self: center;
+}
+
+.title {
+  color: $color-white;
+  @include proxima-semi-bold;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.summary {
+  padding-right: 90px;
+
+  color: $color-white;
+  @include adelle-sans-regular;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.action {
+  color: $color-orange-primary;
+  @include adelle-sans-bold;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+
+  margin-right: 8px;
+}
+
+.arrow {
+  margin-top: 6px;
+}

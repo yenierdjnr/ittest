@@ -36,3 +36,8 @@
   display: grid;
   @extend %base-2-grid-template-columns;
 }
+
+@mixin pamphlet-grid-column {
+  display:  grid;
+  @extend %base-2-grid-template-columns;
+}

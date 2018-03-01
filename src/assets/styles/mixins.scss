@@ -29,7 +29,6 @@ $default-text-color: $color-white;
   box-shadow: 8px 6px 14px 0 rgba($color-offblack, 0.10), -8px 6px 14px 0 rgba($color-offblack, 0.10), 0 2px 14px 0 rgba($color-offblack, 0.12);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   @include proxima-semi-bold;
 }

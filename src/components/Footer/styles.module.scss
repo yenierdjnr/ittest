@@ -7,9 +7,9 @@
 .page-footer {
   display: grid;
   grid-template-columns: 1fr 208px 1024px 208px 1fr;
-  grid-template-rows: 60px 250px 50px;
+  grid-template-rows: 60px 210px 130px;
 
-  height: 360px;
+  height: 100%;
   background-color: $color-offwhite;
 }
 
@@ -89,13 +89,13 @@
 }
 
 .page-footer__bar {
-  grid-column: 2 / 5;
+  grid-column: 3 / 4;
   grid-row: 3/4;
 
-  padding: 0 208px;
+  padding: 36px 208px 31px;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+  align-items: center;
 
-  background-color: $color-purple-primary;
+  border-top: 1px solid #E4E8EC;
 }

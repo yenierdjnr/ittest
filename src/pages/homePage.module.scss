@@ -133,20 +133,17 @@
   background-color: $color-offwhite;
 }
 
-.vendors-container {
+.Vendors {
   @include home-page-grid-column;
   grid-row:  10 / 11;
-  background-color: green;
 }
 
-.plan-container {
+.Plans {
   @include home-page-grid-column;
   grid-row:  11 / 12;
-  background-color: pink;
 }
 
-.get-my-copy {
+.Pamphlet {
   @include home-page-grid-column;
   grid-row:  12 / 13;
-  background-color: $color-green-light;
 }

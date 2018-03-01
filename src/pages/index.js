@@ -8,6 +8,9 @@ import { Courses, Labs, Exams } from 'Components/Engagements';
 import Stats from 'Components/Stats';
 import { HomeVideo } from 'Components/Videos';
 import Testimonials from 'Components/Testimonials';
+import VendorList from 'Components/Vendors/List';
+import Plans from 'Components/Plans';
+import Pamphlet from 'Components/Pamphlet';
 
 
 const blueDark = '#0094CB';
@@ -57,11 +60,17 @@ const HomePage = props => {
         <Testimonials />
       </section>
 
-      <section className={ styles['vendors-container'] }>VENDORS</section>
+      <section className={ styles.Vendors }>
+        <VendorList />
+      </section>
 
-      <section className={ styles['plan-container'] }>PLANS</section>
+      <section className={ styles.Plans }>
+        <Plans />
+      </section>
 
-      <section className={ styles['get-my-copy'] }>GET MY COPY</section>
+      <section className={ styles.Pamphlet }>
+        <Pamphlet />
+      </section>
     </main>
   );
 }
