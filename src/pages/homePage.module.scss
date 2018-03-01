@@ -9,7 +9,8 @@
 }
 
 .Hero {
-  @include home-page-grid-column;
+  /* @include home-page-grid-column; */
+  grid-column: 1 / -1;
   grid-row: 1 / 3;
 }
 
@@ -23,6 +24,18 @@
   & .card {
     transition-property: box-shadow, transform;
     transition-duration: .25s;
+
+    animation: slideUp 1.5s cubic-bezier(0.2, 0, 0.1, 1) 0s 1;
+    @keyframes slideUp {
+      0% {
+        /* opacity: .9; */
+        transform: translateY(20px);
+      }
+      100% {
+        /* opacity: 1; */
+        transform: translateY(0);
+      }
+    }
   }
   & .card:hover {
     transform: translateY(-4px);
@@ -117,25 +130,32 @@
 }
 
 .Stats {
-  @include home-page-grid-column;
+  grid-column: 1 / -1;
   grid-row: 7 / 8;
+
   background-color: $color-offwhite;
+  background-image: url('Images/pattern.svg');
+  background-size: contain;
 }
 
 .Video {
-  @include home-page-grid-column;
+  /* @include home-page-grid-column; */
+  grid-column: 1 / -1;
   grid-row:  8 / 9;
 }
 
 .Testimonials {
-  @include home-page-grid-column;
+  grid-column: 1 / -1;
   grid-row:  9 / 10;
   background-color: $color-offwhite;
 }
 
 .Vendors {
-  @include home-page-grid-column;
+  grid-column: 1 / -1;
   grid-row:  10 / 11;
+
+  @include vendors-grid-column;
+  background-color: #F4F4F7;
 }
 
 .Plans {
@@ -144,6 +164,10 @@
 }
 
 .Pamphlet {
-  @include home-page-grid-column;
+  grid-column: 1 / -1;
   grid-row:  12 / 13;
+
+  @include pamphlet-grid-column
+
+  background-color: $color-offblack;
 }

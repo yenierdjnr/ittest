@@ -6,18 +6,21 @@
 
 .container {
   height: 100%;
-  @include pamphlet-grid-column
+  grid-column: 4 / 11;
+
+
+  @include pamphlet-nest-grid-column;
 
   background-color: $color-offblack;
 }
 
 .article-img {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   align-self: center;
 }
 
 .info {
-  grid-column: 4 / 9;
+  grid-column: 3 / 8;
   align-self: center;
 }
 

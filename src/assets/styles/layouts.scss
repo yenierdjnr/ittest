@@ -34,10 +34,20 @@
 
 @mixin stats-grid-column {
   display: grid;
-  @extend %base-2-grid-template-columns;
+  @extend %base-grid-template-columns;
+}
+
+@mixin vendors-grid-column {
+  display: grid;
+  @extend %base-grid-template-columns;
 }
 
 @mixin pamphlet-grid-column {
   display:  grid;
-  @extend %base-2-grid-template-columns;
+  @extend %base-grid-template-columns;
+}
+
+@mixin pamphlet-nest-grid-column {
+  display: grid;
+  @extend %base-3-grid-template-columns ;
 }

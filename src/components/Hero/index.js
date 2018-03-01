@@ -13,7 +13,7 @@ const HeroHome = ({ className='' }) => {
           <span className={ styles['subtitle__sentence-1'] }>Build or expand your IT career and enjoy the journey.</span>
           <span className={ styles['subtitle__sentence-2'] }>Access binge-worthy learning™ for every IT pro.</span>
         </div>
-        <Link to="/plans/" className={ styles['link'] }>try it free</Link>
+        <Link to="/plans/" className={ styles['link'] }>start free trial</Link>
       </div>
     </section>
   );
