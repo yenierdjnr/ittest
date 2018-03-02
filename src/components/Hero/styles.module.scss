@@ -4,10 +4,9 @@
 
 
 .container {
+  height: 100%;
+  grid-column: 2 / 3;
   padding: 112px 295px 196px;
-
-  background-image: url('Images/headerimage@2x.png');
-  background-size: 100%;
 }
 
 .intro {

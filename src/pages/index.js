@@ -21,7 +21,9 @@ const HomePage = props => {
   return (
     <main className={ styles.home }>
 
-      <Hero className={ styles.Hero } />
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
       <section className={ styles.For }>
         <a href="/for-teams/" className={ styles['card-left'] }>

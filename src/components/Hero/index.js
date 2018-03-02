@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 const HeroHome = ({ className='' }) => {
   return (
-    <section className={ `${className} ${styles.container}` }>
+    <section className={ styles.container }>
       <div className={ styles['intro'] }>
         <h1 className={ styles['title'] }>IT Training That’s Effective & Entertaining</h1>
         <div className={ styles['subtitle'] }>

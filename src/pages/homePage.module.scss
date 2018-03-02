@@ -5,13 +5,19 @@
 
 
 .home {
-  @include home-page-grid-template;
+  display: grid;
+  @include home-page-grid-template-columns;
+  @include home-page-grid-template-rows;
 }
 
 .Hero {
-  /* @include home-page-grid-column; */
   grid-column: 1 / -1;
   grid-row: 1 / 3;
+
+  background-image: url('Images/headerimage@2x.png');
+  background-size: 100%;
+
+  @include subgrid-home-page-grid-template-columns;
 }
 
 .For {
