@@ -4,7 +4,7 @@ import styles from './homePage.module.scss';
 import Hero from 'Components/Hero';
 import Card from 'Components/Card';
 import { IconArrowRight } from 'Elements/Icons';
-import { Courses, Labs, Exams } from 'Components/Engagements';
+import Engagements from 'Components/Engagements';
 import Stats from 'Components/Stats';
 import { HomeVideo } from 'Components/Videos';
 import Testimonials from 'Components/Testimonials';
@@ -45,9 +45,7 @@ const HomePage = props => {
       </section>
 
       <section className={ styles.Engagements }>
-        <Courses className={ styles.courses } />
-        <Labs className={ styles.labs } />
-        <Exams className={ styles.exams } />
+        <Engagements />
       </section>
 
       <section className={ styles.Stats }>

@@ -22,7 +22,7 @@ const Labs = props => {
         </a>
       </div>
       <div className={ `${styles['img-box']} ${styles['img-box--flip']}` }>
-        <img className={ styles['img-box__labs'] } src={ imageLabs } alt="labs" />
+        <img className={ styles['img-labs'] } src={ imageLabs } alt="labs" />
       </div>
     </div>
   );

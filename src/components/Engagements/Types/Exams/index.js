@@ -13,7 +13,7 @@ const Exams = props => {
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
-        <img className={ styles['img-box__exams'] } src={ imageExams } alt="'exams" />
+        <img className={ styles['img-exams'] } src={ imageExams } alt="'exams" />
       </div>
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_03</span>

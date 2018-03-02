@@ -16,7 +16,7 @@ const Plans = props => {
           <Link className={ `${styles.link} ${styles['for-you-link']}` } to="/for-you/">for you</Link>
         </div>
       </div>
-      <IconPattern />
+      <IconPattern className={ styles.icon } />
     </section>
   );
 };

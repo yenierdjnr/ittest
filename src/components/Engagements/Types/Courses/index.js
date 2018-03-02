@@ -11,9 +11,9 @@ const Courses = props => {
   const { className='' } = props;
 
   return (
-    <section className={ `${className} ${styles.container}` }>
+    <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
-        <img className={ styles['img-box__courses'] } src={ imageCourse } alt="courses" />
+        <img className={ styles['img-courses'] } src={ imageCourse } alt="courses" />
       </div>
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_01</span>
@@ -24,7 +24,7 @@ const Courses = props => {
           <IconArrowRight fill={ orangePrimary }/>
         </a>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -10,10 +10,12 @@ import comptiaImage from 'Images/logos/comptia@2x.png';
 const VendorList = props => {
   return (
     <section className={ styles.container }>
-      <img className={ styles.vImg } src={ microsoftImage } alt="Microsoft Logo" width="186" height="41" />
-      <img className={ styles.vImg } src={ ciscoImage } alt="Cisco Logo" width="111" height="59" />
-      <img className={ styles.vImg } src={ awsImage } alt="AWS Logo" width="80" height="49" />
-      <img className={ styles.vImg } src={ comptiaImage } alt="CompTIA Logo" width="174" height="38" />
+      <ul className={ styles.list }>
+        <img src={ microsoftImage } alt="Microsoft Logo" width="186" height="41" />
+        <img src={ ciscoImage } alt="Cisco Logo" width="111" height="59" />
+        <img src={ awsImage } alt="AWS Logo" width="80" height="49" />
+        <img src={ comptiaImage } alt="CompTIA Logo" width="174" height="38" />
+      </ul>
     </section>
   );
 };

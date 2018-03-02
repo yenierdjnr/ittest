@@ -5,19 +5,17 @@
 
 
 .container {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  height: 100%;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
 
+  background-color: $color-offwhite;
   padding: 112px 0 106px;
-
-}
-
-.carousel {
 }
 
 .title {
-  width: 820px;
+  grid-column: 3 / 10;
+  justify-self: center;
 
   color: $color-offblack;
   @include proxima-bold;
@@ -26,4 +24,10 @@
   text-align: center;
 
   margin-bottom: 96px;
+}
+
+
+.carousel {
+  grid-column: 2 / 11;
+  justify-self: center;
 }

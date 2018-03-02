@@ -5,6 +5,7 @@
 
 
 .page-header {
+  display: grid;
   @include page-header-grid;
   background-color: $color-offwhite;
 }
@@ -16,8 +17,9 @@
 }
 
 .page-header__menu {
-  grid-column: 5 / 6;
-  grid-row: 1 / 2
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+  margin-left: 5px;
 }
 
 .page-header__menu-item {

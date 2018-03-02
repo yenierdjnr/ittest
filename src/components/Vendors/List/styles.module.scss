@@ -5,13 +5,20 @@
 
 
 .container {
-  height: 100%;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns
 
-  grid-column: 4/11;
+  background-color: #F4F4F7;
+}
+
+.list {
+  grid-column: 3 / 10;
+
+  width: 1024px;
+  height: 200px;
   padding: 60px 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  background-color: #F4F4F7;
 }

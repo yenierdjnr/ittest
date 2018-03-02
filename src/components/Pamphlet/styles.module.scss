@@ -5,22 +5,21 @@
 
 
 .container {
-  height: 100%;
-  grid-column: 4 / 11;
+  height: 430px;
 
-
-  @include pamphlet-nest-grid-column;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
 
   background-color: $color-offblack;
 }
 
 .article-img {
-  grid-column: 1 / 2;
+  grid-column: 3 / 4;
   align-self: center;
 }
 
 .info {
-  grid-column: 3 / 8;
+  grid-column: 5 / 10;
   align-self: center;
 }
 
