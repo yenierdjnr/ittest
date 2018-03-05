@@ -1,32 +1,34 @@
 import React from 'react';
 
 import styles from './styles.module.scss';
-import Card from 'Components/Card';
 import { IconArrowRight } from 'Elements/Icons';
 
-
-const blueDark = '#0094CB';
-const greenDark = '#469E24';
-const orangePrimary = '#F6621C';
 
 const ForTeamsYou = props => {
   return (
     <section className={ styles.container }>
       <a href="/for-teams/" className={ styles['card-left'] }>
-        <Card className={ styles['card'] } btmBarColor={ greenDark }>
-          <span className={ styles['for-teams'] }>For Teams</span>
-          <IconArrowRight fill={ greenDark } />
-          <h2 className={ styles['head-one'] }>Learning Your Team Will Actually Use</h2>
-          <p>Empower your team with the IT skills<br/>they need.</p>
-        </Card>
+        <div className={ styles.card }>
+          <div className={ styles.body }>
+            <span className={ styles.title }>For Teams</span>
+            <IconArrowRight fill={ styles.greenDark } />
+            <h2 className={ styles.subtitle }>Learning Your Team Will Actually Use</h2>
+            <p className={ styles.summary } >Empower your team with the IT skills<br/>they need.</p>
+          </div>
+          <div className={ styles['bottom-bar'] }></div>
+        </div>
       </a>
+
       <a href="/for-you/" className={ styles['card-right'] }>
-        <Card className={ styles['card'] } btmBarColor={ blueDark }>
-          <span className={ styles['for-you'] }>For You</span>
-          <IconArrowRight fill={ blueDark } />
-          <h2 className={ styles['head-one'] }>Training to Accelerate Your Career</h2>
-          <p>Get the skills you need from an expansive course library.</p>
-        </Card>
+        <div className={ styles.card }>
+          <div className={ styles.body }>
+            <span className={ styles.title }>For You</span>
+            <IconArrowRight fill={ styles.blueDark } />
+            <h2 className={ styles.subtitle }>Training to Accelerate Your Career</h2>
+            <p className={ styles.summary }>Get the skills you need from an expansive course library.</p>
+          </div>
+          <div className={ styles['bottom-bar'] }></div>
+        </div>
       </a>
     </section>
   );

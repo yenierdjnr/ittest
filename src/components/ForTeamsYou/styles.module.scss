@@ -4,102 +4,108 @@
 @import '~Styles/layouts';
 
 
+:export {
+  greenDark: $color-green-dark;
+  blueDark:  $color-blue-dark;
+}
+
+
 .container {
   height: 100%;
   display: grid;
-  grid-template-columns: 120px 580px 40px 580px 120px;
+  @include primary-fr-1440-grid-template-columns;
+}
 
-  //need to modify this
-  //this component should only act as a grid placement for the
-  //CARD components
-  //this means that the anchor tags should be the elements given the
-  //grid placement and the CARDS should fall into place
+.card-left {
+  grid-column: 2 / 6;
 
-  //it would be good to redo this with just the cards
-  //& then add the anchor tags
-
-  & .card {
-    transition-property: box-shadow, transform;
-    transition-duration: .25s;
-
-    animation: slideUp 1.5s cubic-bezier(0.2, 0, 0.1, 1) 0s 1;
-    @keyframes slideUp {
-      0% {
-        /* opacity: .9; */
-        transform: translateY(20px);
-      }
-      100% {
-        /* opacity: 1; */
-        transform: translateY(0);
-      }
-    }
-  }
-  & .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+  & .title {
+    color: $color-green-dark;
   }
 
-  & .card-left {
-    grid-column: 2 / 3;
+  & .bottom-bar {
+    width: 100%;
+    height: 3px;
 
-    .for-teams {
-      display: inline-block;
-      margin-bottom: 8px;
-      margin-right: 8px;
+    border-radius: 2px;
+    background-color: $color-green-dark;
+  }
+}
 
-      @include adelle-sans-bold;
-      color: $color-green-dark;
-      font-size: 2.4rem;
-      letter-spacing: 1.8px;
-      line-height: 3.6rem;
-    }
+.card-right {
+  grid-column: 7 / 11;
 
-    .head-one {
-      margin-bottom: 36px;
-
-      @include proxima-semi-bold;
-      color: $color-offblack;
-      font-size: 4.8rem;
-      line-height: 5.8rem;
-    }
-
-    p {
-      @include adelle-sans-regular;
-      color: $color-offblack;
-      font-size: 2.4rem;
-      line-height: 3.6rem;
-    }
+  & .title {
+    color: $color-blue-dark;
   }
 
-  & .card-right {
-    grid-column: 4 / 5;
+  & .bottom-bar {
+    width: 100%;
+    height: 3px;
 
-    .for-you {
-      display: inline-block;
-      margin-right: 8px;
-      margin-bottom: 8px;
+    border-radius: 2px;
+    background-color: $color-blue-dark;
+  }
 
-      @include adelle-sans-bold;
-      color: $color-blue-dark;
-      font-size: 2.4rem;
-      letter-spacing: 1.8px;
-      line-height: 3.6rem;
+}
+
+.card {
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  border-radius: 2px;
+  box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.18);
+  background-color: $color-offwhite;
+
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
+
+  animation: slideUp 1.5s cubic-bezier(0.2, 0, 0.1, 1) 0s 1;
+  @keyframes slideUp {
+    0% {
+      /* opacity: .9; */
+      transform: translateY(20px);
     }
-
-    .head-one {
-      margin-bottom: 36px;
-
-      @include proxima-semi-bold;
-      color: $color-offblack;
-      font-size: 4.8rem;
-      line-height: 5.8rem;
-    }
-
-    p {
-      @include adelle-sans-regular;
-      color: $color-offblack;
-      font-size: 2.4rem;
-      line-height: 3.6rem;
+    100% {
+      /* opacity: 1; */
+      transform: translateY(0);
     }
   }
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+}
+
+.body {
+  padding: 56px 56px 0;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 8px;
+
+  @include adelle-sans-bold;
+  font-size: 2.4rem;
+  letter-spacing: 1.8px;
+  line-height: 3.6rem;
+}
+.subtitle {
+  margin-bottom: 36px;
+
+  @include proxima-semi-bold;
+  color: $color-offblack;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+}
+.summary {
+  @include adelle-sans-regular;
+  color: $color-offblack;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
 }
