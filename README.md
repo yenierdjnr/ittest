@@ -1,10 +1,19 @@
 # gatsby
 https://github.com/gatsbyjs/gatsby
 
-## install
+## Clone repo
+
+`git clone git@github.com:EdutainmentLIVE/itprotv-marketing.git`
+
+`cd` into the project folder
+
+## Install
 `npm install --global gatsby-cli`
 
-## Running in development
-`cd` into the project folder
+then run 
+
+`npm install`
+
+and finally
 
 `gatsby develop --verbose`
