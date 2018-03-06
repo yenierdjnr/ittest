@@ -4,25 +4,32 @@
 @import '~Styles/layouts';
 
 
-.page-header {
+.container {
   display: grid;
   @include page-header-grid;
   background-color: $color-offwhite;
 }
 
-.page-header__logo-box {
+.logo-box {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   margin-bottom: 1rem;
 }
 
-.page-header__menu {
+.menu {
   grid-column: 4 / 10;
   grid-row: 1 / 2;
   margin-left: 5px;
 }
 
-.page-header__menu-item {
+.menu-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center
+}
+
+.menu-item {
   display: inline-block;
 
   & a {
@@ -34,12 +41,12 @@
     text-transform: uppercase;
   }
 
-  & .page-header__login-link {
+  & .login-link {
     color: $color-orange-primary;
     @include proxima-semi-bold;
   }
 
-  & .page-header__try-free {
+  & .try-free {
     display: inline-block;
     @include btn($width: 150px, $fontSize: 1.6rem);
     background-color: $color-orange-primary;
@@ -49,4 +56,15 @@
   &:not(:last-child) {
     margin-right: 2.4rem;
   }
+
+  &.active {
+    margin-right: 2.1rem;
+
+    & a {
+      color: $color-blue-dark;
+      font-weight: 800;
+    }
+  }
 }
+
+

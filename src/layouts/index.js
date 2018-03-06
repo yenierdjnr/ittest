@@ -8,9 +8,11 @@ import Footer from 'Components/Footer';
 
 
 const Index = props => {
+  const { location } = props;
+
 	return (
 		<div className="layout">
-			<Header />
+			<Header pathname={ location.pathname }/>
 			{ props.children() }
 			<Footer />
 		</div>
