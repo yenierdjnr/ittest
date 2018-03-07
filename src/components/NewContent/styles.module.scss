@@ -1,0 +1,28 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+  align-items: center;
+
+  background-color: $color-purple-dark;
+}
+
+.summary {
+  grid-column: 3 / 8;
+  padding-right: 92px;
+}
+
+.title {
+  border-bottom: 8px;
+}
+
+.button-layout {
+  grid-column: 9 / 10;
+  justify-self: flex-end;
+}

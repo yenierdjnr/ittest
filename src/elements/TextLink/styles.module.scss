@@ -1,0 +1,26 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.title {
+  display: inline-block;
+  margin-right: 8px;
+
+  @include adelle-sans-bold;
+  letter-spacing: 1.5px;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+}
+
+.icon {
+  margin-top: 5px;
+}

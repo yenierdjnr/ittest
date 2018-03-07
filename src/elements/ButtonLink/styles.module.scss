@@ -1,0 +1,16 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+
+
+.link {
+  display: inline-block;
+
+  @include btn($width: 25rem);
+  text-transform: capitalize;
+  background-color: $color-orange-primary;
+
+  &:hover {
+    background-color: $color-orange-dark;
+  }
+}

@@ -1,0 +1,31 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.courses {
+  display: grid;
+  @include courses-page-grid-template-columns;
+  @include courses-page-grid-template-rows;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.Info {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+
+.New-Content {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+.Free-Courses {
+  grid-column: 1 / -1;
+  grid-row: 4 / 5;
+}

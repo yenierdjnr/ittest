@@ -1,0 +1,51 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  headingColor: $color-offblack;
+  paraColor: $color-grey-dark;
+}
+
+.container {
+  height: 100%;
+  padding: 96px 0 130px;
+
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+
+  background-color: $color-white;
+}
+
+.intro {
+  grid-column: 3 / 10;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  margin-bottom: 5.6rem;
+}
+
+.title {
+  margin-bottom: 3.6rem;
+}
+
+.summary {
+  padding: 0 100px;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.flags {
+  grid-column: 3 / 10;
+
+  display: grid;
+  grid-template-columns: repeat(2, 492px);
+  grid-template-rows: repeat(3, 100px);
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
+  justify-content: center;
+}

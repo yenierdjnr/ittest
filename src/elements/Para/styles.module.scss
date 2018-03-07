@@ -1,0 +1,11 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.paragraph {
+  @include adelle-sans-regular;
+  font-size: 2rem;
+  color: $color-white;
+}
