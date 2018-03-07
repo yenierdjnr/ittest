@@ -22,3 +22,22 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.item {
+  height: 80px;
+  width: 226px;
+  padding: 18px 0;
+
+  text-align: center;
+  border-radius: 2px;
+  background-color: $color-white;
+
+  & span {
+    color: $color-offblack;
+    @include proxima-semi-bold;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+
+    text-transform: capitalize;
+  }
+}

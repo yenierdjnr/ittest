@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import styles from './homePage.module.scss';
-import Hero from 'Components/Hero';
+import { HomeHero as Hero } from 'Components/Hero';
 import ForTeamsYou from 'Components/ForTeamsYou';
 import Engagements from 'Components/Engagements';
 import Stats from 'Components/Stats';
