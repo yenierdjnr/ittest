@@ -4,8 +4,6 @@ import Link from 'gatsby-link';
 import Logo from 'Components/Logo';
 import styles from './styles.module.scss';
 
-console.log(styles);
-
 
 class Header extends Component {
   constructor(props) {
