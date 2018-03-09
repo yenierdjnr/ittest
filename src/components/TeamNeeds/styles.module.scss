@@ -7,5 +7,46 @@
 .container {
   height: 100%;
 
-  background-color: blue;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+
+  background-color: $color-purple-dark;
+  background-image: url('Images/pattern.svg');
+  background-size: contain;
+}
+
+.icon-box {
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6rem;
+  background-color: #2F2983;
+}
+
+.watch {
+  grid-column: 3 / 4;
+  padding-top: 12rem;
+}
+.needs {
+  grid-column: 5 / 8;
+  padding-top: 12rem;
+}
+.on-the-go {
+  grid-column: 9 / 10;
+  padding-top: 12rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.summary {
+  text-align: center;
+  line-height: 2.4rem;
 }

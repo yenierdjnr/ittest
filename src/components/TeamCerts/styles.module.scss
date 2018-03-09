@@ -4,8 +4,60 @@
 @import '~Styles/layouts';
 
 
+:export {
+  offBlack: $color-offblack;
+}
+
 .container {
   height: 100%;
 
-  background-color: red;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+  grid-template-rows: 96px 116px 538px;
+
+  background-color: $color-offwhite;
+}
+
+.intro {
+  grid-column: 3 / 10;
+  grid-row: 2 / 3;
+
+  text-align: center;
+  padding: 0 20rem;
+}
+.video {
+  grid-column: 3 / 8;
+  grid-row: 3 / 4;
+  margin-top: 6.4rem;
+}
+.testimonial {
+  grid-column: 9 / 10;
+  grid-row: 3 / 4;
+  padding-top: 4.7rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.quote-symbol {
+  color: $color-orange-primary;
+  @include proxima-bold;
+  font-size: 7.2rem;
+  line-height: 8.7rem;
+  margin-right: 8px;
+}
+
+.quote {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  margin-top: 8px;
+  margin-bottom: 1.6rem;
+}
+.author {
+  color: $color-orange-dark;
+  @include adelle-sans-bold;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  line-height: 3rem;
 }

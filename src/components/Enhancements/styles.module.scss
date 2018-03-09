@@ -4,8 +4,65 @@
 @import '~Styles/layouts';
 
 
+:export {
+  offBlack: $color-offblack;
+}
+
 .container {
   height: 100%;
 
-  background-color: orange;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+  grid-template-rows: 96px 116px 588px;
+
+  background-color: $color-white;
+}
+
+.title {
+  grid-column: 3 / 10;
+  grid-row: 2 / 3;
+
+  padding: 0 4rem;
+  text-align: center
+}
+
+.learnings {
+  grid-column: 3 / 10;
+  grid-row: 3 / 4;
+
+  padding-top: 80px;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.hands-on {
+  margin-right: 4rem;
+}
+.practice-exams {
+  margin-left: 1.3rem;
+}
+
+.icon-box {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 5.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6rem;
+  background-color: $color-white-light;
+}
+
+.topic-title {
+  text-align: left;
+
+  margin-bottom: 3.2rem;
+}
+
+.summary {
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
 }
