@@ -33,6 +33,7 @@ class Header extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
+    console.log('pathname', nextProps)
     const { previousPath, links } = this.state;
     const { pathname:currentPath } = nextProps;
 

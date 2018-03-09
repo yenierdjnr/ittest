@@ -1,11 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import microsoftImage from 'Images/logos/microsoft@2x.png';
-import ciscoImage from 'Images/logos/cisco@2x.png';
-import awsImage from 'Images/logos/aws@2x.png';
-import comptiaImage from 'Images/logos/comptia@2x.png';
-
 
 const VendorList = props => {
   return (

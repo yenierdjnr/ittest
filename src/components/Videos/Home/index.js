@@ -6,7 +6,7 @@ import { IconPlay } from 'Elements/Icons';
 
 const HomeVideo = props => {
   return (
-    <div className={ styles.container }>
+    <div className={ styles['home-container'] }>
       <IconPlay className={ styles['play-button'] }/>
     </div>
   );

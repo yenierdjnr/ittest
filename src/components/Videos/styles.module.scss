@@ -4,15 +4,21 @@
 @import '~Styles/layouts';
 
 
-.container {
+.home-container, .for-teams-container {
   height: 100%;
 
-  background-image: url('Images/video_image@2x.png');
   background-size: cover;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-container {
+  background-image: url('Images/home_video@2x.png');
+}
+.for-teams-container {
+  background-image: url('Images/forTeams_video@2x.png');
 }
 
 .play-button {

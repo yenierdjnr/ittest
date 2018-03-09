@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-const Button = ({ className='', label='button', primary }) => {
+const Button = ({ children='Button', className='', label='button' }) => {
   return (
-    <button className={ `${className} ${styles.button}` }>{ label }</button>
+    <button className={ `${styles.button} ${className}` }>{ children }</button>
   );
 }
 

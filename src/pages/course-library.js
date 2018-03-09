@@ -9,7 +9,7 @@ import FreeCourses from 'Components/FreeCourses';
 
 const CourseLibrary = props => {
   return (
-    <main className={ styles['courses'] }>
+    <main className={ styles.courses }>
       <section className={ styles.Hero }>
         <Hero />
       </section>

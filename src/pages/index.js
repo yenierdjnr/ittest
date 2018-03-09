@@ -6,7 +6,7 @@ import ForTeamsYou from 'Components/ForTeamsYou';
 import Engagements from 'Components/Engagements';
 import Stats from 'Components/Stats';
 import { HomeVideo } from 'Components/Videos';
-import Testimonials from 'Components/Testimonials';
+import { HomeTestimonials as Testimonials } from 'Components/Testimonials';
 import VendorList from 'Components/Vendors/List';
 import Plans from 'Components/Plans';
 import Pamphlet from 'Components/Pamphlet';

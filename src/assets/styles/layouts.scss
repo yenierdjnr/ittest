@@ -48,3 +48,11 @@
 @mixin courses-page-grid-template-rows {
   grid-template-rows: 240px 780px 250px 820px;
 }
+
+// FORTEAMS PAGE GRID TEMPLATE
+@mixin for-teams-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin for-teams-page-grid-template-rows {
+  grid-template-rows: 500px 80px 940px 80px 560px 620px 800px 750px 550px;
+}

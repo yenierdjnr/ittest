@@ -1,0 +1,52 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.for-teams {
+  display: grid;
+  @include for-teams-page-grid-template-columns;
+  @include for-teams-page-grid-template-rows;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 3;
+}
+
+.Summary {
+  grid-column: 1 / -1;
+  grid-row: 3 / 5;
+}
+
+.Request-Form {
+  grid-column: 7 / 11;
+  grid-row: 2 / 4;
+  padding-left: 8rem;
+}
+
+.Track-Results {
+  grid-column: 1 / -1;
+  grid-row: 5 / 6;
+}
+
+.Team-Needs {
+  grid-column: 1 / -1;
+  grid-row: 6 / 7;
+}
+
+.Enhancements {
+  grid-column: 1 / -1;
+  grid-row: 7 / 8;
+}
+
+.Team-Certs {
+  grid-column: 1 / -1;
+  grid-row: 8 / 9;
+}
+
+.Testimonials {
+  grid-column: 1 / -1;
+  grid-row: 9 / 10;
+}

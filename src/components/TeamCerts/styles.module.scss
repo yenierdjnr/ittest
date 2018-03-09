@@ -1,0 +1,11 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+
+  background-color: red;
+}

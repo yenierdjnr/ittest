@@ -58,6 +58,7 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   config.merge({
     resolve: {
       alias: {
+        Animations: path.resolve(config._config.context, 'src', 'assets', 'animations'),
         Components: path.resolve(config._config.context, 'src', 'components'),
         Elements: path.resolve(config._config.context, 'src', 'elements'),
         Images: path.resolve(config._config.context, 'src', 'assets', 'images'),
