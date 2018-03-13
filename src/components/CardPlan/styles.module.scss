@@ -8,6 +8,7 @@
  blue: $color-blue-primary;
  darkGreen: $color-green-dark;
  offBlack: $color-offblack;
+ orange: $color-orange-primary;
  purple: $color-purple-primary;
 }
 
@@ -60,7 +61,7 @@
   text-align: center;
 
   &:first-of-type {
-    padding: 0 30px;
+    padding: 0 5.3rem;
   }
   &:not(:last-child) {
     margin-bottom: 1.6rem;
@@ -73,13 +74,16 @@
 
 .billing {
   display: block;
-  margin-bottom: 4.6rem;
 
   color: $color-grey-dark;
   @include adelle-sans-regular;
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: center;
+
+  &:last-of-type {
+    margin-bottom: 4.6rem;
+  }
 }
 
 .per-year {

@@ -9,10 +9,11 @@ class ButtonSwitch extends Component {
 
     this.state = {
       isActive: 'annual'
-    }
+    };
   }
 
   handleClick = e => {
+    const { handleSwitch } = this.props;
     const { isActive } = this.state;
     const target = e.target.innerHTML;
 
@@ -23,6 +24,8 @@ class ButtonSwitch extends Component {
     this.setState({
       isActive: target
     });
+
+    handleSwitch(target);
   }
 
   render() {

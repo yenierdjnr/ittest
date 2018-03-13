@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';
 
 
-const Free = ({ className='' }) => {
+const Free = ({ className='', info }) => {
     return (
       <section className={ styles.container }>
         <div className={ styles.description }>
@@ -15,7 +15,7 @@ const Free = ({ className='' }) => {
           <span className={ styles.perks }>Daily live stream</span>
         </div>
         <div className={ styles.pricing }>
-          <Hx className={ styles.price } color={ styles.darkGreen } size="2">$0<span className={ styles['per-year'] }>/ year</span></Hx>
+          <Hx className={ styles.price } color={ styles.darkGreen } size="2">${ info.price }<span className={ styles['per-year'] }>/ year</span></Hx>
           <TextLink className={ styles.link } color={ styles.darkGreen } size="1.6">sign up</TextLink>
         </div>
       </section>
