@@ -8,6 +8,7 @@ export { default as IconBars } from './bars';
 export { default as IconCamera } from './camera';
 export { default as IconCoin } from './coin';
 export { default as IconExams } from './exams';
+export { default as IconGear } from './gear';
 export { default as IconLabs } from './labs';
 export { default as IconLaptop } from './laptop';
 export { default as IconPattern } from './pattern';

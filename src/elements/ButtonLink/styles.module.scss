@@ -7,6 +7,7 @@
   display: inline-block;
 
   @include btn($width: 25rem);
+  @include boxShadow;
   text-transform: capitalize;
   background-color: $color-orange-primary;
 

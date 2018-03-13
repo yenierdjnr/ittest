@@ -1,0 +1,66 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  offblack: $color-offblack;
+  greyDark: $color-grey-dark;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+}
+
+.list {
+  grid-column: 3 / 10;
+  padding: 12.8rem 0 19.3rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 31.4rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.icon-box {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 4.8rem;
+
+  border-radius: 6rem;
+  background-color: $color-white-light;
+
+  &.laptop {
+    padding: 1.4rem 1.8rem 1.5rem 2.4rem;
+  }
+  &.popcorn {
+    padding: 1.9rem 2.9rem;
+  }
+  &.coin {
+    padding: 2.2rem 3.1rem 2.1rem;
+  }
+}
+
+.title {
+  text-transform: capitalize;
+  margin-bottom: 2.4rem;
+}
+
+.subtitle {
+  margin-bottom: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.text-link {
+  margin-left: 8px;
+}

@@ -1,0 +1,30 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+  padding: 12rem 0 20.8rem;
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+
+  background-image: url('Images/forYou_hero@2x.png');
+  background-size: 100%;
+}
+
+.intro {
+  grid-column: 3 / 10;
+}
+
+.title {
+  margin-bottom: 3.6rem;
+  padding-right: 348px;
+}
+
+.subtitle {
+  margin-bottom: 4.8rem;
+  padding-right: 245px;
+  line-height: 4.2rem;
+}

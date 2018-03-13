@@ -1,0 +1,94 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+ blue: $color-blue-primary;
+ darkGreen: $color-green-dark;
+ offBlack: $color-offblack;
+ purple: $color-purple-primary;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+
+  border-radius: 2px;
+  background-color: $color-white;
+  box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.14);
+}
+
+.description {
+  height: 30rem;
+  padding: 2.4rem 0 3.3rem;
+
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: $color-offwhite;
+}
+.pricing {
+  height: 24rem;
+  padding: 3.2rem 0 2.4rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+
+.title {
+  margin-bottom: 2.4rem;
+
+  @include proxima-bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitle {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.perks {
+  display: block;
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+
+  &:first-of-type {
+    padding: 0 30px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.price {
+  margin-bottom: 8px;
+}
+
+.billing {
+  display: block;
+  margin-bottom: 4.6rem;
+
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.per-year {
+  font-size: 2rem;
+}
+
+.link {
+  margin-top: auto;
+
+  letter-spacing: 1px;
+  line-height: 2.4rem;
+}

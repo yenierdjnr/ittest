@@ -1,0 +1,27 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  offBlack: $color-offblack;
+}
+
+.container {
+  display: grid;
+  @include primary-fr-1440-grid-template-columns
+  padding: 42px 0;
+
+  background-color: #F4F4F7;
+}
+
+.title {
+  grid-column: 3 / 9;
+}
+
+.button {
+  grid-column: 9 / 10;
+  justify-self: flex-end;
+  align-self: center;
+}

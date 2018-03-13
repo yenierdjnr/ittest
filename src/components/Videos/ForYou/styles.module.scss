@@ -1,0 +1,53 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  offBlack: $color-offblack;
+  darkGrey: $color-grey-dark;
+}
+
+.container {
+  height: 100%;
+  padding-top: 8.5rem;
+
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+
+  background-color: $color-offwhite;
+}
+
+.video-container {
+  grid-column: 3 / 8;
+  height: 376px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('Images/forTeams_video@2x.png');
+}
+
+.play-button {
+  cursor: pointer;
+}
+
+.intro {
+  grid-column: 9 / 11;
+  padding-right: 19.7rem;
+}
+.video {
+  grid-column: 5 / 10;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+.summary {
+  line-height: 3.0rem;
+}
+

@@ -20,7 +20,7 @@
 }
 
 @mixin secondary-1440-grid-template-columns {
-  grid-template-columns: 315px 40px 137px 40px 137px 40px 315px;
+  grid-template-columns: 314px 41px 137px 40px 137px 41px 314px;
 }
 
 
@@ -55,4 +55,12 @@
 }
 @mixin for-teams-page-grid-template-rows {
   grid-template-rows: 500px 80px 940px 80px 560px 620px 800px 750px 550px;
+}
+
+// FORYOU PAGE GRID TEMPLATE
+@mixin for-you-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin for-you-page-grid-template-rows {
+  grid-template-rows: 580px 600px 560px 200px 800px 650px 1000px 200px;
 }
