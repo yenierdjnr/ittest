@@ -1,0 +1,21 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.onAir {
+  display: grid;
+  @include onair-page-grid-template-columns;
+  @include onair-page-grid-template-rows;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.Channel-Guide {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}

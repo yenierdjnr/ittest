@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import styles from './homePage.module.scss';
 import { HomeHero as Hero } from 'Components/Hero';

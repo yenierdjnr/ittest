@@ -1,0 +1,24 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 390px 1050px 1fr;
+}
+
+.calendar {
+  grid-column: 2 / 3;
+}
+
+.frame {
+  height: 667px;
+}
+
+.video {
+  grid-column: 3 / 4;
+}

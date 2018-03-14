@@ -4,7 +4,7 @@
 @import '~Styles/layouts';
 
 
-.home-container, .for-teams-container {
+.home-container, .for-teams-container, .on-air-container {
   height: 100%;
 
   background-size: cover;
@@ -18,7 +18,7 @@
   background-image: url('Images/home_video@2x.png');
 }
 
-.for-teams-container {
+.for-teams-container, .on-air-container {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url('Images/forTeams_video@2x.png');
@@ -27,6 +27,10 @@
 .for-teams-container {
   height: 376px;
   margin: auto 0;
+}
+
+.on-air-container {
+  background-size: cover;
 }
 
 .play-button {

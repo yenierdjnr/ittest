@@ -72,3 +72,11 @@
 @mixin plans-page-grid-template-rows {
   grid-template-rows: 380px 80px 470px 112px 1098px;
 }
+
+// ONAIR PAGE GRID TEMPLATE
+@mixin onair-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin onair-page-grid-template-rows {
+  grid-template-rows: 460px 667px;
+}
