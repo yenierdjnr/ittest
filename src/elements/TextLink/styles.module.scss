@@ -4,15 +4,7 @@
 @import '~Styles/layouts';
 
 
-.container {
-  display: inline-flex;
-  align-items: center;
-
-  cursor: pointer;
-}
-
 .title {
-  display: inline-block;
   margin-right: 8px;
 
   @include adelle-sans-bold;
@@ -22,5 +14,5 @@
 }
 
 .icon {
-  margin-top: 5px;
+  margin-top: 4px;
 }

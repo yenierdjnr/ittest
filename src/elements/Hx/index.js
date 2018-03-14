@@ -16,6 +16,8 @@ const Hx = ({ className='', children='Heading', color='#FFFFFF', size='1' }) => 
       return <h5 style={{ color: color }} className={ `${styles.h5} ${className}` }>{ children }</h5>;
     case '6':
       return <h6 style={{ color: color }} className={ `${styles.h6} ${className}` }>{ children }</h6>;
+    default:
+      return <span style={{ color: color, fontSize: `${size}rem` }} className={ `${styles.default} ${className}` }>{ children }</span>;
   }
 }
 

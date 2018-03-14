@@ -1,0 +1,27 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.container {
+  height: 100%;
+
+  display: grid;
+  @include primary-fr-1440-grid-template-columns;
+
+  background-color: $color-offblack;
+}
+
+.intro {
+  grid-column: 3 / 10;
+  padding-top: 9.6rem;
+}
+
+.title {
+  margin-bottom: 5.6rem;
+  text-align: center;
+}
+.switch {
+  margin: 0 auto;
+}

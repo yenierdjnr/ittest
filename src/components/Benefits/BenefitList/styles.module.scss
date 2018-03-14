@@ -1,0 +1,119 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  darkBlue: $color-blue-dark;
+  darkGreen: $color-green-dark;
+  offBlack: $color-offblack;
+  purple: $color-purple-primary;
+  white: $color-white;
+}
+
+@media only screen and (min-width: 1220px) {
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2.5rem 0;
+
+    &:not(:first-child) {
+      border-top: 1px solid #E4E8EC;
+    }
+
+    &.with-subtitle {
+      padding: 1.2rem 0;
+    }
+  }
+
+  .type {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .title {
+    color: $color-offblack;
+    @include adelle-sans-regular;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+
+    &.with-subtitle {
+      line-height: 2.3rem;
+    }
+  }
+  .subtitle {
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    &.bold {
+      color: $color-purple-primary;
+      @include adelle-sans-bold;
+    }
+  }
+
+  .access {
+    max-width: 37.3rem;
+    margin-right: 11.5rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 0 27.7rem;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    border-top: 1px solid #E4E8EC;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  .type {
+    display: flex;
+    flex-flow: column nowrap;
+
+    margin-bottom: 1.6rem;
+  }
+
+  .title {
+    color: $color-offblack;
+    @include adelle-sans-regular;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+  .subtitle {
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+
+    &.bold {
+      color: $color-purple-primary;
+      @include adelle-sans-bold;
+    }
+  }
+
+  .access {
+    max-width: 37.3rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 27.7rem;
+    justify-content: space-between;
+  }
+}

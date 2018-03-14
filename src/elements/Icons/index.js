@@ -6,6 +6,7 @@ export { default as IconYT } from './yt';
 export { default as IconArrowRight } from './arrow_right';
 export { default as IconBars } from './bars';
 export { default as IconCamera } from './camera';
+export { default as IconCheck } from './check';
 export { default as IconCoin } from './coin';
 export { default as IconExams } from './exams';
 export { default as IconGear } from './gear';

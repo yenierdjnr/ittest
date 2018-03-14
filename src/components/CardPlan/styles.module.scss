@@ -43,6 +43,7 @@
   margin-bottom: 2.4rem;
 
   @include proxima-bold;
+  letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -95,4 +96,19 @@
 
   letter-spacing: 1px;
   line-height: 2.4rem;
+}
+
+.container.plans {
+  height: 55rem;
+}
+.description.plans {
+  height: 32rem;
+}
+.perks.plans {
+  padding: 0 4.4rem;
+}
+.price.plans {
+  padding: 0 2rem;
+  line-height: 3.2rem;
+  text-align: center;
 }

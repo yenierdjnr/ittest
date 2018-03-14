@@ -64,3 +64,11 @@
 @mixin for-you-page-grid-template-rows {
   grid-template-rows: 580px 600px 560px 200px 800px 650px 1000px 200px;
 }
+
+// PLANS PAGE GRID TEMPLATE
+@mixin plans-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin plans-page-grid-template-rows {
+  grid-template-rows: 380px 80px 470px 112px 1098px;
+}

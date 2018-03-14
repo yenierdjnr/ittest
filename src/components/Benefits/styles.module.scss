@@ -1,0 +1,119 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+:export {
+  darkBlue: $color-blue-dark;
+  darkGreen: $color-green-dark;
+  offBlack: $color-offblack;
+  purple: $color-purple-primary;
+}
+
+@media only screen and (min-width: 1220px) {
+  .container {
+    height: 100%;
+
+    display: grid;
+    @include plans-page-grid-template-columns;
+  }
+
+  .content {
+    grid-column: 3 / 10;
+
+    display: grid;
+    @include secondary-1440-grid-template-columns;
+    grid-template-rows: 116px auto;
+  }
+
+  .title {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.8rem;
+  }
+
+  .plans {
+    grid-column: 5 / 8;
+    grid-row: 1 / 2;
+
+    max-width: 42rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 30rem;
+
+    & .premium {
+      margin-right: 6.8rem;
+    }
+    & .standard {
+      margin-right: 6.0rem;
+    }
+  }
+  .pricing {
+    display: flex;
+    flex-flow: column nowrap;
+
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+
+  .benefits {
+    grid-column: 1 / 8;
+    grid-row: 2 / 3;
+
+    padding-top: 2.4rem;
+    padding-bottom: 9.2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    height: 100%;
+
+    display: grid;
+    // grid-template-columns: 1fr 16px 343px 16px 1fr;
+    grid-template-columns: 1fr 320px 1fr;
+  }
+
+  .content {
+    grid-column: 2 / 3;
+    padding: 0 8px 4.8rem;
+  }
+
+  .title {
+    margin-bottom: 2.4rem;
+  }
+
+  .plans {
+    max-width: 42rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: 30rem;
+
+    margin-bottom: 3.2rem;
+
+    & .premium {
+      margin-right: 2.6rem;
+    }
+    & .standard {
+      margin-right: 4.1rem;
+    }
+  }
+  .pricing {
+    display: flex;
+    flex-flow: column nowrap;
+
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+}
+

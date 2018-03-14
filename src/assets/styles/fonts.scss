@@ -1,53 +1,53 @@
-.font-optimizing {
+@mixin font-optimizing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
 
 @mixin proxima-regular {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "proxima-nova";
   font-style: normal;
   font-weight: 400;
 }
 
 @mixin proxima-semi-bold {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "proxima-nova";
   font-style: normal;
   font-weight: 600;
 }
 
 @mixin proxima-bold {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "proxima-nova";
   font-style: normal;
   font-weight: 700;
 }
 
 @mixin adelle-sans-regular {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "adelle-sans";
   font-style: normal;
   font-weight: 400;
 }
 
 @mixin adelle-sans-bold {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "adelle-sans";
   font-style: normal;
   font-weight: 700;
 }
 
 @mixin odisseia-regular {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "odisseia";
   font-style: normal;
   font-weight: 400;
 }
 
 @mixin odisseia-bold {
-  @extend .font-optimizing;
+  @include font-optimizing;
   font-family: "odisseia";
   font-style: normal;
   font-weight: 600;
