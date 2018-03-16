@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import Link from 'gatsby-link';
+import React, { Component, Fragment } from 'react';
 
+import Overlay from 'Components/Overlay';
 import Logo from 'Components/Logo';
+import { HeaderNav as Nav } from 'Components/Nav';
 import styles from './styles.module.scss';
 
 
@@ -44,6 +45,7 @@ class Header extends Component {
     for (let i=0, len=links.length; i<len; i++) {
       if (links[i].pathname === currentPath) {
         links[i].parentElement.classList.add(styles.active);
+        console.log(links[i]);
         this.setState({
           previousPath: links[i]
         });
@@ -51,37 +53,35 @@ class Header extends Component {
     }
   }
 
+  handleMenuClick = e => {
+    const body = document.getElementsByTagName('body')[0];
+
+    body.style.overflow = 'hidden';
+    this.refs.overlay.style.display = 'block';
+  };
+
+  handleCloseClick = e => {
+    const body = document.getElementsByTagName('body')[0];
+
+    body.style.overflow = '';
+    this.refs.overlay.style.display = 'none';
+  };
+
   render() {
     return (
-      <header className={ styles.container }>
-        <Logo className={ styles['logo-box'] }/>
+      <Fragment>
+        <div className={ styles.overlay } ref="overlay">
+          <Overlay callback={ this.handleCloseClick }/>
+        </div>
 
-        <nav className={ styles.menu }>
-          <ul className={ styles['menu-list'] }>
-            <li className={ styles['menu-item'] }>
-              <Link to="/course-library/">courses</Link>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <Link to="/live/">on air</Link>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <Link to="/plans/">pricing</Link>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <Link to="/for-teams/">for teams</Link>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <Link to="/for-you/">for you</Link>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <a className={ styles['login-link'] } href="https://itpro.tv/login/">log in</a>
-            </li>
-            <li className={ styles['menu-item'] }>
-              <Link className={ styles['try-free'] } to="/plans/">try it free</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+        <header className={ styles.container }>
+          <Logo className={ styles['logo-box'] }/>
+
+          <div className={ styles.nav }>
+            <Nav handleMenuClick={ this.handleMenuClick }/>
+          </div>
+        </header>
+      </Fragment>
     );
   }
 }

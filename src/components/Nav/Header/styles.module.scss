@@ -1,0 +1,71 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $header-tablet
+);
+
+.menu-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center
+}
+
+.menu-item {
+  display: inline-block;
+
+  & a {
+    color: $color-offblack;
+    @include proxima-regular;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+  & .login-link {
+    color: $color-orange-primary;
+    @include proxima-semi-bold;
+  }
+
+  & .try-free {
+    display: inline-block;
+    @include btn($width: 150px, $fontSize: 1.6rem);
+    background-color: $color-orange-primary;
+    text-transform: capitalize;
+  }
+
+  &:not(:last-child) {
+    margin-right: 2.4rem;
+  }
+
+  &.active {
+    margin-right: 2.1rem;
+
+    & a {
+      color: $color-blue-dark;
+      font-weight: 800;
+    }
+  }
+}
+
+.menu-icon {
+  display: none;
+}
+
+@include media("<tablet") {
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-right: 2.5rem;
+
+    grid-column: 2 / 3;
+    justify-self: end;
+
+    cursor: pointer;
+  }
+}

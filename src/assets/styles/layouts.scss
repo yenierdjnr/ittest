@@ -24,13 +24,10 @@
 }
 
 
-// HEADER GRID TEMPLATE
+// PAGE-HEADER GRID TEMPLATE
 @mixin page-header-grid {
-  @include primary-fr-1440-grid-template-columns;
-  grid-template-rows: 90px;
-  align-items: center;
+  grid-template-columns: 1fr minmax(179px, 314px) 41px 137px 40px 137px 41px 314px 1fr;
 }
-
 
 
 // HOME PAGE GRID TEMPLATE
