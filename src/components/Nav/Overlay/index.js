@@ -1,44 +1,84 @@
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 import Link from 'gatsby-link';
 
 import { IconX } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
 
-const OverlayNav = ({ className='', handleCloseClick='' }) => {
-  return (
-    <div className={ styles.container }>
-      <div className={ styles['x-icon-container'] } onClick={ handleCloseClick }>
-        <IconX className={ styles['x-icon'] }/>
-      </div>
+class OverlayNav extends Component {
+  constructor(props) {
+    super(props);
 
-      <nav className={ styles.menu }>
-        <ul className={ styles['menu-list'] }>
-          <li className={ styles['menu-item'] }>
-            <Link to="/course-library/">home</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <Link to="/course-library/">courses</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <Link to="/live/">on air</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <Link to="/plans/">pricing</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <Link to="/for-teams/">for teams</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <Link to="/for-you/">for you</Link>
-          </li>
-          <li className={ styles['menu-item'] }>
-            <a href="https://itpro.tv/login/">log in</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
+    this.state = {
+      previousPath: ''
+    }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    const { previousPath } = this.state;
+
+    if (previousPath) {
+      previousPath.parentElement.classList.remove(styles.active);
+    }
+
+    this.activateLink(nextProps.location);
+  }
+
+  componentDidMount() {
+    this.activateLink(this.props.location);
+  }
+
+  activateLink = (currentPath) => {
+    const links = document.querySelectorAll(`.${styles['menu-item']} a`);
+
+    for (const link of links) {
+      if (link.pathname === currentPath) {
+       link.parentElement.classList.add(styles.active);
+       this.setState({
+        previousPath: link
+       });
+       break;
+      }
+    }
+  }
+
+  render() {
+    const { handleCloseClick } = this.props;
+
+    return (
+      <div className={ styles.container }>
+        <div className={ styles['x-icon-container'] } onClick={ handleCloseClick }>
+          <IconX className={ styles['x-icon'] }/>
+        </div>
+
+        <nav className={ styles.menu }>
+          <ul className={ styles['menu-list'] }>
+            <li className={ `${styles['menu-item']} home` }>
+              <Link to="/">home</Link>
+            </li>
+            <li className={ `${styles['menu-item']} course` }>
+              <Link to="/course-library/">courses</Link>
+            </li>
+            <li className={ `${styles['menu-item']} live` }>
+              <Link to="/live/">on air</Link>
+            </li>
+            <li className={ `${styles['menu-item']} plans` }>
+              <Link to="/plans/">pricing</Link>
+            </li>
+            <li className={ `${styles['menu-item']} for-teams` }>
+              <Link to="/for-teams/">for teams</Link>
+            </li>
+            <li className={ `${styles['menu-item']} for-you` }>
+              <Link to="/for-you/">for you</Link>
+            </li>
+            <li className={ styles['menu-item'] }>
+              <a href="https://itpro.tv/login/">log in</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    );
+  }
 }
 
 

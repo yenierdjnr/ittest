@@ -4,10 +4,10 @@ import { OverlayNav as Nav } from 'Components/Nav';
 import styles from './styles.module.scss';
 
 
-const Overlay = ({ className='', callback='' }) => {
+const Overlay = ({ className='', callback='', location='' }) => {
   return (
     <div className={ styles.container }>
-      <Nav handleCloseClick={ callback }/>
+      <Nav location={ location } handleCloseClick={ callback }/>
     </div>
   );
 };

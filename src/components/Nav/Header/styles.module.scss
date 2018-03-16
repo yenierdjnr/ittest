@@ -14,6 +14,29 @@ $breakpoints: (
 
 .menu-item {
   display: inline-block;
+  margin-right: 2.4rem;
+
+  & a {
+    color: $color-offblack;
+    @include proxima-regular;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    text-transform: uppercase;
+  }
+
+  &.active {
+    margin-right: 2.1rem;
+
+    & a {
+      color: $color-blue-dark;
+      font-weight: 800;
+    }
+  }
+}
+
+.menu-item-diff {
+  display: inline-block;
 
   & a {
     color: $color-offblack;
@@ -38,15 +61,6 @@ $breakpoints: (
 
   &:not(:last-child) {
     margin-right: 2.4rem;
-  }
-
-  &.active {
-    margin-right: 2.1rem;
-
-    & a {
-      color: $color-blue-dark;
-      font-weight: 800;
-    }
   }
 }
 

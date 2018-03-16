@@ -7,49 +7,9 @@ import styles from './styles.module.scss';
 
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      previousPath: '',
-      links: []
-    };
-  }
-
-  componentDidMount() {
-    const links = document.querySelectorAll(`.${styles['menu-item']} a`);
-    let _links = [];
-
-    for (let i=0, len=links.length; i<len; i++) {
-      if (links[i].className !== `${styles['login-link']}` &&
-          links[i].className !== `${styles['try-free']}`)
-      {
-        _links.push(links[i]);
-      }
-    }
-
-    this.setState({
-      links: _links
-    });
-  }
-
   componentWillReceiveProps(nextProps) {
-    console.log('pathname', nextProps)
-    const { previousPath, links } = this.state;
-    const { pathname:currentPath } = nextProps;
-
-    if (previousPath) {
-      previousPath.parentElement.classList.remove(styles.active);
-    }
-
-    for (let i=0, len=links.length; i<len; i++) {
-      if (links[i].pathname === currentPath) {
-        links[i].parentElement.classList.add(styles.active);
-        console.log(links[i]);
-        this.setState({
-          previousPath: links[i]
-        });
-      }
+    if (this.refs.overlay.style.display === 'block') {
+      this.handleCloseClick();
     }
   }
 
@@ -71,14 +31,14 @@ class Header extends Component {
     return (
       <Fragment>
         <div className={ styles.overlay } ref="overlay">
-          <Overlay callback={ this.handleCloseClick }/>
+          <Overlay location={ this.props.pathname } callback={ this.handleCloseClick }/>
         </div>
 
         <header className={ styles.container }>
           <Logo className={ styles['logo-box'] }/>
 
           <div className={ styles.nav }>
-            <Nav handleMenuClick={ this.handleMenuClick }/>
+            <Nav location={ this.props.pathname } handleMenuClick={ this.handleMenuClick }/>
           </div>
         </header>
       </Fragment>
