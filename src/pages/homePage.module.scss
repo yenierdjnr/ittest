@@ -6,7 +6,8 @@
 
 .home {
   display: grid;
-  @include home-page-grid-template-columns;
+  // @include home-page-grid-template-columns;
+  grid-template-columns: 1fr minmax(320px, 1440px) 1fr;
   @include home-page-grid-template-rows;
 }
 

@@ -1,21 +1,26 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+$breakpoints: (
+  tablet: $header-tablet,
+  phone: 588px,
+  small: 370px
+);
 
 .container {
   height: 100%;
   display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  // @include primary-fr-1440-grid-template-columns;
+  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
 
   background-image: url('Images/home_hero@2x.png');
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .intro {
-  grid-column: 3 / 10;
-  padding: 112px 0 196px;
+  // grid-column: 3 / 10;
+  grid-column: 2/3;
+  padding: 13.6rem 0 19.6rem;
   height: 100%;
 
   display: flex;
@@ -28,29 +33,56 @@
 }
 
 .title {
-  @include proxima-semi-bold;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
-  line-height: 6.6rem;;
+  margin-bottom: 2.4rem;
 }
 
 .subtitle {
-  &__sentence-1,
-  &__sentence-2 {
-    display: block;
-    @include adelle-sans-regular;
-    font-size: 2.8rem;
-    line-height: 4.2rem;
-  }
+  padding: 0 11rem;
+  margin-bottom: 5.6rem;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
 }
 
-
 .link {
-  margin-top: auto;
-
   @include btn;
   background-color: $color-orange-primary;
   @include boxShadow;
   text-transform: capitalize;
 }
 
+
+@include media("<tablet") {
+  .intro {
+    padding: 7.2rem 0 9.7rem;
+  }
+
+  .title {
+    font-size: 4.8rem;
+    letter-spacing: 0.4;
+    line-height: 5.8rem;
+    margin: 0 1rem 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+  }
+}
+
+@include media("<phone") {
+  .subtitle {
+    width: 367px;
+    padding: 0 6px;
+  }
+}
+
+@include media("<=small") {
+  .subtitle {
+    width: unset;
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
