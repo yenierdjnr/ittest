@@ -10,7 +10,7 @@ import { IconExams, IconLabs } from 'Elements/Icons';
 const Enhancements = props => {
   return (
     <section className={ styles.container }>
-      <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance your learning with vLabs  & Practice Exams.</Hx>
+      <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance your learning with vLabs  & practice exams.</Hx>
       <div className={ styles.learnings }>
         <div className={ styles['hands-on'] }>
           <div className={ styles['icon-box']}>

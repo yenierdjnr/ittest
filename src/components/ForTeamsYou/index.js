@@ -12,8 +12,8 @@ const ForTeamsYou = props => {
           <div className={ styles.body }>
             <span className={ styles.title }>For Teams</span>
             <IconArrowRight fill={ styles.greenDark } />
-            <h2 className={ styles.subtitle }>Learning Your Team Will Actually Use</h2>
-            <p className={ styles.summary } >Empower your team with the IT skills<br/>they need.</p>
+            <h2 className={ styles.subtitle }>Training Your Team Will Actually Use</h2>
+            <p className={ styles.summary } >Empower your team with the IT skills they need.</p>
           </div>
           <div className={ styles['bottom-bar'] }></div>
         </div>

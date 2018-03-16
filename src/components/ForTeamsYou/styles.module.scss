@@ -104,6 +104,8 @@
   line-height: 5.8rem;
 }
 .summary {
+  padding-right: 15rem;
+
   @include adelle-sans-regular;
   color: $color-offblack;
   font-size: 2.4rem;

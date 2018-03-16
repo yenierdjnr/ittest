@@ -9,7 +9,7 @@ const Search = props => {
 
   return (
     <section className={ `${className} ${styles.container}` }>
-      <input className={ styles.input } type="text" placeholder="Search lessons and courses" />
+      <input className={ styles.input } type="text" placeholder="Search courses" />
       <IconSearch className={ styles.icon }/>
     </section>
   );

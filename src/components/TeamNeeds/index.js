@@ -13,8 +13,8 @@ const TeamNeeds = props => {
         <div className={ styles['icon-box'] }>
           <IconBars />
         </div>
-        <Hx className={ styles.title } size="4">Training your team will want to watch</Hx>
-        <Para className={ styles.summary }>A talk-show style format keeps learning engaging and fun. New content is added daily, so it's always up to date.</Para>
+        <Hx className={ styles.title } size="4">New content added every day</Hx>
+        <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
       </div>
       <div className={ styles.needs }>
         <div className={ styles['icon-box'] }>

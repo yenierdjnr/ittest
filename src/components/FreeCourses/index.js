@@ -40,8 +40,8 @@ const FreeCourses = props => {
   return (
     <section className={ `${className} ${styles.container}` }>
       <div className={ styles.intro }>
-        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try our free courses and episodes!</Hx>
-        <Para color={ styles.paraColor } className={ styles.summary }>Getting started with ITProTV is easy. Browse our selection of free courses or select from a variety of sample videos to help get you started.</Para>
+        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try these episodes for free!</Hx>
+        <Para size="2" color={ styles.paraColor } className={ styles.summary }>Getting started with ITProTV is easy. Browse our selection of free courses or select from a variety of sample videos to help get you started.</Para>
         <TextLink color={ styles.orangePrimary }>sample videos</TextLink>
       </div>
       <ul className={ styles.flags }>

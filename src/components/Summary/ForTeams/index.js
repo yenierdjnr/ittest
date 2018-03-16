@@ -17,7 +17,7 @@ const ForTeamsSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">full course library</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud & more. Virtual labs and practice exams included. <TextLink size="1.6" weight="400" className={ styles['text-link']}>view courses</TextLink></Para>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud & more. Virtual labs and practice exams included. <TextLink size="1.6" weight="400" className={ styles['text-link'] }>view courses</TextLink></Para>
           </div>
         </li>
         <li className={ styles.item }>
@@ -26,7 +26,7 @@ const ForTeamsSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging hosts present info in a talk-show format. Watch on a desktop, mobile device, Apple TV, Roku, Fire TV & more.</Para>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging hosts present info in a talk-show format. Content is added daily, so there's always something new to watch.</Para>
           </div>
         </li>
         <li className={ styles.item }>
@@ -35,7 +35,7 @@ const ForTeamsSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">ROI proven</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Easily justify your training spend with a dashboard showing usage and results across teams.</Para>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Easily justify your training spend with convenient reporting showing usage and results across teams.</Para>
           </div>
         </li>
       </ul>

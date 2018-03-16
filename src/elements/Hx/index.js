@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 const Hx = ({ className='', children='Heading', color='#FFFFFF', size='1' }) => {
   switch(size) {
     case '1':
-      return <h1 style={{ color: color }} className={ `${styles.h1} ${className}` }>{ children }</h1>;
+      return <h1 style={{ color: color }} className={ `${className} ${styles.h1}` }>{ children }</h1>;
     case '2':
       return <h2 style={{ color: color }} className={ `${styles.h2} ${className}` }>{ children }</h2>;
     case '3':

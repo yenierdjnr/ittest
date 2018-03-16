@@ -17,8 +17,8 @@ const ForYouSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">engaging courses</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>ITProTV blends entertainment, humor, and cutting edge technology with IT education and presents it all during a live broadcast. The shows are then organized by exam and exam objective or by technical skill.</Para>
-            <TextLink className={ styles['text-link']}>view courses</TextLink>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>A talk-show style format keeps you interested and excited to learn. New content is added every day.</Para>
+            <TextLink className={ styles['text-link']} to="/course-library/">view courses</TextLink>
           </div>
         </li>
         <li className={ styles.item }>
@@ -27,8 +27,8 @@ const ForYouSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">build your career</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Technology changes every day requiring a good IT Pro to continually learn in order to stay up to date. With the most relevant IT training available, ITProTV can help you advance your career and keep you relevant.</Para>
-            <TextLink className={ styles['text-link']}>view pland & pricing</TextLink>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Train to pass your certs and start or advance in IT. CompTIA, Cisco, Microsoft, AWS, cloud, security and more.</Para>
+            <TextLink className={ styles['text-link']} to="/plans/">view pland & pricing</TextLink>
           </div>
         </li>
         <li className={ styles.item }>
@@ -37,8 +37,8 @@ const ForYouSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Technology changes every day requiring a good IT Pro to continually learn in order to stay up to date. With the most relevant IT training available, ITProTV can help you advance your career and keep you relevant.</Para>
-            <TextLink className={ styles['text-link']}>start free trial</TextLink>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging content in a talk show format. Watch on a desktop, mobile device, Apple TV, Roku or Fire TV.</Para>
+            <TextLink className={ styles['text-link']} to="/plans/">start free trial</TextLink>
           </div>
         </li>
       </ul>
