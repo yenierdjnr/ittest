@@ -1,33 +1,42 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $header-tablet,
+  'mobile': 785px
+);
 
 .page-footer {
+  grid-area: footer;
+
   display: grid;
-  grid-template-columns: 1fr 208px 1024px 208px 1fr;
-  grid-template-rows: 60px 210px 130px;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  grid-template-rows: 60px minmax(210px, auto) 130px;
 
   height: 100%;
   background-color: $color-offwhite;
 }
 
 .page-footer__content {
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   grid-row: 2 / 3;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(178px, 272px) minmax(auto, 752px);
+}
+
+.page-footer__logo-box {
+  grid-column: 1 / 2;
 }
 
 .page-footer__nav {
-  width: 75.2rem;
+  grid-column: 2 / 3;
+  padding-right: 8.9rem;
 
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  flex: 0 1 66.3rem;
 }
 
 .page-footer__menu {
@@ -41,10 +50,6 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 16px;
-  }
-
-  &:last-child {
-    margin-right: 11rem;
   }
 
   & .page-footer__contact-info-title {
@@ -89,13 +94,45 @@
 }
 
 .page-footer__bar {
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   grid-row: 3/4;
 
-  padding: 36px 208px 31px;
+  padding: 36px 0 31px;
   display: flex;
   flex-flow: column nowrap;
+  justify-center: center;
   align-items: center;
 
   border-top: 1px solid #E4E8EC;
+}
+
+
+@include media("<tablet") {
+  .page-footer__content {
+    padding-left: 4.1rem;
+  }
+  .page-footer__nav {
+    padding-right: 4.1rem;
+  }
+}
+
+@include media("<mobile") {
+  .page-footer__content {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .page-footer__logo-box {
+    margin-bottom: 2.4rem;
+  }
+
+  .page-footer__nav {
+    flex-flow: column nowrap;
+    justify-content: unset;
+    flex: 0 0 auto;
+  }
+
+  .page-footer__menu {
+    margin-bottom: 3.6rem;
+  }
 }

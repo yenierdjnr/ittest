@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className={ styles['page-footer'] }>
       <div className={ styles['page-footer__content'] }>
-        <Logo classname={ styles['page-footer__logo-box'] }/>
+        <Logo className={ styles['page-footer__logo-box'] }/>
 
         <div className={ styles['page-footer__nav'] }>
           <nav className={ styles['page-footer__menu'] }>
@@ -53,10 +53,10 @@ const Footer = () => {
               </ul>
           </nav>
           <div className={ styles['page-footer__menu'] }>
-              <span className={ styles['page-footer__contact-info-title'] }>contact</span>
-              <address className={ styles['page-footer__address'] }>7525 NW 4th Blvd<br/>Gainesville, FL 32607</address>
-              <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352.600.6900</a>
-              <a className={ styles['page-footer__email'] } href="support@itpro.tv">support@itpro.tv</a>
+            <span className={ styles['page-footer__contact-info-title'] }>contact</span>
+            <address className={ styles['page-footer__address'] }>7525 NW 4th Blvd<br/>Gainesville, FL 32607</address>
+            <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352.600.6900</a>
+            <a className={ styles['page-footer__email'] } href="support@itpro.tv">support@itpro.tv</a>
           </div>
         </div>
       </div>

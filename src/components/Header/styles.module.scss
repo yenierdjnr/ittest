@@ -5,14 +5,16 @@ $breakpoints: (
   'tablet': $header-tablet
 );
 
-.overlay {
-  display: none;
-}
-
 .container {
+  grid-area: header;
+  width: 100%;
+  height: 9rem;
+
+  position: fixed;
+  z-index: $z-header;
+
   display: grid;
-  @include page-header-grid;
-  grid-template-rows: 90px;
+  grid-template-columns: 1fr minmax(155px, 314px) 705px 1fr;
   align-items: center;
 
   background-color: $color-offwhite;
@@ -24,18 +26,18 @@ $breakpoints: (
 }
 
 .nav {
-  grid-column: 3 / 9;
+  grid-column: 3 / 4;
 }
 
 
 @include media("<tablet") {
   .container {
     grid-template-columns: 179px 1fr;
+    padding: 0 2.4rem;
   }
 
   .logo-box {
     grid-column: 1 / 2;
-    margin-left: 2.4rem;
   }
 
   .nav {

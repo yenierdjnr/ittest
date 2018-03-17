@@ -20,7 +20,7 @@ const HomePage = props => {
         <Hero />
       </section>
 
-      <section className={ styles.For }>
+      {/*<section className={ styles.For }>
         <ForTeamsYou />
       </section>
 
@@ -50,7 +50,7 @@ const HomePage = props => {
 
       <section className={ styles.Pamphlet }>
         <Pamphlet />
-      </section>
+      </section>*/}
     </main>
   );
 }

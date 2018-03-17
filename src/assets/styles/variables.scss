@@ -28,7 +28,16 @@ $color-black: #000000;
 
 
 // tablet
-$header-tablet: 888px;
+$header-tablet: 883px;
+// phone
+$phone: 883px;
+
+$large: 1440px;
+$medium: 883px;
+$regular: 785px;
+$small: 475px;
+
+
 
 // media breakpoints
 $xs_bp: 36.000rem; // 576px
@@ -56,3 +65,8 @@ $nav-height: ($nav-content-y + ($nav-padding-y * 2));
 $btn-border-radius: 3px;
 $btn-p-y: 8px;
 $btn-p-x: 20px;
+
+
+//z-index
+$z-header: 99;
+$z-overlay: 999;
