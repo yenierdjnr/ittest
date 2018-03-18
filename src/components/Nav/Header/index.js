@@ -40,11 +40,17 @@ class HeaderNav extends Component {
        break;
       }
     }
-  }
+  };
+
+  handleMenuClick = e => {
+    const body = document.getElementsByTagName('body')[0];
+    const overlay = document.getElementById('overlay');
+
+    body.style.overflow = 'hidden';
+    overlay.style.display = 'block';
+  };
 
   render() {
-    const { handleMenuClick } = this.props;
-
     return (
       <Fragment>
         <nav className={ styles.menu }>
@@ -73,7 +79,7 @@ class HeaderNav extends Component {
             </li>
           </ul>
         </nav>
-        <IconMenu className={ styles['menu-icon'] } onClick={ handleMenuClick }/>
+        <IconMenu className={ styles['menu-icon'] } onClick={ this.handleMenuClick }/>
       </Fragment>
     );
   }

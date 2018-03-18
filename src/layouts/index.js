@@ -29,7 +29,7 @@ class Index extends Component {
 
   	return (
   		<div className={ mainLayout }>
-        <div className={ overlay } ref="overlay">
+        <div id="overlay" className={ overlay } ref="overlay">
           <Overlay pathname={ location.pathname } callback={ this.handleCloseClick }/>
         </div>
   			<Header pathname={ location.pathname }/>
