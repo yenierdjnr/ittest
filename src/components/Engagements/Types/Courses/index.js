@@ -1,12 +1,13 @@
 import React from 'react';
-import styles from '../styles.module.scss';
 
+import Hx from 'Elements/Hx';
+import Para from 'Elements/Para';
+import TextLink from 'Elements/TextLink';
 import imageCourse from 'Images/courses.svg'
 import { IconArrowRight } from 'Elements/Icons';
+import styles from '../styles.module.scss';
+
 // import 'Animations/Content.hyperesources/content_hype_generated_script.js';
-
-
-const orangePrimary = '#F6621C';
 
 const Courses = props => {
   const { className='' } = props;
@@ -21,12 +22,9 @@ const Courses = props => {
       </div>
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_01</span>
-        <h2 className={ styles.title }>Library of Engaging Courses</h2>
-        <p className={ styles.summary }>From CompTIA, Cisco, and Microsoft to Security and Cloud<br/>Fundamentals, you can learn it all. You'll watch more and learn<br/>more with the friendly faces of IT.</p>
-        <a className={ styles.link } href="/courses/">
-          <span>browse course library</span>
-          <IconArrowRight fill={ orangePrimary }/>
-        </a>
+        <Hx className={ styles.title } color={ styles.offBlack }>Library of Engaging Courses</Hx>
+        <Para className={ `${styles.summary} ${styles.courses}` } color={ styles.offBlack }>From CompTIA, Cisco, and Microsoft to Security and Cloud Fundamentals, you can learn it all. New content is added daily  so you can stay current.</Para>
+        <TextLink to="/courses/" className={ styles.link } color={ styles.orangePrimary }>browse course library</TextLink>
       </div>
     </div>
   );

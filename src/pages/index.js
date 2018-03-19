@@ -20,14 +20,14 @@ const HomePage = props => {
         <Hero />
       </section>
 
-      {/*<section className={ styles.For }>
+      <section className={ styles.For }>
         <ForTeamsYou />
       </section>
-
       <section className={ styles.Engagements }>
         <Engagements />
       </section>
 
+{/*
       <section className={ styles.Stats }>
         <Stats />
       </section>

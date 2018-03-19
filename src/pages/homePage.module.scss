@@ -1,7 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $header-tablet
+);
 
 
 .home {
@@ -13,6 +15,7 @@
   grid-template-columns: 1fr;
   // @include home-page-grid-template-rows;
   // grid-template-rows: 600px 80px 320px 157px 1169px 145px 400px 500px 820px 200px 652px 430px;
+  grid-template-rows: 600px 80px 320px 157px auto 145px 400px 500px 820px 200px 652px 430px;
 }
 
 .Hero {
@@ -58,4 +61,56 @@
 .Pamphlet {
   grid-column: 1 / -1;
   grid-row:  12 / 13;
+}
+
+@include media('<tablet') {
+  .home {
+    // grid-template-rows: 600px 80px 320px 157px 1169px 145px 400px 500px 820px 200px 652px 430px;
+    // grid-template-rows: 513px 47px 557px 70px auto 630px 500px 670px 240px;
+    grid-template-rows: auto 47px auto 70px auto 630px 500px 670px 240px
+  }
+  .Hero {
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+  }
+
+  .For {
+    grid-column: 1 / -1;
+    grid-row:  2 / 4;
+  }
+
+  .Engagements {
+    grid-column: 1 / -1;
+    grid-row:  5 / 6;
+  }
+
+  .Stats {
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+  }
+
+  .Video {
+    grid-column: 1 / -1;
+    grid-row:  8 / 9;
+  }
+
+  .Testimonials {
+    grid-column: 1 / -1;
+    grid-row:  9 / 10;
+  }
+
+  .Vendors {
+    grid-column: 1 / -1;
+    grid-row:  10 / 11;
+  }
+
+  .Plans {
+    grid-column: 1 / -1;
+    grid-row:  11 / 12;
+  }
+
+  .Pamphlet {
+    grid-column: 1 / -1;
+    grid-row:  12 / 13;
+  }
 }

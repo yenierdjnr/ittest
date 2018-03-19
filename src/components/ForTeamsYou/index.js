@@ -1,7 +1,9 @@
 import React from 'react';
 
-import styles from './styles.module.scss';
+import Hx from 'Elements/Hx';
+import Para from 'Elements/Para';
 import { IconArrowRight } from 'Elements/Icons';
+import styles from './styles.module.scss';
 
 
 const ForTeamsYou = props => {
@@ -12,8 +14,8 @@ const ForTeamsYou = props => {
           <div className={ styles.body }>
             <span className={ styles.title }>For Teams</span>
             <IconArrowRight fill={ styles.greenDark } />
-            <h2 className={ styles.subtitle }>Training Your Team Will Actually Use</h2>
-            <p className={ styles.summary } >Empower your team with the IT skills they need.</p>
+            <Hx className={ styles.subtitle } color={ styles.offBlack }>Training Your Team Will Actually Use</Hx>
+            <Para className={ `${styles.summary} ${styles.forTeams}` } color={ styles.offBlack }>Empower your team with the IT skills they need.</Para>
           </div>
           <div className={ styles['bottom-bar'] }></div>
         </div>
@@ -24,8 +26,8 @@ const ForTeamsYou = props => {
           <div className={ styles.body }>
             <span className={ styles.title }>For You</span>
             <IconArrowRight fill={ styles.blueDark } />
-            <h2 className={ styles.subtitle }>Training to Accelerate Your Career</h2>
-            <p className={ styles.summary }>Get the skills you need from an expansive course library.</p>
+            <Hx className={ styles.subtitle } color={ styles.offBlack }>Training to Accelerate Your Career</Hx>
+            <Para className={ `${styles.summary} ${styles.forYou}` } color={ styles.offBlack }>Get the skills you need from an expansive course library.</Para>
           </div>
           <div className={ styles['bottom-bar'] }></div>
         </div>

@@ -1,12 +1,15 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $header-tablet, //883px
+  'upper-tablet': 1196px
+);
 
 :export {
   greenDark: $color-green-dark;
   blueDark:  $color-blue-dark;
+  offBlack: $color-offblack;
 }
 
 .container {
@@ -31,6 +34,7 @@
 
 .card-right {
   grid-column: 3 / 4;
+  justify-self: left;
 
   & .title {
     color: $color-blue-dark;
@@ -42,7 +46,8 @@
 }
 
 .card {
-  height: 40rem;
+  // max-height: 40rem;
+  height: 100%;
   max-width: 58rem;
   padding: 5.6rem 5.5rem 7.6rem 5.6rem;
   position: relative;
@@ -85,9 +90,7 @@
   box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
 }
 
-.body {
-
-}
+.body {}
 
 .title {
   display: inline-block;
@@ -100,18 +103,74 @@
   line-height: 3.6rem;
 }
 .subtitle {
-  margin-bottom: 36px;
+  margin-bottom: 2.4rem;
 
   @include proxima-semi-bold;
-  color: $color-offblack;
   font-size: 4.8rem;
+  letter-spacing: normal;
   line-height: 5.8rem;
 }
 .summary {
-  padding-right: 15rem;
-
   @include adelle-sans-regular;
-  color: $color-offblack;
   font-size: 2.4rem;
   line-height: 3.6rem;
+
+  &.forTeams {
+    padding-right: 7rem;
+  }
+  &.forYou {
+    padding-right: 13rem;
+  }
+}
+
+
+@include media('<upper-tablet') {
+  .title {
+    font-size: 1.8rem;
+    letter-spacing: 1.35px;
+    line-height: 2.8rem;
+  }
+  .subtitle {
+    margin-bottom: 2.4rem;
+
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+  .summary {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+}
+
+@include media('<tablet') {
+  .container {
+    // grid-template-columns: 1fr;
+    grid-template-columns: minmax(auto, 533px);
+    // grid-template-rows: auto 24px auto;
+    grid-template-rows: minmax(261px,auto) 24px minmax(261px,auto);
+    justify-content: center;
+  }
+
+  .card-left {
+    grid-column: unset;
+    grid-row: 1 / 2;
+  }
+  .card-right {
+    grid-column: unset;
+    grid-row: 3 / 4;
+  }
+
+  .card {
+    margin: 0 1.6rem;
+    padding: 4.8rem 2.3rem 5.2rem 2.4rem;
+  }
+
+  .summary {
+    &.forTeams {
+      padding-right: 0rem;
+    }
+    &.forYou {
+      padding-right: 0rem;
+    }
+  }
 }
