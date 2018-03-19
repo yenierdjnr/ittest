@@ -27,11 +27,11 @@ const HomePage = props => {
         <Engagements />
       </section>
 
-{/*
       <section className={ styles.Stats }>
         <Stats />
       </section>
 
+{/*
       <section className={ styles.Video }>
         <HomeVideo />
       </section>
