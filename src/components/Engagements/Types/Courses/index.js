@@ -4,6 +4,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
 import { IconArrowRight } from 'Elements/Icons';
+import imageCourse from 'Images/courses.svg';
 import styles from '../styles.module.scss';
 
 
@@ -17,7 +18,8 @@ const Courses = props => {
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
-        <div id="itpcontent1_hype_container" className={ styles['img-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+        <img className={ styles['img-courses'] } src={ imageCourse } alt="courses" />
+        <div id="itpcontent1_hype_container" className={ styles['ani-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
           <script type="text/javascript" charSet="utf-8" src={ `${ani}?94808` }></script>
         </div>
       </div>

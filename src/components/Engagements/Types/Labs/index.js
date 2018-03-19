@@ -4,6 +4,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
 import { IconArrowRight } from 'Elements/Icons';
+import imageLabs from 'Images/labs.svg';
 import styles from '../styles.module.scss';
 
 
@@ -23,7 +24,8 @@ const Labs = props => {
         <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view vitural labs</TextLink>
       </div>
       <div className={ `${styles['img-box']} ${styles['img-box--flip']}` }>
-        <div id="itpservers1_hype_container" className={ styles['img-labs'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+        <img className={ styles['img-labs'] } src={ imageLabs } alt="labs" />
+        <div id="itpservers1_hype_container" className={ styles['ani-labs'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
           <script type="text/javascript" charSet="utf-8" src={ `${ani}?58403` }></script>
         </div>
       </div>

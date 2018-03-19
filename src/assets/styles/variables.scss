@@ -22,6 +22,7 @@ $color-white-dark: #E6E6ED;
 $color-offwhite: #F9F9FA;
 $color-white: #FFFFFF;
 
+$color-backdrop: #07082F;
 $color-offblack: #151746;
 $color-black: #000000;
 
@@ -32,6 +33,8 @@ $upper-tablet: 1196px;
 $tablet: 1024px;
 $lower-tablet: 883px;
 $header-tablet: 883px;
+//phablet
+$phablet: 634px;
 // phone
 $phone: 883px;
 
@@ -73,5 +76,6 @@ $btn-p-x: 20px;
 
 
 //z-index
-$z-header: 99;
-$z-overlay: 999;
+$z-header: 999;
+$z-overlay: 9999;
+$z-video: 99;

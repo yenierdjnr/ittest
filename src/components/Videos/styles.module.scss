@@ -1,13 +1,15 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-tablet': $lower-tablet,
+  'phablet': $phablet
+);
 
 .home-container, .for-teams-container, .on-air-container {
   height: 100%;
-
-  background-size: cover;
+  position: relative;
 
   display: flex;
   justify-content: center;
@@ -16,6 +18,9 @@
 
 .home-container {
   background-image: url('Images/home_video@2x.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .for-teams-container, .on-air-container {
@@ -34,5 +39,49 @@
 }
 
 .play-button {
+  position: absolute;
+  z-index: $z-video;
   cursor: pointer;
+}
+
+.vidwrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  cursor:pointer;
+}
+
+.vidwrap-opacity {
+  background: rgba($color-backdrop, 0.7);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+  cursor: initial;
+}
+
+.home-iframe {
+  width: 70%;
+  height: 100%;
+}
+
+@include media('<tablet') {
+  .home-iframe {
+    width: 100%;
+  }
+}
+
+@include media('<phablet') {
+  .home-container {
+    background-image: url('Images/home_video_mobile@2x.png');
+    background-size: cover;
+    background-position: 20% 20%;
+  }
+
+  .vidwrap {
+    & iframe {
+      width: 100%;
+    }
+  }
 }

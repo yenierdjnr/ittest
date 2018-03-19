@@ -2,7 +2,7 @@
 
 
 $breakpoints: (
-  'header-tablet': $header-tablet,
+  'lower-tablet': $lower-tablet,
   'tablet': 1024px
 );
 
@@ -30,25 +30,23 @@ $breakpoints: (
   background-color: $color-offwhite;
 }
 
-.img-courses {
+.img-courses, .img-labs, .img-exams {
+  display: none;
+  position: absolute;
+}
+
+.ani-courses {
   position: absolute;
   bottom: 1.6rem;
   left: 3rem;
-
-  // bottom: 5.5rem;
-  // left: -1.5rem;
 }
-.img-labs {
+.ani-labs {
   position: absolute;
-  // bottom: 21px;
-  // left: -31px;
   bottom: -1.5rem;
   left: -2.5rem;
 }
-.img-exams {
+.ani-exams {
   position: absolute;
-  // bottom: 26px;
-  // left: 18px;
   bottom: 2rem;;
   left: 2rem;
 }
@@ -155,7 +153,7 @@ $breakpoints: (
   }
 }
 
-@include media('<header-tablet') {
+@include media('<lower-tablet') {
   .info {
     margin: 0 4rem;
   }
@@ -163,6 +161,13 @@ $breakpoints: (
   .img-box {
     width: 20rem;
     height: 20rem;
+  }
+
+  .ani-courses, .ani-labs, .ani-exams {
+    display: none;
+  }
+  .img-courses, .img-labs, .img-exams {
+    display: inline;
   }
 
   .img-courses {
