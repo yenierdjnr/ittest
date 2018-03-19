@@ -32,7 +32,6 @@ module.exports = class HTML extends React.Component {
           <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jic1ywm.css" />
           {this.props.headComponents}
           {css}
-          {/*<link rel="stylesheet" type="text/css" href="https://use.typekit.net/jic1ywm.css" />*/}
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

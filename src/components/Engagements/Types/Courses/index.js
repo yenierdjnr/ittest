@@ -3,11 +3,13 @@ import React from 'react';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
-import imageCourse from 'Images/courses.svg'
 import { IconArrowRight } from 'Elements/Icons';
 import styles from '../styles.module.scss';
 
-// import 'Animations/Content.hyperesources/content_hype_generated_script.js';
+
+if (typeof navigator !== `undefined`) {
+  var ani = require('Animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
+}
 
 const Courses = props => {
   const { className='' } = props;
@@ -15,10 +17,9 @@ const Courses = props => {
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
-        <img className={ styles['img-courses'] } src={ imageCourse } alt="courses" />
-        {/*<div id="content_hype_container" className={ styles['img-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
-          <script type="text/javascript" charSet="utf-8" src='Content.hyperesources/content_hype_generated_script.js?41033'></script>
-        </div>*/}
+        <div id="itpcontent1_hype_container" className={ styles['img-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+          <script type="text/javascript" charSet="utf-8" src={ `${ani}?94808` }></script>
+        </div>
       </div>
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_01</span>

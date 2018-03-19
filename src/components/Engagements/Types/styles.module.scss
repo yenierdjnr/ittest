@@ -32,21 +32,25 @@ $breakpoints: (
 
 .img-courses {
   position: absolute;
-  bottom: 2rem;
-  left: 4.4rem;
+  bottom: 1.6rem;
+  left: 3rem;
 
   // bottom: 5.5rem;
   // left: -1.5rem;
 }
 .img-labs {
   position: absolute;
-  bottom: 21px;
-  left: -31px;
+  // bottom: 21px;
+  // left: -31px;
+  bottom: -1.5rem;
+  left: -2.5rem;
 }
 .img-exams {
   position: absolute;
-  bottom: 26px;
-  left: 18px;
+  // bottom: 26px;
+  // left: 18px;
+  bottom: 2rem;;
+  left: 2rem;
 }
 
 .info {
