@@ -1,14 +1,18 @@
 import React from 'react';
-import styles from './styles.module.scss';
 
+import Hx from 'Elements/Hx';
 import QuoteCard from 'Components/QuoteCard';
+import {
+  container, title,
+  offBlack, carousel
+} from './styles.module.scss';
 
 
 const HomeTestimonials = props => {
   return (
-    <div className={ styles.container }>
-      <span className={ styles.title }>Join a community of IT professionals sharpening their skills everyday.</span>
-      <div className={ styles.carousel }>
+    <div className={ container }>
+      <Hx className={ title } color={ offBlack } size="2">Join a community of IT Pros sharpening their skills the fun way.</Hx>
+      <div className={ carousel }>
         <QuoteCard />
       </div>
     </div>
