@@ -1,42 +1,31 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
 
 .container {
-  display: grid;
-  @include primary-fr-1440-grid-template-columns
-
   background-color: #F4F4F7;
 }
 
 .list {
-  grid-column: 3 / 10;
-
-  width: 1024px;
-  height: 200px;
-  padding: 60px 0;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 16.5rem));
+  grid-column-gap: 1.5rem;
+  justify-content: center;
 }
 
 .item {
-  height: 80px;
-  width: 226px;
-  padding: 18px 0;
-
+  height: 6rem;
+  padding: 1.6rem 2.5rem;
   text-align: center;
-  border-radius: 2px;
-  background-color: $color-white;
 
   & span {
-    color: $color-offblack;
+    color: $color-grey-light;
     @include proxima-semi-bold;
-    font-size: 3.6rem;
-    line-height: 4.4rem;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
 
     text-transform: capitalize;
   }

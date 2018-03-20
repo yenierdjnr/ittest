@@ -38,12 +38,12 @@ const HomePage = props => {
       <section className={ styles.Testimonials }>
         <Testimonials />
       </section>
-{/*
 
       <section className={ styles.Vendors }>
         <VendorList />
       </section>
 
+{/*
       <section className={ styles.Plans }>
         <Plans />
       </section>
