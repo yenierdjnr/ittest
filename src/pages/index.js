@@ -43,14 +43,13 @@ const HomePage = props => {
         <VendorList />
       </section>
 
-{/*
       <section className={ styles.Plans }>
         <Plans />
       </section>
 
       <section className={ styles.Pamphlet }>
         <Pamphlet />
-      </section>*/}
+      </section>
     </main>
   );
 }

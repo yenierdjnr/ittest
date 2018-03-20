@@ -1,26 +1,26 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet
+);
 
 .container {
-  height: 430px;
+  padding: 9.7rem 0;
 
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 
   background-color: $color-offblack;
 }
 
 .article-img {
-  grid-column: 3 / 4;
-  align-self: center;
+  margin-right: 11.5rem;
 }
-
 .info {
-  grid-column: 5 / 10;
-  align-self: center;
+  width: 66.7rem;
 }
 
 .title {
@@ -61,4 +61,11 @@
 
 .arrow {
   margin-top: 6px;
+}
+
+
+@include media('<tablet') {
+  .container {
+    display: none;
+  }
 }

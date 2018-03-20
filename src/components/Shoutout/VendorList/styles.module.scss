@@ -6,6 +6,10 @@ $breakpoints: (
 );
 
 .container {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
   background-color: #F4F4F7;
 }
 

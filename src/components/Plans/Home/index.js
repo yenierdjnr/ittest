@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from './styles.module.scss';
 
 import Link from 'Elements/Link';
-import { IconPattern } from 'Elements/Icons';
+import styles from './styles.module.scss';
 
 
 const Plans = props => {
@@ -16,7 +15,6 @@ const Plans = props => {
           <Link className={ `${styles.link} ${styles['for-you-link']}` } to="/for-you/">for you</Link>
         </div>
       </div>
-      <IconPattern className={ styles.icon } />
     </section>
   );
 };
