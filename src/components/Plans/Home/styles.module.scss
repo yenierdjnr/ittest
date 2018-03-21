@@ -8,15 +8,14 @@ $breakpoints: (
 
 .container {
   display: grid;
-  // @include primary-fr-1440-grid-template-columns
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 
   position: relative;
   background-color: $color-white;
 
   background-image: url('Images/patterns_vertical.svg');
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: 85%;
 }
 
 .content {
