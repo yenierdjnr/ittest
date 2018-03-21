@@ -1,27 +1,50 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-tablet': $lower-tablet
+);
 
 :export {
   offBlack: $color-offblack;
 }
 
 .container {
-  display: grid;
-  @include primary-fr-1440-grid-template-columns
   padding: 42px 0;
-
   background-color: #F4F4F7;
 }
 
-.title {
-  grid-column: 3 / 9;
+.content {
+  max-width: 1024px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
 }
 
-.button {
-  grid-column: 9 / 10;
-  justify-self: flex-end;
-  align-self: center;
+
+@include media('<tablet') {
+  .content {
+    flex-flow: column nowrap;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+}
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 6.4rem 0 6.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
 }

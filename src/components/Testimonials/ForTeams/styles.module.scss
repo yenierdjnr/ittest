@@ -1,33 +1,29 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
 
 .container {
-  height: 100%;
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  padding: 13rem 0;
 
-  background-color: $color-white-light;
-  padding: 80px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: $color-offwhite;
 }
-
-.title {
-  grid-column: 3 / 10;
-  justify-self: center;
-
-  color: $color-offblack;
-  @include proxima-bold;
-  font-size: 4.8rem;
-  line-height: 5.8rem;
-  text-align: center;
-
-  margin-bottom: 96px;
-}
-
 
 .carousel {
-  grid-column: 2 / 11;
-  justify-self: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    display: none;
+  }
 }
