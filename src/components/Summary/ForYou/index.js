@@ -13,7 +13,7 @@ const ForYouSummary = props => {
       <ul className={ styles.list }>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.laptop}` }>
-            <IconLaptop />
+            <IconLaptop className={ styles['laptop-icon'] }/>
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">engaging courses</Hx>
@@ -22,8 +22,8 @@ const ForYouSummary = props => {
           </div>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.popcorn}` }>
-          <IconGear />
+          <div className={ `${styles['icon-box']} ${styles.gear}` }>
+          <IconGear className={ styles['gear-icon'] }/>
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">build your career</Hx>
@@ -32,8 +32,8 @@ const ForYouSummary = props => {
           </div>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.coin}` }>
-            <IconPopcorn />
+          <div className={ `${styles['icon-box']} ${styles.popcorn}` }>
+            <IconPopcorn className={ styles['popcorn-icon'] }/>
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>

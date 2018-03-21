@@ -35,17 +35,15 @@ $tablet: 1024px;
 $lower-tablet: 883px;
 $header-tablet: 883px;
 //phablet
+$upper-phablet: 768px;
 $phablet: 634px;
 // phone
-$phone: 883px;
+$lower-phone: 375px;
 
 $large: 1440px;
 $medium: 883px;
 $regular: 785px;
 $small: 475px;
-
-
-
 
 
 // media breakpoints
@@ -56,7 +54,6 @@ $lg_bp: 75.000rem; // 1200px
 $xl_bp: 120rem;
 
 // containers
-
 $lg_cont: 51.875rem;
 
 // container margins for breakpoints

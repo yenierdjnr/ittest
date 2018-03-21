@@ -2,9 +2,11 @@ import React from 'react';
 
 
 const IconPopcorn = props => {
+  const { className='', fill='none' } = props;
+
   return (
-    <svg width="62" height="82" viewBox="0 0 62 82">
-      <g fill="none" fillRule="evenodd">
+    <svg className={ className } width="62" height="82" viewBox="0 0 62 82">
+      <g fill={ fill } fillRule="evenodd">
         <polygon fill="#E6E7E8" points="30.857 8.338 2.469 24.729 30.841 41.128 59.352 24.79"/>
         <polygon fill="#FFF" points="30.841 41.128 30.856 81.354 50.919 69.771 59.352 24.79"/>
         <polygon fill="#FFF" points="10.852 69.805 30.856 81.355 30.841 41.128 2.469 24.729"/>

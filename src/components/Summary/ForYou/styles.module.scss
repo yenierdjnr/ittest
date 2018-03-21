@@ -1,8 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet
+);
 
 :export {
   offblack: $color-offblack;
@@ -10,14 +11,14 @@
 }
 
 .container {
-  height: 100%;
+  padding: 10.8rem 0 11.5rem;
+
   display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  grid-template-columns: 1fr auto 1fr;
 }
 
 .list {
-  grid-column: 3 / 10;
-  padding: 12.8rem 0 19.3rem;
+  grid-column: 2 / 3;
 
   display: flex;
   flex-flow: row nowrap;
@@ -30,6 +31,10 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-right: 4.1rem;
+  }
 }
 
 .icon-box {
@@ -57,10 +62,61 @@
 }
 
 .subtitle {
-  margin-bottom: 1.6rem;
+  margin-bottom: 8px;
+  font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
 .text-link {
   margin-left: 8px;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 6.4rem 0 6.6rem;
+  }
+
+  .list {
+    flex-flow: column nowrap;
+  }
+
+  .item {
+    width: 29.5rem;
+
+    &:not(:last-child) {
+      margin-bottom: 5.6rem;
+      margin-right: 0;
+    }
+  }
+
+  .icon-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+
+    &.laptop {
+      padding: 1.167rem 1.5rem 1.233rem 2rem;
+    }
+    & .laptop-icon {
+      width: 6.5rem;
+      height: 7.5rem;
+    }
+
+    &.gear {
+      padding: 1.667rem 2.5rem 1.633rem;
+    }
+    & .gear-icon {
+      width: 5rem;
+      height: 6.7rem;
+    }
+    &.popcorn {
+      padding: 1.583rem 2.483rem 1.517rem 2.317rem;
+    }
+    & .popcorn-icon {
+      width: 5.2rem;
+      height: 6.9rem;
+    }
+  }
 }
