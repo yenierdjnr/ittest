@@ -1,10 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 .courses {
+  grid-area: main;
+
   display: grid;
   @include courses-page-grid-template-columns;
   @include courses-page-grid-template-rows;

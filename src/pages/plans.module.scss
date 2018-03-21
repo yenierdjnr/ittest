@@ -1,10 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 .plans {
+  grid-area: main;
+
   display: grid;
   @include plans-page-grid-template-columns;
   @include plans-page-grid-template-rows;
