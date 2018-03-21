@@ -1,13 +1,12 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 .for-you {
+  grid-area: main;
+
   display: grid;
-  @include for-you-page-grid-template-columns;
-  @include for-you-page-grid-template-rows;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 600px 560px 200px 800px 650px 1000px 200px;
 }
 
 .Hero {
