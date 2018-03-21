@@ -6,7 +6,7 @@ import { ForYouSummary as Summary } from 'Components/Summary';
 import { ForYouVideo as LearnMore } from 'Components/Videos';
 import { ForTeams, VendorList } from 'Components/Shoutout'
 import Enhancements from 'Components/Enhancements';
-import { ForTeamsTestimonials as Testimonials } from 'Components/Testimonials';
+import { ForTeamsForYouTestimonials as Testimonials } from 'Components/Testimonials';
 import { ForYou as Plan } from 'Components/Plans';
 
 

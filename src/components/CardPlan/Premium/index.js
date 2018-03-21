@@ -6,7 +6,7 @@ import TextLink from 'Elements/TextLink';
 
 
 const Premium = ({ className='', info }) => {
-  let container = styles.container;
+  let container = `${styles.container} ${className}`;
   let description = styles.description;
   let perks = styles.perks;
 
@@ -27,10 +27,11 @@ const Premium = ({ className='', info }) => {
       </div>
       <div className={ styles.pricing }>
         <Hx className={ styles.price } color={ styles.purple } size="2">${ info.price }<span className={ styles['per-year'] }>/ year</span></Hx>
-        <span className={ styles.billing }>{ info.billing1 }</span>
         <span className={ styles.billing }>{ info.billing2 }</span>
+        <span className={ styles.billing }>{ info.billing1 }</span>
         <TextLink className={ styles.link } color={ styles.purple } size="1.6">sign up</TextLink>
       </div>
+      <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.purple }}></div>
     </section>
   );
 };

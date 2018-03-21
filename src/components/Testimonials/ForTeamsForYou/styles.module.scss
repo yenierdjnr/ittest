@@ -1,0 +1,29 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
+.container {
+  padding: 13rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: $color-offwhite;
+}
+
+.carousel {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    display: none;
+  }
+}

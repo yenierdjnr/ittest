@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import styles from './styles.module.scss';
 
 import Hx from 'Elements/Hx';
 import ButtonSwitch from 'Elements/ButtonSwitch';
 import { Free, Premium, Standard } from 'Components/CardPlan';
+import styles from './styles.module.scss';
 
 
 class Plans extends Component {
@@ -79,9 +79,9 @@ class Plans extends Component {
         </header>
 
         <div className={ styles['card-plans'] }>
-          <Premium info={ currentPricing.premium } />
-          <Standard info={ currentPricing.standard } />
-          <Free info={ currentPricing.free } />
+          <Premium info={ currentPricing.premium } className={ styles.plan }/>
+          <Standard info={ currentPricing.standard } className={ styles.plan }/>
+          <Free info={ currentPricing.free } className={ styles.plan }/>
         </div>
       </section>
     );

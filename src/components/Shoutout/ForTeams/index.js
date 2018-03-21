@@ -8,8 +8,10 @@ import ButtonLink from 'Elements/ButtonLink';
 const ForTeams = props => {
   return (
     <section className={ styles.container }>
-      <Hx className={ styles.title } color={ styles.offBlack }size="2">Training a whole team? <br/>Learn about our corporate rates.</Hx>
-      <ButtonLink className={ styles['button'] }>training for teams</ButtonLink>
+      <div className={ styles.content }>
+        <Hx className={ styles.title } color={ styles.offBlack }size="2">Training a whole team? <br/>Ask about corporate membership.</Hx>
+        <ButtonLink to="/for-teams/" className={ styles['button'] }>training for teams</ButtonLink>
+      </div>
     </section>
   );
 };
