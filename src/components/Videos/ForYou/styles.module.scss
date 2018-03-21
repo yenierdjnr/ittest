@@ -1,8 +1,11 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet,
+  'upper-phablet': $upper-phablet,
+  'video-width': 669px
+);
 
 :export {
   offBlack: $color-offblack;
@@ -10,45 +13,108 @@
 }
 
 .container {
-  height: 100%;
-  padding-top: 8.5rem;
-
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
-
+  padding: 7.2rem 0 9.9rem;
   background-color: $color-offwhite;
 }
 
+.content {
+  max-width: 1035px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .video-container {
-  grid-column: 3 / 8;
-  height: 376px;
+  width: 669px;
+  margin-top: 1.3rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('Images/forTeams_video@2x.png');
+  position: relative;
+}
+
+.img {
+  width: 100%;
+}
+
+.vidwrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  cursor:pointer;
+}
+
+.for-you-iframe {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  z-index: $z-iframe;
 }
 
 .play-button {
+  position: absolute;
+  z-index: $z-video;
   cursor: pointer;
 }
 
 .intro {
-  grid-column: 9 / 11;
-  padding-right: 19.7rem;
-}
-.video {
-  grid-column: 5 / 10;
+  max-width: 32.5rem;
 }
 
 .title {
   margin-bottom: 2.4rem;
 }
 .summary {
-  padding-right: 1rem;
   line-height: 3.0rem;
 }
 
+
+@include media('<tablet') {
+  .container {
+    padding: 5.6rem 0 0;
+  }
+  .content {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .video-container {
+    order: 2;
+    margin-top: 0;
+  }
+
+  .intro {
+    max-width: 66.9rem;
+    margin-bottom: 7.1rem;
+  }
+  .title {
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+  .summary {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+
+@include media('<upper-phablet') {
+  .intro {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+  }
+}
+
+@include media('<video-width') {
+  .video-container {
+    width: 100%;
+  }
+}
