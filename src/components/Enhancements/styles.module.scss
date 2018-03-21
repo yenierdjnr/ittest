@@ -1,46 +1,44 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
 
 :export {
   offBlack: $color-offblack;
 }
 
 .container {
-  height: 100%;
+  padding: 9.6rem 0 11.3rem;
 
   display: grid;
-  @include primary-fr-1440-grid-template-columns;
-  grid-template-rows: 96px 116px 588px;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto;
 
   background-color: $color-white;
 }
 
 .title {
-  grid-column: 3 / 10;
+  grid-column: 2 / 3;
   grid-row: 2 / 3;
+  justify-self: center;
 
-  padding: 0 14rem;
+  max-width: 76rem;
+  margin-bottom: 8rem;
+
   text-align: center
 }
 
 .learnings {
-  grid-column: 3 / 10;
+  grid-column: 2 / 3;
   grid-row: 3 / 4;
 
-  padding-top: 80px;
+  max-width: 94.9rem;
+  margin: 0 auto;
 
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.hands-on {
-  margin-right: 4rem;
-}
-.practice-exams {
-  margin-left: 1.3rem;
+  display: grid;
+  grid-template-columns: auto minmax(auto, 12rem) auto;
 }
 
 .icon-box {
@@ -58,11 +56,79 @@
 
 .topic-title {
   text-align: left;
-
   margin-bottom: 3.2rem;
 }
 
 .summary {
+  font-size: 1.6rem;
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
+}
+
+.hands-on {
+  grid-column: 1 / 2;
+
+  & .topic-title {
+    max-width: 41.1rem;
+  }
+  & .summary {
+    max-width: 41.3rem;
+  }
+}
+
+.practice-exams {
+  grid-column: 3 / 4;
+
+  & .topic-title {
+    max-width: 30.6rem;
+  }
+  & .summary {
+    max-width: 41.7rem;
+  }
+}
+
+
+@include media('<lower-tablet') {
+  .learnings {
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 0 2.4rem;
+  }
+
+  .hands-on, .practice-exams {
+    grid-column: unset;
+  }
+
+  .hands-on {
+    margin-bottom: 6.4rem;
+  }
+
+  .icon-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+
+    & .icon-labs{
+      width: 6.3rem;
+      height: 7.5rem;
+    }
+    & .icon-exams{
+      width: 5.5rem;
+      height: 7.6rem;
+    }
+  }
+
+  .title, .topic-title {
+    max-width: 41.7rem;
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+
+  .title {
+    margin: 0 2.4rem 7.2rem;
+  }
+  .topic-title {
+    margin-bottom: 2.4rem;
+  }
 }
