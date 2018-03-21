@@ -6,7 +6,8 @@ $breakpoints: (
 );
 
 .container {
-  height: 100%;
+  padding: 7.1rem;
+
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -21,7 +22,6 @@ $breakpoints: (
 }
 
 .item {
-  height: 6rem;
   padding: 1.6rem 2.5rem;
   text-align: center;
 
@@ -32,5 +32,21 @@ $breakpoints: (
     line-height: 2.9rem;
 
     text-transform: capitalize;
+  }
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 3.3rem 0;
+  }
+
+  .item {
+    padding: 1.6rem 2.5rem;
+
+    & span {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+    }
   }
 }

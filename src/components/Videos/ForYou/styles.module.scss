@@ -79,7 +79,7 @@ $breakpoints: (
 
 @include media('<tablet') {
   .container {
-    padding: 5.6rem 0 0;
+    padding: 5.6rem 0 10.2rem;
   }
   .content {
     flex-flow: column nowrap;
@@ -114,6 +114,9 @@ $breakpoints: (
 }
 
 @include media('<video-width') {
+  .container {
+    padding-bottom: 0;
+  }
   .video-container {
     width: 100%;
   }
