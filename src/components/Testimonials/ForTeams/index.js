@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import QuoteCard from 'Components/QuoteCard';
 
 
-const ForTeamsForYouTestimonials = props => {
+const ForTeamsTestimonials = props => {
   return (
     <div className={ styles.container }>
       <div className={ styles.carousel }>
@@ -15,4 +15,4 @@ const ForTeamsForYouTestimonials = props => {
 };
 
 
-export default ForTeamsForYouTestimonials;
+export default ForTeamsTestimonials;

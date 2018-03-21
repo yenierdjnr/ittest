@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../styles.module.scss';
 
 import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';
+import styles from '../styles.module.scss';
 
 
 const Standard = ({ className='', info }) => {

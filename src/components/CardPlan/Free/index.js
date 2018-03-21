@@ -25,6 +25,7 @@ const Free = ({ className='', info }) => {
       <div className={ styles.pricing }>
         <Hx className={ styles.price } color={ styles.darkGreen } size="2">${ info.price }<span className={ styles['per-year'] }>/ year</span></Hx>
         <TextLink className={ styles.link } color={ styles.darkGreen } size="1.6">sign up</TextLink>
+        <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
       </div>
       <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
     </section>

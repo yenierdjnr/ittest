@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import ButtonLink from 'Elements/ButtonLink';
+import styles from './styles.module.scss';
 
 
 const ForTeams = props => {
