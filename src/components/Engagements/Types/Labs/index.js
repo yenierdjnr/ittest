@@ -7,14 +7,13 @@ import { IconArrowRight } from 'Elements/Icons';
 import imageLabs from 'Images/labs.svg';
 import styles from '../styles.module.scss';
 
-
-if (typeof navigator !== `undefined`) {
-  var ani = require('Animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js');
-}
-
 const Labs = props => {
   const { className='' } = props;
-
+  setTimeout(() => {
+    var scriptElem = document.createElement('script');
+    scriptElem.src = "/static/itpservers1_hype_generated_script.js";
+    document.head.appendChild(scriptElem);
+  }, 0);
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ `${styles['info']} ${styles['info--flip']}` }>
@@ -26,12 +25,10 @@ const Labs = props => {
       <div className={ `${styles['img-box']} ${styles['img-box--flip']}` }>
         <img className={ styles['img-labs'] } src={ imageLabs } alt="labs" />
         <div id="itpservers1_hype_container" className={ styles['ani-labs'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
-          <script type="text/javascript" charSet="utf-8" src={ `${ani}?58403` }></script>
         </div>
       </div>
     </div>
   );
 };
-
 
 export default Labs;

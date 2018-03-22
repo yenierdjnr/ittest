@@ -7,21 +7,18 @@ import { IconArrowRight } from 'Elements/Icons';
 import imageExams from 'Images/exams.svg';
 import styles from '../styles.module.scss';
 
-
-if (typeof navigator !== `undefined`) {
-  var ani = require('Animations/ITP_Exams_1.hyperesources/itpexams1_hype_generated_script.js');
-}
-
-
 const Exams = props => {
   const { className='' } = props;
-
+  setTimeout(() => {
+    var scriptElem = document.createElement('script');
+    scriptElem.src = "/static/itpexams1_hype_generated_script.js";
+    document.head.appendChild(scriptElem);
+  }, 0);
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
         <img className={ styles['img-exams'] } src={ imageExams } alt="exams" />
         <div id="itpexams1_hype_container" className={ styles['ani-exams'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
-          <script type="text/javascript" charSet="utf-8" src={ `${ani}?52736` }></script>
         </div>
       </div>
       <div className={ styles.info }>

@@ -7,20 +7,18 @@ import { IconArrowRight } from 'Elements/Icons';
 import imageCourse from 'Images/courses.svg';
 import styles from '../styles.module.scss';
 
-
-if (typeof navigator !== `undefined`) {
-  var ani = require('Animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
-}
-
 const Courses = props => {
   const { className='' } = props;
-
+  setTimeout(() => {
+    var scriptElem = document.createElement('script');
+    scriptElem.src = "/static/itpcontent1_hype_generated_script.js";
+    document.head.appendChild(scriptElem);
+  }, 0);
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
         <img className={ styles['img-courses'] } src={ imageCourse } alt="courses" />
         <div id="itpcontent1_hype_container" className={ styles['ani-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
-          <script type="text/javascript" charSet="utf-8" src={ `${ani}?94808` }></script>
         </div>
       </div>
       <div className={ styles.info }>
