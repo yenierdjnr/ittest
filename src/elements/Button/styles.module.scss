@@ -7,4 +7,8 @@
   @include btn($width: 420px);
   text-transform: capitalize;
   background-color: $color-orange-primary;
+
+  &:hover {
+    background-color: $color-orange-dark;
+  }
 }

@@ -48,6 +48,10 @@ $breakpoints: (
   @include boxShadow;
   background-color: $color-orange-primary;
   text-transform: capitalize;
+
+  &:hover {
+    background-color: $color-orange-dark;
+  }
 }
 
 

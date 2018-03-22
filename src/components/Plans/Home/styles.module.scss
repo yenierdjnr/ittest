@@ -55,11 +55,23 @@ $breakpoints: (
 a.for-teams-link {
   color: $color-green-secondary;
   border: 2px solid $color-green-secondary;
+
+  &:hover {
+    border: none;
+    background-color: $color-green-dark;
+    color: $color-white;
+  }
 }
 
 a.for-you-link {
-  color: $color-blue-primary;
-  border: 2px solid $color-blue-primary;
+  color: $color-blue-dark;
+  border: 2px solid $color-blue-dark;
+
+  &:hover {
+    border: none;
+    background-color: $color-blue-dark;
+    color: $color-white;
+  }
 }
 
 
