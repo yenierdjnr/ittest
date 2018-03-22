@@ -6,7 +6,7 @@
 
   display: grid;
   @include onair-page-grid-template-columns;
-  @include onair-page-grid-template-rows;
+  grid-template-rows: auto auto;
 }
 
 .Hero {

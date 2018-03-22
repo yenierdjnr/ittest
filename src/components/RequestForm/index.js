@@ -31,7 +31,7 @@ class RequestForm extends Component {
             <input className={ styles.item } type="text" placeholder="Company*" />
             <input className={ styles.item } type="tel" placeholder="Phone*" />
 
-            <select className={ styles.item }
+            <select className={ `${styles.item} ${styles.selector}` }
               value={ this.state.value }
               onChange={ this.handleChange }>
               <option value="">Region*</option>

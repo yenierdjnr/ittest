@@ -32,6 +32,10 @@
   line-height: 2.4rem;
 }
 
+.input:focus {
+  outline: none;
+}
+
 .icon {
   cursor: pointer;
 }

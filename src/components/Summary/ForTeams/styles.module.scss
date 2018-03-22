@@ -1,7 +1,4 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 :export {
@@ -66,5 +63,5 @@
 }
 
 .text-link {
-  margin-left: 8px;
+  // margin-left: 8px;
 }
