@@ -9,7 +9,8 @@ class Stats extends Component {
     super(props);
 
     this.state = {
-      hasAnimated: false
+      hasAnimated: false,
+      intervalId: ''
     };
   }
 
@@ -19,6 +20,7 @@ class Stats extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
+    window.clearInterval(this.state.intervalId);
   }
 
   isInViewport = element => {
@@ -47,6 +49,29 @@ class Stats extends Component {
         });
       }
     }
+  };
+
+  triggerInterval = () => {
+    return setInterval(function() {
+      const comm = document.getElementsByClassName('comm')[0];
+
+      if (this.isInViewport(comm)) {
+        let num = comm.innerHTML.replace(',', '');
+        let countUp = parseInt(num) + 1;
+
+        const len = `${countUp}`.length;
+        const front = `${countUp}`.substring(0, 2);
+        const back = `${countUp}`.substring(2, len);
+
+        comm.innerHTML = `${front},${back}`;
+      }
+    }.bind(this), 1500);
+  }
+
+  onComplete = e => {
+    this.setState({
+      intervalId: this.triggerInterval()
+    });
   };
 
   render() {
@@ -88,6 +113,7 @@ class Stats extends Component {
             useEasing={true}
             useGrouping={true}
             separator=","
+            onComplete={this.onComplete}
            />
           <p className={ styles.summary}>members of the ITProTV learning community</p>
         </div>
