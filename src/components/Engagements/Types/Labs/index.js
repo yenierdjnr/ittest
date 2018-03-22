@@ -11,9 +11,11 @@ const Labs = props => {
   const { className='' } = props;
 
   setTimeout(() => {
-    var scriptElem = document.createElement('script');
-    scriptElem.src = "/static/itpservers1_hype_generated_script.js";
-    document.head.appendChild(scriptElem);
+    if (typeof document !== 'undefined') {
+      const scriptElem =  document.createElement('script');
+      scriptElem.src = '/static/itpservers1_hype_generated_script.js';
+      document.head.appendChild(scriptElem);
+    }
   }, 0);
 
   return (
