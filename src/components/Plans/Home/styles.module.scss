@@ -55,22 +55,30 @@ $breakpoints: (
 a.for-teams-link {
   color: $color-green-secondary;
   border: 2px solid $color-green-secondary;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
 
   &:hover {
     border: none;
     background-color: $color-green-dark;
     color: $color-white;
+    transform: translateY(-4px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
   }
 }
 
 a.for-you-link {
   color: $color-blue-dark;
   border: 2px solid $color-blue-dark;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
 
   &:hover {
     border: none;
     background-color: $color-blue-dark;
     color: $color-white;
+    transform: translateY(-4px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
   }
 }
 

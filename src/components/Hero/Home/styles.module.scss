@@ -48,9 +48,13 @@ $breakpoints: (
   @include boxShadow;
   background-color: $color-orange-primary;
   text-transform: capitalize;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
 
   &:hover {
     background-color: $color-orange-dark;
+    transform: translateY(-4px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
   }
 }
 
