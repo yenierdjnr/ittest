@@ -14,6 +14,8 @@ const HomeTestimonials = props => {
       <Hx className={ title } color={ offBlack } size="2">Join a community of IT Pros sharpening their skills the fun way.</Hx>
       <div className={ carousel }>
         <QuoteCard />
+        <QuoteCard />
+        <QuoteCard />
       </div>
     </div>
   );

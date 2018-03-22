@@ -33,7 +33,6 @@ $breakpoints: (
   justify-content: center;
 }
 
-
 @include media('<lower-tablet') {
   .container {
     padding: 6.4rem 0;
