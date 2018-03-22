@@ -17,7 +17,7 @@ const ForTeamsSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">full course library</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud & more. Virtual labs and practice exams included. <TextLink size="1.6" weight="400" className={ styles['text-link'] }>view courses</TextLink></Para>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud & more. Virtual labs and practice exams included. <TextLink size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>view courses</TextLink></Para>
           </div>
         </li>
         <li className={ styles.item }>

@@ -78,12 +78,12 @@ class Plans extends Component {
         </section>
 
         <section className={ styles.Pricing }>
-          <Pricing info={ currentPricing} />
+          <Pricing info={ currentPricing } />
         </section>
 
         <section className={ styles.Benefits }>
           <Benefits />
-        </section>
+       </section>
       </main>
     );
   }

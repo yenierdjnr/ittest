@@ -11,7 +11,7 @@
   @include primary-fr-1440-grid-template-columns;
 
   background-color: $color-purple-dark;
-  background-image: url('Images/pattern.svg');
+  background-image: url('Images/for-teams_pattern.svg');
   background-size: contain;
 }
 
@@ -47,6 +47,8 @@
   margin-bottom: 2.4rem;
 }
 .summary {
+  max-width: 29rem;
+  font-size: 1.6rem;
   text-align: center;
   line-height: 2.4rem;
 }

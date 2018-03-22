@@ -14,14 +14,14 @@ const TeamNeeds = props => {
           <IconBars />
         </div>
         <Hx className={ styles.title } size="4">New content added every day</Hx>
-        <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
+        <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
       </div>
       <div className={ styles.needs }>
         <div className={ styles['icon-box'] }>
           <IconCamera />
         </div>
         <Hx className={ styles.title } size="4">Everything your IT team needs</Hx>
-        <Para className={ styles.summary }>Get all of your training in one convenient place. All of the major vendors and subjects, all current and all taught by experienced IT experts.</Para>
+        <Para className={ styles.summary }>Get all of your training in one convenient place. All of the major vendors and subjects, all current and all taught by experienced IT experts.</Para>
       </div>
       <div className={ styles['on-the-go'] }>
         <div className={ styles['icon-box'] }>

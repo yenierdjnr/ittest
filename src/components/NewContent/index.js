@@ -13,7 +13,7 @@ const NewContent = props => {
     <section className={ `${className} ${styles.container}` }>
       <div className={ styles.summary }>
         <Hx className={ styles.title } size="2">New content added daily.</Hx>
-        <Para className={ styles.subtitle }>Don't see what you need? New courses are added everyday. Join for free to see what's coming next.</Para>
+        <Para className={ styles.subtitle }>Don't see what you need? We add new course content every day. Join for free to see what's coming next.</Para>
       </div>
       <ButtonLink className={ styles['button-layout'] } to='/plans'>try it free</ButtonLink>
     </section>

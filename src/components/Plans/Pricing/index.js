@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './styles.module.scss';
 
 import { Enterprise, Free, Premium, Standard } from 'Components/CardPlan';
+import styles from './styles.module.scss';
 
 
 const Pricing = props => {

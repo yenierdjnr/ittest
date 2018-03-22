@@ -39,7 +39,7 @@ $breakpoints: (
 }
 .pricing {
   height: 24rem;
-  padding: 3.2rem 0 2.4rem;
+  padding: 2.4rem 0 2.4rem;
 
   display: flex;
   flex-flow: column nowrap;
@@ -63,9 +63,7 @@ $breakpoints: (
 
 .perks {
   width: 18.1rem;
-
   display: block;
-  width: 18.1rem;
 
   color: $color-grey-dark;
   @include adelle-sans-regular;
@@ -103,15 +101,6 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
-.container.plans {
-  height: 55rem;
-}
-.description.plans {
-  height: 32rem;
-}
-.perks.plans {
-  padding: 0 4.4rem;
-}
 .price.plans {
   padding: 0 2rem;
   line-height: 3.2rem;

@@ -5,24 +5,28 @@
 
 
 .container {
-  height: 100%;
   padding: 12rem 0 20.8rem;
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
 
   background-image: url('Images/forTeams_hero@2x.png');
   background-size: 100%;
 }
 
 .intro {
-  grid-column: 3 / 10;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-h1.title {
+.title {
+  max-width: 80rem;
   margin-bottom: 3.6rem;
 }
 
 .subtitle {
-  padding-right: 327px;
+  max-width: 69.7rem;
+
+  font-size: 2.8rem;
   line-height: 4.2rem;
 }

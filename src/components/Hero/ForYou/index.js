@@ -11,7 +11,7 @@ const ForYouHero = ({ className='' }) => {
     <section className={ styles.container }>
       <div className={ styles['intro'] }>
         <Hx size="1" className={ styles['title'] }>Learn IT, pass your certs,  & accelerate your career.</Hx>
-        <Para className={ styles['subtitle'] }>Whether you're new to IT or a pro, binge on TV that will  change your life</Para>
+        <Para className={ styles['subtitle'] }>Whether you're new to IT or a pro, binge on TV that will  change your life.</Para>
         <ButtonLink>start free trial</ButtonLink>
       </div>
     </section>

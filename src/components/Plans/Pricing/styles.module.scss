@@ -1,12 +1,11 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+
+);
 
 .container {
-  height: 100%;
-
   display: grid;
   grid-template-columns: repeat(4, 27rem);
   grid-column-gap: 4rem;

@@ -22,10 +22,11 @@ class RequestForm extends Component {
     return (
       <section className={ styles.container }>
         <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo,  or trial? Get in touch!</Hx>
+
         <form action="">
           <div className={ styles['about-you']}>
-            <Hx color={ styles.offBlack } size="6" className={ styles.title }>about you</Hx>
-            <input className={ styles.item } type="text" placeholder="First and Last Name*" />
+            <input className={ styles.item } type="text" placeholder="First Name*" />
+            <input className={ styles.item } type="text" placeholder="Last Name*" />
             <input className={ styles.item } type="email" placeholder="Email*" />
             <input className={ styles.item } type="text" placeholder="Company*" />
             <input className={ styles.item } type="tel" placeholder="Phone*" />
@@ -42,8 +43,6 @@ class RequestForm extends Component {
           </div>
 
           <div className={ styles['your-needs']}>
-            <Hx color={ styles.offBlack } size="6" className={ styles.title }>your needs</Hx>
-
             <div className={ styles['question-box']}>
               <span className={ styles.question }>Would you like a live demo of ITProTV?*</span>
               <div className={ styles['radio-list']}>
