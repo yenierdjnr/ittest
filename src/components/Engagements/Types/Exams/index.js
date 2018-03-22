@@ -9,11 +9,13 @@ import styles from '../styles.module.scss';
 
 const Exams = props => {
   const { className='' } = props;
+
   setTimeout(() => {
     var scriptElem = document.createElement('script');
     scriptElem.src = "/static/itpexams1_hype_generated_script.js";
     document.head.appendChild(scriptElem);
   }, 0);
+
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>

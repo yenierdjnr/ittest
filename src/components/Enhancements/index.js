@@ -17,7 +17,7 @@ const Enhancements = props => {
             <IconLabs className={ styles['icon-labs'] }/>
           </div>
           <Hx className={ styles['topic-title'] } color={ styles.offBlack } size="4">Hands-on learning with hosted virtual labs</Hx>
-          <Para className={ styles.summary } color={ styles.offBlack }>Try out your skills on virtual machine labs with multiple  instances of Windows Server and Desktop Clients on your OSX, Linux, iOS device, and Windows platform.</Para>
+          <Para className={ styles.summary } color={ styles.darkGrey }>Try out your skills on virtual machine labs with multiple  instances of Windows Server and Desktop Clients on your OSX, Linux, iOS device, and Windows platform.</Para>
           <TextLink>view virtural labs</TextLink>
         </div>
         <div className={ styles['practice-exams'] }>
@@ -25,7 +25,7 @@ const Enhancements = props => {
             <IconExams className={ styles['icon-exams'] }/>
           </div>
           <Hx className={ styles['topic-title'] } color={ styles.offBlack } size="4">Pass certifications with  practice exams</Hx>
-          <Para className={ styles.summary } color={ styles.offBlack }>Prepare for tough certification examinations with current tests from Transcender®. Take and re-take to ensure you're ready before you sit for the exam.</Para>
+          <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Transcender®. Take and re-take to ensure you're ready before you sit for the exam.</Para>
           <TextLink>see practice tests</TextLink>
         </div>
       </div>

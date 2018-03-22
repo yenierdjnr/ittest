@@ -9,17 +9,19 @@ import styles from '../styles.module.scss';
 
 const Labs = props => {
   const { className='' } = props;
+
   setTimeout(() => {
     var scriptElem = document.createElement('script');
     scriptElem.src = "/static/itpservers1_hype_generated_script.js";
     document.head.appendChild(scriptElem);
   }, 0);
+
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ `${styles['info']} ${styles['info--flip']}` }>
         <span className={ styles['sequence-num'] }>_02</span>
         <Hx className={ styles.title } color={ styles.offBlack }>Hands-on Learning with Hosted Virtual Labs</Hx>
-        <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.offBlack }>Try out your skills on virtual machine labs with multiple instances of Windows Server and Desktop Clients on your OSX, Linux, iOS device,  and Windows platform.</Para>
+        <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.darkGrey }>Try out your skills on virtual machine labs with multiple instances of Windows Server and Desktop Clients on your OSX, Linux, iOS device,  and Windows platform.</Para>
         <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view vitural labs</TextLink>
       </div>
       <div className={ `${styles['img-box']} ${styles['img-box--flip']}` }>

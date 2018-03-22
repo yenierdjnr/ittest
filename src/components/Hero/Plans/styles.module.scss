@@ -1,28 +1,46 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'lower-phone': $lower-phone
+);
 
 .container {
-  height: 100%;
-
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
-
   background-color: $color-offblack;
   background-image: url('Images/pricing_pattern.svg');
 }
 
 .intro {
-  grid-column: 3 / 10;
-  padding-top: 9.6rem;
+  padding: 9.6rem 0 19rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   margin-bottom: 5.6rem;
+
+  font-size: 6.4rem;
   text-align: center;
 }
 .switch {
   margin: 0 auto;
+}
+
+
+@include media('<lower-phone') {
+  .intro {
+    padding: 6.1rem 0 13.1rem;
+  }
+
+  .title {
+    width: 17rem;
+    margin-bottom: 2.7rem;
+
+    font-size: 4.8rem;
+    letter-spacing: 0.4px;
+    line-height: 5rem;
+  }
 }

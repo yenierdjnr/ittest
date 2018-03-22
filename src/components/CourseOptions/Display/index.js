@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import { Category } from 'Elements/Flags';
 
 
-const categories = ['Adobe', 'Apple', 'Amazon', 'Cisco', 'CompTIA', 'DevPro', 'EC Council', 'ISACA', '(ISC)2', 'Microsoft', 'Office', 'Project Management', 'Technical Skills', 'VMware'];
+const categories = ['Apple', 'Amazon', 'Cisco', 'CompTIA', 'EC Council', 'Microsoft', 'Adobe', 'DevPro', 'ISACA', '(ISC)2', 'OfficePro', 'Service/Project Mgmt.', 'Technical Skills', 'VMware'];
 
 const Display = props => {
   const { className='' } = props;

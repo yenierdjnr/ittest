@@ -9,8 +9,6 @@ $breakpoints: (
 
 .container {
   display: grid;
-  // @include primary-fr-1440-grid-template-columns;
-  // grid-template-columns: 1fr 208px 314px 41px 137px 40px 137px 41px 314px 208px 1fr;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 315px 112px 315px 112px 315px;
 }

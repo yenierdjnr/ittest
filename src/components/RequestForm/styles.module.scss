@@ -1,7 +1,4 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 :export {
@@ -9,26 +6,24 @@
 }
 
 .container {
-  height: 100%;
-  width: 50rem;
-  padding: 4.8rem 4rem 5.4rem;
+  max-width: 50rem;
+  padding: 4.8rem 4rem;
 
   background-color: $color-offwhite;
-  box-shadow: 0 4px 20px 4px rgba(21,23,70,0.18);
+  box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.18);
   border-radius: 2px;
 }
 
 .form-title {
-  padding-right: 86px;
-  margin-bottom: 3.6rem;
+  width: 33.4rem;
+  margin-bottom: 4.8rem;
 }
 
 .about-you {
-  height: 39.2rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  margin-bottom: 3.6rem;
+  margin-bottom: 3.2rem;
 
   & .item {
     width: 100%;
@@ -43,19 +38,18 @@
     border: 1px solid $color-grey-secondary;
     border-radius: 2px;
     background-color: $color-white;
+
+    &:not(:last-child) {
+      margin-bottom: 2.4rem;
+    }
   }
 }
 
 .your-needs {
-  height: 26.6rem;
   margin-bottom: 4.8rem;
 
   display: flex;
   flex-flow: column nowrap;
-
-  & .title {
-    margin-bottom: 1.6rem;
-  }
 
   & .textarea {
     width: 100%;
@@ -71,16 +65,12 @@
   }
 }
 
-.title {
-  text-transform: capitalize;
-}
-
 .question-box {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.8rem;
 }
 
 .question {

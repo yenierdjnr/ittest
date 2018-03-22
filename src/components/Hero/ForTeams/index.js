@@ -10,7 +10,7 @@ const ForTeamsHero = ({ className='' }) => {
     <section className={ styles.container }>
       <div className={ styles['intro'] }>
         <Hx size="1" className={ styles['title'] }>Flexible Online Training for IT Teams of All Sizes</Hx>
-        <Para size="2.8"className={ styles['subtitle'] }>Empower your team with the IT skills they need through  binge-worthy learning™ they'll enjoy watching.</Para>
+        <Para className={ styles['subtitle'] }>Empower your team with the IT skills they need through  binge-worthy learning™ they'll enjoy watching.</Para>
       </div>
     </section>
   );

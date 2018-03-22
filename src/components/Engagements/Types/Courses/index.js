@@ -9,11 +9,13 @@ import styles from '../styles.module.scss';
 
 const Courses = props => {
   const { className='' } = props;
+
   setTimeout(() => {
     var scriptElem = document.createElement('script');
     scriptElem.src = "/static/itpcontent1_hype_generated_script.js";
     document.head.appendChild(scriptElem);
   }, 0);
+
   return (
     <div className={ `${className} ${styles.container}` }>
       <div className={ styles['img-box'] }>
@@ -24,7 +26,7 @@ const Courses = props => {
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_01</span>
         <Hx className={ styles.title } color={ styles.offBlack }>Library of Engaging Courses</Hx>
-        <Para className={ `${styles.summary} ${styles.courses}` } color={ styles.offBlack }>From CompTIA, Cisco, and Microsoft to Security and Cloud Fundamentals, you can learn it all. New content is added daily  so you can stay current.</Para>
+        <Para className={ `${styles.summary} ${styles.courses}` } color={ styles.darkGrey }>From CompTIA, Cisco, and Microsoft to Security and Cloud Fundamentals, you can learn it all. New content is added daily  so you can stay current.</Para>
         <TextLink to="/courses/" className={ styles.link } color={ styles.orangePrimary }>browse course library</TextLink>
       </div>
     </div>

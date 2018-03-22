@@ -6,13 +6,13 @@ $breakpoints: (
 );
 
 .container {
-  padding: 13rem 0;
+  padding: 8rem 0;
 
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 
-  background-color: $color-offwhite;
+  background-color: $color-white-light;
 }
 
 .carousel {
