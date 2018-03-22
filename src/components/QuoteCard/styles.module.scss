@@ -11,10 +11,10 @@ $breakpoints: (
 
 
 .container {
-  // width: 71rem;
-  // height: 39rem;
+  width: 71rem;
+  height: 39rem;
   padding: 2.4rem 5.6rem 3.6rem 5rem;
-  margin: 1rem;
+  margin: 0 2rem;
   position: relative;
 
   display: flex;
@@ -36,6 +36,7 @@ $breakpoints: (
 }
 
 .comment {
+  max-width: 54rem;
   margin-top: 2rem;
 }
 
