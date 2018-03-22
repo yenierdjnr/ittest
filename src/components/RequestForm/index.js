@@ -10,30 +10,54 @@ class RequestForm extends Component {
     super(props);
 
     this.state = {
-      value: ''
+      pardot_email: '',
+      pardot_firstName: '',
+      pardot_lastName: '',
+      pardot_company: '',
+      pardot_phone: '',
+      pardot_region: '',
+      pardot_demo: 'yes',
+      pardot_comments: ''
     };
   }
 
-  handleChange = e => {
-    console.log('request form handle change', e);
+  handleSubmit = event => {
+    event.preventDefault();
+    // fetch('http://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
+      // method: 'POST',
+      // body: this.state
+    // });
+  }
+
+  handleInput = e => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
   }
 
   render() {
+    const {
+      pardot_email, pardot_firstName, pardot_lastName,
+      pardot_company, pardot_phone, pardot_region,
+      pardot_demo, pardot_comments
+    } = this.state;
+
     return (
       <section className={ styles.container }>
         <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo,  or trial? Get in touch!</Hx>
 
-        <form action="">
+        <form onSubmit={this.handleSubmit}>
           <div className={ styles['about-you']}>
-            <input className={ styles.item } type="text" placeholder="First Name*" />
-            <input className={ styles.item } type="text" placeholder="Last Name*" />
-            <input className={ styles.item } type="email" placeholder="Email*" />
-            <input className={ styles.item } type="text" placeholder="Company*" />
-            <input className={ styles.item } type="tel" placeholder="Phone*" />
+            <input className={ styles.item } type="text" value={ pardot_firstName } name="pardot_firstName" placeholder="First Name*" onChange={ this.handleInput }/>
+            <input className={ styles.item } type="text" value={ pardot_lastName } name="pardot_lastName" placeholder="Last Name*" onChange={ this.handleInput }/>
+            <input className={ styles.item } type="email" value={ pardot_email } name="pardot_email" placeholder="Email*" onChange={ this.handleInput }/>
+            <input className={ styles.item } type="text" value={ pardot_company } name="pardot_company" placeholder="Company*" onChange={ this.handleInput }/>
+            <input className={ styles.item } type="tel" value={ pardot_phone } name="pardot_phone" placeholder="Phone*" onChange={ this.handleInput }/>
 
             <select className={ `${styles.item} ${styles.selector}` }
-              value={ this.state.value }
-              onChange={ this.handleChange }>
+              name="pardot_region"
+              value={ pardot_region }
+              onChange={ this.handleInput }>
               <option value="">Region*</option>
               <option value="northamerica">North America</option>
               <option value="emea">EMEA</option>
@@ -46,12 +70,12 @@ class RequestForm extends Component {
             <div className={ styles['question-box']}>
               <span className={ styles.question }>Would you like a live demo of ITProTV?*</span>
               <div className={ styles['radio-list']}>
-                <input id="r1" className={ styles.radio } type="radio" name="live-demo" value="yes" /><label className={ styles.label } htmlFor="r1">Yes</label>
-                <input id="r2" className={ styles.radio } type="radio" name="live-demo" value="no" /><label className={ styles.label } htmlFor="r2">No</label>
+                <input id="r1" className={ styles.radio } type="radio" name="pardot_demo" value="yes" checked={ pardot_demo === 'yes' } onChange={ this.handleInput }/><label className={ styles.label } htmlFor="r1">Yes</label>
+                <input id="r2" className={ styles.radio } type="radio" name="pardot_demo" value="no" checked={ pardot_demo === 'no' } onChange={ this.handleInput }/><label className={ styles.label } htmlFor="r2">No</label>
               </div>
             </div>
 
-            <textarea className={ styles.textarea } name="needs" placeholder="Tell us about your company’s training needs." />
+            <textarea className={ styles.textarea } name="pardot_comments" value={ pardot_comments } placeholder="Tell us about your company’s training needs." onChange={ this.handleInput }/>
           </div>
 
           <Button>send request</Button>
