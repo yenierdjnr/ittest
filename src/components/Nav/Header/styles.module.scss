@@ -23,6 +23,10 @@ $breakpoints: (
     letter-spacing: 0.5px;
     line-height: 2rem;
     text-transform: uppercase;
+
+    &:hover {
+      color: $color-blue-primary;
+    }
   }
 
   &.active {
