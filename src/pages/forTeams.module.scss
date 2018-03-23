@@ -5,8 +5,8 @@
   grid-area: main;
 
   display: grid;
-  @include for-teams-page-grid-template-columns;
-  grid-template-rows: 500px 80px 940px 80px 560px 620px 800px 750px auto;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto 80px 940px auto auto auto auto auto auto;
 }
 
 .Hero {
@@ -16,13 +16,7 @@
 
 .Summary {
   grid-column: 1 / -1;
-  grid-row: 3 / 5;
-}
-
-.Request-Form {
-  grid-column: 7 / 11;
-  grid-row: 2 / 4;
-  padding-left: 8rem;
+  grid-row: 2 / 5;
 }
 
 .Track-Results {

@@ -41,9 +41,10 @@ class RequestForm extends Component {
       pardot_company, pardot_phone, pardot_region,
       pardot_demo, pardot_comments
     } = this.state;
+    const { className='' } = this.props;
 
     return (
-      <section className={ styles.container }>
+      <section className={ `${styles.container} ${className}` }>
         <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo,  or trial? Get in touch!</Hx>
 
         <form onSubmit={this.handleSubmit}>
@@ -78,7 +79,7 @@ class RequestForm extends Component {
             <textarea className={ styles.textarea } name="pardot_comments" value={ pardot_comments } placeholder="Tell us about your company’s training needs." onChange={ this.handleInput }/>
           </div>
 
-          <Button>send request</Button>
+          <Button className={ styles.button }>send request</Button>
         </form>
       </section>
     );

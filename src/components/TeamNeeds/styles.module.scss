@@ -1,14 +1,12 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet
+);
 
 .container {
-  height: 100%;
-
-  display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  padding: 12rem 0 13rem;
 
   background-color: $color-purple-dark;
   background-image: url('Images/for-teams_pattern.svg');
@@ -29,20 +27,17 @@
   background-color: #2F2983;
 }
 
-.watch {
-  grid-column: 3 / 4;
-  padding-top: 12rem;
-}
-.needs {
-  grid-column: 5 / 8;
-  padding-top: 12rem;
-}
-.on-the-go {
-  grid-column: 9 / 10;
-  padding-top: 12rem;
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .title {
+  max-width: 26.4rem;
   text-align: center;
   margin-bottom: 2.4rem;
 }
@@ -51,4 +46,54 @@
   font-size: 1.6rem;
   text-align: center;
   line-height: 2.4rem;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 7.2rem 4rem 7.4rem;
+  }
+
+  .content {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  .icon-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+
+    & .camera {
+      width: 6.5rem;
+      height: 7.5rem;
+    }
+    & .bars {
+      width: 5.2rem;
+      height: 6.9rem;
+    }
+    & .mobile {
+      width: 4.9rem;
+      height: 6.5rem;
+    }
+  }
+
+  .title {
+    margin-bottom: 1.6rem;
+  }
+
+  .summary {
+    max-width: 29.5rem;
+  }
 }

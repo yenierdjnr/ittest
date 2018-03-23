@@ -1,20 +1,27 @@
 @import '~Styles/main';
 
 
+$breakpoints: (
+  'mid-uppper-tablet': $mid-uppper-tablet
+);
+
 :export {
   offblack: $color-offblack;
   greyDark: $color-grey-dark;
 }
 
 .container {
-  height: 100%;
   display: grid;
-  @include primary-fr-1440-grid-template-columns;
+  grid-template-columns: 1fr auto minmax(auto, 4rem) 50rem 1fr;
+  grid-template-rows: 8rem auto 8rem;
 }
 
 .list {
-  grid-column: 3 / 7;
   padding: 12.8rem 0 19.3rem;
+
+  grid-column: 2 / 3;
+  grid-row: 2 / 4;
+
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -22,33 +29,32 @@
 
 .item {
   height: 12rem;
-  width: 100%;
 
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+
+  &:not(:last-child) {
+    margin-bottom: 16.3rem;
+  }
 }
 
 .icon-box {
   width: 12rem;
   height: 12rem;
 
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 6rem;
   background-color: $color-white-light;
-
-  &.laptop {
-    padding: 1.4rem 1.8rem 1.5rem 2.4rem;
-  }
-  &.popcorn {
-    padding: 1.9rem 2.9rem;
-  }
-  &.coin {
-    padding: 2.2rem 3.1rem 2.1rem;
-  }
 }
 
 .summary {
-  width: 37.6rem;
+  max-width: 37.6rem;
+  margin-left: 3.6rem;
 }
 
 
@@ -62,6 +68,64 @@
   line-height: 2.4rem;
 }
 
-.text-link {
-  // margin-left: 8px;
+.RequestForm {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+
+@include media('<mid-uppper-tablet') {
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+
+  .RequestForm {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-self: center;
+  }
+
+  .list {
+    padding: 5.6rem 0 6rem;
+
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    align-items: center;
+  }
+
+  .item {
+    height: unset;
+    flex-flow: column nowrap;
+    width: 29.5rem;
+
+    &:not(:last-child) {
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  .summary {
+    width: 28.1rem;
+    margin-left: 0;
+  }
+
+  .icon-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+
+    & .laptop-icon {
+      width: 6.5rem;
+      height: 7.5rem;
+    }
+    & .popcorn-icon {
+      width: 5.2rem;
+      height: 6.9rem;
+    }
+    & .coin-icon {
+      width: 4.9rem;
+      height: 6.5rem;
+    }
+  }
 }

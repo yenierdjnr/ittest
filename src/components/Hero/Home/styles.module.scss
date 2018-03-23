@@ -1,12 +1,13 @@
 @import '~Styles/main';
 
+
 $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
 .container {
-  width: 100%;
-  height: 100%;
+  padding: 13.6rem 0 19.6rem;
+
   display: grid;
   grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
 
@@ -16,9 +17,7 @@ $breakpoints: (
 }
 
 .intro {
-  grid-column: 2/3;
-  padding: 13.6rem 0 19.6rem;
-  height: 100%;
+  grid-column: 2 / 3;
 
   display: flex;
   flex-flow: column nowrap;

@@ -12,7 +12,7 @@ const ForYouSummary = props => {
     <section className={ styles.container }>
       <ul className={ styles.list }>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.laptop}` }>
+          <div className={ styles['icon-box'] }>
             <IconLaptop className={ styles['laptop-icon'] }/>
           </div>
           <div className={ styles.summary }>
@@ -22,7 +22,7 @@ const ForYouSummary = props => {
           </div>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.gear}` }>
+          <div className={ styles['icon-box'] }>
           <IconGear className={ styles['gear-icon'] }/>
           </div>
           <div className={ styles.summary }>
@@ -32,7 +32,7 @@ const ForYouSummary = props => {
           </div>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.popcorn}` }>
+          <div className={ styles['icon-box'] }>
             <IconPopcorn className={ styles['popcorn-icon'] }/>
           </div>
           <div className={ styles.summary }>

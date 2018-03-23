@@ -8,8 +8,8 @@ $breakpoints: (
 
 
 .container {
-  height: 100%;
   padding: 12rem 0;
+
   display: grid;
   grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
 
@@ -24,7 +24,7 @@ $breakpoints: (
 }
 
 .title {
-  width: 70rem;
+  max-width: 70rem;
   margin-bottom: 3.6rem;
 }
 

@@ -5,6 +5,7 @@ import { IconLaptop, IconPopcorn, IconCoin } from 'Elements/Icons';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
+import RequestForm from 'Components/RequestForm';
 
 
 const ForTeamsSummary = props => {
@@ -39,6 +40,7 @@ const ForTeamsSummary = props => {
           </div>
         </li>
       </ul>
+      <RequestForm className={ styles.RequestForm }/>
     </section>
   );
 };

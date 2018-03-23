@@ -4,7 +4,7 @@ import styles from './forTeams.module.scss';
 import { ForTeamsHero as Hero } from 'Components/Hero';
 import { ForTeamsSummary as Summary } from 'Components/Summary';
 import RequestForm from 'Components/RequestForm';
-import TrackResults from 'Components/TrackResults';
+import { ForTeamsVideo as TrackResults } from 'Components/Videos';
 import TeamNeeds from 'Components/TeamNeeds';
 import Enhancements from 'Components/Enhancements';
 import TeamCerts from 'Components/TeamCerts';
@@ -22,10 +22,6 @@ const ForTeams = props => {
         <Summary />
       </section>
 
-      <section className={ styles['Request-Form'] }>
-        <RequestForm />
-      </section>
-
       <section className={ styles['Track-Results'] }>
         <TrackResults />
       </section>
@@ -34,6 +30,7 @@ const ForTeams = props => {
         <TeamNeeds />
       </section>
 
+{/*}
       <section className={ styles.Enhancements }>
         <Enhancements />
       </section>
@@ -44,7 +41,7 @@ const ForTeams = props => {
 
       <section className={ styles.Testimonials }>
         <Testimonials />
-      </section>
+      </section>*/}
     </main>
   );
 }
