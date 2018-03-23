@@ -1,24 +1,96 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'desktop': $desktop,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
+);
+
+:export {
+  darkGrey: $color-grey-dark;
+
+}
 
 .container {
-  height: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr 390px 1050px 1fr;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .calendar {
-  grid-column: 2 / 3;
+  min-width: 39rem;
+  background-color: $color-offwhite;
+  text-align: center;
 }
 
-.frame {
-  height: 667px;
+.intro {
+  padding: 2rem 1.6rem 1.4rem 3.3rem;
+  border-bottom: 1px solid $color-white-dark;
+}
+
+.title {
+  width: 21.4rem;
+  margin-bottom: 4px;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  line-height: 2rem;
+}
+.subtitle {
+  width: 23rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+iframe.frame {
+  height: 100%;
+  width: 31.6rem;
 }
 
 .video {
-  grid-column: 3 / 4;
+  flex-basis: 1050px;
+}
+
+
+@include media('<desktop') {
+  .container {
+    flex-flow: column nowrap;
+    align-items: center;
+
+    background-color: $color-offwhite;
+  }
+
+  .calendar {
+    min-width: 37.5rem;
+    height: 67.1rem;
+    order: 2;
+    text-align: center;
+    border: 1px solid $color-white-dark;
+  }
+
+  .video {
+    width: 100%;
+    flex-basis: unset;
+  }
+}
+
+
+@include media('<=lower-phone') {
+  .calendar {
+    border: unset;
+  }
+  .video {
+    width: 100%;
+    flex-basis: unset;
+  }
+
+}
+
+
+@include media('<=small-phone') {
+  .calendar {
+    min-width: 32rem;
+  }
 }

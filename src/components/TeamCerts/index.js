@@ -9,11 +9,10 @@ import styles from './styles.module.scss';
 
 const TeamCerts = ({ className='' }) => {
   const handlePlay = e => {
-    const vidWrap = document.getElementById('vidwrap');
-    const playButton = document.getElementsByClassName(styles['play-button'])[0];
+    const vidWrap = document.getElementById('vidwrap-team-certs');
 
     if (vidWrap) {
-      vidWrap.innerHTML = `<iframe class="${styles['for-teams-2-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/YnK0TVELxZY?rel=0&amp;modestbranding=1&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${styles['for-teams-2-iframe']}" width="560"height="315" src="https://www.youtube.com/embed/EAUbTXrvUfk?rel=0&amp;controls=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media"allowfullscreen></iframe>`;
     }
   };
 
@@ -24,7 +23,7 @@ const TeamCerts = ({ className='' }) => {
 
         <div className={ styles.info }>
           <div id="background-video" className={ `${styles['video-container']} ${className}` } onClick={ handlePlay }>
-            <div id="vidwrap" className={ styles.vidwrap }></div>
+            <div id="vidwrap-team-certs" className={ styles.vidwrap }></div>
             <IconPlay className={ styles['play-button'] }/>
             <img className={ styles.img } src={ img } alt="team video"/>
           </div>

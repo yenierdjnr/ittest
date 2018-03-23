@@ -10,7 +10,6 @@ import styles from './styles.module.scss';
 const ForYouVideo = ({ className='' }) => {
   const handlePlay = e => {
     const vidWrap = document.getElementById('vidwrap');
-    const playButton = document.getElementsByClassName(styles['play-button'])[0];
 
     if (vidWrap) {
       vidWrap.innerHTML = `<iframe class="${styles['for-you-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/inmvz4upUMU?rel=0&amp;modestbranding=1&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;

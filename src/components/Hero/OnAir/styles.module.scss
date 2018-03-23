@@ -1,6 +1,10 @@
 @import '~Styles/main';
 
 
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
 .container {
   padding: 7.2rem 0 7.5rem;
   background-color: $color-offblack;
@@ -31,4 +35,25 @@
 
 .link {
   text-transform: none;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 5.6rem 3rem 5.9rem;
+  }
+
+  .title {
+    max-width: 52rem;
+
+    font-size: 3rem;
+    line-height: 3.7rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    max-width: 57rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
 }
