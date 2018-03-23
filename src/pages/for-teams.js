@@ -30,7 +30,6 @@ const ForTeams = props => {
         <TeamNeeds />
       </section>
 
-{/*}
       <section className={ styles.Enhancements }>
         <Enhancements />
       </section>
@@ -41,7 +40,7 @@ const ForTeams = props => {
 
       <section className={ styles.Testimonials }>
         <Testimonials />
-      </section>*/}
+      </section>
     </main>
   );
 }

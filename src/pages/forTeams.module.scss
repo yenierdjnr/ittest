@@ -1,6 +1,10 @@
 @import '~Styles/main';
 
 
+$breakpoints: (
+  'tablet': $tablet
+);
+
 .for-teams {
   grid-area: main;
 
@@ -42,4 +46,11 @@
 .Testimonials {
   grid-column: 1 / -1;
   grid-row: 9 / 10;
+}
+
+
+@include media('<tablet') {
+  .Team-Certs, .Testimonials {
+    display: none;
+  }
 }
