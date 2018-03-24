@@ -37,7 +37,6 @@ const Benefits = ({ className='' }) => {
         <div className={ styles.benefits }>
           <BenefitList />
         </div>
-
       </div>
     </section>
   );

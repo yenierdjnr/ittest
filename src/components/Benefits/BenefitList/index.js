@@ -80,7 +80,7 @@ const benefitsData = [
     premium: true,
     standard: false,
     free: false
-  },
+  }
 ];
 
 const BenefitList = ({ className='' }) => {
@@ -108,17 +108,25 @@ const BenefitList = ({ className='' }) => {
           <span className={ _subtitle }>{ data.subtitle }</span>
         </div>
         <div className={ styles.access }>
-          <IconCheck fill={ styles.purple } />
-          {
-            data.standard
-              ? <IconCheck fill={ styles.darkBlue } />
-              : <IconCheck fill={ styles.white } />
-          }
-          {
-            data.free
-              ? <IconCheck fill={ styles.darkGreen } />
-              : <IconCheck fill={ styles.white } />
-          }
+          <div className={ styles.premium }>
+            <IconCheck fill={ styles.purple } />
+          </div>
+
+          <div className={ styles.standard }>
+            {
+              data.standard
+                ? <IconCheck fill={ styles.darkBlue } />
+                : <IconCheck fill={ styles.white } />
+            }
+          </div>
+
+          <div className={ styles.free }>
+            {
+              data.free
+                ? <IconCheck fill={ styles.darkGreen } />
+                : <IconCheck fill={ styles.white } />
+            }
+          </div>
         </div>
       </div>
     );

@@ -8,12 +8,12 @@ const Pricing = props => {
   const { info:currentPricing } = props;
 
   return (
-    <section className={ styles.container }>
+    <div className={ styles.container }>
       <Enterprise className="pricing" />
       <Premium className="pricing" info={ currentPricing.premium } />
       <Standard className="pricing" info={ currentPricing.standard } />
       <Free className="pricing" info={ currentPricing.free } />
-    </section>
+    </div>
   );
 };
 

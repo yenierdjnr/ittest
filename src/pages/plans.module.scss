@@ -9,8 +9,8 @@ $breakpoints: (
   grid-area: main;
 
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 380px 80px 470px 112px 1098px;
+  grid-template-columns: auto;
+  grid-template-rows: 380px 80px auto 96px auto;
 }
 
 .Hero {
@@ -21,7 +21,6 @@ $breakpoints: (
 .Pricing {
   grid-column: 1 / -1;
   grid-row: 2 / 4;
-  justify-self: center;
 }
 
 .Benefits {
@@ -33,7 +32,7 @@ $breakpoints: (
 @include media('<lower-phone') {
   .plans {
     display: grid;
-    grid-template-rows: 290px 81px repeat(4, 550px 2.4rem) 48px auto;
+    grid-template-rows: 290px 81px auto 48px auto;
   }
 
   .benefits {
