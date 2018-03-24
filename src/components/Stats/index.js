@@ -55,7 +55,7 @@ class Stats extends Component {
     return setInterval(function() {
       const comm = document.getElementsByClassName('comm')[0];
 
-      if (this.isInViewport(comm)) {
+      if (comm && this.isInViewport(comm)) {
         let num = comm.innerHTML.replace(',', '');
         let countUp = parseInt(num) + 1;
 

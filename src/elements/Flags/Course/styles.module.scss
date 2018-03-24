@@ -10,22 +10,12 @@
 }
 
 .container {
-  height: 10rem;
+  display: block;
   padding: 21px 16px 20px;
-
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 0 1 auto;
-  align-items: flex-start;
-
-  text-align: center;
-  cursor: pointer;
-
+  text-align: left;
   border: 1px solid #E4E8EC;
   box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
   border-bottom: 2px solid $color-blue-dark;
-  background-color: $color-white;
-
   background-color: $color-white;
 }
 

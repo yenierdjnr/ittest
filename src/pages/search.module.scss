@@ -1,0 +1,36 @@
+@import '~Styles/main';
+
+:export {
+  offBlack: $color-offblack;
+}
+
+.search {
+  grid-area: main;
+  display: grid;
+  @include base-1440-grid-template-columns;
+  grid-template-rows: 240px 1fr;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.Results {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 1024px 1fr;
+}
+
+.ResultsContainer {
+  padding: 5.6rem 0 0;
+  grid-column: 2 / 3;
+}
+
+.ResultsList {
+  margin: 3.1rem 0 5.6rem;
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-row-gap: 16px;
+}
