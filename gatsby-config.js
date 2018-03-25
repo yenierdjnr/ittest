@@ -9,6 +9,19 @@ module.exports = {
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-sitemap'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/tagCategories/`,
+
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/tags/`
+      }
     }
   ]
 

@@ -15,7 +15,7 @@ const CourseLibrary = props => {
       </section>
 
       <section className={ styles.Info }>
-        <CourseOptions />
+        <CourseOptions tagCategories={props.data.tagCategories.edges.map(edge => edge.node)} />
       </section>
 
       <section className={ styles['New-Content'] }>
@@ -31,3 +31,20 @@ const CourseLibrary = props => {
 
 
 export default CourseLibrary;
+
+export const query = graphql`
+  query TagCategoryQuery {
+    tagCategories: allTagCategoriesJson {
+      edges {
+        node {
+          tagcategoryname,
+          url,
+          tags {
+            tagname,
+            url
+          }
+        }
+      }
+    }
+  }
+`;

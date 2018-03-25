@@ -71,20 +71,35 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   return config;
 };
 
-exports.createPages = ({ boundActionCreators: { createPage }}) => {
+exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
 
-   const component = path.resolve('src/components/CourseCategory/index.js');
-   const courseTags = JSON.parse(fs.readFileSync('data/tagCategories/courseLibrary.json'));
+  const component = path.resolve('src/components/CourseCategory/index.js');
 
-   courseTags.tags.map(tag => {
-
-     const camelTag = tag.url.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
-     const context = JSON.parse(fs.readFileSync(`data/tags/${camelTag}.json`));
-
-     return  createPage({
-       path: `course-library/${tag.url}`,
-       component,
-       context
-     })
-   });
+  return graphql(
+      `
+      {
+        allTagCategoriesJson {
+          edges {
+            node {
+              tags {
+                url
+              }
+            }
+          }
+        }
+      }
+      `
+    ).then(result => {
+      result.data.allTagCategoriesJson.edges.forEach(edge => {
+        return edge.node.tags.map(tag => {
+          return createPage({
+              path: `course-library/${tag.url}`,
+              component,
+              context: {
+                url: tag.url
+              }
+            })
+        })
+      })
+    });
 }

@@ -8,24 +8,25 @@ class Menu extends Component {
     super(props);
   }
 
-  handleClick = e => {
-    const item = e.currentTarget;
-    const menu = item.parentElement;
-    const active = menu.querySelector(`.${styles.active}`);
-
-    active.classList.remove(styles.active);
-    item.classList.add(styles.active);
+  handleClick = index => e => {
+    this.props.onChange(index);
   };
 
   render() {
-    const { className='' } = this.props;
+    const { className='', categories=[], activeCategory } = this.props;
 
     return (
       <section className={ `${className} ${styles.container}` }>
         <ul className={ styles.list }>
-          <li className={ `${styles.item} ${styles.active}` } onClick={ this.handleClick }><span>categories</span></li>
-          <li className={ styles.item } onClick={ this.handleClick }><span>certification</span></li>
-          <li className={ styles.item } onClick={ this.handleClick }><span>job roles</span></li>
+          {categories.map((category, index) => (
+              <li
+                key={category}
+                className={ `${styles.item} ${activeCategory == index && styles.active}`}
+                onClick={ this.handleClick(index) }
+              >
+                <span>{category}</span>
+              </li>
+          ))}
         </ul>
       </section>
     );
