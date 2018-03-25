@@ -12,6 +12,7 @@ $breakpoints: (
 
 .container {
   padding: 11.2rem 0 10.6rem;
+  overflow: hidden;
 
   display: flex;
   flex-flow: column nowrap;
@@ -27,12 +28,17 @@ $breakpoints: (
 }
 
 .carousel {
-  max-width: 1440px;
-  overflow-x: auto;
-
+  width: 71rem;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.lastChild {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
 }
 
 @include media('<lower-tablet') {
