@@ -1,4 +1,5 @@
 const path = require('path');
+const fs = require('fs');
 const { cssModulesConfig } = require("gatsby-1-config-css-modules");
 
 const LOCAL_IDENT_NAME = '[folder]__[local]--[hash:base64:5]';
@@ -69,3 +70,21 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 
   return config;
 };
+
+exports.createPages = ({ boundActionCreators: { createPage }}) => {
+
+   const component = path.resolve('src/components/CourseCategory/index.js');
+   const courseTags = JSON.parse(fs.readFileSync('data/tagCategories/courseLibrary.json'));
+
+   courseTags.tags.map(tag => {
+
+     const camelTag = tag.url.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
+     const context = JSON.parse(fs.readFileSync(`data/tags/${camelTag}.json`));
+
+     return  createPage({
+       path: `course-library/${tag.url}`,
+       component,
+       context
+     })
+   });
+}

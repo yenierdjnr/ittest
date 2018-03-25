@@ -1,0 +1,8 @@
+@import '~Styles/main';
+
+.category {
+  grid-area: main;
+  display: grid;
+  // @include base-1440-grid-template-columns;
+  grid-template-rows: 320px 1fr;
+}

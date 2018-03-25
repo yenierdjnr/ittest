@@ -4,17 +4,17 @@ import styles from './styles.module.scss';
 import { Category } from 'Elements/Flags';
 
 
-const categories = ['Apple', 'Amazon', 'Cisco', 'CompTIA', 'EC Council', 'Microsoft', 'Adobe', 'DevPro', 'ISACA', '(ISC)2', 'OfficePro', 'Service/Project Mgmt.', 'Technical Skills', 'VMware'];
+// const categories = ['Apple', 'Amazon', 'Cisco', 'CompTIA', 'EC Council', 'Microsoft', 'Adobe', 'DevPro', 'ISACA', '(ISC)2', 'OfficePro', 'Service/Project Mgmt.', 'Technical Skills', 'VMware'];
 
 const Display = props => {
-  const { className='' } = props;
+  const { categories, className='' } = props;
 
   return (
     <section className={ `${className} ${styles.container}` }>
       <ul>
         {
-          categories.map((cat, i) => {
-            return <Category key={ i } title={ cat } />;
+          categories.map((category, i) => {
+            return <Category key={ i } title={ category.tagname } url={`/course-library/${category.url}/`} />;
           })
         }
       </ul>

@@ -6,10 +6,10 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-sitemap'
     }
   ]
 
 };
-
