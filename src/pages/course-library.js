@@ -8,6 +8,7 @@ import FreeCourses from 'Components/FreeCourses';
 
 
 const CourseLibrary = props => {
+  console.log('props', props);
   return (
     <main className={ styles.courses }>
       <section className={ styles.Hero }>
@@ -34,17 +35,17 @@ export default CourseLibrary;
 
 export const query = graphql`
   query TagCategoryQuery {
-    tagCategories: allTagCategoriesJson {
-      edges {
-        node {
-          tagcategoryname,
-          url,
-          tags {
-            tagname,
-            url
+      tagCategories: allTagCategoriesJson(sort: {order:ASC, fields: [weight]}) {
+        edges {
+          node {
+            tagcategoryname,
+            url,
+            tags {
+              tagname,
+              url
+            }
           }
         }
       }
     }
-  }
 `;
