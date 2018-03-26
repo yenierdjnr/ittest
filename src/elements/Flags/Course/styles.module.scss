@@ -23,9 +23,11 @@
   margin-bottom: 6px;
 }
 
-.episode {
+.course {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
 
   & span {
     color: $color-offblack;
@@ -33,7 +35,13 @@
     font-size: 1.6rem;
     line-height: 2.4rem;
   }
+
+  .length {
+    color: $color-grey-dark;
+  }
 }
+
+
 
 .name {
   display: inline-block;

@@ -17,6 +17,7 @@ const CourseCategory = ({ data, ...rest }) => (
             key={course.id}
             title={course.name}
             description={course.subtitle}
+            courseLength={course.courseLength}
           />
         ))}
       </ul>
@@ -36,6 +37,7 @@ export const pageQuery = graphql`
         id
         name
         subtitle
+        courseLength
       }
     }
   }
