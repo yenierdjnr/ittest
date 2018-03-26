@@ -1,0 +1,15 @@
+@import '~Styles/main';
+
+.carousel {
+  width: 71rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.lastChild {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+}

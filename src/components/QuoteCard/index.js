@@ -20,8 +20,10 @@ const QuoteCard = props => {
           <Hx className={ title} color={ offBlack }>
             {props.title}
           </Hx>
-          <Para className={ summary } color={ offBlack }>I have passed my Azure and Office 365 MCSA exams using ITPro.tv and also used other courses to refresh or expand my knowledge into other areas of the IT landscape.</Para>
-          <span className={ byUser }>James, Role Placeholder</span>
+          <Para className={ summary } color={ offBlack }>
+            {props.quote}
+          </Para>
+          <span className={ byUser }>{props.attribution}{props.role && `, ${props.role}`}</span>
         </div>
         <div className={ bottomBar }></div>
       </div>

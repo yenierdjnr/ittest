@@ -1,0 +1,23 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
+.container {
+  padding: 8rem 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: $color-white-light;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    display: none;
+  }
+}
