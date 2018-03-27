@@ -1,12 +1,13 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+.item {
+  width: 314px;
+  justify-self: center;
+}
 
 .container {
   display: block;
-  width: 314px;
   height: 80px;
   padding: 2.6rem 0 2.5rem;
 
