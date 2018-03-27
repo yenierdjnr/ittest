@@ -1,8 +1,9 @@
-import React, { PureComponent } from 'react';
+import React, { Fragment, PureComponent } from 'react';
 
-import styles from './styles.module.scss';
 import Menu from './Menu';
 import Display from './Display';
+import styles from './styles.module.scss';
+
 
 class CourseOptions extends PureComponent {
 
@@ -15,7 +16,7 @@ class CourseOptions extends PureComponent {
   }
 
   handleMenuChange = (categoryIndex) => {
-    if(this.state.categoryIndex !== categoryIndex) {
+    if (this.state.categoryIndex !== categoryIndex) {
       this.setState({
         categoryIndex
       });
@@ -25,15 +26,16 @@ class CourseOptions extends PureComponent {
   render() {
     const { tagCategories } = this.props;
     const { categoryIndex } = this.state;
+
     return (
-      <section className={ styles.container }>
+      <Fragment>
         <Menu
-          activeCategory={categoryIndex}
-          categories={tagCategories.map(tag => tag.tagcategoryname)}
-          onChange={this.handleMenuChange}
+          activeCategory={ categoryIndex }
+          categories={ tagCategories.map(tag => tag.tagcategoryname) }
+          onChange={ this.handleMenuChange }
         />
-      <Display categories={tagCategories[categoryIndex].tags} />
-      </section>
+        <Display categories={ tagCategories[categoryIndex].tags } />
+      </Fragment>
     )
   }
 }

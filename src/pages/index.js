@@ -1,6 +1,5 @@
 import React from 'react';
 
-import styles from './homePage.module.scss';
 import { HomeHero as Hero } from 'Components/Hero';
 import ForTeamsYou from 'Components/ForTeamsYou';
 import Engagements from 'Components/Engagements';
@@ -10,7 +9,7 @@ import { HomeTestimonials as Testimonials } from 'Components/Testimonials';
 import { VendorList } from 'Components/Shoutout';
 import { Home as Plans } from 'Components/Plans';
 import Pamphlet from 'Components/Pamphlet';
-
+import styles from './homePage.module.scss';
 
 const HomePage = props => {
   return (
