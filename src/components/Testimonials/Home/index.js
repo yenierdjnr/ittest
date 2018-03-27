@@ -25,7 +25,7 @@ const HomeTestimonials = props => {
         />
 
         <QuoteCard
-          title="Improved knowledge and understanding of everyday tasks"
+          title="Understanding of everyday tasks"
           quote="There is an excellent variety of courses available. Completion of coursework has improved knowledge and understanding of the tasks my staff perform each day, and I couldn’t be happier."
           attribution="Jim Ford, VP of Information Technology"
         />
