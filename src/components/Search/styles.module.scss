@@ -1,11 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
 
 .container {
-  width: 492px;
+  max-width: 49.2rem;
+  width: 100%;
   height: 50px;
   padding: 13px 16px;
 
@@ -20,8 +18,6 @@
 }
 
 .input {
-  width: 387px;
-
   border: none;
   border-radius: 2px;
   background: rgba($color-offblack, 0);

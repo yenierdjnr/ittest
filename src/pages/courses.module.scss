@@ -5,8 +5,8 @@
   grid-area: main;
 
   display: grid;
-  @include courses-page-grid-template-columns;
-  @include courses-page-grid-template-rows;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto 780px 250px 820px;
 }
 
 .Hero {

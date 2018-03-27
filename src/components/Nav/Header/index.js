@@ -56,7 +56,7 @@ class HeaderNav extends Component {
         <nav className={ styles.menu }>
           <ul className={ styles['menu-list'] }>
             <li className={ styles['menu-item'] }>
-              <Link to="/course-library/">courses</Link>
+              <Link to="/courses/">courses</Link>
             </li>
             <li className={ styles['menu-item'] }>
               <Link to="/live/">on air</Link>

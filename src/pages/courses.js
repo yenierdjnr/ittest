@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './courseLibrary.module.scss';
+import styles from './courses.module.scss';
 import { CoursesHero as Hero } from 'Components/Hero';
 import CourseOptions from 'Components/CourseOptions';
 import NewContent from 'Components/NewContent';
@@ -8,14 +8,13 @@ import FreeCourses from 'Components/FreeCourses';
 
 
 const CourseLibrary = props => {
-  console.log('props', props);
   return (
     <main className={ styles.courses }>
       <section className={ styles.Hero }>
         <Hero />
       </section>
 
-      <section className={ styles.Info }>
+      {/*<section className={ styles.Info }>
         <CourseOptions tagCategories={props.data.tagCategories.edges.map(edge => edge.node)} />
       </section>
 
@@ -25,7 +24,7 @@ const CourseLibrary = props => {
 
       <section className={ styles['Free-Courses'] }>
         <FreeCourses />
-      </section>
+      </section>*/}
     </main>
   );
 }

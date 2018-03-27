@@ -1,14 +1,17 @@
 import React from 'react';
 
-import styles from './styles.module.scss';
+import Hx from 'Elements/Hx';
 import Search from 'Components/Search';
+import styles from './styles.module.scss';
 
 
 const CoursesHero = props => {
   return (
     <section className={ styles.container }>
-      <h1 className={ styles.title }>courses</h1>
-      <Search className={ styles.search }/>
+      <div className={ styles.content }>
+        <Hx className={ styles.title } size="1" >courses</Hx>
+        <Search className={ styles.search }/>
+      </div>
     </section>
   );
 };

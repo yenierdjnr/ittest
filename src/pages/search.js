@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Hx from 'Elements/Hx';
-import courseStyles from './courseLibrary.module.scss';
+import courseStyles from './courses.module.scss';
 import styles from './search.module.scss';
 import { CoursesHero as Hero } from 'Components/Hero';
 import { Course, Episode } from 'Elements/Flags'
