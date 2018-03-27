@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './courses.module.scss';
 import { CoursesHero as Hero } from 'Components/Hero';
 import CourseOptions from 'Components/CourseOptions';
 import NewContent from 'Components/NewContent';
 import FreeCourses from 'Components/FreeCourses';
+import styles from './courses.module.scss';
 
 
 const CourseLibrary = props => {

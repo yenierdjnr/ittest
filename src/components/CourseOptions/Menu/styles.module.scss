@@ -2,10 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
-
 
 .container {
   display: grid;
