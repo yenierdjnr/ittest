@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';
@@ -15,7 +16,7 @@ const Free = ({ className='', info }) => {
   }
 
   return (
-    <section className={ container }>
+    <Link className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.darkGreen } size="6">free</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just looking</Hx>
@@ -28,7 +29,7 @@ const Free = ({ className='', info }) => {
         <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
       </div>
       <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
-    </section>
+    </Link>
   );
 };
 

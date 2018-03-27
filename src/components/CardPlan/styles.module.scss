@@ -23,6 +23,11 @@ $breakpoints: (
   border-radius: 2px;
   background-color: $color-white;
   box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.14);
+  transition: transform 250ms ease-out;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
 }
 
 .description {
