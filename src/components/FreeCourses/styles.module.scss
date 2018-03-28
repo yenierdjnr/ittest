@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -44,11 +45,9 @@ $breakpoints: (
   grid-column: 2 / 3;
 
   display: grid;
-  grid-template-columns: repeat(2, 492px);
-  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
   grid-column-gap: 4rem;
   grid-row-gap: 1.6rem;
-  justify-content: center;
 }
 
 
@@ -57,15 +56,28 @@ $breakpoints: (
     padding: 5.6rem 0 5.2rem;
   }
 
+  .flags {
+    grid-template-columns: minmax(304px, 492px);
+    justify-content: center;
+    padding: 0 1.6rem;
+  }
+
   .title {
     font-size: 3rem;
     line-height: 3.7rem;
     text-align: center;
     margin-bottom: 1.4rem;
   }
+
   .summary {
     max-width: 50rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .flags {
+    padding: 0 8px;
   }
 }

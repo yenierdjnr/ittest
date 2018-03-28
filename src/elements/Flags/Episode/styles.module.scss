@@ -1,8 +1,9 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
 
 :export {
   blueDark: $color-blue-dark;
@@ -11,7 +12,9 @@
 
 .container {
   height: 10rem;
+  width: 492px;
   padding: 21px 16px 20px;
+  justify-self: center;
 
   display: flex;
   flex-flow: column nowrap;
@@ -60,4 +63,24 @@
 
 .icon {
   margin-top: 5px;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    max-width: 492px;
+    width: 100%;
+    height: 12.4rem;
+    padding: 1.6rem 0 1.8rem 1.6rem;
+  }
+
+  .title {
+    width: 30rem;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .episode {
+    text-align: left;
+  }
 }
