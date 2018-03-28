@@ -2,6 +2,7 @@
 
 
 $breakpoints: (
+  'desktop': $desktop,
   'tablet': $tablet,
   'lower-tablet': $lower-tablet,
   'phablet': $phablet
@@ -19,7 +20,7 @@ $breakpoints: (
 .home-container {
   background-image: url('Images/home_video@1x.jpg');
   background-size: cover;
-  background-position: 100% 20%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -54,6 +55,12 @@ $breakpoints: (
 .home-iframe {
   width: 70%;
   height: 100%;
+}
+
+@include media('>desktop') {
+  .home-container {
+    background-position: 100% 20%;
+  }
 }
 
 @include media('<tablet') {
