@@ -1,10 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import Hx from 'Elements/Hx';
 import courseStyles from './courses.module.scss';
-import styles from './search.module.scss';
 import { CoursesHero as Hero } from 'Components/Hero';
 import { Course, Episode } from 'Elements/Flags'
+import styles from './search.module.scss';
+
 
 const courses = [
   {
@@ -42,39 +43,36 @@ const episodes = [
 
 export default function Search(props) {
   return (
-    <main className={ styles.search }>
+    <main className={ styles.container }>
+
       <section className={ styles.Hero }>
         <Hero />
       </section>
+
       <section className={ styles.Results }>
-        <div className={ styles.ResultsContainer}>
-          <Hx color={styles.offBlack} size="4">
-            Courses
-          </Hx>
+        <div className={ styles['results-container'] }>
+          <Hx className={ styles['course-title'] }color={ styles.offBlack } size="4">Courses</Hx>
           <ul className={ styles.ResultsList }>
             {courses.map(course => (
               <Course
-                title={course.title}
-                description={course.description}
+                title={ course.title }
+                description={ course.description }
               />
             ))}
           </ul>
-          <Hx color={styles.offBlack}  size="4">
-            Episodes
-            <ul className={ styles.ResultsList }>
-              {episodes.map(episode => (
-                <Episode
-                  title={episode.title}
-                  linkName={episode.linkName}
-                />
-              ))}
-            </ul>
-          </Hx>
+          <Hx className={ styles['episode-title'] } color={ styles.offBlack } size="4">Episodes</Hx>
+          <ul className={ styles.ResultsList }>
+            {episodes.map(episode => (
+              <Episode
+                className="search"
+                title={ episode.title }
+                linkName={ episode.linkName }
+              />
+            ))}
+          </ul>
         </div>
       </section>
+
     </main>
   );
 }
-
-Search.propTypes = {
-};

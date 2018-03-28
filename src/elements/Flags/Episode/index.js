@@ -6,8 +6,12 @@ import { IconArrowRight } from 'Elements/Icons';
 
 
 const Episode = ({ className='', title='Episode Title', linkName='001-01' }) => {
+  const episodeStyle = className === 'search'
+    ? `${styles.search} ${styles.container}`
+    : `${styles.container}`
+
   return (
-    <li className={ `${className} ${styles.container}` }>
+    <li className={ episodeStyle }>
       <Hx className={ styles.title } color={ styles.offBlack } size='5'>{ title }</Hx>
       <div className={ styles.episode }>
         <span className={ styles.name }>{ linkName }</span>

@@ -34,6 +34,9 @@ $breakpoints: (
     transform: translateY(-2px);
   }
 
+  &.search {
+    width: 100%;
+  }
 }
 
 .title {
@@ -72,6 +75,11 @@ $breakpoints: (
     width: 100%;
     height: 12.4rem;
     padding: 1.6rem 0 1.8rem 1.6rem;
+
+    &.search {
+      width: 100%;
+      max-width: unset;
+    }
   }
 
   .title {
