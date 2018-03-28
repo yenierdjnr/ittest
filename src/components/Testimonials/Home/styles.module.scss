@@ -14,17 +14,20 @@ $breakpoints: (
   padding: 11.2rem 0 10.6rem;
   overflow: hidden;
 
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 
   background-color: $color-offwhite;
+}
+
+.content {
+  grid-column: 2 / 3;
 }
 
 .title {
   width: 82rem;
   text-align: center;
-  margin-bottom: 9.6rem;
+  margin: 0 auto 9.6rem;
 }
 
 .carousel {

@@ -1,9 +1,13 @@
 @import '~Styles/main';
 
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
 .carousel {
-  width: 71rem;
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
 }
 
 .lastChild {
@@ -12,4 +16,11 @@
   top: 0;
   left: 0;
   transform: translateX(-100%);
+}
+
+
+@include media('<tablet') {
+  .carousel {
+    width: 32rem;
+  }
 }

@@ -23,7 +23,7 @@ export default class Carousel extends PureComponent {
 
   // check if the first element has repeated and jump back to the start if so
   checkAnimationState(){
-    if(this.state.page > this.state.pages) {
+    if (this.state.page > this.state.pages) {
       setTimeout(() => {
         this.setState({
           animating: false,
@@ -55,7 +55,7 @@ export default class Carousel extends PureComponent {
       transition: !animating ? 'none' : `transform ${TRANISITION_MS}ms ease-in-out`
     }
     return (
-      <div className={ carousel } style={style}>
+      <div className={ carousel } style={ style }>
         {React.cloneElement(lastChild, { style:{ position: 'absolute', transform: 'translateX(-100%)' } })}
         {children.map((child, index) => (
           React.cloneElement(child, { key: index })
