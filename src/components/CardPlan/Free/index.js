@@ -19,7 +19,7 @@ const Free = ({ className='', info }) => {
     <Link className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.darkGreen } size="6">free</Hx>
-        <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just looking</Hx>
+        <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just Looking</Hx>
         <span className={ styles.perks }>Select content</span>
         <span className={ styles.perks }>Daily live stream</span>
       </div>
