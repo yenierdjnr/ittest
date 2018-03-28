@@ -17,7 +17,7 @@ $breakpoints: (
 }
 
 .home-container {
-  background-image: url('Images/home_video@2x.png');
+  background-image: url('Images/home_video@1x.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ $breakpoints: (
 
 @include media('<phablet') {
   .home-container {
-    background-image: url('Images/home_video_mobile@2x.png');
+    background-image: url('Images/home_video_mobile@1x.png');
     background-size: cover;
     background-position: 20% 20%;
   }

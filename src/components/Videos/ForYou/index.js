@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconPlay } from 'Elements/Icons';
-import img from 'Images/forTeams_video@2x.png';
+import img from 'Images/forTeams_video@1x.png';
 import styles from './styles.module.scss';
 
 

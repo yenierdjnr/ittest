@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { IconPlay } from 'Elements/Icons';
-import img from 'Images/forTeams_video@2x.png';
+import img from 'Images/forTeams_video@1x.png';
 import styles from './styles.module.scss';
 
 

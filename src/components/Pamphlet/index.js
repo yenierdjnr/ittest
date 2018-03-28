@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './styles.module.scss';
-import articleImage from 'Images/article@2x.png';
+import articleImage from 'Images/article@1x.png';
 import Link from 'Elements/Link';
 import { IconArrowRight } from 'Elements/Icons'
 

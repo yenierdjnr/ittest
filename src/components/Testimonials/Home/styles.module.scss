@@ -30,24 +30,11 @@ $breakpoints: (
   margin: 0 auto 9.6rem;
 }
 
-.carousel {
-  width: 71rem;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.lastChild {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateX(-100%);
-}
-
 @include media('<lower-tablet') {
   .container {
     padding: 6.4rem 0;
   }
+
   .title {
     width: unset;
     padding: 0 4rem;

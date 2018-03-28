@@ -8,11 +8,14 @@ $breakpoints: (
 .container {
   padding: 8rem 0;
 
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 
   background-color: $color-white-light;
+}
+
+.content {
+  grid-column: 2 / 3;
 }
 
 
