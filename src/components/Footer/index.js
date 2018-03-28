@@ -39,10 +39,10 @@ const Footer = () => {
                   <a href="#">accessibility</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">faq</a>
+                  <a href="#">FAQ</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">q&A</a>
+                  <a href="#">Q&A</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
                   <a href="#">blog</a>
