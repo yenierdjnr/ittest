@@ -13,7 +13,7 @@ const NewContent = props => {
     <section className={ `${className} ${styles.container}` }>
       <div className={ styles.content}>
         <div className={ styles.summary }>
-          <Hx className={ styles.title } size="2">New content added daily.</Hx>
+          <Hx className={ styles.title } size="2">New Content Added Daily</Hx>
           <Para className={ styles.subtitle }>Don't see what you need? We add new course content every day. Join for free to see what's coming next.</Para>
         </div>
         <ButtonLink to='/plans'>try it free</ButtonLink>
