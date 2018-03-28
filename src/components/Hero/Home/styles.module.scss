@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 .container {
@@ -76,5 +77,11 @@ $breakpoints: (
     margin-right: 1rem;
     font-size: 2.1rem;
     line-height: 3.1rem;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .container {
+    background-image: url('Images/home_hero@2x.jpg');
   }
 }
