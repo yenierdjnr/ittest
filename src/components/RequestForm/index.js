@@ -23,10 +23,13 @@ class RequestForm extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    // fetch('http://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
-      // method: 'POST',
-      // body: this.state
-    // });
+    fetch('https://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
+      method: 'POST',
+      body: JSON.stringify(this.state),
+      headers: {
+        'content-type': 'application/json'
+      }
+    });
   }
 
   handleInput = e => {

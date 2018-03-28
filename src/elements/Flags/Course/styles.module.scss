@@ -17,6 +17,11 @@
   box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
   border-bottom: 2px solid $color-blue-dark;
   background-color: $color-white;
+  transition: transform 250ms;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
 }
 
 .title {
