@@ -13,7 +13,7 @@ const HomeTestimonials = props => {
   return (
     <div className={ container }>
       <div className={ content }>
-        <Hx className={ title } color={ offBlack } size="2">Join a community of IT Pros sharpening their skills the fun way.</Hx>
+        <Hx className={ title } color={ offBlack } size="2">Join a Community of IT Pros Sharpening Their Skills the Fun Way</Hx>
         <Carousel>
           <QuoteCard
             title="Training that pays for itself"

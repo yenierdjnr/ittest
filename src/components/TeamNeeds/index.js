@@ -28,8 +28,8 @@ const TeamNeeds = props => {
           <div className={ `${styles['icon-box']} ${styles.mobile}` }>
             <IconMobile />
           </div>
-          <Hx className={ styles.title } size="4">Flexible Training For Teams On-the-go</Hx>
-          <Para className={ styles.summary }>Train when and where you want. Access content via the web, iOS, Android, FireTV, Roku and Apple TV.</Para>
+          <Hx className={ styles.title } size="4">Flexible Training for Teams On-the-Go</Hx>
+          <Para className={ styles.summary }>Train when and where you want. Access content via the web, iOS, Android, FireTV, Roku, and Apple TV.</Para>
         </li>
       </ul>
     </section>
