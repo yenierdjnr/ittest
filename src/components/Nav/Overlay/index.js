@@ -57,7 +57,7 @@ class OverlayNav extends Component {
               <Link to="/">home</Link>
             </li>
             <li className={ `${styles['menu-item']} course` }>
-              <Link to="/course-library/">courses</Link>
+              <Link to="/courses/">courses</Link>
             </li>
             <li className={ `${styles['menu-item']} live` }>
               <Link to="/live/">on air</Link>
