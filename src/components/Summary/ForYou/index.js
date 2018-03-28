@@ -17,7 +17,7 @@ const ForYouSummary = props => {
           </div>
           <div className={ styles.summary }>
             <Hx color={ styles.offblack } className={ styles.title } size="4">engaging courses</Hx>
-            <Para color={ styles.greyDark } className={ styles.subtitle }>A talk-show style format keeps you interested and excited to learn. New content is added every day.</Para>
+            <Para color={ styles.greyDark } className={ styles.subtitle }>A talk-show style format keeps you interested and excited to learn.<br />New content is added every day.</Para>
             <TextLink className={ styles['text-link']} to="/course-library/">view courses</TextLink>
           </div>
         </li>

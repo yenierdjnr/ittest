@@ -10,7 +10,7 @@ const Benefits = ({ className='' }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles.content }>
-        <Hx className={ styles.title } color={ styles.offBlack } size="4">ITProTV membership benefits</Hx>
+        <Hx className={ styles.title } color={ styles.offBlack } size="4">ITProTV Membership Benefits</Hx>
         <div className={ styles.plans }>
           <div className={ styles.premium }>
             <TextLink color={ styles.purple } hideArrow='true'>premium</TextLink>

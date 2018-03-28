@@ -21,7 +21,7 @@ const Standard = ({ className='', info }) => {
     <Link className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.blue } size="6">standard</Hx>
-        <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The good stuff</Hx>
+        <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The Good Stuff</Hx>
         <span className={ perks }>Full on-demand ITProTV course library</span>
       </div>
       <div className={ styles.pricing }>
