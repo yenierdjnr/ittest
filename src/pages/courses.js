@@ -14,7 +14,7 @@ const CourseLibrary = props => {
         <Hero />
       </section>
 
-      {/*<section className={ styles.Info }>
+      <section className={ styles.Info }>
         <CourseOptions tagCategories={props.data.tagCategories.edges.map(edge => edge.node)} />
       </section>
 
@@ -24,7 +24,7 @@ const CourseLibrary = props => {
 
       <section className={ styles['Free-Courses'] }>
         <FreeCourses />
-      </section>*/}
+      </section>
     </main>
   );
 }
