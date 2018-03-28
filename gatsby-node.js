@@ -93,7 +93,7 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
       result.data.allTagCategoriesJson.edges.forEach(edge => {
         return edge.node.tags.map(tag => {
           return createPage({
-              path: `course-library/${tag.url}`,
+              path: `courses/${tag.url}`,
               component,
               context: {
                 url: tag.url

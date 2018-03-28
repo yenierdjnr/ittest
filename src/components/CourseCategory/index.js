@@ -1,23 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './styles.module.scss';
 import { CourseCategoryHero as Hero } from 'Components/Hero'
 import { Course } from 'Elements/Flags'
+import styles from './styles.module.scss';
+
 
 const CourseCategory = ({ data, ...rest }) => (
   <main className={ styles.category }>
-    <section className={ styles.hero }>
-      <Hero title={data.category.tagname} />
+
+    <section className={ styles.Hero }>
+      <Hero title={ data.category.tagname }/>
     </section>
+
     <section className={ styles.Courses }>
-      <ul className={styles.CourseList}>
+      <ul className={ styles.list }>
         {data.category.courses.map(course => (
           <Course
-            key={course.id}
-            title={course.name}
-            description={course.subtitle}
-            courseLength={course.courseLength}
+            key={ course.id }
+            title={ course.name }
+            description={ course.subtitle }
+            courseLength={ course.courseLength }
           />
         ))}
       </ul>

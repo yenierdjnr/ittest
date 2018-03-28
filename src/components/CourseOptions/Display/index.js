@@ -12,7 +12,7 @@ const Display = props => {
       <ul>
         {
           categories.map((category, i) => {
-            return <Category key={ i } title={ category.tagname } url={`/course-library/${category.url}/`} />;
+            return <Category key={ i } title={ category.tagname } url={`/courses/${category.url}/`} />;
           })
         }
       </ul>

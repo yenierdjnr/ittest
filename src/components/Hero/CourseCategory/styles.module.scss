@@ -1,26 +1,44 @@
 @import '~Styles/main';
 
 
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-phone': $lower-phone
+);
+
 :export {
   orangePrimary: $color-orange-primary;
 }
 
 .container {
-  height: 100%;
+  padding: 4.4rem 0 5.2rem;
+
   display: grid;
-  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
-  align-items: center;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
   background-color: $color-offblack;
 }
 
 .intro {
   grid-column: 2 / 3;
+
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .navigation {
   color: $color-orange-primary;
   @include proxima-semi-bold;
   font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.title {
+  margin-bottom: 1.6rem;
+}
+
+.summary {
+  line-height: 3rem;
 }
 
 .arrow {
@@ -28,11 +46,17 @@
   transform: scaleX(-1);
 }
 
-.title {
-  color: $color-white;
-  @include proxima-semi-bold;
-  font-size: 6rem;
-  letter-spacing: 0.5px;
-  line-height: 6.6rem;
-  text-transform: capitalize;
+
+@include media('<tablet') {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
