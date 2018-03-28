@@ -28,7 +28,7 @@ const Exams = props => {
       <div className={ styles.info }>
         <span className={ styles['sequence-num'] }>_03</span>
         <Hx className={ styles.title } color={ styles.offBlack }>Pass Certifications with Practice Exams</Hx>
-        <Para className={ `${styles.summary} ${styles.exams}` } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Transcender®. Take and re-take to ensure you're ready before you sit  for the exam.</Para>
+        <Para className={ `${styles.summary} ${styles.exams}` } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training®. Take and re-take to ensure you're ready before you sit  for the exam.</Para>
         <TextLink className={ styles.link } to="/practice-tests/" color={ styles.orangePrimary }>see practice tests</TextLink>
       </div>
     </div>

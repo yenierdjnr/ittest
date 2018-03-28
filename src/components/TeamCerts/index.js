@@ -19,7 +19,7 @@ const TeamCerts = ({ className='' }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles.content }>
-        <Hx color={ styles.offBlack } size="2" className={ styles.intro }>Team earns 40 certifications  in 12 months</Hx>
+        <Hx color={ styles.offBlack } size="2" className={ styles.intro }>Team earns 40 certifications in 12 months.</Hx>
 
         <div className={ styles.info }>
           <div id="background-video" className={ `${styles['video-container']} ${className}` } onClick={ handlePlay }>

@@ -25,7 +25,7 @@ const Enhancements = props => {
             <IconExams className={ styles['icon-exams'] }/>
           </div>
           <Hx className={ styles['topic-title'] } color={ styles.offBlack } size="4">Pass certifications with  practice exams</Hx>
-          <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Transcender®. Take and re-take to ensure you're ready before you sit for the exam.</Para>
+          <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training®. Take and re-take to ensure you're ready before you sit for the exam.</Para>
           <TextLink>see practice tests</TextLink>
         </div>
       </div>

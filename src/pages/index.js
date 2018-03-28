@@ -22,6 +22,7 @@ const HomePage = props => {
       <section className={ styles.For }>
         <ForTeamsYou />
       </section>
+
       <section className={ styles.Engagements }>
         <Engagements />
       </section>

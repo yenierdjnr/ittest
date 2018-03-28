@@ -56,7 +56,7 @@ const benefitsData = [
     free: false
   },
   {
-    title: 'Take unlimited Transcender practice exams',
+    title: 'Take unlimited Kaplan IT Training practice exams',
     subtitle: '($109 individual value)',
     premium: true,
     standard: false,

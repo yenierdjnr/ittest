@@ -15,7 +15,7 @@ const TeamNeeds = props => {
             <IconCamera />
           </div>
           <Hx className={ styles.title } size="4">New content added every day</Hx>
-          <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
+          <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.bars}` }>
