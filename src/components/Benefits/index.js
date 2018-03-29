@@ -13,21 +13,21 @@ const Benefits = ({ className='' }) => {
         <Hx className={ styles.title } color={ styles.offBlack } size="4">ITProTV Membership Benefits</Hx>
         <div className={ styles.plans }>
           <div className={ styles.premium }>
-            <TextLink color={ styles.purple } hideArrow='true'>premium</TextLink>
+            <TextLink color={ styles.purple } hideArrow='true' disabled>premium</TextLink>
             <div className={ styles.pricing }>
               <span className={ styles.price }>$857/year or </span>
               <span className={ styles.price }>$85.70/month</span>
             </div>
           </div>
           <div className={ styles.standard }>
-            <TextLink color={ styles.darkBlue } hideArrow='true'>standard</TextLink>
+            <TextLink color={ styles.darkBlue } hideArrow='true' disabled>standard</TextLink>
             <div className={ styles.pricing }>
               <span className={ styles.price }>$570/year or </span>
               <span className={ styles.price }>$57/month</span>
             </div>
           </div>
           <div className={ styles.free }>
-            <TextLink color={ styles.darkGreen } hideArrow='true'>free</TextLink>
+            <TextLink color={ styles.darkGreen } hideArrow='true' disabled>free</TextLink>
             <div className={ styles.pricing }>
               <span className={ styles.price }>$0</span>
             </div>

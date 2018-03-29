@@ -10,14 +10,10 @@ $breakpoints: (
 
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   background-color: $color-offblack;
-}
-
-.article-img {
-  margin-right: 11.5rem;
 }
 
 .info {

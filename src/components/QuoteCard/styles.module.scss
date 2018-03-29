@@ -78,7 +78,6 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-
   .wrapper {
     width: 37rem;
     padding: 0 2rem;
@@ -110,6 +109,6 @@ $breakpoints: (
   .byUser {
     font-size: 1.2rem;
     letter-spacing: 1px;
-    line-height: 3rem;
+    line-height: 1.5rem;
   }
 }

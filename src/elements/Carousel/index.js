@@ -7,7 +7,7 @@ import {
 } from './styles.module.scss';
 
 // TODO: make these into props with defaults
-const DURATION_MS = 5000;
+const DURATION_MS = 7000;
 const TRANISITION_MS = 500;
 
 export default class Carousel extends PureComponent {
