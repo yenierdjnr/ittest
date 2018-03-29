@@ -10,9 +10,9 @@ const Pricing = props => {
   return (
     <div className={ styles.container }>
       <Enterprise className="pricing" />
-      <Premium className="pricing" info={ currentPricing.premium } />
-      <Standard className="pricing" info={ currentPricing.standard } />
-      <Free className="pricing" info={ currentPricing.free } />
+      <Premium className="pricing" info={ currentPricing } />
+      <Standard className="pricing" info={ currentPricing } />
+      <Free className="pricing" info={ currentPricing } />
     </div>
   );
 };

@@ -39,6 +39,14 @@ class HeaderNav extends Component {
        });
        break;
       }
+
+      if (currentPath === '/search/' && link.pathname === '/courses/') {
+        link.parentElement.classList.add(styles.active);
+         this.setState({
+          previousPath: link
+         });
+         break;
+      }
     }
   };
 

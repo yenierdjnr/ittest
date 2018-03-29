@@ -7,6 +7,7 @@ import styles from '../styles.module.scss';
 
 
 const Free = ({ className='', info }) => {
+  const { free } = info;
   let container = `${styles.container} ${className}`;
   let description = styles.description;
 
@@ -16,7 +17,7 @@ const Free = ({ className='', info }) => {
   }
 
   return (
-    <Link className={ container }>
+    <a href="https://itpro.tv/plans/free-signup" className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.darkGreen } size="6">free</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just Looking</Hx>
@@ -24,12 +25,12 @@ const Free = ({ className='', info }) => {
         <span className={ styles.perks }>Daily live stream</span>
       </div>
       <div className={ styles.pricing }>
-        <Hx className={ styles.price } color={ styles.darkGreen } size="2">${ info.price }<span className={ styles['per-year'] }>/ year</span></Hx>
-        <TextLink className={ styles.link } color={ styles.darkGreen } size="1.6">sign up</TextLink>
+        <Hx className={ styles.price } color={ styles.darkGreen } size="2">${ free.price }<span className={ styles['per-year'] }>/ year</span></Hx>
+        <TextLink className={ styles.link } color={ styles.darkGreen } size="1.6" disabled>sign up</TextLink>
         <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
       </div>
       <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.darkGreen }}></div>
-    </Link>
+    </a>
   );
 };
 

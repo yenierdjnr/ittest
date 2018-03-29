@@ -7,6 +7,7 @@ import styles from '../styles.module.scss';
 
 
 const Standard = ({ className='', info }) => {
+  const { standard } = info;
   let container = `${styles.container} ${className}`;
   let description = styles.description;
   let perks = styles.perks
@@ -18,20 +19,20 @@ const Standard = ({ className='', info }) => {
   }
 
   return (
-    <Link className={ container }>
+    <a href={ `https://itpro.tv/plans/standard-signup/${info.type}` } className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.blue } size="6">standard</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The Good Stuff</Hx>
         <span className={ perks }>Full on-demand ITProTV course library</span>
       </div>
       <div className={ styles.pricing }>
-        <Hx className={ styles.price } color={ styles.blue } size="2">${ info.price }<span className={ styles['per-year'] }>/ year</span></Hx>
-        <span className={ styles.billing }>{ info.billing2 }</span>
-        <span className={ styles.billing }>{ info.billing1 }</span>
-        <TextLink className={ styles.link } color={ styles.blue } size="1.6">sign up</TextLink>
+        <Hx className={ styles.price } color={ styles.blue } size="2">${ standard.price }<span className={ styles['per-year'] }>/ year</span></Hx>
+        <span className={ styles.billing }>{ standard.billing2 }</span>
+        <span className={ styles.billing }>{ standard.billing1 }</span>
+        <TextLink className={ styles.link } color={ styles.blue } size="1.6" disabled>sign up</TextLink>
       </div>
       <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.blue }}></div>
-    </Link>
+    </a>
   );
 };
 

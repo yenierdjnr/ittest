@@ -42,6 +42,7 @@ class Plans extends Component {
         }
       },
       currentPricing: {
+        type: 'annual',
         premium: {
           price: '857',
           billing1: 'Annual Billing',
@@ -61,7 +62,13 @@ class Plans extends Component {
 
   handleClick = target => {
     const { annual, monthly } = this.state;
-    const currentPricing = target === 'monthly' ? monthly : annual;
+    let currentPricing = {};
+
+    if (target === 'monthly') {
+      currentPricing = { type: 'monthly', ...monthly };
+    } else {
+      currentPricing = { type: 'annual', ...annual };
+    }
 
     this.setState({
       currentPricing

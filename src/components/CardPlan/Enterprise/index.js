@@ -20,7 +20,7 @@ const Enterprise = ({ className='' }) => {
     }
 
     return (
-      <Link className={ container }>
+      <Link to="/for-teams/" className={ container }>
         <div className={ description }>
           <Hx className={ styles.title } color={ styles.orange } size="6">enterprise</Hx>
           <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Team Plan</Hx>
@@ -30,7 +30,7 @@ const Enterprise = ({ className='' }) => {
         </div>
         <div className={ styles.pricing }>
           <Hx className={ price } color={ styles.orange } size="3.2">Quoted on team size</Hx>
-          <TextLink className={ styles.link } color={ styles.orange } size="1.6">let's talk</TextLink>
+          <TextLink className={ styles.link } color={ styles.orange } size="1.6" disabled>let's talk</TextLink>
         </div>
         <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.orange }}></div>
       </Link>
