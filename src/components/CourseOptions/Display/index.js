@@ -15,6 +15,7 @@ const Display = props => {
             return <Category key={ i } title={ category.tagname } url={`/courses/${category.url}/`} />;
           })
         }
+        <li className={ styles['see-more'] }><a href="#"><Hx className={ styles['see-more-text'] } size="6" color={ styles.orange }>see more</Hx></a></li>
       </ul>
     </section>
   );

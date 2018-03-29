@@ -3,8 +3,14 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'uppper-mid-phablet': $uppper-mid-phablet
 );
+
+:export {
+  orange: $color-orange-primary;
+  size: $lower-tablet;
+}
 
 .container {
   padding: 7.2rem 0 8.4rem;
@@ -24,6 +30,10 @@ $breakpoints: (
   grid-row-gap: 3.6rem;
 }
 
+.see-more {
+  display: none;
+}
+
 
 @include media('<lower-tablet') {
   .container {
@@ -36,6 +46,19 @@ $breakpoints: (
     padding: 0 1.6rem;
   }
 }
+
+
+@include media('<uppper-mid-phablet') {
+  .see-more {
+    display: inline-block;
+    padding-top: 4px;
+    text-align: center;
+  }
+  .see-more-text {
+    text-transform: capitalize;
+  }
+}
+
 
 @include media('<lower-phone') {
   .flags {
