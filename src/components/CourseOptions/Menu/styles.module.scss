@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 .container {
@@ -60,9 +61,28 @@ $breakpoints: (
   }
 
   .item {
+    width: 11.4rem;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+
     & span {
       font-size: 1.6rem;
       line-height: 2rem;
     }
+  }
+}
+
+
+@include media('<lower-phone') {
+  .list {
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 9.4rem;
+    justify-content: center;
   }
 }

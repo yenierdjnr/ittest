@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Hx from 'Elements/Hx';
 import { Category } from 'Elements/Flags';
 import styles from './styles.module.scss';
 
