@@ -11,13 +11,11 @@ const TextLink = ({ children='TextLink', className='', color='#F6621C', size=1.8
     icon = `${styles.icon} ${styles.hide}`;
   }
 
-  const element = to ? <a /> : <span />
-
   return (
-    <element className={ className } href={ to }>
+    <a className={ className } href={ to }>
       <span style={{ color: color, fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
       <IconArrowRight className={ icon } fill={ color } />
-    </element>
+    </a>
   );
 };
 
