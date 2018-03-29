@@ -40,6 +40,10 @@ $breakpoints: (
     padding: 3.2rem 0 3.8rem;
   }
 
+  .list {
+    grid-row-gap: 1.6rem;
+  }
+
   .flags {
     grid-template-columns: minmax(304px, 492px);
     justify-content: center;
