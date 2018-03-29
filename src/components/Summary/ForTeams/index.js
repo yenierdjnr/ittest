@@ -15,8 +15,8 @@ const ForTeamsSummary = props => {
       <ul className={ styles.list }>
         <ViewportAnimation>
           <li className={ styles.item }>
-            <div className={ `${styles['icon-box']} ${styles.laptop}` }>
-              <IconLaptop />
+            <div className={ styles['icon-box'] }>
+              <IconLaptop className={ styles.laptop }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offblack } className={ styles.title } size="4">full course library</Hx>
@@ -26,8 +26,8 @@ const ForTeamsSummary = props => {
         </ViewportAnimation>
         <ViewportAnimation>
           <li className={ styles.item }>
-            <div className={ `${styles['icon-box']} ${styles.popcorn}` }>
-              <IconPopcorn />
+            <div className={ styles['icon-box'] }>
+              <IconPopcorn className={ styles.popcorn }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>
@@ -37,8 +37,8 @@ const ForTeamsSummary = props => {
         </ViewportAnimation>
         <ViewportAnimation>
           <li className={ styles.item }>
-            <div className={ `${styles['icon-box']} ${styles.coin}` }>
-              <IconCoin />
+            <div className={ styles['icon-box'] }>
+              <IconCoin className={ styles.coin }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offblack } className={ styles.title } size="4">ROI proven</Hx>

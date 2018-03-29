@@ -7,9 +7,13 @@
 }
 
 .container {
-  display: block;
-  height: 80px;
+  height: 12.4rem;
   padding: 2.6rem 0 2.5rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 
   text-align: center;
 

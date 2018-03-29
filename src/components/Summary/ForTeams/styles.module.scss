@@ -57,7 +57,6 @@ $breakpoints: (
   margin-left: 3.6rem;
 }
 
-
 .title {
   text-transform: capitalize;
   margin-bottom: 1.6rem;
@@ -87,7 +86,7 @@ $breakpoints: (
   }
 
   .list {
-    padding: 5.6rem 0 6rem;
+    padding: 5.6rem 1.6rem 6rem;
 
     grid-column: 1 / -1;
     grid-row: 2 / 3;
@@ -97,7 +96,6 @@ $breakpoints: (
   .item {
     height: unset;
     flex-flow: column nowrap;
-    width: 29.5rem;
 
     &:not(:last-child) {
       margin-bottom: 6.4rem;
@@ -105,7 +103,6 @@ $breakpoints: (
   }
 
   .summary {
-    width: 28.1rem;
     margin-left: 0;
   }
 
@@ -115,15 +112,15 @@ $breakpoints: (
     margin-bottom: 4rem;
     border-radius: 5rem;
 
-    & .laptop-icon {
+    & .laptop {
       width: 6.5rem;
       height: 7.5rem;
     }
-    & .popcorn-icon {
+    & .popcorn {
       width: 5.2rem;
       height: 6.9rem;
     }
-    & .coin-icon {
+    & .coin {
       width: 4.9rem;
       height: 6.5rem;
     }

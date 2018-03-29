@@ -72,7 +72,6 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 };
 
 exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
-
   const component = path.resolve('src/components/CourseCategory/index.js');
 
   return graphql(
