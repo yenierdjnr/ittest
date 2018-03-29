@@ -78,9 +78,14 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
+
+  .wrapper {
+    width: 37rem;
+    padding: 0 2rem;
+  }
+
   .container {
     padding: 2.4rem 2.4rem 3.8rem 2.3rem;
-    width: 30rem;
   }
   .quotes {
     font-size: 6.6rem;
