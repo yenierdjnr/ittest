@@ -55,7 +55,7 @@ $breakpoints: (
 @include media('<uppper-mid-phablet') {
   .see-more {
     display: inline-block;
-    padding-top: 4px;
+    padding-top: 2.4rem;
     text-align: center;
   }
   .see-more-text {

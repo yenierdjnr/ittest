@@ -62,7 +62,7 @@ $breakpoints: (
   animation: slideUp 1.5s cubic-bezier(0.2, 0, 0.1, 1) 0s 1;
   @keyframes slideUp {
     0% {
-      transform: translateY(20px);
+      transform: translateY(50px);
     }
     100% {
       transform: translateY(0);
