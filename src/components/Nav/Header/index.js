@@ -29,6 +29,7 @@ class HeaderNav extends Component {
   }
 
   activateLink = (currentPath) => {
+    const regex = /\/courses\//g;
     const links = document.querySelectorAll(`.${styles['menu-item']} a`);
 
     for (const link of links) {
@@ -46,6 +47,14 @@ class HeaderNav extends Component {
           previousPath: link
          });
          break;
+      }
+
+      if (regex.test(currentPath) && link.pathname === '/courses/') {
+        link.parentElement.classList.add(styles.active);
+       this.setState({
+        previousPath: link
+       });
+       break;
       }
     }
   };
