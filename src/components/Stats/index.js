@@ -81,7 +81,7 @@ class Stats extends Component {
           <CountUp
             ref="content"
             className={ `${styles.num} content` }
-            start={0}
+            start={1200}
             end={3300}
             duration={2.75}
             useEasing={true}
@@ -94,7 +94,7 @@ class Stats extends Component {
           <CountUp
             ref="certs"
             className={ `${styles.num} certs` }
-            start={0}
+            start={59}
             end={288}
             duration={2.75}
             useEasing={true}
@@ -107,7 +107,7 @@ class Stats extends Component {
           <CountUp
             ref="comm"
             className={ `${styles.num} comm` }
-            start={0}
+            start={33567}
             end={90000}
             duration={2.75}
             useEasing={true}
