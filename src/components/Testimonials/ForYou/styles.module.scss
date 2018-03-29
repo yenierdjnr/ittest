@@ -5,25 +5,6 @@ $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
-.container {
-  padding: 8rem 0;
-
-  display: grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
-  background-color: $color-white-light;
-}
-
-.content {
-  grid-column: 2 / 3;
-}
-
-
-@include media('<lower-tablet') {
-  .container {
-    display: none;
-  }
-}
 
 .container {
   padding: 11.2rem 0 10.6rem;
