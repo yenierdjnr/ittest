@@ -34,3 +34,13 @@ button, a {
 h1 {
   margin: 2.4rem 0;
 }
+
+.fade-up-in-enter {
+  position: relative;
+  transform: translateY(20px);
+}
+
+.fade-up-in-enter.fade-up-in-enter-active {
+  transform: translateY(0);
+  transition: transform 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1);
+}
