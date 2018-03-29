@@ -30,6 +30,10 @@
     color: $color-offblack;
     background-color: $color-white;
   }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .annual {
