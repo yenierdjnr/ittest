@@ -65,12 +65,13 @@ class Stats extends Component {
 
         comm.innerHTML = `${front},${back}`;
       }
-    }.bind(this), 1500);
+    }.bind(this), 5000);
   }
 
-  onComplete = e => {
+  onComplete = () => {
+    const _id = this.triggerInterval();
     this.setState({
-      intervalId: this.triggerInterval()
+      intervalId: _id
     });
   };
 
@@ -81,7 +82,7 @@ class Stats extends Component {
           <CountUp
             ref="content"
             className={ `${styles.num} content` }
-            start={1200}
+            start={3100}
             end={3300}
             duration={2.75}
             useEasing={true}
@@ -94,7 +95,7 @@ class Stats extends Component {
           <CountUp
             ref="certs"
             className={ `${styles.num} certs` }
-            start={59}
+            start={88}
             end={288}
             duration={2.75}
             useEasing={true}
@@ -107,7 +108,7 @@ class Stats extends Component {
           <CountUp
             ref="comm"
             className={ `${styles.num} comm` }
-            start={33567}
+            start={89800}
             end={90000}
             duration={2.75}
             useEasing={true}
