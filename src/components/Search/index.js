@@ -20,6 +20,7 @@ export default class Search extends PureComponent {
   handleSubmit = (event) => {
     event.preventDefault();
     const { value } = this.state;
+
     if (value) {
       navigateTo(`/search/?q=${value}`)
     }
@@ -27,15 +28,16 @@ export default class Search extends PureComponent {
 
   render() {
     const { className='' } = this.props;
+
     return (
-      <form onSubmit={this.handleSubmit} className={ `${className} ${styles.container}` }>
+      <form onSubmit={ this.handleSubmit } className={ `${className} ${styles.container}` }>
         <input
-          onChange={this.handleChange}
+          onChange={ this.handleChange }
           className={ styles.input }
           type="text"
           placeholder="Search courses"
         />
-        <IconSearch className={ styles.icon }/>
+        <IconSearch onClick={ this.handleSubmit } className={ styles.icon }/>
       </form>
     );
   }
