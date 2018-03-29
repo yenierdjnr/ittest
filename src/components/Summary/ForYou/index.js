@@ -30,7 +30,7 @@ const ForYouSummary = props => {
             <div className={ styles.summary }>
               <Hx color={ styles.offblack } className={ styles.title } size="4">build your career</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Train to pass your certs and start or advance in IT. CompTIA, Cisco, Microsoft, AWS, cloud, security and more.</Para>
-              <TextLink className={ styles['text-link']} to="/plans/">view pland & pricing</TextLink>
+              <TextLink className={ styles['text-link']} to="/plans/">view plans & pricing</TextLink>
             </div>
           </li>
           <li className={ styles.item }>

@@ -81,7 +81,7 @@ class Plans extends Component {
     return (
       <section className={ styles.container }>
         <header className={ styles.heading }>
-          <Hx className={ styles.title } size="2">Start or Advance Your IT  Career Today</Hx>
+          <Hx className={ styles.title } size="2">Start or Advance Your IT Career Today</Hx>
           <ButtonSwitch className={ styles.switch } handleSwitch={ this.handleClick } />
         </header>
 

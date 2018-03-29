@@ -74,7 +74,7 @@ class RequestForm extends Component {
 
     return (
       <section className={ `${styles.container} ${className}` }>
-        <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo,  or trial? Get in touch!</Hx>
+        <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo, or trial? Get in touch!</Hx>
 
         <form onSubmit={this.handleSubmit}>
           <div className={ styles['about-you']}>

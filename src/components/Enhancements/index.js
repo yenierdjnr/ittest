@@ -10,7 +10,7 @@ import { IconExams, IconLabs } from 'Elements/Icons';
 const Enhancements = props => {
   return (
     <section className={ styles.container }>
-      <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance Your Learning with Labs  & Practice Exams</Hx>
+      <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance Your Learning with Labs & Practice Exams</Hx>
       <div className={ styles.learnings }>
         <div className={ styles['hands-on'] }>
           <div className={ styles['icon-box']}>
@@ -24,7 +24,7 @@ const Enhancements = props => {
           <div className={ styles['icon-box']}>
             <IconExams className={ styles['icon-exams'] }/>
           </div>
-          <Hx className={ styles['topic-title'] } color={ styles.offBlack } size="4">Pass Certifications with  Practice Exams</Hx>
+          <Hx className={ styles['topic-title'] } color={ styles.offBlack } size="4">Pass Certifications with Practice Exams</Hx>
           <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training®. Take and re-take to ensure you're  ready before you sit for the exam.</Para>
           <TextLink>see practice tests</TextLink>
         </div>
