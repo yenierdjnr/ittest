@@ -36,6 +36,8 @@ $breakpoints: (
 
   &.search {
     width: 100%;
+    justify-content: center;
+    border-bottom: 2px solid $color-green-secondary
   }
 }
 

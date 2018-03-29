@@ -53,8 +53,9 @@ export default function Search(props) {
         <div className={ styles['results-container'] }>
           <Hx className={ styles['course-title'] }color={ styles.offBlack } size="4">Courses</Hx>
           <ul className={ styles.ResultsList }>
-            {courses.map(course => (
+            {courses.map((course, i) => (
               <Course
+                key={ i }
                 title={ course.title }
                 description={ course.description }
               />
@@ -62,8 +63,9 @@ export default function Search(props) {
           </ul>
           <Hx className={ styles['episode-title'] } color={ styles.offBlack } size="4">Episodes</Hx>
           <ul className={ styles.ResultsList }>
-            {episodes.map(episode => (
+            {episodes.map((episode, i) => (
               <Episode
+                key={ i }
                 className="search"
                 title={ episode.title }
                 linkName={ episode.linkName }
