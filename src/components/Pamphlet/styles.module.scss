@@ -8,12 +8,19 @@ $breakpoints: (
 .container {
   padding: 9.7rem 0;
 
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
+  background-color: $color-offblack;
+}
+
+.content {
+  grid-column: 2 / 3;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
-  background-color: $color-offblack;
 }
 
 .info {
