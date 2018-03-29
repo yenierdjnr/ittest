@@ -10,42 +10,67 @@ class RequestForm extends Component {
     super(props);
 
     this.state = {
-      pardot_email: '',
-      pardot_firstName: '',
-      pardot_lastName: '',
-      pardot_company: '',
-      pardot_phone: '',
-      pardot_region: '',
-      pardot_demo: 'yes',
-      pardot_comments: ''
+      submitting: false,
+      success: false,
+      error: false,
+      form: {
+        pardot_email: '',
+        pardot_firstName: '',
+        pardot_lastName: '',
+        pardot_company: '',
+        pardot_phone: '',
+        pardot_region: '',
+        pardot_demo: 'yes',
+        pardot_comments: ''
+      }
     };
   }
 
   handleSubmit = event => {
     event.preventDefault();
 
+    this.setState({ submitting : true })
+
     fetch('https://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
       method: 'POST',
-      body: JSON.stringify(this.state),
+      body: JSON.stringify(this.state.form),
       headers: {
         'content-type': 'application/json'
       }
+    })
+    .then(() => {
+      this.setState({
+        success: true,
+        error: false
+      })
+    }).catch(() => {
+      this.setState({
+        success: false,
+        error: true
+      })
     });
   }
 
   handleInput = e => {
     this.setState({
-      [e.target.name]: e.target.value
+      form: {
+        ...this.state.form,
+        [e.target.name]: e.target.value
+      }
     });
   }
 
   render() {
     const {
-      pardot_email, pardot_firstName, pardot_lastName,
-      pardot_company, pardot_phone, pardot_region,
-      pardot_demo, pardot_comments
+      form: {
+        pardot_email, pardot_firstName, pardot_lastName,
+        pardot_company, pardot_phone, pardot_region,
+        pardot_demo, pardot_comments
+      },
+      submitting, success
     } = this.state;
     const { className='' } = this.props;
+    const buttonClass = success ? styles.buttonSuccess : '';
 
     return (
       <section className={ `${styles.container} ${className}` }>
@@ -53,16 +78,59 @@ class RequestForm extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <div className={ styles['about-you']}>
-            <input className={ styles.item } type="text" value={ pardot_firstName } name="pardot_firstName" placeholder="First Name*" onChange={ this.handleInput }/>
-            <input className={ styles.item } type="text" value={ pardot_lastName } name="pardot_lastName" placeholder="Last Name*" onChange={ this.handleInput }/>
-            <input className={ styles.item } type="email" value={ pardot_email } name="pardot_email" placeholder="Email*" onChange={ this.handleInput }/>
-            <input className={ styles.item } type="text" value={ pardot_company } name="pardot_company" placeholder="Company*" onChange={ this.handleInput }/>
-            <input className={ styles.item } type="tel" value={ pardot_phone } name="pardot_phone" placeholder="Phone*" onChange={ this.handleInput }/>
+            <input
+              className={ styles.item }
+              type="text"
+              value={ pardot_firstName }
+              name="pardot_firstName"
+              placeholder="First Name*"
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
+            <input
+              className={ styles.item }
+              type="text"
+              value={ pardot_lastName }
+              name="pardot_lastName"
+              placeholder="Last Name*"
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
+            <input
+              className={ styles.item }
+              type="email"
+              value={ pardot_email }
+              name="pardot_email"
+              placeholder="Email*"
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
+            <input
+              className={ styles.item }
+              type="text"
+              value={ pardot_company }
+              name="pardot_company"
+              placeholder="Company*"
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
+            <input
+              className={ styles.item }
+              type="tel"
+              value={ pardot_phone }
+              name="pardot_phone"
+              placeholder="Phone*"
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
 
-            <select className={ `${styles.item} ${styles.selector}` }
+            <select
+              className={ `${styles.item} ${styles.selector}` }
+              disabled={ submitting }
               name="pardot_region"
               value={ pardot_region }
-              onChange={ this.handleInput }>
+              onChange={ this.handleInput }
+            >
               <option value="">Region*</option>
               <option value="northamerica">North America</option>
               <option value="emea">EMEA</option>
@@ -75,15 +143,30 @@ class RequestForm extends Component {
             <div className={ styles['question-box']}>
               <span className={ styles.question }>Would you like a live demo of ITProTV?*</span>
               <div className={ styles['radio-list']}>
-                <input id="r1" className={ styles.radio } type="radio" name="pardot_demo" value="yes" checked={ pardot_demo === 'yes' } onChange={ this.handleInput }/><label className={ styles.label } htmlFor="r1">Yes</label>
-                <input id="r2" className={ styles.radio } type="radio" name="pardot_demo" value="no" checked={ pardot_demo === 'no' } onChange={ this.handleInput }/><label className={ styles.label } htmlFor="r2">No</label>
+                <input id="r1" className={ styles.radio } type="radio" name="pardot_demo" value="yes" checked={ pardot_demo === 'yes' } onChange={ this.handleInput } disabled={ submitting } />
+                <label className={ styles.label } htmlFor="r1">Yes</label>
+                <input id="r2" className={ styles.radio } type="radio" name="pardot_demo" value="no" checked={ pardot_demo === 'no' } onChange={ this.handleInput } disabled={ submitting } />
+                <label className={ styles.label } htmlFor="r2">No</label>
               </div>
             </div>
 
-            <textarea className={ styles.textarea } name="pardot_comments" value={ pardot_comments } placeholder="Tell us about your company’s training needs." onChange={ this.handleInput }/>
+            <textarea
+              className={ styles.textarea }
+              name="pardot_comments"
+              value={ pardot_comments }
+              placeholder="Tell us about your company’s training needs."
+              onChange={ this.handleInput }
+              disabled={ submitting }
+            />
           </div>
 
-          <Button className={ styles.button }>send request</Button>
+          <Button
+            className={ `${styles.button} ${buttonClass}` }
+            disabled={submitting || success}
+          >
+            {!success && `send request`}
+            {success && `Request received. Thank you!`}
+          </Button>
         </form>
       </section>
     );

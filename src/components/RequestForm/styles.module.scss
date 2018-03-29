@@ -105,6 +105,16 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
+.button {
+  &.buttonSuccess {
+    background-color: $color-purple-dark;
+    cursor:auto;
+
+    &:hover {
+      background-color: $color-purple-dark;
+    }
+  }
+}
 
 @include media('<lower-tablet') {
   .container {
