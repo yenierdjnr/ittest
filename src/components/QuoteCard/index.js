@@ -13,7 +13,7 @@ import {
 
 const QuoteCard = props => {
   return (
-    <div className={wrapper } style={ props.style }>
+    <div className={ wrapper } style={ props.style }>
       <div className={ container }>
         <span className={ quotes }>“</span>
         <div className={ comment }>
