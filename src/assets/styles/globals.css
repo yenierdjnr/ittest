@@ -37,10 +37,13 @@ h1 {
 
 .fade-up-in-enter {
   position: relative;
+  opacity: 0;
   transform: translateY(20px);
 }
 
 .fade-up-in-enter.fade-up-in-enter-active {
   transform: translateY(0);
-  transition: transform 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1);
+  opacity: 1;
+  transition: transform 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1),
+    opacity 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1);
 }

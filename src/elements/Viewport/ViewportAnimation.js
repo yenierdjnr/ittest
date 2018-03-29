@@ -19,7 +19,7 @@ export default class ViewportAnimation extends PureComponent {
     return (
       <ViewportAction threshold={0} onChange={this.setVisible}>
         <CSSTransition
-          timeout={1000}
+          timeout={2000}
           in={this.state.visible}
           classNames="fade-up-in"
         >

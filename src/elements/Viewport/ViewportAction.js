@@ -32,7 +32,6 @@ class ViewportAction extends PureComponent {
 
 
   isElementInViewport(el) {
-    console.log('el');
     const rect = el.getBoundingClientRect();
     const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
     const { threshold } = this.props;
