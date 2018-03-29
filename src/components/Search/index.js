@@ -4,13 +4,26 @@ import { navigateTo } from "gatsby-link"
 import styles from './styles.module.scss';
 import { IconSearch } from 'Elements/Icons';
 
-export default class Search extends PureComponent {
+class Search extends PureComponent {
   constructor(props) {
     super(props);
 
     this.state = {
-      value: ''
+      value: this.grabQueryParameter()
     };
+  }
+
+  grabQueryParameter = () => {
+    const { location } = this.props;
+
+    if (!location) {
+      return '';
+    }
+
+    const search = location.search;
+    const querySplit = search.split('=');
+    const query = querySplit.length > 0 ? querySplit[1] : '';
+    return query;
   }
 
   handleChange = (event) => {
@@ -28,6 +41,7 @@ export default class Search extends PureComponent {
 
   render() {
     const { className='' } = this.props;
+    const { value } = this.state;
 
     return (
       <form onSubmit={ this.handleSubmit } className={ `${className} ${styles.container}` }>
@@ -36,9 +50,12 @@ export default class Search extends PureComponent {
           className={ styles.input }
           type="text"
           placeholder="Search courses"
+          value={ value }
         />
         <IconSearch onClick={ this.handleSubmit } className={ styles.icon }/>
       </form>
     );
   }
 }
+
+export default Search;

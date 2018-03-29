@@ -41,12 +41,14 @@ const episodes = [
   }
 ];
 
-export default function Search(props) {
+const Search = props => {
+  const { location } = props;
+
   return (
     <main className={ styles.container }>
 
       <section className={ styles.Hero }>
-        <Hero />
+        <Hero location={ location }/>
       </section>
 
       <section className={ styles.Results }>
@@ -78,3 +80,6 @@ export default function Search(props) {
     </main>
   );
 }
+
+
+export default Search;
