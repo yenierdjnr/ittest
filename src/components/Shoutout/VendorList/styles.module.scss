@@ -2,6 +2,7 @@
 
 
 $breakpoints: (
+  'desktop-vendorlist': $desktop-vendorlist,
   'lower-tablet': $lower-tablet
 );
 
@@ -32,6 +33,13 @@ $breakpoints: (
     line-height: 2.9rem;
 
     text-transform: capitalize;
+  }
+}
+
+
+@include media('<=desktop-vendorlist') {
+  .list {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 25.5rem))
   }
 }
 
