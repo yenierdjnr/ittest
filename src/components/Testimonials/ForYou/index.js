@@ -2,12 +2,16 @@ import React from 'react';
 
 import Carousel from 'Elements/Carousel';
 import QuoteCard from 'Components/QuoteCard';
-import styles from './styles.module.scss';
+import {
+  container, content,
+  title, offBlack
+} from './styles.module.scss';
+
 
 const ForYouTestimonials = props => {
   return (
-    <div className={ styles.container }>
-      <div className={ styles.content }>
+    <div className={ container }>
+      <div className={ content }>
         <Carousel>
           <QuoteCard
             title="ITProTV sets the standard"
