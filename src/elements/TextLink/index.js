@@ -12,7 +12,7 @@ const TextLink = ({ children='TextLink', className='', color='#F6621C', size=1.8
   }
 
   return (
-    <a className={ className } href={ to }>
+    <a className={ `${styles['text-link']} ${className}` } href={ to }>
       <span style={{ color: color, fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
       <IconArrowRight className={ icon } fill={ color } />
     </a>
