@@ -3,7 +3,7 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'upper-phone': $upper-phone
 );
 
 .container {
@@ -57,7 +57,6 @@ $breakpoints: (
     height: 6rem;
     justify-content: left;
     padding: 0 1.6rem;
-
   }
 
   .item {
@@ -76,7 +75,7 @@ $breakpoints: (
 }
 
 
-@include media('<lower-phone') {
+@include media('<=upper-phone') {
   .list {
     justify-content: space-between;
   }
