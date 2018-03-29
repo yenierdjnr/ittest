@@ -9,7 +9,7 @@ const Display = props => {
 
   return (
     <section className={ `${className} ${styles.container}` }>
-      <ul>
+      <ul className={ styles.list }>
         {
           categories.map((category, i) => {
             return <Category key={ i } title={ category.tagname } url={`/courses/${category.url}/`} />;

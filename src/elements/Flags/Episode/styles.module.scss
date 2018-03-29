@@ -10,9 +10,9 @@ $breakpoints: (
   offBlack: $color-offblack;
 }
 
-.container {
-  height: 10rem;
+.item {
   width: 492px;
+  height: 10rem;
   padding: 21px 16px 20px;
   justify-self: center;
 
@@ -72,8 +72,8 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
-    max-width: 492px;
+  .item {
+    max-width: 49.2rem;
     width: 100%;
     height: 12.4rem;
     padding: 1.6rem 0 1.8rem 1.6rem;
@@ -85,7 +85,7 @@ $breakpoints: (
   }
 
   .title {
-    width: 30rem;
+    width: 100%;
     text-align: left;
     margin-bottom: 8px;
   }

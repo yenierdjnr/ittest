@@ -2,29 +2,43 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 7.2rem 0 8.4rem;
 
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
   background-color: $color-offwhite;
+}
 
-  & ul {
-    grid-column: 2 / 3;
+.list {
+  grid-column: 2 / 3;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
-    grid-column-gap: 4.1rem;
-    grid-row-gap: 3.6rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
+  grid-column-gap: 4.1rem;
+  grid-row-gap: 3.6rem;
 }
 
 
 @include media('<lower-tablet') {
   .container {
     padding: 3.2rem 0 3.8rem;
+  }
+
+  .flags {
+    grid-template-columns: minmax(304px, 492px);
+    justify-content: center;
+    padding: 0 1.6rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .flags {
+    padding: 0 8px;
   }
 }

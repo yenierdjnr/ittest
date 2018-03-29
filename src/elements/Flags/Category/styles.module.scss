@@ -2,25 +2,20 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
-
 .item {
-  width: 314px;
+  width: 31.4rem;
+  height: 8rem;
   justify-self: center;
-}
-
-.container {
-  height: 10rem;
-  padding: 2.6rem 0 2.5rem;
 
   display: flex;
   flex-flow: row nowrap;
+  flex: 0 1 auto;
   justify-content: center;
   align-items: center;
-
-  text-align: center;
 
   border: 1px solid #E4E8EC;
   box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
@@ -28,21 +23,30 @@ $breakpoints: (
   background-color: $color-white;
   transition: transform 250ms;
 
-  & span {
-    color: $color-offblack;
-    @include proxima-semi-bold;
-    font-size: 2.4rem;
-    line-height: 2.9rem;
-  }
-
   &:hover {
     transform: translateY(-2px);
   }
 }
 
+.link {
+  color: $color-offblack;
+  @include proxima-semi-bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+}
+
 
 @include media('<lower-tablet') {
-  .container {
+  .item {
+    max-width: 34.3rem;
+    width: 100%;
     height: 12.4rem;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .item {
+    max-width: 30.4rem;
   }
 }

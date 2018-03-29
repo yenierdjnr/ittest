@@ -9,9 +9,7 @@ const Category = props => {
 
   return (
     <li className={ styles.item }>
-      <Link to={url} className={ `${className} ${styles.container}` }>
-        <span>{ title }</span>
-      </Link>
+      <Link to={url} className={ `${className} ${styles.link}` }>{ title }</Link>
     </li>
   );
 };
