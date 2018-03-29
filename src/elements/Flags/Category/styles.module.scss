@@ -40,10 +40,16 @@ $breakpoints: (
   .item {
     max-width: 38.2rem;
     width: 100%;
-  }
 
-  .item:nth-child(n+9) {
-    display: none;
+    &:nth-child(n+9) {
+      display: none;
+    }
+
+    &.show-more {
+      &:nth-child(n+9) {
+        display: flex;
+      }
+    }
   }
 }
 

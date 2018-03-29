@@ -57,6 +57,10 @@ $breakpoints: (
     display: inline-block;
     padding-top: 2.4rem;
     text-align: center;
+
+    &.show-more {
+      display: none;
+    }
   }
   .see-more-text {
     text-transform: capitalize;

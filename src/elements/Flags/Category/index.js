@@ -5,10 +5,11 @@ import styles from './styles.module.scss';
 
 
 const Category = props => {
-  const { className='', title, url } = props;
+  const { className='', showMore, title, url } = props;
+  const categoryStyles = !showMore ? styles.item : `${styles.item} ${styles['show-more']}`;
 
   return (
-    <li className={ styles.item }>
+    <li className={ categoryStyles }>
       <Link to={url} className={ `${className} ${styles.link}` }>{ title }</Link>
     </li>
   );
