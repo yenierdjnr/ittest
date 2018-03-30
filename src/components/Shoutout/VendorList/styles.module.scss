@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'desktop-vendorlist': $desktop-vendorlist,
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 .container {
@@ -47,6 +48,10 @@ $breakpoints: (
 @include media('<lower-tablet') {
   .container {
     padding: 3.3rem 0;
+  }
+
+  .list {
+    grid-template-columns: repeat(auto-fit,minmax(14rem,14.5rem));
   }
 
   .item {

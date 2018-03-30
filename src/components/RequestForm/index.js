@@ -61,7 +61,7 @@ class RequestForm extends Component {
   }
 
   render() {
-    let {
+    const {
       form: {
         pardot_email, pardot_firstName, pardot_lastName,
         pardot_company, pardot_phone, pardot_region,
