@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
+import Img from "gatsby-image";
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconPlay } from 'Elements/Icons';
-import img from 'Images/forYou_video@1x.jpg';
 import styles from './styles.module.scss';
 
 
-const ForYouVideo = ({ className='' }) => {
+const ForYouVideo = ({ className='', videoImg }) => {
   const handlePlay = e => {
     const vidWrap = document.getElementById('vidwrap');
 
@@ -22,7 +22,7 @@ const ForYouVideo = ({ className='' }) => {
         <div id="background-video" className={ `${styles['video-container']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
-          <img className={ styles.img }src={ img } alt="team video"/>
+          <Img outerWrapperClassName={ styles.img } sizes={ videoImg.sizes } alt="team video"/>
         </div>
         <div className={ styles.intro }>
           <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More & Enjoy Watching</Hx>

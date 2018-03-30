@@ -1,11 +1,11 @@
 import React from 'react';
+import Img from "gatsby-image";
 
 import { IconPlay } from 'Elements/Icons';
-import img from 'Images/onAir_video@1x.jpg';
 import styles from './styles.module.scss';
 
 
-const OnAir = ({ className='' }) => {
+const OnAir = ({ className='', bkImage }) => {
   const handlePlay = e => {
     const vidWrap = document.getElementById('vidwrap');
 
@@ -18,7 +18,7 @@ const OnAir = ({ className='' }) => {
     <div id="background-video" className={ `${styles['container']} ${className}` } onClick={ handlePlay }>
       <div id="vidwrap" className={ styles.vidwrap }></div>
       <IconPlay className={ styles['play-button'] }/>
-      {/*<img className={ styles.img } src={ img } alt="on air video"/>*/}
+      <Img sizes={ bkImage.sizes } alt="on air video"/>
     </div>
   );
 };

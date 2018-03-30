@@ -22,7 +22,7 @@ const ForYou = props => {
       </section>
 
       <section className={ styles['Learn-More'] }>
-        <LearnMore />
+        <LearnMore videoImg={ props.data.videoImg }/>
       </section>
 
       <section className={ styles.Vendors }>
@@ -50,3 +50,14 @@ const ForYou = props => {
 
 
 export default ForYou;
+
+
+export const query = graphql`
+  query ForYou {
+    videoImg: imageSharp(id: { regex: "/forYou_video@1x/"}) {
+      sizes(maxWidth: 1050) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;

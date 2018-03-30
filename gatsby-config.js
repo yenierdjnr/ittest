@@ -24,6 +24,14 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets/images/`
+      }
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/assets/images/favicon.png',
@@ -32,12 +40,12 @@ module.exports = {
           android: true,
           appleIcon: true,
           appleStartup: true,
-          coast: false,
+          coast: true,
           favicons: true,
           firefox: true,
-          twitter: false,
-          yandex: false,
-          windows: false
+          twitter: true,
+          yandex: true,
+          windows: true
         }
       }
     }

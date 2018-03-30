@@ -5,7 +5,7 @@ import { OnAir as Hero } from 'Components/Hero';
 import ChannelGuide from 'Components/ChannelGuide';
 
 
-const OnAir = props => {
+const OnAir = ({ data }) => {
   return (
     <main className={ styles.onAir }>
 
@@ -14,7 +14,7 @@ const OnAir = props => {
       </section>
 
       <section className={ styles['Channel-Guide'] }>
-        <ChannelGuide />
+        <ChannelGuide videoImage={ data.videoImg }/>
       </section>
     </main>
   );
@@ -22,3 +22,14 @@ const OnAir = props => {
 
 
 export default OnAir;
+
+
+export const query = graphql`
+  query OnAir {
+    videoImg: imageSharp(id: { regex: "/onAir_video@1x/"}) {
+      sizes(maxWidth: 1050) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;

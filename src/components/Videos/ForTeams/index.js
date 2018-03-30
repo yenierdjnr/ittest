@@ -1,13 +1,13 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconPlay } from 'Elements/Icons';
-import img from 'Images/forTeams_video@1x.jpg';
 import styles from './styles.module.scss';
 
 
-const ForTeamsVideo = ({ className='' }) => {
+const ForTeamsVideo = ({ className='', videoImage }) => {
   const handlePlay = e => {
     const vidWrap = document.getElementById('vidwrap');
     const playButton = document.getElementsByClassName(styles['play-button'])[0];
@@ -28,7 +28,7 @@ const ForTeamsVideo = ({ className='' }) => {
         <div id="background-video" className={ `${styles['for-teams-container']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
-          <img className={ styles.img } src={ img } alt="team video"/>
+          <Img outerWrapperClassName={ styles.img } sizes={ videoImage.sizes } alt="team video"/>
         </div>
       </div>
     </section>

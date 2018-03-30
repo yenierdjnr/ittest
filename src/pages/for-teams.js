@@ -23,7 +23,7 @@ const ForTeams = props => {
       </section>
 
       <section className={ styles['Track-Results'] }>
-        <TrackResults />
+        <TrackResults videoImage={ props.data.videoImage }/>
       </section>
 
       <section className={ styles['Team-Needs']}>
@@ -35,7 +35,7 @@ const ForTeams = props => {
       </section>
 
       <section className={ styles['Team-Certs'] }>
-        <TeamCerts />
+        <TeamCerts testimonials={ props.data.testimonials }/>
       </section>
 
       <section className={ styles.Testimonials }>
@@ -47,3 +47,19 @@ const ForTeams = props => {
 
 
 export default ForTeams;
+
+
+export const query = graphql`
+  query ForTeamVideoAndTestimonialTeamCerts {
+    videoImage: imageSharp(id: { regex: "/forTeams_video@1x/"}) {
+      sizes(maxWidth: 669) {
+        ...GatsbyImageSharpSizes
+      }
+    },
+    testimonials: imageSharp(id: { regex: "/testimonial_video@1x/"}) {
+      sizes(maxWidth: 669) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
