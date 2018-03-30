@@ -48,7 +48,7 @@ const HomePage = props => {
       </section>
 
       <section className={ styles.Pamphlet }>
-        <Pamphlet />
+        <Pamphlet videoImg={ props.data.videoImg }/>
       </section>
     </main>
   );
@@ -56,3 +56,14 @@ const HomePage = props => {
 
 
 export default HomePage;
+
+
+export const query = graphql`
+  query HomeVideoImage {
+    videoImg: imageSharp(id: { regex: "/article@1x/"}) {
+      resolutions(width: 260, height: 195) {
+        ...GatsbyImageSharpResolutions
+      }
+    }
+  }
+`;

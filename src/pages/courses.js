@@ -32,6 +32,7 @@ const CourseLibrary = props => {
 
 export default CourseLibrary;
 
+
 export const query = graphql`
   query TagCategoryQuery {
       tagCategories: allTagCategoriesJson(sort: {order:ASC, fields: [weight]}) {

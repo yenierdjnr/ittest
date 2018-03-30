@@ -1,20 +1,19 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
-import styles from './styles.module.scss';
-import articleImage from 'Images/article@1x.png';
 import Link from 'Elements/Link';
 import { IconArrowRight } from 'Elements/Icons'
 import { ViewportAnimation } from 'Elements/Viewport'
-
+import styles from './styles.module.scss';
 
 const orangePrimary = '#F6621C';
 
-const Pamphlet = props => {
+const Pamphlet = ({ videoImg }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles.content }>
         <ViewportAnimation>
-          <img className={ styles['article-img'] } src={ articleImage } width="260" height="195" />
+          <Img resolutions={ videoImg.resolutions }/>
         </ViewportAnimation>
         <div className={ styles.info }>
           <h2 className={ styles.title }>The Tough Ten: 10 Hardest IT  Gigs to Hire For</h2>

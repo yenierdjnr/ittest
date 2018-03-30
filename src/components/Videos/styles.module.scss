@@ -71,7 +71,7 @@ $breakpoints: (
 
 @include media('<phablet') {
   .home-container {
-    background-image: url('Images/home_video_mobile@1x.png');
+    background-image: url('Images/home_video_mobile@1x.jpg');
     background-size: cover;
     background-position: 20% 20%;
   }
