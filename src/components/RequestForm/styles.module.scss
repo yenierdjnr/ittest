@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -109,10 +110,6 @@ $breakpoints: (
   &.buttonSuccess {
     background-color: $color-purple-dark;
     cursor:auto;
-
-    &:hover {
-      background-color: $color-purple-dark;
-    }
   }
 }
 
@@ -153,5 +150,12 @@ $breakpoints: (
 
   button.button {
     width: 100%;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .button {
+    font-size: 1.4rem;
   }
 }

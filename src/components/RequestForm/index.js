@@ -61,7 +61,7 @@ class RequestForm extends Component {
   }
 
   render() {
-    const {
+    let {
       form: {
         pardot_email, pardot_firstName, pardot_lastName,
         pardot_company, pardot_phone, pardot_region,
@@ -162,7 +162,7 @@ class RequestForm extends Component {
 
           <Button
             className={ `${styles.button} ${buttonClass}` }
-            disabled={submitting || success}
+            disabled={ submitting || success }
           >
             {!success && `send request`}
             {success && `Request received. Thank you!`}
