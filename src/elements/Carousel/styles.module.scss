@@ -18,12 +18,43 @@ $breakpoints: (
   flex-flow: row nowrap;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
 .lastChild {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   transform: translateX(-100%);
+}
+
+.pagination {
+  margin: 40px 0 0 0;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  outline: none;
+}
+
+.dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid $color-grey-secondary;
+  border-radius: 50%;
+
+  .active  &{
+    border: none;
+    background-color: $color-orange-primary;
+  }
 }
 
 
