@@ -3,7 +3,8 @@ import React, { PureComponent } from 'react';
 import Hx from 'Elements/Hx';
 import QuoteCard from 'Components/QuoteCard';
 import {
-  carousel, lastChild, wrapper, pagination, button, dot, active
+  carousel, wrapper, pagination,
+  button, dot, active, control, previous, next
 } from './styles.module.scss';
 
 const DURATION_MS = 8000;
@@ -55,7 +56,19 @@ export default class Carousel extends PureComponent {
     this.isDragging = false
   }
 
-  gotoPage = (page) => (event) => this.setState({ page })
+  gotoPage = (page) => (event) => this.setState({ page }, this.stop);
+
+  stop = () => clearInterval(this.timer);
+
+  stopAndNext = () => {
+    this.stop();
+    this.nextPage();
+  }
+
+  stopAndPrevious = () => {
+    this.stop();
+    this.previousPage();
+  }
 
   nextPage = () => {
     this.setState(({ page, pages }) => ({
@@ -95,7 +108,7 @@ export default class Carousel extends PureComponent {
   }
 
   componentWillUnmount(){
-    clearInterval(this.timer);
+    this.stop();
   }
 
   render() {
@@ -115,6 +128,9 @@ export default class Carousel extends PureComponent {
         ref={this.bindDOMRef}
       >
         <div className={ carousel } style={ style }>
+          {page === 0 && children.length > 1 &&
+            React.cloneElement(children[children.length - 2], { style:{ position: 'absolute', transform: 'translateX(-200%)' } })
+          }
           {React.cloneElement(lastChild, { style:{ position: 'absolute', transform: 'translateX(-100%)' } })}
           {children.map((child, index) => (
             React.cloneElement(child, { key: index })
@@ -122,6 +138,14 @@ export default class Carousel extends PureComponent {
           {(page + 2 > pages) && React.cloneElement(children[0])}
           {(page + 3 > pages) && React.cloneElement(children[1])}
         </div>
+        <button
+          className={ `${ control } ${ previous }` }
+          onClick={this.stopAndPrevious}
+        />
+        <button
+          className={ `${ control } ${ next }` }
+          onClick={this.stopAndNext}
+        />
         <div className= { pagination }>
           {children.map((child, index) => (
             <button
