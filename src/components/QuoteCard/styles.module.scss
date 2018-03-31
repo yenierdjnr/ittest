@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -10,7 +11,7 @@ $breakpoints: (
 }
 
 .wrapper {
-  width: 71rem;
+  width: 100%;
   padding: 0 2rem;
 }
 
@@ -79,8 +80,7 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .wrapper {
-    width: 37rem;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .container {
@@ -110,5 +110,11 @@ $breakpoints: (
     font-size: 1.2rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .wrapper {
+    padding: 0 0.5rem;
   }
 }

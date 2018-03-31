@@ -2,11 +2,18 @@
 
 
 $breakpoints: (
-  'tablet': $tablet
+  'lower-tablet': $lower-tablet,
+  'small-phone': $small-phone
 );
 
+.wrapper {
+  width: 70rem;
+  margin: 0 auto;
+}
+
 .carousel {
-  width: 71rem;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -20,8 +27,14 @@ $breakpoints: (
 }
 
 
-@include media('<tablet') {
-  .carousel {
-    width: 37rem;
+@include media('<lower-tablet') {
+  .wrapper {
+    width: 34rem;
+  }
+}
+
+@include media('<=small-phone') {
+  .wrapper {
+    width: 29rem;
   }
 }
