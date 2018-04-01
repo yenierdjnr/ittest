@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -20,7 +21,7 @@ $breakpoints: (
   background-color: $color-white;
 }
 
-.title {
+.containerTitle {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   justify-self: center;
@@ -29,6 +30,10 @@ $breakpoints: (
   margin-bottom: 8rem;
 
   text-align: center
+}
+
+.title {
+
 }
 
 .learnings {
@@ -94,10 +99,13 @@ $breakpoints: (
     padding: 6.4rem 0 7.6rem;
   }
 
+  .containerTitle {
+    padding: 0 4rem;
+  }
+
   .learnings {
     grid-template-columns: auto;
     justify-content: center;
-    margin: 0 2.4rem;
   }
 
   .hands-on, .practice-exams {
@@ -124,16 +132,49 @@ $breakpoints: (
     }
   }
 
-  .title, .topic-title {
+  .containerTitle {
+    max-width: 34rem;
+    margin-bottom: 7.2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+
+  .topic-title {
     max-width: 41.7rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
 
-  .title {
-    margin: 0 2.4rem 7.2rem;
-  }
   .topic-title {
     margin-bottom: 2.4rem;
+  }
+
+  .topic-title-one {
+    width: 26.3rem;
+  }
+  .topic-title-two {
+    width: 27.3rem;
+  }
+
+  .summary {
+    width: 29.5rem;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .learnings {
+    padding: 0 4rem;
+  }
+
+  .topic-title {
+    width: 20rem;
+  }
+
+  .summary {
+    width: 24rem;
   }
 }

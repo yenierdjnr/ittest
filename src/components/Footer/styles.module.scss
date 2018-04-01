@@ -2,8 +2,7 @@
 
 
 $breakpoints: (
-  'tablet': $header-tablet,
-  'mobile': 785px
+  'lower-tablet': $lower-tablet
 );
 
 .page-footer {
@@ -107,17 +106,14 @@ $breakpoints: (
 }
 
 
-@include media("<tablet") {
+@include media('<lower-tablet') {
   .page-footer__content {
-    padding-left: 4.1rem;
-  }
-  .page-footer__nav {
-    padding-right: 4.1rem;
-  }
-}
+    width: 100%;
+    max-width: 37rem;
+    padding: 0 4rem;
 
-@include media("<mobile") {
-  .page-footer__content {
+    justify-self: center;
+
     display: flex;
     flex-flow: column nowrap;
   }
@@ -130,6 +126,7 @@ $breakpoints: (
     flex-flow: column nowrap;
     justify-content: unset;
     flex: 0 0 auto;
+    padding-right: 0;
   }
 
   .page-footer__menu {

@@ -86,7 +86,7 @@ $breakpoints: (
   }
 
   .list {
-    padding: 5.6rem 2.5rem 6rem;
+    padding: 5.6rem 4rem 6rem;
 
     grid-column: 1 / -1;
     grid-row: 2 / 3;
@@ -94,6 +94,7 @@ $breakpoints: (
   }
 
   .item {
+    max-width: 28rem;
     height: unset;
     flex-flow: column nowrap;
 

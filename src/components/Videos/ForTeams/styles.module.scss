@@ -73,7 +73,7 @@ $breakpoints: (
   margin-bottom: 2.4rem;
 }
 .summary {
-  max-width: 27.4rem;
+  max-width: 27.6rem;
   line-height: 3.0rem;
 }
 
@@ -97,6 +97,7 @@ $breakpoints: (
     margin-bottom: 7.1rem;
   }
   .title {
+    max-width: 24rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
@@ -109,8 +110,10 @@ $breakpoints: (
 
 @include media('<upper-phablet') {
   .intro {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
+    padding: 0 4rem;
+  }
+  .summary {
+    // width: 27.7rem;
   }
 }
 

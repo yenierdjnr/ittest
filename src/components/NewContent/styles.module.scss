@@ -3,6 +3,7 @@
 
 $breakpoints: (
   'tablet': $tablet,
+  'upper-phone': $upper-phone,
   'lower-phone': $lower-phone
 );
 
@@ -58,6 +59,23 @@ $breakpoints: (
     font-size: 1.6rem;
     line-height: 2.4rem;
   }
+}
+
+
+@include media('<=upper-phone') {
+  .summary {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .title {
+    width: 27.3rem;
+  }
+  .subtitle {
+    width: 29.5rem;
+  }
+
 }
 
 

@@ -41,7 +41,7 @@ $breakpoints: (
   }
 
   .intro {
-    padding-left: 0;
+    padding: 0 4rem;
 
     display: flex;
     flex-flow: column nowrap;
@@ -49,8 +49,6 @@ $breakpoints: (
   }
 
   .title, .subtitle {
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
     text-align: center;
   }
 
@@ -60,6 +58,7 @@ $breakpoints: (
     line-height: 5.8rem;
   }
   .subtitle {
+    max-width: 30rem;
     margin-bottom: 4.8rem;
 
     font-size: 2.1rem;

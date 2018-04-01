@@ -2,7 +2,10 @@
 
 
 $breakpoints: (
-  'tablet': $tablet
+  'tablet': $tablet,
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
 );
 
 .container {
@@ -37,7 +40,7 @@ $breakpoints: (
 }
 
 .title {
-  max-width: 26.4rem;
+
   text-align: center;
   margin-bottom: 2.4rem;
 }
@@ -60,6 +63,8 @@ $breakpoints: (
   }
 
   .item {
+    max-width: 33.4rem;
+
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -92,8 +97,18 @@ $breakpoints: (
   .title {
     margin-bottom: 1.6rem;
   }
+}
 
-  .summary {
+
+@include media('<=upper-phone') {
+  .item {
     max-width: 29.5rem;
+  }
+}
+
+
+@include media('<=small-phone') {
+  .item {
+    width: 24rem;
   }
 }

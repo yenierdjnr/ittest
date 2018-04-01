@@ -20,8 +20,9 @@ const ForTeamsVideo = ({ className='', videoImage }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles.content }>
+
         <div className={ styles.intro }>
-          <Hx className={ styles.title } color={ styles.offBlack } size="2">Track Your Team’s Results</Hx>
+          <Hx className={ styles.title } color={ styles.offBlack } size="2">Track your team’s results</Hx>
           <Para className={ styles.summary } color={ styles.darkGrey } size="2">Prove the ROI of your training spend with the ProPortal. Manage your seats, assign/un-assign team members and access monthly usage reports. See metrics like logins, viewing time, courses viewed, tracks completed and more.</Para>
         </div>
 
