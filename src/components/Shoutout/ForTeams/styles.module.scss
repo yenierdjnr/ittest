@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'tablet': $tablet,
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -32,6 +33,10 @@ $breakpoints: (
     flex-flow: column nowrap;
   }
 
+  .content {
+    padding: 0 4rem;
+  }
+
   .title {
     text-align: center;
     margin-bottom: 4.8rem;
@@ -46,5 +51,12 @@ $breakpoints: (
   .title {
     font-size: 3rem;
     line-height: 3.7rem;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .content {
+    max-width: 32rem;
   }
 }

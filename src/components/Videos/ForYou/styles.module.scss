@@ -4,7 +4,8 @@
 $breakpoints: (
   'tablet': $tablet,
   'upper-phablet': $upper-phablet,
-  'video-width': 669px
+  'uppper-mid-phablet': $uppper-mid-phablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -92,10 +93,13 @@ $breakpoints: (
   }
 
   .intro {
-    max-width: 66.9rem;
+    width: 37.5rem;
+    max-width: unset;
+    padding: 0 4rem;
     margin-bottom: 7.1rem;
   }
   .title {
+    max-width: 30rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
@@ -105,19 +109,18 @@ $breakpoints: (
   }
 }
 
-
-@include media('<upper-phablet') {
-  .intro {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-  }
-}
-
-@include media('<video-width') {
+@include media('<uppper-mid-phablet') {
   .container {
     padding-bottom: 0;
   }
   .video-container {
     width: 100%;
+  }
+}
+
+
+@include media ('<lower-phone') {
+  .intro {
+    width: 32rem;
   }
 }

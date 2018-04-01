@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'tablet': $tablet
+  'tablet': $tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -68,11 +69,12 @@ $breakpoints: (
   }
 
   .list {
+    padding: 0 4rem;
     flex-flow: column nowrap;
   }
 
   .item {
-    width: 32rem;
+    max-width: 29.5rem;
 
     &:not(:last-child) {
       margin-bottom: 5.6rem;
@@ -98,5 +100,12 @@ $breakpoints: (
       width: 5.2rem;
       height: 6.9rem;
     }
+  }
+}
+
+
+@include media('<lower-phone') {
+  .item {
+    width: 24rem;
   }
 }
