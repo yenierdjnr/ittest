@@ -57,14 +57,14 @@ const benefitsData = [
   },
   {
     title: 'Take unlimited Kaplan IT Training practice exams',
-    subtitle: '($109 individual value)',
+    subtitle: '($109 ea. individual value)',
     premium: true,
     standard: false,
     free: false
   },
   {
     title: 'Launch Premium virtual labs',
-    subtitle: '($249 individual value)',
+    subtitle: '($249 ea. individual value)',
     premium: true,
     standard: false,
     free: false

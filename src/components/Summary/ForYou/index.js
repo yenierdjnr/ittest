@@ -38,7 +38,7 @@ const ForYouSummary = props => {
               <IconPopcorn className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>
+              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning™</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging content in a talk show format. Watch on a desktop, mobile device, Apple TV, Roku or Fire TV.</Para>
               <TextLink className={ styles['text-link']} to="/plans/">start free trial</TextLink>
             </div>
