@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
 );
 
 .item {
@@ -38,7 +39,7 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .item {
-    max-width: 34.3rem;
+    max-width: 38.2rem;
     width: 100%;
 
     &:nth-child(n+9) {
@@ -54,7 +55,14 @@ $breakpoints: (
 }
 
 
-@include media('<lower-phone') {
+@include media('<=lower-phone') {
+  .item {
+    max-width: 34.3rem;
+  }
+}
+
+
+@include media('<=small-phone') {
   .item {
     max-width: 30.4rem;
   }
