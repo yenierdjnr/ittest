@@ -3,6 +3,7 @@
 
 $breakpoints: (
   'desktop': $desktop,
+  'tablet': $tablet,
   'lower-phone': $lower-phone,
   'small-phone': $small-phone
 );
@@ -55,7 +56,7 @@ iframe.frame {
 }
 
 
-@include media('<desktop') {
+@include media('<tablet') {
   .container {
     flex-flow: column nowrap;
     align-items: center;
