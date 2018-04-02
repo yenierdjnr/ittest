@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'mid-uppper-tablet': $mid-uppper-tablet
+  'mid-uppper-tablet': $mid-uppper-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -101,6 +102,19 @@ $breakpoints: (
     &:not(:last-child) {
       margin-bottom: 6.4rem;
     }
+
+    &.binge {
+      .summary {
+        position: relative;
+      }
+      .title {
+        position: absolute;
+        width: 32.1rem;
+      }
+      .subtitle {
+        margin-top: 6rem;
+      }
+    }
   }
 
   .summary {
@@ -124,6 +138,24 @@ $breakpoints: (
     & .coin {
       width: 4.9rem;
       height: 6.5rem;
+    }
+  }
+}
+
+
+@include media('<=lower-phone') {
+  .item {
+    &.binge {
+      .summary {
+        position: unset;
+      }
+      .title {
+        position: unset;
+        max-width: 28rem;
+      }
+      .subtitle {
+        margin-top: 0;
+      }
     }
   }
 }

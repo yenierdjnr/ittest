@@ -25,12 +25,12 @@ const ForTeamsSummary = props => {
           </li>
         </ViewportAnimation>
         <ViewportAnimation>
-          <li className={ styles.item }>
+          <li className={ `${styles.item} ${styles.binge}` }>
             <div className={ styles['icon-box'] }>
               <IconPopcorn className={ styles.popcorn }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning</Hx>
+              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning™</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging hosts present info in a talk-show format. Content is added daily, so there's always something new to watch.</Para>
             </div>
           </li>
