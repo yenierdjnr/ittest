@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-import styles from './plans.module.scss';
+import Head from 'Components/Head';
 import { Plans as Hero } from 'Components/Hero';
 import { Pricing } from 'Components/Plans';
 import Benefits from 'Components/Benefits';
+import styles from './plans.module.scss';
 
 
 class Plans extends Component {
@@ -79,19 +80,22 @@ class Plans extends Component {
     const { currentPricing } = this.state;
 
     return (
-      <main className={ styles['plans'] }>
-        <section className={ styles.Hero }>
-          <Hero handleSwitch={ this.handleClick }/>
-        </section>
+      <Fragment>
+        <Head location={ location }/>,
+        <main className={ styles['plans'] }>
+          <section className={ styles.Hero }>
+            <Hero handleSwitch={ this.handleClick }/>
+          </section>
 
-        <section className={ styles.Pricing }>
-          <Pricing info={ currentPricing } />
-        </section>
+          <section className={ styles.Pricing }>
+            <Pricing info={ currentPricing } />
+          </section>
 
-        <section className={ styles.Benefits }>
-          <Benefits />
-       </section>
-      </main>
+          <section className={ styles.Benefits }>
+            <Benefits />
+         </section>
+        </main>
+      </Fragment>
     );
   }
 };

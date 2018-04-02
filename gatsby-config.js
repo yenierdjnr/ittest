@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.example.com',
+    siteUrl: 'https://itpro.tv',
   },
 
   plugins: [
@@ -48,7 +48,8 @@ module.exports = {
           windows: true
         }
       }
-    }
+    },
+    'gatsby-plugin-react-helmet'
   ]
 
 };

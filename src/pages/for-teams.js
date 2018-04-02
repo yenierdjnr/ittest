@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import styles from './forTeams.module.scss';
+import Head from 'Components/Head';
 import { ForTeamsHero as Hero } from 'Components/Hero';
 import { ForTeamsSummary as Summary } from 'Components/Summary';
 import RequestForm from 'Components/RequestForm';
@@ -9,39 +9,43 @@ import TeamNeeds from 'Components/TeamNeeds';
 import Enhancements from 'Components/Enhancements';
 import TeamCerts from 'Components/TeamCerts';
 import { ForTeamsTestimonials as Testimonials } from 'Components/Testimonials';
+import styles from './forTeams.module.scss';
 
 
-const ForTeams = props => {
+const ForTeams = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
-    <main className={ styles['for-teams'] }>
-      <section className={ styles.Hero }>
-        <Hero />
-      </section>
+    <Fragment>
+      <Head location={ location }/>
+      <main className={ styles['for-teams'] }>
+        <section className={ styles.Hero }>
+          <Hero />
+        </section>
 
-      <section className={ styles.Summary }>
-        <Summary />
-      </section>
+        <section className={ styles.Summary }>
+          <Summary />
+        </section>
 
-      <section className={ styles['Track-Results'] }>
-        <TrackResults videoImage={ props.data.videoImage }/>
-      </section>
+        <section className={ styles['Track-Results'] }>
+          <TrackResults videoImage={ data.videoImage }/>
+        </section>
 
-      <section className={ styles['Team-Needs']}>
-        <TeamNeeds />
-      </section>
+        <section className={ styles['Team-Needs']}>
+          <TeamNeeds />
+        </section>
 
-      <section className={ styles.Enhancements }>
-        <Enhancements />
-      </section>
+        <section className={ styles.Enhancements }>
+          <Enhancements />
+        </section>
 
-      <section className={ styles['Team-Certs'] }>
-        <TeamCerts testimonials={ props.data.testimonials }/>
-      </section>
+        <section className={ styles['Team-Certs'] }>
+          <TeamCerts testimonials={ data.testimonials }/>
+        </section>
 
-      <section className={ styles.Testimonials }>
-        <Testimonials />
-      </section>
-    </main>
+        <section className={ styles.Testimonials }>
+          <Testimonials />
+        </section>
+      </main>
+    </Fragment>
   );
 }
 

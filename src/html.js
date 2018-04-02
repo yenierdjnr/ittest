@@ -24,15 +24,8 @@ module.exports = class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-          <meta charSet="utf-8" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
           {this.props.headComponents}
           {css}
-          <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jic1ywm.css" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

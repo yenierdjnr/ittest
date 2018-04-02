@@ -1,22 +1,26 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import styles from './onAir.module.scss';
+import Head from 'Components/Head';
 import { OnAir as Hero } from 'Components/Hero';
 import ChannelGuide from 'Components/ChannelGuide';
+import styles from './onAir.module.scss';
 
 
-const OnAir = ({ data }) => {
+const OnAir = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
-    <main className={ styles.onAir }>
+    <Fragment>
+      <Head location={ location }/>,
+      <main className={ styles.onAir }>
 
-      <section className={ styles.Hero }>
-        <Hero />
-      </section>
+        <section className={ styles.Hero }>
+          <Hero />
+        </section>
 
-      <section className={ styles['Channel-Guide'] }>
-        <ChannelGuide videoImage={ data.videoImg }/>
-      </section>
-    </main>
+        <section className={ styles['Channel-Guide'] }>
+          <ChannelGuide videoImage={ data.videoImg }/>
+        </section>
+      </main>
+    </Fragment>
   );
 }
 
