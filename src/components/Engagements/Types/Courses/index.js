@@ -1,4 +1,5 @@
 import React from 'react';
+import { withPrefix } from 'gatsby-link'
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -13,7 +14,7 @@ const Courses = props => {
   setTimeout(() => {
     if (typeof document !== 'undefined') {
       const scriptElem =  document.createElement('script');
-      scriptElem.src = '/static/itpcontent1_hype_generated_script.js';
+      scriptElem.src = withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
       document.head.appendChild(scriptElem);
     }
   }, 0);
