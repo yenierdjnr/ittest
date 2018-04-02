@@ -17,3 +17,7 @@ then run
 and finally
 
 `gatsby develop --verbose`
+
+## Build
+
+`gatsby build` outputs the build into a `public` directory
