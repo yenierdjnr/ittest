@@ -11,7 +11,7 @@ const Enhancements = props => {
   return (
     <section className={ styles.container }>
       <div className={ styles.containerTitle }>
-        <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance your learning with vLabs & practice exams.</Hx>
+        <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance Your Learning with Labs & Practice Exams</Hx>
       </div>
 
       <div className={ styles.learnings }>
