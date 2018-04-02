@@ -9,7 +9,7 @@ $breakpoints: (
 );
 
 .container {
-  padding: 12rem 0 13rem;
+  padding: 12rem 0 15.4rem;
 
   background-color: $color-purple-dark;
   background-image: url('Images/pattern_lightpurple.svg');
@@ -37,6 +37,10 @@ $breakpoints: (
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+
+.item {
+  width: 29rem;
 }
 
 .title {
