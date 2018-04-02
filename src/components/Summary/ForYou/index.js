@@ -33,7 +33,7 @@ const ForYouSummary = props => {
               <TextLink className={ styles['text-link']} to="/plans/">view plans & pricing</TextLink>
             </div>
           </li>
-          <li className={ styles.item }>
+          <li className={ `${styles.item} ${styles.binge}` }>
             <div className={ styles['icon-box'] }>
               <IconPopcorn className={ styles['popcorn-icon'] }/>
             </div>

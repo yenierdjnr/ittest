@@ -39,6 +39,9 @@ $breakpoints: (
   &:last-child {
     width: 31.7rem;
   }
+  &.binge {
+    width: 32.1rem;
+  }
 }
 
 .icon-box {
@@ -85,6 +88,19 @@ $breakpoints: (
     }
   }
 
+  .item:last-child {
+    .summary {
+      position: relative
+    }
+    .title {
+      position: absolute;
+      width: 32.1rem;
+    }
+    .subtitle {
+      margin-top: 6rem;
+    }
+  }
+
   .icon-box {
     width: 10rem;
     height: 10rem;
@@ -106,6 +122,24 @@ $breakpoints: (
   }
 }
 
+@include media('<=lower-phone') {
+  .item:last-child {
+    width: 24rem;
+    max-width: 29.5rem;
+
+    .summary {
+      position: unset;
+    }
+    .title {
+      position: unset;
+      width: unset;
+      max-width: 29.5rem;
+    }
+    .subtitle {
+      margin-top: 0;
+    }
+  }
+}
 
 @include media('<lower-phone') {
   .item {
