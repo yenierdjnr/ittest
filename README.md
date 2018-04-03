@@ -20,6 +20,4 @@ and finally
 
 ## Build
 
->All the files to make the animations work are in the `src/static` folder. After the initial production build the static files in the `src/static` folder will need to be copied over manually into the `public/static` folder. Once this is done initially every subsequent build will preserve the animation files.
-
 `gatsby build` outputs the build into a `public` directory
