@@ -2,22 +2,19 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { findDOMNode } from 'react-dom';
 
-
 class ViewportAction extends PureComponent {
   constructor(props) {
     super(props);
-
+    this.mounted = false;
     this.recomputeState = this.recomputeState.bind(this);
-
     this.state = {
-      fired: false,
-      mounted: false
+      fired: false
     }
   }
 
   componentDidMount() {
     this.instance = findDOMNode(this);
-    this.setState({ mounted: true });
+    this.mounted = true;
     window.addEventListener('resize', this.recomputeState);
     window.addEventListener('scroll', this.recomputeState);
     setTimeout(this.recomputeState, 50);
@@ -28,7 +25,7 @@ class ViewportAction extends PureComponent {
   }
 
   componentWillUnmount() {
-    this.setState({ mounted: false });
+    this.mounted = false;
     window.removeEventListener('resize', this.recomputeState);
     window.removeEventListener('scroll', this.recomputeState);
   }
@@ -45,18 +42,13 @@ class ViewportAction extends PureComponent {
   }
 
   recomputeState() {
-    const { onChange } = this.props;
-    const { fired } = this.state;
-
-    if (this.mounted && !fired && this.isElementInViewport(this.instance)) {
-      this.setState({ fired: true }, onChange)
+    if (this.mounted && !this.state.fired && this.isElementInViewport(this.instance)) {
+      this.setState({ fired: true}, this.props.onChange)
     }
   }
 
   render() {
-    const { children } = this.props;
-
-    return React.Children.only(children);
+    return React.Children.only(this.props.children);
   }
 }
 
