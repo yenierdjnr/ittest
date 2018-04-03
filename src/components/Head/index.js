@@ -44,6 +44,13 @@ const metaData = {
     title: 'Learn IT online today | ITPro.TV',
     description: 'Learn IT and get IT certifications. Easy to understand IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: 'https://itpro.tv/for-you/'
+  },
+  '/thankyou-demo/': {
+    page: 'thankyouDemo',
+    path: '/thankyou-demo/',
+    title: 'Corporate IT Training, IT Training for Business | ITPro.TV',
+    description: 'Corporate membership for IT training. Video IT training for businesses.  Easy to understand IT Certification courses online. Engaging videos with expert trainers. Free business demo.',
+    canonical: 'https://itpro.tv/thankyou-demo/'
   }
 };
 
