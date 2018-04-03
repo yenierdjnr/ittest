@@ -6,6 +6,7 @@ import { IconArrowRight } from 'Elements/Icons'
 import { ViewportAnimation } from 'Elements/Viewport'
 import styles from './styles.module.scss';
 
+
 const orangePrimary = '#F6621C';
 
 const Pamphlet = ({ videoImg }) => {
