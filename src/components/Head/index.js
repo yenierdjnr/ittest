@@ -44,6 +44,13 @@ const metaData = {
     title: 'Learn IT online today | ITPro.TV',
     description: 'Learn IT and get IT certifications. Easy to understand IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: 'https://itpro.tv/for-you/'
+  },
+  '/accessibility/': {
+    page: 'accessibility',
+    path: '/accessibility/',
+    title: 'Accessibility | ITProTV makes usability easy',
+    description: '',
+    canonical: 'https://itpro.tv/accessibility/'
   }
 };
 

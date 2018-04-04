@@ -1,0 +1,24 @@
+import React, { Fragment } from 'react';
+
+import Head from 'Components/Head';
+import { Accessibility as Hero } from 'Components/Hero';
+import styles from './accessibility.module.scss';
+
+
+const Accessibility = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+  return (
+    <Fragment>
+      <Head location={ location }/>,
+      <main className={ styles.accessibility }>
+
+        <section className={ styles.Hero }>
+          <Hero />
+        </section>
+
+      </main>
+    </Fragment>
+  );
+}
+
+
+export default Accessibility;
