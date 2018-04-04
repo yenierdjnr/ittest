@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import { Accessibility as Hero } from 'Components/Hero';
+import AccessibilityContent from 'Components/AccessibilityContent';
 import styles from './accessibility.module.scss';
 
 
@@ -13,6 +14,10 @@ const Accessibility = ({ data, history, location, match, page, pageResources, pa
 
         <section className={ styles.Hero }>
           <Hero />
+        </section>
+
+        <section className={ styles.AccessibilityContent }>
+          <AccessibilityContent />
         </section>
 
       </main>
