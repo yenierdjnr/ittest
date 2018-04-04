@@ -2,7 +2,7 @@ version: '3'
 services:
   marketing:
     build: .
-    command: [ "gatsby", "develop", "--verbose", "-H", "0.0.0.0" ]
+    command: [ "sh", "startup.sh" ]
     ports:
       - 8000:8000
     volumes:
