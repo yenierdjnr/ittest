@@ -13,11 +13,6 @@ import {
 const ThankYou = ({ className='' }) => {
   return (
     <section className={ container }>
-      <div className={ intro }>
-        <Hx size="2" className={ title }>See What's Happening Right Now in the ITProTV Studios</Hx>
-        <Para className={ subtitle }>Catch pre-recorded sessions when we're not live. A free, no-obligation membership is required for live sessions and to access chat.</Para>
-        <ButtonLink className={ link }>Join for Free</ButtonLink>
-      </div>
     </section>
   );
 };

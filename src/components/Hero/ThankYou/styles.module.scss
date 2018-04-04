@@ -2,22 +2,16 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-phone': $lower-phone
 );
 
 .container {
-  padding: 7.2rem 0 7.5rem;
-  background-color: $color-offblack;
-}
-
-.intro {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-
-  color: $color-white;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
+  background-image: url('Images/thankyouhero@2x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 380px;
 }
 
 .title {
@@ -37,23 +31,8 @@ $breakpoints: (
   text-transform: none;
 }
 
-
-@include media('<lower-tablet') {
+@include media('retina2x', '>lower-phone') {
   .container {
-    padding: 5.6rem 3rem 5.9rem;
-  }
-
-  .title {
-    max-width: 52rem;
-
-    font-size: 3rem;
-    line-height: 3.7rem;
-    margin-bottom: 1.6rem;
-  }
-
-  .subtitle {
-    max-width: 57rem;
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    background-image: url('Images/thankyouhero@2x.jpg');
   }
 }
