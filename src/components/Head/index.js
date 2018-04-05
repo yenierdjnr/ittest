@@ -44,6 +44,104 @@ const metaData = {
     title: 'Learn IT online today | ITPro.TV',
     description: 'Learn IT and get IT certifications. Easy to understand IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: 'https://itpro.tv/for-you/'
+  },
+  '/career-resources/': {
+    page: 'careerResources',
+    path: '/career-resources/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/'
+  },
+  '/career-resources/it-resources/': {
+    page: 'itResources',
+    path: '/it-resources/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/it-resources/'
+  },
+  '/career-resources/job-resources/': {
+    page: 'jobResources',
+    path: '/job-resources/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/job-resources/'
+  },
+  '/career-resources/career-paths/': {
+    page: 'careerPaths',
+    path: '/career-paths/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/'
+  },
+  '/career-resources/career-paths/cloud-technology/': {
+    page: 'cloudTechnology',
+    path: '/cloud-technology/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/cloud-technology/'
+  },
+  '/career-resources/career-paths/cybersecurity/': {
+    page: 'cybersecurity',
+    path: '/cybersecurity/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/cybersecurity/'
+  },
+  '/career-resources/career-paths/database-administration/': {
+    page: 'databaseAdministration',
+    path: '/database-administration/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/database-administration/'
+  },
+  '/career-resources/career-paths/desktop-support/': {
+    page: 'desktopSupport',
+    path: '/desktop-support/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/desktop-support/'
+  },
+  '/career-resources/career-paths/entry-level-it/': {
+    page: 'entryLevelIt',
+    path: '/entry-level-it/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/entry-level-it/'
+  },
+  '/career-resources/career-paths/it-management-and-strategy/': {
+    page: 'itManagementAndStrategy',
+    path: '/it-management-and-strategy/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/it-management-and-strategy/'
+  },
+  '/career-resources/career-paths/network-technology/': {
+    page: 'networkTechnology',
+    path: '/network-technology/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/network-technology/'
+  },
+  '/career-resources/career-paths/software-development/': {
+    page: 'softwareDevelopment',
+    path: '/software-development/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/software-development/'
+  },
+  '/career-resources/career-paths/systems-administration/': {
+    page: 'systemsAdministration',
+    path: '/systems-administration/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/systems-administration/'
+  },
+  '/career-resources/career-paths/virtualization-technology/': {
+    page: 'virtualizationTechnology',
+    path: '/virtualization-technology/',
+    title: 'IT Jobs & IT Career Path Resources | ITProTV | IT Courses',
+    description: 'Explore IT jobs and IT certifications for various information technology careers and learn about advancing your career in technology with IT training by ITProTV.',
+    canonical: 'https://itpro.tv/career-resources/career-paths/virtualization-technology/'
   }
 };
 
