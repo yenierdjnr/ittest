@@ -91,7 +91,7 @@ $breakpoints: (
 
 
 @include media('<lower-phone') {
-  // .summary {
-  //   padding: 0 1rem;
-  // }
+  .content {
+    padding: 0 1rem;
+  }
 }
