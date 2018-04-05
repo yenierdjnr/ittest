@@ -92,7 +92,8 @@ class Head extends Component {
         <meta property="twitter:image" url="https://itprotv-image-bucket.s3.amazonaws.com/site/2015/ITProTV-Open-Graph-Image.jpg" />
         {/*<!-- Twitter Tags End -->*/}
 
-        <link rel="stylesheet" href="https://use.typekit.net/lju1geg.css" />
+
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jic1ywm.css" />
         <link rel="canonical" href={ canonical } />
       </Helmet>
     );
