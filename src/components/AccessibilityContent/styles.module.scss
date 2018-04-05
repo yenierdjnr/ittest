@@ -11,45 +11,39 @@ $breakpoints: (
 );
 
 .container {
-  padding: 2rem 15.4rem;
+  padding: 2rem 22rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding: 5,6rem 0 6.8rem;
 }
 
-.icon-box {
-  width: 12rem;
-  height: 12rem;
-  margin: 0 auto;
-  margin-bottom: 5.6rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 6rem;
-  background-color: #2F2983;
+.accessibilityStyle {
+  list-style-type: circle;
+  grid-column: 2 / 3;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 2rem;
+  font-family: adelle-sans;
+  color: $color-grey-dark;
 }
 
 .content {
   max-width: 1024px;
-  margin: 0 auto;
-
+  margin: 0;
+  grid-column: 2 / 3;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-}
-
-.item {
-  width: 29rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: left;
 }
 
 .title {
-
   text-align: center;
   margin-bottom: 2.4rem;
-}
-.summary {
-  font-size: 1.6rem;
-  text-align: center;
-  line-height: 2.4rem;
 }
 
 
@@ -60,56 +54,23 @@ $breakpoints: (
 
   .content {
     flex-flow: column nowrap;
-    align-items: center;
+    margin: 1rem;
   }
 
-  .item {
-    max-width: 33.4rem;
-
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-
-    &:not(:last-child) {
-      margin-bottom: 6.4rem;
-    }
-  }
-
-  .icon-box {
-    width: 10rem;
-    height: 10rem;
-    margin-bottom: 4rem;
-    border-radius: 5rem;
-
-    & .camera {
-      width: 6.5rem;
-      height: 7.5rem;
-    }
-    & .bars {
-      width: 5.2rem;
-      height: 6.9rem;
-    }
-    & .mobile {
-      width: 4.9rem;
-      height: 6.5rem;
-    }
-  }
-
-  .title {
-    margin-bottom: 1.6rem;
-  }
 }
 
 
 @include media('<=upper-phone') {
-  .item {
-    max-width: 29.5rem;
+  .content {
+    flex-flow: column nowrap;
+    margin: 1rem;
   }
 }
 
 
 @include media('<=small-phone') {
-  .item {
-    width: 24rem;
+  .content {
+    flex-flow: column nowrap;
+    margin: 1rem;
   }
 }
