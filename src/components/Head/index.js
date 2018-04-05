@@ -51,6 +51,13 @@ const metaData = {
     title: 'Accessibility | ITProTV makes usability easy',
     description: '',
     canonical: 'https://itpro.tv/accessibility/'
+  },
+  '/eula/': {
+    page: 'eula',
+    path: '/eula/',
+    title: 'EULA | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/eula/'
   }
 };
 
@@ -93,7 +100,7 @@ class Head extends Component {
         {/*<!-- Twitter Tags End -->*/}
 
 
-        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/jic1ywm.css" />
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
         <link rel="canonical" href={ canonical } />
       </Helmet>
     );
