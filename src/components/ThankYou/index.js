@@ -1,2 +1,2 @@
-export { default as ThankYouDemo } from './ThankYouDemo';
-export { default as ThankYouFree } from './ThankYouFree';
+export { default as ThankYouDemoContent } from './ThankYouDemoContent';
+export { default as ThankYouFreeContent } from './ThankYouFreeContent';

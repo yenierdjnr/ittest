@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import { ThankYou as Hero } from 'Components/Hero';
-import { ThankYouDemo as ThankYou } from 'Components/ThankYou';
+import { ThankYouDemoContent as ThankYouContent } from 'Components/ThankYou';
 import styles from './thankyouDemo.module.scss';
 
 
@@ -16,8 +16,8 @@ const ThankYouDemo = ({ data, history, location, match, page, pageResources, pag
           <Hero />
         </section>
 
-        <section className={ styles.ThankYou }>
-          <ThankYou />
+        <section className={ styles.ThankYouContent }>
+          <ThankYouContent />
         </section>
 
       </main>

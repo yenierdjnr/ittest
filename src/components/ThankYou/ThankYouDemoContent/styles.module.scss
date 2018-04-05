@@ -19,21 +19,29 @@ $breakpoints: (
 }
 
 .content {
-  grid-column: 2 / 3;
+  grid-column: 1 / -1;
 
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .title {
   border-bottom: 8px;
+  text-align: center;
 }
 
 .subtitle {
   max-width: 57.7rem;
   line-height: 3rem;
+}
+
+.details {
+  padding: 5.6rem 0 6.8rem;
+  p {
+    padding: 1rem 0;
+  }
 }
 
 
@@ -66,11 +74,11 @@ $breakpoints: (
 
 
 @include media('<=upper-phone') {
-  .summary {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-  }
+  // .summary {
+  //   display: flex;
+  //   flex-flow: column nowrap;
+  //   align-items: center;
+  // }
 
   .title {
     width: 27.3rem;
@@ -83,7 +91,7 @@ $breakpoints: (
 
 
 @include media('<lower-phone') {
-  .summary {
-    padding: 0 1rem;
-  }
+  // .summary {
+  //   padding: 0 1rem;
+  // }
 }
