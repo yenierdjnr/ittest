@@ -10,9 +10,8 @@ const CareerResourcesHero = ({ className='' }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles['intro'] }>
-        <Hx size="1" className={ styles['title'] }>IT Training That’s Effective & Entertaining</Hx>
-        <Para className={ styles['subtitle'] }>Build or expand your IT career and enjoy the journey. Access binge-worthy learning™ for every IT pro.</Para>
-        <Link to="/plans/" className={ styles['link'] }>start free trial</Link>
+        <Hx size="1" className={ styles['title'] } color={ styles.offBlack }>IT Career Resources</Hx>
+        <Para className={ styles['subtitle'] } color={ styles.offBlack }>Not sure where to start? ITProTV can help. Get info on the many careers paths and the certifications you'll need. Plus, get insights from IT pros via articles and more.</Para>
       </div>
     </section>
   );

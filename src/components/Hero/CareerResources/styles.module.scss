@@ -6,8 +6,12 @@ $breakpoints: (
   'lower-phone': $lower-phone
 );
 
+:export {
+  offBlack: $color-offblack;
+}
+
 .container {
-  padding: 13.6rem 0 19.6rem;
+  padding: 12rem 0 20.8rem;
 
   display: grid;
   grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
@@ -19,14 +23,7 @@ $breakpoints: (
 
 .intro {
   grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-
-  color: $color-white;
-  text-align: center;
+  padding-left: 2.4rem;
 }
 
 .title {
