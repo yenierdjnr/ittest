@@ -7,3 +7,4 @@ export { default as OnAir } from './OnAir';
 export { default as Plans } from './Plans';
 export { default as Accessibility } from './Accessibility';
 export { default as Eula } from './Eula';
+export { default as About } from './About';

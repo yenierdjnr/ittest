@@ -16,7 +16,7 @@ const Footer = () => {
             <span className={ styles['page-footer__menu-title'] }>company</span>
             <ul>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">about</a>
+                <a href="/about/">about</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">plan & pricing</a>

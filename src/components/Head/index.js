@@ -58,6 +58,13 @@ const metaData = {
     title: 'EULA | ITProTV',
     description: '',
     canonical: 'https://itpro.tv/eula/'
+  },
+  '/about/': {
+    page: 'about',
+    path: '/about/',
+    title: 'About | ITProTV creates engaging learning',
+    description: '',
+    canonical: 'https://itpro.tv/about/'
   }
 };
 
