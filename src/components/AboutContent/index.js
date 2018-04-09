@@ -10,8 +10,10 @@ const AboutContent = props => {
     <section className={ styles.container }>
         <Hx className={ styles.subtitle } color={ styles.offBlack }>About ITProTV</Hx>
         <Para className={ styles.content } color={ styles.greyDark } >ITProTV takes the best aspects of in-person training and delivers it online and on-demand. Attractive studios, engaging hosts and effective content make ITProTV the choice of IT professionals globally.</Para>
-        <Hx className={ styles.subtitle } color={ styles.offBlack }>About ITProTV</Hx>
-        <Para className={ styles.content } color={ styles.greyDark } >ITProTV takes the best aspects of in-person training and delivers it online and on-demand. Attractive studios, engaging hosts and effective content make ITProTV the choice of IT professionals globally.</Para>
+
+        <Hx className={ styles.subsection } color={ styles.offBlack }>Take a Virtual Tour of the Studios</Hx>
+        <Para className={ styles.tourContent } color={ styles.greyDark } >In Gainesville? Let us know you’re coming by for a tour: support@itpro.tv.</Para>
+
     </section>
   );
 };
