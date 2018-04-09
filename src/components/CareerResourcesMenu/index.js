@@ -13,10 +13,12 @@ const CareerResourcesMenu = props => {
     <section className={ styles.container }>
       <ul className={ styles.content }>
         <li className={ styles.item }>
+        <a href="/career-resources/career-paths/">
           <div className={ `${styles['icon-box']} ${styles.paths}` }>
             <img src={ imagePaths } alt="paths" />
           </div>
           <TextLink className={ styles['menu-link'] }>IT Career Paths</TextLink>
+          </a>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.paths}` }>
