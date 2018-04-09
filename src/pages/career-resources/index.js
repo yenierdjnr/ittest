@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import Head from 'Components/Head';
 import { CareerResourcesHero as Hero } from 'Components/Hero';
 import CareerResourcesMenu from 'Components/CareerResourcesMenu';
+import CareerCoach from 'Components/CareerCoach';
 import styles from './careerResources.module.scss';
 
 const CareerResources = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
@@ -16,6 +17,10 @@ const CareerResources = ({ data, history, location, match, page, pageResources, 
 
         <section className={ styles.CareerResourcesMenu }>
           <CareerResourcesMenu />
+        </section>
+
+        <section className={ styles.CareerCoach }>
+          <CareerCoach />
         </section>
 
       </main>
