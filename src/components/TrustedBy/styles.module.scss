@@ -27,11 +27,17 @@ $breakpoints: (
   text-align: center;
 }
 
-.storyContent {
-  grid-column: 2 / 3;
-  text-align: left;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+  grid-row: 10 / 11;
+  justify-content: center;
+}
+
+.logo {
+  margin: 2rem auto;
+  padding: 0 3rem;
 }
 
 
