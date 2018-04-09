@@ -5,6 +5,7 @@ import { About as Hero } from 'Components/Hero';
 import AboutContent from 'Components/AboutContent';
 import AboutStory from 'Components/AboutStory';
 import TrustedBy from 'Components/TrustedBy';
+import Values from 'Components/Values';
 import styles from './about.module.scss';
 
 
@@ -28,6 +29,10 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
 
         <section className={ styles.TrustedBy }>
           <TrustedBy />
+        </section>
+
+        <section className={ styles.Values }>
+          <Values />
         </section>
 
       </main>
