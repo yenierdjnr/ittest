@@ -19,6 +19,12 @@ const Footer = () => {
                 <a href="/about/">about</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
+                <a href="#">hosts</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
+                <a href="#">team</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">plan & pricing</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
