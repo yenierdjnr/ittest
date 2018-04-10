@@ -14,7 +14,7 @@ const CareerPathsPage = ({ data, history, location, match, page, pageResources, 
           <Hero />
         </section>
 
-        <section className={ styles['Free-Courses'] }>
+        <section className={ styles.Paths }>
           <CareerPaths />
         </section>
 
