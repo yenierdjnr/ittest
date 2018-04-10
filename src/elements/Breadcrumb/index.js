@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import { IconArrowLeft } from 'Elements/Icons';
 
 
-const Breadcrumb = ({ children='Breadcrumb', className='', color=`${styles.primaryOrange}`, disabled, size=1.8, to='#', weight=700, ltrSpc='1.5px', hideArrow='' }) => {
+const Breadcrumb = ({ children='Breadcrumb', className='', color=`${styles.primaryOrange}`, disabled, size=1.3, to='#', weight=700, ltrSpc='1.5px', hideArrow='' }) => {
   let icon = `${styles.icon}`;
   let linkStyle = '';
 
@@ -19,16 +19,16 @@ const Breadcrumb = ({ children='Breadcrumb', className='', color=`${styles.prima
   if (disabled) {
     return (
       <div className={ `${linkStyle} ${className}` }>
-        <span style={{ color: color, fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
         <IconArrowLeft className={ icon } fill={ color } />
+        <span style={{ color: color, fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
       </div>
     );
   }
 
   return (
     <a className={ `${linkStyle} ${className}` } href={ to }>
-      <span style={{ fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
       <IconArrowLeft className={ icon } fill={ color } />
+      <span style={{ fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
     </a>
   );
 };

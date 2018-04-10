@@ -26,6 +26,12 @@ $breakpoints: (
   padding-left: 2.4rem;
 }
 
+.breadcrumb {
+  grid-column: 2 / 3;
+  padding-left: 2.4rem;
+  margin-top: 125px;
+}
+
 .title {
   max-width: 82rem;
   font-size: 6.4rem;
@@ -59,6 +65,11 @@ $breakpoints: (
     margin-right: 1rem;
     font-size: 2.1rem;
     line-height: 3.1rem;
+  }
+
+  .breadcrumb {
+    padding-left: 3rem;
+    margin-top: 125px;
   }
 }
 

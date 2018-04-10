@@ -13,7 +13,9 @@ const CareerPathsHero = ({ className='' }) => {
       <div className={ styles['intro'] }>
         <Hx size="1" className={ styles['title'] }>IT Career Paths</Hx>
       </div>
-      <Breadcrumb className={ styles['menu-link'] }>IT Career Paths</Breadcrumb>
+      <div className={ styles.breadcrumb }>
+        <Breadcrumb className={ styles['menu-link'] }>Career Resources</Breadcrumb>
+      </div>
     </section>
   );
 };
