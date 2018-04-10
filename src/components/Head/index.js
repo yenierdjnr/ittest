@@ -65,6 +65,13 @@ const metaData = {
     title: 'About | ITProTV creates engaging learning',
     description: '',
     canonical: 'https://itpro.tv/about/'
+  },
+  '/team/': {
+    page: 'team',
+    path: '/team/',
+    title: 'ITProTV Team',
+    description: '',
+    canonical: 'https://itpro.tv/team/'
   }
 };
 

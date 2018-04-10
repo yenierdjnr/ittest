@@ -22,7 +22,7 @@ const Footer = () => {
                 <a href="#">hosts</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">team</a>
+                <a href="/team/">team</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">plan & pricing</a>
