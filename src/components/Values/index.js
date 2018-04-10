@@ -8,45 +8,50 @@ import logoFiserv from 'Images/logo_fiserv.png'
 import logoKinex from 'Images/logo_kinex.png'
 
 
+
 const Values = props => {
   return (
     <section className={ styles.container }>
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Values:</Hx>
 
-      <div className={ styles.icon }>
-        <ul className={ styles.listContainer }>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoBDP } alt="" />
-            </div>
-          </li>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoFiserv } alt="" />
-            </div>
-          </li>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoKinex } alt="" />
-            </div>
-          </li>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoBDP } alt="" />
-            </div>
-          </li>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoFiserv } alt="" />
-            </div>
-          </li>
-          <li className={ styles.item }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoKinex } alt="" />
-            </div>
-          </li>
-        </ul>
-      </div>
+      <ul className={ styles.listContainer }>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoBDP } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We exist for our members</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoFiserv } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We exude passion with personality</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoKinex } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We create effective content daily</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoBDP } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We work with honor</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoFiserv } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We willingly face challenges with optimism</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoKinex } alt="" />
+            <Para className={ styles.value } color={ styles.offBlack }>We produce excellence through innovation and imagination</Para>
+          </div>
+        </li>
+      </ul>
 
     </section>
   );

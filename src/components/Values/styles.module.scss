@@ -28,16 +28,25 @@ $breakpoints: (
   text-align: center;
 }
 
-.icon {
-
-}
-
 .listContainer {
-
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2 / 3;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .item {
+  padding: 4rem 0;
+  width: 28rem;
+  text-align: center;
+  margin: 0 auto;
+}
 
+.value {
+  @include adelle-sans-regular;
+  color: $color-grey-dark;
+  margin-top: 1rem;
 }
 
 
