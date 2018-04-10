@@ -1,0 +1,33 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'upper-phablet': $upper-phablet,
+  'lower-phone': $lower-phone
+);
+
+
+.container {
+  padding: 30rem 0;
+  background-image: url('Images/team_photo.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+@include media('<lower-tablet') {
+
+}
+
+@include media('<upper-phablet') {
+  .title, .subtitle {
+    // width: unset;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .container {
+    background-image: url('Images/team_photo.jpg');
+  }
+}
