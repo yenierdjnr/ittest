@@ -17,6 +17,7 @@ $breakpoints: (
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 5,6rem 0 6.8rem;
+  margin-bottom: 4rem;
 }
 
 .subtitle {
@@ -47,6 +48,12 @@ $breakpoints: (
   line-height: 2.4rem;
   text-align: left;
   padding: 0.5rem 0;
+}
+
+.iframe {
+  display: grid;
+  grid-column: 2 / 3;
+  margin: 0 auto;
 }
 
 .tourContent {
