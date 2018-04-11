@@ -63,6 +63,7 @@ const Footer = () => {
             <address className={ styles['page-footer__address'] }>7525 NW 4th Blvd<br/>Gainesville, FL 32607</address>
             <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352.600.6900</a>
             <a className={ styles['page-footer__email'] } href="support@itpro.tv">support@itpro.tv</a>
+            <a className={ styles['page-footer__contact'] } href="/contact/">Contact Us</a>
           </div>
         </div>
       </div>

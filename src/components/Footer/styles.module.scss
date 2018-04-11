@@ -79,17 +79,18 @@ $breakpoints: (
 
 .page-footer__address,
 .page-footer__tel,
-.page-footer__email {
+.page-footer__email,
+.page-footer__contact {
   display: block;
 
   @include proxima-regular;
   color: $color-grey-dark;
   line-height: 1.8rem;
   font-size: 1.2rem;
-  margin-bottom: 1.6rem;
 }
 .page-footer__email {
   text-decoration: underline;
+  margin-bottom: 1.6rem;
 }
 
 .page-footer__bar {
