@@ -72,6 +72,13 @@ const metaData = {
     title: 'ITProTV Team',
     description: '',
     canonical: 'https://itpro.tv/team/'
+  },
+  '/contact/': {
+    page: 'contact',
+    path: '/contact/',
+    title: 'Contact | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/contact/'
   }
 };
 
