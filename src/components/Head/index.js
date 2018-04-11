@@ -79,6 +79,13 @@ const metaData = {
     title: 'Contact | ITProTV',
     description: '',
     canonical: 'https://itpro.tv/contact/'
+  },
+  '/government/': {
+    page: 'government',
+    path: '/government/',
+    title: 'Government | IT Training for Agency Personnel',
+    description: '',
+    canonical: 'https://itpro.tv/government/'
   }
 };
 

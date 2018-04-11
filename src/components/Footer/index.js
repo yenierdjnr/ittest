@@ -54,7 +54,7 @@ const Footer = () => {
                   <a href="#">blog</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">government</a>
+                  <a href="/government/">government</a>
                 </li>
               </ul>
           </nav>

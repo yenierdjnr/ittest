@@ -10,3 +10,4 @@ export { default as Eula } from './Eula';
 export { default as About } from './About';
 export { default as Team } from './Team';
 export { default as Contact } from './Contact';
+export { default as Government } from './Government';
