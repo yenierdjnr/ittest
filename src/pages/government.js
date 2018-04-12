@@ -4,6 +4,7 @@ import Head from 'Components/Head';
 import { Government as Hero } from 'Components/Hero';
 import GovernmentContent from 'Components/GovernmentContent';
 import GovIntro from 'Components/GovIntro';
+import GovBottomElement from 'Components/GovBottomElement';
 import GsaSchedule from 'Components/GsaSchedule';
 import styles from './government.module.scss';
 
@@ -28,6 +29,10 @@ const Government = ({ data, history, location, match, page, pageResources, pageC
 
         <section className={ styles.GsaSchedule }>
           <GsaSchedule />
+        </section>
+
+        <section className={ styles.GovBottomElement }>
+          <GovBottomElement />
         </section>
 
       </main>

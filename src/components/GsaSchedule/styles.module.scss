@@ -13,23 +13,28 @@ $breakpoints: (
 );
 
 .container {
-  padding: 2rem 22rem;
+  padding: 4rem 22rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  padding: 5,6rem 0 6.8rem;
 }
 
-.subtitle {
-  grid-column: 2 / 3;
-  @include proxima-semi-bold;
-  font-size: 2.4rem;
-  line-height: 5.8rem;
+.gsa {
+  grid-column: 3 / 4;
+  margin: 3rem 4rem 0 0;
+}
+
+.gsaLogo {
+  width: 200px;
+}
+
+.gsaInfo {
+  grid-column: 6 / 8;
+  line-height: 2.4rem;
+  margin-right: 10rem;
 }
 
 .intro {
-  grid-column: 2 / 3;
   font-size: 1.6rem;
-  line-height: 2.4rem;
 }
 
 
@@ -38,26 +43,14 @@ $breakpoints: (
   .container {
     padding: 0 2rem;
   }
-
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-
 }
 
 
 @include media('<=upper-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
+
 }
 
 
 @include media('<=small-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
+
 }
