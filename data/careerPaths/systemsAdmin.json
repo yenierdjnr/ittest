@@ -1,0 +1,83 @@
+{
+  "name": "Systems Administration",
+	"url": "systems-administration",
+  "recommended":
+  {
+    "courses": [
+      {
+        "id": "55ef41528fe1ff0700cad7a4",
+  			"name": "A+ 900 Series",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "a1",
+        "level": "Novice"
+      },
+      {
+        "id": "59a0276e93c3030b00cb40cf",
+  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "accelerated-a-220901-220902",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000011",
+  			"name": "IT Fundamentals",
+  			"subtitle": "IT Fundamentals",
+  			"url": "fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000010",
+  			"name": "MTA - Windows Operating System Fundamentals -  98-349",
+  			"subtitle": "Windows Operating System Fundamentals",
+        "url": "mta",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae10805157000002a",
+  			"name": "Network+",
+  			"subtitle": "",
+  			"url": "network",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  "additional": {
+    "courses": [
+      {
+        "id": "5665b1c3315ef10700283633",
+  			"name": "Virtualization Technologies",
+  			"subtitle": "Fundamentals of Virtualization",
+  			"url": "virtualization",
+        "level": "Novice"
+      },
+      {
+        "id": "59417908ca44310b007ee740",
+  			"name": "Linux for Beginners",
+  			"subtitle": "Getting started in Linux for new users",
+  			"url": "linuxbeginners",
+        "level": "Novice"
+      },
+      {
+        "id": "591f53ca66f7510b00e3d25a",
+  			"name": "Windows Server 101",
+  			"subtitle": "Introduction to Windows Server",
+  			"url": "server-101",
+        "level": "Novice"
+      },
+      {
+        "id": "58f92e402634860b009088c1",
+  			"name": "End User Security Awareness",
+  			"subtitle": "Best Security Practices for the End User",
+  			"url": "user-security-awareness",
+        "level": "Novice"
+      },
+      {
+        "id": "571d6f8ba123530700fe4773",
+  			"name": "Microsoft Desktop Optimization Pack",
+  			"subtitle": "MDOP",
+  			"url": "microsoft-desktop-optimization-pack",
+        "level": "Intermediate"
+      }
+    ]
+  }
+}
