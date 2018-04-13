@@ -1,36 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Course } from 'Elements/Flags'
+import { CareerPathCourses } from 'Elements/Flags'
 import styles from './styles.module.scss';
 
 
 const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
+
   <main className={ styles.category }>
 
-    <section className={ styles.Courses }>
+    <section className={ styles.RecommendedCourses }>
       <h2>Recommended Training for Certification</h2>
       <ul className={ styles.list }>
         {recommendedCourses.map(course => (
-          <Course
+          <CareerPathCourses
             key={ course.id }
             title={ course.name }
             description={ course.subtitle }
-            courseLength={ course.courseLength }
+            level={ course.level }
           />
         ))}
       </ul>
     </section>
 
-    <section className={ styles.Courses }>
+    <section className={ styles.AdditionalCourses }>
       <h2>Additional Training</h2>
       <ul className={ styles.list }>
         {additionalCourses.map(course => (
-          <Course
+          <CareerPathCourses
             key={ course.id }
             title={ course.name }
             description={ course.subtitle }
-            courseLength={ course.courseLength }
+            level={ course.level }
           />
         ))}
       </ul>

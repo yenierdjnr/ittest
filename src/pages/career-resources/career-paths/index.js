@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import { CareerPathsHero as Hero } from 'Components/Hero';
-import { areerPathsMain as Paths } from 'Components/CareerPaths';
+import { CareerPathsMain as Paths } from 'Components/CareerPaths';
 import styles from './careerPaths.module.scss';
 
 const CareerPathsPage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
