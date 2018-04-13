@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import { CareerPathsHero as Hero } from 'Components/Hero';
-import CareerPaths from 'Components/CareerPaths';
+import { areerPathsMain as Paths } from 'Components/CareerPaths';
 import styles from './careerPaths.module.scss';
 
 const CareerPathsPage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
@@ -15,7 +15,7 @@ const CareerPathsPage = ({ data, history, location, match, page, pageResources, 
         </section>
 
         <section className={ styles.Paths }>
-          <CareerPaths />
+          <Paths />
         </section>
 
       </main>
