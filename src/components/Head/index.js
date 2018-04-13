@@ -86,6 +86,13 @@ const metaData = {
     title: 'Government | IT Training for Agency Personnel',
     description: '',
     canonical: 'https://itpro.tv/government/'
+  },
+  '/hosts/': {
+    page: 'hosts',
+    path: '/hosts/',
+    title: 'ITProTV Hosts',
+    description: '',
+    canonical: 'https://itpro.tv/hosts/'
   }
 };
 
