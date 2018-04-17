@@ -12,77 +12,35 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  padding: 5,6rem 0 6.8rem;
-  margin: 2rem 0;
+img {
+ max-width: 100%;
 }
 
-.subtitle {
-  grid-column: 2 / 3;
-  @include proxima-semi-bold;
-  font-size: 3.6rem;
-  text-align: center;
-  line-height: normal;
+.hostContainer {
+ display: grid;
+ grid-template-columns: 200px 1fr;
+ width: 62rem
 }
 
-.listContainer {
-  display: flex;
-  flex-wrap: wrap;
-  grid-column: 2 / 3;
-  justify-content: left;
-  margin: 0 auto;
+.img {
+
 }
 
-.item {
-  padding: 2rem 0;
-  width: 21rem;
-  text-align: center;
-  margin: 0 2.25rem;
-}
+.bio {
 
-.headshot {
-  max-width: 200px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.title {
-  font-size: 1.8rem;
-  padding-top: 4px;
 }
 
 
 @include media('<tablet') {
-  .container {
-    padding: 0 2rem;
-  }
-
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
 
 }
 
 
 @include media('<=upper-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-  .subtitle {
-    font-size: 2.8rem;
-  }
+
 }
 
 
 @include media('<=small-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
+
 }
