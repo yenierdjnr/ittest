@@ -38,8 +38,6 @@ $breakpoints: (
 }
 
 .courseLevel {
-  @include proxima-semi-bold;
-  font-size: 2.4rem;
   width: 29rem;
   justify-self: center;
   // display: flex;
@@ -51,6 +49,8 @@ $breakpoints: (
 }
 
 .course {
+  @include proxima-semi-bold;
+  font-size: 2.2rem;
   border-bottom: 2px solid $color-orange-primary;
   padding: 1rem 0;
 }
@@ -64,6 +64,7 @@ $breakpoints: (
 
 .small {
   font-size: 2.1rem;
+  padding: 1.1rem 0;
 }
 
 @include media('<lower-tablet') {

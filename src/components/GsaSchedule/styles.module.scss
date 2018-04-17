@@ -13,24 +13,34 @@ $breakpoints: (
 );
 
 .container {
-  padding: 4rem 22rem;
+  padding: 9.6rem 0 13rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 
-.gsa {
-  grid-column: 3 / 4;
-  margin: 3rem 4rem 0 0;
+.wrapper {
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
+  display: grid;
+  grid-column: 2 / 3;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
 }
 
-.gsaLogo {
-  width: 200px;
+.gsa {
+  justify-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 1 auto;
+  align-items: flex-start;
 }
 
 .gsaInfo {
-  grid-column: 6 / 8;
-  line-height: 2.4rem;
-  margin-right: 10rem;
+  text-align: left;
+}
+
+.gsaLogo {
+  padding-top: 1rem;
+  width: 275px;
 }
 
 .intro {
@@ -43,11 +53,20 @@ $breakpoints: (
   .container {
     padding: 0 2rem;
   }
+  .gsa {
+    padding: 0 4rem;
+    margin-bottom: 4.8rem;
+    text-align: center;
+  }
 }
 
 
 @include media('<=upper-phone') {
-
+  .gsa {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }
 
 

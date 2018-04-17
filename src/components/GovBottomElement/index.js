@@ -29,7 +29,7 @@ const GovernmentContent = props => {
               <Para color={ styles.greyDark } className={ styles.subtitle }>ITProTV is on the GSA schedule and therefore qualifies as a "cooperative purchasing" contract.</Para>
             </div>
           </li>
-          <li className={ `${styles.item} ${styles.binge}` }>
+          <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
               <IconPopcorn className={ styles['popcorn-icon'] }/>
             </div>
