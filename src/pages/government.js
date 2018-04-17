@@ -6,6 +6,7 @@ import GovernmentContent from 'Components/GovernmentContent';
 import GovIntro from 'Components/GovIntro';
 import GovBottomElement from 'Components/GovBottomElement';
 import GsaSchedule from 'Components/GsaSchedule';
+import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
 
 
@@ -25,6 +26,10 @@ const Government = ({ data, history, location, match, page, pageResources, pageC
 
         <section className={ styles.GovernmentContent }>
           <GovernmentContent />
+        </section>
+
+        <section className={ styles.GsaCourses }>
+          <GsaCourses />
         </section>
 
         <section className={ styles.GsaSchedule }>
