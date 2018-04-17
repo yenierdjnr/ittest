@@ -7,7 +7,6 @@ export { default as OnAir } from './OnAir';
 export { default as Plans } from './Plans';
 export { default as CareerResourcesHero } from './CareerResources';
 export { default as CareerPathsHero } from './CareerPaths';
-export { default as EntryLevelITHero } from './EntryLevelIT';
 export { default as DesktopSupportHero } from './DesktopSupport';
 export { default as SystemAdministrationHero } from './SystemAdministration';
 export { default as NetworkTechnologyHero } from './NetworkTechnology';

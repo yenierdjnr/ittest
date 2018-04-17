@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { EntryLevelITHero as Hero } from 'Components/Hero';
+
 import styles from './entryLevelIT.module.scss';
 import { EntryLevelITPath as Paths } from 'Components/CareerPaths';
 
@@ -10,10 +10,6 @@ const EntryLevelIT = ({ data, history, location, match, page, pageResources, pag
     <Fragment>
       <Head location={ location } />
       <main className={ styles.Career }>
-
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
 
         <section>
           <Paths
@@ -29,8 +25,8 @@ const EntryLevelIT = ({ data, history, location, match, page, pageResources, pag
 export default EntryLevelIT;
 
 export const pageQuery = graphql`
-  query CareerPathByCourse($name: String) {
-    careerPath: careerPathsJson(name: {eq:$name}) {
+  query CareerPathByCourse($url: String) {
+    careerPath: careerPathsJson(url: {eq:$url}) {
       name
       recommended {
         courses {
