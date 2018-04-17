@@ -26,10 +26,10 @@ const Breadcrumb = ({ children='Breadcrumb', className='', color=`${styles.prima
   }
 
   return (
-    <a className={ `${linkStyle} ${className}` } href={ to }>
+    <div className={ `${linkStyle} ${className}` } href={ to }>
       <IconArrowLeft className={ icon } fill={ color } />
       <span style={{ fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
-    </a>
+    </div>
   );
 };
 

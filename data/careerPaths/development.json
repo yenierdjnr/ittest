@@ -5,15 +5,134 @@
   {
     "courses": [
       {
-
+        "id": "578e8e44e3197a07007112bb",
+  			"name": "HTML, CSS and Bootstrap",
+  			"subtitle": "Responsive Web Design",
+  			"url": "html-css-bootstrap",
         "level": "Novice"
+      },
+      {
+        "id": "58a454d94c57e90b00f1a143",
+  			"name": "Intro to Web Development",
+  			"subtitle": "Basic Theory and Beginning Applications",
+  			"url": "introweb-development",
+        "level": "Novice"
+      },
+      {
+        "id": "588f4552d597170b002172b0",
+  			"name": "Intro to JavaScript",
+  			"subtitle": "Getting Started",
+  			"url": "introjavascript",
+        "level": "Novice"
+      },
+      {
+        "id": "56dde40115c69d0700240cba",
+  			"name": "Python Programming",
+  			"subtitle": "Programming Language",
+  			"url": "python-programming",
+        "level": "Novice"
+      },
+      {
+        "id": "58d1201da283f50b00ecb944",
+  			"name": "Intro to Docker",
+  			"subtitle": "Getting down with Docker",
+  			"url": "introdocker",
+        "level": "Novice"
+      },
+      {
+        "id": "58ed1064e4f8f20b00a5b95c",
+  			"name": "Intro to Git",
+  			"subtitle": "Distributed version control",
+  			"url": "introgit",
+        "level": "Novice"
+      },
+      {
+        "id": "590a16c085467d0b007fac1b",
+  			"name": "Intro to NodeJS",
+  			"subtitle": "Breaking JavaScript out of the browser",
+  			"url": "intronodejs",
+        "level": "Novice"
+      },
+      {
+        "id": "58f92eef2634860b009088c8",
+  			"name": "Intro to NumPy",
+  			"subtitle": "Fast Numbers with Python Ease",
+  			"url": "numpy",
+        "level": "Novice"
+      },
+      {
+        "id": "591c63de541b620b00264c53",
+  			"name": "Intro to Vue.js",
+  			"subtitle": "Reactive web framwork for the masses",
+  			"url": "introvuejs",
+        "level": "Novice"
+      },
+      {
+        "id": "595f907b9496520b00147cc9",
+  			"name": "Intro to AngularJS",
+  			"subtitle": "A Widely Used Web Framework",
+  			"url": "introangularjs",
+        "level": "Novice"
+      },
+      {
+        "id": "58c00be8a30fb60b00085f78",
+  			"name": "Object Oriented Python",
+  			"subtitle": "Coding the way the cool kids do",
+  			"url": "object-oriented-python",
+        "level": "Intermediate"
+      },
+      {
+        "id": "592d6f16356f770b00da6279",
+  			"name": "Object Oriented Java",
+  			"subtitle": "Compile yourself a nice hot cup",
+  			"url": "java",
+        "level": "Intermediate"
+      },
+      {
+        "id": "59832da13d51450b00974c76",
+  			"name": "Python for Security",
+  			"subtitle": "Being Sneaky with Python",
+  			"url": "pythonsecurity",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5972122300ac0c0b00f02818",
+  			"name": "Weather Application with Angular Express",
+  			"subtitle": "Angular and Express... Putting it together!",
+  			"url": "weather-applicationangular-express",
+        "level": "Intermediate"
+      },
+      {
+        "id": "595143ff382d2e0b0006ba74",
+  			"name": "RESTful API with Express",
+  			"subtitle": "Where's the data? Express to the rescue!",
+  			"url": "restful-apiexpress",
+        "level": "Intermediate"
       }
     ]
   },
   "additional": {
     "courses": [
       {
-
+        "id": "58987f9b21fe8b0b00bfd9d1",
+  			"name": "New Features in ES6",
+  			"subtitle": "What's new in the ECMAScript 6 language",
+  			"url": "featureses6",
+        "level": "Novice"
+      },
+      {
+        "id": "58daafb74e91770b003c86d2",
+  			"name": "Dive into the Python Standard Library",
+  			"subtitle": "All the tools you didn't know you already had",
+  			"url": "python",
+        "level": "Novice"
+      },
+      {
+        "id": "58f92e402634860b009088c1",
+  			"name": "End User Security Awareness",
+  			"subtitle": "Best Security Practices for the End User",
+  			"url": "user-security-awareness",
+        "level": "Novice"
       }
     ]
   }
