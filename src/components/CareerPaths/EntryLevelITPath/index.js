@@ -6,7 +6,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { CareerPathCourses } from 'Elements/Flags';
 import { IconArrowRight } from 'Elements/Icons';
-import TextLink from 'Elements/TextLink';
+import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
 const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
@@ -65,7 +65,7 @@ const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest
         <div>
           <Hx color={ styles.headingColor } size="6">CompTIA - Just Starting My Career</Hx>
           <Para color={ styles.darkGrey } className={ styles.summary }>Getting an IT certification can help you get started and get ahead in your career. The CompTIA IT Certification Roadmap can make navigating the world of certifications a little easier.</Para>
-          <TextLink to="https://certification.comptia.org/why-certify/roadmap/just-starting-my-career">Read more</TextLink>
+          <TextLinkExternal to="https://certification.comptia.org/why-certify/roadmap/just-starting-my-career">Read more</TextLinkExternal>
         </div>
       </div>
     </section>
