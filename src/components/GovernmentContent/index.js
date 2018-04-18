@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { ViewportAnimation } from 'Elements/Viewport'
-import { IconGear, IconLaptop, IconPopcorn } from 'Elements/Icons';
+import { IconLaptop, IconLabs, IconExams } from 'Elements/Icons';
 
 
 const GovernmentContent = props => {
@@ -24,7 +24,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-            <IconGear className={ styles['gear-icon'] }/>
+            <IconLabs className={ styles['gear-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with virtual labs</Hx>
@@ -33,7 +33,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
             <div className={ styles['icon-box'] }>
-              <IconPopcorn className={ styles['popcorn-icon'] }/>
+              <IconExams className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Access practice exams</Hx>
