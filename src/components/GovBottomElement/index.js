@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import { IconGear, IconLaptop, IconPopcorn } from 'Elements/Icons';
+import { IconLgBuilding, IconSmBuilding, IconBooks } from 'Elements/Icons';
 
 
 const GovernmentContent = props => {
@@ -13,7 +13,7 @@ const GovernmentContent = props => {
         <ul className={ styles.list }>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-              <IconLaptop className={ styles['laptop-icon'] }/>
+              <IconLgBuilding className={ styles['laptop-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Federal Agencies</Hx>
@@ -22,7 +22,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-            <IconGear className={ styles['gear-icon'] }/>
+            <IconSmBuilding className={ styles['gear-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">State and Local Agencies</Hx>
@@ -31,7 +31,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-              <IconPopcorn className={ styles['popcorn-icon'] }/>
+              <IconBooks className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Education</Hx>

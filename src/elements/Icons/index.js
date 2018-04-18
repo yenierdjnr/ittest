@@ -19,3 +19,7 @@ export { default as IconPopcorn } from './popcorn';
 export { default as IconMobile } from './mobile';
 export { default as IconSearch } from './search';
 export { default as IconX } from './X';
+export { default as IconCertificate } from './certificate';
+export { default as IconLgBuilding } from './lg-building';
+export { default as IconSmBuilding } from './sm-building';
+export { default as IconBooks } from './books';
