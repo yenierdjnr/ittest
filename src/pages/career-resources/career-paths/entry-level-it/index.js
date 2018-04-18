@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 
-import styles from './entryLevelIT.module.scss';
+import styles from '../careerPaths.module.scss';
 import { EntryLevelITPath as Paths } from 'Components/CareerPaths';
 
 const EntryLevelIT = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
@@ -25,8 +25,8 @@ const EntryLevelIT = ({ data, history, location, match, page, pageResources, pag
 export default EntryLevelIT;
 
 export const pageQuery = graphql`
-  query CareerPathByCourse($url: String) {
-    careerPath: careerPathsJson(url: {eq:$url}) {
+  query EntryLevelQuery {
+    careerPath: careerPathsJson(name: {eq: "Entry Level IT"}) {
       name
       recommended {
         courses {
