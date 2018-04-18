@@ -16,7 +16,7 @@ const paths = [
     link: '/career-resources/career-paths/desktop-support/'
   },
   {
-    title: 'System Administration',
+    title: 'Systems Administration',
     description: 'Get started or advance as a system admin with these key courses that lead to certs.',
     link: '/career-resources/career-paths/systems-administration/'
   },

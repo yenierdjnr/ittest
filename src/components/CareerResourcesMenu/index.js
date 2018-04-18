@@ -17,8 +17,8 @@ const CareerResourcesMenu = props => {
           <div className={ `${styles['icon-box']} ${styles.paths}` }>
             <img src={ imagePaths } alt="paths" />
           </div>
-          <TextLink className={ styles['menu-link'] }>IT Career Paths</TextLink>
-          </a>
+        </a>
+        <TextLink className={ styles['menu-link'] } to="/career-resources/career-paths/">IT Career Paths</TextLink>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.paths}` }>

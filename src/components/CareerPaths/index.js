@@ -1,3 +1,9 @@
 export { default as CareerPathsMain } from './CareerPathsMain';
 export { default as EntryLevelITPath } from './EntryLevelITPath';
 export { default as DesktopSupportPath } from './DesktopSupportPath';
+export { default as SystemsAdministrationPath } from './SystemsAdministrationPath';
+export { default as NetworkTechnologyPath } from './NetworkTechnologyPath';
+export { default as CloudTechnologyPath } from './CloudTechnologyPath';
+export { default as VirtualizationTechnologyPath } from './VirtualizationTechnologyPath';
+export { default as CybersecurityPath } from './CybersecurityPath';
+export { default as DatabaseAdministrationPath } from './DatabaseAdministrationPath';

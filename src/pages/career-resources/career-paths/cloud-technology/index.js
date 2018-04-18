@@ -1,16 +1,19 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { CloudTechnologyHero as Hero } from 'Components/Hero';
-import styles from '../../careerResources.module.scss';
+import styles from '../careerPaths.module.scss';
+import { CloudTechnologyPath as Paths } from 'Components/CareerPaths';
 
 const CloudTechnology = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
       <Head location={ location } />
       <main className={ styles.Career }>
-        <section className={ styles.Hero }>
-          <Hero />
+
+        <section>
+          <Paths
+              recommendedCourses={data.careerPath.recommended.courses}
+              additionalCourses={data.careerPath.additional.courses}/>
         </section>
 
       </main>
@@ -19,3 +22,29 @@ const CloudTechnology = ({ data, history, location, match, page, pageResources, 
 }
 
 export default CloudTechnology;
+
+export const pageQuery = graphql`
+  query CloudTechnologyQuery {
+    careerPath: careerPathsJson(name: {eq: "Cloud Technology"}) {
+      name
+      recommended {
+        courses {
+          id
+        	name
+          subtitle
+          url
+          level
+        }
+      }
+      additional {
+        courses {
+          id
+        	name
+          subtitle
+          url
+          level
+        }
+      }
+    }
+  }
+`;

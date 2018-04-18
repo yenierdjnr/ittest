@@ -1,0 +1,154 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
+);
+
+:export {
+  headingColor: $color-offblack;
+  darkGrey: $color-grey-dark;
+  orangePrimary: $color-orange-primary;
+}
+
+.Hero {
+  padding: 4.4rem 0 5.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
+
+  background-color: $color-offblack;
+  background-image: url('Images/network-technology@2x.jpg');
+  background-position: center;
+  height: 400px;
+  overflow: hidden;
+}
+
+.navigation {
+  color: $color-orange-primary;
+  @include proxima-semi-bold;
+  font-size: 1.8rem;
+}
+
+.arrow {
+  margin-right: 10px;
+  transform: scaleX(-1);
+}
+
+.intro {
+  grid-column: 2 / 3;
+  padding-left: 2.4rem;
+}
+
+.title {
+  max-width: 82rem;
+  font-size: 6.4rem;
+  letter-spacing: 0.53px;
+  margin-top: 2.4rem;
+}
+
+.subtitle {
+  max-width: 74.3rem;
+  margin-bottom: 5.6rem;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+}
+
+.flags {
+  grid-column: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
+}
+
+.label {
+  grid-column: 2 / 3;
+  padding-bottom: 1.2rem;
+}
+
+.RecommendedCourses {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+
+  padding: 4.8rem 0 2.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.AdditionalCourses {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+
+  padding: 4.8rem 0 6.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.list {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-flow: column nowrap;
+
+  & li {
+    &:not(:last-child) {
+      margin-bottom: 1.6rem;
+    }
+  }
+}
+
+.Resources {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  background-color: $color-white;
+  margin-bottom: 6.8rem;
+}
+
+.article {
+  grid-column: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
+}
+
+.summary {
+  max-width: 50rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+
+@include media('<lower-tablet') {
+
+  .title {
+    max-width: 61rem;
+    font-size: 4.8rem;
+    letter-spacing: 0.4px;
+    line-height: 5.8rem;
+  }
+
+  .subtitle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+  }
+
+  .RecommendedCourses, .AdditionalCourses, .Resources {
+    padding: 3.6rem 1.6rem 5.4rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
