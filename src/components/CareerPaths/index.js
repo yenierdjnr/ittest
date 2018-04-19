@@ -8,3 +8,4 @@ export { default as VirtualizationTechnologyPath } from './VirtualizationTechnol
 export { default as CybersecurityPath } from './CybersecurityPath';
 export { default as DatabaseAdministrationPath } from './DatabaseAdministrationPath';
 export { default as ITManagementAndStrategyPath } from './ITManagementAndStrategyPath';
+export { default as DevelopmentPath } from './DevelopmentPath';

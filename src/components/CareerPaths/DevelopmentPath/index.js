@@ -9,7 +9,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
-const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, supportingCourses,  ...rest }) => (
+const DevelopmentPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
 
   <main className={ styles.Paths }>
 
@@ -19,7 +19,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
           Career Paths
         </Link>
-        <Hx size="1" className={ styles['title'] }>Cybersecurity</Hx>
+        <Hx size="1" className={ styles['title'] }>Development</Hx>
       </div>
     </section>
 
@@ -32,23 +32,6 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
           <CareerPathCourses
             key={ course.id }
             url={ course.url }
-            title={ course.name }
-            description={ course.subtitle }
-            level={ course.level }
-          />
-        ))}
-      </ul>
-    </section>
-
-    <section className={ styles.SupportingCourses }>
-
-      <div className ={ styles.label }>
-        <Hx color={ styles.headingColor } size="5">Supporting Certifications</Hx>
-      </div>
-      <ul className={ styles.list }>
-        {supportingCourses.map(course => (
-          <CareerPathCourses
-            key={ course.id }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -80,14 +63,9 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
       </div>
       <div className={ styles.article }>
         <div>
-          <Hx color={ styles.headingColor } size="6">CyberSeek Interactive Tools and Data</Hx>
-          <Para color={ styles.darkGrey } className={ styles.summary }>Hack the Gap: Close the cybersecurity talent gap with interactive tools and data. Cyberseek provides detailed, actionable data about supply and demand in the cybersecurity job market.</Para>
-          <TextLinkExternal to="http://cyberseek.org/">Read more</TextLinkExternal>
-        </div>
-        <div>
-          <Hx color={ styles.headingColor } size="6">CompTIA - Information Security</Hx>
+          <Hx color={ styles.headingColor } size="6">CompTIA - Software Development</Hx>
           <Para color={ styles.darkGrey } className={ styles.summary }>Getting an IT certification can help you get started and get ahead in your career. The CompTIA IT Certification Roadmap can make navigating the world of certifications a little easier.</Para>
-          <TextLinkExternal to="https://certification.comptia.org/why-certify/roadmap/information-security">Read more</TextLinkExternal>
+          <TextLinkExternal to="https://certification.comptia.org/why-certify/roadmap/software-development">Read more</TextLinkExternal>
         </div>
       </div>
     </section>
@@ -95,4 +73,4 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
   </main>
 );
 
-export default CybersecurityPath;
+export default DevelopmentPath;

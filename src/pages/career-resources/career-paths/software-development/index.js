@@ -1,16 +1,19 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { DevelopmentHero as Hero } from 'Components/Hero';
-import styles from '../../careerResources.module.scss';
+import styles from '../careerPaths.module.scss';
+import { DevelopmentPath as Paths } from 'Components/CareerPaths';
 
 const SoftwareDevelopment = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
       <Head location={ location } />
       <main className={ styles.Career }>
-        <section className={ styles.Hero }>
-          <Hero />
+
+        <section>
+          <Paths
+              recommendedCourses={data.careerPath.recommended.courses}
+              additionalCourses={data.careerPath.additional.courses}/>
         </section>
 
       </main>
@@ -19,3 +22,29 @@ const SoftwareDevelopment = ({ data, history, location, match, page, pageResourc
 }
 
 export default SoftwareDevelopment;
+
+export const pageQuery = graphql`
+  query DevelopmentQuery {
+    careerPath: careerPathsJson(name: {eq: "Development"}) {
+      name
+      recommended {
+        courses {
+          id
+        	name
+          subtitle
+          url
+          level
+        }
+      }
+      additional {
+        courses {
+          id
+        	name
+          subtitle
+          url
+          level
+        }
+      }
+    }
+  }
+`;

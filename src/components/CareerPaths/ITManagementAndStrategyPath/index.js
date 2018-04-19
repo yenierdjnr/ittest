@@ -63,9 +63,14 @@ const ITManagementAndStrategyPath = ({ data, recommendedCourses, additionalCours
       </div>
       <div className={ styles.article }>
         <div>
-          <Hx color={ styles.headingColor } size="6">CompTIA - Storage &amp; Data</Hx>
+          <Hx color={ styles.headingColor } size="6">CompTIA - IT Management &amp; Strategy</Hx>
           <Para color={ styles.darkGrey } className={ styles.summary }>Getting an IT certification can help you get started and get ahead in your career. The CompTIA IT Certification Roadmap can make navigating the world of certifications a little easier.</Para>
-          <TextLinkExternal to="https://certification.comptia.org/why-certify/roadmap/storage-and-data">Read more</TextLinkExternal>
+          <TextLinkExternal to="https://certification.comptia.org/why-certify/roadmap/it-management-and-strategy">Read more</TextLinkExternal>
+        </div>
+        <div>
+          <Hx color={ styles.headingColor } size="6">Become an ITIL Master of all Disciplines</Hx>
+          <Para color={ styles.darkGrey } className={ styles.summary }>Based on a series of qualifications covering the different areas of ITIL Service Management, ITIL practitioners can earn certifications in a specific discipline or train all the way to becoming an ITIL Master of all disciplines.</Para>
+          <TextLinkExternal to="https://go.itpro.tv/itil-training">Read more</TextLinkExternal>
         </div>
       </div>
     </section>

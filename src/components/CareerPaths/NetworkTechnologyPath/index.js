@@ -11,7 +11,7 @@ import styles from './styles.module.scss';
 
 const NetworkTechnologyPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
 
-  <main>
+  <main className={ styles.Paths }>
 
     <section className={ styles.Hero }>
       <div className={ styles['intro'] }>

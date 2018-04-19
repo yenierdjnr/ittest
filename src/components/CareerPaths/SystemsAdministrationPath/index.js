@@ -11,7 +11,7 @@ import styles from './styles.module.scss';
 
 const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
 
-  <main>
+  <main className={ styles.Paths }>
 
     <section className={ styles.Hero }>
       <div className={ styles['intro'] }>
@@ -56,7 +56,7 @@ const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses
         ))}
       </ul>
     </section>
-    
+
   </main>
 );
 
