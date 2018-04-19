@@ -3,9 +3,7 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone,
-  'phablet': $phablet,
-  'tablet': $tablet
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -16,26 +14,19 @@ $breakpoints: (
 
 .Paths {
   grid-area: main;
-
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
 }
 
 .Hero {
   padding: 4.4rem 0 5.2rem;
 
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
 
   background-color: $color-offblack;
-  background-image: url('Images/it-management-strategy@2x.jpg');
+  background-image: url('Images/cybersecurity@2x.jpg');
   background-position: center;
   height: 400px;
   overflow: hidden;
-
-  display: grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 
 .navigation {
@@ -51,13 +42,11 @@ $breakpoints: (
 
 .intro {
   grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: column nowrap;
+  padding-left: 2.4rem;
 }
 
 .title {
-  max-width: 92rem;
+  max-width: 82rem;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
   margin-top: 2.4rem;
@@ -85,9 +74,18 @@ $breakpoints: (
 }
 
 .RecommendedCourses {
-
-  grid-column: 1 / -1;
+  grid-column: 2 / 3;
   grid-row: 2 / 3;
+
+  padding: 4.8rem 0 2.6rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.SupportingCourses {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 
   padding: 4.8rem 0 6.6rem;
 
@@ -96,8 +94,8 @@ $breakpoints: (
 }
 
 .AdditionalCourses {
-  grid-column: 1 / -1;
-  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
 
   padding: 4.8rem 0 6.6rem;
 
@@ -118,14 +116,8 @@ $breakpoints: (
 }
 
 .Resources {
-  grid-column: 1 / -1;
-  grid-row: 4 / 5;
-
-  padding: 4.8rem 0 6.6rem;
-
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
   background-color: $color-white;
   margin-bottom: 6.8rem;
 }
@@ -146,15 +138,6 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
-@include media('<tablet') {
-  .Hero {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  .summary {
-    max-width: 38rem;
-  }
-}
 
 @include media('<lower-tablet') {
 
@@ -172,14 +155,8 @@ $breakpoints: (
     line-height: 3.1rem;
   }
 
-  .RecommendedCourses, .AdditionalCourses, .Resources {
+  .RecommendedCourses, .AdditionalCourses, .SupportingCourses, .Resources {
     padding: 3.6rem 1.6rem 5.4rem;
-  }
-}
-
-@include media('<phablet') {
-  .title {
-    max-width: 41rem;
   }
 }
 
@@ -187,9 +164,5 @@ $breakpoints: (
   .list {
     padding-left: 0;
     padding-right: 0;
-  }
-  .Hero {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }

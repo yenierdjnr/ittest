@@ -57,19 +57,6 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
       </ul>
     </section>
 
-    <section className={ styles.Resources }>
-      <div className ={ styles.label }>
-        <Hx color={ styles.headingColor } size="5">Informational Resources</Hx>
-      </div>
-      <div className={ styles.article }>
-        <div>
-          <Hx color={ styles.headingColor } size="6">title</Hx>
-          <Para color={ styles.darkGrey } className={ styles.summary }>description.</Para>
-          <TextLinkExternal to="#">Read more</TextLinkExternal>
-        </div>
-      </div>
-    </section>
-
   </main>
 );
 
