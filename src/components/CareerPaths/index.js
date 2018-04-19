@@ -7,3 +7,4 @@ export { default as CloudTechnologyPath } from './CloudTechnologyPath';
 export { default as VirtualizationTechnologyPath } from './VirtualizationTechnologyPath';
 export { default as CybersecurityPath } from './CybersecurityPath';
 export { default as DatabaseAdministrationPath } from './DatabaseAdministrationPath';
+export { default as ITManagementAndStrategyPath } from './ITManagementAndStrategyPath';
