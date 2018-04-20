@@ -13,13 +13,15 @@ $breakpoints: (
 );
 
 img {
- max-width: 100%;
+ max-width: 200px;
 }
 
-.hostContainer {
- display: grid;
- grid-template-columns: 200px 1fr;
- width: 62rem
+.container {
+ grid-column: 2 / 3;
+ display: flex;
+ flex-flow: row nowrap;
+ justify-content: space-between;
+ align-items: center;
 }
 
 .img {
