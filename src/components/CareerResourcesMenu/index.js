@@ -21,16 +21,20 @@ const CareerResourcesMenu = props => {
         <TextLink className={ styles['menu-link'] } to="/career-resources/career-paths/">IT Career Paths</TextLink>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.paths}` }>
-            <img src={ imageCertification } alt="certification" />
-          </div>
-          <TextLink className={ styles['menu-link'] }>Getting IT Certified</TextLink>
+          <a href="/career-resources/getting-certified/">
+            <div className={ `${styles['icon-box']} ${styles.paths}` }>
+              <img src={ imageCertification } alt="certification" />
+            </div>
+          </a>
+          <TextLink className={ styles['menu-link'] } to="/career-resources/getting-certified/">Getting IT Certified</TextLink>
         </li>
         <li className={ styles.item }>
-          <div className={ `${styles['icon-box']} ${styles.paths}` }>
-            <img src={ imageResources } alt="IT resources" />
-          </div>
-          <TextLink className={ styles['menu-link'] }>IT Resources</TextLink>
+          <a href="/career-resources/job-resources/">
+            <div className={ `${styles['icon-box']} ${styles.paths}` }>
+              <img src={ imageResources } alt="IT resources" />
+            </div>
+          </a>
+          <TextLink className={ styles['menu-link'] } to="/career-resources/job-resources/">IT Resources</TextLink>
         </li>
       </ul>
     </section>

@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { CoursesHero as Hero } from 'Components/Hero';
-import styles from '../careerResources.module.scss';
+import { GettingCertifiedHero as Hero } from 'Components/Hero';
+import styles from './gettingCertified.module.scss';
 
-const ITResources = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const gettingCertified = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
       <Head location={ location } />
@@ -18,4 +18,4 @@ const ITResources = ({ data, history, location, match, page, pageResources, page
   );
 }
 
-export default ITResources;
+export default gettingCertified;
