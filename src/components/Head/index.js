@@ -86,6 +86,13 @@ const metaData = {
     title: 'Government | IT Training for Agency Personnel',
     description: '',
     canonical: 'https://itpro.tv/government/'
+  },
+  '/practice-tests/': {
+    page: 'practice-tests',
+    path: '/practice-tests/',
+    title: 'Practice Tests | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/practice-tests/'
   }
 };
 
