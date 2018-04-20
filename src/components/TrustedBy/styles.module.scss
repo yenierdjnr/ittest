@@ -23,8 +23,9 @@ $breakpoints: (
   grid-column: 2 / 3;
   @include proxima-semi-bold;
   font-size: 3.6rem;
-  line-height: 5.8rem;
+  line-height: 3.4rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .listContainer {
