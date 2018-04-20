@@ -5,7 +5,6 @@ export { default as IconYT } from './yt';
 export { default as IconInsta } from './insta';
 
 export { default as IconArrowRight } from './arrow_right';
-export { default as IconArrowLeft } from './arrow_left';
 export { default as IconBars } from './bars';
 export { default as IconCamera } from './camera';
 export { default as IconCheck } from './check';
