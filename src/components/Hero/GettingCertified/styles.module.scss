@@ -8,10 +8,11 @@ $breakpoints: (
 
 :export {
   offBlack: $color-offblack;
+  orangePrimary: $color-orange-primary;
 }
 
 .container {
-  padding: 12rem 0 20.8rem;
+  padding: 4.4rem 0 5.2rem;
 
   display: grid;
   grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
@@ -26,11 +27,23 @@ $breakpoints: (
   padding-left: 2.4rem;
 }
 
+.navigation {
+  color: $color-orange-primary;
+  @include proxima-semi-bold;
+  font-size: 1.8rem;
+}
+
+.arrow {
+  margin-right: 10px;
+  transform: scaleX(-1);
+}
+
 .title {
   max-width: 82rem;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
   margin-bottom: 2.4rem;
+  margin-top: 2.4rem;
 }
 
 .subtitle {

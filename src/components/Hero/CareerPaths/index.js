@@ -5,7 +5,6 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 import { IconArrowRight } from 'Elements/Icons';
-import Breadcrumb from 'Elements/Breadcrumb';
 
 
 const CareerPathsHero = ({ className='' }) => {
