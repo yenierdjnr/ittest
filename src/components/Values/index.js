@@ -3,9 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import logoBDP from 'Images/logo_BDP.png'
-import logoFiserv from 'Images/logo_fiserv.png'
-import logoKinex from 'Images/logo_kinex.png'
+import { IconPeople } from 'Elements/Icons';
 
 
 
@@ -17,37 +15,37 @@ const Values = props => {
       <ul className={ styles.listContainer }>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoBDP } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We exist for our members</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoFiserv } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We exude passion with personality</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoKinex } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We create effective content daily</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoBDP } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We work with honor</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoFiserv } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We willingly face challenges with optimism</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoKinex } alt="" />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We produce excellence through innovation and imagination</Para>
           </div>
         </li>
