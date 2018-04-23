@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import { IconPeople } from 'Elements/Icons';
+import { IconPeople, IconSmiley, IconCalendar, IconBadge, IconMountains, IconLightBulb } from 'Elements/Icons';
 
 
 
@@ -21,31 +21,31 @@ const Values = props => {
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
+            <IconSmiley />
             <Para className={ styles.value } color={ styles.offBlack }>We exude passion with personality</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
+            <IconCalendar />
             <Para className={ styles.value } color={ styles.offBlack }>We create effective content daily</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
+            <IconBadge />
             <Para className={ styles.value } color={ styles.offBlack }>We work with honor</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
+            <IconMountains />
             <Para className={ styles.value } color={ styles.offBlack }>We willingly face challenges with optimism</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
+            <IconLightBulb />
             <Para className={ styles.value } color={ styles.offBlack }>We produce excellence through innovation and imagination</Para>
           </div>
         </li>
