@@ -2,6 +2,7 @@
 
 :export {
   greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
 }
 $breakpoints: (
   'tablet': $tablet,
@@ -43,7 +44,8 @@ $breakpoints: (
 
 .title {
   text-align: center;
-  margin-bottom: 2.4rem;
+  grid-column: 2 / 3;
+  margin: 2rem 0;
 }
 
 
