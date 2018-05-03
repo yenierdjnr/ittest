@@ -18,17 +18,30 @@ $breakpoints: (
   padding: 5,6rem 0 6.8rem;
 }
 
-.accessibilityStyle {
-  list-style-type: circle;
-  grid-column: 2 / 3;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  margin: 2rem;
+.listStyle {
+  list-style-type: none;
+  grid-column: 1;
+  grid-row: 1 / 3;
   @include adelle-sans-regular;
   color: $color-grey-dark;
 }
+
+.listStyleTwo {
+  list-style-type: none;
+  grid-column: 2;
+  grid-row: 1 / 3;
+  @include adelle-sans-regular;
+  color: $color-grey-dark;
+}
+
+.listStyleThree {
+  list-style-type: none;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  @include adelle-sans-regular;
+  color: $color-grey-dark;
+}
+
 
 .content {
   max-width: 1024px;
