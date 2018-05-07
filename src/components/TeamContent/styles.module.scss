@@ -60,12 +60,17 @@ $breakpoints: (
   .container {
     padding: 0 2rem;
   }
-
   .content {
     flex-flow: column nowrap;
     margin: 1rem;
   }
-
+  .listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2 / 3;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
 
 
@@ -76,6 +81,13 @@ $breakpoints: (
   }
   .subtitle {
     font-size: 2.8rem;
+  }
+  .listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2 / 3;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
 
