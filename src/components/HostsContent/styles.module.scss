@@ -3,6 +3,7 @@
 :export {
   greyDark: $color-grey-dark;
   offBlack: $color-offblack;
+  lightGrey: $color-grey-secondary;
 }
 
 $breakpoints: (
@@ -12,28 +13,45 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-img {
- max-width: 200px;
-}
-
 .container {
- grid-column: 2 / 3;
- display: flex;
- flex-flow: row nowrap;
- justify-content: space-between;
- align-items: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding: 5,6rem 0 6.8rem;
+  margin: 2rem 0;
 }
 
-.img {
+.wrapper {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 
+.content {
+  padding: 0 2rem;
 }
 
 .bio {
+  margin: 0.5rem 0;
+}
 
+.headshot {
+  max-width: 75%;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.8rem;
+  padding-top: 4px;
 }
 
 
 @include media('<tablet') {
+
 
 }
 
