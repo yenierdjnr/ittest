@@ -1,0 +1,15 @@
+@import '~Styles/main';
+
+:export {
+  headingColor: $color-offblack;
+  darkGrey: $color-grey-dark;
+  orangePrimary: $color-orange-primary;
+}
+
+
+.summary {
+  max-width: 50rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

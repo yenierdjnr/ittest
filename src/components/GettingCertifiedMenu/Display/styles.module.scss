@@ -4,11 +4,9 @@
 $breakpoints: (
   'lower-tablet': $lower-tablet,
   'lower-phone': $lower-phone,
-  'uppper-mid-phablet': $uppper-mid-phablet
 );
 
 :export {
-  orange: $color-orange-primary;
   size: $lower-tablet;
 }
 
@@ -21,49 +19,19 @@ $breakpoints: (
   background-color: $color-offwhite;
 }
 
-.list {
+.article {
   grid-column: 2 / 3;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
-  grid-column-gap: 4.1rem;
-  grid-row-gap: 3.6rem;
-}
-
-.see-more {
-  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
 }
 
 
 @include media('<lower-tablet') {
   .container {
     padding: 3.2rem 0 3.8rem;
-  }
-
-  .list {
-    grid-row-gap: 1.6rem;
-  }
-
-  .flags {
-    grid-template-columns: minmax(304px, 492px);
-    justify-content: center;
-    padding: 0 1.6rem;
-  }
-}
-
-
-@include media('<uppper-mid-phablet') {
-  .see-more {
-    display: inline-block;
-    padding-top: 2.4rem;
-    text-align: center;
-
-    &.show-more {
-      display: none;
-    }
-  }
-  .see-more-text {
-    text-transform: capitalize;
   }
 }
 
