@@ -93,6 +93,13 @@ const metaData = {
     title: 'ITProTV Hosts',
     description: '',
     canonical: 'https://itpro.tv/hosts/'
+  },
+  '/vlabs/': {
+    page: 'vlabs',
+    path: '/vlabs/',
+    title: 'Virtual Labs | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/vlabs/'
   }
 };
 

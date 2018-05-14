@@ -22,13 +22,14 @@ $breakpoints: (
 
 .wrapper {
   grid-column: 2 / 3;
-  display: flex;
+  display: grid;
   flex-wrap: row nowrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .content {
+  grid-column: 3 / 4;
   padding: 0 2rem;
 }
 
@@ -37,7 +38,7 @@ $breakpoints: (
 }
 
 .headshot {
-  max-width: 75%;
+  width: 200px;
 }
 
 .name {
