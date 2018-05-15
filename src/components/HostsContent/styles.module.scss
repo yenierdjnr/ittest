@@ -8,6 +8,7 @@
 
 $breakpoints: (
   'tablet': $tablet,
+  'phablet': $phablet,
   'upper-phone': $upper-phone,
   'lower-phone': $lower-phone,
   'small-phone': $small-phone
@@ -51,17 +52,15 @@ $breakpoints: (
 }
 
 
-@include media('<tablet') {
-
-
-}
-
-
-@include media('<=upper-phone') {
-
-}
-
-
-@include media('<=small-phone') {
-
+@include media('<phablet') {
+  .wrapper {
+    display: inline;
+  }
+  .headshot {
+    display: block;
+    margin: auto;
+  }
+  .name {
+    text-align: center;
+  }
 }
