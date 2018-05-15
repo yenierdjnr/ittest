@@ -13,7 +13,7 @@ class Display extends Component {
         <div className={ styles.article }>
           {
             resources.map((resource, i) => {
-              return <Resource key={ i } title={ resource.title } url={ resource.url } />;
+              return <Resource key={ i } title={ resource.title } description={ resource.description } url={ resource.url } />;
             })
           }
         </div>

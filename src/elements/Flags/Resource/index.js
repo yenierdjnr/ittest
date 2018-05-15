@@ -11,7 +11,7 @@ const Resource = ({ className='', title, description, url }) => {
     <div>
       <Hx color={ styles.headingColor } size="6">{ title }</Hx>
       <Para color={ styles.darkGrey } className={ styles.summary }>{ description }</Para>
-      <TextLinkExternal to={url}>Read more</TextLinkExternal>
+      <TextLinkExternal className={ styles.more } to={url}>Read more</TextLinkExternal>
     </div>
   );
 };
