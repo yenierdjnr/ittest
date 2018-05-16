@@ -3,11 +3,11 @@ import Link from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import { IconArrowRight } from 'Elements/Icons';
 import styles from './styles.module.scss';
+import { IconArrowRight } from 'Elements/Icons';
 
 
-const GettingCertifiedHero = ({ className='' }) => {
+const ITResourcesHero = ({ className='' }) => {
   return (
     <section className={ styles.container }>
       <div className={ styles['intro'] }>
@@ -15,12 +15,12 @@ const GettingCertifiedHero = ({ className='' }) => {
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
           Career Resources
         </Link>
-        <Hx size="1" className={ styles['title'] }>Getting Certified</Hx>
-        <Para className={ styles['subtitle'] }>Taking the first steps to earning IT certifications is easy with ITProTV. Click a specialization below to explore certification resources and suggested course paths.</Para>
+        <Hx size="1" className={ styles['title'] }>IT Resources</Hx>
+        <Para className={ styles['subtitle'] }>Taking the first steps to earning IT certifications is easy with ITProTV.</Para>
       </div>
     </section>
   );
 };
 
 
-export default GettingCertifiedHero;
+export default ITResourcesHero;

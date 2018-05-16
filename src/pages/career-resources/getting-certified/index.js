@@ -2,10 +2,10 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import { GettingCertifiedHero as Hero } from 'Components/Hero';
-import GettingCertifiedMenu from 'Components/GettingCertifiedMenu';
+import GettingCertified from 'Components/GettingCertified';
 import styles from './gettingCertified.module.scss';
 
-const gettingCertified = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const gettingCertifiedPage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
       <Head location={ location } />
@@ -15,7 +15,7 @@ const gettingCertified = ({ data, history, location, match, page, pageResources,
         </section>
 
         <section className={ styles.Info }>
-          <GettingCertifiedMenu getCertified={ data.getCertified.edges.map(edge => edge.node) } />
+          <GettingCertified getCertified={ data.getCertified.edges.map(edge => edge.node) } />
         </section>
 
       </main>
@@ -23,7 +23,7 @@ const gettingCertified = ({ data, history, location, match, page, pageResources,
   );
 }
 
-export default gettingCertified;
+export default gettingCertifiedPage;
 
 export const query = graphql`
   query GettingCertifiedQuery {

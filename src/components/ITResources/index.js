@@ -5,7 +5,7 @@ import Display from './Display';
 import styles from './styles.module.scss';
 
 
-class GettingCertifiedMenu extends PureComponent {
+class ITResources extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -24,20 +24,20 @@ class GettingCertifiedMenu extends PureComponent {
   }
 
   render() {
-    const { getCertified } = this.props;
+    const { itResources } = this.props;
     const { categoryIndex } = this.state;
 
     return (
       <Fragment>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ getCertified.map(cert => cert.certcategory) }
+          categories={ itResources.map(itresource => itresource.itresourcecategory) }
           onChange={ this.handleMenuChange }
         />
-      <Display resources={ getCertified[categoryIndex].resources } />
+      <Display resources={ itResources[categoryIndex].resources } />
       </Fragment>
     )
   }
 }
 
-export default GettingCertifiedMenu;
+export default ITResources;
