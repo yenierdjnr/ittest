@@ -4,3 +4,4 @@ export { default as Episode } from './Episode';
 export { default as CareerPath } from './CareerPath';
 export { default as CareerPathCourses } from './CareerPathCourses';
 export { default as Resource } from './Resource';
+export { default as Labs } from './Labs';
