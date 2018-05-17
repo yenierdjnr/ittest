@@ -20,6 +20,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Cybersecurity</Hx>
+        <Para className={ styles['subtitle'] }>Explore this high-demand career path that's vital in every industry every where.</Para>
       </div>
     </section>
 

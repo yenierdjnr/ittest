@@ -16,7 +16,7 @@ const ITResourcesHero = ({ className='' }) => {
           Career Resources
         </Link>
         <Hx size="1" className={ styles['title'] }>IT Resources</Hx>
-        <Para className={ styles['subtitle'] }>Taking the first steps to earning IT certifications is easy with ITProTV.</Para>
+        <Para className={ styles['subtitle'] }>Use these resources to jumpstart your IT career or grow your IT team’s skills</Para>
       </div>
     </section>
   );

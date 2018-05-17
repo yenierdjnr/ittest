@@ -20,6 +20,7 @@ const CloudTechnologyPath = ({ data, recommendedCourses, additionalCourses, ...r
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Cloud Technology</Hx>
+        <Para className={ styles['subtitle'] }>Choose from vendor-specific or neutral paths to being a cloud pro.</Para>
       </div>
     </section>
 

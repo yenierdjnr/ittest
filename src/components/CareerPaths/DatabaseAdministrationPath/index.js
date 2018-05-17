@@ -20,6 +20,7 @@ const DatabaseAdministrationPath = ({ data, recommendedCourses, additionalCourse
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Database Administration</Hx>
+        <Para className={ styles['subtitle'] }>DBAs are in high-demand. Get the foundation for any database admin career with this path.</Para>
       </div>
     </section>
 

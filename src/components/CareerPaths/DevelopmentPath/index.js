@@ -20,6 +20,7 @@ const DevelopmentPath = ({ data, recommendedCourses, additionalCourses, ...rest 
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Development</Hx>
+        <Para className={ styles['subtitle'] }>Explore HTML, CSS, Python, JavaScript, Docker &amp; more.</Para>
       </div>
     </section>
 
