@@ -60,11 +60,10 @@ $breakpoints: (
   }
 
   .item {
-    width: 11.4rem;
     justify-content: center;
 
     &:not(:last-child) {
-      margin-right: 0;
+      margin-right: 3rem;
     }
 
     & span {
