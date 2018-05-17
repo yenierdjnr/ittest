@@ -9,7 +9,7 @@ const Labs = ({ className='', name }) => {
 
   return (
     <div>
-      <Hx color={ styles.headingColor } size="6">{ name }</Hx>
+      <Hx className={ styles.title } color={ styles.headingColor } size="6">{ name }</Hx>
     </div>
   );
 };

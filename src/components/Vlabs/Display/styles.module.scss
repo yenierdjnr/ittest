@@ -8,24 +8,23 @@ $breakpoints: (
 
 :export {
   size: $lower-tablet;
+  greyDark: $color-grey-dark;
 }
 
 .container {
-  padding: 7.2rem 0 8.4rem;
+  padding: 2rem 0 8.4rem;
 
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 
-  background-color: $color-offwhite;
 }
 
-.article {
+.article, .info {
   grid-column: 2 / 3;
-
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
   grid-column-gap: 4rem;
   grid-row-gap: 1.6rem;
+  margin: 1rem 0;
 }
 
 
