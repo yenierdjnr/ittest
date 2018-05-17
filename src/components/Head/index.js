@@ -142,6 +142,13 @@ const metaData = {
     title: 'Virtualization Technology Jobs & IT Courses | ITProTV',
     description: 'Get started with a career in virtualization technology, explore IT certifications from Microsoft, VMWare, CompTIA & more and learn with ITProTV.',
     canonical: 'https://itpro.tv/career-resources/career-paths/virtualization-technology/'
+  },
+  '/vlabs/': {
+    page: 'vlabs',
+    path: '/vlabs/',
+    title: 'Virtual Practice Lab Environments for ITProTV Members',
+    description: '',
+    canonical: 'https://itpro.tv/vlabs/'
   }
 };
 
