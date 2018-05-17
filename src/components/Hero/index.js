@@ -9,3 +9,4 @@ export { default as CareerResourcesHero } from './CareerResources';
 export { default as CareerPathsHero } from './CareerPaths';
 export { default as GettingCertifiedHero } from './GettingCertified';
 export { default as ITResourcesHero } from './ITResources';
+export { default as VirtualLabsHero } from './VirtualLabs';

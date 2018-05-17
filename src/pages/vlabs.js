@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { CoursesHero as Hero } from 'Components/Hero';
+import { VirtualLabsHero as Hero } from 'Components/Hero';
 import styles from './courses.module.scss';
 
 
