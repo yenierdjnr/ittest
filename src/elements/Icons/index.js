@@ -23,3 +23,8 @@ export { default as IconCertificate } from './certificate';
 export { default as IconLgBuilding } from './lg-building';
 export { default as IconSmBuilding } from './sm-building';
 export { default as IconBooks } from './books';
+export { default as IconSmiley } from './smiley';
+export { default as IconCalendar } from './calendar';
+export { default as IconBadge } from './badge';
+export { default as IconMountains } from './mountains';
+export { default as IconLightBulb } from './lightbulb';
