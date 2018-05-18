@@ -3,13 +3,15 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'upper-phone': $upper-phone
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone
 );
 
 .container {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   background-color: $color-offblack;
+  padding-left: 2.4rem;
 }
 
 .list {
@@ -80,7 +82,26 @@ $breakpoints: (
   }
 
   .item {
-    width: 9.4rem;
+    width: 9.2rem;
     justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+
+    & span {
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+    }
+  }
+}
+
+@include media('<=lower-phone') {
+
+  .item {
+    width: 7rem;
+  }
+  &:not(:last-child) {
+    margin-right: .5rem;
   }
 }
