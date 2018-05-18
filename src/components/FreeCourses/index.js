@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Hx from'Elements/Hx';
-import Para from'Elements/Para';
+import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
 import { Episode } from 'Elements/Flags';
 import styles from './styles.module.scss';

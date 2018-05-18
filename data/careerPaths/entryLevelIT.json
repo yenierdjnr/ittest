@@ -1,0 +1,82 @@
+{
+  "name": "Entry Level IT",
+	"url": "entry-level-it",
+  "recommended": {
+    "courses": [
+      {
+        "id": "55ef41528fe1ff0700cad7a4",
+  			"name": "A+ 900 Series",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "a1",
+        "level": "Novice"
+      },
+      {
+        "id": "59a0276e93c3030b00cb40cf",
+  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "accelerated-a-220901-220902",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000011",
+  			"name": "IT Fundamentals",
+  			"subtitle": "IT Fundamentals",
+  			"url": "fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000010",
+  			"name": "MTA - Windows Operating System Fundamentals -  98-349",
+  			"subtitle": "Windows Operating System Fundamentals",
+        "url": "mta",
+        "level": "Novice"
+      },
+      {
+        "id": "55f7130840b40607007d2391",
+  			"name": "MTA - Mobility and Devices Fundamentals - 98-368",
+  			"subtitle": "Mobility and Devices Fundamentals",
+  			"url": "mta-mobility-devices-fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "560b381721416f07000ba342",
+  			"name": "MTA - Server Fundamentals - 98-365",
+  			"subtitle": "Windows Server Administration Fundamentals",
+  			"url": "mta-server1",
+        "level": "Novice"
+      },
+      {
+        "id": "5627d10e20e07507008aec79",
+  			"name": "MTA - Security Fundamentals - 98-367",
+  			"subtitle": "Security Fundamentals",
+  			"url": "mta2",
+        "level": "Novice"
+      },
+      {
+        "id": "56955a1b8c4e170700ed0a9e",
+  			"name": "MTA - Cloud Fundamentals - 98-369",
+  			"subtitle": "Cloud Fundamentals",
+  			"url": "mta-cloud-fundamentals-98369",
+        "level": "Novice"
+      }
+    ]
+  },
+  "additional": {
+    "courses": [
+      {
+        "id": "58f92e402634860b009088c1",
+  			"name": "End User Security Awareness",
+  			"subtitle": "Best Security Practices for the End User",
+  			"url": "user-security-awareness",
+        "level": "Novice"
+      },
+      {
+        "id": "59417908ca44310b007ee740",
+  			"name": "Linux for Beginners",
+  			"subtitle": "Getting started in Linux for new users",
+  			"url": "linuxbeginners",
+        "level": "Novice"
+      }
+    ]
+  }
+}

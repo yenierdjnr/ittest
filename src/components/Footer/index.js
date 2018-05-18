@@ -25,13 +25,13 @@ const Footer = () => {
                 <a href="/team/">team</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">plan & pricing</a>
+                <a href="/plans/">plans & pricing</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">getting started</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">career resources</a>
+                <a href="/career-resources/">career resources</a>
               </li>
             </ul>
           </nav>
@@ -45,14 +45,14 @@ const Footer = () => {
                   <a href="/accessibility/">accessibility</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">FAQ</a>
+                  <a href="https://help.itpro.tv/" target="_blank">FAQ</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">Q&A</a>
+                  <a href="https://forums.itpro.tv/" target="_blank">Q&A</a>
                 </li>
-                <li className={ styles['page-footer__menu-item'] }>
+                {/*}<li className={ styles['page-footer__menu-item'] }>
                   <a href="#">blog</a>
-                </li>
+                </li>*/}
                 <li className={ styles['page-footer__menu-item'] }>
                   <a href="/government/">government</a>
                 </li>

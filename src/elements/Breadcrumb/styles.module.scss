@@ -1,0 +1,41 @@
+@import '~Styles/main';
+
+
+:export {
+  hoverDarkOrange: $color-orange-dark;
+  primaryOrange: $color-orange-primary;
+}
+
+
+.title {
+  margin-left: 8px;
+
+  @include adelle-sans-bold;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+}
+
+.text-link-orange {
+  display: inline-flex;
+  align-items: center;
+
+  & span {
+    color: $color-orange-primary;
+  }
+
+  &:hover {
+    & span {
+      color: $color-orange-dark;
+    }
+
+    & svg {
+      & path {
+        fill: $color-orange-dark;
+      }
+    }
+  }
+}
+
+.icon.hide {
+  display: none;
+}

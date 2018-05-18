@@ -1,0 +1,332 @@
+{
+  "name": "Cybersecurity",
+	"url": "cybersecurity",
+  "recommended":
+  {
+    "courses": [
+      {
+        "id": "55ef41528fe1ff0700cad7a4",
+  			"name": "A+ 900 Series",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "a1",
+        "level": "Novice"
+      },
+      {
+        "id": "59a0276e93c3030b00cb40cf",
+  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"url": "accelerated-a-220901-220902",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000011",
+  			"name": "IT Fundamentals",
+  			"subtitle": "IT Fundamentals",
+  			"url": "fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "561538df0051eb0700b1f471",
+  			"name": "MTA - Networking Fundamentals - 98-366",
+  			"subtitle": "Networking Fundamentals",
+  			"url": "mta1",
+        "level": "Novice"
+      },
+      {
+        "id": "560b381721416f07000ba342",
+  			"name": "MTA - Server Fundamentals - 98-365",
+  			"subtitle": "Windows Server Administration Fundamentals",
+  			"url": "mta-server1",
+        "level": "Novice"
+      },
+      {
+        "id": "5627d10e20e07507008aec79",
+        "name": "MTA - Security Fundamentals - 98-367",
+        "subtitle": "Security Fundamentals",
+        "url": "mta2",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae108051570000022",
+  			"name": "CCENT",
+  			"subtitle": "Cisco Certified Entry Networking Technician",
+  			"url": "ccent",
+        "level": "Novice"
+      },
+      {
+        "id": "58ab1f705608cd0b00f71f70",
+        "name": "Cybersecurity Analyst (CySA+)",
+        "subtitle": "Vender-neutral cybersecurity knowledge and skills",
+        "url": "cybersecurity-analyst-csa",
+        "level": "Intermediate"
+      },
+      {
+        "id": "54c2920ae10805157000001a",
+  			"name": "Security+",
+  			"subtitle": "Vendor-neutral IT Security",
+  			"url": "security",
+        "level": "Intermediate"
+      },
+      {
+        "id": "588613d026e3e51500130194",
+  			"name": "Network+ 2016",
+  			"subtitle": "Vendor-neutral networking",
+  			"url": "network-2016",
+        "level": "Intermediate"
+      },
+      {
+        "id": "58c69c02ca49530b0068eff1",
+        "name": "ECES",
+        "subtitle": "EC-Council Certified Encryption Specialist",
+        "url": "eces",
+        "level": "Intermediate"
+      },
+      {
+        "id": "576049e75f26ce0700591308",
+        "name": "CEH v9",
+        "subtitle": "Certified Ethical Hacker",
+        "url": "ceh-v9",
+        "level": "Intermediate"
+      },
+      {
+        "id": "592d6fd0356f770b00da6284",
+        "name": "CHFI v9",
+        "subtitle": "Computer Hacking Forensic Investigator",
+        "url": "chfi-v9",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5565fd12c22d6c070011891e",
+  			"name": "Linux+",
+  			"subtitle": "Powered by LPI",
+  			"url": "linux1",
+        "level": "Intermediate"
+      },
+      {
+        "id": "54c2920ae108051570000023",
+  			"name": "CCNA Routing and Switching",
+  			"subtitle": "Cisco Certified Network Associate",
+  			"url": "ccna-routing-switching",
+        "level": "Intermediate"
+      },
+      {
+        "id": "54c2920ae108051570000024",
+  			"name": "CCNA Security 640-554",
+  			"subtitle": "Cisco Certified Network Associate Security",
+  			"url": "ccna-security",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5841cd4347a84a0b00ca08f9",
+  			"name": "GSEC",
+  			"subtitle": "GIAC Security Essentials",
+  			"url": "gsec",
+        "level": "Intermediate"
+      },
+      {
+        "id": "56e97ade5bb9380700db7f28",
+  			"name": "CompTIA Advanced Security Practitioner (2016)",
+  			"subtitle": "CASP",
+  			"url": "comptia-advanced-security-practitioner-2016",
+        "level": "Advanced"
+      },
+      {
+        "id": "571e213d1bd273070078c411",
+  			"name": "CISA",
+  			"subtitle": "Certified Information Systems Auditor",
+  			"url": "cisa",
+        "level": "Advanced"
+      },
+      {
+        "id": "5873a1095733a60b003917a8",
+  			"name": "CyberSec First Responder",
+  			"subtitle": "Logical Operations",
+  			"url": "cybersecurityresponder",
+        "level": "Advanced"
+      },
+      {
+        "id": "587d2a4952d4833d00a32bf0",
+  			"name": "CCNA Cyber Ops (210-250 SECFND)",
+  			"subtitle": "Cisco Cybersecurity Fundamentals",
+  			"url": "ccna-cyber-ops",
+        "level": "Advanced"
+      },
+      {
+        "id": "54c2920ae108051570000026",
+  			"name": "Systems Security Certified Practitioner",
+  			"subtitle": "SSCP",
+  			"url": "systems-security-certified-practitioner",
+        "level": "Advanced"
+      },
+      {
+        "id": "57a0c0184b7fc50700f25e45",
+  			"name": "CISM",
+  			"subtitle": "Certified Information Security Manager",
+  			"url": "cism",
+        "level": "Expert"
+      },
+      {
+        "id": "54c2920ae108051570000027",
+  			"name": "Certified Information Systems Security Professional",
+  			"subtitle": "CISSP",
+  			"url": "certified-information-systems-security-professional",
+        "level": "Expert"
+      },
+      {
+        "id": "55f2d875eedbfe0700a75fa7",
+  			"name": "Certified Cloud Security Professional",
+  			"subtitle": "CCSP",
+  			"url": "certified-cloud-security-professional",
+        "level": "Expert"
+      }
+    ]
+  },
+  "supporting": {
+    "courses": [
+      {
+        "id": "584eb5cbd78a9b0b00171627",
+        "name": "Lean Six Sigma - Green Belt",
+        "subtitle": "Green Belt",
+        "url": "lean-six-sigma3",
+        "level": "Novice"
+      },
+      {
+        "id": "5853fb990a9ee11500e4018b",
+  			"name": "Lean Agile Project Management",
+  			"subtitle": "Project Management",
+  			"url": "lean-agile-project-management",
+        "level": "Novice"
+      },
+      {
+        "id": "57b330baa0f12c070082067e",
+  			"name": "Accredited ITIL Foundation",
+  			"subtitle": "Foundation",
+  			"url": "itil-foundation-2016",
+        "level": "Novice"
+      },
+      {
+        "id": "56428ca1f36b7107002ef28f",
+  			"name": "Lean Six Sigma - Yellow Belt",
+  			"subtitle": "Yellow Belt",
+  			"url": "lean-six-sigma2",
+        "level": "Intermediate"
+      },
+      {
+        "id": "54c2920ae108051570000028",
+  			"name": "Project Management Professional",
+  			"subtitle": "Project Management Certification",
+  			"url": "project-management-professional",
+        "level": "Advanced"
+      }
+    ]
+  },
+  "additional": {
+    "courses": [
+      {
+        "id": "556c59792ef1300700f1b049",
+        "name": "Security Fundamentals",
+        "subtitle": "Core security concepts",
+        "url": "security-fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "56547ea648bd080700aa283d",
+  			"name": "AntiVirus / AntiMalware",
+  			"subtitle": "Detection and solutions",
+  			"url": "antivirus-antimalware",
+        "level": "Novice"
+      },
+      {
+        "id": "54fd95e1e974a00700572e58",
+  			"name": "Email Encryption",
+  			"subtitle": "with OpenPGP",
+  			"url": "email-encryption",
+        "level": "Novice"
+      },
+      {
+        "id": "56fc18fc1164a50700f0026f",
+  			"name": "Eliminating Malware",
+  			"subtitle": "Tools and Techniques for Malware Removal/Prevention",
+  			"url": "eliminating-malware",
+        "level": "Novice"
+      },
+      {
+        "id": "58f92e402634860b009088c1",
+  			"name": "End User Security Awareness",
+  			"subtitle": "Best Security Practices for the End User",
+  			"url": "user-security-awareness",
+        "level": "Novice"
+      },
+      {
+        "id": "5991a739c92a740b00d15e67",
+  			"name": "Linux Security Techniques",
+  			"subtitle": "Security features found in modern Linux distributions",
+  			"url": "linux-security-techniques",
+        "level": "Novice"
+      },
+      {
+        "id": "59480ea67e53c50b000096ad",
+  			"name": "Security Tech Skills (2017)",
+  			"subtitle": "Commonly used penetration tools",
+  			"url": "security-tech-skills-2017",
+        "level": "Intermediate"
+      },
+      {
+        "id": "55416830ff30370700f483fb",
+  			"name": "Digital Forensic Investigator",
+  			"subtitle": "Information retrieval and protection",
+  			"url": "digital-forensic-investigator",
+        "level": "Intermediate"
+      },
+      {
+        "id": "59832da13d51450b00974c76",
+  			"name": "Python for Security",
+  			"subtitle": "Being Sneaky with Python",
+  			"url": "pythonsecurity",
+        "level": "Intermediate"
+      },
+      {
+        "id": "58e3aef4bf43b60b00252821",
+  			"name": "Mobile Security",
+  			"subtitle": "Mobile device risks and mitigation",
+  			"url": "mobile-security",
+        "level": "Intermediate"
+      },
+      {
+        "id": "588f62d66c75670b004193b3",
+  			"name": "Penetration Testing",
+  			"subtitle": "Tools and techniques for verifying security integrity",
+  			"url": "penetration-testing",
+        "level": "Advanced"
+      },
+      {
+        "id": "55d328b10edbae070056bc7c",
+  			"name": "Pentesting Tools",
+  			"subtitle": "Tools for the Pentester",
+  			"url": "pentesting-tools",
+        "level": "Advanced"
+      },
+      {
+        "id": "555262223b0252070003bb05",
+  			"name": "Cryptography",
+  			"subtitle": "An in-depth look into cryptography concepts",
+  			"url": "cryptography",
+        "level": "Advanced"
+      },
+      {
+        "id": "559d6ce0720f740700efb766",
+  			"name": "Metasploit",
+  			"subtitle": "Configuration of Metasploit",
+  			"url": "metasploit",
+        "level": "Advanced"
+      },
+      {
+        "id": "595e95bdf7842c0b00109825",
+  			"name": "Kali Linux (2017)",
+  			"subtitle": "Configuration of Kali Linux",
+  			"url": "kali-linux-2017",
+        "level": "Advanced"
+      }
+    ]
+  }
+}

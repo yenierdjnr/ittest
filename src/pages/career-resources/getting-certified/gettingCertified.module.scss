@@ -1,0 +1,22 @@
+@import '~Styles/main';
+
+
+.Career {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  height: 400px;
+  overflow: hidden;
+}
+
+.Info {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}

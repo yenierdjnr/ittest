@@ -1,0 +1,195 @@
+{
+  "name": "Cloud Technology",
+	"url": "cloud-technology",
+  "recommended":
+  {
+    "courses": [
+      {
+        "id": "54c2920ae108051570000011",
+  			"name": "IT Fundamentals",
+  			"subtitle": "IT Fundamentals",
+  			"url": "fundamentals",
+        "level": "Novice"
+      },
+      {
+        "id": "588613d026e3e51500130194",
+  			"name": "Network+ 2016",
+  			"subtitle": "Vendor-neutral networking",
+  			"url": "network-2016",
+        "level": "Novice"
+      },
+      {
+        "id": "56955a1b8c4e170700ed0a9e",
+  			"name": "MTA - Cloud Fundamentals - 98-369",
+  			"subtitle": "Cloud Fundamentals",
+  			"url": "mta-cloud-fundamentals-98369",
+        "level": "Novice"
+      },
+      {
+        "id": "56ba1040fd50ac0700868ccd",
+  			"name": "Cloud+",
+  			"subtitle": "Vendor-neutral cloud management",
+  			"url": "cloud",
+        "level": "Intermediate"
+      },
+      {
+        "id": "58b439c75588670b004f3606",
+  			"name": "AWS Certified Solutions Architect - Associate",
+  			"subtitle": "Designing distributed applications on AWS platform",
+  			"url": "aws-certified-solutions-architect-associate",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5655ce94db802307006ff10e",
+  			"name": "AWS Certified SysOps Administrator",
+  			"subtitle": "ACSA",
+  			"url": "aws-certified-sysops-administrator",
+        "level": "Intermediate"
+      },
+      {
+        "id": "57b2244064e4070700871556",
+  			"name": "MCSA Windows Server 2016 - 70-740",
+  			"subtitle": "Installation, Storage, and Compute with Windows Server 2016",
+  			"url": "mcsa-windows-server-2016-70740",
+        "level": "Intermediate"
+      },
+      {
+        "id": "582b183da385f829006bc7d7",
+  			"name": "MCSA Windows Server 2016 - 70-741",
+  			"subtitle": "Networking with Windows Server 2016",
+  			"url": "mcsa-windows-server-2016-70741",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5989b83cfcb6d30b00dbbc39",
+  			"name": "MCSA Windows Server 2016 - 70-742",
+  			"subtitle": "Identity with Windows Server 2016",
+  			"url": "mcsa-windows-server-2016-70742",
+        "level": "Intermediate"
+      },
+      {
+        "id": "54c2920ae10805157000001f",
+  			"name": "MCSE Windows Server 2012 - 70-413",
+  			"subtitle": "Designing and Implementing a Server Infrastructure",
+  			"url": "mcse-windows-server-2012",
+        "level": "Advanced"
+      },
+      {
+        "id": "54c2920ae108051570000020",
+  			"name": "MCSE Windows Server 2012 - 70-414",
+  			"subtitle": "Implementing an Advanced Server Infrastructure",
+  			"url": "mcse-windows-server-2013",
+        "level": "Advanced"
+      },
+      {
+        "id": "59b96f9b98f7290c00319bc8",
+  			"name": "MCSE Windows Server 2016 - 70-744",
+  			"subtitle": "Securing Windows Server 2016",
+  			"url": "mcse-windows-server-2016-70744",
+        "level": "Advanced"
+      },
+      {
+        "id": "583c41de0ff4de0b002df689",
+  			"name": "MCSE Private Cloud - 70-246",
+  			"subtitle": "Monitoring and Operating a Private Cloud",
+  			"url": "mcse-private-cloud-70246",
+        "level": "Advanced"
+      },
+      {
+        "id": "59073c3c1ed5080b00defb69",
+  			"name": "MCSE Private Cloud - 70-247",
+  			"subtitle": "Configuring and Deploying a Private Cloud",
+  			"url": "mcse-private-cloud-70247",
+        "level": "Advanced"
+      },
+      {
+        "id": "55f2d875eedbfe0700a75fa7",
+  			"name": "Certified Cloud Security Professional",
+  			"subtitle": "CCSP",
+  			"url": "certified-cloud-security-professional",
+        "level": "Expert"
+      }
+    ]
+  },
+  "additional": {
+    "courses": [
+      {
+        "id": "5665b1c3315ef10700283633",
+  			"name": "Virtualization Technologies",
+  			"subtitle": "Fundamentals of Virtualization",
+  			"url": "virtualization",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae10805157000002e",
+  			"name": "Google Apps for Work",
+  			"subtitle": "Certified Administrator",
+  			"url": "google-apps",
+        "level": "Novice"
+      },
+      {
+  			"id": "54c2920ae108051570000030",
+  			"name": "PowerShell",
+  			"subtitle": "for Administrators",
+  			"url": "powershell",
+        "level": "Novice"
+      },
+      {
+        "id": "591f53ca66f7510b00e3d25a",
+  			"name": "Windows Server 101",
+  			"subtitle": "Introduction to Windows Server",
+  			"url": "server-101",
+        "level": "Novice"
+      },
+      {
+        "id": "58f92e402634860b009088c1",
+  			"name": "End User Security Awareness",
+  			"subtitle": "Best Security Practices for the End User",
+  			"url": "user-security-awareness",
+        "level": "Novice"
+      },
+      {
+        "id": "59a03b8693c3030b00cb42a5",
+  			"name": "Linux in the Cloud",
+  			"subtitle": "Configuring Linux in a cloud environment",
+  			"url": "linuxthe-cloud",
+        "level": "Novice"
+      },
+      {
+        "id": "54c2920ae10805157000002f",
+  			"name": "Amazon Web Services",
+  			"subtitle": "Web Services",
+  			"url": "amazon-web-services",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5642b60dad23fd1700592302",
+  			"name": "Working with Active Directory",
+  			"subtitle": "Deploy and maintain Active Directory",
+  			"url": "active-directory",
+        "level": "Intermediate"
+      },
+      {
+        "id": "5644a12c6cd4790f0025e593",
+  			"name": "Working with Group Policy",
+  			"subtitle": "Group Policy",
+  			"hidden": false,
+        "level": "Intermediate"
+      },
+      {
+        "id": "556c4cff2ef1300700f1b033",
+  			"name": "Cloud Fundamentals",
+  			"subtitle": "Introduction to cloud computing",
+  			"url": "cloud-fundamentals",
+        "level": "Advanced"
+      },
+      {
+        "id": "56ba0ae4b01608070008949c",
+  			"name": "Active Directory in Azure",
+  			"subtitle": "Cloud based directory and identity management",
+  			"url": "active-directory-azure",
+        "level": "Advanced"
+      }
+    ]
+  }
+}
