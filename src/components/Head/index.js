@@ -46,12 +46,21 @@ const metaData = {
     description: 'Learn IT and get IT certifications. Easy to understand IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: 'https://itpro.tv/for-you/'
   },
+<<<<<<< HEAD
   '/accessibility/': {
     page: 'accessibility',
     path: '/accessibility/',
     title: 'Accessibility | ITProTV makes usability easy',
     description: '',
     canonical: 'https://itpro.tv/accessibility/'
+=======
+  '/thankyou-demo/': {
+    page: 'thankyouDemo',
+    path: '/thankyou-demo/',
+    title: 'Thank You | ITPro.TV',
+    description: '',
+    canonical: 'https://itpro.tv/thankyou-demo/'
+>>>>>>> 6a190c345d2a5a990ea2f247dfb79438b495f728
   }
 };
 
@@ -102,8 +111,12 @@ class Head extends Component {
         <meta property="twitter:image" url="https://itprotv-image-bucket.s3.amazonaws.com/site/2015/ITProTV-Open-Graph-Image.jpg" />
         {/*<!-- Twitter Tags End -->*/}
 
+<<<<<<< HEAD
 
         <link rel="stylesheet" href="https://use.typekit.net/lju1geg.css" />
+=======
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
+>>>>>>> 6a190c345d2a5a990ea2f247dfb79438b495f728
         <link rel="canonical" href={ canonical } />
 
         {location.pathname === '/'
