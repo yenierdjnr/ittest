@@ -13,3 +13,5 @@ export { default as Team } from './Team';
 export { default as Contact } from './Contact';
 export { default as Government } from './Government';
 export { default as PracticeTests } from './PracticeTests';
+export { default as Hosts } from './Hosts';
+export { default as vLabs } from './vLabs';

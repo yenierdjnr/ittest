@@ -101,6 +101,20 @@ const metaData = {
     title: 'Practice Tests | ITProTV',
     description: '',
     canonical: 'https://itpro.tv/practice-tests/'
+  },
+  '/hosts/': {
+    page: 'hosts',
+    path: '/hosts/',
+    title: 'ITProTV Hosts',
+    description: '',
+    canonical: 'https://itpro.tv/hosts/'
+  },
+  '/vlabs/': {
+    page: 'vlabs',
+    path: '/vlabs/',
+    title: 'Virtual Labs | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/vlabs/'
   }
 };
 
