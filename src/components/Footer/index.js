@@ -36,7 +36,7 @@ const Footer = () => {
                   <a href="#">terms & privacy</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">accessibility</a>
+                  <a href="/accessibility/">accessibility</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
                   <a href="#">FAQ</a>
