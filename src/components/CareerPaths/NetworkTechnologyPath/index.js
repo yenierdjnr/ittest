@@ -20,6 +20,7 @@ const NetworkTechnologyPath = ({ data, recommendedCourses, additionalCourses, ..
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Network Technology</Hx>
+        <Para className={ styles['subtitle'] }>Explore the vendors and paths that you can choose from as a network pro.</Para>
       </div>
     </section>
 

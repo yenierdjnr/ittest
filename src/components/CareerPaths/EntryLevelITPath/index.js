@@ -20,6 +20,7 @@ const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Entry Level IT</Hx>
+        <Para className={ styles['subtitle'] }>Explore the foundation and recommended courses &amp; certs to launch a career in IT.</Para>
       </div>
     </section>
 

@@ -6,6 +6,26 @@
   orangePrimary: $color-orange-primary;
 }
 
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+);
+
+a {
+  color: $color-offblack;
+}
+
+.content {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: auto, auto;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  grid-gap: 1rem;
+}
+
+.img {
+  max-width: 150px;
+}
 
 .summary {
   max-width: 50rem;
@@ -16,4 +36,11 @@
 
 .more {
   padding-bottom: 2.4rem;
+  padding-top: .5rem;
+}
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 0 21px;
+  }
 }

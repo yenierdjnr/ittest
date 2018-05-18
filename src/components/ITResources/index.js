@@ -28,7 +28,7 @@ class ITResources extends PureComponent {
     const { categoryIndex } = this.state;
 
     return (
-      <Fragment>
+      <Fragment className={ styles.container }>
         <Menu
           activeCategory={ categoryIndex }
           categories={ itResources.map(itresource => itresource.itresourcecategory) }

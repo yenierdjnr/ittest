@@ -20,6 +20,7 @@ const VirtualizationTechnologyPath = ({ data, recommendedCourses, additionalCour
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Virtualization Technology</Hx>
+        <Para className={ styles['subtitle'] }>Whether a dev, admin or engineer, you'll be an asset to any organization with virtualization skills.</Para>
       </div>
     </section>
 

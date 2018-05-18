@@ -20,6 +20,7 @@ const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Systems Administration</Hx>
+        <Para className={ styles['subtitle'] }>Get started or advance as a system admin with these key courses that lead to certs.</Para>
       </div>
     </section>
 

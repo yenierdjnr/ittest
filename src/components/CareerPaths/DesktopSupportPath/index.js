@@ -20,6 +20,7 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>Desktop Support</Hx>
+        <Para className={ styles['subtitle'] }>A key part of every IT team is the desktop support team. Understand the basics here.</Para>
       </div>
     </section>
 

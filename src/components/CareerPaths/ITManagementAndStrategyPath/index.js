@@ -20,6 +20,7 @@ const ITManagementAndStrategyPath = ({ data, recommendedCourses, additionalCours
           Career Paths
         </Link>
         <Hx size="1" className={ styles['title'] }>IT Management and Strategy</Hx>
+        <Para className={ styles['subtitle'] }>Explore the specialized training for project management in IT that's in high demand.</Para>
       </div>
     </section>
 
