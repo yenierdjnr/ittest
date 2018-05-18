@@ -1,0 +1,30 @@
+@import '~Styles/main';
+
+
+.government {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.GovernmentContent {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+}
+
+.GsaCourses {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+
+.GsaSchedule {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}

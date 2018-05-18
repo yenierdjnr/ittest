@@ -66,6 +66,34 @@ const metaData = {
     title: 'EULA | ITProTV',
     description: '',
     canonical: 'https://itpro.tv/eula/'
+  },
+  '/about/': {
+    page: 'about',
+    path: '/about/',
+    title: 'About | ITProTV creates engaging learning',
+    description: '',
+    canonical: 'https://itpro.tv/about/'
+  },
+  '/team/': {
+    page: 'team',
+    path: '/team/',
+    title: 'ITProTV Team',
+    description: '',
+    canonical: 'https://itpro.tv/team/'
+  },
+  '/contact/': {
+    page: 'contact',
+    path: '/contact/',
+    title: 'Contact | ITProTV',
+    description: '',
+    canonical: 'https://itpro.tv/contact/'
+  },
+  '/government/': {
+    page: 'government',
+    path: '/government/',
+    title: 'Government | IT Training for Agency Personnel',
+    description: '',
+    canonical: 'https://itpro.tv/government/'
   }
 };
 

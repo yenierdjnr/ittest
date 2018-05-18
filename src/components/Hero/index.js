@@ -8,3 +8,7 @@ export { default as Plans } from './Plans';
 export { default as Accessibility } from './Accessibility';
 export { default as ThankYou } from './ThankYou';
 export { default as Eula } from './Eula';
+export { default as About } from './About';
+export { default as Team } from './Team';
+export { default as Contact } from './Contact';
+export { default as Government } from './Government';

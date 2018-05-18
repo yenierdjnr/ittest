@@ -16,7 +16,13 @@ const Footer = () => {
             <span className={ styles['page-footer__menu-title'] }>company</span>
             <ul>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">about</a>
+                <a href="/about/">about</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
+                <a href="#">hosts</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
+                <a href="/team/">team</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">plan & pricing</a>
@@ -48,7 +54,7 @@ const Footer = () => {
                   <a href="#">blog</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">government</a>
+                  <a href="/government/">government</a>
                 </li>
               </ul>
           </nav>
@@ -57,6 +63,7 @@ const Footer = () => {
             <address className={ styles['page-footer__address'] }>7525 NW 4th Blvd<br/>Gainesville, FL 32607</address>
             <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352.600.6900</a>
             <a className={ styles['page-footer__email'] } href="support@itpro.tv">support@itpro.tv</a>
+            <a className={ styles['page-footer__contact'] } href="/contact/">Contact Us</a>
           </div>
         </div>
       </div>
