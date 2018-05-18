@@ -33,7 +33,7 @@ const Footer = () => {
               <span className={ styles['page-footer__menu-title'] }>support</span>
               <ul>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">terms & privacy</a>
+                  <a href="/eula/">EULA</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
                   <a href="/accessibility/">accessibility</a>

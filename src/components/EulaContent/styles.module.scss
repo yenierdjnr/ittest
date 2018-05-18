@@ -2,6 +2,7 @@
 
 :export {
   greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
 }
 $breakpoints: (
   'tablet': $tablet,
@@ -17,14 +18,14 @@ $breakpoints: (
   padding: 5,6rem 0 6.8rem;
 }
 
-.accessibilityStyle {
-  list-style-type: circle;
+.eulaStyle {
+  list-style-type: decimal;
   grid-column: 2 / 3;
   flex-flow: row nowrap;
   justify-content: space-between;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin: 2rem;
+  margin: 1rem 5rem;
   @include adelle-sans-regular;
   color: $color-grey-dark;
 }
@@ -39,6 +40,7 @@ $breakpoints: (
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: left;
+  padding: 0.5rem 0;
 }
 
 .title {
@@ -46,6 +48,12 @@ $breakpoints: (
   margin-bottom: 2.4rem;
 }
 
+.subtitle {
+  grid-column: 2 / 3;
+  @include proxima-semi-bold;
+  font-size: 3.6rem;
+  line-height: 5.8rem;
+}
 
 @include media('<tablet') {
   .container {
