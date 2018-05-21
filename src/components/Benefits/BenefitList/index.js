@@ -70,7 +70,7 @@ const benefitsData = [
     free: false
   },
   {
-    title: 'Access to DevProTV content',
+    title: 'Access to DevProTV, OfficeProTV, CreativeProTV and BizProTV content',
     premium: true,
     standard: false,
     free: false
