@@ -9,19 +9,4 @@ https://github.com/gatsbyjs/gatsby
 
 ## Run in docker
 
-Run `docker-compose up`, this will build the docker container for gatsby and install the needed node modules. Go grab some coffee or snacks while it builds. Thanks npm...
-
-## Install
-`npm install --global gatsby-cli`
-
-then run
-
-`npm install`
-
-and finally
-
-`gatsby develop --verbose`
-
-## Build
-
-`gatsby build` outputs the build into a `public` directory
+Run `docker-compose up`, this will build the docker container for gatsby and install the needed node modules. Go grab some coffee or snacks while it builds.
