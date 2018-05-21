@@ -13,20 +13,17 @@ $breakpoints: (
 }
 
 .list {
-  height: 8rem;
   grid-column: 2 / 3;
 
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .item {
-  height: 100%;
-
+  text-align: center;
   display: flex;
   align-items: center;
-
+  padding: 1.5rem 0;
   border-bottom: 3px solid $color-offblack;
   cursor: pointer;
 
@@ -37,7 +34,7 @@ $breakpoints: (
   & span {
     color: $color-offwhite;
     @include proxima-semi-bold;
-    font-size: 2rem;
+    font-size: 1.75rem;
     line-height: 2.9rem;
     text-transform: capitalize;
   }
@@ -54,7 +51,6 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .list {
-    height: 6rem;
     justify-content: left;
     padding: 0 1.6rem;
   }
@@ -68,7 +64,6 @@ $breakpoints: (
     }
 
     & span {
-      font-size: 1.6rem;
       line-height: 2rem;
     }
   }
@@ -83,5 +78,9 @@ $breakpoints: (
   .item {
     width: 9.4rem;
     justify-content: center;
+  }
+  .list:after {
+    content: "";
+    flex: auto;
   }
 }
