@@ -1,0 +1,58 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $header-tablet
+);
+
+.container {
+  height: 100%;
+  padding-top: 76px;
+  padding-left: 12.8%;
+  position: relative;
+  overflow-y: auto;
+}
+
+.x-icon-container {
+  padding: 36px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+}
+
+.menu-list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu-item {
+  &:first-child {
+    margin-bottom: 2.5rem;
+  }
+  &:not(:first-child):not(:nth-last-child(2)):not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+  &:last-child{
+    margin-top: 2.5rem;
+  }
+
+  & a {
+    color: $color-white;
+    @include proxima-regular;
+    font-size: 3.0rem;
+    line-height: 3.7rem;
+    text-transform: uppercase;
+  }
+
+  &.active {
+    & a {
+      color: $color-orange-dark;
+    }
+  }
+}
+
+.x-icon {
+}

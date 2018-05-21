@@ -1,0 +1,79 @@
+// BASE GRID TEMPLATE
+@mixin full-grid-template-columns {
+  grid-template-columns: 1fr 120px 88px 314px 54px 137px 40px 137px 54px 314px 88px 120px 1fr;
+}
+
+@mixin base-1440-grid-template-columns {
+  grid-template-columns: 1fr 1440px 1fr;
+}
+
+@mixin primary-fr-208-grid-template-columns {
+  grid-template-columns: 1fr 208px 1fr 208px 1fr;
+}
+
+@mixin primary-fr-1440-grid-template-columns {
+  grid-template-columns: 1fr 208px 314px 41px 137px 40px 137px 41px 314px 208px 1fr;
+}
+
+@mixin primary-1440-grid-template-columns {
+  grid-template-columns: 208px 314px 41px 137px 40px 137px 41px 314px 208px;
+}
+
+@mixin secondary-1440-grid-template-columns {
+  grid-template-columns: 314px 41px 137px 40px 137px 41px 314px;
+}
+
+
+// PAGE-HEADER GRID TEMPLATE
+@mixin page-header-grid {
+  grid-template-columns: 1fr minmax(179px, 314px) 41px 137px 40px 137px 41px 314px 1fr;
+}
+
+
+// HOME PAGE GRID TEMPLATE
+@mixin home-page-grid-template-columns {
+  @include base-1440-grid-template-columns;
+}
+@mixin home-page-grid-template-rows {
+  grid-template-rows: 600px 80px 320px 157px 1169px 145px 400px 500px 820px 200px 652px 430px;
+}
+
+// COURSES PAGE GRID TEMPLATE
+@mixin courses-page-grid-template-columns {
+  @include base-1440-grid-template-columns;
+}
+@mixin courses-page-grid-template-rows {
+  grid-template-rows: 240px 780px 250px 820px;
+}
+
+// FORTEAMS PAGE GRID TEMPLATE
+@mixin for-teams-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin for-teams-page-grid-template-rows {
+  grid-template-rows: 500px 80px 940px 80px 560px 620px 800px 750px 550px;
+}
+
+// FORYOU PAGE GRID TEMPLATE
+@mixin for-you-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin for-you-page-grid-template-rows {
+  grid-template-rows: 580px 600px 560px 200px 800px 650px 1000px 200px;
+}
+
+// PLANS PAGE GRID TEMPLATE
+@mixin plans-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin plans-page-grid-template-rows {
+  grid-template-rows: 380px 80px 470px 112px 1098px;
+}
+
+// ONAIR PAGE GRID TEMPLATE
+@mixin onair-page-grid-template-columns {
+  @include primary-fr-1440-grid-template-columns;
+}
+@mixin onair-page-grid-template-rows {
+  grid-template-rows: 460px 667px;
+}

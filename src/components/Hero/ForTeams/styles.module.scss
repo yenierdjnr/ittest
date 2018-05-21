@@ -1,0 +1,79 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'upper-phablet': $upper-phablet,
+  'lower-phone': $lower-phone
+);
+
+.container {
+  padding: 12rem 0 20.8rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
+
+  background-image: url('Images/forTeams_hero@1x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  grid-column: 2 / 3;
+  padding-left: 2.4rem;
+}
+
+.title {
+  max-width: 80rem;
+  margin-bottom: 3.6rem;
+}
+
+.subtitle {
+  max-width: 65.1rem;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 6.8rem 0 12rem;
+  }
+
+  .intro {
+    padding: 0 4rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .title, .subtitle {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 4.8rem;
+    letter-spacing: 0.4px;
+    line-height: 5.8rem;
+  }
+  .subtitle {
+    max-width: 30rem;
+    margin-bottom: 4.8rem;
+
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+  }
+}
+
+@include media('<upper-phablet') {
+  .title, .subtitle {
+    width: unset;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .container {
+    background-image: url('Images/forTeams_hero@2x.jpg');
+  }
+}

@@ -1,0 +1,13 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.anchor {
+  display: inline-block;
+  text-transform: capitalize;
+
+  @include btn;
+  @include boxShadow;
+}

@@ -1,0 +1,88 @@
+// colors
+$color-purple-primary: #10069F;
+$color-purple-dark: #0B046E;
+
+$color-blue-primary: #00A3E0;
+$color-blue-dark: #0094CB;
+
+$color-orange-primary: #F6621C;
+$color-orange-dark: #D25419;
+$color-orange-light: #FF9462;
+
+$color-green-secondary: #6CC24A;
+$color-green-dark: #469E24;
+$color-green-light: #98D480;
+
+$color-grey-secondary: #97999B;
+$color-grey-dark: #696A6D;
+$color-grey-light: #9C9BA7;
+
+$color-white-light: #F4F4F7;
+$color-white-dark: #E6E6ED;
+
+$color-offwhite: #F9F9FA;
+$color-white: #FFFFFF;
+
+$color-backdrop: #07082F;
+$color-offblack: #151746;
+$color-black: #000000;
+
+
+
+// tablet
+$desktop: 1440px;
+$desktop-vendorlist: 1206px;
+$lower-desktop: 1200px;
+$upper-tablet: 1196px;
+$mid-uppper-tablet: 1072px;
+$tablet: 1024px;
+$lower-tablet: 883px;
+$header-tablet: 883px;
+//phablet
+$upper-phablet: 768px;
+$uppper-mid-phablet: 669px;
+$phablet: 634px;
+// phone
+$upper-phone: 414px;
+$lower-phone: 375px;
+$small-phone: 320px;
+
+$large: 1440px;
+$medium: 883px;
+$regular: 785px;
+$small: 475px;
+
+
+// media breakpoints
+$xs_bp: 36.000rem; // 576px
+$sm_bp: 48.000rem; // 768px
+$md_bp: 62.000rem; // 992px
+$lg_bp: 75.000rem; // 1200px
+$xl_bp: 120rem;
+
+// containers
+$lg_cont: 51.875rem;
+
+// container margins for breakpoints
+$xs_mx: 5px;
+$sm_mx: 15px;
+$md_mx: 20px;
+$lg_mx: 30px;
+$xl_mx: 100px;
+
+// components
+$nav-content-y: 60px;
+$nav-padding-y: 15px;
+$nav-height: ($nav-content-y + ($nav-padding-y * 2));
+
+$btn-border-radius: 3px;
+$btn-p-y: 8px;
+$btn-p-x: 20px;
+
+
+//z-index
+$z-overlay: 999999;
+$z-header:  99999;
+$z-iframe:  9999;
+$z-plans:   999;
+$z-video:   99;

@@ -1,0 +1,26 @@
+@import '~Styles/variables';
+@import '~Styles/fonts';
+@import '~Styles/mixins';
+@import '~Styles/layouts';
+
+
+.social-media {
+  margin-bottom: 17px;
+
+  & a {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}
+
+.copyright {
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.2rem;
+  letter-spacing: 0.15px;
+  line-height: 1.8rem;
+}
+

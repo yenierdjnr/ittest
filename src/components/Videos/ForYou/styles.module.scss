@@ -1,0 +1,126 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'upper-phablet': $upper-phablet,
+  'uppper-mid-phablet': $uppper-mid-phablet,
+  'lower-phone': $lower-phone
+);
+
+:export {
+  offBlack: $color-offblack;
+  darkGrey: $color-grey-dark;
+}
+
+.container {
+  padding: 7.2rem 0 9.9rem;
+  background-color: $color-offwhite;
+}
+
+.content {
+  max-width: 1035px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.video-container {
+  width: 66.9rem;
+  margin-top: 1.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.img {
+  width: 100%;
+}
+
+.vidwrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  cursor:pointer;
+}
+
+.for-you-iframe {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  z-index: $z-iframe;
+}
+
+.play-button {
+  position: absolute;
+  z-index: $z-video;
+  cursor: pointer;
+}
+
+.intro {
+  max-width: 34rem;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+.summary {
+  line-height: 3.0rem;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 5.6rem 0 10.2rem;
+  }
+  .content {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .video-container {
+    order: 2;
+    margin-top: 0;
+  }
+
+  .intro {
+    width: 37.5rem;
+    max-width: unset;
+    padding: 0 4rem;
+    margin-bottom: 7.1rem;
+  }
+  .title {
+    max-width: 30rem;
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+  .summary {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+@include media('<uppper-mid-phablet') {
+  .container {
+    padding-bottom: 0;
+  }
+  .video-container {
+    width: 100%;
+  }
+}
+
+
+@include media ('<lower-phone') {
+  .intro {
+    width: 32rem;
+  }
+}

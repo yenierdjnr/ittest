@@ -1,0 +1,161 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
+);
+
+:export {
+  offBlack: $color-offblack;
+}
+
+.container {
+  max-width: 50rem;
+  padding: 4.8rem 4rem;
+
+  background-color: $color-offwhite;
+  box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.18);
+  border-radius: 2px;
+}
+
+.form-title {
+  width: 33.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.about-you {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+
+  & .item {
+    width: 100%;
+    height: 50px;
+    padding: 13px 26px 13px 15px;
+
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    border: 1px solid $color-grey-secondary;
+    border-radius: 2px;
+    background-color: $color-white;
+
+    &:not(:last-child) {
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  & .item.selector {
+    padding-left: 1.1rem;
+    padding-top: 1.1rem;
+  }
+}
+
+.your-needs {
+  margin-bottom: 4.8rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+
+  & .textarea {
+    width: 100%;
+    height: 18rem;
+    padding: 1.3rem 1.6rem;
+
+    color: $color-grey-dark;
+    @include adelle-sans-regular;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    resize: none;
+  }
+}
+
+.question-box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.question {
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.radio-list {
+  display: inline-block;
+}
+
+.label {
+  margin-left: 8px;
+  &:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.button {
+  &.buttonSuccess {
+    background-color: $color-purple-dark;
+    cursor:auto;
+  }
+}
+
+@include media('<lower-tablet') {
+  .container {
+    min-width: 28.8rem;
+    padding: 3.2rem 2.4rem;
+    margin: 0 1.6rem;
+  }
+
+  .form-title {
+    width: 100%;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    margin-bottom: 3.6rem;
+  }
+
+  .about-you {
+    margin-bottom: 2.4rem;
+
+    & .item {
+      &:not(:last-child) {
+        margin-bottom: 1.6rem;
+      }
+    }
+  }
+
+  .question-box {
+    flex-flow: column nowrap;
+    align-items: start;
+    margin-bottom: 2.4rem;
+  }
+
+  .question {
+    margin-bottom: 1.6rem;
+  }
+
+  button.button {
+    width: 100%;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .button {
+    font-size: 1.4rem;
+  }
+}

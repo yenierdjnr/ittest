@@ -1,0 +1,90 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
+  position: relative;
+  background-color: $color-white;
+
+  background-image: url('Images/patterns_vertical.svg');
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+}
+
+.content {
+  grid-column: 2 / 3;
+  width: 82rem;
+  padding: 96px 0 112px;
+}
+
+.title {
+  color: $color-offblack;
+  @include proxima-semi-bold;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+
+  margin-bottom: 2.4rem;
+}
+
+.info {
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  margin-bottom: 7.2rem;
+}
+
+.link {
+  box-shadow: 8px 6px 14px 0 rgba(0,0,0,0.04), -8px 6px 14px 0 rgba(0,0,0,0.04), 0 2px 14px 0 rgba(0,0,0,0.06);
+}
+.link:not(:last-child) {
+  margin-right: 40px;
+}
+.link:active {
+  box-shadow: 8px 6px 14px 0 rgba(0,0,0,0.04), -8px 6px 14px 0 rgba(0,0,0,0.04), 0 2px 14px 0 rgba(0,0,0,0.06);
+}
+
+a.for-teams-link {
+  color: $color-green-secondary;
+  border: 2px solid $color-green-secondary;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
+
+  &:hover {
+    border: none;
+    background-color: $color-green-dark;
+    color: $color-white;
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+  }
+}
+
+a.for-you-link {
+  color: $color-blue-dark;
+  border: 2px solid $color-blue-dark;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
+
+  &:hover {
+    border: none;
+    background-color: $color-blue-dark;
+    color: $color-white;
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+  }
+}
+
+
+@include media('<tablet') {
+  .container {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-desktop': $lower-desktop
+);
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 27rem);
+  grid-column-gap: 4rem;
+}
+
+
+@include media('<lower-desktop') {
+  .container {
+    width: 100%;
+
+    grid-template-columns: repeat(2, 27rem);
+    justify-content: center;
+    grid-row-gap: 2.4rem;
+  }
+}
+
+@include media('<tablet') {
+  .container {
+    grid-template-columns: auto;
+  }
+}

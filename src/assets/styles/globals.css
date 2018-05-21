@@ -1,0 +1,49 @@
+*,
+*::after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* defines 1rem */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+h1 {
+  margin: 2.4rem 0;
+}
+
+.fade-up-in-enter {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-up-in-enter.fade-up-in-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1),
+    opacity 1.5s 0.5s cubic-bezier(0.2, 0, 0.1, 1);
+}

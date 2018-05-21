@@ -1,0 +1,47 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone,
+);
+
+:export {
+  size: $lower-tablet;
+}
+
+.container {
+  padding: 7.2rem 0 8.4rem 2.4rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
+  background-color: $color-offwhite;
+}
+
+.article {
+  grid-column: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 1.6rem;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 3.2rem 0 3.8rem 2.4rem;
+  }
+
+  .article {
+    grid-template-columns: auto;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .flags {
+    padding: 0 8px;
+  }
+}

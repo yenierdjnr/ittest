@@ -1,0 +1,107 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone
+);
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  background-color: $color-offblack;
+  padding-left: 2.4rem;
+}
+
+.list {
+  height: 8rem;
+  grid-column: 2 / 3;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.item {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom: 3px solid $color-offblack;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 5.6rem;
+  }
+
+  & span {
+    color: $color-offwhite;
+    @include proxima-semi-bold;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-transform: capitalize;
+  }
+
+  &.active {
+    border-bottom: 3px solid $color-orange-primary;
+
+    & span {
+      color: $color-orange-primary;
+    }
+  }
+}
+
+
+@include media('<lower-tablet') {
+  .list {
+    height: 6rem;
+    justify-content: left;
+    padding: 0 1.6rem;
+  }
+
+  .item {
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+
+    & span {
+      font-size: 1.6rem;
+      line-height: 2rem;
+    }
+  }
+}
+
+
+@include media('<=upper-phone') {
+  .list {
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 9.2rem;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+
+    & span {
+      font-size: 1.3rem;
+      line-height: 1.7rem;
+    }
+  }
+}
+
+@include media('<=lower-phone') {
+
+  .item {
+    width: 7rem;
+  }
+  &:not(:last-child) {
+    margin-right: .5rem;
+  }
+}

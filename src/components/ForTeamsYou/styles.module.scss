@@ -1,0 +1,172 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $header-tablet, //883px
+  'upper-tablet': 1196px
+);
+
+:export {
+  greenDark: $color-green-dark;
+  blueDark:  $color-blue-dark;
+  offBlack: $color-offblack;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto 4.1rem auto;
+}
+
+.card-left {
+  grid-column: 1 / 2;
+  justify-self: right;
+
+  & .title {
+    color: $color-green-dark;
+  }
+
+  & .bottom-bar {
+    background-color: $color-green-dark;
+  }
+}
+
+.card-right {
+  grid-column: 3 / 4;
+  justify-self: left;
+
+  & .title {
+    color: $color-blue-dark;
+  }
+
+  & .bottom-bar {
+    background-color: $color-blue-dark;
+  }
+}
+
+.card {
+  max-width: 58rem;
+  padding: 5.6rem 5.5rem 7.6rem 5.6rem;
+  position: relative;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+  border-radius: 2px;
+  box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.18);
+  background-color: $color-offwhite;
+
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
+
+  animation: slideUp 1.5s cubic-bezier(0.2, 0, 0.1, 1) 0s 1;
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  & .bottom-bar {
+    width: 100%;
+    height: 3px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 2px;
+  }
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+}
+
+.body {}
+
+.title {
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 8px;
+
+  @include adelle-sans-bold;
+  font-size: 2.4rem;
+  letter-spacing: 1.8px;
+  line-height: 3.6rem;
+}
+.subtitle {
+  margin-bottom: 2.4rem;
+
+  @include proxima-semi-bold;
+  font-size: 4.8rem;
+  letter-spacing: normal;
+  line-height: 5.8rem;
+}
+.summary {
+  @include adelle-sans-regular;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  &.forTeams {
+    padding-right: 7rem;
+  }
+  &.forYou {
+    padding-right: 13rem;
+  }
+}
+
+
+@include media('<upper-tablet') {
+  .title {
+    font-size: 1.8rem;
+    letter-spacing: 1.35px;
+    line-height: 2.8rem;
+  }
+  .subtitle {
+    margin-bottom: 2.4rem;
+
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+  .summary {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+}
+
+@include media('<tablet') {
+  .container {
+    // grid-template-columns: 1fr;
+    grid-template-columns: minmax(auto, 533px);
+    // grid-template-rows: auto 24px auto;
+    grid-template-rows: minmax(261px,auto) 24px minmax(261px,auto);
+    justify-content: center;
+  }
+
+  .card-left {
+    grid-column: unset;
+    grid-row: 1 / 2;
+  }
+  .card-right {
+    grid-column: unset;
+    grid-row: 3 / 4;
+  }
+
+  .card {
+    margin: 0 1.6rem;
+    padding: 4.8rem 2.3rem 5.2rem 2.4rem;
+  }
+
+  .summary {
+    &.forTeams {
+      padding-right: 0rem;
+    }
+    &.forYou {
+      padding-right: 0rem;
+    }
+  }
+}

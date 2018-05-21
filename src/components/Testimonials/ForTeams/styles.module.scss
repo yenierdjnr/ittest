@@ -1,0 +1,56 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
+.container {
+  padding: 11.2rem 0 10.6rem;
+  overflow: hidden;
+
+  padding: 11.2rem 0 10.6rem;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  grid-template-rows: auto auto;
+
+  background-color: $color-white-light;
+}
+
+.content {
+  grid-column: 2 / 3;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.title {
+  grid-column: 2 / 3;
+
+  width: 82rem;
+  text-align: center;
+  margin: 0 auto 9.6rem;
+}
+
+.carousel {
+  width: 71rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.lastChild {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+}
+
+@include media('<lower-tablet') {
+  .container {
+    display: none;
+  }
+}

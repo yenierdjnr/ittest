@@ -1,0 +1,19 @@
+@import '~Styles/main';
+
+
+.link {
+  display: inline-block;
+
+  @include btn($width: 25rem);
+  @include boxShadow;
+  text-transform: capitalize;
+  background-color: $color-orange-primary;
+  transition-property: box-shadow, transform;
+  transition-duration: .25s;
+
+  &:hover {
+    background-color: $color-orange-dark;
+    transform: translateY(-2px);
+    box-shadow: 0 9px 20px 4px rgba($color-offblack, 0.18);
+  }
+}

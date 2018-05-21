@@ -1,0 +1,101 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
+);
+
+:export {
+  darkBlue: $color-blue-dark;
+  darkGreen: $color-green-dark;
+  offBlack: $color-offblack;
+  purple: $color-purple-primary;
+  white: $color-white;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.5rem 0;
+
+  &:not(:first-child) {
+    border-top: 1px solid #E4E8EC;
+  }
+
+  &.with-subtitle {
+    padding: 1.2rem 0;
+  }
+}
+
+.type {
+  margin-bottom: 1.6rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.title {
+  color: $color-offblack;
+  @include adelle-sans-regular;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+
+  &.with-subtitle {
+    line-height: 2.3rem;
+  }
+}
+.subtitle {
+  color: $color-grey-dark;
+  @include adelle-sans-regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  &.bold {
+    color: $color-purple-primary;
+    @include adelle-sans-bold;
+  }
+}
+
+.access {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1 0 27.7rem;
+  justify-content: space-between;
+
+  & .premium {
+    width: 9rem;
+  }
+  & .standard {
+    width: 9.2rem;
+  }
+  & .free {
+    width: 4.9rem;
+  }
+}
+
+@include media('>=lower-tablet') {
+  .container {
+    display: grid;
+    grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
+  }
+
+  .type {
+    grid-column: 1 / 2;
+  }
+  .title {
+    width: 432px;
+  }
+  .subtitle {
+    width: 432px;
+  }
+  .access {
+    grid-column: 3 / 4;
+    margin-bottom: 2rem;
+    flex-basis: unset;
+  }
+}

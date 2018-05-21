@@ -1,0 +1,118 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
+);
+
+.container {
+  padding: 12rem 0 15.4rem;
+
+  background-color: $color-purple-dark;
+  background-image: url('Images/pattern_lightpurple.svg');
+  background-position: 50%;
+}
+
+.icon-box {
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+  margin-bottom: 5.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6rem;
+  background-color: #2F2983;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 29rem;
+}
+
+.title {
+
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.summary {
+  max-width: 29rem;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 7.2rem 4rem 7.4rem;
+  }
+
+  .content {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .item {
+    max-width: 33.4rem;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  .icon-box {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 4rem;
+    border-radius: 5rem;
+
+    & .camera {
+      width: 6.5rem;
+      height: 7.5rem;
+    }
+    & .bars {
+      width: 5.2rem;
+      height: 6.9rem;
+    }
+    & .mobile {
+      width: 4.9rem;
+      height: 6.5rem;
+    }
+  }
+
+  .title {
+    margin-bottom: 1.6rem;
+  }
+}
+
+
+@include media('<=upper-phone') {
+  .item {
+    max-width: 29.5rem;
+  }
+}
+
+
+@include media('<=small-phone') {
+  .item {
+    width: 24rem;
+  }
+}

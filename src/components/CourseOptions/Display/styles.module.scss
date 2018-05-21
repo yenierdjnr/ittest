@@ -1,0 +1,75 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone,
+  'uppper-mid-phablet': $uppper-mid-phablet
+);
+
+:export {
+  orange: $color-orange-primary;
+  size: $lower-tablet;
+}
+
+.container {
+  padding: 7.2rem 0 8.4rem;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+
+  background-color: $color-offwhite;
+}
+
+.list {
+  grid-column: 2 / 3;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
+  grid-column-gap: 4.1rem;
+  grid-row-gap: 3.6rem;
+}
+
+.see-more {
+  display: none;
+}
+
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 3.2rem 0 3.8rem;
+  }
+
+  .list {
+    grid-row-gap: 1.6rem;
+  }
+
+  .flags {
+    grid-template-columns: minmax(304px, 492px);
+    justify-content: center;
+    padding: 0 1.6rem;
+  }
+}
+
+
+@include media('<uppper-mid-phablet') {
+  .see-more {
+    display: inline-block;
+    padding-top: 2.4rem;
+    text-align: center;
+
+    &.show-more {
+      display: none;
+    }
+  }
+  .see-more-text {
+    text-transform: capitalize;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .flags {
+    padding: 0 8px;
+  }
+}

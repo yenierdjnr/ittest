@@ -1,0 +1,21 @@
+@import '~Styles/main';
+
+
+.mainLayout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9rem auto auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.intro {
+
+}
+
+.overlay {
+  display: none;
+  z-index: $z-overlay;
+}

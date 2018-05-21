@@ -1,7 +1,0 @@
-{{ partial "base/head" . }}
-  <main class="{{ with .Params.layout }}{{ . }}{{ end }} main-container">
-    {{ partial "base/nav.html" . }}
-    {{ block "main" . }}
-    {{ end}}
-  </main>
-{{ partial "base/footer" . }}

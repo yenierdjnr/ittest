@@ -1,0 +1,36 @@
+{
+  "name": "ITPro.tv",
+  "description": "ITPro.tv for IT professionals",
+  "license": "MIT",
+  "browserslist": [
+    "ie >= 11",
+    "firefox >= 57",
+    "chrome >= 63",
+    "edge >= 15",
+    "safari >= 11",
+    "ios >= 11"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.241",
+    "gatsby-cli": "^1.1.52",
+    "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.37",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^2.0.9",
+    "gatsby-plugin-react-next": "^1.0.9",
+    "gatsby-plugin-sass": "^1.0.17",
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-plugin-sitemap": "^1.2.18",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-json": "^1.0.16",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "react-countup": "^3.0.3",
+    "react-helmet": "^5.2.0",
+    "react-transition-group": "^2.3.0"
+  }
+}

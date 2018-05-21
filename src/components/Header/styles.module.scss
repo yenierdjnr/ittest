@@ -1,0 +1,46 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $header-tablet
+);
+
+.container {
+  grid-area: header;
+  width: 100%;
+  height: 9rem;
+
+  position: fixed;
+  z-index: $z-header;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(155px, 314px) 705px 1fr;
+  align-items: center;
+
+  background-color: $color-offwhite;
+}
+
+.logo-box {
+  grid-column: 2 / 3;
+  margin-bottom: 1rem;
+}
+
+.nav {
+  grid-column: 3 / 4;
+}
+
+
+@include media("<tablet") {
+  .container {
+    grid-template-columns: 179px 1fr;
+    padding: 0 2.4rem;
+  }
+
+  .logo-box {
+    grid-column: 1 / 2;
+  }
+
+  .nav {
+    grid-column: 3 / 4;
+  }
+}

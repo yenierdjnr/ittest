@@ -1,37 +1,13 @@
-version: "3.2"
+version: '3'
 services:
-  hugo:
-    build: ./hugo
-    working_dir: /usr/share/site
-    ports:
-      - "1313:1313"
-    volumes:
-      - ./hugo/site:/usr/share/site
-      - ./nginx/www:/output
-    command: "hugo -w -d /output -b http://itpro.test:1380/"
   marketing:
-    build: nginx
+    build: .
+    command: [ "gatsby", "develop", "--verbose", "-H", "0.0.0.0" ]
     ports:
-      - "1380:80"
+      - 8000:8000
     volumes:
-      # Even though the Dockerfile specifies to copy these files over,
-      # mounting the volume here makes sure that as files are edited and
-      # rebuilt we are always serving the latest files from the local
-      # filesystem for development
-      - ./nginx/conf.d:/etc/nginx/conf.d
-      - ./nginx/www:/var/www
-    environment:
-      BRAND: "ITProTV"
-    depends_on:
-      - hugo
-  assets-builder:
-    image: node:7.10.1
-    volumes:
-      - ./assets-builder:/app
-      - ./hugo/site/themes/itprotv-2018/layouts/partials:/app/output
-      - ./nginx/www:/app/public
-    working_dir: /app
-    command: "./dev"
+      - .:/work
+
 networks:
   default:
     external:
