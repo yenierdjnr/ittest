@@ -14,5 +14,5 @@ docker-compose run --rm terraform $@ \
   remote config \
   -backend=s3 \
   -backend-config="bucket=itprotv-terraform-state" \
-  -backend-config="key=marketing.tfstate" \
+  -backend-config="key=itprotv-marketing.tfstate" \
   -backend-config="region=us-east-1"
