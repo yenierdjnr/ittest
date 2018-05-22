@@ -17,7 +17,7 @@ case "$TASK" in
     ;;
 
   "build")
-    docker-compose up
+    docker-compose -f docker-compose.semaphore.yml up
     ;;
 
   "deploy")
