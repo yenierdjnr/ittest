@@ -7,9 +7,9 @@
 # Good luck.
 
 set -e
+set -x
 
 TASK=$1
-ENV=$SEMAPHORE_SERVER_NAME
 
 case "$TASK" in
   "setup")
@@ -21,17 +21,21 @@ case "$TASK" in
     ;;
 
   "deploy")
-    if [ "$BRANCH_NAME" = "production" ]; then
-      aws --region="$REGION" \
-        s3 sync public s3://itprotv-marketing-production --delete
-    fi;
-    if [ "$BRANCH_NAME" = "master" ]; then
-      aws --region="$REGION" \
-        s3 sync public s3://itprotv-marketing-staging --delete
-    fi;
+    case "$BRANCH_NAME" in
+      "production")
+        aws --region="$REGION" \
+          s3 sync public s3://itprotv-marketing-production --delete
+          ;;
+
+      "master")
+        aws --region="$REGION" \
+          s3 sync public s3://itprotv-marketing-staging --delete
+          ;;
+
+      *) echo "Not a deployable branch, therefore not sinking."
     ;;
 
   *)
     echo "Unknown semaphore script task: $TASK"
-    exit 92
+    exit 1
 esac;
