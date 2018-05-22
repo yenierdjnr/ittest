@@ -33,6 +33,8 @@ case "$TASK" in
           ;;
 
       *) echo "Not a deployable branch, therefore not sinking."
+        ;;
+    esac;
     ;;
 
   *)
