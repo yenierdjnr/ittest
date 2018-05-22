@@ -30,3 +30,6 @@ export { default as IconCalendar } from './calendar';
 export { default as IconBadge } from './badge';
 export { default as IconMountains } from './mountains';
 export { default as IconLightBulb } from './lightbulb';
+export { default as IconQuestionMark } from './question-mark';
+export { default as IconPhone} from './phone';
+export { default as IconBubbles} from './bubbles';
