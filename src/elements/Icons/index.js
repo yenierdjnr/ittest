@@ -15,6 +15,7 @@ export { default as IconLabs } from './labs';
 export { default as IconLaptop } from './laptop';
 export { default as IconMenu } from './menu';
 export { default as IconPattern } from './pattern';
+export { default as IconPeople } from './people';
 export { default as IconPlay } from './play';
 export { default as IconPopcorn } from './popcorn';
 export { default as IconMobile } from './mobile';
