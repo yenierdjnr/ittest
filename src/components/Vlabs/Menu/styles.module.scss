@@ -52,7 +52,6 @@ $breakpoints: (
 @include media('<lower-tablet') {
   .list {
     justify-content: left;
-    padding: 0 1.6rem;
   }
 
   .item {
@@ -70,17 +69,17 @@ $breakpoints: (
 }
 
 
-@include media('<=upper-phone') {
-  .list {
-    justify-content: space-between;
-  }
-
-  .item {
-    width: 9.4rem;
-    justify-content: center;
-  }
-  .list:after {
-    content: "";
-    flex: auto;
-  }
-}
+// @include media('<=upper-phone') {
+//   .list {
+//     justify-content: space-between;
+//   }
+//
+//   .item {
+//     width: 9.4rem;
+//     justify-content: center;
+//   }
+//   .list:after {
+//     content: "";
+//     flex: auto;
+//   }
+// }
