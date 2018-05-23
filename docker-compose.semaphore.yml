@@ -2,7 +2,7 @@ version: '3'
 services:
   marketing:
     build: .
-    command: "./startup.sh develop"
+    command: "./startup.sh build"
     ports:
       - 8000:8000
     volumes:
