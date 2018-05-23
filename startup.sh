@@ -5,6 +5,7 @@ set -x
 
 CMD=$1
 yarn global add gatsby-cli@1.1.52
+yarn install
 
 case "$CMD" in
   "develop")
