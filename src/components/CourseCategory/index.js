@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 
 import { CourseCategoryHero as Hero } from 'Components/Hero'
@@ -8,6 +9,13 @@ import styles from './styles.module.scss';
 
 const CourseCategory = ({ data, ...rest }) => (
   <main className={ styles.category }>
+
+    <Helmet>
+      <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
+      <title>{ data.category.tagname }</title>
+      <description></description>
+    </Helmet>
+
 
     <section className={ styles.Hero }>
       <Hero title={ data.category.tagname }/>
