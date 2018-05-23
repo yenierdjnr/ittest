@@ -19,6 +19,7 @@ import Zach from 'Images/zach.jpg';
 const HostsContent = props => {
   return (
     <section className={ styles.container }>
+      <Hx className={ styles.subtitle } color={ styles.offBlack }>Meet the Hosts</Hx>
         <div className={ styles.wrapper }>
           <img className={ styles.headshot } src={ Adam } alt="Adam Gordon photo" />
           <div className={ styles.content }>

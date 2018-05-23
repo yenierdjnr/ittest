@@ -14,7 +14,7 @@ $breakpoints: (
 
 .container {
   background-color: #f4f3f8;
-  padding: 2rem 22rem;
+  padding: 5rem 22rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 5,6rem 0 6.8rem;
@@ -33,7 +33,6 @@ $breakpoints: (
   flex-wrap: wrap;
   grid-column: 2 / 3;
   justify-content: center;
-  margin-top: 2rem;
 }
 
 .item {

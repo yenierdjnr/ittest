@@ -4,18 +4,18 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { ViewportAnimation } from 'Elements/Viewport'
-import { IconGear, IconLaptop, IconPopcorn } from 'Elements/Icons';
+import { IconBubbles, IconQuestionMark, IconPhone } from 'Elements/Icons';
 
 
 const ContactContent = props => {
   return (
     <section className={ styles.container }>
-    
+
       <ViewportAnimation>
         <ul className={ styles.list }>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-              <IconLaptop className={ styles['laptop-icon'] }/>
+              <IconQuestionMark className={ styles['laptop-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Check the FAQ</Hx>
@@ -24,7 +24,7 @@ const ContactContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-            <IconGear className={ styles['gear-icon'] }/>
+            <IconBubbles className={ styles['gear-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Q&A Forum</Hx>
@@ -33,7 +33,7 @@ const ContactContent = props => {
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
             <div className={ styles['icon-box'] }>
-              <IconPopcorn className={ styles['popcorn-icon'] }/>
+              <IconPhone className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Reach out</Hx>
