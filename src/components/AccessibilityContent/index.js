@@ -20,7 +20,7 @@ const AccessibilityContent = props => {
           <li>Language on the main html tag</li>
           <li>Roles on the navigation bar menu</li>
         </ul>
-        <Para className={ styles.content } color={ styles.greyDark } >If you have any questions or concerns regarding accessibility, please email support@itpro.tv.</Para>
+        <Para className={ styles.content } color={ styles.greyDark } >If you have any questions or concerns regarding accessibility, please email <a className={ styles['email'] } href="support@itpro.tv">support@itpro.tv</a>.</Para>
     </section>
   );
 };

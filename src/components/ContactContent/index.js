@@ -19,7 +19,7 @@ const ContactContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Check the FAQ</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Information about your membership, supported platforms, upgrading your plan, accessing labs & exams, and more in the FAQ section.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Information about your membership, supported platforms, upgrading your plan, accessing labs & exams, and more in the <a className={ styles['email'] } href="https://help.itpro.tv/">FAQ section</a>.</Para>
             </div>
           </li>
           <li className={ styles.item }>
@@ -28,7 +28,7 @@ const ContactContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Q&A Forum</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Interact with hosts and subject matter experts on technical questions about course content for your IT career in the Q&A forum.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Interact with hosts and subject matter experts on technical questions about course content for your IT career in the <a className={ styles['email'] } href="https://forums.itpro.tv/">Q&A Forum</a>.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
@@ -37,7 +37,9 @@ const ContactContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Reach out</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Phone, chat and email support is available Monday - Thursday 7 a.m. - 7 p.m. Eastern and Friday 7 a.m. - 5 p.m. Eastern. Email us at support@itpro.tv or call us at 352-600-6900.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Phone, chat and email support is available Monday - Thursday 7 a.m. - 7 p.m. Eastern and Friday 7 a.m. - 5 p.m. Eastern. Email us at <a className={ styles['email'] } href="support@itpro.tv">support@itpro.tv</a> or call us at
+              <a className={ styles['tel'] } href="tel:+13526006900"> 352-600-6900.</a>
+              </Para>
             </div>
           </li>
         </ul>

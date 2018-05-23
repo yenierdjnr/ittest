@@ -122,6 +122,12 @@ $breakpoints: (
   }
 }
 
+.email, .tel {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.6rem;
+}
+
 @include media('<=lower-phone') {
   .item:last-child {
     width: 24rem;

@@ -70,6 +70,12 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
+.email {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.6rem;
+}
+
 
 @include media('<tablet') {
   .container {
