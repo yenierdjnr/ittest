@@ -18,14 +18,11 @@ case "$TASK" in
 
   "build")
       case "$BRANCH_NAME" in
-      "master")
-          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
-          ;;
       "production")
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
           ;;
       *)
-          echo "These are not the branches you're looking for, exit"
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
           ;;
       esac;
     ;;
