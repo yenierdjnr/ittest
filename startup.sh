@@ -4,18 +4,31 @@ set -e
 set -x
 
 CMD=$1
+BUILD_ENV=$2
 yarn global add gatsby-cli@1.1.52
 yarn install
 
 case "$CMD" in
   "develop")
-    gatsby develop --verbose -H 0.0.0.0
+    MARKETING_ENV=development gatsby develop --verbose -H 0.0.0.0
     ;;
   "build")
-    gatsby build --verbose
+      case "$BUILD_ENV" in
+          "staging")
+              MARKETING_ENV=staging gatsby build --verbose
+              ;;
+          "production")
+              MARKETING_ENV=production gatsby build --verbose
+              ;;
+          *)
+              echo "Insert evil laughter.. now doing.. rm -rf /"
+              exit 1
+              ;;
+      esac;
+
     ;;
   *)
-    echo "Unknown command, Gatsby has been shot, exit 1"
+    echo "Unknown command, Gatsby has been shot, exiting"
     exit 1
     ;;
 esac;

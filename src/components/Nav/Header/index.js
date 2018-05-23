@@ -10,7 +10,7 @@ class HeaderNav extends Component {
     super(props);
 
     this.state = {
-      previousPath: ''
+        previousPath: ''
     };
   }
 
@@ -67,7 +67,8 @@ class HeaderNav extends Component {
     overlay.style.display = 'block';
   };
 
-  render() {
+    render() {
+
     return (
       <Fragment>
         <nav className={ styles.menu }>
@@ -89,7 +90,7 @@ class HeaderNav extends Component {
             </li>
 
             <li className={ styles['menu-item-diff'] }>
-              <a className={ styles['login-link'] } href="https://itpro.tv/login/">log in</a>
+            <a className={ styles['login-link'] } href={`${process.env.SELF_URL}/login/`} loginLnk>log in</a>
             </li>
             <li className={ styles['menu-item-diff'] }>
               <Link className={ styles['try-free'] } to="/plans/">try it free</Link>

@@ -1,3 +1,13 @@
+let currentEnv = process.env.MARKETING_ENV;
+
+if (!currentEnv) {
+    currentEnv="development";
+}
+
+require("dotenv").config({
+    path: `.env.${currentEnv}`,
+});
+
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://itpro.tv',
