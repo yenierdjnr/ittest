@@ -15,5 +15,6 @@ case "$CMD" in
     ;;
   *)
     echo "Unknown command, Gatsby has been shot, exit 1"
+    exit 1
     ;;
 esac;

@@ -32,7 +32,7 @@ case "$TASK" in
           s3 sync public s3://itprotv-marketing-staging --delete
           ;;
 
-      *) echo "Not a deployable branch, therefore not sinking."
+      *) echo "Not a deployable branch, therefore not syncing."
         ;;
     esac;
     ;;
