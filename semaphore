@@ -17,20 +17,28 @@ case "$TASK" in
     ;;
 
   "build")
-    docker-compose -f docker-compose.semaphore.yml up
+      case "$BRANCH_NAME" in
+      "production")
+          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
+          ;;
+      *)
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
+          ;;
+      esac;
     ;;
 
   "deploy")
     case "$BRANCH_NAME" in
-      "production")
-        aws --region="$REGION" \
-          s3 sync public s3://itprotv-marketing-production --delete
+      "master")
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-staging --delete
           ;;
 
-      "master")
-        aws --region="$REGION" \
-          s3 sync public s3://itprotv-marketing-staging --delete
+      "production")
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-production --delete
           ;;
+
 
       *) echo "Not a deployable branch, therefore not syncing."
         ;;
