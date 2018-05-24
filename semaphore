@@ -9,6 +9,7 @@
 set -e
 set -x
 
+REGION=us-east-1
 TASK=$1
 
 case "$TASK" in
