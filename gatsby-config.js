@@ -9,10 +9,7 @@ require("dotenv").config({
 });
 
 module.exports = {
-  siteMetadata: {
-    siteUrl: 'https://itpro.tv',
-  },
-
+  
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',

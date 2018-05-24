@@ -21,7 +21,7 @@ case "$CMD" in
               MARKETING_ENV=production gatsby build --verbose
               ;;
           *)
-              echo "Insert evil laughter.. now doing.. rm -rf /"
+              echo "Not a branch for building, exiting"
               exit 1
               ;;
       esac;
