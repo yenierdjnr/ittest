@@ -20,14 +20,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/data/vLabs/`,
-
+        path: `${__dirname}/data/tags/`
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/data/tags/`
+        path: `${__dirname}/data/vLabs/`,
+
       }
     },
     {
