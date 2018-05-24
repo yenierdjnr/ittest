@@ -31,12 +31,14 @@ case "$TASK" in
   "deploy")
     case "$BRANCH_NAME" in
       "master")
+          docker network create itprotv_bridge
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-staging --delete
           ;;
 
       "production")
+          docker network create itprotv_bridge
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-production --delete
