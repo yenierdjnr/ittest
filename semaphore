@@ -31,11 +31,13 @@ case "$TASK" in
   "deploy")
     case "$BRANCH_NAME" in
       "master")
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-staging --delete
           ;;
 
       "production")
+          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-production --delete
           ;;
