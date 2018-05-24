@@ -5,7 +5,9 @@ require("dotenv").config({
 });
 
 module.exports = {
-
+  siteMetadata: {
+    siteUrl: `${process.env.SELF_URL}`,
+  },
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
