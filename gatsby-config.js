@@ -1,15 +1,11 @@
-let currentEnv = process.env.MARKETING_ENV;
-
-if (!currentEnv) {
-    currentEnv="development";
-}
+const currentEnv = process.env.MARKETING_ENV || 'development';
 
 require("dotenv").config({
     path: `.env.${currentEnv}`,
 });
 
 module.exports = {
-  
+
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
