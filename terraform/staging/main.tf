@@ -17,7 +17,7 @@ resource "aws_s3_bucket" "marketing-staging" {
   bucket = "itprotv-marketing-staging"
   region = "us-east-1"
   acl = "public-read"
-  website_domain = "itpro.tv"
+  website_domain = "new-staging.itpro.tv"
   website {
     index_document = "index.html"
   }
