@@ -33,9 +33,6 @@ $breakpoints: (
   max-width: 1024px;
   margin: 0;
   grid-column: 2 / 3;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: left;
@@ -44,6 +41,12 @@ $breakpoints: (
 .title {
   text-align: center;
   margin-bottom: 2.4rem;
+}
+
+.email {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.6rem;
 }
 
 
