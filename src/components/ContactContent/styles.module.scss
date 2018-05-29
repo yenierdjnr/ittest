@@ -122,7 +122,7 @@ $breakpoints: (
   }
 }
 
-.email, .tel {
+.link, .email, .tel {
   @include adelle-sans-regular;
   color: $color-orange-primary;
   font-size: 1.6rem;

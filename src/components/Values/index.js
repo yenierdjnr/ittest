@@ -15,7 +15,7 @@ const Values = props => {
       <ul className={ styles.listContainer }>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconSmiley />
+            <IconPeople />
             <Para className={ styles.value } color={ styles.offBlack }>We exist for our members</Para>
           </div>
         </li>
