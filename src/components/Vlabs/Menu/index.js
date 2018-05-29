@@ -21,7 +21,7 @@ class Menu extends Component {
           {categories.map((category, index) => (
               <li
                 key={category}
-                className={ `${styles.item} ${activeCategory == index && styles.active}`}
+                className={ `${styles.item} ${activeCategory === index ? styles.active : ''}`}
                 onClick={ this.handleClick(index) }
               >
                 <span>{category}</span>
