@@ -24,7 +24,7 @@ const Enterprise = ({ className='' }) => {
         <div className={ description }>
           <Hx className={ styles.title } color={ styles.orange } size="6">enterprise</Hx>
           <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Team Plan</Hx>
-          <span className={ perks }>Full ITProTV, OfficeProTV, DevProTV, & BizProTV course libraries</span>
+          <span className={ perks }>Full ITProTV, OfficeProTV, DevProTV, CreativePro, & BizProTV course libraries</span>
           <span className={ perks }>Virtual labs</span>
           <span className={ perks }>Practice exams</span>
         </div>
