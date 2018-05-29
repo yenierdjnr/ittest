@@ -9,10 +9,4 @@ if [ ! -f settings.env ]; then
   exit 1
 fi
 
-
-docker-compose run --rm terraform $@ \
-  remote config \
-  -backend=s3 \
-  -backend-config="bucket=itprotv-terraform-state" \
-  -backend-config="key=itprotv-marketing.tfstate" \
-  -backend-config="region=us-east-1"
+docker-compose run --rm terraform $@
