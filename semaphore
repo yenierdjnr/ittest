@@ -1,0 +1,56 @@
+#!/bin/sh
+
+# This is the build script that semaphore calls.
+# If you want to rename it, then you will need to
+# need change the job on semaphore. This could end
+# up with broken builds on branches and things.
+# Good luck.
+
+set -e
+set -x
+
+REGION=us-east-1
+TASK=$1
+
+case "$TASK" in
+  "setup")
+    docker network create itprotv_bridge
+    ;;
+
+  "build")
+      case "$BRANCH_NAME" in
+      "production")
+          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
+          ;;
+      *)
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
+          ;;
+      esac;
+    ;;
+
+  "deploy")
+    case "$BRANCH_NAME" in
+      "master")
+          docker network create itprotv_bridge
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-staging --delete
+          ;;
+
+      "production")
+          docker network create itprotv_bridge
+          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-production --delete
+          ;;
+
+
+      *) echo "Not a deployable branch, therefore not syncing."
+        ;;
+    esac;
+    ;;
+
+  *)
+    echo "Unknown semaphore script task: $TASK"
+    exit 1
+esac;

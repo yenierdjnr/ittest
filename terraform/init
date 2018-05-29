@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ ! -f settings.env ]; then
+  echo "No settings.env file exists. You need to configure these settings for terraform to work"
+  echo ""
+  echo "Run: cp settings.env.template settings.env"
+  echo ""
+  echo "And then edit the file to put in your creds"
+  exit 1
+fi
+
+
+docker-compose run --rm terraform $@ \
+  remote config \
+  -backend=s3 \
+  -backend-config="bucket=itprotv-terraform-state" \
+  -backend-config="key=itprotv-marketing.tfstate" \
+  -backend-config="region=us-east-1"

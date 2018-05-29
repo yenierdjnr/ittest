@@ -1,0 +1,46 @@
+#!/bin/bash
+
+if [ ! -f settings.env ]; then
+  echo "No settings.env file exists. You need to configure these settings for terraform to work"
+  echo ""
+  echo "Run: cp settings.env.template settings.env"
+  echo ""
+  echo "And then edit the file to put in your creds"
+  exit 1
+fi
+
+if [ ! -f .terraform/terraform.tfstate ]; then
+  echo "No .terraform/terraform.tfstate file exists. It looks like you are running without having setup remote state."
+  echo "This is very dangerous, so I'm going to bail out."
+  echo
+  echo "Try ./init"
+  exit 1
+fi
+
+set -e
+
+if [ $1 == "--latest-shas" ]; then
+  shift
+
+  STAGING_SHA=$(git show-ref --verify -s refs/remotes/origin/master)
+  PROD_SHA=$(git show-ref --verify -s refs/remotes/origin/production)
+
+  staging="{tag=\"$STAGING_SHA\"}"
+  prod="{tag=\"$PROD_SHA\"}"
+
+  echo ""
+  echo "*********************************************************"
+  echo "* You asked for the latest shas to be used. Based on    *"
+  echo "* your git repo, it looks like these are:               *"
+  echo "*                                                       *"
+  echo "* Staging SHA: $STAGING_SHA *"
+  echo "* Prod SHA:    $PROD_SHA *"
+  echo "*********************************************************"
+  echo ""
+fi;
+
+docker-compose \
+  run --rm \
+  -e TF_VAR_staging="$staging" \
+  -e TF_VAR_production="$prod" \
+  terraform $@

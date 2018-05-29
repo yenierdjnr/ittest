@@ -1,7 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
-  "license": "MIT",
+  "name": "ITPro.tv",
+  "description": "ITPro.tv for IT professionals",
+  "license": "UNLICENSED",
+  "private": true,
   "browserslist": [
     "ie >= 11",
     "firefox >= 57",
@@ -16,7 +17,9 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "dotenv": "^5.0.1",
     "gatsby": "^1.9.241",
+    "gatsby-cli": "^1.1.52",
     "gatsby-image": "^1.0.42",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-favicon": "^2.1.1",

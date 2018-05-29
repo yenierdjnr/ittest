@@ -1,0 +1,75 @@
+@import '~Styles/main';
+
+:export {
+  greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
+  lightGrey: $color-grey-secondary;
+}
+
+$breakpoints: (
+  'tablet': $tablet,
+  'phablet': $phablet,
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
+);
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding: 5,6rem 0 6.8rem;
+  margin-top: -1.5rem;
+}
+
+.subtitle {
+  grid-column: 2 / 3;
+  @include proxima-semi-bold;
+  font-size: 3.6rem;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.wrapper {
+  grid-column: 2 / 3;
+  display: grid;
+  flex-wrap: row nowrap;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+
+.content {
+  grid-column: 3 / 4;
+  padding: 0 2rem;
+}
+
+.bio {
+  margin: 0.5rem 0;
+}
+
+.headshot {
+  width: 200px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.8rem;
+  padding-top: 4px;
+}
+
+
+@include media('<phablet') {
+  .wrapper {
+    display: inline;
+  }
+  .headshot {
+    display: block;
+    margin: auto;
+  }
+  .name {
+    text-align: center;
+  }
+}

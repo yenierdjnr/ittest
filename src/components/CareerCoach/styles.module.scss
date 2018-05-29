@@ -1,0 +1,89 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
+);
+
+:export {
+  offBlack: $color-offblack;
+  darkGrey: $color-grey-dark;
+}
+
+.container {
+  padding: 42px 0;
+  background-color: #F4F4F7;
+}
+
+.content {
+  max-width: 1024px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: auto, auto, 1fr, auto;
+  grid-gap: 3rem;
+}
+
+.details {
+  grid-column: 1 / 2;
+}
+
+.button {
+  grid-column: 3 / 4;
+  display: flex;
+  justify-content: center;
+}
+
+.premium {
+  grid-column: 1 / 4;
+  margin-top: 2rem;
+}
+
+
+@include media('<tablet') {
+  .content {
+    flex-flow: column nowrap;
+  }
+
+  .content {
+    padding: 0 4rem;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+  .details {
+    grid-column: 1 / -1;
+  }
+
+  .button {
+    grid-column: 1 / -1;
+  }
+}
+
+@include media('<lower-tablet') {
+  .container {
+    padding: 6.4rem 0 6.5rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+}
+
+
+@include media('<lower-phone') {
+  .content {
+    max-width: 32rem;
+  }
+}

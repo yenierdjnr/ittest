@@ -16,16 +16,22 @@ const Footer = () => {
             <span className={ styles['page-footer__menu-title'] }>company</span>
             <ul>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">about</a>
+                <a href="/about/">about</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">plan & pricing</a>
+                <a href="/hosts/">hosts</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
+                <a href="/team/">team</a>
+              </li>
+              <li className={ styles['page-footer__menu-item'] }>
+                <a href="/plans/">plans & pricing</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
                 <a href="#">getting started</a>
               </li>
               <li className={ styles['page-footer__menu-item'] }>
-                <a href="#">career resources</a>
+                <a href="/career-resources/">career resources</a>
               </li>
             </ul>
           </nav>
@@ -33,30 +39,31 @@ const Footer = () => {
               <span className={ styles['page-footer__menu-title'] }>support</span>
               <ul>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">terms & privacy</a>
+                  <a href="/eula/">EULA</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">accessibility</a>
+                  <a href="/accessibility/">accessibility</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">FAQ</a>
+                  <a href="https://help.itpro.tv/" target="_blank">FAQ</a>
                 </li>
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">Q&A</a>
+                  <a href="https://forums.itpro.tv/" target="_blank">Q&A</a>
                 </li>
-                <li className={ styles['page-footer__menu-item'] }>
+                {/*}<li className={ styles['page-footer__menu-item'] }>
                   <a href="#">blog</a>
-                </li>
+                </li>*/}
                 <li className={ styles['page-footer__menu-item'] }>
-                  <a href="#">government</a>
+                  <a href="/government/">government</a>
                 </li>
               </ul>
           </nav>
           <div className={ styles['page-footer__menu'] }>
             <span className={ styles['page-footer__contact-info-title'] }>contact</span>
             <address className={ styles['page-footer__address'] }>7525 NW 4th Blvd<br/>Gainesville, FL 32607</address>
-            <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352.600.6900</a>
-            <a className={ styles['page-footer__email'] } href="support@itpro.tv">support@itpro.tv</a>
+            <a className={ styles['page-footer__tel'] } href="tel:+13526006900">352-600-6900</a>
+            <a className={ styles['page-footer__email'] } href="mailto:support@itpro.tv">support@itpro.tv</a>
+            <a className={ styles['page-footer__contact'] } href="/contact/">Contact Us</a>
           </div>
         </div>
       </div>

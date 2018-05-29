@@ -1,8 +1,13 @@
+const currentEnv = process.env.MARKETING_ENV || 'development';
+
+require("dotenv").config({
+    path: `.env.${currentEnv}`,
+});
+
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://itpro.tv',
+    siteUrl: `${process.env.SELF_URL}`,
   },
-
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
@@ -20,7 +25,34 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/data/vLabs/`,
+
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/data/tags/`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/careerPaths/`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/getCertified/`,
+
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/itResources/`,
+
       }
     },
     {

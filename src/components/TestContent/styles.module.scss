@@ -1,0 +1,80 @@
+@import '~Styles/main';
+
+:export {
+  greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
+}
+$breakpoints: (
+  'tablet': $tablet,
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone,
+  'small-phone': $small-phone
+);
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding: 2rem 0 6.8rem;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2 / 3;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 0 0 2rem;
+  width: 21rem;
+  text-align: center;
+  margin: 0 2.25rem;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0;
+  grid-column: 2 / 3;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  grid-column: 2 / 3;
+  margin: 2rem 0;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .content {
+    flex-flow: column nowrap;
+    margin: 1rem;
+  }
+
+}
+
+
+@include media('<=upper-phone') {
+  .content {
+    flex-flow: column nowrap;
+    margin: 1rem;
+  }
+}
+
+
+@include media('<=small-phone') {
+  .content {
+    flex-flow: column nowrap;
+    margin: 1rem;
+  }
+}

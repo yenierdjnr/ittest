@@ -4,7 +4,8 @@ import CSSTransition from 'react-transition-group/CSSTransition';
 
 import ViewportAction from './ViewportAction';
 
-export default class ViewportAnimation extends PureComponent {
+
+class ViewportAnimation extends PureComponent {
   constructor(props) {
     super(props);
 
@@ -16,16 +17,22 @@ export default class ViewportAnimation extends PureComponent {
   setVisible = () => this.setState({ visible: true })
 
   render() {
+    const { children } = this.props;
+    const { visible } = this.state;
+
     return (
-      <ViewportAction threshold={0} onChange={this.setVisible}>
+      <ViewportAction threshold={ 0 } onChange={ this.setVisible }>
         <CSSTransition
-          timeout={2000}
-          in={this.state.visible}
+          timeout={ 2000 }
+          in={ visible }
           classNames="fade-up-in"
         >
-          {this.props.children}
+          { children }
         </CSSTransition>
       </ViewportAction>
     );
   }
 }
+
+
+export default ViewportAnimation;

@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { withPrefix } from 'gatsby-link'
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -8,17 +7,11 @@ import { IconArrowRight } from 'Elements/Icons';
 import imageLabs from 'Images/labs.svg';
 import styles from '../styles.module.scss';
 
-export default class Labs extends PureComponent {
 
-  componentDidMount(){
-    if (typeof document !== 'undefined') {
-      const scriptElem =  document.createElement('script');
-      scriptElem.src = withPrefix('animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js');
-      document.head.appendChild(scriptElem);
-    }
-  }
+class Labs extends PureComponent {
   render() {
     const { className } = this.props;
+
     return (
       <div className={ `${className} ${styles.container}` }>
         <div className={ `${styles['info']} ${styles['info--flip']}` }>
@@ -36,3 +29,6 @@ export default class Labs extends PureComponent {
     );
   }
 }
+
+
+export default Labs;
