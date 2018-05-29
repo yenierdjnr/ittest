@@ -21,7 +21,7 @@ const CareerCoach = ({ className='' }) => {
         </div>
         <div className={ styles.premium }>
           <Para className={ styles.summary } color={ styles.darkGrey } size="2">Already a Pemium ITProTV member?</Para>
-          <TextLink className={ styles['menu-link'] } to="https://itpro.tv/career-resources/appointment-scheduler">Schedule a career coaching appointment today</TextLink>
+          <TextLink className={ styles['menu-link'] } to={`${process.env.SELF_URL}/career-resources/appointment-scheduler`}>Schedule a career coaching appointment today</TextLink>
         </div>
       </div>
     </section>

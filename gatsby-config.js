@@ -1,8 +1,13 @@
+const currentEnv = process.env.MARKETING_ENV || 'development';
+
+require("dotenv").config({
+    path: `.env.${currentEnv}`,
+});
+
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://itpro.tv',
+    siteUrl: `${process.env.SELF_URL}`,
   },
-
   plugins: [
     'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
