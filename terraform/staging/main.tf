@@ -31,13 +31,13 @@ resource "aws_s3_bucket_policy" "marketing-staging-policy" {
 {
   "Version": "2012-10-17",
   "Id": "MARKETINGSTAGINGPOLICY",
-  "Statement": [
+  "Statement":[
     {
       "Sid": "PublicRead",
       "Effect": "Allow",
       "Principal": "*",
-      "Action": ["s3:GetObject"],
-      "Resource": "arn:aws:s3:::itprotv-marketing-staging/*"
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::itprotv-marketing-staging/*"]
     }
   ]
 }
