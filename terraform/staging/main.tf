@@ -3,19 +3,19 @@
 #   name = "itpro.tv."
 # }
 
-# resource "aws_route53_record" "marketing-staging" {
+# resource "aws_route53_record" "staging_dns" {
 #   zone_id = "${data.aws_route53_zone.itpro_tv.id}"
 #   name = "new-staging.itpro.tv"
 #   type = "A"
 #   alias {
-#     name = "${aws_s3_bucket.marketing-staging.website_domain}"
-#     zone_id = "${aws_s3_bucket.marketing-staging.hosted_zone_id}"
+#     name = "${aws_s3_bucket.staging_bucket.website_domain}"
+#     zone_id = "${aws_s3_bucket.staging_bucket.hosted_zone_id}"
 #     evaluate_target_health = false
 #   }
 # }
 
-resource "aws_s3_bucket" "marketing-staging" {
-  bucket = "itprotv-marketing-staging"
+resource "aws_s3_bucket" "staging_bucket" {
+  bucket = "new-staging.itpro.tv"
   region = "us-east-1"
   acl = "public-read"
   website_domain = "new-staging.itpro.tv"
@@ -26,7 +26,7 @@ resource "aws_s3_bucket" "marketing-staging" {
 }
 
 resource "aws_s3_bucket_policy" "marketing-staging-policy" {
-  bucket = "${aws_s3_bucket.marketing-staging.id}"
+  bucket = "${aws_s3_bucket.staging_bucket.id}"
   policy =<<POLICY
 {
   "Version": "2012-10-17",
@@ -37,7 +37,7 @@ resource "aws_s3_bucket_policy" "marketing-staging-policy" {
       "Effect": "Allow",
       "Principal": "*",
       "Action":["s3:GetObject"],
-      "Resource":["arn:aws:s3:::itprotv-marketing-staging/*"]
+      "Resource":["arn:aws:s3:::new-staging.itpro.tv/*"]
     }
   ]
 }

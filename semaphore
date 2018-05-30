@@ -34,7 +34,7 @@ case "$TASK" in
           docker network create itprotv_bridge
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up
           aws --region="$REGION" \
-              s3 sync public s3://itprotv-marketing-staging --delete
+              s3 sync public s3://new-staging.itpro.tv --delete
           ;;
 
       "production")
