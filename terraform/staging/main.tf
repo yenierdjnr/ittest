@@ -14,13 +14,32 @@
 #   }
 # }
 
-# resource "aws_s3_bucket" "marketing-staging" {
-#   bucket = "itprotv-marketing-staging"
-#   region = "us-east-1"
-#   acl = "public-read"
-#   website_domain = "new-staging.itpro.tv"
-#   website {
-#     index_document = "index.html"
-#   }
+resource "aws_s3_bucket" "marketing-staging" {
+  bucket = "itprotv-marketing-staging"
+  region = "us-east-1"
+  acl = "public-read"
+  website_domain = "new-staging.itpro.tv"
+  website {
+    index_document = "index.html"
+  }
 
-# }
+}
+
+resource "aws_s3_bucket_policy" "marketing-staging-policy" {
+  bucket = "${aws_s3_bucket.marketing-staging.id}"
+  policy =<<POLICY
+{
+  "Version": "2012-10-17",
+  "Id": "MARKETINGSTAGINGPOLICY",
+  "Statement": [
+    {
+      "Sid": "PublicRead",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": ["s3:GetObject"],
+      "Resource": "arn:aws:s3:::itprotv-marketing-staging/*"
+    }
+  ]
+}
+POLICY
+}
