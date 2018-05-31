@@ -18,7 +18,7 @@ const CourseCategory = ({ data, ...rest }) => (
 
 
     <section className={ styles.Hero }>
-      <Hero title={ data.category.tagname }/>
+      <Hero title={ data.category.tagname } description={ data.category.contentFull }/>
     </section>
 
     <section className={ styles.Courses }>

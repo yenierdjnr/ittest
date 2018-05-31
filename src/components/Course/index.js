@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 
-import { CourseCategoryHero as Hero } from 'Components/Hero'
+import { CoursePageHero as Hero } from 'Components/Hero'
 import styles from './styles.module.scss';
 
 
@@ -17,7 +17,7 @@ const CoursePage = ({ data, ...rest }) => (
 
 
     <section className={ styles.Hero }>
-      <Hero title={ data.course.name }/>
+      <Hero title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } />
     </section>
 
   </main>
@@ -30,6 +30,7 @@ export const pageQuery = graphql`
     course: coursesJson {
       id
       name
+      subtitle
       description
       descriptionMD
       length
