@@ -67,6 +67,13 @@ const metaData = {
     description: '',
     canonical: `${process.env.SELF_URL}/eula/`
   },
+  '/privacy/': {
+    page: 'privacyPolicy',
+    path: '/privacy/',
+    title: 'Privacy | Protecting your privacy on ITProTV',
+    description: '',
+    canonical: `${process.env.SELF_URL}/privacy/`
+  },
   '/about/': {
     page: 'about',
     path: '/about/',
