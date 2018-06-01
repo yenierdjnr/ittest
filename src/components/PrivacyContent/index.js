@@ -52,7 +52,7 @@ const PrivacyContent = props => {
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Terms and Conditions</Hx>
 
-      <Para className={ styles.content } color={ styles.greyDark } >Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at <a className={ styles['link'] } href="https://itpro.tv/eula/"> https://www.itpro.tv/eula/.
+      <Para className={ styles.content } color={ styles.greyDark } >Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at <a className={ styles['link'] } href="https://itpro.tv/eula/"> https://www.itpro.tv/eula/
       </a>.</Para>
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Your Consent</Hx>
