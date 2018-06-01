@@ -8,9 +8,6 @@ import Para from 'Elements/Para';
 const PrivacyContent = props => {
   return (
     <section className={ styles.container }>
-
-      <Hx className={ styles.subtitle } color={ styles.offBlack }>Privacy Policy</Hx>
-
       <Para className={ styles.content } color={ styles.greyDark } >At ITProTV, we value the privacy and security of your personal information, and are committed to the fair and transparent processing of your information. This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage and delete your information.</Para>
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>What information do we collect?</Hx>
@@ -55,7 +52,8 @@ const PrivacyContent = props => {
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Terms and Conditions</Hx>
 
-      <Para className={ styles.content } color={ styles.greyDark } >Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website on <a className={ styles['link'] } href="https://itpro.tv/eula/">ITProTV's EULA page</a>.</Para>
+      <Para className={ styles.content } color={ styles.greyDark } >Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at <a className={ styles['link'] } href="https://itpro.tv/eula/"> https://www.itpro.tv/eula/.
+      </a>.</Para>
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Your Consent</Hx>
 
