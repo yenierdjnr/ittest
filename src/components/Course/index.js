@@ -17,7 +17,13 @@ const CoursePage = ({ data, ...rest }) => (
 
 
     <section className={ styles.Hero }>
-      <Hero title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } />
+      <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } />
+    </section>
+
+    <section className={ styles.pageView }>
+
+      <div className={ styles.episodeDetails }>
+      </div>
     </section>
 
   </main>
@@ -26,14 +32,15 @@ const CoursePage = ({ data, ...rest }) => (
 export default CoursePage;
 
 export const pageQuery = graphql`
-  query CourseByPath {
-    course: coursesJson {
+  query CourseByPath($courseUrl: String) {
+    course: coursesJson(url: {eq: $courseUrl}) {
       id
       name
       subtitle
       description
       descriptionMD
       length
+      tagUrl
       topics {
         title
       }

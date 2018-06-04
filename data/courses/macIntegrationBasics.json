@@ -6,18 +6,39 @@
 	"descriptionMD": "sample meta data description",
 	"length": "21966",
 	"url": "mac-integration-basics",
+	"tagUrl": "apple",
 	"vLab": true,
 	"practiceExam": true,
 	"topics": [
 		{
 			"title": "Overview of Mac Integration Basics",
 			"id": "54c2920be10805157000057e",
-			"order": 1
+			"order": 0,
+			"episodes": [
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				},
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				}
+			]
 		},
 		{
 			"title": "Network Accounts",
 			"id": "54c2920be10805157000057f",
-			"order": 2
+			"order": 1,
+			"episodes": [
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				},
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				}
+			]
 		}
 	]
 }

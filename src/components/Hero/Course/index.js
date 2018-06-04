@@ -22,9 +22,9 @@ const CoursePageHero = props => {
   return (
     <section className={ styles.container }>
       <div className={ styles.intro }>
-        <Link to="/courses/" className={ styles.navigation }>
+        <Link to={`/courses/${props.tagUrl}`} className={ styles.navigation }>
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
-          backlink
+          {props.tagUrl}
         </Link>
         <Hx className={ styles.title } size="2">{props.title}</Hx>
         <Para className={ styles.subtitle }>
@@ -42,12 +42,3 @@ const CoursePageHero = props => {
 
 
 export default CoursePageHero;
-
-export const pageQuery = graphql`
-  query GetTagByPath($url: String) {
-    category: tagsJson(url: {eq: $url}) {
-      tagname
-      url
-    }
-  }
-`;

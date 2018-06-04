@@ -6,18 +6,39 @@
 	"descriptionMD": "sample meta data description",
 	"length": "77640",
 	"url": "ccent2017",
+	"tagUrl": "cisco",
 	"vLab": true,
 	"practiceExam": true,
 	"topics": [
 		{
 			"title": "Network Fundamentals",
 			"id": "577d4c78b8bdb1070007e72e",
-			"order": 1
+			"order": 0,
+			"episodes": [
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				},
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				}
+			]
 		},
 		{
 			"title": "LAN Switching Fundamentals",
 			"id": "577d4cb3b8bdb1070007e736",
-			"order": 2
+			"order": 1,
+			"episodes": [
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				},
+				{
+					"title": "title of episode",
+					"description": "description of episode"
+				}
+			]
 		}
 	]
 }
