@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 
 import { CoursePageHero as Hero } from 'Components/Hero'
+import { CourseTopic } from 'Elements/Flags'
 import styles from './styles.module.scss';
 
 
@@ -21,7 +22,17 @@ const CoursePage = ({ data, ...rest }) => (
     </section>
 
     <section className={ styles.pageView }>
-
+      <div>
+        <ul className={ styles.list }>
+          {data.course.topics.map(topic => (
+            <CourseTopic
+              key={ topic.id }
+              title={ topic.title }
+              episodes={ topic.episodes }
+            />
+          ))}
+        </ul>
+      </div>
       <div className={ styles.episodeDetails }>
       </div>
     </section>
@@ -42,7 +53,12 @@ export const pageQuery = graphql`
       length
       tagUrl
       topics {
+        id
         title
+        episodes {
+          id
+          title
+        }
       }
     }
   }
