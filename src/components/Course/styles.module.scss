@@ -6,7 +6,11 @@ $breakpoints: (
   'lower-phone': $lower-phone
 );
 
-.category {
+:export {
+  greyDark: $color-grey-dark;
+}
+
+.coursePage {
   grid-area: main;
 
   display: grid;
@@ -19,33 +23,30 @@ $breakpoints: (
   grid-row: 1 / 2;
 }
 
-.Courses {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-
-  padding: 4.8rem 0 6.6rem;
-
+.container {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  grid-column: 1 / -1;
 }
 
-.list {
+.details {
   grid-column: 2 / 3;
-  display: flex;
-  flex-flow: column nowrap;
+  display: grid;
+  grid-template-columns: 500px auto;
 
-  & li {
-    &:not(:last-child) {
-      margin-bottom: 1.6rem;
-    }
-  }
 }
 
+.courseDetails {
+  background-color: #f9f9fb;
+  grid-column: 1 / 2;
+}
+
+.episodeDetails {
+  grid-column: 2 / 3;
+}
 
 @include media('<lower-tablet') {
-  .Courses {
-    padding: 3.6rem 1.6rem 5.4rem;
-  }
+
 }
 
 @include media('<lower-phone') {

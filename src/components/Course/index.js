@@ -2,13 +2,14 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 
-import { CoursePageHero as Hero } from 'Components/Hero'
-import { CourseTopic } from 'Elements/Flags'
-import { CourseExtras } from 'Elements/Flags'
+import { CoursePageHero as Hero } from 'Components/Hero';
+import { CourseTopic } from 'Elements/Flags';
+import { CourseExtras } from 'Elements/Flags';
+import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 
 const CoursePage = ({ data, ...rest }) => (
-  <main className={ styles.category }>
+  <main className={ styles.coursePage }>
 
     <Helmet>
       <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
@@ -21,20 +22,25 @@ const CoursePage = ({ data, ...rest }) => (
       <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } />
     </section>
 
-    <section className={ styles.pageView }>
-      <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } />
-      <div>
-        <ul className={ styles.list }>
-          {data.course.topics.map(topic => (
-            <CourseTopic
-              key={ topic.id }
-              title={ topic.title }
-              episodes={ topic.episodes }
-            />
-          ))}
-        </ul>
-      </div>
-      <div className={ styles.episodeDetails }>
+    <section className={ styles.container }>
+      <div className={ styles.details }>
+        <div className={ styles.courseDetails }>
+          <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
+          <div className={ styles.episodes }>
+            <ul className={ styles.list }>
+              {data.course.topics.map(topic => (
+                <CourseTopic
+                  key={ topic.id }
+                  title={ topic.title }
+                  episodes={ topic.episodes }
+                />
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className={ styles.episodeDetails }>
+          <Para color={ styles.greyDark }>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Para>
+        </div>
       </div>
     </section>
 

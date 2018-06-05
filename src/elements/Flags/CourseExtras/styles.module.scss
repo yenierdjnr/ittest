@@ -24,37 +24,11 @@
   }
 }
 
-.title {
-  margin-bottom: 6px;
+.extras {
+  margin: 2rem 0;
 }
 
-.course {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-
-  & span {
-    color: $color-offblack;
-    @include adelle-sans-regular;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-
-  .length {
-    color: $color-grey-dark;
-  }
-}
-
-.name {
-  display: inline-block;
-  margin-right: 8px;
-
-  @include adelle-sans-bold;
-  line-height: 2.8rem;
-  text-transform: capitalize;
-}
-
-.icon {
-  margin-top: 5px;
+.para {
+  font-size: 1.3rem;
+  padding: 1rem 0;
 }
