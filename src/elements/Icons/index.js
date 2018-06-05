@@ -33,3 +33,5 @@ export { default as IconLightBulb } from './lightbulb';
 export { default as IconQuestionMark } from './question-mark';
 export { default as IconPhone} from './phone';
 export { default as IconBubbles} from './bubbles';
+export { default as IconPracticeExam} from './practice-exam';
+export { default as IconVirtualLab} from './virtual-lab';

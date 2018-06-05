@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 import { CoursePageHero as Hero } from 'Components/Hero'
 import { CourseTopic } from 'Elements/Flags'
+import { CourseExtras } from 'Elements/Flags'
 import styles from './styles.module.scss';
-
 
 const CoursePage = ({ data, ...rest }) => (
   <main className={ styles.category }>
@@ -22,6 +22,7 @@ const CoursePage = ({ data, ...rest }) => (
     </section>
 
     <section className={ styles.pageView }>
+      <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } />
       <div>
         <ul className={ styles.list }>
           {data.course.topics.map(topic => (
@@ -52,6 +53,8 @@ export const pageQuery = graphql`
       descriptionMD
       length
       tagUrl
+      vLab
+      practiceExam
       topics {
         id
         title

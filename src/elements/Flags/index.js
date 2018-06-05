@@ -6,3 +6,4 @@ export { default as CareerPathCourses } from './CareerPathCourses';
 export { default as Resource } from './Resource';
 export { default as Labs } from './Labs';
 export { default as CourseTopic } from './CourseTopic';
+export { default as CourseExtras } from './CourseExtras';
