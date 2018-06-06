@@ -38,22 +38,51 @@ $breakpoints: (
 .details {
   grid-column: 2 / 3;
   display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 375px auto;
 
 }
 
 .courseDetails {
   background-color: #f9f9fb;
   grid-column: 1 / 2;
+  .title {
+    text-transform: uppercase;
+  }
 }
 
 .episodeDetails {
   grid-column: 2 / 3;
+  padding: 3rem 2rem;
+  .title {
+    text-transform: capitalize;
+    padding: 0 1rem 0;
+  }
+  .length {
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    color: $color-grey-dark;
+  }
+  .summary {
+    font-size: 1.6rem;
+    padding: 1rem 0 2rem 0;
+  }
+  .overlay {
+    position: relative;
+    float: left;
+  }
+  .overlay:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(4,2,43,.6);
+  }
 }
 
-.title {
-  text-transform: uppercase;
-}
+
 
 @include media('<lower-tablet') {
 

@@ -63,7 +63,11 @@ class CoursePage extends Component {
               </div>
             </div>
             <div className={ styles.episodeDetails }>
-              <Para color={ styles.greyDark }>{ data.course.topics[topicIndex].episodes[episodeIndex].description }</Para>
+              <Hx className={ styles.title } size="4" color={ styles.offBlack }>{ data.course.topics[topicIndex].episodes[episodeIndex].title } <span className={ styles.length }>{ data.course.topics[topicIndex].episodes[episodeIndex].length }</span></Hx>
+              <Para className={ styles.summary } color={ styles.greyDark }>{ data.course.topics[topicIndex].episodes[episodeIndex].description }</Para>
+              <div className={ styles.overlay }>
+                <img src={`${data.course.topics[topicIndex].episodes[episodeIndex].thumbnail}`} width="100%" />
+              </div>
             </div>
           </div>
         </section>
@@ -94,6 +98,10 @@ export const pageQuery = graphql`
           id
           title
           description
+          length
+          thumbnail
+          thumbnailSm
+          thumbnailMed
         }
       }
     }
