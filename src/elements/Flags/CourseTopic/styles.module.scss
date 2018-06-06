@@ -7,54 +7,24 @@
 }
 
 .container {
-  display: block;
-  padding: 21px 16px 20px;
   text-align: left;
-
-  border: 1px solid #E4E8EC;
-  box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
-  border-bottom: 2px solid $color-blue-dark;
-  background-color: $color-white;
-
-  transition: transform 250ms;
-  cursor: pointer;
-
-  &:hover {
-    transform: translateY(-2px);
-  }
+  @include proxima-semi-bold;
 }
 
 .title {
-  margin-bottom: 6px;
+  font-size: 1.6em;
+  color: $color-grey-dark;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
 }
 
-.course {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-
-  & span {
-    color: $color-offblack;
-    @include adelle-sans-regular;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-
-  .length {
-    color: $color-grey-dark;
-  }
+.episodes {
+  padding-top: .5rem;
 }
 
-.name {
-  display: inline-block;
-  margin-right: 8px;
-
-  @include adelle-sans-bold;
-  line-height: 2.8rem;
+.episode {
   text-transform: capitalize;
-}
-
-.icon {
-  margin-top: 5px;
+  padding: .5rem 0;
+  cursor: pointer;
+  color: $color-orange-primary;
 }

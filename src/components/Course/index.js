@@ -6,6 +6,7 @@ import { CoursePageHero as Hero } from 'Components/Hero';
 import { CourseTopic } from 'Elements/Flags';
 import { CourseExtras } from 'Elements/Flags';
 import Para from 'Elements/Para';
+import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
 
 const CoursePage = ({ data, ...rest }) => (
@@ -23,10 +24,12 @@ const CoursePage = ({ data, ...rest }) => (
     </section>
 
     <section className={ styles.container }>
+      <div className={ styles.sidebar }></div>
       <div className={ styles.details }>
         <div className={ styles.courseDetails }>
           <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
-          <div className={ styles.episodes }>
+          <div className={ styles.episode }>
+            <Hx className={ styles.title } size="5" color={ styles.offBlack }>Episodes</Hx>
             <ul className={ styles.list }>
               {data.course.topics.map(topic => (
                 <CourseTopic

@@ -4,14 +4,14 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 
 
-const CourseTopic = ({ className='', title='Topic Title', episodes=[] }) => {
+const CourseTopic = ({ className= '', title='Topic Title', episodes=[] }) => {
   return (
-    <li className={ `${className} ${styles.container}` }>
+    <li className={ `${styles.title} ${className} ${styles.container}` }>
       { title }
-      <ul>
+      <ul className={ styles.episodes }>
       { episodes.map(episode => {
         return(
-          <li key={ episode.id } >
+          <li key={ episode.id } className={ styles.episode } >
           { episode.title }
           </li>
         )

@@ -8,6 +8,7 @@ $breakpoints: (
 
 :export {
   greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
 }
 
 .coursePage {
@@ -29,6 +30,11 @@ $breakpoints: (
   grid-column: 1 / -1;
 }
 
+.sidebar {
+  grid-column: 1 / 2;
+  background-color: #f9f9fb;
+}
+
 .details {
   grid-column: 2 / 3;
   display: grid;
@@ -43,6 +49,10 @@ $breakpoints: (
 
 .episodeDetails {
   grid-column: 2 / 3;
+}
+
+.title {
+  text-transform: uppercase;
 }
 
 @include media('<lower-tablet') {
