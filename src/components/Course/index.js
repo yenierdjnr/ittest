@@ -10,8 +10,24 @@ import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
 
 class CoursePage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      topicIndex: 0,
+      episodeIndex: 0
+    };
+  }
+
+  handleEpisodeChange = (topicIndex, episodeIndex) => {
+    this.setState({
+      topicIndex, episodeIndex
+    })
+  }
+
   render() {
     const { data, ...rest } = this.props;
+    const { topicIndex, episodeIndex } = this.state;
     return (
       <main className={ styles.coursePage }>
 
@@ -34,18 +50,20 @@ class CoursePage extends Component {
               <div className={ styles.episode }>
                 <Hx className={ styles.title } size="5" color={ styles.offBlack }>Episodes</Hx>
                 <ul className={ styles.list }>
-                  {data.course.topics.map(topic => (
+                  {data.course.topics.map((topic, index) => (
                     <CourseTopic
                       key={ topic.id }
                       title={ topic.title }
                       episodes={ topic.episodes }
+                      onEpisodeChange={ this.handleEpisodeChange }
+                      topicIndex={ index }
                     />
                   ))}
                 </ul>
               </div>
             </div>
             <div className={ styles.episodeDetails }>
-              <Para color={ styles.greyDark }>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Para>
+              <Para color={ styles.greyDark }>{ data.course.topics[topicIndex].episodes[episodeIndex].description }</Para>
             </div>
           </div>
         </section>
@@ -75,6 +93,7 @@ export const pageQuery = graphql`
         episodes {
           id
           title
+          description
         }
       }
     }
