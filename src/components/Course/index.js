@@ -73,6 +73,8 @@ class CoursePage extends Component {
               <CourseVideo
                 vimeoId={ data.course.topics[topicIndex].episodes[episodeIndex].vimeoId }
                 thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }
+                thumbnailMed={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailMed }
+                thumbnailSm={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailSm }
               />
             </div>
           </div>

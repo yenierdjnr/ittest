@@ -37,7 +37,9 @@ class CourseVideo extends Component {
 
     return (
       <div id="background-video" className={ styles['course-container'] } onClick={ this.handlePlay }>
-        <img src={ this.props.thumbnail } width="100%" />
+        <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" />
+        <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" />
+        <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
         <div id="vidwrap" className={ `${styles.courseVidwrap} ${showOpacity}` }></div>
         <IconPlay className={ styles['play-button'] } />
       </div>

@@ -98,6 +98,18 @@ $breakpoints: (
   height: 100%;
 }
 
+.thumbnail {
+  display: block;
+}
+
+.thumbnailMed {
+  display: none;
+}
+
+.thumbnailSm {
+  display: none;
+}
+
 @include media('>desktop') {
   .home-container {
     background-position: 100% 20%;
@@ -114,6 +126,17 @@ $breakpoints: (
   .course-iframe {
     width: 100%;
   }
+  .thumbnail {
+    display: none;
+  }
+
+  .thumbnailMed {
+    display: block;
+  }
+
+  .thumbnailSm {
+    display: none;
+  }
 }
 
 @include media('<phablet') {
@@ -127,5 +150,17 @@ $breakpoints: (
     & iframe {
       width: 100%;
     }
+  }
+
+  .thumbnail {
+    display: none;
+  }
+
+  .thumbnailMed {
+    display: none;
+  }
+
+  .thumbnailSm {
+    display: block;
   }
 }
