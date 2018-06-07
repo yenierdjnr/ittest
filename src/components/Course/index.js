@@ -6,6 +6,7 @@ import { CoursePageHero as Hero } from 'Components/Hero';
 import { CourseTopic } from 'Elements/Flags';
 import { CourseExtras } from 'Elements/Flags';
 import { CourseVideo } from 'Components/Videos';
+import EpisodeDetails from 'Components/EpisodeDetails';
 import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
@@ -63,9 +64,12 @@ class CoursePage extends Component {
                 </ul>
               </div>
             </div>
-            <div className={ styles.episodeDetails }>
-              <Hx className={ styles.title } size="4" color={ styles.offBlack }>{ data.course.topics[topicIndex].episodes[episodeIndex].title } <span className={ styles.length }>{ data.course.topics[topicIndex].episodes[episodeIndex].length }</span></Hx>
-              <Para className={ styles.summary } color={ styles.greyDark }>{ data.course.topics[topicIndex].episodes[episodeIndex].description }</Para>
+            <div className={ styles.episodeView }>
+              <EpisodeDetails
+                title={ data.course.topics[topicIndex].episodes[episodeIndex].title }
+                length={ data.course.topics[topicIndex].episodes[episodeIndex].length }
+                description={ data.course.topics[topicIndex].episodes[episodeIndex].description }
+              />
               <CourseVideo
                 vimeoId={ data.course.topics[topicIndex].episodes[episodeIndex].vimeoId }
                 thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }

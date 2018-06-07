@@ -32,7 +32,7 @@ const CoursePageHero = props => {
         </Para>
         <Para className={ styles.time }>
           {!!props.length &&
-            <span>{ courseLengthToString(props.length).join(', ') }</span>
+            <span>{ courseLengthToString(props.length).join(' ') }</span>
           }
         </Para>
       </div>

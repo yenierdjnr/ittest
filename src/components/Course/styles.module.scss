@@ -50,22 +50,8 @@ $breakpoints: (
   }
 }
 
-.episodeDetails {
+.EpisodeDetails {
   grid-column: 2 / 3;
-  padding: 3rem 2rem;
-  .title {
-    text-transform: capitalize;
-    padding: 0 1rem 0 0;
-  }
-  .length {
-    font-size: 1.6rem;
-    padding-left: 1rem;
-    color: $color-grey-dark;
-  }
-  .summary {
-    font-size: 1.6rem;
-    padding: 1rem 0 2rem 0;
-  }
 }
 
 
