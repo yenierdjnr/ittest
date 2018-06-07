@@ -55,7 +55,7 @@ $breakpoints: (
   padding: 3rem 2rem;
   .title {
     text-transform: capitalize;
-    padding: 0 1rem 0;
+    padding: 0 1rem 0 0;
   }
   .length {
     font-size: 1.6rem;
@@ -65,20 +65,6 @@ $breakpoints: (
   .summary {
     font-size: 1.6rem;
     padding: 1rem 0 2rem 0;
-  }
-  .overlay {
-    position: relative;
-    float: left;
-  }
-  .overlay:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(4,2,43,.6);
   }
 }
 

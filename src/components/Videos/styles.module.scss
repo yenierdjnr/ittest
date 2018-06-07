@@ -8,7 +8,7 @@ $breakpoints: (
   'phablet': $phablet
 );
 
-.home-container, .for-teams-container {
+.home-container, .for-teams-container, .course-container {
   height: 100%;
   position: relative;
 
@@ -29,6 +29,21 @@ $breakpoints: (
   margin: auto 0;
 }
 
+.course-container {
+  position: relative;
+  float: left;
+}
+.course-container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color-backdrop, 0.5);
+}
+
 .play-button {
   position: absolute;
   z-index: $z-video;
@@ -44,8 +59,28 @@ $breakpoints: (
   cursor:pointer;
 }
 
+.courseVidwrap {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  cursor:pointer;
+
+  & iframe {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 .vidwrap-opacity {
-  background: rgba($color-backdrop, 0.7);
+  background: rgba($color-backdrop, 0.5);
   overflow: hidden;
   height: 100%;
   z-index: 2;
@@ -57,14 +92,25 @@ $breakpoints: (
   height: 100%;
 }
 
+.course-iframe {
+  width: 70%;
+  height: 100%;
+}
+
 @include media('>desktop') {
   .home-container {
+    background-position: 100% 20%;
+  }
+  .course-container {
     background-position: 100% 20%;
   }
 }
 
 @include media('<tablet') {
   .home-iframe {
+    width: 100%;
+  }
+  .course-iframe {
     width: 100%;
   }
 }

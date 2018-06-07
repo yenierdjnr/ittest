@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { CoursePageHero as Hero } from 'Components/Hero';
 import { CourseTopic } from 'Elements/Flags';
 import { CourseExtras } from 'Elements/Flags';
+import { CourseVideo } from 'Components/Videos';
 import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
@@ -65,9 +66,10 @@ class CoursePage extends Component {
             <div className={ styles.episodeDetails }>
               <Hx className={ styles.title } size="4" color={ styles.offBlack }>{ data.course.topics[topicIndex].episodes[episodeIndex].title } <span className={ styles.length }>{ data.course.topics[topicIndex].episodes[episodeIndex].length }</span></Hx>
               <Para className={ styles.summary } color={ styles.greyDark }>{ data.course.topics[topicIndex].episodes[episodeIndex].description }</Para>
-              <div className={ styles.overlay }>
-                <img src={`${data.course.topics[topicIndex].episodes[episodeIndex].thumbnail}`} width="100%" />
-              </div>
+              <CourseVideo
+                vimeoId={ data.course.topics[topicIndex].episodes[episodeIndex].vimeoId }
+                thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }
+              />
             </div>
           </div>
         </section>
@@ -102,6 +104,7 @@ export const pageQuery = graphql`
           thumbnail
           thumbnailSm
           thumbnailMed
+          vimeoId
         }
       }
     }
