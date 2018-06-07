@@ -71,10 +71,12 @@ class CoursePage extends Component {
                 description={ data.course.topics[topicIndex].episodes[episodeIndex].description }
               />
               <CourseVideo
-                vimeoId={ data.course.topics[topicIndex].episodes[episodeIndex].vimeoId }
+                vimeoId={ data.course.topics[0].episodes[0].vimeoId }
                 thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }
                 thumbnailMed={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailMed }
                 thumbnailSm={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailSm }
+                episode={ data.course.topics[topicIndex].episodes[episodeIndex] }
+                overview={ data.course.topics[0].episodes[0] }
               />
             </div>
           </div>

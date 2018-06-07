@@ -110,6 +110,24 @@ $breakpoints: (
   display: none;
 }
 
+.banner {
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $color-orange-primary;
+  color: #ffffff;
+  font-size: 1.8rem;
+  a {
+    color: #ffffff;
+  }
+}
+
+.arrow {
+  fill: #ffffff;
+}
+
 @include media('>desktop') {
   .home-container {
     background-position: 100% 20%;
