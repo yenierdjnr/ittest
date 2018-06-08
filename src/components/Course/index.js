@@ -17,14 +17,21 @@ class CoursePage extends Component {
 
     this.state = {
       topicIndex: 0,
-      episodeIndex: 0
+      episodeIndex: 0,
+      showOpacity: ''
     };
   }
 
   handleEpisodeChange = (topicIndex, episodeIndex) => {
+
+    const vidWrap = document.getElementById('vidwrap');
+
     this.setState({
       topicIndex, episodeIndex
     })
+    return (
+      vidWrap.innerHTML = ``
+    )
   }
 
   render() {

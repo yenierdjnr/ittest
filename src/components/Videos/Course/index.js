@@ -8,16 +8,9 @@ import Hx from 'Elements/Hx';
 class CourseVideo extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      showOpacity: ''
-    };
   }
 
   handlePlay = e => {
-    if (this.state.showOpacity) {
-      return;
-    }
 
     const overview = this.props.overview;
     const episode = this.props.episode;
@@ -28,10 +21,6 @@ class CourseVideo extends Component {
     if (vidWrap && (episode === overview)) {
       vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
       playButton.style.display = 'none';
-
-      this.setState({
-        showOpacity: styles['vidwrap-opacity']
-      });
     } if (vidwrap && !overview) {
       vidWrap.innerHTML = ``;
     }
@@ -50,16 +39,15 @@ class CourseVideo extends Component {
   };
 
   render() {
-    const { showOpacity } = this.state;
 
     return (
       <div id="background-video" className={ styles['course-container'] } onClick={ this.handlePlay }>
         <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" />
         <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" />
         <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
-        <div id="vidwrap" className={ `${styles.courseVidwrap} ${showOpacity}` }></div>
-        { (this.props.episode === this.props.overview) && <IconPlay className={ styles['play-button'] } />}
+        <div id="vidwrap" className={styles.courseVidwrap}></div>
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
+        { (this.props.episode === this.props.overview) && <IconPlay className={ styles['play-button'] } />}
       </div>
     );
   }
