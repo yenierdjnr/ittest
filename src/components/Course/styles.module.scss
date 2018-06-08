@@ -54,6 +54,14 @@ $breakpoints: (
   grid-column: 2 / 3;
 }
 
+.CourseVideo {
+  grid-column: 2 / 3;
+}
+
+.EpisodeExtras {
+  grid-column: 2 / 3;
+}
+
 
 
 @include media('<lower-tablet') {

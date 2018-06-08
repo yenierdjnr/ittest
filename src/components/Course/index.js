@@ -7,6 +7,7 @@ import { CourseTopic } from 'Elements/Flags';
 import { CourseExtras } from 'Elements/Flags';
 import { CourseVideo } from 'Components/Videos';
 import EpisodeDetails from 'Components/EpisodeDetails';
+import EpisodeExtras from 'Components/EpisodeExtras';
 import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
@@ -85,6 +86,11 @@ class CoursePage extends Component {
                 episode={ data.course.topics[topicIndex].episodes[episodeIndex] }
                 overview={ data.course.topics[0].episodes[0] }
               />
+             <EpisodeExtras
+               transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
+               hasNotes={ data.course.topics[topicIndex].episodes[episodeIndex].hasNotes }
+               showNotes={ data.course.topics[topicIndex].episodes[episodeIndex].showNotes }
+              />
             </div>
           </div>
         </section>
@@ -120,6 +126,9 @@ export const pageQuery = graphql`
           thumbnailSm
           thumbnailMed
           vimeoId
+          transcript
+          hasNotes
+          showNotes
         }
       }
     }
