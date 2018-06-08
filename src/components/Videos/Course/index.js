@@ -58,7 +58,7 @@ class CourseVideo extends Component {
         <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" />
         <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
         <div id="vidwrap" className={ `${styles.courseVidwrap} ${showOpacity}` }></div>
-        <IconPlay className={ styles['play-button'] } />
+        { (this.props.episode === this.props.overview) && <IconPlay className={ styles['play-button'] } />}
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
       </div>
     );
