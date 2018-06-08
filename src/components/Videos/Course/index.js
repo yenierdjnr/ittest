@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from '../styles.module.scss';
 
 import { IconPlay, IconArrowRight } from 'Elements/Icons';
-import Para from 'Elements/Para';
+import Hx from 'Elements/Hx';
 
 
 class CourseVideo extends Component {
@@ -19,29 +19,33 @@ class CourseVideo extends Component {
       return;
     }
 
+    const overview = this.props.overview;
+    const episode = this.props.episode;
     const vidWrap = document.getElementById('vidwrap');
     const playButton = document.getElementsByClassName(styles['play-button'])[0];
     const courseiFrame = styles['course-iframe'];
 
-    if (vidWrap) {
+    if (vidWrap && (episode === overview)) {
       vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
       playButton.style.display = 'none';
 
       this.setState({
         showOpacity: styles['vidwrap-opacity']
       });
+    } if (vidwrap && !overview) {
+      vidWrap.innerHTML = ``;
     }
   };
 
   showBanner = () => {
 
-    const overview = this.props.overview
-    const episode = this.props.episode
+    const overview = this.props.overview;
+    const episode = this.props.episode;
 
-    if (this.props.episode === this.props.overview) {
-      return <Para>Free Preview</Para>
+    if (episode === overview) {
+      return <Hx size="6" className={ styles.bannerText }>Free Preview</Hx>
     } else {
-      return <Para><a href="https://itpro.tv/plans/">Join now to access this course &nbsp;<IconArrowRight className={ styles.arrow } /></a></Para>
+      return <Hx size="6" className={ styles.bannerText }><a href="https://itpro.tv/plans/">Join now to access this course &nbsp;<IconArrowRight className={ styles.arrow } /></a></Hx>
     }
   };
 
@@ -54,8 +58,8 @@ class CourseVideo extends Component {
         <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" />
         <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
         <div id="vidwrap" className={ `${styles.courseVidwrap} ${showOpacity}` }></div>
-        <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
         <IconPlay className={ styles['play-button'] } />
+        <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
       </div>
     );
   }
