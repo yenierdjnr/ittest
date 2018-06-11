@@ -5,14 +5,24 @@ import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 
 
-const EpisodeExtras = props => {
+const EpisodeExtras = ({ data, onContentToggle, transcript, showNotes, extras }) => {
 
   return (
     <section className={ styles.episodeExtras }>
-      <Hx className={ styles.title } size="4" color={ styles.offBlack }>Transcript</Hx>
-      { props.hasNotes && <Hx className={ styles.title } size="4" color={ styles.offBlack }>Show Notes</Hx> }
-      <Para className={ styles.summary } color={ styles.greyDark }>{ props.transcript }</Para>
-      <Para className={ styles.summary } color={ styles.greyDark }>{ props.showNotes }</Para>
+      <ul className={ styles.extrasMenu }>
+        <li className={ extras === 'transcript' ? styles.active : styles.greyDark } onClick={ () => onContentToggle() }>
+          Transcript
+        </li>
+        <li className={ extras === 'notes' ? styles.active : styles.greyDark } onClick={ () => onContentToggle() }>
+          { showNotes && <span size="4">Show Notes</span> }
+        </li>
+      </ul>
+      <div className={ styles.extrasContainer }>
+        { extras === 'transcript' && <Para color={ styles.greyDark } className={ styles.summary }>{ transcript }</Para>}
+      </div>
+      <div className={ styles.extrasContainer }>
+        { extras === 'notes' && <Para color={ styles.greyDark } className={ styles.summary }>{ showNotes }</Para>}
+      </div>
     </section>
   );
 };

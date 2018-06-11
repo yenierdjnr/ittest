@@ -32,7 +32,7 @@ $breakpoints: (
 
 .sidebar {
   grid-column: 1 / 2;
-  background-color: #f9f9fb;
+  background-color: $color-offwhite;
 }
 
 .details {
@@ -43,7 +43,7 @@ $breakpoints: (
 }
 
 .courseDetails {
-  background-color: #f9f9fb;
+  background-color: $color-offwhite;
   grid-column: 1 / 2;
   .title {
     text-transform: uppercase;

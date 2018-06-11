@@ -6,15 +6,33 @@
 }
 
 .episodeExtras {
-  padding: 3rem 2rem;
+  clear: both;
+  margin: 2rem;
+  background-color: $color-offwhite;
 }
 
-.title {
-  text-transform: capitalize;
-  padding: 0 1rem 0 0;
+.extrasMenu {
+  display: flex;
+  @include adelle-sans-regular;
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid $color-white-dark;
+  li {
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
+
+.active {
+  color: $color-orange-primary;
+}
+
+.extrasContainer {
+  max-height: 400px;
+  overflow-y: scroll;
 }
 
 .summary {
-  font-size: 1.6rem;
-  padding: 1rem 0 1rem 0;
+  font-size: 1.4rem;
+  padding: 2rem;
 }
