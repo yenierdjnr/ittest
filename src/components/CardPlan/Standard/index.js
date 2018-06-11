@@ -26,7 +26,7 @@ const Standard = ({ className='', info }) => {
         <span className={ perks }>Full on-demand ITProTV course library</span>
       </div>
       <div className={ styles.pricing }>
-        <Hx className={ styles.price } color={ styles.blue } size="2">${ standard.price }<span className={ styles['per-year'] }>/ year</span></Hx>
+        <Hx className={ styles.price } color={ styles.blue } size="2">${ standard.price }<span className={ styles['per-year'] }>/ { standard.term }</span></Hx>
         <span className={ styles.billing }>{ standard.billing2 }</span>
         <span className={ styles.billing }>{ standard.billing1 }</span>
         <TextLink className={ styles.link } color={ styles.blue } size="1.6" disabled>sign up</TextLink>
