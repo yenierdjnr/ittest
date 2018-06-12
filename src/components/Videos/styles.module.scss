@@ -4,6 +4,7 @@
 $breakpoints: (
   'desktop': $desktop,
   'tablet': $tablet,
+  'upper-phablet': $upper-phablet,
   'lower-tablet': $lower-tablet,
   'phablet': $phablet
 );
@@ -154,7 +155,19 @@ $breakpoints: (
     display: none;
   }
   .course-container {
+    margin: 0rem 4rem 3rem 4rem;
+  }
+}
+
+@include media('<tablet') {
+  .course-container {
     margin: 0rem 4rem 3rem 0;
+  }
+}
+
+@include media('<upper-phablet') {
+  .course-container {
+    margin: 0rem 4rem;
   }
 }
 

@@ -8,6 +8,7 @@ import { CourseExtras } from 'Elements/Flags';
 import { CourseVideo } from 'Components/Videos';
 import EpisodeDetails from 'Components/EpisodeDetails';
 import EpisodeExtras from 'Components/EpisodeExtras';
+import { IconCaret } from 'Elements/Icons';
 import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
@@ -20,8 +21,15 @@ class CoursePage extends Component {
       topicIndex: 0,
       episodeIndex: 0,
       showOpacity: '',
-      extras: 'transcript'
+      extras: 'transcript',
+      showEpisodes: false
     };
+  }
+
+  handleEpisodeToggle = () => {
+    this.setState({
+      showEpisodes: !this.state.showEpisodes
+    })
   }
 
   handleEpisodeChange = (topicIndex, episodeIndex) => {
@@ -45,7 +53,7 @@ class CoursePage extends Component {
 
   render() {
     const { data, ...rest } = this.props;
-    const { topicIndex, episodeIndex } = this.state;
+    const { topicIndex, episodeIndex, episodes } = this.state;
     return (
       <main className={ styles.coursePage }>
 
@@ -66,8 +74,9 @@ class CoursePage extends Component {
             <div className={ styles.courseDetails }>
               <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
               <div className={ styles.episode }>
-                <Hx className={ styles.title } size="5" color={ styles.offBlack }>Episodes</Hx>
-                <ul className={ styles.list }>
+                <Hx className={ `${styles['desktopEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }>Episodes</Hx>
+                <Hx className={ `${styles['mobileEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }><span onClick={ () => this.handleEpisodeToggle() }>Episodes <IconCaret className={ this.state.showEpisodes ? styles.caret : '' } /></span></Hx>
+                <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
                   {data.course.topics.map((topic, index) => (
                     <CourseTopic
                       key={ topic.id }

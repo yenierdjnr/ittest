@@ -42,6 +42,10 @@ $breakpoints: (
   grid-template-columns: 375px auto;
 }
 
+.mobileEpisodes {
+  display: none;
+}
+
 .courseDetails {
   background-color: $color-offwhite;
   grid-column: 1 / 2;
@@ -73,8 +77,25 @@ $breakpoints: (
     padding-left: 4rem;
     padding-right: 4rem;
   }
+  .episode {
+    padding-bottom: 3rem;
+  }
   .details {
     grid-template-columns: auto;
+  }
+  .desktopEpisodes {
+    display: none;
+  }
+  .mobileEpisodes {
+    display: block;
+    cursor: pointer;
+  }
+  .caret {
+    transition: .2s;
+    transform: rotateX(180deg);
+  }
+  .mobileEpisodeList {
+    display: none;
   }
 }
 
