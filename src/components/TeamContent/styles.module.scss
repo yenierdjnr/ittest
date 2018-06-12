@@ -15,8 +15,7 @@ $breakpoints: (
 .container {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  padding: 5,6rem 0 6.8rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .subtitle {
@@ -25,6 +24,7 @@ $breakpoints: (
   font-size: 3.6rem;
   text-align: center;
   line-height: normal;
+  margin-bottom: 2rem;
 }
 
 .listContainer {
