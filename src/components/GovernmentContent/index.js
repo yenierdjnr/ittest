@@ -20,7 +20,7 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">One source for all training</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>CompTIA, Microsoft, EC-Council, Apple, Cisco, ISACA, (ISC)2 & more.<TextLink size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>See all courses</TextLink></Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>CompTIA, Microsoft, EC-Council, Apple, Cisco, ISACA, (ISC)2 & more.<TextLink to="/courses/" size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>See all courses</TextLink></Para>
             </div>
           </li>
           <li className={ styles.item }>
