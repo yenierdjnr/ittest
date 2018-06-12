@@ -4,6 +4,7 @@
 $breakpoints: (
   'desktop': $desktop,
   'tablet': $tablet,
+  'upper-phablet': $upper-phablet,
   'lower-tablet': $lower-tablet,
   'phablet': $phablet
 );
@@ -24,9 +25,29 @@ $breakpoints: (
   background-repeat: no-repeat;
 }
 
+.course-container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 3rem 2rem;
+}
+
 .for-teams-container {
   height: 376px;
   margin: auto 0;
+}
+
+.course-container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color-backdrop, 0.5);
 }
 
 .play-button {
@@ -44,12 +65,23 @@ $breakpoints: (
   cursor:pointer;
 }
 
-.vidwrap-opacity {
-  background: rgba($color-backdrop, 0.7);
-  overflow: hidden;
+.courseVidwrap {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   height: 100%;
-  z-index: 2;
-  cursor: initial;
+  text-align: center;
+  cursor:pointer;
+
+  & iframe {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 .home-iframe {
@@ -57,8 +89,49 @@ $breakpoints: (
   height: 100%;
 }
 
+.course-iframe {
+  width: 70%;
+  height: 100%;
+}
+
+.thumbnail {
+  display: block;
+}
+
+.thumbnailMed {
+  display: none;
+}
+
+.thumbnailSm {
+  display: none;
+}
+
+.banner {
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $color-orange-primary;
+  color: #ffffff;
+  border-radius: 0 4px 4px 0;
+  z-index: 98;
+  .bannerText {
+    @include adelle-sans-regular;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  a {
+    color: #ffffff;
+  }
+}
+
+.arrow {
+  fill: #ffffff;
+}
+
 @include media('>desktop') {
-  .home-container {
+  .home-container, .course-container {
     background-position: 100% 20%;
   }
 }
@@ -66,6 +139,35 @@ $breakpoints: (
 @include media('<tablet') {
   .home-iframe {
     width: 100%;
+  }
+  .course-iframe {
+    width: 100%;
+  }
+  .thumbnail {
+    display: none;
+  }
+
+  .thumbnailMed {
+    display: block;
+  }
+
+  .thumbnailSm {
+    display: none;
+  }
+  .course-container {
+    margin: 0rem 4rem 3rem 4rem;
+  }
+}
+
+@include media('<tablet') {
+  .course-container {
+    margin: 0rem 4rem 3rem 0;
+  }
+}
+
+@include media('<upper-phablet') {
+  .course-container {
+    margin: 0rem 4rem;
   }
 }
 
@@ -76,9 +178,25 @@ $breakpoints: (
     background-position: 20% 20%;
   }
 
+  .course-container {
+    margin: 0rem 4rem;
+  }
+
   .vidwrap {
     & iframe {
       width: 100%;
     }
+  }
+
+  .thumbnail {
+    display: none;
+  }
+
+  .thumbnailMed {
+    display: none;
+  }
+
+  .thumbnailSm {
+    display: block;
   }
 }
