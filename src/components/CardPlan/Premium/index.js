@@ -28,7 +28,7 @@ const Premium = ({ className='', info }) => {
         <span className={ perks }>Practice exams</span>
       </div>
       <div className={ styles.pricing }>
-        <Hx className={ styles.price } color={ styles.purple } size="2">${ premium.price }<span className={ styles['per-year'] }>/ year</span></Hx>
+        <Hx className={ styles.price } color={ styles.purple } size="2">${ premium.price }<span className={ styles['per-year'] }>/ { premium.term }</span></Hx>
         <span className={ styles.billing }>{ premium.billing2 }</span>
         <span className={ styles.billing }>{ premium.billing1 }</span>
         <TextLink className={ styles.link } color={ styles.purple } size="1.6" disabled>sign up</TextLink>
