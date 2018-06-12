@@ -1,0 +1,115 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-phone': $lower-phone,
+  'upper-phablet': $upper-phablet
+);
+
+:export {
+  greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
+}
+
+.coursePage {
+  grid-area: main;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto;
+}
+
+.Hero {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  grid-column: 1 / -1;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  background-color: $color-offwhite;
+}
+
+.details {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 375px auto;
+}
+
+.mobileEpisodes {
+  display: none;
+}
+
+.courseDetails {
+  background-color: $color-offwhite;
+  grid-column: 1 / 2;
+  .title {
+    text-transform: uppercase;
+  }
+}
+
+.EpisodeView {
+  grid-column: 2 / 3;
+}
+
+@include media('<tablet') {
+  .courseDetails {
+    padding-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@include media('<upper-phablet') {
+  .courseDetails {
+    grid-column: 1 / -1;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-right: 0;
+  }
+  .EpisodeView {
+    grid-column: 1 / -1;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .episode {
+    padding-bottom: 3rem;
+  }
+  .details {
+    grid-template-columns: auto;
+  }
+  .desktopEpisodes {
+    display: none;
+  }
+  .mobileEpisodes {
+    display: block;
+    cursor: pointer;
+  }
+  .caret {
+    transition: .2s;
+    transform: rotateX(180deg);
+  }
+  .mobileEpisodeList {
+    display: none;
+  }
+}
+
+@include media('<lower-phone') {
+  .courseDetails {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .EpisodeView {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

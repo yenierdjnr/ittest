@@ -1,0 +1,17 @@
+@import '~Styles/main';
+
+
+:export {
+  blueDark: $color-blue-dark;
+  offBlack: $color-offblack;
+}
+
+.extras {
+  margin: 3rem 0;
+}
+
+.para {
+  font-size: 1.6rem;
+  line-height: 6rem;
+  @include proxima-regular;
+}

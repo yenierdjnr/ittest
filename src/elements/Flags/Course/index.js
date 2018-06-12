@@ -21,7 +21,7 @@ const Course = ({ className='', title='Course Title', description='001-01', cour
       <div className={ styles.course }>
         <span className={ styles.name }>{ description }</span>
         {!!courseLength &&
-          <span className={ styles.length }>{ lengthToString(courseLength).join(', ') }</span>
+          <span className={ styles.length }>{ lengthToString(courseLength).join(' ') }</span>
         }
       </div>
     </li>
