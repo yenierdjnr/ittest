@@ -1,5 +1,11 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-phone': $lower-phone,
+  'upper-phablet': $upper-phablet
+);
+
 :export {
   greyDark: $color-grey-dark;
   offBlack: $color-offblack;
@@ -35,4 +41,16 @@
 .summary {
   font-size: 1.4rem;
   padding: 2rem;
+}
+
+@include media('<tablet') {
+  .episodeExtras {
+    margin: 3rem 4rem 3rem 0;
+  }
+}
+
+@include media('<upper-phablet') {
+  .episodeExtras {
+    margin: 3rem 4rem;
+  }
 }

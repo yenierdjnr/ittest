@@ -2,8 +2,9 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'tablet': $tablet,
+  'lower-phone': $lower-phone,
+  'upper-phablet': $upper-phablet
 );
 
 :export {
@@ -39,7 +40,6 @@ $breakpoints: (
   grid-column: 2 / 3;
   display: grid;
   grid-template-columns: 375px auto;
-
 }
 
 .courseDetails {
@@ -50,25 +50,43 @@ $breakpoints: (
   }
 }
 
-.EpisodeDetails {
+.EpisodeView {
   grid-column: 2 / 3;
 }
 
-.CourseVideo {
-  grid-column: 2 / 3;
+@include media('<tablet') {
+  .courseDetails {
+    padding-left: 4rem;
+    margin-right: 4rem;
+  }
 }
 
-.EpisodeExtras {
-  grid-column: 2 / 3;
-}
-
-
-
-@include media('<lower-tablet') {
-
+@include media('<upper-phablet') {
+  .courseDetails {
+    grid-column: 1 / -1;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-right: 0;
+  }
+  .EpisodeView {
+    grid-column: 1 / -1;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .details {
+    grid-template-columns: auto;
+  }
 }
 
 @include media('<lower-phone') {
+  .courseDetails {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .EpisodeView {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .list {
     padding-left: 0;
     padding-right: 0;
