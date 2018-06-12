@@ -19,20 +19,24 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/data/tagCategories/`,
-
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/data/vLabs/`,
-
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/data/tags/`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/courses/`,
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data/vLabs/`
       }
     },
     {
@@ -45,14 +49,12 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/data/getCertified/`,
-
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/data/itResources/`,
-
       }
     },
     {

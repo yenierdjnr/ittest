@@ -72,7 +72,8 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
 };
 
 exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
-  const component = path.resolve('src/components/CourseCategory/index.js');
+  const categoryComponent = path.resolve('src/components/CourseCategory/index.js');
+  const courseComponent = path.resolve('src/components/Course/index.js');
 
   return graphql(
       `
@@ -93,9 +94,39 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
         return edge.node.tags.map(tag => {
           return createPage({
               path: `courses/${tag.url}`,
-              component,
+              component: categoryComponent,
               context: {
                 url: tag.url
+              }
+            })
+        })
+      })
+    })
+    .then(()=> {
+      return graphql(
+      `
+      {
+        allTagsJson {
+          edges {
+            node {
+              url
+              courses {
+                id
+                url
+              }
+            }
+          }
+      	}
+      }
+      `)
+    }).then(result => {
+      result.data.allTagsJson.edges.forEach(edge => {
+        return edge.node.courses.map(course => {
+          return createPage({
+              path: `courses/${edge.node.url}/${course.url}`,
+              component: courseComponent,
+              context: {
+                courseUrl: course.url
               }
             })
         })

@@ -1,0 +1,56 @@
+@import '~Styles/main';
+
+$breakpoints: (
+  'tablet': $tablet,
+  'lower-phone': $lower-phone,
+  'upper-phablet': $upper-phablet
+);
+
+:export {
+  greyDark: $color-grey-dark;
+  offBlack: $color-offblack;
+}
+
+.episodeExtras {
+  clear: both;
+  margin: 2rem;
+  background-color: $color-offwhite;
+}
+
+.extrasMenu {
+  display: flex;
+  @include adelle-sans-regular;
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1.6rem;
+  border-bottom: 2px solid $color-white-dark;
+  li {
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
+
+.active {
+  color: $color-orange-primary;
+}
+
+.extrasContainer {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.summary {
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+@include media('<tablet') {
+  .episodeExtras {
+    margin: 3rem 4rem 3rem 0;
+  }
+}
+
+@include media('<upper-phablet') {
+  .episodeExtras {
+    margin: 3rem 4rem;
+  }
+}
