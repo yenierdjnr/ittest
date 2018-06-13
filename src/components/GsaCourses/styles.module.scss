@@ -16,6 +16,7 @@ $breakpoints: (
 
 .container {
   padding: 7.2rem 0 8.4rem;
+  margin: 0 2rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }

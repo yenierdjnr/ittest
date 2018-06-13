@@ -23,7 +23,6 @@ $breakpoints: (
   grid-row-gap: 1.6rem;
   display: grid;
   grid-column: 2 / 3;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
 }
 
 .gsa {
