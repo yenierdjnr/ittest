@@ -34,6 +34,7 @@ class RequestForm extends Component {
     fetch('https://go.itpro.tv/l/425902/2018-06-13/8dybyw', {
       method: 'POST',
       body: JSON.stringify(this.state.form),
+      mode: 'no-cors',
       headers: {
         'content-type': 'application/json'
       }
