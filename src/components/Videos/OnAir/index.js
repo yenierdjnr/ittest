@@ -10,7 +10,7 @@ const OnAir = ({ className='', bkImage }) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {
-      // vidWrap.innerHTML = `<iframe class="${styles['for-teams-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/ADZ7FZBh4B4?rel=0&amp;modestbranding=1&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${styles['on-air-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/OJWewWysGcA?rel=0&amp;modestbranding=1&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
     }
   };
 
