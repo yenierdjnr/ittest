@@ -17,14 +17,20 @@ Your production branch is for the world to see - you will basically never push t
 
 Using the command line:
 1. `cd` to the repo root directory.
-2. Run `git checkout master`, `git fetch`, `git pull`, `git log origin/production..origin/master`.
+2. Run `git checkout master`, `git pull`, `git log origin/production..origin/master`.
 3. Make note of member-facing and internal-facing changes from the output of `git log` in the step above.
 4. To actually deploy, run `git push origin master:production`.
 
 Production is now live! The status of your deploys can be seen below:
 
-Staging:
+Staging Build:
 [![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/1979358/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
 
-Production:
+Staging Deploy:
+[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/1979358/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
+
+Production Build:
+[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/2026121/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)[![Build Status]()]
+
+Production Deploy:
 [![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/2026121/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
