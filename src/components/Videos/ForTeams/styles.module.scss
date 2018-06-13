@@ -48,6 +48,11 @@ $breakpoints: (
 
   text-align: center;
   cursor:pointer;
+
+  & iframe {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 .for-teams-iframe {
