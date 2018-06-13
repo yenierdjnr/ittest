@@ -60,8 +60,8 @@ class Stats extends Component {
         let countUp = parseInt(num) + 1;
 
         const len = `${countUp}`.length;
-        const front = `${countUp}`.substring(0, 2);
-        const back = `${countUp}`.substring(2, len);
+        const front = `${countUp}`.substring(0, 3);
+        const back = `${countUp}`.substring(3, len);
 
         comm.innerHTML = `${front},${back}`;
       }
