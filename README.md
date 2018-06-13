@@ -17,10 +17,9 @@ Your production branch is for the world to see - you will basically never push t
 
 Using the command line:
 1. `cd` to the repo root directory.
-2. Run `git checkout master;git fetch;git pull;git log origin/production..origin/master`.
+2. Run `git checkout master`, `git fetch`, `git pull`, `git log origin/production..origin/master`.
 3. Make note of member-facing and internal-facing changes from the output of `git log` in the step above.
-4. [Optional] to see the code changes, `git diff origin/production..origin/master`.
-5. To actually deploy, run `git push origin master:production`.
+4. To actually deploy, run `git push origin master:production`.
 
 Production is now live! The status of your deploys can be seen below:
 
