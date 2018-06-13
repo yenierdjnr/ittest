@@ -13,7 +13,7 @@ const GovernmentContent = props => {
         <ul className={ styles.list }>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-              <IconLgBuilding className={ styles['laptop-icon'] }/>
+              <IconLgBuilding className={ styles['icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Federal Agencies</Hx>
@@ -22,7 +22,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-            <IconSmBuilding className={ styles['gear-icon'] }/>
+            <IconSmBuilding className={ styles['icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">State and Local Agencies</Hx>
@@ -31,7 +31,7 @@ const GovernmentContent = props => {
           </li>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
-              <IconBooks className={ styles['popcorn-icon'] }/>
+              <IconBooks className={ styles['icon'] }/>
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Education</Hx>

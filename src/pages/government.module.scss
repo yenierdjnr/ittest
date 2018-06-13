@@ -15,16 +15,17 @@
 }
 
 .GovernmentContent {
-  grid-column: 1/-1;
-  grid-row: 2/3;
+  grid-column: 1 / -1;
 }
 
 .GsaCourses {
   grid-column: 1 / -1;
-  grid-row: 2 / 3;
 }
 
 .GsaSchedule {
   grid-column: 1 / -1;
-  grid-row: 3 / 4;
+}
+
+.GsaBottomElement {
+  grid-column: 1 / -1;
 }

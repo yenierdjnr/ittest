@@ -87,36 +87,15 @@ $breakpoints: (
     }
   }
 
-  .item:last-child {
-    .summary {
-      position: relative
-    }
-    .title {
-      position: absolute;
-      width: 32.1rem;
-    }
-    .subtitle {
-      margin-top: 6rem;
-    }
-  }
-
   .icon-box {
     width: 10rem;
     height: 10rem;
     margin-bottom: 4rem;
     border-radius: 5rem;
 
-    & .laptop-icon {
+    & .icon {
       width: 6.5rem;
       height: 7.5rem;
-    }
-    & .gear-icon {
-      width: 5rem;
-      height: 6.7rem;
-    }
-    & .popcorn-icon {
-      width: 5.2rem;
-      height: 6.9rem;
     }
   }
 }
