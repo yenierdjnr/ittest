@@ -31,9 +31,10 @@ class RequestForm extends Component {
 
     this.setState({ submitting : true })
 
-    fetch('https://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
+    fetch('https://go.itpro.tv/l/425902/2018-06-13/8dybyw', {
       method: 'POST',
       body: JSON.stringify(this.state.form),
+      mode: 'no-cors',
       headers: {
         'content-type': 'application/json'
       }
