@@ -35,7 +35,7 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Education</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Train your staff or used ITProTV as part of your curriculum. Help those starting in IT, or students looking to enhance their career with new IT skills and certifications.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Train your staff or use ITProTV as part of your curriculum. Help those starting in IT, or students looking to enhance their career with new IT skills and certifications.</Para>
             </div>
           </li>
         </ul>

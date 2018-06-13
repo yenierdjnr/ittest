@@ -12,14 +12,14 @@ const CourseTopic = ({ className='', vLab='', exam='' }) => {
       <div color={ styles.offBlack }>
         { vLab &&
           <div>
-            <IconVirtualLab /><span className={ styles.para }>&nbsp;&nbsp;This course has a virtual lab</span>
+            <IconVirtualLab className={ styles.icon } /><span className={ styles.para }>This course has a virtual lab</span>
           </div>
         }
       </div>
       <div color={ styles.offBlack } >
         { exam &&
           <div>
-            <IconPracticeExam /><span className={ styles.para }>&nbsp;&nbsp;This course has a practice exam</span>
+            <IconPracticeExam className={ styles.icon } /><span className={ styles.para }>This course has a practice exam</span>
           </div>
         }
       </div>

@@ -20,14 +20,14 @@ const TestContent = props => {
           <li className={ styles.item }>
             <Para className={ styles.title } color={ styles.offBlack }>Axelos</Para>
             <Para className={ styles.title } color={ styles.offBlack }>PMI</Para>
-            <Para className={ styles.title } color={ styles.offBlack }>VMWare</Para>
+            <Para className={ styles.title } color={ styles.offBlack }>VMware</Para>
             <Para className={ styles.title } color={ styles.offBlack }>GIAC</Para>
           </li>
           <li className={ styles.item }>
             <Para className={ styles.title } color={ styles.offBlack }>Logical Operations</Para>
             <Para className={ styles.title } color={ styles.offBlack }>Microsoft Developer</Para>
             <Para className={ styles.title } color={ styles.offBlack }>ISACA</Para>
-            <Para className={ styles.title } color={ styles.offBlack }>(ISC)2</Para>
+            <Para className={ styles.title } color={ styles.offBlack }>(ISC)<sup>2</sup></Para>
           </li>
         </ul>
     </section>

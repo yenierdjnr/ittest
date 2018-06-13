@@ -11,7 +11,7 @@ const Enhancements = props => {
   return (
     <section className={ styles.container }>
       <div className={ styles.containerTitle }>
-        <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance Your Learning with Labs & Practice Exams</Hx>
+        <Hx className={ styles.title } color={ styles.offBlack } size="2">Enhance Your Learning with Labs &amp; Practice Exams</Hx>
       </div>
 
       <div className={ styles.learnings }>
@@ -28,8 +28,8 @@ const Enhancements = props => {
             <IconExams className={ styles['icon-exams'] }/>
           </div>
           <Hx className={ `${styles['topic-title']} ${styles['topic-title-two']}` } color={ styles.offBlack } size="4">Pass Certifications with Practice Exams</Hx>
-          <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training®. Take and re-take to ensure you're  ready before you sit for the exam.</Para>
-          <TextLink to="/practice-tests/" >see practice tests</TextLink>
+          <Para className={ styles.summary } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training&reg;. Take and re-take to ensure you're  ready before you sit for the exam.</Para>
+          <TextLink to="/practice-tests/">see practice tests</TextLink>
         </div>
       </div>
     </section>

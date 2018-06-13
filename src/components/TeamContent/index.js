@@ -24,12 +24,12 @@ const TeamContent = props => {
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Tim } alt="Tim Broom photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Tim Broom</Para>
-          <Para className={ styles.title } color={ styles.offBlack }>CEO & Co-Founder</Para>
+          <Para className={ styles.title } color={ styles.offBlack }>CEO &amp; Co-Founder</Para>
         </li>
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Don } alt="Don Pezet photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Don Pezet</Para>
-          <Para className={ styles.title } color={ styles.offBlack }>CIO & Co-Founder</Para>
+          <Para className={ styles.title } color={ styles.offBlack }>CIO &amp; Co-Founder</Para>
         </li>
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Barry } alt="Barry Pruett photo" />

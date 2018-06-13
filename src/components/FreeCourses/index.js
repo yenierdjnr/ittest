@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Hx from'Elements/Hx';
-import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
 import { Episode } from 'Elements/Flags';
 import styles from './styles.module.scss';
@@ -38,9 +37,7 @@ const FreeCourses = props => {
   return (
     <section className={ styles.container }>
       <div className={ styles.intro }>
-        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Episodes for Free!</Hx>
-        <Para size="2" color={ styles.darkGrey } className={ styles.summary }>Don't see what you need? We add new course content every day. Join for free to see what's coming next.</Para>
-        <TextLink>sample videos</TextLink>
+        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
       </div>
       <ul className={ styles.flags }>
         {

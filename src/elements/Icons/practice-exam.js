@@ -5,7 +5,7 @@ const IconPracticeExam = props => {
   const { className='', fill='none' } = props;
 
   return (
-    <svg viewBox="0 0 106.65 75.39" height="35px">
+    <svg  className={ className } viewBox="0 0 106.65 75.39" height="35px">
     <rect x="0.5" y="0.5" width="105.65" height="74.39" rx="6" ry="6" fill="none" stroke="#171946" stroke-miterlimit="10"/>
     <rect x="20.48" y="14.61" width="18.64" height="18.64" rx="1" ry="1" fill="none" stroke="#171946" stroke-miterlimit="10"/>
     <rect x="20.48" y="43.02" width="18.64" height="18.64" rx="1" ry="1" fill="none" stroke="#171946" stroke-miterlimit="10"/>
