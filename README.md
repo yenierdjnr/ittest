@@ -23,14 +23,16 @@ Using the command line:
 
 Production is now live! The status of your deploys can be seen below:
 
-Staging Build:
-[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/1979358/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
+- Staging build: [![][staging build badge]][staging build status]
+- Staging deploy: [![][staging deploy badge]][staging deploy status]
+- Production build: [![][production build badge]][production build status]
+- Production deploy: [![][production deploy badge]][production deploy status]
 
-Staging Deploy:
-[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/1979358/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
-
-Production Build:
-[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/2026121/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)[![Build Status]()]
-
-Production Deploy:
-[![Build Status](https://semaphoreci.com/api/v1/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/2026121/badge.svg)](https://semaphoreci.com/itprotv/itprotv-marketing)
+[staging build badge]: http://80e92e2d-b474-c555-b2d9-82c08b5f9470.inst.47570dce-1174-4753-99c4-d96c5182d7b1.us-east-1.triton.zone/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/branches/master
+[staging build status]: https://semaphoreci.com/itprotv/itprotv-marketing/branches/master
+[staging deploy badge]: http://80e92e2d-b474-c555-b2d9-82c08b5f9470.inst.47570dce-1174-4753-99c4-d96c5182d7b1.us-east-1.triton.zone/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/servers/staging
+[staging deploy status]: https://semaphoreci.com/itprotv/itprotv-marketing/servers/staging
+[production build badge]: http://80e92e2d-b474-c555-b2d9-82c08b5f9470.inst.47570dce-1174-4753-99c4-d96c5182d7b1.us-east-1.triton.zone/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/branches/production
+[production build status]: https://semaphoreci.com/itprotv/itprotv-marketing/branches/production
+[production deploy badge]: http://80e92e2d-b474-c555-b2d9-82c08b5f9470.inst.47570dce-1174-4753-99c4-d96c5182d7b1.us-east-1.triton.zone/projects/7e78b3e1-7aa2-4ac7-95c3-b2b2dde7e34c/servers/production
+[production deploy status]: https://semaphoreci.com/itprotv/itprotv-marketing/servers/production
