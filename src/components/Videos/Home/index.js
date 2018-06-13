@@ -23,7 +23,7 @@ class HomeVideo extends Component {
     const homeiFrame = styles['home-iframe'];
 
     if (vidWrap) {
-      vidWrap.innerHTML = `<iframe class="${homeiFrame}" src="https://www.youtube.com/embed/ADZ7FZBh4B4?rel=0&amp;modestbranding=1&amp;autoplay=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${homeiFrame}" src="https://www.youtube.com/embed/FngYJxFmmnw?rel=0&amp;modestbranding=1&amp;autoplay=1&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>`;
       playButton.style.display = 'none';
 
       this.setState({

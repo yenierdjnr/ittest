@@ -19,7 +19,7 @@ class CourseVideo extends Component {
     const courseiFrame = styles['course-iframe'];
 
     if (vidWrap && (episode === overview)) {
-      vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
       playButton.style.display = 'none';
     } if (vidwrap && !overview) {
       vidWrap.innerHTML = ``;
