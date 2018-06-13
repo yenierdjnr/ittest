@@ -22,7 +22,7 @@ const Values = props => {
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
             <IconCalendar />
-            <Para className={ styles.value } color={ styles.offBlack }>Creating engaging content daily</Para>
+            <Para className={ styles.value } color={ styles.offBlack }>Creating engaging content daily.</Para>
           </div>
         </li>
         <li className={ styles.item }>
