@@ -29,8 +29,8 @@ const ForYouSummary = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offblack } className={ styles.title } size="4">build your career</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Train to pass your certs and start or advance in IT. CompTIA, Cisco, Microsoft, AWS, cloud, security and more.</Para>
-              <TextLink className={ styles['text-link']} to="/plans/">view plans & pricing</TextLink>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Train to pass your certs and start or advance in IT. CompTIA, Cisco, Microsoft, AWS, cloud, security, and more.</Para>
+              <TextLink className={ styles['text-link']} to="/plans/">view plans &amp; pricing</TextLink>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
@@ -38,8 +38,8 @@ const ForYouSummary = props => {
               <IconPopcorn className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning™</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging content in a talk show format. Watch on a desktop, mobile device, Apple TV, Roku or Fire TV.</Para>
+              <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning&trade;</Hx>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging content in a talk show format. Watch on a desktop, mobile device, Apple TV, Roku, or Fire TV.</Para>
               <TextLink className={ styles['text-link']} to="/plans/">start free trial</TextLink>
             </div>
           </li>

@@ -56,7 +56,7 @@ const HostsContent = props => {
           <img className={ styles.headshot } src={ Jo } alt="Jo Peacock photo" />
           <div className={ styles.content }>
             <Para className={ styles.name } color={ styles.offBlack }>Jo Peacock</Para>
-            <Para className={ styles.bio } color={ styles.offBlack }>Jo is a leading visionary in the fields of IT service and project management. Internationally recognized, Jo has directed transformational projects for blue-chip organizations, federal government agencies, and the worlds’ leading educational establishments.</Para>
+            <Para className={ styles.bio } color={ styles.offBlack }>Jo is a leading visionary in the fields of IT service and project management. Internationally recognized, Jo has directed transformational projects for blue-chip organizations, federal government agencies, and the worlds' leading educational establishments.</Para>
           </div>
         </div>
         <div className={ styles.wrapper }>
