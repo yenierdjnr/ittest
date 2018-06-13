@@ -228,6 +228,7 @@ class Head extends Component {
     super(props);
   }
 
+
   renderAnimationScripts = () => {
     return [
       <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js') } />,
