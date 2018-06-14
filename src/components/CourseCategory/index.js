@@ -16,7 +16,6 @@ const CourseCategory = ({ data, ...rest }) => (
       <meta name="description" content={ data.category.contentShort } />
     </Helmet>
 
-
     <section className={ styles.Hero }>
       <Hero title={ data.category.tagname } description={ data.category.contentFull }/>
     </section>
@@ -26,6 +25,7 @@ const CourseCategory = ({ data, ...rest }) => (
         {data.category.courses.map(course => (
           <Course
             key={ course.url }
+            url={ `/courses/${data.category.url}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             courseLength={ course.courseLength }
@@ -46,6 +46,7 @@ export const pageQuery = graphql`
       contentFull
       contentShort
       courses {
+        url
         name
         subtitle
         courseLength

@@ -10,6 +10,7 @@
   display: block;
   padding: 21px 16px 20px;
   text-align: left;
+  margin-bottom: 1.6rem;
 
   border: 1px solid #E4E8EC;
   box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
@@ -57,4 +58,11 @@
 
 .icon {
   margin-top: 5px;
+}
+
+.link {
+  color: $color-offblack;
+  @include proxima-semi-bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
 }

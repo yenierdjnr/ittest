@@ -9,9 +9,11 @@ const Category = props => {
   const categoryStyles = !showMore ? styles.item : `${styles.item} ${styles['show-more']}`;
 
   return (
-    <li className={ categoryStyles }>
-      <Link to={url} className={ `${className} ${styles.link}` }>{ title }</Link>
-    </li>
+    <Link to={url} className={ `${className} ${styles.link}` }>
+      <li className={ categoryStyles }>
+      { title }
+      </li>
+    </Link>
   );
 };
 
