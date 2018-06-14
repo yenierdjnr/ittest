@@ -2,7 +2,7 @@
 
 
 $breakpoints: (
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
 
 .container {
@@ -42,17 +42,32 @@ $breakpoints: (
 }
 
 
-@include media('<lower-phone') {
+@include media('<lower-tablet') {
+  .container {
+    padding: 5.6rem 3rem 5.9rem;
+  }
+
   .intro {
-    padding: 6.1rem 0 13.1rem;
+    padding: 0;
   }
 
   .title {
-    width: 17rem;
-    margin-bottom: 2.7rem;
+    max-width: 52rem;
 
-    font-size: 4.8rem;
-    letter-spacing: 0.4px;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .subtitle {
+    max-width: 57rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .subtext {
+    max-width: 57rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
   }
 }
