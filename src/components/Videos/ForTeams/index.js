@@ -22,8 +22,8 @@ const ForTeamsVideo = ({ className='', videoImage }) => {
       <div className={ styles.content }>
 
         <div className={ styles.intro }>
-          <Hx className={ styles.title } color={ styles.offBlack } size="2">Track Your Team’s Results</Hx>
-          <Para className={ styles.summary } color={ styles.darkGrey } size="2">Prove the ROI of your training spend with the ProPortal. Manage your seats, assign/un-assign team members and access monthly usage reports. See metrics like logins, viewing time, courses viewed, tracks completed and more.</Para>
+          <Hx className={ styles.title } color={ styles.offBlack } size="2">Track Your Team's Results</Hx>
+          <Para className={ styles.summary } color={ styles.darkGrey } size="2">Prove the ROI of your training spend with the ProPortal. Manage your seats, assign/un-assign team members, and access monthly usage reports. See metrics like logins, viewing time, courses viewed, tracks completed, and more.</Para>
         </div>
 
         <div id="background-video" className={ `${styles['for-teams-container']} ${className}` } onClick={ handlePlay }>

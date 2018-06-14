@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
+import TextLink from 'Elements/TextLink';
 import { IconLgBuilding, IconSmBuilding, IconBooks } from 'Elements/Icons';
 
 
@@ -17,7 +18,7 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Federal Agencies</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Meet 8140 (formerly 8570) information assurance baseline and continuing education learning requirements with ITProTV. Learn more about 8140 information assurance requirements.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Meet 8140 (formerly 8570) information assurance baseline and continuing education learning requirements with ITProTV. <a className={ styles['link'] } href="https://iase.disa.mil/iawip/Pages/iabaseline.aspx" target="_blank" >Learn more about 8140 information assurance requirements.</a></Para>
             </div>
           </li>
           <li className={ styles.item }>

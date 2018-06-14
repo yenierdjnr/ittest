@@ -31,7 +31,7 @@ const TeamCerts = ({ className='', testimonials }) => {
           <div className={ styles.testimonial }>
             <span className={ styles['quote-symbol']} >“</span>
             <div>
-              <Para className={ styles.quote } color={ styles.offBlack } size="2.4">I had 110 engineers in the field and we had dozens of ITProTV accounts. Last year alone, they passed over 40 certs.</Para>
+              <Para className={ styles.quote } color={ styles.offBlack } size="2.4">I had 110 engineers in the field, and we had dozens of ITProTV accounts. Last year alone, they passed over 40 certs.</Para>
               <span className={ styles.author }>James Packer, Kirk ISS</span>
             </div>
           </div>

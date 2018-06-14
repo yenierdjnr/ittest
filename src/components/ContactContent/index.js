@@ -19,7 +19,7 @@ const ContactContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Check the FAQ</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Information about your membership, supported platforms, upgrading your plan, accessing labs &amp; exams, and more in the <a className={ styles['link'] } href="https://help.itpro.tv/">FAQ section</a>.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Information about your membership, supported platforms, upgrading your plan, accessing labs &amp; exams, and more in the <a className={ styles['link'] } href="https://help.itpro.tv/" target="_blank">FAQ section</a>.</Para>
             </div>
           </li>
           <li className={ styles.item }>
@@ -28,7 +28,7 @@ const ContactContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="4">Q&A Forum</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Interact with hosts and subject matter experts on technical questions about course content for your IT career in the <a className={ styles['link'] } href="https://forums.itpro.tv/">Q&amp;A Forum</a>.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Interact with hosts and subject matter experts on technical questions about course content for your IT career in the <a className={ styles['link'] } href="https://forums.itpro.tv/" target="_blank">Q&amp;A Forum</a>.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>

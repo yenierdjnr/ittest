@@ -67,6 +67,12 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
+.link {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.6rem;
+}
+
 
 @include media('<tablet') {
   .container {

@@ -13,7 +13,7 @@ $breakpoints: (
 );
 
 .container {
-  padding: 9.6rem 0 13rem;
+  padding: 3rem 0 8rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
@@ -31,6 +31,7 @@ $breakpoints: (
   flex-flow: column nowrap;
   flex: 0 1 auto;
   align-items: flex-start;
+  margin-top: 3rem;
 }
 
 .gsaInfo {

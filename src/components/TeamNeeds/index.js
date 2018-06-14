@@ -22,14 +22,14 @@ const TeamNeeds = props => {
             <IconBars />
           </div>
           <Hx className={ styles.title } size="4">Everything Your IT Team Needs</Hx>
-          <Para className={ styles.summary }>Get all of your training in one convenient place. All of the major vendors and subjects, all current and all taught by experienced IT experts.</Para>
+          <Para className={ styles.summary }>Get all of your training in one convenient place. All of the major vendors and subjects are taught by experienced IT experts.</Para>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.mobile}` }>
             <IconMobile />
           </div>
           <Hx className={ styles.title } size="4">Flexible Training for Teams On-the-Go</Hx>
-          <Para className={ styles.summary }>Train when and where you want. Access content via the web, iOS, Android, FireTV, Roku, and Apple TV.</Para>
+          <Para className={ styles.summary }>Train when and where you want. Access content via the web, iOS, Android, Fire TV, Roku, and Apple TV.</Para>
         </li>
       </ul>
     </section>
