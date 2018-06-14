@@ -31,7 +31,7 @@ const ITManagementAndStrategyPath = ({ data, recommendedCourses, additionalCours
       <ul className={ styles.list }>
         {recommendedCourses.map(course => (
           <CareerPathCourses
-            key={ course.id }
+            key={ course.url }
             url={ course.url }
             title={ course.name }
             description={ course.subtitle }
@@ -49,7 +49,7 @@ const ITManagementAndStrategyPath = ({ data, recommendedCourses, additionalCours
       <ul className={ styles.list }>
         {additionalCourses.map(course => (
           <CareerPathCourses
-            key={ course.id }
+            key={ course.url }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }

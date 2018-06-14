@@ -8,28 +8,24 @@ import styles from './styles.module.scss';
 
 const episodes = [
   {
-    title: 'Getting Started with ITProTV',
-    linkName: 'Introduction to ITProTV - Resources'
-  },
-  {
     title: 'Windows Operating System Fundamentals',
-    linkName: '2018 Update: 98-349'
+    linkName: '2018 Update: 98-349',
+    url: '/courses/microsoft-technical/mta-windows-operating-system-fundamentals-98349-update-2018/'
   },
   {
     title: 'IT Fundamentals',
-    linkName: 'FC0-U51'
+    linkName: 'FC0-U51',
+    url: '/courses/comptia/fundamentals/'
   },
   {
-    title: 'Security Fundamentals (2017)',
-    linkName: '98-349'
-  },
-  {
-    title: 'Windows Operating System Fundamentals',
-    linkName: '98-349'
+    title: 'MTA - Security Fundamentals',
+    linkName: '2017 Update: 98-367',
+    url: '/courses/microsoft-technical/mta-security-fundamentals-98367-2017/'
   },
   {
     title: 'CyberPatriot',
-    linkName: 'National Youth Cyber Education Program'
+    linkName: 'National Youth Cyber Education Program',
+    url: '/courses/security-skills/cyberpatriot/'
   },
 ];
 
@@ -42,7 +38,7 @@ const FreeCourses = props => {
       <ul className={ styles.flags }>
         {
           episodes.map((epi, i) => {
-            return <Episode key={ i } title={ epi.title } linkName={ epi.linkName } />
+            return <Episode key={ i } title={ epi.title } linkName={ epi.linkName } url={ epi.url  } />
           })
         }
       </ul>
