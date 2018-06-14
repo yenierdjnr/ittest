@@ -60,8 +60,8 @@ class Stats extends Component {
         let countUp = parseInt(num) + 1;
 
         const len = `${countUp}`.length;
-        const front = `${countUp}`.substring(0, 2);
-        const back = `${countUp}`.substring(2, len);
+        const front = `${countUp}`.substring(0, 3);
+        const back = `${countUp}`.substring(3, len);
 
         comm.innerHTML = `${front},${back}`;
       }
@@ -82,8 +82,8 @@ class Stats extends Component {
           <CountUp
             ref="content"
             className={ `${styles.num} content` }
-            start={3400}
-            end={3600}
+            start={3800}
+            end={4000}
             duration={2.75}
             useEasing={true}
             useGrouping={true}
@@ -108,8 +108,8 @@ class Stats extends Component {
           <CountUp
             ref="comm"
             className={ `${styles.num} comm` }
-            start={89800}
-            end={90000}
+            start={99800}
+            end={100000}
             duration={2.75}
             useEasing={true}
             useGrouping={true}

@@ -15,38 +15,38 @@ const Values = props => {
       <ul className={ styles.listContainer }>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconPeople />
-            <Para className={ styles.value } color={ styles.offBlack }>We exist for our members</Para>
-          </div>
-        </li>
-        <li className={ styles.item }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconSmiley />
-            <Para className={ styles.value } color={ styles.offBlack }>We exude passion with personality</Para>
+            <IconLightBulb />
+            <Para className={ styles.value } color={ styles.offBlack }>Producing excellence through innovation, imagination, and grit.</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
             <IconCalendar />
-            <Para className={ styles.value } color={ styles.offBlack }>We create effective content daily</Para>
+            <Para className={ styles.value } color={ styles.offBlack }>Creating engaging content daily.</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
             <IconBadge />
-            <Para className={ styles.value } color={ styles.offBlack }>We work with honor</Para>
+            <Para className={ styles.value } color={ styles.offBlack }>Working with honor.</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
             <IconMountains />
-            <Para className={ styles.value } color={ styles.offBlack }>We willingly face challenges with optimism</Para>
+            <Para className={ styles.value } color={ styles.offBlack }>Willingly facing challenges with optimism.</Para>
           </div>
         </li>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
-            <IconLightBulb />
-            <Para className={ styles.value } color={ styles.offBlack }>We produce excellence through innovation and imagination</Para>
+            <IconPeople />
+            <Para className={ styles.value } color={ styles.offBlack }>Existing for our members.</Para>
+          </div>
+        </li>
+        <li className={ styles.item }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <IconSmiley />
+            <Para className={ styles.value } color={ styles.offBlack }>Exuding passion, personality, and perseverance.</Para>
           </div>
         </li>
       </ul>
