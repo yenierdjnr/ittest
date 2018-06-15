@@ -19,7 +19,7 @@ const GovernmentContent = props => {
               <IconCertificate className={ styles['laptop-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offBlack } className={ styles.title } size="5">One source for all training</Hx>
+              <Hx color={ styles.offBlack } className={ styles.title } size="5">One Source For All Training</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>CompTIA, Microsoft, EC-Council, Apple, Cisco, ISACA, (ISC)<sup>2</sup>, and more.<TextLink to="/courses/" size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>See all courses</TextLink></Para>
             </div>
           </li>
@@ -28,8 +28,8 @@ const GovernmentContent = props => {
             <IconLabs className={ styles['gear-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with virtual labs</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Prepare for certification exams with current tests from Kaplan IT Training, formerly Transcender&reg;.</Para>
+              <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
@@ -37,8 +37,8 @@ const GovernmentContent = props => {
               <IconExams className={ styles['popcorn-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offBlack } className={ styles.title } size="5">Access practice exams</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
+              <Hx color={ styles.offBlack } className={ styles.title } size="5">Access Practice Tests</Hx>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Prepare for certification exams with current tests from Kaplan IT Training, formerly Transcender&reg;.</Para>
             </div>
           </li>
         </ul>
