@@ -21,8 +21,8 @@ class Exams extends PureComponent {
         </div>
         <div className={ styles.info }>
           <span className={ styles['sequence-num'] }>_01</span>
-          <Hx className={ styles.title } color={ styles.offBlack }>Library of Engaging Courses</Hx>
-          <Para className={ `${styles.summary} ${styles.courses}` } color={ styles.darkGrey }>From CompTIA, Cisco, and Microsoft to Security and Cloud Fundamentals, you can learn it all. New content is added daily  so you can stay current.</Para>
+          <Hx className={ styles.title } color={ styles.offBlack }>Learn with Engaging Courses</Hx>
+          <Para className={ `${styles.summary} ${styles.courses}` } color={ styles.darkGrey }>From CompTIA, Cisco, and Microsoft to Security and Cloud Fundamentals, you can learn it all. Dive deep into one or master many with the friendly faces of IT.</Para>
           <TextLink to="/courses/" className={ styles.link } color={ styles.orangePrimary }>browse course library</TextLink>
         </div>
       </div>

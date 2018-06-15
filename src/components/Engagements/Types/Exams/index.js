@@ -21,8 +21,9 @@ class Exams extends PureComponent {
         </div>
         <div className={ styles.info }>
           <span className={ styles['sequence-num'] }>_03</span>
-          <Hx className={ styles.title } color={ styles.offBlack }>Pass Certifications with Practice Exams</Hx>
-          <Para className={ `${styles.summary} ${styles.exams}` } color={ styles.darkGrey }>Prepare for tough certification examinations with current tests from Kaplan IT Training&reg;. Take and re-take to ensure you're ready before you sit  for the exam.</Para>
+          <Hx className={ styles.title } color={ styles.offBlack }>Access Virtual Labs and Practice Exams</Hx>
+          <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.darkGrey }>Test your skills risk-free in real-world lab environments. Take and re-take Kaplan IT Training&reg; practice exams until you're confident that you are ready to pass.</Para>
+          <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view vitural labs</TextLink>
           <TextLink className={ styles.link } to="/practice-tests/" color={ styles.orangePrimary }>see practice tests</TextLink>
         </div>
       </div>
