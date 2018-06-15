@@ -30,6 +30,9 @@ const GovernmentContent = props => {
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on With Virtual Labs</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Prepare for certification exams with current tests from Kaplan IT Training, formerly Transcender&reg;.</Para>
+
+              <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
@@ -39,6 +42,8 @@ const GovernmentContent = props => {
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Access Practice Exams</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
+              <Hx color={ styles.offBlack } className={ styles.title } size="5">Access Practice Tests</Hx>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Prepare for certification exams with current tests from Kaplan IT Training, formerly Transcender&reg;.</Para>
             </div>
           </li>
         </ul>
