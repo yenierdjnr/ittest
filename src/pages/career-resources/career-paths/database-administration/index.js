@@ -29,7 +29,6 @@ export const pageQuery = graphql`
       name
       recommended {
         courses {
-          id
         	name
           subtitle
           url
@@ -38,7 +37,6 @@ export const pageQuery = graphql`
       }
       additional {
         courses {
-          id
         	name
           subtitle
           url

@@ -16,7 +16,6 @@ const CourseCategory = ({ data, ...rest }) => (
       <meta name="description" content={ data.category.contentShort } />
     </Helmet>
 
-
     <section className={ styles.Hero }>
       <Hero title={ data.category.tagname } description={ data.category.contentFull }/>
     </section>
@@ -25,7 +24,8 @@ const CourseCategory = ({ data, ...rest }) => (
       <ul className={ styles.list }>
         {data.category.courses.map(course => (
           <Course
-            key={ course.id }
+            key={ course.url }
+            url={ `/courses/${data.category.url}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             courseLength={ course.courseLength }
@@ -42,10 +42,11 @@ export const pageQuery = graphql`
   query TagByPath($url: String) {
     category: tagsJson(url: {eq: $url}) {
       tagname
+      url
       contentFull
       contentShort
       courses {
-        id
+        url
         name
         subtitle
         courseLength

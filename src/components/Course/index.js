@@ -79,7 +79,7 @@ class CoursePage extends Component {
                 <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
                   {data.course.topics.map((topic, index) => (
                     <CourseTopic
-                      key={ topic.id }
+                      key={ topic.title }
                       title={ topic.title }
                       episodes={ topic.episodes }
                       onEpisodeChange={ this.handleEpisodeChange }
@@ -123,7 +123,7 @@ export default CoursePage;
 export const pageQuery = graphql`
   query CourseByPath($courseUrl: String) {
     course: coursesJson(url: {eq: $courseUrl}) {
-      id
+      url
       name
       subtitle
       description
@@ -133,10 +133,8 @@ export const pageQuery = graphql`
       vLab
       practiceExam
       topics {
-        id
         title
         episodes {
-          id
           title
           description
           length
