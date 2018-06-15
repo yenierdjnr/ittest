@@ -32,7 +32,7 @@ const CloudTechnologyPath = ({ data, recommendedCourses, additionalCourses, ...r
         {recommendedCourses.map(course => (
           <CareerPathCourses
             key={ course.id }
-            url={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -50,6 +50,7 @@ const CloudTechnologyPath = ({ data, recommendedCourses, additionalCourses, ...r
         {additionalCourses.map(course => (
           <CareerPathCourses
             key={ course.id }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
