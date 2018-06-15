@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'upper-phone': $upper-phone
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone
 );
 
 .container {
@@ -27,13 +28,13 @@ $breakpoints: (
   cursor: pointer;
 
   &:not(:last-child) {
-    margin-right: 5.6rem;
+    margin-right: 3.9rem;
   }
 
   & span {
     color: $color-offwhite;
     @include proxima-semi-bold;
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     line-height: 2.9rem;
     text-transform: capitalize;
   }
@@ -57,28 +58,48 @@ $breakpoints: (
     width: 11.4rem;
     justify-content: center;
 
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-
     & span {
       line-height: 2rem;
+    }
+    &:not(:last-child) {
+      margin-right: 3.9rem;
     }
   }
 }
 
 
-// @include media('<=upper-phone') {
-//   .list {
-//     justify-content: space-between;
-//   }
-//
-//   .item {
-//     width: 9.4rem;
-//     justify-content: center;
-//   }
-//   .list:after {
-//     content: "";
-//     flex: auto;
-//   }
-// }
+@include media('<=upper-phone') {
+  .list {
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 9.4rem;
+    justify-content: center;
+    &:not(:last-child) {
+      margin-right: 4.3rem;
+    }
+  }
+  .list:after {
+    content: "";
+    flex: auto;
+  }
+}
+
+@include media('<=lower-phone') {
+  .list {
+    justify-content: space-between;
+  }
+
+  .item {
+    width: 9.4rem;
+    justify-content: center;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  .list:after {
+    content: "";
+    flex: auto;
+  }
+}

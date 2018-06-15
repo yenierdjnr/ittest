@@ -15,7 +15,6 @@ export { default as Contact } from './Contact';
 export { default as Government } from './Government';
 export { default as PracticeTests } from './PracticeTests';
 export { default as Hosts } from './Hosts';
-export { default as vLabs } from './vLabs';
 export { default as CareerResourcesHero } from './CareerResources';
 export { default as CareerPathsHero } from './CareerPaths';
 export { default as GettingCertifiedHero } from './GettingCertified';
