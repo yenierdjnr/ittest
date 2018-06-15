@@ -5,6 +5,7 @@ import { Government as Hero } from 'Components/Hero';
 import GovernmentContent from 'Components/GovernmentContent';
 import GovIntro from 'Components/GovIntro';
 import GovBottomElement from 'Components/GovBottomElement';
+import { TeamsVideo as TrackResults } from 'Components/Videos';
 import GsaSchedule from 'Components/GsaSchedule';
 import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
@@ -32,6 +33,10 @@ const Government = ({ data, history, location, match, page, pageResources, pageC
           <GsaCourses />
         </section>
 
+        <section className={ styles['Track-Results'] }>
+          <TrackResults videoImage={ data.videoImage }/>
+        </section>
+
         <section className={ styles.GsaSchedule }>
           <GsaSchedule />
         </section>
@@ -47,3 +52,13 @@ const Government = ({ data, history, location, match, page, pageResources, pageC
 
 
 export default Government;
+
+export const query = graphql`
+  query TeamVideo {
+    videoImage: imageSharp(id: { regex: "/forTeams_video@1x/"}) {
+      sizes(maxWidth: 669) {
+        ...GatsbyImageSharpSizes
+      }
+    },
+  }
+`;

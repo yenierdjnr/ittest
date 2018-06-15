@@ -47,6 +47,17 @@ $breakpoints: (
   font-size: 1.6rem;
 }
 
+.linkWrap {
+  padding: 0.25rem 0;
+}
+
+.link {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+}
+
 
 
 @include media('<tablet') {

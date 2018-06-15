@@ -29,7 +29,7 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on more than 800 virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
