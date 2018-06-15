@@ -14,7 +14,7 @@ const About = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>Empowering the world through engaging learning</Hx>
+        <Hx size="2" className={ title }>Empowering the World Through Engaging Learning</Hx>
         <Para className={ subtitle }>Online, on-demand IT training</Para>
       </div>
     </section>

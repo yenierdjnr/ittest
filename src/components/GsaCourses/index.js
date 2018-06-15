@@ -103,7 +103,7 @@ const GsaCourses = props => {
         </div>
         <div className={ styles.courseLevel }>
           <Para className={ `${styles.course} ${styles.small}` } color={ styles.offBlack } >CNDSP Infrastructure Support</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>SCCP</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }>SSCP</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CEH</Para>
         </div>
 

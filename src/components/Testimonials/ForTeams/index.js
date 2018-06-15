@@ -15,7 +15,7 @@ const ForTeamsTestimonials = props => {
         <Carousel>
           <QuoteCard
             title="Train staff on the latest IT"
-            quote="We are using ITProTV to get our team trained up on the latest Microsoft Technologies. If you are a company who wants to train up your staff, ITProTV is the way to go by far."
+            quote="We are using ITProTV to get our team trained up on the latest Microsoft technologies. If you are a company who wants to train up your staff, ITProTV is the way to go by far."
             attribution="Kevin Gamin, VP of Service at One World Technology"
           />
           <QuoteCard
@@ -40,7 +40,7 @@ const ForTeamsTestimonials = props => {
           />
           <QuoteCard
             title="Level-up your staff"
-            quote="ITProTV has given us the ability to level-up our technicians to a point where they can decide ‘this is important for me to learn."
+            quote="ITProTV has given us the ability to level-up our technicians to a point where they can decide 'this is important for me to learn.' "
             attribution="Dana Morrison, IT Director"
           />
         </Carousel>
