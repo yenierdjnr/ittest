@@ -28,7 +28,6 @@ const GovernmentContent = props => {
             <IconLabs className={ styles['gear-icon'] }/>
             </div>
             <div className={ styles.summary }>
-              <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on With Virtual Labs</Hx>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
               <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
             </div>
