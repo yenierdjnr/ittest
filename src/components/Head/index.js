@@ -243,7 +243,7 @@ class Head extends Component {
 
     return (
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="utf-8" lang="en" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
