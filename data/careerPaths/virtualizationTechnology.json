@@ -5,80 +5,80 @@
   {
     "courses": [
       {
-        "id": "55ef41528fe1ff0700cad7a4",
   			"name": "A+ 900 Series",
   			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "a1",
+  			"tagUrl": "comptia",
+        "url": "a1",
         "level": "Novice"
       },
       {
-        "id": "59a0276e93c3030b00cb40cf",
   			"name": "Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "accelerated-a-220901-220902",
+  			"tagUrl": "comptia",
+        "url": "accelerated-a-220901-220902",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000011",
   			"name": "IT Fundamentals",
   			"subtitle": "IT Fundamentals",
-  			"url": "fundamentals",
+  			"tagUrl": "comptia",
+        "url": "fundamentals",
         "level": "Novice"
       },
       {
-  			"id": "570405ae87a6b40f0002a378",
   			"name": "VMware Certified Associate 6 VCA6-DCV",
   			"subtitle": "Data Center Virtualization",
-  			"url": "vmware-certified-associate-6-vca6dcv",
+  			"tagUrl": "vmware",
+        "url": "vmware-certified-associate-6-vca6dcv",
         "level": "Novice"
       },
       {
-        "id": "57b2244064e4070700871556",
   			"name": "MCSA Windows Server 2016 - 70-740",
   			"subtitle": "Installation, Storage, and Compute with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70740",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70740",
         "level": "Intermediate"
       },
       {
-        "id": "582b183da385f829006bc7d7",
   			"name": "MCSA Windows Server 2016 - 70-741",
   			"subtitle": "Networking with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70741",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70741",
         "level": "Intermediate"
       },
       {
-        "id": "5989b83cfcb6d30b00dbbc39",
   			"name": "MCSA Windows Server 2016 - 70-742",
   			"subtitle": "Identity with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70742",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70742",
         "level": "Intermediate"
       },
       {
-        "id": "5745ab181f7d870700314a96",
         "name": "VMware Certified Professional 6  VCP6-DCV",
         "subtitle": "Data Center Virtualization",
+        "tagUrl": "vmware",
         "url": "vmware-certified-professional-6-vcp6dcv",
         "level": "Intermediate"
       },
       {
-        "id": "583c41de0ff4de0b002df689",
   			"name": "MCSE Private Cloud - 70-246",
   			"subtitle": "Monitoring and Operating a Private Cloud",
-  			"url": "mcse-private-cloud-70246",
+  			"tagUrl": "microsoft",
+        "url": "mcse-private-cloud-70246",
         "level": "Advanced"
       },
       {
-        "id": "59073c3c1ed5080b00defb69",
   			"name": "MCSE Private Cloud - 70-247",
   			"subtitle": "Configuring and Deploying a Private Cloud",
-  			"url": "mcse-private-cloud-70247",
+  			"tagUrl": "microsoft",
+        "url": "mcse-private-cloud-70247",
         "level": "Advanced"
       },
       {
-        "id": "59b96f9b98f7290c00319bc8",
   			"name": "MCSE Windows Server 2016 - 70-744",
   			"subtitle": "Securing Windows Server 2016",
-  			"url": "mcse-windows-server-2016-70744",
+  			"tagUrl": "microsoft",
+        "url": "mcse-windows-server-2016-70744",
         "level": "Advanced"
       }
     ]
@@ -86,59 +86,52 @@
   "additional": {
     "courses": [
       {
-        "id": "54c2920ae10805157000002b",
   			"name": "Microsoft Hyper-V",
   			"subtitle": "Microsoft Virtualization",
-  			"url": "microsoft-hyperv",
+  			"tagUrl": "microsoft",
+        "url": "microsoft-hyperv",
         "level": "Novice"
       },
       {
-        "id": "591f53ca66f7510b00e3d25a",
   			"name": "Windows Server 101",
   			"subtitle": "Introduction to Windows Server",
-  			"url": "server-101",
+  			"tagUrl": "microsoft",
+        "url": "server-101",
         "level": "Novice"
       },
       {
-        "id": "58f92e402634860b009088c1",
   			"name": "End User Security Awareness",
   			"subtitle": "Best Security Practices for the End User",
-  			"url": "user-security-awareness",
+  			"tagUrl": "security-skills",
+        "url": "user-security-awareness",
         "level": "Novice"
       },
       {
-        "id": "558998baf4d57f07009f2727",
   			"name": "Working with SSH",
   			"subtitle": "SSH Tools and Tips",
-  			"url": "ssh",
+  			"tagUrl": "security-skills",
+        "url": "ssh",
         "level": "Intermediate"
       },
       {
-        "id": "565df30ce202990700355461",
-  			"name": "Azure Virtual Machine",
-  			"subtitle": "Azure VM",
-  			"url": "azure-virtual-machine",
-        "level": "Intermediate"
-      },
-      {
-        "id": "54c2920ae10805157000000e",
   			"name": "Citrix XenServer 6.2",
   			"subtitle": "Open-Source Virtualization",
-  			"url": "citrix-xenserver",
+  			"tagUrl": "virtualization-skills",
+        "url": "citrix-xenserver",
         "level": "Intermediate"
       },
       {
-        "id": "58a4559aeb4d7c0b0060f5e2",
   			"name": "Citrix XenServer 7.0",
   			"subtitle": "Open-source virtualization",
-  			"url": "citrix-xenserver-70",
+  			"tagUrl": "virtualization-skills",
+        "url": "citrix-xenserver-70",
         "level": "Intermediate"
       },
       {
-        "id": "5665b1c3315ef10700283633",
   			"name": "Virtualization Technologies",
   			"subtitle": "Fundamentals of Virtualization",
-  			"url": "virtualization",
+  			"tagUrl": "virtualization-skills",
+        "url": "virtualization",
         "level": "Intermediate"
       }
     ]
