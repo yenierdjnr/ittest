@@ -31,8 +31,8 @@ const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest
       <ul className={ styles.list }>
         {recommendedCourses.map(course => (
           <CareerPathCourses
-            key={ course.id }
-            url={ course.url }
+            key={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -49,7 +49,8 @@ const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest
       <ul className={ styles.list }>
         {additionalCourses.map(course => (
           <CareerPathCourses
-            key={ course.id }
+            key={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
