@@ -5,108 +5,108 @@
   {
     "courses": [
       {
-        "id": "55ef41528fe1ff0700cad7a4",
   			"name": "A+ 900 Series",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"url": "a1",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "59a0276e93c3030b00cb40cf",
   			"name": "Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"url": "accelerated-a-220901-220902",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000011",
   			"name": "IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"url": "fundamentals",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000010",
   			"name": "MTA - Windows Operating System Fundamentals -  98-349",
   			"subtitle": "Windows Operating System Fundamentals",
         "url": "mta",
+        "tagUrl": "microsoft",
         "level": "Novice"
       },
       {
-        "id": "55f7130840b40607007d2391",
   			"name": "MTA - Mobility and Devices Fundamentals - 98-368",
   			"subtitle": "Mobility and Devices Fundamentals",
   			"url": "mta-mobility-devices-fundamentals",
+        "tagUrl": "microsoft",
         "level": "Novice"
       },
       {
-        "id": "58eb81c83ee9960b00725f81",
   			"name": "Mac Integration Basics 10.12",
   			"subtitle": "Sierra 10.12",
   			"url": "mac-integration-basics-1012",
+        "tagUrl": "apple",
         "level": "Novice"
       },
       {
-        "id": "588613d026e3e51500130194",
   			"name": "Network+ 2016",
   			"subtitle": "Vendor-neutral networking",
   			"url": "network-2016",
+        "tagUrl": "comptia",
         "level": "Intermediate"
       },
       {
-        "id": "55f7159c723da20700adb4d9",
         "name": "MCSA Windows 10 - 70-697",
         "subtitle": "Configuring Windows Devices",
         "url": "mcsa-windows-10",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       },
       {
-        "id": "577d5da4b8bdb1070007e983",
   			"name": "MCSA Windows 10 - 70-698",
   			"subtitle": "Installing and Configuring Windows 10",
   			"url": "mcsa-windows-10-70698",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       },
       {
-        "id": "55a921b928fd48070099b84e",
   			"name": "MCSA Windows Server 2012 - 70-410",
   			"subtitle": "Installing and Configuring Windows Server 2012",
   			"url": "mcsa-windows-server-2012-reshoot",
+        "tagUrl": "microsoft",
         "level": "Advanced"
       },
       {
-        "id": "54c2920ae10805157000001d",
   			"name": "MCSA Windows Server 2012 - 70-411",
   			"subtitle": "Administering Windows Server 2012",
   			"url": "mcsa-windows-server-2013",
+        "tagUrl": "microsoft",
         "level": "Advanced"
       },
       {
-        "id": "59b96f9b98f7290c00319bc8",
   			"name": "MCSE Windows Server 2016 - 70-744",
   			"subtitle": "Securing Windows Server 2016",
   			"url": "mcse-windows-server-2016-70744",
+        "tagUrl": "microsoft",
         "level": "Advanced"
       },
       {
-        "id": "571e22479b7fde07007557cb",
   			"name": "Certified Technical Coordinator 10.11",
   			"subtitle": "OS X Server Essentials 10.11",
   			"url": "os-server-essentials-1011",
+        "tagUrl": "apple",
         "level": "Advanced"
       },
       {
-        "id": "56f5441d0ea86607008b9146",
   			"name": "Certified Support Professional 10.11",
   			"subtitle": "OS X Support Essentials 10.11",
   			"url": "certified-support-professional-1011",
+        "tagUrl": "apple",
         "level": "Advanced"
       },
       {
-        "id": "58ff462c42a76e0b003ccba3",
   			"name": "Certified Support Professional 10.12",
   			"subtitle": "macOS Support Essentials 10.12",
   			"url": "certified-support-professional-1012",
+        "tagUrl": "apple",
         "level": "Advanced"
       }
     ]
@@ -114,73 +114,73 @@
   "additional": {
     "courses": [
       {
-        "id": "56547ea648bd080700aa283d",
   			"name": "AntiVirus / AntiMalware",
   			"subtitle": "Detection and solutions",
   			"url": "antivirus-antimalware",
+        "tagUrl": "security-skills",
         "level": "Novice"
       },
       {
-        "id": "5627afaa643ef907007f0753",
   			"name": "Building a PC",
   			"subtitle": "Assembly and configuration",
   			"url": "building-pc",
+        "tagUrl": "it-foundation-skills",
         "level": "Novice"
       },
       {
-        "id": "5665b1c3315ef10700283633",
   			"name": "Virtualization Technologies",
   			"subtitle": "Fundamentals of Virtualization",
   			"url": "virtualization",
+        "tagUrl": "virtualization-skills",
         "level": "Novice"
       },
       {
-        "id": "59417908ca44310b007ee740",
   			"name": "Linux for Beginners",
   			"subtitle": "Getting started in Linux for new users",
   			"url": "linuxbeginners",
+        "tagUrl": "linux",
         "level": "Novice"
       },
       {
-        "id": "591f53ca66f7510b00e3d25a",
   			"name": "Windows Server 101",
   			"subtitle": "Introduction to Windows Server",
   			"url": "server-101",
+        "tagUrl": "microsoft",
         "level": "Novice"
       },
       {
-        "id": "58f92e402634860b009088c1",
   			"name": "End User Security Awareness",
   			"subtitle": "Best Security Practices for the End User",
   			"url": "user-security-awareness",
+        "tagUrl": "security-skills",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000030",
   			"name": "PowerShell",
   			"subtitle": "for Administrators",
   			"url": "powershell",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       },
       {
-        "id": "56312e6ed6859e0700426929",
   			"name": "Windows 10 Security",
   			"subtitle": "Security in Windows 10",
   			"url": "windows-10-security",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       },
       {
-        "id": "558998baf4d57f07009f2727",
   			"name": "Working with SSH",
   			"subtitle": "SSH Tools and Tips",
   			"url": "ssh",
+        "tagUrl": "security-skills",
         "level": "Intermediate"
       },
       {
-        "id": "571d6f8ba123530700fe4773",
   			"name": "Microsoft Desktop Optimization Pack",
   			"subtitle": "MDOP",
   			"url": "microsoft-desktop-optimization-pack",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       }
     ]
