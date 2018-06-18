@@ -23,6 +23,11 @@ resource "aws_s3_bucket" "staging_bucket" {
     index_document = "index.html"
   }
 
+  cors_rule {
+    allowed_headers = ["*"]
+    allowed_methods = ["PUT", "POST", "GET", "HEAD"]
+    allowed_origins = ["*"]
+  }
 }
 
 resource "aws_s3_bucket_policy" "marketing-staging-policy" {
