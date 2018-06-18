@@ -29,18 +29,18 @@ export const pageQuery = graphql`
       name
       recommended {
         courses {
-          id
         	name
           subtitle
+          tagUrl
           url
           level
         }
       }
       additional {
         courses {
-          id
         	name
           subtitle
+          tagUrl
           url
           level
         }
