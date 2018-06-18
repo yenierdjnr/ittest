@@ -10,7 +10,7 @@ import { IconExams, IconLabs } from 'Elements/Icons';
 const GsaCourses = props => {
   return (
     <section className={ styles.container} >
-    <Hx className={ styles.subtitle } color={ styles.offBlack }>DoD Approved 8140 (DoDD 8570) Baseline Certifications</Hx>
+    <Hx size="3" className={ styles.subtitle } color={ styles.offBlack }>DoD Approved 8140 (DoDD 8570) Baseline Certifications</Hx>
       <div className={ styles.courseList }>
 
         <div className={ styles.courseLevel }>

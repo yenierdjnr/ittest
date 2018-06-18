@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-const Hx = ({ className='', children='Heading', color='#FFFFFF', size='1' }) => {
+const Hx = ({ className='', children='Heading', color='#FFFFFF', size='' }) => {
   switch(size) {
     case '1':
       return <h1 style={{ color: color }} className={ `${className} ${styles.h1}` }>{ children }</h1>;

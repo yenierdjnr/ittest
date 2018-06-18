@@ -14,7 +14,7 @@ const Government = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>Online IT Training for Governments</Hx>
+        <Hx size="1" className={ title }>Online IT Training for Governments</Hx>
         <Para className={ subtitle }>Binge-worthy learning&trade; for your team</Para>
       </div>
     </section>
