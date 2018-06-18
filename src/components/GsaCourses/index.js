@@ -14,97 +14,97 @@ const GsaCourses = props => {
       <div className={ styles.courseList }>
 
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAT Level I</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CompTIA A+</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CompTIA Network+</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>SSCP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CCNA Security</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAT Level I</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/a-901/" target="_blank" className={ styles.link }>CompTIA A+</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/network-2016/" target="_blank" className={ styles.link }>CompTIA Network+</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/systems-security-certified-practitioner/" target="_blank" className={ styles.link }>SSCP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/cisco/ccna-security-updated-2016/" target="_blank" className={ styles.link }>CCNA Security</a></Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAT Level II</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>GSEC</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CompTIA Security+</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>SSCP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CCNA Security</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAT Level II</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/giac/gsec/" target="_blank" className={ styles.link }>GSEC</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/security-updated-2017/" target="_blank" className={ styles.link }>CompTIA Security+</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/systems-security-certified-practitioner/" target="_blank" className={ styles.link }>SSCP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/cisco/ccna-security-updated-2016/" target="_blank" className={ styles.link }>CCNA Security</a></Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAT Level III</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CASP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISA</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISSP (or Associate)</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAT Level III</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/comptia-advanced-security-practitioner-2016/" target="_blank" className={ styles.link }>CASP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isaca/cisa/" target="_blank" className={ styles.link }>CISA</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/certified-information-systems-security-professional-updated-2018/" target="_blank" className={ styles.link }>CISSP</a> (or Associate)</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCIH</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCED</Para>
         </div>
 
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAM Level I</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAM Level I</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CAP</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GSLC</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CompTIA Security+</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/security-updated-2017/" target="_blank" className={ styles.link }>CompTIA Security+</a></Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAM Level II</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CASP</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAM Level II</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/comptia-advanced-security-practitioner-2016/" target="_blank" className={ styles.link }>CASP</a></Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CAP</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GSLC</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISM</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISSP (or Associate)</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isaca/cism/" target="_blank" className={ styles.link }>CISM</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/certified-information-systems-security-professional-updated-2018/" target="_blank" className={ styles.link }>CISSP</a> (or Associate)</Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IAM Level III</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IAM Level III</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GSLC</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISM</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISSP (or Associate)</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isaca/cisa/" target="_blank" className={ styles.link }>CISM</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/certified-information-systems-security-professional-updated-2018/" target="_blank" className={ styles.link }>CISSP</a> (or Associate)</Para>
         </div>
 
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IASAE Level I</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CASP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISSP (or Associate)</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IASAE Level I</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/comptia-advanced-security-practitioner-2016/" target="_blank" className={ styles.link }>CASP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/certified-information-systems-security-professional-updated-2018/" target="_blank" className={ styles.link }>CISSP</a> (or Associate)</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CSSLP</Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IASAE Level II</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CASP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISSP (or Associate)</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IASAE Level II</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/comptia-advanced-security-practitioner-2016/" target="_blank" className={ styles.link }>CASP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/certified-information-systems-security-professional-updated-2018/" target="_blank" className={ styles.link }>CISSP</a> (or Associate)</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CSSLP</Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >IASAE Level III</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>IASAE Level III</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CISSP - ISSEP</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CISSP - ISSAP</Para>
         </div>
 
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >CNDSP Analyst</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>CNDSP Analyst</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCIA</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CEH</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/ec-council/ceh-v9/" target="_blank" className={ styles.link }>CEH</a></Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCIH</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>SCYBER</Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ `${styles.course} ${styles.small}` } color={ styles.offBlack } >CNDSP Incident Responder</Para>
+          <Para className={ `${styles.course} ${styles.small}` } color={ styles.offBlack }>CNDSP Incident Responder</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCIH</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CSIH</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CEH</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/ec-council/ceh-v9/" target="_blank" className={ styles.link }>CEH</a></Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GCFA</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>SCYBER</Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >CNDSP Auditor</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISA</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>CNDSP Auditor</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isaca/cisa/" target="_blank" className={ styles.link }>CISA</a></Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>GSNA</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CEH</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/ec-council/ceh-v9/" target="_blank" className={ styles.link }>CEH</a></Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ styles.course } color={ styles.offBlack } >CNDSP Manager</Para>
+          <Para className={ styles.course } color={ styles.offBlack }>CNDSP Manager</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }>CISSP - ISSMP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CISM</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isaca/cisa/" target="_blank" className={ styles.link }>CISM</a></Para>
         </div>
         <div className={ styles.courseLevel }>
-          <Para className={ `${styles.course} ${styles.small}` } color={ styles.offBlack } >CNDSP Infrastructure Support</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>SSCP</Para>
-          <Para className={ styles.courseName } color={ styles.greyDark }>CEH</Para>
+          <Para className={ `${styles.course} ${styles.small}` } color={ styles.offBlack }>CNDSP Infrastructure Support</Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/isc2/systems-security-certified-practitioner/" target="_blank" className={ styles.link }>SSCP</a></Para>
+          <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/ec-council/ceh-v9/" target="_blank" className={ styles.link }>CEH</a></Para>
         </div>
 
       </div>

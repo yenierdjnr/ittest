@@ -1,0 +1,132 @@
+@import '~Styles/main';
+
+
+$breakpoints: (
+  'tablet': $tablet,
+  'upper-phablet': $upper-phablet,
+  'video-width': 669px
+);
+
+:export {
+  offBlack: $color-offblack;
+  darkGrey: $color-grey-dark;
+}
+
+.container {
+  padding: 7.2rem 0 9.9rem;
+  background-color: $color-offwhite;
+}
+
+.content {
+  max-width: 1035px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.for-teams-container {
+  width: 669px;
+  margin-top: 1.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.img {
+  width: 100%;
+}
+
+.vidwrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  cursor:pointer;
+
+  & iframe {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.for-teams-iframe {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  z-index: $z-iframe;
+}
+
+.play-button {
+  position: absolute;
+  z-index: $z-video;
+  cursor: pointer;
+}
+
+.intro {
+  max-width: 32.5rem;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+.summary {
+  max-width: 27.6rem;
+  line-height: 3.0rem;
+}
+
+
+@include media('<tablet') {
+  .container {
+    padding: 5.6rem 0 10.2rem;
+  }
+  .content {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .for-teams-container {
+    order: 2;
+    margin-top: 0;
+  }
+
+  .intro {
+    max-width: 66.9rem;
+    margin-bottom: 7.1rem;
+  }
+  .title {
+    max-width: 24rem;
+    font-size: 3rem;
+    line-height: 3.7rem;
+  }
+  .summary {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+
+@include media('<upper-phablet') {
+  .intro {
+    padding: 0 4rem;
+  }
+  .summary {
+    // width: 27.7rem;
+  }
+}
+
+@include media('<video-width') {
+  .container {
+    padding-bottom: 0;
+  }
+  .for-teams-container {
+    width: 100%;
+  }
+}

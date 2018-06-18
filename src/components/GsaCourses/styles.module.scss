@@ -68,6 +68,14 @@ $breakpoints: (
   padding: 1.1rem 0;
 }
 
+.link {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+
+
 @include media('<lower-tablet') {
   .container {
     padding: 3.2rem 0 3.8rem;

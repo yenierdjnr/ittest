@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
-import { ViewportAnimation } from 'Elements/Viewport'
 import { IconCertificate, IconLabs, IconExams } from 'Elements/Icons';
 
 
@@ -12,7 +11,6 @@ const GovernmentContent = props => {
   return (
     <section className={ styles.container }>
 
-      <ViewportAnimation>
         <ul className={ styles.list }>
           <li className={ styles.item }>
             <div className={ styles['icon-box'] }>
@@ -20,7 +18,8 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">One Source For All Training</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>CompTIA, Microsoft, EC-Council, Apple, Cisco, ISACA, (ISC)<sup>2</sup>, and more.<TextLink to="/courses/" size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>See all courses</TextLink></Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>CompTIA, Microsoft, EC-Council, Apple, Cisco, ISACA, (ISC)<sup>2</sup>, and more.</Para>
+              <a href="/courses/" target="_blank" className={ styles.link }> See all courses.</a>
             </div>
           </li>
           <li className={ styles.item }>
@@ -29,7 +28,7 @@ const GovernmentContent = props => {
             </div>
             <div className={ styles.summary }>
               <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
-              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
+              <Para color={ styles.greyDark } className={ styles.subtitle }>Try out your skills on more than 800 virtual machine labs. Configure, troubleshoot, and more in a no-risk environment.</Para>
             </div>
           </li>
           <li className={ `${styles.item} ${styles.binge}` }>
@@ -42,7 +41,6 @@ const GovernmentContent = props => {
             </div>
           </li>
         </ul>
-      </ViewportAnimation>
 
     </section>
   );

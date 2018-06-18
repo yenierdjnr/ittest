@@ -63,9 +63,14 @@ $breakpoints: (
 }
 
 .subtitle {
-  margin-bottom: 8px;
   font-size: 1.6rem;
   line-height: 2.4rem;
+}
+
+.link {
+  @include adelle-sans-regular;
+  color: $color-orange-primary;
+  font-size: 1.7rem;
 }
 
 
