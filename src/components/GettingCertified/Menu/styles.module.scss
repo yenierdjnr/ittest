@@ -100,8 +100,8 @@ $breakpoints: (
 
   .item {
     width: 7rem;
-  }
-  &:not(:last-child) {
-    margin-right: .5rem;
+    &:not(:last-child) {
+      margin-right: .5rem;
+    }
   }
 }
