@@ -5,21 +5,28 @@
   {
     "courses": [
       {
-  			"name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
         "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
+        "level": "Novice"
+      },
+      {
+  			"name": "CompTIA Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"url": "accelerated-a-220901-220902",
         "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-  			"name": "IT Fundamentals",
+  			"name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"url": "fundamentals",
         "tagUrl": "comptia",
@@ -28,7 +35,7 @@
       {
   			"name": "MTA - Windows Operating System Fundamentals -  98-349",
   			"subtitle": "Windows Operating System Fundamentals",
-        "url": "mta",
+        "url": "mta-windows-operating-system-fundamentals-98349-update-2018",
         "tagUrl": "microsoft",
         "level": "Novice"
       },
@@ -36,18 +43,25 @@
   			"name": "MTA - Mobility and Devices Fundamentals - 98-368",
   			"subtitle": "Mobility and Devices Fundamentals",
   			"url": "mta-mobility-devices-fundamentals",
-        "tagUrl": "microsoft",
+        "tagUrl": "legacy",
         "level": "Novice"
       },
       {
   			"name": "Mac Integration Basics 10.12",
   			"subtitle": "Sierra 10.12",
   			"url": "mac-integration-basics-1012",
+        "tagUrl": "legacy",
+        "level": "Novice"
+      },
+      {
+  			"name": "ACA Mac Integration Basics 10.13",
+  			"subtitle": "Apple Certified Associate",
+  			"url": "apple-certified-associate-1013",
         "tagUrl": "apple",
         "level": "Novice"
       },
       {
-  			"name": "Network+ 2016",
+  			"name": "CompTIA Network+ 2016",
   			"subtitle": "Vendor-neutral networking",
   			"url": "network-2016",
         "tagUrl": "comptia",
@@ -70,7 +84,7 @@
       {
   			"name": "MCSA Windows Server 2012 - 70-410",
   			"subtitle": "Installing and Configuring Windows Server 2012",
-  			"url": "mcsa-windows-server-2012-reshoot",
+  			"url": "mcsa-windows-server-2012-70410-2017",
         "tagUrl": "microsoft",
         "level": "Advanced"
       },
@@ -89,8 +103,8 @@
         "level": "Advanced"
       },
       {
-  			"name": "Certified Technical Coordinator 10.11",
-  			"subtitle": "OS X Server Essentials 10.11",
+  			"name": "ACSP macOS Server Essentials 10.11",
+  			"subtitle": "Apple Certified Support Professional",
   			"url": "os-server-essentials-1011",
         "tagUrl": "apple",
         "level": "Advanced"
@@ -99,13 +113,20 @@
   			"name": "Certified Support Professional 10.11",
   			"subtitle": "OS X Support Essentials 10.11",
   			"url": "certified-support-professional-1011",
-        "tagUrl": "apple",
+        "tagUrl": "legacy",
         "level": "Advanced"
       },
       {
   			"name": "Certified Support Professional 10.12",
   			"subtitle": "macOS Support Essentials 10.12",
   			"url": "certified-support-professional-1012",
+        "tagUrl": "legacy",
+        "level": "Advanced"
+      },
+      {
+  			"name": "ACSP macOS Support Essentials 10.13",
+  			"subtitle": "Apple Certified Support Professional",
+  			"url": "certified-support-professional-1013",
         "tagUrl": "apple",
         "level": "Advanced"
       }

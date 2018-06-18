@@ -5,21 +5,28 @@
   {
     "courses": [
       {
-  			"name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
         "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
+        "level": "Novice"
+      },
+      {
+  			"name": "CompTIA Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"url": "accelerated-a-220901-220902",
         "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-  			"name": "IT Fundamentals",
+  			"name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"url": "fundamentals",
         "tagUrl": "comptia",
@@ -42,33 +49,33 @@
       {
         "name": "MTA - Security Fundamentals - 98-367",
         "subtitle": "Security Fundamentals",
-        "url": "mta2",
+        "url": "mta-security-fundamentals-98367-2017",
         "tagUrl": "microsoft",
         "level": "Novice"
       },
       {
   			"name": "CCENT",
   			"subtitle": "Cisco Certified Entry Networking Technician",
-  			"url": "ccent",
+  			"url": "ccent-updated-2018",
         "tagUrl": "cisco",
         "level": "Novice"
       },
       {
-        "name": "Cybersecurity Analyst (CySA+)",
-        "subtitle": "Vender-neutral cybersecurity knowledge and skills",
-        "url": "cybersecurity-analyst-csa",
+        "name": "CompTIA CySA+ (CS0-001)",
+        "subtitle": "CompTIA Cybersecurity Analyst",
+        "url": "cysa-cs0001",
         "tagUrl": "comptia",
         "level": "Intermediate"
       },
       {
-  			"name": "Security+",
+  			"name": "CompTIA Security+",
   			"subtitle": "Vendor-neutral IT Security",
   			"url": "security",
         "tagUrl": "comptia",
         "level": "Intermediate"
       },
       {
-  			"name": "Network+ 2016",
+  			"name": "CompTIA Network+ 2016",
   			"subtitle": "Vendor-neutral networking",
   			"url": "network-2016",
         "tagUrl": "comptia",
@@ -96,7 +103,7 @@
         "level": "Intermediate"
       },
       {
-  			"name": "Linux+",
+  			"name": "CompTIA Linux+",
   			"subtitle": "Powered by LPI",
   			"url": "linux1",
         "tagUrl": "comptia",
@@ -105,14 +112,14 @@
       {
   			"name": "CCNA Routing and Switching",
   			"subtitle": "Cisco Certified Network Associate",
-  			"url": "ccna-routing-switching",
+  			"url": "ccna-routingswitching-updated-2018",
         "tagUrl": "cisco",
         "level": "Intermediate"
       },
       {
-  			"name": "CCNA Security 640-554",
+  			"name": "CCNA Security (2018)",
   			"subtitle": "Cisco Certified Network Associate Security",
-  			"url": "ccna-security",
+  			"url": "ccna-security-2018",
         "tagUrl": "cisco",
         "level": "Intermediate"
       },
@@ -168,14 +175,14 @@
       {
   			"name": "Certified Information Systems Security Professional",
   			"subtitle": "CISSP",
-  			"url": "certified-information-systems-security-professional",
+  			"url": "certified-information-systems-security-professional-updated-2018",
         "tagUrl": "isc2",
         "level": "Expert"
       },
       {
   			"name": "Certified Cloud Security Professional",
   			"subtitle": "CCSP",
-  			"url": "certified-cloud-security-professional",
+  			"url": "certified-cloud-security-professional-2016",
         "tagUrl": "isc2",
         "level": "Expert"
       }

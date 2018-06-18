@@ -4,21 +4,28 @@
   "recommended": {
     "courses": [
       {
-  			"name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"tagUrl": "comptia",
-        "url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
+        "level": "Novice"
+      },
+      {
+  			"name": "CompTIA Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"tagUrl": "comptia",
         "url": "accelerated-a-220901-220902",
         "level": "Novice"
       },
       {
-  			"name": "IT Fundamentals",
+  			"name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"tagUrl": "comptia",
         "url": "fundamentals",
@@ -28,13 +35,13 @@
   			"name": "MTA - Windows Operating System Fundamentals -  98-349",
   			"subtitle": "Windows Operating System Fundamentals",
         "tagUrl": "microsoft",
-        "url": "mta",
+        "url": "mta-windows-operating-system-fundamentals-98349-update-2018",
         "level": "Novice"
       },
       {
   			"name": "MTA - Mobility and Devices Fundamentals - 98-368",
   			"subtitle": "Mobility and Devices Fundamentals",
-  			"tagUrl": "microsoft",
+  			"tagUrl": "legacy",
         "url": "mta-mobility-devices-fundamentals",
         "level": "Novice"
       },
@@ -49,7 +56,7 @@
   			"name": "MTA - Security Fundamentals - 98-367",
   			"subtitle": "Security Fundamentals",
   			"tagUrl": "microsoft",
-        "url": "mta2",
+        "url": "mta-security-fundamentals-98367-2017",
         "level": "Novice"
       },
       {

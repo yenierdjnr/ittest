@@ -5,21 +5,28 @@
   {
     "courses": [
       {
-        "name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"tagUrl": "comptia",
-        "url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "name": "Accelerated A+ (220-901 / 220-902)",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
+        "level": "Novice"
+      },
+      {
+        "name": "CompTIA Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"tagUrl": "comptia",
         "url": "accelerated-a-220901-220902",
         "level": "Novice"
       },
       {
-        "name": "IT Fundamentals",
+        "name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"tagUrl": "comptia",
         "url": "fundamentals",
@@ -29,7 +36,7 @@
         "name": "CCENT",
   			"subtitle": "Cisco Certified Entry Networking Technician",
   			"tagUrl": "cisco",
-        "url": "ccent",
+        "url": "ccent-updated-2018",
         "level": "Novice"
       },
       {
@@ -40,14 +47,14 @@
         "level": "Novice"
       },
       {
-        "name": "Network+ 2016",
+        "name": "CompTIA Network+ 2016",
   			"subtitle": "Vendor-neutral networking",
   			"tagUrl": "comptia",
         "url": "network-2016",
         "level": "Intermediate"
       },
       {
-        "name": "Security+",
+        "name": "CompTIA Security+",
   			"subtitle": "Vendor-neutral IT Security",
   			"tagUrl": "comptia",
         "url": "security",
@@ -57,11 +64,11 @@
         "name": "CCNA Routing and Switching",
   			"subtitle": "Cisco Certified Network Associate",
   			"tagUrl": "cisco",
-        "url": "ccna-routing-switching",
+        "url": "ccna-routingswitching-updated-2018",
         "level": "Intermediate"
       },
       {
-        "name": "Linux+",
+        "name": "CompTIA Linux+",
   			"subtitle": "Powered by LPI",
   			"tagUrl": "comptia",
         "url": "linux1",
