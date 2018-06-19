@@ -57,7 +57,7 @@ const EdutainersContent = props => {
           <img className={ styles.headshot } src={ Jo } alt="Jo Peacock photo" />
           <div className={ styles.content }>
             <Para className={ styles.name } color={ styles.offBlack }>Jo Peacock</Para>
-            <Para className={ styles.bio } color={ styles.offBlack }>Jo is a leading visionary in the fields of IT service and project management. Internationally recognized, Jo has directed transformational projects for blue-chip organizations, federal government agencies, and the worlds leading educational establishments.</Para>
+            <Para className={ styles.bio } color={ styles.offBlack }>Jo is a leading visionary in the fields of IT service and project management. Internationally recognized, Jo has directed transformational projects for blue-chip organizations, federal government agencies, and the world's leading educational establishments.</Para>
             <Para className={ styles.cert } color={ styles.greyDark }>Certifications: 22 ITIL certifications in v2, v3, 2011; 4 Agile certifications; Prince2 Foundation &amp; Practitioner; ISO/IEC 20,000 Foundation &amp; Practitioner; PMP; SIAM Foundation &amp; Practitioner; MoR Foundation &amp; Practitioner; MCSE; CNE; AIX Administrator</Para>
           </div>
         </div>
