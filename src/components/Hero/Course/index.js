@@ -26,7 +26,7 @@ const CoursePageHero = props => {
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
           {props.tagUrl}
         </Link>
-        <Hx className={ styles.title } size="2">{props.title}</Hx>
+        <Hx className={ styles.title } size="1">{props.title}</Hx>
         <Para className={ styles.subtitle }>
           {props.subtitle}
         </Para>
