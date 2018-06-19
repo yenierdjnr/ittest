@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
-import { Hosts as Hero } from 'Components/Hero';
-import HostsContent from 'Components/HostsContent';
-import styles from './hosts.module.scss';
+import { Edutainers as Hero } from 'Components/Hero';
+import HostsContent from 'Components/EdutainersContent';
+import styles from './edutainers.module.scss';
 
 
-const Hosts = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const Edutainers = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
       <Head location={ location }/>,
@@ -26,4 +26,4 @@ const Hosts = ({ data, history, location, match, page, pageResources, pageContex
 }
 
 
-export default Hosts;
+export default Edutainers;

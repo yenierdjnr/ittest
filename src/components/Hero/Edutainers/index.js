@@ -6,7 +6,7 @@ import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
 
-const Hosts = ({ className='' }) => {
+const Edutainers = ({ className='' }) => {
   return (
     <section className={ styles.container }>
 
@@ -15,4 +15,4 @@ const Hosts = ({ className='' }) => {
 };
 
 
-export default Hosts;
+export default Edutainers;

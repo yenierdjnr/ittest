@@ -109,12 +109,12 @@ const metaData = {
     description: '',
     canonical: `${process.env.SELF_URL}/practice-tests/`
   },
-  '/hosts/': {
-    page: 'hosts',
-    path: '/hosts/',
-    title: 'ITProTV Hosts',
+  '/edutainers/': {
+    page: 'edutainers',
+    path: '/edutainers/',
+    title: 'ITProTV Edutainers',
     description: '',
-    canonical: `${process.env.SELF_URL}/hosts/`
+    canonical: `${process.env.SELF_URL}/edutainers/`
   },
   '/career-resources/': {
     page: 'careerResources',
