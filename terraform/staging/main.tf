@@ -43,6 +43,13 @@ resource "aws_s3_bucket_policy" "marketing-staging-policy" {
       "Principal": "*",
       "Action":["s3:GetObject"],
       "Resource":["arn:aws:s3:::new-staging.itpro.tv/*"]
+    },
+    {
+      "Sid": "PostForPardotRead",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action":["s3:PutObject"],
+      "Resource":["arn:aws:s3:::new-staging.itpro.tv/thankyou-demo/"]
     }
   ]
 }
