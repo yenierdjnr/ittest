@@ -26,7 +26,6 @@ $breakpoints: (
 }
 
 .item {
-  padding: 0 0 2rem;
   width: 21rem;
   text-align: center;
   margin: 0 2.25rem;
@@ -53,28 +52,15 @@ $breakpoints: (
 
 @include media('<tablet') {
   .container {
-    padding: 0 2rem;
+    padding: 0 2rem 2rem;
   }
 
   .content {
     flex-flow: column nowrap;
     margin: 1rem;
   }
-
-}
-
-
-@include media('<=upper-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-}
-
-
-@include media('<=small-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
+  .item {
+    width: 19rem;
+    margin: 0rem;
   }
 }
