@@ -5,7 +5,6 @@ set -x
 
 CMD=$1
 BUILD_ENV=$2
-apt-get install -y jq
 
 yarn install
 
