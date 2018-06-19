@@ -21,3 +21,4 @@ export { default as GettingCertifiedHero } from './GettingCertified';
 export { default as ITResourcesHero } from './ITResources';
 export { default as VirtualLabsHero } from './VirtualLabs';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
+export { default as Blog } from './Blog';

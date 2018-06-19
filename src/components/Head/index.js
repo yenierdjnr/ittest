@@ -220,6 +220,13 @@ const metaData = {
     title: 'Virtual Practice Lab Environments for ITProTV Members',
     description: '',
     canonical: `${process.env.SELF_URL}/vlabs/`
+  },
+  '/blog/': {
+    page: 'blog',
+    path: '/blog/',
+    title: 'Blog | ITProTV',
+    description: '',
+    canonical: `${process.env.SELF_URL}/blog/`
   }
 };
 
