@@ -81,7 +81,7 @@ const EdutainersContent = props => {
           <img className={ styles.headshot } src={ Ronnie } alt="Ronnie Wong photo" />
           <div className={ styles.content }>
             <Para className={ styles.name } color={ styles.offBlack }>Ronnie Wong</Para>
-            <Para className={ styles.bio } color={ styles.offBlack }>Ronnie has more than 20 years experience working with computers and technology, more than 10 years as a technical instructor.</Para>
+            <Para className={ styles.bio } color={ styles.offBlack }>Ronnie has more than 20 years experience working with computers and technology, and more than 10 years as a technical instructor.</Para>
             <Para className={ styles.cert } color={ styles.greyDark }>Certifications: MCSA(2003); MCSA(Windows7); MCSA(Windows 8); MCTS (Vista, 7); CompTIA A+, Security+, Network+,; IT Technician; CCNA Security; MCT; CCSI #33442</Para>
           </div>
         </div>
