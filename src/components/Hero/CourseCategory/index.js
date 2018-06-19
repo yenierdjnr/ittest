@@ -4,7 +4,6 @@ import Link from 'gatsby-link';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconArrowRight } from 'Elements/Icons';
-import Search from 'Components/Search';
 import styles from './styles.module.scss';
 
 
