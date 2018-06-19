@@ -31,7 +31,7 @@ write_data_file()
     # The third argument should be the subdirectory under data to save the file in
     SUBDIR=$3
 
-    curl -s "$URL_STR" | jq -M -s '.' > "data/$SUBDIR/$FILENAME.json"
+    curl -s "$URL_STR" | jq -M -S '.' > "data/$SUBDIR/$FILENAME.json"
 }
 
 CATS=$(curl -s $URL_BASE/api/marketing/v1/populate/tag-categories | jq -r '.tagCategories[]')
