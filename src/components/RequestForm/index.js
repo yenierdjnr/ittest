@@ -26,32 +26,6 @@ class RequestForm extends Component {
     };
   }
 
-  handleSubmit = event => {
-    event.preventDefault();
-
-    this.setState({ submitting : true })
-
-    fetch('https://go.itpro.tv/l/425902/2018-02-28/86q1kh', {
-      method: 'POST',
-      body: JSON.stringify(this.state.form),
-      mode: 'no-cors',
-      headers: {
-        'content-type': 'application/json'
-      }
-    })
-    .then(() => {
-      this.setState({
-        success: true,
-        error: false
-      })
-    }).catch(() => {
-      this.setState({
-        success: false,
-        error: true
-      })
-    });
-  }
-
   handleInput = e => {
     this.setState({
       form: {
@@ -77,7 +51,7 @@ class RequestForm extends Component {
       <section className={ `${styles.container} ${className}` }>
         <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo, or trial? Get in touch!</Hx>
 
-        <form onSubmit={this.handleSubmit}>
+        <form action="https://go.itpro.tv/l/425902/2018-06-13/8dybyw" method="post">
           <div className={ styles['about-you']}>
             <input
               className={ styles.item }
