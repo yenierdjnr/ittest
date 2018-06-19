@@ -272,6 +272,7 @@ class Head extends Component {
         {/*<!-- Twitter Tags End -->*/}
 
         <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
+        <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
         <link rel="canonical" href={ canonical } />
 
         {location.pathname === '/'

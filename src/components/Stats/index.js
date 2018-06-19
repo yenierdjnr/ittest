@@ -82,8 +82,8 @@ class Stats extends Component {
           <CountUp
             ref="content"
             className={ `${styles.num} content` }
-            start={3400}
-            end={3600}
+            start={3100}
+            end={3300}
             duration={2.75}
             useEasing={true}
             useGrouping={true}
