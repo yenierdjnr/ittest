@@ -38,10 +38,7 @@ $breakpoints: (
     margin-right: 4.1rem;
   }
   &:last-child {
-    width: 31.7rem;
-  }
-  &.binge {
-    width: 32.1rem;
+    width: 33.3rem;
   }
 }
 
@@ -112,15 +109,15 @@ $breakpoints: (
     margin-bottom: 4rem;
     border-radius: 5rem;
 
-    & .laptop-icon {
+    & .faq-section {
       width: 6.5rem;
       height: 7.5rem;
     }
-    & .gear-icon {
+    & .forum {
       width: 5rem;
       height: 6.7rem;
     }
-    & .popcorn-icon {
+    & .contact {
       width: 5.2rem;
       height: 6.9rem;
     }

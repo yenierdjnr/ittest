@@ -37,7 +37,7 @@ const paths = [
   },
   {
     title: 'Cybersecurity',
-    description: "Explore this high-demand career path that's vital in every industry every where.",
+    description: "Explore this high-demand career path that's vital in every industry everywhere.",
     link: '/career-resources/career-paths/cybersecurity/'
   },
   {
