@@ -20,11 +20,8 @@ import Zach from 'Images/zach.jpg';
 const EdutainersContent = props => {
   return (
     <section className={ styles.container }>
-<<<<<<< HEAD:src/components/HostsContent/index.js
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Hosts</Hx>
-=======
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Meet the Edutainers</Hx>
->>>>>>> acheng742/ch9491/hosts-profile-changes:src/components/EdutainersContent/index.js
         <div className={ styles.wrapper }>
           <img className={ styles.headshot } src={ Adam } alt="Adam Gordon photo" />
           <div className={ styles.content }>
