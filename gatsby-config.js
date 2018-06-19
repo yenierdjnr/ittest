@@ -4,13 +4,6 @@ require("dotenv").config({
     path: `.env.${currentEnv}`,
 });
 
-import 'babel-polyfill';
-
-exports.onClientEntry = () => {
-    // Having an empty onClientEntry fixes an IE11 issue according to
-    // https://github.com/gatsbyjs/gatsby/issues/2177#issuecomment-382280801
-};
-
 module.exports = {
   siteMetadata: {
     siteUrl: `${process.env.SELF_URL}`,
