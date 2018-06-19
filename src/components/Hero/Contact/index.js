@@ -14,8 +14,8 @@ const Contact = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>Contact Us</Hx>
-        <Para className={ subtitle }>Our first company value is "we exist for our members." How can we help you?</Para>
+        <Hx size="2" className={ title }>Contact ITProTV</Hx>
+        <Para className={ subtitle }>A team of service and success representatives are ready to serve you.</Para>
       </div>
     </section>
 
