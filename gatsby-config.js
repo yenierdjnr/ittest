@@ -13,6 +13,20 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
     {
+    resolve: `gatsby-plugin-google-tagmanager`,
+    options: {
+      id: "GTM-PTHSHMZ",
+
+      // Include GTM in development.
+      // Defaults to false meaning GTM will only be loaded in production.
+      includeInDevelopment: true,
+
+      // Specify optional GTM environment details.
+      // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+      // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sitemap'
     },
     {
