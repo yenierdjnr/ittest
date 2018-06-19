@@ -14,7 +14,7 @@ const ForTeamsYou = props => {
           <div className={ styles.body }>
             <span className={ styles.title }>For Teams</span>
             <IconArrowRight fill={ styles.greenDark } />
-            <Hx className={ styles.subtitle } color={ styles.offBlack }>Training Your Team Will Actually Use</Hx>
+            <Hx size="2" className={ styles.subtitle } color={ styles.offBlack }>Training Your Team Will Actually Use</Hx>
             <Para className={ `${styles.summary} ${styles.forTeams}` } color={ styles.offBlack }>Empower your team with the IT skills they need.</Para>
           </div>
           <div className={ styles['bottom-bar'] }></div>
@@ -26,7 +26,7 @@ const ForTeamsYou = props => {
           <div className={ styles.body }>
             <span className={ styles.title }>For You</span>
             <IconArrowRight fill={ styles.blueDark } />
-            <Hx className={ styles.subtitle } color={ styles.offBlack }>Training to Accelerate Your Career</Hx>
+            <Hx size="2" className={ styles.subtitle } color={ styles.offBlack }>Training to Accelerate Your Career</Hx>
             <Para className={ `${styles.summary} ${styles.forYou}` } color={ styles.offBlack }>Get the skills you need from an expansive course library.</Para>
           </div>
           <div className={ styles['bottom-bar'] }></div>

@@ -18,7 +18,7 @@ import Pete from 'Images/pete.jpg';
 const TeamContent = props => {
   return (
     <section className={ styles.container }>
-      <Hx className={ styles.subtitle } color={ styles.offBlack }>Meet the Leadership Team</Hx>
+      <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Leadership Team</Hx>
 
       <ul className={ styles.listContainer }>
         <li className={ styles.item }>

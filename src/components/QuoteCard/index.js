@@ -17,7 +17,7 @@ const QuoteCard = props => {
       <div className={ container }>
         <span className={ quotes }>“</span>
         <div className={ comment }>
-          <Hx className={ title} color={ offBlack }>
+          <Hx size="2" className={ title} color={ offBlack }>
             {props.title}
           </Hx>
           <Para className={ summary } color={ offBlack }>
