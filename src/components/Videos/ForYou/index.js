@@ -26,7 +26,7 @@ const ForYouVideo = ({ className='', videoImg }) => {
         </div>
         <div className={ styles.intro }>
           <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More & Enjoy Watching</Hx>
-          <Para className={ styles.summary } color={ styles.darkGrey } size="2">ITProTV delivers the IT instruction that you need to advance or launch your IT career in a fun and creative way, with attractive studios and an interactive, talk-show style format, you'll watch more and learn more. See why in this video.</Para>
+          <Para className={ styles.summary } color={ styles.darkGrey } size="2">ITProTV delivers the IT instruction that you need to advance or launch your IT career in a fun and creative way; with attractive studios and an interactive, talk-show style format, you'll watch more and learn more. See why in this video.</Para>
         </div>
       </div>
     </section>
