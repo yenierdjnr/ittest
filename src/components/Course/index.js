@@ -21,7 +21,6 @@ class CoursePage extends Component {
       topicIndex: 0,
       episodeIndex: 0,
       showOpacity: '',
-      extras: 'transcript',
       showEpisodes: false
     };
   }
@@ -42,13 +41,6 @@ class CoursePage extends Component {
     return (
       vidWrap.innerHTML = ``
     )
-  }
-
-  handleContentToggle = () => {
-
-    this.setState({
-      extras: this.state.extras === 'transcript' ? 'notes' : 'transcript',
-    })
   }
 
   render() {
@@ -104,10 +96,7 @@ class CoursePage extends Component {
                 overview={ data.course.topics[0].episodes[0] }
               />
              <EpisodeExtras
-               onContentToggle={ this.handleContentToggle }
                transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
-               showNotes={ data.course.topics[topicIndex].episodes[episodeIndex].showNotes }
-               extras={ this.state.extras }
               />
             </div>
           </div>
@@ -143,8 +132,6 @@ export const pageQuery = graphql`
           thumbnailMed
           vimeoId
           transcript
-          hasNotes
-          showNotes
         }
       }
     }
