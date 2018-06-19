@@ -49,7 +49,7 @@ const TeamContent = props => {
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Vivian } alt="Vivian Pezet photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Vivian Pezet</Para>
-          <Para className={ styles.title } color={ styles.offBlack }>VP of Member Services</Para>
+          <Para className={ styles.title } color={ styles.offBlack }>Director of Member Services</Para>
         </li>
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Angie } alt="Angie Byers photo" />
