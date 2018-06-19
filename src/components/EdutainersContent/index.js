@@ -17,7 +17,7 @@ import Wes from 'Images/wes.jpg';
 import Zach from 'Images/zach.jpg';
 
 
-const HostsContent = props => {
+const EdutainersContent = props => {
   return (
     <section className={ styles.container }>
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Meet the Edutainers</Hx>
@@ -120,4 +120,4 @@ const HostsContent = props => {
 };
 
 
-export default HostsContent;
+export default EdutainersContent;
