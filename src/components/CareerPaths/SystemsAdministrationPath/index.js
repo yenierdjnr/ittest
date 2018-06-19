@@ -32,7 +32,7 @@ const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses
         {recommendedCourses.map(course => (
           <CareerPathCourses
             key={ course.url }
-            url={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -50,6 +50,7 @@ const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses
         {additionalCourses.map(course => (
           <CareerPathCourses
             key={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }

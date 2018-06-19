@@ -32,6 +32,7 @@ export const pageQuery = graphql`
         	name
           subtitle
           url
+          tagUrl
           level
         }
       }
@@ -40,6 +41,7 @@ export const pageQuery = graphql`
         	name
           subtitle
           url
+          tagUrl
           level
         }
       }

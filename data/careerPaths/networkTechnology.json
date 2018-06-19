@@ -5,136 +5,143 @@
   {
     "courses": [
       {
-        "id": "55ef41528fe1ff0700cad7a4",
-  			"name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "59a0276e93c3030b00cb40cf",
-  			"name": "Accelerated A+ (220-901 / 220-902)",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "accelerated-a-220901-220902",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000011",
-  			"name": "IT Fundamentals",
+        "name": "CompTIA Accelerated A+ (220-901 / 220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies",
+  			"tagUrl": "comptia",
+        "url": "accelerated-a-220901-220902",
+        "level": "Novice"
+      },
+      {
+        "name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
-  			"url": "fundamentals",
+  			"tagUrl": "comptia",
+        "url": "fundamentals",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000022",
-  			"name": "CCENT",
+        "name": "CCENT",
   			"subtitle": "Cisco Certified Entry Networking Technician",
-  			"url": "ccent",
+  			"tagUrl": "cisco",
+        "url": "ccent-updated-2018",
         "level": "Novice"
       },
       {
-        "id": "561538df0051eb0700b1f471",
-  			"name": "MTA - Networking Fundamentals - 98-366",
+        "name": "MTA - Networking Fundamentals - 98-366",
   			"subtitle": "Networking Fundamentals",
-  			"url": "mta1",
+  			"tagUrl": "microsoft",
+        "url": "mta1",
         "level": "Novice"
       },
       {
-        "id": "588613d026e3e51500130194",
-  			"name": "Network+ 2016",
+        "name": "CompTIA Network+ 2016",
   			"subtitle": "Vendor-neutral networking",
-  			"url": "network-2016",
+  			"tagUrl": "comptia",
+        "url": "network-2016",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae10805157000001a",
-  			"name": "Security+",
+        "name": "CompTIA Security+",
   			"subtitle": "Vendor-neutral IT Security",
-  			"url": "security",
+  			"tagUrl": "comptia",
+        "url": "security",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae108051570000023",
-  			"name": "CCNA Routing and Switching",
+        "name": "CCNA Routing and Switching",
   			"subtitle": "Cisco Certified Network Associate",
-  			"url": "ccna-routing-switching",
+  			"tagUrl": "cisco",
+        "url": "ccna-routingswitching-updated-2018",
         "level": "Intermediate"
       },
       {
-        "id": "5565fd12c22d6c070011891e",
-  			"name": "Linux+",
+        "name": "CompTIA Linux+",
   			"subtitle": "Powered by LPI",
-  			"url": "linux1",
+  			"tagUrl": "comptia",
+        "url": "linux1",
         "level": "Intermediate"
       },
       {
-        "id": "57b2244064e4070700871556",
-  			"name": "MCSA Windows Server 2016 - 70-740",
+        "name": "MCSA Windows Server 2016 - 70-740",
   			"subtitle": "Installation, Storage, and Compute with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70740",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70740",
         "level": "Intermediate"
       },
       {
-        "id": "582b183da385f829006bc7d7",
-  			"name": "MCSA Windows Server 2016 - 70-741",
+        "name": "MCSA Windows Server 2016 - 70-741",
   			"subtitle": "Networking with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70741",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70741",
         "level": "Intermediate"
       },
       {
-        "id": "5989b83cfcb6d30b00dbbc39",
-  			"name": "MCSA Windows Server 2016 - 70-742",
+        "name": "MCSA Windows Server 2016 - 70-742",
   			"subtitle": "Identity with Windows Server 2016",
-  			"url": "mcsa-windows-server-2016-70742",
+  			"tagUrl": "microsoft",
+        "url": "mcsa-windows-server-2016-70742",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae108051570000025",
-  			"name": "CCNP Routing and Switching - ROUTE",
+        "name": "CCNP Routing and Switching - ROUTE",
   			"subtitle": "Implementing Cisco IP Routing",
-  			"url": "ccnp-routing-switching",
+  			"tagUrl": "cisco",
+        "url": "ccnp-routing-switching",
         "level": "Advanced"
       },
       {
-        "id": "560b3bd20e55600700ee2943",
-  			"name": "CCNP Routing and Switching - SWITCH",
+        "name": "CCNP Routing and Switching - SWITCH",
   			"subtitle": "Implementing Cisco IP Switched Networks",
-  			"url": "ccnp-routing-switching1",
+  			"tagUrl": "cisco",
+        "url": "ccnp-routing-switching1",
         "level": "Advanced"
       },
       {
-        "id": "562a2d0fc3ef850700eae4f6",
-  			"name": "CCNP Routing and Switching - TSHOOT",
+        "name": "CCNP Routing and Switching - TSHOOT",
   			"subtitle": "Troubleshooting and Maintaining Cisco IP Networks",
-  			"url": "ccnp-routing-switching2",
+  			"tagUrl": "cisco",
+        "url": "ccnp-routing-switching2",
         "level": "Advanced"
       },
       {
-        "id": "55bbe0350fa2380700bb5585",
-  			"name": "CompTIA Advanced Security Practitioner",
+        "name": "CompTIA Advanced Security Practitioner",
   			"subtitle": "CASP",
-  			"url": "comptia-advanced-security-practitioner",
+  			"tagUrl": "comptia",
+        "url": "comptia-advanced-security-practitioner",
         "level": "Advanced"
       },
       {
-        "id": "56a693ea819ee0070038559f",
-  			"name": "Cisco ASA Express Security",
+        "name": "Cisco ASA Express Security",
   			"subtitle": "Next Generation Firewall",
-  			"url": "cisco-asa-express-security",
+  			"tagUrl": "cisco",
+        "url": "cisco-asa-express-security",
         "level": "Advanced"
       },
       {
-        "id": "5644e9fe597c030700e7ace5",
-  			"name": "FirePOWER with Advanced FireSIGHT Administration",
+        "name": "FirePOWER with Advanced FireSIGHT Administration",
   			"subtitle": "SSFIPS",
-  			"url": "firepower-advanced-firesight-administration",
+  			"tagUrl": "cisco",
+        "url": "firepower-advanced-firesight-administration",
         "level": "Advanced"
       },
       {
-        "id": "59b96f9b98f7290c00319bc8",
-  			"name": "MCSE Windows Server 2016 - 70-744",
+        "name": "MCSE Windows Server 2016 - 70-744",
   			"subtitle": "Securing Windows Server 2016",
-  			"url": "mcse-windows-server-2016-70744",
+  			"tagUrl": "microsoft",
+        "url": "mcse-windows-server-2016-70744",
         "level": "Advanced"
       }
     ]
@@ -142,108 +149,115 @@
   "additional": {
     "courses": [
       {
-        "id": "5665b1c3315ef10700283633",
-  			"name": "Virtualization Technologies",
+        "name": "Virtualization Technologies",
   			"subtitle": "Fundamentals of Virtualization",
-  			"url": "virtualization",
+  			"tagUrl": "virtualization-skills",
+        "url": "virtualization",
         "level": "Novice"
       },
       {
-        "id": "59417908ca44310b007ee740",
-  			"name": "Linux for Beginners",
+        "name": "Linux for Beginners",
   			"subtitle": "Getting started in Linux for new users",
-  			"url": "linuxbeginners",
+  			"tagUrl": "linux",
+        "url": "linuxbeginners",
         "level": "Novice"
       },
       {
-        "id": "591f53ca66f7510b00e3d25a",
-  			"name": "Windows Server 101",
+        "name": "Windows Server 101",
   			"subtitle": "Introduction to Windows Server",
-  			"url": "server-101",
+  			"tagUrl": "microsoft",
+        "url": "server-101",
         "level": "Novice"
       },
       {
-        "id": "58f92e402634860b009088c1",
-  			"name": "End User Security Awareness",
+        "name": "End User Security Awareness",
   			"subtitle": "Best Security Practices for the End User",
-  			"url": "user-security-awareness",
+  			"tagUrl": "security-skills",
+        "url": "user-security-awareness",
         "level": "Novice"
       },
       {
-        "id": "5595a25086d76e1f00e0689e",
-  			"name": "Cisco ASA Firewalls",
+        "name": "Cisco ASA Firewalls",
   			"subtitle": "Configuration of Cisco ASA Firewalls",
-  			"url": "cisco-asa-firewalls",
+  			"tagUrl": "cisco",
+        "url": "cisco-asa-firewalls",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae10805157000002d",
-  			"name": "GNS3",
+        "name": "GNS3",
   			"subtitle": "Router emulation software",
-  			"url": "gns3",
+  			"tagUrl": "networking-skills",
+        "url": "gns3",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae10805157000002b",
-  			"name": "Microsoft Hyper-V",
+        "name": "Microsoft Hyper-V",
   			"subtitle": "Microsoft Virtualization",
-  			"url": "microsoft-hyperv",
+  			"tagUrl": "microsoft",
+        "url": "microsoft-hyperv",
         "level": "Intermediate"
       },
       {
-        "id": "56fc18caca158407009a5898",
-  			"name": "Network Troubleshooting",
+        "name": "Network Troubleshooting",
   			"subtitle": "Command Line Tools for Diagnosing Network Issues",
-  			"url": "network-troubleshooting",
+  			"tagUrl": "networking-skills",
+        "url": "network-troubleshooting",
         "level": "Intermediate"
       },
       {
-        "id": "5733282475149f070003da6c",
-  			"name": "Nmap",
+        "name": "Nmap",
   			"subtitle": "Network Mapper, a Security Scanner",
-  			"url": "nmap",
+  			"tagUrl": "networking-skills",
+        "url": "nmap",
         "level": "Intermediate"
       },
       {
-        "id": "55797e2af4fdcf070096c5a4",
-  			"name": "pfSense",
+        "name": "pfSense",
   			"subtitle": "pfSense Build 2.2.2",
-  			"url": "pfsense",
+  			"tagUrl": "security-skills",
+        "url": "pfsense",
         "level": "Intermediate"
       },
       {
-  			"id": "54c2920ae108051570000030",
+        "name": "pfSense (2016)",
+  			"subtitle": "pfSense Build 2.3.2",
+  			"tagUrl": "security-skills",
+        "url": "pfsense-2016",
+        "level": "Intermediate"
+      },
+      {
   			"name": "PowerShell",
   			"subtitle": "for Administrators",
-  			"url": "powershell",
+  			"tagUrl": "microsoft",
+        "url": "powershell",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae10805157000002c",
-  			"name": "Wireshark",
+        "name": "Wireshark",
   			"subtitle": "Network protocol analyzer",
-  			"url": "wireshark",
+  			"tagUrl": "networking-skills",
+        "url": "wireshark",
         "level": "Intermediate"
       },
       {
-        "id": "58ada8a0b2328f0b009ed5fd",
-  			"name": "Wireshark 2.2.4",
+        "name": "Wireshark 2.2.4",
   			"subtitle": "Network protocol analyzer",
-  			"url": "wireshark2",
+  			"tagUrl": "networking-skills",
+        "url": "wireshark2",
         "level": "Intermediate"
       },
       {
-        "id": "5642b60dad23fd1700592302",
-  			"name": "Working with Active Directory",
+        "name": "Working with Active Directory",
   			"subtitle": "Deploy and maintain Active Directory",
-  			"url": "active-directory",
+  			"tagUrl": "microsoft",
+        "url": "active-directory",
         "level": "Intermediate"
       },
       {
-        "id": "5644a12c6cd4790f0025e593",
-  			"name": "Working with Group Policy",
+        "name": "Working with Group Policy",
   			"subtitle": "Group Policy",
-  			"hidden": false,
+        "tagUrl": "microsoft",
+        "url": "policy",
         "level": "Intermediate"
       }
     ]

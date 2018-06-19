@@ -5,45 +5,52 @@
   {
     "courses": [
       {
-        "id": "55ef41528fe1ff0700cad7a4",
-  			"name": "A+ 900 Series",
-  			"subtitle": "Vendor-neutral hardware and software technologies",
-  			"url": "a1",
+  			"name": "CompTIA A+ (220-901)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-901",
+  			"url": "a-901",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "59a0276e93c3030b00cb40cf",
-  			"name": "Accelerated A+ (220-901 / 220-902)",
+  			"name": "CompTIA A+ (220-902)",
+  			"subtitle": "Vendor-neutral hardware and software technologies - 220-902",
+  			"url": "a-220902",
+        "tagUrl": "comptia",
+        "level": "Novice"
+      },
+      {
+  			"name": "CompTIA Accelerated A+ (220-901 / 220-902)",
   			"subtitle": "Vendor-neutral hardware and software technologies",
   			"url": "accelerated-a-220901-220902",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "54c2920ae108051570000011",
-  			"name": "IT Fundamentals",
+  			"name": "CompTIA IT Fundamentals",
   			"subtitle": "IT Fundamentals",
   			"url": "fundamentals",
+        "tagUrl": "comptia",
         "level": "Novice"
       },
       {
-        "id": "586ec0c411d6ee0b006fa88d",
-  			"name": "Server+",
+  			"name": "CompTIA Server+",
   			"subtitle": "Planning, Maintaining and Securing Server Equipment",
   			"url": "server2",
+        "tagUrl": "comptia",
         "level": "Intermediate"
       },
       {
-        "id": "571d7468f327610700925278",
   			"name": "Microsoft SQL Server 2014 - 70-461",
   			"subtitle": "Querying Microsoft SQL Server 2014",
   			"url": "microsoft-sql-server-2014-70461",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       },
       {
-        "id": "54c2920ae108051570000021",
   			"name": "Microsoft SQL Server 2012 - 70-462",
   			"subtitle": "Administering Microsoft SQL Server 2012 Databases",
   			"url": "microsoft-sql-server-2012",
+        "tagUrl": "microsoft",
         "level": "Intermediate"
       }
     ]
@@ -51,25 +58,11 @@
   "additional": {
     "courses": [
       {
-        "id": "58f92e402634860b009088c1",
   			"name": "End User Security Awareness",
   			"subtitle": "Best Security Practices for the End User",
   			"url": "user-security-awareness",
+        "tagUrl": "security-skills",
         "level": "Novice"
-      },
-      {
-        "id": "5665b11e641a91070021c937",
-  			"name": "Azure SQL",
-  			"subtitle": "Relational Database-as-a-Service",
-  			"url": "azure-sql",
-        "level": "Intermediate"
-      },
-      {
-        "id": "56ba0ae4b01608070008949c",
-  			"name": "Active Directory in Azure",
-  			"subtitle": "Cloud based directory and identity management",
-  			"url": "active-directory-azure",
-        "level": "Advanced"
       }
     ]
   }

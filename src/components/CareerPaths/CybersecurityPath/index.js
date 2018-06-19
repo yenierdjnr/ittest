@@ -32,7 +32,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
         {recommendedCourses.map(course => (
           <CareerPathCourses
             key={ course.url }
-            url={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -50,6 +50,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
         {supportingCourses.map(course => (
           <CareerPathCourses
             key={ course.url }
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
@@ -67,6 +68,10 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
         {additionalCourses.map(course => (
           <CareerPathCourses
             key={ course.url }
+<<<<<<< HEAD
+=======
+            url={ `/courses/${course.tagUrl}/${course.url}/` }
+>>>>>>> acheng742/ch9426/link-career-path-courses
             title={ course.name }
             description={ course.subtitle }
             level={ course.level }
