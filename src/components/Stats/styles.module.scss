@@ -23,18 +23,21 @@ $breakpoints: (
 
 .left {
   @include grid-column(2,3);
+  -ms-grid-column-span: 1;
   // grid-column: 2 / 3;
   margin-right: 4.1rem;
 }
 
 .center {
   @include grid-column(3,4);
+  -ms-grid-column-span: 1;
   // grid-column: 3 / 4;
   margin-right: 4.1rem;
 }
 
 .right {
   @include grid-column(4,5);
+  -ms-grid-column-span: 1;
   // grid-column: 4 / 5;
 }
 
@@ -72,7 +75,9 @@ $breakpoints: (
   }
   .left {
     @include grid-column(1,-1);
+    -ms-grid-column-span: 1;
     @include grid-row(1,2);
+    -ms-grid-row-span: 1;
     // grid-column: 1 / -1;
     // grid-row: 1 / 2;
     height: unset;
@@ -80,7 +85,9 @@ $breakpoints: (
   }
   .center {
     @include grid-column(1,-1);
+    -ms-grid-column-span: 1;
     @include grid-row(2,3);
+    -ms-grid-row-span: 1;
     // grid-column: 1 / -1;
     // grid-row: 2 / 3;
     height: unset;
@@ -88,7 +95,9 @@ $breakpoints: (
   }
   .right {
     @include grid-column(1,-1);
+    -ms-grid-column-span: 1;
     @include grid-row(3,4);
+    -ms-grid-row-span: 1;
     // grid-column: 1 / -1;
     // grid-row: 3 / 4;
     margin: 0 12% 0;

@@ -17,6 +17,7 @@ $breakpoints: (
 
 .content {
   @include grid-column(2,3);
+  -ms-grid-column-span: 1;
   // grid-column: 2 / 3;
 
   display: flex;

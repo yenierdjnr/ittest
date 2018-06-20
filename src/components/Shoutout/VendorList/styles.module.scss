@@ -27,7 +27,7 @@ $breakpoints: (
 
 .item1, .item2, .item3, .item4, .item5, .item6 {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 1 - 2;
+  -ms-grid-row-span: 1;
   padding: 1.6rem 2.5rem;
   text-align: center;
 
@@ -50,11 +50,11 @@ $breakpoints: (
   }
   .item1, .item2, .item3 {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 1 - 2;
+    -ms-grid-row-span: 1;
   }
   .item4, .item5, .item6 {
     -ms-grid-row: 2;
-    -ms-grid-row-span: 2 - 3;
+    -ms-grid-row-span: 1;
   }
 }
 
@@ -80,14 +80,14 @@ $breakpoints: (
   }
   .item1, .item2 {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 1 - 2;
+    -ms-grid-row-span: 1;
   }
   .item3, .item4 {
     -ms-grid-row: 2;
-    -ms-grid-row-span: 2 - 3;
+    -ms-grid-row-span: 1;
   }
   .item5, .item6 {
     -ms-grid-row: 3;
-    -ms-grid-row-span: 3 - 4;
+    -ms-grid-row-span: 1;
   }
 }

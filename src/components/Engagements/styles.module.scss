@@ -17,18 +17,22 @@ $breakpoints: (
 
 .courses, .labs, .exams {
   @include grid-column(2,3);
+  -ms-grid-column-span: 1;
   // grid-column: 2 / 3;
 }
 .courses {
   @include grid-row(1,2);
+  -ms-grid-row-span: 1;
   // grid-row: 1 / 2;
 }
 .labs {
   @include grid-row(3,4);
+  -ms-grid-row-span: 1;
   // grid-row: 3 / 4;
 }
 .exams {
   @include grid-row(5,6);
+  -ms-grid-row-span: 1;
   // grid-row: 5 / 6;
 }
 
