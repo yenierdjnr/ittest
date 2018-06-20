@@ -111,7 +111,6 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
             node {
               url
               courses {
-                id
                 url
               }
             }
