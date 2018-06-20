@@ -31,33 +31,34 @@ write_data_file()
     # The third argument should be the subdirectory under data to save the file in
     SUBDIR=$3
 
+    mkdir -p "data/$SUBDIR"
     curl -s "$URL_STR" | jq -M -S '.' > "data/$SUBDIR/$FILENAME.json"
 }
 
-CATS=$(curl -s $URL_BASE/api/marketing/v1/populate/tag-categories | jq -r '.tagCategories[]')
+CATS=$(curl -s $URL_BASE/api/marketing/v1/ITProTV/populate/tag-categories | jq -r '.tagCategories[]')
 for url in $CATS
 do
-    URL_STR="$URL_BASE/api/marketing/v1/populate/tag-categories/$url"
+    URL_STR="$URL_BASE/api/marketing/v1/ITProTV/populate/tag-categories/$url"
     write_data_file "$url" "$URL_STR" tagCategories
 done
 
-TAGS=$(curl -s $URL_BASE/api/marketing/v1/populate/tags | jq -r '.tags[]')
+TAGS=$(curl -s $URL_BASE/api/marketing/v1/ITProTV/populate/tags | jq -r '.tags[]')
 for url in $TAGS
 do
-    URL_STR="$URL_BASE/api/marketing/v1/populate/tags/$url"
+    URL_STR="$URL_BASE/api/marketing/v1/ITProTV/populate/tags/$url"
     write_data_file "$url" "$URL_STR" tags
 done
 
-COURSES=$(curl -s $URL_BASE/api/marketing/v1/populate/courses | jq -r '.courses[]')
+COURSES=$(curl -s $URL_BASE/api/marketing/v1/ITProTV/populate/courses | jq -r '.courses[]')
 for url in $COURSES
 do
-    URL_STR="$URL_BASE/api/marketing/v1/populate/courses/$url"
+    URL_STR="$URL_BASE/api/marketing/v1/ITProTV/populate/courses/$url"
     write_data_file "$url" "$URL_STR" courses
 done
 
-VLABS=$(curl -s $URL_BASE/api/marketing/v1/populate/practice-labs | jq -r '.tags[]')
+VLABS=$(curl -s $URL_BASE/api/marketing/v1/ITProTV/populate/practice-labs | jq -r '.tags[]')
 for url in $VLABS
 do
-    URL_STR="$URL_BASE/api/marketing/v1/populate/practice-labs/$url"
+    URL_STR="$URL_BASE/api/marketing/v1/ITProTV/populate/practice-labs/$url"
     write_data_file "$url" "$URL_STR" vLabs
 done
