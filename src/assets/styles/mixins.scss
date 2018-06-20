@@ -14,6 +14,15 @@ $default-text-color: $color-white;
   border-radius: 4px;
 }
 
+@mixin display-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-parent {
+  @include diplay-grid;
+}
+
 @mixin btn(
   $width: $default-width,
   $fontSize: $default-font-size,
