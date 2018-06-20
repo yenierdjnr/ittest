@@ -10,7 +10,7 @@ $breakpoints: (
 
 .container {
   padding: 15% 0;
-  background-image: url('Images/studio_photo.jpg');
+  background-image: url('Images/edutainers-group.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -28,6 +28,6 @@ $breakpoints: (
 
 @include media('retina2x', '>lower-phone') {
   .container {
-    background-image: url('Images/studio_photo.jpg');
+    background-image: url('Images/edutainers-group.jpg');
   }
 }
