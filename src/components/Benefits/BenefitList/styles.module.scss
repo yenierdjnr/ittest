@@ -80,7 +80,7 @@ $breakpoints: (
 
 @include media('>=lower-tablet') {
   .container {
-    display: grid;
+    @include display-grid;
     grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
   }
 

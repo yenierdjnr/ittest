@@ -17,7 +17,7 @@ $breakpoints: (
 .container {
   padding: 7.2rem 0 8.4rem;
   margin: 0 2rem;
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 
@@ -32,7 +32,7 @@ $breakpoints: (
 
 .courseList {
   grid-column: 2 / 3;
-  display: grid;
+  @include display-grid;
   grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
   grid-column-gap: 4.1rem;
   grid-row-gap: 3.6rem;

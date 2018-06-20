@@ -14,6 +14,23 @@ $default-text-color: $color-white;
   border-radius: 4px;
 }
 
+@mixin display-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@mixin grid-column ($col-start, $col-end) {
+  -ms-grid-column: $col-start;
+  -ms-grid-column-span: $col-end - $col-start;
+  grid-column: #{$col-start}/#{$col-end};
+}
+
+@mixin grid-row ($row-start, $row-end) {
+  -ms-grid-row: $row-start;
+  -ms-grid-row-span: $row-end - $row-start;
+  grid-row: #{$row-start}/#{$row-end};
+}
+
 @mixin btn(
   $width: $default-width,
   $fontSize: $default-font-size,

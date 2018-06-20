@@ -13,7 +13,7 @@ $breakpoints: (
   position: fixed;
   z-index: $z-header;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(155px, 314px) 705px 1fr;
   align-items: center;
 

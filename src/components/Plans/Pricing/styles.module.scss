@@ -10,7 +10,7 @@ $breakpoints: (
   width: 1200px;
   margin: 0 auto;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: repeat(4, 27rem);
   grid-column-gap: 4rem;
 }

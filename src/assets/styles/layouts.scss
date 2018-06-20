@@ -20,6 +20,7 @@
 }
 
 @mixin secondary-1440-grid-template-columns {
+  -ms-grid-columns: 314px 41px 137px 40px 137px 41px 314px;
   grid-template-columns: 314px 41px 137px 40px 137px 41px 314px;
 }
 

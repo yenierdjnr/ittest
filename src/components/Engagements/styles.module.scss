@@ -8,27 +8,34 @@ $breakpoints: (
 
 
 .container {
-  display: grid;
+  @include display-grid;
+  -ms-grid-columns: 1fr auto 1fr;
   grid-template-columns: 1fr auto 1fr;
+  -ms-grid-rows: 315px 112px 315px 112px 315px;
   grid-template-rows: 315px 112px 315px 112px 315px;
 }
 
 .courses, .labs, .exams {
-  grid-column: 2 / 3;
+  @include grid-column(2,3);
+  // grid-column: 2 / 3;
 }
 .courses {
-  grid-row: 1 / 2;
+  @include grid-row(1,2);
+  // grid-row: 1 / 2;
 }
 .labs {
-  grid-row: 3 / 4;
+  @include grid-row(3,4);
+  // grid-row: 3 / 4;
 }
 .exams {
-  grid-row: 5 / 6;
+  @include grid-row(5,6);
+  // grid-row: 5 / 6;
 }
 
 
 @include media('<tablet') {
   .container {
+    -ms-grid-rows: auto 6.4rem auto 6.4rem auto;
     grid-template-rows: auto 6.4rem auto 6.4rem auto;
   };
 }

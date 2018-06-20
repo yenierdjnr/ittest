@@ -9,7 +9,7 @@ $breakpoints: (
 .category {
   grid-area: main;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: auto auto;
 }
@@ -25,7 +25,7 @@ $breakpoints: (
 
   padding: 4.8rem 0 6.6rem;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 
