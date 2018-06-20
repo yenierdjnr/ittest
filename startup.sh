@@ -5,22 +5,20 @@ set -x
 
 CMD=$1
 BUILD_ENV=$2
-apt-get install -y jq
-yarn global add gatsby-cli@1.1.52
 
 yarn install
 
 case "$CMD" in
   "develop")
-    MARKETING_ENV=development gatsby develop --verbose -H 0.0.0.0
+    MARKETING_ENV=development yarn run gatsby develop --verbose -H 0.0.0.0
     ;;
   "build")
       case "$BUILD_ENV" in
           "staging")
-              MARKETING_ENV=staging gatsby build --verbose
+              MARKETING_ENV=staging yarn run gatsby build --verbose
               ;;
           "production")
-              MARKETING_ENV=production gatsby build --verbose
+              MARKETING_ENV=production yarn run gatsby build --verbose
               ;;
           *)
               echo "Not a branch for building, exiting"
