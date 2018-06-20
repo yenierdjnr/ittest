@@ -11,6 +11,14 @@ https://github.com/gatsbyjs/gatsby
 
 Run `docker-compose up`, this will build the docker container for gatsby and install the needed node modules. Go grab some coffee or snacks while it builds.
 
+## Updating data files
+
+The site was populated with production data on 6/20/2018 (this date should be updated when the site is updated to keep track of when the script should run). If the data needed for the site changes, the site needs to be re-populated. In order to properly re-populate the site, follow the following steps:
+1. `cd` to the repo root directory.
+2. Run `./dataPopulate.sh` from the command line.
+
+That's it! The site will now populate.
+
 ## Deploying to production
 
 Your production branch is for the world to see - you will basically never push to this branch, and should only perform the steps below if the master branch builds and deploys to staging. The master branch deploys to staging on its own, however you are responsible for deploying production.
