@@ -1,0 +1,183 @@
+{
+  "description": "August 20, 2016  is the last day for this exam. Those looking to complete the Cisco Certified Entry Networking Technician (CCENT) certification will find in this course an overview of the process in achieving the certification and details about the exam required to pass in order to receive it. The CCENT involves networking fundamentals, basic security, wireless concepts and other topics and is designed for entry level IT professionals getting ready for help desk and support type positions. Some of the exam objectives include Operation of IP Data Networks, LAN Switching Technologies, IP Addressing, Network Device Security, troubleshooting and others which provide good foundational knowledge for achieving further related certifications.",
+  "descriptionMD": "",
+  "length": "63799",
+  "name": "CCENT",
+  "practiceExam": false,
+  "subtitle": "Cisco Certified Entry Networking Technician",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCENT covers a wide range of foundational topics and is the first step into possible Cisco certifications one can achieve. Viewers will hear an overview about the knowledge one needs to attain the CCENT certification, about the Interconnecting Cisco Networking Devices (ICND) exam one will need to take and the exam objectives for implementing Cisco IP routing.",
+          "length": "732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/ccent-0-0-overview-112514.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/ccent-0-0-overview-112514-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/ccent-0-0-overview-112514-sm.jpg",
+          "title": "Overview of CCENT",
+          "transcript": "",
+          "vimeoId": "112925392"
+        }
+      ],
+      "title": "Overview of CCENT (100-101)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Cisco offers a handful of certifications like CCENT, CCNA, and others. Viewers will hear discussions on assorted terminology required for the CCENT exam, the Cisco exam objectives, the Open System Interconnect (OSI) model that is a cornerstone of any advanced networking topic, and on understanding the network devices one has to deal with.",
+          "length": "4931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/001-Intro-To-Cisco.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/001-Intro-To-Cisco-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/001-Intro-To-Cisco-sm.jpg",
+          "title": "Intro To Cisco",
+          "transcript": "",
+          "vimeoId": "78230932"
+        },
+        {
+          "description": "It is important for people who work with Cisco equipment to understand basic infrastructure components. Viewers will hear about the initial commands and things required to setup and connect to a Cisco router or switch including, proper cables, software, and the device itself, as well as hear about the basic command line interface usage.",
+          "length": "6521",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/002-Initial-Device-Configuration.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/002-Initial-Device-Configuration-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/002-Initial-Device-Configuration-sm.jpg",
+          "title": "Initial Device Configuration",
+          "transcript": "",
+          "vimeoId": "78231277"
+        }
+      ],
+      "title": "Operation of IP Data Networks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The configurations between a router and a switch are almost identical. Viewers will get the chance to hear about the initial configuration of Cisco switch devices, the differences between them, and about connecting to a device via Telnet verses SSH.",
+          "length": "4560",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/003-Basic-Switch-Configuration.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/003-Basic-Switch-Configuration-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/003-Basic-Switch-Configuration-sm.jpg",
+          "title": "Basic Switch Configuration",
+          "transcript": "",
+          "vimeoId": "78231265"
+        },
+        {
+          "description": "Switching technologies pay attention to things like Mac addresses and the port communications on a system. Viewers will hear more in-depth explanations into how the switch operates and the advanced features built into a switch as well as hear about VLANs, switch security and trucking technologies.",
+          "length": "6802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/004-Switching-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/004-Switching-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/004-Switching-Technologies-sm.jpg",
+          "title": "Switching Technologies",
+          "transcript": "",
+          "vimeoId": "78231553"
+        },
+        {
+          "description": "The primary use for SVI's is for layer 3 switching, where switches start to take on some of the routing roles. Viewers will hear about switch virtual interfaces (SVI) and discussions on various troubleshooting tools for switches.",
+          "length": "4451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/009-Switch-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/009-Switch-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/009-Switch-Technologies-sm.jpg",
+          "title": "Switch Technologies",
+          "transcript": "",
+          "vimeoId": "116867510"
+        }
+      ],
+      "title": "LAN Switching Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In order to route between networks, one will first need to know how to create networks. Viewers will hear about IP addressing and the network protocols of IPv4 and IPv6, as well as CIDR, VLSM and network summarization. For a more detailed review, viewers are encouraged to check out the IP subnetting episodes in the Network+ show.",
+          "length": "6933",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/005-Introduction-to-Routing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/005-Introduction-to-Routing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/005-Introduction-to-Routing-sm.jpg",
+          "title": "Introduction to Routing",
+          "transcript": "",
+          "vimeoId": "78231552"
+        },
+        {
+          "description": "In order for one to jump into the realm of routers, one has to have an idea of how routers work, how they do what they do, and what goes on behind the scenes as routers work. Viewers will hear about the first steps into IP routing, the IP routing process, what happens to data as it passes across the network, as well as see demonstrations on configuring routing on Cisco routers.",
+          "length": "3915",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/006-IP-Routing-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/006-IP-Routing-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/006-IP-Routing-Technologies-sm.jpg",
+          "title": "IP Routing Technologies",
+          "transcript": "",
+          "vimeoId": "78231710"
+        }
+      ],
+      "title": "IP addressing (IPv4 / IPv6)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "There are different categorizations for routing protocols that have different internal priority over each other and different ways that they function. Viewers will hear about the variations between distance vector protocols and link state protocols, as well as hear how Cisco routers use administrative distance to select the route.",
+          "length": "2879",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/007-Intro-to-Routing-Protocols.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/007-Intro-to-Routing-Protocols-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/007-Intro-to-Routing-Protocols-sm.jpg",
+          "title": "Intro to Routing Protocols",
+          "transcript": "",
+          "vimeoId": "78231671"
+        },
+        {
+          "description": "The Open Shortest Path First (OSPF) protocol is a dynamic routing protocol that allows routers to communicate with each other. Viewers will hear about the properties of OSPF, how to configure it on a Cisco router, and also about configuring and implementing interVLAN routing on a Cisco router.",
+          "length": "4827",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/008-Intro-to-OSPF.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/008-Intro-to-OSPF-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/008-Intro-to-OSPF-sm.jpg",
+          "title": "Intro to OSPF",
+          "transcript": "",
+          "vimeoId": "78231859"
+        }
+      ],
+      "title": "IP Routing Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Network address translation is a very widely used technology that allows packets to be routed across the network, even if one is using a private IP address. Viewers will hear about network address translation and the three possible implementations on Cisco equipment and when to use them.",
+          "length": "5095",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/011-Network-Address-Translation.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/011-Network-Address-Translation-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/011-Network-Address-Translation-sm.jpg",
+          "title": "Network Address Translation",
+          "transcript": "",
+          "vimeoId": "79262107"
+        }
+      ],
+      "title": "IP Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Access control lists (ACLs) are a way for one to filter traffic passing over a network. Viewers will hear about the proper use and implementation of access control lists and the three involved syntaxes: standard, extended, and named ACLs.",
+          "length": "6947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/010-Access-Control-Lists.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/010-Access-Control-Lists-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/010-Access-Control-Lists-sm.jpg",
+          "title": "Access Control Lists",
+          "transcript": "",
+          "vimeoId": "127825412"
+        }
+      ],
+      "title": "Network Device Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "When troubleshooting ACLs, one can take a look at the statistics to see where a hit count is being generated and see if any hits are coming up on any of ones statements to figure out if they are properly configured. Viewers will see demonstrations on various troubleshooting scenarios such as IP addressing and host configuration, VLAN and trunking problems as well as resolving ACL issues.",
+          "length": "5206",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/012-Troubleshooting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/012-Troubleshooting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccent/012-Troubleshooting-sm.jpg",
+          "title": "Troubleshooting",
+          "transcript": "",
+          "vimeoId": "79261830"
+        }
+      ],
+      "title": "Troubleshooting"
+    }
+  ],
+  "url": "ccent",
+  "vLab": false
+}

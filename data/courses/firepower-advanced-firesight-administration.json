@@ -1,0 +1,198 @@
+{
+  "description": "FirePOWER is the power of the next generation IPS/ firewall that runs on one’s managed devices and defense center and FireSIGHT is a passive technology that scans a network and gathers information about users, hosts and applications. Viewers will learn about Cisco FirePOWER (formerly SourceFIRE) and how it can be employed to secure a network. Upon completion of this series, you will be able to identify the various features of Cisco FirePOWER, the FireSIGHT Management Center and FirePOWER AMP. You will also be able to configure FireSIGHT policies to enforce your company's security policy to all traffic on your network.",
+  "descriptionMD": "",
+  "length": "28216",
+  "name": "FirePOWER with Advanced FireSIGHT Administration",
+  "practiceExam": false,
+  "subtitle": "SSFIPS",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Viewers will learn about Cisco FirePOWER (formerly SourceFIRE)\nand how it can be employed to secure a network. Upon \ncompletion of this series, you will be able to identify the\nvarious features of Cisco FirePOWER, the FireSIGHT Management\nCenter and FirePOWER AMP. You will also be able to configure\nFireSIGHT policies to enforce your company's security policy\nto all traffic on your network.",
+          "length": "821",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-0-0-overview-111115-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-0-0-overview-111115-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-0-0-overview-111115-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "146810706"
+        },
+        {
+          "description": "In this episode, Todd introduces the viewers to Cisco FirePOWER (formerly SourceFIRE). He describes the primary components of a FirePOWER deployment and briefly demonstrates FirePOWER, the FireSIGHT Management Center and FireAMP.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-1-introduction_to_firepower-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-1-introduction_to_firepower-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-1-introduction_to_firepower-110915-1-sm.jpg",
+          "title": "Introduction to FirePOWER",
+          "transcript": "",
+          "vimeoId": "145507947"
+        },
+        {
+          "description": "This video continues the viewer's introduction to Cisco FirePOWER (formerly SourceFIRE). Todd explains some of the different Cisco devices that can run FirePOWER and does a hands-on demonstration of the Defense Center / FireSIGHT Management Center.",
+          "length": "2132",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-2-introduction_to_firepower_pt2-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-2-introduction_to_firepower_pt2-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-2-introduction_to_firepower_pt2-110915-1-sm.jpg",
+          "title": "Introduction to FirePOWER Part 2",
+          "transcript": "",
+          "vimeoId": "145507943"
+        },
+        {
+          "description": "In this episode, Todd demonstrates how to activate FirePOWER on a Cisco ASA that shipped with the FirePOWER module pre-installed. He also demonstrates how to upgrade a pre-existing ASA to support FirePOWER. He also describes the Cisco FirePOWER licensing model.",
+          "length": "1359",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower50028-1-3-installing_firepower-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower50028-1-3-installing_firepower-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower50028-1-3-installing_firepower-110915-1-sm.jpg",
+          "title": "Installing FirePOWER",
+          "transcript": "",
+          "vimeoId": "145552376"
+        },
+        {
+          "description": "This episode begins the configuration process for enabling Cisco FirePOWER on an ASA or dedicated FirePOWER appliance. Todd explains how FirePOWER uses System Policies and Health Policies to control managed devices. He also describes some of the limitations of the FireSIGHT Management Center in larger environments.",
+          "length": "1881",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-4-system_and_health_policies-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-4-system_and_health_policies-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-4-system_and_health_policies-110915-1-sm.jpg",
+          "title": "System and Health Policies",
+          "transcript": "",
+          "vimeoId": "145552548"
+        },
+        {
+          "description": "Todd takes a step back from configuring FirePOWER to spend some time showing users how to reduce administrative effort. He demonstrates creating reusable named objects that can be called in place of manual host data.",
+          "length": "1294",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-5-object_management-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-5-object_management-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-5-object_management-110915-1-sm.jpg",
+          "title": "Object Management",
+          "transcript": "",
+          "vimeoId": "145507957"
+        },
+        {
+          "description": "In this episode, Todd explains how the FireSIGHT FMC handles malware. He also demonstrates how you can create custom File Policies which can restrict data under any number of circumstances.",
+          "length": "1009",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-6-file_policies-110915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-6-file_policies-110915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-6-file_policies-110915-1-sm.jpg",
+          "title": "File Policies",
+          "transcript": "",
+          "vimeoId": "145507970"
+        },
+        {
+          "description": "Intrusion Prevention System policies are the backbone of Cisco FirePOWER. This episode demonstrates how to implement IPS policies and their components. Todd also explains the various layers of an IPS policy, how to tune the policy and adjusting rule states.",
+          "length": "2970",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-7-ips_policies-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-7-ips_policies-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-7-ips_policies-111015-1-sm.jpg",
+          "title": "IPS Policies",
+          "transcript": "",
+          "vimeoId": "145507982"
+        },
+        {
+          "description": "This two part episode covers Access Control Policies, which are a critical piece of a FirePOWER deployment. This video covers Security Intelligence, HTTP response pages, URL filtering and tying in IPS and file policies.",
+          "length": "1476",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_polices-111015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_polices-111015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_polices-111015-high-sm.jpg",
+          "title": "Access Control Policies",
+          "transcript": "",
+          "vimeoId": "146031549"
+        },
+        {
+          "description": "This two part episode covers Access Control Policies, which are a critical piece of a FirePOWER deployment. This video covers applying an Access Control Policy to your managed devices, collecting event data, and analyzing event data once the policy is in place.",
+          "length": "1314",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_policies_pt2-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_policies_pt2-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-8-access_control_policies_pt2-111015-1-sm.jpg",
+          "title": "Access Control Policies Part 2",
+          "transcript": "",
+          "vimeoId": "146031556"
+        },
+        {
+          "description": "This episode walks the viewers through configuring a Network Discovery Policy and detecting network clients. Todd also demonstrates integrating with a Microsoft Active Directory and applying FireSIGHT recommendations in your IPS rules.",
+          "length": "2118",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_policy-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_policy-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_policy-111015-1-sm.jpg",
+          "title": "Network Discovery Policy",
+          "transcript": "",
+          "vimeoId": "145517752"
+        },
+        {
+          "description": "In part 2 of the Network Discovery Policy episode, Todd wraps things up by showing the FireSIGHT discovered network map. He also takes the viewers through some basic FireSIGHT analysis to see how the collected data is used.",
+          "length": "1064",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_pt2-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_pt2-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-9-network_discovery_pt2-111015-1-sm.jpg",
+          "title": "Network Discovery Policy Part 2",
+          "transcript": "",
+          "vimeoId": "145517804"
+        },
+        {
+          "description": "In this episode, Todd explains how to configure user accounts within the FireSIGHT Management Center. This is particularly useful for organizations that need to expose their FirePOWER data without allowing changes.",
+          "length": "1072",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-10-user_management-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-10-user_management-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-10-user_management-111015-1-sm.jpg",
+          "title": "User Management",
+          "transcript": "",
+          "vimeoId": "145517883"
+        },
+        {
+          "description": "This video covers the reporting features in the FireSIGHT Management Center. Todd demonstrates creating templates, generating reports and scheduling reports, backups and more.",
+          "length": "1552",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-11-reporting-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-11-reporting-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-11-reporting-111015-1-sm.jpg",
+          "title": "Reporting",
+          "transcript": "",
+          "vimeoId": "146038790"
+        },
+        {
+          "description": "This episode walks the viewer through the security event management features of Cisco FirePOWER. Todd demonstrates the threat dashboard and each of its components, including: connection events, malware events and event trajectory.",
+          "length": "1819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-12-event_analysis-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-12-event_analysis-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-12-event_analysis-111015-1-sm.jpg",
+          "title": "Event Analysis",
+          "transcript": "",
+          "vimeoId": "146038795"
+        },
+        {
+          "description": "Cisco FirePOWER is built on top of the powerful open source IPS suite Snort. This episode covers the preprocessors provided by Snort and shows how FirePOWER leverages them to detect and thwart attacks.",
+          "length": "1407",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-13-snort_preprocessors-11115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-13-snort_preprocessors-11115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-13-snort_preprocessors-11115-1-sm.jpg",
+          "title": "Snort Preprocessors",
+          "transcript": "",
+          "vimeoId": "146038812"
+        },
+        {
+          "description": "In this episode, Todd explains how Correlation Policies are used to connect users and computers to security events. He demonstrates how to configure correlation rules, set alerts, and configure remediation.",
+          "length": "1252",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies-11115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies-11115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies-11115-1-sm.jpg",
+          "title": "Correlation Policies",
+          "transcript": "",
+          "vimeoId": "145518180"
+        },
+        {
+          "description": "In part 2 of the Correlation Policy series, Todd walks the viewers through the final configuration stages. He explains how to use and configure white lists as well as traffic profiles. He ends the episode by tying it all together into a complete Correlation Policy.",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies_pt2-11115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies_pt2-11115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-firepower/cisco-firepower500285-1-14-correlation_policies_pt2-11115-1-sm.jpg",
+          "title": "Correlation Policies Part 2",
+          "transcript": "",
+          "vimeoId": "146044443"
+        }
+      ],
+      "title": "FirePOWER"
+    }
+  ],
+  "url": "firepower-advanced-firesight-administration",
+  "vLab": false
+}

@@ -1,0 +1,283 @@
+{
+  "description": "This course is an introduction to the field of cryptography and covers the exam objectives laid out in  EC-Council Certified Encryption Specialist (ECES). Topics include the history and application of cryptography and symmetric cryptography and hashes.",
+  "descriptionMD": "This course is an introduction to the field of cryptography and covers the exam objectives laid out in  EC-Council Certified Encryption Specialist (ECES). Topics include the history and application of cryptography and symmetric cryptography and hashes.",
+  "length": "50394",
+  "name": "ECES",
+  "practiceExam": false,
+  "subtitle": "EC-Council Certified Encryption Specialist",
+  "tagUrl": "ec-council",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course is an introduction to the field of cryptography and covers the exam objectives laid out in EC-Council Certified Encryption Specialist (ECES). Topics include the history and application of cryptography and symmetric cryptography and hashes.",
+          "length": "123",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-overview-031717-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-overview-031717-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-overview-031717-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "209625834"
+        },
+        {
+          "description": "Interested in learning about Cryptography? Or perhaps studying for the EC-Council Certified Encryption Specialist exam number 212-81? If so, you are in the perfect place. Adam Gordon and Cherokee Boose introduce Cryptography and explain how it will be represented through this series.",
+          "length": "1844",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-1-history_of_cryptography-031317-PGM.00_00_12_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-1-history_of_cryptography-031317-PGM.00_00_12_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-1-history_of_cryptography-031317-PGM.00_00_12_13.Still001-sm.jpg",
+          "title": "History of Cryptography",
+          "transcript": "",
+          "vimeoId": "208307486"
+        },
+        {
+          "description": "Have you  wondered what it was like to conceal messages in pre-computing eras? Adam and Cherokee take you back in time in this show to explain what type of tools and Ciphers were used to send those private messages. Specifically Adam explains mono and multi alphabet variants as well as a tools such as  the Scytale Cipher and Cipher disks.",
+          "length": "1890",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-2-history_of_cryptography_pt2-031317-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-2-history_of_cryptography_pt2-031317-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-2-history_of_cryptography_pt2-031317-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "History of Cryptography Part 2",
+          "transcript": "",
+          "vimeoId": "208487645"
+        },
+        {
+          "description": "Moving in chronological order from previous episodes Adam and Cherokee continue to examine ciphers and mechanical tools such as the Enigma machine. You may notice the ciphers becoming more complex as we continue through this evolution.",
+          "length": "2161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-3-history_of_cryptography_pt3-031317-PGM.00_00_11_26.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-3-history_of_cryptography_pt3-031317-PGM.00_00_11_26.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/ec-council-eces-1-1-3-history_of_cryptography_pt3-031317-PGM.00_00_11_26.Still002-sm.jpg",
+          "title": "History of Cryptography Part 3",
+          "transcript": "",
+          "vimeoId": "208488985"
+        },
+        {
+          "description": "In this episode Adam and Cherokee cover several crypto definitions to help you navigate through the sea of cryptography. This list will give you a good learning foundation as you continue through this series.",
+          "length": "2304",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-1-crypto_definitions-031317-PGM.00_00_11_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-1-crypto_definitions-031317-PGM.00_00_11_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-1-crypto_definitions-031317-PGM.00_00_11_07.Still001-sm.jpg",
+          "title": "Crypto Definitions",
+          "transcript": "",
+          "vimeoId": "208651232"
+        },
+        {
+          "description": "This is a part two where you will find Adam and Cherokee continuing their discussion highlighting terminology. Specifically, Adam goes into detail to explain what a certificate authority (CA) is and how one may see it implemented as there are several options.",
+          "length": "2111",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-2-crypto_definitions_pt2-031317-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-2-crypto_definitions_pt2-031317-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-2-crypto_definitions_pt2-031317-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Crypto Definitions Part 2",
+          "transcript": "",
+          "vimeoId": "208489659"
+        },
+        {
+          "description": "In this show Adam and Cherokee wrap-up the list of definitions they have been conversing over in the previous two episodes. Terms range from some basic definitions that you may already know and that have been covered in previous shows to some new topics that will be discussed in further episodes.",
+          "length": "2114",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-3-crypto_definitions_pt3-031317-PGM.00_34_59_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-3-crypto_definitions_pt3-031317-PGM.00_34_59_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-1-2-3-crypto_definitions_pt3-031317-PGM.00_34_59_08.Still001-sm.jpg",
+          "title": "Crypto Definitions Part 3",
+          "transcript": "",
+          "vimeoId": "208490316"
+        }
+      ],
+      "title": "Introduction and History of Cryptography"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee discuss symmetric cryptography. Adam introduces Bob and Sally and explains the importance of Kerkchoff's Principle as it relates to modern Symmetric Cryptosystems and private keys.",
+          "length": "1602",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-1-symmetric_cryptography_and_hashes-031417-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-1-symmetric_cryptography_and_hashes-031417-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-1-symmetric_cryptography_and_hashes-031417-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes",
+          "transcript": "",
+          "vimeoId": "208651054"
+        },
+        {
+          "description": "**Errata - Symmetric decryption is expressed mathematically as:   \nP = D(k,c)  \nPlaintext (P) is equal to the decryption function (D) with the key (k) and ciphertext (c) being passed as parameters to that function.\n\nWritten works such as Claude Shannon's Communication Theory of Secrecy Systems lay a mathematical foundation Cherokee and Adam reference in this show.  Adam demonstrates the mathematical expression of symmetric encryption and decryption. They also reiterate terms such as diffusion, confusion and the avalanche effect.",
+          "length": "1591",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-2-symmetric_cryptography_and_hashes_pt2-031417-PGM.00_26_15_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-2-symmetric_cryptography_and_hashes_pt2-031417-PGM.00_26_15_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-2-symmetric_cryptography_and_hashes_pt2-031417-PGM.00_26_15_19.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 2",
+          "transcript": "",
+          "vimeoId": "208648388"
+        },
+        {
+          "description": "This isn't the math your elementary school teacher taught you. In this show Adam and Cherokee demonstrate how to AND,OR, and XOR (exclusive OR) by using truth tables.",
+          "length": "2402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-3-symmetric_cryptography_and_hashes_pt3-031417-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-3-symmetric_cryptography_and_hashes_pt3-031417-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-3-symmetric_cryptography_and_hashes_pt3-031417-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 3",
+          "transcript": "",
+          "vimeoId": "208648843"
+        },
+        {
+          "description": "Learn how to create confusion and diffusion through substitution and transposition In this episode. Cherokee and Adam begin by comparing and contrasting block and stream ciphers. They continue to explore block algorithm examples by explaining The Feistel Network.",
+          "length": "1908",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-4-symmetric_cryptography_and_hashes_pt4-031417-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-4-symmetric_cryptography_and_hashes_pt4-031417-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-4-symmetric_cryptography_and_hashes_pt4-031417-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 4",
+          "transcript": "",
+          "vimeoId": "208649994"
+        },
+        {
+          "description": "Cherokee and Adam build upon the previous episodes conversation. They continue to explain block algorithms beginning with  Data Encryption Standard (DES), triple DES (3DES), DESX, and Advanced Encryption Algorithm (AES).",
+          "length": "2192",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-5-symmetric_cryptography_and_hashes_pt5-031417-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-5-symmetric_cryptography_and_hashes_pt5-031417-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-5-symmetric_cryptography_and_hashes_pt5-031417-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 5",
+          "transcript": "",
+          "vimeoId": "208650285"
+        },
+        {
+          "description": "If Cherokee and Adam can refrain from reading Dr. Seuss you just may learn of additional Symmetric Algorithms such as Blowfish, Serpent, Twofish, Skipjack and International Data Encryption Algorithm (IDEA). They also note a variety of hash algorithms to be aware of.",
+          "length": "2486",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-6-symmetric_cryptography_and_hashes_pt6-031417-PGM.00_41_10_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-6-symmetric_cryptography_and_hashes_pt6-031417-PGM.00_41_10_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-6-symmetric_cryptography_and_hashes_pt6-031417-PGM.00_41_10_23.Still001-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 6",
+          "transcript": "",
+          "vimeoId": "208650633"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss different Block Ciphers. First, Adam explains Electronic Code Book (ECB) followed by  Cipher Block Chaining (CBC), Propagating Cipher Block Chaining (PCBC), Cipher Feedback (CFB).",
+          "length": "2112",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-7-symmetric_cryptography_and_hashes_pt7-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-7-symmetric_cryptography_and_hashes_pt7-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-2-1-7-symmetric_cryptography_and_hashes_pt7-031517-1-sm.jpg",
+          "title": "Symmetric Cryptography and Hashes Part 7",
+          "transcript": "",
+          "vimeoId": "209251924"
+        }
+      ],
+      "title": "Symmetric Cryptography & Hashes"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam dive into Asymmetric Cryptography.",
+          "length": "2706",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-1-asymmetric_cryptography-031517-PGM.00_45_59_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-1-asymmetric_cryptography-031517-PGM.00_45_59_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-1-asymmetric_cryptography-031517-PGM.00_45_59_02.Still001-sm.jpg",
+          "title": "Asymmetric Cryptography",
+          "transcript": "",
+          "vimeoId": "208827201"
+        },
+        {
+          "description": "In this show Adam and Daniel discuss asymmetric cryptography. Adam explains several terms such as diffusion, confusion, and the avalanche effect. He also explains Shannon's source code theorem and different number groupings.",
+          "length": "1959",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-2-asymmetric_cryptography_pt2-031517-PGM.00_32_21_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-2-asymmetric_cryptography_pt2-031517-PGM.00_32_21_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-2-asymmetric_cryptography_pt2-031517-PGM.00_32_21_14.Still001-sm.jpg",
+          "title": "Asymmetric Cryptography Part 2",
+          "transcript": "",
+          "vimeoId": "208827979"
+        },
+        {
+          "description": "Cherokee and Adam continue to explore Asymmetric Cryptography. They  discuss several concepts such as the Birthday Problem/Paradox, pseudo-random number generators (PRNGs), Diffie-Helmann, RSA, Menezes-Qu-Vanstone, Digital Signature Algorithm, Elliptical Curve Cryptography (ECC), and ElGamal.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-3-asymmetric_cryptography_pt3-031517-PGM.00_35_32_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-3-asymmetric_cryptography_pt3-031517-PGM.00_35_32_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-3-1-3-asymmetric_cryptography_pt3-031517-PGM.00_35_32_00.Still001-sm.jpg",
+          "title": "Asymmetric Cryptography Part 3",
+          "transcript": "",
+          "vimeoId": "209252591"
+        }
+      ],
+      "title": "Number Theory and Asymmetric Cryptography"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Cherokee and Adam revisit the notion of Digital Certificates. Adam shows examples of how to find one, what it looks like and the input common fields.",
+          "length": "2017",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-1-applications_of_cryptography-031517-PGM.00_33_19_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-1-applications_of_cryptography-031517-PGM.00_33_19_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-1-applications_of_cryptography-031517-PGM.00_33_19_18.Still001-sm.jpg",
+          "title": "Applications of Cryptography",
+          "transcript": "",
+          "vimeoId": "209253238"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss Public Key Infrastructure (PKI) and the various deployment methods. Learn the functions and roles of components such as Certificate Authorities (CAs), Registration Authorities (RAs),  Certificate Revocation Lists (CRLs) and associated protocols.",
+          "length": "2405",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-2-application_of_cryptography_pt2-031617-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-2-application_of_cryptography_pt2-031617-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-2-application_of_cryptography_pt2-031617-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "Applications of Cryptography Part 2",
+          "transcript": "",
+          "vimeoId": "209253717"
+        },
+        {
+          "description": "Adam and Cherokee discuss the certificate life-cycle phases including setup and initialization phase, administration phase, cancel and history phase, update and patch vulnerabilities. They also cover the different classes available through commercial CAs. Next, Cherokee and Adam discuss  different trust models. Additionally, they explore various authentication protocols. Adam spends a little extra time explaining Kerberos with a special movie theater analogy.",
+          "length": "2640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-3-application_of_cryptography_pt3-031617-PGM.00_43_44_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-3-application_of_cryptography_pt3-031617-PGM.00_43_44_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-3-application_of_cryptography_pt3-031617-PGM.00_43_44_24.Still001-sm.jpg",
+          "title": "Applications of Cryptography Part 3",
+          "transcript": "",
+          "vimeoId": "209254407"
+        },
+        {
+          "description": "This show Cherokee and Adam begin discussing different trust models. Next, they explore various authentication protocols. Adam spends a little extra time explaining Kerberos with a special movie theater analogy.",
+          "length": "2108",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-4-applications_of_cryptography_pt4-031617-CLN.00_34_53_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-4-applications_of_cryptography_pt4-031617-CLN.00_34_53_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-4-applications_of_cryptography_pt4-031617-CLN.00_34_53_24.Still001-sm.jpg",
+          "title": "Applications of Cryptography Part 4",
+          "transcript": "",
+          "vimeoId": "209625960"
+        },
+        {
+          "description": "In this show, Adam and Cherokee begin discussing Pretty Good Privacy (PGP). Next, the compare wireless standards and warn of the weak versions to avoid. Lastly, they hash over the steps of SSL and TLS.",
+          "length": "2251",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-5-applications_of_cryptography_pt5-031617-CLN.00_00_12_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-5-applications_of_cryptography_pt5-031617-CLN.00_00_12_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-5-applications_of_cryptography_pt5-031617-CLN.00_00_12_17.Still001-sm.jpg",
+          "title": "Applications of Cryptography Part 5",
+          "transcript": "",
+          "vimeoId": "209622858"
+        },
+        {
+          "description": "In this show Cherokee and Adam begin covering Virtual Private Networks (VPNs). They also explain the underpinning protocols that provide tunneling and encryption. Next, they discuss encryption options such as the NTFS integrated Encrypting File System (EFS) as well as Microsfts Bitlocker. Lastly, Adam provides several mistakes to avoid that may leak to weak cryptography implementations.",
+          "length": "1284",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-6-applications_of_cryptography_pt6-031617-CLN.00_21_11_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-6-applications_of_cryptography_pt6-031617-CLN.00_21_11_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-4-1-6-applications_of_cryptography_pt6-031617-CLN.00_21_11_03.Still001-sm.jpg",
+          "title": "Applications of Cryptography Part 6",
+          "transcript": "",
+          "vimeoId": "209623602"
+        },
+        {
+          "description": "Adam and Cherokee explain cryptanalysis as the art or process of deciphering coded messages without being told the key. Adam goes into further detail by explaining several types of attacks and cryptanalysis methods one may use.",
+          "length": "2648",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-1-crypt_analysis-031717-PGM.00_43_49_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-1-crypt_analysis-031717-PGM.00_43_49_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-1-crypt_analysis-031717-PGM.00_43_49_29.Still001-sm.jpg",
+          "title": "Cryptanalysis",
+          "transcript": "",
+          "vimeoId": "209624024"
+        },
+        {
+          "description": "In this show Cherokee and Adam continue their conversation on cryptanalysis. Adam poses the question, \"What are the three resources required to perform Cryptanalysis?\". He also defines how one would measure an attack success. Lastly, Adam explains rainbow tables and demonstrates how you would use one within Cain and Abel.",
+          "length": "1390",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-2-crypt_analysis-031717-PGM.00_22_52_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-2-crypt_analysis-031717-PGM.00_22_52_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-eces/eccouncil-eces-5-1-2-crypt_analysis-031717-PGM.00_22_52_24.Still001-sm.jpg",
+          "title": "Cryptanalysis Part 2",
+          "transcript": "",
+          "vimeoId": "209624991"
+        }
+      ],
+      "title": "Applications of Cryptography"
+    }
+  ],
+  "url": "eces",
+  "vLab": false
+}

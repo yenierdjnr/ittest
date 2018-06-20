@@ -1,0 +1,1758 @@
+{
+  "description": "This show is intended for architects who have experience building infrastructure and applications on the Microsoft Azure platform. You should have a good understanding of most services offered on the Azure platform. After completing this course, you will be able to: Describe Azure architecture components, including infrastructure, tools, and portals; Create and deploy Azure Resource Manager (ARM) templates for various all-up solutions; Compare and contrast various infrastructure, serverless, database and communication services; such as App Services, Virtual Machine Scale Sets, Azure Cosmos DB, SQL Database, and Container Service in Azure; Incorporate various Azure platform services, such as Cognitive Services and Media Servicers into an overall Azure solution; Secure, monitor and backup solutions deployed to Azure; Create automated DevOps solutions using a combination of ARM templates, configuration management utilities, Azure CLI, and the Cloud Shell.",
+  "descriptionMD": "This show is intended for architects who have experience building infrastructure and applications on the Microsoft Azure platform. You should have a good understanding of most services offered on the Azure platform. After completing this course, you will be able to:\n\n+ Describe Azure architecture components, including infrastructure, tools, and portals.  \n+ Create and deploy Azure Resource Manager (ARM) templates for various all-up solutions.\n+ Compare and contrast various infrastructure, serverless, database and communication services; such as App Services, Virtual Machine Scale Sets, Azure Cosmos DB, SQL Database, and Container Service in Azure.\n+ Incorporate various Azure platform services, such as Cognitive Services and Media Servicers into an overall Azure solution.\n+ Secure, monitor and backup solutions deployed to Azure.\n+ Create automated DevOps solutions using a combination of ARM templates, configuration management utilities, Azure CLI, and the Cloud Shell.",
+  "length": "334610",
+  "name": "Architecting Microsoft Azure Solutions - 70-535",
+  "practiceExam": false,
+  "subtitle": "Microsoft Azure",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss what to expect when preparing to take the Architecting Microsoft Azure Solutions 70-535 exam.",
+          "length": "410",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-0-0-0-solutions-overview-052118-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-0-0-0-solutions-overview-052118-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-0-0-0-solutions-overview-052118-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "271352729"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-1-cloud-design-patterns-availability-022118.00_32_05_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-1-cloud-design-patterns-availability-022118.00_32_05_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-1-cloud-design-patterns-availability-022118.00_32_05_19.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Availability",
+          "transcript": "",
+          "vimeoId": "257312762"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1857",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-2-cloud-design-patterns-availability_pt2-022218.00_30_45_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-2-cloud-design-patterns-availability_pt2-022218.00_30_45_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-1-2-cloud-design-patterns-availability_pt2-022218.00_30_45_15.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Availability Part 2",
+          "transcript": "",
+          "vimeoId": "257312990"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1967",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-1-cloud-design-patterns_data_management-022218.00_32_32_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-1-cloud-design-patterns_data_management-022218.00_32_32_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-1-cloud-design-patterns_data_management-022218.00_32_32_15.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Data Management",
+          "transcript": "",
+          "vimeoId": "257313196"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "2198",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-2-cloud_design_patterns_data_management_pt2-022218-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-2-cloud_design_patterns_data_management_pt2-022218-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-2-cloud_design_patterns_data_management_pt2-022218-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Data Management Part 2",
+          "transcript": "",
+          "vimeoId": "257313490"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "2276",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-3-cloud_design_patterns_data_management_pt3-022218-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-3-cloud_design_patterns_data_management_pt3-022218-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-2-3-cloud_design_patterns_data_management_pt3-022218-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Data Management Part 3",
+          "transcript": "",
+          "vimeoId": "257313769"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-1-cloud_design_patterns_design_and_implement-022318-PGM.00_56_48_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-1-cloud_design_patterns_design_and_implement-022318-PGM.00_56_48_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-1-cloud_design_patterns_design_and_implement-022318-PGM.00_56_48_09.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Design and Implement",
+          "transcript": "",
+          "vimeoId": "257546908"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1792",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-2-cloud_design_patterns_design_and_implement_pt2-022318.00_30_34_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-2-cloud_design_patterns_design_and_implement_pt2-022318.00_30_34_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-2-cloud_design_patterns_design_and_implement_pt2-022318.00_30_34_10.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Design and Implement Pt2",
+          "transcript": "",
+          "vimeoId": "257547732"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "2165",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-3-cloud_design_patterns_design_and_implement_pt3-022318.00_35_53_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-3-cloud_design_patterns_design_and_implement_pt3-022318.00_35_53_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-3-cloud_design_patterns_design_and_implement_pt3-022318.00_35_53_07.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Design and Implement Pt3",
+          "transcript": "",
+          "vimeoId": "257548506"
+        },
+        {
+          "description": "Adam and Cherokee discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-4-cloud_design_patterns_design_and_implement_pt4-022318-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-4-cloud_design_patterns_design_and_implement_pt4-022318-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-3-4-cloud_design_patterns_design_and_implement_pt4-022318-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Design and Implement Pt4",
+          "transcript": "",
+          "vimeoId": "257549406"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-1-cloud-design-patterns-messaging-030518-PGM.00_29_37_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-1-cloud-design-patterns-messaging-030518-PGM.00_29_37_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-1-cloud-design-patterns-messaging-030518-PGM.00_29_37_07.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Messaging",
+          "transcript": "",
+          "vimeoId": "258840076"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1107",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-2-cloud-design-patterns-messaging_pt2-030518-PGM.00_18_13_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-2-cloud-design-patterns-messaging_pt2-030518-PGM.00_18_13_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-4-2-cloud-design-patterns-messaging_pt2-030518-PGM.00_18_13_25.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Messaging Part 2",
+          "transcript": "",
+          "vimeoId": "258841076"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1000",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-5-1-cloud_design_patterns_manage_and_monitor-030518-PGM.00_16_25_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-5-1-cloud_design_patterns_manage_and_monitor-030518-PGM.00_16_25_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-5-1-cloud_design_patterns_manage_and_monitor-030518-PGM.00_16_25_20.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Manage and Monitor",
+          "transcript": "",
+          "vimeoId": "258839851"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-6-1-cloud_design_patterns_perform_and_scale-030518-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-6-1-cloud_design_patterns_perform_and_scale-030518-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-6-1-cloud_design_patterns_perform_and_scale-030518-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Perform and Scale",
+          "transcript": "",
+          "vimeoId": "258840758"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1550",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-1-cloud_design_patterns_resiliency-030518-PGM.00_25_36_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-1-cloud_design_patterns_resiliency-030518-PGM.00_25_36_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-1-cloud_design_patterns_resiliency-030518-PGM.00_25_36_01.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Resiliency",
+          "transcript": "",
+          "vimeoId": "258840412"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1684",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-2-cloud_design_patterns_resiliency_pt2-030518-PGM.00_27_50_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-2-cloud_design_patterns_resiliency_pt2-030518-PGM.00_27_50_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-2-cloud_design_patterns_resiliency_pt2-030518-PGM.00_27_50_25.Still001-sm.jpg",
+          "title": "Cloud Designs Patterns - Resiliency Part 2",
+          "transcript": "",
+          "vimeoId": "258839530"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1612",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-3-cloud_design_patterns_resiliency_pt-3-030618-CLN.00_26_39_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-3-cloud_design_patterns_resiliency_pt-3-030618-CLN.00_26_39_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-7-3-cloud_design_patterns_resiliency_pt-3-030618-CLN.00_26_39_22.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Resiliency Part 3",
+          "transcript": "",
+          "vimeoId": "259231404"
+        },
+        {
+          "description": "Adam and Mike discuss what Cloud Design Patterns are, and why you need to use them to build reliable, scalable, and secure applications in the cloud.",
+          "length": "1339",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-8-1-cloud_design_patterns_security-030618-PGM.00_22_06_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-8-1-cloud_design_patterns_security-030618-PGM.00_22_06_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-1-8-1-cloud_design_patterns_security-030618-PGM.00_22_06_06.Still001-sm.jpg",
+          "title": "Cloud Design Patterns - Security",
+          "transcript": "",
+          "vimeoId": "259231688"
+        }
+      ],
+      "title": "Cloud Design Patterns"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Mike discuss how to design for compute-intensive tasks\nusing Azure Batch.",
+          "length": "2217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-1-solutions_using_vms-030618-ProResLT-PGM.00_36_41_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-1-solutions_using_vms-030618-ProResLT-PGM.00_36_41_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-1-solutions_using_vms-030618-ProResLT-PGM.00_36_41_09.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Azure Batch and Batch AI",
+          "transcript": "",
+          "vimeoId": "259231023"
+        },
+        {
+          "description": "Adam and Mike discuss how to design for compute-intensive tasks\nusing Azure Batch.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-2-solutions_using_vms_pt2-030618-ProResLT-PGM.00_27_00_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-2-solutions_using_vms_pt2-030618-ProResLT-PGM.00_27_00_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-2-solutions_using_vms_pt2-030618-ProResLT-PGM.00_27_00_06.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Azure Batch and Batch AI Pt2",
+          "transcript": "",
+          "vimeoId": "259362900"
+        },
+        {
+          "description": "Adam and Mike discuss how to design for compute-intensive tasks using Azure Batch.",
+          "length": "2369",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-3-solutions_using_vms_pt3-030618-ProResLT-PGM.00_47_02_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-3-solutions_using_vms_pt3-030618-ProResLT-PGM.00_47_02_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-3-solutions_using_vms_pt3-030618-ProResLT-PGM.00_47_02_27.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Azure Batch and Batch AI Pt3",
+          "transcript": "",
+          "vimeoId": "259360874"
+        },
+        {
+          "description": "Adam and Mike discuss how to design for compute-intensive tasks using Azure Batch.",
+          "length": "2290",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-4-solutions_using_vms_pt4-030718-CLN.00_37_57_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-4-solutions_using_vms_pt4-030718-CLN.00_37_57_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-4-solutions_using_vms_pt4-030718-CLN.00_37_57_11.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Azure Batch and Batch AI Pt4",
+          "transcript": "",
+          "vimeoId": "260235645"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a migration strategy from cloud services.",
+          "length": "2036",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-5-solutions_using_vms_pt5-031518-PGM.00_37_20_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-5-solutions_using_vms_pt5-031518-PGM.00_37_20_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-5-solutions_using_vms_pt5-031518-PGM.00_37_20_21.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Cloud Migration Strategy",
+          "transcript": "",
+          "vimeoId": "260495886"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a migration strategy from cloud services.",
+          "length": "1328",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-6-solutions_using_vms_pt6-031518.00_22_00_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-6-solutions_using_vms_pt6-031518.00_22_00_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-6-solutions_using_vms_pt6-031518.00_22_00_02.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Cloud Migration Strategy Pt2",
+          "transcript": "",
+          "vimeoId": "260496172"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a migration strategy from cloud services.",
+          "length": "1284",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-7-solutions_using_vms_pt7-031518-PGM.00_21_08_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-7-solutions_using_vms_pt7-031518-PGM.00_21_08_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-7-solutions_using_vms_pt7-031518-PGM.00_21_08_11.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Cloud Migration Strategy Pt3",
+          "transcript": "",
+          "vimeoId": "260496881"
+        },
+        {
+          "description": "Adam and Mike discuss when to recommend the use of Azure Backup and Azure Site Recovery.",
+          "length": "1956",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-8-solutions_using_vms_pt8-030818.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-8-solutions_using_vms_pt8-030818.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-8-solutions_using_vms_pt8-030818.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Backup and Site Recovery",
+          "transcript": "",
+          "vimeoId": "260309883"
+        },
+        {
+          "description": "Adam and Mike discuss when to recommend the use of Azure Backup and Azure Site Recovery.",
+          "length": "1857",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-9-solutions_using_vms_pt9-030818.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-9-solutions_using_vms_pt9-030818.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-9-solutions_using_vms_pt9-030818.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Backup and Site Recovery Pt2",
+          "transcript": "",
+          "vimeoId": "259359335"
+        },
+        {
+          "description": "Adam and Mike discuss when to recommend the use of Azure Backup and Azure Site Recovery.",
+          "length": "2005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/STUDIO4-CLN-CUSTOM_Mar08_14-58-45.00_42_39_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/STUDIO4-CLN-CUSTOM_Mar08_14-58-45.00_42_39_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/STUDIO4-CLN-CUSTOM_Mar08_14-58-45.00_42_39_04.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Backup and Site Recovery Pt3",
+          "transcript": "",
+          "vimeoId": "260240536"
+        },
+        {
+          "description": "Adam and Mike discuss when to recommend the use of Azure Backup and Azure Site Recovery.",
+          "length": "1444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-11-solutions_using_vms_pt11-030818.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-11-solutions_using_vms_pt11-030818.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-11-solutions_using_vms_pt11-030818.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Backup and Site Recovery Pt4",
+          "transcript": "",
+          "vimeoId": "259356399"
+        },
+        {
+          "description": "Adam and Mike discuss when to recommend the use of Azure Backup and Azure Site Recovery.",
+          "length": "1277",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_15.00_20_58_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_15.00_20_58_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_15.00_20_58_13.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Backup and Site Recovery Pt5",
+          "transcript": "",
+          "vimeoId": "259966409"
+        },
+        {
+          "description": "Adam and Mike discuss how to design VM Scale Sets.",
+          "length": "1604",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_16.00_29_49_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_16.00_29_49_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/Adam_16.00_29_49_22.Still001-sm.jpg",
+          "title": "Solutions Using VMs - VM Scale Sets",
+          "transcript": "",
+          "vimeoId": "259966246"
+        },
+        {
+          "description": "Adam and Wes discuss how to Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure.",
+          "length": "2694",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-14-solutions_using_vms_pt14_RESHOOT-031218-PGM.01_00_48_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-14-solutions_using_vms_pt14_RESHOOT-031218-PGM.01_00_48_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-14-solutions_using_vms_pt14_RESHOOT-031218-PGM.01_00_48_14.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Availability Sets...",
+          "transcript": "",
+          "vimeoId": "260809125"
+        },
+        {
+          "description": "Adam and Wes discuss how to use web app for containers.",
+          "length": "2304",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-15-solutions_using_vms_pt15-0431218.00_38_10_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-15-solutions_using_vms_pt15-0431218.00_38_10_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-15-solutions_using_vms_pt15-0431218.00_38_10_25.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Use Web App for Containers",
+          "transcript": "",
+          "vimeoId": "259965707"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use reserved instances.",
+          "length": "851",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-16-solutions-using-vms_pt16-051718-PGM.00_14_49_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-16-solutions-using-vms_pt16-051718-PGM.00_14_49_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-16-solutions-using-vms_pt16-051718-PGM.00_14_49_10.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Using Reserved Instances",
+          "transcript": "",
+          "vimeoId": "270701158"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Accelerated Networking.",
+          "length": "1463",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-17-solutions_using_vms_pt17-051718-PGM.00_24_37_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-17-solutions_using_vms_pt17-051718-PGM.00_24_37_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-17-solutions_using_vms_pt17-051718-PGM.00_24_37_17.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Using Accelerated Networking",
+          "transcript": "",
+          "vimeoId": "271098235"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for VMs in a DevTest Lab environment (including formulas, images, artifacts, claiming and un-claiming VMs).",
+          "length": "1999",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-18-solutions_using_vms_pt18-052118-PGM.00_35_15_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-18-solutions_using_vms_pt18-052118-PGM.00_35_15_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-18-solutions_using_vms_pt18-052118-PGM.00_35_15_18.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Designing a DevTest Lab",
+          "transcript": "",
+          "vimeoId": "271352134"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for VMs in a DevTest Lab environment (including formulas, images, artifacts, claiming and un-claiming VMs).",
+          "length": "2359",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-19-solutions_using_vms_pt19-052118-PGM.00_39_23_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-19-solutions_using_vms_pt19-052118-PGM.00_39_23_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-1-19-solutions_using_vms_pt19-052118-PGM.00_39_23_06.Still001-sm.jpg",
+          "title": "Solutions Using VMs - Designing a DevTest Lab Pt2",
+          "transcript": "",
+          "vimeoId": "271351397"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for serverless computing using Azure Container Instances.",
+          "length": "2432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-1-solutions_using_serverless_computing-031218-PGM.00_42_19_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-1-solutions_using_serverless_computing-031218-PGM.00_42_19_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-1-solutions_using_serverless_computing-031218-PGM.00_42_19_02.Still001-sm.jpg",
+          "title": "Serverless Computing - Azure Container Instances",
+          "transcript": "",
+          "vimeoId": "259965403"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for serverless computing using Azure Container Instances.",
+          "length": "988",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-2-solutions_using_serverless_computing_pt2-031218.00_16_16_28.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-2-solutions_using_serverless_computing_pt2-031218.00_16_16_28.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-2-solutions_using_serverless_computing_pt2-031218.00_16_16_28.Still002-sm.jpg",
+          "title": "Serverless Computing Azure Container Instances Pt2",
+          "transcript": "",
+          "vimeoId": "259965224"
+        },
+        {
+          "description": "Adam and Wes discuss how to design application solutions by using Azure Logic Apps.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-3-solutions_using_serverless_computing_pt3-031318-PGM.00_28_18_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-3-solutions_using_serverless_computing_pt3-031318-PGM.00_28_18_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-3-solutions_using_serverless_computing_pt3-031318-PGM.00_28_18_28.Still001-sm.jpg",
+          "title": "Serverless Computing - Azure Logic Apps",
+          "transcript": "",
+          "vimeoId": "259964954"
+        },
+        {
+          "description": "Adam and Wes discuss how to design application solutions by using Azure Logic Apps.",
+          "length": "3002",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-4-solutions_using_serverless_computing_pt4-031318.00_49_51_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-4-solutions_using_serverless_computing_pt4-031318.00_49_51_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-4-solutions_using_serverless_computing_pt4-031318.00_49_51_13.Still001-sm.jpg",
+          "title": "Serverless Computing - Azure Logic Apps Pt2",
+          "transcript": "",
+          "vimeoId": "260241987"
+        },
+        {
+          "description": "Adam and Wes discuss how to design application solutions by using Azure Logic Apps.",
+          "length": "1370",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-5-solutions_using_serverless_computing_pt5-031318-PGM.00_22_40_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-5-solutions_using_serverless_computing_pt5-031318-PGM.00_22_40_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-5-solutions_using_serverless_computing_pt5-031318-PGM.00_22_40_00.Still001-sm.jpg",
+          "title": "Serverless Computing - Azure Logic Apps Pt3",
+          "transcript": "",
+          "vimeoId": "274084267"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use an API management service.",
+          "length": "12185",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-6-solutions_using_serverless_computing_pt6-031318-PGM.00_33_10_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-6-solutions_using_serverless_computing_pt6-031318-PGM.00_33_10_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-6-solutions_using_serverless_computing_pt6-031318-PGM.00_33_10_28.Still001-sm.jpg",
+          "title": "Serverless Computing - API Management",
+          "transcript": "",
+          "vimeoId": "274083518"
+        },
+        {
+          "description": "Adam and Wes discuss how to use Azure Functions to implement event-driven actions.",
+          "length": "1460",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-7-solutions_using_serverless_computing_pt7-031418-CLN.00_24_08_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-7-solutions_using_serverless_computing_pt7-031418-CLN.00_24_08_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-7-solutions_using_serverless_computing_pt7-031418-CLN.00_24_08_09.Still001-sm.jpg",
+          "title": "Serverless Computing - Event Driven Actions",
+          "transcript": "",
+          "vimeoId": "274084007"
+        },
+        {
+          "description": "Adam and Wes discuss how to use Azure Functions to implement event-driven actions.",
+          "length": "2376",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-8-solutions_using_serverless_computing_pt8-031518-PGM-the-reshoot.00_39_23_02.Still001-reshoot.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-8-solutions_using_serverless_computing_pt8-031518-PGM-the-reshoot.00_39_23_02.Still001-reshoot-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-8-solutions_using_serverless_computing_pt8-031518-PGM-the-reshoot.00_39_23_02.Still001-reshoot-sm.jpg",
+          "title": "Serverless Computing - Event-driven Actions Pt2",
+          "transcript": "",
+          "vimeoId": "260496334"
+        },
+        {
+          "description": "Adam and Wes discuss how to design data storage solutions for serverless computing.",
+          "length": "2155",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-9-solutions-using-serverless-computing-051718-PGM.00_35_40_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-9-solutions-using-serverless-computing-051718-PGM.00_35_40_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-9-solutions-using-serverless-computing-051718-PGM.00_35_40_08.Still001-sm.jpg",
+          "title": "Serverless Computing - Data Storage Solutions",
+          "transcript": "",
+          "vimeoId": "270699270"
+        },
+        {
+          "description": "Adam and Wes discuss how to design event routing solutions using Azure Event Grid as well as solutions that integrate stream processing and bot messaging.",
+          "length": "2150",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-10-solutions-using-serverless-computing_pt10-051718-PGM.00_35_37_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-10-solutions-using-serverless-computing_pt10-051718-PGM.00_35_37_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-2-10-solutions-using-serverless-computing_pt10-051718-PGM.00_35_37_04.Still001-sm.jpg",
+          "title": "Serverless Computing - Event Grid and Bots",
+          "transcript": "",
+          "vimeoId": "271098701"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when a container-based solution is appropriate.",
+          "length": "2002",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-1-solutions_using_microservices-031518-PGM.00_37_13_25.Still00-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-1-solutions_using_microservices-031518-PGM.00_37_13_25.Still00-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-1-solutions_using_microservices-031518-PGM.00_37_13_25.Still00-high-sm.jpg",
+          "title": "Solutions Using Microservices - Container Based",
+          "transcript": "",
+          "vimeoId": "260496591"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine which platform is appropriate for container orchestration.",
+          "length": "1748",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-2-solutions_using_microservices_pt2-031618.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-2-solutions_using_microservices_pt2-031618-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-2-solutions_using_microservices_pt2-031618-sm.jpg",
+          "title": "Solutions Using Microservices - Orchestration",
+          "transcript": "",
+          "vimeoId": "260812990"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when Azure Service Fabric (ASF) is appropriate, determine when Web API is appropriate & how to design lifecycle management strategies.",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-3-solutions_using_microservices_pt3-031618-PGM.00_30_31_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-3-solutions_using_microservices_pt3-031618-PGM.00_30_31_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-3-solutions_using_microservices_pt3-031618-PGM.00_30_31_15.Still001-sm.jpg",
+          "title": "Solutions Using Microservices - ASF and API",
+          "transcript": "",
+          "vimeoId": "260813883"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when Azure Service Fabric (ASF) is appropriate, determine when Web API is appropriate & how to design lifecycle management strategies.",
+          "length": "1463",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-4-solutions_using_microservices_pt4-031618-031618-PGM.00_24_09_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-4-solutions_using_microservices_pt4-031618-031618-PGM.00_24_09_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-4-solutions_using_microservices_pt4-031618-031618-PGM.00_24_09_25.Still001-sm.jpg",
+          "title": "Solutions Using Microservices - ASF and API Pt2",
+          "transcript": "",
+          "vimeoId": "260812673"
+        },
+        {
+          "description": "Adam and Wes discuss what is important when considering whether to migrate existing assets versus cloud native deployment.",
+          "length": "1916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-5-solutions_using_microservices_pt5-040218-PGM-rehoot.00_31_44_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-5-solutions_using_microservices_pt5-040218-PGM-rehoot.00_31_44_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-5-solutions_using_microservices_pt5-040218-PGM-rehoot.00_31_44_03.Still001-sm.jpg",
+          "title": "Solutions Using Microservices - Migrate vs Deploy",
+          "transcript": "",
+          "vimeoId": "263026428"
+        },
+        {
+          "description": "Adam and Wes demonstrate how to create and deploy a Service Fabric Windows container application on Azure.",
+          "length": "2153",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-6-solutions_using_microservices_pt6-031918-PGM.00_37_35_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-6-solutions_using_microservices_pt6-031918-PGM.00_37_35_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-6-solutions_using_microservices_pt6-031918-PGM.00_37_35_15.Still001-sm.jpg",
+          "title": "Create, Deploy an ASF Container Application",
+          "transcript": "",
+          "vimeoId": "261003119"
+        },
+        {
+          "description": "Adam and Wes demonstrate how to create and deploy a Service Fabric Windows container application on Azure.",
+          "length": "1995",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-7-solutions_using_microservices_pt7-031918-Part1-PGM.00_33_36_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-7-solutions_using_microservices_pt7-031918-Part1-PGM.00_33_36_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-7-solutions_using_microservices_pt7-031918-Part1-PGM.00_33_36_00.Still001-sm.jpg",
+          "title": "Create, Deploy an ASF Container Application Pt2",
+          "transcript": "",
+          "vimeoId": "261002770"
+        },
+        {
+          "description": "Adam and Wes demonstrate how to create and deploy a Service Fabric Windows container application on Azure.",
+          "length": "2527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-8-solutions_using_microservices_pt8-032018-PGM.00_46_36_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-8-solutions_using_microservices_pt8-032018-PGM.00_46_36_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-3-8-solutions_using_microservices_pt8-032018-PGM.00_46_36_02.Still001-sm.jpg",
+          "title": "Create, Deploy an ASF Container Application Pt3",
+          "transcript": "",
+          "vimeoId": "261133451"
+        },
+        {
+          "description": "Adam and Wes discuss how to design Azure App Service Web Apps.",
+          "length": "1980",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-1-design-web-applications-032018-PGM.00_32_47_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-1-design-web-applications-032018-PGM.00_32_47_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-1-design-web-applications-032018-PGM.00_32_47_08.Still001-sm.jpg",
+          "title": "Design Web Applications - App Service Web Apps",
+          "transcript": "",
+          "vimeoId": "261133998"
+        },
+        {
+          "description": "Adam and Wes discuss how to design Azure App Service Web Apps.",
+          "length": "1717",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-2-design-web-applications_pt2-032018-PGM.00_28_25_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-2-design-web-applications_pt2-032018-PGM.00_28_25_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-2-design-web-applications_pt2-032018-PGM.00_28_25_26.Still001-sm.jpg",
+          "title": "Design Web Applications - App Service Web Apps 2",
+          "transcript": "",
+          "vimeoId": "261134427"
+        },
+        {
+          "description": "Adam and Wes discuss how to design custom web APIs.",
+          "length": "1222",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-3-design-web-applications_pt3-032018-PGM.00_20_35_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-3-design-web-applications_pt3-032018-PGM.00_20_35_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-3-design-web-applications_pt3-032018-PGM.00_20_35_16.Still001-sm.jpg",
+          "title": "Design Web Applications - Custom Web API",
+          "transcript": "",
+          "vimeoId": "261133190"
+        },
+        {
+          "description": "Adam and Wes discuss how to secure Web APIs.",
+          "length": "2891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-4-design-web-applications_pt4-032118-PGM.00_47_56_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-4-design-web-applications_pt4-032118-PGM.00_47_56_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-4-design-web-applications_pt4-032118-PGM.00_47_56_23.Still001-sm.jpg",
+          "title": "Design Web Applications - Secure Web API",
+          "transcript": "",
+          "vimeoId": "261353930"
+        },
+        {
+          "description": "Adam and Wes discuss how to secure Web APIs.",
+          "length": "3066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-5-design-web-applications_pt5-032118-PGM.00_50_53_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-5-design-web-applications_pt5-032118-PGM.00_50_53_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-5-design-web-applications_pt5-032118-PGM.00_50_53_08.Still001-sm.jpg",
+          "title": "Design Web Applications - Secure Web API Pt2",
+          "transcript": "",
+          "vimeoId": "261353381"
+        },
+        {
+          "description": "Adam and Wes discuss how to design Web Apps for scalability and performance.\nwhich App service plan to use.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-6-design-web-applications_pt6-032218-PGM.00_32_43_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-6-design-web-applications_pt6-032218-PGM.00_32_43_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-6-design-web-applications_pt6-032218-PGM.00_32_43_21.Still001-sm.jpg",
+          "title": "Design Web Applicaitons - Scalability, Performance",
+          "transcript": "",
+          "vimeoId": "261484558"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for high availability using Azure Web Apps in multiple regions.",
+          "length": "1680",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-7-design-web-applications_pt7-032218-PGM.00_27_48_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-7-design-web-applications_pt7-032218-PGM.00_27_48_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-7-design-web-applications_pt7-032218-PGM.00_27_48_19.Still001-sm.jpg",
+          "title": "Design Web Applications - Multi-region HA",
+          "transcript": "",
+          "vimeoId": "261484220"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine which App service plan to use.\nwhich App service plan to use.",
+          "length": "2144",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-8-design-web-applications_pt8-032218-PGM.00_35_32_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-8-design-web-applications_pt8-032218-PGM.00_35_32_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-8-design-web-applications_pt8-032218-PGM.00_35_32_20.Still001-sm.jpg",
+          "title": "Design Web Applications - App Service Plans",
+          "transcript": "",
+          "vimeoId": "261483865"
+        },
+        {
+          "description": "Adam and Wes discuss how to design Web Apps for business continuity.",
+          "length": "2462",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-9-design-web-applications_pt9-032218-PGM.00_40_49_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-9-design-web-applications_pt9-032218-PGM.00_40_49_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-9-design-web-applications_pt9-032218-PGM.00_40_49_19.Still001-sm.jpg",
+          "title": "Design Web Applications - Business Continuity",
+          "transcript": "",
+          "vimeoId": "261483363"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use the Azure App Service Environment (ASE).",
+          "length": "1904",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-10-design-web-applications_pt10-032218-PGM.00_31_30_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-10-design-web-applications_pt10-032218-PGM.00_31_30_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-10-design-web-applications_pt10-032218-PGM.00_31_30_14.Still001-sm.jpg",
+          "title": "Design Web Applications - App Service Isolated",
+          "transcript": "",
+          "vimeoId": "261484966"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for API apps.",
+          "length": "1133",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-11-design-web-applications_pt11-040218-PGM.00_23_01_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-11-design-web-applications_pt11-040218-PGM.00_23_01_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-11-design-web-applications_pt11-040218-PGM.00_23_01_10.Still001-sm.jpg",
+          "title": "Design Web Applications - API Apps",
+          "transcript": "",
+          "vimeoId": "263025017"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Web Apps on Linux.",
+          "length": "1013",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-12-design-web-applications_pt12-040218-.00_16_41_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-12-design-web-applications_pt12-040218-.00_16_41_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-12-design-web-applications_pt12-040218-.00_16_41_27.Still001-sm.jpg",
+          "title": "Design Web Applications - Web Apps on Linux",
+          "transcript": "",
+          "vimeoId": "263024539"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use a CDN.",
+          "length": "1877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-13-design-web-applications_pt13-040218-PGM.00_30_59_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-13-design-web-applications_pt13-040218-PGM.00_30_59_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-13-design-web-applications_pt13-040218-PGM.00_30_59_29.Still001-sm.jpg",
+          "title": "Design Web Applications - Use a CDN",
+          "transcript": "",
+          "vimeoId": "263025549"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use a cache, including the Azure Redis cache.",
+          "length": "2409",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-14-design-web-applications_pt14-040218-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-14-design-web-applications_pt14-040218-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-4-14-design-web-applications_pt14-040218-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Design Web Applications - Azure Redis Cache",
+          "transcript": "",
+          "vimeoId": "263212204"
+        },
+        {
+          "description": "Adam and Wes discuss how to design high-performance computing (HPC)\nand other compute-intensive applications using Azure Services.",
+          "length": "1645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-1-compute_intensive_application-040318-PGM.00_27_13_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-1-compute_intensive_application-040318-PGM.00_27_13_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-1-compute_intensive_application-040318-PGM.00_27_13_09.Still001-sm.jpg",
+          "title": "Compute Intensive Applications",
+          "transcript": "",
+          "vimeoId": "263171127"
+        },
+        {
+          "description": "Adam and Wes discuss how to design high-performance computing (HPC)\nand other compute-intensive applications using Azure Services.",
+          "length": "3418",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-2-compute_intensive_application_pt2-040318-PGM.00_56_46_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-2-compute_intensive_application_pt2-040318-PGM.00_56_46_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-2-compute_intensive_application_pt2-040318-PGM.00_56_46_23.Still001-sm.jpg",
+          "title": "Compute Intensive Applications Part 2",
+          "transcript": "",
+          "vimeoId": "263169290"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Batch, how to\ndesign stateless components to accommodate scale, and the design lifecycle strategy \nfor Azure Batch.",
+          "length": "1937",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-3-compute_intensive_applications_pt3-040318-PGM.00_32_06_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-3-compute_intensive_applications_pt3-040318-PGM.00_32_06_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-3-compute_intensive_applications_pt3-040318-PGM.00_32_06_25.Still001-sm.jpg",
+          "title": "Compute Intensive Applications Part 3",
+          "transcript": "",
+          "vimeoId": "263172952"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that implement low priority batching and job task counting.",
+          "length": "848",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-4-compute_intensive_applications_pt4-051618-PGM.00_17_36_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-4-compute_intensive_applications_pt4-051618-PGM.00_17_36_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-5-4-compute_intensive_applications_pt4-051618-PGM.00_17_36_16.Still001-sm.jpg",
+          "title": "Compute Intensive Applications Part 4",
+          "transcript": "",
+          "vimeoId": "270405848"
+        },
+        {
+          "description": "Adam and Wes discuss azure resources that will be helpful as you look to build your real-world knowledge of Azure, as well as while studying for the 70-535 exam.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-6-1-exam_resources-040318.00_35_34_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-6-1-exam_resources-040318.00_35_34_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-2-6-1-exam_resources-040318.00_35_34_18.Still001-sm.jpg",
+          "title": "Exam Resources",
+          "transcript": "",
+          "vimeoId": "263172033"
+        }
+      ],
+      "title": "Design Compute Infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Blob Storage, blob tiers, Azure Files, disks, and StorSimple.",
+          "length": "1809",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-1-design-for-azure-storage-solutions.00_29_58_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-1-design-for-azure-storage-solutions.00_29_58_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-1-design-for-azure-storage-solutions.00_29_58_08.Still001-sm.jpg",
+          "title": "Design for Azure Storage Solutions",
+          "transcript": "",
+          "vimeoId": "268996900"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Blob Storage, blob tiers, Azure Files, disks, and StorSimple.",
+          "length": "2088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-2-design-for-azure-storage-solutions_pt2-050918-PGM.00_35_38_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-2-design-for-azure-storage-solutions_pt2-050918-PGM.00_35_38_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-2-design-for-azure-storage-solutions_pt2-050918-PGM.00_35_38_03.Still001-sm.jpg",
+          "title": "Design for Azure Storage Solutions Part 2",
+          "transcript": "",
+          "vimeoId": "268998750"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Blob Storage, blob tiers, Azure Files, disks, and StorSimple.",
+          "length": "1159",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-3-design-for-azure-storage-solutions_pt3-050918-PGM.00_19_08_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-3-design-for-azure-storage-solutions_pt3-050918-PGM.00_19_08_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-3-design-for-azure-storage-solutions_pt3-050918-PGM.00_19_08_14.Still001-sm.jpg",
+          "title": "Design for Azure Storage Solutions Part 3",
+          "transcript": "",
+          "vimeoId": "268996300"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Data Box.",
+          "length": "626",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-4-design-for-azure-storage-solutions_pt4-051418-PGM.00_11_00_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-4-design-for-azure-storage-solutions_pt4-051418-PGM.00_11_00_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-1-4-design-for-azure-storage-solutions_pt4-051418-PGM.00_11_00_11.Still001-sm.jpg",
+          "title": "Design for Azure Storage Solutions Part 4",
+          "transcript": "",
+          "vimeoId": "269877253"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "1394",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-1-design-for-azure-data-services-050918-PGM.00_27_31_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-1-design-for-azure-data-services-050918-PGM.00_27_31_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-1-design-for-azure-data-services-050918-PGM.00_27_31_19.Still001-sm.jpg",
+          "title": "Design for Azure Data Services",
+          "transcript": "",
+          "vimeoId": "268998279"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "2557",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-2-design-for-azure-data-services_pt2-011018.00_42_24_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-2-design-for-azure-data-services_pt2-011018.00_42_24_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-2-design-for-azure-data-services_pt2-011018.00_42_24_16.Still001-sm.jpg",
+          "title": "Design for Azure Data Services Part 2",
+          "transcript": "",
+          "vimeoId": "269209340"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "2625",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-3-design-for-azure-data-services_pt3-051118-PGM.00_43_28_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-3-design-for-azure-data-services_pt3-051118-PGM.00_43_28_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-3-design-for-azure-data-services_pt3-051118-PGM.00_43_28_09.Still001-sm.jpg",
+          "title": "Design for Azure Data Services Part 3",
+          "transcript": "",
+          "vimeoId": "269670365"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "1664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-4-design-for-azure-data-services_pt4-051018.00_27_33_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-4-design-for-azure-data-services_pt4-051018.00_27_33_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-4-design-for-azure-data-services_pt4-051018.00_27_33_23.Still001-sm.jpg",
+          "title": "Design for Azure Data Services Part 4",
+          "transcript": "",
+          "vimeoId": "269209963"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "1709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-5-design-for-azure-data-services_pt5-051118-PGM.00_28_16_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-5-design-for-azure-data-services_pt5-051118-PGM.00_28_16_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-5-design-for-azure-data-services_pt5-051118-PGM.00_28_16_15.Still001-sm.jpg",
+          "title": "Design for Azure Data Services Part 5",
+          "transcript": "",
+          "vimeoId": "269670029"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Data Catalog, Azure Data Factory, SQL Data Warehouse, Azure Data Lake Analytics, Azure Analysis Services, and Azure HDInsight.",
+          "length": "1111",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-6-design-for-azure-data-services_pt6-051118-PGM.00_18_18_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-6-design-for-azure-data-services_pt6-051118-PGM.00_18_18_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-2-6-design-for-azure-data-services_pt6-051118-PGM.00_18_18_08.Still001-sm.jpg",
+          "title": "Design for Azure Data Services Part 6",
+          "transcript": "",
+          "vimeoId": "269670981"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure SQL Database and SQL Server Stretch Database.",
+          "length": "1625",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-1-design_for_relational_database_storage-051118.00_26_53_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-1-design_for_relational_database_storage-051118.00_26_53_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-1-design_for_relational_database_storage-051118.00_26_53_11.Still001-sm.jpg",
+          "title": "Design for Relational Database Storage",
+          "transcript": "",
+          "vimeoId": "269874264"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure SQL Database and SQL Server Stretch Database. In addition, they discuss how to determine when to use Azure Database for MySQL and Azure Database for PostgreSQL.",
+          "length": "1582",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-2-design_for_relational_database_storage_pt2-051118.00_26_09_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-2-design_for_relational_database_storage_pt2-051118.00_26_09_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-2-design_for_relational_database_storage_pt2-051118.00_26_09_23.Still001-sm.jpg",
+          "title": "Design for Relational Database Storage Part 2",
+          "transcript": "",
+          "vimeoId": "269669626"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for HA/DR, geo-replication, and designing a backup and recovery strategy. They also discuss how to design optimization strategies for Azure SQL Data Warehouse columnar storage.",
+          "length": "1870",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-3-design_for_relational_database_storage_pt3-051418-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-3-design_for_relational_database_storage_pt3-051418-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-3-design_for_relational_database_storage_pt3-051418-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Design for Relational Database Storage Part 3",
+          "transcript": "",
+          "vimeoId": "269878652"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for HA/DR, geo-replication, and designing a backup and recovery strategy. They also discuss how to design optimization strategies for Azure SQL Data Warehouse columnar storage.",
+          "length": "2101",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-4-design_for_relational_database_storage_pt4-051418-PGM.00_44_55_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-4-design_for_relational_database_storage_pt4-051418-PGM.00_44_55_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-3-4-design_for_relational_database_storage_pt4-051418-PGM.00_44_55_09.Still001-sm.jpg",
+          "title": "Design for Relational Database Storage Part 4",
+          "transcript": "",
+          "vimeoId": "269877442"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Redis Cache.",
+          "length": "1533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-1-design_for_nosql_storage-051418-PGM.00_25_43_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-1-design_for_nosql_storage-051418-PGM.00_25_43_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-1-design_for_nosql_storage-051418-PGM.00_25_43_26.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Azure Redis Cache",
+          "transcript": "",
+          "vimeoId": "270109298"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Table Storage.",
+          "length": "1445",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-2-design_for_nosql_storage_pt2-051418-PGM.00_24_15_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-2-design_for_nosql_storage_pt2-051418-PGM.00_24_15_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-2-design_for_nosql_storage_pt2-051418-PGM.00_24_15_26.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Azure Table Storage",
+          "transcript": "",
+          "vimeoId": "269879302"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Data Lake.",
+          "length": "840",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-3-design_for_nosql_storage_pt3-051418-PGM.00_16_47_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-3-design_for_nosql_storage_pt3-051418-PGM.00_16_47_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-3-design_for_nosql_storage_pt3-051418-PGM.00_16_47_18.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Azure Data Lake",
+          "transcript": "",
+          "vimeoId": "269879085"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Search.",
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-4-design_for_nosql_storage_pt4-051518-PGM.00_32_17_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-4-design_for_nosql_storage_pt4-051518-PGM.00_32_17_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-4-design_for_nosql_storage_pt4-051518-PGM.00_32_17_08.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Azure Search",
+          "transcript": "",
+          "vimeoId": "270108891"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Time Series Insights and design pipelines for managing recurring jobs.",
+          "length": "1742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-5-design_for_nosql_storage_pt5-051518-PGM.00_53_34_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-5-design_for_nosql_storage_pt5-051518-PGM.00_53_34_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-5-design_for_nosql_storage_pt5-051518-PGM.00_53_34_02.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Time Series Insights",
+          "transcript": "",
+          "vimeoId": "270107006"
+        },
+        {
+          "description": "Adam and Wes discuss how to design pipelines for managing recurring jobs.",
+          "length": "950",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-6-design_for_nosql_storage_pt6-051518-PGM.00_15_34_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-6-design_for_nosql_storage_pt6-051518-PGM.00_15_34_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-4-6-design_for_nosql_storage_pt6-051518-PGM.00_15_34_18.Still001-sm.jpg",
+          "title": "Design for NoSQL Storage - Recurring Jobs",
+          "transcript": "",
+          "vimeoId": "270108541"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use MongoDB API, Azure Cosmos DB SQL API, Graph API, Azure Tables API as well as how to design for cost, performance, data consistency, availability, and business continuity.",
+          "length": "2007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-5-1-design_for_cosmosdb_storage-051518.00_33_16_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-5-1-design_for_cosmosdb_storage-051518.00_33_16_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-3-5-1-design_for_cosmosdb_storage-051518.00_33_16_16.Still001-sm.jpg",
+          "title": "Design for CosmosDB Storage",
+          "transcript": "",
+          "vimeoId": "270109670"
+        }
+      ],
+      "title": "Design Data Implementation"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to design solutions that use Azure networking services.",
+          "length": "2798",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-1-azure_virtual_networks-040418-PGM.00_46_24_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-1-azure_virtual_networks-040418-PGM.00_46_24_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-1-azure_virtual_networks-040418-PGM.00_46_24_24.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Networking Services",
+          "transcript": "",
+          "vimeoId": "263384103"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use Azure networking services.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-2-azure_virtual_networks_pt2-040418-PGM.00_32_46_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-2-azure_virtual_networks_pt2-040418-PGM.00_32_46_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-2-azure_virtual_networks_pt2-040418-PGM.00_32_46_03.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Networking Services Pt2",
+          "transcript": "",
+          "vimeoId": "263383525"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use Azure networking services and define DNS, DHCP, and IP strategies.",
+          "length": "2692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-3-azure_virtual_networks_pt3-040418-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-3-azure_virtual_networks_pt3-040418-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-3-azure_virtual_networks_pt3-040418-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - DNS, DHCP and IP",
+          "transcript": "",
+          "vimeoId": "263384680"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for load balancing using Azure Load Balancer and Azure Traffic Manager.",
+          "length": "1515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-4-azure_virtual_networks_pt4-040518.00_41_44_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-4-azure_virtual_networks_pt4-040518.00_41_44_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-4-azure_virtual_networks_pt4-040518.00_41_44_00.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Load Balancing",
+          "transcript": "",
+          "vimeoId": "263561014"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for load balancing using Azure Load Balancer and Azure Traffic Manager.",
+          "length": "2824",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-5-azure_virtual_networks_pt5-040518-PGM.00_46_53_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-5-azure_virtual_networks_pt5-040518-PGM.00_46_53_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-5-azure_virtual_networks_pt5-040518-PGM.00_46_53_15.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Load Balancing Pt2",
+          "transcript": "",
+          "vimeoId": "263558349"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for load balancing using Azure Load Balancer and Azure Traffic Manager.",
+          "length": "2010",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-6-azure_virtual_networks_pt6-040518-PGM.00_33_25_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-6-azure_virtual_networks_pt6-040518-PGM.00_33_25_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-6-azure_virtual_networks_pt6-040518-PGM.00_33_25_10.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Load Balancing Pt3",
+          "transcript": "",
+          "vimeoId": "263562109"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use the Azure Application Gateway and determine when to use multi-node application gateways.",
+          "length": "2013",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-7-azure_virtual_networks_pt7-040518-PGM.00_34_03_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-7-azure_virtual_networks_pt7-040518-PGM.00_34_03_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-7-azure_virtual_networks_pt7-040518-PGM.00_34_03_25.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Application Gateway",
+          "transcript": "",
+          "vimeoId": "263560202"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use the Azure Application Gateway and determine when to use multi-node application gateways.",
+          "length": "2325",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-8-azure_virtual_networks_pt8-040518-PGM.00_38_44_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-8-azure_virtual_networks_pt8-040518-PGM.00_38_44_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-8-azure_virtual_networks_pt8-040518-PGM.00_38_44_27.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - Application Gateway Pt2",
+          "transcript": "",
+          "vimeoId": "263559355"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine  determine when to use virtual network (VNet) service endpoints.",
+          "length": "641",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-9-azure_virtual_networks_pt9-051618-PGM.00_10_25_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-9-azure_virtual_networks_pt9-051618-PGM.00_10_25_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-1-9-azure_virtual_networks_pt9-051618-PGM.00_10_25_12.Still001-sm.jpg",
+          "title": "Azure Virtual Networks - VNet Service Endpoints",
+          "transcript": "",
+          "vimeoId": "270405583"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure VPN, ExpressRoute and Virtual Network Peering architecture and design.",
+          "length": "2427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-1-design-external-connectivity-040618-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-1-design-external-connectivity-040618-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-1-design-external-connectivity-040618-high-sm.jpg",
+          "title": "Design External Connectivity",
+          "transcript": "",
+          "vimeoId": "264067209"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure VPN, ExpressRoute and Virtual Network Peering architecture and design.",
+          "length": "2174",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-2-design-external-connectivity_pt2-040618.00_36_02_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-2-design-external-connectivity_pt2-040618.00_36_02_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-2-design-external-connectivity_pt2-040618.00_36_02_27.Still001-sm.jpg",
+          "title": "Design External Connectivity Part 2",
+          "transcript": "",
+          "vimeoId": "264068101"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure VPN, ExpressRoute and Virtual Network Peering architecture and design.",
+          "length": "1214",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-3-design-external-connectivity_pt3-040618.00_20_02_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-3-design-external-connectivity_pt3-040618.00_20_02_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-3-design-external-connectivity_pt3-040618.00_20_02_20.Still001-sm.jpg",
+          "title": "Design External Connectivity Part 3",
+          "transcript": "",
+          "vimeoId": "264067819"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use User Defined Routes (UDRs).",
+          "length": "2419",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-4-design-external-connectivity_pt4-040618PGM.00_40_04_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-4-design-external-connectivity_pt4-040618PGM.00_40_04_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-4-design-external-connectivity_pt4-040618PGM.00_40_04_16.Still001-sm.jpg",
+          "title": "Design External Connectivity Part 4",
+          "transcript": "",
+          "vimeoId": "264450478"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use VPN gateway site-to-site failover for ExpressRoute.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-5-design-external-connectivity_pt5-040618-PGM.00_30_35_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-5-design-external-connectivity_pt5-040618-PGM.00_30_35_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-5-design-external-connectivity_pt5-040618-PGM.00_30_35_09.Still001-sm.jpg",
+          "title": "Design External Connectivity Part 5",
+          "transcript": "",
+          "vimeoId": "264068655"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use the Container Networking Interface (CNI) plugin as well as hoe to design solutions that use Global VNet Peering.",
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-6-design_external_connectivity_pt6-051618-PGM.00_28_44_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-6-design_external_connectivity_pt6-051618-PGM.00_28_44_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-2-6-design_external_connectivity_pt6-051618-PGM.00_28_44_16.Still001-sm.jpg",
+          "title": "Design External Connectivity Part 6",
+          "transcript": "",
+          "vimeoId": "270406107"
+        },
+        {
+          "description": "Adam and Wes discuss how to Determine when to use network virtual appliances.",
+          "length": "2084",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-1-design-security_strategies-040918-PGM.00_34_31_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-1-design-security_strategies-040918-PGM.00_34_31_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-1-design-security_strategies-040918-PGM.00_34_31_15.Still001-sm.jpg",
+          "title": "Design Security Strategies",
+          "transcript": "",
+          "vimeoId": "264302819"
+        },
+        {
+          "description": "Adam and Wes discuss how to design a perimeter network (DMZ).",
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-2-design-security_strategies_pt2-040918-PGM.00_27_32_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-2-design-security_strategies_pt2-040918-PGM.00_27_32_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-2-design-security_strategies_pt2-040918-PGM.00_27_32_09.Still001-sm.jpg",
+          "title": "Design Security Strategies Part 2",
+          "transcript": "",
+          "vimeoId": "264301141"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use a Web Application Firewall (WAF), Network Security Group (NSG), and virtual network service tunneling.",
+          "length": "2289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-3-design-security_strategies_pt3-040918-PGM.00_37_51_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-3-design-security_strategies_pt3-040918-PGM.00_37_51_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-3-design-security_strategies_pt3-040918-PGM.00_37_51_03.Still001-sm.jpg",
+          "title": "Design Security Strategies Part 3",
+          "transcript": "",
+          "vimeoId": "264301822"
+        },
+        {
+          "description": "Adam and Wes discuss how to organize resources by designing solutions that use service tags.",
+          "length": "916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-4-design-security-strategies_pt4-051618-PGM.00_15_02_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-4-design-security-strategies_pt4-051618-PGM.00_15_02_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-3-4-design-security-strategies_pt4-051618-PGM.00_15_02_27.Still001-sm.jpg",
+          "title": "Design Security Strategies Part 4",
+          "transcript": "",
+          "vimeoId": "270756338"
+        },
+        {
+          "description": "Adam and Wes discuss how to design connectivity to on-premises data from Azure applications using Azure Relay Service, Azure Data Management Gateway for Data Factory, Azure On-Premises Data Gateway, Hybrid Connections, or Azure Web App’s virtual private network (VPN) capability.",
+          "length": "1765",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-1-connectivity_for_hybrid_applications-041018.00_32_17_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-1-connectivity_for_hybrid_applications-041018.00_32_17_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-1-connectivity_for_hybrid_applications-041018.00_32_17_24.Still001-sm.jpg",
+          "title": "Connectivity for Hybrid Applications",
+          "transcript": "",
+          "vimeoId": "264304494"
+        },
+        {
+          "description": "Adam and Wes discuss how to design connectivity to on-premises data from Azure applications using Azure Relay Service, Azure Data Management Gateway for Data Factory, Azure On-Premises Data Gateway, Hybrid Connections, or Azure Web App’s virtual private network (VPN) capability.",
+          "length": "1772",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-2-connectivity_for_hybrid_applications_pt2-041018.00_43_38_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-2-connectivity_for_hybrid_applications_pt2-041018.00_43_38_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-2-connectivity_for_hybrid_applications_pt2-041018.00_43_38_01.Still001-sm.jpg",
+          "title": "Connectivity for Hybrid Applications Part 2",
+          "transcript": "",
+          "vimeoId": "264495177"
+        },
+        {
+          "description": "Adam and Wes discuss how to design connectivity to on-premises data from Azure applications using Azure Relay Service, Azure Data Management Gateway for Data Factory, Azure On-Premises Data Gateway, Hybrid Connections, or Azure Web App’s virtual private network (VPN) capability.",
+          "length": "1509",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-3-connectivity_for_hybrid_applications_pt3-041018.00_24_58_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-3-connectivity_for_hybrid_applications_pt3-041018.00_24_58_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-3-connectivity_for_hybrid_applications_pt3-041018.00_24_58_04.Still001-sm.jpg",
+          "title": "Connectivity for Hybrid Application Part 3",
+          "transcript": "",
+          "vimeoId": "264303723"
+        },
+        {
+          "description": "Adam and Wes discuss how to design connectivity to on-premises data from Azure applications using Azure Relay Service, Azure Data Management Gateway for Data Factory, Azure On-Premises Data Gateway, Hybrid Connections, or Azure Web App’s virtual private network (VPN) capability.",
+          "length": "2060",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-4-connectivity_for_hybrid_applications_pt4-041018-PGM.00_34_07_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-4-connectivity_for_hybrid_applications_pt4-041018-PGM.00_34_07_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-4-connectivity_for_hybrid_applications_pt4-041018-PGM.00_34_07_01.Still001-sm.jpg",
+          "title": "Connectivity for Hybrid Applications Part 4",
+          "transcript": "",
+          "vimeoId": "264496153"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify options for joining VMs to domains.",
+          "length": "2234",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-5-connectivity_for_hybrid_applications_pt5-041118.00_37_03_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-5-connectivity_for_hybrid_applications_pt5-041118.00_37_03_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-4-4-5-connectivity_for_hybrid_applications_pt5-041118.00_37_03_06.Still001-sm.jpg",
+          "title": "Connectivity for Hybrid Applications Part 5",
+          "transcript": "",
+          "vimeoId": "264618041"
+        }
+      ],
+      "title": "Design Networking Implementation"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss what Azure Active Directory is.",
+          "length": "2044",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-1-design_an_identity_solution-041118-PGM.00_33_53_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-1-design_an_identity_solution-041118-PGM.00_33_53_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-1-design_an_identity_solution-041118-PGM.00_33_53_22.Still001-sm.jpg",
+          "title": "Design an Identity Solution",
+          "transcript": "",
+          "vimeoId": "264611002"
+        },
+        {
+          "description": "Adam and Wes discuss how to design federated identities using Active Directory Federation Services (AD FS).",
+          "length": "2154",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-2-design_an_identity_solution_pt2-041118-PGM.00_37_34_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-2-design_an_identity_solution_pt2-041118-PGM.00_37_34_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-2-design_an_identity_solution_pt2-041118-PGM.00_37_34_09.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 2",
+          "transcript": "",
+          "vimeoId": "264612607"
+        },
+        {
+          "description": "Adam and Wes discuss design solutions for Multi-Factor Authentication (MFA).",
+          "length": "2510",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-3-design_an_identity_solution_pt3-041118-PGM.00_42_25_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-3-design_an_identity_solution_pt3-041118-PGM.00_42_25_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-3-design_an_identity_solution_pt3-041118-PGM.00_42_25_06.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 3",
+          "transcript": "",
+          "vimeoId": "264614008"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure AD Domain Services.",
+          "length": "1217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-4-design_an_identity_solution_pt4-041118-PGM.00_20_03_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-4-design_an_identity_solution_pt4-041118-PGM.00_20_03_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-4-design_an_identity_solution_pt4-041118-PGM.00_20_03_15.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 4",
+          "transcript": "",
+          "vimeoId": "https://vimeo.com/264616500"
+        },
+        {
+          "description": "Adam and Wes discuss how to design an architecture using Active Directory on-premises and Azure Active Directory (AAD), and how to design AD Connect synchronization.",
+          "length": "2267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-5-design_an_identity_solution_pt5-041218.00_37_35_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-5-design_an_identity_solution_pt5-041218.00_37_35_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-5-design_an_identity_solution_pt5-041218.00_37_35_05.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 5",
+          "transcript": "",
+          "vimeoId": "264618804"
+        },
+        {
+          "description": "Adam and Wes discuss how to design an architecture using Active Directory on-premises and Azure Active Directory (AAD), and how to design AD Connect synchronization.",
+          "length": "2173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-6-design_an_identity_solution_pt6-041216-PGM.00_41_59_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-6-design_an_identity_solution_pt6-041216-PGM.00_41_59_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-6-design_an_identity_solution_pt6-041216-PGM.00_41_59_02.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 6",
+          "transcript": "",
+          "vimeoId": "264610654"
+        },
+        {
+          "description": "Adam and Wes discuss how to design an architecture using Active Directory on-premises and Azure Active Directory (AAD), and how to design AD Connect synchronization.",
+          "length": "1595",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-7-design_an_identity_solution_pt7-041216-PGM.00_26_33_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-7-design_an_identity_solution_pt7-041216-PGM.00_26_33_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-7-design_an_identity_solution_pt7-041216-PGM.00_26_33_10.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 7",
+          "transcript": "",
+          "vimeoId": "264618511"
+        },
+        {
+          "description": "Adam and Wes discuss how to design security for Mobile Apps using AAD.",
+          "length": "1646",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-8-design_an_identity_solution_pt8-041216-PGM.00_27_12_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-8-design_an_identity_solution_pt8-041216-PGM.00_27_12_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-1-8-design_an_identity_solution_pt8-041216-PGM.00_27_12_21.Still001-sm.jpg",
+          "title": "Design an Identity Solution Part 8",
+          "transcript": "",
+          "vimeoId": "264619351"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use external or consumer identity providers such as Microsoft account, Facebook, Google, and\nYahoo.",
+          "length": "2027",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-1-secure_resources_using_identity_providers-041618-PGM.00_33_35_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-1-secure_resources_using_identity_providers-041618-PGM.00_33_35_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-1-secure_resources_using_identity_providers-041618-PGM.00_33_35_10.Still001-sm.jpg",
+          "title": "Secure Resources Using Identity Providers",
+          "transcript": "",
+          "vimeoId": "265184238"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure AD B2C and Azure AD B2B.",
+          "length": "2433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-2-secure_resources_using_identity_providers_pt2-041618-PGM.00_40_20_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-2-secure_resources_using_identity_providers_pt2-041618-PGM.00_40_20_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-2-secure_resources_using_identity_providers_pt2-041618-PGM.00_40_20_11.Still001-sm.jpg",
+          "title": "Secure Resources Using Identity Providers Part 2",
+          "transcript": "",
+          "vimeoId": "265236342"
+        },
+        {
+          "description": "Adam and Wes discuss how to design mobile apps using AAD B2C or AAD B2B.",
+          "length": "1240",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-3-secure_resources_using_identity_providers_pt3-041618-PGM.00_20_25_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-3-secure_resources_using_identity_providers_pt3-041618-PGM.00_20_25_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-2-3-secure_resources_using_identity_providers_pt3-041618-PGM.00_20_25_01.Still001-sm.jpg",
+          "title": "Secure Resources Using Identity Providers Part 3",
+          "transcript": "",
+          "vimeoId": "265183428"
+        },
+        {
+          "description": "Adam and Wes discuss how to design data security solutions for Azure services.",
+          "length": "2297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-1-design-a-data-security-solution-041618-PGM.00_37_57_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-1-design-a-data-security-solution-041618-PGM.00_37_57_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-1-design-a-data-security-solution-041618-PGM.00_37_57_08.Still001-sm.jpg",
+          "title": "Design a Data Security Solution",
+          "transcript": "",
+          "vimeoId": "265185366"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "2145",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-2-design-a-data-security-solution_pt2-041718-PGM.00_35_25_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-2-design-a-data-security-solution_pt2-041718-PGM.00_35_25_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-2-design-a-data-security-solution_pt2-041718-PGM.00_35_25_09.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 2",
+          "transcript": "",
+          "vimeoId": "265383164"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "2518",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-3-design-a-data-security-solution_pt3-041718-PGM.00_41_40_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-3-design-a-data-security-solution_pt3-041718-PGM.00_41_40_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-3-design-a-data-security-solution_pt3-041718-PGM.00_41_40_12.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 3",
+          "transcript": "",
+          "vimeoId": "265382051"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "1716",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-4-design-a-data-security-solution_pt4-041718-PGM.00_35_39_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-4-design-a-data-security-solution_pt4-041718-PGM.00_35_39_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-4-design-a-data-security-solution_pt4-041718-PGM.00_35_39_03.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 4",
+          "transcript": "",
+          "vimeoId": "265384211"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "2561",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-5-design-a-data-security-solution_pt5-041718-PGM.00_42_24_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-5-design-a-data-security-solution_pt5-041718-PGM.00_42_24_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-5-design-a-data-security-solution_pt5-041718-PGM.00_42_24_16.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 5",
+          "transcript": "",
+          "vimeoId": "265381099"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "3345",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-6-design-a-data-security-solution_pt6-041818-PGM2.00_55_30_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-6-design-a-data-security-solution_pt6-041818-PGM2.00_55_30_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-6-design-a-data-security-solution_pt6-041818-PGM2.00_55_30_26.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 6",
+          "transcript": "",
+          "vimeoId": "265617690"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault.",
+          "length": "1636",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-7-design-a-data-security-solution_pt7-041818-PGM.00_27_45_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-7-design-a-data-security-solution_pt7-041818-PGM.00_27_45_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-7-design-a-data-security-solution_pt7-041818-PGM.00_27_45_00.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 7",
+          "transcript": "",
+          "vimeoId": "265794095"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for protecting secrets in ARM templates using Azure Key Vault.",
+          "length": "2046",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-8-design-a-data-security-solution_pt8-041818-PGM.00_33_51_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-8-design-a-data-security-solution_pt8-041818-PGM.00_33_51_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-8-design-a-data-security-solution_pt8-041818-PGM.00_33_51_16.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 8",
+          "transcript": "",
+          "vimeoId": "265793789"
+        },
+        {
+          "description": "Adam and Wes discuss how to design for protecting application secrets using Azure Key Vault.",
+          "length": "990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-9-design-a-data-security-solution_pt9-041818-PGM.00_16_11_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-9-design-a-data-security-solution_pt9-041818-PGM.00_16_11_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-9-design-a-data-security-solution_pt9-041818-PGM.00_16_11_06.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 9",
+          "transcript": "",
+          "vimeoId": "265794320"
+        },
+        {
+          "description": "Adam and Wes discuss how to design a solution for managing certificates using Azure Key Vault.",
+          "length": "1028",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-10-design-a-data-security-solution_pt10-041818-PGM.00_16_55_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-10-design-a-data-security-solution_pt10-041818-PGM.00_16_55_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-10-design-a-data-security-solution_pt10-041818-PGM.00_16_55_07.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 10",
+          "transcript": "",
+          "vimeoId": "265617181"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use Azure AD Managed Service Identity.",
+          "length": "2596",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-11-design_a_data_security_solution_pt11-041918-PGM.00_45_23_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-11-design_a_data_security_solution_pt11-041918-PGM.00_45_23_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-3-11-design_a_data_security_solution_pt11-041918-PGM.00_45_23_07.Still001-sm.jpg",
+          "title": "Design a Data Security Solution Part 11",
+          "transcript": "",
+          "vimeoId": "265808506"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure RBAC standard roles and custom roles, and how to define an Azure RBAC strategy.",
+          "length": "2111",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-1-design_governance_and_policies_for_resources-041918.00_34_59_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-1-design_governance_and_policies_for_resources-041918.00_34_59_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-1-design_governance_and_policies_for_resources-041918.00_34_59_20.Still001-sm.jpg",
+          "title": "Design Governance and Policies for Resources",
+          "transcript": "",
+          "vimeoId": "265807677"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure resource policies.",
+          "length": "2083",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-2-design_governance_and_policies_for_resources_pt2-041918.00_34_31_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-2-design_governance_and_policies_for_resources_pt2-041918.00_34_31_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-2-design_governance_and_policies_for_resources_pt2-041918.00_34_31_24.Still001-sm.jpg",
+          "title": "Design Governance and Policies for Resources Pt.2",
+          "transcript": "",
+          "vimeoId": "265827519"
+        },
+        {
+          "description": "Adam and Wes determine when to use Azure AD Privileged Identity Management.",
+          "length": "4165",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-3-design_governance_and_policies_for_resources_pt3-041918.00_38_44_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-3-design_governance_and_policies_for_resources_pt3-041918.00_38_44_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-3-design_governance_and_policies_for_resources_pt3-041918.00_38_44_09.Still001-sm.jpg",
+          "title": "Design Governance and Policies for Resources Pt.3",
+          "transcript": "",
+          "vimeoId": "266335637"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use Azure AD Managed Service Identity, as well as how to determine when to use HSM-backed keys.",
+          "length": "1613",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-4-design_governance_and_policies_for_resources_pt4-042018-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-4-design_governance_and_policies_for_resources_pt4-042018-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-4-4-design_governance_and_policies_for_resources_pt4-042018-high-sm.jpg",
+          "title": "Design Governance and Policies for Resources Pt.4",
+          "transcript": "",
+          "vimeoId": "266334898"
+        },
+        {
+          "description": "Adam and Wes discuss how to Identify, assess, and mitigate security risks by using Azure Security Center, Operations Management Suite Security and Audit solutions, and other services.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-1-manage_security_risks-042018.00_30_16_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-1-manage_security_risks-042018.00_30_16_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-1-manage_security_risks-042018.00_30_16_04.Still001-sm.jpg",
+          "title": "Manage Security Risks",
+          "transcript": "",
+          "vimeoId": "266332908"
+        },
+        {
+          "description": "Adam and Wes discuss how to Identify, assess, and mitigate security risks by using Azure Security Center, Operations Management Suite Security and Audit solutions, and other services.",
+          "length": "2298",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-2-manage_security_risks_pt2-042018.00_38_05_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-2-manage_security_risks_pt2-042018.00_38_05_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-2-manage_security_risks_pt2-042018.00_38_05_19.Still001-sm.jpg",
+          "title": "Manage Security Risks Part 2",
+          "transcript": "",
+          "vimeoId": "266330644"
+        },
+        {
+          "description": "Adam and Wes discuss how to Identify, assess, and mitigate security risks by using Azure Security Center, Operations Management Suite Security and Audit solutions, and other services.",
+          "length": "2053",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-3-manage_security_risks_pt3-042018.00_34_02_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-3-manage_security_risks_pt3-042018.00_34_02_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-3-manage_security_risks_pt3-042018.00_34_02_03.Still001-sm.jpg",
+          "title": "Manage Security Risks Part 3",
+          "transcript": "",
+          "vimeoId": "266336629"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure AD Identity Protection.",
+          "length": "2199",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-4-manage_security_risks_pt4-043018-PGM.00_36_22_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-4-manage_security_risks_pt4-043018-PGM.00_36_22_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-4-manage_security_risks_pt4-043018-PGM.00_36_22_25.Still001-sm.jpg",
+          "title": "Manage Security Risks - AD Identity Protection",
+          "transcript": "",
+          "vimeoId": "267459825"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Advanced Threat Detection.",
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-5-manage_security_risks_pt5-043015-PGM.00_32_45_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-5-manage_security_risks_pt5-043015-PGM.00_32_45_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-5-manage_security_risks_pt5-043015-PGM.00_32_45_14.Still001-sm.jpg",
+          "title": "Manage Security Risks - Advanced Threat Detection",
+          "transcript": "",
+          "vimeoId": "267458247"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine an appropriate endpoint protection strategy.",
+          "length": "1117",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-6-manage_security_risks_pt6-043015-PGM.00_34_32_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-6-manage_security_risks_pt6-043015-PGM.00_34_32_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-5-5-6-manage_security_risks_pt6-043015-PGM.00_34_32_23.Still001-sm.jpg",
+          "title": "Manage Security Risks - Endpoint Protection",
+          "transcript": "",
+          "vimeoId": "267457468"
+        }
+      ],
+      "title": "Design Security and Identity Solutions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to determine when to use the appropriate Cognitive Services, Azure Bot Service, Azure Machine Learning, and other categories that fall under cognitive AI.",
+          "length": "3217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-1-1-artificial_intelligence_services-050318-PGM.00_43_15_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-1-1-artificial_intelligence_services-050318-PGM.00_43_15_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-1-1-artificial_intelligence_services-050318-PGM.00_43_15_16.Still001-sm.jpg",
+          "title": "Artificial Intelligence Services",
+          "transcript": "",
+          "vimeoId": "268410054"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Stream Analytics, IoT Hubs, Event Hubs, real-time analytics, Time Series Insights, IoT Edge, Notification Hubs, Event Grid, and other categories that fall under IoT.",
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-1-design_for_iot-050818-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-1-design_for_iot-050818-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-1-design_for_iot-050818-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Design for IoT",
+          "transcript": "",
+          "vimeoId": "268802094"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Stream Analytics, IoT Hubs, Event Hubs, real-time analytics, Time Series Insights, IoT Edge, Notification Hubs, Event Grid, and other categories that fall under IoT.",
+          "length": "1488",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-2-design_for_iot_pt2-050818-PGM.00_00_12_21.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-2-design_for_iot_pt2-050818-PGM.00_00_12_21.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-2-2-design_for_iot_pt2-050818-PGM.00_00_12_21.Still002-sm.jpg",
+          "title": "Design for IoT Part 2",
+          "transcript": "",
+          "vimeoId": "268801775"
+        },
+        {
+          "description": "Adam and Wes discuss how to design a messaging architecture, as well as how to determine when to use Azure Storage Queues, Azure Service Bus, Azure Event Hubs, Event Grid, Azure Relay, Azure Functions, and Azure Logic Apps. In addition, they discuss how to design a push notification strategy for Mobile Apps and design for performance and scale.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-3-1-messaging_solution_architectures-050818-PGM.00_30_17_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-3-1-messaging_solution_architectures-050818-PGM.00_30_17_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-3-1-messaging_solution_architectures-050818-PGM.00_30_17_21.Still001-sm.jpg",
+          "title": "Messaging Solution Architectures",
+          "transcript": "",
+          "vimeoId": "268802567"
+        },
+        {
+          "description": "Adam and Wes discuss how to define solutions using Azure Media Services, video indexer, video API, computer vision API, and other media related services.",
+          "length": "1826",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-1-media_service_solutions-050918.00_30_14_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-1-media_service_solutions-050918.00_30_14_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-1-media_service_solutions-050918.00_30_14_05.Still001-sm.jpg",
+          "title": "Media Service Solutions",
+          "transcript": "",
+          "vimeoId": "268997629"
+        },
+        {
+          "description": "Adam and Wes discuss how to design solutions that use file-based encoding or Azure Media Analytics.",
+          "length": "1137",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-2-media-service-solutions_pt2-051618-PGM.00_29_33_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-2-media-service-solutions_pt2-051618-PGM.00_29_33_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-6-4-2-media-service-solutions_pt2-051618-PGM.00_29_33_15.Still001-sm.jpg",
+          "title": "Media Service Solutions Part 2",
+          "transcript": "",
+          "vimeoId": "270407086"
+        }
+      ],
+      "title": "Design Solutions Using Platform Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to determine the appropriate Microsoft products and services for monitoring applications on Azure and how to define solutions for analyzing logs and enabling alerts using Azure Log Analytics.",
+          "length": "3292",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-1-application-monitoring-alerting-strategies-043018-PGM.00_59_45_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-1-application-monitoring-alerting-strategies-043018-PGM.00_59_45_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-1-application-monitoring-alerting-strategies-043018-PGM.00_59_45_07.Still001-sm.jpg",
+          "title": "Application Monitoring and Alerting Strategies",
+          "transcript": "",
+          "vimeoId": "267460252"
+        },
+        {
+          "description": "Adam and Wes discuss how to define solutions for analyzing performance metrics and enabling alerts using Azure Monitor.",
+          "length": "2655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-2-application-monitoring-and-alerting-strategies_pt2-043018.00_44_02_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-2-application-monitoring-and-alerting-strategies_pt2-043018.00_44_02_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-2-application-monitoring-and-alerting-strategies_pt2-043018.00_44_02_09.Still001-sm.jpg",
+          "title": "Application Monitoring and Alerting Strategies Pt2",
+          "transcript": "",
+          "vimeoId": "267837457"
+        },
+        {
+          "description": "Adam and Wes discuss how to define solutions for analyzing performance metrics and enabling alerts using Azure Monitor.",
+          "length": "1305",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-3-application-monitoring-and-alerting-strategies_pt3-043018-PGM.00_21_41_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-3-application-monitoring-and-alerting-strategies_pt3-043018-PGM.00_21_41_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-3-application-monitoring-and-alerting-strategies_pt3-043018-PGM.00_21_41_19.Still001-sm.jpg",
+          "title": "Application Monitoring and Alerting Strategies Pt3",
+          "transcript": "",
+          "vimeoId": "267837121"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a solution for monitoring applications and enabling alerts using Application Insights.",
+          "length": "2081",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-4-application_monitoring_and_alerting_strategies_pt4-050118-PGM.00_36_59_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-4-application_monitoring_and_alerting_strategies_pt4-050118-PGM.00_36_59_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-4-application_monitoring_and_alerting_strategies_pt4-050118-PGM.00_36_59_06.Still001-sm.jpg",
+          "title": "Application Monitoring and Alerting Strategies Pt4",
+          "transcript": "",
+          "vimeoId": "267616433"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a solution for monitoring applications and enabling alerts using Application Insights.",
+          "length": "2429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-5-application_monitoring_and_alerting_strategies_pt5-050118.00_40_48_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-5-application_monitoring_and_alerting_strategies_pt5-050118.00_40_48_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-1-5-application_monitoring_and_alerting_strategies_pt5-050118.00_40_48_05.Still001-sm.jpg",
+          "title": "Application Monitoring and Alerting Strategies Pt5",
+          "transcript": "",
+          "vimeoId": "267615903"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine the appropriate Microsoft products and services for monitoring Azure platform solutions and how to define a monitoring solution using Azure Health, Azure Advisor, and Activity Log.",
+          "length": "2191",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-1-platform_monitoring_and_alerting_strategies-050118-PGM.00_39_30_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-1-platform_monitoring_and_alerting_strategies-050118-PGM.00_39_30_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-1-platform_monitoring_and_alerting_strategies-050118-PGM.00_39_30_00.Still001-sm.jpg",
+          "title": "Platform Monitoring and Alerting Strategies",
+          "transcript": "",
+          "vimeoId": "267616881"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a monitoring solution for Azure Networks using Log Analytics and the Network Watcher service. In addition, how to monitor security with the Azure Security Center.",
+          "length": "2936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-2-platform_monitoring_and_alerting_strategies_pt2-050218-PGM.00_49_05_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-2-platform_monitoring_and_alerting_strategies_pt2-050218-PGM.00_49_05_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-2-platform_monitoring_and_alerting_strategies_pt2-050218-PGM.00_49_05_06.Still001-sm.jpg",
+          "title": "Platform Monitoring and Alerting Strategies Pt2",
+          "transcript": "",
+          "vimeoId": "267836392"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a monitoring solution for Azure Networks using Log Analytics and the Network Watcher service. In addition, how to monitor security with the Azure Security Center.",
+          "length": "1916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-3-platform_monitoring_and_alerting_strategies_pt3-050218-PGM.00_34_42_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-3-platform_monitoring_and_alerting_strategies_pt3-050218-PGM.00_34_42_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-3-platform_monitoring_and_alerting_strategies_pt3-050218-PGM.00_34_42_19.Still001-sm.jpg",
+          "title": "Platform Monitoring and Alerting Strategies Pt3",
+          "transcript": "",
+          "vimeoId": "267835982"
+        },
+        {
+          "description": "Adam and Wes discuss how to design TCP connections.",
+          "length": "1331",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-4-platform-monitoring-alerting-strategies_pt4-051618-PGM.00_22_35_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-4-platform-monitoring-alerting-strategies_pt4-051618-PGM.00_22_35_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-2-4-platform-monitoring-alerting-strategies_pt4-051618-PGM.00_22_35_01.Still001-sm.jpg",
+          "title": "Platform Monitoring and Alerting Strategies Part 4",
+          "transcript": "",
+          "vimeoId": "270406669"
+        },
+        {
+          "description": "dam and Wes discuss how to determine when to use Azure Automation, Chef, Puppet, PowerShell, Desired State Configuration (DSC), Event Grid, and Azure Logic Apps.",
+          "length": "2030",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-1-operations_automation_strategies-050218-PGM.00_33_37_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-1-operations_automation_strategies-050218-PGM.00_33_37_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-1-operations_automation_strategies-050218-PGM.00_33_37_11.Still001-sm.jpg",
+          "title": "Operations Automation Strategies",
+          "transcript": "",
+          "vimeoId": "267838116"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Automation, Chef, Puppet, PowerShell, Desired State Configuration (DSC), Event Grid, and Azure Logic Apps.",
+          "length": "2391",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-2-operations_automation_strategies_pt2-050318-PGM.00_43_37_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-2-operations_automation_strategies_pt2-050318-PGM.00_43_37_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-2-operations_automation_strategies_pt2-050318-PGM.00_43_37_22.Still001-sm.jpg",
+          "title": "Operations Automation Strategies Part 2",
+          "transcript": "",
+          "vimeoId": "268409557"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine when to use Azure Automation, Chef, Puppet, PowerShell, Desired State Configuration (DSC), Event Grid, and Azure Logic Apps.",
+          "length": "2021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-3-operations_automation_strategies_pt3-050318-PGM.00_34_45_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-3-operations_automation_strategies_pt3-050318-PGM.00_34_45_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-3-operations_automation_strategies_pt3-050318-PGM.00_34_45_23.Still001-sm.jpg",
+          "title": "Operations Automation Strategies Part 3",
+          "transcript": "",
+          "vimeoId": "268409165"
+        },
+        {
+          "description": "Adam and Wes discuss how to define a strategy for auto-scaling & define a strategy for enabling periodic processes and tasks.",
+          "length": "1166",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-4-operations_automation_strategies_pt4-050318-PGM.00_21_09_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-4-operations_automation_strategies_pt4-050318-PGM.00_21_09_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-4-operations_automation_strategies_pt4-050318-PGM.00_21_09_17.Still001-sm.jpg",
+          "title": "Operations Automation Strategies Part 4",
+          "transcript": "",
+          "vimeoId": "268410753"
+        },
+        {
+          "description": "Adam and Wes discuss how to define an update management strategy.",
+          "length": "1243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-5-operations-automation-strategies_pt5-051618-PGM.00_24_26_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-5-operations-automation-strategies_pt5-051618-PGM.00_24_26_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-azure70535/microsoft-azure-70535-7-3-5-operations-automation-strategies_pt5-051618-PGM.00_24_26_14.Still001-sm.jpg",
+          "title": "Operations Automation Strategies Part 5",
+          "transcript": "",
+          "vimeoId": "270407937"
+        }
+      ],
+      "title": "Design for Operations"
+    }
+  ],
+  "url": "architecting-microsoft-azure-solutions",
+  "vLab": false
+}

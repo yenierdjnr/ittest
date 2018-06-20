@@ -1,0 +1,183 @@
+{
+  "description": "The VMware Certified Professional certification is the most highly recognized certification dealing specifically with virtualization technologies. VMware vSphere is the leading virtualization technology available today and is in use at most large organizations. The VMware Certified Professional – Data Center Virtualization (VCP5-DCV) certification is tailored towards IT System Administrators who are looking to deploy and maintain VMware vSphere and its associated products (ESXi, VDP, vCOP, VMware Converter, etc) in their environment.",
+  "descriptionMD": "",
+  "length": "59667",
+  "name": "VMware Certified Professional 5 VCP5-DCV",
+  "practiceExam": false,
+  "subtitle": "Data Center Virtualization",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The VMware Certified Professional certification is the most highly recognized certification dealing specifically with virtualization technologies. VMware vSphere is the leading virtualization technology available today and is in use at most large organizations. The VMware Certified Professional - Data Center Virtualization (VCP5-DCV) certification is tailored towards IT System Administrators who are looking to deploy and maintain VMware vSphere and its associated products (ESXi, VDP, vCOP, VMware Converter, etc) in their environment.",
+          "length": "1015",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/001-Intro-to-VMWare-VCP5-DCV.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/001-Intro-to-VMWare-VCP5-DCV-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/001-Intro-to-VMWare-VCP5-DCV-sm.jpg",
+          "title": "Overview of VMware VCP5-DCV",
+          "transcript": "",
+          "vimeoId": "103262834"
+        }
+      ],
+      "title": "Overview of VMware Certified Professional VCP5-DCV"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don introduces the viewers to the VMware vShpere suite. He discusses the multiple editions of vSphere and walks through the process of setting up your first vCenter server.",
+          "length": "6148",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/002-Installing-vCenter.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/002-Installing-vCenter-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/002-Installing-vCenter-sm.jpg",
+          "title": "Intro and Installing vCenter",
+          "transcript": "",
+          "vimeoId": "103262833"
+        },
+        {
+          "description": "In this episode Don demonstrate installing and configuring the VMware ESXi hypervisor. He discusses some of the hardware requirements and walks through the installation procedure.",
+          "length": "2468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/003-Installing-ESXI.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/003-Installing-ESXI-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/003-Installing-ESXI-sm.jpg",
+          "title": "Installing ESXi",
+          "transcript": "",
+          "vimeoId": "103262835"
+        },
+        {
+          "description": "In this episode Don examines the process of updating vCenter and ESXi and some of the pitfalls that may arise. He also examines securing your ESXi installation to prevent unintended vulnerabilities.",
+          "length": "4823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/004-Updating-and-Securing-ESXi.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/004-Updating-and-Securing-ESXi-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/004-Updating-and-Securing-ESXi-sm.jpg",
+          "title": "Updating and Securing ESXi",
+          "transcript": "",
+          "vimeoId": "103264528"
+        }
+      ],
+      "title": "Plan, Install, Configure and Upgrade vCenter Server and VMware ESXi"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don introduces the viewers to VMware vSwitches. He shows how to configure management interfaces as well as storage interfaces for an ESXi host. He also demonstrates configuring distributed virtual switches and shows some of the advantages of the advanced configuration.",
+          "length": "5378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/005-Configuring-Networking.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/005-Configuring-Networking-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/005-Configuring-Networking-sm.jpg",
+          "title": "Configuring Networking",
+          "transcript": "",
+          "vimeoId": "103421558"
+        }
+      ],
+      "title": "Plan and Configure vSphere Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don takes a look at configuring data stores in vSphere. He demonstrates using local and shared data stores to hold virtual machines as well as installation images.",
+          "length": "4138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/006-Configuring-Storage.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/006-Configuring-Storage-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/006-Configuring-Storage-sm.jpg",
+          "title": "Configuring Storage",
+          "transcript": "",
+          "vimeoId": "103421557"
+        }
+      ],
+      "title": "Plan and Configure vSphere Storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don walks the viewer through creating a virtual machine and examines the various configuration options available inside of ESXi.",
+          "length": "4767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/007-Creating-Virtual-Machines.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/007-Creating-Virtual-Machines-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/007-Creating-Virtual-Machines-sm.jpg",
+          "title": "Creating Virtual Machines",
+          "transcript": "",
+          "vimeoId": "103538712"
+        },
+        {
+          "description": "In this episode Don demonstrates how to use vApps to group and manage multiple virtual machines in support of a disturbed application. He also takes a look at how to clone a virtual machine and build templates for rapid deployment.",
+          "length": "3764",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/008-Creating-Virtual-Machines-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/008-Creating-Virtual-Machines-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/008-Creating-Virtual-Machines-Pt-2-sm.jpg",
+          "title": "Creating Virtual Machines Part 2",
+          "transcript": "",
+          "vimeoId": "103542926"
+        }
+      ],
+      "title": "Deploy and Administer Virtual Machines and vApps"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don introduces the viewer to cluster technologies inside of VMware. He discusses the various methods of ensuring virtual machines remain online in the event of a failure. He then demonstrates vMotion and the VMware vSphere Distributed Resource Scheduler.",
+          "length": "5292",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/009-vSphere-Clustering.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/009-vSphere-Clustering-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/009-vSphere-Clustering-sm.jpg",
+          "title": "vSphere Clustering",
+          "transcript": "",
+          "vimeoId": "103818527"
+        },
+        {
+          "description": "In this episode Don continues exploring the high availability features inside VMware vSphere. He demonstrates how to configure vSphere HA and Fault Tolerance (FT) in a vSphere datacenter.",
+          "length": "3215",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/010-vSphere-Clustering-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/010-vSphere-Clustering-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/010-vSphere-Clustering-Pt-2-sm.jpg",
+          "title": "vSphere Clustering Part 2",
+          "transcript": "",
+          "vimeoId": "103818528"
+        },
+        {
+          "description": "In this episode Don wraps up the series on vSphere clustering. He demonstrates using VDP to backup virtual machines and using vSphere replication to copy virtual machines to another location.",
+          "length": "7327",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/011-vSphere-Clustering-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/011-vSphere-Clustering-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/011-vSphere-Clustering-Pt-3-sm.jpg",
+          "title": "vSphere Clustering Part 3",
+          "transcript": "",
+          "vimeoId": "104132976"
+        }
+      ],
+      "title": "Establish and Maintain Service Levels"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don runs through the general techniques used to troubleshoot a VMware vSphere deployment. He breaks down the various tools that can be used to troubleshoot specific areas such as networking and performance.",
+          "length": "5800",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/012-Troubleshooting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/012-Troubleshooting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/012-Troubleshooting-sm.jpg",
+          "title": "Troubleshooting",
+          "transcript": "",
+          "vimeoId": "104102904"
+        }
+      ],
+      "title": "Perform Basic Troubleshooting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don builds upon the troubleshooting techniques by demonstrating how to properly monitor a vSphere deployment to detect problems before they occur. He begins the show using tools found within the vSphere suite as ends the show demonstrating VMware’s vCenter Operations Manager.",
+          "length": "5532",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/013-Monitoring.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/013-Monitoring-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware/013-Monitoring-sm.jpg",
+          "title": "Monitoring",
+          "transcript": "",
+          "vimeoId": "104102905"
+        }
+      ],
+      "title": "Monitor a vSphere Implementation"
+    }
+  ],
+  "url": "vmware-certified-professional-5-vcp5dcv",
+  "vLab": false
+}

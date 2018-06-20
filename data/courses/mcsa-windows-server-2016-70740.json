@@ -1,0 +1,443 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA covers topics that will help the learner ensure their computing environment is functional and stable.",
+  "descriptionMD": "",
+  "length": "69811",
+  "name": "MCSA Windows Server 2016 - 70-740",
+  "practiceExam": true,
+  "subtitle": "Installation, Storage, and Compute with Windows Server 2016",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike take you through installing, upgrading, and migrating to Windows Server 2016. They begin by looking at installation hardware requirements and then go over the different version's specifics. Next, they begin their demonstration of a standard installation.",
+          "length": "1216",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-1-install_upgrade_and_migrate-080816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-1-install_upgrade_and_migrate-080816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-1-install_upgrade_and_migrate-080816-1-sm.jpg",
+          "title": "Install, Upgrade and Migrate",
+          "transcript": "",
+          "vimeoId": "178639000"
+        },
+        {
+          "description": "In this episode, Daniel and Mike take you through installing, upgrading, and migrating to Windows Server 2016. Here they finish their standard installation as well as installing Server Core 2016. Finally, they take you through common post-installation procedures like setting a static IP, setting the admin password, and joining to a domain.",
+          "length": "1698",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-2-instal_upgrade_and_migrate_pt.2-080816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-2-instal_upgrade_and_migrate_pt.2-080816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-2-instal_upgrade_and_migrate_pt.2-080816-1-sm.jpg",
+          "title": "Install, Upgrade and Migrate Part 2",
+          "transcript": "",
+          "vimeoId": "178639003"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue taking you through installing, upgrading, and migrating to Windows Server 2016. Here they introduce you to the Desired State Configuration(DSC) which enables deploying and managing configuration data for software services and managing the environment in which these services run.",
+          "length": "1634",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-3-install_upgrade_and_migrate_pt3-080916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-3-install_upgrade_and_migrate_pt3-080916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-3-install_upgrade_and_migrate_pt3-080916-1-sm.jpg",
+          "title": "Install, Upgrade and Migrate Part 3",
+          "transcript": "",
+          "vimeoId": "178639002"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue taking you through installing, upgrading, and migrating to Windows Server 2016. They show you the final piece of the Desired State Configuration(DSC) puzzle; demonstrating how to implement a Pull Server for DSC, which will automate the DSC process.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-4-install_uprade_and_migrate_pt4-080916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-4-install_uprade_and_migrate_pt4-080916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-4-install_uprade_and_migrate_pt4-080916-1-sm.jpg",
+          "title": "Install, Upgrade and Migrate Part 4",
+          "transcript": "",
+          "vimeoId": "179056659"
+        },
+        {
+          "description": "In this episode, Daniel and Mike finish taking you through installing, upgrading, and migrating to Windows Server 2016. They show you the final piece of the Desired State Configuration(DSC) puzzle; demonstrating how to implement the DSC Pull Clients to get their configs from the Pull Server.",
+          "length": "1428",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-5-install_uprade_and_migrate_pt5-080916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-5-install_uprade_and_migrate_pt5-080916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-1-5-install_uprade_and_migrate_pt5-080916-1-sm.jpg",
+          "title": "Install, Upgrade and Migrate Part 5",
+          "transcript": "",
+          "vimeoId": "178947117"
+        },
+        {
+          "description": "In this episode, Wes and Mike dive into the world of a new installation type called Nano inside Windows Server 2016. They talk about the basics of Nano Server as well as the scenarios that the viewer might find themselves using Nano Server. They finish with Powershell cmdlets to get the Nano installation started.",
+          "length": "1748",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-1-install_and_configure_nano_server-082916-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-1-install_and_configure_nano_server-082916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-1-install_and_configure_nano_server-082916-1-sm.jpg",
+          "title": "Install and Configure Nano Server",
+          "transcript": "",
+          "vimeoId": "181126910"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their discussion on Nano Server a new installation type in Windows Server 2016. They demonstrate how to configure a Hyper-V virtual machine ready to apply the Nano Server they created to the VM. They look at the interface and explain connecting to the server instance  as well as the some of the basic configurations such as using the Package Manager to install additional packages and driver installation.",
+          "length": "1965",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-2-install_and_configure_nano_server_pt_2-112717-PGM.00_32_32_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-2-install_and_configure_nano_server_pt_2-112717-PGM.00_32_32_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-2-install_and_configure_nano_server_pt_2-112717-PGM.00_32_32_03.Still001-sm.jpg",
+          "title": "Install and Configure Nano Server Part 2",
+          "transcript": "",
+          "vimeoId": "244898928"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their discussion on Nano Server a new installation type in Windows Server 2016. They will explore how to setup a Nano Server installation up for remote management by configuring the Trusted Hosts through WSMan.",
+          "length": "2145",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-3-install_and_configure_nano_server-pt3-083016-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-3-install_and_configure_nano_server-pt3-083016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-1-2-3-install_and_configure_nano_server-pt3-083016-1-sm.jpg",
+          "title": "Install and Configure Nano Server Part 3",
+          "transcript": "",
+          "vimeoId": "181126908"
+        }
+      ],
+      "title": "Install Windows Servers in host and compute environments"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explore the concepts of disks and volumes inside of Windows Server 2016. They explain concepts like MBR, GPT, basic and dynamic disks as well as their respective benefits and drawbacks.",
+          "length": "1462",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-1-configure_disks_and_volumes-083116-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-1-configure_disks_and_volumes-083116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-1-configure_disks_and_volumes-083116-1-sm.jpg",
+          "title": "Configure Disks and Volumes",
+          "transcript": "",
+          "vimeoId": "181126907"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of disks and volumes inside of Windows Server 2016. They take a look at virtual hard disks and the formats associated with virtual disks such as VHD and VHDX. They demonstrate creating virtual disks inside of Disk Management and Powershell.",
+          "length": "1428",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-2-configure_disks_and_volumes-pt2-083116-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-2-configure_disks_and_volumes-pt2-083116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-1-2-configure_disks_and_volumes-pt2-083116-1-sm.jpg",
+          "title": "Configure Disks and Volumes Part 2",
+          "transcript": "",
+          "vimeoId": "181126906"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explain and demonstrate implementing server storage in Windows Server 2016. They begin by looking at Storage Pools and Storage Spaces, then they implement Simple, Mirror, and Parity for disks or enclosures. Next they show you how to expand Storage Pools and finally configuring tiered storage.",
+          "length": "2387",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-2-implement_server_storage-111016.00_39_32_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-2-implement_server_storage-111016.00_39_32_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-2-implement_server_storage-111016.00_39_32_28.Still001-sm.jpg",
+          "title": "Implement Server Storage",
+          "transcript": "",
+          "vimeoId": "191686258"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore the Data Deduplication technology in Windows Server 2016. They begin by explaining how implementing Dedup can save storage space and then walk you through installing and configuring Dedup on a 2016 server.",
+          "length": "1188",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-3-implement_data_deduplication-111016.00_19_33_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-3-implement_data_deduplication-111016.00_19_33_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-2-3-implement_data_deduplication-111016.00_19_33_21.Still001-sm.jpg",
+          "title": "Implement Data Deduplication",
+          "transcript": "",
+          "vimeoId": "191686259"
+        }
+      ],
+      "title": "Implement storage solutions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike take you through installing and configuring Hyper-V in Windows Server 2016. They begin by determining the hardware compatibility requirements for installing Hyper-V. Next, they show you how to install Hyper-V along with the Management Tools.",
+          "length": "1784",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-1-install_and_configure_hyper_v-110316-PGM.00_29_31_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-1-install_and_configure_hyper_v-110316-PGM.00_29_31_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-1-install_and_configure_hyper_v-110316-PGM.00_29_31_02.Still001-sm.jpg",
+          "title": "Install and Configure Hyper-V",
+          "transcript": "",
+          "vimeoId": "194362937"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their demo of Microsoft's Hyper-V virtualization software, showing you how to install and configure nested virtual machines. They also show you how to configure the nested VM's networking components NestedNAT and MAC Spoofing.",
+          "length": "2201",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-2-install_and_configure_hyper_v-110716-110716-PGM.00_36_27_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-2-install_and_configure_hyper_v-110716-110716-PGM.00_36_27_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-1-2-install_and_configure_hyper_v-110716-110716-PGM.00_36_27_29.Still001-sm.jpg",
+          "title": "Install and Configure Hyper-V Part 2",
+          "transcript": "",
+          "vimeoId": "191183723"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike walk you through configuring a Hyper-V virtual machine. They demonstrate configuring dynamic RAM options like Startup RAM, Min/Max Ram, Memory Buffer and Weight. They also show you how to configure Non-Uniform Memory Access(NUMA) and resource metering of the CPU, Memory, Network, and Disk.",
+          "length": "2105",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-1-configure_virtual_machine_settings-113017-PGM.00_34_51_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-1-configure_virtual_machine_settings-113017-PGM.00_34_51_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-1-configure_virtual_machine_settings-113017-PGM.00_34_51_17.Still001-sm.jpg",
+          "title": "Configure Virtual Machine Settings",
+          "transcript": "",
+          "vimeoId": "245438241"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue working their way through Virtual Machine configurations. Here they pick up by examining Integration Services and then looking at the difference between using Gen1 and Gen2 VMs. Also covered is Enhanced Session Mode, Linux/FreeBSD VMs and their associated Integration Services, exporting/importing VMs, and finally implementation of Discrete Device Assignment(DDA).",
+          "length": "1719",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-2-configure_virtual_machine_settings_pt2-110916-PGM.00_28_26_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-2-configure_virtual_machine_settings_pt2-110916-PGM.00_28_26_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-2-2-configure_virtual_machine_settings_pt2-110916-PGM.00_28_26_04.Still001-sm.jpg",
+          "title": "Configure Virtual Machine Settings Part 2",
+          "transcript": "",
+          "vimeoId": "191182641"
+        },
+        {
+          "description": "In this episode, Daniel and Mike take you through configuring Hyper-V Storage. They begin by creating VHDs, and VHDX files using Hyper-V Manager. Then they explain and demonstrate a crucial and convenient component called Differencing Disks which allow for rapid deployment of VMs.",
+          "length": "1598",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-1-configure_hyper_v_storage-110916-PGM.00_26_37_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-1-configure_hyper_v_storage-110916-PGM.00_26_37_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-1-configure_hyper_v_storage-110916-PGM.00_26_37_15.Still001-sm.jpg",
+          "title": "Configure Hyper-V Storage",
+          "transcript": "",
+          "vimeoId": "191183218"
+        },
+        {
+          "description": "In this episode, Daniel and Mike finish up their exposition on Hyper-V Storage by showing and explaining how to modify and resize VHDs. Lastly they explore the wonderful world of Hyper-V Checkpoints for quick backup/restore of VMs.",
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-2-configure_hyper_v_storage_pt2-110916-PGM.00_25_09_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-2-configure_hyper_v_storage_pt2-110916-PGM.00_25_09_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-3-2-configure_hyper_v_storage_pt2-110916-PGM.00_25_09_10.Still001-sm.jpg",
+          "title": "Configure Hyper-V Storage Part 2",
+          "transcript": "",
+          "vimeoId": "191182867"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explain how to connect your Hyper-V Virtual Machines by configuring Hyper-V networking. They begin by looking at connecting a virtual Network Interface Card(NIC). From there they jump into Virtual Switch config as well as MAC address, network isolation, synthetic and legacy virtual adapters, and NIC Teaming configuration.",
+          "length": "1934",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-4-configure_hyper_v_networking-111016.00_32_00_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-4-configure_hyper_v_networking-111016.00_32_00_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-3-4-configure_hyper_v_networking-111016.00_32_00_21.Still001-sm.jpg",
+          "title": "Configure Hyper-V Networking",
+          "transcript": "",
+          "vimeoId": "191688025"
+        }
+      ],
+      "title": "Implement Hyper-V"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don introduces the viewers to Hyper-V containers. He explains how they differ from traditional Docker containers and then demonstrates how to launch and manage Hyper-V containers.",
+          "length": "1360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-2-1-hyper-v-containers-101217-PGM.00_22_28_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-2-1-hyper-v-containers-101217-PGM.00_22_28_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-2-1-hyper-v-containers-101217-PGM.00_22_28_11.Still001-sm.jpg",
+          "title": "Hyper V Containers",
+          "transcript": "",
+          "vimeoId": "238056151"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to Docker containers. He then shows how to install Docker support on Windows Server 2016. Finally, he demonstrates how to create and manage containers inside of Docker.",
+          "length": "1752",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-1-docker-containers-100917-PGM.00_28_58_15.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-1-docker-containers-100917-PGM.00_28_58_15.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-1-docker-containers-100917-PGM.00_28_58_15.Still002-sm.jpg",
+          "title": "Docker Containers",
+          "transcript": "",
+          "vimeoId": "237623821"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to Docker containers. He then shows how to install Docker support on Windows Server 2016. Finally, he demonstrates how to create and manage containers inside of Docker.",
+          "length": "1898",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-2-docker-containers_pt2-100917-PGM.00_31_24_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-2-docker-containers_pt2-100917-PGM.00_31_24_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-4-4-2-docker-containers_pt2-100917-PGM.00_31_24_28.Still001-sm.jpg",
+          "title": "Docker Containers Part 2",
+          "transcript": "",
+          "vimeoId": "237624290"
+        }
+      ],
+      "title": "Implement Windows containers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains how to use the Network Load Balancing (NLB) feature in Windows Server 2016 to create a scale-out cluster. He then walks the viewers through installing, configuring and managing NLB in a small load-balanced cluster.",
+          "length": "1470",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-1-network-load-balancing-101117.00_27_33_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-1-network-load-balancing-101117.00_27_33_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-1-network-load-balancing-101117.00_27_33_06.Still001-sm.jpg",
+          "title": "Network Load Balancing",
+          "transcript": "",
+          "vimeoId": "237916610"
+        },
+        {
+          "description": "In this episode, Don explains how to use the Network Load Balancing (NLB) feature in Windows Server 2016 to create a scale-out cluster. He then walks the viewers through installing, configuring and managing NLB in a small load-balanced cluster.",
+          "length": "1749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-2-network_load_balancing_pt2-101117-PGM.00_30_08_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-2-network_load_balancing_pt2-101117-PGM.00_30_08_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-2-2-network_load_balancing_pt2-101117-PGM.00_30_08_01.Still001-sm.jpg",
+          "title": "Network Load Balancing Part 2",
+          "transcript": "",
+          "vimeoId": "237915229"
+        },
+        {
+          "description": "In this episode, Don explains how the Failover Cluster feature works in Windows Server 2016. He explains scenarios where clusters can be used and walks the viewers through the various requirements to be met before we can install a failover cluster.",
+          "length": "1822",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-1-failover_clustering-101117.00_30_07_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-1-failover_clustering-101117.00_30_07_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-1-failover_clustering-101117.00_30_07_24.Still001-sm.jpg",
+          "title": "Failover Clustering",
+          "transcript": "",
+          "vimeoId": "237915966"
+        },
+        {
+          "description": "In this episode, Don continues explaining how the Failover Cluster feature works in Windows Server 2016. He demonstrates installing the Failover Cluster feature, configuring shared storage and configuring cluster quorum.",
+          "length": "1946",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-2-failover_clustering_pt2-101117.00_38_46_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-2-failover_clustering_pt2-101117.00_38_46_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-2-failover_clustering_pt2-101117.00_38_46_22.Still001-sm.jpg",
+          "title": "Failover Clustering Part 2",
+          "transcript": "",
+          "vimeoId": "237915966"
+        },
+        {
+          "description": "In this episode, Don completes his explenation of the Failover Cluster feature in Windows Server 2016. He explains the various services that can be clustered for high-availability. He also demonstrates some of the PowerShell commands available for managing a cluster. He completes the show by demonstrating how to test a cluster as well as how to perform routine maintenance tasks to ensure the cluster is running smoothly.",
+          "length": "1834",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-3-failover-clustering-pt3-101217-CLN.00_31_22_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-3-failover-clustering-pt3-101217-CLN.00_31_22_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-3-3-failover-clustering-pt3-101217-CLN.00_31_22_19.Still001-sm.jpg",
+          "title": "Failover Clustering Part 3",
+          "transcript": "",
+          "vimeoId": "238056255"
+        },
+        {
+          "description": "In this episode, Don explains how Microsoft's Scale-Out File Server role functions in a Windows Server 2016 failover cluster. He explains the use-case scenario for SOFS and then demonstrates how to install and configure SOFS in a cluster using cluster shared volumes.",
+          "length": "1836",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-4-1-scale-out-file-server-101217-PGM.00_52_47_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-4-1-scale-out-file-server-101217-PGM.00_52_47_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-4-1-scale-out-file-server-101217-PGM.00_52_47_11.Still001-sm.jpg",
+          "title": "Scale Out File Server",
+          "transcript": "",
+          "vimeoId": "238051662"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to Storage Spaces Direct (S2D), a new feature in Windows Server 2016. He explains how S2D functions and then demonstrates configuring S2D in a Windows Server 2016 Failover Cluster.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-1-storage_spaces_direct_RESHOOT-101917-PGM.00_33_16_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-1-storage_spaces_direct_RESHOOT-101917-PGM.00_33_16_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-1-storage_spaces_direct_RESHOOT-101917-PGM.00_33_16_11.Still001-sm.jpg",
+          "title": "Storage Spaces Direct (S2D)",
+          "transcript": "",
+          "vimeoId": "239465096"
+        },
+        {
+          "description": "In this episode, Don icontinues working with Storage Spaces Direct (S2D), a new feature in Windows Server 2016. He begins by demonstrating how to verify S2D is configured correctly. He then moves on to demonstrate how to add virtual disks to a S2D pool and make them available for cluster role storage.",
+          "length": "1293",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-2-storage_spaces_direct_pt2_RESHOOT-101917-PGM.00_22_08_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-2-storage_spaces_direct_pt2_RESHOOT-101917-PGM.00_22_08_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-5-2-storage_spaces_direct_pt2_RESHOOT-101917-PGM.00_22_08_20.Still001-sm.jpg",
+          "title": "Storage Spaces Direct (S2D) Part 2",
+          "transcript": "",
+          "vimeoId": "239463215"
+        },
+        {
+          "description": "In this episode, Don explains how to deploy Hyper-V virtual machines in a Windows Server 2016 Failover Cluster. He walks through the different storage models available for a Hyper-V cluster and then demonstrates deploying a highly-available VM.",
+          "length": "2022",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-1-hyper_v_clusters-102017-PGM.00_33_29_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-1-hyper_v_clusters-102017-PGM.00_33_29_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-1-hyper_v_clusters-102017-PGM.00_33_29_00.Still001-sm.jpg",
+          "title": "Hyper-V Clusters",
+          "transcript": "",
+          "vimeoId": "239464726"
+        },
+        {
+          "description": "In this episode, Don continues working with Hyper-V and Failover Clustering on Windows Server 2016. He demonstrated how to import stand-alone VMs into a Hyper-V cluster. He also demonstrates the three types of migrations available in a Hyper-V cluster: live migration, quick migration, and storage migration.",
+          "length": "1767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-2-hyper-v-clusters_pt2-102017-PGM.00_32_39_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-2-hyper-v-clusters_pt2-102017-PGM.00_32_39_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-6-2-hyper-v-clusters_pt2-102017-PGM.00_32_39_20.Still001-sm.jpg",
+          "title": "Hyper-V Clusters Part 2",
+          "transcript": "",
+          "vimeoId": "239463838"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore some of the High-Availability Disaster Recovery(HADR) options found in Hyper-V. They begin by implementing Hyper-V Replicas to mitigate server loss down time. Next they start the setup for a live migration, which allows you to move a virtual machine to a new Hyper-V server while the VM is running.",
+          "length": "1815",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-1-implement_HADR_option_in_hyper-v-111416-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-1-implement_HADR_option_in_hyper-v-111416-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-1-implement_HADR_option_in_hyper-v-111416-high-sm.jpg",
+          "title": "Implement HADR Option in Hyper-V",
+          "transcript": "",
+          "vimeoId": "191960983"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their look at High-Availability Disaster Recovery(HADR) options found in Hyper-V. Here they finish their demonstration of the setup and implementation of a live migration.",
+          "length": "1365",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-Implement_HADR_Option_in_Hyper-V_Pt._2-111416-PGM.00_22_31_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-Implement_HADR_Option_in_Hyper-V_Pt._2-111416-PGM.00_22_31_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-5-1-Implement_HADR_Option_in_Hyper-V_Pt._2-111416-PGM.00_22_31_20.Still001-sm.jpg",
+          "title": "Implement HADR Option in Hyper-V Part 2",
+          "transcript": "",
+          "vimeoId": "193953243"
+        }
+      ],
+      "title": "Implement high availability"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike discuss maintaining Windows Server 2016 through Windows Server Update Services(WSUS). They start by explaining what WSUS is; quickly moving to hardware/software requirements for installation. Then they discuss deployment scenarios and hierarchies.",
+          "length": "1657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-1-maintain_server_installations-110116-PGM.00_27_23_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-1-maintain_server_installations-110116-PGM.00_27_23_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-1-maintain_server_installations-110116-PGM.00_27_23_26.Still001-sm.jpg",
+          "title": "Maintain Server Installations",
+          "transcript": "",
+          "vimeoId": "190240574"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on maintaining a Windows Server 2016 server, focusing again on Windows Server Update Services. This time They demonstrate and explain the many features in WSUS to familiarize you with this very complex system.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-2-maintain_server_installations_pt2-110116-PGM.00_00_12_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-2-maintain_server_installations_pt2-110116-PGM.00_00_12_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-2-maintain_server_installations_pt2-110116-PGM.00_00_12_15.Still001-sm.jpg",
+          "title": "Maintain Server Installations Part 2",
+          "transcript": "",
+          "vimeoId": "190240573"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore more ways of maintaining a Windows Server 2016 server using WSUS. Here, they demonstrate the setup and use of WSUS upstream and downstream servers. Next they show you how to setup Automatic Updates. Finally they set client configuration through Group Policy and WSUS groups.",
+          "length": "2352",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-3-maintain_server_installations_pt3-110116-PGM.00_38_58_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-3-maintain_server_installations_pt3-110116-PGM.00_38_58_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-3-maintain_server_installations_pt3-110116-PGM.00_38_58_09.Still001-sm.jpg",
+          "title": "Maintain Server Installations Part 3",
+          "transcript": "",
+          "vimeoId": "190240604"
+        },
+        {
+          "description": "In this episode, Daniel and Mike finish their dissertation on maintaining Server installations. Here they will show you how to implement an anti-malware with Windows Defender as well as determining a backup strategy and performing a backup/restore operation using Windows Server Backup.",
+          "length": "1895",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-4-maintain_server_installations_pt4_redo-110216-PGM.00_31_22_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-4-maintain_server_installations_pt4_redo-110216-PGM.00_31_22_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-1-4-maintain_server_installations_pt4_redo-110216-PGM.00_31_22_01.Still001-sm.jpg",
+          "title": "Maintain Server Installations Part 4",
+          "transcript": "",
+          "vimeoId": "190240572"
+        },
+        {
+          "description": "In this episode, Daniel and Mike introduce you to monitoring Server 2016 installations by employing the Performance Monitor. Here they explore and explain the Performance Monitor's interface and scope of use (collecting data on system functions like CPU, Memory, Disk, and Network).",
+          "length": "1421",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-1-monitor_server_installations-103116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-1-monitor_server_installations-103116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-1-monitor_server_installations-103116-1-sm.jpg",
+          "title": "Monitor Server Installations",
+          "transcript": "",
+          "vimeoId": "190240570"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their explanation of the use of the Performance Monitor. They pick back up by looking at Collector Sets; demonstrating how they are used to gather specific data. They also configure alerts and workload monitoring through the Resource Monitor.",
+          "length": "1867",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-2-monitor_server_installations_pt2-103116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-2-monitor_server_installations_pt2-103116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70740/microsoft-server70740-6-2-2-monitor_server_installations_pt2-103116-1-sm.jpg",
+          "title": "Monitor Server Installations Part 2",
+          "transcript": "",
+          "vimeoId": "194362479"
+        }
+      ],
+      "title": "Maintain and monitor server environments"
+    }
+  ],
+  "url": "mcsa-windows-server-2016-70740",
+  "vLab": false
+}

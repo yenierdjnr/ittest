@@ -1,0 +1,268 @@
+{
+  "description": "Docker is a set of tools that provide a runtime for creating, managing and orchestrating containers. Docker provides the ability for developers, system admins, or hobbyists to provision a container that can be configured as similarly to a virtual machine without all of the resource intensity. This series introduces the usage of the Docker client to run containers, managing the Docker daemon, using Docker Machine for provisioning runtime environments for the Docker toolset, Docker Compose for orchestrating and managing multi-container applications, as well as Docker Swarm for distributing those containers across multiple nodes in a cluster of machines. Stay tuned to get started with Docker!",
+  "descriptionMD": "Docker is a set of tools that provide a runtime for creating, managing and orchestrating containers. Docker provides the ability for developers, system admins, or hobbyists to provision a container that can be configured as similarly to a virtual machine without all of the resource intensity. This series introduces the usage of the Docker client to run containers, managing the Docker daemon, using Docker Machine for provisioning runtime environments for the Docker toolset, Docker Compose for orchestrating and managing multi-container applications, as well as Docker Swarm for distributing those containers across multiple nodes in a cluster of machines. Stay tuned to get started with Docker!",
+  "length": "34745",
+  "name": "Intro to Docker",
+  "practiceExam": false,
+  "subtitle": "Getting down with Docker",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Justin give a general overview of what to expect in the upcoming Intro to Docker series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "258",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-0-0-overview-040717-PGM.00_04_13_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-0-0-overview-040717-PGM.00_04_13_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-0-0-overview-040717-PGM.00_04_13_06.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "213142663"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin introduce the concepts and ideas surrounding Docker.  They discuss the  benefits of the technology and Justin gives a real world scenario as to when you might use it and the basics of how it works.",
+          "length": "1369",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-1-1-what_is_docker-032117.00_24_16_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-1-1-what_is_docker-032117.00_24_16_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-1-1-what_is_docker-032117.00_24_16_02.Still001-sm.jpg",
+          "title": "What is Docker",
+          "transcript": "",
+          "vimeoId": "209758710"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at installing docker on MacOS and Windows.  They show where to get the install file for Docker for MacOS and Docker for Windows.  Justin walks us through the process and shows us how to verify docker installation succeeded",
+          "length": "1636",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-installing_docker-032117.00_27_29_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-installing_docker-032117.00_27_29_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-installing_docker-032117.00_27_29_27.Still001-sm.jpg",
+          "title": "Installing Docker",
+          "transcript": "",
+          "vimeoId": "209763039"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at installing docker on Ubuntu.  They show where to get the install instructions from Docker since there is no real Docker for Ubuntu. Justin walks us through the process and shows us how to verify docker installation succeeded using the official Docker Documentation.",
+          "length": "1436",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-2-installing_docker_pt2-032117.00_24_04_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-2-installing_docker_pt2-032117.00_24_04_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-2-1-2-installing_docker_pt2-032117.00_24_04_17.Still001-sm.jpg",
+          "title": "Installing Docker Part 2",
+          "transcript": "",
+          "vimeoId": "209766200"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take through how to get your first docker container running. They look at starting and stop containers.  Justin helps us to understand the relationship between images and containers too and how to get images.  They also discuss how to make sure a container doesn’t hijack your stdout and see them running!",
+          "length": "1736",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-3-1-running_your_first_docker_container-032217.00_33_17_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-3-1-running_your_first_docker_container-032217.00_33_17_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-3-1-running_your_first_docker_container-032217.00_33_17_07.Still001-sm.jpg",
+          "title": "Running Your First Docker Container",
+          "transcript": "",
+          "vimeoId": "210316160"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin show how to start managing multiple containers.  Justin demonstrates the unusual naming convention for the containers and how to change it to something meaningful.  He also demonstrates how to kill a container and what happens when you accidentally stop a container.  The guys discuss how to consider a restart when a system is rebooted or power is lost.  Justin also shows how set a restart policy for containers",
+          "length": "1520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-4-1-managing_containers-032217.00_25_04_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-4-1-managing_containers-032217.00_25_04_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-4-1-managing_containers-032217.00_25_04_01.Still001-sm.jpg",
+          "title": "Managing Containers",
+          "transcript": "",
+          "vimeoId": "210317057"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin inspect images and containers. They begin with a review of images and containers to help us remember. Then they show how to see different details about containers and interact with them from outside of the container.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-5-1-inspecting_docker_images_and_containers-032217.00_28_32_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-5-1-inspecting_docker_images_and_containers-032217.00_28_32_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-5-1-inspecting_docker_images_and_containers-032217.00_28_32_14.Still001-sm.jpg",
+          "title": "Inspecting Docker Images and Containers",
+          "transcript": "",
+          "vimeoId": "210317730"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at some of the considerations when bringing data into a docker container.  They show us that possibility that data can persist but it may not and shouldn’t be considered dependable for storage.  To make data persistent between containers we may not to create volumes that map to the data somewhere else, says Justin.  Also according to guys, that containers\naccessing that volume for the same information at the same time may cause corruption of the day.  The key is to be careful when using data between  containers.",
+          "length": "1472",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-1-docker_and_data-032317.00_24_16_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-1-docker_and_data-032317.00_24_16_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-1-docker_and_data-032317.00_24_16_18.Still001-sm.jpg",
+          "title": "Docker and Data",
+          "transcript": "",
+          "vimeoId": "210318363"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at specific scenario of connecting to a MongoDB database.  They show how to apply the same principles shown in the previous episode to connect to the database and leave the data persistent.",
+          "length": "988",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-2-docker_and_data_use_case-032317.00_19_45_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-2-docker_and_data_use_case-032317.00_19_45_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-6-2-docker_and_data_use_case-032317.00_19_45_20.Still001-sm.jpg",
+          "title": "Docker and Data Use Case",
+          "transcript": "",
+          "vimeoId": "210319179"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin discuss the benefits of building your own docker image.  They demonstrate how to do so and keep track of the images you create.  Justin reminds us that the images are really files that are differences from the base image we choose to create our customized image.  This according to the guys means that we can have many images that do not take a lot of space within our containers.",
+          "length": "1286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-1-building_our_first_docker_image-032317.00_27_40_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-1-building_our_first_docker_image-032317.00_27_40_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-1-building_our_first_docker_image-032317.00_27_40_12.Still001-sm.jpg",
+          "title": "Building our First Docker Image",
+          "transcript": "",
+          "vimeoId": "211537408"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at building a custom docker image.  Justin demonstrates way customize and change images using the Dockerfile.   The guys take the simple commands to build a basic docker image and show how to build one that may be more useful to you.",
+          "length": "1463",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-2-building_our_first_docker_image_pt2-032417.00_24_08_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-2-building_our_first_docker_image_pt2-032417.00_24_08_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-7-1-2-building_our_first_docker_image_pt2-032417.00_24_08_13.Still001-sm.jpg",
+          "title": "Building our First Docker Image Part 2",
+          "transcript": "",
+          "vimeoId": "210443367"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin show how to make the image files available to others easily using the docker hub.  Justin demonstrates connecting to the docker how to store your custom images into your own repository there.  They remind us that images stored in the docker hub are normally made public.",
+          "length": "937",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-storing_our_custom_docker_images-032417.00_16_19_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-storing_our_custom_docker_images-032417.00_16_19_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-storing_our_custom_docker_images-032417.00_16_19_18.Still001-sm.jpg",
+          "title": "Storing Our Custom Docker Images",
+          "transcript": "",
+          "vimeoId": "210595475"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin demonstrate how to share a modified file, without configuring a dockerfile, to the hub.  Also Justin demonstrates the working logic to store an image to a network share or usb drive.",
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-2-storing_our_custom_docker_images_pt2-032417-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-2-storing_our_custom_docker_images_pt2-032417-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introtodocker-8-1-2-storing_our_custom_docker_images_pt2-032417-high-sm.jpg",
+          "title": "Storing Our Custom Docker Images Part 2",
+          "transcript": "",
+          "vimeoId": "210830191"
+        },
+        {
+          "description": "In this episode, Daniel and Justin use Docker to create a runtime environment for a NodeJS web application. They cover the basics of having applications live in a container.",
+          "length": "1827",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-1-building_an_application_with_docker-040317-PGM.00_30_12_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-1-building_an_application_with_docker-040317-PGM.00_30_12_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-1-building_an_application_with_docker-040317-PGM.00_30_12_18.Still001-sm.jpg",
+          "title": "Building an Application with Docker",
+          "transcript": "",
+          "vimeoId": "211737194"
+        },
+        {
+          "description": "In this episode, Daniel and Justin finish 'deploying' a NodeJS application in a Docker container. The show culminates with the application server responses to HTTP request by pointing to a port of the container that the application is bound to.",
+          "length": "1043",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-2-building_an_application_with_docker-040317-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-2-building_an_application_with_docker-040317-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-9-1-2-building_an_application_with_docker-040317-high-sm.jpg",
+          "title": "Building an Application with Docker Part 2",
+          "transcript": "",
+          "vimeoId": "211738486"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build upon single container applications to bring in the use of a Redis container for a simple caching layer. By building a Python based web application that uses an additional container, they use containers as application components. They also clarifying the practices for linking containers into a collection that serves as a single application.",
+          "length": "1575",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-1-multi-container_apps_with_docker-040317-PGM.00_26_00_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-1-multi-container_apps_with_docker-040317-PGM.00_26_00_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-1-multi-container_apps_with_docker-040317-PGM.00_26_00_28.Still001-sm.jpg",
+          "title": "Multi-container Apps with Docker",
+          "transcript": "",
+          "vimeoId": "211739110"
+        },
+        {
+          "description": "In this episode, Daniel and Justin extend the multi-container application to include a persistent database using a MongoDB container. They emphasize the basic setup for a database container and the changes to the application container that must be made to see the database.",
+          "length": "1148",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-2-multi-container_applications_with_docker_pt2-040317-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-2-multi-container_applications_with_docker_pt2-040317-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-10-1-2-multi-container_applications_with_docker_pt2-040317-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Multi Container Apps with Docker Part 2",
+          "transcript": "",
+          "vimeoId": "212914843"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a dive into the Docker Compose tool that is used to ease the pain of creating multi-container applications. By exploring the basic toolset and drawing parallels to the existing Docker CLI, Docker Compose provides a more declarative mechanism for multi-container applications.",
+          "length": "1769",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-11-1-1-what_is_docker_compose-040417-PGM.00_29_15_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-11-1-1-what_is_docker_compose-040417-PGM.00_29_15_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-11-1-1-what_is_docker_compose-040417-PGM.00_29_15_04.Still001-sm.jpg",
+          "title": "What is Docker Compose",
+          "transcript": "",
+          "vimeoId": "212582915"
+        },
+        {
+          "description": "In this episode, Daniel and Justin use Docker Compose to deploy a multi-container application that includes a web application, a Redis caching container, as well as a MongoDB database container. This is contrasted against using the standard Docker toolset.",
+          "length": "1315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-12-1-multi_container_apps_with_docker_compose-040417-PGM.00_21_41_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-12-1-multi_container_apps_with_docker_compose-040417-PGM.00_21_41_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-12-1-multi_container_apps_with_docker_compose-040417-PGM.00_21_41_12.Still001-sm.jpg",
+          "title": "Multi Container Apps with Docker Compose",
+          "transcript": "",
+          "vimeoId": "212911535"
+        },
+        {
+          "description": "In this episode, Daniel and Justin introduce you to Docker Machine which is the way to provision a virtual machine in the Docker environment. Here they show you how to spin up a Docker VM, connect and set common configuration settings, and remove VMs when you're done with them.",
+          "length": "1667",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-1-what_is_docker_machine-040517.00_27_30_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-1-what_is_docker_machine-040517.00_27_30_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-1-what_is_docker_machine-040517.00_27_30_23.Still001-sm.jpg",
+          "title": "What is Docker Machine",
+          "transcript": "",
+          "vimeoId": "212911881"
+        },
+        {
+          "description": "In this episode, Daniel and Justin show you how to provision virtual machines using the cloud-service provider, Digital Ocean. Here you will see how to connect Docker to Digital Ocean so that you can install, connect, and configure them just as you would in a local environment.",
+          "length": "1402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-2-using_docker_machine_with_digital_ocean-040517.00_23_07_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-2-using_docker_machine_with_digital_ocean-040517.00_23_07_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-13-2-using_docker_machine_with_digital_ocean-040517.00_23_07_09.Still001-sm.jpg",
+          "title": "Using Docker Machine with Digital Ocean",
+          "transcript": "",
+          "vimeoId": "212913011"
+        },
+        {
+          "description": "In this episode, Daniel and Justin introduce you to Docker Swarm which allows you to provision multiple Docker Machines to perform load-balancing type functions. Here they will show you how to crate a swarm from your local machine, looking at post-creation configuration of the master node and swarm nodes.",
+          "length": "1798",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-what_is_docker_swarm-040517.00_29_41_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-what_is_docker_swarm-040517.00_29_41_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-what_is_docker_swarm-040517.00_29_41_28.Still001-sm.jpg",
+          "title": "What is Docker Swarm",
+          "transcript": "",
+          "vimeoId": "212912417"
+        },
+        {
+          "description": "In this episode, Daniel and Justin show you how to leverage Digital Ocean to deploy a Docker Swarm. They will walk you through the step necessary to create, configure, connect, and deploy a web service.",
+          "length": "852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-14-2-docker_swarm_with_digital_ocean-040617-PGM.00_13_59_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-14-2-docker_swarm_with_digital_ocean-040617-PGM.00_13_59_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-14-2-docker_swarm_with_digital_ocean-040617-PGM.00_13_59_02.Still001-sm.jpg",
+          "title": "Docker Swarm with Digital Ocean",
+          "transcript": "",
+          "vimeoId": "212913521"
+        },
+        {
+          "description": "In this episode, Daniel and Justin get started in their effort to build a Docker Swarm application. They begin by creating a Docker Stack file to orchestrate all the necessary elements necessary for the Swarm App.",
+          "length": "1271",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-1-creating_a_docker_swarm_application-040617-PGM.00_20_57_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-1-creating_a_docker_swarm_application-040617-PGM.00_20_57_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-1-creating_a_docker_swarm_application-040617-PGM.00_20_57_14.Still001-sm.jpg",
+          "title": "Creating a Docker Swarm Application",
+          "transcript": "",
+          "vimeoId": "212913861"
+        },
+        {
+          "description": "In this episode, Daniel and Justin finish their effort to build a Docker Swarm application. Here they take you through the commands needed to deploy the Swarm as well as the services for the application. Finally, they test to make sure that the application is working as expected; troubleshooting any unforeseen issues.",
+          "length": "1591",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-2-creating_a_docker_swarm_application_pt2-040617-PGM.00_26_17_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-2-creating_a_docker_swarm_application_pt2-040617-PGM.00_26_17_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtodocker/techskills-introductiontodocker-15-1-2-creating_a_docker_swarm_application_pt2-040617-PGM.00_26_17_03.Still001-sm.jpg",
+          "title": "Creating a Docker Swarm Application Part 2",
+          "transcript": "",
+          "vimeoId": "212914280"
+        }
+      ],
+      "title": "Intro to Docker"
+    }
+  ],
+  "url": "introdocker",
+  "vLab": false
+}

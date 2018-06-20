@@ -1,0 +1,178 @@
+{
+  "description": "Built on the .NET Framework, Windows PowerShell is a task-based command-line shell and scripting language. In this series, you will learn how to get started using PowerShell, mastering the basic skills, in preparation for more advanced topics.",
+  "descriptionMD": "Built on the .NET Framework, Windows PowerShell is a task-based command-line shell and scripting language. In this series, you will learn how to get started using PowerShell, mastering the basic skills, in preparation for more advanced topics.",
+  "length": "28200",
+  "name": "PowerShell Basics",
+  "practiceExam": false,
+  "subtitle": "for Administrators",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Cherokee introduce PowerShell. They look at the various consoles for working with PowerShell.",
+          "length": "1702",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-1-1-getting_started-100917-PGM.00_28_09_10.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-1-1-getting_started-100917-PGM.00_28_09_10.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-1-1-getting_started-100917-PGM.00_28_09_10.Still002-sm.jpg",
+          "title": "Getting Started",
+          "transcript": "",
+          "vimeoId": "237912534"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee explain the basic syntax of PowerShell. They look at listing installed and available modules, and how to import new modules. They also show how to search for cmdlets.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-1-basic_syntax_and_help-100917-PGM.00_30_14_00.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-1-basic_syntax_and_help-100917-PGM.00_30_14_00.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-1-basic_syntax_and_help-100917-PGM.00_30_14_00.Still002-sm.jpg",
+          "title": "Basic Syntax and Help",
+          "transcript": "",
+          "vimeoId": "238051481"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee demonstrate how to get cmdlet help in PowerShell. They also discuss how to interpret cmdlet syntax found in the help files.",
+          "length": "2427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-2-basic_syntax_and_help_pt_2-100917.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-2-basic_syntax_and_help_pt_2-100917-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-2-2-basic_syntax_and_help_pt_2-100917-sm.jpg",
+          "title": "Basic Syntax and Help Part 2",
+          "transcript": "",
+          "vimeoId": "237911723"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee demonstrate using cmdlet history in PowerShell. They also work with aliases, showing how to use them and create your own.",
+          "length": "1707",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002-sm.jpg",
+          "title": "Command History and Aliases",
+          "transcript": "",
+          "vimeoId": "237943902"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee continue to analyze and demonstrate cmdlet history in PowerShell.",
+          "length": "1519",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-3-1-command_history_and_aliases-101017-PGM.00_28_12_21.Still002-sm.jpg",
+          "title": "Command History and Aliases Part 2",
+          "transcript": "",
+          "vimeoId": "237943481"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at using command piping in PowerShell. They also look at formatting cmdlet output.",
+          "length": "1569",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-1-piping_and_formatting-101017-PGM.00_25_54_22.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-1-piping_and_formatting-101017-PGM.00_25_54_22.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-1-piping_and_formatting-101017-PGM.00_25_54_22.Still002-sm.jpg",
+          "title": "Piping and Formatting",
+          "transcript": "",
+          "vimeoId": "237942912"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at using command piping in PowerShell. They also look at formatting cmdlet output.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-2-piping_and_formatting_pt_2-101017-PGM.00_29_56_08.Still008.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-2-piping_and_formatting_pt_2-101017-PGM.00_29_56_08.Still008-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-4-2-piping_and_formatting_pt_2-101017-PGM.00_29_56_08.Still008-sm.jpg",
+          "title": "Piping and Formatting Part 2",
+          "transcript": "",
+          "vimeoId": "237944153"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at setting the script execution policy in PowerShell. They discuss the various policies available and explain what they mean. They also look at script execution policy scope.",
+          "length": "1668",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-1-script_execution_policy-101117-PGM.00_27_32_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-1-script_execution_policy-101117-PGM.00_27_32_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-1-script_execution_policy-101117-PGM.00_27_32_21.Still001-sm.jpg",
+          "title": "Script Execution Policy",
+          "transcript": "",
+          "vimeoId": "238062141"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at setting the script execution policy in PowerShell. They discuss the various policies available and explain what they mean. They also look at script execution policy scope.",
+          "length": "1657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-2-script_execution_policy_pt_2-101117-PGM.00_31_00_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-2-script_execution_policy_pt_2-101117-PGM.00_31_00_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-5-2-script_execution_policy_pt_2-101117-PGM.00_31_00_19.Still001-sm.jpg",
+          "title": "Script Execution Policy Part 2",
+          "transcript": "",
+          "vimeoId": "237996963"
+        },
+        {
+          "description": "In this episode, Mike and Wes discuss PowerShell drives. They look at the different PSProviders for creating drives, and demonstrate adding a drive.",
+          "length": "1146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-6-1-powershell_drives-101117-PGM.00_22_36_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-6-1-powershell_drives-101117-PGM.00_22_36_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-6-1-powershell_drives-101117-PGM.00_22_36_07.Still001-sm.jpg",
+          "title": "PowerShell Drives",
+          "transcript": "",
+          "vimeoId": "237985169"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at PowerShell profiles. They explain the different profiles that PowerShell uses, and demonstrate creating a profile.",
+          "length": "1762",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-1-powershell_profiles-101217-PGM.00_29_07_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-1-powershell_profiles-101217-PGM.00_29_07_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-1-powershell_profiles-101217-PGM.00_29_07_18.Still001-sm.jpg",
+          "title": "Profiles",
+          "transcript": "",
+          "vimeoId": "238055791"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee look at PowerShell profiles. They explain the different profiles that PowerShell uses, and demonstrate creating a profile.",
+          "length": "2307",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-2-powershell_profiles_pt_2-101217-PGM.00_41_05_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-2-powershell_profiles_pt_2-101217-PGM.00_41_05_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-7-2-powershell_profiles_pt_2-101217-PGM.00_41_05_21.Still001-sm.jpg",
+          "title": "Profiles Part 2",
+          "transcript": "",
+          "vimeoId": "238055975"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee take a look at basic functions in PowerShell. They discuss the components of a function, the format of a function, and adding function statements.",
+          "length": "1961",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-1-basic_functions-101317-PGM.00_32_26_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-1-basic_functions-101317-PGM.00_32_26_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-1-basic_functions-101317-PGM.00_32_26_00.Still001-sm.jpg",
+          "title": "Basic Functions",
+          "transcript": "",
+          "vimeoId": "238441946"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee take a look at basic functions in PowerShell. They discuss the components of a function, the format of a function, and adding function statements.",
+          "length": "1836",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-2-basic_functions_pt_2-101317-PGM.00_30_40_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-2-basic_functions_pt_2-101317-PGM.00_30_40_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-8-2-basic_functions_pt_2-101317-PGM.00_30_40_27.Still001-sm.jpg",
+          "title": "Basic Functions Part 2",
+          "transcript": "",
+          "vimeoId": "238442327"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee discuss the concept of modules in PowerShell. They look at the default locations where modules are stored, and the components that make up a module.",
+          "length": "1628",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-1-module_basics-101317-PGM.00_26_53_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-1-module_basics-101317-PGM.00_26_53_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-1-module_basics-101317-PGM.00_26_53_09.Still001-sm.jpg",
+          "title": "Module Basics",
+          "transcript": "",
+          "vimeoId": "238607093"
+        },
+        {
+          "description": "In this episode, Mike and Cherokee discuss the concept of modules in PowerShell. They look at the default locations where modules are stored, and the components that make up a module.",
+          "length": "1671",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-2-module_basics_pt_2-101317-PGM.00_29_30_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-2-module_basics_pt_2-101317-PGM.00_29_30_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-powershell/techskills-powershell-1-9-2-module_basics_pt_2-101317-PGM.00_29_30_06.Still001-sm.jpg",
+          "title": "Module Basics Part 2",
+          "transcript": "",
+          "vimeoId": "238584351"
+        }
+      ],
+      "title": "Introduction"
+    }
+  ],
+  "url": "powershell-2017",
+  "vLab": false
+}

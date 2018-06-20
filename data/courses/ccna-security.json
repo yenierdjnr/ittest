@@ -1,0 +1,183 @@
+{
+  "description": "Those looking to complete the Cisco Certified Network Associate (CCNA) Security certification will find in this course an overview of the process in achieving the certification and details about the Implementing Cisco IOS Network Security (IINS) exam required to pass in order to receive the certification. CCNA Security addresses how to properly secure Cisco devices and security on Cisco routers and switches and is designed not just for IT professionals, but also for any kind of network administrator that supports Cisco equipment. The exam objectives cover a wide range of topics including common security threats, iOS ACLs, Cisco firewall technologies and others, which can provide foundational knowledge for achieving further related certifications like the CCNP.",
+  "descriptionMD": "",
+  "length": "60986",
+  "name": "CCNA Security 640-554",
+  "practiceExam": false,
+  "subtitle": "Cisco Certified Network Associate Security",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCNA certification addresses security when it comes to dealing with Cisco devices and networks and to achieve it, one will first need to have already achieved the CCENT certification as a prerequisite. Viewers will hear an overview about the knowledge one needs to attain the CCNA certification, the Implementing Cisco IOS Network Security (IINS) exam that covers in-depth technical concepts and hear about the exam objectives for implementing Cisco IOS network security.",
+          "length": "672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview-sm.jpg",
+          "title": "Overview of CCNA Security",
+          "transcript": "",
+          "vimeoId": "112933597"
+        }
+      ],
+      "title": "Overview of CCNA Security (640-554)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The area of security, especially in networking is a huge area and is always in demand. Viewers will hear a breakdown of the Cisco IINS exam objectives and cover common security threats for networks.",
+          "length": "5520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats-sm.jpg",
+          "title": "Common Security Threats",
+          "transcript": "",
+          "vimeoId": "84674810"
+        }
+      ],
+      "title": "Common Security Threats"
+    },
+    {
+      "episodes": [
+        {
+          "description": "One of the primary goals of the IINS exam is to apply security on Cisco routers, which there are a ton of security options that require a ton of command, but can also be configured through the graphical user interface or the CCP. Viewers will see demonstrations of configuring basic router security using the Cisco Configuration Professional (CCP) and basic Cisco command line features for implementing router security.",
+          "length": "4820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security-sm.jpg",
+          "title": "Initial Router Security",
+          "transcript": "",
+          "vimeoId": "84674559"
+        },
+        {
+          "description": "When it comes to securing a router itself, one has to do more than just secure the interfaces, but secure the traffic going to the router, going through the router and leaving the router. Viewers will hear about some advanced router security topics like the different types of traffic going to the router and securing data, management and control planes as well as security concerns when implementing IPv6.",
+          "length": "4133",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security-sm.jpg",
+          "title": "Advanced Router Security",
+          "transcript": "",
+          "vimeoId": "85761707"
+        }
+      ],
+      "title": "Security and Cisco Routers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Setting up Authentication Authorization and Accounting (AAA) is good for central management and managing credentials in a larger enterprise environment. Viewers will see demonstrations of implementing authentication authorization and accounting (AAA) on a Cisco router using the command-line interface and the Cisco Configuration Professional, as well as configuring a Cisco ASA to use RADIUS.",
+          "length": "3791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA-sm.jpg",
+          "title": "Implementing AAA",
+          "transcript": "",
+          "vimeoId": "85761708"
+        }
+      ],
+      "title": "AAA on Cisco Devices"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Access control lists are the cornerstone of security in Cisco devices and is usually one of the first things one learns about in terms of security and controlling traffic going in and out of routers and switches. Viewers will see demonstrations of writing standard and extended access control lists as well as several optimization techniques.",
+          "length": "7241",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists-sm.jpg",
+          "title": "IOS Access Control Lists",
+          "transcript": "",
+          "vimeoId": "85925382"
+        },
+        {
+          "description": "ACLs are one of the more challenging parts of the IINS exam, but the more one practices working with them, the more the commands start to become second nature. Viewers will hear about further functionality of access control lists including the different things one needs to troubleshoot with ACLs and hear discussions on named ACLs, troubleshooting ACLs and other uses of ACLs to secure a router.",
+          "length": "4502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2-sm.jpg",
+          "title": "IOS Access Control Lists Part 2",
+          "transcript": "",
+          "vimeoId": "85925381"
+        }
+      ],
+      "title": "IOS ACLs"
+    },
+    {
+      "episodes": [
+        {
+          "description": "There are many ways one can manage and secure their system and it is important one protects access to their routers, makes sure all management traffic is protected and the reports that come out as well are protected. Viewers will hear discussions on techniques and protocols used for managing Cisco routers, differences between the secure and non-secure protocols and draw attention to best practices for network management.",
+          "length": "5559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting-sm.jpg",
+          "title": "Network Management and Reporting",
+          "transcript": "",
+          "vimeoId": "86350826"
+        }
+      ],
+      "title": "Secure Network Management and Reporting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "A handful of high end Cisco switches include different Layer 2 security features, but are by default turned off. Viewers will hear about several Layer 2 exploits and then hear discussions the IOS features used to protect against them.",
+          "length": "6479",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security-sm.jpg",
+          "title": "Implementing Layer Two Security",
+          "transcript": "",
+          "vimeoId": "86417319"
+        }
+      ],
+      "title": "Common Layer 2 Attacks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "As one striving to achieve the CCNA Security certification, it is important one at least has a basic understanding of how to configure firewalls and Cisco ASA as well as knows the operational strengths and weaknesses of the different firewall technologies. Viewers will hear about different Cisco firewall technologies including different types of firewalls and see the implementation of the Cisco IOS firewall as well as the basic configuration of Cisco ASA.",
+          "length": "6552",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies-sm.jpg",
+          "title": "Firewall Technologies",
+          "transcript": "",
+          "vimeoId": "86988768"
+        }
+      ],
+      "title": "Cisco Firewall Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "An intrusion prevention system is a device that monitors traffic, looks at the traffic patterns and analyzes it to determine whether or not an attack is happening. Viewers will hear discussions of the use of Cisco Intrusion Prevention Systems (IPS) as a security implementation in the network, the most common implementations as well as configuring the Cisco IOS IPS using the CCP.",
+          "length": "5445",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems-sm.jpg",
+          "title": "Intrusion Prevention Systems",
+          "transcript": "",
+          "vimeoId": "87500180"
+        }
+      ],
+      "title": "Cisco IPS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "A Virtual Private Network (VPN) is a tool that helps secure traffic passing across untrusted networks. Viewers will hear about encryption methodologies and the basic concepts of remote access and site-to-site virtual private networks (VPN) as well as see implementations of an IPSec VPN tunnel on Cisco routers and the configuring of an SSL VPN on a Cisco ASA.",
+          "length": "6272",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks-sm.jpg",
+          "title": "Virtual Private Networks",
+          "transcript": "",
+          "vimeoId": "87568648"
+        }
+      ],
+      "title": "VPN Technologies"
+    }
+  ],
+  "url": "ccna-security",
+  "vLab": false
+}

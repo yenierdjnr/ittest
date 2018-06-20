@@ -1,37 +1,41 @@
 {
-	"id": "579a46cb50ce6207006010c5",
-	"tagname": "AWS",
-	"contentFull": "",
-	"contentShort": "",
-	"url": "aws",
-	"courses": [
-		{
-			"id": "5655ce94db802307006ff10e",
-			"name": "AWS Certified SysOps Administrator",
-			"subtitle": "ACSA",
-			"description": "The Amazon Web Services Certified SysOps Administrator (ACSA) certification is designed for professionals responsible for supporting deployments running in the AWS cloud. Topics covered include managing cloud based database instances, implementing security in the cloud and supporting virtual servers. The ACSA is an associate level certification intended as a starting point for technicians seeking AWS certification.",
-			"descriptionMD": "",
-			"courseLength": 47849,
-			"hidden": false,
-			"url": "aws-certified-sysops-administrator",
-			"productionStart": "2015-11-15T05:00:00Z",
-			"productionEnd": "2015-12-15T05:00:00Z",
-			"episodes": null,
-			"topics": null
-		},
-		{
-			"id": "58b439c75588670b004f3606",
-			"name": "AWS Certified Solutions Architect - Associate",
-			"subtitle": "Designing distributed applications on AWS platform",
-			"description": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
-			"descriptionMD": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
-			"courseLength": 58982,
-			"hidden": false,
-			"url": "aws-certified-solutions-architect-associate",
-			"productionStart": "2017-02-27T05:00:00Z",
-			"productionEnd": "2017-03-03T05:00:00Z",
-			"episodes": null,
-			"topics": null
-		}
-	]
+  "contentFull": "",
+  "contentShort": "",
+  "courses": [
+    {
+      "courseLength": 58982,
+      "description": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
+      "descriptionMD": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
+      "hidden": false,
+      "name": "AWS Certified Solutions Architect - Associate",
+      "productionEnd": "2017-03-03T05:00:00Z",
+      "productionStart": "2017-02-27T05:00:00Z",
+      "subtitle": "Designing distributed applications on AWS platform",
+      "url": "aws-certified-solutions-architect-associate"
+    },
+    {
+      "courseLength": 47849,
+      "description": "The Amazon Web Services Certified SysOps Administrator (ACSA) certification is designed for professionals responsible for supporting deployments running in the AWS cloud. Topics covered include managing cloud based database instances, implementing security in the cloud and supporting virtual servers. The ACSA is an associate level certification intended as a starting point for technicians seeking AWS certification.",
+      "descriptionMD": "",
+      "hidden": false,
+      "name": "AWS Certified SysOps Administrator",
+      "productionEnd": "2015-12-15T05:00:00Z",
+      "productionStart": "2015-11-15T05:00:00Z",
+      "subtitle": "ACSA",
+      "url": "aws-certified-sysops-administrator"
+    },
+    {
+      "courseLength": 23544,
+      "description": "Amazon Web Services (AWS) is a collection of cloud-based services offered by Amazon.com, which provides access to hosted resources. The services range from hosted virtual servers and storage to DNS and Database hosting. AWS gives the chance for private companies to take advantage of the investment in infrastructure that Amazon has made including massive generators, their five different internet service providers and data centers. This series of videos is designed to introduce the viewer to some of the AWS products and demonstrate the basic skills required to deploy and maintain them.",
+      "descriptionMD": "",
+      "hidden": false,
+      "name": "Amazon Web Services",
+      "productionEnd": "2014-10-15T04:00:00Z",
+      "productionStart": "1970-01-01T00:00:00Z",
+      "subtitle": "Web Services",
+      "url": "amazon-web-services"
+    }
+  ],
+  "tagname": "AWS",
+  "url": "aws"
 }

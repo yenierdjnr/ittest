@@ -1,0 +1,548 @@
+{
+  "description": "In the CHFI series, Daniel and Adam will take you through all the concepts, tools, and best-practices you'll need to know for the CHFI exam. You'll be introduced to many different digital forensic techniques and duties like safely copying hard drives, how to perform as a \"First Responder\", searching for and recovering deleted files, steganographic techniques, common attack avenues, acting as an expert witness, and much more.",
+  "descriptionMD": "",
+  "length": "87197",
+  "name": "CHFI v8",
+  "practiceExam": false,
+  "subtitle": "Computer Hacking Forensic Investigator",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam give a general overview of what to expect in the upcoming CHFI series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "347",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-0-0-overview-120916.00_00_03_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-0-0-overview-120916.00_00_03_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-0-0-overview-120916.00_00_03_16.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "195645124"
+        },
+        {
+          "description": "In this episode, Daniel and Adam begin their CHFI series by looking at the history of forensics; exploring where it started to where it has evolved to with regards to computer forensics. They also discuss which scenarios in which computer forensics would apply as well as what kinds of resources are employed by an investigator.",
+          "length": "2016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-computer_forensics_in_todays_world-120116.00_33_16_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-computer_forensics_in_todays_world-120116.00_33_16_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-computer_forensics_in_todays_world-120116.00_33_16_14.Still001-sm.jpg",
+          "title": "Computer Forensics in Todays World",
+          "transcript": "",
+          "vimeoId": "195997456"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their look at Computer Forensics, picking up with the 14 steps of Computer Forensics methodology which is a basic \"start-to-finish\" systematic approach that can be utilized during an incident. They also cover the \"7 B's\" that are the rules of forensics investigation and characteristics of digital evidence.",
+          "length": "2195",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-2-computer_forensics_in_todays_world_pt2-120116-120116.00_36_18_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-2-computer_forensics_in_todays_world_pt2-120116-120116.00_36_18_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-2-computer_forensics_in_todays_world_pt2-120116-120116.00_36_18_24.Still001-sm.jpg",
+          "title": "Computer Forensics in Todays World Part 2",
+          "transcript": "",
+          "vimeoId": "195998374"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their introduction to Computer Forensics by exploring the differences between corporate incidents, which may not require an immediate response from a law enforcement agency, vs computer crimes that would require the immediate intervention of a law enforcement agency. They also cover how you can report a cyber crime to Computer Emergency Response Teams.",
+          "length": "1139",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-3-computer_forensics_in_todays_world_pt3-120116.00_18_43_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-3-computer_forensics_in_todays_world_pt3-120116.00_18_43_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-1-1-3-computer_forensics_in_todays_world_pt3-120116.00_18_43_15.Still001-sm.jpg",
+          "title": "Computer Forensics in Todays World Part 3",
+          "transcript": "",
+          "vimeoId": "195998996"
+        }
+      ],
+      "title": "Computer Forensics in Today’s World"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explain what the investigative process looks like in real life. They discuss the leaving of evidence by both good and bad actors, the searching for and collection of said evidence, and the importance of correctly transporting any collected evidence.",
+          "length": "1862",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-1-investigative_process-120216.00_30_43_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-1-investigative_process-120216.00_30_43_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-1-investigative_process-120216.00_30_43_22.Still001-sm.jpg",
+          "title": "Investigative Process",
+          "transcript": "",
+          "vimeoId": "195999258"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their explanation of the Investigative process by discussing laws; i.e. what are they and which ones you will need to consider. Then they discuss the different people that might be involved in an investigation like expert witnesses, evidence managers, and incident responders. Lastly, they talk about authorization to act; who can give it and how it is obtained.",
+          "length": "2109",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-2-investigative_process_pt2-120216.00_34_49_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-2-investigative_process_pt2-120216.00_34_49_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-2-investigative_process_pt2-120216.00_34_49_08.Still001-sm.jpg",
+          "title": "Investigative Process Part 2",
+          "transcript": "",
+          "vimeoId": "195999730"
+        },
+        {
+          "description": "In this episode, Daniel and Adam further their discussion about the Investigative process; picking back up with the importance of performing proper risk assessment. Then they cover what might be found in a Forensic Investigator's toolkit. Lastly, they demonstrate how to verify and ensure the integrity of data evidence through hashing algorithms.",
+          "length": "2108",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-3-investigative_process_pt3-120216.00_35_02_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-3-investigative_process_pt3-120216.00_35_02_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-3-investigative_process_pt3-120216.00_35_02_17.Still001-sm.jpg",
+          "title": "Investigative Process Part 3",
+          "transcript": "",
+          "vimeoId": "197202751"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their look at the investigative process by discussing proper search and seizure procedure; including when a warrant is necessary. Also covered is what you'll need to know about evidence and what information will need to be gathered if an incident occurs as well as what's involved in the assessment of evidence.",
+          "length": "2300",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-4-investigative_process_pt4-120216-the_best_thumbnail_that_you_should_definitely_use.00_38_00_26.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-4-investigative_process_pt4-120216-the_best_thumbnail_that_you_should_definitely_use.00_38_00_26.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-2-1-4-investigative_process_pt4-120216-the_best_thumbnail_that_you_should_definitely_use.00_38_00_26.Still002-sm.jpg",
+          "title": "Investigative Process Part 4",
+          "transcript": "",
+          "vimeoId": "197204062"
+        }
+      ],
+      "title": "Computer Forensics Investigation Process"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam discuss what's involved in a search & seizure both with and without a warrant. They explain how knowing the laws for the area you're in is crucial, as well as the use of technology to perform a search & seizure.",
+          "length": "2004",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-1-search_and_seizure_of_a_computer-120216.00_33_09_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-1-search_and_seizure_of_a_computer-120216.00_33_09_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-1-search_and_seizure_of_a_computer-120216.00_33_09_01.Still001-sm.jpg",
+          "title": "Search and Seizure of a Computer",
+          "transcript": "",
+          "vimeoId": "197205671"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discussion pertaining to search & seizures, this time looking at 7 possible exceptions to requiring a warrant. These include Consent, Exigent Circumstances, Plain View, Search during arrest, Inventory searches, Border searches, and International issues.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-2-search_and_seizure_of_a_computer_pt2-120216.00_37_11_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-2-search_and_seizure_of_a_computer_pt2-120216.00_37_11_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-2-search_and_seizure_of_a_computer_pt2-120216.00_37_11_04.Still001-sm.jpg",
+          "title": "Search and Seizure of a Computer Part 2",
+          "transcript": "",
+          "vimeoId": "197207204"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue exploring search & seizure procedures. Here they discuss workplace searches, search strategies, and privacy protections. Also, they look at obtaining and executing a search warrant.",
+          "length": "1972",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-3-search_and_seizure_of_a_computer_pt3-120216.00_32_33_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-3-search_and_seizure_of_a_computer_pt3-120216.00_32_33_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-3-search_and_seizure_of_a_computer_pt3-120216.00_32_33_00.Still001-sm.jpg",
+          "title": "Search and Seizure of a Computer Part 3",
+          "transcript": "",
+          "vimeoId": "197210184"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their conversation about performing a search & seizure. Here the discuss Electronic Surveillance in Communications Networks, computer records as evidence, and challenges to the authenticity of computer records.",
+          "length": "1456",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-4-search_and_seizure_of_a_computer_pt4-120216.00_24_00_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-4-search_and_seizure_of_a_computer_pt4-120216.00_24_00_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-3-1-4-search_and_seizure_of_a_computer_pt4-120216.00_24_00_23.Still001-sm.jpg",
+          "title": "Search and Seizure of a Computer Part 4",
+          "transcript": "",
+          "vimeoId": "197211485"
+        }
+      ],
+      "title": "Searching and Seizing Computers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam begin talking about digital evidence, specifically how it's different from other kinds of evidence and the considerations that need to be taken into account when dealing with it. They also discuss keeping the digital evidence safe and authentic. Finally they go over the types of digital data that you may deal with.",
+          "length": "2246",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-1-digital_evidence-120316.00_37_05_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-1-digital_evidence-120316.00_37_05_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-1-digital_evidence-120316.00_37_05_13.Still001-sm.jpg",
+          "title": "Digital Evidence",
+          "transcript": "",
+          "vimeoId": "197212280"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discussion on digital evidence, picking up by explaining the fragility of digital evidence. Then they go over the rules of of evidence that will ensure the veracity and integrity of digital evidence. This includes the Rule of Best Evidence, as well as the US Federal Rules of Evidence. Also discussed is the Digital Evidence Examination Process.",
+          "length": "2319",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-2-digital_evidence_pt2-120316.00_39_15_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-2-digital_evidence_pt2-120316.00_39_15_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-4-1-2-digital_evidence_pt2-120316.00_39_15_27.Still001-sm.jpg",
+          "title": "Digital Evidence Part 2",
+          "transcript": "",
+          "vimeoId": "197213437"
+        }
+      ],
+      "title": "Digital Evidence"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam define the role and duties of the First Responders; the initial persons that arrive at the \"scene\" of a crime. They explain what might be in a First Responder's toolkit as well as what a they should be trained to do in their duties. Finally, they go over some of the common mistakes that First Responders can make.",
+          "length": "2120",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-5-1-first_responders-120316.00_35_35_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-5-1-first_responders-120316.00_35_35_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-5-1-first_responders-120316.00_35_35_22.Still001-sm.jpg",
+          "title": "First Responders",
+          "transcript": "",
+          "vimeoId": "197214688"
+        }
+      ],
+      "title": "First Responder Procedures"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore what it takes to set up a forensics lab. They begin by defining a standard forensics lab and explaining what you'll need to keep in mind when planning the setup. Also, they discuss what you would see in a typical forensics lab as far as hardware and software.",
+          "length": "1462",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-6-1-setting_up_a_forensics_lab-120316.00_24_07_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-6-1-setting_up_a_forensics_lab-120316.00_24_07_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-6-1-setting_up_a_forensics_lab-120316.00_24_07_14.Still001-sm.jpg",
+          "title": "Setting up Forensics Lab",
+          "transcript": "",
+          "vimeoId": "197215919"
+        }
+      ],
+      "title": "Computer Forensics Lab"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam start their discussion about hard disk drives and file systems. They begin by looking at the physical geometry of a normal hard drive; exploring hard drive physical components like connection interfaces, platters, sectors, clusters, and slack space.",
+          "length": "1968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-1-hard_disks_and_file_systems-120516.00_32_33_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-1-hard_disks_and_file_systems-120516.00_32_33_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-1-hard_disks_and_file_systems-120516.00_32_33_25.Still001-sm.jpg",
+          "title": "Hard Disks and File Systems",
+          "transcript": "",
+          "vimeoId": "197217955"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discourse on hard disks and file systems, picking back up with hard disk addressing schemes and showing how you can calculate actual drive space. Then they explain how a drive is partitioned and how to work with the Master Boot Record; taking backups and fixing the MBR when necessary. Finally, they begin looking into they types of file systems you may encounter in the wild.",
+          "length": "2278",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-2-hard_disks_and_file_systems_pt2-120516.00_37_59_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-2-hard_disks_and_file_systems_pt2-120516.00_37_59_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-2-hard_disks_and_file_systems_pt2-120516.00_37_59_25.Still001-sm.jpg",
+          "title": "Hard Disks and File Systems Part 2",
+          "transcript": "",
+          "vimeoId": "197219785"
+        },
+        {
+          "description": "In this episode, Daniel and Adam bring you more about hard disks and file systems, this time showing you a way to hide and discover hidden data using Alternate Data Streams(ADS). They also familiarize you with Linux and MacOS filesystems as well as the Windows Registry and file encryption.",
+          "length": "2084",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-3-hard_disks_and_file_systems_pt3-120516.00_34_39_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-3-hard_disks_and_file_systems_pt3-120516.00_34_39_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-3-hard_disks_and_file_systems_pt3-120516.00_34_39_18.Still001-sm.jpg",
+          "title": "Hard Disk and File Systems Part 3",
+          "transcript": "",
+          "vimeoId": "197220997"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their look at hard disks and file systems by explaining what you'll need to know about RAID arrays; specifically they show you how RAID levels 0, 1, and 5 operate.",
+          "length": "1450",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-4-hard_disks_and_file_systems_pt4-120516.00_00_12_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-4-hard_disks_and_file_systems_pt4-120516.00_00_12_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-7-1-4-hard_disks_and_file_systems_pt4-120516.00_00_12_04.Still001-sm.jpg",
+          "title": "Hard Disk and File Systems Part 4",
+          "transcript": "",
+          "vimeoId": "197222054"
+        }
+      ],
+      "title": "Understanding Hard Disks and File Systems"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam begin their look at forensics tools and techniques in a Windows environment. Here you'll see how to use both built-in and 3rd-party tools to recover volatile information from a Windows system. This includes information like logged on users, open files, network information, and running process details.",
+          "length": "2475",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-1-windows_forensics-120516.00_40_58_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-1-windows_forensics-120516.00_40_58_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-1-windows_forensics-120516.00_40_58_14.Still001-sm.jpg",
+          "title": "Windows Forensics",
+          "transcript": "",
+          "vimeoId": "197208734"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their look at forensics tools and techniques in a Windows environment. Here they pick up by showing you how to retrieve information from the clip-board, and then look at information gathering from non-volatile areas like the Windows Registry and Event Logs.",
+          "length": "2193",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-2-windows_forensics_pt2-120516.00_36_32_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-2-windows_forensics_pt2-120516.00_36_32_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-2-windows_forensics_pt2-120516.00_36_32_06.Still001-sm.jpg",
+          "title": "Windows Forensics Part 2",
+          "transcript": "",
+          "vimeoId": "197222805"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their look at forensics tools and techniques in a Windows environment. Here they look at a couple of tools that will grab system information like running processes and map out what is currently being used in system memory and even where.",
+          "length": "2454",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-3-windows_forensics_pt3-120616.00_40_35_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-3-windows_forensics_pt3-120616.00_40_35_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-3-windows_forensics_pt3-120616.00_40_35_16.Still001-sm.jpg",
+          "title": "Windows Forensics Part 3",
+          "transcript": "",
+          "vimeoId": "195458109"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their look at forensics tools and techniques in a Windows environment. Here they will show even more tools and areas that will dispense information from a Windows system. They show you how to find hidden partition information, cache and cookie information, and how to decode UserAssist keys in the Registry.",
+          "length": "2684",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-4-windows_forensics_pt4-120616.00_44_25_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-4-windows_forensics_pt4-120616.00_44_25_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-4-windows_forensics_pt4-120616.00_44_25_07.Still001-sm.jpg",
+          "title": "Windows Forensics Part 4",
+          "transcript": "",
+          "vimeoId": "195457122"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their look at forensics tools and techniques in a Windows environment. Recycle bin, restore points,",
+          "length": "2138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-5-windows_forensics_pt5-120616.00_35_19_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-5-windows_forensics_pt5-120616.00_35_19_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-8-1-5-windows_forensics_pt5-120616.00_35_19_22.Still001-sm.jpg",
+          "title": "Windows Forensics Part 5",
+          "transcript": "",
+          "vimeoId": "195458773"
+        }
+      ],
+      "title": "Windows Forensics"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam demonstrate techniques for acquiring, duplicating, and recovering data using a variety of GUI based tools like DDR Pro, Minitool Power Data Recover, EaseUS, and R-Drive Image. Here you'll see the step-by-step of how to discover deleted files and/or partitions as well as partition information details.",
+          "length": "2640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-1-data_acquisition_duplication_and_recovery-120616.00_43_41_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-1-data_acquisition_duplication_and_recovery-120616.00_43_41_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-1-data_acquisition_duplication_and_recovery-120616.00_43_41_16.Still001-sm.jpg",
+          "title": "Data Acquisition, Duplication and Recovery",
+          "transcript": "",
+          "vimeoId": "195462404"
+        },
+        {
+          "description": "In this episode, Daniel and Adam give you a high-level look into what's properly referred to as The Sleuth Kit(TSK) which is a set of command-line tools available for Windows systems. Here you'll see how TSK is useful for uncovering interesting details/information and metadata about drives and filesystems that can aid in forensic enumeration.",
+          "length": "1219",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-2-overview_of_the_sleuth_kit-120616.00_20_02_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-2-overview_of_the_sleuth_kit-120616.00_20_02_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-9-2-overview_of_the_sleuth_kit-120616.00_20_02_14.Still001-sm.jpg",
+          "title": "Overview of The Sleuth Kit (TSK)",
+          "transcript": "",
+          "vimeoId": "195459387"
+        }
+      ],
+      "title": "Data Acquisition and Duplication"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam perform a walk-through and demonstration of the AccessData FTK software which is an industry-standard forensics and evidence management software suite commonly used by CHFIs.",
+          "length": "2912",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-1-accessdata_ftk-120716.00_48_59_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-1-accessdata_ftk-120716.00_48_59_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-1-accessdata_ftk-120716.00_48_59_26.Still001-sm.jpg",
+          "title": "AccessData FTK",
+          "transcript": "",
+          "vimeoId": "195461308"
+        }
+      ],
+      "title": "Forensics Investigation Using AccessData FTK"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam perform a walk-through and demonstration of the EnCase software which is an industry-standard forensics and evidence management software suite commonly used by CHFIs.",
+          "length": "1507",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-2-encase-120716.00_24_50_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-2-encase-120716.00_24_50_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-10-2-encase-120716.00_24_50_23.Still001-sm.jpg",
+          "title": "EnCase",
+          "transcript": "",
+          "vimeoId": "195462035"
+        }
+      ],
+      "title": "Forensics Investigation Using EnCase"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam demonstrate using Steganography to hide data within existing data and then performing Steganalysis to find and extrapolate the hidden data. Throughout the demo, they explain some of the basic concepts of Steganography as well as how to manipulate data files with a hex editor to further obfuscate hidden data.",
+          "length": "2042",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-steganography-120716.00_33_44_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-steganography-120716.00_33_44_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-steganography-120716.00_33_44_05.Still001-sm.jpg",
+          "title": "Steganography",
+          "transcript": "",
+          "vimeoId": "195463160"
+        },
+        {
+          "description": "In this episode, Daniel and Adam tackle the concepts and theory of Steganography in more depth. Here they walk you through they types of Steganography that you might encounter (audio/video/image/etc). They also explore some issue that you may need to consider when performing Steganography/Steganalysis. Finally, they talk about data carving and image file headers.",
+          "length": "2013",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-2-steganography_pt2-120716.00_33_59_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-2-steganography_pt2-120716.00_33_59_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-11-1-2-steganography_pt2-120716.00_33_59_20.Still001-sm.jpg",
+          "title": "Steganography Part 2",
+          "transcript": "",
+          "vimeoId": "195463953"
+        }
+      ],
+      "title": "Steganography and Image File Forensics"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explain and demonstrate the importance of password cracking as a necessary skill for a CHFI. They explore password cracking concepts like password types, password cracking defined and techniques like Brute-Force, Dictionary, and Hybrid. Finally, they demonstrate using l0phtcrack, actually cracking a password.",
+          "length": "2704",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-password_crackers-120816.00_46_05_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-password_crackers-120816.00_46_05_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-password_crackers-120816.00_46_05_05.Still001-sm.jpg",
+          "title": "Password Crackers",
+          "transcript": "",
+          "vimeoId": "195464577"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue explain and demonstrate the importance of password cracking as a necessary skill for a CHFI. Here they cover password attack categories, spending time on Rainbow Tables specifically. They also demonstrate cracking a password protected PDF. Finally, they explore the idea of default passwords and BIOS password bypass techniques.",
+          "length": "1924",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-2-password_crackers_pt2-120816.00_32_04_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-2-password_crackers_pt2-120816.00_32_04_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-12-1-2-password_crackers_pt2-120816.00_32_04_03.Still001-sm.jpg",
+          "title": "Password Crackers Part 2",
+          "transcript": "",
+          "vimeoId": "195466213"
+        }
+      ],
+      "title": "Application Password Crackers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam begin discussing the use of logs and log capturing along with network traffic analysis with regards to digital forensics. They show you how to use both Windows Event Viewer and 3rd-party log viewers to search through logs for evidence. They also show you how to use packet Capturing software to view the data that is being sent over a network and look for any malicious activity.",
+          "length": "2437",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-log_capturing_and_network_forensics-120816.00_40_38_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-log_capturing_and_network_forensics-120816.00_40_38_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-log_capturing_and_network_forensics-120816.00_40_38_14.Still001-sm.jpg",
+          "title": "Log Capturing and Network Forensics",
+          "transcript": "",
+          "vimeoId": "195467248"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their dialog on log capturing and network traffic analysis. Here they shift their focus to Linux/Unix systems, showing you how to view audit logs and user command history. They also discuss other types of logs from systems like Web Servers, DHCP, and ODBC.",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-2-log_capturing_and_network_forensics_pt2-120816.00_33_50_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-2-log_capturing_and_network_forensics_pt2-120816.00_33_50_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-2-log_capturing_and_network_forensics_pt2-120816.00_33_50_12.Still001-sm.jpg",
+          "title": "Log Capturing and Network Forensics Part 2",
+          "transcript": "",
+          "vimeoId": "195637722"
+        },
+        {
+          "description": "In this episode, Daniel and Adam further their conversation about log capturing and network traffic analysis. This time they take a look at the concept of using Syslogs as well as the importance of Time Synchronization using the Network Time Protocol(NTP). They also give a primer on the OSI model, explaining why it may be important from a CHFI perspective.",
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-3-log_capturing_and_network_forensics_pt3-120816.00_30_49_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-3-log_capturing_and_network_forensics_pt3-120816.00_30_49_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-3-log_capturing_and_network_forensics_pt3-120816.00_30_49_16.Still001-sm.jpg",
+          "title": "Log Capturing and Network Forensics Part 3",
+          "transcript": "",
+          "vimeoId": "195644376"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their conversation about log capturing and network traffic analysis. They begin by discussing the difference between an Intrusion Detection System and an Intrusion Prevention System. Next they explore the concept of employing a Honeypot and/or Honeynet. Finally, they discuss the types of attacks commonly found today that a CHFI might have to deal with.",
+          "length": "1716",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-4-log_capturing_and_network_forensics_pt4-120816.00_28_21_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-4-log_capturing_and_network_forensics_pt4-120816.00_28_21_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-13-1-4-log_capturing_and_network_forensics_pt4-120816.00_28_21_00.Still001-sm.jpg",
+          "title": "Log Capturing and Network Forensics Part 4",
+          "transcript": "",
+          "vimeoId": "195638728"
+        }
+      ],
+      "title": "Log Capturing and Event Correlation"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore wireless networking in regards to a CHFI's necessary knowledge base. They start by defining important terms and concepts, then move to explaining wireless security techniques and encryption types. Finally, they discuss war driving/walking/chalking/flying.",
+          "length": "2314",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-wireless-120916.00_38_17_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-wireless-120916.00_38_17_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-wireless-120916.00_38_17_13.Still001-sm.jpg",
+          "title": "Wireless",
+          "transcript": "",
+          "vimeoId": "195641472"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discussion about wireless technologies and security for CHFIs. Here they explain the myriad of wireless attacks that you may encounter including, access control, integrity, and authentication attacks.",
+          "length": "2087",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-2-wireless_pt2-120916.00_34_45_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-2-wireless_pt2-120916.00_34_45_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-14-1-2-wireless_pt2-120916.00_34_45_19.Still001-sm.jpg",
+          "title": "Wireless Part 2",
+          "transcript": "",
+          "vimeoId": "195643160"
+        }
+      ],
+      "title": "Investigating Wireless Attacks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam focus on web based forensics, specifically the details of web based attacks as well as the digital evidence left behind. They begin by revisiting the importance of event logs with regards to web forensics and then show you how to use a vulnerability scanner to ascertain possible attack vectors based on the OWASP top10.",
+          "length": "1443",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-web_forensics_RESHOOT-120916.00_23_44_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-web_forensics_RESHOOT-120916.00_23_44_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-web_forensics_RESHOOT-120916.00_23_44_10.Still001-sm.jpg",
+          "title": "Web Forensics",
+          "transcript": "",
+          "vimeoId": "195639533"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take a deeper look at OWASP Top10 vulnerabilities that were discovered by their vulnerability scanner. They give you a deep-dive into the OWASP vulnerabilities like Cross-Site-Scripting(XSS), Security Misconfiguration, Injection, and Session Hijacking.",
+          "length": "1677",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-2-web_forensics_pt2-120916.00_28_18_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-2-web_forensics_pt2-120916.00_28_18_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-15-1-2-web_forensics_pt2-120916.00_28_18_15.Still001-sm.jpg",
+          "title": "Web Forensics Part 2",
+          "transcript": "",
+          "vimeoId": "195640097"
+        }
+      ],
+      "title": "Investigating Web Attacks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore what a typical CHFI would need to know about email and gathering evidence through email forensics. They start with a short email primer, explaining how email works and is generated. They also cover crimes that are associated with email",
+          "length": "1518",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-16-1-email_forensics-120916.00_25_02_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-16-1-email_forensics-120916.00_25_02_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-16-1-email_forensics-120916.00_25_02_13.Still001-sm.jpg",
+          "title": "Email Forensics",
+          "transcript": "",
+          "vimeoId": "195640849"
+        }
+      ],
+      "title": "Tracking Emails and Investigating Email Crimes"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam introduce you to the Mobile area of Digital Forensics starting by defining and explaining some of the core components of a mobile network as well as cell network types. Then they explore recoverable items from mobile devices through forensic techniques and processes.",
+          "length": "2126",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-20-1-mobile_forensics-120316.00_35_08_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-20-1-mobile_forensics-120316.00_35_08_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-20-1-mobile_forensics-120316.00_35_08_24.Still001-sm.jpg",
+          "title": "Mobile Forensics",
+          "transcript": "",
+          "vimeoId": "197216721"
+        }
+      ],
+      "title": "Mobile Forensics"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam talk about what's involved in creating official reports and acting as an expert witness. They explain what qualifies a person as an expert witness to be considered for that duty. Finally, they take a look at an example of what an official CHFI report consists of.",
+          "length": "1476",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-18-1-reports_and_testimony-120416.00_24_21_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-18-1-reports_and_testimony-120416.00_24_21_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/eccouncil-chfiv8/eccouncil-chfiv8-18-1-reports_and_testimony-120416.00_24_21_29.Still001-sm.jpg",
+          "title": "Reports and Testimony",
+          "transcript": "",
+          "vimeoId": "197218994"
+        }
+      ],
+      "title": "Investigative Reports"
+    }
+  ],
+  "url": "chfi-v8",
+  "vLab": false
+}

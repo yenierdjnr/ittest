@@ -1,0 +1,30 @@
+{
+  "contentFull": "",
+  "contentShort": "",
+  "courses": [
+    {
+      "courseLength": 42335,
+      "description": "Unix and Unix-like operating systems(Linux/BSD), known for their speed and reliability, are becoming an ever increasing presence in many data centers and server closets. That being the case, systems administrators that are new to the command-line driven nature of these systems will need to get up to speed on how to interact with the CLI shell environment found as the default on the majority of those systems. In this series, we introduce you to that shell environment known as the Bourne Again Shell or bash, for short. The series starts with an introduction to the bash environment, showing and explaining to you how to navigate through the system using text-based commands. This includes file system navigation, setting file permissions, manipulating output, etc. Then, building upon that foundation, we show you how to automate repetitive tasks by creating customized scripts. All the main bash scripting abilities are covered; from basic repetitive command execution, to more complex functionality like arithmetic, arrays, conditional statements(if-then/elif/case-esac), program loops(for/while/until), and functions/libraries.",
+      "descriptionMD": "",
+      "hidden": false,
+      "name": "Bash and Scripting",
+      "productionEnd": "2015-11-13T05:00:00Z",
+      "productionStart": "2015-11-09T05:00:00Z",
+      "subtitle": "CLI",
+      "url": "bash-scripting"
+    },
+    {
+      "courseLength": 25843,
+      "description": "In this series, Daniel and Justin endeavor to demonstrate some ways in which you might employ your scripting knowledge to practical, real-world uses. They will do this by creating a User Account Management system that will call upon many key scripting concepts and practices to reach its end goal.",
+      "descriptionMD": "In this series, Daniel and Justin endeavor to demonstrate some ways in which you might employ your scripting knowledge to practical, real-world uses. They will do this by creating a User Account Management system that will call upon many key scripting concepts and practices to reach its end goal.",
+      "hidden": false,
+      "name": "Creating Practical Scripts",
+      "productionEnd": "1970-01-01T00:00:00Z",
+      "productionStart": "2017-10-15T04:00:00Z",
+      "subtitle": "Applying your scripting knowledge to everyday tasks",
+      "url": "creating-practical-scripts"
+    }
+  ],
+  "tagname": "Automation",
+  "url": "automation"
+}

@@ -1,0 +1,88 @@
+{
+  "description": "This series examines the challenges companies face while supporting a bring your own device (BYOD) model. Each episode explores a potential mobile vulnerability and then explores methods to mitigate attacks exploiting that vulnerability. The series uses a hands-on approach actually demonstrating how each compromise works to help better inform systems administrators as to how these compromises occur.",
+  "descriptionMD": "This series examines the challenges companies face while supporting a bring your own device (BYOD) model. Each episode explores a potential mobile vulnerability and then explores methods to mitigate attacks exploiting that vulnerability. The series uses a hands-on approach actually demonstrating how each compromise works to help better inform systems administrators as to how these compromises occur.",
+  "length": "12079",
+  "name": "Mobile Security",
+  "practiceExam": false,
+  "subtitle": "Mobile device risks and mitigation",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don discuss and demonstrate the exposure we have from unmanned mobile devices within a managed network.  Don describes some of the problems with them as well as the possible attacks.  He then demonstrates the way built security is working to protect itself on an Apple device by segregating applications and isolatingthe communication between application and the iOS and not allowing direct communication between applications.",
+          "length": "1768",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/emerging-technologies-1-1-exposure_from_unmanaged_mobile_devices-040317.00_35_34_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/emerging-technologies-1-1-exposure_from_unmanaged_mobile_devices-040317.00_35_34_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/emerging-technologies-1-1-exposure_from_unmanaged_mobile_devices-040317.00_35_34_18.Still001-sm.jpg",
+          "title": "Exposure from Unmanaged Mobile Device",
+          "transcript": "",
+          "vimeoId": "212142693"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with the unmanaged device security by showing how Android devices isolate the similar to the iOS but also describe and show the big difference between them too.  Don then continues by describing the drawbacks of rooting and jailbreaking devices.  Also he takes us through the hacking process of devices and helps us to make sure we understand the importance of updating.  Lastly, he emphasizes all the considerations that a security professional needs to consider before putting unmanaged mobile devices to work in our business.",
+          "length": "1805",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-1-2-unmanaged_mobile_devices_pt2-040317-PGM.00_29_49_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-1-2-unmanaged_mobile_devices_pt2-040317-PGM.00_29_49_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-1-2-unmanaged_mobile_devices_pt2-040317-PGM.00_29_49_29.Still001-sm.jpg",
+          "title": "Exposure from Unmanaged Mobile Device Part 2",
+          "transcript": "",
+          "vimeoId": "212145258"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce the MDM-Mobile Device Management system. It’s a service designed to allow companies to have a measure of control over devices it issues or that employees own by enrolling devices into that service.  According to Don, this enrollment allows us to create security and management policies for these device that can help secure devices that have company data on them.  He demonstrates not only the enrollment and policy creation but also the actions that can be taken when we discover a device maybe compromised.",
+          "length": "1525",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-2-securing_devices_with_mdm-040317-PGM.00_25_10_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-2-securing_devices_with_mdm-040317-PGM.00_25_10_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-2-securing_devices_with_mdm-040317-PGM.00_25_10_01.Still001-sm.jpg",
+          "title": "Securing Devices with MDM",
+          "transcript": "",
+          "vimeoId": "212144187"
+        },
+        {
+          "description": "In this segment, Ronnie and Don demonstrate how to setup a man-in-the-middle attack, how to capture the data and then discuss how to mitigate it as well.  Don shows how to setup a rogue access point using a wireless access point.  Next they demonstrate how to implement port mirroring and using Wireshark to capture the data without the end-user’s knowledge.  Lastly, they demonstrate and discuss several mitigation strategies against man-in-the-middle attacks.",
+          "length": "1593",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-3-man_in_the_middle_attacks-RESHOOT-032817.00_26_30_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-3-man_in_the_middle_attacks-RESHOOT-032817.00_26_30_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-3-man_in_the_middle_attacks-RESHOOT-032817.00_26_30_23.Still001-sm.jpg",
+          "title": "Man in the Middle Attacks",
+          "transcript": "",
+          "vimeoId": "211535234"
+        },
+        {
+          "description": "In this segment, Ronnie and Don demonstrate how to perform an impersonation attack.  They discuss and show how the attack can begin and the components needed in the attack.  Don configures his attack server and a Spoof DNS server for an attack.  They demonstrate how the exploit is carried out against an Android Phone and discuss way to mitigate the attack too.",
+          "length": "2087",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-4-performing_an_impersonation_attack_RESHOOT-032917.00_35_00_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-4-performing_an_impersonation_attack_RESHOOT-032917.00_35_00_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-4-performing_an_impersonation_attack_RESHOOT-032917.00_35_00_01.Still001-sm.jpg",
+          "title": "Performing an Impersonation Attack",
+          "transcript": "",
+          "vimeoId": "212147492"
+        },
+        {
+          "description": "In this segment, Ronnie and Don demonstrate how to carryout a remote device attacks.  Don demonstrates using metasploit to inject an android phone with malicious code.  He creates an attack server and uses dnschef to spoof dns for the attack.  He shows how a connection through the DNS Hijack initiates code that meterpreter.",
+          "length": "1710",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-5-executing_a_remote_exploit-032917.00_45_33_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-5-executing_a_remote_exploit-032917.00_45_33_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-5-executing_a_remote_exploit-032917.00_45_33_24.Still001-sm.jpg",
+          "title": "Executing a Remote Exploit",
+          "transcript": "",
+          "vimeoId": "211712057"
+        },
+        {
+          "description": "In this episode, Ronnie and Don demonstrate how you get a trojan horse exploit can be accomplished against an Android based phone.  They describe how the malicious app on the phone and Don shows how to create the malicious app and install it on the phone.  Once installed, Don demonstrates the connection made from the phone back to the attack server.  Lastly, he describe some of the different ways companies can mitigate this attack.",
+          "length": "1591",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-6-trojan_horse_exploit-040717-PGM.00_27_47_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-6-trojan_horse_exploit-040717-PGM.00_27_47_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wgu-emergingtechnologies/wgu-emergingtechnologies-1-6-trojan_horse_exploit-040717-PGM.00_27_47_18.Still001-sm.jpg",
+          "title": "Trojan Horse Exploit",
+          "transcript": "",
+          "vimeoId": "212910715"
+        }
+      ],
+      "title": "Mobile Security"
+    }
+  ],
+  "url": "mobile-security",
+  "vLab": false
+}

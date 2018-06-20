@@ -1,0 +1,288 @@
+{
+  "description": "In this series, Sean and Mike explore several tools that are commonly used for Penetration Testing. They show how the tools work, and explore their functionality. They also demonstrate how to create your own tools, like loading Kali Nethunter on a Nexus 7 and creating your own PwnPad.",
+  "descriptionMD": "",
+  "length": "39822",
+  "name": "Security Tech Skills",
+  "practiceExam": false,
+  "subtitle": "Commonly used penetration tools",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike take a look at Kali 2.0. They talk about the major changes from Kali 1.0, and explore the new interface. They also talk about the different versions available, and the new update model.",
+          "length": "1552",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-1-introducing_kali_20-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-1-introducing_kali_20-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-1-introducing_kali_20-091415-1-sm.jpg",
+          "title": "Introducing Kali 2.0",
+          "transcript": "",
+          "vimeoId": "140176577"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at Kali Nethunter. They discuss the supported platforms for installing Nethunter. They also talk about some of the limitations of Kali Nethunter.",
+          "length": "1427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-2_kali_nethunter-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-2_kali_nethunter-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-2_kali_nethunter-091415-1-sm.jpg",
+          "title": "Kali Nethunter",
+          "transcript": "",
+          "vimeoId": "140176578"
+        },
+        {
+          "description": "In this episode, Sean and Mike demonstrate installing Kali 2.0. They talk about the different installation and upgrade options. Then they install Kali 2.0 in a virtual machine.",
+          "length": "1490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-3-installing_and_upgrading_kali-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-3-installing_and_upgrading_kali-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-3-installing_and_upgrading_kali-091415-1-sm.jpg",
+          "title": "Installing and Upgrading Kali 2.0",
+          "transcript": "",
+          "vimeoId": "140176575"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at the post installation tasks in Kali 2.0. They demonstrate adding users and customizing the interface. They also talk about adding proprietary drivers, and installing other tools.",
+          "length": "1675",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-5-post-installation_task-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-5-post-installation_task-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-5-post-installation_task-091415-1-sm.jpg",
+          "title": "Post-Installation Tasks",
+          "transcript": "",
+          "vimeoId": "140176579"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at building a custom image for installing Kali Linux. They start by setting up the live-build system. Sean then describes the process of adding packages for your custom build.",
+          "length": "1262",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-6-creating_a_custom_kali_image-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-6-creating_a_custom_kali_image-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-6-creating_a_custom_kali_image-091715-1-sm.jpg",
+          "title": "Creating a Custom Kali Image",
+          "transcript": "",
+          "vimeoId": "140176580"
+        },
+        {
+          "description": "In this episode, Sean and Don look at running Kali Linux in forensics mode. They demonstrate how to launch Kali Linux in forensics mode. They also discuss the advantages of running Kali in forensics mode.",
+          "length": "1647",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-8-forensic_mode-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-8-forensic_mode-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-1-8-forensic_mode-091415-1-sm.jpg",
+          "title": "Forensics Mode",
+          "transcript": "",
+          "vimeoId": "140176576"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at DNMAP. They talk about the reasons for using DNMAP. Then they configure DNMAP to do a distributed scan.",
+          "length": "1796",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-1-footprinting_with_dnmap-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-1-footprinting_with_dnmap-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-1-footprinting_with_dnmap-091515-1-sm.jpg",
+          "title": "Footprinting with DNMAP",
+          "transcript": "",
+          "vimeoId": "140176581"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at the process of cracking passwords. They start by looking at ways to generate a list of targets. Then they use Crunch to generate a wordlist for password cracking. They also look at the password cracking utility Medusa, examining the options for launching a password cracking attack.",
+          "length": "1542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-2-password_cracking-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-2-password_cracking-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-2-password_cracking-091515-1-sm.jpg",
+          "title": "Password Cracking",
+          "transcript": "",
+          "vimeoId": "140176584"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at OpenVAS. They compare OpenVAS with other vulnerability scanners. Then they go through the initial configuration, run a scan, and look at the results.",
+          "length": "1618",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-3-scanning_with_openvas-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-3-scanning_with_openvas-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-3-scanning_with_openvas-091515-1-sm.jpg",
+          "title": "Scanning with OpenVAS",
+          "transcript": "",
+          "vimeoId": "140176582"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at two web vulnerability scanners, Skipfish and Vega. They start with Vega, scanning a couple of websites and analyzing the results. Next they contrast that with Skipfish, a command line utility.",
+          "length": "1451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-4-scanning_with_skipfish_vega-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-4-scanning_with_skipfish_vega-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-4-scanning_with_skipfish_vega-091515-1-sm.jpg",
+          "title": "Scanning with Skipfish and Vega",
+          "transcript": "",
+          "vimeoId": "140176583"
+        },
+        {
+          "description": "In this episode, Sean and Don look at Zed Attack Proxy, a web application vulnerability scanner. They use ZAP to scan a website and analyze the results. They look at the features in ZAP, and the different modules available to extend the functionality of ZAP.",
+          "length": "1622",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-5-working_with_zed_proxy-091415-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-5-working_with_zed_proxy-091415-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-5-working_with_zed_proxy-091415-2-sm.jpg",
+          "title": "Working with Zed Proxy",
+          "transcript": "",
+          "vimeoId": "140176617"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at a tool new to Kali 2.0, Inguma.",
+          "length": "1361",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-6-inguma-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-6-inguma-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-6-inguma-091515-1-sm.jpg",
+          "title": "Inguma",
+          "transcript": "",
+          "vimeoId": "140176616"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at a tool called Responder.",
+          "length": "1267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-7-mitm_and_responder-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-7-mitm_and_responder-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-7-mitm_and_responder-091515-1-sm.jpg",
+          "title": "MITM and Responder",
+          "transcript": "",
+          "vimeoId": "140176620"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at the post-exploitation tool, Intersect. Intersect generates a python script that can be run on a compromised system to gather information. They demonstrate how to load different modules in Intersect. Then they generate a script with the loaded modules.",
+          "length": "1066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-8-post-attack_with_intersect-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-8-post-attack_with_intersect-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-2-8-post-attack_with_intersect-091515-1-sm.jpg",
+          "title": "Post-Attack with Intersect",
+          "transcript": "",
+          "vimeoId": "140176618"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about the pros and cons of using iOS and Android",
+          "length": "1919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-1-mobile_android_pen_testing-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-1-mobile_android_pen_testing-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-1-mobile_android_pen_testing-091615-1-sm.jpg",
+          "title": "Mobile and Android Pen Testing",
+          "transcript": "",
+          "vimeoId": "140176619"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at Kali Nethunter. They talk about the advantages of running Kali Nethunter vs a rooted stock Android OS. They compare two Nexus 7 devices, one running stock Android OS, the other one running Kali Nethunter.",
+          "length": "1542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-2-looking_at_kali_nethunter-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-2-looking_at_kali_nethunter-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-2-looking_at_kali_nethunter-091615-1-sm.jpg",
+          "title": "Looking at Kali Nethunter",
+          "transcript": "",
+          "vimeoId": "140176659"
+        },
+        {
+          "description": "In this episode, Sean and Mike begin the process of installing Kali Nethunter. They discuss the various devices supported by Kali, and some of the pros and cons of each. They talk about the system requirements for installing Kali Nethunter. They demonstrate putting a Nexus 7 in developer mode and changing the USB connection to PTP in preparation for installation.",
+          "length": "1798",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter-091615-1-sm.jpg",
+          "title": "Installing Kali Nethunter",
+          "transcript": "",
+          "vimeoId": "140176657"
+        },
+        {
+          "description": "In this episode, Sean and Mike continue the process of installing Kali Nethunter on a Nexus 7. They demonstrate using the Nexus Root Toolkit. They use NRT to backup the device, install the necessary drivers, and unlock the bootloader. They also show how to restore a soft-bricked device using the flash stock and unroot option.",
+          "length": "1458",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt.2-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt.2-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt.2-091615-1-sm.jpg",
+          "title": "Installing Kali Nethunter Part 2",
+          "transcript": "",
+          "vimeoId": "140176658"
+        },
+        {
+          "description": "In this episode, Sean and Mike continue the process of installing Kali Nethunter on a Nexus 7. They start with a quick review of the prerequisites for installing Kali Nethunter. Then they demonstrate the Nethunter Installer, going through the steps to begin the installation process.",
+          "length": "1537",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt3-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt3-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-3-installing_kali_nethunter_pt3-091615-1-sm.jpg",
+          "title": "Installing Kali Nethunter Part 3",
+          "transcript": "",
+          "vimeoId": "140176656"
+        },
+        {
+          "description": "In this episode, Sean and Mike explore some post-installation tasks on Kali Nethunter.  These tasks include updating applications and configuring your Google account for access to Google Play. They also talk about installing additional tools and configuring them for first use. Then they go over some external accessories to use with Kali Nethunter, like an OTG cable, external wireless and bluetooth adapters, and cases.",
+          "length": "1417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-4-post_installation_task-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-4-post_installation_task-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-4-post_installation_task-091615-1-sm.jpg",
+          "title": "Post-Installation Tasks",
+          "transcript": "",
+          "vimeoId": "140176655"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about the advantages of building your own Pwn Pad and Pwn Phone. They take a look at available hardware choices, including external adapters. They also go over what will be needed to build a Pwn Pad, including Pwn Pad 2014 Community Edition and a physical machine running Linux.",
+          "length": "1441",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-5-pwn_pad_and_pwn_phone-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-5-pwn_pad_and_pwn_phone-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-5-pwn_pad_and_pwn_phone-091615-1-sm.jpg",
+          "title": "Pwn Pad and Pwn Phone",
+          "transcript": "",
+          "vimeoId": "140183380"
+        },
+        {
+          "description": "In this episode, Sean and Mike begin the process of creating a Pwn Pad on a Nexus 7. They look at setting up a Linux Ubuntu 12.4 machine with all of the tools needed to create a Pwn Pad. After downloading the Pwn Pad 2014 Community Edition, they begin the installation.",
+          "length": "1150",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-6-creating_your_own_pwn_pad-091615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-6-creating_your_own_pwn_pad-091615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-6-creating_your_own_pwn_pad-091615-1-sm.jpg",
+          "title": "Creating Your Own Pwn Pad",
+          "transcript": "",
+          "vimeoId": "140183375"
+        },
+        {
+          "description": "In this episode, Sean and Mike perform post-installation tasks on a newly created Pwn Pad Community Edition 2014. They start by checking the Ubuntu system for errors during the installation process. Then they cover setting up the device for use, including updating applications and linking to Google Play.",
+          "length": "1650",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-7-post_installation_tasks-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-7-post_installation_tasks-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-7-post_installation_tasks-091715-1-sm.jpg",
+          "title": "Post-Installation Tasks",
+          "transcript": "",
+          "vimeoId": "140183374"
+        },
+        {
+          "description": "In this episode Sean and Mike explore some adapters that can be used with a Pwn Pad. They look at the TP-Link USB adapter as well as the SENA UD100 Industrial Bluetooth USB Adapter. The Pwn Pad is designed to work with these adapters, and extends the range and functionality of the Pwn Pad.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-8-pwn_pad_wifi_and_bluetooth-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-8-pwn_pad_wifi_and_bluetooth-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-3-8-pwn_pad_wifi_and_bluetooth-091715-1-sm.jpg",
+          "title": "Pwn Pad Wifi & Bluetooth",
+          "transcript": "",
+          "vimeoId": "140183379"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at some of the USB-based attacks that can be done with Kali Nethunter. They look at BadUSB MITM Attack which is a man-in-the-middle attack, as well as the HID Keyboard Attack which allows keystrokes to be sent from Kali Nethunter to the attack target.",
+          "length": "1184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-1-usb_attacks_with_nethunter-091715-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-1-usb_attacks_with_nethunter-091715-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-1-usb_attacks_with_nethunter-091715-high-sm.jpg",
+          "title": "USB Attacks with Nethunter",
+          "transcript": "",
+          "vimeoId": "140183376"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at setting up Evil Access Point. This application allows you to create an access point to allow MITM attacks. They demonstrate setting up the application on both the Pwn Pad and Kali Nethunter.",
+          "length": "1419",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-2-evil_access_point-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-2-evil_access_point-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-2-evil_access_point-091715-1-sm.jpg",
+          "title": "Evil Access Point",
+          "transcript": "",
+          "vimeoId": "140183377"
+        },
+        {
+          "description": "In this episode, Sean and Mike demonstrate configuring a Pwn Pad and an application called SSL Strip. this application allows you to perform a MiTM attack by preventing the victim from setting up an SSL connection.",
+          "length": "876",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-3-mitm_with_ssl_strip-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-3-mitm_with_ssl_strip-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills/techskills-securitytechskills-4-3-mitm_with_ssl_strip-091715-1-sm.jpg",
+          "title": "MiTM with SSL Strip",
+          "transcript": "",
+          "vimeoId": "140183381"
+        }
+      ],
+      "title": "Security Tech Skills"
+    }
+  ],
+  "url": "security-tech-skills",
+  "vLab": false
+}

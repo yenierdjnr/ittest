@@ -1,0 +1,138 @@
+{
+  "description": "In this series, Mike explores several tools that are commonly used for Penetration Testing. He shows how the tools work, and explore their functionality. He also demonstrates how to create your own tools, like loading Kali Nethunter on a Nexus 7 and creating your own PwnPad.",
+  "descriptionMD": "In this series, Mike explores several tools that are commonly used for Penetration Testing. He shows how the tools work, and explore their functionality. He also demonstrates how to create your own tools, like loading Kali Nethunter on a Nexus 7 and creating your own PwnPad.",
+  "length": "17914",
+  "name": "Security Tech Skills (2017)",
+  "practiceExam": false,
+  "subtitle": "Commonly used penetration tools",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at host discovery using the venerable Nmap scanner in both Linux and Windows.",
+          "length": "1715",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-1-1-host_discovery-062017-PGM.00_00_12_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-1-1-host_discovery-062017-PGM.00_00_12_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-1-1-host_discovery-062017-PGM.00_00_12_06.Still001-sm.jpg",
+          "title": "Host Discovery",
+          "transcript": "",
+          "vimeoId": "223286246"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at port scanning using the venerable Nmap scanner in both Linux and Windows.",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-2-1-port_scanning-062017-PGM.00_32_27_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-2-1-port_scanning-062017-PGM.00_32_27_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-2-1-port_scanning-062017-PGM.00_32_27_10.Still001-sm.jpg",
+          "title": "Port Scanning",
+          "transcript": "",
+          "vimeoId": "223286855"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at using the OpenVAS vulnerability scanner to automatically detect known vulnerabilities in your environment.",
+          "length": "1731",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-1-openvas-062217-PGM.00_28_35_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-1-openvas-062217-PGM.00_28_35_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-1-openvas-062217-PGM.00_28_35_12.Still001-sm.jpg",
+          "title": "OpenVAS",
+          "transcript": "",
+          "vimeoId": "223287374"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at the Microsoft Baseline Security Analyzer which is used to uncover common security misconfigurations in a Microsoft environment.",
+          "length": "1385",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-2-mbsa-062217-PGM.00_22_50_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-2-mbsa-062217-PGM.00_22_50_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-2-mbsa-062217-PGM.00_22_50_07.Still001-sm.jpg",
+          "title": "MBSA",
+          "transcript": "",
+          "vimeoId": "223287717"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at using the Nikto web app vulnerability scanner.",
+          "length": "1201",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-3-nikto-062217-PGM.00_20_14_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-3-nikto-062217-PGM.00_20_14_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-3-nikto-062217-PGM.00_20_14_12.Still001-sm.jpg",
+          "title": "Nikto",
+          "transcript": "",
+          "vimeoId": "223287869"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at using Sparta to speed up the process of scanning and formatting output for ease of reading.",
+          "length": "1184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-4-sparta-062317-PGM.00_39_56_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-4-sparta-062317-PGM.00_39_56_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-3-4-sparta-062317-PGM.00_39_56_05.Still001-sm.jpg",
+          "title": "This is Sparta",
+          "transcript": "",
+          "vimeoId": "223456987"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at using Burp Suite web application scanner and proxy for testing the security of our web apps. Watch as they show you how to use Burp to intercept web traffic and even perform a dictionary-based password attack.",
+          "length": "1286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-1-burp_suite-062317-PGM.00_21_10_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-1-burp_suite-062317-PGM.00_21_10_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-1-burp_suite-062317-PGM.00_21_10_07.Still001-sm.jpg",
+          "title": "Burp Suite",
+          "transcript": "",
+          "vimeoId": "223455966"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore common tools, techniques, and practices used in the pursuit of securing your environment. Here they specifically look at using the OWASP ZAP web application scanner and proxy for testing the security of our web apps. Watch as they show you how to use ZAP to scan a web app with its built-in vulnerability scanner, how to set up ZAP as a web proxy, and even perform a dictionary-based password attack.",
+          "length": "738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-2-owasp_zap-062317-PGM.00_12_03_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-2-owasp_zap-062317-PGM.00_12_03_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-4-2-owasp_zap-062317-PGM.00_12_03_07.Still001-sm.jpg",
+          "title": "OWASP Zap",
+          "transcript": "",
+          "vimeoId": "223456489"
+        },
+        {
+          "description": "In this episode, Wes and Mike take a look at a very common attack performed on a great many websites and databases known as SQL injection. They describe the basic characteristics of the attack as well as demonstrating some of the many possible outcomes that can result.",
+          "length": "2070",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-1-sql_injection-062617-PGM.00_50_37_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-1-sql_injection-062617-PGM.00_50_37_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-1-sql_injection-062617-PGM.00_50_37_08.Still001-sm.jpg",
+          "title": "SQL Injection",
+          "transcript": "",
+          "vimeoId": "223628137"
+        },
+        {
+          "description": "In this episode, Wes and Mike talk about a way to automate a very common attack performed on a great many websites and databases known as SQL injection. They dive into a technology known as sqlmap that helps to perform some steps to perform the attack.",
+          "length": "1674",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-2-sqlmap-062717-PGM.00_27_39_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-2-sqlmap-062717-PGM.00_27_39_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-5-2-sqlmap-062717-PGM.00_27_39_26.Still001-sm.jpg",
+          "title": "sqlmap",
+          "transcript": "",
+          "vimeoId": "223607095"
+        },
+        {
+          "description": "In this episode, Wes and Mike talk about the basics surrounding password cracking. They will discuss were we can look to find passwords, such as the SAM file in Windows local account, NTDS.dit for Active Directory accounts and /etc/shadow for Linux systems. The types of attacks that can be performed on passwords such as dictionary attacks, the CPU intensive brute force attack, and the hybrid attack. They will also dive into the software used to crack passwords.",
+          "length": "1951",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-1-password_cracking_basics-063017-PGM.00_32_15_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-1-password_cracking_basics-063017-PGM.00_32_15_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-1-password_cracking_basics-063017-PGM.00_32_15_15.Still001-sm.jpg",
+          "title": "Password Cracking Basics",
+          "transcript": "",
+          "vimeoId": "224339053"
+        },
+        {
+          "description": "In this episode, Wes and Mike talk about a popular free password cracking software known as hash cat. They discuss the major features of hash cat as well as summarizing the algorithms and attack types. They explore the basics behind the interface with a live demonstration to help the viewers with a hands-on approach.",
+          "length": "1016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-2-hashcat-063017-PGM.00_16_39_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-2-hashcat-063017-PGM.00_16_39_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-securitytechskills-2017/techskills-securitytechskills-6-2-hashcat-063017-PGM.00_16_39_29.Still001-sm.jpg",
+          "title": "Hashcat",
+          "transcript": "",
+          "vimeoId": "224338576"
+        }
+      ],
+      "title": "Security Tech Skills"
+    }
+  ],
+  "url": "security-tech-skills-2017",
+  "vLab": false
+}

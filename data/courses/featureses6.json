@@ -1,0 +1,218 @@
+{
+  "description": "JavaScript is going through some growing pains. In this series, we are going to take a look at some of the recent advances in JavaScript. These changes are endearingly known as ECMAScript 6 (ES6) for short. These new features bring cleaner syntax as well as additional functionality to the JavaScript language. If you want to know all about fat arrow functions, JavaScript classes, enhancements to JavaScript objects, string enhancements, the coming of iterators and generators, promises and proxies then join us to power up your JavaScript repertoire!",
+  "descriptionMD": "JavaScript is going through some growing pains. In this series, we are going to take a look at some of the recent advances in JavaScript. These changes are endearingly known as ECMAScript 6 (ES6) for short. These new features bring cleaner syntax as well as additional functionality to the JavaScript language. If you want to know all about fat arrow functions, JavaScript classes, enhancements to JavaScript objects, string enhancements, the coming of iterators and generators, promises and proxies then join us to power up your JavaScript repertoire!",
+  "length": "29122",
+  "name": "New Features in ES6",
+  "practiceExam": false,
+  "subtitle": "What's new in the ECMAScript 6 language",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Justin give a general overview of what to expect in the upcoming ES6 series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "143",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-0-0-overview-021517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-0-0-overview-021517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-0-0-overview-021517-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "204896095"
+        },
+        {
+          "description": "In this episode, Justin and Mike look at two new keywords for working with variables. They demonstrate using the 'const' keyword and highlight how it is used. They also look at the 'let' keyword and demonstrate its usage.",
+          "length": "1135",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-1-1-new_to_varibles-020617-PGM.00_18_40_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-1-1-new_to_varibles-020617-PGM.00_18_40_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-1-1-new_to_varibles-020617-PGM.00_18_40_09.Still001-sm.jpg",
+          "title": "Changes to Variables",
+          "transcript": "",
+          "vimeoId": "203119893"
+        },
+        {
+          "description": "In this episode, Justin and Mike cover the changes to object literals. They demonstrate the new property value shorthand. They also look at the new method value shorthand, and computed properties.",
+          "length": "851",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-2-1-enhaned_object_literals-020617-PGM.00_13_56_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-2-1-enhaned_object_literals-020617-PGM.00_13_56_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-2-1-enhaned_object_literals-020617-PGM.00_13_56_05.Still001-sm.jpg",
+          "title": "Enhanced Object Literals",
+          "transcript": "",
+          "vimeoId": "203120214"
+        },
+        {
+          "description": "In this episode, Justin and Mike begin their discussion on classes in JavaScript. They start by reviewing the constructor/prototype pattern. Then they demonstrate how to factor the constructor into a class.",
+          "length": "1636",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-classes_come_to_javascript-020717-PGM.00_27_01_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-classes_come_to_javascript-020717-PGM.00_27_01_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-classes_come_to_javascript-020717-PGM.00_27_01_07.Still001-sm.jpg",
+          "title": "Classes Come to JavaScript",
+          "transcript": "",
+          "vimeoId": "204911370"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue their look at classes in JavaScript. They look at using static methods, and calling them from other static methods and instance methods. They also show how to to override the standard behavior in the prototype.",
+          "length": "1150",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-2-classes_come_to_javascript_pt.2-020717-PGM.00_18_56_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-2-classes_come_to_javascript_pt.2-020717-PGM.00_18_56_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-3-1-2-classes_come_to_javascript_pt.2-020717-PGM.00_18_56_16.Still001-sm.jpg",
+          "title": "Classes Come to JavaScript Part 2",
+          "transcript": "",
+          "vimeoId": "204897840"
+        },
+        {
+          "description": "In this episode, Justin and Mike look at changes to functions in ES6. They start by looking at problems faced when declaring functions, and the new arrow method for declaring functions in ES6. Then they demonstrate using default values in functions.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-4-1-changes_to_functions-020717-PGM.00_29_47_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-4-1-changes_to_functions-020717-PGM.00_29_47_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-4-1-changes_to_functions-020717-PGM.00_29_47_18.Still001-sm.jpg",
+          "title": "Changes to Functions",
+          "transcript": "",
+          "vimeoId": "204913141"
+        },
+        {
+          "description": "In this episode, Justin and Mike begin their look into changes to strings. They demonstrate several new methods for working with strings. Specifically, they look at startsWith, endsWith, includes, and repeat.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-5-1-1-changes_to_strings-020817-PGM.00_24_14_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-5-1-1-changes_to_strings-020817-PGM.00_24_14_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-5-1-1-changes_to_strings-020817-PGM.00_24_14_05.Still001-sm.jpg",
+          "title": "Changes to Strings",
+          "transcript": "",
+          "vimeoId": "204901646"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue their look into changes to strings in ES6. They demonstrate using template strings and template literals. They also look at tagged templates.",
+          "length": "1098",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-5-1-2-changes_to_strings-020817-PGM.00_18_05_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-5-1-2-changes_to_strings-020817-PGM.00_18_05_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-5-1-2-changes_to_strings-020817-PGM.00_18_05_09.Still001-sm.jpg",
+          "title": "Changes to Strings Part 2",
+          "transcript": "",
+          "vimeoId": "204900039"
+        },
+        {
+          "description": "In this episode, Daniel and Justin discuss some of the new Array specific features found in ES6. They start by showing you the new Array methods including Array.of and Away.from. Then they review the new search methods including Array.prototype.find and Array.prototype.findIndex.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-1-changes_to_arrays-020917-PGM.00_27_20_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-1-changes_to_arrays-020917-PGM.00_27_20_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-1-changes_to_arrays-020917-PGM.00_27_20_26.Still001-sm.jpg",
+          "title": "Changes to Arrays",
+          "transcript": "",
+          "vimeoId": "204912320"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue to discuss some of the new Array specific features found in ES6. They jump back in the conversation by discussing the additional utility methods, specifically array.prototype.fill as well as array.prototype.copyWithin. Then they conclude by looking at Iterator Protocol methods such as array.prototype.keys, array.prototype.entries, and array.prototype.values.",
+          "length": "1380",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-2-changes_to_arrays_pt._2-020917-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-2-changes_to_arrays_pt._2-020917-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeatureses6-6-1-2-changes_to_arrays_pt._2-020917-1-sm.jpg",
+          "title": "Changes to Arrays Part 2",
+          "transcript": "",
+          "vimeoId": "204900991"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore methods of De-structuring data now available in ES6. They begin by comparing traditional ways of retrieving info from an array with using new de-structuring methods. Then they repeat the de-structuring process with Objects and inside Function Arguments.",
+          "length": "1849",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-7-1-destucturing_data-020917-PGM.00_30_34_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-7-1-destucturing_data-020917-PGM.00_30_34_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-7-1-destucturing_data-020917-PGM.00_30_34_22.Still001-sm.jpg",
+          "title": "Destructing Data",
+          "transcript": "",
+          "vimeoId": "204915306"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore the interesting new features called Spread and Rest. They begin with a review of the rest params operator and then look at the concatenation of 2 arrays. Next they look at adding elements from one list to another, then using the Spread function to pass params into a function.",
+          "length": "1790",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-8-1-spread_and_rest-021017-PGM.00_29_36_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-8-1-spread_and_rest-021017-PGM.00_29_36_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-8-1-spread_and_rest-021017-PGM.00_29_36_00.Still001-sm.jpg",
+          "title": "Spread and Rest",
+          "transcript": "",
+          "vimeoId": "204916111"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at Iterators and the new For...Of loop function in ES6. They start by defining an Iterator and reviewing the different types of Iterators found in ES6. Then they show you how to employ the new For...Of function to loop through Iterables.",
+          "length": "2200",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-9-1-iterators_and_the_for...of_loops-021017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-9-1-iterators_and_the_for...of_loops-021017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-9-1-iterators_and_the_for...of_loops-021017-1-sm.jpg",
+          "title": "Iterators and the for...of Loop",
+          "transcript": "",
+          "vimeoId": "204916987"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explain the use of Promises in ES6 using JavaScript. They begin by explaining what a Promise is, why you need them, and how they're used. They also show you how to implement Promises with some simple demonstrations.",
+          "length": "1389",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-1-promises_and_fetch-021317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-1-promises_and_fetch-021317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-1-promises_and_fetch-021317-1-sm.jpg",
+          "title": "Promises and Fetch",
+          "transcript": "",
+          "vimeoId": "204902482"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue looking at the use of Promises using Javascript to demonstrate. Also they introduce you to the Fetch utility which will expand the use of our Promise function.",
+          "length": "1743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-2-promises_and_fetch_pt_2-021317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-2-promises_and_fetch_pt_2-021317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-10-1-2-promises_and_fetch_pt_2-021317-1-sm.jpg",
+          "title": "Promises and Fetch Part 2",
+          "transcript": "",
+          "vimeoId": "204910631"
+        },
+        {
+          "description": "In this episode, Daniel and Justin begin their look into Generators as a new feature in ES6, as iterators. They begin by explaining the use of the new Yield keyword to create Generators output finite and infinite sequences of values.",
+          "length": "1281",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-generators-021317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-generators-021317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-generators-021317-1-sm.jpg",
+          "title": "Generators",
+          "transcript": "",
+          "vimeoId": "204898915"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue their look into Generators as a new feature in ES6. They pick back up by using Generators to handle HTTP requests to demonstrate the synchronous appearance of asynchronous code.",
+          "length": "1030",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-2-generators_pt_2-021317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-2-generators_pt_2-021317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-11-1-2-generators_pt_2-021317-1-sm.jpg",
+          "title": "Generators Part 2",
+          "transcript": "",
+          "vimeoId": "204896181"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore Proxies in ES6. They begin by defining what a Proxy is and how they are related to JavaScript. They also discuss how proxies can be used in ES6. Finally they demonstrate the implementation of proxies in a web app using JavaScript.",
+          "length": "1672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-12-1-proxies-021417-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-12-1-proxies-021417-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-12-1-proxies-021417-1-sm.jpg",
+          "title": "Proxies",
+          "transcript": "",
+          "vimeoId": "204913771"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at using Sets and WeakSets in ES6. They start by explaining what Sets are and showing you their basic use and attributes. Then they define and demonstrate the use of WeakSets which are very similar to regular Sets, but with some important distinctions.",
+          "length": "2076",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-13-1-sets_and_weaksets-021417-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-13-1-sets_and_weaksets-021417-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-13-1-sets_and_weaksets-021417-1-sm.jpg",
+          "title": "Sets and WeakSets",
+          "transcript": "",
+          "vimeoId": "204914519"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at using Maps and WeakMaps in ES6. They start by explaining what Maps are and showing you their basic use and attributes. Then they define and demonstrate the use of WeakMaps which are very similar to regular Maps, but with some important distinctions.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-14-1-maps_and_weakmaps-021417-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-14-1-maps_and_weakmaps-021417-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-newfeaturesines6/techskills-newfeaturesines6-14-1-maps_and_weakmaps-021417-1-sm.jpg",
+          "title": "Maps and WeakMaps",
+          "transcript": "",
+          "vimeoId": "204909801"
+        }
+      ],
+      "title": "New Features in ES6"
+    }
+  ],
+  "url": "featureses6",
+  "vLab": false
+}

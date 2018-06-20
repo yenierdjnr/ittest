@@ -1,0 +1,58 @@
+{
+  "description": "In this series, Daniel and Justin will take you from start to finish through setting up a Ubuntu based OpenVPN server in AWS and an Ubuntu client. They show you how to set the proper firewall configurations, install OpenVPN on the server, install Easy-RSA on the server, configure the Certificate Authority(CA), generate both server and client keys, configure the server.conf and client.ovpn files, and finally make a VPN connection. They also look at few problems/errors that you may encounter and explain the appropriate troubleshooting techniques to resolve them.",
+  "descriptionMD": "In this series, Daniel and Justin will take you from start to finish through setting up a Ubuntu based OpenVPN server in AWS and an Ubuntu client. They show you how to set the proper firewall configurations, install OpenVPN on the server, install Easy-RSA on the server, configure the Certificate Authority(CA), generate both server and client keys, configure the server.conf and client.ovpn files, and finally make a VPN connection. They also look at few problems/errors that you may encounter and explain the appropriate troubleshooting techniques to resolve them.",
+  "length": "6319",
+  "name": "OpenVPN in Linux",
+  "practiceExam": false,
+  "subtitle": "Virtual Private Network in Linux",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Daniel discuss the  some of the prerequisites for using OpenVPN such as the following: updating and upgrading the EC2 instance, modifying the security group to allow access, obtaining a sample configuration file, and modifying the configuration file.",
+          "length": "1502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-1-install_configure_openvpn_in_linux-080417-PGM.00_24_49_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-1-install_configure_openvpn_in_linux-080417-PGM.00_24_49_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-1-install_configure_openvpn_in_linux-080417-PGM.00_24_49_01.Still001-sm.jpg",
+          "title": "Install / Configure OpenVPN in Linux",
+          "transcript": "",
+          "vimeoId": "228658068"
+        },
+        {
+          "description": "In this episode, Justin and Daniel discuss the  some of the prerequisites for using OpenVPN such as the following: enabling ip forwarding, configure UncomplicatedFirewall (ufw) to ensure that traffic can make it to the server, added rules to enable packet forwarding, IP masquerading, and NAT, as well as generate the certificate authority, the server keys and the Diffie-Hellman pem file.",
+          "length": "1715",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-2-install_configure_openvpn_in_linux_pt2-080417-PGM.00_54_55_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-2-install_configure_openvpn_in_linux_pt2-080417-PGM.00_54_55_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-2-install_configure_openvpn_in_linux_pt2-080417-PGM.00_54_55_15.Still001-sm.jpg",
+          "title": "Install / Configure OpenVPN in Linux Part 2",
+          "transcript": "",
+          "vimeoId": "228658196"
+        },
+        {
+          "description": "In this episode, Justin and Daniel explore creating and distributing those keys to the client. Daniel demonstrates creating OpenVPN client configurations.",
+          "length": "1295",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-3-install_configure_openvpn_in_linux_pt3-080717-PGM.00_21_19_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-3-install_configure_openvpn_in_linux_pt3-080717-PGM.00_21_19_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-3-install_configure_openvpn_in_linux_pt3-080717-PGM.00_21_19_20.Still001-sm.jpg",
+          "title": "Install / Configure OpenVPN in Linux Part 3",
+          "transcript": "",
+          "vimeoId": "228813287"
+        },
+        {
+          "description": "In this episode, Justin and Daniel continue configuring the OpenVPN client. Daniel also demonstrates some of the troubleshooting that you may have to work through when setting up OpenVPN.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-4-install_configure_openvpn_in_linux_pt4-080717-PGM.00_29_51_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-4-install_configure_openvpn_in_linux_pt4-080717-PGM.00_29_51_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-openvpninlinux/techskills-openvpninlinux-1-1-4-install_configure_openvpn_in_linux_pt4-080717-PGM.00_29_51_00.Still001-sm.jpg",
+          "title": "Install / Configure OpenVPN in Linux Part 4",
+          "transcript": "",
+          "vimeoId": "228813473"
+        }
+      ],
+      "title": "OpenVPN in Linux"
+    }
+  ],
+  "url": "openvpnlinux",
+  "vLab": false
+}

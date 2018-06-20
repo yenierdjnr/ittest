@@ -1,0 +1,738 @@
+{
+  "description": "Description: Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA covers topics that will help the learner ensure their computing environment is functional and stable.",
+  "descriptionMD": "Description: Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA covers topics that will help the learner ensure their computing environment is functional and stable.",
+  "length": "129220",
+  "name": "MCSA Windows Server 2016 - 70-742",
+  "practiceExam": true,
+  "subtitle": "Identity with Windows Server 2016",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
+          "length": "143",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-0-0-overview-090617-PGM.00_00_08_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-0-0-overview-090617-PGM.00_00_08_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-0-0-overview-090617-PGM.00_00_08_07.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "232828336"
+        },
+        {
+          "description": "In this show, Cherokee and Adam introduce several fundamental components of an Active Directory Directory Services infrastructure. Adam also explains the difference between physical and logical AD DS components.",
+          "length": "2323",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-1-install_configure_domain_controllers-080717-PGM.00_38_26_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-1-install_configure_domain_controllers-080717-PGM.00_38_26_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-1-install_configure_domain_controllers-080717-PGM.00_38_26_08.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers",
+          "transcript": "",
+          "vimeoId": "228812007"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue defining AD DS components. Specifically, the look the the five Flexible Single Master Operations (FSMO) roles. They explain what each one is responsible for and to what level (domain or forest) they are applied.",
+          "length": "2486",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-2-install_configure_domain_controllers_pt2-080717-PGM.00_41_08_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-2-install_configure_domain_controllers_pt2-080717-PGM.00_41_08_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-2-install_configure_domain_controllers_pt2-080717-PGM.00_41_08_20.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers Part 2",
+          "transcript": "",
+          "vimeoId": "228811030"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue to speak about FSMO roles. However, in this episode Adam begins by explain Adam differentiates between transferring and seizing roles and why we would want to distribute them throughout our environment.",
+          "length": "1601",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-3-install_configure_domain_controllers_pt3-080717-PGM.00_26_23_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-3-install_configure_domain_controllers_pt3-080717-PGM.00_26_23_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-3-install_configure_domain_controllers_pt3-080717-PGM.00_26_23_22.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers Part 3",
+          "transcript": "",
+          "vimeoId": "228810196"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee take a look at what is new in server 2016. First, Adam explains Privileged Access Management (PAM), followed by Azure AD join and Microsoft Passport/Windows Hello for Business. They also explain various management tolls available.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-4-install_configure_domain_controllers_pt4-080717-PGM.00_31_18_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-4-install_configure_domain_controllers_pt4-080717-PGM.00_31_18_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-1-4-install_configure_domain_controllers_pt4-080717-PGM.00_31_18_08.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers Part 4",
+          "transcript": "",
+          "vimeoId": "228809340"
+        },
+        {
+          "description": "In this show, Adam demonstrates how to set up Domain Controller using PowerShell. First, he installs the AD DS followed by the Domain service. Adam also demonstrates how to create a forest.",
+          "length": "2352",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-080817-PGM.00_01_30_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-080817-PGM.00_01_30_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-080817-PGM.00_01_30_08.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers Part 5",
+          "transcript": "",
+          "vimeoId": "228968492"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue discussing domain components. First, Adam explains the AD DS sign in process. Next, he breaks down the structure of a SID followed by pre-installation considerations of a  domain controller. Tune in for all this and more!",
+          "length": "1679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001-sm.jpg",
+          "title": "Install / Configure Domain Controllers Part 6",
+          "transcript": "",
+          "vimeoId": "229131322"
+        },
+        {
+          "description": "Tune in to watch a demonstration and learn how to install AD DS on Server Core.",
+          "length": "1141",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-2-install_ad_ds_on_server_core-080817-PGM.00_18_49_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-2-install_ad_ds_on_server_core-080817-PGM.00_18_49_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-2-install_ad_ds_on_server_core-080817-PGM.00_18_49_21.Still001-sm.jpg",
+          "title": "Install AD DS on Server Core",
+          "transcript": "",
+          "vimeoId": "229278589"
+        },
+        {
+          "description": "Tune in to watch a demonstration and learn how to configure a global catalog server.",
+          "length": "1310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-3-configuring_a_global_catalog_server-080817-PGM.00_31_19_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-3-configuring_a_global_catalog_server-080817-PGM.00_31_19_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-3-configuring_a_global_catalog_server-080817-PGM.00_31_19_27.Still001-sm.jpg",
+          "title": "Configuring a Global Catalog Server",
+          "transcript": "",
+          "vimeoId": "228967734"
+        },
+        {
+          "description": "Tune in to watch a demonstration and learn how to manage DNS Service Records.",
+          "length": "1319",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-4-manage_dns_srv_records-080817-PGM.00_22_50_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-4-manage_dns_srv_records-080817-PGM.00_22_50_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-4-manage_dns_srv_records-080817-PGM.00_22_50_05.Still001-sm.jpg",
+          "title": "Manage DNS SRV Records",
+          "transcript": "",
+          "vimeoId": "228966919"
+        },
+        {
+          "description": "In this show, Cherokee and Adam discuss and demonstrate transferring as well as seizing FSMO Roles.",
+          "length": "2283",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-090117-PGM.00_38_33_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-090117-PGM.00_38_33_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-5-transferring_and_seizing_fsmo_roles-090117-PGM.00_38_33_17.Still001-sm.jpg",
+          "title": "Transferring and Seizing FSMO Roles",
+          "transcript": "",
+          "vimeoId": "232485634"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee  discuss and demonstrate how to clone a Domain Controller.",
+          "length": "2405",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-6-domain_controller_cloning-080817-PGM.00_41_18_23.Still001-sm.jpg",
+          "title": "Domain Controller Cloning",
+          "transcript": "",
+          "vimeoId": "229129384"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explain what it means to Install From Media (IFM) and when it may be optimal to do so. Watch Adam walk thru the process step by step.",
+          "length": "1985",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-7-installing_a_domain_controller_using_ifm-080917.00_32_50_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-7-installing_a_domain_controller_using_ifm-080917.00_32_50_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-7-installing_a_domain_controller_using_ifm-080917.00_32_50_21.Still001-sm.jpg",
+          "title": "Installing a Domain Controller using IFM",
+          "transcript": "",
+          "vimeoId": "229278807"
+        },
+        {
+          "description": "In this show, Cherokee and Adam explain what a Read Only Domain Controller is and why is would be feasible to set one up. Factors such as security, budget, even bandwidth may all play into a decision to set one up. Tune in now to watch a step by step demonstration.",
+          "length": "1354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-8-installing_a_read_only_domain_controller-080917-PGM.00_22_50_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-8-installing_a_read_only_domain_controller-080917-PGM.00_22_50_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-1-8-installing_a_read_only_domain_controller-080917-PGM.00_22_50_00.Still001-sm.jpg",
+          "title": "Installing a Read Only Domain Controller",
+          "transcript": "",
+          "vimeoId": "229131108"
+        }
+      ],
+      "title": "Installing and configuring domain controllers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam discuss what an object is and how different attributes and values can be set. Adam walks thru various tabs within the Active Directory Users and Computers tool.",
+          "length": "1929",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-1-managing_objects_in_ad_ds-080917-PGM.00_35_27_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-1-managing_objects_in_ad_ds-080917-PGM.00_35_27_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-1-managing_objects_in_ad_ds-080917-PGM.00_35_27_20.Still001-sm.jpg",
+          "title": "Managing Objects in AD DS",
+          "transcript": "",
+          "vimeoId": "229130828"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue a previous discussion on objects within AD DS. First, Adam explains the purpose of a user profile and the different values that can be used for custom settings. Adam shows the profile path, logon script, and home folder as well as explaining their functions. They also talk about how group policy can be used to profiles as well as how to create templates.",
+          "length": "2007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-2-managing_objects_in_ad_ds_pt2-080917-PGM.00_41_53_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-2-managing_objects_in_ad_ds_pt2-080917-PGM.00_41_53_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-2-managing_objects_in_ad_ds_pt2-080917-PGM.00_41_53_09.Still001-sm.jpg",
+          "title": "Managing Objects in AD DS Part 2",
+          "transcript": "",
+          "vimeoId": "229130495"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue to examine AD DS Objects. Specifically, they take a look at AD DS Groups. Adam explains and demonstrate Distribution and Security groups. They also explain group scopes to help you logically create groups.",
+          "length": "2292",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-3-managing_objects_in_ad_ds_pt3-081017.00_37_51_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-3-managing_objects_in_ad_ds_pt3-081017.00_37_51_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-3-managing_objects_in_ad_ds_pt3-081017.00_37_51_29.Still001-sm.jpg",
+          "title": "Managing Objects in AD DS Part 3",
+          "transcript": "",
+          "vimeoId": "229565731"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue to speak about AD DS groups. Adam , show how to create a custom MMC to help create group policies. Restricted groups, Built-in groups, special identities and protected groups are also explained.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001-sm.jpg",
+          "title": "Managing Object in AD DS Part 4",
+          "transcript": "",
+          "vimeoId": "229279583"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam start the show by demonstrating how to pre-stage a computer account. Adam also reminds and demonstrates the various tools available to reset the secure channel.",
+          "length": "1453",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-5-managing_objects_in_ad_ds_pt5-081017-PGM.00_28_34_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-5-managing_objects_in_ad_ds_pt5-081017-PGM.00_28_34_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-5-managing_objects_in_ad_ds_pt5-081017-PGM.00_28_34_04.Still001-sm.jpg",
+          "title": "Managing Object in AD DS Part 5",
+          "transcript": "",
+          "vimeoId": "229279314"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explain how to use PowerShell to perform several administrative tasks. Adam demonstrates hoe to create users and groups via PowerShell. He also shows management cmdlets and ways to manipulate the syntax to define filter requests and more!",
+          "length": "2368",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-6-managing_objects_in_ad_ds_pt6-081017-PGM.00_39_24_14.Still001-sm.jpg",
+          "title": "Managing Objects in AD DS Part 6",
+          "transcript": "",
+          "vimeoId": "229315717"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam start the show by explaining how to prevent accidental deletion. Next, they look at permissions, Discretionary Access Control List (DACLs) ans Security Access Control Lists (SACLs)",
+          "length": "1801",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-7-managing_objects_in_ad_ds_pt7-081017-PGM.00_34_19_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-7-managing_objects_in_ad_ds_pt7-081017-PGM.00_34_19_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-2-1-7-managing_objects_in_ad_ds_pt7-081017-PGM.00_34_19_29.Still001-sm.jpg",
+          "title": "Managing Objects in AD DS Part 7",
+          "transcript": "",
+          "vimeoId": "229274406"
+        }
+      ],
+      "title": "Managing objects in AD DS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee begin by explaining and defining logical boundaries with in AD DS. Understanding the domain boundries such as replication, administration, Group Policy, audit and password/account policy boundaries are esential for advanced AD DS management. Tune in for more!",
+          "length": "1548",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-1-advanced_ad_ds_infrastructure_management-081017-PGM.00_25_32_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-1-advanced_ad_ds_infrastructure_management-081017-PGM.00_25_32_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-1-advanced_ad_ds_infrastructure_management-081017-PGM.00_25_32_13.Still001-sm.jpg",
+          "title": "Advanced AD DS Infrastructure Mgmt",
+          "transcript": "",
+          "vimeoId": "229564610"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue discussing advanced AD DS management concepts. They begin by explaining when it may be optimal to create mutli-domain environments compared to multi-forest designs. Adam also explains considerations to note if utilizing AD DS in Azure.",
+          "length": "1689",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-2-advanced_ad_ds_infrastructure_management_pt2-081017-PGM.00_27_53_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-2-advanced_ad_ds_infrastructure_management_pt2-081017-PGM.00_27_53_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-2-advanced_ad_ds_infrastructure_management_pt2-081017-PGM.00_27_53_10.Still001-sm.jpg",
+          "title": "Advanced AD DS Infrastructure Mgmt Part 2",
+          "transcript": "",
+          "vimeoId": "229566107"
+        },
+        {
+          "description": "In this show, Cherokee and Adam begin discussing the Active Directory Management Tool (ADMT). They talk about the importance of utilizing the SID history attribute. They also reference other considerations such as DNS components to remember during a migration.",
+          "length": "2210",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-3-advanced_ad_ds_infrastructure_management_pt3-081117.00_36_36_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-3-advanced_ad_ds_infrastructure_management_pt3-081117.00_36_36_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-1-3-advanced_ad_ds_infrastructure_management_pt3-081117.00_36_36_20.Still001-sm.jpg",
+          "title": "Advanced AD DS Infrastructure Mgmt Part 3",
+          "transcript": "",
+          "vimeoId": "229565285"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee discuss AD DS Trust Types. They explain what one-way, two-way, and  transitive trusts in a demonstration and special guest appearance. Adam also explains additional trust types as well as demonstrates how to set one up.",
+          "length": "2243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-2-configuring_a_forest_trust_relationship-081117-PGM.00_37_05_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-2-configuring_a_forest_trust_relationship-081117-PGM.00_37_05_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-2-configuring_a_forest_trust_relationship-081117-PGM.00_37_05_08.Still001-sm.jpg",
+          "title": "Configuring a Forest Trust Relationship",
+          "transcript": "",
+          "vimeoId": "229703888"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue to configure trust relationships. First, they remove existing trust that was created in the previous show. Adam then demonstrates how to create an external trust. He walks through the process step by step covering details such as SID filtering.",
+          "length": "1206",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-3-creating_an_external_trust-081117-PGM.00_20_02_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-3-creating_an_external_trust-081117-PGM.00_20_02_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-3-creating_an_external_trust-081117-PGM.00_20_02_00.Still001-sm.jpg",
+          "title": "Creating an External Trust",
+          "transcript": "",
+          "vimeoId": "229565603"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explains how name suffix routing is a mechanism for managing how authentication requests route across forests joined with trusts. Tune in tho watch Adam demonstrate a step by step walk through and explain how it helps allow or block authentication.",
+          "length": "709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-4-name_suffix_routing-081117-PGM.00_11_32_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-4-name_suffix_routing-081117-PGM.00_11_32_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-3-4-name_suffix_routing-081117-PGM.00_11_32_27.Still001-sm.jpg",
+          "title": "Name Suffix Routing",
+          "transcript": "",
+          "vimeoId": "229703819"
+        }
+      ],
+      "title": "Advanced AD DS infrastructure management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee explain different partitions associated with AD DS. Learn the difference between configuration, schema, domain, and application partitions. Adam also demonstrates how to use the ADSI edit tool.",
+          "length": "1862",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-1-ad_ds_sites_and_replication-081217-PGM.00_30_46_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-1-ad_ds_sites_and_replication-081217-PGM.00_30_46_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-1-ad_ds_sites_and_replication-081217-PGM.00_30_46_13.Still001-sm.jpg",
+          "title": "AD DS Sites and Replication",
+          "transcript": "",
+          "vimeoId": "229703627"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam build upon the previous shows conversation by exploring further into site and replication. First, Adam explain what a  site is and how connection objects relate to the replication process. Adam explains the function of the Knowledge Consistency Checker (KCC) as well as the way the changes are shared through polling.",
+          "length": "2081",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-2-ad_ds_sites_and_replication_pt2-081217-PGM.00_34_24_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-2-ad_ds_sites_and_replication_pt2-081217-PGM.00_34_24_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-2-ad_ds_sites_and_replication_pt2-081217-PGM.00_34_24_07.Still001-sm.jpg",
+          "title": "AD DS Sites and Replication Part 2",
+          "transcript": "",
+          "vimeoId": "229703441"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue explaining how replication occurs. They provide three situations in which conflicts may occur and what happens behind the scenes to provide conflict resolution. Adam shares how the version number, time stamp and GUID are all going to play a role in determining the change that will remain. Next Adam demonstrates how to use the sires and services tool to perform management actives.",
+          "length": "1926",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-3-ad_ds_sites_and_replication_pt3-081217-PGM.00_31_49_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-3-ad_ds_sites_and_replication_pt3-081217-PGM.00_31_49_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-3-ad_ds_sites_and_replication_pt3-081217-PGM.00_31_49_26.Still001-sm.jpg",
+          "title": "AD DS Sites and Replication Part 3",
+          "transcript": "",
+          "vimeoId": "229702987"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue exploring AD DS sites and replication. First Adam explains how Distributed File System (DFS) replaced File Replication Service (FRS) and how one can force a migration OS version contingent. Next, Adam explains what a site link is  as well as demonstrating the process creating and configuring one. The repadmin tool, dcdiag.exe tool and sitelink bridging are also explained.",
+          "length": "3138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-4-ad_ds_sites_and_replication_pt4-081217-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-4-ad_ds_sites_and_replication_pt4-081217-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-4-1-4-ad_ds_sites_and_replication_pt4-081217-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "AD DS Site and Replication Part 4",
+          "transcript": "",
+          "vimeoId": "229704833"
+        }
+      ],
+      "title": "Implementing and administering AD DS sites and replication"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Cherokee introduce Group Policy. They cover fundamentals and encourage the study and use of group policy to get hands on experience. Adam demonstrates how to access local policy in a Windows 10 machine as well as domain policy on a domain controller to see how the interfaces differ. He walks thru the interface showing basics such as templates, RSOP and more!  He also shows how to use a command line tool GPResult.exe.",
+          "length": "2378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-1-implementing_group_policy-082817-PGM.00_39_21_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-1-implementing_group_policy-082817-PGM.00_39_21_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-1-implementing_group_policy-082817-PGM.00_39_21_23.Still001-sm.jpg",
+          "title": "Implementing Group Policy",
+          "transcript": "",
+          "vimeoId": "231755821"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue discussing group policy. They explain the order of GPO inheritance. Adam demonstrates how to block, link, and delegate those policies to name a few.  He also shows how to re-link the default domain policy after blocking an OU level policy.",
+          "length": "2354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-2-implementing_group_policy_pt2-082817-PGM.00_39_01_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-2-implementing_group_policy_pt2-082817-PGM.00_39_01_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-2-implementing_group_policy_pt2-082817-PGM.00_39_01_15.Still001-sm.jpg",
+          "title": "Implementing Group Policy Part 2",
+          "transcript": "",
+          "vimeoId": "231536630"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue to discuss Group Policy. First, Adam shows where in the registry to look at the cached credential configuration. They also take about the 90-120 minute policy refresh interval. Adam shows how to modify this time frame. They also look at how to use GPUpdate to force and apply a policy among other configurations.",
+          "length": "1763",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-3-implementing_group_policy_pt3-082817-PGM.00_29_03_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-3-implementing_group_policy_pt3-082817-PGM.00_29_03_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-3-implementing_group_policy_pt3-082817-PGM.00_29_03_14.Still001-sm.jpg",
+          "title": "Implementing Group Policy Part 3",
+          "transcript": "",
+          "vimeoId": "231536081"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue discussing group policy. Adam demonstrates a new status feature located within GPMC. A demonstration of the Default Domain Policy and Default Domain Controllers Policy is shown as well as locating GPO's. Additional topics such as Security and WMI filtering is also touched upon.",
+          "length": "2070",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-4-implementing_group_policy_pt4-082817.00_34_15_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-4-implementing_group_policy_pt4-082817.00_34_15_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-4-implementing_group_policy_pt4-082817.00_34_15_19.Still001-sm.jpg",
+          "title": "Implementing Group Policy Part 4",
+          "transcript": "",
+          "vimeoId": "231537453"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee start the show by explaining and demonstrating how to create GPO backups. Remember not only can you backup and restore on a per policy basis, you can also manage as a whole. Adam also shows what a migration table editor is capable of doing in the event permissions are lost during a migration. They discuss a security update that effects the way security filters are related to the authenticated users group. Lastly, they discuss loopback policy processing.",
+          "length": "1905",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-5-implementing_group_policy_pt5-082817-PGM.00_31_27_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-5-implementing_group_policy_pt5-082817-PGM.00_31_27_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-5-implementing_group_policy_pt5-082817-PGM.00_31_27_08.Still001-sm.jpg",
+          "title": "Implementing Group Policy Part 5",
+          "transcript": "",
+          "vimeoId": "231755223"
+        },
+        {
+          "description": "In this show, Cherokee and Adam start the show covering RSoP. Adam shows where one would generate reporting log information. He also shows how to use a\"what if\" tool called Group Policy Modeling. He reiterates the use of the GPResult.exe tool as well as covers PowerShell cmdlets  used such as Get-GPResultantSetOfPolicy.",
+          "length": "1958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-6-implementing_group_policy_pt6-082817-PGM.00_34_14_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-6-implementing_group_policy_pt6-082817-PGM.00_34_14_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-5-1-6-implementing_group_policy_pt6-082817-PGM.00_34_14_20.Still001-sm.jpg",
+          "title": "Implementing Group Policy Part 6",
+          "transcript": "",
+          "vimeoId": "231754979"
+        }
+      ],
+      "title": "Implementing Group Policy"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Cherokee begin looking at ways to manage users via group policy. First, they look at administrative templates. They explore .adml and .admx file extensions. Adam also demonstrates how to filter options. Adam shows how to create a PolicyDefinitions folder if not using a central share.",
+          "length": "1689",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-1-managing_user_settings_with_group_policy-082817.00_27_55_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-1-managing_user_settings_with_group_policy-082817.00_27_55_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-1-managing_user_settings_with_group_policy-082817.00_27_55_07.Still001-sm.jpg",
+          "title": "Managing User Settings with Group Policy",
+          "transcript": "",
+          "vimeoId": "231754722"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue to examine managing users with Group Policy. After a short recap Adam demonstrates how to import a GPO using the Cross-Domain copying wizard to copy policies from one domain to another and how it integrates with the migration table editor.",
+          "length": "1791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-2-managing_user_settings_with_group_policy_pt2-082917.00_29_37_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-2-managing_user_settings_with_group_policy_pt2-082917.00_29_37_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-2-managing_user_settings_with_group_policy_pt2-082917.00_29_37_25.Still001-sm.jpg",
+          "title": "Managing User Settings with Group Policy Part 2",
+          "transcript": "",
+          "vimeoId": "231754473"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue to explore the feature rich GPMC interface and highlights Security templates, way to import/export these templates. They also look at a tools such Security Compliance Manager (SCM) and ADMX Migrator.",
+          "length": "2111",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-3-managing_user_settings_with_group_policy_pt3-082917.00_34_57_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-3-managing_user_settings_with_group_policy_pt3-082917.00_34_57_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-3-managing_user_settings_with_group_policy_pt3-082917.00_34_57_09.Still001-sm.jpg",
+          "title": "Managing User Settings with Group Policy Part 3",
+          "transcript": "",
+          "vimeoId": "231754149"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue to examine managing users with Group Policy. Adam demonstrates how to set up folder redirection and explains how to troubleshoot some issues that may arise. Next, they discuss how a preference differs from a policy. Adam also demonstrates how to manage software with Group Policy.",
+          "length": "2502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-4-managing_user_settings_with_group_policy_pt4-082917-CLN.00_41_24_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-4-managing_user_settings_with_group_policy_pt4-082917-CLN.00_41_24_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-4-managing_user_settings_with_group_policy_pt4-082917-CLN.00_41_24_06.Still001-sm.jpg",
+          "title": "Managing User Settings with Group Policy Part 4",
+          "transcript": "",
+          "vimeoId": "231753529"
+        },
+        {
+          "description": "This shows kicks off with Adam and Cherokee walking through a demonstration where the documents folder is redirected to a central location. Next, Adam demonstrates how to setup up automation using scripts via GPMC.  Lastly, they spend more time discussing preferences.",
+          "length": "2015",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-5-managing_user_settings_with_group_policy_pt5-082917-PGM.00_33_17_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-5-managing_user_settings_with_group_policy_pt5-082917-PGM.00_33_17_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-6-1-5-managing_user_settings_with_group_policy_pt5-082917-PGM.00_33_17_01.Still001-sm.jpg",
+          "title": "Managing User Settings with Group Policy Part 5",
+          "transcript": "",
+          "vimeoId": "231753854"
+        }
+      ],
+      "title": "Managing user settings with Group Policy"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee encourage security awareness whilst using AD DS. First, Adam defines Default Domain Policy vs Default Domain Controllers Policy. Adam also navigates through the security settings in the Group Policy Manager.",
+          "length": "1650",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-1-securing_ad_ds-081217-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-1-securing_ad_ds-081217-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-1-securing_ad_ds-081217-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Securing AD DS",
+          "transcript": "",
+          "vimeoId": "229704596"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue talking about security in AD DS. First, restricted groups are explained followed by a demo showing how to create a restricted users group as well as a protected users group. Next, they look at fine-grained password policies. Adam defines password setting objects (PSOs) and how the policies are applied not at the OU level but rather at the group level. A PowersShell method is covered as well as using the GUI through ADAC.",
+          "length": "2010",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-2-securing_ad_ds_pt2-081217-PGM.00_33_14_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-2-securing_ad_ds_pt2-081217-PGM.00_33_14_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-2-securing_ad_ds_pt2-081217-PGM.00_33_14_09.Still001-sm.jpg",
+          "title": "Securing AD DS Part 2",
+          "transcript": "",
+          "vimeoId": "229704338"
+        },
+        {
+          "description": "In this show, Cherokee and Adam discuss managed service accounts (MSAs). Adam demonstrates how to create MSAs via PowerShell. Adam also shows how  to create a KDS root key.",
+          "length": "1875",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-3-securing_ad_ds_pt3-082917-PGM.00_31_51_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-3-securing_ad_ds_pt3-082917-PGM.00_31_51_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-1-3-securing_ad_ds_pt3-082917-PGM.00_31_51_09.Still001-sm.jpg",
+          "title": "Securing AD DS Part 3",
+          "transcript": "",
+          "vimeoId": "231753292"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss how to configure Password Replication Policy for RODCs. First, Adam shows the default allow and deny group settings. Next, he shows how to add a group to allow credential caching for both user user and computer accounts. Advanced settings are also shown to pre-populate account settings.",
+          "length": "1650",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-2-password_replication_policy_for_rodcs-081217-PGM.00_27_14_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-2-password_replication_policy_for_rodcs-081217-PGM.00_27_14_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-7-2-password_replication_policy_for_rodcs-081217-PGM.00_27_14_21.Still001-sm.jpg",
+          "title": "Password Replication Policy for RODCs",
+          "transcript": "",
+          "vimeoId": "229704155"
+        }
+      ],
+      "title": "Securing Active Directory Domain Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Adam introduce Active Directory Certificate Services. They begin defining components that make up a Public Key Infrastructure (PKI) to prepare you for the subsequent shows.",
+          "length": "1579",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-1-deploying_and_managing_ad_cs-082917.00_26_02_29.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-1-deploying_and_managing_ad_cs-082917.00_26_02_29.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-1-deploying_and_managing_ad_cs-082917.00_26_02_29.Still002-sm.jpg",
+          "title": "Deploying and Managing AD CS",
+          "transcript": "",
+          "vimeoId": "231755509"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue covering Active Directory Certificate Services. They recap the PKI infrastructure and explain reasons why or why not one would choose a specific topology or design. They look at the differences between standalone and enterprise CA,  considerations for configuring a root CA and how to create a CA via PowerShell.",
+          "length": "2451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-2-deploying_and_managing_ad_cs_pt2-083017-PGM.00_40_36_08.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-2-deploying_and_managing_ad_cs_pt2-083017-PGM.00_40_36_08.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-2-deploying_and_managing_ad_cs_pt2-083017-PGM.00_40_36_08.Still002-sm.jpg",
+          "title": "Deploying and Managing AD CS Part 2",
+          "transcript": "",
+          "vimeoId": "231882318"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam begin the show reiterating some vocab terms. Next Adam how to use the CAPolicy.inf file. They also set up a standalone CA via PowerShell.",
+          "length": "2275",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-3-deploying_and_managing_ad_cs_pt3-083017-PGM.00_37_36_18.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-3-deploying_and_managing_ad_cs_pt3-083017-PGM.00_37_36_18.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-3-deploying_and_managing_ad_cs_pt3-083017-PGM.00_37_36_18.Still002-sm.jpg",
+          "title": "Deploying and Managing AD CS Part 3",
+          "transcript": "",
+          "vimeoId": "231884001"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue covering Active Directory Certificate Services. First, Adam walks through the properties for credential roaming. Next, he shows and explains tabs s in the CA properties dialogue box, such as the exit and policy module options. Lastly, they discuss and demonstrate how to revoke a certificate.",
+          "length": "1954",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-4-deploying_and_managing_ad_cs_pt4-083017-PGM.00_32_21_08.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-4-deploying_and_managing_ad_cs_pt4-083017-PGM.00_32_21_08.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-4-deploying_and_managing_ad_cs_pt4-083017-PGM.00_32_21_08.Still002-sm.jpg",
+          "title": "Deploying and Managing AD CS Part 4",
+          "transcript": "",
+          "vimeoId": "231883153"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam begin explaining and demonstrating how to configure Certificate Revocation List (CRL) Distribution Points (CDPs) and Authority Information Access (AIA) locations. Next, they discuss common trouble shooting issues and share troubleshooting tools such as PKIView.msc, Certutil.exe various snap-ins and more!",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-5-deploying_and_managing_ad_cs_pt5-083017-PGM.00_32_03_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-5-deploying_and_managing_ad_cs_pt5-083017-PGM.00_32_03_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-5-deploying_and_managing_ad_cs_pt5-083017-PGM.00_32_03_02.Still001-sm.jpg",
+          "title": "Deploying and Managing AD CS Part 5",
+          "transcript": "",
+          "vimeoId": "231882760"
+        },
+        {
+          "description": "n this show, Adam and Cherokee kick off the show and explain why and how one would renew a certificate and what will happen if not properly planned for. Next, they also show how one would execute Back up and restore. Lastly, they look at different template versions and demonstrate how to duplicate a template for customization.",
+          "length": "2124",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-6-deploying_and_managing_ad_cs_pt6-083017-PGM.00_35_10_10.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-6-deploying_and_managing_ad_cs_pt6-083017-PGM.00_35_10_10.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-1-6-deploying_and_managing_ad_cs_pt6-083017-PGM.00_35_10_10.Still002-sm.jpg",
+          "title": "Deploying and Managing AD CS Part 6",
+          "transcript": "",
+          "vimeoId": "231883551"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue to discuss certificate services. Specifically, they look at ways to deploy and manage certificates. Adam creates a Secure User template and shows how to link a certificate through group policy to set up auto enrollment. Next, they talk about what an enrollment agent is where you would configure it.",
+          "length": "1984",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-1-auto_enrollment_and_key_archiving-083117-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-1-auto_enrollment_and_key_archiving-083117-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-1-auto_enrollment_and_key_archiving-083117-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "Auto Enrollment and Key Archiving",
+          "transcript": "",
+          "vimeoId": "232485158"
+        },
+        {
+          "description": "In this show, Cherokee and Adam continue discussing certificate services. Specifically, they examine key archivng.  Adam demonstrates the steps to create a Key Recovery Agent (KRA). Adam makes sure you understand that you must enable this functionality on both the CA and the specific certificate templates.",
+          "length": "2655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-2-auto_enrollment_and_key_archiving_pt2-083117-PGM.00_43_55_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-2-auto_enrollment_and_key_archiving_pt2-083117-PGM.00_43_55_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-2-2-auto_enrollment_and_key_archiving_pt2-083117-PGM.00_43_55_06.Still001-sm.jpg",
+          "title": "Auto Enrollment and Key Archiving Part 2",
+          "transcript": "",
+          "vimeoId": "232484578"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee walk through the steps of how to configure the template for Online Certificate Status Protocol (OCSP) response and configure the online responder feature. Adam also demonstrates how to add responder configurations.",
+          "length": "1909",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-3-install_and_configure_online_responder-083117-PGM.00_31_32_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-3-install_and_configure_online_responder-083117-PGM.00_31_32_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-8-3-install_and_configure_online_responder-083117-PGM.00_31_32_17.Still001-sm.jpg",
+          "title": "Install and Configure Online Responder",
+          "transcript": "",
+          "vimeoId": "232484887"
+        }
+      ],
+      "title": "Deploying and managing AD CS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Adam set the stage for Active Directory Federation Services. They discuss key terms and components to prepare you for the upcoming shows.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-implementing_and_administering_ad_fs-083117-PGM.00_28_16_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-implementing_and_administering_ad_fs-083117-PGM.00_28_16_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-implementing_and_administering_ad_fs-083117-PGM.00_28_16_23.Still001-sm.jpg",
+          "title": "Implementing and Administering AD FS",
+          "transcript": "",
+          "vimeoId": "232484272"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam recap what Active Directory Federation Services. Adam show how to install and configure ADFS.",
+          "length": "2427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-2-implementing_and_administering_ad_fs_pt2-090117-PGM.00_44_03_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-2-implementing_and_administering_ad_fs_pt2-090117-PGM.00_44_03_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-2-implementing_and_administering_ad_fs_pt2-090117-PGM.00_44_03_14.Still001-sm.jpg",
+          "title": "Implementing and Administering AD FS Part 2",
+          "transcript": "",
+          "vimeoId": "232482971"
+        },
+        {
+          "description": "In this show, Adam and Cherokee continue discussing ADFS. First, Adam addresses a question in the chat referencing certificates. Adam shows what to doif you need to modify an existing certification. Next, Adam demonstrates how to add a relying party trust.",
+          "length": "2163",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-3-implementing_and_administering_ad_fs_pt3-090117-PGM.00_36_18_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-3-implementing_and_administering_ad_fs_pt3-090117-PGM.00_36_18_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-3-implementing_and_administering_ad_fs_pt3-090117-PGM.00_36_18_15.Still001-sm.jpg",
+          "title": "Implementing and Administering AD FS Part 3",
+          "transcript": "",
+          "vimeoId": "232828689"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue to configure ADFS. Specifically, Adam shows how to set up the claim provider trust.",
+          "length": "578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-4-implementing_and_administering_ad_fs_pt4-090117.00_09_25_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-4-implementing_and_administering_ad_fs_pt4-090117.00_09_25_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-4-implementing_and_administering_ad_fs_pt4-090117.00_09_25_06.Still001-sm.jpg",
+          "title": "Implementing and Administering AD FS Part 4",
+          "transcript": "",
+          "vimeoId": "232828602"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam welcome you back to another conversation surrounding Active Directory Federation Services. Adam first recaps the concepts and explains the holistic approach demonstrated in the previous few shows.  He also expounds on web application proxies.",
+          "length": "2272",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-5-implementing_and_administering_ad_fs_pt5-090517-PGM.00_37_36_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-5-implementing_and_administering_ad_fs_pt5-090517-PGM.00_37_36_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-9-1-5-implementing_and_administering_ad_fs_pt5-090517-PGM.00_37_36_07.Still001-sm.jpg",
+          "title": "Implementing and Administering AD FS Part 5",
+          "transcript": "",
+          "vimeoId": "232675046"
+        }
+      ],
+      "title": "Implementing and administering AD FS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam Introduce Active Directory Rights Management Service. Adam explains the concept and underpinning key architecture. They also discuss other components such as the AD RMS sever, client and AD RMS-enabled apps.",
+          "length": "1490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-1-implementing_and_administering_ad_rms-090517.00_24_36_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-1-implementing_and_administering_ad_rms-090517.00_24_36_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-1-implementing_and_administering_ad_rms-090517.00_24_36_19.Still001-sm.jpg",
+          "title": "Implementing and Administering AD RMS",
+          "transcript": "",
+          "vimeoId": "232827521"
+        },
+        {
+          "description": "In this show, Cherokee and Adam take time to provide a deep explanation of the AD RMS process and explain certain scenarios one may want to use this technology. Tune in to learn the nine step process.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-2-implementing_and_administering_ad_rms_pt2-090617.00_28_22_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-2-implementing_and_administering_ad_rms_pt2-090617.00_28_22_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-2-implementing_and_administering_ad_rms_pt2-090617.00_28_22_27.Still001-sm.jpg",
+          "title": "Implementing and Administering AD RMS Part 2",
+          "transcript": "",
+          "vimeoId": "232827748"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee use process explained in the previous show to walk through a demonstration on how to set up AD RMS. Topics covered include  certificates, licences, how to create a super users group and more!",
+          "length": "2254",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-3-implementing_and_administering_ad_rms_pt3-090617.00_41_28_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-3-implementing_and_administering_ad_rms_pt3-090617.00_41_28_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-3-implementing_and_administering_ad_rms_pt3-090617.00_41_28_24.Still001-sm.jpg",
+          "title": "Implementing and Administering AD RMS Part 3",
+          "transcript": "",
+          "vimeoId": "232827964"
+        },
+        {
+          "description": "In this show, Cherokee and Adam begin explaining and demonstrating how to a create distributed rights policy template. You will see additional configuration options such as  how to create an exclusion policy and  view a trust policy.",
+          "length": "2114",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-4-implementing_and_administering_ad_rms_pt4-090617-CLN.00_34_57_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-4-implementing_and_administering_ad_rms_pt4-090617-CLN.00_34_57_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-10-1-4-implementing_and_administering_ad_rms_pt4-090617-CLN.00_34_57_24.Still001-sm.jpg",
+          "title": "Implementing and Administering AD RMS Part 4",
+          "transcript": "",
+          "vimeoId": "232828364"
+        }
+      ],
+      "title": "Implementing and administering AD RMS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee begin by showing NTDS files and locations to be familiar with. Next, Adam uses NTDSUtil.exe to simulate a failure by shutting down the Domain Controller and removing the failed object, often called a metadata cleanup. He also explains what restart-able AD DS is and the three sates available.",
+          "length": "1966",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-1-maintain_the_ad_ds-090517.00_32_31_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-1-maintain_the_ad_ds-090517.00_32_31_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-1-maintain_the_ad_ds-090517.00_32_31_17.Still001-sm.jpg",
+          "title": "Maintain the AD DS",
+          "transcript": "",
+          "vimeoId": "232677139"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss restore and recovery options. First, Adam demonstrates how to create and use Active Directory snapshots. He also shows how to enable the Active Directory Recycle Bin and why that can be such an important tool in the event of an accidental deletion.",
+          "length": "2433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-2-maintain_the_ad_ds_pt2-090517.00_40_18_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-2-maintain_the_ad_ds_pt2-090517.00_40_18_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-2-maintain_the_ad_ds_pt2-090517.00_40_18_23.Still001-sm.jpg",
+          "title": "Maintain the AD DS Part 2",
+          "transcript": "",
+          "vimeoId": "232676613"
+        },
+        {
+          "description": "In this show, Adam and Cherokee begin by demonstrating how to create a backup and other helpful features such as the accidental deletion prevention option. Adam shows how to use MSConfig.exe to reboot into Restore Mode to demonstrate a normal and authoritative restore.",
+          "length": "2903",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-3-maintain_the_ad_ds_pt3-090517.00_48_07_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-3-maintain_the_ad_ds_pt3-090517.00_48_07_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70742/microsoft-server70742-11-1-3-maintain_the_ad_ds_pt3-090517.00_48_07_24.Still001-sm.jpg",
+          "title": "Maintain the AD DS Part 3",
+          "transcript": "",
+          "vimeoId": "232677520"
+        }
+      ],
+      "title": "Monitoring, managing, and recovering AD DS"
+    }
+  ],
+  "url": "mcsa-windows-server-2016-70742",
+  "vLab": false
+}

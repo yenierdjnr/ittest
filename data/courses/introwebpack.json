@@ -1,0 +1,88 @@
+{
+  "description": "In the fast-paced world of web development, particularly in the realm of JavaScript rich applications, the need for build tools have become commonplace. Webpack is a newer build tool that has moved into the spotlight with the use of React and other JavaScript frameworks. In this series, we will show you how to take ownership of your webpack configuration and setup to manage the transpilation of new JavaScript features to more compatible versions, manage static assets such as images, and add the use of CSS with and without preprocessing. If you want to remove the magic of Webpack, then join us!",
+  "descriptionMD": "In the fast-paced world of web development, particularly in the realm of JavaScript rich applications, the need for build tools have become commonplace. Webpack is a newer build tool that has moved into the spotlight with the use of React and other JavaScript frameworks. In this series, we will show you how to take ownership of your webpack configuration and setup to manage the transpilation of new JavaScript features to more compatible versions, manage static assets such as images, and add the use of CSS with and without preprocessing. If you want to remove the magic of Webpack, then join us!",
+  "length": "10046",
+  "name": "Intro to Webpack",
+  "practiceExam": false,
+  "subtitle": "Modern build processes",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In the fast-paced world of web development, particularly in the realm of JavaScript rich applications, the need for build tools have become commonplace. Webpack is a newer build tool that has moved into the spotlight with the use of React and other JavaScript frameworks. In this series, we will show you how to take ownership of your webpack configuration and setup to manage the transpilation of new JavaScript features to more compatible versions, manage static assets such as images, and add the use of CSS with and without preprocessing. If you want to remove the magic of Webpack, then join us!",
+          "length": "97",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-0-0-0-overview-102717-PGM.00_00_12_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-0-0-0-overview-102717-PGM.00_00_12_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-0-0-0-overview-102717-PGM.00_00_12_15.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "240543488"
+        },
+        {
+          "description": "In this episode, Justin and John start exploring the build tool called webpack.  John discusses the necessary prerequsites for getting with webpack, what webpack's purpose is, and how to create our very first webpack configuration and build.",
+          "length": "1234",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-1-1-1-laying_the_first_lines-102517-PGM.00_20_24_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-1-1-1-laying_the_first_lines-102517-PGM.00_20_24_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-1-1-1-laying_the_first_lines-102517-PGM.00_20_24_23.Still001-sm.jpg",
+          "title": "Laying the First Lines",
+          "transcript": "",
+          "vimeoId": "240014312"
+        },
+        {
+          "description": "In this episode, Justin and John start looking at several of the core features that webpack provides. John explores bundling multiple files into a single file, generating source maps for ease of development, and minification of JavaScript code.",
+          "length": "1674",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-2-1-1-the_big_idea-102517-PGM.00_27_44_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-2-1-1-the_big_idea-102517-PGM.00_27_44_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-2-1-1-the_big_idea-102517-PGM.00_27_44_13.Still001-sm.jpg",
+          "title": "The Big Idea",
+          "transcript": "",
+          "vimeoId": "240014604"
+        },
+        {
+          "description": "In this episode, Justin and John explore one of the more common uses of webpack, transpilation. John explores the setup that is necessary to transform newer ES2015 code into more widely supported ES5 (JavaScript), explores the necessity of using newer JavaScript code while supporting older browsers, and seeing how transpilation can play into other transformations such as JSX within the React community.",
+          "length": "1874",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-3-1-1-a-big-word-transpilation-102617-PGM.00_32_11_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-3-1-1-a-big-word-transpilation-102617-PGM.00_32_11_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-3-1-1-a-big-word-transpilation-102617-PGM.00_32_11_20.Still001-sm.jpg",
+          "title": "A Big Word, Transpilation",
+          "transcript": "",
+          "vimeoId": "240546450"
+        },
+        {
+          "description": "In this episode, Justin and John start diving into creating production deployment builds using the webpack build process that has been building over the previous few episodes including the change in debugging tooling available, passing environment variables as well as managing the build artifacts in a reproducible manner.",
+          "length": "1924",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-4-1-1-production-builds-102617-PGM.00_41_11_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-4-1-1-production-builds-102617-PGM.00_41_11_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-4-1-1-production-builds-102617-PGM.00_41_11_17.Still001-sm.jpg",
+          "title": "Production Builds",
+          "transcript": "",
+          "vimeoId": "240219446"
+        },
+        {
+          "description": "In this episode, Justin and John explore how to speed up our webpack builds during development as well as provide some nice tooling that will further speed up our development processes such as bundle analysis, busting caches for load performance, and the addition of polyfills. John further explains the use of npm scripts to make our build commands easier to reproduce.",
+          "length": "1761",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-5-1-1-develoment-builds-102717.00_29_09_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-5-1-1-develoment-builds-102717.00_29_09_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-5-1-1-develoment-builds-102717.00_29_09_27.Still001-sm.jpg",
+          "title": "Development Builds",
+          "transcript": "",
+          "vimeoId": "240543574"
+        },
+        {
+          "description": "In this episode, Justin and John explore the use of webpack to manage styling assets as well as provide transformations on the CSS of the application. John also demonstrates the use of webpack to manage images.",
+          "length": "1482",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-6-1-1-leaving-with-style-102717-PGM.00_24_36_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-6-1-1-leaving-with-style-102717-PGM.00_24_36_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebpack/techskills-introtowebpack-6-1-1-leaving-with-style-102717-PGM.00_24_36_28.Still001-sm.jpg",
+          "title": "Leaving with Style",
+          "transcript": "",
+          "vimeoId": "240544466"
+        }
+      ],
+      "title": "Intro to Webpack"
+    }
+  ],
+  "url": "introwebpack",
+  "vLab": false
+}

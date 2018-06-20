@@ -1,0 +1,343 @@
+{
+  "description": "The Amazon Web Services Certified SysOps Administrator (ACSA) certification is designed for professionals responsible for supporting deployments running in the AWS cloud. Topics covered include managing cloud based database instances, implementing security in the cloud and supporting virtual servers. The ACSA is an associate level certification intended as a starting point for technicians seeking AWS certification.",
+  "descriptionMD": "",
+  "length": "47849",
+  "name": "AWS Certified SysOps Administrator",
+  "practiceExam": false,
+  "subtitle": "ACSA",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Amazon Web Services Certified SysOps Administrator (ACSA) certification is designed for professionals responsible for supporting deployments running in the AWS cloud. Topics covered include managing cloud based database instances, implementing security in the cloud and supporting virtual servers. The ACSA is an associate level certification intended as a starting point for technicians seeking AWS certification.",
+          "length": "444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-0-overview-113017-PGM.00_00_05_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-0-overview-113017-PGM.00_00_05_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-0-overview-113017-PGM.00_00_05_27.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "245433709"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore security in Amazon Web Services, both what AWS implements to keep our environment secure as well as what the customer is responsible for. They begin with AWS security measures, specifically infrastructure security like, power redundancy, cooling, and proper data disposal. AWS also provides hardware redundancy, hypervisor isolation, and firewalling.",
+          "length": "2004",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-1-aws_security-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-1-aws_security-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-1-aws_security-111615-1-sm.jpg",
+          "title": "AWS Security",
+          "transcript": "",
+          "vimeoId": "146639216"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain what Identity and Access Management(IAM) is and the different components therein. They start by explaining the different types of credentials that can be used with IAM; things like passwords, access keys, key pairs, and x.509 certificates, then quickly touching on IAM users, groups, roles and policies. Then they discuss when you would use one form of access over the others and even when NOT to use an access type.",
+          "length": "1983",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-2-iam_components-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-2-iam_components-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-2-iam_components-111615-1-sm.jpg",
+          "title": "IAM Components",
+          "transcript": "",
+          "vimeoId": "146522883"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue explaining different Identity and Access Management(IAM) components, specifically access methods. The next access methods include using Root Keys, User Keys, and Multi-Factor authentication or MFA which adds security by increasing the number of authentication methods that must be satisfied before granting access.",
+          "length": "1379",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-3-iam_credentials-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-3-iam_credentials-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-3-iam_credentials-111615-1-sm.jpg",
+          "title": "IAM Credentials",
+          "transcript": "",
+          "vimeoId": "146522898"
+        },
+        {
+          "description": "In this episode, Daniel and Don dive further into the Identity and Access Management groups and roles. They start by explaining how access is granted to user accounts through their group membership. Then they explain how Roles allow you to grant access to users outside of your AWS systems. Finally they cover the Security Token Service(STS) to integrate federation services using Security Assertion Markup Language compatible systems like Microsoft Active Directory Federation Services and Shibboleth.",
+          "length": "1723",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-4-iam_groups_and_roles-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-4-iam_groups_and_roles-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-4-iam_groups_and_roles-111715-1-sm.jpg",
+          "title": "IAM Groups and Roles",
+          "transcript": "",
+          "vimeoId": "146522921"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain Identity and Access Management(IAM) security policies. They start by defining IAM security policies, both what they are and how they are implemented for granting access. Then they show you how to implement prebuilt security polices or create custom IAM security policies that are better suited for your environment.",
+          "length": "2058",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-5-iam_security_policies-111715-CLN.mp4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-5-iam_security_policies-111715-CLN.mp4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-5-iam_security_policies-111715-CLN.mp4-sm.jpg",
+          "title": "IAM Security Policies",
+          "transcript": "",
+          "vimeoId": "146522930"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore some of the additional security tools and practices available to you in Amazon Web Services. First they discuss the AWS Trusted Advisor tool which scans your system testing for best practices which helps you verify your IAM configuration and security. Then they go over the regulatory compliance (e.g. HIPPA/SOX) aspect of your AWS systems to help prepare you in the event your environment is subject to compliance auditing.",
+          "length": "861",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-6-additional_security_tools-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-6-additional_security_tools-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-1-6-additional_security_tools-111715-1-sm.jpg",
+          "title": "Additional Security Tools",
+          "transcript": "",
+          "vimeoId": "146523422"
+        }
+      ],
+      "title": "Identity & Access Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Daniel get into cloud networking with AWS Virtual Private Cloud(VPC). They begin by explaining what VPC is and how it works and then they jump right into creating and configuring a VPC. Once they get the VPC created they then show you how to get it connected to the internet.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-1-virtual_private_clouds-121815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-1-virtual_private_clouds-121815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-1-virtual_private_clouds-121815-1-sm.jpg",
+          "title": "Virtual Private Cloud",
+          "transcript": "",
+          "vimeoId": "150834853"
+        },
+        {
+          "description": "In this episode, Don and Daniel pick right back up with Virtual Private Clouds; specifically getting them internet connectivity. Then they explain how employ NAT to allow internet access while blocking outside exposure. They also show you other security measures like using network ACLs. Finally they touch upon AWS Direct Connect which allows you to connect on-premises networks to a VPC.",
+          "length": "2089",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-2-virtual_private_clouds_pt2-121815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-2-virtual_private_clouds_pt2-121815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-0-0-2-virtual_private_clouds_pt2-121815-1-sm.jpg",
+          "title": "Virtual Private Cloud Part 2",
+          "transcript": "",
+          "vimeoId": "150834858"
+        }
+      ],
+      "title": "Virtual Private Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don take a look at disk storage in EC2. They start off by describing Volume types, those being the Root volume and then any additional volumes. Then they look at Storage types in AWS; these being Instance Store, also known as Ephemeral storage, and Elastic Block Storage(EBS). They then move on to EC2 Storage Media which can be standard magnetic storage, General Purpose SSD, or Provisioned IOPS SSD and their attributes.",
+          "length": "1998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-1-ec2-disk_storage-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-1-ec2-disk_storage-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-1-ec2-disk_storage-121415-1-sm.jpg",
+          "title": "EC2 Disk Storage",
+          "transcript": "",
+          "vimeoId": "148922093"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue to take a look at disk storage in EC2. They pick up where they left off; looking at EC2 Storage Media attributes. They they show you how to allocate EC2 storage, walking you through each step and describing the options as they are encountered.",
+          "length": "1448",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-2-ec2-disk_storage_pt2-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-2-ec2-disk_storage_pt2-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-1-2-ec2-disk_storage_pt2-121415-1-sm.jpg",
+          "title": "EC2 Disk Storage Part 2",
+          "transcript": "",
+          "vimeoId": "148922105"
+        },
+        {
+          "description": "In this episode, Don and Daniel show you how to monitor your EC2 Instance performance. Watch here as they utilize CloudWatch to enable monitoring and explain how to interpret the data being displayed in CloudWatch. They also show you how to configure both system and instance status checks. Next they look at metrics available for Instances and EBS Volumes as well as Roles, which are used to assign access to CloudWatch. Also covered is setting up Alarms and the triggers that define them.",
+          "length": "1867",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-2-monitoring_ec2_performance-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-2-monitoring_ec2_performance-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-2-monitoring_ec2_performance-121415-1-sm.jpg",
+          "title": "Monitoring EC2 Performance",
+          "transcript": "",
+          "vimeoId": "148922120"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe how to perform advanced monitoring with custom metrics in AWS CloudWatch. First they define what a custom metric is and then walk you through creating custom metrics that will be viewable in CloudWatch. In that endeavor, you will also see how to create an Identity and Access Management(IAM) role.",
+          "length": "1934",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-3-monitoring_custom_metrics-121515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-3-monitoring_custom_metrics-121515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-3-3-monitoring_custom_metrics-121515-1-sm.jpg",
+          "title": "Monitoring Custom Metrics",
+          "transcript": "",
+          "vimeoId": "149198757"
+        }
+      ],
+      "title": "Elastic Compute Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Daniel take a look at leveraging AWS services to provide an environment with high availability. They begin by defining the term \"high availability\" and concepts for safeguarding against outages, specifically backup/redundancy, elasticity, and scalability. Then they show you how to orchestrate services like Elastic Load Balancers and Auto-Scaling to ensure a highly available system or service at all times.",
+          "length": "2363",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-4-1-high_availability-121715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-4-1-high_availability-121715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-4-1-high_availability-121715-1-sm.jpg",
+          "title": "High Availability",
+          "transcript": "",
+          "vimeoId": "150834861"
+        }
+      ],
+      "title": "High Availability"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don dive into Amazon's fault tolerance service known as Elastic Load Balancing. First they go over the basics of ELB, both the abilities and limitations, then they move on to the different types of ELB available (Public and Private types). They also take a look at implementing Health-checks with ELB.",
+          "length": "1906",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing-111915-1-sm.jpg",
+          "title": "Elastic Load Balancing",
+          "transcript": "",
+          "vimeoId": "146523440"
+        },
+        {
+          "description": "In this episode, Daniel and Don dive into Amazon's fault tolerance service known as Elastic Load Balancing. First they go over the basics of ELB, both the abilities and limitations, then they move on to the different types of ELB available (Public and Private types). They also take a look at implementing Health-checks with ELB.",
+          "length": "1120",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing_pt2-111915-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing_pt2-111915-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-1-elastic_load_balancing_pt2-111915-2-sm.jpg",
+          "title": "Elastic Load Balancing Part 2",
+          "transcript": "",
+          "vimeoId": "146523434"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the monitoring services available for AWS users that are employing Elastic Load Balancing. Here they go over basic monitoring as well as the advanced monitoring features in CloudWatch. They also walk you through some of the error codes you may encounter when monitoring an ELB instance.",
+          "length": "1203",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-2-monitoring_elb-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-2-monitoring_elb-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-5-2-monitoring_elb-111915-1-sm.jpg",
+          "title": "Monitoring ELB",
+          "transcript": "",
+          "vimeoId": "146523480"
+        }
+      ],
+      "title": "Elastic Load Balancer"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore redundancy features in the Domain Name Service(DNS) system, Route 53. They start with a Route 53, DNS overview; explaining DNS zones and record sets (A/CNAME/MX/etc.). They then move into providing DNS redundancy through Route 53 Routing Policies. Here they cover routing policies like Simple, Round-Robin policies as well as Weighted policies that allow you to handle DNS traffic through setting custom priorities.",
+          "length": "1915",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route-53-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route-53-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route-53-111815-1-sm.jpg",
+          "title": "Redundancy with Route 53",
+          "transcript": "",
+          "vimeoId": "146546749"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue exploring Route 53 Routing Policies, this time looking at the Latency and Geolocation Routing Policies which allow you to direct DNS traffic based on speed and distance respectfully. They also show you how to set up health-checks which verify the operating status of your systems. Health-checks also integrate with certain types of Routing Policies.",
+          "length": "1530",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt2-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt2-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt2-111815-1-sm.jpg",
+          "title": "Redundancy with Route 53 Part 2",
+          "transcript": "",
+          "vimeoId": "146546729"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish describing Route 53 Routing Policies with the Failover policy. They detail how the Failover policy works much like a traditional hot-standby secondary system, which takes over if a primary system loses connectivity and show you how to set that up in Route 53.",
+          "length": "1398",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt3-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt3-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-6-1-redundancy_with_route_53_pt3-111815-1-sm.jpg",
+          "title": "Redundancy with Route 53 Part 3",
+          "transcript": "",
+          "vimeoId": "146523486"
+        }
+      ],
+      "title": "Route 53"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don take a look at AWS Relational Database Service (RDS) redundancy features. They begin by covering the basics of RDS and explaining the different databases available. Then they show you the ways to enable redundancy for your databases. This includes using the setup wizard during the database creation, as well as methods for making already running databases redundant.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-7-1-rds_redundancy-112015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-7-1-rds_redundancy-112015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-7-1-rds_redundancy-112015-high-sm.jpg",
+          "title": "RDS Redundancy",
+          "transcript": "",
+          "vimeoId": "146914192"
+        }
+      ],
+      "title": "Relational Database Service"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Daniel explore AWS Orchestration services, which includes CloudFormation, Elastic Beanstalk, and OpsWork. They describe the differences and similarities between the services as well as explain why you would use one over the other. Then they demonstrate each one of these services to give you a practical look at each one in action.",
+          "length": "1906",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-8-1-automation_orchestration-121615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-8-1-automation_orchestration-121615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-8-1-automation_orchestration-121615-1-sm.jpg",
+          "title": "Automation and Orchestration",
+          "transcript": "",
+          "vimeoId": "150898512"
+        }
+      ],
+      "title": "Orchestration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Daniel take you through a tour of the backup and recovery services provided by the many AWS services. They start by explaining Disaster Recovery concepts like Recovery Time Objective(RTO) and Recovery Point Objective (RPO) and what is involved with traditional DR. Then they look at AWSs DR solutions like Regions, S3, Glacier, EBS, and AWS Storage Gateway.",
+          "length": "2023",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-1-backup_recovery_services-121515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-1-backup_recovery_services-121515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-1-backup_recovery_services-121515-1-sm.jpg",
+          "title": "Backup and Recovery Services",
+          "transcript": "",
+          "vimeoId": "149198699"
+        },
+        {
+          "description": "In this episode, Don and Daniel continue their exposition of AWS Disaster Recovery options available in the different AWS services. They pick up with AWS Compute (Amazon Machine Images, Availability Zones, and EC2 VM Import Connector). Then they look at networking backup/redundancy options found in Route 53, Elastic Load Balancers(ELB) and Virtual Private Clouds. From there they jump to database services; Relation Database Service(RDS), DynamoDB, and Redshift. Finally they look at Deployment Orchestration services, specifically CloudFormation, Elastic Beanstalk, and OpsWorks.",
+          "length": "1920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-2-backup_and_recovery_services_pt2-121615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-2-backup_and_recovery_services_pt2-121615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-1-2-backup_and_recovery_services_pt2-121615-1-sm.jpg",
+          "title": "Backup and Recovery Services Part 2",
+          "transcript": "",
+          "vimeoId": "149771510"
+        },
+        {
+          "description": "In this episode, Don and Daniel explore a few different methods for backing up and restoring your on-premises environment with AWS. They start by looking at Pilot Light, which is a low-cost, minimalistic approach to Disaster Recovery in AWS. Then they move to more robust solutions to Disaster Recovery, specifically the Warm Standby and Multi-Site models.",
+          "length": "1906",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-2-backup_and_restore_scenarios-121715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-2-backup_and_restore_scenarios-121715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-2-backup_and_restore_scenarios-121715-1-sm.jpg",
+          "title": "Backup and Restore Scenarios",
+          "transcript": "",
+          "vimeoId": "150834877"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe how to employ backups for AWS Relational Database Services(RDS). Here they cover some details about how RDS is backed up as well as some pre-requisite work that needs to be done to prepare RDS for being backed up. Then they show you how to setup automated backups and/or take an on-demand backup. Finally they explain the procedure for restoring your data in case of a failure.",
+          "length": "1908",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-3-backing_up_rds-121615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-3-backing_up_rds-121615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-9-3-backing_up_rds-121615-1-sm.jpg",
+          "title": "Backing up RDS",
+          "transcript": "",
+          "vimeoId": "150898773"
+        }
+      ],
+      "title": "Backup and Recovery"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don go over the topic of billing and cost management for your AWS account(s). Here they cover cost optimization in the AWS dashboard to quickly see how much you're spending and how much Amazon predicts you'll be spending. Then they take a look at more detailed billing info through IAM and the use of cost allocation tags. Lastly they explain the cost differences with each of the EC2 instance types(On Demand/Reserved/Spot).",
+          "length": "1924",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management-111915-1-sm.jpg",
+          "title": "Billing and Cost Management",
+          "transcript": "",
+          "vimeoId": "146546832"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue to go over the topic of billing and cost management for your AWS account(s).",
+          "length": "1380",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management_pt2-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management_pt2-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsa/amazon-acsa-10-1-billing_and_cost_management_pt2-111915-1-sm.jpg",
+          "title": "Billing and Cost Management Part 2",
+          "transcript": "",
+          "vimeoId": "146639138"
+        }
+      ],
+      "title": "Billing and Cost Management"
+    }
+  ],
+  "url": "aws-certified-sysops-administrator",
+  "vLab": false
+}

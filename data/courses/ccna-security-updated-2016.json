@@ -1,0 +1,438 @@
+{
+  "description": "The Implementing Cisco Network Security Show will help prepare the viewer for IINS Exam 210-260 exam by describing, discussing and demonstrating security principles and practices used by the CCNA Security professional.  This show will feature episodes with secure network infrastructure, understanding core security concepts, managing secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security.  It will also include troubleshooting and monitoring of secure cisco networks devices.  If you're already a CCENT or CCNA R+S and want to specialize in security, the CCNA Security show help you to get started!",
+  "descriptionMD": "",
+  "length": "67769",
+  "name": "CCNA Security",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Network Associate Security",
+  "tagUrl": "cisco",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie give a general overview of what to expect in the upcoming CCNA Security series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "505",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-0-0-overview-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-0-0-overview-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-0-0-overview-062416-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "172572036"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie discuss fundamental security concepts that the viewer will need to understand. They look at concepts like the CIA triad, security information management (SIM), security event management (SEM) as well as a blending of the two through security information and event management (SIEM)",
+          "length": "1972",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-1-understand_common_security_principles-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-1-understand_common_security_principles-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-1-understand_common_security_principles-053116-1-sm.jpg",
+          "title": "Understand Common Security Principles",
+          "transcript": "",
+          "vimeoId": "169080915"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie continue their discussion on fundamental security concepts that the viewer will need to understand.They look at concepts like assets, vulnerabilities, threats, risks and more.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-2-understand_common_security_principles_pt2-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-2-understand_common_security_principles_pt2-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-2-understand_common_security_principles_pt2-053116-1-sm.jpg",
+          "title": "Understand Common Security Principles Part 2",
+          "transcript": "",
+          "vimeoId": "169080912"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie continue their discussion on fundamental security concepts that the viewer will need to understand. They look at concepts like “Rule of Least Privilege,” “Defense in Depth,” and more. They explain the common network security zones found in networks today.",
+          "length": "1790",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-3-understand_common_security_principles_pt3-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-3-understand_common_security_principles_pt3-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-1-3-understand_common_security_principles_pt3-053116-1-sm.jpg",
+          "title": "Understand Common Security Principles Part 3",
+          "transcript": "",
+          "vimeoId": "169080911"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce you to some common security threats so that you are able to identify them as they are encountered. They start by exploring common attack types and motivations like financial gain, general disruption, and revenge, then they take a look at Social Engineering and what can be done to mitigate it. Finally, they dissect and discuss the different Distributed Denial of Service(DDoS) attacks like Direct, Reflected, and Amplified.",
+          "length": "2168",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-1-identify_common_security_threats-060116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-1-identify_common_security_threats-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-1-identify_common_security_threats-060116-1-sm.jpg",
+          "title": "Identify Common Security Threats",
+          "transcript": "",
+          "vimeoId": "169248599"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their discussion of common security threats, this time looking at some countermeasures. They discuss identifying malware through packet capture utilities like Wireshark and NetFlow. They then jump into the world of Intrusion Detection/Prevention Systems(IDS/IPS) and next generation IDS/IPS/Firewalls to block incoming attacks, discussing Cisco Source Fire, Firepower, FireSight. Finally, they explore exfiltration or the avenues of data loss.",
+          "length": "2444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-2-identify_common_security_threats_pt2-060116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-2-identify_common_security_threats_pt2-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-2-identify_common_security_threats_pt2-060116-1-sm.jpg",
+          "title": "Identify Common Security Threats Part 2",
+          "transcript": "",
+          "vimeoId": "169249935"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through the basics of cryptography concepts. Here you will learn about both symmetric and asymmetric encryption as well as key exchange, Public Key Infrastructure(PKI), and Certificates. They also define hashing and describe how it's used and how it's different than encryption.",
+          "length": "2420",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-3-understand_basic_crypto_concepts-060116high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-3-identify_common_security_threats_pt3-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-1-2-3-identify_common_security_threats_pt3-060116-1-sm.jpg",
+          "title": "Understand Basic Crypto Concepts",
+          "transcript": "",
+          "vimeoId": "169248600"
+        }
+      ],
+      "title": "Security Concepts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at securely managing access to Cisco equipment. They explain the difference between In-Band and Out-of-Band management and access as well as how to create and use a strong password. Also, they demonstrate setting logins and passwords on the Console, AUX, and VTY of a Cisco router.",
+          "length": "2035",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-secure_management_access-060216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-secure_management_access-060216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-secure_management_access-060216-1-sm.jpg",
+          "title": "Secure Management Access",
+          "transcript": "",
+          "vimeoId": "169251640"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their discussion of Secure Management Access, picking back up by demonstrating how to encrypt Cisco passwords and set the minimum password length. Then they introduce you to configuring basic local Authentication, Authorization, and Accounting(AAA) service for accessing equipment remotely, which is a more secure form of authentication.",
+          "length": "1799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-2-secure_management_access_pt2-060216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-2-secure_management_access_pt2-060216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-2-secure_management_access_pt2-060216-1-sm.jpg",
+          "title": "Secure Management Access Part 2",
+          "transcript": "",
+          "vimeoId": "169530222"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their discussion of Secure Management Access; this time they explore Role Based Access Control(RBAC) which allows you to set the \"view\" a user sees based on their function or role in an organization. Also, they demonstrate how to enable using encrypted protocols like SSH for remote access.",
+          "length": "1533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-3-secure_management_access_pt3-060216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-3-secure_management_access_pt3-060216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-3-secure_management_access_pt3-060216-1-sm.jpg",
+          "title": "Secure Management Access Part 3",
+          "transcript": "",
+          "vimeoId": "169530232"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their discussion of Secure Management Access. Here they take a look at enabling and understanding logging and monitoring and describe the 7 severity levels of syslog messages. They also demonstrate the configuration and use of the Simple Network Management Protocol(SNMP).",
+          "length": "2211",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-4-secure_management_access_pt4-060616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-4-secure_management_access_pt4-060616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-4-secure_management_access_pt4-060616-1-sm.jpg",
+          "title": "Secure Management Access Part 4",
+          "transcript": "",
+          "vimeoId": "169844701"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their discussion of Secure Management Access, this time looking at time synchronization through the Network Time Protocol(NTP). Lastly they show you how to backup your device configurations by using Secure Copy(SCP) as well as securely backing up your IOS image.",
+          "length": "1851",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-5-secure_management_access_pt5-060616-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-5-secure_management_access_pt5-060616-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-1-5-secure_management_access_pt5-060616-high-sm.jpg",
+          "title": "Secure Management Access Part 5",
+          "transcript": "",
+          "vimeoId": "169844719"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce you to the service(s) known as Authentication, Authorization, and Accounting, or more simply AAA. Here they specifically look at the difference between RADIUS and TACACS as an AAA solution in a Cisco network.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-2-implement_aaa_security-060816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-2-implement_aaa_security-060816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-2-implement_aaa_security-060816-1-sm.jpg",
+          "title": "Implement AAA Security",
+          "transcript": "",
+          "vimeoId": "170164233"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe and demonstrate the 802.1x authentication abilities at OSI Layer 2 to prevent unauthorized devices from gaining access to the network. They begin by looking at the Authentication process and then identify the 802.1x functions and components which includes the Supplicant, the Authenticator, and the Authentication Server.",
+          "length": "1729",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-3-describe_802.1_authenication-060816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-3-describe_802.1_authenication-060816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-2-3-describe_802.1_authenication-060816-1-sm.jpg",
+          "title": "Describe 802.1x Authentication",
+          "transcript": "",
+          "vimeoId": "170163412"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through the basic concepts and considerations when implementing a Bring Your Own Device(BYOD) environment. They begin by discussing BYOD fundamentals, then they describe the benefit of using Cisco's on-premise and cloud-based Mobile Device Manager.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-2-3-understand_byod_management-061716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-2-3-understand_byod_management-061716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-2-3-understand_byod_management-061716-1-sm.jpg",
+          "title": "Understand BYOD Management",
+          "transcript": "",
+          "vimeoId": "171451850"
+        }
+      ],
+      "title": "Secure Access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie introduce you to the wonderful world of Virtual Private Networks(VPN). They take you through a wide range of VPN concepts and technologies including the purpose of VPNs, what types of encryptions are typically used (IPsec/SSL/MPLS), Remote Access vs. Site-to-Site, and VPN benefits. Next they cover the IPsec protocols and delivery modes, in-depth.",
+          "length": "1878",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-describe_vpn_concepts-060916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-describe_vpn_concepts-060916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-describe_vpn_concepts-060916-1-sm.jpg",
+          "title": "Describe VPN Concepts",
+          "transcript": "",
+          "vimeoId": "170161906"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie finish their discussion of VPN concepts and technologies by explaining four specific types of tunneling methods. This includes Hairpinning, Split-Tunneling, Always-On, and NAT Traversal.",
+          "length": "1348",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-2-describe_vpn_concepts_pt2-060916-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-2-describe_vpn_concepts_pt2-060916-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-1-2-describe_vpn_concepts_pt2-060916-high-sm.jpg",
+          "title": "Describe VPN Concepts Part 2",
+          "transcript": "",
+          "vimeoId": "170162227"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie begin their exposition of remote access Virtual Private Networks(VPN). They begin by describing and demonstrating how to implement a basic Clientless SSL VPN using ASDM.",
+          "length": "2414",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-1-implement_remote_access_vpn-060916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-1-implement_remote_access_vpn-060916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-1-implement_remote_access_vpn-060916-1-sm.jpg",
+          "title": "Implement Remote Access VPN",
+          "transcript": "",
+          "vimeoId": "170616874"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue demonstrating how to implement a basic Clientless SSL VPN, where they pick up by verifying their VPN connection and then move to creating a VPN connection using the Cisco VPN client software called AnyConnect.",
+          "length": "2086",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-2-implement_remote_access_vpn_pt2-060916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-2-implement_remote_access_vpn_pt2-060916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-2-2-implement_remote_access_vpn_pt2-060916-1-sm.jpg",
+          "title": "Implement Remote Access VPN Part 2",
+          "transcript": "",
+          "vimeoId": "170616893"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie demonstrate how to implement a Site-to-Site VPN connection. They explain the purposes and concepts for the use of a Site-to-Site VPN and then walk you through, line by line, configuring the Cisco devices to create the Site-to-Site split-tunnel.",
+          "length": "2116",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-3-implement_site_to_site_vpn-061316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-3-implement_site_to_site_vpn-061316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-3-3-implement_site_to_site_vpn-061316-1-sm.jpg",
+          "title": "Implement Site-to-Site VPN",
+          "transcript": "",
+          "vimeoId": "170957747"
+        }
+      ],
+      "title": "VPN"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie take you through setting up secure access to a Cisco router. Here they look at setting access by configuring multiple privilege levels as well as reviewing role-based access.",
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-1-secure_cisco_router_operations-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-1-secure_cisco_router_operations-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-1-secure_cisco_router_operations-061416-1-sm.jpg",
+          "title": "Secure Cisco Router Operations",
+          "transcript": "",
+          "vimeoId": "170957770"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their look at secure Cisco router operations. They pick back up with showing you how to implement an resilient IOS configuration. This will protect both the boot IOS image as well as the boot config. Then they show you how to recover from an accidental deletion using the backups.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-2-secure_cisco_router_operations_pt2-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-2-secure_cisco_router_operations_pt2-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-2-secure_cisco_router_operations_pt2-061416-1-sm.jpg",
+          "title": "Secure Cisco Router Operations Part 2",
+          "transcript": "",
+          "vimeoId": "170957769"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their look at secure Cisco router operations. Here they show you how to secure your routing tables to keep them out of prying eyes. They do this through implementing routing update authentication.",
+          "length": "1136",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-3-secure_cisco_router_operations_pt3-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-3-secure_cisco_router_operations_pt3-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-3-secure_cisco_router_operations_pt3-061416-1-sm.jpg",
+          "title": "Secure Cisco Router Operations Part 3",
+          "transcript": "",
+          "vimeoId": "170962008"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their look at secure Cisco router operations. Here they explain the function of Control Plane Policing(CoPP) and demonstrate how to implement CoPP.",
+          "length": "1233",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-4-secure_cisco_router_operations_pt4-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-4-secure_cisco_router_operations_pt4-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-1-4-secure_cisco_router_operations_pt4-061416-1-sm.jpg",
+          "title": "Secure Cisco Router Operations Part 4",
+          "transcript": "",
+          "vimeoId": "170962007"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe some of the more common OSI Layer 2 attacks. Here you will learn about L2 attacks like attacks against Spanning-Tree, ARP spoofing, MAC spoofing, and CAM Table overflow attacks.",
+          "length": "1821",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-describe_layer_2_attacks-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-describe_layer_2_attacks-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-describe_layer_2_attacks-061416-1-sm.jpg",
+          "title": "Describe Layer 2 Attacks",
+          "transcript": "",
+          "vimeoId": "170965352"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe some of the more common OSI Layer 2 attacks. Here you will learn about L2 attacks like CDP/LLDP reconnaissance, VLAN hopping, and DHCP spoofing.",
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-2-describe_layer_2_attacks_pt2-061416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-2-describe_layer_2_attacks_pt2-061416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-4-2-describe_layer_2_attacks_pt2-061416-1-sm.jpg",
+          "title": "Describe Layer 2 Attacks Part 2",
+          "transcript": "",
+          "vimeoId": "170965338"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take you through the mitigation procedures and techniques against layer 2 attacks. Here you will see how to implement DHCP Snooping and Dynamic ARP Inspection to guard against DHCP starvation and Rogue DHCP attacks.",
+          "length": "1958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-1configure_layer_2_security-061616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-1configure_layer_2_security-061616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-1configure_layer_2_security-061616-1-sm.jpg",
+          "title": "Configure Layer 2 Security",
+          "transcript": "",
+          "vimeoId": "171140672"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take you through the mitigation procedures and techniques against layer 2 attacks. Here, you will see how to implement Port Security to control what end device have access to a switch.",
+          "length": "1766",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-2-configure_layer_2_security_pt2-061616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-2-configure_layer_2_security_pt2-061616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-2-configure_layer_2_security_pt2-061616-1-sm.jpg",
+          "title": "Configure Layer 2 Security Part 2",
+          "transcript": "",
+          "vimeoId": "171140723"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take you through the mitigation procedures and techniques against layer 2 attacks. They finish their discussion by showing you how to implement BPDU Guard, Root Guard, and Loop Guard.",
+          "length": "1378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-3-configure_layer_2_security_pt3-061616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-3-configure_layer_2_security_pt3-061616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-5-3-configure_layer_2_security_pt3-061616-1-sm.jpg",
+          "title": "Configure Layer 2 Security Part 3",
+          "transcript": "",
+          "vimeoId": "171140742"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss how to implement VLAN security in a Cisco environment. They start by explaining and demonstrating the use of Private VLANs to further segment and isolate a network.",
+          "length": "1863",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-1-describe_vlan_security-061616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-1-describe_vlan_security-061616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-1-describe_vlan_security-061616-1-sm.jpg",
+          "title": "Describe VLAN Security",
+          "transcript": "",
+          "vimeoId": "171451852"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss how to implement VLAN security in a Cisco environment. Here they show you the security implications of using a Native VLAN. They explain the normal operations of the Native VLAN and common best practices for security purposes.",
+          "length": "1620",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-2-describe_vlan_security_pt2-061616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-2-describe_vlan_security_pt2-061616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec-4-6-2-describe_vlan_security_pt2-061616-1-sm.jpg",
+          "title": "Describe VLAN Security Part 2",
+          "transcript": "",
+          "vimeoId": "171451848"
+        }
+      ],
+      "title": "Secure Routing and Switching"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie describe the operational strengths and weaknesses of the different firewall technologies. Firewalls covered include Proxy firewalls, Application firewalls, and Personal firewalls. They also delve into stateful vs. stateless firewalls.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-1-describe_firewall_technologies-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-1-describe_firewall_technologies-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-1-describe_firewall_technologies-062416-1-sm.jpg",
+          "title": "Describe Firewall Technologies",
+          "transcript": "",
+          "vimeoId": "172402471"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain and demonstrate how to implement Network Address Translation(NAT) on a Cisco ASA 9.x. Here they explore the most common types of NAT which includes Static NAT, Dynamic NAT, and Port Address Translation.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-1-implement_nat_on_cisco_asa_9x-061716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-1-implement_nat_on_cisco_asa_9x-061716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-1-implement_nat_on_cisco_asa_9x-061716-1-sm.jpg",
+          "title": "Implement NAT on Cisco ASA 9x",
+          "transcript": "",
+          "vimeoId": "171451849"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain and demonstrate how to implement Network Address Translation(NAT). Here they tackle the complex Policy NAT configuration. They discuss what Policy NAT is and why it's used and then take you through a step-by-step configuration in a Cisco ASA.",
+          "length": "1277",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-2-implement_nat_on_cisco_asa_9x_pt2-061716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-2-implement_nat_on_cisco_asa_9x_pt2-061716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec210260-5-3-2-implement_nat_on_cisco_asa_9x_pt2-061716-1-sm.jpg",
+          "title": "Implement NAT on Cisco ASA 9x Part 2",
+          "transcript": "",
+          "vimeoId": "171451851"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain and demonstrate how to implement Zone-Based Firewalls. When you need to implement a stateful firewall, but don't have the budget for an ASA, your current Cisco Router might be able to take on the job through implementing the Zone-Based firewall feature.",
+          "length": "1969",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-4-implement_zone_based_firewalls-061716-END-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-4-implement_zone_based_firewalls-061716-END-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-4-implement_zone_based_firewalls-061716-END-1-sm.jpg",
+          "title": "Implement Zone-Based Firewalls",
+          "transcript": "",
+          "vimeoId": "171576366"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through the basic initial setup for a Cisco ASA. Here they demonstrate configuring access Management with proper interface policies. They also set up VLANs, DHCP, and routing which will make it initially ready to connect to the network.",
+          "length": "1819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-1-configure_asa_managment-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-1-configure_asa_managment-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-1-configure_asa_managment-062416-1-sm.jpg",
+          "title": "Configure ASA Management",
+          "transcript": "",
+          "vimeoId": "172402470"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue configuring a Cisco ASA. They pick back up by looking at what can be configured in the ASA using the ASDM. This includes things like NAT, DHCP, Routing, User Accounts, Firewall rules, and VPN access. They also describe the different modes of deployment, and methods of implementing high-availability. Also covered is the Modular Policy Framework or MPF.",
+          "length": "1216",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-2-configure_asa_managment_pt2-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-2-configure_asa_managment_pt2-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-5-5-2-configure_asa_managment_pt2-062416-1-sm.jpg",
+          "title": "Configure ASA Management Part 2",
+          "transcript": "",
+          "vimeoId": "172572035"
+        }
+      ],
+      "title": "Cisco Firewall Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie cover the basic knowledge of Intrusion Prevention Systems(IPS). Here they cover what exactly an IPS is and how it integrates into your network. They discuss the different modes of IPSs as well as placement in the network.",
+          "length": "1364",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-6-1-describe_ips_deployment_considerations-061716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-6-1-describe_ips_deployment_considerations-061716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-6-1-describe_ips_deployment_considerations-061716-1-sm.jpg",
+          "title": "Describe IPS Deployment Considerations",
+          "transcript": "",
+          "vimeoId": "171576189"
+        }
+      ],
+      "title": "IPS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie dive into the world of endpoint security. They start by describing mitigation technology for email based and web based threats. Next they go over blacklisting, URL filtering, malware scanning, and TLS decryption. Then they discuss anti-malware/antivirus software, personal firewalls, and encryption.",
+          "length": "1582",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-7-0-content_and_endpoint_security-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-7-0-content_and_endpoint_security-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec/cisco-ccnasec20260-7-0-content_and_endpoint_security-062416-1-sm.jpg",
+          "title": "Content and Endpoint Security",
+          "transcript": "",
+          "vimeoId": "172572034"
+        }
+      ],
+      "title": "Content and Endpoint Security"
+    }
+  ],
+  "url": "ccna-security-updated-2016",
+  "vLab": true
+}

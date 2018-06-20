@@ -1,0 +1,243 @@
+{
+  "description": "The Linux Command Line show is designed to introduce viewers to working on Linux based computers using only the command line interface. This is considered the first step in learning BASH scripting as most scripts are made up of a series of CLI commands.",
+  "descriptionMD": "The Linux Command Line show is designed to introduce viewers to working on Linux based computers using only the command line interface. This is considered the first step in learning BASH scripting as most scripts are made up of a series of CLI commands.",
+  "length": "33155",
+  "name": "Linux Command Line",
+  "practiceExam": false,
+  "subtitle": "Getting started in the Linux command line",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don take a look how to use a Linux terminal to gain access to the command line. They demonstrate Gnome terminal, Xterm, Konsole and several other terminals and walk through their configruation and use.",
+          "length": "2110",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-1-terminals_and_shells-091917-PGM.00_34_53_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-1-terminals_and_shells-091917-PGM.00_34_53_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-1-terminals_and_shells-091917-PGM.00_34_53_06.Still001-sm.jpg",
+          "title": "Terminals and Shells",
+          "transcript": "",
+          "vimeoId": "234666504"
+        },
+        {
+          "description": "In this episode, Daniel and Don take a look how to interact with the Linux kernel using a shell. They demonstrate the bash shell and highlight zsh, dash, and sh and walk through their configuration and use.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-2-terminals_and_shells_pt_2-092017-PGM.00_30_51_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-2-terminals_and_shells_pt_2-092017-PGM.00_30_51_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-1-2-terminals_and_shells_pt_2-092017-PGM.00_30_51_01.Still001-sm.jpg",
+          "title": "Terminals and Shells Part 2",
+          "transcript": "",
+          "vimeoId": "234904291"
+        },
+        {
+          "description": "In this episode, Don walks the viewers through the various ways you can get help from the Linux command line. He demonstrates the man command as well as info, apropos and other methods of retrieving help.",
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-2-1-getting_help-092017-PGM.00_28_43_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-2-1-getting_help-092017-PGM.00_28_43_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-1-2-1-getting_help-092017-PGM.00_28_43_16.Still001-sm.jpg",
+          "title": "Getting Help",
+          "transcript": "",
+          "vimeoId": "234904069"
+        }
+      ],
+      "title": "Getting Started with the CLI"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don demonstrates how to navigate the Linux filesystem. He explains the typical folder hierarchy found on most Linux distributions and then demonstrates the various commands for moving around those directories.",
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-1-1-navigating_the_filesystem-092017-PGM.00_33_49_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-1-1-navigating_the_filesystem-092017-PGM.00_33_49_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-1-1-navigating_the_filesystem-092017-PGM.00_33_49_22.Still001-sm.jpg",
+          "title": "Navigating the Filesystem",
+          "transcript": "",
+          "vimeoId": "234903815"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to work with files while in the Linux command line. He begins by demonstrating how to create empty files, how to create multiple files at once, and how to create files containing data by using the output from other commands.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-1-working_with_files-092117-PGM.00_28_32_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-1-working_with_files-092117-PGM.00_28_32_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-1-working_with_files-092117-PGM.00_28_32_15.Still001-sm.jpg",
+          "title": "Working with Files",
+          "transcript": "",
+          "vimeoId": "234903618"
+        },
+        {
+          "description": "In this episode, Don continues working with files in the Linux command line. Specifically, he focuses on duplicating files with the cp command, relocating files using the mv command, and deleting files using the rm command.",
+          "length": "1656",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-2-working_with_files_pt_2-092117-PGM.00_27_20_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-2-working_with_files_pt_2-092117-PGM.00_27_20_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-2-2-2-working_with_files_pt_2-092117-PGM.00_27_20_07.Still001-sm.jpg",
+          "title": "Working with Files Part 2",
+          "transcript": "",
+          "vimeoId": "234903345"
+        }
+      ],
+      "title": "Basic Shell Commands"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains how applications execute in Linux and demonstrates how to view what processes are currently running. He then demonstrates how to pull additional detailed information on each process running and how to terminate a malfunctioning process if required.",
+          "length": "1654",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-1-1-managing_processes-092117-CLN.00_27_18_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-1-1-managing_processes-092117-CLN.00_27_18_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-1-1-managing_processes-092117-CLN.00_27_18_05.Still001-sm.jpg",
+          "title": "Managing Processes",
+          "transcript": "",
+          "vimeoId": "235067226"
+        },
+        {
+          "description": "In this episode, Don explains how Linux manages storage. He demonstrates how storage is detected by Linux, and then shows how to mount the drives to make them usable. At the end of the episode, he explains how to monitor disk utilization to see if you are running low on space.",
+          "length": "1727",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-2-1-managing_storage-092217-PGM.00_28_31_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-2-1-managing_storage-092217-PGM.00_28_31_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-2-1-managing_storage-092217-PGM.00_28_31_23.Still001-sm.jpg",
+          "title": "Managing Storage",
+          "transcript": "",
+          "vimeoId": "235066420"
+        },
+        {
+          "description": "In this episode, Don explains how difficult it can be to find files inside of a Linux system due to distribution fragmentation. He then demonstrates numerous methods that can be used to locate files quickly and easily. Specifically, he demonstrates the which, whereis, locate, find and grep commands.",
+          "length": "1579",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-3-1-finding_files-092217.00_26_06_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-3-1-finding_files-092217.00_26_06_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-3-1-finding_files-092217.00_26_06_10.Still001-sm.jpg",
+          "title": "Finding Files",
+          "transcript": "",
+          "vimeoId": "235065633"
+        },
+        {
+          "description": "In this episode, Don demonstrates a number of useful commands that, while incredibly useful, did not fit in with any of the other episodes. Specifically, he demonstrates running applications as background processes, chaining commands, entering commands on multiple lines for easier readability, viewing and using your command history, and creating aliases to speed up command entry.",
+          "length": "1735",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-4-1-other_useful_commands-092217-PGM.00_28_39_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-4-1-other_useful_commands-092217-PGM.00_28_39_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-3-4-1-other_useful_commands-092217-PGM.00_28_39_08.Still001-sm.jpg",
+          "title": "Other Useful Commands",
+          "transcript": "",
+          "vimeoId": "235067465"
+        }
+      ],
+      "title": "Advanced Shell Commands"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don introduces viewers to variables. He demonstrates how you can store data in a variable for retrieval at a later time. He then shows a few examples of how these can be used.",
+          "length": "1739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-1-environment_variables-092517.00_28_45_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-1-environment_variables-092517.00_28_45_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-1-environment_variables-092517.00_28_45_15.Still001-sm.jpg",
+          "title": "Environment Variables",
+          "transcript": "",
+          "vimeoId": "235607090"
+        },
+        {
+          "description": "In this episode, Don continues working with environment variables. He demonstrates how to make a variable globally available between shells. He also demonstrates how to make variables persist between logins.",
+          "length": "1198",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-2-environment_variables-092517.00_19_44_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-2-environment_variables-092517.00_19_44_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-1-2-environment_variables-092517.00_19_44_07.Still001-sm.jpg",
+          "title": "Environment Variables Part 2",
+          "transcript": "",
+          "vimeoId": "235606861"
+        },
+        {
+          "description": "In this episode, Don explains how file and directory permissions are used in Linux. He then demonstrates how the permissions can be modified. Finally, he shows how users and groups can be assigned permissions according to your company's needs.",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-2-1-file_permissions-092517.00_34_14_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-2-1-file_permissions-092517.00_34_14_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-2-1-file_permissions-092517.00_34_14_04.Still001-sm.jpg",
+          "title": "File Permissions",
+          "transcript": "",
+          "vimeoId": "235606502"
+        },
+        {
+          "description": "In this episode, Don walks the viewers through the more popular filesystems available for Linux. He explains the pros and cons of EXT4, XFS and BTRFS to help the viewers select which filesystem is right for their environment.",
+          "length": "1330",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-3-1-file_systems-092517-PGM.00_21_55_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-3-1-file_systems-092517-PGM.00_21_55_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-4-3-1-file_systems-092517-PGM.00_21_55_14.Still001-sm.jpg",
+          "title": "File Systems",
+          "transcript": "",
+          "vimeoId": "235606203"
+        }
+      ],
+      "title": "Shell Environments"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains how software is managed in Debian based systems (Ubuntu, Mint, etc). He demonstrates how to install, update and remove software using the apt and apt-get utilities.",
+          "length": "2000",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-1-1-debian_package_management-092917-PGM.00_33_51_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-1-1-debian_package_management-092917-PGM.00_33_51_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-1-1-debian_package_management-092917-PGM.00_33_51_27.Still001-sm.jpg",
+          "title": "Debian Package Management",
+          "transcript": "",
+          "vimeoId": "236473455"
+        },
+        {
+          "description": "In this episode, Don explains how software is managed in Redhat based systems (CentOS, Fedora, etc). He demonstrates how to install, update and remove software using the yum and dnf utilities.",
+          "length": "1866",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-2-1-redhat_package_management-092917-PGM.00_30_50_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-2-1-redhat_package_management-092917-PGM.00_30_50_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-2-1-redhat_package_management-092917-PGM.00_30_50_10.Still001-sm.jpg",
+          "title": "Redhat Package Management",
+          "transcript": "",
+          "vimeoId": "236473728"
+        },
+        {
+          "description": "In this episode, Don explains how not every application is provided in a nice package. He then demonstrates how you can build software from the original source code. He also explains some scenarios where you may chose to build from source even when a package is available.",
+          "length": "1487",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-3-1-installing_from_source-092617-CLN.00_24_31_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-3-1-installing_from_source-092617-CLN.00_24_31_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-5-3-1-installing_from_source-092617-CLN.00_24_31_27.Still001-sm.jpg",
+          "title": "Installing from Source",
+          "transcript": "",
+          "vimeoId": "235605898"
+        }
+      ],
+      "title": "Installing Software"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don introduces the viewers to the Vi and Vim text editors. He explains why you would use Vi/Vim over other editors. Next he walks the user through the basic editing commands and how to work with text files in the editor.",
+          "length": "1559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-1-vi_and_vim-092717-PGM.00_25_43_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-1-vi_and_vim-092717-PGM.00_25_43_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-1-vi_and_vim-092717-PGM.00_25_43_22.Still001-sm.jpg",
+          "title": "vi and vim",
+          "transcript": "",
+          "vimeoId": "236078959"
+        },
+        {
+          "description": "In this episode, Don continues to work with Vi/Vim. He walks the viewers through more advanced commands that can increase productivity while in the editor. Specifically, he demonstrates how to copy and paste, work with multiple lines at once, and how to search through a document.",
+          "length": "1182",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-2-vi_and_vim_pt_2-092717-PGM.00_19_27_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-2-vi_and_vim_pt_2-092717-PGM.00_19_27_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-1-2-vi_and_vim_pt_2-092717-PGM.00_19_27_10.Still001-sm.jpg",
+          "title": "vi and vim Part 2",
+          "transcript": "",
+          "vimeoId": "235786860"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the GNU Nano editor which is gaining popularity in most modern Linux distributions. He explains the basic features of the editor before walking the viewers through the typical commands needed to edit text files with Nano.",
+          "length": "1177",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-2-1-gnu_nano-092717-PGM.00_19_22_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-2-1-gnu_nano-092717-PGM.00_19_22_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxcommandline/techskills-linuxcommandline-6-2-1-gnu_nano-092717-PGM.00_19_22_06.Still001-sm.jpg",
+          "title": "GNU nano",
+          "transcript": "",
+          "vimeoId": "235788761"
+        }
+      ],
+      "title": "Editing Files"
+    }
+  ],
+  "url": "linux-command-line",
+  "vLab": false
+}
