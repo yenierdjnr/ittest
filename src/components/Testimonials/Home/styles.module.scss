@@ -17,7 +17,9 @@ $breakpoints: (
   padding: 11.2rem 0 10.6rem;
   overflow: hidden;
 
-  display: grid;
+  @include display-grid;
+  -ms-grid-columns: 1fr minmax(auto, 1024px) 1fr;
+  -ms-grid-rows: auto auto;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   grid-template-rows: auto auto;
 
@@ -25,7 +27,8 @@ $breakpoints: (
 }
 
 .content {
-  grid-column: 2 / 3;
+  @include grid-column(2,3);
+  // grid-column: 2 / 3;
 
   display: flex;
   flex-flow: column nowrap;
@@ -33,7 +36,8 @@ $breakpoints: (
 }
 
 .title {
-  grid-column: 2 / 3;
+  @include grid-column(2,3);
+  // grid-column: 2 / 3;
 
   width: 82rem;
   text-align: center;

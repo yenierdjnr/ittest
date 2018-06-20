@@ -15,7 +15,7 @@ $breakpoints: (
 .container {
   background-color: #f9f9fb;
   padding: 5rem 22rem 6rem;
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 

@@ -14,14 +14,14 @@ $breakpoints: (
 }
 
 .container {
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr auto 1fr;
 }
 
 .content {
   grid-column: 2 / 3;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: minmax(auto, 492px) minmax(auto,40px) minmax(auto, 492px);
   grid-template-rows: 116px auto;
 }
@@ -107,7 +107,7 @@ $breakpoints: (
 //   .container {
 //     height: 100%;
 
-//     display: grid;
+//     @include display-grid;
 //     // grid-template-columns: 1fr 16px 343px 16px 1fr;
 //     grid-template-columns: 1fr 320px 1fr;
 //   }

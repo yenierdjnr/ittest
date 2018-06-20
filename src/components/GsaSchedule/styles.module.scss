@@ -14,14 +14,14 @@ $breakpoints: (
 
 .container {
   padding: 3rem 0 8rem;
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 }
 
 .wrapper {
   grid-column-gap: 4rem;
   grid-row-gap: 1.6rem;
-  display: grid;
+  @include display-grid;
   grid-column: 2 / 3;
 }
 

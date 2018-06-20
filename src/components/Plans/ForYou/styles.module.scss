@@ -9,7 +9,7 @@ $breakpoints: (
 .container {
   padding-bottom: 9rem;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 37rem 8rem auto;
 
@@ -44,7 +44,7 @@ $breakpoints: (
   grid-row: 2 / 4;
   z-index: $z-plans;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: repeat(2, 314px) 314px;
   grid-column-gap: 41px;
 }

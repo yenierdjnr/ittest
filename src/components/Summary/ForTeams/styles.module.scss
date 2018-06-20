@@ -12,7 +12,7 @@ $breakpoints: (
 }
 
 .container {
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr auto minmax(auto, 4rem) 50rem 1fr;
   grid-template-rows: 8rem auto 8rem;
 }

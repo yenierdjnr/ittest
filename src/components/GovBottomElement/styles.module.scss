@@ -16,7 +16,7 @@ $breakpoints: (
   background-color: #f4f3fb;
   padding: 5rem 0 3rem;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr auto 1fr;
 }
 

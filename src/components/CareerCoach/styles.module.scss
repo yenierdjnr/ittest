@@ -27,7 +27,7 @@ $breakpoints: (
 
   margin: 0 auto;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: auto, auto, 1fr, auto;
   grid-gap: 3rem;
 }

@@ -15,7 +15,7 @@ $breakpoints: (
 .container {
   padding: 9.6rem 0 13rem;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
 
   background-color: $color-white;
@@ -45,7 +45,7 @@ $breakpoints: (
 .flags {
   grid-column: 2 / 3;
 
-  display: grid;
+  @include display-grid;
   grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
   grid-column-gap: 4rem;
   grid-row-gap: 1.6rem;
