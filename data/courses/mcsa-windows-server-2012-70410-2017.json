@@ -1,0 +1,863 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 is designed to be a mid-tier certification for someone who has been working in the field for several years and has had exposure to large and enterprise size deployments of Microsoft Windows and covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA 70-410 Installing and Configuring Windows Server 2012 exam covers topics like how to install Windows server 2012, how to add roles to it so that your server can perform customized functions and other areas that will help the viewer to ensure their computing environment is functional and stable.",
+  "descriptionMD": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 is designed to be a mid-tier certification for someone who has been working in the field for several years and has had exposure to large and enterprise size deployments of Microsoft Windows and covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA 70-410 Installing and Configuring Windows Server 2012 exam covers topics like how to install Windows server 2012, how to add roles to it so that your server can perform customized functions and other areas that will help the viewer to ensure their computing environment is functional and stable.",
+  "length": "128951",
+  "name": "MCSA Windows Server 2012 - 70-410 (UPDATED 2017)",
+  "practiceExam": true,
+  "subtitle": "Installing and Configuring Windows Server 2012",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The MCSA 70-410 Installing and Configuring Windows Server 2012 exam covers topics like how to install Windows server 2012, how to add roles to it so that your server can perform customized functions and other areas that will help the viewer to ensure their computing environment is functional and stable.",
+          "length": "167",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-0-0-0-overview-120417-PGM.00_00_05_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-0-0-0-overview-120417-PGM.00_00_05_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-0-0-0-overview-120417-PGM.00_00_05_27.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "245957467"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee look at the planning considerations for using Windows Server 2012 R2.  Cherokee reviews some of the different editions: Datacenter, Standard, Essentials and Foundation.  She also provides a scenario to consider when choosing which edition to pick.  Lastly, Cherokee provides us with the different hardware requirements when performing a basic installation of Server 2012 R2.",
+          "length": "1265",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
+          "title": "Planning a Server Installation",
+          "transcript": "",
+          "vimeoId": "222681036"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee look at the planning considerations for using Windows Server 2012 R2.  Cherokee reviews some of the different editions: Datacenter, Standard, Essentials and Foundation.  She also provides a scenario to consider when choosing which edition to pick.  Lastly, Cherokee provides us with the different hardware requirements when performing a basic installation of Server 2012 R2.",
+          "length": "1265",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
+          "title": "Planning a Server Installation 70410",
+          "transcript": "",
+          "vimeoId": "222681036"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee look at the planning considerations for using Windows Server 2012 R2.  Cherokee reviews some of the different editions: Datacenter, Standard, Essentials and Foundation.  She also provides a scenario to consider when choosing which edition to pick.  Lastly, Cherokee provides us with the different hardware requirements when performing a basic installation of Server 2012 R2.",
+          "length": "1265",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
+          "title": "Planning a Server Installation",
+          "transcript": "",
+          "vimeoId": "222681036"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee demonstrate a traditional installation of Window Server 2012 R2. Cherokee creates a virtual machine and runs through the installation of Server 2012.  The team talk about some of the considerations when doing the installation.  Cherokee these shows some of the initial post install configurations Server",
+          "length": "1808",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-2-install_and_configure_server_with_gui-062017-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-2-install_and_configure_server_with_gui-062017-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-2-install_and_configure_server_with_gui-062017-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "Install and Configure Server with GUI",
+          "transcript": "",
+          "vimeoId": "222681318"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into the installation of Server Core 2012 R2.  Cherokee picks up from the previous episode by removing the GUI events to Server 2012 R2 leaving us with Server Core.  She demonstrates the quickness of the installation process when choosing the Server Core type and shows some of the configuration utilities that will help an admin do initial configuration on Server 2012 R2.",
+          "length": "1309",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-3-install_and_configure_server_core-062017-PGM.00_52_30_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-3-install_and_configure_server_core-062017-PGM.00_52_30_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-3-install_and_configure_server_core-062017-PGM.00_52_30_21.Still001-sm.jpg",
+          "title": "Install and Configure Server Core",
+          "transcript": "",
+          "vimeoId": "222837539"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee discuss and show installing roles and features to make Windows Server 2012 R2 more fit for purpose.  Cherokee shows the standard way of installing a feature using the wizard driven system.  She also demonstrates installing a role using powershell.  Once complete she verifies the installation succeeded.",
+          "length": "1499",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-1-features_and_roles-062117-PGM.00_30_20_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-1-features_and_roles-062117-PGM.00_30_20_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-1-features_and_roles-062117-PGM.00_30_20_14.Still001-sm.jpg",
+          "title": "Features and Roles",
+          "transcript": "",
+          "vimeoId": "222837109"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into using powershell for remote installation of roles and features.  Cherokee demonstrates how get a server role installed to another domain joined computer.  She also discusses with Ronnie some of the key elements and benefits of migrating server roles.  This includes when to use them, any major considerations and when it wouldn’t help to do so.",
+          "length": "1529",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-2-features_and_roles_pt2-062117-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-2-features_and_roles_pt2-062117-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-2-features_and_roles_pt2-062117-high-sm.jpg",
+          "title": "Features and Roles Part 2",
+          "transcript": "",
+          "vimeoId": "224342460"
+        },
+        {
+          "description": "",
+          "length": "1759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-1-additional_installation_configurations-070717-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-1-additional_installation_configurations-070717-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-1-additional_installation_configurations-070717-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "Additional Installation Configurations",
+          "transcript": "",
+          "vimeoId": "266492359"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into delegating administration and services.  Cherokee demonstrates and explains the purpose of delegating administrative functionality.  She also demonstrates how to do this on an OU in ADDS.  Cherokee also describes the use of services and how to get them configured through the console and a through powershell",
+          "length": "1426",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-2-additional_installation_configurations_pt2-070717-PGM.00_24_26_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-2-additional_installation_configurations_pt2-070717-PGM.00_24_26_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-2-additional_installation_configurations_pt2-070717-PGM.00_24_26_27.Still001-sm.jpg",
+          "title": "Additional Installation Configurations Part 2",
+          "transcript": "",
+          "vimeoId": "236589502"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee discuss the difference between Basic and Dynamic Disks.  Cherokee mentions the reasons to use each disk types.  She also shows configuring the MBR and GPT disk and the hardware requirements.  Lastly, she shows the use of the Disk Management tool to convert to GPT and then convert back to MBR.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-1-configuring_disks-070517-PGM.00_26_02_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-1-configuring_disks-070517-PGM.00_26_02_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-1-configuring_disks-070517-PGM.00_26_02_13.Still001-sm.jpg",
+          "title": "Configuring Disks",
+          "transcript": "",
+          "vimeoId": "224657163"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee look at configuring basic and dynamic disks in Window Server 2012 R2.  Cherokee uses the Disk Management tool to configure a spanned volume and striped volume.  She also demonstrates creating a mounted folder too.",
+          "length": "1520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-2-configuring_disks_pt2-070517-PGM.00_25_06_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-2-configuring_disks_pt2-070517-PGM.00_25_06_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-2-configuring_disks_pt2-070517-PGM.00_25_06_05.Still001-sm.jpg",
+          "title": "Configuring Disks Part 2",
+          "transcript": "",
+          "vimeoId": "224656895"
+        },
+        {
+          "description": "",
+          "length": "1757",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-1-storage_spaces-070617-PGM.00_29_02_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-1-storage_spaces-070617-PGM.00_29_02_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-1-storage_spaces-070617-PGM.00_29_02_03.Still001-sm.jpg",
+          "title": "Storage Spaces",
+          "transcript": "",
+          "vimeoId": "266491623"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with storage spaces configurations.  Cherokee demonstrates how to configure additional storage spaces types using the GUI.  She uses powershell to configure storage tiers.   Also she shows how to set the media type so that storage spaces can effectively differentiate between HDD and SSDs.  Storage Tiers can use this to optimize the use of disks dependent upon the media.",
+          "length": "1297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-2-storage_spaces_pt2-070617-PGM.00_21_22_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-2-storage_spaces_pt2-070617-PGM.00_21_22_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-2-storage_spaces_pt2-070617-PGM.00_21_22_08.Still001-sm.jpg",
+          "title": "Storage Spaces Part 2",
+          "transcript": "",
+          "vimeoId": "224648762"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee observe issues that may arise post configuration. Ronnie explains what configuration drift is and explains how Desired State Configuration can help combat it. He also explains the two deployment types, push and pull.",
+          "length": "1732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-1-desired_state_configuration-062317-PGM.00_30_14_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-1-desired_state_configuration-062317-PGM.00_30_14_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-1-desired_state_configuration-062317-PGM.00_30_14_26.Still001-sm.jpg",
+          "title": "Desired State Configuration",
+          "transcript": "",
+          "vimeoId": "223136007"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie begin diving into the actual demonstration of a push type of DSC deployment. Ronnie demonstrates the steps required to prepare for the deployment and calls special attention to specific PowerShell cmdlets to configure the .mof file.",
+          "length": "1551",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-2-desired_state_configuration_pt2-062317-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-2-desired_state_configuration_pt2-062317-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-2-desired_state_configuration_pt2-062317-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Desired State Configuration Part 2",
+          "transcript": "",
+          "vimeoId": "223136529"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee complete the DSC push deployment. Ronnie demonstrates how to run it and even performs a simulation to mimic a user modifying the operating system. However, DSC proves to be most helpful by auto adjusting the settings back to what was configured in the configuration files.",
+          "length": "1933",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-3-desired_state_configuration_pt3-062317-PGM.00_00_43_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-3-desired_state_configuration_pt3-062317-PGM.00_00_43_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-3-desired_state_configuration_pt3-062317-PGM.00_00_43_10.Still001-sm.jpg",
+          "title": "Desired State Configuration Part 3",
+          "transcript": "",
+          "vimeoId": "223137650"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee discuss the use of NIC Teaming in Server 2012.  Cherokee helps us by describing the purpose and use cased for nic teaming in Server 2012.  She also discusses some of the options available that must considered when choosing to do nic teaming.  She differentiates the difference between switch independent and switch dependent teaming and the use of load balancing choices.",
+          "length": "1725",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-1-nic_teaming-070317-PGM.00_28_28_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-1-nic_teaming-070317-PGM.00_28_28_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-1-nic_teaming-070317-PGM.00_28_28_14.Still001-sm.jpg",
+          "title": "NIC Teaming",
+          "transcript": "",
+          "vimeoId": "224342757"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee show us how to get nic teaming configured.  Cherokee demonstrates configuring the nic teaming using the server manager graphical interface as well as how to change the options.  She also take the time to demonstrate the configuration using powershell too, showing how to configure, change and verify nic teaming.",
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-2-nic_teaming_pt2-070317-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-2-nic_teaming_pt2-070317-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-2-nic_teaming_pt2-070317-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "NIC Teaming Part 2",
+          "transcript": "",
+          "vimeoId": "224932408"
+        }
+      ],
+      "title": "Install and configure servers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Cherokee discuss and show configure NTFS permissions.  Cherokee explains that permissions are normally inherited from the root of the file system to subfolders below it.  Also, she explains and demonstrates what happens to permissions when you create a new subfolder and add a group to it.  When using NTFS permissions with users and a groups, these permissions may be cumulative if the user is a member of multiple groups, with the exception of denies, says Cherokee.  Lastly, she demonstrates how to disable inheritance and remove a group from the DACL.",
+          "length": "1588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-1-configure_ntfs_permission-071117.00_29_54_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-1-configure_ntfs_permission-071117.00_29_54_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-1-configure_ntfs_permission-071117.00_29_54_00.Still001-sm.jpg",
+          "title": "Configure NTFS Permissions",
+          "transcript": "",
+          "vimeoId": "225404733"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee show an example of configuring ntfs permissions.  Cherokee demonstrates adding the groups and explains the permissions that should control access to a folder.  She uses different users to log in with different permissions to demonstrate how it works.",
+          "length": "666",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-2-configure_ntfs_permission_pt2-071117-PGM.00_10_50_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-2-configure_ntfs_permission_pt2-071117-PGM.00_10_50_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-2-configure_ntfs_permission_pt2-071117-PGM.00_10_50_28.Still001-sm.jpg",
+          "title": "Configure NTFS Permissions Part 2",
+          "transcript": "",
+          "vimeoId": "225404988"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee discuss the use of share permissions in Windows.  Cherokee explains the use of shares and how to configure them.  She also explains that we must be careful account for NTFS and Share Permission when configuring them for use.  Lastly, she also demonstrates some of the methods used to configure shares on a Windows machine.",
+          "length": "1584",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-1-configure_share_permissions-071217-PGM.00_26_08_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-1-configure_share_permissions-071217-PGM.00_26_08_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-1-configure_share_permissions-071217-PGM.00_26_08_21.Still001-sm.jpg",
+          "title": "Configure Share Permissions",
+          "transcript": "",
+          "vimeoId": "225857680"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with configuring share permissions.  Cherokee reminds us that these share permissions will not work without Network Discovery.  She also demonstrates how to configure share through the File and Storage Services.  Lastly, she demonstrates how to configure an SMB share through powershell.",
+          "length": "1424",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-2-configure_share_permissions_pt2-071217-PGM.00_23_29_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-2-configure_share_permissions_pt2-071217-PGM.00_23_29_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-2-configure_share_permissions_pt2-071217-PGM.00_23_29_04.Still001-sm.jpg",
+          "title": "Configure Share Permissions Part 2",
+          "transcript": "",
+          "vimeoId": "225857955"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee introduce offline files.  Cherokee describes this as an option to consider when  low bandwidth considerations are in play or when the internet connection back to the network folders is not available.  She shows how to configure it and explains the options  you must consider before implementation.",
+          "length": "1394",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-1-configure_file_and_share_access-071317-PGM.00_22_58_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-1-configure_file_and_share_access-071317-PGM.00_22_58_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-1-configure_file_and_share_access-071317-PGM.00_22_58_11.Still001-sm.jpg",
+          "title": "Configure File and Share Access",
+          "transcript": "",
+          "vimeoId": "226158399"
+        },
+        {
+          "description": "{Description}In this episode, Ronnie and Cherokee introduce Work Folders.  Cherokee explains the purpose and use of work folders and the scenario you’re likely to see it used.  She also discusses the elements involve in making it work.  She demonstrates setting up the environment for work folders by configuring a CA for Work Folders.",
+          "length": "1627",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-2-configure_file_and_share_access_pt2-071317.00_26_51_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-2-configure_file_and_share_access_pt2-071317.00_26_51_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-2-configure_file_and_share_access_pt2-071317.00_26_51_05.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 2",
+          "transcript": "",
+          "vimeoId": "225858223"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee begin to setup the for Work Folders.  Cherokee configures the CA and the web enrollment.  She also demonstrates the additional configuration in DNS and Group Policy that needs to be performed for this to work.  Lastly, she retrieves a certificate for her Work Folders server.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-3-configure_file_and_share_access_pt3-071417.00_29_01_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-3-configure_file_and_share_access_pt3-071417.00_29_01_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-3-configure_file_and_share_access_pt3-071417.00_29_01_17.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 3",
+          "transcript": "",
+          "vimeoId": "226159127"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue to setup the Work Folder Server Environment. Cherokee demonstrates how to configure the Server for use. In her environment she is configuring also for a proxy server.  She completes the certificate request from the CA.",
+          "length": "1486",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-4-configure_file_and_share_access_pt4-071417-PGM.00_24_39_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-4-configure_file_and_share_access_pt4-071417-PGM.00_24_39_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-4-configure_file_and_share_access_pt4-071417-PGM.00_24_39_14.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 4",
+          "transcript": "",
+          "vimeoId": "226158670"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee complete the Work Folders setup.  Cherokee configures remaining items needed.  Lastly, she completes the client side configuration and verifies the Work Folder operations.",
+          "length": "1248",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-5-configure_file_and_share_access_pt5-071417-PGM.00_20_32_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-5-configure_file_and_share_access_pt5-071417-PGM.00_20_32_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-5-configure_file_and_share_access_pt5-071417-PGM.00_20_32_17.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 5",
+          "transcript": "",
+          "vimeoId": "226158917"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into Volume Shadow Copy Service.  Cherokee shows how to configure it and explains that the configuration  is not difficult to set up but there are many configuration items that must be set.  She also demonstrates creating a file and then changing it to show the previous versioning working.  She describes the use of vssadmin to verify it is setup and verified to run the way we expect.",
+          "length": "1311",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt6-072417-PGM.00_23_15_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt6-072417-PGM.00_23_15_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt6-072417-PGM.00_23_15_09.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 6",
+          "transcript": "",
+          "vimeoId": "227076054"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into Access Based Enumeration and NTFS Quotas.  Cherokee demonstrates how to configure ABE and the situations you might find the need to use them.  She describes some of the additional considerations when implementing it.  Also Cherokee implements NTFS Quota on volumes and even per folder quotas through File Resource Server Manager.",
+          "length": "1900",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt7-072517-PGM.00_33_18_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt7-072517-PGM.00_33_18_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt7-072517-PGM.00_33_18_10.Still001-sm.jpg",
+          "title": "Configure File and Share Access Part 7",
+          "transcript": "",
+          "vimeoId": "227262417"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with printer configuration.  Cherokee explores the printer permissions and the results.  She explains the use and configuration of print priorities.",
+          "length": "1799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-1-configuring_printers-072517-PGM.00_29_43_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-1-configuring_printers-072517-PGM.00_29_43_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-1-configuring_printers-072517-PGM.00_29_43_12.Still001-sm.jpg",
+          "title": "Configuring Printers",
+          "transcript": "",
+          "vimeoId": "227076293"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee configure enterprise printing.  Cherokee configures group policy to deploy a printer to user accounts in active directory.  She also shows some of the powershell commands that server admins must know when working with printers.",
+          "length": "1294",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-2-configuring_printers_pt2-072617-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-2-configuring_printers_pt2-072617-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-2-configuring_printers_pt2-072617-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Configuring Printers Part 2",
+          "transcript": "",
+          "vimeoId": "227262890"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee configure enterprise printing.  Cherokee configures group policy to deploy a printer to user accounts in active directory.  She also shows some of the powershell commands that server admins must know when working with printers.",
+          "length": "1040",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-3-configuring_printers_pt3-072617-PGM.00_57_34_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-3-configuring_printers_pt3-072617-PGM.00_57_34_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-3-configuring_printers_pt3-072617-PGM.00_57_34_01.Still001-sm.jpg",
+          "title": "Configuring Printers Part 3",
+          "transcript": "",
+          "vimeoId": "227744002"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into the basic remote management of Windows Server 2012.  Cherokee discusses the need for remote management and discusses the features and that is is enabled by default on Windows Server 2012 R2.  She demonstrates checking the services that must be enabled before establishing Remote Management.  Cherokee uses the `winRM quickconfig` to configure it.  she then uses `winRS` to verify it working.",
+          "length": "1282",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-1-configure_servers_for_remote_management-071717-PGM.00_21_06_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-1-configure_servers_for_remote_management-071717-PGM.00_21_06_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-1-configure_servers_for_remote_management-071717-PGM.00_21_06_00.Still001-sm.jpg",
+          "title": "Configure Servers for Remote Management",
+          "transcript": "",
+          "vimeoId": "230448575"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with remote management using powershell.  Cherokee demonstrates different powershell commands to enable PS remoting.  She also demonstrates how to use the Server Manager and MMC to connect and do remote management of Server 2012 R2.",
+          "length": "1155",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-2-configure_servers_for_remote_management_pt2-071717-PGM.00_27_27_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-2-configure_servers_for_remote_management_pt2-071717-PGM.00_27_27_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-2-configure_servers_for_remote_management_pt2-071717-PGM.00_27_27_24.Still001-sm.jpg",
+          "title": "Configure Servers for Remote Management Part 2",
+          "transcript": "",
+          "vimeoId": "230448405"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee look at the Windows Firewall rules for Remote Management.  Cherokee shows how to configure them using the GUI and using netsh.   She also configures SMRemoting and multi-server management for remote management using powershell",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-3-configure_servers_for_remote_management_pt3-071817-PGM.00_35_29_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-3-configure_servers_for_remote_management_pt3-071817-PGM.00_35_29_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-3-configure_servers_for_remote_management_pt3-071817-PGM.00_35_29_00.Still001-sm.jpg",
+          "title": "Configure Servers for Remote Management Part 3",
+          "transcript": "",
+          "vimeoId": "236588724"
+        }
+      ],
+      "title": "Configure server roles and features"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show Wes and Cherokee introduce Hyper-V. Cherokee covers prerequisites, hardware requirements deployment options and more. Also covered is an explanation between type I and type II hypervisors.",
+          "length": "1632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-1-understand_create_and_configure_vms-100217-PGM.00_28_54_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-1-understand_create_and_configure_vms-100217-PGM.00_28_54_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-1-understand_create_and_configure_vms-100217-PGM.00_28_54_22.Still001-sm.jpg",
+          "title": "Understand, Create and Configure VMs",
+          "transcript": "",
+          "vimeoId": "236589252"
+        },
+        {
+          "description": "In this show, Cherokee and Wes continue to discuss virtualization. Cherokee demonstrates how to install the hyper-v role via the GUI and PowerShell. Next, they discuss the difference between Generation 1 and Generation 2 virtual machines. Lastly, Cherokee shows how to create a VM within the GUI and configure dynamic memory.",
+          "length": "1617",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-2-understand_create_and_configure_vms_pt2-100217-PGM.00_26_40_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-2-understand_create_and_configure_vms_pt2-100217-PGM.00_26_40_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-2-understand_create_and_configure_vms_pt2-100217-PGM.00_26_40_20.Still001-sm.jpg",
+          "title": "Understand, Create and Configure VMs Part 2",
+          "transcript": "",
+          "vimeoId": "236589020"
+        },
+        {
+          "description": "In this show, Cherokee and Wes take a look at how to create a virtual machine through PowerShell as well as PowerShell ISE. They also discuss the importance of leveraging PowerShell Hyper-V Cmdlets.",
+          "length": "1259",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-3-understand_create_and_configure_vms_pt3-100317.00_20_45_12.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-3-understand_create_and_configure_vms_pt3-100317.00_20_45_12.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-3-understand_create_and_configure_vms_pt3-100317.00_20_45_12.Still002-sm.jpg",
+          "title": "Understand, Create and Configure VM Part 3",
+          "transcript": "",
+          "vimeoId": "236808034"
+        },
+        {
+          "description": "In this episode, Wes and Cherokee focus on a feature enhancement in the form a software package within Hyper-v called Guest Integration Services. They explain what it is and how it can be used to help optimize the guest OS experience. Tune in for a demo showing how to enable it.",
+          "length": "1644",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-2-1-configure_guest_integration_services-100317-PGM.00_27_08_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-2-1-configure_guest_integration_services-100317-PGM.00_27_08_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-2-1-configure_guest_integration_services-100317-PGM.00_27_08_12.Still001-sm.jpg",
+          "title": "Configure Guest Integration Services",
+          "transcript": "",
+          "vimeoId": "236807762"
+        },
+        {
+          "description": "In this show, Cherokee and Wes begin explaining how to configure SmartPaging to help ensure enough memory is allocated to a VM in a time of need, such as a reboot. They also introduce resource metering and show how to use it.",
+          "length": "1654",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-1-additional_vm_configurations-100317-PGM.00_27_37_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-1-additional_vm_configurations-100317-PGM.00_27_37_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-1-additional_vm_configurations-100317-PGM.00_27_37_05.Still001-sm.jpg",
+          "title": "Additional VM Configurations",
+          "transcript": "",
+          "vimeoId": "236807493"
+        },
+        {
+          "description": "In this show, Wes and Cherokee continue to discuss features of Hyper-V. First, they explain a way to leverage local peripherals through a technology called enhanced session mode. Next, they explore RemoteFX another feature of Hyper-V that leverages the use of a physical GPU.",
+          "length": "1029",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-2-additional_vm_configurations_pt2-100417-PGM.00_20_26_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-2-additional_vm_configurations_pt2-100417-PGM.00_20_26_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-2-additional_vm_configurations_pt2-100417-PGM.00_20_26_00.Still001-sm.jpg",
+          "title": "Additional VM Configurations Part 2",
+          "transcript": "",
+          "vimeoId": "236935899"
+        },
+        {
+          "description": "In this episode, Cherokee and Wes introduce Hyper-v storage options. First, they explain the difference between .VDH and .VHDX file types. They also compare and contrast fixed, dynamically expanding and differencing drives. Cherokee demonstrates how to crceate and use these drives with the GUI.",
+          "length": "1675",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-4-1-create_and_configure_vm_storage-100517-PGM.00_27_39_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-4-1-create_and_configure_vm_storage-100517-PGM.00_27_39_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-4-1-create_and_configure_vm_storage-100517-PGM.00_27_39_15.Still001-sm.jpg",
+          "title": "Create and Configure VM Storage",
+          "transcript": "",
+          "vimeoId": "237107217"
+        },
+        {
+          "description": "In this show, Cherokee and Wes continue to discuss storage within Hyper-V however, they shift focus from GUI management to working within PowerShell. Cherokee demonstrates how to create, edit, attach, convert and delete virtual drives.",
+          "length": "1145",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-5-1-working_with_vhds_in_powershell-100517-PGM.00_19_21_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-5-1-working_with_vhds_in_powershell-100517-PGM.00_19_21_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-5-1-working_with_vhds_in_powershell-100517-PGM.00_19_21_00.Still001-sm.jpg",
+          "title": "Working with VHDs in Powershell",
+          "transcript": "",
+          "vimeoId": "237107059"
+        },
+        {
+          "description": "In this episode, Wes and Cherokee look at addition configuration options within Hyper-V. First, they talkk about creating checkpoints. Cherokee demonstrates how to create one and revert back to a point in time. Next, She shows how to create and attach a Fibre Channel adapter in addition to storage quality of service.",
+          "length": "984",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-6-1-additional_storage_configurations-100517-PGM.00_16_08_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-6-1-additional_storage_configurations-100517-PGM.00_16_08_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-6-1-additional_storage_configurations-100517-PGM.00_16_08_25.Still001-sm.jpg",
+          "title": "Additional Storage Configurations",
+          "transcript": "",
+          "vimeoId": "237106937"
+        },
+        {
+          "description": "In this episode, Wes and Cherokee explain how networking plays out in a virtual environment. Cherokee demonstrates how to create a virtual switch and differentiate between the different configuration options. Tune in for all this and more!",
+          "length": "1379",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-1-hyper_v_networking-101617-PGM.00_29_02_01.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-1-hyper_v_networking-101617-PGM.00_29_02_01.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-1-hyper_v_networking-101617-PGM.00_29_02_01.Still002-sm.jpg",
+          "title": "Hyper-V Networking",
+          "transcript": "",
+          "vimeoId": "238591743"
+        },
+        {
+          "description": "In this show, Cherokee and Wes continue to discuss networking within Hyper-V. They look at ways to increase performance by enabling technologies such as Single Root Input-Output Virtualization, Virtual Machine Device Queues, and IPsec task offloading.",
+          "length": "1379",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-2-hyper_v_networking_pt2-101617-PGM.00_22_45_29.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-2-hyper_v_networking_pt2-101617-PGM.00_22_45_29.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-2-hyper_v_networking_pt2-101617-PGM.00_22_45_29.Still002-sm.jpg",
+          "title": "Hyper-V Networking Part 2",
+          "transcript": "",
+          "vimeoId": "238591021"
+        },
+        {
+          "description": "",
+          "length": "1771",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-3-hyper_v_networking_pt3-102017-PGM.00_51_45_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-3-hyper_v_networking_pt3-102017-PGM.00_51_45_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-3-hyper_v_networking_pt3-102017-PGM.00_51_45_19.Still001-sm.jpg",
+          "title": "Hyper-V Networking Part 3",
+          "transcript": "",
+          "vimeoId": "239465377"
+        },
+        {
+          "description": "Tune in to see Cherokee and Wes demonstrate the creation of NIC Teams inside of a virtual machine. First, Cherokee walks through the steps needed to configure a team within the GUI followed by the process of creating one via PowerShell as well.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-4-hyper_v_networking_pt4-102017-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-4-hyper_v_networking_pt4-102017-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-4-hyper_v_networking_pt4-102017-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Hyper-V Networking Part 4",
+          "transcript": "",
+          "vimeoId": "240009501"
+        }
+      ],
+      "title": "Configure Hyper-V"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Cherokee demonstrate how to install and configure DHCP.  Cherokee describes the DHCP process.  She also installs the DHCP role through powershell and indicates that we can do the whole process through this.  She demonstrates creating scopes in the GUI  using the wizard.",
+          "length": "1694",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-1-deploy_and_configure_dhcp-0722717-PGM.00_27_56_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-1-deploy_and_configure_dhcp-0722717-PGM.00_27_56_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-1-deploy_and_configure_dhcp-0722717-PGM.00_27_56_25.Still001-sm.jpg",
+          "title": "Deploy and Configure DHCP",
+          "transcript": "",
+          "vimeoId": "227745182"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with configuring DHCP server.  Cherokee demonstrates how to configure additional scopes using powershell and netsh commands.  She demonstrates how to not only configure the scope but configures the options too. Cherokee also configures options at the scope level, server level and class too.",
+          "length": "1409",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-2-deploy_and_configure_dhcp_pt2-0722817-PGM.00_23_13_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-2-deploy_and_configure_dhcp_pt2-0722817-PGM.00_23_13_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-2-deploy_and_configure_dhcp_pt2-0722817-PGM.00_23_13_08.Still001-sm.jpg",
+          "title": "Deploy and Configure DHCP Part 2",
+          "transcript": "",
+          "vimeoId": "227744878"
+        },
+        {
+          "description": "{Description}In this episode, Ronnie and Cherokee take a look at configuring DHCP reservations, superscopes and backups.  Cherokee shows how to configure reservations using the GUI, powershell and netsh commands.  She also shows how to backup DHCP and restore the backup of the DHCP database.  Cherokee demonstrates how to configure a superscope for management.",
+          "length": "1459",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-3-deploy_and_configure_dhcp_pt3-0722817-PGM.00_24_03_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-3-deploy_and_configure_dhcp_pt3-0722817-PGM.00_24_03_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-3-deploy_and_configure_dhcp_pt3-0722817-PGM.00_24_03_17.Still001-sm.jpg",
+          "title": "Deploy and Configure DHCP Part 3",
+          "transcript": "",
+          "vimeoId": "227744390"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee examine some of the remaining DHCP configurations to be considered.  Cherokee reminds viewers of the order of precedence for options (Server, Scope, Class and Reserved), She describes the usage of PXE boot options in DHCP.  Lastly, she demonstrates and describes how to configure Server 2102 R2 for a DHCP Relay Agent.",
+          "length": "1639",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-4-deploy_and_configure_dhcp_pt4-071517-PGM.00_50_29_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-4-deploy_and_configure_dhcp_pt4-071517-PGM.00_50_29_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-4-deploy_and_configure_dhcp_pt4-071517-PGM.00_50_29_07.Still001-sm.jpg",
+          "title": "Deploy and Configure DHCP Part 4",
+          "transcript": "",
+          "vimeoId": "230448139"
+        },
+        {
+          "description": "",
+          "length": "2128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-1-install_dns-102417-PGM.00_35_15_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-1-install_dns-102417-PGM.00_35_15_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-1-install_dns-102417-PGM.00_35_15_11.Still001-sm.jpg",
+          "title": "Install DNS",
+          "transcript": "",
+          "vimeoId": "240151485"
+        },
+        {
+          "description": "",
+          "length": "1779",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-2-install_dns_pt_2-102417-PGM.00_29_24_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-2-install_dns_pt_2-102417-PGM.00_29_24_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-2-install_dns_pt_2-102417-PGM.00_29_24_04.Still001-sm.jpg",
+          "title": "Install DNS Part 2",
+          "transcript": "",
+          "vimeoId": "240151041"
+        },
+        {
+          "description": "",
+          "length": "1903",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-3-install_dns_pt_3-102417-PGM.00_32_05_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-3-install_dns_pt_3-102417-PGM.00_32_05_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-3-install_dns_pt_3-102417-PGM.00_32_05_26.Still001-sm.jpg",
+          "title": "Install DNS Part 3",
+          "transcript": "",
+          "vimeoId": "240010122"
+        },
+        {
+          "description": "",
+          "length": "2092",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-1-configure_dns-102617-PGM.00_34_38_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-1-configure_dns-102617-PGM.00_34_38_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-1-configure_dns-102617-PGM.00_34_38_12.Still001-sm.jpg",
+          "title": "Configure DNS",
+          "transcript": "",
+          "vimeoId": "240550547"
+        },
+        {
+          "description": "",
+          "length": "2024",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-2-configure_dns_pt_2-102617-PGM.01_28_08_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-2-configure_dns_pt_2-102617-PGM.01_28_08_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-2-configure_dns_pt_2-102617-PGM.01_28_08_03.Still001-sm.jpg",
+          "title": "Configure DNS Part 2",
+          "transcript": "",
+          "vimeoId": "240218575"
+        },
+        {
+          "description": "",
+          "length": "2417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-3-configure_dns_pt_3-102617-PGM.00_40_25_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-3-configure_dns_pt_3-102617-PGM.00_40_25_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-3-configure_dns_pt_3-102617-PGM.00_40_25_10.Still001-sm.jpg",
+          "title": "Configure DNS Part 3",
+          "transcript": "",
+          "vimeoId": "240550014"
+        },
+        {
+          "description": "",
+          "length": "1416",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-1-ipv4_and_ipv6_interoperability-010518-PGM.00_23_23_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-1-ipv4_and_ipv6_interoperability-010518-PGM.00_23_23_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-1-ipv4_and_ipv6_interoperability-010518-PGM.00_23_23_02.Still001-sm.jpg",
+          "title": "IPv4 and IPv6 Interoperability",
+          "transcript": "",
+          "vimeoId": "250168712"
+        },
+        {
+          "description": "",
+          "length": "1077",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-2-ipv4_and_ipv6_interoperability_pt_2-010518.00_17_45_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-2-ipv4_and_ipv6_interoperability_pt_2-010518.00_17_45_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-2-ipv4_and_ipv6_interoperability_pt_2-010518.00_17_45_15.Still001-sm.jpg",
+          "title": "IPv4 and IPv6 Interoperability Part 2",
+          "transcript": "",
+          "vimeoId": "250168282"
+        },
+        {
+          "description": "",
+          "length": "1970",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-1-configure_ipv4_and_ipv6-102517-PGM.00_32_36_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-1-configure_ipv4_and_ipv6-102517-PGM.00_32_36_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-1-configure_ipv4_and_ipv6-102517-PGM.00_32_36_00.Still001-sm.jpg",
+          "title": "Configure IPv4 and IPv6",
+          "transcript": "",
+          "vimeoId": "240218052"
+        },
+        {
+          "description": "",
+          "length": "2940",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-2-configure_ipv4_and_ipv6_pt_2-102517-PGM.00_48_46_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-2-configure_ipv4_and_ipv6_pt_2-102517-PGM.00_48_46_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-2-configure_ipv4_and_ipv6_pt_2-102517-PGM.00_48_46_19.Still001-sm.jpg",
+          "title": "Configure IPv4 and IPv6 Part 2",
+          "transcript": "",
+          "vimeoId": "240151925"
+        }
+      ],
+      "title": "Deploy and configure core network services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1796",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-1-install_domain_controllers-102317-CLN.00_29_44_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-1-install_domain_controllers-102317-CLN.00_29_44_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-1-install_domain_controllers-102317-CLN.00_29_44_04.Still001-sm.jpg",
+          "title": "Install Domain Controllers",
+          "transcript": "",
+          "vimeoId": "239825738"
+        },
+        {
+          "description": "",
+          "length": "1632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-2-install_domain_controllers_pt_2-102317-PGM.00_26_57_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-2-install_domain_controllers_pt_2-102317-PGM.00_26_57_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-2-install_domain_controllers_pt_2-102317-PGM.00_26_57_29.Still001-sm.jpg",
+          "title": "Install Domain Controllers Part 2",
+          "transcript": "",
+          "vimeoId": "239825118"
+        },
+        {
+          "description": "",
+          "length": "1926",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-3-install_domain_controllers_pt_3-102317-PGM.00_31_52_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-3-install_domain_controllers_pt_3-102317-PGM.00_31_52_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-3-install_domain_controllers_pt_3-102317-PGM.00_31_52_06.Still001-sm.jpg",
+          "title": "Install Domain Controllers Part 3",
+          "transcript": "",
+          "vimeoId": "239824231"
+        },
+        {
+          "description": "",
+          "length": "1973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-4-install_domain_controllers_pt_4-102317.00_32_39_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-4-install_domain_controllers_pt_4-102317.00_32_39_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-4-install_domain_controllers_pt_4-102317.00_32_39_20.Still001-sm.jpg",
+          "title": "Install Domain Controllers Part 4",
+          "transcript": "",
+          "vimeoId": "239826076"
+        },
+        {
+          "description": "",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-1-active_directory_users_and_computers-102717-PGM.00_30_29_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-1-active_directory_users_and_computers-102717-PGM.00_30_29_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-1-active_directory_users_and_computers-102717-PGM.00_30_29_19.Still001-sm.jpg",
+          "title": "Active Directory Users and Computers",
+          "transcript": "",
+          "vimeoId": "240549251"
+        },
+        {
+          "description": "",
+          "length": "1810",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-2-active_directory_users_and_computers_pt_2-102717-PGM.00_29_56_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-2-active_directory_users_and_computers_pt_2-102717-PGM.00_29_56_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-2-active_directory_users_and_computers_pt_2-102717-PGM.00_29_56_11.Still001-sm.jpg",
+          "title": "Active Directory Users and Computers Part 2",
+          "transcript": "",
+          "vimeoId": "240549615"
+        },
+        {
+          "description": "",
+          "length": "1286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-3-active_directory_users_and_computers_pt_3-102717-PGM.00_21_12_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-3-active_directory_users_and_computers_pt_3-102717-PGM.00_21_12_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-3-active_directory_users_and_computers_pt_3-102717-PGM.00_21_12_08.Still001-sm.jpg",
+          "title": "Active Directory Users and Computers Part 3",
+          "transcript": "",
+          "vimeoId": "240549019"
+        },
+        {
+          "description": "",
+          "length": "1498",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-1-create_and_manage_groups-and_ous-112217-PGM.00_26_29_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-1-create_and_manage_groups-and_ous-112217-PGM.00_26_29_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-1-create_and_manage_groups-and_ous-112217-PGM.00_26_29_21.Still001-sm.jpg",
+          "title": "Create and Manage Groups and OUs",
+          "transcript": "",
+          "vimeoId": "244657564"
+        },
+        {
+          "description": "",
+          "length": "2411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-2-create_and_manage_groups-and_ous_pt_2-112217-PGM.00_46_58_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-2-create_and_manage_groups-and_ous_pt_2-112217-PGM.00_46_58_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-2-create_and_manage_groups-and_ous_pt_2-112217-PGM.00_46_58_10.Still001-sm.jpg",
+          "title": "Create and Manage Groups and OUs Part 2",
+          "transcript": "",
+          "vimeoId": "244657243"
+        }
+      ],
+      "title": "Install and administer Active Directory"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "2037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-1-create_group_policy_objects-112017-PGM.00_33_44_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-1-create_group_policy_objects-112017-PGM.00_33_44_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-1-create_group_policy_objects-112017-PGM.00_33_44_16.Still001-sm.jpg",
+          "title": "Create Group Policy Objects (GPOs)",
+          "transcript": "",
+          "vimeoId": "243916126"
+        },
+        {
+          "description": "",
+          "length": "1853",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-2-create_group_policy_objects_pt_2-112017-PGM.00_30_40_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-2-create_group_policy_objects_pt_2-112017-PGM.00_30_40_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-2-create_group_policy_objects_pt_2-112017-PGM.00_30_40_23.Still001-sm.jpg",
+          "title": "Create Group Policy Objects (GPOs) Part 2",
+          "transcript": "",
+          "vimeoId": "243915824"
+        },
+        {
+          "description": "",
+          "length": "1860",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-3-create_group_policy_objects_pt_3-112817-PGM.00_30_48_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-3-create_group_policy_objects_pt_3-112817-PGM.00_30_48_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-3-create_group_policy_objects_pt_3-112817-PGM.00_30_48_03.Still001-sm.jpg",
+          "title": "Create Group Policy Objects (GPOs) Part 3",
+          "transcript": "",
+          "vimeoId": "245019660"
+        },
+        {
+          "description": "",
+          "length": "1853",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-4-create_group_policy_objects_pt_3-112817-PGM.00_30_39_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-4-create_group_policy_objects_pt_3-112817-PGM.00_30_39_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-4-create_group_policy_objects_pt_3-112817-PGM.00_30_39_19.Still001-sm.jpg",
+          "title": "Create Group Policy Objects (GPOs) Part 4",
+          "transcript": "",
+          "vimeoId": "245019976"
+        },
+        {
+          "description": "",
+          "length": "985",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-5-create_group_policy_objects_pt_5-112817-PGM.00_16_20_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-5-create_group_policy_objects_pt_5-112817-PGM.00_16_20_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-5-create_group_policy_objects_pt_5-112817-PGM.00_16_20_06.Still001-sm.jpg",
+          "title": "Create Group Policy Objects (GPOs) Part 5",
+          "transcript": "",
+          "vimeoId": "245019530"
+        },
+        {
+          "description": "",
+          "length": "2066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-1-configure_security_policies-112017-PGM.00_34_12_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-1-configure_security_policies-112017-PGM.00_34_12_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-1-configure_security_policies-112017-PGM.00_34_12_05.Still001-sm.jpg",
+          "title": "Configure Security Policies",
+          "transcript": "",
+          "vimeoId": "243915452"
+        },
+        {
+          "description": "",
+          "length": "1491",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-2-configure_security_policies_pt_2-112017-PGM.00_24_37_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-2-configure_security_policies_pt_2-112017-PGM.00_24_37_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-2-configure_security_policies_pt_2-112017-PGM.00_24_37_03.Still001-sm.jpg",
+          "title": "Configure Security Policies Part 2",
+          "transcript": "",
+          "vimeoId": "243916443"
+        },
+        {
+          "description": "",
+          "length": "1973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-1-configure_application_restriction_policies-112117-PGM.00_32_56_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-1-configure_application_restriction_policies-112117-PGM.00_32_56_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-1-configure_application_restriction_policies-112117-PGM.00_32_56_06.Still001-sm.jpg",
+          "title": "Configure Application Restriction Policies",
+          "transcript": "",
+          "vimeoId": "244100091"
+        },
+        {
+          "description": "",
+          "length": "1528",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-2-configure_application_restriction_policies_pt_2-112117-PGM.00_25_17_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-2-configure_application_restriction_policies_pt_2-112117-PGM.00_25_17_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-2-configure_application_restriction_policies_pt_2-112117-PGM.00_25_17_11.Still001-sm.jpg",
+          "title": "Configure Application Restriction Policies Part 2",
+          "transcript": "",
+          "vimeoId": "244099692"
+        },
+        {
+          "description": "",
+          "length": "1751",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-4-1-configure_windows_firewall-112117-PGM.00_28_58_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-4-1-configure_windows_firewall-112117-PGM.00_28_58_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-4-1-configure_windows_firewall-112117-PGM.00_28_58_16.Still001-sm.jpg",
+          "title": "Configure Windows Firewall",
+          "transcript": "",
+          "vimeoId": "244099860"
+        }
+      ],
+      "title": "Create and manage group policy"
+    }
+  ],
+  "url": "mcsa-windows-server-2012-70410-2017",
+  "vLab": true
+}

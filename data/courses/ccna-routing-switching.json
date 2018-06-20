@@ -1,0 +1,193 @@
+{
+  "description": "September 24, 2016 is the last day for this exam. CCNA Overview The Cisco Certified Network Associate (CCNA) is the most well known Cisco certification path. It takes the general networking theory from the CCENT certification and applies it in real world scenarios. It moves beyond configuring individual devices into more complex territory often requiring the configuration of numerous devices to create a robust and optimized network. While studying for this certification, you will revisit the routing and switching topics from the CCENT in more depth as you learn about and implement the advanced features of each technology.",
+  "descriptionMD": "",
+  "length": "71087",
+  "name": "CCNA Routing and Switching",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Network Associate",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "CCNA Overview The Cisco Certified Network Associate (CCNA) is the most well known Cisco certification path. It takes the general networking theory from the CCENT certification and applies it in real world scenarios. It moves beyond configuring individual devices into more complex territory often requiring the configuration of numerous devices to create a robust and optimized network. While studying for this certification, you will revisit the routing and switching topics from the CCENT in more depth as you learn about and implement the advanced features of each technology.",
+          "length": "567",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514-sm.jpg",
+          "title": "Overview of CCNA Routing and Switching",
+          "transcript": "",
+          "vimeoId": "112925840"
+        }
+      ],
+      "title": "Overview of CCNA Routing and Switching (200-101)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don describe loop prevention on Cisco switches. They describe how Spanning Tree Protocol (IEEE 802.1d), Per VLAN Spanning Tree Protocol, Rapid Spanning Tree Protocol (IEEE 802.1w) operate and how it makes its decisions for loop prevention. They also demonstrate configuration of each protocol.\r\n",
+          "length": "5730",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies-sm.jpg",
+          "title": "Switching Technologies",
+          "transcript": "",
+          "vimeoId": "79782059"
+        },
+        {
+          "description": "In this episode Ronnie and Don conclude with configuring Spanning Tree Protocol by demonstrating the way to manually elect the Root Bridge. They also describe and configure the different methods of EtherChannel (LACP, PAgP).",
+          "length": "5021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2-sm.jpg",
+          "title": "Switching Technologies Part 2",
+          "transcript": "",
+          "vimeoId": "79820533"
+        }
+      ],
+      "title": "LAN Switching Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don take a look at the boot up process of Cisco equipment and demonstrate some of the options to control boot up behavior.",
+          "length": "4411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management-sm.jpg",
+          "title": "Router Management",
+          "transcript": "",
+          "vimeoId": "80301256"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at the recovery and upgrade process for Cisco routers and switches. They also take a look at the new licensing model introduced in IOS 15.",
+          "length": "4990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2-sm.jpg",
+          "title": "Router Management Part 2",
+          "transcript": "",
+          "vimeoId": "80368850"
+        },
+        {
+          "description": "In this episode Ronnie and Don re-examine dynamic routing protocols and build on to the topics covered in the CCENT show. They cover administrative distance and loop prevention mechanisms as well as other routing topics.",
+          "length": "5019",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "vimeoId": "80908575"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss the basics of OSPF routing protocol. They show how to configure and verify OSPF. They discuss single and multi-area OSPF and talk about its benefits.",
+          "length": "4799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1-sm.jpg",
+          "title": "OSPF",
+          "transcript": "",
+          "vimeoId": "80916140"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at using dynamic routing protocols with IPv6. They start with OSPFv3 and then demonstrate EIGRP using IPv6 also.",
+          "length": "2211",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing-sm.jpg",
+          "title": "IPv6 Routing",
+          "transcript": "",
+          "vimeoId": "83598267"
+        },
+        {
+          "description": "In this episode Ronnie and Don introduce Enhanced Interior Gateway Routing Protocol (EIGRP). They discuss configuring the protocol and demonstrate some of the advance features and functionality of EIGRP.",
+          "length": "6664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP-sm.jpg",
+          "title": "EIGRP",
+          "transcript": "",
+          "vimeoId": "100210014"
+        }
+      ],
+      "title": "IP Routing Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don examine several IP services on Cisco routers. They start by demonstrating first hop redundancy protocols and wrap up taking a look at syslog and SNMP.",
+          "length": "4249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy-sm.jpg",
+          "title": "First Hop Redundancy",
+          "transcript": "",
+          "vimeoId": "83027970"
+        }
+      ],
+      "title": "IP Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don discuss troubleshooting methodologies and demonstrate troubleshooting and correcting issues with OSPF.",
+          "length": "6865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1-sm.jpg",
+          "title": "Troubleshooting Part 1",
+          "transcript": "",
+          "vimeoId": "84148008"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss troubleshooting EIGRP and demonstrate configuring and using Netflow for troubleshooting and reporting on a live network.",
+          "length": "3899",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2-sm.jpg",
+          "title": "Troubleshooting Part 2",
+          "transcript": "",
+          "vimeoId": "84155926"
+        },
+        {
+          "description": "In this episode Ronnie and Don tackle the final chapter in the troubleshooting trilogy by demonstrating issues on switches and layer 2 networks. They examine spanning tree protocol (STP), EtherChannel, VLAN trunking and router-on-a-stick.",
+          "length": "5478",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3-sm.jpg",
+          "title": "Troubleshooting Part 3",
+          "transcript": "",
+          "vimeoId": "84235299"
+        },
+        {
+          "description": "In this episode Ronnie and Don explore and troubleshoot the EIGRP dynamic routing protocol. They demonstrate basic configuration and show how to troubleshoot EIGRP.",
+          "length": "4742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting-sm.jpg",
+          "title": "EIGRP Troubleshooting",
+          "transcript": "",
+          "vimeoId": "89110586"
+        }
+      ],
+      "title": "Troubleshooting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don explore wide area network (WAN) technologies. They describe the common technologies found in the real world and then demonstrate configuring PPP, PPPoE and frame-relay.",
+          "length": "6442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies-sm.jpg",
+          "title": "WAN Technologies",
+          "transcript": "",
+          "vimeoId": "83598432"
+        }
+      ],
+      "title": "WAN Technologies"
+    }
+  ],
+  "url": "ccna-routing-switching",
+  "vLab": false
+}

@@ -1,0 +1,108 @@
+{
+  "description": "Wireshark is a free and open source network packet sniffer and protocol analyzer. It is an invaluable tool for any network administrator who needs detailed visibility into the traffic on their network. It utilizes a packet capture utility or sniffer, which watches any traffic/communication that crosses the network adapter and writes it to a file and then the protocol analyzer interprets the raw data obtained by the sniffer and turns it into readable data. It also provides in-depth tools for isolating faults and troubleshooting failures.",
+  "descriptionMD": "",
+  "length": "7461",
+  "name": "Wireshark",
+  "practiceExam": false,
+  "subtitle": "Network protocol analyzer",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "561",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1-sm.jpg",
+          "title": "What is Wireshark?",
+          "transcript": "",
+          "vimeoId": "106821239"
+        },
+        {
+          "description": "",
+          "length": "564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2-sm.jpg",
+          "title": "Installing Wireshark",
+          "transcript": "",
+          "vimeoId": "106821241"
+        },
+        {
+          "description": "",
+          "length": "640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6-sm.jpg",
+          "title": "Installing on OS X",
+          "transcript": "",
+          "vimeoId": "106822748"
+        },
+        {
+          "description": "",
+          "length": "657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3-sm.jpg",
+          "title": "Capturing Packets",
+          "transcript": "",
+          "vimeoId": "106821243"
+        },
+        {
+          "description": "",
+          "length": "789",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4-sm.jpg",
+          "title": "User Interface",
+          "transcript": "",
+          "vimeoId": "106821244"
+        },
+        {
+          "description": "",
+          "length": "1055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5-sm.jpg",
+          "title": "Capturing Data",
+          "transcript": "",
+          "vimeoId": "106821247"
+        },
+        {
+          "description": "",
+          "length": "1535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7-sm.jpg",
+          "title": "Filtering Packets",
+          "transcript": "",
+          "vimeoId": "106822750"
+        },
+        {
+          "description": "",
+          "length": "692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8-sm.jpg",
+          "title": "Assembling a Conversation",
+          "transcript": "",
+          "vimeoId": "106822749"
+        },
+        {
+          "description": "",
+          "length": "968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9-sm.jpg",
+          "title": "Statistics and Reporting",
+          "transcript": "",
+          "vimeoId": "106822751"
+        }
+      ],
+      "title": "Configure Wireshark"
+    }
+  ],
+  "url": "wireshark",
+  "vLab": false
+}

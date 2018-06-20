@@ -1,0 +1,268 @@
+{
+  "description": "Having the correct tool for the job is a great way to be productive. If you find yourself keeping writing similar bits of code over and over again when programming in Python, then Python may already have the tool that you need to make your code more readable, more maintainable, and possible faster or memory efficient. Python has an extensive set of modules that are part of the standard library. If you want to know more about the power built into the Python Standard Library, then stay tuned!",
+  "descriptionMD": "Having the correct tool for the job is a great way to be productive. If you find yourself keeping writing similar bits of code over and over again when programming in Python, then Python may already have the tool that you need to make your code more readable, more maintainable, and possible faster or memory efficient. Python has an extensive set of modules that are part of the standard library. If you want to know more about the power built into the Python Standard Library, then stay tuned!",
+  "length": "18712",
+  "name": "Dive into the Python Standard Library",
+  "practiceExam": false,
+  "subtitle": "All the tools you didn't know you already had",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin demonstrates the power of the glob module. This is part of the Python Standard Library. This module uses patterns to create a list, or iterator, of files and folders for iterating over providing a way to select files that satisfy a construct just like you would in Bash.",
+          "length": "688",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-1-1-the_glob_module-032817-PGM.00_00_03_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-1-1-the_glob_module-032817-PGM.00_00_03_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-1-1-the_glob_module-032817-PGM.00_00_03_01.Still001-sm.jpg",
+          "title": "the glob Module",
+          "transcript": "",
+          "vimeoId": "212583590"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the infinite iterators that are available in the itertools modules. These tools allow for the repeated consumption of values from it. Additionally, he outlines some potential 'gotchas' that you may experience.",
+          "length": "669",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_infinite_iterators-032817-PGM.00_11_04_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_combinatronics-032817-PGM.00_10_10_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_combinatronics-032817-PGM.00_10_10_00.Still001-sm.jpg",
+          "title": "The itertools Module: Infinite Iterations",
+          "transcript": "",
+          "vimeoId": "212583880"
+        },
+        {
+          "description": "In this episode, Justin demonstrates using combinatoric tools from the itertools module. These include product, permutations, combinations, and combinations_with_replacement. These tools are wonderful when you need to generate a relationship among the elements of an iterable or between the elements among multiple iterators.",
+          "length": "615",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_combinatronics-032817-PGM.00_10_10_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_combinatronics-032817-PGM.00_10_10_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-1-the_itertools_modules_combinatronics-032817-PGM.00_10_10_00.Still001-sm.jpg",
+          "title": "The itertools Module: Combinatorics",
+          "transcript": "",
+          "vimeoId": "212584163"
+        },
+        {
+          "description": "In this episode, Justin demonstrates using iterators from the itertools modules that terminate on the shortest input such as tee, chain, chain.from_iterable, starmap, and compress. Though not exhaustive, Justin shows how to flatten iterables, make a selection of elements from an iterable, as well as how to manage iterables for function consumption.",
+          "length": "1241",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-2-the_itertools_modules_shortest_input-032817-PGM.00_20_35_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-2-the_itertools_modules_shortest_input-032817-PGM.00_20_35_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-2-2-the_itertools_modules_shortest_input-032817-PGM.00_20_35_16.Still001-sm.jpg",
+          "title": "The itertools Module: Shortest Input",
+          "transcript": "",
+          "vimeoId": "212584401"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the use of the collections' module namedtuple. This factory function allows one to create lightweight tuples that have named field access as well as the zero-based index referencing that are available in tuples from the beginning. If you need a quick, lightweight replacement to a class, then stay tuned.",
+          "length": "759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-1-the_collections_module_namedtuple-032917-PGM.00_12_33_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-1-the_collections_module_namedtuple-032917-PGM.00_12_33_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-1-the_collections_module_namedtuple-032917-PGM.00_12_33_04.Still001-sm.jpg",
+          "title": "The collections Module: namedtuple",
+          "transcript": "",
+          "vimeoId": "210978978"
+        },
+        {
+          "description": "In this episode, Justin continues looking at the collections module with a special look into the defaultdict structure. The defaultdict allows you to create a default value when a key is addeded to the dictionary. Justin demonstrates how to use this structure to make partitioning of data more maintainable and readable.",
+          "length": "925",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-2-the_collections_module_defaultdict-032917-PGM.00_15_19_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-2-the_collections_module_defaultdict-032917-PGM.00_15_19_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-2-the_collections_module_defaultdict-032917-PGM.00_15_19_27.Still001-sm.jpg",
+          "title": "The collections Module: defaultdict",
+          "transcript": "",
+          "vimeoId": "210977670"
+        },
+        {
+          "description": "In this episode, Justin takes a closer look at the Counter structure for creating a distribution of frequency of elements from an iterable. The Counter provides additional methods to find the most common elements as well as interacting with multiple Counter instances.",
+          "length": "661",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-3-the_collections_module_counter-032917-PGM.00_11_21_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-3-the_collections_module_counter-032917-PGM.00_11_21_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-3-3-the_collections_module_counter-032917-PGM.00_11_21_21.Still001-sm.jpg",
+          "title": "The collections Module: Counter",
+          "transcript": "",
+          "vimeoId": "210978467"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the lru_cache decorator function from the functools module. If you need speed up a time intensive operation that gives the same output repeatedly, then take a look.",
+          "length": "448",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-1-the_functools_module_la_cache-040417-PGM.00_07_24_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-1-the_functools_module_la_cache-040417-PGM.00_07_24_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-1-the_functools_module_la_cache-040417-PGM.00_07_24_02.Still001-sm.jpg",
+          "title": "the functools Module: Iru_cache",
+          "transcript": "",
+          "vimeoId": "212911391"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the total_ordering decorator function from the functools module. Tired of spending time implementing all of the comparison special methods of a class just to prototype and idea? Join Justin as he wields the power of the Python Standard Library to overcome those slowdowns.",
+          "length": "707",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-2-the_functools_module_total_ordering-040417-PGM.00_11_43_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-2-the_functools_module_total_ordering-040417-PGM.00_11_43_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-2-the_functools_module_total_ordering-040417-PGM.00_11_43_06.Still001-sm.jpg",
+          "title": "The functools Module: total_ordering",
+          "transcript": "",
+          "vimeoId": "214173830"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the partial function from the the functools module. Tired of typing the same function arguments over and over only to change a one or two of the values? Join Justin as he overcomes those nuisances with the Python Standard Library?",
+          "length": "674",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-3-the_functools_module_partial-040417-PGM.00_11_25_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-3-the_functools_module_partial-040417-PGM.00_11_25_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-4-3-the_functools_module_partial-040417-PGM.00_11_25_13.Still001-sm.jpg",
+          "title": "The functools Module: partial",
+          "transcript": "",
+          "vimeoId": "214173980"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the reduce function from the the functools module. Whether you are interested in functional programming or need a way to write custom functions that combine the elements of a collection, reduce is an effective function to know.",
+          "length": "704",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-4-4-the_functools_module_reduce-042117-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-4-4-the_functools_module_reduce-042117-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-4-4-the_functools_module_reduce-042117-high-sm.jpg",
+          "title": "The functools Module: reduce",
+          "transcript": "",
+          "vimeoId": "243858417"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the usage of the json module for converting between Python data structures and valid JSON strings.",
+          "length": "663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-1-the_json_module_read_and_write-042017-PGM.00_10_57_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-1-the_json_module_read_and_write-042017-PGM.00_10_57_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-1-the_json_module_read_and_write-042017-PGM.00_10_57_18.Still001-sm.jpg",
+          "title": "The json Module: Reading & Writing",
+          "transcript": "",
+          "vimeoId": "243857818"
+        },
+        {
+          "description": "In this episode, Justin demonstrates using custom serialization and deserialization functions with the json module to handle objects that are not by default handled by the json module.",
+          "length": "679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-2-the_json_module_function_encoder_and_decode-PGM.00_11_14_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-2-the_json_module_function_encoder_and_decode-PGM.00_11_14_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-2-the_json_module_function_encoder_and_decode-PGM.00_11_14_01.Still001-sm.jpg",
+          "title": "The json Module: Function Encode & Decode",
+          "transcript": "",
+          "vimeoId": "243857334"
+        },
+        {
+          "description": "In this episode, Justin demonstrates using class based encoding and decoding of JSON with the json module.",
+          "length": "663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-3-the_json_module_class_encode_and_decode-042117-PGM.00_10_58_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-3-the_json_module_class_encode_and_decode-042117-PGM.00_10_58_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-5-3-the_json_module_class_encode_and_decode-042117-PGM.00_10_58_17.Still001-sm.jpg",
+          "title": "The json Module: Class Encode & Decode",
+          "transcript": "",
+          "vimeoId": "243858316"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the power of the csv module in the standard library for reading and parsing data that is transmitted using csv file format.",
+          "length": "852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-1-the_csv_module_csv_reading_and_writing-042117-PGM.00_14_06_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-1-the_csv_module_csv_reading_and_writing-042117-PGM.00_14_06_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-1-the_csv_module_csv_reading_and_writing-042117-PGM.00_14_06_27.Still001-sm.jpg",
+          "title": "The csv Module: CSV Reading & Writing",
+          "transcript": "",
+          "vimeoId": "243858172"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the DictReader and DictWriter objects in the csv module to produce a different representation of the data found in a comma separated file.",
+          "length": "873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-2-the_csv_module_csv_dictreader_and_dictwriter-042117-PGM.00_14_28_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-2-the_csv_module_csv_dictreader_and_dictwriter-042117-PGM.00_14_28_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-deveintothestandardlibrary-6-2-the_csv_module_csv_dictreader_and_dictwriter-042117-PGM.00_14_28_12.Still001-sm.jpg",
+          "title": "The csv Module: DictReader and DictWriter",
+          "transcript": "",
+          "vimeoId": "243858057"
+        },
+        {
+          "description": "In this episode, Justin demonstrates some of the common actions that you use to create valid system level paths using the Python standard library.",
+          "length": "714",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-7-1-the_os_path_module-081117-PGM.00_00_43_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-7-1-the_os_path_module-081117-PGM.00_00_43_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-7-1-the_os_path_module-081117-PGM.00_00_43_17.Still001-sm.jpg",
+          "title": "The os.path Module",
+          "transcript": "",
+          "vimeoId": "243858516"
+        },
+        {
+          "description": "In this episode, Justin explores building a tcp server using the standard libraries socket module primitives.",
+          "length": "572",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-1-the_socket_module_tcp_server-081117.00_00_05_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-1-the_socket_module_tcp_server-081117.00_00_05_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-1-the_socket_module_tcp_server-081117.00_00_05_15.Still001-sm.jpg",
+          "title": "The socket Module: TCP Server",
+          "transcript": "",
+          "vimeoId": "243858636"
+        },
+        {
+          "description": "In this episode, Justin uses the Python Standard library to create a TCP client akin to netcat.",
+          "length": "588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-2-the_socket_module_tcp_client-081117.00_00_05_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-2-the_socket_module_tcp_client-081117.00_00_05_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-2-the_socket_module_tcp_client-081117.00_00_05_22.Still001-sm.jpg",
+          "title": "The socket Module: TCP Client",
+          "transcript": "",
+          "vimeoId": "243858724"
+        },
+        {
+          "description": "In this episode, Justin creates a UDP server using the socket module primitives from the Python standard library.",
+          "length": "354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-3-the_socket_module_udp_server-081117.00_00_05_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-3-the_socket_module_udp_server-081117.00_00_05_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-3-the_socket_module_udp_server-081117.00_00_05_15.Still001-sm.jpg",
+          "title": "The socket Module: UDP Server",
+          "transcript": "",
+          "vimeoId": "243858826"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the utilization of the socket module primitives to create a UDP client similar to the UDP version of netcat.",
+          "length": "426",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-4-the_socket_module_udp_client-081117.00_00_05_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-4-the_socket_module_udp_client-081117.00_00_05_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-8-4-the_socket_module_udp_client-081117.00_00_05_16.Still001-sm.jpg",
+          "title": "The socket Module: UDP Client",
+          "transcript": "",
+          "vimeoId": "243856979"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the use of a datetime object's strftime method to create a formatted string representation of a datetime.",
+          "length": "566",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-1-1-datetime_strftime-112117-PGM.00_09_23_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-1-1-datetime_strftime-112117-PGM.00_09_23_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-1-1-datetime_strftime-112117-PGM.00_09_23_16.Still001-sm.jpg",
+          "title": "datetime strftime",
+          "transcript": "",
+          "vimeoId": "244098903"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the using the strptime function to parse datetimes from strings.",
+          "length": "494",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-2-1-datetime_strptime-112117_PGM.00_08_10_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-2-1-datetime_strptime-112117_PGM.00_08_10_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-9-2-1-datetime_strptime-112117_PGM.00_08_10_29.Still001-sm.jpg",
+          "title": "datetime strptime",
+          "transcript": "",
+          "vimeoId": "244098823"
+        },
+        {
+          "description": "In this episode, Justin demonstrates the use of the submit function using a ThreadPoolExecutor. Additionally, he highlights how the submit method compares to the map method on the executor.",
+          "length": "1005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-3-1-concurrent_futures_threadpool_executor_submit-112917-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-3-1-concurrent_futures_threadpool_executor_submit-112917-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-3-1-concurrent_futures_threadpool_executor_submit-112917-high-sm.jpg",
+          "title": "concurrent.futures ThreadPoolExecutor submit",
+          "transcript": "",
+          "vimeoId": "245255173"
+        },
+        {
+          "description": "In this episode, Justin dives into using the ProcessPoolExecutor submit method to add the ability to perform concurrent work.",
+          "length": "1029",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-4-1-concurrent_futures_processpool_executor_submit-112917-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-4-1-concurrent_futures_processpool_executor_submit-112917-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-diveintothestandardlibrary/techskills-diveintothestandardlibrary-10-4-1-concurrent_futures_processpool_executor_submit-112917-high-sm.jpg",
+          "title": "concurrent.futures ProcessPoolExecutor submit",
+          "transcript": "",
+          "vimeoId": "245255557"
+        }
+      ],
+      "title": "Dive into the Python Standard Library"
+    }
+  ],
+  "url": "python",
+  "vLab": false
+}

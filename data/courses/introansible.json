@@ -1,0 +1,348 @@
+{
+  "description": "Administering and configuring infrastructure is a necessary but sometimes very difficult undertaking. Manual configuration of infrastructure is a full time job that takes away from other valuable activities that is prone to errors and difficulties in reproducing system state. Ansible allows one to create plans for managing infrastructure using an agentless (no outside system required) approach. During this show we will cover what Ansible is, how to set up Ansible, and use Ansible to create reproducible server configurations.",
+  "descriptionMD": "Administering and configuring infrastructure is a necessary but sometimes very difficult undertaking. Manual configuration of infrastructure is a full time job that takes away from other valuable activities that is prone to errors and difficulties in reproducing system state. Ansible allows one to create plans for managing infrastructure using an agentless (no outside system required) approach. During this show we will cover what Ansible is, how to set up Ansible, and use Ansible to create reproducible server configurations.",
+  "length": "49542",
+  "name": "Intro to Ansible",
+  "practiceExam": false,
+  "subtitle": "Agentless infrastructure management planning",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Description: Administering and configuring infrastructure is a necessary but sometimes very difficult undertaking. Manual configuration of infrastructure is a full time job that takes away from other valuable activities that is prone to errors and difficulties in reproducing system state. Ansible allows one to create plans for managing infrastructure using an agentless (no outside system required) approach. During this show we will cover what Ansible is, how to set up Ansible, and use Ansible to create reproducible server configurations.",
+          "length": "231",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-0-0-0-overview-121517-PGM.00_00_12_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-0-0-0-overview-121517-PGM.00_00_12_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-0-0-0-overview-121517-PGM.00_00_12_20.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "247803444"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore the configuration management tool Ansible. Moreover, Justin demonstrates how to setup Vagrant and Virtualbox in order to simulate collections of servers to be administered by Ansible.",
+          "length": "1594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-1-1-creating_the_environment-110617-PGM.00_26_25_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-1-1-creating_the_environment-110617-PGM.00_26_25_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-1-1-creating_the_environment-110617-PGM.00_26_25_07.Still001-sm.jpg",
+          "title": "Creating the Environment",
+          "transcript": "",
+          "vimeoId": "241889156"
+        },
+        {
+          "description": "In this episode, Daniel and Justin work to install and set up Ansible on a control machine. Justin further discusses the requirements of Ansible in order appropriately control the other machines which includes setting up ssh access to other machines, copying identities, and ensuring that Python is available on the other machines.",
+          "length": "1859",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-2-1-setting_up_ansible-110617-PGM.00_30_50_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-2-1-setting_up_ansible-110617-PGM.00_30_50_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-2-1-setting_up_ansible-110617-PGM.00_30_50_09.Still001-sm.jpg",
+          "title": "Setting Up Ansible",
+          "transcript": "",
+          "vimeoId": "241884713"
+        },
+        {
+          "description": "In this episode, Daniel and Justin demonstrate the use of Ansible to run some simple ad-hoc commands against other servers. Moreover, Justin demonstrates the use of a hosts file and modifying some of the Ansible configuration to manage multiple environments from the same control machine.",
+          "length": "1792",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-3-1-simple_commands_using_ansible-110617-PGM.00_29_43_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-3-1-simple_commands_using_ansible-110617-PGM.00_29_43_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-1-3-1-simple_commands_using_ansible-110617-PGM.00_29_43_12.Still001-sm.jpg",
+          "title": "Simple Commands Using Ansible",
+          "transcript": "",
+          "vimeoId": "241887146"
+        },
+        {
+          "description": "In this episode,Daniel and Justin demonstrate installing packages through the ansible command line interface. Justin highlights some of the modules that may be necessary in order to manage packages for a given host.",
+          "length": "1537",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-1-installing_packages-111017-PGM.00_25_27_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-1-installing_packages-111017-PGM.00_25_27_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-1-installing_packages-111017-PGM.00_25_27_21.Still001-sm.jpg",
+          "title": "Installing Packages",
+          "transcript": "",
+          "vimeoId": "242603577"
+        },
+        {
+          "description": "In this episode,Daniel and Justin return to further explore installing packages as well as highlighting some of the \"gotchas\" that can crop up when installing packages using Ansible.",
+          "length": "1286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-2-installing_packages_pt2-111017-PGM.00_23_13_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-2-installing_packages_pt2-111017-PGM.00_23_13_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-1-2-installing_packages_pt2-111017-PGM.00_23_13_05.Still001-sm.jpg",
+          "title": "Installing Packages Part 2",
+          "transcript": "",
+          "vimeoId": "242603214"
+        },
+        {
+          "description": "In this episode, Daniel and Justin start working with users on remote nodes using Ansible. Justin demonstrates creating users, creating groups, and adding users to groups.",
+          "length": "1664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-2-1-managing_users-111017-PGM.00_27_34_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-2-1-managing_users-111017-PGM.00_27_34_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-2-1-managing_users-111017-PGM.00_27_34_25.Still001-sm.jpg",
+          "title": "Managing Users",
+          "transcript": "",
+          "vimeoId": "242602686"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at managing system services. Justin demonstrates how to enable and disable a service as well as start, restart, reload, and stop a services as well as describe the nuanced differences among those actions.",
+          "length": "1490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-3-1-managing_services-112217-PGM.00_27_12_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-3-1-managing_services-112217-PGM.00_27_12_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-3-1-managing_services-112217-PGM.00_27_12_15.Still001-sm.jpg",
+          "title": "Managing Services",
+          "transcript": "",
+          "vimeoId": "244655830"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin dive into more command line commands such as uptime, preparing systems for administration, or querying aspects of a system. Justin highlights the nuances among the raw, command, and shell modules when using each one.",
+          "length": "1896",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-4-1-running_commands-113017-PGM.00_32_51_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-4-1-running_commands-113017-PGM.00_32_51_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-2-4-1-running_commands-113017-PGM.00_32_51_29.Still001-sm.jpg",
+          "title": "Running Commands",
+          "transcript": "",
+          "vimeoId": "245434730"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin start creating Ansible playbooks that allow clearer and more reproducible configurations when managing resources with Ansible. Particularly, Justin takes a look some of the basic organization of a playbook based",
+          "length": "1421",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-1-1-hosts-113017-PGM.00_23_34_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-1-1-hosts-113017-PGM.00_23_34_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-1-1-hosts-113017-PGM.00_23_34_23.Still001-sm.jpg",
+          "title": "Hosts",
+          "transcript": "",
+          "vimeoId": "245434371"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin take a look at creating alist of actions to take when creating a playbook called tasks. Justin further explains how to add tasks as well as considerations when creating a list of tasks.",
+          "length": "1528",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-2-1-tasks-120117-PGM.00_26_29_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-2-1-tasks-120117-PGM.00_26_29_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-2-1-tasks-120117-PGM.00_26_29_03.Still001-sm.jpg",
+          "title": "Tasks",
+          "transcript": "",
+          "vimeoId": "245434077"
+        },
+        {
+          "description": "In this episode, Ronnie and Justin continue building out Ansible playbooks using some configuration settings or additional information that is necessary to configure a respective node, otherwise known as variables. Justin demonstrates several ways to provide variables to the Ansible playbook.",
+          "length": "1387",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-1-variables-120117-PGM.00_22_59_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-1-variables-120117-PGM.00_22_59_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-1-variables-120117-PGM.00_22_59_00.Still001-sm.jpg",
+          "title": "Variables",
+          "transcript": "",
+          "vimeoId": "245433796"
+        },
+        {
+          "description": "In this episode, Zach and Justin continue building out Ansible playbooks using some configuration settings or additional information that is necessary to configure a respective node, otherwise known as variables. Justin demonstrates the usage of variable files, interactive prompts, and passing variables through the command line interface.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-2-variables_pt2-120117-PGM.00_29_01_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-2-variables_pt2-120117-PGM.00_29_01_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-3-2-variables_pt2-120117-PGM.00_29_01_16.Still001-sm.jpg",
+          "title": "Variables Part 2",
+          "transcript": "",
+          "vimeoId": "245946321"
+        },
+        {
+          "description": "In this episode, Zach and Justin dive into the use of handlers for reacting to events during the processing of an Ansible playbook. Justin  demonstrates the creation of handlers as a response to tasks throughout the playbook such as installing an application that needs to be started or reloaded because configuration has changed.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-4-1-handlers-120517-PGM.00_31_44_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-4-1-handlers-120517-PGM.00_31_44_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-4-1-handlers-120517-PGM.00_31_44_08.Still001-sm.jpg",
+          "title": "Handlers",
+          "transcript": "",
+          "vimeoId": "246269926"
+        },
+        {
+          "description": "In this episode, Zach and Justin explore using templated files to configure services that are part of your configuration.  Justin epxlores the use of output of variables as a way to template files for configuration purpose using the basic of the Jinja2 templating language.",
+          "length": "1348",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-1-templating-120417.00_22_22_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-1-templating-120417.00_22_22_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-1-templating-120417.00_22_22_10.Still001-sm.jpg",
+          "title": "Templating",
+          "transcript": "",
+          "vimeoId": "245944846"
+        },
+        {
+          "description": "In this episode, Zach and Justin continue their exploration of the Jinja2 templating language as a way to template configurations using Ansible. Specifically, Justin demonstrates the use of iteration, if-else conditions, as well as utilizing the templating tools with different data structures available in Ansible.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-2-templating_pt_2-120417-PGM.00_28_01_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-2-templating_pt_2-120417-PGM.00_28_01_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-5-2-templating_pt_2-120417-PGM.00_28_01_23.Still001-sm.jpg",
+          "title": "Templating Part 2",
+          "transcript": "",
+          "vimeoId": "246268796"
+        },
+        {
+          "description": "In this episode, Zach and Justin take a look at iteration in the context of a playbook. Justin demonstrates the use of iteration in completing tasks such as installing a set of packages as well as illustrates edge cases when using loops and variables in the context of a playbook.",
+          "length": "1320",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-6-1-loops-120517-PGM.00_22_41_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-6-1-loops-120517-PGM.00_22_41_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-6-1-loops-120517-PGM.00_22_41_02.Still001-sm.jpg",
+          "title": "Loops",
+          "transcript": "",
+          "vimeoId": "246268635"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin look at adding some decision making capabilities within an Ansible playbook. Justin demonstrates the use of decisions to apply changes using the when attribute based on conditions of the different nodes (i.e. Debian vs RedHat).",
+          "length": "2281",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-7-1-control_flow-120617-PGM.00_51_55_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-7-1-control_flow-120617-PGM.00_51_55_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-3-7-1-control_flow-120617-PGM.00_51_55_27.Still001-sm.jpg",
+          "title": "Control Flow",
+          "transcript": "",
+          "vimeoId": "246325551"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at organization of playbooks into a role based arrangement. Justin explains the use of roles as a way of segmenting the individual pieces of a configuration in order to be reused.",
+          "length": "1510",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-1-1-getting_started_with_roles-121217.00_35_28_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-1-1-getting_started_with_roles-121217.00_35_28_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-1-1-getting_started_with_roles-121217.00_35_28_07.Still001-sm.jpg",
+          "title": "Getting Started with Roles",
+          "transcript": "",
+          "vimeoId": "247014882"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore the creation of tasks using a role based arrangement. Justin further clarifies how Ansible determines what tasks to run when including a role.",
+          "length": "1384",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-2-1-roles_and_tasks-121217-PGM.00_23_20_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-2-1-roles_and_tasks-121217-PGM.00_23_20_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-2-1-roles_and_tasks-121217-PGM.00_23_20_00.Still001-sm.jpg",
+          "title": "Roles and Tasks",
+          "transcript": "",
+          "vimeoId": "247017831"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore the use of handlers when creating roles. Justin demonstrates the use of handlers within a role.",
+          "length": "1498",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-4-1-roles_and_handlers-121317-PGM.00_26_34_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-4-1-roles_and_handlers-121317-PGM.00_26_34_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-4-1-roles_and_handlers-121317-PGM.00_26_34_25.Still001-sm.jpg",
+          "title": "Roles and Handlers",
+          "transcript": "",
+          "vimeoId": "247375088"
+        },
+        {
+          "description": "In this episode, Daniel and Justin explore the use of the when statement during the use of roles. Justin illustrates the differences in roles when the individual systems have differing requirements.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-5-1-roles_and_control_flow-121317-PGM.00_27_58_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-5-1-roles_and_control_flow-121317-PGM.00_27_58_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-5-1-roles_and_control_flow-121317-PGM.00_27_58_10.Still001-sm.jpg",
+          "title": "Roles and Control Flow",
+          "transcript": "",
+          "vimeoId": "247373880"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take a look at using templates with roles. Justin demonstrates the use of templates in roles by templating an NGINX configuration.",
+          "length": "1424",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-6-1-roles_and_templating-121517.00_23_37_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-6-1-roles_and_templating-121517.00_23_37_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-6-1-roles_and_templating-121517.00_23_37_27.Still001-sm.jpg",
+          "title": "Roles and Templating",
+          "transcript": "",
+          "vimeoId": "247803475"
+        },
+        {
+          "description": "In this episode, Daniel and Justin  continue seeing their exploration of NGINX using static files. Justin explores the use of files internal to an Ansible role as well as external to the role and provides a comparison between the two approaches.",
+          "length": "1697",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-7-1-roles_and_files-121517.00_28_11_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-7-1-roles_and_files-121517.00_28_11_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-4-7-1-roles_and_files-121517.00_28_11_02.Still001-sm.jpg",
+          "title": "Roles and Files",
+          "transcript": "",
+          "vimeoId": "247803668"
+        },
+        {
+          "description": "In this episode, Vonne and Justin review the requirements that have been set forth for a deployment. Justin discusses the thought process for creating a plan for deployment and describes why one should use configuration management\nand version control instead of manual configuration.",
+          "length": "1234",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-1-1-requirements_for_static_site_deployment-041218-PGM.00_37_01_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-1-1-requirements_for_static_site_deployment-041218-PGM.00_37_01_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-1-1-requirements_for_static_site_deployment-041218-PGM.00_37_01_09.Still001-sm.jpg",
+          "title": "Requirements for Static Site Deployment",
+          "transcript": "",
+          "vimeoId": "264661705"
+        },
+        {
+          "description": "In this episode, Zach and Justin set up the Ansible project that will manage the static site deployment. Additionally, Justin gets nginx up and running on the server utilizing ansible playbooks.",
+          "length": "1693",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-2-1-setting_up_nginx-120817-PGM.00_29_51_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-2-1-setting_up_nginx-120817-PGM.00_29_51_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-2-1-setting_up_nginx-120817-PGM.00_29_51_19.Still001-sm.jpg",
+          "title": "Setting Up NGINX",
+          "transcript": "",
+          "vimeoId": "246844073"
+        },
+        {
+          "description": "In this episode, Daniel and Justin use templating to manage the configuration for serving a site using NGINX.",
+          "length": "1404",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-3-1-templating_the_nginx_configuration-121117-PGM.00_23_40_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-3-1-templating_the_nginx_configuration-121117-PGM.00_23_40_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-3-1-templating_the_nginx_configuration-121117-PGM.00_23_40_28.Still001-sm.jpg",
+          "title": "Templating the NGINX Configuration",
+          "transcript": "",
+          "vimeoId": "247017046"
+        },
+        {
+          "description": "In this episode, Daniel and Justin reorganize the previous playbook as a role in order to provide reuse. Justin demonstrates the use of the dynamic aspects of Ansible in order to make a static site deployment tool.",
+          "length": "1366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-4-1-creating_a_static_site_role-121117-PGM.00_22_37_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-4-1-creating_a_static_site_role-121117-PGM.00_22_37_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-5-4-1-creating_a_static_site_role-121117-PGM.00_22_37_07.Still001-sm.jpg",
+          "title": "Creating a Static Site Role",
+          "transcript": "",
+          "vimeoId": "247015835"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin explore the architecture for creating an NFS server and associated clients. Justin diagrams and discusses some of the hidden complexities that can crop up when creating Ansible playbooks.",
+          "length": "984",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-1-1-planning_the_nfs_architecture-120617-PGM.00_22_15_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-1-1-planning_the_nfs_architecture-120617-PGM.00_22_15_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-1-1-planning_the_nfs_architecture-120617-PGM.00_22_15_00.Still001-sm.jpg",
+          "title": "Planning the NFS Architecture",
+          "transcript": "",
+          "vimeoId": "246325013"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin create the playbook responsible for creating the NFS server. Additionally, Justin discusses some of the shortcomings of need client information during the configuration of another host.",
+          "length": "1958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-2-1-setting_up_the_nfs_server-120617-PGM.00_33_28_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-2-1-setting_up_the_nfs_server-120617-PGM.00_33_28_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-2-1-setting_up_the_nfs_server-120617-PGM.00_33_28_24.Still001-sm.jpg",
+          "title": "Setting up the NFS Server",
+          "transcript": "",
+          "vimeoId": "268636163"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin create the playbook responsible for creating the NFS clients.",
+          "length": "1556",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-3-1-setting_up_the_nfs_clients-120717-PGM.00_28_30_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-3-1-setting_up_the_nfs_clients-120717-PGM.00_28_30_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-3-1-setting_up_the_nfs_clients-120717-PGM.00_28_30_11.Still001-sm.jpg",
+          "title": "Setting up the NFS Clients",
+          "transcript": "",
+          "vimeoId": "246492976"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin revisit the playbook that set up the nfs server in order to extract that into a role based solution. Justin demonstrates the picking apart of the originally created playbook to create the nfs-server role.",
+          "length": "1300",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-4-1-restructuring_to_roles_server-120717-PGM.00_32_20_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-4-1-restructuring_to_roles_server-120717-PGM.00_32_20_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-4-1-restructuring_to_roles_server-120717-PGM.00_32_20_17.Still001-sm.jpg",
+          "title": "Restructuring to Roles: Server",
+          "transcript": "",
+          "vimeoId": "246457689"
+        },
+        {
+          "description": "In this episode, Cherokee and Justin revisit the nfs client playbook in order to extract that playbook into a role based solution.",
+          "length": "979",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-5-1-restructuring_to_roles_clients-120717.00_16_11_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-5-1-restructuring_to_roles_clients-120717.00_16_11_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoansible/techskills-introtoansible-6-5-1-restructuring_to_roles_clients-120717.00_16_11_28.Still001-sm.jpg",
+          "title": "Restructuring to Roles: Clients",
+          "transcript": "",
+          "vimeoId": "246458567"
+        }
+      ],
+      "title": "Fundamentals"
+    }
+  ],
+  "url": "introansible",
+  "vLab": false
+}

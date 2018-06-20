@@ -1,0 +1,218 @@
+{
+  "description": "Active Directory Domain Services (AD DS) allows you to create a scalable, secure, and manageable infrastructure for user and resource management, and you can provide support for directory-enabled applications. In these episodes, you will learn how to deploy and maintain Active Directory in both traditional networks and cloud-based solutions.",
+  "descriptionMD": "",
+  "length": "34024",
+  "name": "Working with Active Directory",
+  "practiceExam": false,
+  "subtitle": "Deploy and maintain Active Directory",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "9999",
+          "thumbnail": "asdf",
+          "thumbnailMed": null,
+          "thumbnailSm": null,
+          "title": "What is Active Directory",
+          "transcript": "",
+          "vimeoId": "asdf"
+        },
+        {
+          "description": "Active Directory Domain Services (AD DS) allows you to create a scalable, secure, and manageable infrastructure for user and resource management, and you can provide support for directory-enabled applications. In these episodes, you will learn how to deploy and maintain Active Directory in both traditional networks and cloud-based solutions.",
+          "length": "279",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "148636515"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce us to Microsoft’s Active Directory Components.  They describe the purpose of Active Directory in a work environment.  Also, they take time to familiarize us with common terminology used with understandingActive Directory.",
+          "length": "2289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1-sm.jpg",
+          "title": "Active Directory Components",
+          "transcript": "",
+          "vimeoId": "146125830"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take an look how Active Directory works with multiple domain controllers and domains.  They talk about the domain and forest functional levels.  Along the same lines they introduce the concepts of trust between domains and forests.",
+          "length": "2287",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1-sm.jpg",
+          "title": "AD Functionality",
+          "transcript": "",
+          "vimeoId": "146125838"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike get started with installing Active Directory on a Windows Server 2012 R2 machine.  They discuss some of the prerequisites that need to be in place before starting the installation.  Also they show some of the considerations that must be looked at during the installation process.",
+          "length": "2159",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high-sm.jpg",
+          "title": "Installing Active Directory",
+          "transcript": "",
+          "vimeoId": "146126014"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue the installation process by verifying a successful installation from the GUI install.  They also take some time to show the way to remotely install Active Directory and configure a Domain Controller from Server Manager.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high-sm.jpg",
+          "title": "Installing Active Directory Part 2",
+          "transcript": "",
+          "vimeoId": "146125978"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show us how to get Active Directory Domain Controllers running on Server Core.  They show the use of Powershell Scripting to install and configure not only an additional domain controller in the same domain but use the scripting to also create a Domain controller in a child domain.",
+          "length": "1665",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1-sm.jpg",
+          "title": "Installing Active Directory Part 3",
+          "transcript": "",
+          "vimeoId": "146125995"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show how to get started with a Read-only Domain Controller.  They take a look at the prerequisites to making one.  They prestage the computer account using the Wizard.  They install the ADDS role with the RODC option checked.  They also show now make sure that only the necessary password caching is setup as well.  They briefly mention the benefits of using a RODC.",
+          "length": "2151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1-sm.jpg",
+          "title": "Read-only Domain Controller",
+          "transcript": "",
+          "vimeoId": "146125854"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at virtualizing Microsoft’s Active Directory.  Even though Active Directory replicates between Domain Controllers, there are times where running a virtualized Domain Controller it’s place, according to the guys.  They discuss the problems that exists where there are single points of failure that cause issues and that virtualizing the AD can help.  Another advantage virtualizing AD gives an organization is the ability to clone the DC and deploy multiple DCs quickly and easily.",
+          "length": "2349",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1-sm.jpg",
+          "title": "AD Virtualization",
+          "transcript": "",
+          "vimeoId": "148255464"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into the logical organization, delegation and administrative aspects of working with Active Directory.  They emphasize the logical organization units.  Also the guys take a look at creating OUs using the GUI and using Powershell too.  This is the basic unit used to administer Active Directory.",
+          "length": "1931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1-sm.jpg",
+          "title": "Organizational Units",
+          "transcript": "",
+          "vimeoId": "146125907"
+        },
+        {
+          "description": "in this episode, Ronnie and Mike take a look at creating and administering user accounts in Active Directory.  These accounts are the primary unique objects that we can use to audit and give permissions to resources to in our Active Directory Domain.  So they take some time to show how to create them using the GUI and using Powershell to add in multiple accounts simultaneously.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1-sm.jpg",
+          "title": "User Accounts",
+          "transcript": "",
+          "vimeoId": "146148908"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie take time to look into the use of computer accounts.  Like Users, computers need accounts in Active Directory to establish a trust relationship between the computer and the AD for administration.  They also show how to create the account using pre-staging as well as joining a computer to the domain.  The guys take a little time to show what occurs when the trust relationship is broken and use PowerShell to repair the trust relationship.",
+          "length": "1838",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1-sm.jpg",
+          "title": "Computer Accounts",
+          "transcript": "",
+          "vimeoId": "145197705"
+        },
+        {
+          "description": null,
+          "length": "9999",
+          "thumbnail": "asdf",
+          "thumbnailMed": null,
+          "thumbnailSm": null,
+          "title": "Renames",
+          "transcript": "",
+          "vimeoId": "asdf"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a deep dive in the Active Directory Groups.  They start by describing the use of groups and why we should use them.  Mike shows the creation of groups and some of choices that affect their use in AD.  Then they talk about the nesting strategies when using Groups in Active Directory",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high-sm.jpg",
+          "title": "Groups",
+          "transcript": "",
+          "vimeoId": "145197716"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike talk about the different flexible Single multi-master operations roles exist within an Active Directory Forest and Domains.  The describe what each role does and why It's important to AD operations. The guys even take a look at how to transfer between Domain Controllers and seize roles when necessary.",
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1-sm.jpg",
+          "title": "Operations Masters",
+          "transcript": "",
+          "vimeoId": "145197735"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into Active Directory Permissions.   These permissions are similar to NTFS permissions but provide better control over inheritance of permissions.  They emphasize the best practice when using these permissions and show how the delegation wizard works and how to extend the delegation wizard’s options.  As with any permissions in Windows, they guys emphasize best practices need to apply when working with AD permissions.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1-sm.jpg",
+          "title": "AD Permissions",
+          "transcript": "",
+          "vimeoId": "146522471"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss localization of services and controlling replication through AD sites.  They create sites and show how to link them.  They take time to discuss the reasons to use sites and how to create and change them through AD Sites and Services.",
+          "length": "1712",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1-sm.jpg",
+          "title": "AD Sites and Replication",
+          "transcript": "",
+          "vimeoId": "146522387"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look into the replication topology within sites and between sites.  Before starting replication, Mike shows how to create a site and then establish the links between sites so that replication can occur.  Then, the guys take a little time to show how DCs are put into sites and how clients use affinity to establish what site they are in.  Also taking a look the protocols used within sites and between sites for replication.",
+          "length": "1895",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1-sm.jpg",
+          "title": "AD Sites and Replication Part 2",
+          "transcript": "",
+          "vimeoId": "146522437"
+        },
+        {
+          "description": "in this episode, Ronnie and Mike continue to show more about replication and establish that there are not only inter site and intrusive but also how the AD partitions are replicated as well.  This essentially creates and additional replication topology.  Then, they end up talking about how replication conflicts can happen and the different ways that they do occur between replication partners.",
+          "length": "1197",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1-sm.jpg",
+          "title": "AD Sites and Replication Part 3",
+          "transcript": "",
+          "vimeoId": "146522465"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at Active Directory Backup.  They discuss why it’s important and when to use it. Replication is not a replacement for backup and can be problematic.  Backups insure that we can have AD in the state we need it. They show how to perform a backup and do both a non-authoritative restore and authoritative restore.",
+          "length": "2525",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1-sm.jpg",
+          "title": "AD Backup and Restore",
+          "transcript": "",
+          "vimeoId": "146522374"
+        }
+      ],
+      "title": "Active Directory"
+    }
+  ],
+  "url": "active-directory",
+  "vLab": false
+}

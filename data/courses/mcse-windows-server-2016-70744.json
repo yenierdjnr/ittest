@@ -1,0 +1,668 @@
+{
+  "description": "This course will show you how you can mitigate malware threats, identify security issues by using auditing and the Advanced Threat Analysis feature in Windows Server 2016, secure your virtualization platform, and use new deployment options, such as Nano server and containers to enhance security. The course also explains how you can help protect access to files by using encryption and dynamic access control, and how you can enhance your network’s security.",
+  "descriptionMD": "This course will show you how you can mitigate malware threats, identify security issues by using auditing and the Advanced Threat Analysis feature in Windows Server 2016, secure your virtualization platform, and use new deployment options, such as Nano server and containers to enhance security. The course also explains how you can help protect access to files by using encryption and dynamic access control, and how you can enhance your network’s security.",
+  "length": "113907",
+  "name": "MCSE Windows Server 2016 - 70-744",
+  "practiceExam": false,
+  "subtitle": "Securing Windows Server 2016",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course will show you how you can mitigate malware threats, identify security issues by using auditing and the Advanced Threat Analysis feature in Windows Server 2016, secure your virtualization platform, and use new deployment options, such as Nano server and containers to enhance security. The course also explains how you can help protect access to files by using encryption and dynamic access control, and how you can enhance your network’s security.",
+          "length": "307",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-0-0-0-overview-100517-PGM.00_08_26_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-0-0-0-overview-100517-PGM.00_08_26_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-0-0-0-overview-100517-PGM.00_08_26_23.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "243355579"
+        },
+        {
+          "description": "In this show, Adam and Cherokee provide a high level security overview. Adam explains what an bad actor is and explains several attack vectors. He also covers different phases in an attack and phases associated with incident response. Lastly, Adam urges that security should not be a one size fits all as well as sharing info on downloadable tools called sysinternals.",
+          "length": "2056",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-1-1-security_overview-091217-PGM.00_34_01_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-1-1-security_overview-091217-PGM.00_34_01_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-1-1-security_overview-091217-PGM.00_34_01_18.Still001-sm.jpg",
+          "title": "Security Overview",
+          "transcript": "",
+          "vimeoId": "233685616"
+        }
+      ],
+      "title": "Windows Server 2016"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam continue to explain fundamental components relating to security. However, they do shift the focus to highlight way to protect credentials and privileged access. They discuss concepts such as the principle of least privilege, cryptography options as well as password policies and settings.",
+          "length": "2148",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-credentials_and_privileged_access-091217-PGM.00_35_34_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-credentials_and_privileged_access-091217-PGM.00_35_34_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-credentials_and_privileged_access-091217-PGM.00_35_34_00.Still001-sm.jpg",
+          "title": "Credentials and Privileged Access",
+          "transcript": "",
+          "vimeoId": "233686238"
+        },
+        {
+          "description": "In this show, Adam and Cherokee begin the show discussing the protected users group. Next, Adam demonstrates how to create an authentication policy as well as showing how to create an authentication policy silo and add a policy to the silo.",
+          "length": "1871",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-2-credentials_and_privileged_access_pt2-091217-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-2-credentials_and_privileged_access_pt2-091217-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-1-2-credentials_and_privileged_access_pt2-091217-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Credentials and Privileged Access Part 2",
+          "transcript": "",
+          "vimeoId": "233878496"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam begin by discussing scenarios where one may opt for delegation of control. Adam demonstrates how to configure this setting via the delegation of control wizard. Next, he shows how to manage computer accounts. He begins by explaining how to disable a computer account to prevent domain log-ons from that machine. Next, he shows how to reset that computer account in the GUI as well as PowerShell. Adam also explains three types of service accounts including the local system, local service, and network service. They also discuss managed and group managed service accounts.",
+          "length": "2584",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-3-credentials_and_privileged_access-pt3-091317-PGM.00_00_11_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-3-credentials_and_privileged_access-pt3-091317-PGM.00_00_11_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-3-credentials_and_privileged_access-pt3-091317-PGM.00_00_11_20.Still001-sm.jpg",
+          "title": "Credentials and Privileged Access Part 3",
+          "transcript": "",
+          "vimeoId": "233874889"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam kick off the show by explaining what credential guard is and how you would set it up as well as explaining different options. Next, Adam shows how to enable UEFI lock to help further protect this setting. NTLM blocking and privileged access workstations (PAWs) are also covered.",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-4-credentials_and_privileged_access-pt4-091217PGM.00_32_40_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-4-credentials_and_privileged_access-pt4-091217PGM.00_32_40_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-4-credentials_and_privileged_access-pt4-091217PGM.00_32_40_24.Still001-sm.jpg",
+          "title": "Credentials and Privileged Access Part 4",
+          "transcript": "",
+          "vimeoId": "233877254"
+        },
+        {
+          "description": "In this show, Adam and Cherokee first examine the default domain policy. Adam points out how different functions are executed at different levels. For example he shows how auditing is not occurring at the domain level but rather at the domain controller level. Next, they introduce a newer technology called Local Administrator Password Solutions (LAPS) .",
+          "length": "1400",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-5-credentials_and_privileged_access-pt5-091217-PGM.00_23_04_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-5-credentials_and_privileged_access-pt5-091217-PGM.00_23_04_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-2-1-5-credentials_and_privileged_access-pt5-091217-PGM.00_23_04_21.Still001-sm.jpg",
+          "title": "Credentials and Privileged Access Part 5",
+          "transcript": "",
+          "vimeoId": "233684874"
+        }
+      ],
+      "title": "Credentials and privileged access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Adam introduce a functionality called just enough administration (JEA). JEA provides RBAC functionality built on PowerShell remoting. Adam explains two important prerequisite files and shows how to create them. In addition, Adam explains JEA endpoints and walks through the steps of how to set one up.",
+          "length": "1795",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-3-1-implement_just_enough_administration-091317-PGM.00_29_39_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-3-1-implement_just_enough_administration-091317-PGM.00_29_39_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-3-1-implement_just_enough_administration-091317-PGM.00_29_39_05.Still001-sm.jpg",
+          "title": "Implement Just Enough Administration",
+          "transcript": "",
+          "vimeoId": "233873798"
+        }
+      ],
+      "title": "Just Enough Administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Cherokee discuss Enhanced Security Administrative Environment (ESAE). Adam explains that is is an architectural approach in which a dedicated administrative Active Directory forest hosts privileged accounts, privileged groups and privileged access workstations.",
+          "length": "1546",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-1-implementing_esae-091317-PGM.00_25_29_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-1-implementing_esae-091317-PGM.00_25_29_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-1-implementing_esae-091317-PGM.00_25_29_18.Still001-sm.jpg",
+          "title": "Implementing ESAE",
+          "transcript": "",
+          "vimeoId": "233879564"
+        },
+        {
+          "description": "In this show, Cherokee and Adam Just in Time Administration that enables users to provide a type of self-service in terms of maintenance such as self-service password reset, role management and assignment and more all packaged within Microsoft Identity Manager (MIM). Adam explains how Privileged Access Management (PAM) can leverage ESAE framework to enable permission assignment to user accounts for a finite amount of time. He highlights the components, shows where to obtain the download and walks through the installation process.",
+          "length": "2533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-2-implementing_jit-091317-PGM.00_41_56_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-2-implementing_jit-091317-PGM.00_41_56_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-4-2-implementing_jit-091317-PGM.00_41_56_22.Still001-sm.jpg",
+          "title": "Implementing JIT",
+          "transcript": "",
+          "vimeoId": "233880127"
+        }
+      ],
+      "title": "Implement Just Enough Administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee begin the show speaking about The Enhanced Mitigation Experience Toolkit (EMET). Adam shares pre-installation considerations and deployment options. He also walks through the set up and shows configuration options and even shows how to use different graphical skins.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-1-implementing_malware_protections-091317-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-1-implementing_malware_protections-091317-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-1-implementing_malware_protections-091317-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Implementing Malware Protection",
+          "transcript": "",
+          "vimeoId": "233879260"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss additional ways to help prevent malware. They introduce Software Restriction Policies (SRPs) and the four associated rules as well ass the different security levels that may be configured. Tune in for a demonstration of how to setup and configure SRP's.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-2-implementing_malware_protections_pt2-091317-PGM.00_30_33_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-2-implementing_malware_protections_pt2-091317-PGM.00_30_33_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-2-implementing_malware_protections_pt2-091317-PGM.00_30_33_25.Still001-sm.jpg",
+          "title": "Implementing Malware Protection Part 2",
+          "transcript": "",
+          "vimeoId": "233993042"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam discuss another way in which to implement malware protection. They introduce AppLocker and explain how it is more than just a malware protection solution but rather a security feature that controls which applications users can run. Adam walks through a demonstration to show how it is set up and configured.",
+          "length": "2018",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-3-implementing_malware_protections_pt3-091317-PGM.00_33_21_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-3-implementing_malware_protections_pt3-091317-PGM.00_33_21_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-3-implementing_malware_protections_pt3-091317-PGM.00_33_21_24.Still001-sm.jpg",
+          "title": "Implementing Malware Protections Part 3",
+          "transcript": "",
+          "vimeoId": "233992396"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explain Device Guard is a combination of hardware and software system integrity-hardening features that will lock a device by ensuring only trusted applications can execute. Adam walks through a demonstration to show how it is set up and configured.",
+          "length": "2735",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-4-implementing_malware_protections_pt4-091317.00_45_19_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-4-implementing_malware_protections_pt4-091317.00_45_19_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-5-1-4-implementing_malware_protections_pt4-091317.00_45_19_27.Still001-sm.jpg",
+          "title": "Implementing Malware Protection Part 4",
+          "transcript": "",
+          "vimeoId": "234502741"
+        }
+      ],
+      "title": "Implement malware protection"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Adam begin with an overview of audit policies. Adam encourages understanding what your organization needs to audit and does not go overboard which creates  counter-productivity. They start defining and demonstrating how to create an audit policy in addition to advanced settings.",
+          "length": "1919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-1-configure_advance_audit_policies-091417-PGM.00_31_41_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-1-configure_advance_audit_policies-091417-PGM.00_31_41_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-1-configure_advance_audit_policies-091417-PGM.00_31_41_15.Still001-sm.jpg",
+          "title": "Configure advanced audit policies",
+          "transcript": "",
+          "vimeoId": "234505375"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee begin by sharing  a built-in command-line tool called  AuditPol to manage the advanced audit policy settings. Adam also demonstrates how to use WinRM quickconfig to configure a collector, a machine that pulls logs in from one or multiple sources. Additional auditing options are also shown such as  using Advanced Auditing Features via Windows PowerShell.",
+          "length": "2403",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-2-configure_advance_audit_policies_pt2-091417-PGM.00_39_44_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-2-configure_advance_audit_policies_pt2-091417-PGM.00_39_44_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-2-configure_advance_audit_policies_pt2-091417-PGM.00_39_44_29.Still001-sm.jpg",
+          "title": "Configure advanced audit policies Part 2",
+          "transcript": "",
+          "vimeoId": "234669344"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam explain benefits of using security baselines via security compliance manager (SCM).  Adam shows where to obtain the download and addresses how to get the tool up and running in addition to other complimentary tools. LGPO will pull the policy information off of a machine to be compared on another machine that is running SCM.",
+          "length": "2219",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-configure-091417-PGM.00_36_42_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-configure-091417-PGM.00_36_42_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-6-1-configure-091417-PGM.00_36_42_01.Still001-sm.jpg",
+          "title": "Create security baselines using SCM",
+          "transcript": "",
+          "vimeoId": "234504269"
+        }
+      ],
+      "title": "Configure Advanced Audit Policies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam introduce a Network Intrusion Detection System (NIDS) call Microsoft Advanced Threat Analytics. They explain the gateway architecture. Installed and set up the ATA Center and demonstrated the web interface.",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-1-install_and_configure_microsoft_ata-1091917-PGM.00_32_27_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-1-install_and_configure_microsoft_ata-1091917-PGM.00_32_27_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-1-install_and_configure_microsoft_ata-1091917-PGM.00_32_27_05.Still001-sm.jpg",
+          "title": "Install and Configure Microsoft ATA",
+          "transcript": "",
+          "vimeoId": "234671546"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue demonstrating how to configure Microsoft ATA. In the last show, you saw how to install the ATA  center but in this show you will see how to install and configure an ATA Gateway to be able to send information to the ATA Center. Adam also covers prerequisites and additional considerations.",
+          "length": "2309",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-2-install_and_configure_microsoft_ata_pt2-091917-PGM.00_38_13_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-2-install_and_configure_microsoft_ata_pt2-091917-PGM.00_38_13_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-7-1-2-install_and_configure_microsoft_ata_pt2-091917-PGM.00_38_13_05.Still001-sm.jpg",
+          "title": "Install and Configure Microsoft ATA Part 2",
+          "transcript": "",
+          "vimeoId": "234670492"
+        }
+      ],
+      "title": "Install and Configure Microsoft ATA"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Cherokee introduce Microsoft Operations Management Suite. Adam explains why one would leverage this tool and in  what type of deployment scenarios would be appropriate.",
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-8-1-determine_threat_solution_using_oms-091417.00_25_08_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-8-1-determine_threat_solution_using_oms-091417.00_25_08_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-8-1-determine_threat_solution_using_oms-091417.00_25_08_02.Still001-sm.jpg",
+          "title": "Determine threat solutions using OMS",
+          "transcript": "",
+          "vimeoId": "234501979"
+        }
+      ],
+      "title": "Determine Threat Solution Using OMS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "2037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-1-secure_a_virtualization_infrastructure-100517-PGM.00_00_17_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-1-secure_a_virtualization_infrastructure-100517-PGM.00_00_17_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-1-secure_a_virtualization_infrastructure-100517-PGM.00_00_17_09.Still001-sm.jpg",
+          "title": "Secure a Virtualization Infrastructure pt1",
+          "transcript": "",
+          "vimeoId": "237451666"
+        },
+        {
+          "description": "",
+          "length": "2023",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-2-secure_a_virtualization_infrastructure_pt2-100517.00_33_30_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-2-secure_a_virtualization_infrastructure_pt2-100517.00_33_30_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-2-secure_a_virtualization_infrastructure_pt2-100517.00_33_30_14.Still001-sm.jpg",
+          "title": "Secure a Virtualization Infrastructure Pt2",
+          "transcript": "",
+          "vimeoId": "237452008"
+        },
+        {
+          "description": "",
+          "length": "1662",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-3-secure_a_virtualization_infrastructure_pt3-100517-PGM.00_31_50_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-3-secure_a_virtualization_infrastructure_pt3-100517-PGM.00_31_50_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-3-secure_a_virtualization_infrastructure_pt3-100517-PGM.00_31_50_13.Still001-sm.jpg",
+          "title": "Secure a Virtualization Infrastructure Pt3",
+          "transcript": "",
+          "vimeoId": "237451324"
+        },
+        {
+          "description": "",
+          "length": "2560",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-4secure_a_virtualization_infrastructure_pt4-100517.00_43_18_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-4secure_a_virtualization_infrastructure_pt4-100517.00_43_18_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-9-1-4secure_a_virtualization_infrastructure_pt4-100517.00_43_18_06.Still001-sm.jpg",
+          "title": "Secure a Virtualization Infrastructure Pt4",
+          "transcript": "",
+          "vimeoId": "237450524"
+        }
+      ],
+      "title": "Secure a Virtualization Infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1880",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-1-nano_server_and_containers-100317-PGM.00_31_22_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-1-nano_server_and_containers-100317-PGM.00_31_22_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-1-nano_server_and_containers-100317-PGM.00_31_22_04.Still001-sm.jpg",
+          "title": "Nano Servers and Containers",
+          "transcript": "",
+          "vimeoId": "237106684"
+        },
+        {
+          "description": "",
+          "length": "2023",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-2-nano_server_and_containers_pt2-100317.00_33_29_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-2-nano_server_and_containers_pt2-100317.00_33_29_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-2-nano_server_and_containers_pt2-100317.00_33_29_04.Still001-sm.jpg",
+          "title": "Nano Servers and Containers Part 2",
+          "transcript": "",
+          "vimeoId": "237106324"
+        },
+        {
+          "description": "",
+          "length": "1921",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-3-nano_server_and_containers_pt3-100517-PGM.00_31_40_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-3-nano_server_and_containers_pt3-100517-PGM.00_31_40_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-3-nano_server_and_containers_pt3-100517-PGM.00_31_40_23.Still001-sm.jpg",
+          "title": "Nano Servers and Containers Part 3",
+          "transcript": "",
+          "vimeoId": "237106024"
+        },
+        {
+          "description": "",
+          "length": "1804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-4-nano_server_and_containers_pt4-100517-PGM.00_29_48_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-4-nano_server_and_containers_pt4-100517-PGM.00_29_48_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-11-1-4-nano_server_and_containers_pt4-100517-PGM.00_29_48_12.Still001-sm.jpg",
+          "title": "Nano Servers and Containers Part 4",
+          "transcript": "",
+          "vimeoId": "237105721"
+        }
+      ],
+      "title": "Nano Servers and Containers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam begin discussing symmetric and asymmetric encryption. Adam demonstrates how encrypt a folder or file using EFS. He also shows how to designate an EFS RA, Recovery Agent, to have a secondary certificate holder for backup access.",
+          "length": "1884",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-1-configure_disk_and_file_encryption-092217.00_31_08_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-1-configure_disk_and_file_encryption-092217.00_31_08_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-1-configure_disk_and_file_encryption-092217.00_31_08_24.Still001-sm.jpg",
+          "title": "Configure disk and file encryption",
+          "transcript": "",
+          "vimeoId": "235607443"
+        },
+        {
+          "description": "",
+          "length": "1876",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-2-configure_disk_and_file_encryption_pt2-100217.00_31_02_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-2-configure_disk_and_file_encryption_pt2-100217.00_31_02_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-2-configure_disk_and_file_encryption_pt2-100217.00_31_02_08.Still001-sm.jpg",
+          "title": "Configure disk and file encryption Part 2",
+          "transcript": "",
+          "vimeoId": "236587870"
+        },
+        {
+          "description": "",
+          "length": "2752",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-3-configure_disk_and_file_encryption_pt3-100217-PGM.00_48_55_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-3-configure_disk_and_file_encryption_pt3-100217-PGM.00_48_55_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-3-configure_disk_and_file_encryption_pt3-100217-PGM.00_48_55_27.Still001-sm.jpg",
+          "title": "Configure disk and file encryption Part 3",
+          "transcript": "",
+          "vimeoId": "236587413"
+        },
+        {
+          "description": "",
+          "length": "2001",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-4-configure_disk_and_file_encryption_pt4.00_33_16_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-4-configure_disk_and_file_encryption_pt4.00_33_16_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-4-configure_disk_and_file_encryption_pt4.00_33_16_26.Still001-sm.jpg",
+          "title": "Configure disk and file encryption Part 4",
+          "transcript": "",
+          "vimeoId": "236802646"
+        },
+        {
+          "description": "",
+          "length": "2004",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-5-configure_disk_and_file_encryption_pt5-100217-PGM.00_38_52_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-5-configure_disk_and_file_encryption_pt5-100217-PGM.00_38_52_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-5-configure_disk_and_file_encryption_pt5-100217-PGM.00_38_52_01.Still001-sm.jpg",
+          "title": "Configure file and disk encryption Part 5",
+          "transcript": "",
+          "vimeoId": "236804216"
+        },
+        {
+          "description": "",
+          "length": "1667",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-6-configure_disk_and_file_encryption_pt6-100217.00_28_30_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-6-configure_disk_and_file_encryption_pt6-100217.00_28_30_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-12-1-6-configure_disk_and_file_encryption_pt6-100217.00_28_30_16.Still001-sm.jpg",
+          "title": "Configure disk and file encryption Part 6",
+          "transcript": "",
+          "vimeoId": "236801396"
+        }
+      ],
+      "title": "Configuring Disk and File Encryption"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Adam introduce File Server Resource Manager (FSRM). Adam shows how it can be installed in the GUI as well as with PowerShell. He also demonstrates how to configure components to  implement classification and automation of management tasks.",
+          "length": "1820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-1-implement_fsrm_and_dac-091917-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-1-implement_fsrm_and_dac-091917-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-1-implement_fsrm_and_dac-091917-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC",
+          "transcript": "",
+          "vimeoId": "235068021"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue exploring FSRM. They delve further into FSRM Settings such as configuring firewall configurations. They talk about managing other computers and show the tool integrates with Group Policy. They also demonstrate how to implement quota management by setting hard or soft quotas to storage areas.",
+          "length": "1883",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-2-implement_fsrm_and_dac_pt2-092017-A-PGM.00_00_14_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-2-implement_fsrm_and_dac_pt2-092017-A-PGM.00_00_14_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-2-implement_fsrm_and_dac_pt2-092017-A-PGM.00_00_14_10.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 2",
+          "transcript": "",
+          "vimeoId": "235068267"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue exploring FSRM management capabilities. First, the look at how to configure File screening management. Adam attempts to prevent Cherokee from saving cat videos to certain central storage areas.Lastly, they examine how to define and deliver Storage reports.",
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-3-implement_fsrm_and_dac_pt3-092017-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-3-implement_fsrm_and_dac_pt3-092017-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-3-implement_fsrm_and_dac_pt3-092017-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 3",
+          "transcript": "",
+          "vimeoId": "234905016"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee shift gears and begin looking at Dynamic Access Control (DAC). Adam provides an overview and explains DAC as a way to provide access-control for file-system resources. Definitions and important fundamentals are also introduced.",
+          "length": "1174",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-4-implement_fsrm_and_dac_pt4-092017-PGM.00_02_33_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-4-implement_fsrm_and_dac_pt4-092017-PGM.00_02_33_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-4-implement_fsrm_and_dac_pt4-092017-PGM.00_02_33_13.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 4",
+          "transcript": "",
+          "vimeoId": "234904859"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue to explore DAC. Adam defines three different types of claim types as well as resource properties.  Next, he demonstrates how to configure this technology by creating central access rules and using them the create central access policies.",
+          "length": "2129",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-5-implement_fsrm_and_dac_pt5-092017-PGM.00_35_14_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-5-implement_fsrm_and_dac_pt5-092017-PGM.00_35_14_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-5-implement_fsrm_and_dac_pt5-092017-PGM.00_35_14_29.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 5",
+          "transcript": "",
+          "vimeoId": "234904546"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee finish the configuration of DAC by completing the central access policy. Group policy is also used to configure KDC settings and access denied assistance. Adam demonstrates how to configure then test these settings.",
+          "length": "2347",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-6-implement_fsrm_and_dac_pt6-092117-PGM.00_38_50_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-6-implement_fsrm_and_dac_pt6-092117-PGM.00_38_50_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-6-implement_fsrm_and_dac_pt6-092117-PGM.00_38_50_21.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 6",
+          "transcript": "",
+          "vimeoId": "235068956"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee demonstrate how to implement file access auditing. Tune in to watch a demonstration.",
+          "length": "1444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-7-implement_fsrm_and_dac_pt7-092117-PGM.00_23_48_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-7-implement_fsrm_and_dac_pt7-092117-PGM.00_23_48_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-13-1-7-implement_fsrm_and_dac_pt7-092117-PGM.00_23_48_06.Still001-sm.jpg",
+          "title": "Implement FSRM and DAC Part 7",
+          "transcript": "",
+          "vimeoId": "235068747"
+        }
+      ],
+      "title": "Implement FSRM and DAC"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-1-configure-windows-firewall-100217-PGM.00_27_01_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-1-configure-windows-firewall-100217-PGM.00_27_01_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-1-configure-windows-firewall-100217-PGM.00_27_01_12.Still001-sm.jpg",
+          "title": "Configure Windows Firewall",
+          "transcript": "",
+          "vimeoId": "236803374"
+        },
+        {
+          "description": "",
+          "length": "1887",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-2-configure-windows-firewall_pt2-100317-PGM.00_31_10_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-2-configure-windows-firewall_pt2-100317-PGM.00_31_10_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-2-configure-windows-firewall_pt2-100317-PGM.00_31_10_22.Still001-sm.jpg",
+          "title": "Configure Windows Firewall Part 2",
+          "transcript": "",
+          "vimeoId": "236803612"
+        },
+        {
+          "description": "",
+          "length": "1760",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-3-configure-windows-firewall_pt3-100317-PGM.00_29_02_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-3-configure-windows-firewall_pt3-100317-PGM.00_29_02_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-3-configure-windows-firewall_pt3-100317-PGM.00_29_02_15.Still001-sm.jpg",
+          "title": "Configure Windows Firewall Part 3",
+          "transcript": "",
+          "vimeoId": "236801056"
+        },
+        {
+          "description": "",
+          "length": "2539",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-4-configure-windows-firewall_pt4-100317-PGM.00_41_59_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-4-configure-windows-firewall_pt4-100317-PGM.00_41_59_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-14-1-4-configure-windows-firewall_pt4-100317-PGM.00_41_59_17.Still001-sm.jpg",
+          "title": "Configure Windows Firewall Part 4",
+          "transcript": "",
+          "vimeoId": "236805409"
+        }
+      ],
+      "title": "Configure Windows Firewall"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Cherokee discuss how server patching and update solutions can be achieved by setting up Windows Service Update Services (WSUS). Adam walks through the steps of how to begin the set up.",
+          "length": "2151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-1-implement_server_patching_and_updating-092117-PGM.01_28_43_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-1-implement_server_patching_and_updating-092117-PGM.01_28_43_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-1-implement_server_patching_and_updating-092117-PGM.01_28_43_16.Still001-sm.jpg",
+          "title": "Implement Server Patching and Updating",
+          "transcript": "",
+          "vimeoId": "235068511"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue discussing WSUS. They discuss different deployment options and explain the benefits to both small and large businesses. Adam also covers requirements and terminology to assist planning for the deployments.",
+          "length": "2181",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-2-implement_server_patching_and_updating_pt2-PGM.00_36_04_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-2-implement_server_patching_and_updating_pt2-PGM.00_36_04_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-2-implement_server_patching_and_updating_pt2-PGM.00_36_04_17.Still001-sm.jpg",
+          "title": "Implement Server Patching and Updating Part 2",
+          "transcript": "",
+          "vimeoId": "235067721"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam continue discussing WSUS. Adam demonstrates how to configure WSUS using Group Policy. He also shows how to create a self signed certificate and configure it for use with WSUS.",
+          "length": "2036",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-3-implement_server_patching_and_updating_pt3-092217-PGM.00_33_39_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-3-implement_server_patching_and_updating_pt3-092217-PGM.00_33_39_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-3-implement_server_patching_and_updating_pt3-092217-PGM.00_33_39_13.Still001-sm.jpg",
+          "title": "Implement Server Patching and Updating Part 3",
+          "transcript": "",
+          "vimeoId": "235069280"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam pick up on the prior show demonstration. First he imports the self signed certificate that was created in the previous show. Next, Adam explains computer groups and demonstrates how to create them. He also shows how to approve updates.",
+          "length": "2364",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-4-implement_server_patching_and_updating_pt4-092217-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-4-implement_server_patching_and_updating_pt4-092217-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-4-implement_server_patching_and_updating_pt4-092217-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Implement Server Patching and Updating Part 4",
+          "transcript": "",
+          "vimeoId": "243351172"
+        },
+        {
+          "description": "In this episode, Adam and Cherokee continue discussing WSUS. They Complete the WSUS configuration and show how to implement client-side targeting. In addition Adam demonstrates how to set up and generate reports. Lastly, Adam shows a couple of tools that can be used for troubleshooting.",
+          "length": "1492",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-5-implement_server_patching_and_updating_pt5-092217-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-5-implement_server_patching_and_updating_pt5-092217-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-15-1-5-implement_server_patching_and_updating_pt5-092217-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Implement Server Patching and Updating Part 5",
+          "transcript": "",
+          "vimeoId": "243351693"
+        }
+      ],
+      "title": "Implement Server Patching and Updating"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-1-secure_network_traffic-100317.00_29_21_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-1-secure_network_traffic-100317.00_29_21_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-1-secure_network_traffic-100317.00_29_21_15.Still001-sm.jpg",
+          "title": "Secure Network Traffic",
+          "transcript": "",
+          "vimeoId": "236804784"
+        },
+        {
+          "description": "",
+          "length": "1799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-2-secure_network_traffic_pt2-100317.00_30_49_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-2-secure_network_traffic_pt2-100317.00_30_49_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-2-secure_network_traffic_pt2-100317.00_30_49_28.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 2",
+          "transcript": "",
+          "vimeoId": "236805062"
+        },
+        {
+          "description": "",
+          "length": "2055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-3-secure_network_traffic_pt3-100317-PGM.00_33_55_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-3-secure_network_traffic_pt3-100317-PGM.00_33_55_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-3-secure_network_traffic_pt3-100317-PGM.00_33_55_01.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 3",
+          "transcript": "",
+          "vimeoId": "236804512"
+        },
+        {
+          "description": "",
+          "length": "1870",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-4-secure_network_traffic_pt4-100317-PGM.00_35_25_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-4-secure_network_traffic_pt4-100317-PGM.00_35_25_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-4-secure_network_traffic_pt4-100317-PGM.00_35_25_26.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 4",
+          "transcript": "",
+          "vimeoId": "236803943"
+        },
+        {
+          "description": "",
+          "length": "1594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-5-secure_network_traffic_pt5-100317-PGM.00_30_37_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-5-secure_network_traffic_pt5-100317-PGM.00_30_37_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-5-secure_network_traffic_pt5-100317-PGM.00_30_37_04.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 5",
+          "transcript": "",
+          "vimeoId": "236934662"
+        },
+        {
+          "description": "",
+          "length": "2099",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-6-secure_network_traffic_pt6-100317-PGM.00_03_31_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-6-secure_network_traffic_pt6-100317-PGM.00_03_31_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-6-secure_network_traffic_pt6-100317-PGM.00_03_31_10.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 6",
+          "transcript": "",
+          "vimeoId": "236934096"
+        },
+        {
+          "description": "",
+          "length": "2396",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-7-secure_network_traffic_pt7-100317-PGM-.00_39_41_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-7-secure_network_traffic_pt7-100317-PGM-.00_39_41_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-7-secure_network_traffic_pt7-100317-PGM-.00_39_41_11.Still001-sm.jpg",
+          "title": "Secure Network Traffic Part 7",
+          "transcript": "",
+          "vimeoId": "236933517"
+        },
+        {
+          "description": "",
+          "length": "2661",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-8-secure_network_traffic_pt8-100317-PGM.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-8-secure_network_traffic_pt8-100317-PGM-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70744/microsoft-server70744-16-1-8-secure_network_traffic_pt8-100317-PGM-sm.jpg",
+          "title": "Secure Network Traffic Part 8",
+          "transcript": "",
+          "vimeoId": "236935175"
+        }
+      ],
+      "title": "Secure Network Traffic"
+    }
+  ],
+  "url": "mcse-windows-server-2016-70744",
+  "vLab": false
+}

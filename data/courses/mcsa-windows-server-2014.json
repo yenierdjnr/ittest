@@ -1,0 +1,192 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 is designed to be a mid-tier certification for someone who has been working in the field for several years and has had exposure to large and enterprise size deployments of Microsoft Windows and covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA 70-412 Configuring Advanced Windows Server 2012 Services exam covers advanced configurations, Active Directory Federated Services and other areas that will help in your pursuit of the MCSA and also help in an after pursuit of the MCSE certification.",
+  "descriptionMD": "",
+  "length": "72852",
+  "name": "MCSA Windows Server 2012 - 70-412",
+  "practiceExam": true,
+  "subtitle": "Configuring Advanced Windows Server 2012 Services",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "MCSA Windows Server 2012 (70-412) Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA covers topics that will help the learner ensure their computing environment is functional and stable.",
+          "length": "533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414-sm.jpg",
+          "title": "Overview of Windows Server 2012 R2",
+          "transcript": "",
+          "vimeoId": "112924633"
+        }
+      ],
+      "title": "Overview of MCSA Windows Server 2012 R2 (70-412)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don introduce us to the concept of High Availability. They discuss installing and configuring Network Load Balancing (NLB). They also demonstrate configuring NLB for a web server.",
+          "length": "5058",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/001-Network-Load-Balancing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/001-Network-Load-Balancing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/001-Network-Load-Balancing-sm.jpg",
+          "title": "Network Load Balancing",
+          "transcript": "",
+          "vimeoId": "97820136"
+        },
+        {
+          "description": "In this episode Mike and Don continue their discussion on high availability. They dive into the world of failover clustering. They install and configure failover clustering and create a highly available file server. They also discuss the different quorum options that are available in 2012 R2 as well as Cluster-Aware Updating.",
+          "length": "4481",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/002-Failover-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/002-Failover-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/002-Failover-Services-sm.jpg",
+          "title": "Failover Services",
+          "transcript": "",
+          "vimeoId": "97820137"
+        },
+        {
+          "description": "In this episode Mike and Don continue the discussion on high availability. They configure a highly available Hyper-V server. They also configure a Cluster Shared Volume (CSV) and demonstrate live migration of a virtual machine.",
+          "length": "3040",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/003-Clustering-With-Hyper-V.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/003-Clustering-With-Hyper-V-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/003-Clustering-With-Hyper-V-sm.jpg",
+          "title": "Clustering With Hyper-V",
+          "transcript": "",
+          "vimeoId": "97971457"
+        },
+        {
+          "description": "In this episode Mike and Don take a look at configuring failover clustering roles. They demonstrate how to configure role-specific cluster settings as well as continuously available shares to maintaining availability in the event of failure. They also take a look at migrating VM storage, importing and exporting VMs as well as configuring drain on shutdown.",
+          "length": "3837",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/011-Managing-Cluster-Roles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/011-Managing-Cluster-Roles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/011-Managing-Cluster-Roles-sm.jpg",
+          "title": "Managing Cluster Roles",
+          "transcript": "",
+          "vimeoId": "100435997"
+        }
+      ],
+      "title": "Configure and manage high availability"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don configure advanced file services. They create a Network File System (NFS) share on a Windows server. They discuss BranchCache and different deployment options and demonstrate configuring BranchCache in Hosted Cache mode as well as file classification infrastructure using File Server Resource Manager (FSRM).",
+          "length": "4242",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/004-Advanced-File-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/004-Advanced-File-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/004-Advanced-File-Services-sm.jpg",
+          "title": "Advanced File Services",
+          "transcript": "",
+          "vimeoId": "97971458"
+        },
+        {
+          "description": "In this episode Mike and Don take a look at configuring Dynamic Access Controls through the Active Directory Administrative Center. They discuss creating file classification rules and demonstrate adding properties to resources. They also demonstrate modifying Central Access Rules to audit permissions in a staging environment.",
+          "length": "5138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/005-Dynamic-Access-and-Storage.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/005-Dynamic-Access-and-Storage-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/005-Dynamic-Access-and-Storage-sm.jpg",
+          "title": "Dynamic Access and Storage",
+          "transcript": "",
+          "vimeoId": "98029349"
+        },
+        {
+          "description": "In this episode Mike and Don take a look at configuring and optimizing storage. They demonstrate configuring iSCSI target and initiator. They also demonstrate how to reclaim disk space through the use of Features on Demand.",
+          "length": "4195",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/006-Optimizing-Storage.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/006-Optimizing-Storage-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/006-Optimizing-Storage-sm.jpg",
+          "title": "Optimizing Storage",
+          "transcript": "",
+          "vimeoId": "98029351"
+        }
+      ],
+      "title": "Configure file and storage solutions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don take a look at business continuity and disaster recovery and the various tools available to implement them. They demonstrate Windows Server backups and performing a Bare Metal Restore (BMR) as well as introducing Microsoft Azure backups. They also discuss Hyper-V Replica and its failover settings.",
+          "length": "6018",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/008-Disaster-Recovery.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/008-Disaster-Recovery-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/008-Disaster-Recovery-sm.jpg",
+          "title": "Disaster Recovery",
+          "transcript": "",
+          "vimeoId": "98448107"
+        }
+      ],
+      "title": "Implement business continuity and disaster recovery"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Mike take a look at advanced configuration of network services. They demonstrate creating DHCP superscopes and multicast scopes as well as failover and Name Protection. They discuss DNS GlobalNames zones and demonstrate configuring Domain Name System Security Extensions (DNSSEC). They wrap up with deploying IP Address Management (IPAM).",
+          "length": "8529",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/007-Configure-Network-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/007-Configure-Network-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/007-Configure-Network-Services-sm.jpg",
+          "title": "Configure Network Services",
+          "transcript": "",
+          "vimeoId": "98129662"
+        }
+      ],
+      "title": "Configure Network Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don take a look at configuring an Active Directory forest and domain. They explain how to modify existing domains and forests in the event of upgrades or expansions. They also describe using universal principle names (UPN) suffixes. They conclude with demonstrating how to monitor and manage SYSVOL replication.",
+          "length": "4835",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/009-Configuring-AD-Infrastructure.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/009-Configuring-AD-Infrastructure-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/009-Configuring-AD-Infrastructure-sm.jpg",
+          "title": "Configuring AD Infrastructure",
+          "transcript": "",
+          "vimeoId": "100414902"
+        },
+        {
+          "description": "In this episode Mike and Don wrap up configuring Active Directory with discussion and demonstration of configuring trusts and sites. They discuss the differences of external, forest, shortcut and realm trusts as well as trust authentication. They give scenarios on creating sites and managing site coverage as well as the registration of SRV records and domain controller movement between sites.",
+          "length": "6610",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/010-Configuring-AD-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/010-Configuring-AD-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/010-Configuring-AD-Pt-2-sm.jpg",
+          "title": "Configuring AD Part 2",
+          "transcript": "",
+          "vimeoId": "100414903"
+        }
+      ],
+      "title": "Configure the Active Directory infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don break down the Certificate Services role and its use inside an enterprise environment. They begin by installing the role, configuring certificate revocation lists (CRLs) and implementing a backup and recovery solution. They also demonstrate certificate deployment, certificate renewal and managing key archival and recovery.",
+          "length": "6669",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/012-Certificate-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/012-Certificate-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/012-Certificate-Services-sm.jpg",
+          "title": "Certificate Services",
+          "transcript": "",
+          "vimeoId": "100718642"
+        },
+        {
+          "description": "In this episode Mike and Don discuss Active Directory Rights Management Services (AD RMS) and scenarios in which its use can be leveraged. They demonstrate managing AD RMS Service Connection Points (SCP) as well as configuring Exclusion Policies. They conclude with discussing Active Directory Federation Services (AD FS) scenarios in which it can be leveraged inside an enterprise environment.",
+          "length": "4877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/013-RMS-and-AD-FS.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/013-RMS-and-AD-FS-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70412/013-RMS-and-AD-FS-sm.jpg",
+          "title": "RMS and Federations",
+          "transcript": "",
+          "vimeoId": "100718643"
+        }
+      ],
+      "title": "Configure Identity and Access Solutions"
+    },
+    {
+      "episodes": [],
+      "title": "Implement Network Load Balancing"
+    }
+  ],
+  "url": "mcsa-windows-server-2014",
+  "vLab": true
+}

@@ -1,0 +1,318 @@
+{
+  "description": "The pfSense show is presented to help users to become familiar and proficient at deploying the free network firewall.  This free solution provides the features found in most commercial firewalls and even some features not found in some of them.  It is completely scalable only limited by the hardware you provide.  To make for easier management and configuration, a full featured and intuitive web-based configurator is integrated to support all features.  You’ll see that it’s relatively easy to get it functional.  The show also shows how to implement firewall filters, nat rules, network services, VPNs and additional packages.",
+  "descriptionMD": "",
+  "length": "43370",
+  "name": "pfSense (2016)",
+  "practiceExam": false,
+  "subtitle": "pfSense build 2.3.2",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie give a general overview of what to expect in the upcoming pfSenese v2.3.2 series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "309",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-0-0-overview-011317-PGM.00_00_03_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-0-0-overview-011317-PGM.00_00_03_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-0-0-overview-011317-PGM.00_00_03_23.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "199679593"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce you to the pfSense v2.3.2 firewall. Here they discuss reasons for using pfSense vs their more expensive competitors, explore deployment options, and go over some of the other features like VPN Appliance, DHCP Server, and DNS as well.",
+          "length": "1396",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-1-intro_to_pfsense-121216.00_23_02_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-1-intro_to_pfsense-121216.00_23_02_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-1-intro_to_pfsense-121216.00_23_02_02.Still001-sm.jpg",
+          "title": "Intro to pfSense",
+          "transcript": "",
+          "vimeoId": "195796563"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore what it takes to get pfSense v2.3.2 installed and ready for configuration. They show you the necessary physical devices you'll need like a console cable and then take a look at installation media options. They will walk you through many of the pre-made hardware options as well as downloading the pfSense firewall software.",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-1-install_pfsense-121216.00_30_26_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-1-install_pfsense-121216.00_30_26_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-1-install_pfsense-121216.00_30_26_28.Still001-sm.jpg",
+          "title": "Install pfSense",
+          "transcript": "",
+          "vimeoId": "195797794"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue to explore what it takes to get pfSense v2.3.2 installed and ready for configuration. Here they take you through each step of the installation of the pfSense firewall software, taking care to explain the details of each option along the way.",
+          "length": "1759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-2-install_pfsense_pt2-121216.00_29_03_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-2-install_pfsense_pt2-121216.00_29_03_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-2-2-install_pfsense_pt2-121216.00_29_03_11.Still001-sm.jpg",
+          "title": "Install pfSense Part 2",
+          "transcript": "",
+          "vimeoId": "195798593"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie demonstrate how to prepare pfSense for use after installation. They begin by logging into the pfSense web-based Graphical User Interface(GUI) and start the setup wizard. Then they show you how to do some basic configuration through manual setup; bypassing the wizard.",
+          "length": "2010",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-3-prepare_pfsense_for_use-121316.00_33_14_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-3-prepare_pfsense_for_use-121316.00_33_14_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-3-prepare_pfsense_for_use-121316.00_33_14_24.Still001-sm.jpg",
+          "title": "Prepare pfSense for Use",
+          "transcript": "",
+          "vimeoId": "195799740"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show you how to setup your pfSense firewall to support multiple LANs. They demonstrate the steps necessary to configure VLANs and Virtual Interfaces to separate multiple LAN traffic.",
+          "length": "1862",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-4-setup_for_multiple_lans-121316.00_30_45_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-4-setup_for_multiple_lans-121316.00_30_45_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-1-4-setup_for_multiple_lans-121316.00_30_45_20.Still001-sm.jpg",
+          "title": "Setup for Multiple LANs",
+          "transcript": "",
+          "vimeoId": "195800728"
+        }
+      ],
+      "title": "Install and Prepare pfSense"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie explore how to configure WAN rules in your pfSense firewall. Here you will learn about policy-based firewall rules, (implicit deny vs implicit allow), rule order/logic, why you would need to disables a rule, and a demonstration of an allow rule on a WAN interface.",
+          "length": "1996",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-1-configure_firewall_rules-121316.00_33_07_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-1-configure_firewall_rules-121316.00_33_07_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-1-configure_firewall_rules-121316.00_33_07_27.Still001-sm.jpg",
+          "title": "Configure WAN Firewall Rules",
+          "transcript": "",
+          "vimeoId": "195801394"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain the use of aliasing in your pfSense firewall. Aliasing allows you to create a rule that casts a wide net to remove the clutter and tediousness of creating many individual rules.",
+          "length": "1193",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-2-configure_WAN_firewall_rules_pt2-121316.00_19_51_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-2-configure_WAN_firewall_rules_pt2-121316.00_19_51_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-1-2-configure_WAN_firewall_rules_pt2-121316.00_19_51_24.Still001-sm.jpg",
+          "title": "Configure WAN Firewall Rules Part 2",
+          "transcript": "",
+          "vimeoId": "195802125"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie demonstrate configuring LAN firewall rules in pfSense. They begin by looking at the default rules and default firewall policy. Next they show you how to block all access to the internet or a specific web site.",
+          "length": "1896",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-1-configure_lan_firewall_rules-121416.00_31_37_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-1-configure_lan_firewall_rules-121416.00_31_37_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-1-configure_lan_firewall_rules-121416.00_31_37_09.Still001-sm.jpg",
+          "title": "Configure LAN Firewall Rules",
+          "transcript": "",
+          "vimeoId": "195802532"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue to demonstrate configuring LAN firewall rules in pfSense. Here they will show you how to block access to a web site that is utilizing multiple IP addresses through implementing an alias.",
+          "length": "1149",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-2-configure_lan_firewall_rules_pt2-121416.00_18_57_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-2-configure_lan_firewall_rules_pt2-121416.00_18_57_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-2-2-configure_lan_firewall_rules_pt2-121416.00_18_57_29.Still001-sm.jpg",
+          "title": "Configure LAN Firewall Rules Part 2",
+          "transcript": "",
+          "vimeoId": "195803324"
+        },
+        {
+          "description": "Errata:\nDuring the episode, Ronnie has problems getting recurring days of the week to work when scheduling the rules.  A member writes in and reports:  “recurring days of the week can be selected by clicking on the day of the week header column e.g. monday-sunday; selected days are applied to all months.”  \n\nThis will save you much time when trying to create and configure firewall rules to occur on a schedule.   ~Ronnie\n\nIn this episode, Daniel and Ronnie guide you through setting up a firewall rule schedule. They show you how to take advantage of the scheduling feature which allows you to make a rule active and/or inactive at the time(s) you choose. They demonstrate this by unblocking facebook access during lunch and off hours.",
+          "length": "1116",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-3-schedule_firewall_rules-121416.00_18_32_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-3-schedule_firewall_rules-121416.00_18_32_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-2-3-schedule_firewall_rules-121416.00_18_32_05.Still001-sm.jpg",
+          "title": "Schedule Firewall Rules",
+          "transcript": "",
+          "vimeoId": "195803775"
+        }
+      ],
+      "title": "Configure Firewall Rules"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at setting up Dynamic NAT in a pfSense firewall. They start with the basics of why Dynamic NAT might be needed and then move right into configuring DNAT in the pfSense web GUI. Finally, they also show you how to setup DNAT with multiple public IP addresses.",
+          "length": "1657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-1-setup_dynamic_nat-121516.00_27_22_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-1-setup_dynamic_nat-121516.00_27_22_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-1-setup_dynamic_nat-121516.00_27_22_12.Still001-sm.jpg",
+          "title": "Setup Dynamic NAT",
+          "transcript": "",
+          "vimeoId": "197292495"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at setting up Static NAT in a pfSense firewall. They walk you through setting up SNAT step-by-step using the pfSense web GUI, all the while explaining the differences between it and Dynamic NAT as well as the practical reasons for implementing SNAT.",
+          "length": "1240",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-2-setup_static_nat-121516.00_20_29_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-2-setup_static_nat-121516.00_20_29_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-2-setup_static_nat-121516.00_20_29_13.Still001-sm.jpg",
+          "title": "Setup Static NAT",
+          "transcript": "",
+          "vimeoId": "197293362"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie demonstrate setting up Port Forwarding in a pfSense firewall. Here, they take you step-by-step through the pfSense web GUI, explaining in detail each option in the Port Forwarding configuration.",
+          "length": "1742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-3-setup_port_forwarding-121516.00_28_48_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-3-setup_port_forwarding-121516.00_28_48_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-3-3-setup_port_forwarding-121516.00_28_48_10.Still001-sm.jpg",
+          "title": "Setup Port Forwarding",
+          "transcript": "",
+          "vimeoId": "197293677"
+        }
+      ],
+      "title": "Implement NAT"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie explain and demonstrate setting up the DHCP options in pfSense. They begin by discussing why you would want to employ DHCP in your network and then show you each step to configure it through the pfSense web GUI.",
+          "length": "1833",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-1-configure_dhcp_on_pfsense-121616.00_30_56_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-1-configure_dhcp_on_pfsense-121616.00_30_56_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-1-configure_dhcp_on_pfsense-121616.00_30_56_13.Still001-sm.jpg",
+          "title": "Configure DHCP on pfSense",
+          "transcript": "",
+          "vimeoId": "197294133"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show you how to configure your pfSense firewall as a DNS Resolver. Watch as they walk you through setting up the DNS Resolver service step-by-step, explaining each option as they go.",
+          "length": "1855",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-2-configure_dns_resolver-121616.00_31_17_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-2-configure_dns_resolver-121616.00_31_17_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-2-configure_dns_resolver-121616.00_31_17_09.Still001-sm.jpg",
+          "title": "Configure DNS Resolver",
+          "transcript": "",
+          "vimeoId": "197294642"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore the Captive Portal capabilities in pfSense v2.3.2. They start by explaining what Captive Portal is and does, then they demonstrate setting up Captive Portal both without authentication and with authentication.",
+          "length": "1747",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-3-Configure_Captive_Portal-011317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-3-Configure_Captive_Portal-011317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-3-Configure_Captive_Portal-011317-1-sm.jpg",
+          "title": "Configure Captive Portal",
+          "transcript": "",
+          "vimeoId": "199676842"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore using pfSense as a high-availability solution. They start by explaining what is meant by the term \"high-availability\" and then show you each step necessary to setup your pfSense devices to fail over to the other in case of an outage due to hardware or connection.",
+          "length": "1749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-1-configure_high_availability-011317-PGM.00_28_54_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-1-configure_high_availability-011317-PGM.00_28_54_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-1-configure_high_availability-011317-PGM.00_28_54_22.Still001-sm.jpg",
+          "title": "Configure High Availability",
+          "transcript": "",
+          "vimeoId": "199678048"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore using pfSense as a high-availability solution. Here they finish the configuration on the pfSense firewalls and then test synchronization between them.",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-2-configure_high_availability_pt2-011317-PGM.00_25_13_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-2-configure_high_availability_pt2-011317-PGM.00_25_13_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-4-2-configure_high_availability_pt2-011317-PGM.00_25_13_20.Still001-sm.jpg",
+          "title": "Configure High Availability Part 2",
+          "transcript": "",
+          "vimeoId": "199679114"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the uses and setup for a Multi-WAN environment with pfSense. They begin by going over the goals of using a multi-WAN system including failover, load balancing, and bandwidth aggregation. Finally they go step-by-step through configuring Multi-WAN in pfSense.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-5-setup_for_multi-wan-011317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-5-setup_for_multi-wan-011317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-4-5-setup_for_multi-wan-011317-1-sm.jpg",
+          "title": "Setup for Multi-WAN",
+          "transcript": "",
+          "vimeoId": "199679717"
+        }
+      ],
+      "title": "Implement Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Cherokee and Ronnie cover how to set up an IPSec site to site VPN tunnel. Ronnie demonstrates this process by setting up two pfSense devices representing  two locations, such as a branch office that needs  a direct connection to the corporate. For demonstration purpose he labels them as Alpa and Bravo. This episode specifically walks you thru the step by step configuring of the Alpha device.",
+          "length": "1912",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-1-setup_ipsec_site_to_site_vpn-010317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-1-setup_ipsec_site_to_site_vpn-010317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-1-setup_ipsec_site_to_site_vpn-010317-1-sm.jpg",
+          "title": "Setup IPsec Site-to-Site VPN",
+          "transcript": "",
+          "vimeoId": "198344603"
+        },
+        {
+          "description": "This a continuation of the previous episode where Cherokee and Ronnie showed you how to configure the first device of an IPSec site to site VPN tunnel. This episode walks you thru how to set up the second pfSense box to complete your secure  tunnel.",
+          "length": "819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-2-setup_ipsec_site_to_site_vpn_pt2-010317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-2-setup_ipsec_site_to_site_vpn_pt2-010317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-1-2-setup_ipsec_site_to_site_vpn_pt2-010317-1-sm.jpg",
+          "title": "Setup IPsec Site-to-Site VPN Part 2",
+          "transcript": "",
+          "vimeoId": "198345107"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take you through setting up a site-to-site\nVPN connection using pfSense and OpenVPN.",
+          "length": "2056",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-2-setup_site_to_site_openvpn-010517-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-2-setup_site_to_site_openvpn-010517-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-2-setup_site_to_site_openvpn-010517-high-sm.jpg",
+          "title": "Setup Site-to-Site OpenVPN",
+          "transcript": "",
+          "vimeoId": "198345341"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through setting up a Remote Access VPN connection using pfSense and OpenVPN. Watch here as they demonstrate and explain each necessary step like configuring local users in pfSense, exporting and installing the OpenVPN client package, and configuring the OpenVPN server to accept connections.",
+          "length": "2088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-3-configure_remote_access_openvpn-010617-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-3-configure_remote_access_openvpn-010617-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-5-3-configure_remote_access_openvpn-010617-2-sm.jpg",
+          "title": "Configure Remote Access OpenVPN",
+          "transcript": "",
+          "vimeoId": "198720882"
+        }
+      ],
+      "title": "Establish Virtual Private Networks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie demonstrate system monitoring and diagnostic features found in pfSense. They explain the importance of performing system monitoring and diagnostics looking at many of the built-in tools in pfSense to that end. This includes pfInfo, pfTop, SMART status, System Activity, and the Status dashboard.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-1-use_system_monitoring_and_diagnostics-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-1-use_system_monitoring_and_diagnostics-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-1-use_system_monitoring_and_diagnostics-010617-1-sm.jpg",
+          "title": "Use System Monitoring and Diagnostics",
+          "transcript": "",
+          "vimeoId": "198721442"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the vital procedures that are performing updates, backups, and restore in pfSense. They also discuss the importance of each, exploring the \"Why\" as well as the how.",
+          "length": "1229",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-2-update_backup_and_rstore_pfsense-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-2-update_backup_and_rstore_pfsense-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-6-2-update_backup_and_rstore_pfsense-010617-1-sm.jpg",
+          "title": "Update, Backup and Restore pfSense",
+          "transcript": "",
+          "vimeoId": "198721999"
+        }
+      ],
+      "title": "Setup Monitoring and Maintaining"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie explain how to implement Packages for your pfSense firewall. They begin by defining what a Package is and where you get them. Then they show you how to install a package by installing the Squid Proxy package and configuring it for use.",
+          "length": "1783",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-7-1-understand_and_install_packages-011317.00_29_26_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-7-1-understand_and_install_packages-011317.00_29_26_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense232/techskills-pfsense232-7-1-understand_and_install_packages-011317.00_29_26_26.Still001-sm.jpg",
+          "title": "Understand and Install Packages",
+          "transcript": "",
+          "vimeoId": "199678620"
+        }
+      ],
+      "title": "Understand Packages"
+    }
+  ],
+  "url": "pfsense-2016",
+  "vLab": false
+}

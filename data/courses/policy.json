@@ -1,0 +1,208 @@
+{
+  "description": "Group Policy is an infrastructure that allows you to implement specific configurations for users and computers in a centralized manner. In these episodes, you will learn about configuring and maintaining a Group Policy infrastructure. You will also learn how to specify managed configurations for users and computers through Group Policy settings and Group Policy Preferences. Group Policy will allow you to provide the standardized functionality, security, and management control that your organization needs.",
+  "descriptionMD": "",
+  "length": "31670",
+  "name": "Working with Group Policy",
+  "practiceExam": false,
+  "subtitle": "Group Policy",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Group Policy is an infrastructure that allows you to implement specific configurations for users and computers in a centralized manner. In these episodes, you will learn about configuring and maintaining a Group Policy infrastructure. You will also learn how to specify managed configurations for users and computers through Group Policy settings and Group Policy Preferences. Group Policy will allow you to provide the standardized functionality, security, and management control that your organization needs.",
+          "length": "128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-0-0-overvieew-112415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-0-0-overvieew-112415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-0-0-overvieew-112415-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "147345285"
+        },
+        {
+          "description": "In this episode Mike and Wes introduce the basic concepts of Group Policy. They give a high-level overview of the components inside of the Group Policy Management Console (GPMC). They demonstrate how to setup the GPMC on a Windows client so that an employee can perform remote Group Policy management. They talk about how to point the Remote Server Administration Tool (RSAT) to domain controller for the purposes of Group Policy management from a Windows client machine.",
+          "length": "1489",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-1-what_is_group_policy-110915-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-1-what_is_group_policy-110915-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-1-what_is_group_policy-110915-high-sm.jpg",
+          "title": "What is Group Policy",
+          "transcript": "",
+          "vimeoId": "145521677"
+        },
+        {
+          "description": "In this episode Mike and Wes take a deeper look at the anatomy that makes up a Group Policy Object (GPO). They will discuss the components found within the GPO container called Group Policies. They demonstrate computer configurations as well as user settings and define how these settings apply. They introduce policy settings. They will look at how to apply filters to help find settings inside of a GPO.",
+          "length": "1832",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-2-group_policy_objects-110915-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-2-group_policy_objects-110915-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-1-2-group_policy_objects-110915-high-sm.jpg",
+          "title": "Group Policy Objects",
+          "transcript": "",
+          "vimeoId": "145521695"
+        },
+        {
+          "description": "In this episode Mike and Wes take a look at what it takes to create and deploy a Group Policy Object with an Active Directory domain. They discuss how to create a GPO through the Group Policy Management Console and also through the Windows PowerShell. They talk about how GPOs are stored in two different locations inside of Active Directory and how this effects the application of policy settings. Permissions are another component of GPOs that can affect how policy settings are applied. Mike and Wes will discuss where to set permissions when it comes to delegation and application of GPOs. They show you where you can edit and link GPOs to push out configurations to users and computers in a Windows Active Directory domain",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-1-creating_group_policies-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-1-creating_group_policies-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-1-creating_group_policies-111015-1-sm.jpg",
+          "title": "Creating Group Policies",
+          "transcript": "",
+          "vimeoId": "145521707"
+        },
+        {
+          "description": "In this episode Mike and Wes demonstrate a component in Group Policy called Administrative Templates. They show you how to configure administrative templates and where the administrative templates are stored. They look at what makes up an administrative template by discussing settings files called ADMX files are and their associated language files called ADML files. They demonstrate how to import ADMX and ADML files to extend the configurations of the administrative templates. They take a look at setting up a centralized location to store ADMX files for all domain controllers within the domain through the Central Store.",
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-2-administrative_templates-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-2-administrative_templates-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-2-administrative_templates-111015-1-sm.jpg",
+          "title": "Administrative Templates",
+          "transcript": "",
+          "vimeoId": "145521722"
+        },
+        {
+          "description": "Group policy contains thousands of settings that can apply to thousands of user or computers. In this episode Mike and Wes look at how to scope Group Policy Objects(GPOs) to specific users and/or computers inside of a Windows domain. They talk about what a link is, how it applies to GPOs and where you can apply them in the Group Policy Management Console(GMPC). They discuss the difference between a container, an organizational unit and where you would use these. They talk about the precedence GPOs used to apply settings.",
+          "length": "1786",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope-111115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope-111115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope-111115-1-sm.jpg",
+          "title": "Group Policy Scope",
+          "transcript": "",
+          "vimeoId": "145521790"
+        },
+        {
+          "description": "In this episode Mike and Wes take a continued look at scoping Group Policy Objects (GPOs) to specific users and computers. They look at the processing order that Group Policy uses to determine which settings will be applied and how Group Policy handles settings conflicts. They discuss Group Policy inheritance and how to block settings from being inherited and enforce settings in Active Directory. They talk about when Group Policy settings apply and how to force the application of Group Policy settings through GPUpdate with the \"force\". They talk about the components that apply the settings found in a GPOS call Client-side Extensions(CSEs)",
+          "length": "2073",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt2-111115-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt2-111115-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt2-111115-2-sm.jpg",
+          "title": "Group Policy Scope Part 2",
+          "transcript": "",
+          "vimeoId": "145521749"
+        },
+        {
+          "description": "In this episode Mike and Wes take a continued look at scoping Group Policy Objects (GPOs) to specific users and computers. They look at how to determine what settings are currently configured in a Group Policy Object (GPO). They talk about the what slow link detection and how it effect the application of GPOs.",
+          "length": "1146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt3-111115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt3-111115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-3-group_policy_scope_pt3-111115-1-sm.jpg",
+          "title": "Group Policy Scope Part 3",
+          "transcript": "",
+          "vimeoId": "145521783"
+        },
+        {
+          "description": "In this episode Mike and Wes will discuss how to filter Group Policy Objects(GPOs) to a specific set of users, groups or computers. They look at security filtering inside of a Windows domain through the Group Policy Management Console. They will demonstrate how to apply a GPO to a specific set attributes on a Windows domain-based computer with Windows Management Instrumentation.",
+          "length": "1952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-4-filtering_group_policy-111215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-4-filtering_group_policy-111215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-4-filtering_group_policy-111215-1-sm.jpg",
+          "title": "Filtering Group Policy",
+          "transcript": "",
+          "vimeoId": "146130650"
+        },
+        {
+          "description": "With all the configurations that you can do with Group Policy Objects whether it be configuring, edit, apply or link to a GPOs we need a way to determine what settings are applying. In this episode Mike and Wes demonstrate how to determine settings through a concept Resultant Set of Policy(RSoP). They look at the utilities to determine RSoP like GPResults in Windows Command Prompt or the Group Policy Results Wizard in Windows Server 2012 R2. They talk about how to determine the \"what if\" scenarios for GPO application before implementing those settings in a production environment through the Group Policy Modeling Wizard.",
+          "length": "1920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-5-resultant_set_of_policy-111415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-5-resultant_set_of_policy-111415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-5-resultant_set_of_policy-111415-1-sm.jpg",
+          "title": "Resultant Set of Policy",
+          "transcript": "",
+          "vimeoId": "146163340"
+        },
+        {
+          "description": "In this episode Mike and Wes discuss some of the techniques you can use to maintain Group Policy inside of a Windows Active Directory domain. They are going to demonstrate how to backup the Group Policies for the purposes of system maintenance and restoration. They talk about how to manage the Group Policy backups to make it easier to restore those Group Policies. They will show you how to restore the Group Policy inside of the Group Policy Management Console.",
+          "length": "1140",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-6-maintaining_group_policy-111415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-6-maintaining_group_policy-111415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-2-6-maintaining_group_policy-111415-1-sm.jpg",
+          "title": "Maintaining Group Policy",
+          "transcript": "",
+          "vimeoId": "146151882"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into password policies and account policies for a Microsoft Active Directory domain.  These policies help us to set consistent basic user security by controlling password and account access through these two policies, they say.  The guys show where these policies are set and talk about each particular setting and show how and when the policy applies.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-1-account_and_password_policies-112315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-1-account_and_password_policies-112315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-1-account_and_password_policies-112315-1-sm.jpg",
+          "title": "Account & Password Policies",
+          "transcript": "",
+          "vimeoId": "146696909"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at how administrators can control the user desktop environment using Active Directory Group Policy.  Using Folder Redirection as an example, they show how admins can change where users’ My Document Folder can be redirected to a network location.   Also using the need to map to network drive, Mike demonstrates how to create a script to do that will run as a startup script.  Mike also indicates with Windows 8.1 there is a default delay of 5 minutes for scripts to run and shows how to reduce that delay.",
+          "length": "2218",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-2-configure_user_desktops-112315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-2-configure_user_desktops-112315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-2-configure_user_desktops-112315-1-sm.jpg",
+          "title": "Configure User Desktops",
+          "transcript": "",
+          "vimeoId": "146696924"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike guide us through the creating an audit policy.  They use the example of object access and account logon events to show where the audits will take place and why we would want to create an audit policy.  Mike demonstrates the two step process in creating an object access audit to work.  Using the event viewer, we see the results of the audit.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-3-auditing_policies-112315-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-3-auditing_policies-112315-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-3-auditing_policies-112315-2-sm.jpg",
+          "title": "Auditing Policies",
+          "transcript": "",
+          "vimeoId": "147258058"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at deploying software through Group Policy.  They emphasize the fact that this only really works with .MSI files. Within the GPMC, the guys take a look at the differences between assigning and publishing the software installation between user configurations and computer configurations as well.  Then they demonstrate the assigning of software installation through the user setting.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-4-software_deployment-112315-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-4-software_deployment-112315-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-4-software_deployment-112315-2-sm.jpg",
+          "title": "Software Deployment",
+          "transcript": "",
+          "vimeoId": "147258079"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at controlling AD Clients.  Using IE settings, Windows Updates, and Windows Firewall.  They demonstrate centralized control over user settings so that users are disabled from configuring settings.  This is a great option when we do not want users to change settings that may violate policies we have in place.  They demonstrate where to locate the settings and how they apply.",
+          "length": "1889",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-5-configuring_clients-112315-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-5-configuring_clients-112315-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-5-configuring_clients-112315-2-sm.jpg",
+          "title": "Configuring Clients",
+          "transcript": "",
+          "vimeoId": "147258086"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show us how to use AD Group Policy to control applications within our domains.  The use of these policies are necessary to help stop unauthorized applications from being installed on users desktops, according to the guys.  They take a look at differences between Software Restriction Policies and AppLocker.  Mike also demonstrates the flexibility of Applocker through all the settings available to restrict applications beyond the hash and location values.",
+          "length": "1834",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-6-application_control-112415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-6-application_control-112415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-6-application_control-112415-high-sm.jpg",
+          "title": "Application Control",
+          "transcript": "",
+          "vimeoId": "147258118"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce Group Policy Preferences.  These preferences help to extend the capabilities of Group Policy and make it easier to manage, according to Mike.  They take some time to show where and how to configure the preferences as well.  Preferences are effective when we need to set default configurations but also allow for the user to be able to change when necessary.",
+          "length": "1822",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-7-group_policy_preferences-112415-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-7-group_policy_preferences-112415-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-7-group_policy_preferences-112415-2-sm.jpg",
+          "title": "Group Policy Preferences",
+          "transcript": "",
+          "vimeoId": "147258124"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at deploying software through Group Policy.  They emphasize the fact that this only really works with .MSI files. Within the GPMC, the guys take a look at the differences between assigning and publishing the software installation between user configurations and computer configurations as well.  Then they demonstrate the assigning of software installation through the user setting.",
+          "length": "1665",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-8-security_templates-112415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-8-security_templates-112415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-grouppolicy/techskills-grouppolicy-3-8-security_templates-112415-1-sm.jpg",
+          "title": "Security Templates",
+          "transcript": "",
+          "vimeoId": "147258090"
+        }
+      ],
+      "title": "Working with Group Policy"
+    }
+  ],
+  "url": "policy",
+  "vLab": false
+}

@@ -1,0 +1,218 @@
+{
+  "description": "This exam has been retired. CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-101 and LX0-102) are awarded with not one, but two certifications: the CompTIA Linux+ certification and the LPI LPIC-1 certification. That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+  "descriptionMD": "",
+  "length": "88593",
+  "name": "Linux+",
+  "practiceExam": false,
+  "subtitle": null,
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-101 and LX0-102) are awarded with not one, but two certifications: the CompTIA Linux+ certification and the LPI LPIC-1 certification. That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+          "length": "944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux-sm.jpg",
+          "title": "Introduction to Linux+",
+          "transcript": "",
+          "vimeoId": "98457568"
+        }
+      ],
+      "title": "Overview of CompTIA Linux+ (LX0-101/LX0-102)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don demonstrate and discuss how to obtain a copy of Debian and install it. Debian is one of the major distro branch that other Linux distros are based. They guide a user with no previous Linux experience on the installation process and what options are available on during the installation. They also show that the basic installation involves the use of the command-line utilities: apt-get, ifconfig and basic navigation commands that Linux Admins should readily use.",
+          "length": "6663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1-sm.jpg",
+          "title": "Installing Linux Part 1",
+          "transcript": "",
+          "vimeoId": "98457569"
+        },
+        {
+          "description": "In this episode, Ronnie and Don demonstrate and discuss how to obtain a copy of CentOS and install it. CentOS is used in place of Red Hat Enterprise. They guide a user with no previous Linux experience on the installation process and what options are available on during the installation. They also show that the basic installation involves the use of the command-line utilities: yum, ifconfig and basic navigation commands that Linux Admins should readily use.",
+          "length": "4830",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2-sm.jpg",
+          "title": "Installing Linux Part 2",
+          "transcript": "",
+          "vimeoId": "98538728"
+        }
+      ],
+      "title": "Linux Installation and Package Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don discuss the use of file editors. They list several of the different file editors and talk about their availability among different distros. The demonstrate the use of vi, the file editor that is found in just about every distro available. They show the power of vi to create a file, modify and save a file. They discuss the use of vi directly, on a consoled connection and a remote connection as well. They go through the basic commands that every Linux Admin needs to know when using a file editor.",
+          "length": "5913",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface-sm.jpg",
+          "title": "Command Line Interface",
+          "transcript": "",
+          "vimeoId": "98660874"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look into working with the Command Line Interface of CentOS. They show basic tasks that could be accomplished in the GUI can also be accomplished by using Linux CLI shell commands. They demonstrate some file output commands and the use of filtering to easily manage what is displayed. They spend some time performing basic file management tasks and computer management task.",
+          "length": "7317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2-sm.jpg",
+          "title": "Command Line Interface Part 2",
+          "transcript": "",
+          "vimeoId": "99181632"
+        }
+      ],
+      "title": "GNU and Unix Commands"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don are connecting hardware devices to our Linux distro for usage. They spend some time also taking a deeper look into the boot sequence, boot loader and the boot events that happens prior to and during the installation process.",
+          "length": "7930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture-sm.jpg",
+          "title": "System Architecture",
+          "transcript": "",
+          "vimeoId": "98970286"
+        }
+      ],
+      "title": "System Architecture"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don tackle the concept of file systems and partition management from the Linux CLI. They talk about the various options available to Linux. They create a partition format it for use in Linux. Also they show how to mount and unmount a file system.",
+          "length": "5449",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management-sm.jpg",
+          "title": "Disk Management",
+          "transcript": "",
+          "vimeoId": "99181633"
+        },
+        {
+          "description": "In this episode, Ronnie and Don reinstall a CentOS distribution for the purpose of choosing no default options on the installation regarding Hard Disk configurations from the CLI. They also show the default system files hierarchy created and describe what file hierarchy system is created when you install a Linux distro.",
+          "length": "3149",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2-sm.jpg",
+          "title": "Disk Management Part 2",
+          "transcript": "",
+          "vimeoId": "99181637"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look at maintaining the hard disk from the CLI by creating disk quotas and managing permissions. They show how to see the integrity of the file systems and monitor disk usage. The talk about the use of symbolic and hard links.",
+          "length": "7383",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3-sm.jpg",
+          "title": "Disk Management Part 3",
+          "transcript": "",
+          "vimeoId": "99181636"
+        }
+      ],
+      "title": "Devices, Linux Filesystems, Filesystem Hierarchy Standard"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don configure a customized shell environment and demonstrate how do create a default shell environment for all users or configure it for individuals. Within the shell environment, they also set the search path for running applications. They show the creation of a script to add users to the system and end the episode by installing a MySQL server and running simple data manipulation commands against a database.",
+          "length": "7416",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting-sm.jpg",
+          "title": "Shells and Scripting",
+          "transcript": "",
+          "vimeoId": "99233876"
+        }
+      ],
+      "title": "Shells, Scripting and Data Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don install the GUI options to the CLI environment and configure X Window options. With the GUI installed, they setup the display manager and show how to configure it for users. They also walk through the accessibility options available for people with impaired abilities.",
+          "length": "6276",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface-sm.jpg",
+          "title": "Graphical User Interface",
+          "transcript": "",
+          "vimeoId": "99233877"
+        }
+      ],
+      "title": "User Interfaces and Desktop"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don tackle Linux administrative tasks through the CLI. These tasks include managing user and group accounts and the password database. They take a look at setting up scheduled tasks using cron jobs and the 'at' command. Because Linux Systems may be located and relocated to different places in the world, they show the locale and time zone settings. They also talk about the importance of time synchronization for computer systems and how to configure NTP.",
+          "length": "6958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks-sm.jpg",
+          "title": "Administrative Tasks",
+          "transcript": "",
+          "vimeoId": "99233878"
+        }
+      ],
+      "title": "Administrative Tasks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don dive into Linux System Services and show configuring system logging and using the basic Mail Transfer Agent within the Linux distro through the CLI. They also configure the use of printers and manage printing through the CLI.",
+          "length": "5651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services-sm.jpg",
+          "title": "Essential System Services",
+          "transcript": "",
+          "vimeoId": "99233879"
+        }
+      ],
+      "title": "Essential System Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don go through the basic networking fundamentals and basic CLI tools used in troubleshooting. They also show how to configure basic networking manually using the multiple files that must be used when setting up basic networking for the Linux System.",
+          "length": "4661",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking-sm.jpg",
+          "title": "Networking",
+          "transcript": "",
+          "vimeoId": "99353351"
+        }
+      ],
+      "title": "Networking Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don guide us through setting up security for the Linux Server that is to be used in production networks. They show how to change passwords, set up auditing and using proper security procedures. They setup basic host security. Also in this episode, they configure SSH for securing data on Linux Systems.",
+          "length": "8053",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration-sm.jpg",
+          "title": "Security Administration",
+          "transcript": "",
+          "vimeoId": "99353350"
+        }
+      ],
+      "title": "Security"
+    }
+  ],
+  "url": "linux-plus",
+  "vLab": false
+}

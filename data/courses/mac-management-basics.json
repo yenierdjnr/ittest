@@ -1,0 +1,103 @@
+{
+  "description": "Those looking to complete the initial Mac Management certification will find in this course an overview of the process in achieving the certification and details about the exam required to pass in order to receive the certification. Besides having a general knowledge of operating a single Macintosh PC, one will learn in this course tactics in managing multiple Macintosh PC's like deploying OS X, deploying software applications, controlling machines with polices, and keeping systems up to date through software management.",
+  "descriptionMD": "",
+  "length": "20103",
+  "name": "Mac Management Basics 10.9",
+  "practiceExam": false,
+  "subtitle": "Mavericks 10.9",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Apple Certified Associate (ACA) certification achieved through Mac Management Basics shows one has a grasp of the basic tasks necessary to administer a network of Macs, which focuses more on managing and operating the software side of Macintosh systems. The ACA certification can be achieved in two versions through either Mac Integration Basics or Mac Management Basics and is an excellent starting point for people working with multiple Macintosh systems in a networked environment. Viewers will hear an overview about the knowledge one needs to attain the ACA certification, about the Mac Management Basics Exam and the content/ topics one should know for the exam.",
+          "length": "687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/001-Mac-Management-Basics.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/001-Mac-Management-Basics-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/001-Mac-Management-Basics-sm.jpg",
+          "title": "Mac Management Basics",
+          "transcript": "",
+          "vimeoId": "100816669"
+        }
+      ],
+      "title": "Overview of Mac Management Basics"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Creating System Images is a useful function in which a default image of one console's software, configuration settings, and etc., are copied across a wide span of computers. Viewers will hear about the different Mac OS system images: NetBoot, NetInstall, and NetRestore and see demonstrations in creating system images to help in the process of anyone tasked with managing multiple Macintosh PCs.",
+          "length": "3815",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/002-Creating-System-Images.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/002-Creating-System-Images-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/002-Creating-System-Images-sm.jpg",
+          "title": "Creating System Images",
+          "transcript": "",
+          "vimeoId": "100816670"
+        }
+      ],
+      "title": "Creating System Images"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Deployment is the sequential step following the creation of a system image, which a system image is deployed on different consoles either through a smaller scale/ single use approach using USB bootable media or through a network for deployment on a wider scale. Viewers will be shown methods for deploying a system image, in particular, Mac OS X Mavericks by a USB bootable media installer and how to deploy NetInstall and NetRestore images over the network using the OS X Server App.",
+          "length": "3450",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/003-Deployment.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/003-Deployment-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/003-Deployment-sm.jpg",
+          "title": "Deployment",
+          "transcript": "",
+          "vimeoId": "100910226"
+        }
+      ],
+      "title": "Deployment"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The Apple Remote Desktop (ARD) software is an alternative option to the process of deploying a system image that transmits much smaller packages of information and can manage a much greater amount of machines at once, so that one doesn't have to deploy a full image or format a whole machine and redo it. Apple Remote Desktop benefits those managing a large quantity of Macs. Viewers will be shown how to set up clients and copy over files and install software on client profiles, as well as hear some of the ways ARD can be used to control the Macintosh system in a network, including: software distribution, remote assistance and administration, asset management and reporting, and automation.",
+          "length": "2724",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/004-Remote-Desktop.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/004-Remote-Desktop-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/004-Remote-Desktop-sm.jpg",
+          "title": "Remote Desktop",
+          "transcript": "",
+          "vimeoId": "100910446"
+        }
+      ],
+      "title": "Managing Computers with Apple Remote Desktop"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Policy management is the basic concept that when clients check in with servers, certain restrictions are implemented and then applied to them. Through the Profile Manager, one is able to configure policies to maintain how a system was first deployed. Viewers will see demonstrations for implementing policies to users and how to use other features of the Profile Manager, including how to remotely wipe or lock a device.",
+          "length": "5417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/005-Policy-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/005-Policy-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/005-Policy-Management-sm.jpg",
+          "title": "Policy Management",
+          "transcript": "",
+          "vimeoId": "100987451"
+        }
+      ],
+      "title": "Policy Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Managing software updates across a wide span of computers can help to efficiently optimize your performance on a network and preserve bandwidth. Viewers will be shown how to configure a software update server to control updates on a network and how to set up a caching server, so that anything downloaded from Apple can be downloaded once and have a copy stored in a cache for other clients to download over a server, as opposed to a large quantity of clients each downloading copies of the same file over the internet.",
+          "length": "4010",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/006-Software-Updates-and-Caching.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/006-Software-Updates-and-Caching-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/acamacbasics/006-Software-Updates-and-Caching-sm.jpg",
+          "title": "Software Updates and Caching",
+          "transcript": "",
+          "vimeoId": "101079999"
+        }
+      ],
+      "title": "Software Updates and Caching Software Downloads"
+    }
+  ],
+  "url": "mac-management-basics",
+  "vLab": false
+}

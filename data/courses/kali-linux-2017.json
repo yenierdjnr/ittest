@@ -1,0 +1,348 @@
+{
+  "description": "Kali Linux is an advanced, versatile penetration testing platform and has dozens and dozens of tools complied into it, making it a very powerful, yet highly customizable platform. These episodes will teach you how to install Kali Linux, and how to use Kali Linux to test the security of a network. You will learn how to effectively perform a penetration test using the various tools found in Kali Linux.",
+  "descriptionMD": "Kali Linux is an advanced, versatile penetration testing platform and has dozens and dozens of tools complied into it, making it a very powerful, yet highly customizable platform. These episodes will teach you how to install Kali Linux, and how to use Kali Linux to test the security of a network. You will learn how to effectively perform a penetration test using the various tools found in Kali Linux.",
+  "length": "50073",
+  "name": "Kali Linux (2017)",
+  "practiceExam": false,
+  "subtitle": "Configuration of Kali Linux",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Mike and Zach discuss what Kali Linux is, a brief history of Kali Linux, how it is 'Debian' derived, best usues of Kali Linux, installation options, the requirements to run it, supported platforms, and features of Kali Linux.",
+          "length": "1353",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-1-history_of_kali_linux-070317-PGM.00_22_17_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-1-history_of_kali_linux-070317-PGM.00_22_17_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-1-history_of_kali_linux-070317-PGM.00_22_17_24.Still001-sm.jpg",
+          "title": "History of Kali Linux",
+          "transcript": "",
+          "vimeoId": "224314485"
+        },
+        {
+          "description": "Mike and Zach cover the requirements for needed for installation of Kali Linux, suggested thumb drive size, how to download Kali, how to verify the download, and using a VM with Kali.",
+          "length": "1441",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-2-kali_bootable_usb_drive-070317-PGM.00_23_47_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-2-kali_bootable_usb_drive-070317-PGM.00_23_47_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-1-2-kali_bootable_usb_drive-070317-PGM.00_23_47_24.Still001-sm.jpg",
+          "title": "Kali Bootable USB Drive",
+          "transcript": "",
+          "vimeoId": "224465708"
+        },
+        {
+          "description": "Mike and Zach discuss what 'Persistence' is, how to add Persistence to a portable (thumb-drive) Kali Linux application, how to modify our applications, and what 'Parted' is.",
+          "length": "1491",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-2-live_with_persistence-070517-PGM.00_21_10_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-2-live_with_persistence-070517-PGM.00_21_10_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-2-live_with_persistence-070517-PGM.00_21_10_12.Still001-sm.jpg",
+          "title": "Live with Persistence",
+          "transcript": "",
+          "vimeoId": "224655497"
+        },
+        {
+          "description": "Mike and Zach discuss what 'Encryption' is, how to add Encryption to a Kali Linux Thumb Drive application with 'Persistence', how to modify our applications, and adding a 'Nuke' key for added security.",
+          "length": "1789",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-3-live_with_encrypted_persistence-070517-PGM.00_29_35_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-3-live_with_encrypted_persistence-070517-PGM.00_29_35_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-3-live_with_encrypted_persistence-070517-PGM.00_29_35_24.Still001-sm.jpg",
+          "title": "Live with Encrypted Persistence",
+          "transcript": "",
+          "vimeoId": "224655208"
+        },
+        {
+          "description": "Mike and Zach discuss what a Kali Linux VM is, where & how to obtain a Kali VM, using 'Offensive Security,' other virtualization platforms, variations of the Kali VM, installation of Kali VM, discussion of built in persistence in the Kali VM, and launching & using the Kali VM.",
+          "length": "1290",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-5-kali_virtual_machine_images-070617-PGM.00_23_09_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-5-kali_virtual_machine_images-070617-PGM.00_23_09_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-2-5-kali_virtual_machine_images-070617-PGM.00_23_09_03.Still001-sm.jpg",
+          "title": "Kali Virtual Machine Images",
+          "transcript": "",
+          "vimeoId": "224931515"
+        },
+        {
+          "description": "Mike and Zach cover the use of Kali Linux now that install has been completed, virtual guest tools, how to update Kali, using 'Apt-Get' update, downloading newer versions of Kali, upgrading Kali, changing passwords, adding non-root users, sidebar options, and lock screen.",
+          "length": "1922",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001-sm.jpg",
+          "title": "Post Installation Configuration",
+          "transcript": "",
+          "vimeoId": "224931799"
+        },
+        {
+          "description": "Mike and Zach cover the use of Kali Linux now that install has been completed, virtual guest tools, how to update Kali, using 'Apt-Get' update, downloading newer versions of Kali, upgrading Kali, changing passwords, adding non-root users, sidebar options, and lock screen.",
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-1-post_install_configuration-070617-PGM.00_33_12_25.Still001-sm.jpg",
+          "title": "Post Installation Configuration",
+          "transcript": "",
+          "vimeoId": "225107419"
+        },
+        {
+          "description": "Mike and Zach discuss how to change host name, modify host name, DNS mapped to IP addresses, and other basic mods after installation of Kali Linux.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-2-post_install_configuration_pt2-070617-PGM.00_32_53_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-2-post_install_configuration_pt2-070617-PGM.00_32_53_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-2-post_install_configuration_pt2-070617-PGM.00_32_53_13.Still001-sm.jpg",
+          "title": "Post Installation Configuration Part 2",
+          "transcript": "",
+          "vimeoId": "225108133"
+        },
+        {
+          "description": "Mike and Zach define 'Metasploit' and how to access it, 'Postgesql,' using Apache with Kali Linux, and what 'SSH' is.",
+          "length": "1163",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-3-post_install_configuration_pt3-070617-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-3-post_install_configuration_pt3-070617-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-1-3-post_install_configuration_pt3-070617-high-sm.jpg",
+          "title": "Post Installation Configuration Part 3",
+          "transcript": "",
+          "vimeoId": "225107891"
+        },
+        {
+          "description": "Mike and Zach discuss how to get the Kali Box connected to networks, how to configure network adapters, accessing the GUI, using Shell, adding multiple network adapters, and how we get Kali to communicate with Vulnerable Machines (VM).",
+          "length": "1427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-2-network_configuration-071017-PGM.00_34_42_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-2-network_configuration-071017-PGM.00_34_42_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-3-2-network_configuration-071017-PGM.00_34_42_03.Still001-sm.jpg",
+          "title": "Network Configuration",
+          "transcript": "",
+          "vimeoId": "225107684"
+        },
+        {
+          "description": "Mike and Zach continue the discussion of using Kali Linux basic functionality, using the 'Menu,' locating files, using 'Which' & 'Find' functions, accessing 'History,' and how to clear history.",
+          "length": "1435",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-4-1-navigating_kali_linux-070617-PGM.00_23_43_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-4-1-navigating_kali_linux-070617-PGM.00_23_43_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-4-1-navigating_kali_linux-070617-PGM.00_23_43_03.Still001-sm.jpg",
+          "title": "Navigating Kali Linux",
+          "transcript": "",
+          "vimeoId": "225107141"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss and use netcat, one of the fundamental tools in Kali Linux.   Mike describes briefly it’s history and versatility as a tool.   He demonstrates the power of netcat to run a banner grab and tcp connections. He begins to describe the bind shell and reverse shell exploit.",
+          "length": "1819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-1-netcat_basics-071117-PGM.00_30_03_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-1-netcat_basics-071117-PGM.00_30_03_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-1-netcat_basics-071117-PGM.00_30_03_24.Still001-sm.jpg",
+          "title": "Netcat Basics",
+          "transcript": "",
+          "vimeoId": "225248779"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue demonstrating the “swiss army knife of hacking tools.”  Mike demonstrates it’s ability to set up a connection with ease that allows the user to send commands across this connection.  He also shows how files can be transferred, regardless of whether they’re executable files or just a simple text file.  Lastly, he show the simple nature of using nCAT ( Nmap’s version of netcat) to create an encrypted connection.",
+          "length": "2006",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-2-netcat_basics_pt_2-071117-PGM.00_33_10_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-2-netcat_basics_pt_2-071117-PGM.00_33_10_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-1-2-netcat_basics_pt_2-071117-PGM.00_33_10_09.Still001-sm.jpg",
+          "title": "Netcat Basics Part 2",
+          "transcript": "",
+          "vimeoId": "225403891"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into another tool in Kali: Wireshark.  Mike describes the purpose and the basic filtering methodology of wireshark.  He distinguishes using capture and display filter.",
+          "length": "1528",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-1-wireshark_basics-071217-PGM.00_38_33_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-1-wireshark_basics-071217-PGM.00_38_33_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-1-wireshark_basics-071217-PGM.00_38_33_21.Still001-sm.jpg",
+          "title": "Wireshark Basics",
+          "transcript": "",
+          "vimeoId": "225404487"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continues with Wireshark. Mike shows how to setup and use a capture filter and the results.  He also then differentiates the results by doing a display filter too.  Mike ends the episode with a tcp stream follow to show how wireshark can reassemble the packets into a logical data stream.",
+          "length": "1196",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-2-wireshark_basics_pt_2-071217-PGM.00_19_42_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-2-wireshark_basics_pt_2-071217-PGM.00_19_42_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-2-2-wireshark_basics_pt_2-071217-PGM.00_19_42_06.Still001-sm.jpg",
+          "title": "Wireshark Basics Part 2",
+          "transcript": "",
+          "vimeoId": "225404286"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at another Kali Linux tool tcpdump.  Mike explains that tcpdump can provide another way of seeing the traffic that is not as sophisticated as Wireshark but just as complex.  With tcpdump, we can do some of the same things as wireshark and even filter specific information within a packet to display packet level details.",
+          "length": "1070",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-3-tcpdump_basics-071217-PGM.00_19_44_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-3-tcpdump_basics-071217-PGM.00_19_44_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-3-tcpdump_basics-071217-PGM.00_19_44_26.Still001-sm.jpg",
+          "title": "Tcpdump Basics",
+          "transcript": "",
+          "vimeoId": "225857486"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce nmap.  Mike describes it’s particular usage and then the syntax options when choosing to run nmap.  He begins describing the syntax used with some of the different scan types, options, target specifications and port specifications too.",
+          "length": "1816",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-1-nmap_basics-071317-PGM.00_30_00_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-1-nmap_basics-071317-PGM.00_30_00_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-1-nmap_basics-071317-PGM.00_30_00_14.Still001-sm.jpg",
+          "title": "Nmap Basics",
+          "transcript": "",
+          "vimeoId": "225857133"
+        },
+        {
+          "description": "In this episode, Daniel and Mike finish looking at the basic functionality of the Nmap port/network scanner. Here they demonstrate performing common scan types like versioning(-sV), OS guessing(-O), ping sweeping(-sn), and using lists(-iL).",
+          "length": "1920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-2-nmap_basics_pt_2-071417-PGM.00_31_44_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-2-nmap_basics_pt_2-071417-PGM.00_31_44_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-4-2-nmap_basics_pt_2-071417-PGM.00_31_44_16.Still001-sm.jpg",
+          "title": "Nmap Basics Part 2",
+          "transcript": "",
+          "vimeoId": "225994497"
+        },
+        {
+          "description": "In this episode, Daniel and Mike attempt to solidify your Kali skills by applying them to real-world type scenarios. Here they will scan a server and use Kali along with pen testing methodology to exploit 2 known vulnerabilities with rlogin and vsftpd.",
+          "length": "1281",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-1-test_your_skills-071417-PGM.01_23_31_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-1-test_your_skills-071417-PGM.01_23_31_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-1-test_your_skills-071417-PGM.01_23_31_10.Still001-sm.jpg",
+          "title": "Test Your Skills",
+          "transcript": "",
+          "vimeoId": "225995217"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show how to take advantage of a vulnerable system.  Mike demonstrates how to use the available tools like nmap to do a port scan to find the vulnernabiility.  He then shows how to use map scripts to take advantage of nfs misconfiguration.  He runs the rpcinfo script and the nfs-showzount script to exploit the vulnerable machine.  Lastly, he sets up an ssl cert for a hidden backdoor access back into that system.",
+          "length": "1275",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-2-test_your_skills_pt_2-071717-PGM.00_24_14_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-2-test_your_skills_pt_2-071717-PGM.00_24_14_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-5-5-2-test_your_skills_pt_2-071717-PGM.00_24_14_08.Still001-sm.jpg",
+          "title": "Test Your Skills Part 2",
+          "transcript": "",
+          "vimeoId": "225995407"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into the passive information gathering tools.  Kali Linux provides many tools and some of them are really designed to help us to find out more about our target in penetration testing, according to Mike.  He demonstrates the use of whois, netcraft, theharvester and a brief glimpse of recon-ng.  All of these tools are designed to help us to gather publicly available information without notifying the target.",
+          "length": "1814",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-1-passive_information_gathering-071717-PGM.00_29_58_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-1-passive_information_gathering-071717-PGM.00_29_58_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-1-passive_information_gathering-071717-PGM.00_29_58_29.Still001-sm.jpg",
+          "title": "Passive Information Gathering",
+          "transcript": "",
+          "vimeoId": "225994764"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look into active information gathering tools in Kali Linux.  Mike shows the powerful host command to find information served up by the target system.  He demonstrates multiple options with the host command.  Mike also demos a couple of other tools that can show a tremendous amount of helpful information for the pentester.",
+          "length": "1622",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-2-active_information_gathering-071717-PGM.00_26_47_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-2-active_information_gathering-071717-PGM.00_26_47_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-2-active_information_gathering-071717-PGM.00_26_47_09.Still001-sm.jpg",
+          "title": "Active Information Gathering",
+          "transcript": "",
+          "vimeoId": "225994986"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike demonstrate setting up and using recon-ng.  Mike shows how to get started with contact information.  Using the email address from a domain gathered through recon-ng, Mike shows some of the other data that can be gathered just based on the email address.  He demonstrates loading the module and running the module and showing the results.",
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-1-recon-ng-071817-PGM.00_31_15_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-1-recon-ng-071817-PGM.00_31_15_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-1-recon-ng-071817-PGM.00_31_15_04.Still001-sm.jpg",
+          "title": "Recon-ng",
+          "transcript": "",
+          "vimeoId": "226157735"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue with using recon-ng.  Mike demonstrate some of the other modules within recon-ng.  He demonstrates how easily it leads the user to search and find more results from the results found.  Ultimately, Mike demonstrates a report that can be generated for ease of use!",
+          "length": "1873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-2-recon-ng_pt_2-071817-PGM.00_41_08_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-2-recon-ng_pt_2-071817-PGM.00_41_08_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-6-3-2-recon-ng_pt_2-071817-PGM.00_41_08_07.Still001-sm.jpg",
+          "title": "Recon-ng Part 2",
+          "transcript": "",
+          "vimeoId": "226158040"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show the vulnerability scanner nikto. Mike demonstrates its syntax and usage.  He shows how to find the vulnerabilities and find entries to help discover more information about the vulnerabilities discovered.",
+          "length": "1877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-1-nikto_basics-071917-PGM.00_31_01_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-1-nikto_basics-071917-PGM.00_31_01_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-1-nikto_basics-071917-PGM.00_31_01_02.Still001-sm.jpg",
+          "title": "Nikto Basics",
+          "transcript": "",
+          "vimeoId": "226299578"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at another vulnerability tool: Sparta.  Mike explains that it has the ability to run multiple tools at once, that it can simplify information gathering and is customizable.  He demonstrates where to can customizes Sparta using the sparta.conf file.   He also runs the utility to show how to add the targets and review the results from the scan in Sparta.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-1-sparta_basics-071917-PGM.00_29_32_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-1-sparta_basics-071917-PGM.00_29_32_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-1-sparta_basics-071917-PGM.00_29_32_16.Still001-sm.jpg",
+          "title": "Sparta Basics",
+          "transcript": "",
+          "vimeoId": "226299797"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue to work a with Sparta.  Mike shows how to save the output of the scan to a file.  This allows us to use this file at a later time or pass it to another person for use, says Mike.  He also shows how to manipulate the sparta.conf file to add an additional tool into the Sparta Interface.",
+          "length": "1000",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-2-sparta_basics_pt_2-071917-PGM.00_17_47_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-2-sparta_basics_pt_2-071917-PGM.00_17_47_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-7-2-2-sparta_basics_pt_2-071917-PGM.00_17_47_26.Still001-sm.jpg",
+          "title": "Sparta Basics Part 2",
+          "transcript": "",
+          "vimeoId": "226299433"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss the basics of generating wordlists for password attacks.  Mike describes the use of wordlists and that the goal is to have the most refined wordlist rather than the most words in a wordlists.  He also mentions that refining these list can begin with the basic tools that include wordlists such as found in Kali.  He also uses cell to show how to generate a word list by using websites to help you; this is good when looking at  password attack against a particular company or industry sector.",
+          "length": "1769",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-1-generating_wordlists-072017-PGM.00_29_12_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-1-generating_wordlists-072017-PGM.00_29_12_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-1-generating_wordlists-072017-PGM.00_29_12_20.Still001-sm.jpg",
+          "title": "Generating Wordlists",
+          "transcript": "",
+          "vimeoId": "226448597"
+        },
+        {
+          "description": "{Description}In this episode, Ronnie and Mike continue with wordlist generation using crunch.   Mike demonstrates the incredible options of this tool that allow you to create parameters for the wordlists you want to generate.  He also discusses it’s particular ability is truly useful when the proper parameters are provided and when the reconnaissance is done beforehand.",
+          "length": "1891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-2-generating_wordlists_pt_2-072017-CLN.00_31_16_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-2-generating_wordlists_pt_2-072017-CLN.00_31_16_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-2-generating_wordlists_pt_2-072017-CLN.00_31_16_10.Still001-sm.jpg",
+          "title": "Generating Wordlists Part 2",
+          "transcript": "",
+          "vimeoId": "226738804"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss the use of hashcat.  It allows you to manipulate the existing passwords by replacing characters, insert character, prepend and append characters to help you create another wordlist.  Mike shows and demonstrates how to use the options available to get the results needed!",
+          "length": "1319",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-3-generating_wordlists_pt_3-072017-PGM.00_21_44_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-3-generating_wordlists_pt_3-072017-PGM.00_21_44_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-1-3-generating_wordlists_pt_3-072017-PGM.00_21_44_20.Still001-sm.jpg",
+          "title": "Generating Wordlists Part 3",
+          "transcript": "",
+          "vimeoId": "226903886"
+        },
+        {
+          "description": "In this show, Mike and Cherokee look how to use John the Ripper to crack passwords. Mike explains the various modes used such as wordlist, single crack and incremental. He also specifies the default mode order if no mode is specified. Lastly, they look at KoreLogic Rules to help streamline the cracking process.",
+          "length": "1952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-2-john_the_ripper-072117-PGM.00_01_46_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-2-john_the_ripper-072117-PGM.00_01_46_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-2-john_the_ripper-072117-PGM.00_01_46_21.Still001-sm.jpg",
+          "title": "John the Ripper",
+          "transcript": "",
+          "vimeoId": "226738990"
+        },
+        {
+          "description": "In this show, Cherokee and Mike use the tool hashcat to crack passwords. Mike explains how to use built in charsets. They use bruteforce to find the hashes of three of the four passwords.",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-1-hashcat-072117.00_42_03_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-1-hashcat-072117.00_42_03_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-1-hashcat-072117.00_42_03_05.Still001-sm.jpg",
+          "title": "Hashcat",
+          "transcript": "",
+          "vimeoId": "226904030"
+        },
+        {
+          "description": "In this show, Mike and Cherokee continue using hashcat. They use rules to help mangle the passwords and streamline the cracking process, reducing the processing time.",
+          "length": "670",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-2-hashcat_pt_2-072117-PGM.00_10_56_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-2-hashcat_pt_2-072117-PGM.00_10_56_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux-2017/techskills-kalilinux-8-3-2-hashcat_pt_2-072117-PGM.00_10_56_08.Still001-sm.jpg",
+          "title": "Hashcat Part 2",
+          "transcript": "",
+          "vimeoId": "226904272"
+        }
+      ],
+      "title": "Kali Linux"
+    }
+  ],
+  "url": "kali-linux-2017",
+  "vLab": false
+}

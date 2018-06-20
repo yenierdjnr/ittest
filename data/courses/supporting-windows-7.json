@@ -1,0 +1,298 @@
+{
+  "description": "Windows 7 is still a viable option out in the IT world and is one of the most commonly used desktop operating systems today. This series covers routine administrative tasks that any Desktop Support Technician or Help Desk Technician would be expected to handle on a regular basis including installation and deployment, managing and maintaining, and operational issues one may encounter supporting Windows 7 as an enterprise level technician.",
+  "descriptionMD": "",
+  "length": "48447",
+  "name": "Supporting Windows 7",
+  "practiceExam": false,
+  "subtitle": "Configuring and maintaining Windows 7",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Windows 7 is one of the most commonly used desktop operating systems today. This series covers routine administrative tasks that any Desktop Support Technician or Help Desk Technician would be expected to handle on a regular basis.",
+          "length": "375",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-0-0-overview-102715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-0-0-overview-102715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-0-0-overview-102715-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "143777002"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel describe some of the issues that may arise when doing a basic installation of Windows 7. Here they detail problems you may encounter regarding the boot media, the drive and/or device drivers, and the partitioning of the drive and what you can do to alleviate the trouble.",
+          "length": "1375",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-1-basic_installation_issues-102215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-1-basic_windows_7_deployment-062215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-1-basic_windows_7_deployment-062215-1-sm.jpg",
+          "title": "Basic Installation Issues",
+          "transcript": "",
+          "vimeoId": "143776956"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show you how to create a Windows 7 image for deployment to multiple computers and how to avoid some of the common issues you may encounter when performing that task. They show you how to boot into the Audit mode, how to create an answer file using the Windows Auto Installation Kit, and how to use Sysprep to take advantage of that answer file.",
+          "length": "1943",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-2-image_creation_issues-102215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-2-image_creation_issues-102215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-2-image_creation_issues-102215-1-sm.jpg",
+          "title": "Image Creation Issues",
+          "transcript": "",
+          "vimeoId": "143776974"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show you how to use Windows Deployment Services to create and deploy a Windows image over a network connection. They also identify some of the common issues you might encounter when employing this type of installation. Topics covered are taking a PC image, choosing and image, and PXE boot.",
+          "length": "964",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-3-deployment_issues-102215.-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-3-deployment_issues-102215.-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-1-3-deployment_issues-102215.-1-sm.jpg",
+          "title": "Deployment Issues",
+          "transcript": "",
+          "vimeoId": "143776985"
+        },
+        {
+          "description": null,
+          "length": "2061",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-1-local_policy-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-1-local_policy-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-1-local_policy-062315-1-sm.jpg",
+          "title": "Local Policy",
+          "transcript": "",
+          "vimeoId": "132104162"
+        },
+        {
+          "description": null,
+          "length": "1576",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-2-domain-group-policy-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-2-domain-group-policy-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-2-2-domain-group-policy-062315-1-sm.jpg",
+          "title": "Domain Group Policy",
+          "transcript": "",
+          "vimeoId": "131871110"
+        },
+        {
+          "description": null,
+          "length": "2397",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-event_viewer-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-event_viewer-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-event_viewer-062515-1-sm.jpg",
+          "title": "Event Viewer",
+          "transcript": "",
+          "vimeoId": "131871108"
+        },
+        {
+          "description": null,
+          "length": "1770",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-task_manager_resource_monitor-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-task_manager_resource_monitor-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-task_manager_resource_monitor-062515-1-sm.jpg",
+          "title": "Task Manager / Resource Monitor",
+          "transcript": "",
+          "vimeoId": "131871111"
+        },
+        {
+          "description": null,
+          "length": "2348",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-performance_monitor-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-performance_monitor-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-performance_monitor-062515-1-sm.jpg",
+          "title": "Performance Monitor",
+          "transcript": "",
+          "vimeoId": "131871114"
+        },
+        {
+          "description": null,
+          "length": "823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-4-reliability_monitor-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-4-reliability_monitor-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-4-reliability_monitor-062515-1-sm.jpg",
+          "title": "Reliability Monitor",
+          "transcript": "",
+          "vimeoId": "131871103"
+        },
+        {
+          "description": null,
+          "length": "1402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-1-remote_administration-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-1-remote_administration-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-1-remote_administration-062315-1-sm.jpg",
+          "title": "Remote Administration",
+          "transcript": "",
+          "vimeoId": "132116078"
+        },
+        {
+          "description": null,
+          "length": "2102",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-2-remote_desktop-062415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-2-remote_desktop-062415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-2-remote_desktop-062415-1-sm.jpg",
+          "title": "Remote Desktop",
+          "transcript": "",
+          "vimeoId": "131871463"
+        },
+        {
+          "description": null,
+          "length": "1727",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-3-remote_assistance-062415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-3-remote_assistance-062415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-3-remote_assistance-062415-1-sm.jpg",
+          "title": "Remote Assistance",
+          "transcript": "",
+          "vimeoId": "131871112"
+        },
+        {
+          "description": null,
+          "length": "1359",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-4-using_event_subscription-062415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-4-using_event_subscription-062415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-5-4-using_event_subscription-062415-1-sm.jpg",
+          "title": "Using Event Subscription",
+          "transcript": "",
+          "vimeoId": "131871115"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take an in depth look at access control. They look at NTFS permissions, both standard and special. Then they demonstrate how NTFS permissions are inherited, and how to change the way permissions are inherited.",
+          "length": "2067",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control-062615-1-sm.jpg",
+          "title": "Access Control",
+          "transcript": "",
+          "vimeoId": "132086338"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue their look at access control. They talk about how NTFS permissions are cumulative, as well as permission precedence. They finish things up with a look at share permissions, and how they combine with NTFS permissions.",
+          "length": "2033",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control_pt2-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control_pt2-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-1-access_control_pt2-062615-1-sm.jpg",
+          "title": "Access Control Part 2",
+          "transcript": "",
+          "vimeoId": "132086339"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at installing and troubleshooting printers. They talk about installing local printers and network printers. They look at adding printer drivers.",
+          "length": "2231",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-2-printer_access-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-2-printer_access-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-7-2-printer_access-062615-1-sm.jpg",
+          "title": "Printer Access",
+          "transcript": "",
+          "vimeoId": "132104163"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at security settings in Internet Explorer. They talk about protected mode, and how to prevent disabling it. They also show how to manage trusted sites and add-ons. They also show how to launch IE without add-ons and InPrivate Browsing.",
+          "length": "1389",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-internet_explorer_security_issues-101215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-internet_explorer_security_issues-101215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-1-internet_explorer_security_issues-101215-1-sm.jpg",
+          "title": "Internet Explorer Security",
+          "transcript": "",
+          "vimeoId": "142251271"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at ways to detect and prevent malicious software. They use tools like the services console, msconfig, and task manager to determine what is running on a machine. They also look at the settings available in UAC, and how to configure them using Group Policy.",
+          "length": "1910",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-malicious_software-101215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-malicious_software-101215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-2-malicious_software-101215-1-sm.jpg",
+          "title": "Malicious Software",
+          "transcript": "",
+          "vimeoId": "142251270"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike talk about security best practices. They discuss the importance of updates, and what to do if an update fails. They also look at encryption options, like EFS and Bitlocker.",
+          "length": "2042",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-security_best_practices-101215-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-security_best_practices-101215-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-4-3-security_best_practices-101215-high-sm.jpg",
+          "title": "Security Best Practices",
+          "transcript": "",
+          "vimeoId": "142251269"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at troubleshooting network connectivity issues. They talk about determining the scope of the issue, and how that affects troubleshooting. They examine tools like ipconfig, ping, and netstat, and how to use them when troubleshooting.",
+          "length": "2157",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-1-network_connectivity_Issues-101315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-1-network_connectivity_Issues-101315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-1-network_connectivity_Issues-101315-1-sm.jpg",
+          "title": "Network Connectivity Issues",
+          "transcript": "",
+          "vimeoId": "142391602"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at common DNS issues. They discuss DNS related ip configuration, APIPA addresses, and releasing and renewing DHCP leases. They also look at flushing the DNS cache, and using nslookup.",
+          "length": "1788",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-2-name_resolution_issues-101315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-2-name_resolution_issues-101315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-2-name_resolution_issues-101315-1-sm.jpg",
+          "title": "Name Resolution Issues",
+          "transcript": "",
+          "vimeoId": "142391591"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss VPN protocols and issues related to them. They talk about IKEv2, SSTP, L2TP, and PPTP, and what some of the common problems associated with each protocol.",
+          "length": "1555",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-3-vpn_client_issues-101315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-3-vpn_client_issues-101315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-6-3-vpn_client_issues-101315-1-sm.jpg",
+          "title": "VPN Client Issues",
+          "transcript": "",
+          "vimeoId": "142391582"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike talk about software installation failures. They look at common problems, like rights needed to install software, and application requirements like external access. They also look at Applocker and Software Restriction Policies.",
+          "length": "2410",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-1-software_installation_failure-101415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-1-software_installation_failure-101415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-1-software_installation_failure-101415-1-sm.jpg",
+          "title": "Software Installation Failures",
+          "transcript": "",
+          "vimeoId": "142546746"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike look at troubleshooting software failures. They discuss the Event Log system, and creating Event Log subscriptions. They look at options like repairing the installation, and reimaging the system. They also talk about running the application in a previous OS version.",
+          "length": "1813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-2-software_failure-101415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-2-software_failure-101415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-8-2-software_failure-101415-1-sm.jpg",
+          "title": "Software Failures",
+          "transcript": "",
+          "vimeoId": "142546745"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie take a look at user logon issues.  The majority of these issues may end user error that technicians need to be able to identify, according to the guys.  They also talk reducing these issues. Using the auditing features found in the event viewer helps to identify issue.s  Also they mention issues that may prevent users from running applications on the computer as well as how the Windows Firewall helps with basic security",
+          "length": "1846",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-9-0-user_account_and_basic_security-101515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-9-0-user_account_and_basic_security-101515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-9-0-user_account_and_basic_security-101515-1-sm.jpg",
+          "title": "User Accounts & Basic Security",
+          "transcript": "",
+          "vimeoId": "143775993"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at some of the hardware issues that end users often mention.  They take a look at managing drivers. They also mention that memory issues can be problematic and talk about the memory diagnostic tool that can help identify a problem module and they take a look at disk management tools and the use of diskpart to help when adding additional drives for use.",
+          "length": "1755",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-10-0-hardware_related_issues-101515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-10-0-hardware_related_issues-101515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-10-0-hardware_related_issues-101515-1-sm.jpg",
+          "title": "Hardware Related Issues",
+          "transcript": "",
+          "vimeoId": "143776004"
+        },
+        {
+          "description": "In this episode Mike and Ronnie take a look at configuring accessibility and availability features in Windows 7. They show how to support such features such as Narrator, Magnifier and Sticky Keys. By exploring these features, a technician can troubleshoot accessibility options whether they should be enabled or not.",
+          "length": "1229",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-11-0-accessibility_and_availability-101515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-11-0-accessibility_and_availability-101515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-supportingwindows7/techskills-supportingwindows7-11-0-accessibility_and_availability-101515-1-sm.jpg",
+          "title": "Accessibility & Availability",
+          "transcript": "",
+          "vimeoId": "146521362"
+        }
+      ],
+      "title": "Supporting Windows 7"
+    }
+  ],
+  "url": "supporting-windows-7",
+  "vLab": false
+}

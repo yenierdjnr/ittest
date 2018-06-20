@@ -1,0 +1,298 @@
+{
+  "description": "A member of the Microsoft System Center suite of management solutions, System Center 2012 R2 Configuration Manager increases IT productivity and efficiency by reducing manual tasks and letting you focus on high-value projects, maximize hardware and software investments, and empower end-user productivity by providing the right software at the right time. Configuration Manager helps you deliver more effective IT services by enabling secure and scalable software deployment, compliance settings management, and comprehensive asset management of servers, desktops, laptops, and mobile devices. In addition, Configuration Manager can integrate with Windows Server Update Services (WSUS), Network Access Protection (NAP), Certificate Services, Exchange Server and Exchange Online, Group Policy, the DNS Server role, Windows Automated Installation Kit (Windows AIK) and the User State Migration Tool (USMT), Windows Deployment Services (WDS), and Remote Desktop and Remote Assistance.",
+  "descriptionMD": "",
+  "length": "74115",
+  "name": "System Center 2012 Configuration Manager - 70-243",
+  "practiceExam": false,
+  "subtitle": "SCCM",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "A member of the Microsoft System Center suite of management solutions, System Center 2012 R2 Configuration Manager increases IT productivity and efficiency by reducing manual tasks and letting you focus on high-value projects, maximize hardware and software investments, and empower end-user productivity by providing the right software at the right time. Configuration Manager helps you deliver more effective IT services by enabling secure and scalable software deployment, compliance settings management, and comprehensive asset management of servers, desktops, laptops, and mobile devices.",
+          "length": "425",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "151932673"
+        },
+        {
+          "description": "In this episode, Adam and Mike take a tour of the System Center Configuration Manager console. They do a high level overview of the different nodes in the console. They also talk about how SCCM fits into an enterprise environment.",
+          "length": "1758",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1-sm.jpg",
+          "title": "SCCM 2012R2 Introduction",
+          "transcript": "",
+          "vimeoId": "151073362"
+        },
+        {
+          "description": "In this episode, Adam and Mike discuss the architecture of a SCCM deployment. They look at primary sites and secondary sites, and describe their purpose and functionality. They also look at the SCCM roles that are installed on the servers in the deployment.",
+          "length": "2310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1-sm.jpg",
+          "title": "Architecture Overview",
+          "transcript": "",
+          "vimeoId": "151073366"
+        },
+        {
+          "description": "In this episode, Adam and Mike continue their look at the architecture of a SCCM deployment. They talk about the new features available in SCCM 2012 R2. They also look at some typical deployments for different size organizations.",
+          "length": "2368",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1-sm.jpg",
+          "title": "Architecture Overview Part 2",
+          "transcript": "",
+          "vimeoId": "151073363"
+        },
+        {
+          "description": "In this episode, Adam and Mike demonstrate the installation process for SCCM 2012 R2. They configure a server with all of the prerequisites for installing SCCM 2012 R2, including installing IIS, the Windows ADK, and extending the schema. Then they complete the SCCM 2012 R2 installation wizard.",
+          "length": "4632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1-sm.jpg",
+          "title": "Installing SCCM 2012R2",
+          "transcript": "",
+          "vimeoId": "151073361"
+        },
+        {
+          "description": "In this episode, Adam and Mike cover post-installation tasks. They talk about ways to verify the SCCM 2012 R2 installation succeeded, and everything is working properly. They verify the proper directories were created, check log files, and open the SCCM console. They also use powershell to verify installation results.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1-sm.jpg",
+          "title": "Post Installation",
+          "transcript": "",
+          "vimeoId": "151073364"
+        },
+        {
+          "description": "In this episode, Adam and Mike demonstrate creating a secondary site in SCCM 2012 R2. They walk through the wizard to add a secondary site to the existing SCCM infrastructure created in a previous episode. They also look at configuring the communications between the two sites.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1-sm.jpg",
+          "title": "Create a Secondary Site",
+          "transcript": "",
+          "vimeoId": "151073365"
+        }
+      ],
+      "title": "Design and plan System Center Configuration Manager infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate deploying an operating system image using SCCM. They capture an image of a Windows 8.1 client, prepare the image for deployment, and then deploy the image to a bare metal machine.",
+          "length": "5761",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1-sm.jpg",
+          "title": "OS Deployment",
+          "transcript": "",
+          "vimeoId": "151511008"
+        }
+      ],
+      "title": "Manage operating system deployment (OSD)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate how to configure SCCM to deploy software, applications, and packages. They configure a distribution point and a distribution point group. Then they create and deploy a software package.",
+          "length": "5242",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1-sm.jpg",
+          "title": "Managing Software",
+          "transcript": "",
+          "vimeoId": "151382782"
+        },
+        {
+          "description": "In this episode, Adam and Mike do a review on managing applications, and talk about some of the do's and don'ts of deploying packages and applications. Then they demonstrate setting up the application catalog. They also show how to make it available to users via the intranet and the internet.",
+          "length": "2569",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1-sm.jpg",
+          "title": "Application Catalog",
+          "transcript": "",
+          "vimeoId": "151382783"
+        },
+        {
+          "description": "In this episode, Adam and Mike talk about integrating WSUS and the patch management functionality into SCCM 2012 R2. They configure WSUS and the SCCM environment to support deploying updates. Then they configure update synchronization with Microsoft.",
+          "length": "3803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1-sm.jpg",
+          "title": "Software Updates",
+          "transcript": "",
+          "vimeoId": "151511006"
+        },
+        {
+          "description": "In this episode, Adam and Mike continue to look at integrating WSUS and SCCM 2012 R2. They go through the process of packaging an update for deployment. They also demonstrate how to create an automatic deployment rule.",
+          "length": "5090",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1-sm.jpg",
+          "title": "Software Updates Part 2",
+          "transcript": "",
+          "vimeoId": "151554778"
+        }
+      ],
+      "title": "Deploy applications and software updates"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike talk about using SCCM 2012 R2 to managing compliance. They look at creating and importing configuration items. Then they create and apply a configuration baseline. They also talk about the remediation process.",
+          "length": "1715",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1-sm.jpg",
+          "title": "Managing Compliance",
+          "transcript": "",
+          "vimeoId": "151403933"
+        }
+      ],
+      "title": "Manage compliance settings"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate setting up site boundaries and boundary groups. They create a site boundary based on an Active Directory site, and then link that boundary to a boundary group. Then they list the different discovery methods for finding and adding SCCM clients.",
+          "length": "2404",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1-sm.jpg",
+          "title": "Boundary Groups",
+          "transcript": "",
+          "vimeoId": "151073369"
+        },
+        {
+          "description": "In this episode, Adam and Mike take a closer look at the discovery process. They look at heartbeat discovery, the four Active Directory discovery methods and network discovery. They demonstrate configuring options for Active Directory discovery.Then they look at log files associated with discovery.",
+          "length": "2611",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1-sm.jpg",
+          "title": "Discovery Methods",
+          "transcript": "",
+          "vimeoId": "151140101"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at how collections are used in SCCM 2012 R2 to gather and manage similar resources. They create limiting collections and membership rules to filter the collection membership. They look at default roles used to manage permissions in SCCM, as well as creating custom roles.",
+          "length": "2577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1-sm.jpg",
+          "title": "Collections and Roles",
+          "transcript": "",
+          "vimeoId": "151140115"
+        }
+      ],
+      "title": "Manage sites"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike discuss ways to deploy the SCCM 2012 R2 client agent. They look at deploying the client agent using group policy. They also look at doing a manual install of the client agent, and push the client agent from the SCCM console.",
+          "length": "2701",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1-sm.jpg",
+          "title": "Deploy the Client Agent",
+          "transcript": "",
+          "vimeoId": "151157927"
+        },
+        {
+          "description": "In this episode, Adam and Mike discuss device requirements for installing the SCCM 2012 R2 client agent. They also talk about supporting internet based clients. Then they take a look at configuring custom SCCM 2012 R2 client agent settings.",
+          "length": "3175",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1-sm.jpg",
+          "title": "Manage the Client Agent",
+          "transcript": "",
+          "vimeoId": "151157913"
+        }
+      ],
+      "title": "Manage clients"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike look at setting up inventory collections in SCCM 2012 R2. They create hardware inventories and software inventories. They look at doing software metering. Then they talk about the reporting capabilities of SCCM 2012 R2.",
+          "length": "2554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1-sm.jpg",
+          "title": "Inventory Collection",
+          "transcript": "",
+          "vimeoId": "151382785"
+        }
+      ],
+      "title": "Manage inventory"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike discuss writing queries and generating reports. They talk about the Windows Query Language and the information that can be queried. Then they look at reporting services and how to generate reports.",
+          "length": "4965",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1-sm.jpg",
+          "title": "Queries and Reports",
+          "transcript": "",
+          "vimeoId": "151382786"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at Endpoint Protection. They demonstrate how to integrate Endpoint Protection into SCCM 2012 R2, to allow for centralized management. They show how we can use endpoint Protection to manage antimalware settings as well as firewall settings.",
+          "length": "3338",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1-sm.jpg",
+          "title": "Endpoint Protection",
+          "transcript": "",
+          "vimeoId": "151403845"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at some lesser used features and capabilities of SCCM 2012 R2. They start with the remote tool set, which allows for remotely managing a machine via the agent. They also look at using Windows Intune to manage mobile devices.",
+          "length": "2345",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1-sm.jpg",
+          "title": "SCCM Odds and Ends",
+          "transcript": "",
+          "vimeoId": "151382784"
+        }
+      ],
+      "title": "Manage reports and queries"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Adam explore extending SCCM support to Linux client machines. They demonstrate setting up the Linux machine by installing the client packages and Universal Agent within the Linux operating system.",
+          "length": "1959",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1-sm.jpg",
+          "title": "Configuring Linux Client Support",
+          "transcript": "",
+          "vimeoId": "164252993"
+        },
+        {
+          "description": "In this episode, Wes and Adam discuss the process of migrating from a SCCM 2007 infrastructure to SCCM 2012R2. They explore the migration process and the components needed to perform a successful migration. They also will demonstrate how to clean up residual data left behind after the migration has been performed.",
+          "length": "6366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1-sm.jpg",
+          "title": "SCCM 2007 to 2012R2 Migration",
+          "transcript": "",
+          "vimeoId": "164253570"
+        }
+      ],
+      "title": "Additional Information"
+    }
+  ],
+  "url": "system-center-configuration-manager",
+  "vLab": false
+}

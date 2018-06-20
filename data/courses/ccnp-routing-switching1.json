@@ -1,0 +1,248 @@
+{
+  "description": "The Implementing Cisco IP Switched Networks exam is the second of three exams required to obtain the Cisco Certified Network Professional certification. This exam focuses on Cisco switch implementation in medium and large environment. The topics covered range from HSRP, STP, VTP to Etherchannel and how and why we use them.. The typical viewer would be anyone responsible for the maintenance and implementation of Cisco Switches in a large or enterprise organization. This SWITCH  emphasizes planning, configuring, and verifying the implementation of complex enterprise switching solutions that use the Cisco Enterprise Campus Architecture.",
+  "descriptionMD": "",
+  "length": "43691",
+  "name": "CCNP Routing and Switching - SWITCH",
+  "practiceExam": true,
+  "subtitle": "Implementing Cisco IP Switched Networks",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Implementing Cisco IP Switched Networks exam is the second of three exams required to obtain the Cisco Certified Network Professional certification. This exam focuses on Cisco switch implementation in medium and large environment. The topics covered range from HSRP, STP, VTP to Etherchannel and how and why we use them.. The typical viewer would be anyone responsible for the maintenance and implementation of Cisco Switches in a large or enterprise organization. This SWITCH  emphasizes planning, configuring, and verifying the implementation of complex enterprise switching solutions that use the Cisco Enterprise Campus Architecture.",
+          "length": "370",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-0-0-0-overview-113017-PGM.00_00_05_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-0-0-0-overview-113017-PGM.00_00_05_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-0-0-0-overview-113017-PGM.00_00_05_22.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "245433575"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain how to configure and verify some switch administration tasks. Watch as they detail the Ternary Content Addressable Memory (TCAM) table and how to use it to optimize switch functionality. Other topics include MAC address tables administration and troubleshooting.",
+          "length": "2057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-1-switch_administration-092815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-1-switch_administration-092815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-1-switch_administration-092815-1-sm.jpg",
+          "title": "Switch Administration",
+          "transcript": "",
+          "vimeoId": "140813828"
+        },
+        {
+          "description": "In this episode, Don and Daniel discuss a few Layer 2 protocols that are supported by Cisco switches. They begin the show by explaining the Cisco Discovery Protocol, then contrast CDP to LLDP (Link-Layer Discovery Protocol). Lastly, they cover Unidirectional Link Detection (UDLD) used to verify failed links.",
+          "length": "2049",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-2-layer_2_protocols-092815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-2-layer_2_protocols-092815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-2-layer_2_protocols-092815-1-sm.jpg",
+          "title": "Layer 2 Protocols",
+          "transcript": "",
+          "vimeoId": "140813831"
+        },
+        {
+          "description": "In this episode, Don and Daniel explore the exciting world of Virtual Local Area Networks or VLANs. Here they describe VLAN details such as the VLAN database, default ranges, and how to crate and name a VLAN. They also show you some VLAN options when dealing with VoIP traffic.",
+          "length": "1940",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_092915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_092915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_092915-1-sm.jpg",
+          "title": "VLANs and Trunking",
+          "transcript": "",
+          "vimeoId": "141587039"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue explaining switch configuration, here specifically detailing the different ways in which you can create a trunk link between switches. They start off with explaining the Dynamic Trunking Protocol (DTP) to set up auto trunking and then move into manual trunking methods for more control.",
+          "length": "1837",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt2-092915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt2-092915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt2-092915-1-sm.jpg",
+          "title": "VLANs and Trunking Part 2",
+          "transcript": "",
+          "vimeoId": "141658132"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish up by explaining about Native VLANs and then discussing how to setup the VLAN Trunking Protocol (VTP). They go in depth about the different versions of VTP and then walk you through setting up VTP to automatically propagate VLAN information between trunked switches.",
+          "length": "3248",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt3-092915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt3-092915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-3-vlans_and_trunking_pt3-092915-1-sm.jpg",
+          "title": "VLANs and Trunking Part 3",
+          "transcript": "",
+          "vimeoId": "141104337"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe how to configure and verify Etherchannel in Cisco switches. They start off with a quick overview of what Etherchannel is and what its used for and then jump into configuring a switch using Etherchannel protocols such as LACP, PAgP, and the Etherchannel protocol itself.",
+          "length": "1712",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch-1-5-ether_chanel-093015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch-1-5-ether_chanel-093015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch-1-5-ether_chanel-093015-1-sm.jpg",
+          "title": "Ether Channel",
+          "transcript": "",
+          "vimeoId": "141104338"
+        },
+        {
+          "description": "In this episode, Don and Daniel continue to describe how to configure and verify Etherchannel in Cisco switches using LACP and PAgP. They also show you how to implement Etherchannel for Layer 3 as well as protecting from errors using the misconfiguration guard.",
+          "length": "2024",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-5-ether_channel_pt2-093015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-5-ether_channel_pt2-093015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-5-ether_channel_pt2-093015-1-sm.jpg",
+          "title": "Ether Channel Part 2",
+          "transcript": "",
+          "vimeoId": "141104336"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain the Spanning Tree Protocol (STP) switch loop prevention system found in Cisco switches. They start with a quick review of STP functions and then get right to explaining how exactly it goes about keeping a switched network loop-free. Specifically here they cover the STP processes of Root Bridge election as well as the 5 STP port states.",
+          "length": "1818",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree-093015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree-093015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree-093015-1-sm.jpg",
+          "title": "Spanning Tree",
+          "transcript": "",
+          "vimeoId": "141104335"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue explaining the switch loop prevention system called Spanning Tree Protocol found in Cisco switches. They pick back up exploring the topic of ports; root ports, designated ports, and non-designated ports and their timers. How and why they are utilized in STP is covered and then they show STP ports and timers in action.",
+          "length": "1826",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt2-100115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt2-100115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt2-100115-1-sm.jpg",
+          "title": "Spanning Tree Part 2",
+          "transcript": "",
+          "vimeoId": "141195764"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain the switch loop prevention system called Spanning Tree Protocol found in Cisco switches. Specifically called out in this episode is the different versions of Spanning Tree; explaining the why and how you might employ one over the other. They go into great detail describing PVST+, RPVST+, and MST.",
+          "length": "2365",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt3-100115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt3-100115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt3-100115-1-sm.jpg",
+          "title": "Spanning Tree Part 3",
+          "transcript": "",
+          "vimeoId": "141813055"
+        },
+        {
+          "description": "In this episode, Don and Daniel go over some of the enhancements to the Spanning Tree Protocol. They walk you through technologies like PortFast, BPDUguard and BPDUfilter, LoopGuard, and RootGuard. All of these technologies can help you optimize and/or secure your switched network running STP.",
+          "length": "1719",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt4-100115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt4-100115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-6-spanning_tree_pt4-100115-1-sm.jpg",
+          "title": "Spanning Tree Part 4",
+          "transcript": "",
+          "vimeoId": "141195761"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain and demonstrate how to monitor a switched network using Switch Port ANalyzer (SPAN). Here they detail reasons why you may wish to monitor network traffic and then walk you through configuring SPAN on a Cisco switch for those very reasons.",
+          "length": "1867",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan-100515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan-100515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan-100515-1-sm.jpg",
+          "title": "SPAN and RSPAN",
+          "transcript": "",
+          "vimeoId": "142150510"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain and demonstrate how to monitor a switched network using Remote Switch Port Analyzer (RSPAN). Building upon SPAN, RSPAN enables you to monitor switches that you are not directly connected to. This episode covers how to configure RSPAN for the times when being physically connected to a switch that needs monitoring isn't feasible.",
+          "length": "1615",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan_pt2-100515-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan_pt2-100515-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-7-span_and_rspan_pt2-100515-high-sm.jpg",
+          "title": "SPAN and RSPAN Part 2",
+          "transcript": "",
+          "vimeoId": "145312791"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce the Cisco StackWise technology.  They discuss the advantage of using StackWise and it's benefits.  They also show how to configure a StackWise Master and provision other switches in the StackWise cluster.",
+          "length": "2010",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-8-cisco_stackwise-101315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-8-cisco_stackwise-101315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-1-8-cisco_stackwise-101315-1-sm.jpg",
+          "title": "Cisco StackWise",
+          "transcript": "",
+          "vimeoId": "142420409"
+        }
+      ],
+      "title": "Layer 2 Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don show you how to secure a network by employing DHCP Snooping. DHCP Snooping allows you to configure your network to only allow dynamic IP addressing from the ports you specify protecting you from attacks via a rogue DHCP server",
+          "length": "1927",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features-100215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features-100215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features-100215-1-sm.jpg",
+          "title": "Switch Security Features",
+          "transcript": "",
+          "vimeoId": "141326234"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue switch security configurations moving into the topics of IP Source Guard and Dynamic ARP Inspection. They explain how you can prevent IP Spoofing attacks using IP Source Guard and for MAC Spoofing or ARP poisoning attacks you can employ Dynamic ARP Inspection.",
+          "length": "1840",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt2-100615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt2-100615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt2-100615-1-sm.jpg",
+          "title": "Switch Security Part 2",
+          "transcript": "",
+          "vimeoId": "141782682"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue switch security, this time tackling port security for more granular control over what devices can access specific ports and disabling any ports experiencing unauthorized access. They then move into how to recover disabled ports back to working order using Err-Disable Recovery and finishing up with VLAN Access Control Lists.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt3-100615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt3-100615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt3-100615-1-sm.jpg",
+          "title": "Switch Security Part 3",
+          "transcript": "",
+          "vimeoId": "141782686"
+        },
+        {
+          "description": "In this episode, Don and Daniel finish out the switch security series with Private VLANs and Storm Control. Here they explain how you can use Private VLANs to isolate devices that are sharing the same switch without needing to route as in traditional VLANs. Then they finish by explaining how you can use Storm Control to eliminate accidental, or intentional broadcast storms.",
+          "length": "2812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt4-100715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt4-100715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-2-1-switch_security_features_pt4-100715-1-sm.jpg",
+          "title": "Switch Security Part 4",
+          "transcript": "",
+          "vimeoId": "145312805"
+        }
+      ],
+      "title": "Infrastructure Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Daniel explain how you can set up your switch network to survive a failure using the Hot-Standby Redundancy Protocol (HSRP). Watch as they explain how to HRSP is designed to work by creating a network of switches that are ready at a moments notice to take over for a failed switch and then show you how to actually configure HSRP in your network.",
+          "length": "2400",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first-hop-redundancy--1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first-hop-redundancy--1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first-hop-redundancy--1-sm.jpg",
+          "title": "First-Hop Redundancy",
+          "transcript": "",
+          "vimeoId": "141782683"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue exploring redundancy protocols found on Cisco switches, this time covering the Virtual Router Redundancy Protocol or VRRP. Just like HSRP, VRRP allows you to set up standby switches to take over in the case of a failure with the main switch. Also, they go over the topic of load balancing using the Gateway Load Balancing Protocol(GLBP).",
+          "length": "2658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first_hop_redundancy_pt2-100815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first_hop_redundancy_pt2-100815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-1-first_hop_redundancy_pt2-100815-1-sm.jpg",
+          "title": "First-Hop Redundancy Part 2",
+          "transcript": "",
+          "vimeoId": "142150583"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look at some of the benefits and features of Layer 3 switches.  They also discuss the limitations of using Layer 3 switches.  The guys also show a basic inter-vlan configuration on a Layer 3 switch.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-2-layer_3_switching-101415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-2-layer_3_switching-101415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnpswitch300115/cisco-ccnpswitch300115-3-2-layer_3_switching-101415-1-sm.jpg",
+          "title": "Layer 3 Switching",
+          "transcript": "",
+          "vimeoId": "142546757"
+        }
+      ],
+      "title": "Infrastructure Services"
+    }
+  ],
+  "url": "ccnp-routing-switching1",
+  "vLab": false
+}

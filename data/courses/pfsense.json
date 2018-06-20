@@ -1,0 +1,318 @@
+{
+  "description": "pfSense is a popular open source firewall solution that has many of the same features as some of the enterprise security appliances offered by many of the leading security appliance vendors.  It’s full feature set is provided free of charge.  This series was designed to introduce to our viewers the pfSense solution, demonstrate many of its features and provide some of the most essential configuration guidance to someone desiring to get pfSense working in their environment.",
+  "descriptionMD": "",
+  "length": "37514",
+  "name": "pfSense",
+  "practiceExam": false,
+  "subtitle": "pfSense Build 2.2.2",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "pfSense is a popular open source firewall solution that has many of the same features as some of the enterprise security appliances offered by many of the leading security appliance vendors. It’s full feature set is provided free of charge. This series was designed to introduce to our viewers the pfSense solution, demonstrate many of its features and provide some of the most essential configuration guidance to someone desiring to get pfSense working in their environment.",
+          "length": "356",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-0-0-overview-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-0-0-overview-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-0-0-overview-060815-1-sm.jpg",
+          "title": "pfSense Overview",
+          "transcript": "",
+          "vimeoId": "130220843"
+        },
+        {
+          "description": null,
+          "length": "1442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-1-obtaining_pfsense-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-1-obtaining_pfsense-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-1-obtaining_pfsense-060815-1-sm.jpg",
+          "title": "Obtaining pfSense",
+          "transcript": "",
+          "vimeoId": "130220844"
+        },
+        {
+          "description": null,
+          "length": "973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-2-buillding_install_media-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-2-buillding_install_media-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-2-buillding_install_media-060815-1-sm.jpg",
+          "title": "Building Install Media",
+          "transcript": "",
+          "vimeoId": "130220852"
+        },
+        {
+          "description": null,
+          "length": "1080",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-3-installing_pfsense-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-3-installing_pfsense-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-3-installing_pfsense-060815-1-sm.jpg",
+          "title": "Installing pfSense",
+          "transcript": "",
+          "vimeoId": "130220847"
+        },
+        {
+          "description": null,
+          "length": "1267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-4-initial_configuration-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-4-initial_configuration-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-4-initial_configuration-060815-1-sm.jpg",
+          "title": "Initial Configuration",
+          "transcript": "",
+          "vimeoId": "130220890"
+        },
+        {
+          "description": null,
+          "length": "1644",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-5-interfaces_and_vlans-061015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-5-interfaces_and_vlans-061015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-1-5-interfaces_and_vlans-061015-1-sm.jpg",
+          "title": "Interfaces and VLANs",
+          "transcript": "",
+          "vimeoId": "130429591"
+        }
+      ],
+      "title": "Installing pfSense"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1800",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-1-filtering_wan_traffic_060915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-1-filtering_wan_traffic_060915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-1-filtering_wan_traffic_060915-1-sm.jpg",
+          "title": "Filtering WAN Traffic",
+          "transcript": "",
+          "vimeoId": "130429593"
+        },
+        {
+          "description": null,
+          "length": "1473",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-2-filtering_lan_traffic_060915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-2-filtering_lan_traffic_060915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-2-filtering_lan_traffic_060915-1-sm.jpg",
+          "title": "Filtering LAN Traffic",
+          "transcript": "",
+          "vimeoId": "130429594"
+        },
+        {
+          "description": null,
+          "length": "540",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-3-scheduling_filter_rules-060915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-3-scheduling_filter_rules-060915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-2-3-scheduling_filter_rules-060915-1-sm.jpg",
+          "title": "Scheduling Filter Rules",
+          "transcript": "",
+          "vimeoId": "130429596"
+        }
+      ],
+      "title": "Firewall Rules"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1326",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-1-dynamic-nat-061015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-1-dynamic-nat-061015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-1-dynamic-nat-061015-1-sm.jpg",
+          "title": "Dynamic NAT",
+          "transcript": "",
+          "vimeoId": "130429597"
+        },
+        {
+          "description": null,
+          "length": "820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-2-11_nat_mapping-061015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-2-11_nat_mapping-061015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-2-11_nat_mapping-061015-1-sm.jpg",
+          "title": "1:1 NAT Mapping",
+          "transcript": "",
+          "vimeoId": "130429948"
+        },
+        {
+          "description": null,
+          "length": "933",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-3-port_forwarding-061015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-3-port_forwarding-061015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-3-3-port_forwarding-061015-1-sm.jpg",
+          "title": "Port Forwarding",
+          "transcript": "",
+          "vimeoId": "130429949"
+        }
+      ],
+      "title": "Network Address Translation (NAT)"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1667",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-1-site_to_site_vpn-061115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-1-site_to_site_vpn-061115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-1-site_to_site_vpn-061115-1-sm.jpg",
+          "title": "Site-to-Site VPN",
+          "transcript": "",
+          "vimeoId": "130538616"
+        },
+        {
+          "description": null,
+          "length": "1432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-2-site_to_site_openvpn-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-2-site_to_site_openvpn-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-2-site_to_site_openvpn-061215-1-sm.jpg",
+          "title": "Site-to-Site OpenVPN Client",
+          "transcript": "",
+          "vimeoId": "130769499"
+        },
+        {
+          "description": null,
+          "length": "1900",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-3-remote_access_openvpn-061115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-3-remote_access_openvpn-061115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-3-remote_access_openvpn-061115-1-sm.jpg",
+          "title": "Remote Access OpenVPN",
+          "transcript": "",
+          "vimeoId": "130538614"
+        },
+        {
+          "description": null,
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-4-site_to_site_ipsec-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-4-site_to_site_ipsec-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-4-4-site_to_site_ipsec-061215-1-sm.jpg",
+          "title": "Site-to-Site IPsec",
+          "transcript": "",
+          "vimeoId": "130769504"
+        }
+      ],
+      "title": "Virtual Private Networks (VPN)"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-1-dhcp-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-1-dhcp-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-1-dhcp-062915-1-sm.jpg",
+          "title": "DHCP",
+          "transcript": "",
+          "vimeoId": "132253666"
+        },
+        {
+          "description": null,
+          "length": "1306",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-2-dns_resolver-060915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-2-dns_resolver-060915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-2-dns_resolver-060915-1-sm.jpg",
+          "title": "DNS Resolver",
+          "transcript": "",
+          "vimeoId": "130429950"
+        },
+        {
+          "description": null,
+          "length": "1291",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-3-captive_portal-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-3-captive_portal-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-3-captive_portal-061215-1-sm.jpg",
+          "title": "Captive Portal",
+          "transcript": "",
+          "vimeoId": "130769503"
+        },
+        {
+          "description": null,
+          "length": "1675",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-4-high_availability-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-4-high_availability-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-4-high_availability-061215-1-sm.jpg",
+          "title": "High Availability",
+          "transcript": "",
+          "vimeoId": "130769501"
+        },
+        {
+          "description": null,
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-5-routing_protocols-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-5-routing_protocols-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-5-5-routing_protocols-062915-1-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "vimeoId": "132253660"
+        }
+      ],
+      "title": "Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1153",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-1-home_screen_widgets-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-1-home_screen_widgets-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-1-home_screen_widgets-062915-1-sm.jpg",
+          "title": "Home Screen Widgets",
+          "transcript": "",
+          "vimeoId": "132253662"
+        },
+        {
+          "description": null,
+          "length": "2074",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/teckskills-pfsense-6-2-diagnostic_tools-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/teckskills-pfsense-6-2-diagnostic_tools-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/teckskills-pfsense-6-2-diagnostic_tools-063015-1-sm.jpg",
+          "title": "Diagnostic Tools",
+          "transcript": "",
+          "vimeoId": "132319755"
+        },
+        {
+          "description": null,
+          "length": "1580",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-3-bandwidthg_ntopng-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-3-bandwidthg_ntopng-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-3-bandwidthg_ntopng-062915-1-sm.jpg",
+          "title": "BandwidthD / ntopgn",
+          "transcript": "",
+          "vimeoId": "132253661"
+        },
+        {
+          "description": null,
+          "length": "804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-5-updating_pfsense-061115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-5-updating_pfsense-061115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-6-5-updating_pfsense-061115-1-sm.jpg",
+          "title": "Updating pfSense",
+          "transcript": "",
+          "vimeoId": "130538615"
+        }
+      ],
+      "title": "Monitoring and Maintaining"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1794",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-1-popular_packages-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-1-popular_packages-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-1-popular_packages-063015-1-sm.jpg",
+          "title": "Popular Packages",
+          "transcript": "",
+          "vimeoId": "132319752"
+        },
+        {
+          "description": null,
+          "length": "2015",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-2-selecting_hardware-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-2-selecting_hardware-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pfsense/techskills-pfsense-7-2-selecting_hardware-063015-1-sm.jpg",
+          "title": "Selecting Hardware",
+          "transcript": "",
+          "vimeoId": "132319753"
+        }
+      ],
+      "title": "Packages"
+    }
+  ],
+  "url": "pfsense",
+  "vLab": false
+}

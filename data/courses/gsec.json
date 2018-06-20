@@ -1,0 +1,523 @@
+{
+  "description": "GIAC is a registered trademark of the Escal Institute of Advanced Technologies, Inc.  SANS is not affiliated with these courses. GIAC has been an industry leader in information security certifications for years. The GIAC Security Essentials (GSEC) is designed for Security Professionals who want to demonstrate that they are qualified for IT systems hands-on roles with respect to security tasks. GSEC is one of the DoD Approved 8570 Baseline Certifications for IAT Level II.",
+  "descriptionMD": "",
+  "length": "85213",
+  "name": "GIAC Security Essentials",
+  "practiceExam": true,
+  "subtitle": "GSEC",
+  "tagUrl": "giac",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explore the fundamentals of networking. They discuss the various network types such as local area networks, wide area networks, metropolitan area networks and personal area networks. They will also look at the different types of network topologies such as bus, ring, star, mesh and hybrid networks.",
+          "length": "1663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001-sm.jpg",
+          "title": "Networking Fundamentals",
+          "transcript": "",
+          "vimeoId": "195981412"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of network fundamentals. They continue with network topologies then move into network devices such as hubs, bridges, routers and switches.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 2",
+          "transcript": "",
+          "vimeoId": "196006032"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They discuss IP addressing basics like decimal and binary notation as well as hexadecimal notation. They will also look at converting between the different notations.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 3",
+          "transcript": "",
+          "vimeoId": "195993559"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They continue with IP address basics such as subnet masks as well as public and private IP addresses.",
+          "length": "1434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 4",
+          "transcript": "",
+          "vimeoId": "195994126"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They continue with IP address basics such as subnetting as well as introducing IPv6 the next generation addressing protocol.",
+          "length": "1646",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 5",
+          "transcript": "",
+          "vimeoId": "196596074"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of network fundamentals. They continue their look into IPv6 the next generation addressing protocol",
+          "length": "1603",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 6",
+          "transcript": "",
+          "vimeoId": "196591245"
+        },
+        {
+          "description": "In this episode, Wes and Mike dive into one of the most important services in networking known as the domain naming system or DNS. They look at the architecture, service, records as well as explaining the process of name resolution within networks today.",
+          "length": "2009",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001-sm.jpg",
+          "title": "Understanding DNS",
+          "transcript": "",
+          "vimeoId": "198356817"
+        },
+        {
+          "description": "In this episode Wes and Mike dive into the world of protocols and packets. They take a look at the basic structure of protocol as well as looking at TCP and UDP header formats. They cover some of the basics of the Open Systems Interconnection (OSI) model as well as the TCP/IP protocol stack.",
+          "length": "1987",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001-sm.jpg",
+          "title": "Protocols and Packets",
+          "transcript": "",
+          "vimeoId": "196609540"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their exploration into the world of protocols and packets. They continue a looking at the basic structure of TCP and UDP header formats, as well as looking and the ICMP header. They will also demonstrate capturing TCP/IP packets on a network and how to interpret the data. They will introduce TCP/IP sockets, ports and port ranges.",
+          "length": "1936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001-sm.jpg",
+          "title": "Protocols and Packets Part 2",
+          "transcript": "",
+          "vimeoId": "196610707"
+        }
+      ],
+      "title": "Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Mike and Cherokee begin disusing network perimeter security by describing the functions of different types of firewalls. They also discuss where and how to implement a firewall. Lastly, they explain the role of a proxy.",
+          "length": "1663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1-sm.jpg",
+          "title": "Network Security",
+          "transcript": "",
+          "vimeoId": "209447154"
+        },
+        {
+          "description": "In this show, Cherokee and Mike begin discussing  Virtual Private Networks (VPNs). Mike explains why and how they may be utilized. They also discuss the associated tunneling and encryption protocols. Several other topics such as web application security, active content, attacks, defenses, wireless security and misconceptions.",
+          "length": "2589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1-sm.jpg",
+          "title": "Network Security Part 2",
+          "transcript": "",
+          "vimeoId": "209448002"
+        },
+        {
+          "description": "Mike and Cherokee discuss vulnerability scanning  in this show. They begin by examining different approaches and remediation methods. Mike gives a couple of demonstrations including Nessus and Nmap.",
+          "length": "1743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1-sm.jpg",
+          "title": "Vulnerability Scanning",
+          "transcript": "",
+          "vimeoId": "209449283"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike compare and contrast Intrusion Detection and Prevention systems (IDSs and IPSs). They not only share the pros and cons  of each, they also discuss how to logically place them within a network to suite your needs.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1-sm.jpg",
+          "title": "IDS and IPS",
+          "transcript": "",
+          "vimeoId": "209918237"
+        },
+        {
+          "description": "Cherokee and Mike continue the previous discussion focusing on IPSs and IDSs. First, Mike shows us some examples of these systems followed by a demonstration of Snort. They round out the conversation explaining the purpose of honeypots and honeynets.",
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1-sm.jpg",
+          "title": "IDS and IPS Part 2",
+          "transcript": "",
+          "vimeoId": "209919046"
+        }
+      ],
+      "title": "Network Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Cherokee and Mike begin this discussion by explaining authentication and password management. They explain the difference between the AAAs (authentication, authorization, and accountability. They also discuss the CIA (confidentiality, integrity, and availability) as well as a couple of access control methods.",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1-sm.jpg",
+          "title": "Access Control",
+          "transcript": "",
+          "vimeoId": "209920891"
+        },
+        {
+          "description": "In this episode Mike and Cherokee talk about different methods one may use to crack a password. They first explain the difference between a dictionary, brute force and hybrid attack. Next, Mike demonstrates how to use Cain and Abel to crack a password.",
+          "length": "1917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001-sm.jpg",
+          "title": "Access Control Part 2",
+          "transcript": "",
+          "vimeoId": "210961113"
+        },
+        {
+          "description": "In this show Mike and Cherokee discuss authentication methods such as multi-factor using bio-metrics or tokens. Mike then shows a list of security recommendations published by the Center for Internet Security. Lastly, they talk about Security  Information and Event Management systems (SIEM).",
+          "length": "1919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001-sm.jpg",
+          "title": "Access Control Part 3",
+          "transcript": "",
+          "vimeoId": "210300142"
+        }
+      ],
+      "title": "Authentication and Access Control"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on Risk Management, jumping back in by explaining both qualitative and quantitative risk assessment methodologies. They also show you common methods for calculating risk and approaches for dealing with risk (transfer, accept, avoid, or mitigate).",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Risk Management",
+          "transcript": "",
+          "vimeoId": "210967656"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on Risk Management, jumping back in by explaining both qualitative and quantitative risk assessment methodologies. They also show you common methods for calculating risk and approaches for dealing with risk (transfer, accept, avoid, or mitigate).",
+          "length": "1645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Risk Management Part 2",
+          "transcript": "",
+          "vimeoId": "214171796"
+        }
+      ],
+      "title": "Risk Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike take the time to explore common malware types and attacks. They start by looking at attack methods like phishing, SQL injection, cross-site scripting(XSS), and Denial of Service(DoS). Then they look into network mapping/scanning techniques and defining viruses/malicious code.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001-sm.jpg",
+          "title": "Attacks and Malware",
+          "transcript": "",
+          "vimeoId": "210963673"
+        },
+        {
+          "description": "In this episode, Daniel and Mike return to their conversation about common network attacks and malware. They pick back up by exploring more malicious programs like Trojan Horses, spyware, and rootkits. They also describe the types of Information Warfare, including Advanced Persistent Threats(APT), Asymmetric Warfare, and offensive defense.",
+          "length": "1787",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001-sm.jpg",
+          "title": "Attacks and Malware Part 2",
+          "transcript": "",
+          "vimeoId": "210965744"
+        }
+      ],
+      "title": "Attacks and Malware"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike explore the fundamentals of Incident Handling. They begin by explaining how to prepare for an incident through policies and training. Then they tackle incident identification, containment, eradication, and recovery. They finish by exploring investigation techniques and legal considerations.",
+          "length": "1262",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001-sm.jpg",
+          "title": "Incident Response",
+          "transcript": "",
+          "vimeoId": "210962670"
+        }
+      ],
+      "title": "Incident Response"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explore the concepts of cryptography fundamentals. They look at a encryption in it’s basic form as well as discussing a couple different cipher types like transposition and substitution ciphers. They explain the difference between Caesar and Vigenere ciphers and talk about mono-alphabetic and poly-alphabetic ciphers.",
+          "length": "1390",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001-sm.jpg",
+          "title": "Cryptography Fundamentals",
+          "transcript": "",
+          "vimeoId": "196611762"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of the concepts of cryptography fundamentals. They look stream ciphers and block ciphers as well as the benefits and drawbacks of both. They will also examine different algorithms such as symmetric, asymmetric encryption and hashing.",
+          "length": "2418",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001-sm.jpg",
+          "title": "Cryptography Fundamentals Part 2",
+          "transcript": "",
+          "vimeoId": "196612459"
+        },
+        {
+          "description": "In this episode, Wes and Mike tackle the world of public key infrastructure (PKI) and dive more into asymmetric key encryption, the infrastructure, and components such as certificates, certificate issuance, certificate validation, smart cards and certificate-based authentication. They will also look at certificate authorities (CAs), root CAs and the hierarchical infrastructure.",
+          "length": "1982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1-sm.jpg",
+          "title": "PKI and Steganography",
+          "transcript": "",
+          "vimeoId": "196603863"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of public key infrastructure (PKI) with a demonstration on certificates on SSL-Based websites as well as discussing purchasing a certificates through external certificate authorities. They look at Active Directory Certificate Services inside of Windows Server as well as talking about certificate maintenance.",
+          "length": "2113",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1-sm.jpg",
+          "title": "PKI and Steganography Part 2",
+          "transcript": "",
+          "vimeoId": "195994491"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of public key infrastructure (PKI) and a cryptographic process called steganography. They look at the basics of cryptographic attacks such as ciphertext-only, known plaintext, chosen plaintext and chosen ciphertext attacks. They will also talk about cryptanalysis concepts like differential, linear, side channels  cryptanalysis and more. Finally, they will introduce the basics in a cryptographic technique called steganography.",
+          "length": "957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1-sm.jpg",
+          "title": "PKI and Steganography Part 3",
+          "transcript": "",
+          "vimeoId": "196606300"
+        }
+      ],
+      "title": "Encryption"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explain Microsoft Windows workgroups and Active Directory domains. They look at the decentralized nature of Windows workgroups and compare that to the centralized environment of Active Directory domains. They explore the authentication mechanisms used to log users on in workgroups and domains.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001-sm.jpg",
+          "title": "Workgroups and Domains",
+          "transcript": "",
+          "vimeoId": "196597756"
+        },
+        {
+          "description": "In this episode, Wes and Mike demonstrate controlling access to resource within a Windows environment through permissions. They look at NTFS and shared permissions as well as discussing the two permission set’s interaction with each other. They will also look at printer permissions that can be applied to shared printers within a network.",
+          "length": "2219",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001-sm.jpg",
+          "title": "Windows Permissions",
+          "transcript": "",
+          "vimeoId": "196593175"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their demonstration on controlling access to resource within a Windows environment through permissions. They look at protecting access to the Windows Registry by setting permissions as well as looking at permission in Active Directory. They talk about Active Directory permission delegation and domain security through Kerberos and smart cards.",
+          "length": "2167",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001-sm.jpg",
+          "title": "Windows Permissions Part 2",
+          "transcript": "",
+          "vimeoId": "196599406"
+        },
+        {
+          "description": "In this episode, Wes and Mike discuss concepts related to patch management of Windows-based systems through updates. They dive into the different components of updates such as service packs, hot fixes, automatic updates and the Windows Server Update Service also known as WSUS.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001-sm.jpg",
+          "title": "Windows Updates",
+          "transcript": "",
+          "vimeoId": "196606862"
+        },
+        {
+          "description": "In this episode Wes and Mike look at the various concepts surrounding maintaining Windows systems . They explain the overall backup process as well as demonstrate that process through the Windows Server Backup tool. They explore the importance of system state information and backup types.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001-sm.jpg",
+          "title": "Windows Backup and Restore",
+          "transcript": "",
+          "vimeoId": "196607818"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their discussion on various concepts surrounding maintaining Windows systems . They explain the restore process as well as demonstrate the restoration process through the Windows Server Backup tool. They also will look at driver rollback and Windows Update basics.",
+          "length": "1204",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001-sm.jpg",
+          "title": "Windows Backup and Restore Part 2",
+          "transcript": "",
+          "vimeoId": "196608863"
+        },
+        {
+          "description": "In this episode Wes and Mike discuss the importance and utilization of Security Templates in a Windows environment as well as controlling settings through Group Policy in Windows domains. They explore password policies, lockout policies, software restriction policies and AppLocker.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001-sm.jpg",
+          "title": "Templates and Group Policy",
+          "transcript": "",
+          "vimeoId": "196600853"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their discussion on security templates in a Windows environment as well as controlling settings through Group Policy in Windows domains. They focus on the Group Policy side of the Windows environment. They explore password policies, lockout policies, software restriction policies and AppLocker.",
+          "length": "1783",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001-sm.jpg",
+          "title": "Templates and Group Policy Part 2",
+          "transcript": "",
+          "vimeoId": "196602761"
+        },
+        {
+          "description": "In this show Cherokee and Mike begin explaining Windows security starting with Microsoft Firewall. Watch Mike demonstrate how to create and implement custom rules.",
+          "length": "1651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001-sm.jpg",
+          "title": "Windows Network Security",
+          "transcript": "",
+          "vimeoId": "210957270"
+        },
+        {
+          "description": "This is a continuation where Cherokee and Mike speak on IPSec. Mike demonstrates how to create IPSec policies in a Windows environment.",
+          "length": "2467",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001-sm.jpg",
+          "title": "Windows Network Security Part 2",
+          "transcript": "",
+          "vimeoId": "210958323"
+        },
+        {
+          "description": "Learn the difference between several types of counts as Mike and Cherokee cover them individually. Mike explains Built-in Local System Accounts, Built-in Local Service Accounts, Built-in Network Services Accounts and Created Service Accounts. Lastly, they discuss some common best practices to follow.",
+          "length": "1767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001-sm.jpg",
+          "title": "Windows Network Security Part 3",
+          "transcript": "",
+          "vimeoId": "210959928"
+        }
+      ],
+      "title": "Windows"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Never worked with Linux before? Have no fear Daniel and Cherokee take you back to the basics. This episode provides a good foundation and breakdown of the different Linux distributions, where they originated and what they are used for.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1-sm.jpg",
+          "title": "Linux Overview",
+          "transcript": "",
+          "vimeoId": "198346021"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue to cover some Linux foundational knowledge. In particular, they focus on TCP/IP configuration. They demonstrate how to configure a Linux system as a DHCP client as well as how to statically map an IP address, subnet mask, default gateway and DNS server.",
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1-sm.jpg",
+          "title": "Linux Overview Part 2",
+          "transcript": "",
+          "vimeoId": "198718362"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue to cover some Linux foundational knowledge. This time they focus on processes and the tools we can use to work with them. They start with TOP, as well as PS commands. Then they demonstrate examining background processes using Jobs, and how to kill a process.",
+          "length": "1593",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1-sm.jpg",
+          "title": "Linux Overview Part 3",
+          "transcript": "",
+          "vimeoId": "198718787"
+        },
+        {
+          "description": null,
+          "length": "2485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1-sm.jpg",
+          "title": "Linux Overview Part 4",
+          "transcript": "",
+          "vimeoId": "198834035"
+        },
+        {
+          "description": "In this episode, Daniel and Mike begin their exploration into configuring a Linux system, particularly in a multi-user environment. They look at creating a non-administrative account that can be used for everyday computing, and how to escalate privileges when necessary. They also demonstrate creating additional users and controlling their access.",
+          "length": "1998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1-sm.jpg",
+          "title": "Linux Configuration Fundamentals",
+          "transcript": "",
+          "vimeoId": "199049681"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the explorations of the basics of Linux configurations. They talk about setting password controls, including the pluggable authentication module or PAM and extending the capabilities by the installation of additional modules. They also look at basic strong password configurations and checking password through cracklib and pwquality.",
+          "length": "2173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001-sm.jpg",
+          "title": "Linux Configuration Fundamentals Part 2",
+          "transcript": "",
+          "vimeoId": "200716670"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the explorations of the basics of Linux configurations. They look at permissions, the available permissions, numeric vs. symbolic permission representation, setting sticky bits, GUIDs, SUIDs, patching, updates and backups.",
+          "length": "2468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001-sm.jpg",
+          "title": "Linux Configuration Fundamentals Part 3",
+          "transcript": "",
+          "vimeoId": "202082412"
+        }
+      ],
+      "title": "Linux"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike explore Virtualization as it pertains to maintaining a secure environment. They give you a good overview of what makes up a virtual environment as well as common concepts like Type1 vs Type2 hypervisors, use cases, and security procedures like hardening, auditing, and management systems.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001-sm.jpg",
+          "title": "Virtualization",
+          "transcript": "",
+          "vimeoId": "210969503"
+        }
+      ],
+      "title": "Virtualization"
+    }
+  ],
+  "url": "gsec",
+  "vLab": false
+}

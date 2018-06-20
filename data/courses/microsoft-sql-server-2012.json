@@ -1,0 +1,148 @@
+{
+  "description": "The Administering Microsoft SQL Server 2012 Databases exam is designed to be the entry point for Systems Administrators into the world of databases. The course focuses on areas that are required knowledge for anyone responsible for the creation and maintenance of Windows servers running Microsoft SQL 2012. The topics covered range from installing SQL Server to backing up and restoring databases.",
+  "descriptionMD": "",
+  "length": "52740",
+  "name": "Microsoft SQL Server 2012 - 70-462",
+  "practiceExam": true,
+  "subtitle": "Administering Microsoft SQL Server 2012 Databases",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Administering Microsoft SQL Server 2012 Databases exam is designed to be the entry point for Systems Administrators into the world of databases. The course focuses on areas that are required knowledge for anyone responsible for the creation and maintenance of Windows servers running Microsoft SQL 2012. The topics covered range from installing SQL Server to backing up and restoring databases.",
+          "length": "508",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL-sm.jpg",
+          "title": "Intro to Microsoft SQL",
+          "transcript": "",
+          "vimeoId": "105279754"
+        }
+      ],
+      "title": "Overview of Microsoft SQL Server 2012 (70-462)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don discusses the minimum requirements for installing SQL. Then he walks through the process of installing SQL while examining each of the installation examples. Finally he shows some of the basic options that will be configured for most new deployments.",
+          "length": "5461",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL-sm.jpg",
+          "title": "Install and Configure SQL",
+          "transcript": "",
+          "vimeoId": "105279755"
+        }
+      ],
+      "title": "Install and configure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to create databases in Microsoft SQL. He then discusses how important the underlying file system is in terms of SQL performance.",
+          "length": "6195",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases-sm.jpg",
+          "title": "Manage and Configure Databases",
+          "transcript": "",
+          "vimeoId": "105279756"
+        },
+        {
+          "description": "In this episode Don discusses using file groups to improve performance within a table. NOTE: After the credits is a special segment discussing indexes and partition tables. You should watch the Indexing episode to better understand the special segment.",
+          "length": "4531",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files-sm.jpg",
+          "title": "Optimizing Database Files",
+          "transcript": "",
+          "vimeoId": "105340720"
+        }
+      ],
+      "title": "Maintain instances and databases"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to configure and activate the SQL Server Agent. He then shows how to schedule and automate various tasks using the SQL Agent.",
+          "length": "5616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent-sm.jpg",
+          "title": "SQL Server Agent",
+          "transcript": "",
+          "vimeoId": "105779290"
+        }
+      ],
+      "title": "Optimize and troubleshoot"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don walks you through the process of backing up and restoring databases in Microsoft SQL. He explains the difference between full, differential and transaction log backups and describes when to use each.",
+          "length": "5477",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases-sm.jpg",
+          "title": "Backup and Restore Databases",
+          "transcript": "",
+          "vimeoId": "105865973"
+        },
+        {
+          "description": "In this episode Don shows various methods for getting data into and out of SQL. He wraps up by showing how to use indexes with your data to significantly improve performance.",
+          "length": "7303",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data-sm.jpg",
+          "title": "Import, Export, and Indexing Data",
+          "transcript": "",
+          "vimeoId": "105971650"
+        }
+      ],
+      "title": "Manage data"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to use user accounts and assign permissions inside of SQL Server. He also describes the various built-in roles included with every SQL server installation.",
+          "length": "5254",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security-sm.jpg",
+          "title": "Implementing Security",
+          "transcript": "",
+          "vimeoId": "106171019"
+        }
+      ],
+      "title": "Implement security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don shows how to increase high availability on your SQL server by using Microsoft Failover Clustering. He then shows other methods of increasing redundancy without the need of a full cluster environment.",
+          "length": "6330",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy-sm.jpg",
+          "title": "Clustering and Redundancy",
+          "transcript": "",
+          "vimeoId": "106382514"
+        },
+        {
+          "description": "In this episode Don demonstrates assorted tools and techniques for monitoring your SQL server to ensure health and peak performance.",
+          "length": "6065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server-sm.jpg",
+          "title": "Monitoring SQL Server",
+          "transcript": "",
+          "vimeoId": "106382513"
+        }
+      ],
+      "title": "Implement high availability"
+    }
+  ],
+  "url": "microsoft-sql-server-2012",
+  "vLab": false
+}

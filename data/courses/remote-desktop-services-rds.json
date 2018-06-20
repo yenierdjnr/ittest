@@ -1,0 +1,128 @@
+{
+  "description": "The RDS tech skills show will demonstrate how to get started with RDS on Windows Server 2012 R2.  In this show you’ll learn about setting up a “single” server RDS deployment, configuring it and securing it to work.  Also you’ll see the setting up a “clustered” server RDS deployment environment for High Availability to provide for failover and scalability.  Through the setup you’ll also gain knowledge of the different role services involved in an RDS deployment.",
+  "descriptionMD": "The RDS tech skills show will demonstrate how to get started with RDS on Windows Server 2012 R2.  In this show you’ll learn about setting up a “single” server RDS deployment, configuring it and securing it to work.  Also you’ll see the setting up a “clustered” server RDS deployment environment for High Availability to provide for failover and scalability.  Through the setup you’ll also gain knowledge of the different role services involved in an RDS deployment.",
+  "length": "17691",
+  "name": "Remote Desktop Services (RDS)",
+  "practiceExam": false,
+  "subtitle": "Implementing Remote Desktop Services",
+  "tagUrl": "microsoft-technical",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-0-0-overview-031017-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-0-0-overview-031017-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-0-0-overview-031017-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "vimeoId": "208181193"
+        },
+        {
+          "description": "In this episode Ronnie and Cherokee introduce the concept of Remote Desktop Services, a Microsoft technology. The actual deployment you will see set up is called a single server configuration however we are actually dealing with 2 machines in this configuration. Ronnie walks through the initial setup to get started.",
+          "length": "1950",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-1-build_single_server_rds-030617-PGM.00_32_14_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-1-build_single_server_rds-030617-PGM.00_32_14_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-1-build_single_server_rds-030617-PGM.00_32_14_14.Still001-sm.jpg",
+          "title": "Build Single Server RDS",
+          "transcript": "",
+          "vimeoId": "207335185"
+        },
+        {
+          "description": "In this episode Ronnie and Cherokee explore how to customize sessions. Specifically Ronnie will remove the default applications and add some office product viewers to show this concept. He tests the functionally and also shows how bypass a Microsoft recommendation and adds remote desktop as well.",
+          "length": "1723",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-2-modify_a_session_collection-030617-PGM.00_28_28_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-2-modify_a_session_collection-030617-PGM.00_28_28_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-2-modify_a_session_collection-030617-PGM.00_28_28_12.Still001-sm.jpg",
+          "title": "Modify a Session Collection",
+          "transcript": "",
+          "vimeoId": "207336074"
+        },
+        {
+          "description": "In this show you will see Cherokee and Ronnie discuss the need for connection security. They consider the pros and cons of using public vs private certification authorities. Watch Ronnie walk thru this process step by step.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-secure_rds_connections-030617-PGM.00_27_21_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-secure_rds_connections-030617-PGM.00_27_21_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-secure_rds_connections-030617-PGM.00_27_21_14.Still001-sm.jpg",
+          "title": "Secure RDS Connections",
+          "transcript": "",
+          "vimeoId": "207364472"
+        },
+        {
+          "description": "This is a continuation where Ronnie and Cherokee finish the certificate configuration. Ronnie walks thru step by step how to use an internal certificate to provide mutual authentication.",
+          "length": "1854",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-2-secure_rds_connections_pt2-030717.00_31_03_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-2-secure_rds_connections_pt2-030717.00_31_03_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-3-2-secure_rds_connections_pt2-030717.00_31_03_24.Still001-sm.jpg",
+          "title": "Secure RDS Connections Part 2",
+          "transcript": "",
+          "vimeoId": "207626254"
+        },
+        {
+          "description": "In this episode Ronnie and Cherokee continue to configure additional RDS roles. Specifically, they discuss the role of the remote desktop gateway.  Watch Ronnie demonstrate how to configure the RD Gateway.",
+          "length": "1336",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-1-configure_additional_rds_roles-030717.00_22_00_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-1-configure_additional_rds_roles-030717.00_22_00_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-1-configure_additional_rds_roles-030717.00_22_00_08.Still001-sm.jpg",
+          "title": "Configure Additional RDS Roles",
+          "transcript": "",
+          "vimeoId": "207626801"
+        },
+        {
+          "description": "In this episode Ronnie and Cherokee continue to configure additional RDS roles. Specifically, they discuss the importance of licensing. They speak about different options of client access licenses (CALs) to help you understand your options. Watch Ronnie demonstrate how to configure the licencing manager.",
+          "length": "1821",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-2-configure_additional_rds_roles_pt2-030717.00_30_04_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-2-configure_additional_rds_roles_pt2-030717.00_30_04_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-1-4-2-configure_additional_rds_roles_pt2-030717.00_30_04_26.Still001-sm.jpg",
+          "title": "Configure Additional RDS Roles Part 2",
+          "transcript": "",
+          "vimeoId": "207627027"
+        },
+        {
+          "description": "Tune in to watch Cherokee and Ronnie discuss the role of a connection broker in a high availability environment.  Ronnie begins by creating a high availability cluster by adding and configuring the first machine of the cluster.",
+          "length": "2099",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-1-deploy_connection_broker_ha-030817-PGM.00_34_43_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-1-deploy_connection_broker_ha-030817-PGM.00_34_43_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-1-deploy_connection_broker_ha-030817-PGM.00_34_43_23.Still001-sm.jpg",
+          "title": "Deploy Connection Broker HA",
+          "transcript": "",
+          "vimeoId": "208185907"
+        },
+        {
+          "description": "This episode is a continuation where Ronnie and Cherokee walk thru the detailed process of configuring the connection broker cluster for high availability. Ronnie will also perform an installation SQL express 2012.",
+          "length": "1980",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-2-deploy_connection_broker_ha-030817.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-2-deploy_connection_broker_ha-030817.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-2-deploy_connection_broker_ha-030817.00_00_11_24.Still001-sm.jpg",
+          "title": "Deploy Connection Broker HA Part 2",
+          "transcript": "",
+          "vimeoId": "208179050"
+        },
+        {
+          "description": "This is a part three of a demonstration. Ronnie and Cherokee have already covered a large portion of this process so feel free to check out the prior shows if you have not already done so. Ronnie shares a firewall configuration that may help you during this process before he configure the SQL client.",
+          "length": "1787",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-3-deploy_connection_broker_ha-030817.00_29_32_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-3-deploy_connection_broker_ha-030817.00_29_32_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-1-3-deploy_connection_broker_ha-030817.00_29_32_05.Still001-sm.jpg",
+          "title": "Deploy Connection Broker HA Part 3",
+          "transcript": "",
+          "vimeoId": "208179887"
+        },
+        {
+          "description": "In this show Cherokee and Ronnie put the final touches on the RDS cluster. Ronnie walks us thru installing the few remaining services to complete the high availability cluster.",
+          "length": "1340",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-2-deploy_additional_ha_roles-030917-PGM.00_22_06_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-2-deploy_additional_ha_roles-030917-PGM.00_22_06_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-rds/techskills-rds-2-2-deploy_additional_ha_roles-030917-PGM.00_22_06_02.Still001-sm.jpg",
+          "title": "Deploy Additional HA Roles",
+          "transcript": "",
+          "vimeoId": "208180611"
+        }
+      ],
+      "title": "Remote Desktop Services (RDS)"
+    }
+  ],
+  "url": "remote-desktop-services-rds",
+  "vLab": false
+}

@@ -1,25 +1,25 @@
 {
-	"vlabcategory": "Cisco",
-	"url": "cisco",
-	"weight": 1,
-	"labs": [
-		{
-			"name": "Interconnecting Cisco Networking Devices (ICND1 v3.0)"
-		},
-		{
-			"name": "Interconnecting Cisco Networking Devices (ICND2 v3.0)"
-		},
-		{
-			"name": "Implementing Cisco IOS Network Security"
-		},
-		{
-			"name": "Implementing Cisco IP Routing (ROUTE)"
-		},
-		{
-			"name": "Implementing Cisco IP Switched Networks (SWITCH)"
-		},
-		{
-			"name": "Troubleshooting and Maintaining Cisco IP Networks"
-		}
-	]
+  "labs": [
+    {
+      "name": "Implementing Cisco IOS Network Security"
+    },
+    {
+      "name": "Implementing Cisco IP Routing (ROUTE)"
+    },
+    {
+      "name": "Implementing Cisco IP Switched Networks (SWITCH)"
+    },
+    {
+      "name": "Interconnecting Cisco Networking Devices (ICND1 v3.0)"
+    },
+    {
+      "name": "Interconnecting Cisco Networking Devices (ICND2 v3.0)"
+    },
+    {
+      "name": "Troubleshooting and Maintaining Cisco IP Networks (TSHOOT)"
+    }
+  ],
+  "url": "cisco",
+  "vlabcategory": "Cisco",
+  "weight": 3
 }

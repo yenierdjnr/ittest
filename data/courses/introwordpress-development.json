@@ -1,0 +1,458 @@
+{
+  "description": "WordPress powers over 29% of all the websites on the internet. WordPress powers everything from blogs and company sites to SAAS apps and mobile apps. With WordPress only growing in popularity each year, now is a great time to get started with this CMS and framework!",
+  "descriptionMD": "WordPress powers over 29% of all the websites on the internet. WordPress powers everything from blogs and company sites to SAAS apps and mobile apps. With WordPress only growing in popularity each year, now is a great time to get started with this CMS and framework!",
+  "length": "66505",
+  "name": "Intro to WordPress Development",
+  "practiceExam": false,
+  "subtitle": "Extending WordPress",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, we look at a brief history of WordPress and what it is used for. We then get our environment set up to begin working on our first WordPress function.",
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-1-1-overview_and_getting_started-121417.00_28_52_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-1-1-overview_and_getting_started-121417.00_28_52_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-1-1-overview_and_getting_started-121417.00_28_52_04.Still001-sm.jpg",
+          "title": "Overview and Getting Started",
+          "transcript": "",
+          "vimeoId": "247512826"
+        },
+        {
+          "description": "WordPress is built using a system of hooks and filters. In this episode, we will dive into what these are and how to use them.",
+          "length": "1564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-2-1-hooks_and_filters-121417.00_25_58_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-2-1-hooks_and_filters-121417.00_25_58_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-2-1-hooks_and_filters-121417.00_25_58_15.Still001-sm.jpg",
+          "title": "Hooks and Filters",
+          "transcript": "",
+          "vimeoId": "247511217"
+        },
+        {
+          "description": "WordPress uses shortcodes to allow end users to add functionality to different parts of their site without knowing any coding. In this episode, we are going to look at what these are and how to create them.",
+          "length": "1570",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-3-1-shortcodes-121417-PGM.00_26_48_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-3-1-shortcodes-121417-PGM.00_26_48_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-3-1-shortcodes-121417-PGM.00_26_48_04.Still001-sm.jpg",
+          "title": "Shortcodes",
+          "transcript": "",
+          "vimeoId": "247512566"
+        },
+        {
+          "description": "A lot of WordPress is built around content called \"posts\". In this episode, we will go over how to write code that creates and modifies posts.",
+          "length": "1326",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-4-1-creating_and_modifying_posts-121417-PGM.00_23_55_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-4-1-creating_and_modifying_posts-121417-PGM.00_23_55_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-4-1-creating_and_modifying_posts-121417-PGM.00_23_55_18.Still001-sm.jpg",
+          "title": "Creating and Modifying Posts",
+          "transcript": "",
+          "vimeoId": "247512098"
+        },
+        {
+          "description": "When using WordPress, you will come across the \"loop\" a lot. But what is it? The loop is the core part of WordPress that manages what content to show. In this episode, we will be looking at what the loop is and how it works.",
+          "length": "1297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-5-1-the_loop-121417-PGM.00_21_51_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-5-1-the_loop-121417-PGM.00_21_51_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-5-1-the_loop-121417-PGM.00_21_51_01.Still001-sm.jpg",
+          "title": "The \"Loop\"",
+          "transcript": "",
+          "vimeoId": "247513405"
+        },
+        {
+          "description": "WordPress was started as blogging software but has become so much more. However, all of the content including pages, products, podcast episodes, and more are still referred to as \"posts\". In this episode, we are going to look into what a custom post type is and how to set one up.",
+          "length": "1657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-6-1-custom_post_types-121417-PGM.00_32_32_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-6-1-custom_post_types-121417-PGM.00_32_32_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-6-1-custom_post_types-121417-PGM.00_32_32_06.Still001-sm.jpg",
+          "title": "Custom Post Types",
+          "transcript": "",
+          "vimeoId": "247513136"
+        },
+        {
+          "description": "While posts are the way WordPress stores content, taxonomies are the way we can organize that content. Learn what taxonomies are and how to use them!",
+          "length": "1380",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-7-1-taxonomies-121417-PGM.00_22_52_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-7-1-taxonomies-121417-PGM.00_22_52_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-7-1-taxonomies-121417-PGM.00_22_52_26.Still001-sm.jpg",
+          "title": "Taxonomies",
+          "transcript": "",
+          "vimeoId": "247510432"
+        },
+        {
+          "description": "In many cases, you will need to create a settings page where users can tweak functionality. This episode will show you how to use WordPress functions to easily create settings pages.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-8-1-creating_a_settings_page-011118.00_29_39_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-8-1-creating_a_settings_page-011118.00_29_39_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-8-1-creating_a_settings_page-011118.00_29_39_15.Still001-sm.jpg",
+          "title": "Creating a Settings Page",
+          "transcript": "",
+          "vimeoId": "250862627"
+        },
+        {
+          "description": "There are many times that you will need to save some data. WordPress has an options and transients system to assist with this.",
+          "length": "1350",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-9-1-options_and_transients-011118PGM.00_22_24_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-9-1-options_and_transients-011118PGM.00_22_24_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-9-1-options_and_transients-011118PGM.00_22_24_08.Still001-sm.jpg",
+          "title": "Options and Transients",
+          "transcript": "",
+          "vimeoId": "250862990"
+        },
+        {
+          "description": "When creating a settings page, WordPress has a built in system to allow you to quickly and easily setup a settings page with multiple fields.",
+          "length": "1493",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-10-1-settings_sections_and_fields-011118.00_24_47_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-10-1-settings_sections_and_fields-011118.00_24_47_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-10-1-settings_sections_and_fields-011118.00_24_47_13.Still001-sm.jpg",
+          "title": "Settings Sections and Fields",
+          "transcript": "",
+          "vimeoId": "250862320"
+        },
+        {
+          "description": "Security is very important in any project. WordPress comes with many functions and classes that help us with this. In this episode, we will be looking at what sanitizing and escaping is and what functions WordPress gives us to help.",
+          "length": "1379",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-11-1-security_essentials-011118-PGM.00_22_52_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-11-1-security_essentials-011118-PGM.00_22_52_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-11-1-security_essentials-011118-PGM.00_22_52_11.Still001-sm.jpg",
+          "title": "Security Essentials",
+          "transcript": "",
+          "vimeoId": "250861671"
+        },
+        {
+          "description": "Widgets are tiny bits of functionality that WordPress users can add to specific parts of their website. In this episode, we will be looking at what widgets are and how to create them.",
+          "length": "1592",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-12-1-widgets-011118-PGM.00_26_40_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-12-1-widgets-011118-PGM.00_26_40_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-12-1-widgets-011118-PGM.00_26_40_23.Still001-sm.jpg",
+          "title": "Widgets",
+          "transcript": "",
+          "vimeoId": "250861990"
+        },
+        {
+          "description": "There will be many times that you will need to retrieve or send data to remote URLs. In this episode, we will look at the WordPress way to handle this process.",
+          "length": "1177",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-13-1-remote_urls-011118-PGM.00_20_40_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-13-1-remote_urls-011118-PGM.00_20_40_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-13-1-remote_urls-011118-PGM.00_20_40_06.Still001-sm.jpg",
+          "title": "Remote URLs",
+          "transcript": "",
+          "vimeoId": "250863298"
+        },
+        {
+          "description": "Now that we have a basic understanding of WordPress development, it is time for us to review the WordPress Coding Standards.",
+          "length": "1700",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-14-1-coding_standards-011818-PGM.00_29_15_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-14-1-coding_standards-011818-PGM.00_29_15_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-14-1-coding_standards-011818-PGM.00_29_15_23.Still001-sm.jpg",
+          "title": "Coding Standards",
+          "transcript": "",
+          "vimeoId": "251832013"
+        },
+        {
+          "description": "At some point, you will need to programatically create and modify users. In this episode, we are doing just that.",
+          "length": "1640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-15-1-users-011818-PGM.00_27_23_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-15-1-users-011818-PGM.00_27_23_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-15-1-users-011818-PGM.00_27_23_06.Still001-sm.jpg",
+          "title": "Users",
+          "transcript": "",
+          "vimeoId": "251832479"
+        },
+        {
+          "description": "Using WordPress's user meta system, we can store unique data into each user's profile.",
+          "length": "1110",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-16-1-user_meta-011818-PART1-PGM.00_18_24_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-16-1-user_meta-011818-PART1-PGM.00_18_24_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-16-1-user_meta-011818-PART1-PGM.00_18_24_03.Still001-sm.jpg",
+          "title": "User Meta",
+          "transcript": "",
+          "vimeoId": "251831750"
+        },
+        {
+          "description": "Using WordPress's post meta system, we can store unique values in each post.",
+          "length": "1016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-17-1-post_meta-011818-PGM.00_16_49_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-17-1-post_meta-011818-PGM.00_16_49_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-17-1-post_meta-011818-PGM.00_16_49_28.Still001-sm.jpg",
+          "title": "Post Meta",
+          "transcript": "",
+          "vimeoId": "251831516"
+        },
+        {
+          "description": "There will be times when you need to add a script or style to a page in WordPress. Using the enqueue system, we can ensure the style or script is only added once and only on the pages we need.",
+          "length": "1452",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-18-1-enqueue_scripts_and_styles-011818-PGM.00_25_39_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-18-1-enqueue_scripts_and_styles-011818-PGM.00_25_39_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-18-1-enqueue_scripts_and_styles-011818-PGM.00_25_39_25.Still001-sm.jpg",
+          "title": "Enqueue Scripts and Styles",
+          "transcript": "",
+          "vimeoId": "251831076"
+        },
+        {
+          "description": "WordPress has a dashboard that shows important or relevant information to logged in users. Using dashboard widgets, you can add information to this dashboard.",
+          "length": "1449",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-19-1-dashboard_widgets-011818-PGM.00_24_00_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-19-1-dashboard_widgets-011818-PGM.00_24_00_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-19-1-dashboard_widgets-011818-PGM.00_24_00_12.Still001-sm.jpg",
+          "title": "Dashboard Widgets",
+          "transcript": "",
+          "vimeoId": "251833383"
+        },
+        {
+          "description": "There may be times where you need your own custom database table instead of the default tables. Using the WPDB class, you can interact with the database securely and easily.",
+          "length": "1653",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-20-1-wpdb-011818-PART1-PGM.00_27_22_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-20-1-wpdb-011818-PART1-PGM.00_27_22_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-20-1-wpdb-011818-PART1-PGM.00_27_22_22.Still001-sm.jpg",
+          "title": "WPDB",
+          "transcript": "",
+          "vimeoId": "251832947"
+        },
+        {
+          "description": "While the default login is great for getting started, you probably want to make the login page match your site's layout and style. In this episode, we are going to explore customizing the login page.",
+          "length": "1079",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-21-1-customizing_the_login_page-011818-PGM.00_18_17_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-21-1-customizing_the_login_page-011818-PGM.00_18_17_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-21-1-customizing_the_login_page-011818-PGM.00_18_17_13.Still001-sm.jpg",
+          "title": "Customize the Login Page",
+          "transcript": "",
+          "vimeoId": "251830805"
+        },
+        {
+          "description": "Now that you know the basics, you probably want to create something a little more dynamic, right? This is where some built-in functions and hooks come in to help.",
+          "length": "1824",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-22-1-wordpress_and_ajax-020218-PGM.00_33_05_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-22-1-wordpress_and_ajax-020218-PGM.00_33_05_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-22-1-wordpress_and_ajax-020218-PGM.00_33_05_05.Still001-sm.jpg",
+          "title": "WordPress and AJAX",
+          "transcript": "",
+          "vimeoId": "254375104"
+        },
+        {
+          "description": "WordPress has a built-in system for creating \"fuzzy\" cron jobs. Using this system allows us to quickly and easily set up recurring tasks.",
+          "length": "1629",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-23-1-wordpress_cron_jobs-020218-PGM.00_28_42_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-23-1-wordpress_cron_jobs-020218-PGM.00_28_42_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-23-1-wordpress_cron_jobs-020218-PGM.00_28_42_12.Still001-sm.jpg",
+          "title": "WordPress Cron Jobs",
+          "transcript": "",
+          "vimeoId": "254545874"
+        },
+        {
+          "description": "We've customize the login page but what about the actual admin area? We can make some customizations there too!",
+          "length": "1392",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-24-1-customize_the_admin_area-020218-PGM.00_31_30_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-24-1-customize_the_admin_area-020218-PGM.00_31_30_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-24-1-customize_the_admin_area-020218-PGM.00_31_30_00.Still001-sm.jpg",
+          "title": "Customizing the Admin Area",
+          "transcript": "",
+          "vimeoId": "254373967"
+        },
+        {
+          "description": "With WordPress, not only can we add additional functionality using plugins, we can completely customize the entire site's look and feel by creating or modifying themes. To do so, we first need to understand the template hierarchy.",
+          "length": "1343",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-25-1-the_template_hierarchy-020218-PGM.00_22_14_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-25-1-the_template_hierarchy-020218-PGM.00_22_14_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-25-1-the_template_hierarchy-020218-PGM.00_22_14_25.Still001-sm.jpg",
+          "title": "The Template Hierarchy",
+          "transcript": "",
+          "vimeoId": "254374786"
+        },
+        {
+          "description": "Before we build entire themes from scratch, we want to look into child themes to help us get started.",
+          "length": "1640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-26-1-child_themes-020818-PGM.00_38_49_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-26-1-child_themes-020818-PGM.00_38_49_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-26-1-child_themes-020818-PGM.00_38_49_23.Still001-sm.jpg",
+          "title": "Child Themes",
+          "transcript": "",
+          "vimeoId": "255102835"
+        },
+        {
+          "description": "The first few files we need to create define the base layout. In this episode, we are going to create the header, footer, and index files.",
+          "length": "1751",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-27-1-themes_header_footer_and_index-020818-PGM.00_29_23_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-27-1-themes_header_footer_and_index-020818-PGM.00_29_23_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-27-1-themes_header_footer_and_index-020818-PGM.00_29_23_14.Still001-sm.jpg",
+          "title": "Themes: Header, Footer and Index",
+          "transcript": "",
+          "vimeoId": "255103412"
+        },
+        {
+          "description": "Since WordPress stores all main content as \"posts\", we need to use the \"Loop\" in our theme's templates in order to retrieve and display our content.",
+          "length": "1707",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-28-1-using_the_loop_inside_our_theme-020818-PGM.00_28_18_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-28-1-using_the_loop_inside_our_theme-020818-PGM.00_28_18_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-28-1-using_the_loop_inside_our_theme-020818-PGM.00_28_18_19.Still001-sm.jpg",
+          "title": "Using the Loop Inside Our Theme",
+          "transcript": "",
+          "vimeoId": "255103977"
+        },
+        {
+          "description": "Now that we have a basic template set up, we need to set up our navigation areas.",
+          "length": "1731",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-29-1-creating_the_sites_navigation-020818-PGM.00_29_13_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-29-1-creating_the_sites_navigation-020818-PGM.00_29_13_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-29-1-creating_the_sites_navigation-020818-PGM.00_29_13_05.Still001-sm.jpg",
+          "title": "Creating the Site's Navigation",
+          "transcript": "",
+          "vimeoId": "255104486"
+        },
+        {
+          "description": "WordPress allows us to create different page templates that allow end users to choose a template when creating new pages. Let's learn how to create those templates!",
+          "length": "1415",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-30-1-creating_page_templates-020818-PGM.00_23_26_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-30-1-creating_page_templates-020818-PGM.00_23_26_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-30-1-creating_page_templates-020818-PGM.00_23_26_24.Still001-sm.jpg",
+          "title": "Creating Page Templates",
+          "transcript": "",
+          "vimeoId": "255105004"
+        },
+        {
+          "description": "We have built custom widgets before but now it is time for us to set up our widget areas. Widget areas is the space a user can add widgets to such as a sidebar.",
+          "length": "1524",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-31-1-setting_up_our_widget_areas-020818-PGM.00_25_16_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-31-1-setting_up_our_widget_areas-020818-PGM.00_25_16_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-31-1-setting_up_our_widget_areas-020818-PGM.00_25_16_00.Still001-sm.jpg",
+          "title": "Setting Up Our Widget Areas",
+          "transcript": "",
+          "vimeoId": "255105415"
+        },
+        {
+          "description": "aAs we develop a variety of useful plugins and themes, there will be several things you may want to do only once when the plugin or theme is \"activated\". There will also be things you want to do when they are deleted or uninstalled. We can use activation and deactivation hooks for this.",
+          "length": "1389",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-32-1-activation_and_deactivation_functions-032318-PGM.00_23_14_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-32-1-activation_and_deactivation_functions-032318-PGM.00_23_14_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-32-1-activation_and_deactivation_functions-032318-PGM.00_23_14_29.Still001-sm.jpg",
+          "title": "Activation and Deactivation Functions",
+          "transcript": "",
+          "vimeoId": "261843716"
+        },
+        {
+          "description": "Since WordPress is used by millions around the world, it is best practice to develop plugins and themes that are able to be translated. This is where the internationalization functions come in.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-33-1-internationalization-032318-PGM.00_26_47_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-33-1-internationalization-032318-PGM.00_26_47_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-1-33-1-internationalization-032318-PGM.00_26_47_20.Still001-sm.jpg",
+          "title": "Internationalization",
+          "transcript": "",
+          "vimeoId": "262194757"
+        }
+      ],
+      "title": "Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Now that we have the fundamentals mastered, it is time for us to create out first real plugin!",
+          "length": "2077",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-1-creating_our_first_plugin-020218-PGM.00_35_49_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-1-creating_our_first_plugin-020218-PGM.00_35_49_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-1-creating_our_first_plugin-020218-PGM.00_35_49_06.Still001-sm.jpg",
+          "title": "Creating Our First Plugin",
+          "transcript": "",
+          "vimeoId": "254374289"
+        },
+        {
+          "description": "Now that we have the fundamentals mastered, it is time for us to create out first real plugin!",
+          "length": "2164",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-2-creating_our_first_plugin_pt_2-020218.00_35_57_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-2-creating_our_first_plugin_pt_2-020218.00_35_57_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-2-1-2-creating_our_first_plugin_pt_2-020218.00_35_57_21.Still001-sm.jpg",
+          "title": "Creating Our First Plugin Part 2",
+          "transcript": "",
+          "vimeoId": "254372383"
+        }
+      ],
+      "title": "Creating Our First Plugin"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Frank create a brand new installation of WordPress as a starting point for creating a custom site. Additionally, Frank works through the basic configuration that needs to occur when getting WordPress up and running.",
+          "length": "1687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-1-creating_a_wordpress_site-030618-PGM.00_33_39_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-1-creating_a_wordpress_site-030618-PGM.00_33_39_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-1-creating_a_wordpress_site-030618-PGM.00_33_39_12.Still001-sm.jpg",
+          "title": "Creating a WordPress Site",
+          "transcript": "",
+          "vimeoId": "259229622"
+        },
+        {
+          "description": "In this episode, Justin and Frank create a brand new installation of WordPress as a starting point for creating a custom site. Additionally, Frank works through the basic configuration that needs to occur when getting WordPress up and running.",
+          "length": "1720",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-2-creating_a_wordpress_site_pt_2-030618-PGM.00_28_31_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-2-creating_a_wordpress_site_pt_2-030618-PGM.00_28_31_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-2-creating_a_wordpress_site_pt_2-030618-PGM.00_28_31_25.Still001-sm.jpg",
+          "title": "Creating a WordPress Site Part 2",
+          "transcript": "",
+          "vimeoId": "259228354"
+        },
+        {
+          "description": "In this episode, Justin and Frank create a brand new installation of WordPress as a starting point for creating a custom site. Additionally, Frank works through the basic configuration that needs to occur when getting WordPress up and running.",
+          "length": "1493",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-3-creating_a_wordpress_site_pt_3-030618-PGM.00_35_01_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-3-creating_a_wordpress_site_pt_3-030618-PGM.00_35_01_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-3-creating_a_wordpress_site_pt_3-030618-PGM.00_35_01_04.Still001-sm.jpg",
+          "title": "Creating a WordPress Site Part 3",
+          "transcript": "",
+          "vimeoId": "259230318"
+        },
+        {
+          "description": "In this episode, Justin and Frank explore registering, configuring and displaying navigation and sidebars.",
+          "length": "1697",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-4-creating_a_wordpress_site_pt_4-030618-PGM.00_28_09_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-4-creating_a_wordpress_site_pt_4-030618-PGM.00_28_09_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-4-creating_a_wordpress_site_pt_4-030618-PGM.00_28_09_12.Still001-sm.jpg",
+          "title": "Creating a WordPress Site Part 4",
+          "transcript": "",
+          "vimeoId": "259230727"
+        },
+        {
+          "description": "In this episode, Justin and Frank explore using the template hierarchy to add custom page templates.",
+          "length": "1233",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-5-creating_a_wordpress_site_pt_5-030618-PGM.00_20_24_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-5-creating_a_wordpress_site_pt_5-030618-PGM.00_20_24_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-1-5-creating_a_wordpress_site_pt_5-030618-PGM.00_20_24_06.Still001-sm.jpg",
+          "title": "Creating a WordPress Site Part 5",
+          "transcript": "",
+          "vimeoId": "259230537"
+        },
+        {
+          "description": "With the site created, we want to add a custom post type for the client to add content to the site. We are also going to create special templates for our new custom post type.",
+          "length": "1654",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-2-1-adding_custom_post_types-032318-PGM.00_27_26_03.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-2-1-adding_custom_post_types-032318-PGM.00_27_26_03.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-2-1-adding_custom_post_types-032318-PGM.00_27_26_03.Still002-sm.jpg",
+          "title": "Adding Custom Post Types",
+          "transcript": "",
+          "vimeoId": "261844225"
+        },
+        {
+          "description": "While a custom site could be mostly static, WordPress allows us to create option pages to allow users to make changes to the theme.",
+          "length": "1562",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-3-1-creating_theme_options-032318-PGM.00_26_58_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-3-1-creating_theme_options-032318-PGM.00_26_58_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-3-1-creating_theme_options-032318-PGM.00_26_58_08.Still001-sm.jpg",
+          "title": "Creating Theme Options",
+          "transcript": "",
+          "vimeoId": "261843456"
+        },
+        {
+          "description": "WordPress has the Customizer which allows users to quickly make and preview changes to their website. In this episode, we will seeing how our theme can add options into the Customizer.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-4-1-extending_the_customizer-032318-PGM.00_30_43_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-4-1-extending_the_customizer-032318-PGM.00_30_43_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowordpressdevelopment/techskills-introtowordpressdevelopment-3-4-1-extending_the_customizer-032318-PGM.00_30_43_24.Still001-sm.jpg",
+          "title": "Extending the Customizer",
+          "transcript": "",
+          "vimeoId": "261843890"
+        }
+      ],
+      "title": "Creating a WordPress Site"
+    }
+  ],
+  "url": "introwordpress-development",
+  "vLab": false
+}

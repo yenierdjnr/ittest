@@ -1,0 +1,373 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows 8 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "descriptionMD": "",
+  "length": "125374",
+  "name": "MCSA Windows 8.1 - 70-687",
+  "practiceExam": true,
+  "subtitle": "Configuring Windows 8.1",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows 8 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+          "length": "631",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview-sm.jpg",
+          "title": "Overview of MCSA Windows 8.1 (70-687)",
+          "transcript": "",
+          "vimeoId": "112926023"
+        }
+      ],
+      "title": "Overview of MCSA Windows 8.1 (70-687)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don and Nate introduce us to the Windows 8 operating system. They take a few moments to discuss what is new in Windows 8 and run through a few installation scenarios.",
+          "length": "6542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8-sm.jpg",
+          "title": "Intro To Windows 8",
+          "transcript": "",
+          "vimeoId": "78228492"
+        },
+        {
+          "description": "In this episode Ronnie and Don describe the hardware requirements of installing Windows RT on ARM-based processor devices. They emphasize features important to Windows 8.1 which have been improved including Hyper-V, Miracast Display and Secure Boot.",
+          "length": "1932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements-sm.jpg",
+          "title": "Hardware Requirements",
+          "transcript": "",
+          "vimeoId": "87125066"
+        },
+        {
+          "description": "In this episode Ronnie and Don describe and demonstrate how to add additional feature to Windows 8.1 that may not be installed by default. They also demonstrate how to configure the OS to use an additional input language.",
+          "length": "1246",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features-sm.jpg",
+          "title": "Additional Features",
+          "transcript": "",
+          "vimeoId": "87125067"
+        },
+        {
+          "description": "In this episode Nate and Ronnie take a look at configuring user profiles. They discuss and demonstrate roaming profiles, mandatory profiles, super-mandatory profiles and how to use the primary computers feature to restrict profile use.",
+          "length": "4314",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles-sm.jpg",
+          "title": "Configuring User Profiles",
+          "transcript": "",
+          "vimeoId": "86925893"
+        },
+        {
+          "description": "In this episode Ronnie and Don configure a domain user to use roaming profiles. They also explain the scenarios in which roaming profiles would be preferred over traditional local profiles.",
+          "length": "877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles-sm.jpg",
+          "title": "Roaming Profiles",
+          "transcript": "",
+          "vimeoId": "87125069"
+        },
+        {
+          "description": "In this episode Nate and Don take a look at Windows Easy Transfer (WET), the User State Migration Tool (USMT), and Folder Redirection. These are all tools used to transfer a user's information between computers.",
+          "length": "4740",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles-sm.jpg",
+          "title": "Migrating User Profiles",
+          "transcript": "",
+          "vimeoId": "78343712"
+        }
+      ],
+      "title": "Install and upgrade to Windows 8.1"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don install, upgrade, and roll-back device drivers, as well as demonstrate how to locate the proper drivers for specific hardware.",
+          "length": "4416",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1-sm.jpg",
+          "title": "Hardware and Apps Part 1",
+          "transcript": "",
+          "vimeoId": "159548369"
+        },
+        {
+          "description": "In this episode Nate and Don discuss application compatibility settings. They demonstrate creating application shims as well as side-loading Windows 8 modern style apps.",
+          "length": "6137",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2-sm.jpg",
+          "title": "Hardware and Apps Part 2",
+          "transcript": "",
+          "vimeoId": "78229080"
+        },
+        {
+          "description": "In this episode Mike and Nate demonstrate creating AppLocker rules as well as configuring access to hardware. They also discuss basic Internet Explorer features and how to configure them.",
+          "length": "6952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3-sm.jpg",
+          "title": "Hardware and Apps Part 3",
+          "transcript": "",
+          "vimeoId": "78345007"
+        },
+        {
+          "description": "In this episode Mike and Nate demonstrate configuring Hyper-V. They show how to install the feature, create virtual machines, virtual switches, and virtual hard drives. The finish by discussing how to manage snapshots and exporting virtual machines.",
+          "length": "5717",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4-sm.jpg",
+          "title": "Hardware and Apps Part 4",
+          "transcript": "",
+          "vimeoId": "78229087"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss the use of signed and unsigned drivers and demonstrate how to install them. They also explain how to pre-stage drivers into the Windows 8.1 DriverStore. ",
+          "length": "816",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers-sm.jpg",
+          "title": "Managing Drivers",
+          "transcript": "",
+          "vimeoId": "87125070"
+        },
+        {
+          "description": "In this episode Ronnie and Don explore various ways of limiting the applications an end user can execute. They demonstrate software restriction policies as well as the new Assigned Access feature in Windows 8 which allow you to pick and choose the application an end user should be allowed to run.",
+          "length": "1999",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access-sm.jpg",
+          "title": "Restricting Access",
+          "transcript": "",
+          "vimeoId": "87669808"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at the general settings in Internet Explorer 11 and discuss some of the commonly configured components. They also discuss some of the new issues that may arise from using a new browser and demonstrate techniques like Compatibility View which can be used to correct them.",
+          "length": "1928",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11-sm.jpg",
+          "title": "Internet Explorer 11",
+          "transcript": "",
+          "vimeoId": "87669809"
+        },
+        {
+          "description": "In this episode Ronnie and Don examine some of the new features added to Hyper-V in Windows 8.1. In particular they demonstrate moving virtual machine storage while the VM is online. They also explain what each of the integration services do and demonstrate how to individually enable and disable them.",
+          "length": "919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features-sm.jpg",
+          "title": "Hyper-V New Features",
+          "transcript": "",
+          "vimeoId": "87669835"
+        }
+      ],
+      "title": "Configure hardware and applications"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don tackle basic networking concepts in Windows 8. They take a look at assigning IPv4 and IPv6 address as well as basic troubleshooting.",
+          "length": "4820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity-sm.jpg",
+          "title": "Network Connectivity",
+          "transcript": "",
+          "vimeoId": "78229344"
+        },
+        {
+          "description": "In this episode Mike and Nate delve into the world of network security. They cover Windows Firewall, IPSec policies and wireless security.",
+          "length": "6315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security-sm.jpg",
+          "title": "Network Security",
+          "transcript": "",
+          "vimeoId": "78229410"
+        },
+        {
+          "description": "In this episode Mike and Nate explorer the tools and techniques used for remote management. They cover Remote Desktop, RSAT, WinRM/RS as well as Windows PowerShell.",
+          "length": "4713",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management-sm.jpg",
+          "title": "Remote Management",
+          "transcript": "",
+          "vimeoId": "78229564"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at supporting users remotely with Remote Assistance and Easy Connect in Windows 8.1. They discuss the need, benefits and requirements of Remote Assistance in a business environment. They also demonstrate using Remote Assistance.",
+          "length": "1335",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance-sm.jpg",
+          "title": "Remote Assistance",
+          "transcript": "",
+          "vimeoId": "89330911"
+        }
+      ],
+      "title": "Configure network connectivity"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don take a look at sharing folders and libraries as well as introduce the viewers to permissions and shared printing. They also explore using Homegroups to share data and do a quick examination of EFS.",
+          "length": "5499",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources-sm.jpg",
+          "title": "Configure Shared Resources",
+          "transcript": "",
+          "vimeoId": "78229717"
+        },
+        {
+          "description": "In this episode Mike and Nate take a look at NTFS permissions, disk quotas and object access auditing. They demonstrate the processes needed to configure various NTFS permissions and disk quotas as well as enabling and logging object access auditing.",
+          "length": "6542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access-sm.jpg",
+          "title": "File and Folder Access",
+          "transcript": "",
+          "vimeoId": "78229886"
+        },
+        {
+          "description": "In this episode Mike and Nate dive into securing Windows 8 clients using local security policies and User Account Control. They also demonstrate configuring SmartScreen filters and enabling Secure Boot.",
+          "length": "5503",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings-sm.jpg",
+          "title": "Local Security Settings",
+          "transcript": "",
+          "vimeoId": "78345008"
+        },
+        {
+          "description": "In this episode Mike and Nate introduce us to the process of authenticating users and authorizing access. They also cover managing credentials and certificates with smart cards.",
+          "length": "3588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization-sm.jpg",
+          "title": "Authentication & Authorization",
+          "transcript": "",
+          "vimeoId": "78229851"
+        },
+        {
+          "description": "In this episode Mike and Nate conclude their A&A discussion by covering biometrics as well as picture passwords and PIN. They also demonstrate setting up a Microsoft Account through Windows 8.",
+          "length": "3310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2-sm.jpg",
+          "title": "Authentication & Authorization Part 2",
+          "transcript": "",
+          "vimeoId": "78230029"
+        },
+        {
+          "description": "In this episode Ronnie and Don explain user authentication in workgroups and domains. They talk about the differences and benefits between the two environments. They discuss the use of virtual smartcards for authentication and explain the benefits of keeping the User Account Control (UAC) enabled.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods-sm.jpg",
+          "title": "Authentication Methods",
+          "transcript": "",
+          "vimeoId": "89330912"
+        }
+      ],
+      "title": "Configure access to resources"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Mike take a look at configuring virtual private networks (VPN) and the technologies supporting remote access such as VPN Reconnect. They also demonstrate how to support a user through Remote Assistance.",
+          "length": "6361",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections-sm.jpg",
+          "title": "Configure Remote Connections",
+          "transcript": "",
+          "vimeoId": "78230186"
+        },
+        {
+          "description": "In this episode Nate and Don take a look at mobility settings in Windows 8. They explore the differences between desktop and laptop systems and demonstrate some of the advanced features such as power management, offline files and drive encryption.",
+          "length": "6037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options-sm.jpg",
+          "title": "Mobility Options",
+          "transcript": "",
+          "vimeoId": "78230558"
+        },
+        {
+          "description": "In this episode Nate and Ronnie complete the 70-687 new objectives by tackling the last topic of using Windows 8.1 with Broadband Tethering.  They describe the use of broadband air cards and the native ability to do broadband tethering with 8.1 and they describe the ease of configuration.",
+          "length": "1121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering-sm.jpg",
+          "title": "Broadband Tethering",
+          "transcript": "",
+          "vimeoId": "89722320"
+        }
+      ],
+      "title": "Configure remote access and mobility"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don take a look at keeping a Windows 8 system healthy and optimized. They discuss regular updates and patching as well as storage redundancy mechanisms.",
+          "length": "5297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1-sm.jpg",
+          "title": "Maintaining Windows Part 1",
+          "transcript": "",
+          "vimeoId": "78230581"
+        },
+        {
+          "description": "In this episode Mike and Nate wrap up maintaining Windows 8 by analyzing event logs and creating event subscriptions. They also demonstrate Task Manager, Reliability Monitor as well as optimizing indexing options.",
+          "length": "6503",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2-sm.jpg",
+          "title": "Maintaining Windows Part 2",
+          "transcript": "",
+          "vimeoId": "78230839"
+        }
+      ],
+      "title": "Monitor and maintain Windows clients"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don take a look and backup and recovery. They show several different options for backing up individual files and entire systems and how to restore them when disaster strikes.",
+          "length": "5227",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery-sm.jpg",
+          "title": "Backup and Recovery",
+          "transcript": "",
+          "vimeoId": "78230294"
+        },
+        {
+          "description": "In this ITProTV special Nate and Ronnie take a look at recovery features in Windows 8.1. They talk briefly about creating a recovery drive and partition, creating System Restore points and recovering files with Microsoft OneDrive (SkyDrive). They also show how to create a recovery drive, system restore points and recovering a file with OneDrive.",
+          "length": "2402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options-sm.jpg",
+          "title": "Recovery Options",
+          "transcript": "",
+          "vimeoId": "89418734"
+        }
+      ],
+      "title": "Configure backup and recovery options"
+    }
+  ],
+  "url": "mcsa-windows-8",
+  "vLab": true
+}
