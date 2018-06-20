@@ -2,7 +2,9 @@
 
 
 .mainLayout {
-  display: grid;
+  @include display-grid;
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: 9rem auto auto;
   grid-template-columns: 1fr;
   grid-template-rows: 9rem auto auto;
   grid-template-areas:

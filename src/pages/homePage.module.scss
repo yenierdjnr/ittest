@@ -9,111 +9,153 @@ $breakpoints: (
 
 .home {
   grid-area: main;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2 - 3;
 
-  display: grid;
+  @include display-grid;
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: 600px 80px 320px 157px auto 145px auto 500px 820px auto 652px 430px;
   grid-template-columns: 1fr;
   grid-template-rows: 600px 80px 320px 157px auto 145px auto 500px 820px auto 652px 430px;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 3;
+  @include grid-column(1,-1);
+  @include grid-row(1,3);
+  // grid-column: 1 / -1;
+  // grid-row: 1 / 3;
 }
 
 .For {
-  grid-column: 1 / -1;
-  grid-row:  2 / 4;
+  @include grid-column(1,-1);
+  @include grid-row(2,4);
+  // grid-column: 1 / -1;
+  // grid-row:  2 / 4;
 }
 
 .Engagements {
-  grid-column: 1 / -1;
-  grid-row:  5 / 6;
+  @include grid-column(1,-1);
+  @include grid-row(5,6);
+  // grid-column: 1 / -1;
+  // grid-row:  5 / 6;
 }
 
 .Stats {
-  grid-column: 1 / -1;
-  grid-row: 7 / 8;
+  @include grid-column(1,-1);
+  @include grid-row(7,8);
+  // grid-column: 1 / -1;
+  // grid-row: 7 / 8;
 }
 
 .Video {
-  grid-column: 1 / -1;
-  grid-row:  8 / 9;
+  @include grid-column(1,-1);
+  @include grid-row(8,9);
+  // grid-column: 1 / -1;
+  // grid-row:  8 / 9;
 }
 
 .Testimonials {
-  grid-column: 1 / -1;
-  grid-row:  9 / 10;
+  @include grid-column(1,-1);
+  @include grid-row(9,10);
+  // grid-column: 1 / -1;
+  // grid-row:  9 / 10;
 }
 
 .Vendors {
-  grid-column: 1 / -1;
-  grid-row:  10 / 11;
+  @include grid-column(1,-1);
+  @include grid-row(10,11);
+  // grid-column: 1 / -1;
+  // grid-row:  10 / 11;
 }
 
 .Plans {
-  grid-column: 1 / -1;
-  grid-row:  11 / 12;
+  @include grid-column(1,-1);
+  @include grid-row(11,12);
+  // grid-column: 1 / -1;
+  // grid-row:  11 / 12;
 }
 
 .Pamphlet {
-  grid-column: 1 / -1;
-  grid-row:  12 / 13;
+  @include grid-column(1,-1);
+  @include grid-row(12,13);
+  // grid-column: 1 / -1;
+  // grid-row:  12 / 13;
 }
 
 
 @include media('<tablet') {
   .home {
+    -ms-grid-rows: 600px 80px 320px 157px auto 145px auto 500px 820px auto;
     grid-template-rows: 600px 80px 320px 157px auto 145px auto 500px 820px auto;
   }
 }
 
 @include media('<lower-tablet') {
   .home {
+    -ms-grid-rows: auto 47px auto 70px auto 64px auto 500px auto auto;
     grid-template-rows: auto 47px auto 70px auto 64px auto 500px auto auto;
   }
 
   .Hero {
-    grid-column: 1 / -1;
-    grid-row: 1 / 3;
+    @include grid-column(1,-1);
+    @include grid-row(1,3);
+    // grid-column: 1 / -1;
+    // grid-row: 1 / 3;
   }
 
   .For {
-    grid-column: 1 / -1;
-    grid-row:  2 / 4;
+    @include grid-column(1,-1);
+    @include grid-row(2,4);
+    // grid-column: 1 / -1;
+    // grid-row:  2 / 4;
   }
 
   .Engagements {
-    grid-column: 1 / -1;
-    grid-row:  5 / 6;
+    @include grid-column(1,-1);
+    @include grid-row(5,6);
+    // grid-column: 1 / -1;
+    // grid-row:  5 / 6;
   }
 
   .Stats {
-    grid-column: 1 / -1;
-    grid-row: 7 / 8;
+    @include grid-column(1,-1);
+    @include grid-row(7,8);
+    // grid-column: 1 / -1;
+    // grid-row: 7 / 8;
   }
 
   .Video {
-    grid-column: 1 / -1;
-    grid-row:  8 / 9;
+    @include grid-column(1,-1);
+    @include grid-row(8,9);
+    // grid-column: 1 / -1;
+    // grid-row:  8 / 9;
   }
 
   .Testimonials {
-    grid-column: 1 / -1;
-    grid-row:  9 / 10;
+    @include grid-column(1,-1);
+    @include grid-row(9,10);
+    // grid-column: 1 / -1;
+    // grid-row:  9 / 10;
   }
 
   .Vendors {
-    grid-column: 1 / -1;
-    grid-row:  10 / 11;
+    @include grid-column(1,-1);
+    @include grid-row(10,11);
+    // grid-column: 1 / -1;
+    // grid-row:  10 / 11;
   }
 
   .Plans {
-    grid-column: 1 / -1;
-    grid-row:  11 / 12;
+    @include grid-column(1,-1);
+    @include grid-row(11,12);
+    // grid-column: 1 / -1;
+    // grid-row:  11 / 12;
   }
 
   .Pamphlet {
-    grid-column: 1 / -1;
-    grid-row:  12 / 13;
+    @include grid-column(1,-1);
+    @include grid-row(12,13);
+    // grid-column: 1 / -1;
+    // grid-row:  12 / 13;
   }
 }
