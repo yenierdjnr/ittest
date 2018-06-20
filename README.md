@@ -13,7 +13,7 @@ Run `docker-compose up`, this will build the docker container for gatsby and ins
 
 ## Updating data files
 
-The site was populated with production data on 6/20/2018. If the data needed for the site changes, the site needs to be re-populated.In order to properly re-populate the site, follow the following steps:
+The site was populated with production data on 6/20/2018 (this date should be updated when the site is updated to keep track of when the script should run). If the data needed for the site changes, the site needs to be re-populated. In order to properly re-populate the site, follow the following steps:
 1. `cd` to the repo root directory.
 2. Run `./dataPopulate.sh` from the command line.
 
