@@ -227,6 +227,13 @@ const metaData = {
     title: 'Blog | ITProTV',
     description: '',
     canonical: `${process.env.SELF_URL}/blog/`
+  },
+  '/404/': {
+    page: '404',
+    path: '/404/',
+    title: '404 - Page Not Found',
+    description: '',
+    canonical: `${process.env.SELF_URL}/404/`
   }
 };
 
