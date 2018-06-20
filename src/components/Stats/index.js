@@ -102,7 +102,7 @@ class Stats extends Component {
             useGrouping={true}
             separator=","
            />
-          <p className={ styles.summary}>combined certifications held by ITProTV edutainers</p>
+          <p className={ styles.summary}>combined certifications held by ITProTV Edutainers</p>
         </div>
         <div className={ styles.right }>
           <CountUp
