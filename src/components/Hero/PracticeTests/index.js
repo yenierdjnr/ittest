@@ -14,7 +14,7 @@ const PracticeTests = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>Practice Tests</Hx>
+        <Hx size="1" className={ title }>Practice Tests</Hx>
       </div>
     </section>
 

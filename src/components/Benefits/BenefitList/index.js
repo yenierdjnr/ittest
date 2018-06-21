@@ -56,7 +56,7 @@ const benefitsData = [
     free: false
   },
   {
-    title: 'Take unlimited Kaplan IT Training practice exams',
+    title: 'Take unlimited Kaplan IT Training practice tests',
     subtitle: '($109 ea. individual value)',
     premium: true,
     standard: false,
