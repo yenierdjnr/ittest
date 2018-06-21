@@ -22,3 +22,4 @@ export { default as ITResourcesHero } from './ITResources';
 export { default as VirtualLabsHero } from './VirtualLabs';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as Blog } from './Blog';
+export { default as PageNotFoundHero } from './404';
