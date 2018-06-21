@@ -21,10 +21,10 @@ const CoursePageHero = props => {
   return (
     <section className={ styles.container }>
       <div className={ styles.intro }>
-        <Link to={`/courses/${props.tagUrl}`} className={ styles.navigation }>
+        <span onClick={ () => props.history.goBack() } className={ styles.navigation }>
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
-          {props.tagUrl}
-        </Link>
+          back
+        </span>
         <Hx className={ styles.title } size="1">{props.title}</Hx>
         <Para className={ styles.subtitle }>
           {props.subtitle}

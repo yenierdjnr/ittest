@@ -17,7 +17,8 @@ const lengthToString = (length) => {
 
 const Course = ({ className='', title='Course Title', description='001-01', courseLength, url }) => {
   return (
-    <Link to={url} className={ `${className} ${styles.link}` }>
+    <Link to={ url } 
+            className={ `${className} ${styles.link}` }>
       <li className={ `${className} ${styles.container}` }>
         <Hx className={ styles.title } color={ styles.offBlack } size='5'>{ title }</Hx>
         <div className={ styles.course }>

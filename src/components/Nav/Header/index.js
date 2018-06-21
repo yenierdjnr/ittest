@@ -41,14 +41,6 @@ class HeaderNav extends Component {
        break;
       }
 
-      if (currentPath === '/search/' && link.pathname === '/courses/') {
-        link.parentElement.classList.add(styles.active);
-         this.setState({
-          previousPath: link
-         });
-         break;
-      }
-
       if (regex.test(currentPath) && link.pathname === '/courses/') {
         link.parentElement.classList.add(styles.active);
        this.setState({
@@ -90,7 +82,7 @@ class HeaderNav extends Component {
             </li>
 
             <li className={ styles['menu-item-diff'] }>
-            <a className={ styles['login-link'] } href={`${process.env.SELF_URL}/login/`} loginLnk>log in</a>
+            <a className={ styles['login-link'] } href={`${process.env.ITPROTV_URL}/login/`} loginLnk>log in</a>
             </li>
             <li className={ styles['menu-item-diff'] }>
               <Link className={ styles['try-free'] } to="/plans/">try it free</Link>
