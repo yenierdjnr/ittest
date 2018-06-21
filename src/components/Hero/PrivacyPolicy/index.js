@@ -14,7 +14,7 @@ const PrivacyPolicy = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>Privacy Policy</Hx>
+        <Hx size="1" className={ title }>Privacy Policy</Hx>
       </div>
     </section>
 

@@ -85,21 +85,21 @@ const metaData = {
     page: 'team',
     path: '/team/',
     title: 'ITProTV Team',
-    description: '',
+    description: 'Empower your IT team with the IT skills they need with binge-worthy learning from ITProTV',
     canonical: `${process.env.SELF_URL}/team/`
   },
   '/contact/': {
     page: 'contact',
     path: '/contact/',
     title: 'Contact | ITProTV',
-    description: '',
+    description: 'Contact ITProTV',
     canonical: `${process.env.SELF_URL}/contact/`
   },
   '/government/': {
     page: 'government',
     path: '/government/',
     title: 'Government | IT Training for Agency Personnel',
-    description: '',
+    description: 'Online IT training for government officials looking to comply with the latest DoD-Approved 8140/8570 baseline certifications',
     canonical: `${process.env.SELF_URL}/government/`
   },
   '/practice-tests/': {
@@ -113,7 +113,7 @@ const metaData = {
     page: 'edutainers',
     path: '/edutainers/',
     title: 'ITProTV Edutainers',
-    description: '',
+    description: 'Meet ITProTV’s Edutainers; the experienced IT professionals who create engaging and entertaining IT training content',
     canonical: `${process.env.SELF_URL}/edutainers/`
   },
   '/career-resources/': {

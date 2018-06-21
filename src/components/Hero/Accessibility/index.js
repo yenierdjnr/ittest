@@ -14,7 +14,7 @@ const Accessibility = ({ className='' }) => {
   return (
     <section className={ container }>
       <div className={ intro }>
-        <Hx size="2" className={ title }>ITProTV Accessibility</Hx>
+        <Hx size="1" className={ title }>ITProTV Accessibility</Hx>
       </div>
     </section>
 
