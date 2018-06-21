@@ -19,7 +19,7 @@ const Standard = ({ className='', info }) => {
   }
 
   return (
-    <a href={ `${process.env.SELF_URL}/plans/standard-signup/${info.type}` } className={ container }>
+    <a href={ `${process.env.ITPROTV_URL}/plans/standard-signup/${info.type}/` } className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.blue } size="6">standard</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The Good Stuff</Hx>

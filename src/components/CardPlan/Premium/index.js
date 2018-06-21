@@ -19,7 +19,7 @@ const Premium = ({ className='', info }) => {
   }
 
   return (
-    <a href={ `${process.env.SELF_URL}/plans/premium-signup/${info.type}` } className={ container }>
+    <a href={ `${process.env.ITPROTV_URL}/plans/premium-signup/${info.type}/` } className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.purple } size="6">premium</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Best Value</Hx>
