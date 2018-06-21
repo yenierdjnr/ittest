@@ -16,7 +16,7 @@ const VirtualLabs = ({ data, history, location, match, page, pageResources, page
         </section>
 
         <section className={ styles.Info }>
-          <Vlabs vLabs={ data.vLabs.edges.map(edge => edge.node) } />
+          <Vlabs vLabs={ data.vLabs.edges.map(edge => edge.node).filter(lab => lab.labs.length !== 0) } />
         </section>
 
       </main>
