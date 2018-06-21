@@ -25,7 +25,7 @@ const Premium = ({ className='', info }) => {
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Best Value</Hx>
         <span className={ perks }>Full ITProTV, OfficeProTV, DevProTV, CreativeProTV, & BizProTV course libraries</span>
         <span className={ perks }>Virtual labs</span>
-        <span className={ perks }>Practice exams</span>
+        <span className={ perks }>Practice tests</span>
       </div>
       <div className={ styles.pricing }>
         <Hx className={ styles.price } color={ styles.purple } size="2">${ premium.price }<span className={ styles['per-year'] }>/ { premium.term }</span></Hx>

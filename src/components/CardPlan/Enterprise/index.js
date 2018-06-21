@@ -26,7 +26,7 @@ const Enterprise = ({ className='' }) => {
           <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Team Plan</Hx>
           <span className={ perks }>Full ITProTV, OfficeProTV, DevProTV, CreativeProTV, & BizProTV course libraries</span>
           <span className={ perks }>Virtual labs</span>
-          <span className={ perks }>Practice exams</span>
+          <span className={ perks }>Practice tests</span>
         </div>
         <div className={ styles.pricing }>
           <Hx className={ price } color={ styles.orange } size="3.2">Quoted on team size</Hx>
