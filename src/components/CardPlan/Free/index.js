@@ -17,7 +17,7 @@ const Free = ({ className='', info }) => {
   }
 
   return (
-    <a href={`${process.env.SELF_URL}/plans/free-signup/`} className={ container }>
+    <a href={`${process.env.ITPROTV_URL}/plans/free-signup/`} className={ container }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.darkGreen } size="6">free</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just Looking</Hx>
