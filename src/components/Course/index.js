@@ -57,7 +57,7 @@ class CoursePage extends Component {
 
 
         <section className={ styles.Hero }>
-          <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } />
+          <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
         </section>
 
         <section className={ styles.container }>
