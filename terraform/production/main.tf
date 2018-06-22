@@ -21,6 +21,7 @@ resource "aws_s3_bucket" "production_bucket" {
   website_domain = "new-production.itpro.tv"
   website {
     index_document = "index.html"
+    error_document = "404.html"
   }
 
 }
