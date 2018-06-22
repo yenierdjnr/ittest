@@ -13,44 +13,20 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .row;
   padding: 5rem 0 3rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr auto 1fr;
 }
 
-.list {
-  grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
-.item {
-  width: 31.4rem;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-
-  &:not(:last-child) {
-    margin-right: 4.1rem;
-  }
-  &:last-child {
-    width: 33.3rem;
-  }
+.icon {
+  padding: 0 4rem;
 }
 
 .icon-box {
   width: 12rem;
   height: 12rem;
-  margin-bottom: 4.8rem;
-
+  margin-bottom: 3rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-
   border-radius: 6rem;
   background-color: $color-white-light;
 }
@@ -73,78 +49,19 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding: 6.4rem 0 6.6rem;
+    padding: 2rem 0 6.6rem;
   }
-
-  .list {
-    padding: 0 4rem;
-    flex-flow: column nowrap;
+  .icon {
+    margin: 0 6rem;
+    padding: 2rem 0;
   }
-
-  .item {
-    max-width: 29.5rem;
-
-    &:not(:last-child) {
-      margin-bottom: 5.6rem;
-      margin-right: 0;
-    }
-  }
-
-  .item:last-child {
-    .summary {
-      position: relative
-    }
-    .title {
-      position: absolute;
-      width: 32.1rem;
-    }
-    .subtitle {
-      margin-top: 6rem;
-    }
-  }
-
   .icon-box {
-    width: 10rem;
-    height: 10rem;
-    margin-bottom: 4rem;
-    border-radius: 5rem;
-
-    & .faq-section {
-      width: 6.5rem;
-      height: 7.5rem;
-    }
-    & .forum {
-      width: 5rem;
-      height: 6.7rem;
-    }
-    & .contact {
-      width: 5.2rem;
-      height: 6.9rem;
-    }
+    margin-bottom: 2rem;
   }
 }
 
-@include media('<=lower-phone') {
-  .item:last-child {
-    width: 24rem;
-    max-width: 29.5rem;
-
-    .summary {
-      position: unset;
-    }
-    .title {
-      position: unset;
-      width: unset;
-      max-width: 29.5rem;
-    }
-    .subtitle {
-      margin-top: 0;
-    }
-  }
-}
-
-@include media('<lower-phone') {
-  .item {
-    width: 24rem;
+@include media('<=upper-phone') {
+  .icon {
+    margin: 0 2rem;
   }
 }
