@@ -12,15 +12,17 @@ $breakpoints: (
 );
 
 .capsule {
-  padding: 2rem 22rem;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  padding: 5,6rem 0 6.8rem;
+  @extend .row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .eulaStyle {
   list-style-type: decimal;
-  grid-column: 2 / 3;
   flex-flow: row nowrap;
   justify-content: space-between;
   font-size: 1.6rem;
@@ -33,7 +35,6 @@ $breakpoints: (
 .content {
   max-width: 1024px;
   margin: 0;
-  grid-column: 2 / 3;
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: left;
@@ -46,7 +47,6 @@ $breakpoints: (
 }
 
 .subtitle {
-  grid-column: 2 / 3;
   @include proxima-semi-bold;
   font-size: 3.6rem;
   line-height: 3.8rem;
@@ -62,7 +62,6 @@ $breakpoints: (
 .reviseDate {
   max-width: 1024px;
   margin: 0;
-  grid-column: 2 / 3;
   font-size: 1.6rem;
   font-style: italic;
   line-height: 2.4rem;
@@ -71,9 +70,6 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
-  .capsule {
-    padding: 0 2rem;
-  }
 
   .content {
     flex-flow: column nowrap;

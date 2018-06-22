@@ -9,7 +9,7 @@ import styles from './eula.module.scss';
 const Eula = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location } />,
       <main className={ styles.eula }>
 
         <section className={ styles.Hero }>

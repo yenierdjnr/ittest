@@ -6,6 +6,7 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .container-fluid;
   padding: 7.2rem 0 7.5rem;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
