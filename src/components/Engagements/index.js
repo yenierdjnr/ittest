@@ -6,7 +6,7 @@ import { Courses, Labs, Exams } from './Types';
 
 const Engagements = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <Courses className={ styles.courses } />
       <Labs className={ styles.labs } />
       <Exams className={ styles.exams } />

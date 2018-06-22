@@ -4,14 +4,14 @@ import Hx from 'Elements/Hx';
 import Carousel from 'Elements/Carousel';
 import QuoteCard from 'Components/QuoteCard';
 import {
-  container, content,
+  capsule, content,
   title, offBlack
 } from './styles.module.scss';
 
 
 const HomeTestimonials = props => {
   return (
-    <div className={ container }>
+    <div className={ capsule }>
       <div className={ content }>
         <Hx className={ title } color={ offBlack } size="2">Join a Community of IT Pros Sharpening Their Skills the Fun Way</Hx>
         <Carousel>

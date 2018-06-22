@@ -11,13 +11,13 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 2rem 0 6.8rem;
 }
 
-.listContainer {
+.listcapsule {
   display: flex;
   flex-wrap: wrap;
   grid-column: 2 / 3;
@@ -51,7 +51,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 0 2rem 2rem;
   }
 

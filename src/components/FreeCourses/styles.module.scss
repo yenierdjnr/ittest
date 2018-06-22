@@ -12,7 +12,7 @@ $breakpoints: (
   darkGrey: $color-grey-dark;
 }
 
-.container {
+.capsule {
   padding: 9.6rem 0 13rem;
 
   @include display-grid;
@@ -53,7 +53,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 5.6rem 0 5.2rem;
   }
 

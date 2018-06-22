@@ -11,7 +11,7 @@ import { ViewportAnimation } from 'Elements/Viewport'
 
 const ForTeamsSummary = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <ul className={ styles.list }>
         <ViewportAnimation>
           <li className={ styles.item }>

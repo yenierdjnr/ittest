@@ -31,7 +31,7 @@ const episodes = [
 
 const FreeCourses = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.intro }>
         <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
       </div>

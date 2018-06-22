@@ -9,7 +9,7 @@ import { IconCertificate, IconLabs, IconExams } from 'Elements/Icons';
 
 const GovernmentContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
 
         <ul className={ styles.list }>
           <li className={ styles.item }>

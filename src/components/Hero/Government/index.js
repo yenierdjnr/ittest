@@ -5,14 +5,14 @@ import Para from 'Elements/Para';
 import ButtonLink from 'Elements/ButtonLink';
 
 import {
-  container, intro,
+  capsule, intro,
   title, subtitle, link
 } from './styles.module.scss';
 
 
 const Government = ({ className='' }) => {
   return (
-    <section className={ container }>
+    <section className={ capsule }>
       <div className={ intro }>
         <Hx size="1" className={ title }>Online IT Training for Governments</Hx>
         <Para className={ subtitle }>Binge-worthy learning&trade; for your team</Para>

@@ -10,7 +10,7 @@ const ThankYouContent = props => {
   const { className='' } = props;
 
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
         <Hx size="1" className={ styles['title'] } color={ styles.offBlack } size="2">Thank you! We received your request.</Hx>
         <Para className={ styles['subtitle'] } color={ styles.offBlack } size="4">A team member will be in contact shortly.</Para>

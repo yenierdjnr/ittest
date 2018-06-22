@@ -10,7 +10,7 @@ const NewContent = props => {
   const { className='' } = props;
 
   return (
-    <section className={ `${className} ${styles.container}` }>
+    <section className={ `${className} ${styles.capsule}` }>
       <div className={ styles.content}>
         <div className={ styles.summary }>
           <Hx className={ styles.title } size="2">New Content Added Daily</Hx>

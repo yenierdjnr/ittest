@@ -15,7 +15,7 @@ $breakpoints: (
   white: $color-white;
 }
 
-.container {
+.capsule {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -79,7 +79,7 @@ $breakpoints: (
 }
 
 @include media('>=lower-tablet') {
-  .container {
+  .capsule {
     @include display-grid;
     grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
   }

@@ -17,12 +17,12 @@ const TeamCerts = ({ className='', testimonials }) => {
   };
 
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
         <Hx color={ styles.offBlack } size="2" className={ styles.intro }>Team Earns 40 Certifications in 12 Months</Hx>
 
         <div className={ styles.info }>
-          <div id="background-video" className={ `${styles['video-container']} ${className}` } onClick={ handlePlay }>
+          <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
             <div id="vidwrap-team-certs" className={ styles.vidwrap }></div>
             <IconPlay className={ styles['play-button'] }/>
             <Img outerWrapperClassName={ styles.imgWrapper } sizes={ testimonials.sizes } alt="team video"/>

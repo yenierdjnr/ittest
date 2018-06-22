@@ -8,7 +8,7 @@ $breakpoints: (
 );
 
 
-.container {
+.capsule {
   padding: 12rem 0;
 
   @include display-grid;
@@ -38,7 +38,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 6.8rem 0 5.1rem;
   }
 
@@ -76,7 +76,7 @@ $breakpoints: (
 }
 
 @include media('retina2x', '>lower-phone') {
-  .container {
+  .capsule {
     background-image: url('Images/forYou_hero@2x.jpg');
   }
 }

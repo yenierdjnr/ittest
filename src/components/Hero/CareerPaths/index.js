@@ -9,7 +9,7 @@ import { IconArrowRight } from 'Elements/Icons';
 
 const CareerPathsHero = ({ className='' }) => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles['intro'] }>
         <Link to="/career-resources/" className={ styles.navigation }>
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />

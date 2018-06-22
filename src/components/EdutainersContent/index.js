@@ -19,7 +19,7 @@ import Zach from 'Images/zach.jpg';
 
 const EdutainersContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Edutainers</Hx>
         <div className={ styles.wrapper }>
           <img className={ styles.headshot } src={ Adam } alt="Adam Gordon photo" />

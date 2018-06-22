@@ -9,8 +9,8 @@ import { IconExams, IconLabs } from 'Elements/Icons';
 
 const Enhancements = props => {
   return (
-    <section className={ styles.container }>
-      <div className={ styles.containerTitle }>
+    <section className={ styles.capsule }>
+      <div className={ styles.capsuleTitle }>
         <Hx className={ styles.title } color={ styles.offBlack } size="3">ITProTV Office Locations</Hx>
       </div>
 

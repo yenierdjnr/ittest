@@ -10,7 +10,7 @@ import styles from './styles.module.scss';
 const CareerCoach = ({ className='' }) => {
 
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
         <div className={ styles.details }>
           <Hx className={ styles.title } color={ styles.offBlack }size="2">Career Coach Services</Hx>

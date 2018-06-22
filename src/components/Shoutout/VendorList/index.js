@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 const VendorList = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <ul className={ styles.list }>
         <li className={ styles.item1 }><span>microsoft</span></li>
         <li className={ styles.item2 }><span>cisco</span></li>

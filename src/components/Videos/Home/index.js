@@ -36,7 +36,7 @@ class HomeVideo extends Component {
     const { showOpacity } = this.state;
 
     return (
-      <div id="background-video" className={ styles['home-container'] } onClick={ this.handlePlay }>
+      <div id="background-video" className={ styles['home-capsule'] } onClick={ this.handlePlay }>
         <div id="vidwrap" className={ `${styles.vidwrap} ${showOpacity}` }></div>
         <IconPlay className={ styles['play-button'] } />
       </div>

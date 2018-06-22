@@ -5,7 +5,7 @@ $breakpoints: (
   'lower-phone': $lower-phone
 );
 
-.container {
+.capsule {
   @include display-grid;
   grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
   background-image: url('Images/thankyouhero@2x.jpg');
@@ -32,7 +32,7 @@ $breakpoints: (
 }
 
 @include media('retina2x', '>lower-phone') {
-  .container {
+  .capsule {
     background-image: url('Images/thankyouhero@2x.jpg');
   }
 }

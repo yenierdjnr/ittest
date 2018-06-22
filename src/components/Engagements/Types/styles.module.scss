@@ -12,7 +12,7 @@ $breakpoints: (
   darkGrey: $color-grey-dark;
 }
 
-.container {
+.capsule {
   @include display-grid;
   @include secondary-1440-grid-template-columns;
 }
@@ -134,7 +134,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     -ms-grid-columns: auto;
     -ms-grid-rows: auto auto;
     grid-template-columns: auto;

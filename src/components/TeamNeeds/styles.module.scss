@@ -8,7 +8,7 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   padding: 12rem 0 15.4rem;
 
   background-color: $color-purple-dark;
@@ -57,7 +57,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 7.2rem 4rem 7.4rem;
   }
 

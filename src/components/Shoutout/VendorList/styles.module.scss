@@ -7,7 +7,7 @@ $breakpoints: (
   'lower-phone': $lower-phone
 );
 
-.container {
+.capsule {
   padding: 7.1rem;
 
   display: flex;
@@ -60,7 +60,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 3.3rem 0;
   }
 

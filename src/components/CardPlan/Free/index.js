@@ -8,16 +8,16 @@ import styles from '../styles.module.scss';
 
 const Free = ({ className='', info }) => {
   const { free } = info;
-  let container = `${styles.container} ${className}`;
+  let capsule = `${styles.capsule} ${className}`;
   let description = styles.description;
 
   if (className === 'pricing') {
-    container = `${container} ${styles.plans}`;
+    capsule = `${capsule} ${styles.plans}`;
     description = `${description} ${styles.plans}`;
   }
 
   return (
-    <a href={`${process.env.ITPROTV_URL}/plans/free-signup/`} className={ container }>
+    <a href={`${process.env.ITPROTV_URL}/plans/free-signup/`} className={ capsule }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.darkGreen } size="6">free</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Just Looking</Hx>

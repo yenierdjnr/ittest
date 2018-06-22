@@ -8,7 +8,7 @@ import BenefitList from './BenefitList';
 
 const Benefits = ({ className='' }) => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
         <Hx className={ styles.title } color={ styles.offBlack } size="4">ITProTV Membership Benefits</Hx>
         <div className={ styles.plans }>

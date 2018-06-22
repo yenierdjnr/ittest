@@ -16,7 +16,7 @@ class Menu extends Component {
     const { className='', categories=[], activeCategory } = this.props;
 
     return (
-      <section className={ `${className} ${styles.container}` }>
+      <section className={ `${className} ${styles.capsule}` }>
         <ul className={ styles.list }>
           {categories.map((category, index) => (
               <li

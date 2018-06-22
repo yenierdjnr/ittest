@@ -6,7 +6,7 @@ $breakpoints: (
 );
 
 
-.container {
+.capsule {
   @include display-grid;
   -ms-grid-columns: 1fr minmax(auto, 1024px) 1fr;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
@@ -87,7 +87,7 @@ a.for-you-link {
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     display: none;
   }
 }

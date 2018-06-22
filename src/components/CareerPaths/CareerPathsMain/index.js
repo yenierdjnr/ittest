@@ -59,7 +59,7 @@ const paths = [
 
 const CareerPathsMain = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <ul className={ styles.flags }>
         {
           paths.map((path, i) => {

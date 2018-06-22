@@ -7,7 +7,7 @@ $breakpoints: (
   'lower-phone': $lower-phone
 );
 
-.container {
+.capsule {
   @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   background-color: $color-offblack;

@@ -7,7 +7,7 @@ import Hx from 'Elements/Hx';
 
 const VirtualLabsHero = ({ className='', handleSwitch }) => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles['intro'] }>
         <Hx size="1" className={ styles['title'] }>Virtual Labs</Hx>
         <Hx size="3" className={ styles['subtitle'] }>Try your new skills in a risk-free environment</Hx>

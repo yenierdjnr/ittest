@@ -12,7 +12,7 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   padding: 5rem 0 3rem;
 
   @include display-grid;
@@ -75,7 +75,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 6.4rem 0 6.6rem;
   }
 

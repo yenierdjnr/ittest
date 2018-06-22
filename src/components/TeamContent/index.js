@@ -17,10 +17,10 @@ import Pete from 'Images/pete.jpg';
 
 const TeamContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Leadership Team</Hx>
 
-      <ul className={ styles.listContainer }>
+      <ul className={ styles.listcapsule }>
         <li className={ styles.item }>
           <img className={ styles.headshot } src={ Tim } alt="Tim Broom photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Tim Broom</Para>

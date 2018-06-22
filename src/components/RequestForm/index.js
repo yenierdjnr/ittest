@@ -48,7 +48,7 @@ class RequestForm extends Component {
     const buttonClass = success ? styles.buttonSuccess : '';
 
     return (
-      <section className={ `${styles.container} ${className}` }>
+      <section className={ `${styles.capsule} ${className}` }>
         <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo, or trial? Get in touch!</Hx>
 
         <form action="https://go.itpro.tv/l/425902/2018-06-13/8dybyw" method="post">

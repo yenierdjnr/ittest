@@ -5,7 +5,7 @@ $breakpoints: (
   'tablet': $tablet
 );
 
-.container {
+.capsule {
   height: 400px;
   @include display-grid;
   -ms-grid-columns: 1fr auto auto auto 1fr;
@@ -64,7 +64,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     height: unset;
     padding: 6.6rem 0 7.0rem;
     -ms-grid-columns: auto;

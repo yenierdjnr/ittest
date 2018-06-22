@@ -7,7 +7,7 @@ import Para from 'Elements/Para';
 
 const EulaContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
 
       <Hx className={ styles.subtitle } color={ styles.offBlack }>1. Introduction</Hx>
 

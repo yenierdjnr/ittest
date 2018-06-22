@@ -17,9 +17,9 @@ const ForYouVideo = ({ className='', videoImg }) => {
   };
 
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
-        <div id="background-video" className={ `${styles['video-container']} ${className}` } onClick={ handlePlay }>
+        <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
           <Img outerWrapperClassName={ styles.img } sizes={ videoImg.sizes } alt="team video"/>

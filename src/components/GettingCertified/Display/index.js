@@ -9,7 +9,7 @@ class Display extends Component {
     const { resources, className='' } = this.props;
 
     return (
-      <section className={ `${className} ${styles.container}` }>
+      <section className={ `${className} ${styles.capsule}` }>
         <div className={ styles.article }>
           {
             resources.map((resource, i) => {

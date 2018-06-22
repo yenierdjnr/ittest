@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 const ChannelGuide = ({ videoImage }) => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.calendar }>
         <div className={ styles.intro }>
           <Hx className={ styles.title } color={ styles.darkGrey } >ITPROTV CHANNEL GUIDE</Hx>

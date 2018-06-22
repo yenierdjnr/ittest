@@ -9,7 +9,7 @@ $breakpoints: (
   'phablet': $phablet
 );
 
-.home-container, .for-teams-container {
+.home-capsule, .for-teams-capsule {
   height: 100%;
   position: relative;
 
@@ -18,14 +18,14 @@ $breakpoints: (
   align-items: center;
 }
 
-.home-container {
+.home-capsule {
   background-image: url('Images/home_video@1x.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.course-container {
+.course-capsule {
   position: relative;
 
   display: flex;
@@ -34,12 +34,12 @@ $breakpoints: (
   margin: 0 2rem 3rem 2rem;
 }
 
-.for-teams-container {
+.for-teams-capsule {
   height: 376px;
   margin: auto 0;
 }
 
-.course-container:before {
+.course-capsule:before {
   content: "";
   display: block;
   position: absolute;
@@ -137,7 +137,7 @@ $breakpoints: (
 }
 
 @include media('>desktop') {
-  .home-container, .course-container {
+  .home-capsule, .course-capsule {
     background-position: 100% 20%;
   }
 }
@@ -160,31 +160,31 @@ $breakpoints: (
   .thumbnailSm {
     display: none;
   }
-  .course-container {
+  .course-capsule {
     margin: 0rem 4rem 3rem 4rem;
   }
 }
 
 @include media('<tablet') {
-  .course-container {
+  .course-capsule {
     margin: 0rem 4rem 3rem 0;
   }
 }
 
 @include media('<upper-phablet') {
-  .course-container {
+  .course-capsule {
     margin: 0rem 4rem;
   }
 }
 
 @include media('<phablet') {
-  .home-container {
+  .home-capsule {
     background-image: url('Images/home_video_mobile@1x.jpg');
     background-size: cover;
     background-position: 20% 20%;
   }
 
-  .course-container {
+  .course-capsule {
     margin: 0rem 4rem;
   }
 

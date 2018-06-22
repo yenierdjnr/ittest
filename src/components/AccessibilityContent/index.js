@@ -7,7 +7,7 @@ import Para from 'Elements/Para';
 
 const AccessibilityContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
         <Para className={ styles.content } color={ styles.greyDark } >It is vital that all ITProTV content be available to all aspiring and existing IT professionals regardless of disabilities. ITPro.TV is WCAG 2.0 AA compliant. Highlights of ITProTV's accessibility features within the service include:</Para>
         <ul className={ styles.accessibilityStyle } color={ styles.greyDark } >
           <li>Accessibilities Controls for Primary and Audio players</li>
