@@ -13,22 +13,23 @@ $breakpoints: (
 );
 
 .capsule {
-  background-color: #f9f9fb;
-  padding: 5rem 22rem 6rem;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-}
-
-.subtitle {
-  grid-column: 2 / 3;
-  @include proxima-semi-bold;
-  font-size: 3.6rem;
-  line-height: 5.8rem;
+  @extend .row;
+  padding: 5rem 0 6rem;
   text-align: center;
 }
 
+.colXS12 {
+  @extend .col-12;
+}
+
+.subtitle {
+  text-align: center;
+  @include proxima-semi-bold;
+  font-size: 3.6rem;
+  line-height: 5.8rem;
+}
+
 .storyContent {
-  grid-column: 2 / 3;
   text-align: left;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -37,26 +38,9 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding: 4rem 2rem;
+    padding: 4rem 0;
   }
 
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-
-}
-
-
-@include media('<=upper-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-}
-
-
-@include media('<=small-phone') {
   .content {
     flex-flow: column nowrap;
     margin: 1rem;

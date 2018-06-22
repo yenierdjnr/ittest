@@ -15,27 +15,27 @@ const TrustedBy = props => {
     <section className={ styles.capsule }>
         <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
         <ul className={ styles.listcapsule }>
-          <li className={ styles.item }>
+          <li className={ `${styles['item']} ${styles.one}` }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoBDP } alt="" />
             </div>
           </li>
-          <li className={ styles.item }>
+          <li className={ `${styles['item']} ${styles.two}` }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoFiserv } alt="" />
             </div>
           </li>
-          <li className={ styles.item }>
+          <li className={ `${styles['item']} ${styles.three}` }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoKinex } alt="" />
             </div>
           </li>
-          <li className={ styles.item }>
+          <li className={ `${styles['item']} ${styles.four}` }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoMytech } alt="" />
             </div>
           </li>
-          <li className={ styles.item }>
+          <li className={ `${styles['item']} ${styles.five}` }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoOasis } alt="" />
             </div>
