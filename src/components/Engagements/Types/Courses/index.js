@@ -13,10 +13,10 @@ class Exams extends PureComponent {
     const { className } = this.props;
 
     return (
-      <div className={ `${className} ${styles.container}` }>
+      <div className={ `${className} ${styles.capsule}` }>
         <div className={ styles['img-box'] }>
           <img className={ styles['img-courses'] } src={ imageCourse } alt="courses" />
-          <div id="itpcontent1_hype_container" className={ styles['ani-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+          <div id="itpcontent1_hype_capsule" className={ styles['ani-courses'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
           </div>
         </div>
         <div className={ styles.info }>

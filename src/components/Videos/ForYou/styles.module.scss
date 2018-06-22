@@ -13,7 +13,7 @@ $breakpoints: (
   darkGrey: $color-grey-dark;
 }
 
-.container {
+.capsule {
   padding: 7.2rem 0 9.9rem;
   background-color: $color-offwhite;
 }
@@ -27,7 +27,7 @@ $breakpoints: (
   justify-content: space-between;
 }
 
-.video-container {
+.video-capsule {
   width: 66.9rem;
   margin-top: 1.3rem;
 
@@ -84,7 +84,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 5.6rem 0 10.2rem;
   }
   .content {
@@ -92,7 +92,7 @@ $breakpoints: (
     align-items: center;
   }
 
-  .video-container {
+  .video-capsule {
     order: 2;
     margin-top: 0;
   }
@@ -115,10 +115,10 @@ $breakpoints: (
 }
 
 @include media('<uppper-mid-phablet') {
-  .container {
+  .capsule {
     padding-bottom: 0;
   }
-  .video-container {
+  .video-capsule {
     width: 100%;
   }
 }

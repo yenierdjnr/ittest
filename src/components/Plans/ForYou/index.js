@@ -88,7 +88,7 @@ class Plans extends Component {
     const { currentPricing } = this.state;
 
     return (
-      <section className={ styles.container }>
+      <section className={ styles.capsule }>
         <header className={ styles.heading }>
           <Hx className={ styles.title } size="2">Start or Advance Your IT Career Today</Hx>
           <ButtonSwitch className={ styles.switch } handleSwitch={ this.handleClick } />

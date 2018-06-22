@@ -5,7 +5,7 @@ $breakpoints: (
   'tablet': $tablet
 );
 
-.container {
+.capsule {
   padding: 9.7rem 0;
 
   @include display-grid;
@@ -72,7 +72,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     display: none;
   }
 }

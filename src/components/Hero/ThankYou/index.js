@@ -5,14 +5,14 @@ import Para from 'Elements/Para';
 import ButtonLink from 'Elements/ButtonLink';
 
 import {
-  container, intro,
+  capsule, intro,
   title, subtitle, link
 } from './styles.module.scss';
 
 
 const ThankYou = ({ className='' }) => {
   return (
-    <section className={ container }>
+    <section className={ capsule }>
     </section>
   );
 };

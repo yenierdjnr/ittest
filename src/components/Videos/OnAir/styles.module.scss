@@ -7,7 +7,7 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   height: 66.7rem;
   width: 100%;
   position: relative;
@@ -45,21 +45,21 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     height: 50rem;
   }
 }
 
 
 @include media('<=lower-phone') {
-  .container {
+  .capsule {
     width: 375px;
     height: 20.7rem;
   }
 }
 
 @include media('<=small-phone') {
-  .container {
+  .capsule {
     width: 32rem;
   }
 }

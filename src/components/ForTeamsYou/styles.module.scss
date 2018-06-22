@@ -12,7 +12,7 @@ $breakpoints: (
   offBlack: $color-offblack;
 }
 
-.container {
+.capsule {
   @include display-grid;
   -ms-grid-columns: auto 4.1rem auto;
   grid-template-columns: auto 4.1rem auto;
@@ -144,7 +144,7 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     -ms-grid-columns: minmax(auto, 533px);
     grid-template-columns: minmax(auto, 533px);
     -ms-grid-columns: minmax(261px,auto) 24px minmax(261px,auto);

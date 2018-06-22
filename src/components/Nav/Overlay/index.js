@@ -46,8 +46,8 @@ class OverlayNav extends Component {
     const { handleCloseClick } = this.props;
 
     return (
-      <div className={ styles.container }>
-        <div className={ styles['x-icon-container'] } onClick={ handleCloseClick }>
+      <div className={ styles.capsule }>
+        <div className={ styles['x-icon-capsule'] } onClick={ handleCloseClick }>
           <IconX className={ styles['x-icon'] }/>
         </div>
 

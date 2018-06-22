@@ -28,7 +28,7 @@ class Display extends Component {
     const seeMoreStyles = showMore ? `${styles['see-more']} ${styles['show-more']}` : styles['see-more'];
 
     return (
-      <section className={ `${className} ${styles.container}` }>
+      <section className={ `${className} ${styles.capsule}` }>
         <ul className={ styles.list }>
           {
             categories.map((category, i) => {

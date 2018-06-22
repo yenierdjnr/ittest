@@ -77,7 +77,7 @@ class Stats extends Component {
 
   render() {
     return (
-      <div className={ styles.container }>
+      <div className={ styles.capsule }>
         <div className={ styles.left }>
           <CountUp
             ref="content"

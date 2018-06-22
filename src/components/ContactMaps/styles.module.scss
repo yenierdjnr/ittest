@@ -11,7 +11,7 @@ $breakpoints: (
   darkGrey: $color-grey-dark;
 }
 
-.container {
+.capsule {
   padding: 9.6rem 0 11.3rem;
 
   @include display-grid;
@@ -21,7 +21,7 @@ $breakpoints: (
   background-color: $color-white;
 }
 
-.containerTitle {
+.capsuleTitle {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   justify-self: center;
@@ -85,11 +85,11 @@ iframe {
 }
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 6.4rem 0 7.6rem;
   }
 
-  .containerTitle {
+  .capsuleTitle {
     padding: 0 4rem;
   }
 
@@ -106,7 +106,7 @@ iframe {
     margin-bottom: 6.4rem;
   }
 
-  .containerTitle {
+  .capsuleTitle {
     max-width: 34rem;
     margin-bottom: 7.2rem;
   }

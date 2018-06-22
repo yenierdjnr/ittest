@@ -9,7 +9,7 @@ import { IconBubbles, IconQuestionMark, IconPhone } from 'Elements/Icons';
 
 const ContactContent = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
 
       <ViewportAnimation>
         <ul className={ styles.list }>

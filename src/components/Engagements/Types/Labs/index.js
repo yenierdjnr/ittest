@@ -12,7 +12,7 @@ class Labs extends PureComponent {
     const { className } = this.props;
 
     return (
-      <div className={ `${className} ${styles.container}` }>
+      <div className={ `${className} ${styles.capsule}` }>
         <div className={ `${styles['info']} ${styles['info--flip']}` }>
           <span className={ styles['sequence-num'] }>_02</span>
           <Hx className={ styles.title } color={ styles.offBlack }>Stay Current with New Content</Hx>
@@ -20,7 +20,7 @@ class Labs extends PureComponent {
         </div>
         <div className={ `${styles['img-box']} ${styles['img-box--flip']}` }>
           <img className={ styles['img-labs'] } src={ imageLabs } alt="labs" />
-          <div id="itpservers1_hype_container" className={ styles['ani-labs'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+          <div id="itpservers1_hype_capsule" className={ styles['ani-labs'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
           </div>
         </div>
       </div>

@@ -87,12 +87,12 @@ const BenefitList = ({ className='' }) => {
   function Row(data, i) {
     const { subtitle } = data;
     const regexTest = /membership/g;
-    let container = styles.container;
+    let capsule = styles.capsule;
     let _title = styles.title
     let _subtitle = styles.subtitle;
 
     if (subtitle) {
-      container = `${container} ${styles['with-subtitle']}`;
+      capsule = `${capsule} ${styles['with-subtitle']}`;
       _title = `${_title} ${styles['with-subtitle']}`;
 
       if (regexTest.test(subtitle)) {
@@ -102,7 +102,7 @@ const BenefitList = ({ className='' }) => {
 
 
     return (
-      <div key={ i } className={ container }>
+      <div key={ i } className={ capsule }>
         <div className={ styles.type }>
           <span className={ _title }>{ data.title }</span>
           <span className={ _subtitle }>{ data.subtitle }</span>

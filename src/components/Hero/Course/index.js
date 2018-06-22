@@ -19,7 +19,7 @@ const courseLengthToString = (length) => {
 
 const CoursePageHero = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.intro }>
         <span onClick={ () => props.history.goBack() } className={ styles.navigation }>
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />

@@ -14,7 +14,7 @@ $breakpoints: (
   purple: $color-purple-primary;
 }
 
-.container {
+.capsule {
   display: flex;
   flex-flow: column nowrap;
 
@@ -123,7 +123,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     width: 34.3rem;
   }
   .description {
@@ -131,7 +131,7 @@ $breakpoints: (
 }
 
 @include media('<lower-phone') {
-  .container {
+  .capsule {
     width: 28.8rem;
   }
 }

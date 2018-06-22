@@ -12,7 +12,7 @@ $breakpoints: (
   size: $lower-tablet;
 }
 
-.container {
+.capsule {
   padding: 7.2rem 0 8.4rem;
 
   @include display-grid;
@@ -36,7 +36,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 3.2rem 1.6rem 3.8rem;
   }
 

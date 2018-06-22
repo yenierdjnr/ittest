@@ -5,7 +5,7 @@ $breakpoints: (
   'tablet': $header-tablet
 );
 
-.container {
+.capsule {
   height: 100%;
   padding-top: 76px;
   padding-left: 12.8%;
@@ -13,7 +13,7 @@ $breakpoints: (
   overflow-y: auto;
 }
 
-.x-icon-container {
+.x-icon-capsule {
   padding: 36px;
 
   position: absolute;

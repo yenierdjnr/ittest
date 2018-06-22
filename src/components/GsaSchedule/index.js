@@ -10,7 +10,7 @@ import gsaLogo from 'Images/gsa_schedule.jpg';
 
 const GsaSchedule = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
 
       <div className={ styles.wrapper }>
         <div className={ styles.gsa }>

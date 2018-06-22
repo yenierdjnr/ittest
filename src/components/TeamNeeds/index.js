@@ -8,7 +8,7 @@ import { IconBars, IconCamera, IconMobile } from 'Elements/Icons';
 
 const TeamNeeds = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <ul className={ styles.content }>
         <li className={ styles.item }>
           <div className={ `${styles['icon-box']} ${styles.camera}` }>

@@ -9,10 +9,10 @@ import { IconPeople, IconSmiley, IconCalendar, IconBadge, IconMountains, IconLig
 
 const Values = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <Hx className={ styles.subtitle } color={ styles.offBlack }>Values:</Hx>
 
-      <ul className={ styles.listContainer }>
+      <ul className={ styles.listcapsule }>
         <li className={ styles.item }>
           <div className={ `${styles['logo']} ${styles.paths}` }>
             <IconLightBulb />

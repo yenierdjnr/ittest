@@ -18,7 +18,7 @@ const TeamsVideo = ({ className='', videoImage }) => {
   };
 
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.content }>
 
         <div className={ styles.intro }>
@@ -26,7 +26,7 @@ const TeamsVideo = ({ className='', videoImage }) => {
           <Para className={ styles.summary } color={ styles.darkGrey } size="2">Prove the ROI of your training spend with the ProPortal. Manage your seats, assign/un-assign team members, and access monthly usage reports. See metrics like logins, viewing time, courses viewed, tracks completed, and more.</Para>
         </div>
 
-        <div id="background-video" className={ `${styles['for-teams-container']} ${className}` } onClick={ handlePlay }>
+        <div id="background-video" className={ `${styles['for-teams-capsule']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
           <Img outerWrapperClassName={ styles.img } sizes={ videoImage.sizes } alt="team video"/>

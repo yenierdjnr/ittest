@@ -12,9 +12,9 @@ import logoOasis from 'Images/logo_oasis.png'
 
 const TrustedBy = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
         <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
-        <ul className={ styles.listContainer }>
+        <ul className={ styles.listcapsule }>
           <li className={ styles.item }>
             <div className={ `${styles['logo']} ${styles.paths}` }>
               <img src={ logoBDP } alt="" />

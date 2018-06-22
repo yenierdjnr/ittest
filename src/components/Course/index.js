@@ -60,7 +60,7 @@ class CoursePage extends Component {
           <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
         </section>
 
-        <section className={ styles.container }>
+        <section className={ styles.capsule }>
           <div className={ styles.sidebar }></div>
           <div className={ styles.details }>
             <div className={ styles.courseDetails }>

@@ -6,7 +6,7 @@ $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
-.container {
+.capsule {
   padding-bottom: 9rem;
 
   @include display-grid;
@@ -51,7 +51,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding-bottom: 6rem;
   }
 
@@ -69,7 +69,7 @@ $breakpoints: (
 }
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     grid-template-rows: 29.2rem 8.8rem auto;
   }
 

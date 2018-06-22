@@ -7,7 +7,7 @@ import styles from './styles.module.scss';
 
 const Header = ({ pathname }) => {
   return (
-    <header className={ styles.container }>
+    <header className={ styles.capsule }>
       <Logo className={ styles['logo-box'] }/>
 
       <div className={ styles.nav }>

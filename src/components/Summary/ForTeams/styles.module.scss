@@ -11,7 +11,7 @@ $breakpoints: (
   greyDark: $color-grey-dark;
 }
 
-.container {
+.capsule {
   @include display-grid;
   grid-template-columns: 1fr auto minmax(auto, 4rem) 50rem 1fr;
   grid-template-rows: 8rem auto 8rem;
@@ -75,7 +75,7 @@ $breakpoints: (
 
 
 @include media('<mid-uppper-tablet') {
-  .container {
+  .capsule {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
   }

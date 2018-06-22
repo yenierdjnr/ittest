@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 const ForTeamsYou = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <a href="/for-teams/" className={ styles['card-left'] }>
         <div className={ styles.card }>
           <div className={ styles.body }>

@@ -8,7 +8,7 @@ const Pricing = props => {
   const { info:currentPricing } = props;
 
   return (
-    <div className={ styles.container }>
+    <div className={ styles.capsule }>
       <Enterprise className="pricing" />
       <Premium className="pricing" info={ currentPricing } />
       <Standard className="pricing" info={ currentPricing } />

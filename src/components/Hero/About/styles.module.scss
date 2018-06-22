@@ -5,7 +5,7 @@ $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
-.container {
+.capsule {
   padding: 7.2rem 0 7.5rem;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
@@ -41,7 +41,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 5.6rem 3rem 5.9rem;
   }
 

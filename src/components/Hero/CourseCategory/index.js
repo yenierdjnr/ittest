@@ -9,7 +9,7 @@ import styles from './styles.module.scss';
 
 const CourseCategoryHero = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <div className={ styles.intro }>
         <Link to="/courses/" className={ styles.navigation }>
           <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />

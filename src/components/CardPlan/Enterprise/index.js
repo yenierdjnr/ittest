@@ -7,20 +7,20 @@ import styles from '../styles.module.scss';
 
 
 const Enterprise = ({ className='' }) => {
-    let container = `${styles.container} ${className}`;
+    let capsule = `${styles.capsule} ${className}`;
     let description = styles.description;
     let perks = styles.perks;
     let price = styles.price;
 
     if (className === 'pricing') {
-      container = `${container} ${styles.plans}`;
+      capsule = `${capsule} ${styles.plans}`;
       description = `${description} ${styles.plans}`;
       perks = `${perks} ${styles.plans}`;
       price = `${price} ${styles.plans}`;
     }
 
     return (
-      <Link to="/for-teams/" className={ container }>
+      <Link to="/for-teams/" className={ capsule }>
         <div className={ description }>
           <Hx className={ styles.title } color={ styles.orange } size="6">enterprise</Hx>
           <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Team Plan</Hx>

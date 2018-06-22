@@ -5,7 +5,7 @@ $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
-.container {
+.capsule {
   padding: 11.2rem 0 10.6rem;
   overflow: hidden;
 
@@ -50,7 +50,7 @@ $breakpoints: (
 }
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     display: none;
   }
 }

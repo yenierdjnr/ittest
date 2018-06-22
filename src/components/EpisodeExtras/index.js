@@ -14,7 +14,7 @@ const EpisodeExtras = ({ data, transcript }) => {
           Transcript
         </li>
       </ul>
-      <div className={ styles.extrasContainer }>
+      <div className={ styles.extrascapsule }>
         <Para color={ styles.greyDark } className={ styles.summary }>{ transcript }</Para>
       </div>
     </section>

@@ -12,7 +12,7 @@ $breakpoints: (
   darkGrey: $color-grey-dark;
 }
 
-.container {
+.capsule {
   padding: 42px 0;
   background-color: #F4F4F7;
 }
@@ -71,7 +71,7 @@ $breakpoints: (
 }
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 6.4rem 0 6.5rem;
   }
 

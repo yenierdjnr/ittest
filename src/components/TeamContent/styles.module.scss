@@ -12,7 +12,7 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   margin: 3.8rem 0;
@@ -27,7 +27,7 @@ $breakpoints: (
   margin-bottom: 2rem;
 }
 
-.listContainer {
+.listcapsule {
   display: flex;
   flex-wrap: wrap;
   grid-column: 2 / 3;
@@ -57,14 +57,14 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 0 2rem;
   }
   .content {
     flex-flow: column nowrap;
     margin: 1rem;
   }
-  .listContainer {
+  .listcapsule {
     display: flex;
     flex-wrap: wrap;
     grid-column: 2 / 3;
@@ -82,7 +82,7 @@ $breakpoints: (
   .subtitle {
     font-size: 2.8rem;
   }
-  .listContainer {
+  .listcapsule {
     display: flex;
     flex-wrap: wrap;
     grid-column: 2 / 3;

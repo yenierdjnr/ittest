@@ -11,7 +11,7 @@ $breakpoints: (
   orangePrimary: $color-orange-primary;
 }
 
-.container {
+.capsule {
   padding: 4.4rem 0 5.2rem;
 
   @include display-grid;
@@ -57,7 +57,7 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .container {
+  .capsule {
     padding: 7.2rem 0 9.7rem;
   }
 

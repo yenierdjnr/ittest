@@ -13,7 +13,7 @@ $breakpoints: (
 
 }
 
-.container {
+.capsule {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -57,7 +57,7 @@ iframe.frame {
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     flex-flow: column nowrap;
     align-items: center;
 

@@ -10,7 +10,7 @@ import TextLink from 'Elements/TextLink';
 
 const CareerResourcesMenu = props => {
   return (
-    <section className={ styles.container }>
+    <section className={ styles.capsule }>
       <ul className={ styles.content }>
         <li className={ styles.item }>
         <a href="/career-resources/career-paths/">

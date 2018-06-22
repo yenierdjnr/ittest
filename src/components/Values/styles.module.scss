@@ -12,7 +12,7 @@ $breakpoints: (
   'small-phone': $small-phone
 );
 
-.container {
+.capsule {
   background-color: #f4f3f8;
   padding: 5rem 22rem;
   @include display-grid;
@@ -28,7 +28,7 @@ $breakpoints: (
   text-align: center;
 }
 
-.listContainer {
+.listcapsule {
   display: flex;
   flex-wrap: wrap;
   grid-column: 2 / 3;
@@ -50,7 +50,7 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .container {
+  .capsule {
     padding: 4rem 2rem;
   }
 

@@ -8,18 +8,18 @@ import styles from '../styles.module.scss';
 
 const Premium = ({ className='', info }) => {
   const { premium } = info;
-  let container = `${styles.container} ${className}`;
+  let capsule = `${styles.capsule} ${className}`;
   let description = styles.description;
   let perks = styles.perks;
 
   if (className === 'pricing') {
-    container = `${container} ${styles.plans}`;
+    capsule = `${capsule} ${styles.plans}`;
     description = `${description} ${styles.plans}`;
     perks = `${perks} ${styles.plans}`;
   }
 
   return (
-    <a href={ `${process.env.ITPROTV_URL}/plans/premium-signup/${info.type}/` } className={ container }>
+    <a href={ `${process.env.ITPROTV_URL}/plans/premium-signup/${info.type}/` } className={ capsule }>
       <div className={ description }>
         <Hx className={ styles.title } color={ styles.purple } size="6">premium</Hx>
         <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">Best Value</Hx>
