@@ -24,9 +24,7 @@ $breakpoints: (
 }
 
 .listcapsule {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  @extend .row;
 }
 
 .item {
