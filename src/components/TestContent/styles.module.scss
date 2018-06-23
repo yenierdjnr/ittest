@@ -12,16 +12,20 @@ $breakpoints: (
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 2rem 0 6.8rem;
+}
+
+.titleRow {
+  @extend .row;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .listcapsule {
   display: flex;
   flex-wrap: wrap;
-  grid-column: 2 / 3;
-  justify-content: center;
   margin: 0 auto;
 }
 
@@ -34,10 +38,8 @@ $breakpoints: (
 .content {
   max-width: 1024px;
   margin: 0;
-  grid-column: 2 / 3;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
   font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: left;
@@ -45,14 +47,13 @@ $breakpoints: (
 
 .title {
   text-align: center;
-  grid-column: 2 / 3;
   margin: 2rem 0;
 }
 
 
 @include media('<tablet') {
   .capsule {
-    padding: 0 2rem 2rem;
+    padding: 0 0 2rem;
   }
 
   .content {
