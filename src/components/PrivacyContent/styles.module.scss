@@ -20,6 +20,17 @@ $breakpoints: (
   @extend .col-12;
 }
 
+.privacyStyle {
+  list-style-type: decimal;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 1rem 0;
+  @include adelle-sans-regular;
+  color: $color-grey-dark;
+}
+
 .content {
   max-width: 1024px;
   margin: 0;
