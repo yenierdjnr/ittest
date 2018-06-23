@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'tablet': $tablet
 );
 
 :export {
@@ -16,15 +17,21 @@ $breakpoints: (
   background-color: $color-white;
 }
 
-.capsuleTitle {
-  max-width: 76rem;
-  margin-bottom: 4rem;
-  text-align: center
+.titleRow {
+  @extend .row;
 }
 
-.maps {
-  max-width: 94.9rem;
-  margin: 0 auto;
+.colXS12 {
+  @extend .col-12;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.mapRow {
+  @extend .row;
 }
 
 .summary {
@@ -35,28 +42,9 @@ $breakpoints: (
   font-weight: 600;
 }
 
-// .usa {
-//   & .topic-title {
-//     max-width: 41.1rem;
-//   }
-//   & .summary {
-//     max-width: 41.3rem;
-//   }
-// }
-//
-// .uk {
-//   & .topic-title {
-//     max-width: 30.6rem;
-//   }
-//   & .summary {
-//     max-width: 41.7rem;
-//   }
-// }
-
-// iframe {
-//   margin-top: 2rem;
-//   max-width: 100%;
-// }
+.usa, .uk {
+  padding: 0 4rem;
+}
 
 .tel {
   @include adelle-sans-regular;
@@ -64,23 +52,18 @@ $breakpoints: (
   font-size: 1.6rem;
 }
 
-@include media('<lower-tablet') {
+.maps {
+  margin: 0 auto;
+}
+
+iframe {
+  margin-top: 2rem;
+}
+
+
+@include media('<tablet') {
   .capsule {
     padding: 6.4rem 0 7.6rem;
-  }
-
-  .capsuleTitle {
-    padding: 0 4rem;
-  }
-
-
-  .usa {
-    margin-bottom: 6.4rem;
-  }
-
-  .capsuleTitle {
-    max-width: 34rem;
-    margin-bottom: 7.2rem;
   }
 
   .title {
@@ -88,18 +71,15 @@ $breakpoints: (
     line-height: 3.7rem;
   }
 
-  .summary {
-    width: 29.5rem;
+  .usa, .uk {
+    padding: 4rem 0;
+    margin: 0 8rem;
   }
 }
 
-
-@include media('<lower-phone') {
-  .maps {
-    padding: 0 4rem;
-  }
-
-  .summary {
-    width: 24rem;
+@include media('<lower-tablet') {
+  .usa, .uk {
+    padding: 4rem 0;
+    margin: 0 3rem;
   }
 }
