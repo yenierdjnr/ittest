@@ -27,7 +27,7 @@ $breakpoints: (
   justify-content: space-between;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin: 1rem 5rem;
+  margin: 1rem 0;
   @include adelle-sans-regular;
   color: $color-grey-dark;
 }
@@ -70,7 +70,6 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
-
   .content {
     flex-flow: column nowrap;
   }
