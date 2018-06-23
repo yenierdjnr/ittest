@@ -38,6 +38,12 @@ $breakpoints: (
   width: 21rem;
   text-align: center;
   margin: 0 2.25rem;
+  @extend .col-10;
+  @extend .offset-1;
+  @extend .col-sm-4;
+  @extend .offset-sm-0;
+  @extend .col-md-3;
+  // @extend .offset-md-0;
 }
 
 .headshot {
