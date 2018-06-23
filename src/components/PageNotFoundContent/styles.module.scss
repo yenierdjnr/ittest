@@ -12,9 +12,14 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .container;
   padding: 2rem 22rem;
   display: grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .content {
