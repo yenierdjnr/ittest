@@ -28,6 +28,7 @@ $breakpoints: (
 
 .listcapsule {
   @extend .justify-content-center;
+  @extend .row;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
