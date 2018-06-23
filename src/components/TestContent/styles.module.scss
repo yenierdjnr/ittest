@@ -30,6 +30,7 @@ $breakpoints: (
 .item {
   text-align: center;
   margin: 0;
+  @extend .col-12;
   @extend .col-md-4;
 }
 
