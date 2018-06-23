@@ -19,19 +19,19 @@ const TestContent = props => {
         </div>
       </div>
       <ul className={ styles.listcapsule }>
-        <li className={ `${styles['col-4']} ${ styles.item }` }>
+        <li className={ `${styles['col-md-4']} ${ styles.item }` }>
           <Para className={ styles.title } color={ styles.offBlack }>Microsoft</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Cisco</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CompTIA</Para>
           <Para className={ styles.title } color={ styles.offBlack }>EC-Council</Para>
         </li>
-        <li className={ `${styles['col-4']} ${ styles.item }` }>
+        <li className={ `${styles['col-md-4']} ${ styles.item }` }>
           <Para className={ styles.title } color={ styles.offBlack }>Axelos</Para>
           <Para className={ styles.title } color={ styles.offBlack }>PMI</Para>
           <Para className={ styles.title } color={ styles.offBlack }>VMware</Para>
           <Para className={ styles.title } color={ styles.offBlack }>GIAC</Para>
         </li>
-        <li className={ `${styles['col-4']} ${ styles.item }` }>
+        <li className={ `${styles['col-md-4']} ${ styles.item }` }>
           <Para className={ styles.title } color={ styles.offBlack }>Logical Operations</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Microsoft Developer</Para>
           <Para className={ styles.title } color={ styles.offBlack }>ISACA</Para>

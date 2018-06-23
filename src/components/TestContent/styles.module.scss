@@ -28,9 +28,8 @@ $breakpoints: (
 }
 
 .item {
-  width: 21rem;
   text-align: center;
-  margin: 0 2.25rem;
+  margin: 0;
 }
 
 .content {
@@ -57,9 +56,5 @@ $breakpoints: (
   .content {
     flex-flow: column nowrap;
     margin: 1rem;
-  }
-  .item {
-    width: 19rem;
-    margin: 0rem;
   }
 }
