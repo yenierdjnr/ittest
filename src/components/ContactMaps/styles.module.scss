@@ -3,7 +3,8 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'tablet': $tablet
 );
 
 :export {
@@ -13,34 +14,24 @@ $breakpoints: (
 
 .capsule {
   padding: 9.6rem 0 11.3rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
-
   background-color: $color-white;
 }
 
-.capsuleTitle {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  justify-self: center;
-
-  max-width: 76rem;
-  margin-bottom: 4rem;
-
-  text-align: center
+.titleRow {
+  @extend .row;
 }
 
-.maps {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+.colXS12 {
+  @extend .col-12;
+}
 
-  max-width: 94.9rem;
-  margin: 0 auto;
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
-  @include display-grid;
-  grid-template-columns: auto minmax(auto, 12rem) auto;
+.mapRow {
+  @extend .row;
 }
 
 .summary {
@@ -51,31 +42,8 @@ $breakpoints: (
   font-weight: 600;
 }
 
-.usa {
-  grid-column: 1 / 2;
-
-  & .topic-title {
-    max-width: 41.1rem;
-  }
-  & .summary {
-    max-width: 41.3rem;
-  }
-}
-
-.uk {
-  grid-column: 3 / 4;
-
-  & .topic-title {
-    max-width: 30.6rem;
-  }
-  & .summary {
-    max-width: 41.7rem;
-  }
-}
-
-iframe {
-  margin-top: 2rem;
-  max-width: 100%;
+.usa, .uk {
+  padding: 0 4rem;
 }
 
 .tel {
@@ -84,31 +52,18 @@ iframe {
   font-size: 1.6rem;
 }
 
-@include media('<lower-tablet') {
+.maps {
+  margin: 0 auto;
+}
+
+iframe {
+  margin-top: 2rem;
+}
+
+
+@include media('<tablet') {
   .capsule {
     padding: 6.4rem 0 7.6rem;
-  }
-
-  .capsuleTitle {
-    padding: 0 4rem;
-  }
-
-  .maps {
-    grid-template-columns: auto;
-    justify-content: center;
-  }
-
-  .usa, .uk {
-    grid-column: unset;
-  }
-
-  .usa {
-    margin-bottom: 6.4rem;
-  }
-
-  .capsuleTitle {
-    max-width: 34rem;
-    margin-bottom: 7.2rem;
   }
 
   .title {
@@ -116,18 +71,15 @@ iframe {
     line-height: 3.7rem;
   }
 
-  .summary {
-    width: 29.5rem;
+  .usa, .uk {
+    padding: 4rem 0;
+    margin: 0 8rem;
   }
 }
 
-
-@include media('<lower-phone') {
-  .maps {
-    padding: 0 4rem;
-  }
-
-  .summary {
-    width: 24rem;
+@include media('<lower-tablet') {
+  .usa, .uk {
+    padding: 4rem 0;
+    margin: 0 3rem;
   }
 }
