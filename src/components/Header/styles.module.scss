@@ -6,41 +6,59 @@ $breakpoints: (
 );
 
 .capsule {
-  grid-area: header;
-  width: 100%;
-  height: 9rem;
-
+  @extend .container-fluid;
+  padding-left: 0;
+  padding-right: 0;
   position: fixed;
   z-index: $z-header;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(155px, 314px) 705px 1fr;
   align-items: center;
-
   background-color: $color-offwhite;
 }
 
-.logo-box {
-  grid-column: 2 / 3;
-  margin-bottom: 1rem;
+.centerNavRow {
+  @extend .row;
+  @extend .no-gutters;
+  @extend .justify-content-md-center;
+  @extend .align-items-center;
+  height: 9rem;
+}
+
+.navOutter {
+  padding-left: 0;
+  padding-right: 0;
+  @extend .col-md-11;
+  @extend .col-lg-12;
+  @extend .col-xl-10;
+}
+
+.navWrap {
+  @extend .row;
+}
+
+.logoBox {
+
+  @extend .col-sm-6;
+  @extend .col-md-3;
+  @extend .col-lg-2;
 }
 
 .nav {
-  grid-column: 3 / 4;
+  @extend .col-md-9;
+  @extend .col-lg-10;
+  padding-top: .7rem;
 }
 
 
 @include media("<tablet") {
   .capsule {
-    grid-template-columns: 179px 1fr;
-    padding: 0 2.4rem;
+    // padding: 0 2.4rem;
   }
 
   .logo-box {
-    grid-column: 1 / 2;
+
   }
 
   .nav {
-    grid-column: 3 / 4;
+
   }
 }
