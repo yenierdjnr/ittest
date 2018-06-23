@@ -19,60 +19,58 @@ const TeamContent = props => {
   return (
     <section className={ styles.capsule }>
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Leadership Team</Hx>
-
-      <ul className={ styles.listcapsule }>
-        <li className={ styles.item }>
+      <div className={ styles.listcapsule }>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Tim } alt="Tim Broom photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Tim Broom</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CEO &amp; Co-Founder</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Don } alt="Don Pezet photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Don Pezet</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CIO &amp; Co-Founder</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Barry } alt="Barry Pruett photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Barry Pruett</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CCO</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Phillip } alt="Phillip Ford photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Phillip Ford</Para>
           <Para className={ styles.title } color={ styles.offBlack }>VP of People and Culture</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Denise } alt="Denise Broom photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Denise Broom</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CFO</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Vivian } alt="Vivian Pezet photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Vivian Pezet</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Member Services</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Angie } alt="Angie Byers photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Angie Byers</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Relationship Strategist</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Valerie } alt="Valerie Riley photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Valerie Riley</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Marketing</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Brad } alt="Brad Noblitt photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Brad Noblitt</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Production</Para>
-        </li>
-        <li className={ styles.item }>
+        </div>
+        <div className={ styles.item }>
           <img className={ styles.headshot } src={ Pete } alt="Pete Briggs photo" />
           <Para className={ styles.name } color={ styles.offBlack }>Pete Briggs</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Sales and Success</Para>
-        </li>
-      </ul>
-
+        </div>
+      </div>
     </section>
   );
 };
