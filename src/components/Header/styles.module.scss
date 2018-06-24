@@ -2,7 +2,7 @@
 
 
 $breakpoints: (
-  'tablet': $header-tablet
+  'phablet': $upper-phablet
 );
 
 .capsule {
@@ -49,4 +49,10 @@ $breakpoints: (
   @extend .d-flex;
   @extend .justify-content-end;
   @extend .align-items-center;
+}
+
+@include media("<phablet") {
+  .navOutter {
+    padding: 0 2.4rem;
+  }
 }
