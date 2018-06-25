@@ -9,20 +9,15 @@
 $breakpoints: (
   'tablet': $tablet,
   'phablet': $phablet,
-  'upper-phone': $upper-phone,
-  'lower-phone': $lower-phone,
-  'small-phone': $small-phone
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   padding: 5,6rem 0 6.8rem;
   margin: 3.5rem 0 5rem;
 }
 
 .subtitle {
-  grid-column: 2 / 3;
+  @extend .col-12;
   @include proxima-semi-bold;
   font-size: 3.6rem;
   text-align: center;
@@ -31,16 +26,21 @@ $breakpoints: (
 }
 
 .wrapper {
-  grid-column: 2 / 3;
-  @include display-grid;
   flex-wrap: row nowrap;
-  justify-content: space-between;
-  margin: 2rem auto;
+  @extend .row;
+  padding-bottom: 3rem;
+}
+
+.imageWrapper {
+  @extend .col-6;
+  @extend .offset-3;
+  @extend .col-md-3;
+  @extend .offset-md-0;
 }
 
 .content {
-  grid-column: 3 / 4;
-  padding: 0 2rem;
+  @extend .col-12;
+  @extend .col-md-9;
 }
 
 .bio {
@@ -48,7 +48,7 @@ $breakpoints: (
 }
 
 .headshot {
-  width: 200px;
+  @include img-fluid;
 }
 
 .name {
@@ -60,23 +60,24 @@ $breakpoints: (
   padding-top: 4px;
 }
 
+@include media('<tablet') {
+  .name {
+    padding-top: 1rem;
+  }
+  .wrapper {
+    padding-bottom: 5rem;
+  }
+}
+
 
 @include media('<phablet') {
   .capsule {
     margin: 1.5rem 0 5rem;
   }
-  .wrapper {
-    display: inline;
-  }
-  .headshot {
-    display: block;
-    margin: auto;
-  }
   .name {
     text-align: center;
   }
   .subtitle {
-    font-size: 2.6rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 }
