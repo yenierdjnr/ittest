@@ -228,12 +228,19 @@ const metaData = {
     description: '',
     canonical: `${process.env.SELF_URL}/blog/`
   },
-  '/404*': {
+  '/404': {
     page: '404',
-    path: '/404*',
+    path: '/404',
     title: '404 - Page Not Found',
     description: '',
-    canonical: `${process.env.SELF_URL}/404*`
+    canonical: `${process.env.SELF_URL}/404`
+  },
+  '/404.html': {
+    page: '404',
+    path: '/404.html',
+    title: '404 - Page Not Found',
+    description: '',
+    canonical: `${process.env.SELF_URL}/404.html`
   }
 };
 
