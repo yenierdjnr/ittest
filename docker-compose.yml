@@ -7,6 +7,12 @@ services:
       - 8000:8000
     volumes:
       - .:/work
+  yxorp:
+    build: yxorp
+    environment:
+      - PROXY_URL=http://marketing:8000
+    ports:
+      - 8080:80
 
 networks:
   default:
