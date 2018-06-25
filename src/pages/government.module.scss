@@ -29,6 +29,7 @@
   @extend .container;
 }
 
-.GsaBottomElement {
-  @extend .container;
+.GovBottomElement {
+  @extend .no-gutters;
+  background-color: #f4f3fb;
 }
