@@ -10,9 +10,12 @@ import { IconExams, IconLabs } from 'Elements/Icons';
 const GsaCourses = props => {
   return (
     <section className={ styles.capsule} >
-    <Hx size="3" className={ styles.subtitle } color={ styles.offBlack }>DoD Approved 8140 (DoDD 8570) Baseline Certifications</Hx>
+      <div className={ styles.titleRow }>
+        <div className={ styles.colXS12 }>
+          <Hx size="3" className={ styles.subtitle } color={ styles.offBlack }>DoD Approved 8140 (DoDD 8570) Baseline Certifications</Hx>
+        </div>
+      </div>
       <div className={ styles.courseList }>
-
         <div className={ styles.courseLevel }>
           <Para className={ styles.course } color={ styles.offBlack }>IAT Level I</Para>
           <Para className={ styles.courseName } color={ styles.greyDark }><a href="/courses/comptia/a-901/" target="_blank" className={ styles.link }>CompTIA A+</a></Para>

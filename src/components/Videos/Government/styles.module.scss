@@ -20,21 +20,13 @@ $breakpoints: (
 .content {
   max-width: 1035px;
   margin: 0 auto;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  @extend .row;
 }
 
 .for-teams-capsule {
-  width: 669px;
   margin-top: 1.3rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
+  @extend .col-lg-8;
+  @extend .col-12;
 }
 
 .img {
@@ -66,19 +58,21 @@ $breakpoints: (
 
 .play-button {
   position: absolute;
+  top: 35%;
+  left: 42%;
   z-index: $z-video;
   cursor: pointer;
 }
 
 .intro {
-  max-width: 32.5rem;
+  @extend .col-12;
+  @extend .col-lg-4;
 }
 
 .title {
   margin-bottom: 2.4rem;
 }
 .summary {
-  max-width: 27.6rem;
   line-height: 3.0rem;
 }
 
@@ -98,11 +92,9 @@ $breakpoints: (
   }
 
   .intro {
-    max-width: 66.9rem;
     margin-bottom: 7.1rem;
   }
   .title {
-    max-width: 24rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
