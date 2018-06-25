@@ -34,14 +34,20 @@ $breakpoints: (
 
 .listcapsule {
   @extend .row;
+  display: flex;
   @extend .justify-content-center;
 }
 
 .item {
-  padding: 4rem 0;
+  @extend .col-12;
+  @extend .col-sm-6;
+  @extend .col-md-4;
+  padding: 4rem 1rem;
   width: 28rem;
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  @extend .justify-content-center;
 }
 
 .value {

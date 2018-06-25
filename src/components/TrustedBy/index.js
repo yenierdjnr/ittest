@@ -13,34 +13,38 @@ import logoOasis from 'Images/logo_oasis.png'
 const TrustedBy = props => {
   return (
     <section className={ styles.capsule }>
-        <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
-        <ul className={ styles.listcapsule }>
-          <li className={ `${styles['item']} ${styles.one}` }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoBDP } alt="" />
-            </div>
-          </li>
-          <li className={ `${styles['item']} ${styles.two}` }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoFiserv } alt="" />
-            </div>
-          </li>
-          <li className={ `${styles['item']} ${styles.three}` }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoKinex } alt="" />
-            </div>
-          </li>
-          <li className={ `${styles['item']} ${styles.four}` }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoMytech } alt="" />
-            </div>
-          </li>
-          <li className={ `${styles['item']} ${styles.five}` }>
-            <div className={ `${styles['logo']} ${styles.paths}` }>
-              <img src={ logoOasis } alt="" />
-            </div>
-          </li>
-        </ul>
+      <div className={ styles.row }>
+        <div className={ styles.colXS12 }>
+          <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
+        </div>
+      </div>
+      <div className={ styles.listcapsule }>
+        <div className={ `${styles['item']} ${styles.one}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoBDP } alt="" />
+          </div>
+        </div>
+        <div className={ `${styles['item']} ${styles.two}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoFiserv } alt="" />
+          </div>
+        </div>
+        <div className={ `${styles['item']} ${styles.three}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoKinex } alt="" />
+          </div>
+        </div>
+        <div className={ `${styles['item']} ${styles.four}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoMytech } alt="" />
+          </div>
+        </div>
+        <div className={ `${styles['item']} ${styles.five}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoOasis } alt="" />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
