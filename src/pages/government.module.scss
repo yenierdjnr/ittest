@@ -2,34 +2,33 @@
 
 
 .government {
-  grid-area: main;
 
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+
+}
+
+.GovIntro {
+  @extend .container;
 }
 
 .GovernmentContent {
-  grid-column: 1 / -1;
+  @extend .container;
 }
 
 .GsaCourses {
-  grid-column: 1 / -1;
+  @extend .container;
 }
 
 .Track-Results {
-  grid-column: 1 / -1;
+  @extend .container;
 }
 
 .GsaSchedule {
-  grid-column: 1 / -1;
+  @extend .container;
 }
 
 .GsaBottomElement {
-  grid-column: 1 / -1;
+  @extend .container;
 }

@@ -13,17 +13,18 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .row;
   padding: 2rem 0;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .intro {
-  grid-column: 2 / 3;
   font-size: 1.7rem;
   line-height: 2.4rem;
 }
-
 
 
 @include media('<tablet') {
