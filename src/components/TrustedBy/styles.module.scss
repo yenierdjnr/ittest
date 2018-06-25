@@ -9,17 +9,16 @@ $breakpoints: (
   'tablet': $tablet,
   'upper-phone': $upper-phone,
   'lower-phone': $lower-phone,
-  'small-phone': $small-phone
+  'small-phone': $small-phone,
 );
 
 .capsule {
-  padding: 5rem 20rem;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  @extend .row;
+  @extend .justify-content-center;
+  padding: 5rem 0;
 }
 
 .subtitle {
-  grid-column: 2 / 3;
   @include proxima-semi-bold;
   font-size: 3.6rem;
   line-height: 3.4rem;
@@ -28,11 +27,8 @@ $breakpoints: (
 }
 
 .listcapsule {
-  display: flex;
-  flex-wrap: wrap;
-  grid-column: 1 / -1;
-  grid-row: 10 / 11;
-  justify-content: center;
+  @extend .row;
+  @extend .justify-content-center;
 }
 
 .logo {
@@ -40,31 +36,13 @@ $breakpoints: (
   padding: 0 4.5rem;
 }
 
-
 @include media('<tablet') {
   .capsule {
-    padding: 4rem 2rem;
+    padding: 4rem 0;
   }
 
   .content {
-    flex-flow: column nowrap;
     margin: 1rem;
   }
 
-}
-
-
-@include media('<=upper-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
-}
-
-
-@include media('<=small-phone') {
-  .content {
-    flex-flow: column nowrap;
-    margin: 1rem;
-  }
 }

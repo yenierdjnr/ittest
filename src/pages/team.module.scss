@@ -2,17 +2,13 @@
 
 
 .team {
-  grid-area: main;
 
-  display: grid;
-  grid-template-rows: auto auto;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+
 }
 
 .TeamContent {
-  grid-column: 1/-1;
+  @extend .container;
 }

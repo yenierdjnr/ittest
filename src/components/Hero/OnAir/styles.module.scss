@@ -6,11 +6,13 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .row;
   padding: 7.2rem 0 7.5rem;
   background-color: $color-offblack;
 }
 
 .intro {
+  @extend .col-12;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;

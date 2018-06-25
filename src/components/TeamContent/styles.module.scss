@@ -13,13 +13,12 @@ $breakpoints: (
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  @extend .row;
+  @extend .justify-content-center;
   margin: 3.8rem 0;
 }
 
 .subtitle {
-  grid-column: 2 / 3;
   @include proxima-semi-bold;
   font-size: 3.6rem;
   text-align: center;
@@ -28,10 +27,10 @@ $breakpoints: (
 }
 
 .listcapsule {
+  @extend .justify-content-center;
+  @extend .row;
   display: flex;
   flex-wrap: wrap;
-  grid-column: 2 / 3;
-  justify-content: left;
   margin: 0 auto;
 }
 
@@ -40,6 +39,12 @@ $breakpoints: (
   width: 21rem;
   text-align: center;
   margin: 0 2.25rem;
+  @extend .col-10;
+  @extend .offset-1;
+  @extend .col-sm-4;
+  @extend .offset-sm-0;
+  @extend .col-md-3;
+  // @extend .offset-md-0;
 }
 
 .headshot {
@@ -57,9 +62,6 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .capsule {
-    padding: 0 2rem;
-  }
   .content {
     flex-flow: column nowrap;
     margin: 1rem;
@@ -67,8 +69,6 @@ $breakpoints: (
   .listcapsule {
     display: flex;
     flex-wrap: wrap;
-    grid-column: 2 / 3;
-    justify-content: center;
     margin: 0 auto;
   }
 }
@@ -85,8 +85,6 @@ $breakpoints: (
   .listcapsule {
     display: flex;
     flex-wrap: wrap;
-    grid-column: 2 / 3;
-    justify-content: center;
     margin: 0 auto;
   }
 }

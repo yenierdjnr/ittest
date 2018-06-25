@@ -9,7 +9,8 @@ $breakpoints: (
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  padding-left: 1rem;
 }
 
 .menu-item {
@@ -84,7 +85,6 @@ $breakpoints: (
   .menu-icon {
     display: block;
 
-    grid-column: 2 / 3;
     justify-self: end;
 
     cursor: pointer;
