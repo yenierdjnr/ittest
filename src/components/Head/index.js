@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby-link';
 
+const notFoundMetaData = {
+    page: '404',
+    path: '/404',
+    title: '404 - Page Not Found',
+    description: '',
+    canonical: `${process.env.SELF_URL}/404`
+};
 
 const metaData = {
   '/': {
@@ -228,21 +235,16 @@ const metaData = {
     description: '',
     canonical: `${process.env.SELF_URL}/blog/`
   },
-  '/404': {
-    page: '404',
-    path: '/404',
-    title: '404 - Page Not Found',
-    description: '',
-    canonical: `${process.env.SELF_URL}/404`
-  },
-  '/404.html': {
-    page: '404',
-    path: '/404.html',
-    title: '404 - Page Not Found',
-    description: '',
-    canonical: `${process.env.SELF_URL}/404.html`
-  }
+  '/404': notFoundMetaData
 };
+
+const getRenderMetaData = (locationPathName) => {
+    if (metaData[locationPathName]) {
+      return metaData[locationPathName];
+    } else {
+      return notFoundMetaData;
+    }
+}
 
 class Head extends Component {
   constructor(props) {
@@ -260,7 +262,7 @@ class Head extends Component {
 
   render() {
     const { location } = this.props;
-    const { title, description, canonical } = metaData[location.pathname];
+    const { title, description, canonical } = getRenderMetaData(location.pathname);
     const test = withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
 
     return (
