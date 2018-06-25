@@ -14,32 +14,27 @@ $breakpoints: (
 
 .capsule {
   padding: 3rem 0 8rem;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-}
-
-.wrapper {
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
-  @include display-grid;
-  grid-column: 2 / 3;
 }
 
 .gsa {
-  justify-self: center;
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 0 1 auto;
-  align-items: flex-start;
-  margin-top: 3rem;
-}
-
-.gsaInfo {
-  text-align: left;
+  @extend .row;
 }
 
 .gsaLogo {
-  padding-top: 1rem;
+  @extend .col-12;
+  @extend .col-lg-4;
+  @extend .offset-lg-4;
+}
+
+.gsaInfo {
+  @extend .col-12;
+  @extend .col-lg-6;
+  @extend .offset-lg-3;
+  text-align: left;
+}
+
+.logo {
+  padding: 1rem 0;
   width: 275px;
 }
 
@@ -61,9 +56,6 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .capsule {
-    padding: 0 2rem;
-  }
   .gsa {
     padding: 0 4rem;
     margin-bottom: 4.8rem;
@@ -78,9 +70,4 @@ $breakpoints: (
     flex-flow: column nowrap;
     align-items: center;
   }
-}
-
-
-@include media('<=small-phone') {
-
 }
