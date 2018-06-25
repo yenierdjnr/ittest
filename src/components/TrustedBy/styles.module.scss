@@ -18,6 +18,10 @@ $breakpoints: (
   padding: 5rem 0;
 }
 
+.colXS12 {
+  @extend .col-12;
+}
+
 .subtitle {
   @include proxima-semi-bold;
   font-size: 3.6rem;
@@ -28,12 +32,24 @@ $breakpoints: (
 
 .listcapsule {
   @extend .row;
+  display: flex;
   @extend .justify-content-center;
+  margin-top: 2rem;
 }
 
 .logo {
   margin: 2rem auto;
-  padding: 0 4.5rem;
+  padding: 0 6rem;
+  display: flex;
+  @extend .justify-content-center;
+}
+
+.item {
+  @extend .col-12;
+  @extend .col-sm-6;
+  @extend .col-md-3;
+  @extend .col-lg-4;
+  @extend .col-xl-2;
 }
 
 @include media('<tablet') {
@@ -43,6 +59,11 @@ $breakpoints: (
 
   .content {
     margin: 1rem;
+  }
+
+  .logo {
+    margin: 2rem auto;
+    padding: 0 2rem;
   }
 
 }
