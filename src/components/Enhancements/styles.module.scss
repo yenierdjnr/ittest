@@ -2,8 +2,9 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'tablet': $tablet,
+  'lower-phone': $lower-phone,
+  'upper-phone': $upper-phone
 );
 
 :export {
@@ -12,45 +13,49 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 9.6rem 0 11.3rem;
+  padding: 10.8rem 0 11.5rem;
+}
 
-  @include display-grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
-
-  background-color: $color-white;
+.titleRow {
+  @extend .row;
 }
 
 .capsuleTitle {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  justify-self: center;
+  @extend .col-12;
+  text-align: center;
+  font-size: 3.6rem;
+}
 
-  max-width: 76rem;
-  margin-bottom: 8rem;
-
+.sectionTitle {
   text-align: center
 }
 
-.title {
-
+.list {
+  @extend .row;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
-.learnings {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+.item {
+  @extend .col-12;
+  @extend .col-lg-4;
+  width: 31.4rem;
 
-  max-width: 94.9rem;
-  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
 
-  @include display-grid;
-  grid-template-columns: auto minmax(auto, 12rem) auto;
+.summary {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .icon-box {
   width: 12rem;
   height: 12rem;
-  margin-bottom: 5.3rem;
+  margin-bottom: 4.8rem;
 
   display: flex;
   justify-content: center;
@@ -60,121 +65,39 @@ $breakpoints: (
   background-color: $color-white-light;
 }
 
-.topic-title {
-  text-align: left;
-  margin-bottom: 3.2rem;
+.title {
+  text-transform: capitalize;
+  margin-bottom: 2.4rem;
 }
 
-.summary {
+.subtitle {
+  margin-bottom: 8px;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin-bottom: 1.6rem;
-}
-
-.hands-on {
-  grid-column: 1 / 2;
-
-  & .topic-title {
-    max-width: 41.1rem;
-  }
-  & .summary {
-    max-width: 41.3rem;
-  }
-}
-
-.practice-exams {
-  grid-column: 3 / 4;
-
-  & .topic-title {
-    max-width: 30.6rem;
-  }
-  & .summary {
-    max-width: 41.7rem;
-  }
 }
 
 
-@include media('<lower-tablet') {
+@include media('<tablet') {
   .capsule {
-    padding: 6.4rem 0 7.6rem;
+    padding: 2rem 0 6.6rem;
   }
-
-  .capsuleTitle {
+  .sectionTitle {
+    font-size: 3.8rem;
+    line-height: 4.4rem;
+  }
+  .item {
+    margin: 3rem auto;
+    display: block;
+    padding: 2rem 0;
+  }
+  .list {
     padding: 0 4rem;
+    flex-flow: column nowrap;
   }
-
-  .learnings {
-    grid-template-columns: auto;
-    justify-content: center;
-  }
-
-  .hands-on, .practice-exams {
-    grid-column: unset;
-  }
-
-  .hands-on {
-    margin-bottom: 6.4rem;
-  }
-
   .icon-box {
     width: 10rem;
     height: 10rem;
     margin-bottom: 4rem;
     border-radius: 5rem;
-
-    & .icon-labs{
-      width: 6.3rem;
-      height: 7.5rem;
-    }
-    & .icon-exams{
-      width: 5.5rem;
-      height: 7.6rem;
-    }
-  }
-
-  .capsuleTitle {
-    max-width: 34rem;
-    margin-bottom: 7.2rem;
-  }
-
-  .title {
-    font-size: 3rem;
-    line-height: 3.7rem;
-  }
-
-  .topic-title {
-    max-width: 41.7rem;
-    font-size: 3rem;
-    line-height: 3.7rem;
-  }
-
-  .topic-title {
-    margin-bottom: 2.4rem;
-  }
-
-  .topic-title-one {
-    width: 26.3rem;
-  }
-  .topic-title-two {
-    width: 27.3rem;
-  }
-
-  .summary {
-    width: 29.5rem;
-  }
-}
-
-
-@include media('<lower-phone') {
-  .learnings {
-    padding: 0 4rem;
-  }
-
-  .topic-title {
-    width: 20rem;
-  }
-
-  .summary {
-    width: 24rem;
   }
 }

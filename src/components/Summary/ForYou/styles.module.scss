@@ -30,17 +30,6 @@ $breakpoints: (
 
   display: flex;
   flex-flow: column nowrap;
-  // justify-content: space-between;
-  //
-  // &:not(:last-child) {
-  //   margin-right: 4.1rem;
-  // }
-  // &:last-child {
-  //   width: 31.7rem;
-  // }
-  // &.binge {
-  //   width: 32.1rem;
-  // }
 }
 
 .icon-box {
@@ -70,18 +59,17 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding: 0 0 6.6rem;
+    padding: 2rem 0 6.6rem;
   }
-
+  .item {
+    margin: 3rem auto;
+    display: block;
+    padding: 2rem 0;
+  }
   .list {
     padding: 0 4rem;
     flex-flow: column nowrap;
   }
-
-  .item {
-    margin: 3rem 0;
-  }
-
   .icon-box {
     width: 10rem;
     height: 10rem;
@@ -100,19 +88,5 @@ $breakpoints: (
       width: 5.2rem;
       height: 6.9rem;
     }
-  }
-}
-
-@include media('<tablet') {
-  .capsule {
-    padding: 2rem 0 6.6rem;
-  }
-  .item {
-    margin: 3rem auto;
-    display: block;
-    padding: 2rem 0;
-  }
-  .icon-box {
-    margin-bottom: 2rem;
   }
 }
