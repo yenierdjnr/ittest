@@ -27,7 +27,10 @@ $breakpoints: (
 }
 
 .sectionTitle {
-  text-align: center
+  text-align: center;
+  width: 56rem;
+  display: block;
+  margin: auto;
 }
 
 .list {
@@ -39,11 +42,9 @@ $breakpoints: (
 
 .item {
   @extend .col-12;
-  @extend .col-lg-4;
-  width: 31.4rem;
-
-  display: flex;
-  flex-flow: column nowrap;
+  @extend .col-lg-5;
+  @extend .offset-lg-1;
+  margin-top: 5rem;
 }
 
 .summary {

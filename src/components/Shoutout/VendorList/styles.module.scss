@@ -8,8 +8,8 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .container;
   padding: 7.1rem;
-  background-color: #F4F4F7;
 }
 
 .item {

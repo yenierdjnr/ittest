@@ -6,7 +6,7 @@
 }
 
 .Hero {
-
+  @extend .no-gutters;
 }
 
 .Summary {
@@ -20,6 +20,7 @@
 
 .Vendors {
   @extend .no-gutters;
+  background-color: #F4F4F7;
 }
 
 .Enhancements {
