@@ -1,5 +1,8 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'upper-phablet': $upper-phablet
+);
 
 :export {
   blueDark: $color-blue-dark;
@@ -7,7 +10,8 @@
 }
 
 .extras {
-  margin: 3rem 0;
+  @extend .col-12;
+  padding-left: 0px;
 }
 
 .icon {
@@ -20,4 +24,10 @@
   font-size: 1.6rem;
   line-height: 6rem;
   @include proxima-regular;
+}
+
+@include media('<upper-phablet') {
+  .extras {
+    padding-left: 15px;
+  }
 }

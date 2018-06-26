@@ -3,7 +3,9 @@
 
 $breakpoints: (
   'tablet': $tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'lower-tablet': $lower-tablet,
+  'upper-phablet': $upper-phablet
 );
 
 :export {
@@ -11,19 +13,20 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 4.4rem 0 5.2rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
-  background-color: $color-offblack;
+  padding-top: 4.4rem;
+  padding-bottom: 5.2rem;
+  @extend .container;
 }
 
 .intro {
-  grid-column: 2 / 3;
-
+  @extend .row;
+  @extend .no-gutters;
   display: flex;
   flex-flow: column nowrap;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .navigation {
@@ -57,14 +60,33 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding-left: 4rem;
-    padding-right: 4rem;
+
+  }
+  .title {
+    font-size: 1rem;
   }
 }
 
-@include media('<lower-phone') {
+@include media('<lower-tablet') {
   .capsule {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 7.2rem;
+    padding-bottom: 9.7rem;
   }
+
+  .title {
+    max-width: 61rem;
+    font-size: 4.8rem;
+    letter-spacing: 0.4px;
+    line-height: 5.8rem;
+    margin: 0 1rem 1.6rem 0;
+  }
+
+}
+
+@include media('<upper-phablet') {
+
+}
+
+@include media('<lower-phone') {
+
 }

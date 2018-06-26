@@ -13,76 +13,85 @@ $breakpoints: (
 }
 
 .coursePage {
-  grid-area: main;
 
-  @include display-grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
-}
-
-.capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  grid-column: 1 / -1;
-}
-
-.sidebar {
-  grid-column: 1 / 2;
-  background-color: $color-offwhite;
+  background-color: $color-offblack;
 }
 
 .details {
-  grid-column: 2 / 3;
-  @include display-grid;
-  grid-template-columns: 375px auto;
+  background-color: $color-offwhite;
+}
+
+.courseDetails {
+  padding-top: 2rem;
+  background-color: $color-offwhite;
+  @extend .container;
+
+  .title {
+    text-transform: uppercase;
+  }
+}
+
+.CourseExtras {
+  @extend .row;
+  @extend .no-gutters;
+}
+
+.episodes {
+  @extend .col-12;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 0px;
 }
 
 .mobileEpisodes {
   display: none;
 }
 
-.courseDetails {
-  background-color: $color-offwhite;
-  grid-column: 1 / 2;
-  .title {
-    text-transform: uppercase;
-  }
+.EpisodeView {
+  @extend .container;
 }
 
-.EpisodeView {
-  grid-column: 2 / 3;
+.EpisodeDetails {
+  @extend .col-12;
+}
+
+.CourseVideo {
+  @extend .col-12;
+}
+
+.EpisodeExtras {
+  @extend .col-12;
 }
 
 @include media('<tablet') {
   .courseDetails {
-    padding-left: 4rem;
-    margin-right: 4rem;
+
   }
 }
 
 @include media('<upper-phablet') {
   .courseDetails {
-    grid-column: 1 / -1;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    margin-right: 0;
+
   }
   .EpisodeView {
-    grid-column: 1 / -1;
-    padding-left: 4rem;
-    padding-right: 4rem;
+
   }
   .episode {
     padding-bottom: 3rem;
   }
   .details {
-    grid-template-columns: auto;
+
   }
+  .CourseExtras {
+    padding-left: 15px;
+  }
+  .episodes {
+    padding-left: 15px;
+  }
+
   .desktopEpisodes {
     display: none;
   }
@@ -101,12 +110,10 @@ $breakpoints: (
 
 @include media('<lower-phone') {
   .courseDetails {
-    padding-left: 2rem;
-    padding-right: 2rem;
+
   }
   .EpisodeView {
-    padding-left: 2rem;
-    padding-right: 2rem;
+
   }
   .list {
     padding-left: 0;
