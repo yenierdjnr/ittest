@@ -9,18 +9,18 @@ $breakpoints: (
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  @extend .container;
   background-color: $color-offblack;
 }
 
 .list {
-  grid-column: 2 / 3;
+  @extend .row;
   display: flex;
   flex-flow: row wrap;
 }
 
 .item {
+  @extend .col-12;
   text-align: center;
   display: flex;
   align-items: center;
@@ -51,13 +51,8 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .list {
-    justify-content: left;
-  }
-
   .item {
     width: 11.4rem;
-    justify-content: center;
 
     & span {
       line-height: 2rem;
@@ -70,13 +65,8 @@ $breakpoints: (
 
 
 @include media('<=upper-phone') {
-  .list {
-    justify-content: space-between;
-  }
-
   .item {
     width: 9.4rem;
-    justify-content: center;
     &:nth-child(3n+3) {
       margin-right: 1rem;
     }
@@ -88,13 +78,7 @@ $breakpoints: (
 }
 
 @include media('<=lower-phone') {
-  .list {
-    justify-content: space-between;
-  }
-
   .item {
-    width: 9.4rem;
-    justify-content: center;
     &:not(:last-child) {
       margin-right: 3rem;
     }
@@ -103,8 +87,6 @@ $breakpoints: (
 
 @include media('<=lower-mid-phone') {
   .item {
-    width: 9.4rem;
-    justify-content: center;
     &:not(:last-child) {
       margin-right: 2.6rem;
     }
