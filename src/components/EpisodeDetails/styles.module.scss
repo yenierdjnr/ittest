@@ -12,12 +12,14 @@ $breakpoints: (
 }
 
 .episodeDetails {
-  padding: 3rem 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 15px;
 }
 
 .title {
   text-transform: capitalize;
-  padding: 0 1rem 0 0;
+  padding-right: 1rem;
 }
 .length {
   font-size: 1.6rem;
@@ -26,19 +28,20 @@ $breakpoints: (
 }
 .summary {
   font-size: 1.6rem;
-  padding: 1rem 0 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @include media('<tablet') {
   .episodeDetails {
-    padding: 3rem 4rem 3rem 0;
+    // padding: 3rem 4rem 3rem 0;
   }
 }
 
 @include media('<upper-phablet') {
-  .episodeDetails {
-    padding: 3rem 4rem;
-  }
+  // .episodeDetails {
+  //   padding: 3rem 4rem;
+  // }
 }
 
 @include media('<lower-phone') {

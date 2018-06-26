@@ -29,9 +29,13 @@ const CoursePageHero = props => {
         </div>
         <div className={ styles.colXS12 }>
           <Hx className={ styles.title } size="1">{props.title}</Hx>
+        </div>
+        <div className={ styles.colXS12 }>
           <Para className={ styles.subtitle }>
             {props.subtitle}
           </Para>
+        </div>
+        <div className={ styles.colXS12 }>
           <Para className={ styles.time }>
             {!!props.length &&
               <span>{ courseLengthToString(props.length).join(' ') }</span>

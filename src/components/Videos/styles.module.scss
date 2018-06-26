@@ -29,7 +29,7 @@ $breakpoints: (
   position: relative;
 
   display: flex;
-  justify-content: center;
+  @extend .justify-content-center;
   align-items: center;
   margin: 0 2rem 3rem 2rem;
 }
@@ -167,7 +167,7 @@ $breakpoints: (
 
 @include media('<tablet') {
   .course-capsule {
-    margin: 0rem 4rem 3rem 0;
+    margin: 0rem 4rem 3rem 1.5rem;
   }
 }
 

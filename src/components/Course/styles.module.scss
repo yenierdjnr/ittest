@@ -4,6 +4,7 @@
 $breakpoints: (
   'tablet': $tablet,
   'lower-phone': $lower-phone,
+  'lower-tablet': $lower-tablet,
   'upper-phablet': $upper-phablet
 );
 
@@ -18,16 +19,19 @@ $breakpoints: (
 
 .Hero {
   background-color: $color-offblack;
+  display: block;
 }
 
 .details {
-  background-color: $color-offwhite;
+  @extend .container;
+  display: block;
 }
 
 .courseDetails {
   padding-top: 2rem;
   background-color: $color-offwhite;
-  @extend .container;
+  @extend .col-12;
+  @extend .col-lg-5;
 
   .title {
     text-transform: uppercase;
@@ -37,13 +41,14 @@ $breakpoints: (
 .CourseExtras {
   @extend .row;
   @extend .no-gutters;
+  display: block;
 }
 
 .episodes {
   @extend .row;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  padding-left: 0px;
+  padding-left: 15px;
 }
 
 .colXS12 {
@@ -54,8 +59,9 @@ $breakpoints: (
   display: none;
 }
 
-.EpisodeView {
-  @extend .container;
+.episodeView {
+  @extend .col-12;
+  @extend .col-lg-7;
 }
 
 .EpisodeDetails {
@@ -76,19 +82,17 @@ $breakpoints: (
   }
 }
 
-@include media('<upper-phablet') {
-  .courseDetails {
-
-  }
-  .EpisodeView {
-
-  }
+@include media('<lower-tablet') {
   .episode {
     padding-bottom: 3rem;
   }
-  .details {
 
+  .details {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
   }
+
   .CourseExtras {
     padding-left: 15px;
   }
@@ -100,7 +104,7 @@ $breakpoints: (
     display: none;
   }
   .mobileEpisodes {
-    display: block;
+    display: inline-block;
     cursor: pointer;
   }
   .caret {
@@ -112,11 +116,12 @@ $breakpoints: (
   }
 }
 
+@include media('<upper-phablet') {
+
+}
+
 @include media('<lower-phone') {
   .courseDetails {
-
-  }
-  .EpisodeView {
 
   }
   .list {

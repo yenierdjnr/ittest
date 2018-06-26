@@ -11,7 +11,7 @@ $breakpoints: (
 
 .extras {
   @extend .col-12;
-  padding-left: 0px;
+  padding-left: 15px;
 }
 
 .extra {
@@ -22,13 +22,23 @@ $breakpoints: (
   @extend .col-12;
 }
 
-.icon {
-  padding-right: 1rem;
+.examsicon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.labsicon, .examsicon {
+  @extend .col-2;
+  @extend .col-md-3;
+  @extend .col-lg-2;
   margin-top: -.8rem;
   vertical-align: middle;
 }
 
 .para {
+  @extend .col-10;
+  @extend .col-md-9;
+  @extend .col-lg-10;
   font-size: 1.6rem;
   line-height: 6rem;
   @include proxima-regular;

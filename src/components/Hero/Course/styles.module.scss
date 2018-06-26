@@ -21,8 +21,6 @@ $breakpoints: (
 .intro {
   @extend .row;
   @extend .no-gutters;
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 .colXS12 {
