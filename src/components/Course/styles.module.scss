@@ -40,10 +40,14 @@ $breakpoints: (
 }
 
 .episodes {
-  @extend .col-12;
+  @extend .row;
   padding-top: 1rem;
   padding-bottom: 2rem;
   padding-left: 0px;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .mobileEpisodes {

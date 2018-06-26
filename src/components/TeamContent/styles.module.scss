@@ -26,6 +26,10 @@ $breakpoints: (
   margin-bottom: 2rem;
 }
 
+.colXS12 {
+  @extend .col-12;
+}
+
 .listcapsule {
   @extend .justify-content-center;
   @extend .row;

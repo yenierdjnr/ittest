@@ -14,6 +14,14 @@ $breakpoints: (
   padding-left: 0px;
 }
 
+.extra {
+  @extend .row;
+}
+
+.colXS12 {
+  @extend .col-12;
+}
+
 .icon {
   padding-right: 1rem;
   margin-top: -.8rem;

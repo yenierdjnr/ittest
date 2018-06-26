@@ -64,19 +64,21 @@ class CoursePage extends Component {
           <div className={ styles.courseDetails }>
             <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
             <div className={ styles.episodes }>
-              <Hx className={ `${styles['desktopEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }>Episodes</Hx>
-              <Hx className={ `${styles['mobileEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }><span onClick={ () => this.handleEpisodeToggle() }>Episodes <IconCaret className={ this.state.showEpisodes ? styles.caret : '' } /></span></Hx>
-              <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
-                {data.course.topics.map((topic, index) => (
-                  <CourseTopic
-                    key={ topic.title }
-                    title={ topic.title }
-                    episodes={ topic.episodes }
-                    onEpisodeChange={ this.handleEpisodeChange }
-                    topicIndex={ index }
-                  />
-                ))}
-              </ul>
+              <div className={ styles.colXS12 }>
+                <Hx className={ `${styles['desktopEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }>Episodes</Hx>
+                <Hx className={ `${styles['mobileEpisodes']} ${styles.title}` } size="5" color={ styles.offBlack }><span onClick={ () => this.handleEpisodeToggle() }>Episodes <IconCaret className={ this.state.showEpisodes ? styles.caret : '' } /></span></Hx>
+                <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
+                  {data.course.topics.map((topic, index) => (
+                    <CourseTopic
+                      key={ topic.title }
+                      title={ topic.title }
+                      episodes={ topic.episodes }
+                      onEpisodeChange={ this.handleEpisodeChange }
+                      topicIndex={ index }
+                    />
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </section>
