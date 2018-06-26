@@ -11,6 +11,15 @@ terraform {
   }
 }
 
+data "terraform_remote_state" "genesis" {
+  backend = "s3"
+  config {
+    bucket = "itprotv-terraform-state"
+    key = "project-genesis.tfstate"
+    region = "us-east-1"
+  }
+}
+
 resource "aws_ecr_repository" "itprotv_marketing_repo" {
   name = "itprotv-marketing"
 }
@@ -58,6 +67,7 @@ module "staging" {
   source = "./staging"
   itprotv_marketing_repo = "${aws_ecr_repository.itprotv_marketing_repo.repository_url}"
   region = "us-east-1"
+  cluster_name = "${data.terraform_remote_state.genesis.main_cluster_name}"
   image_tag = "commit-${var.staging["tag"]}"
   proxy_url = "new-staging.itpro.tv"
 }
