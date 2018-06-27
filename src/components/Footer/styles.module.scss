@@ -7,7 +7,6 @@ $breakpoints: (
 
 .page-footer {
   grid-area: footer;
-  display: none;
 
   @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
