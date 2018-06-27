@@ -9,28 +9,16 @@ $breakpoints: (
 .capsule {
   padding: 11.2rem 0 10.6rem;
   overflow: hidden;
-
-  padding: 11.2rem 0 10.6rem;
-  overflow: hidden;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  grid-template-rows: auto auto;
-
   background-color: $color-offwhite;
 }
 
 .content {
-  grid-column: 2 / 3;
-
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
 
 .title {
-  grid-column: 2 / 3;
-
   width: 82rem;
   text-align: center;
   margin: 0 auto 9.6rem;
