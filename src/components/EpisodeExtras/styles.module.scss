@@ -2,7 +2,6 @@
 
 $breakpoints: (
   'tablet': $tablet,
-  'lower-phone': $lower-phone,
   'upper-phablet': $upper-phablet
 );
 
@@ -13,8 +12,9 @@ $breakpoints: (
 
 .episodeExtras {
   clear: both;
-  margin: 2rem;
+  margin: 2rem 0;
   background-color: $color-offwhite;
+  width: 100%;
 }
 
 .extrasMenu {
@@ -41,12 +41,12 @@ $breakpoints: (
 
 @include media('<tablet') {
   .episodeExtras {
-    margin: 3rem 4rem 3rem 0;
+    margin: 3rem 0 3rem 0;
   }
 }
 
 @include media('<upper-phablet') {
   .episodeExtras {
-    margin: 3rem 4rem;
+    margin: 3rem 0;
   }
 }

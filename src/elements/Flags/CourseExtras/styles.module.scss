@@ -1,5 +1,8 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'upper-phablet': $upper-phablet
+);
 
 :export {
   blueDark: $color-blue-dark;
@@ -7,17 +10,43 @@
 }
 
 .extras {
-  margin: 3rem 0;
+  @extend .row;
 }
 
-.icon {
-  padding-right: 1rem;
+.extra {
+  @extend .col-12;
+}
+
+.colXS12 {
+  @extend .col-12;
+  padding-left: -15px !important;
+  padding-right: -15px !important;
+}
+
+.examsicon {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.labsicon, .examsicon {
+  @extend .col-2;
+  @extend .col-md-3;
+  @extend .col-lg-2;
   margin-top: -.8rem;
   vertical-align: middle;
 }
 
 .para {
+  @extend .col-10;
+  @extend .col-md-9;
+  @extend .col-lg-10;
   font-size: 1.6rem;
   line-height: 6rem;
   @include proxima-regular;
+}
+
+@include media('<upper-phablet') {
+  .extras {
+    padding-left: 15px;
+  }
 }

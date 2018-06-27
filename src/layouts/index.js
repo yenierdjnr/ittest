@@ -5,7 +5,7 @@ import 'Styles/globals.css';
 
 import Overlay from 'Components/Overlay';
 import Header from 'Components/Header';
-import Footer from 'Components/Footer';
+
 
 import { mainLayout, overlay } from './styles.module.scss';
 
@@ -34,7 +34,7 @@ class Index extends Component {
         </div>
   			<Header pathname={ location.pathname }/>
   			{ children() }
-  			<Footer />
+  			
   		</div>
   	);
   }

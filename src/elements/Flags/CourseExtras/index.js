@@ -9,17 +9,17 @@ import { IconPracticeExam, IconVirtualLab } from 'Elements/Icons';
 const CourseTopic = ({ className='', vLab='', exam='' }) => {
   return (
     <div className={ styles.extras }>
-      <div color={ styles.offBlack }>
+      <div className={ styles.extra } color={ styles.offBlack }>
         { vLab &&
           <div>
-            <IconVirtualLab className={ styles.icon } /><span className={ styles.para }>This course has a virtual lab</span>
+            <IconVirtualLab className={ styles.labsicon } /><span className={ styles.para }>This course has a virtual lab</span>
           </div>
         }
       </div>
-      <div color={ styles.offBlack } >
+      <div className={ styles.extra } color={ styles.offBlack } >
         { exam &&
           <div>
-            <IconPracticeExam className={ styles.icon } /><span className={ styles.para }>This course has a practice exam</span>
+            <IconPracticeExam className={ styles.examsicon } /><span className={ styles.para }>This course has a practice exam</span>
           </div>
         }
       </div>

@@ -21,19 +21,27 @@ const CoursePageHero = props => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.intro }>
-        <span onClick={ () => props.history.goBack() } className={ styles.navigation }>
-          <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
-          back
-        </span>
-        <Hx className={ styles.title } size="1">{props.title}</Hx>
-        <Para className={ styles.subtitle }>
-          {props.subtitle}
-        </Para>
-        <Para className={ styles.time }>
-          {!!props.length &&
-            <span>{ courseLengthToString(props.length).join(' ') }</span>
-          }
-        </Para>
+        <div className={ styles.colXS12 }>
+          <span onClick={ () => props.history.goBack() } className={ styles.navigation }>
+            <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
+            back
+          </span>
+        </div>
+        <div className={ styles.colXS12 }>
+          <Hx className={ styles.title } size="1">{props.title}</Hx>
+        </div>
+        <div className={ styles.colXS12 }>
+          <Para className={ styles.subtitle }>
+            {props.subtitle}
+          </Para>
+        </div>
+        <div className={ styles.colXS12 }>
+          <Para className={ styles.time }>
+            {!!props.length &&
+              <span>{ courseLengthToString(props.length).join(' ') }</span>
+            }
+          </Para>
+        </div>
       </div>
     </section>
   );

@@ -1,23 +1,18 @@
 @import '~Styles/main';
 
-$breakpoints: (
-  'tablet': $tablet,
-  'lower-phone': $lower-phone,
-  'upper-phablet': $upper-phablet
-);
-
 :export {
   greyDark: $color-grey-dark;
   offBlack: $color-offblack;
 }
 
 .episodeDetails {
-  padding: 3rem 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .title {
   text-transform: capitalize;
-  padding: 0 1rem 0 0;
+  padding-right: 1rem;
 }
 .length {
   font-size: 1.6rem;
@@ -26,21 +21,6 @@ $breakpoints: (
 }
 .summary {
   font-size: 1.6rem;
-  padding: 1rem 0 1rem 0;
-}
-
-@include media('<tablet') {
-  .episodeDetails {
-    padding: 3rem 4rem 3rem 0;
-  }
-}
-
-@include media('<upper-phablet') {
-  .episodeDetails {
-    padding: 3rem 4rem;
-  }
-}
-
-@include media('<lower-phone') {
-
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
