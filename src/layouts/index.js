@@ -33,8 +33,8 @@ class Index extends Component {
           <Overlay pathname={ location.pathname } callback={ this.handleCloseClick }/>
         </div>
   			<Header pathname={ location.pathname }/>
-  			{ children() }
-  			
+  			<div className={ ['row'] }>{ children() }</div>
+  			<Footer />
   		</div>
   	);
   }

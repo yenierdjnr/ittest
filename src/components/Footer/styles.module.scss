@@ -6,7 +6,7 @@ $breakpoints: (
 );
 
 .page-footer {
-  grid-area: footer;
+  @extend .container;
 
   @include display-grid;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
@@ -17,19 +17,15 @@ $breakpoints: (
 }
 
 .page-footer__content {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: minmax(178px, 272px) minmax(auto, 752px);
+  @extend .row;
 }
 
 .page-footer__logo-box {
-  grid-column: 1 / 2;
+  @extend .col-sm;
 }
 
 .page-footer__nav {
-  grid-column: 2 / 3;
+  @extend .col-sm;
   padding-right: 8.9rem;
 
   display: flex;
