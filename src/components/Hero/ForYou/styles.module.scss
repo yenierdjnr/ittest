@@ -9,7 +9,7 @@ $breakpoints: (
 
 
 .capsule {
-  @extend .container-fluid;
+
   padding: 12rem 0;
   background-image: url('Images/forYou_hero@1x.jpg');
   background-size: cover;
@@ -18,6 +18,7 @@ $breakpoints: (
 
 .intro {
   padding-left: 2.4rem;
+  @extend .container;
 }
 
 .title {
