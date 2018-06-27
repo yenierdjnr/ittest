@@ -13,13 +13,15 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .row;
+  @extend .container;
   padding: 5rem 0 6rem;
   text-align: center;
 }
 
 .colXS12 {
   @extend .col-12;
+  @extend .col-md-10;
+  @extend .offset-md-1;
 }
 
 .subtitle {

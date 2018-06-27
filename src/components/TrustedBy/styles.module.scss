@@ -13,26 +13,24 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .row;
-  @extend .justify-content-center;
+  @extend .container;
   padding: 5rem 0;
 }
 
 .colXS12 {
   @extend .col-12;
+  text-align: center;
 }
 
 .subtitle {
   @include proxima-semi-bold;
   font-size: 3.6rem;
   line-height: 3.4rem;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
 .listcapsule {
   @extend .row;
-  display: flex;
   @extend .justify-content-center;
   margin-top: 2rem;
 }
@@ -40,8 +38,8 @@ $breakpoints: (
 .logo {
   margin: 2rem auto;
   padding: 0 6rem;
-  display: flex;
-  @extend .justify-content-center;
+  max-width: 150px;
+  // @extend .justify-content-center;
 }
 
 .item {

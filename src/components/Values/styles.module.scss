@@ -13,6 +13,7 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .container;
   padding: 5rem 0;
   text-align: center;
 }
@@ -34,7 +35,6 @@ $breakpoints: (
 
 .listcapsule {
   @extend .row;
-  display: flex;
   @extend .justify-content-center;
 }
 
@@ -42,11 +42,9 @@ $breakpoints: (
   @extend .col-12;
   @extend .col-sm-6;
   @extend .col-md-4;
-  padding: 4rem 1rem;
-  width: 28rem;
+  padding: 4rem 3rem;
   text-align: center;
   margin: 0 auto;
-  display: flex;
   @extend .justify-content-center;
 }
 
