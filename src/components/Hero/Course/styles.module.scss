@@ -3,9 +3,7 @@
 
 $breakpoints: (
   'tablet': $tablet,
-  'lower-phone': $lower-phone,
-  'lower-tablet': $lower-tablet,
-  'upper-phablet': $upper-phablet
+  'lower-tablet': $lower-tablet
 );
 
 :export {
@@ -56,9 +54,6 @@ $breakpoints: (
 
 
 @include media('<tablet') {
-  .capsule {
-
-  }
   .title {
     font-size: 1rem;
   }
@@ -77,13 +72,5 @@ $breakpoints: (
     line-height: 5.8rem;
     margin: 0 1rem 1.6rem 0;
   }
-
-}
-
-@include media('<upper-phablet') {
-
-}
-
-@include media('<lower-phone') {
 
 }

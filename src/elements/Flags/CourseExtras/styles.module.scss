@@ -10,16 +10,17 @@ $breakpoints: (
 }
 
 .extras {
-  @extend .col-12;
-  padding-left: 15px;
+  @extend .row;
 }
 
 .extra {
-  @extend .row;
+  @extend .col-12;
 }
 
 .colXS12 {
   @extend .col-12;
+  padding-left: -15px !important;
+  padding-right: -15px !important;
 }
 
 .examsicon {

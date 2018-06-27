@@ -2,19 +2,13 @@
 
 
 $breakpoints: (
-  'tablet': $tablet,
   'lower-phone': $lower-phone,
-  'lower-tablet': $lower-tablet,
-  'upper-phablet': $upper-phablet
+  'lower-tablet': $lower-tablet
 );
 
 :export {
   greyDark: $color-grey-dark;
   offBlack: $color-offblack;
-}
-
-.coursePage {
-
 }
 
 .Hero {
@@ -46,7 +40,7 @@ $breakpoints: (
 
 .episodes {
   @extend .row;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 15px;
 }
@@ -76,30 +70,20 @@ $breakpoints: (
   @extend .col-12;
 }
 
-@include media('<tablet') {
-  .courseDetails {
-
-  }
-}
 
 @include media('<lower-tablet') {
   .episode {
     padding-bottom: 3rem;
   }
-
   .details {
-    // margin-left: 0;
-    // margin-right: 0;
-    // max-width: 100%;
+    max-width: 100%;
   }
-
   .CourseExtras {
     padding-left: 15px;
   }
   .episodes {
     padding-left: 15px;
   }
-
   .desktopEpisodes {
     display: none;
   }
@@ -116,14 +100,7 @@ $breakpoints: (
   }
 }
 
-@include media('<upper-phablet') {
-
-}
-
 @include media('<lower-phone') {
-  .courseDetails {
-
-  }
   .list {
     padding-left: 0;
     padding-right: 0;
