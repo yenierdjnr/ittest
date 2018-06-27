@@ -18,24 +18,23 @@ $breakpoints: (
 }
 
 .content {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  @extend .col-12;
 }
 
 .title {
   border-bottom: 8px;
   text-align: center;
+  @extend .col-12;
 }
 
 .subtitle {
-  max-width: 57.7rem;
   line-height: 3rem;
   text-align: center;
+  @extend .col-12;
 }
 
 .details {
+  @extend .col-12;
   padding: 5.6rem 0 6.8rem;
   p {
     padding: .8rem 0;
