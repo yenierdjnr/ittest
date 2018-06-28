@@ -10,6 +10,7 @@ $footer-ht-unit: 30px;
 .page-footer {
   @extend .container-fluid;
   padding-top: $footer-ht-unit*2;
+  max-width: $tablet;
 }
 
 #upperFooter {

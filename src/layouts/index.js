@@ -5,6 +5,7 @@ import 'Styles/globals.css';
 
 import Overlay from 'Components/Overlay';
 import Header from 'Components/Header';
+import Footer from 'Components/Footer';
 
 
 import { mainLayout, overlay, mainRows, mainContent, footerContent } from './styles.module.scss';
