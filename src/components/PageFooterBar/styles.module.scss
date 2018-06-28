@@ -1,11 +1,10 @@
-@import '~Styles/variables';
-@import '~Styles/fonts';
-@import '~Styles/mixins';
-@import '~Styles/layouts';
+@import '~Styles/main';
 
-
-.social-media {
-  margin-bottom: 17px;
+.page-footer__social {
+  padding: 36px 0 17px;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
 
   & a {
     display: inline-block;
@@ -15,7 +14,11 @@
     }
   }
 }
-
+.page-footer__copyright {
+  @extend .d-flex;
+  @extend .justify-content-center;
+    margin-bottom: 31px;
+}
 .copyright {
   color: $color-grey-dark;
   @include adelle-sans-regular;
@@ -23,4 +26,3 @@
   letter-spacing: 0.15px;
   line-height: 1.8rem;
 }
-

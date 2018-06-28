@@ -1,6 +1,5 @@
 @import '~Styles/main';
 
-
 $breakpoints: (
   'lower-tablet': $lower-tablet
 );
@@ -88,11 +87,12 @@ $footer-ht-unit: 30px;
   margin-bottom: 1.6rem;
 }
 
-@include media('<lower-tablet') {
 
-  .page-footer__bar, .page-footer__menu {
+@include media('<lower-tablet') {
+  .page-footer {
     max-width: 320px;
   }
+
   .page-footer__content {
     width: 100%;
     max-width: 37rem;

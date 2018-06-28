@@ -1,0 +1,8 @@
+@import '~Styles/main';
+
+$hrMarginsX: 0 -($grid-gutter-width/2);
+
+.topBorder {
+  margin: 0 $hrMarginsX;
+  border-top: 1px solid #E4E8EC;
+}

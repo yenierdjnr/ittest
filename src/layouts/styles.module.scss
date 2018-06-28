@@ -3,6 +3,9 @@
 
 .mainLayout {
   @extend .container-fluid;
+  .mainRows {
+    @extend .row;
+  }
 }
 
 .intro {
@@ -12,4 +15,12 @@
 .overlay {
   display: none;
   z-index: $z-overlay;
+}
+
+#mainContent {
+  margin-top: $nav-height;
+}
+
+#footerContent {
+  background-color: $color-offwhite;
 }
