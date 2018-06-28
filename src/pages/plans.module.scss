@@ -6,11 +6,12 @@ $breakpoints: (
 );
 
 .plans {
-  grid-area: main;
+  @extend .row;
+  // grid-area: main;
 
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 380px 80px auto 96px auto;
+  // display: grid;
+  // grid-template-columns: auto;
+  // grid-template-rows: 380px 80px auto 96px auto;
 }
 
 .Hero {
