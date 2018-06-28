@@ -21,17 +21,21 @@ const CourseCategory = ({ data, ...rest }) => (
     </section>
 
     <section className={ styles.Courses }>
-      <ul className={ styles.list }>
-        {data.category.courses.map(course => (
-          <Course
-            key={ course.url }
-            url={ `/courses/${data.category.url}/${course.url}/` }
-            title={ course.name }
-            description={ course.subtitle }
-            courseLength={ course.courseLength }
-          />
-        ))}
-      </ul>
+      <div className={ styles.row }>
+        <div className={ styles.colXS12 }>
+          <ul className={ styles.list }>
+            {data.category.courses.map(course => (
+              <Course
+                key={ course.url }
+                url={ `/courses/${data.category.url}/${course.url}/` }
+                title={ course.name }
+                description={ course.subtitle }
+                courseLength={ course.courseLength }
+              />
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 );
