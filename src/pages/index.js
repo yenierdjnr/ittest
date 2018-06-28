@@ -15,7 +15,7 @@ import styles from './homePage.module.scss';
 const HomePage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location }/>
       <main className={ styles.home }>
 
         <section className={ styles.Hero }>

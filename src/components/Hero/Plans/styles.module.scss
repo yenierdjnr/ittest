@@ -6,6 +6,7 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .col;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
   background-position: 50%;
