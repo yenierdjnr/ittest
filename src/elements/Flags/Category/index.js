@@ -6,14 +6,16 @@ import styles from './styles.module.scss';
 
 const Category = props => {
   const { className='', showMore, title, url } = props;
-  const categoryStyles = !showMore ? styles.item : `${styles.item} ${styles['show-more']}`;
+  const categoryStyles = !showMore ? styles.cols : `${styles.cols} ${styles['show-more']}`;
 
   return (
-    <Link to={url} className={ `${className} ${styles.link}` }>
-      <li className={ categoryStyles }>
-      { title }
-      </li>
-    </Link>
+    <div className={ categoryStyles }>
+      <Link to={url} className={ `${className} ${styles.link}` }>
+        <div className={ styles.item }>
+        { title }
+        </div>
+      </Link>
+    </div>
   );
 };
 

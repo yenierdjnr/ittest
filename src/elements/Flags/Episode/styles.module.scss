@@ -10,19 +10,21 @@ $breakpoints: (
   offBlack: $color-offblack;
 }
 
+.cols {
+  @extend .col-12;
+  @extend .col-lg-6;
+  margin-bottom: 2rem;
+}
+
 .item {
-  width: 492px;
+  width: 100%;
   height: 10rem;
+  @extend .d-flex;
+  @extend .justify-content-start;
+  @extend .align-items-center;
+  @extend .flex-nowrap;
   padding: 21px 16px 20px;
-  justify-self: center;
-
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 0 1 auto;
-  align-items: flex-start;
-
-  text-align: center;
-  cursor: pointer;
+  text-align: left;
 
   border: 1px solid #E4E8EC;
   box-shadow: 0 4px 10px 4px rgba(21,23,70,0.08);
@@ -33,12 +35,6 @@ $breakpoints: (
   &:hover {
     transform: translateY(-2px);
   }
-
-  &.search {
-    width: 100%;
-    justify-content: center;
-    border-bottom: 2px solid $color-green-secondary
-  }
 }
 
 .title {
@@ -46,8 +42,8 @@ $breakpoints: (
 }
 
 .episode {
-  display: flex;
-  align-items: center;
+  @extend .d-flex;
+  @extend .align-items-center;
 
   & span {
     color: $color-offblack;
@@ -79,19 +75,12 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .item {
-    max-width: 49.2rem;
-    width: 100%;
     height: 12.4rem;
-    padding: 1.6rem 0 1.8rem 1.6rem;
-
-    &.search {
-      width: 100%;
-      max-width: unset;
-    }
+    padding-top: 1.6rem;
+    padding-bottom: 1.8rem;
   }
 
   .title {
-    width: 100%;
     text-align: left;
     margin-bottom: 8px;
   }
