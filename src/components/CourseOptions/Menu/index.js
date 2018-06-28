@@ -17,17 +17,21 @@ class Menu extends Component {
 
     return (
       <section className={ `${className} ${styles.capsule}` }>
-        <ul className={ styles.list }>
-          {categories.map((category, index) => (
-              <li
-                key={category}
-                className={ `${styles.item} ${activeCategory == index && styles.active}`}
-                onClick={ this.handleClick(index) }
-              >
-                <span>{category}</span>
-              </li>
-          ))}
-        </ul>
+        <div className={ styles.row }>
+          <div className={ styles.cols }>
+            <ul className={ styles.list }>
+              {categories.map((category, index) => (
+                  <li
+                    key={category}
+                    className={ `${styles.item} ${activeCategory == index && styles.active}`}
+                    onClick={ this.handleClick(index) }
+                  >
+                    <span>{category}</span>
+                  </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </section>
     );
   }

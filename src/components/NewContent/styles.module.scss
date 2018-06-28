@@ -2,26 +2,33 @@
 
 
 $breakpoints: (
-  'tablet': $tablet,
   'upper-phone': $upper-phone,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'lower-tablet': $lower-tablet
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  padding: 5.6rem 0 6.8rem;
-
-  background-color: $color-purple-dark;
+  @extend .container;
 }
 
 .content {
-  grid-column: 2 / 3;
+  @extend .row;
+  @extend .d-flex;
+  @extend .justify-content-between;
+  @extend .align-items-md-center;
+}
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+.summary {
+  @extend .col-12;
+  @extend .col-lg-8;
+  @extend .col-xl-7;
+}
+
+.cta {
+  @extend .col-12;
+  @extend .col-lg-4;
+  @extend .col-xl-4;
+  @extend .offset-xl-1;
 }
 
 .title {
@@ -29,23 +36,23 @@ $breakpoints: (
 }
 
 .subtitle {
-  max-width: 57.7rem;
   line-height: 3rem;
 }
 
 
-@include media('<tablet') {
+@include media('<lower-tablet') {
   .capsule {
-    padding: 4.8rem 0 5.2rem;
-  }
-
-  .content {
-    flex-flow: column nowrap;
+    padding-top: 4.8rem;
+    padding-bottom: 5.2rem;
   }
 
   .summary {
     padding: 0 4rem;
     margin-bottom: 4.8rem;
+    text-align: center;
+  }
+
+  .cta {
     text-align: center;
   }
 
@@ -64,18 +71,8 @@ $breakpoints: (
 
 @include media('<=upper-phone') {
   .summary {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    padding: 0 2rem;
   }
-
-  .title {
-    width: 27.3rem;
-  }
-  .subtitle {
-    width: 29.5rem;
-  }
-
 }
 
 

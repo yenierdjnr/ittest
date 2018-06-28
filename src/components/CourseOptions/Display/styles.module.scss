@@ -2,9 +2,7 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone,
-  'uppper-mid-phablet': $uppper-mid-phablet
+  'lower-tablet': $lower-tablet
 );
 
 :export {
@@ -13,48 +11,27 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 7.2rem 0 8.4rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding-top: 7.2rem;
+  padding-bottom: 8.4rem;
 
   background-color: $color-offwhite;
 }
 
 .list {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
-  grid-column-gap: 4.1rem;
-  grid-row-gap: 3.6rem;
+  @extend .row;
 }
 
 .see-more {
   display: none;
+  @extend .col-12;
 }
 
 
 @include media('<lower-tablet') {
-  .capsule {
-    padding: 3.2rem 1.6rem 3.8rem;
-  }
-
-  .list {
-    grid-row-gap: 1.6rem;
-  }
-
-  .flags {
-    grid-template-columns: minmax(304px, 492px);
-    justify-content: center;
-    padding: 0 1.6rem;
-  }
-
   .see-more {
     display: inline-block;
     padding-top: 2.4rem;
     text-align: center;
-    grid-column: 1 / -1;
 
     &.show-more {
       display: none;
@@ -62,11 +39,5 @@ $breakpoints: (
   }
   .see-more-text {
     text-transform: capitalize;
-  }
-}
-
-@include media('<lower-phone') {
-  .flags {
-    padding: 0 8px;
   }
 }
