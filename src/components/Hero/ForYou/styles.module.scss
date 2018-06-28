@@ -40,8 +40,6 @@ $breakpoints: (
   }
 
   .intro {
-    padding: 0 4rem;
-
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -52,13 +50,12 @@ $breakpoints: (
   }
 
   .title {
-    max-width: 30rem;
     font-size: 4.8rem;
     letter-spacing: 0.4px;
     line-height: 5.8rem;
   }
   .subtitle {
-    max-width: 25rem;
+    max-width: 35rem;
     margin-bottom: 4.8rem;
 
     font-size: 2.1rem;
