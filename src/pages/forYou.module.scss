@@ -38,3 +38,9 @@
 .For-Teams {
   @extend .no-gutters;
 }
+
+@include media('<tablet') {
+  .Testimonials {
+    display: none;
+  }
+}

@@ -94,10 +94,12 @@ class Plans extends Component {
           <ButtonSwitch className={ styles.switch } handleSwitch={ this.handleClick } />
         </header>
 
-        <div className={ styles['card-plans'] }>
-          <Premium info={ currentPricing } className={ styles.plan }/>
-          <Standard info={ currentPricing } className={ styles.plan }/>
-          <Free info={ currentPricing } className={ styles.plan }/>
+        <div className={ styles.cardContainer }>
+          <div className={ styles['card-plans'] }>
+            <Premium info={ currentPricing } className={ styles.plan }/>
+            <Standard info={ currentPricing } className={ styles.plan }/>
+            <Free info={ currentPricing } className={ styles.plan }/>
+          </div>
         </div>
       </section>
     );
