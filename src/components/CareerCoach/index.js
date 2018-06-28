@@ -20,7 +20,7 @@ const CareerCoach = ({ className='' }) => {
           <ButtonLink to="/plans/" className={ styles['button'] }>Get Started Today</ButtonLink>
         </div>
         <div className={ styles.premium }>
-          <Para className={ styles.summary } color={ styles.darkGrey } size="2">Already a Pemium ITProTV member?</Para>
+          <Para className={ styles.summary } color={ styles.darkGrey } size="2">Already a Premium ITProTV member?</Para>
           <TextLink className={ styles['menu-link'] } to={`${process.env.SELF_URL}/career-resources/appointment-scheduler`}>Schedule a career coaching appointment today</TextLink>
         </div>
       </div>
