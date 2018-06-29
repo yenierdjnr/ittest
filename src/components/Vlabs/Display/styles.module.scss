@@ -12,18 +12,13 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 2rem 0 8.4rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
+  padding: 2rem 1rem 8.4rem;
+  @extend .container;
 }
 
-.article, .info {
-  grid-column: 2 / 3;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
+.article {
+  @extend .d-flex;
+  @extend .flex-column;
   margin: 1rem 0;
 }
 
@@ -31,12 +26,5 @@ $breakpoints: (
 @include media('<lower-tablet') {
   .capsule {
     padding: 2rem 2rem 3.8rem;
-  }
-}
-
-
-@include media('<lower-phone') {
-  .flags {
-    padding: 0 8px;
   }
 }
