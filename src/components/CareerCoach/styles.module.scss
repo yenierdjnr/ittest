@@ -2,9 +2,7 @@
 
 
 $breakpoints: (
-  'tablet': $tablet,
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
 
 :export {
@@ -13,77 +11,69 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 42px 0;
-  background-color: #F4F4F7;
+  @extend .container;
 }
 
 .content {
-  max-width: 1024px;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-
-  margin: 0 auto;
-
-  @include display-grid;
-  grid-template-columns: auto, auto, 1fr, auto;
-  grid-gap: 3rem;
+  // max-width: 1024px;
+  //
+  // display: flex;
+  // flex-flow: row nowrap;
+  // justify-content: space-between;
+  // align-items: center;
+  //
+  // margin: 0 auto;
+  //
+  // @include display-grid;
+  // grid-template-columns: auto, auto, 1fr, auto;
+  // grid-gap: 3rem;
+  @extend .row;
+  @extend .d-flex;
+  @extend .align-items-center;
 }
 
 .details {
-  grid-column: 1 / 2;
+  @extend .col-12;
+  @extend .col-lg-8;
+  .summary {
+    padding-right: 6rem;
+  }
 }
 
-.button {
-  grid-column: 3 / 4;
-  display: flex;
-  justify-content: center;
+.cta {
+  @extend .col-12;
+  @extend .col-lg-4;
+  text-align: center;
 }
 
 .premium {
-  grid-column: 1 / 4;
+  @extend .col-12;
   margin-top: 2rem;
 }
 
 
-@include media('<tablet') {
-  .content {
-    flex-flow: column nowrap;
+@include media('<lower-tablet') {
+  .capsule {
+    padding-top: 6.4rem;
+    padding-bottom: 6.5rem;
   }
 
-  .content {
-    padding: 0 4rem;
+  .details {
+    margin-bottom: 4rem;
+    .summary {
+      padding-right: 0;
+    }
   }
 
   .title {
     text-align: center;
-    margin-bottom: 4.8rem;
-  }
-  .details {
-    grid-column: 1 / -1;
-  }
-
-  .button {
-    grid-column: 1 / -1;
-  }
-}
-
-@include media('<lower-tablet') {
-  .capsule {
-    padding: 6.4rem 0 6.5rem;
-  }
-
-  .title {
+    margin-bottom: 4rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
-}
 
-
-@include media('<lower-phone') {
-  .content {
-    max-width: 32rem;
+  .premium {
+    margin-top: 4rem;
   }
+
 }

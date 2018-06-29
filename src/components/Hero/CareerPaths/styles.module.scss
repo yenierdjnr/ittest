@@ -12,21 +12,17 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 4.4rem 0 5.2rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
-
-  background-color: $color-offblack;
-  background-image: url('Images/plan_pattern.svg');
-  background-position: center;
-  height: 400px;
-  overflow: hidden;
+  @extend .container;
+  padding-top: 4.4rem;
+  padding-bottom: 5.2rem;
 }
 
 .intro {
-  grid-column: 2 / 3;
-  padding-left: 2.4rem;
+  @extend .row;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .navigation {
@@ -41,7 +37,6 @@ $breakpoints: (
 }
 
 .title {
-  max-width: 82rem;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
   margin-bottom: 2.4rem;
@@ -49,7 +44,6 @@ $breakpoints: (
 }
 
 .subtitle {
-  max-width: 74.3rem;
   margin-bottom: 5.6rem;
   font-size: 2.8rem;
   line-height: 4.2rem;
@@ -58,20 +52,18 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .capsule {
-    padding: 7.2rem 0 9.7rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
   }
 
   .title {
-    max-width: 61rem;
     font-size: 4.8rem;
     letter-spacing: 0.4px;
     line-height: 5.8rem;
-    margin: 0 1rem 1.6rem;
+    margin-bottom: 1.6rem;
   }
 
   .subtitle {
-    margin-left: 1rem;
-    margin-right: 1rem;
     font-size: 2.1rem;
     line-height: 3.1rem;
   }

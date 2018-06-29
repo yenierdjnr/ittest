@@ -2,18 +2,21 @@
 
 
 .about {
-  display: block;
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
-  padding: 7.2rem 0 7.5rem;
+  @extend .container-fluid;
+  padding-top: 7.2rem;
+  padding-bottom: 7.5rem;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
   background-position: 50%;
 }
 
 .AboutContent {
-  display: block;
+  @extend .container;
 }
 
 .AboutStory {

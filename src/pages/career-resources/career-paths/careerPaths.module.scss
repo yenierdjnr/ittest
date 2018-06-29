@@ -1,28 +1,46 @@
 
 @import '~Styles/main';
 
+$breakpoints: (
+  'upper-phone': $upper-phone,
+  'lower-phone': $lower-phone
+);
+
 .CareerPaths {
-  grid-area: main;
-
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto auto;
-}
-
-.Career {
-  grid-template-columns: 1 / -1;
-  grid-template-rows: 1 / 4;
-  grid-area: main;
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+  @extend .container-fluid;
+  padding: 0;
   height: 400px;
   overflow: hidden;
+  background-color: $color-offblack;
+  background-image: url('Images/plan_pattern.svg');
+  background-position: center;
 }
 
 .Paths {
-  grid-column: 1 / -1;
-  grid-row: 2 / 4;
+  @extend .container;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: $color-white;
+}
+
+@include media('<upper-phone') {
+  .Hero {
+    height: 450px;
+  }
+
+  .Paths {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@include media('<lower-phone') {
+  .Hero {
+    height: 500px;
+  }
 }

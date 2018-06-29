@@ -9,9 +9,11 @@ import styles from './styles.module.scss';
 const CareerResourcesHero = ({ className='' }) => {
   return (
     <section className={ styles.capsule }>
-      <div className={ styles['intro'] }>
-        <Hx size="1" className={ styles['title'] } color={ styles.offBlack }>IT Career Resources</Hx>
-        <Para className={ styles['subtitle'] } color={ styles.offBlack }>Not sure where to start? ITProTV can help. Get info on the many careers paths and the certifications you'll need. Plus, get insights from IT pros via articles and more.</Para>
+      <div className={ styles.row }>
+        <div className={ styles['intro'] }>
+          <Hx size="1" className={ styles['title'] } color={ styles.offBlack }>IT Career Resources</Hx>
+          <Para className={ styles['subtitle'] } color={ styles.offBlack }>Not sure where to start? ITProTV can help. Get info on the many careers paths and the certifications you'll need. Plus, get insights from IT pros via articles and more.</Para>
+        </div>
       </div>
     </section>
   );
