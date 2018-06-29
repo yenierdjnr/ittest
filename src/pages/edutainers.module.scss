@@ -1,5 +1,9 @@
 @import '~Styles/main';
 
+.edutainers {
+  @extend .col;
+  padding: 0;
+}
 
 .Hero {
 

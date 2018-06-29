@@ -1,12 +1,13 @@
 @import '~Styles/main';
 
 
-.PracticeTests {
-
+.practice-tests {
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
-  
+
 }
 
 .TestContent {
