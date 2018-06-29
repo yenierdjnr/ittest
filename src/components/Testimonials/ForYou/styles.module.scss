@@ -26,8 +26,8 @@ $breakpoints: (
 
 .carousel {
   width: 71rem;
-  display: flex;
-  flex-wrap: nowrap;
+  @extend .d-flex;
+  @extend .flex-nowrap;
 }
 
 .lastChild {
