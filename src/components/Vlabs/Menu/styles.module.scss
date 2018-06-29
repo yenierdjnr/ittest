@@ -5,33 +5,29 @@ $breakpoints: (
   'lower-tablet': $lower-tablet,
   'upper-phone': $upper-phone,
   'lower-phone': $lower-phone,
-  'lower-mid-phone': $lower-mid-phone
+  'lower-mid-phone': $lower-mid-phone,
+  'small-phone': $small-phone
 );
 
 .capsule {
-  @extend .container;
   background-color: $color-offblack;
 }
 
 .list {
-  @extend .row;
-  display: flex;
-  flex-flow: row wrap;
+  @extend .container;
+  @extend .d-flex;
+  @extend .flex-wrap;
 }
 
 .item {
-  @extend .col-12;
+  @extend .align-self-center;
   text-align: center;
-  display: flex;
-  align-items: center;
   padding: 1.5rem 0;
   border-bottom: 3px solid $color-offblack;
   cursor: pointer;
-
   &:not(:last-child) {
     margin-right: 3.9rem;
   }
-
   & span {
     color: $color-offwhite;
     @include proxima-semi-bold;
@@ -53,12 +49,14 @@ $breakpoints: (
 @include media('<lower-tablet') {
   .item {
     width: 11.4rem;
-
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
     & span {
       line-height: 2rem;
-    }
-    &:not(:last-child) {
-      margin-right: 3.9rem;
     }
   }
 }
@@ -66,9 +64,12 @@ $breakpoints: (
 
 @include media('<=upper-phone') {
   .item {
-    width: 9.4rem;
+    width: 9rem;
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
     &:nth-child(3n+3) {
-      margin-right: 1rem;
+      margin-right: 0;
     }
   }
   .list:after {
@@ -79,16 +80,24 @@ $breakpoints: (
 
 @include media('<=lower-phone') {
   .item {
+    width: 9rem;
     &:not(:last-child) {
       margin-right: 3rem;
+    }
+    &:nth-child(3n+3) {
+      margin-right: 0;
     }
   }
 }
 
-@include media('<=lower-mid-phone') {
+@include media('<=small-phone') {
   .item {
+    width: 9rem;
     &:not(:last-child) {
-      margin-right: 2.6rem;
+      margin-right: 8rem;
+    }
+    &:nth-child(2n) {
+      margin-right: 0;
     }
   }
 }
