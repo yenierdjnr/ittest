@@ -16,7 +16,7 @@ $breakpoints: (
   @extend .container;
 }
 
-.article {
+.article, .info {
   @extend .d-flex;
   @extend .flex-column;
   margin: 1rem 0;
