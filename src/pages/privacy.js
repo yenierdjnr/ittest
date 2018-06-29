@@ -10,7 +10,7 @@ const Privacy = ({ data, history, location, match, page, pageResources, pageCont
   return (
     <Fragment>
       <Head location={ location }/>
-      <main className={ styles.eula }>
+      <main className={ styles.privacy }>
 
         <section className={ styles.Hero }>
           <Hero />
