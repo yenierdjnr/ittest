@@ -2,7 +2,6 @@
 
 
 .about {
-  display: block;
   @extend .col;
   padding: 0;
 }
@@ -16,7 +15,7 @@
 }
 
 .AboutContent {
-  display: block;
+  @extend .container;
 }
 
 .AboutStory {
