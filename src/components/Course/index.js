@@ -59,7 +59,6 @@ class CoursePage extends Component {
         <section className={ styles.Hero }>
           <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
         </section>
-
         <section className={ styles.details }>
           <div className={ styles.row }>
             <div className={ styles.courseDetails }>
@@ -113,9 +112,9 @@ class CoursePage extends Component {
 export default CoursePage;
 
 export const pageQuery = graphql`
-  query CourseByPath($courseUrl: String) {
-    course: coursesJson(url: {eq: $courseUrl}) {
-      url
+  query CourseByPath {
+    course: coursesJson {
+      id
       name
       subtitle
       description

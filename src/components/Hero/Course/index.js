@@ -49,3 +49,12 @@ const CoursePageHero = props => {
 
 
 export default CoursePageHero;
+
+export const pageQuery = graphql`
+  query GetTagByPath($url: String) {
+    category: tagsJson(url: {eq: $url}) {
+      tagname
+      url
+    }
+  }
+`;
