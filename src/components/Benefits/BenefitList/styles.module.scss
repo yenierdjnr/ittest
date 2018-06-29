@@ -16,8 +16,9 @@ $breakpoints: (
 }
 
 .capsule {
-  display: flex;
-  flex-flow: row wrap;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-lg-row;
   justify-content: space-between;
   align-items: center;
 
@@ -34,7 +35,7 @@ $breakpoints: (
 
 .type {
   margin-bottom: 1.6rem;
-
+  width: 100%;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -62,30 +63,38 @@ $breakpoints: (
 }
 
 .access {
-  display: flex;
-  flex-flow: row nowrap;
-  flex: 1 0 27.7rem;
-  justify-content: space-between;
+  // display: flex;
+  // flex-flow: row nowrap;
+  // flex: 1 0 27.7rem;
+  // justify-content: space-between;
+  width: 100%;
+  @extend .d-flex;
+  @extend .flex-row;
+  @extend .justify-content-lg-end;
+  @extend .justify-content-between;
 
   & .premium {
-    width: 9rem;
+    // width: 9rem;
+    min-width: 12rem;
   }
   & .standard {
-    width: 9.2rem;
+    // width: 9.2rem;
+    min-width: 12rem;
   }
   & .free {
-    width: 4.9rem;
+    // width: 4.9rem;
+    min-width: 12rem;
   }
 }
 
 @include media('>=lower-tablet') {
   .capsule {
-    @include display-grid;
-    grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
+    // @include display-grid;
+    // grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
   }
 
   .type {
-    grid-column: 1 / 2;
+    // grid-column: 1 / 2;
   }
   .title {
     width: 432px;
@@ -94,8 +103,8 @@ $breakpoints: (
     width: 432px;
   }
   .access {
-    grid-column: 3 / 4;
+    // grid-column: 3 / 4;
     margin-bottom: 2rem;
-    flex-basis: unset;
+    // flex-basis: unset;
   }
 }
