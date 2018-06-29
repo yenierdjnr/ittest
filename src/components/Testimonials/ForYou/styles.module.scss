@@ -13,9 +13,9 @@ $breakpoints: (
 }
 
 .content {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  @extend .d-flex;
+  @extend .flex-nowrap;
+  @extend .align-items-center;
 }
 
 .title {
