@@ -7,7 +7,17 @@ import { Course } from 'Elements/Flags'
 import styles from './styles.module.scss';
 
 
-const CourseCategory = ({ data, ...rest }) => (
+const CourseCategory = ({ data, ...rest }) => {
+    if(!data.category)
+    {
+        return (
+        <div>
+            rest.location.pathname
+        </div>
+        );
+    }
+    else {
+        return (
   <main className={ styles.category }>
 
     <Helmet>
@@ -38,7 +48,9 @@ const CourseCategory = ({ data, ...rest }) => (
       </div>
     </section>
   </main>
-);
+    );
+    }
+};
 
 export default CourseCategory;
 

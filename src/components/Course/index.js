@@ -114,7 +114,7 @@ export default CoursePage;
 export const pageQuery = graphql`
   query CourseByPath {
     course: coursesJson {
-      id
+      url
       name
       subtitle
       description
