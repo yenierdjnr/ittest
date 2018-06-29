@@ -11,52 +11,63 @@ import styles from './styles.module.scss';
 
 const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
 
-  <main className={ styles.Paths }>
+  <main className={ styles.Path }>
 
     <section className={ styles.Hero }>
-      <div className={ styles['intro'] }>
-        <Link to="/career-resources/career-paths/" className={ styles.navigation }>
-          <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
-          Career Paths
-        </Link>
-        <Hx size="1" className={ styles['title'] }>Desktop Support</Hx>
-        <Para className={ styles['subtitle'] }>A key part of every IT team is the desktop support team. Understand the basics here.</Para>
+      <div className={ styles.container }>
+        <div className={ styles.row }>
+          <div className={ styles['intro'] }>
+            <Link to="/career-resources/career-paths/" className={ styles.navigation }>
+              <IconArrowRight fill={ styles.orangePrimary } className={ styles.arrow } />
+              Career Paths
+            </Link>
+            <Hx size="1" className={ styles['title'] }>Desktop Support</Hx>
+            <Para className={ styles['subtitle'] }>A key part of every IT team is the desktop support team. Understand the basics here.</Para>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section className={ styles.RecommendedCourses }>
-      <div className ={ styles.label }>
-        <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
-      </div>
-      <ul className={ styles.list }>
-        {recommendedCourses.map(course => (
-          <CareerPathCourses
-            key={ course.url }
-            url={ `/courses/${course.tagUrl}/${course.url}/` }
-            title={ course.name }
-            description={ course.subtitle }
-            level={ course.level }
-          />
-        ))}
-      </ul>
-    </section>
+    <section className={ styles.container }>
 
-    <section className={ styles.AdditionalCourses }>
+      <section className={ styles.RecommendedCourses }>
+        <div className={ styles.colXS12 }>
+          <div className ={ styles.label }>
+            <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
+          </div>
+          <ul className={ styles.list }>
+            {recommendedCourses.map(course => (
+              <CareerPathCourses
+                key={ course.url }
+                url={ `/courses/${course.tagUrl}/${course.url}/` }
+                title={ course.name }
+                description={ course.subtitle }
+                level={ course.level }
+              />
+            ))}
+          </ul>
+        </div>
+      </section>
 
-      <div className ={ styles.label }>
-        <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
-      </div>
-      <ul className={ styles.list }>
-        {additionalCourses.map(course => (
-          <CareerPathCourses
-            key={ course.url }
-            url={ `/courses/${course.tagUrl}/${course.url}/` }
-            title={ course.name }
-            description={ course.subtitle }
-            level={ course.level }
-          />
-        ))}
-      </ul>
+      <section className={ styles.AdditionalCourses }>
+        <div className={ styles.colXS12 }>
+          <div className ={ styles.label }>
+            <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
+          </div>
+          <ul className={ styles.list }>
+            {additionalCourses.map(course => (
+              <CareerPathCourses
+                key={ course.url }
+                url={ `/courses/${course.tagUrl}/${course.url}/` }
+                title={ course.name }
+                description={ course.subtitle }
+                level={ course.level }
+              />
+            ))}
+          </ul>
+        </div>
+      </section>
+
     </section>
 
   </main>

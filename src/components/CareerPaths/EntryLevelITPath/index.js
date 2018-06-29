@@ -31,41 +31,45 @@ const EntryLevelITPath = ({ data, recommendedCourses, additionalCourses, ...rest
     <section className={ styles.container }>
 
       <section className={ styles.RecommendedCourses }>
-        <div className ={ styles.label }>
-          <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
+        <div className={ styles.colXS12 }>
+          <div className ={ styles.label }>
+            <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
+          </div>
+          <ul className={ styles.list }>
+            {recommendedCourses.map(course => (
+              <CareerPathCourses
+                key={ course.url }
+                url={ `/courses/${course.tagUrl}/${course.url}/` }
+                title={ course.name }
+                description={ course.subtitle }
+                level={ course.level }
+              />
+            ))}
+          </ul>
         </div>
-        <ul className={ styles.list }>
-          {recommendedCourses.map(course => (
-            <CareerPathCourses
-              key={ course.url }
-              url={ `/courses/${course.tagUrl}/${course.url}/` }
-              title={ course.name }
-              description={ course.subtitle }
-              level={ course.level }
-            />
-          ))}
-        </ul>
       </section>
 
       <section className={ styles.AdditionalCourses }>
-        <div className ={ styles.label }>
-          <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
+        <div className={ styles.colXS12 }>
+          <div className ={ styles.label }>
+            <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
+          </div>
+          <ul className={ styles.list }>
+            {additionalCourses.map(course => (
+              <CareerPathCourses
+                key={ course.url }
+                url={ `/courses/${course.tagUrl}/${course.url}/` }
+                title={ course.name }
+                description={ course.subtitle }
+                level={ course.level }
+              />
+            ))}
+          </ul>
         </div>
-        <ul className={ styles.list }>
-          {additionalCourses.map(course => (
-            <CareerPathCourses
-              key={ course.url }
-              url={ `/courses/${course.tagUrl}/${course.url}/` }
-              title={ course.name }
-              description={ course.subtitle }
-              level={ course.level }
-            />
-          ))}
-        </ul>
       </section>
 
       <section className={ styles.Resources }>
-        <div className ={ styles.label }>
+        <div className ={ `${styles.label} ${styles.colXS12}` }>
           <Hx color={ styles.headingColor } size="5">Informational Resources</Hx>
         </div>
         <div className={ styles.article }>

@@ -11,6 +11,11 @@ $breakpoints: (
   padding: 0;
 }
 
+.Career {
+  @extend .col;
+  padding: 0;
+}
+
 .Hero {
   @extend .container-fluid;
   padding: 0;
