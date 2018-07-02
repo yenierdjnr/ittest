@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -18,11 +19,8 @@ $breakpoints: (
 
 .item {
   width: 100%;
-  height: 10rem;
-  @extend .d-flex;
-  @extend .justify-content-start;
-  @extend .align-items-center;
-  @extend .flex-nowrap;
+  height: 12rem;
+  display: block;
 
   padding: 21px 16px 20px;
   text-align: left;
@@ -46,7 +44,9 @@ $breakpoints: (
 
 .path {
   @extend .d-flex;
+  @extend .justify-content-between;
   @extend .align-items-center;
+  padding-bottom: 2rem;
   max-width: 100%;
 
   & span {
@@ -72,13 +72,20 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .item {
-    height: 12.4rem;
     padding-top: 1.6rem;
     padding-bottom: 1.8rem;
   }
 
   .title {
-    text-align: left;
     margin-bottom: 8px;
+  }
+}
+
+@include media('<lower-phone') {
+  .item {
+    height: 14.6rem;
+  }
+  .title {
+    margin-bottom: 6px;
   }
 }

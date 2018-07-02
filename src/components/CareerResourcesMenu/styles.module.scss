@@ -14,11 +14,6 @@ $breakpoints: (
   padding-bottom: 10rem;
 }
 
-.itemRow {
-  @extend .d-flex;
-  @extend .justify-content-center;
-}
-
 .item {
   @extend .col-10;
   @extend .offset-1;
@@ -26,17 +21,17 @@ $breakpoints: (
   @extend .offset-lg-0;
 }
 
+.itemContainer {
+  @extend .d-flex;
+  @extend .justify-content-center;
+}
+
 .icon-box {
   width: 18rem;
   height: 18rem;
   margin: 0 auto;
-  // margin-bottom: 5.6rem;
   @extend .d-flex;
   @extend .justify-content-center;
-
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
 }
 
 .menu-link {
@@ -51,49 +46,8 @@ $breakpoints: (
   }
 
   .item {
-    // max-width: 33.4rem;
-    //
-    // display: flex;
-    // flex-flow: column;
-    // align-items: center;
-
     &:not(:last-child) {
       margin-bottom: 6.4rem;
     }
   }
-  //
-  // .icon-box {
-  //   width: 10rem;
-  //   height: 10rem;
-  //   margin-bottom: 4rem;
-  //   border-radius: 5rem;
-  //
-  //   & .camera {
-  //     width: 6.5rem;
-  //     height: 7.5rem;
-  //   }
-  //   & .bars {
-  //     width: 5.2rem;
-  //     height: 6.9rem;
-  //   }
-  //   & .mobile {
-  //     width: 4.9rem;
-  //     height: 6.5rem;
-  //   }
-  // }
-
 }
-
-//
-// @include media('<=upper-phone') {
-//   .item {
-//     max-width: 29.5rem;
-//   }
-// }
-//
-//
-// @include media('<=small-phone') {
-//   .item {
-//     width: 24rem;
-//   }
-// }
