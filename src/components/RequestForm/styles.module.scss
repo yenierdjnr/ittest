@@ -111,6 +111,7 @@ $breakpoints: (
     background-color: $color-purple-dark;
     cursor:auto;
   }
+  width: 100%;
 }
 
 @include media('<lower-tablet') {
