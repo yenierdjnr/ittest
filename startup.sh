@@ -10,15 +10,15 @@ yarn install
 
 case "$CMD" in
   "develop")
-    MARKETING_ENV=development node --max-old-space-size=8192 --optimize-for-size node_modules/.bin/gatsby develop --verbose -H 0.0.0.0
+    MARKETING_ENV=development node --max-old-space-size=8133 --optimize-for-size node_modules/.bin/gatsby develop --verbose -H 0.0.0.0
     ;;
   "build")
       case "$BUILD_ENV" in
           "staging")
-              MARKETING_ENV=staging node --max-old-space-size=8192 --optimize-for-size node_modules/.bin/gatsby build --verbose
+              MARKETING_ENV=staging node --max-old-space-size=8133 --optimize-for-size node_modules/.bin/gatsby build --verbose
               ;;
           "production")
-              MARKETING_ENV=production node --max-old-space-size=8192 --optimize-for-size node_modules/.bin/gatsby build
+              MARKETING_ENV=production node --max-old-space-size=8133 --optimize-for-size node_modules/.bin/gatsby build
               ;;
           *)
               echo "Not a branch for building, exiting"

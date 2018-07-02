@@ -119,16 +119,20 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
       }
       `)
     }).then(result => {
-      result.data.allTagsJson.edges.forEach(edge => {
-        return edge.node.courses.map(course => {
-          return createPage({
-              path: `courses/${edge.node.url}/${course.url}`,
-              component: courseComponent,
-              context: {
-                courseUrl: course.url
-              }
-            })
-        })
-      })
+        var processedCourses = new Set();
+        return result.data.allTagsJson.edges.forEach(edge => {
+            return edge.node.courses.map(course => {
+                if (! processedCourses.has(course.url)) {
+                    processedCourses.add(course.url);
+                    return createPage({
+                        path: `courses/${edge.node.url}/${course.url}`,
+                        component: courseComponent,
+                        context: {
+                            courseUrl: course.url
+                        }
+                    });
+                }
+            });
+        });
     });
 }
