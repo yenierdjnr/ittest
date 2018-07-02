@@ -15,8 +15,10 @@ $breakpoints: (
 }
 
 .capsule {
+  width: 280px;
   display: flex;
   flex-flow: column nowrap;
+  margin-bottom: 2.4rem;
 
   position: relative;
 
@@ -31,6 +33,7 @@ $breakpoints: (
 }
 
 .description {
+  // width: 270px;
   height: 30rem;
   padding: 2.4rem 0 3.3rem;
 
@@ -43,6 +46,7 @@ $breakpoints: (
   background-color: $color-offwhite;
 }
 .pricing {
+  // width: 270px;
   height: 24rem;
   padding: 2.4rem 0 2.4rem;
 
@@ -83,6 +87,8 @@ $breakpoints: (
 
 .price {
   margin-bottom: 8px;
+  width: 100%;
+  @extend .text-center;
 }
 
 .billing {
