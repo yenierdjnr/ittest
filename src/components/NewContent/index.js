@@ -14,9 +14,12 @@ const NewContent = props => {
       <div className={ styles.content}>
         <div className={ styles.summary }>
           <Hx className={ styles.title } size="2">New Content Added Daily</Hx>
-          <Para className={ styles.subtitle }>Don't see what you need? New courses are added every day. Join for free  to see what's coming next.</Para>
+          <Para className={ styles.subtitle }>Don't see what you need? New courses are added every day.</Para>
+          <Para className={ styles.subtitle }>Join for free  to see what's coming next.</Para>
         </div>
-        <ButtonLink to='/plans/'>try it free</ButtonLink>
+        <div className={ styles.cta }>
+          <ButtonLink to='/plans/'>try it free</ButtonLink>
+        </div>
       </div>
     </section>
   );

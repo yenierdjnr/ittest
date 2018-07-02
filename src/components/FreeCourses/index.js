@@ -32,16 +32,18 @@ const episodes = [
 const FreeCourses = props => {
   return (
     <section className={ styles.capsule }>
-      <div className={ styles.intro }>
-        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
+      <div className={ styles.row }>
+        <div className={ styles.intro }>
+          <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
+        </div>
       </div>
-      <ul className={ styles.flags }>
+      <div className={ styles.row }>
         {
           episodes.map((epi, i) => {
             return <Episode key={ i } title={ epi.title } linkName={ epi.linkName } url={ epi.url  } />
           })
         }
-      </ul>
+      </div>
     </section>
   );
 };

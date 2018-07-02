@@ -2,27 +2,17 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  align-items: center;
-
-  background-image: url('Images/courses_hero@1x.jpg');
-  background-size: 100% 100%;
+  @extend .container;
+  padding-top: 9.6rem;
+  padding-bottom: 7.8rem;
 }
 
 .content {
-  grid-column: 2 / 3;
-  padding: 9.6rem 0 7.8rem;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  @extend .col-12;
 }
 
 .title {
@@ -36,23 +26,10 @@ $breakpoints: (
 
 
 @include media ('<lower-tablet') {
-  .content {
-    flex-flow: column nowrap;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-  }
-
   .title {
     font-size: 4.8rem;
     letter-spacing: 0.4px;
     line-height: 5rem;
     margin-bottom: 3.2rem;
-  }
-}
-
-
-@include media('retina2x', '>lower-phone') {
-  .capsule {
-    background-image: url('Images/courses_hero@2x.jpg');
   }
 }

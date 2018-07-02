@@ -6,30 +6,24 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .container-fluid;
-  padding: 7.2rem 0 7.5rem;
-  background-color: $color-offblack;
-  background-image: url('Images/pattern_darkpurple.svg');
-  background-position: 50%;
+  @extend .row;
 }
 
 .intro {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  @extend .col-10;
+  @extend .offset-1;
+  @extend .col-md-8;
+  @extend .offset-md-2;
 
   color: $color-white;
   text-align: center;
 }
 
 .title {
-  max-width: 81.9rem;
   margin-bottom: 2rem;
 }
 
 .subtitle {
-  max-width: 74.7rem;
   margin-bottom: 4.8rem;
 
   font-size: 2.8rem;
@@ -47,15 +41,12 @@ $breakpoints: (
   }
 
   .title {
-    max-width: 52rem;
-
     font-size: 3rem;
     line-height: 3.7rem;
     margin-bottom: 1.6rem;
   }
 
   .subtitle {
-    max-width: 57rem;
     font-size: 1.8rem;
     line-height: 2.8rem;
   }

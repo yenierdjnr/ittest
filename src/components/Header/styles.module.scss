@@ -2,7 +2,7 @@
 
 
 $breakpoints: (
-  'tablet': $header-tablet
+  'phablet': $upper-phablet
 );
 
 .capsule {
@@ -36,29 +36,23 @@ $breakpoints: (
 }
 
 .logoBox {
-
-  @extend .col-sm-6;
+  @extend .col-6;
   @extend .col-md-3;
   @extend .col-lg-2;
 }
 
 .nav {
+  @extend .col-6;
   @extend .col-md-9;
   @extend .col-lg-10;
   padding-top: .7rem;
+  @extend .d-flex;
+  @extend .justify-content-end;
+  @extend .align-items-center;
 }
 
-
-@include media("<tablet") {
-  .capsule {
-    // padding: 0 2.4rem;
-  }
-
-  .logo-box {
-
-  }
-
-  .nav {
-
+@include media("<phablet") {
+  .navOutter {
+    padding: 0 2.4rem;
   }
 }

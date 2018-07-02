@@ -9,19 +9,16 @@ $breakpoints: (
 
 
 .capsule {
+
   padding: 12rem 0;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
-
   background-image: url('Images/forYou_hero@1x.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .intro {
-  grid-column: 2 / 3;
   padding-left: 2.4rem;
+  @extend .container;
 }
 
 .title {
@@ -43,8 +40,6 @@ $breakpoints: (
   }
 
   .intro {
-    padding: 0 4rem;
-
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -55,13 +50,12 @@ $breakpoints: (
   }
 
   .title {
-    max-width: 30rem;
     font-size: 4.8rem;
     letter-spacing: 0.4px;
     line-height: 5.8rem;
   }
   .subtitle {
-    max-width: 25rem;
+    max-width: 35rem;
     margin-bottom: 4.8rem;
 
     font-size: 2.1rem;

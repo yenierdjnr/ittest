@@ -17,12 +17,17 @@ $breakpoints: (
 .capsule {
   padding: 7.2rem 0 8.4rem;
   margin: 0 2rem;
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+}
+
+.titleRow {
+  @extend .row;
+}
+
+.colXS12 {
+  @extend .col-12;
 }
 
 .subtitle {
-  grid-column: 2 / 3;
   @include proxima-semi-bold;
   font-size: 3rem;
   line-height: 3.8rem;
@@ -31,22 +36,17 @@ $breakpoints: (
 }
 
 .courseList {
-  grid-column: 2 / 3;
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(314px, 1fr));
-  grid-column-gap: 4.1rem;
-  grid-row-gap: 3.6rem;
+  @extend .row;
 }
 
 .courseLevel {
-  width: 29rem;
-  justify-self: center;
-  // display: flex;
+  @extend .col-12;
+  @extend .col-lg-4;
   flex-flow: row nowrap;
   flex: 0 1 auto;
   justify-content: center;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
 }
 
 .course {
@@ -81,17 +81,8 @@ $breakpoints: (
     padding: 3.2rem 0 3.8rem;
   }
 
-  .courseList {
-    grid-row-gap: 1.6rem;
+  .courseLevel {
+    width: 36rem;
+    margin: 0 auto;
   }
-}
-
-
-@include media('<uppper-mid-phablet') {
-
-}
-
-
-@include media('<lower-phone') {
-
 }

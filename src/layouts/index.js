@@ -7,7 +7,8 @@ import Overlay from 'Components/Overlay';
 import Header from 'Components/Header';
 import Footer from 'Components/Footer';
 
-import { mainLayout, overlay } from './styles.module.scss';
+
+import { mainLayout, overlay, mainRows, mainContent, footerContent } from './styles.module.scss';
 
 
 class Index extends Component {
@@ -32,9 +33,15 @@ class Index extends Component {
         <div id="overlay" className={ overlay } ref="overlay">
           <Overlay pathname={ location.pathname } callback={ this.handleCloseClick }/>
         </div>
-  			<Header pathname={ location.pathname }/>
-  			{ children() }
-  			<Footer />
+        <div id="headerContent" className={ mainRows }>
+    			<Header pathname={ location.pathname }/>
+        </div>
+  			<div id={ mainContent } className={ mainRows }>
+          { children() }
+        </div>
+        <div id={ footerContent} className={ mainRows }>
+    			<Footer />
+        </div>
   		</div>
   	);
   }

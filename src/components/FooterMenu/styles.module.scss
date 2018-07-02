@@ -1,0 +1,114 @@
+@import '~Styles/main';
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
+$footer-ht-unit: 30px;
+
+.page-footer {
+  @extend .container-fluid;
+  padding-top: $footer-ht-unit*2;
+}
+
+#upperFooter {
+  min-height: $footer-ht-unit*7;
+}
+
+.page-footer-row {
+  @extend .row;
+}
+
+.page-footer__logo-box {
+  @extend .col-sm-12;
+  @extend .col-lg-3;
+}
+
+.page-footer__nav {
+  @extend .col-sm-12;
+  @extend .col-lg-9;
+
+}
+
+.page-footer__menu {
+  @extend .col-sm-12;
+  @extend .col-lg-4;
+  &-title {
+    display: inline-block;
+
+    @include proxima-regular;
+    color: $color-offblack;
+    letter-spacing: 0.4px;
+    line-height: 1.7;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  & .page-footer__contact-info-title {
+      display: inline-block;
+
+      @include proxima-regular;
+      color: $color-offblack;
+      letter-spacing: 0.4px;
+      line-height: 1.7;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+}
+
+.page-footer__menu-item {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  & a {
+    color: $color-grey-dark;
+    @include proxima-regular;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+}
+
+.page-footer__address,
+.page-footer__tel,
+.page-footer__email,
+.page-footer__contact {
+  display: block;
+
+  @include proxima-regular;
+  color: $color-grey-dark;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+}
+.page-footer__email {
+  text-decoration: underline;
+  margin-bottom: 1.6rem;
+}
+
+
+@include media('<lower-tablet') {
+  .page-footer {
+    max-width: 320px;
+  }
+
+  .page-footer__content {
+    width: 100%;
+    max-width: 37rem;
+    padding: 0 4rem;
+
+    justify-self: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .page-footer__logo-box {
+    margin-bottom: 2.4rem;
+  }
+
+  .page-footer__menu {
+    margin-bottom: 3.6rem;
+  }
+}

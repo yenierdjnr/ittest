@@ -4,12 +4,10 @@ import { IconTW, IconFB, IconLN, IconYT, IconInsta } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
 
-const PageFooterBar = props => {
-  const { className='' } = props;
-
+const PageFooterBar = () => {
   return (
-    <footer className={ className }>
-      <div className={ styles['social-media'] }>
+    <footer>
+      <div className={ styles['page-footer__social'] }>
         <a href="https://twitter.com/itprotv" target="_blank">
           <IconTW />
         </a>
@@ -26,7 +24,9 @@ const PageFooterBar = props => {
           <IconInsta />
         </a>
       </div>
-      <span className={ styles['copyright'] }>© ITProTV 2018</span>
+      <div className={ styles['page-footer__copyright'] }>
+        <span className={ styles['copyright'] }>© ITProTV 2018</span>
+      </div>
     </footer>
   );
 }

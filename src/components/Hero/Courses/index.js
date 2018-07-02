@@ -7,8 +7,10 @@ import styles from './styles.module.scss';
 const CoursesHero = ({ location }) => {
   return (
     <section className={ styles.capsule }>
-      <div className={ styles.content }>
-        <Hx className={ styles.title } size="1">courses</Hx>
+      <div className={ styles.row }>
+        <div className={ styles.content }>
+          <Hx className={ styles.title } size="1">courses</Hx>
+        </div>
       </div>
     </section>
   );

@@ -22,7 +22,6 @@ $breakpoints: (
 
 @include media('<upper-phablet') {
   .title, .subtitle {
-    // width: unset;
   }
 }
 

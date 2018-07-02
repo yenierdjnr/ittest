@@ -5,40 +5,36 @@ $breakpoints: (
   'lower-tablet': $lower-tablet
 );
 
+$footer-ht-unit: 30px;
+
 .page-footer {
-  grid-area: footer;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-  grid-template-rows: 60px minmax(210px, auto) 130px;
-
-  height: 100%;
-  background-color: $color-offwhite;
+  @extend .container-fluid;
+  padding-top: $footer-ht-unit*2;
+  max-width: $tablet;
 }
 
-.page-footer__content {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+#upperFooter {
+  min-height: $footer-ht-unit*7;
+}
 
-  @include display-grid;
-  grid-template-columns: minmax(178px, 272px) minmax(auto, 752px);
+.page-footer-row {
+  @extend .row;
 }
 
 .page-footer__logo-box {
-  grid-column: 1 / 2;
+  @extend .col-sm-12;
+  @extend .col-lg-3;
 }
 
 .page-footer__nav {
-  grid-column: 2 / 3;
-  padding-right: 8.9rem;
+  @extend .col-sm-12;
+  @extend .col-lg-9;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  flex: 0 1 66.3rem;
 }
 
 .page-footer__menu {
+  @extend .col-sm-12;
+  @extend .col-lg-4;
   &-title {
     display: inline-block;
 
@@ -93,21 +89,11 @@ $breakpoints: (
   margin-bottom: 1.6rem;
 }
 
-.page-footer__bar {
-  grid-column: 2 / 3;
-  grid-row: 3/4;
-
-  padding: 36px 0 31px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-center: center;
-  align-items: center;
-
-  border-top: 1px solid #E4E8EC;
-}
-
-
 @include media('<lower-tablet') {
+
+  .page-footer__bar, .page-footer__menu {
+    max-width: 320px;
+  }
   .page-footer__content {
     width: 100%;
     max-width: 37rem;
@@ -121,13 +107,6 @@ $breakpoints: (
 
   .page-footer__logo-box {
     margin-bottom: 2.4rem;
-  }
-
-  .page-footer__nav {
-    flex-flow: column nowrap;
-    justify-content: unset;
-    flex: 0 0 auto;
-    padding-right: 0;
   }
 
   .page-footer__menu {

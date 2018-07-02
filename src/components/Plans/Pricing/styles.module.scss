@@ -7,27 +7,32 @@ $breakpoints: (
 );
 
 .capsule {
-  width: 1200px;
-  margin: 0 auto;
-
-  @include display-grid;
-  grid-template-columns: repeat(4, 27rem);
-  grid-column-gap: 4rem;
+  margin: -75px auto 0 auto;
+  width: 400px;
+  max-width: 1200px;
+  @extend .d-flex;
+  @extend .justify-content-around;
+  @extend .flex-row;
+  @extend .flex-wrap;
 }
 
 
-@include media('<lower-desktop') {
+@include media('>tablet') {
   .capsule {
-    width: 100%;
-
-    grid-template-columns: repeat(2, 27rem);
-    justify-content: center;
-    grid-row-gap: 2.4rem;
+    width: 630px;
+    // grid-template-columns: auto;
   }
 }
 
-@include media('<tablet') {
+@include media('>lower-desktop') {
   .capsule {
-    grid-template-columns: auto;
+    width: 100%;
+    // padding-left: 5rem;
+    // padding-right: 5rem;
+    // width: 100%;
+
+    // grid-template-columns: repeat(2, 27rem);
+    // justify-content: center;
+    // grid-row-gap: 2.4rem;
   }
 }

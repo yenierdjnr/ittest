@@ -2,11 +2,16 @@
 
 
 .about {
-
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding: 7.2rem 0 7.5rem;
+  background-color: $color-offblack;
+  background-image: url('Images/pattern_darkpurple.svg');
+  background-position: 50%;
 }
 
 .AboutContent {
@@ -14,15 +19,17 @@
 }
 
 .AboutStory {
-  @extend .no-gutters;
+  @extend .container-fluid;
   background-color: #f9f9fb;
+  display: block;
 }
 
 .TrustedBy {
-  @extend .container;
+  display: block;
 }
 
 .Values {
-  @extend .no-gutters;
+  @extend .container-fluid;
   background-color: #f4f3f8;
+  display: block;
 }

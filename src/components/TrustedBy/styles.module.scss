@@ -13,27 +13,41 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .row;
-  @extend .justify-content-center;
+  @extend .container;
   padding: 5rem 0;
+}
+
+.colXS12 {
+  @extend .col-12;
+  text-align: center;
 }
 
 .subtitle {
   @include proxima-semi-bold;
   font-size: 3.6rem;
   line-height: 3.4rem;
-  text-align: center;
   margin-bottom: 2rem;
 }
 
 .listcapsule {
   @extend .row;
   @extend .justify-content-center;
+  margin-top: 2rem;
 }
 
 .logo {
   margin: 2rem auto;
-  padding: 0 4.5rem;
+  padding: 0 6rem;
+  max-width: 150px;
+  // @extend .justify-content-center;
+}
+
+.item {
+  @extend .col-12;
+  @extend .col-sm-6;
+  @extend .col-md-3;
+  @extend .col-lg-4;
+  @extend .col-xl-2;
 }
 
 @include media('<tablet') {
@@ -43,6 +57,11 @@ $breakpoints: (
 
   .content {
     margin: 1rem;
+  }
+
+  .logo {
+    margin: 2rem auto;
+    padding: 0 2rem;
   }
 
 }

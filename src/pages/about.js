@@ -24,9 +24,7 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
         </section>
 
         <section className={ styles.AboutStory }>
-          <div className={ styles.container }>
-            <AboutStory />
-          </div>
+          <AboutStory />
         </section>
 
         <section className={ styles.TrustedBy }>
@@ -34,9 +32,7 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
         </section>
 
         <section className={ styles.Values }>
-          <div className={ styles.container }>
-            <Values />
-          </div>
+          <Values />
         </section>
 
       </main>

@@ -42,7 +42,7 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .capsule {
-    padding: 5.6rem 3rem 5.9rem;
+    padding: 5.6rem 0 5.9rem;
   }
 
   .title {

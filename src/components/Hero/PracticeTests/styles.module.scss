@@ -6,6 +6,7 @@ $breakpoints: (
 );
 
 .capsule {
+  @extend .row;
   padding: 7.2rem 0 7.5rem;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
@@ -13,6 +14,7 @@ $breakpoints: (
 }
 
 .intro {
+  @extend .col-12;
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -42,7 +44,7 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .capsule {
-    padding: 5.6rem 3rem 5.9rem;
+    padding: 5.6rem 0 5.9rem;
   }
 
   .title {
