@@ -6,16 +6,11 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .container-fluid;
-  padding-top: 7.2rem;
-  padding-bottom: 7.5rem;
-  background-color: $color-offblack;
-  background-image: url('Images/pattern_darkpurple.svg');
-  background-position: 50%;
+  @extend .container;
 }
 
 .intro {
-  @extend .container;
+  @extend .row;
 
   color: $color-white;
   text-align: center;

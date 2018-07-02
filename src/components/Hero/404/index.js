@@ -11,10 +11,8 @@ const PageNotFoundHero = ({ className='' }) => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.intro }>
-        <div className={ styles.row }>
-          <div className={ styles['col-12'] }>
-            <Hx size="1" className={ styles.title }>404 - Page Not Found</Hx>
-          </div>
+        <div className={ styles['col-12'] }>
+          <Hx size="1" className={ styles.title }>404 - Page Not Found</Hx>
         </div>
       </div>
     </section>
