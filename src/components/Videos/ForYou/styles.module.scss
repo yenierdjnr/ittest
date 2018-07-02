@@ -4,8 +4,7 @@
 $breakpoints: (
   'tablet': $tablet,
   'upper-phablet': $upper-phablet,
-  'uppper-mid-phablet': $uppper-mid-phablet,
-  'lower-phone': $lower-phone
+  'video-width': 669px
 );
 
 :export {
@@ -21,26 +20,13 @@ $breakpoints: (
 .content {
   max-width: 1035px;
   margin: 0 auto;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  @extend .row;
 }
 
 .video-capsule {
-  width: 66.9rem;
   margin-top: 1.3rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
-
-  & iframe {
-    width: 100%;
-    margin-top: 0;
-  }
+  @extend .col-lg-8;
+  @extend .col-12;
 }
 
 .img {
@@ -54,6 +40,11 @@ $breakpoints: (
 
   text-align: center;
   cursor:pointer;
+
+  & iframe {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 .for-you-iframe {
@@ -67,12 +58,15 @@ $breakpoints: (
 
 .play-button {
   position: absolute;
+  top: 35%;
+  left: 42%;
   z-index: $z-video;
   cursor: pointer;
 }
 
 .intro {
-  max-width: 34rem;
+  @extend .col-12;
+  @extend .col-lg-4;
 }
 
 .title {
@@ -98,13 +92,9 @@ $breakpoints: (
   }
 
   .intro {
-    width: 37.5rem;
-    max-width: unset;
-    padding: 0 4rem;
     margin-bottom: 7.1rem;
   }
   .title {
-    max-width: 30rem;
     font-size: 3rem;
     line-height: 3.7rem;
   }
@@ -114,18 +104,21 @@ $breakpoints: (
   }
 }
 
-@include media('<uppper-mid-phablet') {
+
+@include media('<upper-phablet') {
+  .intro {
+    padding: 0 4rem;
+  }
+  .summary {
+    // width: 27.7rem;
+  }
+}
+
+@include media('<video-width') {
   .capsule {
     padding-bottom: 0;
   }
   .video-capsule {
     width: 100%;
-  }
-}
-
-
-@include media ('<lower-phone') {
-  .intro {
-    width: 32rem;
   }
 }
