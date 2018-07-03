@@ -30,8 +30,11 @@ $breakpoints: (
   width: 18rem;
   height: 18rem;
   margin: 0 auto;
-  @extend .d-flex;
-  @extend .justify-content-center;
+}
+
+.img {
+  height: 180px;
+  width: 180px;
 }
 
 .menu-link {
