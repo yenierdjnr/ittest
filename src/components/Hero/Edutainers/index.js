@@ -6,13 +6,11 @@ import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
 
-const Edutainers = ({ className='' }) => {
-  return (
-    <section className={ styles.capsule }>
+const Edutainers = ({ className='' }) => 
+  <section className={ styles.capsule }>
 
-    </section>
-  );
-};
+  </section>
+  ;
 
 
 export default Edutainers;

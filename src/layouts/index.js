@@ -8,7 +8,7 @@ import Header from 'Components/Header';
 import Footer from 'Components/Footer';
 
 
-import { mainLayout, overlay, mainRows, mainContent, footerContent } from './styles.module.scss';
+import { footerContent, mainContent, mainLayout, mainRows, overlay } from './styles.module.scss';
 
 
 class Index extends Component {
@@ -18,7 +18,7 @@ class Index extends Component {
     }
   }
 
-  handleCloseClick = e => {
+  handleCloseClick = (e) => {
     const body = document.getElementsByTagName('body')[0];
 
     body.style.overflow = '';
@@ -45,7 +45,7 @@ class Index extends Component {
   		</div>
   	);
   }
-};
+}
 
 
 export default Index;

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 
-const IconArrowRight = props => {
+const IconArrowRight = (props) => {
   const { className='', fill } = props;
 
   return (

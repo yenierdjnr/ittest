@@ -6,23 +6,21 @@ import ChannelGuide from 'Components/ChannelGuide';
 import styles from './onAir.module.scss';
 
 
-const OnAir = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.onAir }>
+const OnAir = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.onAir }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles['Channel-Guide'] }>
-          <ChannelGuide videoImage={ data.videoImg }/>
-        </section>
-      </main>
-    </Fragment>
-  );
-}
+      <section className={ styles['Channel-Guide'] }>
+        <ChannelGuide videoImage={ data.videoImg }/>
+      </section>
+    </main>
+  </Fragment>
+  
 
 
 export default OnAir;

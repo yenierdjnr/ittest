@@ -8,7 +8,7 @@ const replaceLoaderIdentName = (loader, newIdent) => {
   const parts = defaultConfig.split("&");
 
   // Find ident
-  const identIndex = parts.findIndex(el => el.startsWith("localIdentName"));
+  const identIndex = parts.findIndex((el) => el.startsWith("localIdentName"));
   const ident = parts[identIndex];
   const identParts = ident.split("=");
 
@@ -17,7 +17,7 @@ const replaceLoaderIdentName = (loader, newIdent) => {
 
   // Join parts back into a string
   const newConfig = parts.map(
-    (el, i) => (i === identIndex ? replacedIdent : el)
+    (el, i) => i === identIndex ? replacedIdent : el
   );
 
   return newConfig.join("&");
@@ -26,8 +26,8 @@ const replaceLoaderIdentName = (loader, newIdent) => {
 
 exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === 'develop') {
-    config.loader(`cssModules`, current => {
-      const index = current.loaders.findIndex(loader =>
+    config.loader(`cssModules`, (current) => {
+      const index = current.loaders.findIndex((loader) =>
         loader.startsWith("css?")
       );
 
@@ -40,8 +40,8 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
       return current;
     });
 
-    config.loader(`sassModules`, current => {
-      const index = current.loaders.findIndex(loader =>
+    config.loader(`sassModules`, (current) => {
+      const index = current.loaders.findIndex((loader) =>
         loader.startsWith("css?")
       );
 
@@ -74,7 +74,7 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
   const courseComponent = path.resolve('src/components/Course/index.js');
 
   return graphql(
-      `
+    `
       {
         allTagCategoriesJson {
           edges {
@@ -87,25 +87,22 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
         }
       }
       `
-    ).then(result => {
-      var processedTags = new Set();
-      return result.data.allTagCategoriesJson.edges.forEach(edge => {
-        return edge.node.tags.map(tag => {
-          if (! processedTags.has(tag.url)) {
-            processedTags.add(tag.url);
-          return createPage({
-              path: `courses/${tag.url}`,
-              component: categoryComponent,
-              context: {
-                url: tag.url
-              }
-            })
+  ).then((result) => {
+    const processedTags = new Set();
+    return result.data.allTagCategoriesJson.edges.forEach((edge) => edge.node.tags.map((tag) => {
+      if (! processedTags.has(tag.url)) {
+        processedTags.add(tag.url);
+        return createPage({
+          path: `courses/${tag.url}`,
+          component: categoryComponent,
+          context: {
+            url: tag.url
           }
         })
-      })
-    })
-    .then(()=> {
-      return graphql(
+      }
+    }))
+  })
+    .then(() => graphql(
       `
       {
         allTagsJson {
@@ -119,22 +116,19 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
           }
       	}
       }
-      `)
-    }).then(result => {
-        var processedCourses = new Set();
-        return result.data.allTagsJson.edges.forEach(edge => {
-            return edge.node.courses.map(course => {
-                if (! processedCourses.has(course.url)) {
-                    processedCourses.add(course.url);
-                    return createPage({
-                        path: `courses/${edge.node.url}/${course.url}`,
-                        component: courseComponent,
-                        context: {
-                            courseUrl: course.url
-                        }
-                    });
-                }
-            });
-        });
+      `)).then((result) => {
+      const processedCourses = new Set();
+      return result.data.allTagsJson.edges.forEach((edge) => edge.node.courses.map((course) => {
+        if (! processedCourses.has(course.url)) {
+          processedCourses.add(course.url);
+          return createPage({
+            path: `courses/${edge.node.url}/${course.url}`,
+            component: courseComponent,
+            context: {
+              courseUrl: course.url
+            }
+          });
+        }
+      }));
     });
 }

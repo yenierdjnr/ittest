@@ -26,7 +26,7 @@ class RequestForm extends Component {
     };
   }
 
-  handleInput = e => {
+  handleInput = (e) => {
     this.setState({
       form: {
         ...this.state.form,
@@ -146,7 +146,7 @@ class RequestForm extends Component {
       </section>
     );
   }
-};
+}
 
 
 export default RequestForm;

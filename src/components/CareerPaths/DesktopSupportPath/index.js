@@ -9,7 +9,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
-const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => (
+const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...rest }) => 
 
   <main className={ styles.Path }>
 
@@ -36,7 +36,7 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
             <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
           </div>
           <ul className={ styles.list }>
-            {recommendedCourses.map(course => (
+            {recommendedCourses.map((course) => 
               <CareerPathCourses
                 key={ course.url }
                 url={ `/courses/${course.tagUrl}/${course.url}/` }
@@ -44,7 +44,7 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
                 description={ course.subtitle }
                 level={ course.level }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>
@@ -55,7 +55,7 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
             <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
           </div>
           <ul className={ styles.list }>
-            {additionalCourses.map(course => (
+            {additionalCourses.map((course) => 
               <CareerPathCourses
                 key={ course.url }
                 url={ `/courses/${course.tagUrl}/${course.url}/` }
@@ -63,7 +63,7 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
                 description={ course.subtitle }
                 level={ course.level }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>
@@ -71,6 +71,6 @@ const DesktopSupportPath = ({ data, recommendedCourses, additionalCourses, ...re
     </section>
 
   </main>
-);
+;
 
 export default DesktopSupportPath;

@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "no-duplicate-imports": 2,
+    "no-prototype-builtins":2,
+    "no-extra-parens": 2,
+    "default-case": 2,
+    "no-iterator":2,
+    "react/prop-types":0,
+    "no-shadow":2,
+    "no-shadow-restricted-names":2,
+    "no-undefined":2,
+    "no-use-before-define":2,
+    "no-proto":2,
+    "no-void":2,
+    "no-useless-return":2,
+    "indent":["error", 2],
+    "no-undef-init":2,
+    "no-var":2,
+    "prefer-const":2,
+    "sort-imports":2,
+    "arrow-body-style":2,
+    "arrow-parens":2,
+    "arrow-spacing":2
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
+}

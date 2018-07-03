@@ -6,20 +6,18 @@ import ButtonLink from 'Elements/ButtonLink';
 
 import {
   capsule, intro,
-  title, subtitle, link
+  link, subtitle, title
 } from './styles.module.scss';
 
 
-const Accessibility = ({ className='' }) => {
-  return (
-    <section className={ capsule }>
-      <div className={ intro }>
-        <Hx size="1" className={ title }>ITProTV Accessibility</Hx>
-      </div>
-    </section>
+const Accessibility = ({ className='' }) => 
+  <section className={ capsule }>
+    <div className={ intro }>
+      <Hx size="1" className={ title }>ITProTV Accessibility</Hx>
+    </div>
+  </section>
 
-  );
-};
+  ;
 
 
 export default Accessibility;

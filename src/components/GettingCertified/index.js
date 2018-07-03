@@ -31,10 +31,10 @@ class GettingCertified extends PureComponent {
       <Fragment>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ getCertified.map(cert => cert.certcategory) }
+          categories={ getCertified.map((cert) => cert.certcategory) }
           onChange={ this.handleMenuChange }
         />
-      <Display resources={ getCertified[categoryIndex].resources } />
+        <Display resources={ getCertified[categoryIndex].resources } />
       </Fragment>
     )
   }

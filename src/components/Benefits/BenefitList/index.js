@@ -134,11 +134,9 @@ const BenefitList = ({ className='' }) => {
 
   return (
     <Fragment>
-    {
-      benefitsData.map((data, i) => {
-        return Row(data, i);
-      })
-    }
+      {
+        benefitsData.map((data, i) => Row(data, i))
+      }
     </Fragment>
   );
 };

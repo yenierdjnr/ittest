@@ -6,24 +6,22 @@ import AccessibilityContent from 'Components/AccessibilityContent';
 import styles from './accessibility.module.scss';
 
 
-const Accessibility = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.accessibility }>
+const Accessibility = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.accessibility }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.AccessibilityContent }>
-          <AccessibilityContent />
-        </section>
+      <section className={ styles.AccessibilityContent }>
+        <AccessibilityContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 
 export default Accessibility;

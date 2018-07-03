@@ -3,13 +3,11 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-const ForYouHero = ({ className='' }) => {
-  return (
-    <section className={ styles.capsule }>
+const ForYouHero = ({ className='' }) => 
+  <section className={ styles.capsule }>
 
-    </section>
-  );
-};
+  </section>
+  ;
 
 
 export default ForYouHero;

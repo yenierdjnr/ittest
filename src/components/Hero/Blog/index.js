@@ -6,20 +6,18 @@ import ButtonLink from 'Elements/ButtonLink';
 
 import {
   capsule, intro,
-  title, subtitle, link
+  link, subtitle, title
 } from './styles.module.scss';
 
 
-const Blog = ({ className='' }) => {
-  return (
-    <section className={ capsule }>
-      <div className={ intro }>
-        <Hx size="1" className={ title }>IT Training Blog</Hx>
-      </div>
-    </section>
+const Blog = ({ className='' }) => 
+  <section className={ capsule }>
+    <div className={ intro }>
+      <Hx size="1" className={ title }>IT Training Blog</Hx>
+    </div>
+  </section>
 
-  );
-};
+  ;
 
 
 export default Blog;

@@ -57,19 +57,15 @@ const paths = [
   }
 ];
 
-const CareerPathsMain = props => {
-  return (
+const CareerPathsMain = (props) => 
 
-      <div className={ styles.row }>
-        {
-          paths.map((path, i) => {
-            return <CareerPath key={ i } title={ path.title } description={ path.description } link={ path.link } />
-          })
-        }
-      </div>
+  <div className={ styles.row }>
+    {
+      paths.map((path, i) => <CareerPath key={ i } title={ path.title } description={ path.description } link={ path.link } />)
+    }
+  </div>
 
-  );
-};
+  ;
 
 
 export default CareerPathsMain;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from '../styles.module.scss';
 
-import { IconPlay, IconArrowRight } from 'Elements/Icons';
+import { IconArrowRight, IconPlay } from 'Elements/Icons';
 import Hx from 'Elements/Hx';
 
 
@@ -10,7 +10,7 @@ class CourseVideo extends Component {
     super(props);
   }
 
-  handlePlay = e => {
+  handlePlay = (e) => {
 
     const overview = this.props.overview;
     const episode = this.props.episode;
@@ -18,7 +18,7 @@ class CourseVideo extends Component {
     const playButton = document.getElementsByClassName(styles['play-button'])[0];
     const courseiFrame = styles['course-iframe'];
 
-    if (vidWrap && (episode === overview)) {
+    if (vidWrap && episode === overview) {
       vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
       playButton.style.display = 'none';
     } if (vidwrap && !overview) {
@@ -47,10 +47,10 @@ class CourseVideo extends Component {
         <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
         <div id="vidwrap" className={styles.courseVidwrap}></div>
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
-        { (this.props.episode === this.props.overview) && <IconPlay className={ styles['play-button'] } />}
+        { this.props.episode === this.props.overview && <IconPlay className={ styles['play-button'] } />}
       </div>
     );
   }
-};
+}
 
 export default CourseVideo;

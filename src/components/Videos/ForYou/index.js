@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 
 const ForYouVideo = ({ className='', videoImg }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {

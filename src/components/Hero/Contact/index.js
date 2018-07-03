@@ -6,21 +6,19 @@ import ButtonLink from 'Elements/ButtonLink';
 
 import {
   capsule, intro,
-  title, subtitle, link
+  link, subtitle, title
 } from './styles.module.scss';
 
 
-const Contact = ({ className='' }) => {
-  return (
-    <section className={ capsule }>
-      <div className={ intro }>
-        <Hx size="2" className={ title }>Contact ITProTV</Hx>
-        <Para className={ subtitle }>A team of service and success representatives are ready to serve you.</Para>
-      </div>
-    </section>
+const Contact = ({ className='' }) => 
+  <section className={ capsule }>
+    <div className={ intro }>
+      <Hx size="2" className={ title }>Contact ITProTV</Hx>
+      <Para className={ subtitle }>A team of service and success representatives are ready to serve you.</Para>
+    </div>
+  </section>
 
-  );
-};
+  ;
 
 
 export default Contact;

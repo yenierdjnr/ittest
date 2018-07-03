@@ -8,30 +8,28 @@ import FreeCourses from 'Components/FreeCourses';
 import styles from './courses.module.scss';
 
 
-const CourseLibrary = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.courses }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const CourseLibrary = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.courses }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.Info }>
-          <CourseOptions tagCategories={ data.tagCategories.edges.map(edge => edge.node) } />
-        </section>
+      <section className={ styles.Info }>
+        <CourseOptions tagCategories={ data.tagCategories.edges.map((edge) => edge.node) } />
+      </section>
 
-        <section className={ styles['New-Content'] }>
-          <NewContent />
-        </section>
+      <section className={ styles['New-Content'] }>
+        <NewContent />
+      </section>
 
-        <section className={ styles['Free-Courses'] }>
-          <FreeCourses />
-        </section>
-      </main>
-    </Fragment>
-  );
-}
+      <section className={ styles['Free-Courses'] }>
+        <FreeCourses />
+      </section>
+    </main>
+  </Fragment>
+  
 
 
 export default CourseLibrary;

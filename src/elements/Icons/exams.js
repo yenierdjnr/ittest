@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 
-const IconExams = props => {
+const IconExams = (props) => {
   const { className='', fill='#FFFFFF' } = props;
 
   return (

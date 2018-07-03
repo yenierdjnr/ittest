@@ -31,10 +31,10 @@ class ITResources extends PureComponent {
       <Fragment className={ styles.capsule }>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ itResources.map(itresource => itresource.itresourcecategory) }
+          categories={ itResources.map((itresource) => itresource.itresourcecategory) }
           onChange={ this.handleMenuChange }
         />
-      <Display resources={ itResources[categoryIndex].resources } />
+        <Display resources={ itResources[categoryIndex].resources } />
       </Fragment>
     )
   }

@@ -5,12 +5,10 @@ import {
 } from './styles.module.scss';
 
 
-const ThankYou = ({ className='' }) => {
-  return (
-    <section className={ capsule }>
-    </section>
-  );
-};
+const ThankYou = ({ className='' }) => 
+  <section className={ capsule }>
+  </section>
+  ;
 
 
 export default ThankYou;

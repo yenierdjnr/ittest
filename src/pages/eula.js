@@ -6,24 +6,22 @@ import EulaContent from 'Components/EulaContent';
 import styles from './eula.module.scss';
 
 
-const Eula = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.eula }>
+const Eula = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.eula }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.EulaContent }>
-          <EulaContent />
-        </section>
+      <section className={ styles.EulaContent }>
+        <EulaContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 
 export default Eula;

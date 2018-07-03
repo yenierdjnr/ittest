@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import styles from './styles.module.scss';
 
 
-const Category = props => {
+const Category = (props) => {
   const { className='', showMore, title, url } = props;
   const categoryStyles = !showMore ? styles.cols : `${styles.cols} ${styles['show-more']}`;
 
@@ -12,7 +12,7 @@ const Category = props => {
     <div className={ categoryStyles }>
       <Link to={url} className={ `${className} ${styles.link}` }>
         <div className={ styles.item }>
-        { title }
+          { title }
         </div>
       </Link>
     </div>

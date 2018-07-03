@@ -31,7 +31,7 @@ class CourseOptions extends PureComponent {
       <Fragment>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ tagCategories.map(tag => tag.tagcategoryname) }
+          categories={ tagCategories.map((tag) => tag.tagcategoryname) }
           onChange={ this.handleMenuChange }
         />
         <Display categories={ tagCategories[categoryIndex].tags } />

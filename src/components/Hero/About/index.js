@@ -6,17 +6,15 @@ import ButtonLink from 'Elements/ButtonLink';
 
 import styles from './styles.module.scss';
 
-const About = ({ className='' }) => {
-  return (
-    <section className={ styles.capsule }>
-      <div className={ styles.intro }>
-        <Hx size="2" className={ styles.title }>Empowering the World Through Engaging Learning</Hx>
-        <Para className={ styles.subtitle }>Online, on-demand IT training</Para>
-      </div>
-    </section>
+const About = ({ className='' }) => 
+  <section className={ styles.capsule }>
+    <div className={ styles.intro }>
+      <Hx size="2" className={ styles.title }>Empowering the World Through Engaging Learning</Hx>
+      <Para className={ styles.subtitle }>Online, on-demand IT training</Para>
+    </div>
+  </section>
 
-  );
-};
+  ;
 
 
 export default About;

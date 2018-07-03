@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconPlay = props => {
+const IconPlay = (props) => {
   const { className='' } = props;
 
   return (

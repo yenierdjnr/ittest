@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 
 const OnAir = ({ className='', bkImage }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {

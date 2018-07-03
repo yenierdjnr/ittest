@@ -12,42 +12,40 @@ import { ForTeamsTestimonials as Testimonials } from 'Components/Testimonials';
 import styles from './forTeams.module.scss';
 
 
-const ForTeams = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles['for-teams'] }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const ForTeams = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles['for-teams'] }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.Summary }>
-          <Summary />
-        </section>
+      <section className={ styles.Summary }>
+        <Summary />
+      </section>
 
-        <section className={ styles['Track-Results'] }>
-          <TrackResults videoImage={ data.videoImage }/>
-        </section>
+      <section className={ styles['Track-Results'] }>
+        <TrackResults videoImage={ data.videoImage }/>
+      </section>
 
-        <section className={ styles['Team-Needs']}>
-          <TeamNeeds />
-        </section>
+      <section className={ styles['Team-Needs']}>
+        <TeamNeeds />
+      </section>
 
-        <section className={ styles.Enhancements }>
-          <Enhancements />
-        </section>
+      <section className={ styles.Enhancements }>
+        <Enhancements />
+      </section>
 
-        <section className={ styles['Team-Certs'] }>
-          <TeamCerts testimonials={ data.testimonials }/>
-        </section>
+      <section className={ styles['Team-Certs'] }>
+        <TeamCerts testimonials={ data.testimonials }/>
+      </section>
 
-        <section className={ styles.Testimonials }>
-          <Testimonials />
-        </section>
-      </main>
-    </Fragment>
-  );
-}
+      <section className={ styles.Testimonials }>
+        <Testimonials />
+      </section>
+    </main>
+  </Fragment>
+  
 
 
 export default ForTeams;

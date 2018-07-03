@@ -41,7 +41,7 @@ const episodes = [
   }
 ];
 
-const Search = props => {
+const Search = (props) => {
   const { location } = props;
 
   return (
@@ -55,24 +55,24 @@ const Search = props => {
         <div className={ styles['results-container'] }>
           <Hx className={ styles['course-title'] }color={ styles.offBlack } size="4">Courses</Hx>
           <ul className={ styles.ResultsList }>
-            {courses.map((course, i) => (
+            {courses.map((course, i) => 
               <Course
                 key={ i }
                 title={ course.title }
                 description={ course.description }
               />
-            ))}
+            )}
           </ul>
           <Hx className={ styles['episode-title'] } color={ styles.offBlack } size="4">Episodes</Hx>
           <ul className={ styles.ResultsList }>
-            {episodes.map((episode, i) => (
+            {episodes.map((episode, i) => 
               <Episode
                 key={ i }
                 className="search"
                 title={ episode.title }
                 linkName={ episode.linkName }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>

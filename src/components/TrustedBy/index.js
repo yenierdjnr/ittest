@@ -10,44 +10,42 @@ import logoMytech from 'Images/logo_mytech.png'
 import logoOasis from 'Images/logo_oasis.png'
 
 
-const TrustedBy = props => {
-  return (
-    <section className={ styles.capsule }>
-      <div className={ styles.row }>
-        <div className={ styles.colXS12 }>
-          <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
+const TrustedBy = (props) => 
+  <section className={ styles.capsule }>
+    <div className={ styles.row }>
+      <div className={ styles.colXS12 }>
+        <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
+      </div>
+    </div>
+    <div className={ styles.listcapsule }>
+      <div className={ `${styles['item']} ${styles.one}` }>
+        <div className={ `${styles['logo']} ${styles.paths}` }>
+          <img src={ logoBDP } alt="" />
         </div>
       </div>
-      <div className={ styles.listcapsule }>
-        <div className={ `${styles['item']} ${styles.one}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoBDP } alt="" />
-          </div>
-        </div>
-        <div className={ `${styles['item']} ${styles.two}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoFiserv } alt="" />
-          </div>
-        </div>
-        <div className={ `${styles['item']} ${styles.three}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoKinex } alt="" />
-          </div>
-        </div>
-        <div className={ `${styles['item']} ${styles.four}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoMytech } alt="" />
-          </div>
-        </div>
-        <div className={ `${styles['item']} ${styles.five}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
-            <img src={ logoOasis } alt="" />
-          </div>
+      <div className={ `${styles['item']} ${styles.two}` }>
+        <div className={ `${styles['logo']} ${styles.paths}` }>
+          <img src={ logoFiserv } alt="" />
         </div>
       </div>
-    </section>
-  );
-};
+      <div className={ `${styles['item']} ${styles.three}` }>
+        <div className={ `${styles['logo']} ${styles.paths}` }>
+          <img src={ logoKinex } alt="" />
+        </div>
+      </div>
+      <div className={ `${styles['item']} ${styles.four}` }>
+        <div className={ `${styles['logo']} ${styles.paths}` }>
+          <img src={ logoMytech } alt="" />
+        </div>
+      </div>
+      <div className={ `${styles['item']} ${styles.five}` }>
+        <div className={ `${styles['logo']} ${styles.paths}` }>
+          <img src={ logoOasis } alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  ;
 
 
 export default TrustedBy;

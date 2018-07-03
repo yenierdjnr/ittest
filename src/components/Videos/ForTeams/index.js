@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 
 const ForTeamsVideo = ({ className='', videoImage }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap');
     const playButton = document.getElementsByClassName(styles['play-button'])[0];
 

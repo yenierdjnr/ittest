@@ -31,5 +31,13 @@
     "react-countup": "^3.0.3",
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-react": "^7.10.0",
+    "gatsby-plugin-eslint": "^1.0.3"
   }
 }

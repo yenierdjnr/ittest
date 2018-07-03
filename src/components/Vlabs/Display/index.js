@@ -14,14 +14,12 @@ class Display extends Component {
         
         <div className={ styles.article }>
           {
-            labs.map((labs, i) => {
-              return <Labs key={ i } name={ labs.name } />;
-            })
+            labs.map((labs, i) => <Labs key={ i } name={ labs.name } />)
           }
         </div>
       </section>
     );
   }
-};
+}
 
 export default Display;

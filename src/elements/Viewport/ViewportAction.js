@@ -33,11 +33,11 @@ class ViewportAction extends PureComponent {
 
   isElementInViewport(el) {
     const rect = el.getBoundingClientRect();
-    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+    const windowHeight = window.innerHeight || document.documentElement.clientHeight;
     const { threshold } = this.props;
 
     return (
-      rect.top >= 0 && rect.top <= (windowHeight - threshold)
+      rect.top >= 0 && rect.top <= windowHeight - threshold
     );
   }
 

@@ -3,11 +3,11 @@ import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby-link';
 
 const notFoundMetaData = {
-    page: '404',
-    path: '/404',
-    title: '404 - Page Not Found',
-    description: '',
-    canonical: `${process.env.SELF_URL}/404`
+  page: '404',
+  path: '/404',
+  title: '404 - Page Not Found',
+  description: '',
+  canonical: `${process.env.SELF_URL}/404`
 };
 
 const metaData = {
@@ -239,11 +239,11 @@ const metaData = {
 };
 
 const getRenderMetaData = (locationPathName) => {
-    if (metaData[locationPathName]) {
-      return metaData[locationPathName];
-    } else {
-      return notFoundMetaData;
-    }
+  if (metaData[locationPathName]) {
+    return metaData[locationPathName];
+  } else {
+    return notFoundMetaData;
+  }
 }
 
 class Head extends Component {
@@ -252,13 +252,11 @@ class Head extends Component {
   }
 
 
-  renderAnimationScripts = () => {
-    return [
-      <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js') } />,
-      <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Exams_1.hyperesources/itpexams1_hype_generated_script.js') } />,
-      <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js') } />
-    ];
-  };
+  renderAnimationScripts = () => [
+    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js') } />,
+    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Exams_1.hyperesources/itpexams1_hype_generated_script.js') } />,
+    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js') } />
+  ];
 
   render() {
     const { location } = this.props;

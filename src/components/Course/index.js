@@ -70,7 +70,7 @@ class CoursePage extends Component {
                 </div>
                 <div className={ styles.colXS12 }>
                   <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
-                    {data.course.topics.map((topic, index) => (
+                    {data.course.topics.map((topic, index) => 
                       <CourseTopic
                         key={ topic.title }
                         title={ topic.title }
@@ -78,7 +78,7 @@ class CoursePage extends Component {
                         onEpisodeChange={ this.handleEpisodeChange }
                         topicIndex={ index }
                       />
-                    ))}
+                    )}
                   </ul>
                 </div>
               </div>
@@ -98,7 +98,7 @@ class CoursePage extends Component {
                 overview={ data.course.topics[0].episodes[0] }
               />
               <EpisodeExtras
-               transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
+                transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
               />
             </div>
           </div>

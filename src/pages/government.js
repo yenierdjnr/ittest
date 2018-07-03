@@ -11,44 +11,42 @@ import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
 
 
-const Government = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.government }>
+const Government = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.government }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.GovIntro }>
-          <GovIntro />
-        </section>
+      <section className={ styles.GovIntro }>
+        <GovIntro />
+      </section>
 
-        <section className={ styles.GovernmentContent }>
-          <GovernmentContent />
-        </section>
+      <section className={ styles.GovernmentContent }>
+        <GovernmentContent />
+      </section>
 
-        <section className={ styles.GsaCourses }>
-          <GsaCourses />
-        </section>
+      <section className={ styles.GsaCourses }>
+        <GsaCourses />
+      </section>
 
-        <section className={ styles['Track-Results'] }>
-          <TrackResults videoImage={ data.videoImage }/>
-        </section>
+      <section className={ styles['Track-Results'] }>
+        <TrackResults videoImage={ data.videoImage }/>
+      </section>
 
-        <section className={ styles.GsaSchedule }>
-          <GsaSchedule />
-        </section>
+      <section className={ styles.GsaSchedule }>
+        <GsaSchedule />
+      </section>
 
-        <section className={ styles.GovBottomElement }>
-          <GovBottomElement />
-        </section>
+      <section className={ styles.GovBottomElement }>
+        <GovBottomElement />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 
 export default Government;

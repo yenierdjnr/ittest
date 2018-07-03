@@ -6,24 +6,22 @@ import EdutainersContent from 'Components/EdutainersContent';
 import styles from './edutainers.module.scss';
 
 
-const Edutainers = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.edutainers }>
+const Edutainers = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.edutainers }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.EdutainersContent }>
-          <EdutainersContent />
-        </section>
+      <section className={ styles.EdutainersContent }>
+        <EdutainersContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 
 export default Edutainers;

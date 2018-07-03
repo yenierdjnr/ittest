@@ -11,46 +11,44 @@ import { ForYou as Plan } from 'Components/Plans';
 import styles from './forYou.module.scss';
 
 
-const ForYou = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles['for-you'] }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const ForYou = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles['for-you'] }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.Summary }>
-          <Summary />
-        </section>
+      <section className={ styles.Summary }>
+        <Summary />
+      </section>
 
-        <section className={ styles['Learn-More'] }>
-          <LearnMore videoImg={ data.videoImg }/>
-        </section>
+      <section className={ styles['Learn-More'] }>
+        <LearnMore videoImg={ data.videoImg }/>
+      </section>
 
-        <section className={ styles.Vendors }>
-          <VendorList />
-        </section>
+      <section className={ styles.Vendors }>
+        <VendorList />
+      </section>
 
-        <section className={ styles.Enhancements }>
-          <Enhancements />
-        </section>
+      <section className={ styles.Enhancements }>
+        <Enhancements />
+      </section>
 
-        <section className={ styles.Testimonials }>
-          <Testimonials />
-        </section>
+      <section className={ styles.Testimonials }>
+        <Testimonials />
+      </section>
 
-        <section className={ styles.Plan }>
-          <Plan />
-        </section>
+      <section className={ styles.Plan }>
+        <Plan />
+      </section>
 
-        <section className={ styles['For-Teams'] }>
-          <ForTeams />
-        </section>
-      </main>
-    </Fragment>
-  );
-}
+      <section className={ styles['For-Teams'] }>
+        <ForTeams />
+      </section>
+    </main>
+  </Fragment>
+  
 
 
 export default ForYou;

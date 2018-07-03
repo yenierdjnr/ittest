@@ -5,23 +5,21 @@ import { HeaderNav as Nav } from 'Components/Nav';
 import styles from './styles.module.scss';
 
 
-const Header = ({ pathname }) => {
-  return (
-    <header className={ styles.capsule }>
-      <div className={ styles.centerNavRow }>
-        <div className={ styles.navOutter }>
-          <div className={ styles.navWrap }>
-            <Logo className={ styles.logoBox }/>
+const Header = ({ pathname }) => 
+  <header className={ styles.capsule }>
+    <div className={ styles.centerNavRow }>
+      <div className={ styles.navOutter }>
+        <div className={ styles.navWrap }>
+          <Logo className={ styles.logoBox }/>
 
-            <div className={ styles.nav }>
-              <Nav location={ pathname }/>
-            </div>
+          <div className={ styles.nav }>
+            <Nav location={ pathname }/>
           </div>
         </div>
       </div>
-    </header>
-  );
-}
+    </div>
+  </header>
+  
 
 
 export default Header;

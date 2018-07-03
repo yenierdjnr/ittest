@@ -8,32 +8,30 @@ import ContactMaps from 'Components/ContactMaps';
 import styles from './contact.module.scss';
 
 
-const Contact = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.contact }>
+const Contact = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.contact }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.ContactContent }>
-          <ContactContent />
-        </section>
+      <section className={ styles.ContactContent }>
+        <ContactContent />
+      </section>
 
-        <section className={ styles.ContactSupport }>
-          <ContactSupport />
-        </section>
+      <section className={ styles.ContactSupport }>
+        <ContactSupport />
+      </section>
 
-        <section className={ styles.ContactMaps }>
-          <ContactMaps />
-        </section>
+      <section className={ styles.ContactMaps }>
+        <ContactMaps />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 
 export default Contact;

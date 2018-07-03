@@ -33,11 +33,11 @@ class OverlayNav extends Component {
 
     for (const link of links) {
       if (link.pathname === currentPath) {
-       link.parentElement.classList.add(styles.active);
-       this.setState({
-        previousPath: link
-       });
-       break;
+        link.parentElement.classList.add(styles.active);
+        this.setState({
+          previousPath: link
+        });
+        break;
       }
     }
   }

@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 
 const TeamCerts = ({ className='', testimonials }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap-team-certs');
 
     if (vidWrap) {

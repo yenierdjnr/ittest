@@ -5,23 +5,21 @@ import { ITResourcesHero as Hero } from 'Components/Hero';
 import ITResources from 'Components/ITResources';
 import styles from './itResources.module.scss';
 
-const JobResources = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.Career }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const JobResources = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.Career }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.Info }>
-          <ITResources itResources={ data.itResources.edges.map(edge => edge.node) } />
-        </section>
+      <section className={ styles.Info }>
+        <ITResources itResources={ data.itResources.edges.map((edge) => edge.node) } />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+  
 
 export default JobResources;
 

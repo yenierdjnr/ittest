@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconPattern = props => {
+const IconPattern = (props) => {
   const { className='' } = props;
 
   return (

@@ -14,7 +14,7 @@ class Display extends Component {
     };
   }
 
-  handeClick = e => {
+  handeClick = (e) => {
     e.preventDefault();
 
     this.setState({
@@ -31,24 +31,22 @@ class Display extends Component {
       <section className={ `${className} ${styles.capsule}` }>
         <div className={ styles.container }>
 
-            <div className={ styles.list }>
-              {
-                categories.map((category, i) => {
-                  return <Category key={ i } title={ category.tagname } url={`/courses/${category.url}/`} showMore={ showMore } />;
-                })
-              }
-              <div className={ seeMoreStyles } onClick={ this.handeClick }>
-                <a href="#">
-                  <Hx className={ styles['see-more-text'] } size="6" color={ styles.orange }>see more</Hx>
-                </a>
-              </div>
+          <div className={ styles.list }>
+            {
+              categories.map((category, i) => <Category key={ i } title={ category.tagname } url={`/courses/${category.url}/`} showMore={ showMore } />)
+            }
+            <div className={ seeMoreStyles } onClick={ this.handeClick }>
+              <a href="#">
+                <Hx className={ styles['see-more-text'] } size="6" color={ styles.orange }>see more</Hx>
+              </a>
             </div>
+          </div>
       
         </div>
       </section>
     );
   }
-};
+}
 
 
 export default Display;
