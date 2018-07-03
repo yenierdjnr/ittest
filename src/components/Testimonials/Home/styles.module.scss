@@ -22,14 +22,11 @@ $breakpoints: (
   -ms-grid-rows: auto auto;
   grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   grid-template-rows: auto auto;
-
-  background-color: $color-offwhite;
 }
 
 .content {
   @include grid-column(2,3);
   -ms-grid-column-span: 1;
-  // grid-column: 2 / 3;
 
   display: flex;
   flex-flow: column nowrap;

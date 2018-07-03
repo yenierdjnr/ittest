@@ -55,10 +55,14 @@ $breakpoints: (
 
 .Testimonials {
   @extend .container-fluid;
+  background-color: $color-offwhite;
+  padding: 0;
+  @extend .ieHidden;
 }
 
 .Vendors {
   @extend .container-fluid;
+  background-color: $color-white-light;
 }
 
 .Plans {
