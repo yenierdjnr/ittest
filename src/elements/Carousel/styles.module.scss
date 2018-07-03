@@ -15,13 +15,13 @@ $breakpoints: (
 .carousel {
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-flow: row nowrap;
+  @extend .d-flex;
+  @extend .flex-nowrap;
 }
 
 .pagination {
-  display: flex;
-  justify-content: center;
+  @extend .d-flex;
+  @extend .justify-content-center;
 }
 
 .pagination {

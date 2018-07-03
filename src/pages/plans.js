@@ -91,7 +91,7 @@ class Plans extends Component {
 
     return (
       <Fragment>
-        <Head location={ location }/>,
+        <Head location={ location }/>
         <main className={ styles['plans'] }>
           <section className={ styles.Hero }>
             <Hero handleSwitch={ this.handleClick }/>
