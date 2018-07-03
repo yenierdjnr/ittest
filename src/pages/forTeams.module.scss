@@ -38,6 +38,7 @@ $breakpoints: (
 
 .Testimonials {
   @extend .no-gutters;
+  @extend .ieHidden;
 }
 
 
