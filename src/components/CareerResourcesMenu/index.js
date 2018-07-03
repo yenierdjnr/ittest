@@ -14,7 +14,7 @@ const CareerResourcesMenu = props => {
           <div className={ styles.itemContainer }>
             <a href="/career-resources/career-paths/">
               <div className={ `${styles['icon-box']} ${styles.paths}` }>
-                <img src={ imagePaths } alt="paths" />
+                <img className={ styles.img } src={ imagePaths } alt="paths" />
               </div>
             </a>
           </div>
@@ -26,7 +26,7 @@ const CareerResourcesMenu = props => {
           <div className={ styles.itemContainer }>
             <a href="/career-resources/getting-certified/">
               <div className={ `${styles['icon-box']} ${styles.paths}` }>
-                <img src={ imageCertification } alt="certification" />
+                <img className={ styles.img } src={ imageCertification } alt="certification" />
               </div>
             </a>
           </div>
@@ -38,7 +38,7 @@ const CareerResourcesMenu = props => {
           <div className={ styles.itemContainer }>
             <a href="/career-resources/job-resources/">
               <div className={ `${styles['icon-box']} ${styles.paths}` }>
-                <img src={ imageResources } alt="IT resources" />
+                <img className={ styles.img } src={ imageResources } alt="IT resources" />
               </div>
             </a>
           </div>
