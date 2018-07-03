@@ -9,8 +9,8 @@ import styles from './edutainers.module.scss';
 const Edutainers = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
-      <main className={ styles.about }>
+      <Head location={ location }/>
+      <main className={ styles.edutainers }>
 
         <section className={ styles.Hero }>
           <Hero />

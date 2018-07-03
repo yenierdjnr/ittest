@@ -8,7 +8,7 @@ import TextLinkExternal from 'Elements/TextLinkExternal';
 const Resource = ({ className='', title, description, url, imgSrc='' }) => {
 
   return (
-    <div className={ styles.container }>
+    <div className={ styles.cols }>
       <Hx size="6"><a href={ `${url}` } color={ styles.title } target="_blank">{ title }</a></Hx>
       <div className={ styles.content }>
         { imgSrc && <img src={ `${imgSrc}` } className={ styles.img } /> }

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
-import { DatabaseAdministrationPath as Paths } from 'Components/CareerPaths';
+import { DatabaseAdministrationPath as Path } from 'Components/CareerPaths';
 
 const DatabaseAdministration = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
@@ -10,8 +10,8 @@ const DatabaseAdministration = ({ data, history, location, match, page, pageReso
       <Head location={ location } />
       <main className={ styles.Career }>
 
-        <section>
-          <Paths
+        <section className={ styles.Path }>
+          <Path
               recommendedCourses={data.careerPath.recommended.courses}
               additionalCourses={data.careerPath.additional.courses}/>
         </section>

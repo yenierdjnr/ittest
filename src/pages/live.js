@@ -9,7 +9,7 @@ import styles from './onAir.module.scss';
 const OnAir = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location }/>
       <main className={ styles.onAir }>
 
         <section className={ styles.Hero }>

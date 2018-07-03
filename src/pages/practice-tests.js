@@ -9,8 +9,8 @@ import styles from './practice-tests.module.scss';
 const PracticeTests = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
-      <main className={ styles.practiceTests }>
+      <Head location={ location }/>
+      <main className={ styles['practice-tests'] }>
 
         <section className={ styles.Hero }>
           <Hero />

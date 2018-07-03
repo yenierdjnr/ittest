@@ -12,7 +12,7 @@ import styles from './about.module.scss';
 const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location }/>
       <main className={ styles.about }>
 
         <section className={ styles.Hero }>

@@ -1,27 +1,44 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
 
 .Career {
-  grid-area: main;
-
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto auto auto;
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+  @extend .container-fluid;
   height: 400px;
   overflow: hidden;
+  padding-top: 12rem;
+  padding-bottom: 20.8rem;
+  background-color: $color-offwhite;
+  background-image: url('Images/pattern_lightgray.svg');
+  background-position: center;
 }
 
 .CareerResourcesMenu {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
+  @extend .container;
 }
 
 .CareerCoach {
-  grid-column: 1 / -1;
-  grid-row: 3 / 3;
+  @extend .container-fluid;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #F4F4F7;
+}
+
+@include media('<lower-tablet') {
+  .Hero {
+    padding-top: 7.2rem;
+    padding-bottom: 9.7rem;
+  }
+
+  .CareerCoach {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }

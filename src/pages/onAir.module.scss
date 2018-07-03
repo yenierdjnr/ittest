@@ -2,7 +2,8 @@
 
 
 .onAir {
-
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {
