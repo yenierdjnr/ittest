@@ -14,7 +14,7 @@ import styles from './forYou.module.scss';
 const ForYou = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location }/>
       <main className={ styles['for-you'] }>
         <section className={ styles.Hero }>
           <Hero />
