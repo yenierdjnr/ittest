@@ -16,7 +16,7 @@ const CareerCoach = ({ className='' }) => {
           <Hx className={ styles.title } color={ styles.offBlack }size="2">Career Coach Services</Hx>
           <Para className={ styles.summary } color={ styles.darkGrey } size="2">Navigate the IT career roadmap and find the perfect job with a coaching session. Get one-on-one time with an expert at your convenience. This service is exclusively for ITProTV Premium members.</Para>
         </div>
-        <div className={ styles.button }>
+        <div className={ styles.cta }>
           <ButtonLink to="/plans/" className={ styles['button'] }>Get Started Today</ButtonLink>
         </div>
         <div className={ styles.premium }>

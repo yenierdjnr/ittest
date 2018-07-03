@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
-import { CybersecurityPath as Paths } from 'Components/CareerPaths';
+import { CybersecurityPath as Path } from 'Components/CareerPaths';
 
 const Cybersecurity = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
@@ -10,8 +10,8 @@ const Cybersecurity = ({ data, history, location, match, page, pageResources, pa
       <Head location={ location } />
       <main className={ styles.Career }>
 
-        <section>
-          <Paths
+        <section className={ styles.Path }>
+          <Path
               recommendedCourses={data.careerPath.recommended.courses}
               supportingCourses={data.careerPath.supporting.courses}
               additionalCourses={data.careerPath.additional.courses}/>

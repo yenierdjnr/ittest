@@ -3,7 +3,9 @@
 
 $breakpoints: (
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-phone': $lower-phone,
+  'phablet': $phablet,
+  'tablet': $tablet
 );
 
 :export {
@@ -12,21 +14,24 @@ $breakpoints: (
   orangePrimary: $color-orange-primary;
 }
 
-.Paths {
-  grid-area: main;
+.Path {
+  @extend .row;
 }
 
 .Hero {
-  padding: 4.4rem 0 5.2rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
+  @extend .container-fluid;
+  padding-top: 4.4rem;
+  padding-bottom: 5.2rem;
 
   background-color: $color-offblack;
   background-image: url('Images/cybersecurity@2x.jpg');
   background-position: center;
   height: 400px;
   overflow: hidden;
+}
+
+.intro {
+  @extend .col-12;
 }
 
 .navigation {
@@ -40,13 +45,8 @@ $breakpoints: (
   transform: scaleX(-1);
 }
 
-.intro {
-  grid-column: 2 / 3;
-  padding-left: 2.4rem;
-}
-
 .title {
-  max-width: 82rem;
+  max-width: 92rem;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
   margin-top: 2.4rem;
@@ -60,54 +60,36 @@ $breakpoints: (
   line-height: 4.2rem;
 }
 
-.flags {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
-}
-
-.label {
-  grid-column: 2 / 3;
-  padding-bottom: 1.2rem;
-}
-
 .RecommendedCourses {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  @extend .row;
 
-  padding: 4.8rem 0 2.6rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 .SupportingCourses {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+  @extend .row;
 
-  padding: 4.8rem 0 6.6rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .AdditionalCourses {
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
+  @extend .row;
 
-  padding: 4.8rem 0 6.6rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
 
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+.colXS12 {
+  @extend .col-12;
+}
+
+.label {
+  padding-bottom: 1.2rem;
 }
 
 .list {
-  grid-column: 2 / 3;
-  display: flex;
-  flex-flow: column nowrap;
 
   & li {
     &:not(:last-child) {
@@ -117,19 +99,17 @@ $breakpoints: (
 }
 
 .Resources {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  @extend .row;
+
+  padding-bottom: 6rem;
+
   background-color: $color-white;
-  margin-bottom: 6.8rem;
+  margin-bottom: 6rem;
 }
 
 .article {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
+  @extend .col-12;
+  @extend .col-lg-6;
 }
 
 .summary {
@@ -139,6 +119,22 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
+@include media('<tablet') {
+  .summary {
+    max-width: 38rem;
+  }
+  .label {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Resources {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .article {
+    padding-bottom: 3rem;
+  }
+}
 
 @include media('<lower-tablet') {
 
@@ -150,20 +146,14 @@ $breakpoints: (
   }
 
   .subtitle {
-    margin-left: 1rem;
-    margin-right: 1rem;
     font-size: 2.1rem;
     line-height: 3.1rem;
   }
 
-  .RecommendedCourses, .AdditionalCourses, .SupportingCourses, .Resources {
-    padding: 3.6rem 1.6rem 5.4rem;
-  }
 }
 
-@include media('<lower-phone') {
-  .list {
-    padding-left: 0;
-    padding-right: 0;
+@include media('<phablet') {
+  .title {
+    max-width: 41rem;
   }
 }
