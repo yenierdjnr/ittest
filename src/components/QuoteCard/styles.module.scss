@@ -20,8 +20,8 @@ $breakpoints: (
   padding: 2.4rem 5.6rem 3.6rem 5rem;
   position: relative;
 
-  display: flex;
-  flex-flow: row nowrap;
+  @extend .d-flex;
+  @extend .flex-nowrap;
 
   border-radius: 2px;
   background-color: $color-white;

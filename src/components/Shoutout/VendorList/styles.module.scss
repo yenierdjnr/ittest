@@ -3,91 +3,35 @@
 
 $breakpoints: (
   'desktop-vendorlist': $desktop-vendorlist,
-  'lower-tablet': $lower-tablet,
+  'tablet': $tablet,
   'lower-phone': $lower-phone
 );
 
 .capsule {
+  @extend .container;
   padding: 7.1rem;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  background-color: #F4F4F7;
 }
 
-.list {
-  @include display-grid;
-  -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr 1.5rem 1fr 1.5rem 1fr 1.5rem 1fr;
-  -ms-grid-rows: 1fr;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 16.5rem));
-  grid-column-gap: 1.5rem;
-  justify-content: center;
-}
-
-.item1, .item2, .item3, .item4, .item5, .item6 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
+.item {
+  @extend .row;
   padding: 1.6rem 2.5rem;
   text-align: center;
-
-  & span {
-    color: $color-grey-light;
-    @include proxima-semi-bold;
-    font-size: 2.4rem;
-    line-height: 2.9rem;
-
-    text-transform: capitalize;
-  }
 }
 
-
-@include media('<=desktop-vendorlist') {
-  .list {
-    -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
-    -ms-grid-rows: 1fr 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 25.5rem))
-  }
-  .item1, .item2, .item3 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-  }
-  .item4, .item5, .item6 {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-  }
+.vendor {
+  @extend .col-lg-2;
+  color: $color-grey-light;
+  @include proxima-semi-bold;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-transform: capitalize;
 }
 
-
-@include media('<lower-tablet') {
+@include media('<tablet') {
   .capsule {
-    padding: 3.3rem 0;
+    padding: 3rem 0;
   }
-
-  .list {
-    -ms-grid-columns: 1fr 1.5rem 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fit,minmax(14rem,14.5rem));
-  }
-
-  .item1, .item2, .item3, .item4, .item5, .item6 {
-    padding: 1.6rem 2.5rem;
-
-    & span {
-      font-size: 1.8rem;
-      line-height: 2.2rem;
-    }
-  }
-  .item1, .item2 {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-  }
-  .item3, .item4 {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-  }
-  .item5, .item6 {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
+  .vendor {
+    margin: 1rem 0;
   }
 }
