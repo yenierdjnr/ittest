@@ -1,5 +1,4 @@
 const path = require('path');
-const fs = require('fs');
 const { cssModulesConfig } = require("gatsby-1-config-css-modules");
 
 const LOCAL_IDENT_NAME = '[folder]__[local]--[hash:base64:5]';
@@ -59,7 +58,6 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   config.merge({
     resolve: {
       alias: {
-        Animations: path.resolve(config._config.context, 'src', 'assets', 'animations'),
         Components: path.resolve(config._config.context, 'src', 'components'),
         Elements: path.resolve(config._config.context, 'src', 'elements'),
         Images: path.resolve(config._config.context, 'src', 'assets', 'images'),
@@ -90,8 +88,11 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
       }
       `
     ).then(result => {
-      result.data.allTagCategoriesJson.edges.forEach(edge => {
+      var processedTags = new Set();
+      return result.data.allTagCategoriesJson.edges.forEach(edge => {
         return edge.node.tags.map(tag => {
+          if (! processedTags.has(tag.url)) {
+            processedTags.add(tag.url);
           return createPage({
               path: `courses/${tag.url}`,
               component: categoryComponent,
@@ -99,6 +100,7 @@ exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
                 url: tag.url
               }
             })
+          }
         })
       })
     })
