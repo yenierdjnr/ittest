@@ -2,33 +2,12 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'upper-phone': $upper-phone,
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
 
 :export {
   headingColor: $color-offblack;
   darkGrey: $color-grey-dark;
-}
-
-.capsule {
-  padding: 9.6rem 0 13rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
-  background-color: $color-white;
-}
-
-.intro {
-  grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-
-  margin-bottom: 5.6rem;
 }
 
 .title {
@@ -42,26 +21,8 @@ $breakpoints: (
   text-align: center;
 }
 
-.flags {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
-}
-
 
 @include media('<lower-tablet') {
-  .capsule {
-    padding: 5.6rem 0 5.2rem;
-  }
-
-  .flags {
-    grid-template-columns: minmax(304px, 492px);
-    justify-content: center;
-    padding: 0 1.6rem;
-  }
 
   .title {
     font-size: 3rem;
@@ -74,19 +35,5 @@ $breakpoints: (
     max-width: 33rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
-  }
-}
-
-
-@include media('<=upper-phone') {
-  .title, .summary {
-    width: 29.5rem;
-  }
-}
-
-
-@include media('<lower-phone') {
-  .flags {
-    padding: 0 8px;
   }
 }

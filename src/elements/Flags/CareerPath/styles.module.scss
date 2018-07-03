@@ -2,7 +2,8 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
 );
 
 :export {
@@ -10,18 +11,20 @@ $breakpoints: (
   darkOrange: $color-orange-dark;
 }
 
+.cols {
+  @extend .col-12;
+  @extend .col-md-6;
+  margin-bottom: 2rem;
+}
+
 .item {
-  width: 492px;
-  height: 10rem;
-  padding: 14px 16px 20px;
-  justify-self: center;
+  width: 100%;
+  height: 12rem;
+  display: block;
 
-  display: flex;
-  flex-flow: column nowrap;
-  flex: 0 1 auto;
-  align-items: flex-start;
+  padding: 21px 16px 20px;
+  text-align: left;
 
-  text-align: center;
   cursor: pointer;
 
   border: 1px solid #E4E8EC;
@@ -40,9 +43,11 @@ $breakpoints: (
 }
 
 .path {
-  display: flex;
-  align-items: center;
-  text-align: left;
+  @extend .d-flex;
+  @extend .justify-content-between;
+  @extend .align-items-center;
+  padding-bottom: 2rem;
+  max-width: 100%;
 
   & span {
     color: $color-offblack;
@@ -53,11 +58,11 @@ $breakpoints: (
 }
 
 .name {
-  display: inline-block;
-  margin-right: 8px;
+  max-width: 100%;
 
   @include adelle-sans-bold;
   line-height: 2.8rem;
+  text-transform: capitalize;
 }
 
 .icon {
@@ -67,19 +72,20 @@ $breakpoints: (
 
 @include media('<lower-tablet') {
   .item {
-    max-width: 49.2rem;
-    width: 100%;
-    height: 12.4rem;
-    padding: 1.6rem 0 1.8rem 1.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.8rem;
   }
 
   .title {
-    width: 100%;
-    text-align: left;
     margin-bottom: 8px;
   }
+}
 
-  .path {
-    text-align: left;
+@include media('<lower-phone') {
+  .item {
+    height: 14.6rem;
+  }
+  .title {
+    margin-bottom: 6px;
   }
 }

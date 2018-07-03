@@ -9,8 +9,8 @@ import styles from './privacy.module.scss';
 const Privacy = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
-      <main className={ styles.eula }>
+      <Head location={ location }/>
+      <main className={ styles.privacy }>
 
         <section className={ styles.Hero }>
           <Hero />

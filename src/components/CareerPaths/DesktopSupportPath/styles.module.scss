@@ -14,28 +14,24 @@ $breakpoints: (
   orangePrimary: $color-orange-primary;
 }
 
-.Paths {
-  grid-area: main;
-
-  @include display-grid;
-  grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: auto auto;
+.Path {
+  @extend .row;
 }
 
 .Hero {
-  padding: 4.4rem 0 5.2rem;
-
-  grid-column: 1 / -1;
-  grid-row: 1 / 2;
+  @extend .container-fluid;
+  padding-top: 4.4rem;
+  padding-bottom: 5.2rem;
 
   background-color: $color-offblack;
-  background-image: url('Images/it-management-strategy@2x.jpg');
+  background-image: url('Images/desktop-support@2x.jpg');
   background-position: center;
   height: 400px;
   overflow: hidden;
+}
 
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+.intro {
+  @extend .col-12;
 }
 
 .navigation {
@@ -47,13 +43,6 @@ $breakpoints: (
 .arrow {
   margin-right: 10px;
   transform: scaleX(-1);
-}
-
-.intro {
-  grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 .title {
@@ -71,45 +60,29 @@ $breakpoints: (
   line-height: 4.2rem;
 }
 
-.flags {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
-}
-
-.label {
-  grid-column: 2 / 3;
-  padding-bottom: 1.2rem;
-}
-
 .RecommendedCourses {
+  @extend .row;
 
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-
-  padding: 4.8rem 0 6.6rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 .AdditionalCourses {
-  grid-column: 1 / -1;
-  grid-row: 3 / 4;
+  @extend .row;
 
-  padding: 4.8rem 0 6.6rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
 
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+.colXS12 {
+  @extend .col-12;
+}
+
+.label {
+  padding-bottom: 1.2rem;
 }
 
 .list {
-  grid-column: 2 / 3;
-  display: flex;
-  flex-flow: column nowrap;
 
   & li {
     &:not(:last-child) {
@@ -119,25 +92,17 @@ $breakpoints: (
 }
 
 .Resources {
-  grid-column: 1 / -1;
-  grid-row: 4 / 5;
+  @extend .row;
 
-  padding: 4.8rem 0 6.6rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+  padding-bottom: 6rem;
 
   background-color: $color-white;
-  margin-bottom: 6.8rem;
+  margin-bottom: 6rem;
 }
 
 .article {
-  grid-column: 2 / 3;
-
-  @include display-grid;
-  grid-template-columns: repeat(auto-fit, minmax(492px, 1fr));
-  grid-column-gap: 4rem;
-  grid-row-gap: 1.6rem;
+  @extend .col-12;
+  @extend .col-lg-6;
 }
 
 .summary {
@@ -148,12 +113,19 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
-  .Hero {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
   .summary {
     max-width: 38rem;
+  }
+  .label {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Resources {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .article {
+    padding-bottom: 3rem;
   }
 }
 
@@ -167,30 +139,14 @@ $breakpoints: (
   }
 
   .subtitle {
-    margin-left: 1rem;
-    margin-right: 1rem;
     font-size: 2.1rem;
     line-height: 3.1rem;
   }
 
-  .RecommendedCourses, .AdditionalCourses, .Resources {
-    padding: 3.6rem 1.6rem 5.4rem;
-  }
 }
 
 @include media('<phablet') {
   .title {
     max-width: 41rem;
-  }
-}
-
-@include media('<lower-phone') {
-  .list {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .Hero {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }

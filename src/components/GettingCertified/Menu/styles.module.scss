@@ -8,25 +8,30 @@ $breakpoints: (
 );
 
 .capsule {
-  @include display-grid;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
   background-color: $color-offblack;
+}
+
+.cols {
+  @extend .col-12;
+  @extend .col-lg-8;
 }
 
 .list {
   height: 8rem;
-  grid-column: 2 / 3;
 
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .justify-content-start;
+  @extend .justify-content-md-between;
 }
 
 .item {
   height: 100%;
 
-  display: flex;
-  align-items: center;
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .justify-content-start;
+  @extend .justify-content-md-between;
 
   border-bottom: 3px solid $color-offblack;
   cursor: pointer;
@@ -56,16 +61,13 @@ $breakpoints: (
 @include media('<lower-tablet') {
   .list {
     height: 6rem;
-    justify-content: left;
-    padding: 0 1.6rem;
   }
 
   .item {
-    width: 11.4rem;
-    justify-content: center;
+    padding: 0 .5rem;
 
     &:not(:last-child) {
-      margin-right: 0;
+      margin-right: 2rem;
     }
 
     & span {
@@ -77,31 +79,7 @@ $breakpoints: (
 
 
 @include media('<=upper-phone') {
-  .list {
-    justify-content: space-between;
-  }
-
   .item {
-    width: 9.2rem;
-    justify-content: center;
-
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-
-    & span {
-      font-size: 1.3rem;
-      line-height: 1.7rem;
-    }
-  }
-}
-
-@include media('<=lower-phone') {
-
-  .item {
-    width: 7rem;
-    &:not(:last-child) {
-      margin-right: .5rem;
-    }
+    padding: 0 .5rem;
   }
 }

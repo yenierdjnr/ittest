@@ -2,7 +2,8 @@
 
 
 .contact {
-
+  @extend .col;
+  padding: 0;
 }
 
 .Hero {

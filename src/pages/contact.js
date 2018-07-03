@@ -11,8 +11,8 @@ import styles from './contact.module.scss';
 const Contact = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
-      <main className={ styles.about }>
+      <Head location={ location }/>
+      <main className={ styles.contact }>
 
         <section className={ styles.Hero }>
           <Hero />

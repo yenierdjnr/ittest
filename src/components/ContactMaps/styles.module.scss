@@ -57,7 +57,15 @@ $breakpoints: (
 }
 
 iframe {
-  margin-top: 2rem;
+  @extend .row;
+  @extend .justify-content-center;
+  @extend .embed-responsive;
+  height: 550px;
+  max-width: 450px;
+  margin: 2rem 0;
+  .responsiveItem {
+    @extend .embed-responsive-item;
+  }
 }
 
 

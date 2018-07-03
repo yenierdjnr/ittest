@@ -1,36 +1,31 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'tablet': $tablet
+);
 
-.about {
+.page-not-found {
   @extend .col;
   padding: 0;
 }
 
 .Hero {
   @extend .container-fluid;
-  padding-top: 7.2rem;
+  padding-top: 8rem;
   padding-bottom: 7.5rem;
   background-color: $color-offblack;
   background-image: url('Images/pattern_darkpurple.svg');
   background-position: 50%;
 }
 
-.AboutContent {
+.PageNotFoundContent {
   @extend .container;
+  padding-top: 2rem;
 }
 
-.AboutStory {
-  @extend .container-fluid;
-  background-color: #f9f9fb;
-  display: block;
-}
-
-.TrustedBy {
-  display: block;
-}
-
-.Values {
-  @extend .container-fluid;
-  background-color: #f4f3f8;
-  display: block;
+@include media('<tablet') {
+  .Hero {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
 }

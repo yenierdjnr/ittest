@@ -6,36 +6,29 @@ $breakpoints: (
 );
 
 .capsule {
-  padding: 7.2rem 0 7.5rem;
-  background-color: $color-offblack;
-  background-image: url('Images/pattern_darkpurple.svg');
-  background-position: 50%;
+  @extend .container;
 }
 
 .intro {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  @extend .row;
 
   color: $color-white;
   text-align: center;
 }
 
 .title {
-  max-width: 81.9rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 
 @include media('<lower-tablet') {
   .capsule {
-    padding: 5.6rem 3rem 5.9rem;
+    padding-top: 5.6rem;
+    padding-bottom: 5.9rem;
   }
 
   .title {
-    max-width: 52rem;
-
     font-size: 3rem;
     line-height: 3.7rem;
     margin-bottom: 1.6rem;
