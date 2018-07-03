@@ -14,12 +14,12 @@ $breakpoints: (
 
 .capsule {
   @extend .row;
+  margin-bottom: 14rem;
 }
 
 .card-left {
   @extend .col-12;
   @extend .col-lg-6;
-  margin-bottom: 14rem;
 
   & .title {
     color: $color-green-dark;
@@ -33,7 +33,6 @@ $breakpoints: (
 .card-right {
   @extend .col-12;
   @extend .col-lg-6;
-  margin-bottom: 10rem;
 
   & .title {
     color: $color-blue-dark;
@@ -135,6 +134,11 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
+
+  .capsule {
+    margin-bottom: 7rem;
+  }
+
   .card-left {
     margin-bottom: 4rem;
   }

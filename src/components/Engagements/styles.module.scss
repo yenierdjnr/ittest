@@ -1,20 +1,7 @@
 @import '~Styles/main';
 
 
-$breakpoints: (
-  'header-tablet': $header-tablet,
-  'tablet': 1024px
-);
-
-
-.capsule {
-
-}
-
 .courses, .labs, .exams {
-  // @include grid-column(2,3);
-  // -ms-grid-column-span: 1;
-  // // grid-column: 2 / 3;
   @extend .row;
   margin-bottom: 10rem;
 }
@@ -22,27 +9,4 @@ $breakpoints: (
 .labs {
   @extend .flex-column-reverse;
   @extend .flex-lg-row;
-}
-// .courses {
-//   @include grid-row(1,2);
-//   -ms-grid-row-span: 1;
-//   // grid-row: 1 / 2;
-// }
-// .labs {
-//   @include grid-row(3,4);
-//   -ms-grid-row-span: 1;
-//   // grid-row: 3 / 4;
-// }
-// .exams {
-//   @include grid-row(5,6);
-//   -ms-grid-row-span: 1;
-//   // grid-row: 5 / 6;
-// }
-
-
-@include media('<tablet') {
-  // .capsule {
-  //   -ms-grid-rows: auto 6.4rem auto 6.4rem auto;
-  //   grid-template-rows: auto 6.4rem auto 6.4rem auto;
-  // }
 }
