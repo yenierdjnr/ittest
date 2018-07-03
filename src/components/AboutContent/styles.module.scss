@@ -58,7 +58,7 @@ $breakpoints: (
   @extend .justify-content-center;
   @extend .embed-responsive;
   @extend .embed-responsive-4by3;
-  max-width: 600px;  
+  max-width: 600px;
   margin: 0 auto;
   .responsiveItem {
     @extend .embed-responsive-item;

@@ -7,24 +7,32 @@
 }
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
+  'tablet': $tablet
 );
 
 a {
   color: $color-offblack;
 }
 
+.cols {
+  @extend .col-12;
+  @extend .col-lg-6;
+}
+
+.title {
+
+}
+
 .content {
-  margin: 1rem 0;
-  display: grid;
-  grid-template-columns: auto, auto;
-  grid-auto-flow: column;
-  justify-content: flex-start;
-  grid-gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .img {
   max-width: 150px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
 }
 
 .summary {
@@ -39,8 +47,8 @@ a {
   padding-top: .5rem;
 }
 
-@include media('<lower-tablet') {
-  .container {
-    padding: 0 21px;
+@include media('<tablet') {
+  .cols {
+    margin-bottom: 3rem;
   }
 }

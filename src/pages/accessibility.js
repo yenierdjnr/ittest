@@ -9,7 +9,7 @@ import styles from './accessibility.module.scss';
 const Accessibility = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Fragment>
-      <Head location={ location }/>,
+      <Head location={ location }/>
       <main className={ styles.accessibility }>
 
         <section className={ styles.Hero }>

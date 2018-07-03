@@ -30,6 +30,7 @@
 
 .Testimonials {
   @extend .no-gutters;
+  @extend .ieHidden;
 }
 
 .Plan {
@@ -38,10 +39,4 @@
 
 .For-Teams {
   @extend .no-gutters;
-}
-
-@include media('<tablet') {
-  .Testimonials {
-    display: none;
-  }
 }
