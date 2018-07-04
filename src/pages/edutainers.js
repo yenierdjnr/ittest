@@ -6,7 +6,7 @@ import EdutainersContent from 'Components/EdutainersContent';
 import styles from './edutainers.module.scss';
 
 
-const Edutainers = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Edutainers = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.edutainers }>
@@ -21,7 +21,7 @@ const Edutainers = ({ data, history, location, match, page, pageResources, pageC
 
     </main>
   </Fragment>
-  
+
 
 
 export default Edutainers;

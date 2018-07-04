@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const ContactSupport = (props) => 
+const ContactSupport = () =>
   <section className={ styles.capsule }>
     <div className={ styles.colXS12 }>
       <Hx className={ styles.subsection } color={ styles.offBlack }>Got a question outside of support hours?</Hx>

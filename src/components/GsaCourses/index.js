@@ -3,11 +3,9 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import TextLink from 'Elements/TextLink';
-import { IconExams, IconLabs } from 'Elements/Icons';
 
 
-const GsaCourses = (props) => 
+const GsaCourses = () =>
   <section className={ styles.capsule} >
     <div className={ styles.titleRow }>
       <div className={ styles.colXS12 }>

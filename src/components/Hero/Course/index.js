@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -17,7 +16,7 @@ const courseLengthToString = (length) => {
 }
 
 
-const CoursePageHero = (props) => 
+const CoursePageHero = (props) =>
   <section className={ styles.capsule }>
     <div className={ styles.intro }>
       <div className={ styles.colXS12 }>
@@ -47,12 +46,3 @@ const CoursePageHero = (props) =>
 
 
 export default CoursePageHero;
-
-export const pageQuery = graphql`
-  query GetTagByPath($url: String) {
-    category: tagsJson(url: {eq: $url}) {
-      tagname
-      url
-    }
-  }
-`;

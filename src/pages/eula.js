@@ -6,7 +6,7 @@ import EulaContent from 'Components/EulaContent';
 import styles from './eula.module.scss';
 
 
-const Eula = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Eula = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.eula }>
@@ -21,7 +21,7 @@ const Eula = ({ data, history, location, match, page, pageResources, pageContext
 
     </main>
   </Fragment>
-  
+
 
 
 export default Eula;

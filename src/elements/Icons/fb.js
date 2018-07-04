@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconFB = (props) => 
+const IconFB = (props) =>
   <svg width="13" height="24" viewBox="0 0 13 24">
     <title>Facebook</title>
     <desc>Facebook Icon</desc>

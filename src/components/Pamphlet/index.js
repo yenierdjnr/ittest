@@ -1,15 +1,14 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-import Link from 'Elements/Link';
-import { IconArrowRight } from 'Elements/Icons'
-import { ViewportAnimation } from 'Elements/Viewport'
+import { IconArrowRight } from 'Elements/Icons';
+import { ViewportAnimation } from 'Elements/Viewport';
 import styles from './styles.module.scss';
 
 
 const orangePrimary = '#F6621C';
 
-const Pamphlet = ({ videoImg }) => 
+const Pamphlet = ({ videoImg }) =>
   <section className={ styles.capsule }>
     <div className={ styles.content }>
       <ViewportAnimation>

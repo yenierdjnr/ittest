@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Hx from 'Elements/Hx';
 import { Resource } from 'Elements/Flags';
 import styles from './styles.module.scss';
 

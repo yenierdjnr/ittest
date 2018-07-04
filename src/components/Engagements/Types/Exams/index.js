@@ -3,7 +3,6 @@ import React, { PureComponent } from 'react';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
-import { IconArrowRight } from 'Elements/Icons';
 import imageExams from 'Images/exams.svg';
 import styles from '../styles.module.scss';
 

@@ -1,11 +1,10 @@
 import React from 'react';
 
 import styles from './styles.module.scss';
-import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const AccessibilityContent = (props) => 
+const AccessibilityContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.colXS12 }>
       <Para className={ styles.content } color={ styles.greyDark } >It is vital that all ITProTV content be available to all aspiring and existing IT professionals regardless of disabilities. ITPro.TV is WCAG 2.0 AA compliant. Highlights of ITProTV's accessibility features within the service include:</Para>

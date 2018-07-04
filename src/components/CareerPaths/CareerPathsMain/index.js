@@ -57,7 +57,7 @@ const paths = [
   }
 ];
 
-const CareerPathsMain = (props) => 
+const CareerPathsMain = () =>
 
   <div className={ styles.row }>
     {

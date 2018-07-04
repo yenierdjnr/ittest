@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import { IconArrowRight } from 'Elements/Icons';
 import imageLabs from 'Images/labs.svg';
 import styles from '../styles.module.scss';
 

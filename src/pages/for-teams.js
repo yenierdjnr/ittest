@@ -3,7 +3,6 @@ import React, { Fragment } from 'react';
 import Head from 'Components/Head';
 import { ForTeamsHero as Hero } from 'Components/Hero';
 import { ForTeamsSummary as Summary } from 'Components/Summary';
-import RequestForm from 'Components/RequestForm';
 import { ForTeamsVideo as TrackResults } from 'Components/Videos';
 import TeamNeeds from 'Components/TeamNeeds';
 import Enhancements from 'Components/Enhancements';
@@ -12,7 +11,7 @@ import { ForTeamsTestimonials as Testimonials } from 'Components/Testimonials';
 import styles from './forTeams.module.scss';
 
 
-const ForTeams = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const ForTeams = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles['for-teams'] }>
@@ -45,7 +44,7 @@ const ForTeams = ({ data, history, location, match, page, pageResources, pageCon
       </section>
     </main>
   </Fragment>
-  
+
 
 
 export default ForTeams;

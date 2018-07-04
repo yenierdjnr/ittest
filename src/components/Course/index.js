@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
 
 import { CoursePageHero as Hero } from 'Components/Hero';
-import { CourseTopic } from 'Elements/Flags';
-import { CourseExtras } from 'Elements/Flags';
+import { CourseExtras, CourseTopic } from 'Elements/Flags';
 import { CourseVideo } from 'Components/Videos';
 import EpisodeDetails from 'Components/EpisodeDetails';
 import EpisodeExtras from 'Components/EpisodeExtras';
 import { IconCaret } from 'Elements/Icons';
-import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
 
@@ -70,7 +67,7 @@ class CoursePage extends Component {
                 </div>
                 <div className={ styles.colXS12 }>
                   <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
-                    {data.course.topics.map((topic, index) => 
+                    {data.course.topics.map((topic, index) =>
                       <CourseTopic
                         key={ topic.title }
                         title={ topic.title }

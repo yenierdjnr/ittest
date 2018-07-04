@@ -1,31 +1,37 @@
 {
   "parser": "babel-eslint",
   "rules": {
-    "strict": 0,
-    "no-duplicate-imports": 2,
-    "no-prototype-builtins":2,
-    "no-extra-parens": 2,
-    "default-case": 2,
-    "no-iterator":2,
-    "react/prop-types":0,
-    "no-shadow":2,
-    "no-shadow-restricted-names":2,
-    "no-undefined":2,
-    "no-use-before-define":2,
-    "no-proto":2,
-    "no-void":2,
-    "no-useless-return":2,
+    "strict": "off",
+    "no-duplicate-imports": "error",
+    "no-prototype-builtins":"error",
+    "no-extra-parens": "error",
+    "default-case": "error",
+    "no-iterator":"error",
+    "no-shadow":"error",
+    "no-shadow-restricted-names":"error",
+    "no-use-before-define":"error",
+    "no-proto":"error",
+    "no-void":"error",
+    "no-useless-return":"error",
     "indent":["error", 2],
-    "no-undef-init":2,
-    "no-var":2,
-    "prefer-const":2,
-    "sort-imports":2,
-    "arrow-body-style":2,
-    "arrow-parens":2,
-    "arrow-spacing":2
+    "no-undef-init":"error",
+    "no-var":"error",
+    "prefer-const":"error",
+    // the following react rules should be re-enabled and fixed, turned off temporarily
+    "react/jsx-no-target-blank":"off",
+    "react/no-string-refs":"off",
+    "react/no-unescaped-entities":"off",
+    "react/prop-types":"off"
   },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended"
-  ]
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "graphql": false
+  }
 }

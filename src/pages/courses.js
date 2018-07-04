@@ -8,7 +8,7 @@ import FreeCourses from 'Components/FreeCourses';
 import styles from './courses.module.scss';
 
 
-const CourseLibrary = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const CourseLibrary = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.courses }>
@@ -29,7 +29,7 @@ const CourseLibrary = ({ data, history, location, match, page, pageResources, pa
       </section>
     </main>
   </Fragment>
-  
+
 
 
 export default CourseLibrary;

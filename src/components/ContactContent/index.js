@@ -6,7 +6,7 @@ import Para from 'Elements/Para';
 import { IconBubbles, IconPhone, IconQuestionMark } from 'Elements/Icons';
 
 
-const ContactContent = (props) => 
+const ContactContent = () =>
   <section className={ styles.capsule }>
     <div className={ `${styles['col-lg-4']} ${styles.icon}` }>
       <div className={ styles['icon-box'] }>

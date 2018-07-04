@@ -17,7 +17,7 @@ import Wes from 'Images/wes.jpg';
 import Zach from 'Images/zach.jpg';
 
 
-const EdutainersContent = (props) => 
+const EdutainersContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.row }>
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Edutainers</Hx>

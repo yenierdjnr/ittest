@@ -6,7 +6,7 @@ import ThankYou from 'Components/ThankYou';
 import styles from './thankyouDemo.module.scss';
 
 
-const ThankYouDemo = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const ThankYouDemo = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.thankyouDemo }>
@@ -21,7 +21,7 @@ const ThankYouDemo = ({ data, history, location, match, page, pageResources, pag
 
     </main>
   </Fragment>
-  
+
 
 
 export default ThankYouDemo;

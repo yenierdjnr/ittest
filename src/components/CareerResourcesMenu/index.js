@@ -6,7 +6,7 @@ import imageCertification from 'Images/certification.svg';
 import imageResources from 'Images/resources.svg';
 import TextLink from 'Elements/TextLink';
 
-const CareerResourcesMenu = (props) => 
+const CareerResourcesMenu = () =>
   <section className={ styles.capsule }>
 
     <div className={ styles.item }>

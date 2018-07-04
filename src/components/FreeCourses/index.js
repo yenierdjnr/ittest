@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Hx from'Elements/Hx';
-import TextLink from 'Elements/TextLink';
 import { Episode } from 'Elements/Flags';
 import styles from './styles.module.scss';
 
@@ -29,7 +28,7 @@ const episodes = [
   },
 ];
 
-const FreeCourses = (props) => 
+const FreeCourses = (props) =>
   <section className={ styles.capsule }>
     <div className={ styles.row }>
       <div className={ styles.intro }>

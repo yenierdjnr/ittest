@@ -3,11 +3,10 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import TextLink from 'Elements/TextLink';
 import { IconCertificate, IconExams, IconLabs } from 'Elements/Icons';
 
 
-const GovernmentContent = (props) => 
+const GovernmentContent = (props) =>
   <section className={ styles.capsule }>
     <div className={ styles.item }>
       <div className={ styles['icon-box'] }>

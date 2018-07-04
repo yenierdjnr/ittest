@@ -12,7 +12,7 @@ import { Home as Plans } from 'Components/Plans';
 import Pamphlet from 'Components/Pamphlet';
 import styles from './homePage.module.scss';
 
-const HomePage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const HomePage = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.home }>
@@ -54,7 +54,7 @@ const HomePage = ({ data, history, location, match, page, pageResources, pageCon
       </section>
     </main>
   </Fragment>
-  
+
 
 
 export default HomePage;

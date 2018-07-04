@@ -6,7 +6,7 @@ import TeamContent from 'Components/TeamContent';
 import styles from './team.module.scss';
 
 
-const Team = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Team = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.team }>
@@ -21,7 +21,7 @@ const Team = ({ data, history, location, match, page, pageResources, pageContext
 
     </main>
   </Fragment>
-  
+
 
 
 export default Team;

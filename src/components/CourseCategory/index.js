@@ -1,9 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
 
-import { CourseCategoryHero as Hero } from 'Components/Hero'
-import { Course } from 'Elements/Flags'
+import { CourseCategoryHero as Hero } from 'Components/Hero';
+import { Course } from 'Elements/Flags';
 import styles from './styles.module.scss';
 
 
@@ -34,7 +33,7 @@ const CourseCategory = ({ data, ...rest }) => {
           <div className={ styles.row }>
             <div className={ styles.colXS12 }>
               <ul className={ styles.list }>
-                {data.category.courses.map((course) => 
+                {data.category.courses.map((course) =>
                   <Course
                     key={ course.url }
                     url={ `/courses/${data.category.url}/${course.url}/` }

@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-
-import 'Styles/normalizer.css';
-import 'Styles/globals.css';
-
-import Overlay from 'Components/Overlay';
-import Header from 'Components/Header';
-import Footer from 'Components/Footer';
-
-
 import { footerContent, mainContent, mainLayout, mainRows, overlay } from './styles.module.scss';
+
+import Footer from 'Components/Footer';
+import Header from 'Components/Header';
+import Overlay from 'Components/Overlay';
+
+import 'Styles/globals.css';
+import 'Styles/normalizer.css';
 
 
 class Index extends Component {
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (this.refs.overlay.style.display === 'block') {
       this.handleCloseClick();
     }
@@ -28,22 +26,22 @@ class Index extends Component {
   render() {
     const { children, location } = this.props;
 
-  	return (
-  		<div className={ mainLayout }>
+    return (
+      <div className={ mainLayout }>
         <div id="overlay" className={ overlay } ref="overlay">
           <Overlay pathname={ location.pathname } callback={ this.handleCloseClick }/>
         </div>
         <div id="headerContent" className={ mainRows }>
-    			<Header pathname={ location.pathname }/>
+          <Header pathname={ location.pathname }/>
         </div>
-  			<div id={ mainContent } className={ mainRows }>
+        <div id={ mainContent } className={ mainRows }>
           { children() }
         </div>
         <div id={ footerContent} className={ mainRows }>
-    			<Footer />
+          <Footer />
         </div>
-  		</div>
-  	);
+      </div>
+    );
   }
 }
 

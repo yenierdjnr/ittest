@@ -11,7 +11,7 @@ import { ForYou as Plan } from 'Components/Plans';
 import styles from './forYou.module.scss';
 
 
-const ForYou = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const ForYou = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles['for-you'] }>
@@ -48,7 +48,7 @@ const ForYou = ({ data, history, location, match, page, pageResources, pageConte
       </section>
     </main>
   </Fragment>
-  
+
 
 
 export default ForYou;

@@ -3,12 +3,10 @@ import React from 'react';
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import TextLinkExternal from 'Elements/TextLinkExternal';
-import { IconArrowRight } from 'Elements/Icons';
 import gsaLogo from 'Images/gsa_schedule.jpg';
 
 
-const GsaSchedule = (props) => 
+const GsaSchedule = () =>
   <section className={ styles.capsule }>
 
     <div className={ styles.gsa }>

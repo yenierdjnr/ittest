@@ -6,7 +6,7 @@ import ChannelGuide from 'Components/ChannelGuide';
 import styles from './onAir.module.scss';
 
 
-const OnAir = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const OnAir = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.onAir }>
@@ -20,7 +20,7 @@ const OnAir = ({ data, history, location, match, page, pageResources, pageContex
       </section>
     </main>
   </Fragment>
-  
+
 
 
 export default OnAir;

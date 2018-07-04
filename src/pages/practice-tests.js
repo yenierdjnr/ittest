@@ -6,7 +6,7 @@ import TestContent from 'Components/TestContent';
 import styles from './practice-tests.module.scss';
 
 
-const PracticeTests = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const PracticeTests = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles['practice-tests'] }>
@@ -21,7 +21,7 @@ const PracticeTests = ({ data, history, location, match, page, pageResources, pa
 
     </main>
   </Fragment>
-  
+
 
 
 export default PracticeTests;

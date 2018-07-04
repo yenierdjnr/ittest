@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -6,7 +6,7 @@ import { OnAir as Video } from 'Components/Videos';
 import styles from './styles.module.scss';
 
 
-const ChannelGuide = ({ videoImage }) => 
+const ChannelGuide = ({ videoImage }) =>
   <section className={ styles.capsule }>
     <div className={ styles.calendar }>
       <div className={ styles.intro }>
@@ -19,7 +19,7 @@ const ChannelGuide = ({ videoImage }) =>
       <Video bkImage={ videoImage }/>
     </div>
   </section>
-  
+
 
 
 export default ChannelGuide;

@@ -8,7 +8,7 @@ import ContactMaps from 'Components/ContactMaps';
 import styles from './contact.module.scss';
 
 
-const Contact = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Contact = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.contact }>
@@ -31,7 +31,7 @@ const Contact = ({ data, history, location, match, page, pageResources, pageCont
 
     </main>
   </Fragment>
-  
+
 
 
 export default Contact;

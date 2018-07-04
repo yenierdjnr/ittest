@@ -11,7 +11,7 @@ import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
 
 
-const Government = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Government = ({ data, history, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.government }>
@@ -46,7 +46,7 @@ const Government = ({ data, history, location, match, page, pageResources, pageC
 
     </main>
   </Fragment>
-  
+
 
 
 export default Government;

@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconInsta = (props) => 
+const IconInsta = (props) =>
   <svg width="25" height="21" viewBox="0 0 169.09 168.94">
     <title>Instagram</title>
     <desc>Instagram Icon</desc>
