@@ -89,20 +89,13 @@ $breakpoints: (
   }
 
   .RequestForm {
-    margin-top: -8rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: -8rem auto 0;
+    padding: 4rem;
   }
 
   .list {
     padding: 5.6rem 0 6rem;
     align-items: center;
-  }
-
-  .form {
-    padding: 4rem;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .item {
