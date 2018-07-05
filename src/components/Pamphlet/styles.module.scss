@@ -6,24 +6,18 @@ $breakpoints: (
 );
 
 .capsule {
-  padding: 9.7rem 0;
-
-  @include display-grid;
-  -ms-grid-columns: 1fr minmax(auto, 1024px) 1fr;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
-  background-color: $color-offblack;
+  @extend .container;
+  padding-top: 9.7rem;
+  padding-bottom: 9.7rem;
 }
 
 .content {
-  @include grid-column(2,3);
-  -ms-grid-column-span: 1;
-  // grid-column: 2 / 3;
+  @extend .col-12;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
+  @extend .d-flex;
+  @extend .flex-nowrap;
+  @extend .justify-content-between;
+  @extend .align-items-center;
 }
 
 .info {
@@ -51,8 +45,8 @@ $breakpoints: (
 }
 
 .link {
-  display: flex;
-  align-items: center;
+  @extend .d-flex;
+  @extend .align-items-center;
 }
 
 .action {

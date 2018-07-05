@@ -67,10 +67,18 @@ $breakpoints: (
 
 .Plans {
   @extend .container-fluid;
+  position: relative;
+  background-color: $color-white;
+
+  background-image: url('Images/patterns_vertical.svg');
+  background-repeat: no-repeat;
+  background-position-x: 85%;
 }
 
 .Pamphlet {
   @extend .container-fluid;
+  background-color: $color-offblack;
+  padding: 0;
 }
 
 

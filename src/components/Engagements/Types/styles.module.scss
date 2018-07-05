@@ -81,8 +81,8 @@ $breakpoints: (
   }
 }
 .link {
-    display: flex;
-    flex-flow: row nowrap;
+    @extend .d-flex;
+    @extend .flex-nowrap;
 
     color: $color-orange-primary;
     @include adelle-sans-bold;
