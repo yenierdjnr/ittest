@@ -20,7 +20,7 @@ $breakpoints: (
 }
 
 .form-title {
-  width: 33.4rem;
+  width: 35rem;
   margin-bottom: 4.8rem;
 }
 
@@ -111,13 +111,13 @@ $breakpoints: (
     background-color: $color-purple-dark;
     cursor:auto;
   }
+  width: 100%;
 }
 
 @include media('<lower-tablet') {
   .capsule {
     min-width: 28.8rem;
     padding: 3.2rem 2.4rem;
-    margin: 0 1.6rem;
   }
 
   .form-title {
