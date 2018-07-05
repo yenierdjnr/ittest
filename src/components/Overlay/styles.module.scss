@@ -12,3 +12,15 @@
 
   background-color: rgba($color-offblack, 0.95);
 }
+
+@media all and (-ms-high-contrast: none) and (max-width: 1024px), (-ms-high-contrast: active) and (max-width: 1024px) {
+  .capsule {
+    top: 11rem;
+  }
+}
+
+@media all and (-ms-high-contrast: none) and (max-width: 669px), (-ms-high-contrast: active) and (max-width: 669px) {
+  .capsule {
+    top: 15rem;
+  }
+}

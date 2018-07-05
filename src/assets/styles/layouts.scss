@@ -4,3 +4,13 @@
       display: none;
     }
 }
+
+// IE Show Class on tablet (use display: none; in stylesheet for other browsers and sizes)
+  .ieShow {
+    display: none;
+  }
+@media all and (-ms-high-contrast: none) and (max-width: 1024px), (-ms-high-contrast: active) and (max-width: 1024px) {
+  .ieShow {
+    display: block;
+  }
+}
