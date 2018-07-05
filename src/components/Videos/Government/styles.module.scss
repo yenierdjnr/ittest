@@ -67,6 +67,7 @@ $breakpoints: (
 .intro {
   @extend .col-12;
   @extend .col-lg-4;
+  padding-right: 0;
 }
 
 .title {
