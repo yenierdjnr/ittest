@@ -2,7 +2,7 @@
 
 
 $breakpoints: (
-  'mid-upper-tablet': $mid-uppper-tablet,
+  'upper-tablet': $upper-tablet,
   'tablet': $tablet,
   'phablet': $phablet,
   'lower-phone': $lower-phone
@@ -20,7 +20,7 @@ $breakpoints: (
 
 .leftColumn {
   @extend .col-12;
-  @extend .col-md-6;
+  @extend .col-lg-6;
 }
 
 .list {
@@ -71,7 +71,7 @@ $breakpoints: (
 
 .RequestForm {
   @extend .col-12;
-  @extend .col-md-6;
+  @extend .col-lg-6;
   margin-top: -8rem;
   max-width: 50rem;
 }
@@ -82,7 +82,18 @@ $breakpoints: (
   margin-right: 2rem;
 }
 
-@include media('<=mid-upper-tablet') {
+@include media('<=upper-tablet') {
+  .leftColumn {
+    order: 2;
+    margin: 2rem auto;
+  }
+
+  .RequestForm {
+    margin-top: -8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .list {
     padding: 5.6rem 0 6rem;
     align-items: center;
@@ -142,7 +153,7 @@ $breakpoints: (
   }
 }
 
-@include media('<tablet'){
+@include media('<=tablet'){
   .item {
     &.binge {
       .summary {
@@ -156,11 +167,5 @@ $breakpoints: (
         margin-top: 0;
       }
     }
-  }
-}
-
-@include media('<phablet'){
-  .RequestForm {
-    margin-top: 0;
   }
 }
