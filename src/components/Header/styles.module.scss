@@ -5,6 +5,10 @@ $breakpoints: (
   'phablet': $upper-phablet
 );
 
+:export {
+  purplePrimary: $color-purple-primary;
+}
+
 .capsule {
   @extend .container-fluid;
   padding-left: 0;
@@ -49,6 +53,29 @@ $breakpoints: (
   @extend .d-flex;
   @extend .justify-content-end;
   @extend .align-items-center;
+}
+
+.ieBannerWrap {
+  @extend .ieShow;
+}
+
+.ieBanner {
+  @extend .row;
+  @extend .no-gutters;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  background-color: $color-white-light;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .title {
+    text-align: center;
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
 }
 
 @include media("<phablet") {
