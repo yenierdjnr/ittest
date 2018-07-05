@@ -8,7 +8,7 @@ class ButtonSwitch extends Component {
     super(props);
 
     this.state = {
-      isActive: 'annual'
+      isActive: 'monthly'
     };
   }
 
@@ -31,18 +31,18 @@ class ButtonSwitch extends Component {
   render() {
     const { className='' } = this.props;
     const { isActive } = this.state;
-    let annualStyles = `${styles.annual} ${styles.active}`;
-    let monthlyStyles = styles.monthly;
+    let monthlyStyles = `${styles.monthly} ${styles.active}`;
+    let annualStyles = styles.annual;
 
-    if (isActive === 'monthly') {
-      monthlyStyles = `${styles.monthly} ${styles.active}`;
-      annualStyles = `${styles.annual}`;
+    if (isActive === 'annual') {
+      annualStyles = `${styles.annual} ${styles.active}`;
+      monthlyStyles = `${styles.monthly}`;
     }
 
     return (
       <div className={ `${styles.container} ${className}` }>
-        <button className={ annualStyles } onClick={ this.handleClick }>annual</button>
         <button className={ monthlyStyles } onClick={ this.handleClick }>monthly</button>
+        <button className={ annualStyles } onClick={ this.handleClick }>annual</button>
       </div>
     );
   }

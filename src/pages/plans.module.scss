@@ -12,15 +12,3 @@ $breakpoints: (
 .Hero, .Pricing, .Benefits {
   @extend .row;
 }
-
-@include media('<lower-phone') {
-  .plans {
-    // display: grid;
-    // grid-template-rows: 290px 81px auto 48px auto;
-  }
-
-  .benefits {
-  //   grid-column: 1 / -1;
-  //   grid-row: 12 / 13;
-  }
-}
