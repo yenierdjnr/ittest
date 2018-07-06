@@ -1,7 +1,13 @@
 server {
 
   location / {
+
     proxy_pass ${PROXY_URL};
+
+    gzip on;
+    gzip_proxied any;
+    gzip_types *;
+
   }
 
   # blog redirects
