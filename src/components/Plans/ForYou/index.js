@@ -48,18 +48,18 @@ class Plans extends Component {
         }
       },
       currentPricing: {
-        type: 'annual',
+        type: 'monthly',
         premium: {
-          price: '857',
-          term: 'year',
-          billing1: 'Annual Billing',
-          billing2: '(16% Discount)'
+          price: '85.70',
+          term: 'month',
+          billing1: 'Month-to-Month Billing',
+          billing2: '',
         },
         standard: {
-          price: '570',
-          term: 'year',
-          billing1: 'Annual Billing',
-          billing2: '(16% Discount)'
+          price: '57',
+          term: 'month',
+          billing1: 'Month-to-Month Billing',
+          billing2: '',
         },
         free: {
           price: '0',
@@ -70,13 +70,13 @@ class Plans extends Component {
   }
 
   handleClick = target => {
-    const { annual, monthly } = this.state;
+    const { monthly, annual } = this.state;
     let currentPricing = {};
 
-    if (target === 'monthly') {
-      currentPricing = { type: 'monthly', ...monthly };
-    } else {
+    if (target === 'annual') {
       currentPricing = { type: 'annual', ...annual };
+    } else {
+      currentPricing = { type: 'monthly', ...monthly };
     }
 
     this.setState({
