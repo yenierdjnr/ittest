@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconFB = (props) =>
+const IconFB = () =>
   <svg width="13" height="24" viewBox="0 0 13 24">
     <title>Facebook</title>
     <desc>Facebook Icon</desc>

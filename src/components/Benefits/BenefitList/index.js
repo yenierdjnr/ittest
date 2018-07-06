@@ -83,7 +83,7 @@ const benefitsData = [
   }
 ];
 
-const BenefitList = ({ className='' }) => {
+const BenefitList = () => {
   function Row(data, i) {
     const { subtitle } = data;
     const regexTest = /membership/g;

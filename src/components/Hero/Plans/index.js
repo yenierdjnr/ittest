@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import ButtonSwitch from 'Elements/ButtonSwitch';
 
 
-const Plans = ({ className='', handleSwitch }) => 
+const Plans = ({ handleSwitch }) =>
   <section className={ styles.capsule }>
     <div className={ styles['intro'] }>
       <Hx size="1" className={ styles['title'] }>Choose a Plan</Hx>

@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-const IconLightBulb = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconLightBulb = () => {
 
   return (
     <svg width="109.2" viewBox="0 0 218.4 218.4">

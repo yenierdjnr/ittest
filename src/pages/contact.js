@@ -8,7 +8,7 @@ import ContactMaps from 'Components/ContactMaps';
 import styles from './contact.module.scss';
 
 
-const Contact = ({ data, history, location }) =>
+const Contact = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.contact }>

@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const ForTeamsHero = ({ className='' }) => 
+const ForTeamsHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles['intro'] }>
       <Hx size="1" className={ styles['title'] }>Flexible Online Training for IT Teams of All Sizes</Hx>

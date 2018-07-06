@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconGear = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+  const { className='' } = props;
 
   return (
     <svg className={ className } width="59" height="80" viewBox="0 0 59 80">

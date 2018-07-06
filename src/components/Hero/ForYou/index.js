@@ -6,7 +6,7 @@ import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
 
-const ForYouHero = ({ className='' }) => 
+const ForYouHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles['intro'] }>
       <Hx size="1" className={ styles['title'] }>Learn IT, Pass Your Certs, &amp; Accelerate Your Career</Hx>

@@ -6,7 +6,7 @@ import Para from 'Elements/Para';
 import { IconCertificate, IconExams, IconLabs } from 'Elements/Icons';
 
 
-const GovernmentContent = (props) =>
+const GovernmentContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.item }>
       <div className={ styles['icon-box'] }>

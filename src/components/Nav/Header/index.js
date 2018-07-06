@@ -14,7 +14,7 @@ class HeaderNav extends Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { previousPath } = this.state;
 
     if (previousPath) {

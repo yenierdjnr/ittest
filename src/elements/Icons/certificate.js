@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-const IconCertificate = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconCertificate = () => {
 
   return (
     <svg width="150" height="180" viewBox="0 0 218.37 218.37"><circle cx="109.18" cy="109.18" r="109.18" fill="#f4f3f8"/><path d="M61.13,79.67a5.78,5.78,0,0,0-2.66,4.47l-1.17,82.5c0,1.65,1.14,2.34,2.59,1.54l95.75-53.09a5.72,5.72,0,0,0,2.66-4.45l1.17-83c0-1.65-1.14-2.34-2.58-1.54Z" fill="#fff"/>

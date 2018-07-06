@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const EulaContent = (props) => 
+const EulaContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.colXS12 }>
       <Hx size="2" className={ styles.subtitle } color={ styles.offBlack }>1. Introduction</Hx>

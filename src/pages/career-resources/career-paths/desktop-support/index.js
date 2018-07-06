@@ -5,7 +5,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { DesktopSupportPath as Path } from 'Components/CareerPaths';
 
-const DesktopSupport = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const DesktopSupport = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -18,7 +18,7 @@ const DesktopSupport = ({ data, history, location, match, page, pageResources, p
 
     </main>
   </Fragment>
-  
+
 
 export default DesktopSupport;
 

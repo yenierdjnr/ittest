@@ -8,7 +8,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
-const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, supportingCourses,  ...rest }) =>
+const CybersecurityPath = ({ recommendedCourses, additionalCourses, supportingCourses }) =>
 
   <main className={ styles.Path }>
 

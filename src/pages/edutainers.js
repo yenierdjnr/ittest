@@ -6,7 +6,7 @@ import EdutainersContent from 'Components/EdutainersContent';
 import styles from './edutainers.module.scss';
 
 
-const Edutainers = ({ data, history, location }) =>
+const Edutainers = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.edutainers }>

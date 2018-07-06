@@ -6,7 +6,7 @@ import TeamContent from 'Components/TeamContent';
 import styles from './team.module.scss';
 
 
-const Team = ({ data, history, location }) =>
+const Team = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.team }>

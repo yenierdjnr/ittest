@@ -15,7 +15,7 @@ import Brad from 'Images/brad.jpg';
 import Pete from 'Images/pete.jpg';
 
 
-const TeamContent = (props) => 
+const TeamContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.colXS12 }>
       <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>Meet the Leadership Team</Hx>

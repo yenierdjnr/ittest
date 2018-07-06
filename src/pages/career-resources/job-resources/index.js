@@ -5,7 +5,7 @@ import { ITResourcesHero as Hero } from 'Components/Hero';
 import ITResources from 'Components/ITResources';
 import styles from './itResources.module.scss';
 
-const JobResources = ({ data, history, location }) =>
+const JobResources = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>

@@ -11,7 +11,7 @@ import { ForTeamsTestimonials as Testimonials } from 'Components/Testimonials';
 import styles from './forTeams.module.scss';
 
 
-const ForTeams = ({ data, history, location }) =>
+const ForTeams = ({ data, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles['for-teams'] }>

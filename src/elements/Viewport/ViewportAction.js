@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { findDOMNode } from 'react-dom';
 
 class ViewportAction extends PureComponent {
   constructor(props) {
@@ -12,14 +11,13 @@ class ViewportAction extends PureComponent {
   }
 
   componentDidMount() {
-    this.instance = findDOMNode(this);
     this.mounted = true;
     window.addEventListener('resize', this.recomputeState);
     window.addEventListener('scroll', this.recomputeState);
     setTimeout(this.recomputeState, 50);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     setTimeout(this.recomputeState, 50);
   }
 

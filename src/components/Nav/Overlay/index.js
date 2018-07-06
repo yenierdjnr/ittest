@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
 import { IconX } from 'Elements/Icons';
@@ -14,7 +14,7 @@ class OverlayNav extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { previousPath } = this.state;
 
     if (previousPath) {

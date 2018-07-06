@@ -7,7 +7,7 @@ import { CareerPathCourses } from 'Elements/Flags';
 import { IconArrowRight } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
-const SystemsAdministrationPath = ({ data, recommendedCourses, additionalCourses, ...rest }) =>
+const SystemsAdministrationPath = ({ recommendedCourses, additionalCourses }) =>
 
   <main className={ styles.Path }>
 

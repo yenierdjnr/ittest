@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconTW = (props) => 
+const IconTW = () =>
   <svg width="25" height="21" viewBox="0 0 25 21">
     <title>Twitter</title>
     <desc>Twitter Icon</desc>

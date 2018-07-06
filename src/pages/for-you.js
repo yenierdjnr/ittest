@@ -11,7 +11,7 @@ import { ForYou as Plan } from 'Components/Plans';
 import styles from './forYou.module.scss';
 
 
-const ForYou = ({ data, history, location }) =>
+const ForYou = ({ data, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles['for-you'] }>

@@ -7,7 +7,7 @@ import { IconBadge, IconCalendar, IconLightBulb, IconMountains, IconPeople, Icon
 
 
 
-const Values = (props) => 
+const Values = () =>
   <section className={ styles.capsule }>
     <div className={ styles.titleRow }>
       <div className={ styles.colXS12 }>

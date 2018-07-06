@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.scss';
 
 
-const VendorList = (props) => 
+const VendorList = () =>
   <section className={ styles.capsule }>
     <div className={ styles.list }>
       <div className={ styles.item }>

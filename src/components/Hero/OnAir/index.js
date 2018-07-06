@@ -10,7 +10,7 @@ import {
 } from './styles.module.scss';
 
 
-const OnAir = ({ className='' }) => 
+const OnAir = () =>
   <section className={ capsule }>
     <div className={ intro }>
       <Hx size="2" className={ title }>See What's Happening Right Now in the ITProTV Studios</Hx>

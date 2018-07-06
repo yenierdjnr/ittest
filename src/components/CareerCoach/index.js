@@ -7,7 +7,7 @@ import TextLink from 'Elements/TextLink';
 import styles from './styles.module.scss';
 
 
-const CareerCoach = ({ className='' }) => 
+const CareerCoach = () =>
   <section className={ styles.capsule }>
     <div className={ styles.content }>
       <div className={ styles.details }>

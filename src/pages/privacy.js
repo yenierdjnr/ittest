@@ -6,7 +6,7 @@ import PrivacyContent from 'Components/PrivacyContent';
 import styles from './privacy.module.scss';
 
 
-const Privacy = ({ data, history, location, match }) =>
+const Privacy = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.privacy }>

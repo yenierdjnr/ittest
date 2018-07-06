@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { VirtualizationTechnologyPath as Path } from 'Components/CareerPaths';
 
-const VirtualizationTechnology = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const VirtualizationTechnology = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const VirtualizationTechnology = ({ data, history, location, match, page, pageRe
 
     </main>
   </Fragment>
-  
+
 
 export default VirtualizationTechnology;
 

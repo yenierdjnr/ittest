@@ -2,11 +2,10 @@ import React from 'react';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
-import ButtonLink from 'Elements/ButtonLink';
 
 import styles from './styles.module.scss';
 
-const About = ({ className='' }) => 
+const About = () =>
   <section className={ styles.capsule }>
     <div className={ styles.intro }>
       <Hx size="2" className={ styles.title }>Empowering the World Through Engaging Learning</Hx>

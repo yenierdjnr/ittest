@@ -6,7 +6,7 @@ import AccessibilityContent from 'Components/AccessibilityContent';
 import styles from './accessibility.module.scss';
 
 
-const Accessibility = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Accessibility = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.accessibility }>
@@ -21,7 +21,7 @@ const Accessibility = ({ data, history, location, match, page, pageResources, pa
 
     </main>
   </Fragment>
-  
+
 
 
 export default Accessibility;

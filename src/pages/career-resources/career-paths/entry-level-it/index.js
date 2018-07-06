@@ -5,7 +5,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { EntryLevelITPath as Path } from 'Components/CareerPaths';
 
-const EntryLevelIT = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const EntryLevelIT = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -18,7 +18,7 @@ const EntryLevelIT = ({ data, history, location, match, page, pageResources, pag
 
     </main>
   </Fragment>
-  
+
 
 export default EntryLevelIT;
 

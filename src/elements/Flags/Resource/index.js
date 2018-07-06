@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 
-const Resource = ({ className='', title, description, url, imgSrc='' }) => 
+const Resource = ({ title, description, url, imgSrc='' }) =>
   <div className={ styles.cols }>
     <Hx size="6"><a href={ `${url}` } color={ styles.title } target="_blank">{ title }</a></Hx>
     <div className={ styles.content }>

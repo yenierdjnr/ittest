@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconCheck = (props) => {
-  const { className='', fill='#FFFFFFF' } = props;
+  const { fill='#FFFFFFF' } = props;
 
   return (
     <svg width="21" height="19" viewBox="0 0 21 19">

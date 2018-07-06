@@ -6,7 +6,7 @@ import Para from 'Elements/Para';
 import { IconBars, IconCamera, IconMobile } from 'Elements/Icons';
 
 
-const TeamNeeds = (props) => 
+const TeamNeeds = () =>
   <section className={ styles.capsule }>
     <ul className={ styles.content }>
       <li className={ styles.item }>

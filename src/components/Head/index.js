@@ -261,7 +261,6 @@ class Head extends Component {
   render() {
     const { location } = this.props;
     const { title, description, canonical } = getRenderMetaData(location.pathname);
-    const test = withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
 
     return (
       <Helmet>

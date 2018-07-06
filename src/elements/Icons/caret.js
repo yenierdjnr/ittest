@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconCaret = (props) => {
-  const { className='', fill } = props;
+  const { className='' } = props;
 
   return (
     <svg className={ className } height="14" viewBox="0 0 37 18.68">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconLN = (props) => 
+const IconLN = () =>
   <svg width="24" height="23" viewBox="0 0 24 23">
     <title>LinkedIn</title>
     <desc>LinkedIn Icon</desc>

@@ -6,7 +6,7 @@ import BlogContent from 'Components/BlogContent';
 import styles from './blog.module.scss';
 
 
-const Blog = ({ data, history, location }) =>
+const Blog = ({ location }) =>
   <Fragment>
     <Head location={ location }/>,
     <main className={ styles.blog }>

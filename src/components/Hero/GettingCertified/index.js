@@ -7,7 +7,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
 
-const GettingCertifiedHero = ({ className='' }) => 
+const GettingCertifiedHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles.row }>
       <div className={ styles['intro'] }>

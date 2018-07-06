@@ -8,7 +8,7 @@ import TextLink from 'Elements/TextLink';
 import { ViewportAnimation } from 'Elements/Viewport'
 
 
-const ForYouSummary = (props) => 
+const ForYouSummary = () =>
   <section className={ styles.capsule }>
     <ViewportAnimation>
       <div className={ styles.list }>

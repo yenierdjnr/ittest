@@ -6,7 +6,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
 
-const ForTeamsYou = (props) => 
+const ForTeamsYou = () =>
   <section className={ styles.capsule }>
     <a href="/for-teams/" className={ styles['card-left'] }>
       <div className={ styles.card }>

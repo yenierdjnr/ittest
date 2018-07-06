@@ -1,6 +1,7 @@
 {
   "parser": "babel-eslint",
   "rules": {
+    "no-unused-vars": ["error", {"argsIgnorePattern": "^(e|nextProps)$"}],
     "strict": "off",
     "no-duplicate-imports": "error",
     "no-prototype-builtins":"error",

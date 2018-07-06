@@ -1,12 +1,10 @@
 import React from 'react';
 
 import styles from './styles.module.scss';
-import Hx from 'Elements/Hx';
-import Para from 'Elements/Para';
 import { IconPracticeExam, IconVirtualLab } from 'Elements/Icons';
 
 
-const CourseTopic = ({ className='', vLab='', exam='' }) => 
+const CourseTopic = ({ vLab='', exam='' }) =>
   <div className={ styles.extras }>
     <div className={ styles.extra } color={ styles.offBlack }>
       { vLab &&

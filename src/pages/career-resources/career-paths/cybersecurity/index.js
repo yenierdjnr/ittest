@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { CybersecurityPath as Path } from 'Components/CareerPaths';
 
-const Cybersecurity = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const Cybersecurity = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -18,7 +18,7 @@ const Cybersecurity = ({ data, history, location, match, page, pageResources, pa
 
     </main>
   </Fragment>
-  
+
 
 export default Cybersecurity;
 

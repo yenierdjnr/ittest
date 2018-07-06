@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { ITManagementAndStrategyPath as Path } from 'Components/CareerPaths';
 
-const ITManagementAndStrategy = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const ITManagementAndStrategy = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const ITManagementAndStrategy = ({ data, history, location, match, page, pageRes
 
     </main>
   </Fragment>
-  
+
 
 export default ITManagementAndStrategy;
 

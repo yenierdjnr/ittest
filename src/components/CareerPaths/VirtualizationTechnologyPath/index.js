@@ -7,7 +7,7 @@ import { CareerPathCourses } from 'Elements/Flags';
 import { IconArrowRight } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
-const VirtualizationTechnologyPath = ({ data, recommendedCourses, additionalCourses, ...rest }) =>
+const VirtualizationTechnologyPath = ({ recommendedCourses, additionalCourses }) =>
 
   <main className={ styles.Path }>
 

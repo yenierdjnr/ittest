@@ -41,8 +41,8 @@ class CoursePage extends Component {
   }
 
   render() {
-    const { data, ...rest } = this.props;
-    const { topicIndex, episodeIndex, episodes } = this.state;
+    const { data } = this.props;
+    const { topicIndex, episodeIndex } = this.state;
     return (
       <main className={ styles.coursePage }>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconMobile = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+  const { fill='#FFFFFF' } = props;
 
   return (
     <svg width="34" height="81" viewBox="0 0 34 81">

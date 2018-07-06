@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-const IconLgBuilding = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconLgBuilding = () => {
 
   return (
     <svg width="150" height="180" viewBox="0 0 218.37 218.37">

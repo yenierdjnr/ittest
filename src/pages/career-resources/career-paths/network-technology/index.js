@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { NetworkTechnologyPath as Path } from 'Components/CareerPaths';
 
-const NetworkTechnology = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const NetworkTechnology = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const NetworkTechnology = ({ data, history, location, match, page, pageResources
 
     </main>
   </Fragment>
-  
+
 
 export default NetworkTechnology;
 

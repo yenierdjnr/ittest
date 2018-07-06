@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -11,7 +11,7 @@ import {
 } from './styles.module.scss';
 
 
-const QuoteCard = (props) => 
+const QuoteCard = (props) =>
   <div className={ wrapper } style={ props.style }>
     <div className={ capsule }>
       <span className={ quotes }>“</span>

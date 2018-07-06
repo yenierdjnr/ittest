@@ -4,7 +4,7 @@ import Link from 'Elements/Link';
 import styles from './styles.module.scss';
 
 
-const Plans = (props) => 
+const Plans = () =>
   <section className={ styles.capsule }>
     <div className={ styles.content }>
       <h2 className={ styles.title }>Whether You're Looking for Team or Individual Training, There's an ITProTV Plan for You</h2>

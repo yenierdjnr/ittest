@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { SystemsAdministrationPath as Path } from 'Components/CareerPaths';
 
-const SystemsAdministration = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const SystemsAdministration = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const SystemsAdministration = ({ data, history, location, match, page, pageResou
 
     </main>
   </Fragment>
-  
+
 
 export default SystemsAdministration;
 

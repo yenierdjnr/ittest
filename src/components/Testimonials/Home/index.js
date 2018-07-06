@@ -9,7 +9,7 @@ import {
 } from './styles.module.scss';
 
 
-const HomeTestimonials = (props) => 
+const HomeTestimonials = () =>
   <div className={ capsule }>
     <div className={ content }>
       <Hx className={ title } color={ offBlack } size="2">Join a Community of IT Pros Sharpening Their Skills the Fun Way</Hx>

@@ -1,9 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconBooks = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconBooks = () => {
 
   return (
     <svg width="188" height="225" viewBox="0 0 218.37 218.37"><circle cx="109.18" cy="109.18" r="109.18" fill="#d8d8e5"/>

@@ -1,7 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import Hx from 'Elements/Hx';
-import QuoteCard from 'Components/QuoteCard';
 import {
   active, button, carousel,
   control, dot, next, pagination, previous, wrapper
@@ -35,7 +33,6 @@ export default class Carousel extends PureComponent {
 
     if (Math.abs(this.delta) > 30 && this.isDragging) {
       event.preventDefault();
-      console.log('dragging');
 
       if(!this.touchComplete) {
         this.touchComplete = true;
@@ -46,7 +43,6 @@ export default class Carousel extends PureComponent {
 
     // Detect Intent
     } else if (Math.abs(this.delta) > 30 && !this.isDragging) {
-      console.log('start');
       this.isDragging = true;
     }
   }
@@ -55,10 +51,6 @@ export default class Carousel extends PureComponent {
     this.touchComplete = false;
     this.isDragging = false
   }
-
-  gotoPage = (page) => (event) => this.setState({ page }, this.stop);
-
-  stop = () => clearInterval(this.timer);
 
   stopAndNext = () => {
     this.stop();
@@ -132,7 +124,7 @@ export default class Carousel extends PureComponent {
             React.cloneElement(children[children.length - 2], { style:{ position: 'absolute', transform: 'translateX(-200%)' } })
           }
           {React.cloneElement(lastChild, { style:{ position: 'absolute', transform: 'translateX(-100%)' } })}
-          {children.map((child, index) => 
+          {children.map((child, index) =>
             React.cloneElement(child, { key: index })
           )}
           {page + 2 > pages && React.cloneElement(children[0])}
@@ -147,7 +139,7 @@ export default class Carousel extends PureComponent {
           onClick={this.stopAndNext}
         />
         <div className= { pagination }>
-          {children.map((child, index) => 
+          {children.map((child, index) =>
             <button
               key={index}
               className={ `${button} ${(page - 1) % pages == index ? active: ''}` }

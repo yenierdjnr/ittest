@@ -2,7 +2,6 @@ import React, { Fragment, PureComponent } from 'react';
 
 import Menu from './Menu';
 import Display from './Display';
-import styles from './styles.module.scss';
 
 
 class GettingCertified extends PureComponent {

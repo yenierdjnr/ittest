@@ -5,7 +5,7 @@ import { GettingCertifiedHero as Hero } from 'Components/Hero';
 import GettingCertified from 'Components/GettingCertified';
 import styles from './gettingCertified.module.scss';
 
-const gettingCertifiedPage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const gettingCertifiedPage = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -19,7 +19,7 @@ const gettingCertifiedPage = ({ data, history, location, match, page, pageResour
 
     </main>
   </Fragment>
-  
+
 
 export default gettingCertifiedPage;
 

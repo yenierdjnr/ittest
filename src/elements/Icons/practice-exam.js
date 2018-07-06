@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconPracticeExam = (props) => {
-  const { className='', fill='none' } = props;
+  const { className='' } = props;
 
   return (
     <svg  className={ className } viewBox="0 0 106.65 75.39" height="35px">

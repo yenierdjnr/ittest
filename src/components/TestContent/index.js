@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const TestContent = (props) => 
+const TestContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.titleRow }>
       <div className={ styles.colXS12 }>

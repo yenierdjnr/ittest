@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const PrivacyContent = (props) => 
+const PrivacyContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.colXS12 }>
       <Para className={ styles.content } color={ styles.greyDark }>At ITProTV, we value the privacy and security of your personal information, and are committed to the fair and transparent processing of your information. This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage and delete your information.</Para>

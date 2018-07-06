@@ -21,7 +21,7 @@ class CourseVideo extends Component {
     if (vidWrap && episode === overview) {
       vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
       playButton.style.display = 'none';
-    } if (vidwrap && !overview) {
+    } if (vidWrap && !overview) {
       vidWrap.innerHTML = ``;
     }
   };

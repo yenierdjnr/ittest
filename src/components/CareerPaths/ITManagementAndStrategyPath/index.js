@@ -8,7 +8,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
-const ITManagementAndStrategyPath = ({ data, recommendedCourses, additionalCourses, ...rest }) =>
+const ITManagementAndStrategyPath = ({ recommendedCourses, additionalCourses }) =>
 
   <main className={ styles.Path }>
 

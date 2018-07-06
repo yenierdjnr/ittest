@@ -7,7 +7,7 @@ import TextLink from 'Elements/TextLink';
 import { IconExams, IconLabs } from 'Elements/Icons';
 
 
-const Enhancements = (props) => 
+const Enhancements = () =>
   <section className={ styles.capsule }>
     <div className={ styles.titleRow }>
       <div className={ styles.capsuleTitle }>

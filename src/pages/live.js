@@ -6,7 +6,7 @@ import ChannelGuide from 'Components/ChannelGuide';
 import styles from './onAir.module.scss';
 
 
-const OnAir = ({ data, history, location }) =>
+const OnAir = ({ data, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.onAir }>

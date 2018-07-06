@@ -9,7 +9,7 @@ import RequestForm from 'Components/RequestForm';
 import { ViewportAnimation } from 'Elements/Viewport'
 
 
-const ForTeamsSummary = (props) => 
+const ForTeamsSummary = () =>
   <section className={ styles.capsule }>
     <ul className={ styles.list }>
       <ViewportAnimation>

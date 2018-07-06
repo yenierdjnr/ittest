@@ -6,7 +6,7 @@ import { Course } from 'Elements/Flags';
 import styles from './styles.module.scss';
 
 
-const CourseCategory = ({ data, ...rest }) => {
+const CourseCategory = ({ data }) => {
   if(!data.category)
   {
     return (

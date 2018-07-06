@@ -9,7 +9,7 @@ import Values from 'Components/Values';
 import styles from './about.module.scss';
 
 
-const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const About = ({ location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.about }>
@@ -36,7 +36,7 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
 
     </main>
   </Fragment>
-  
+
 
 
 export default About;

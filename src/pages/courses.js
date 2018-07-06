@@ -8,7 +8,7 @@ import FreeCourses from 'Components/FreeCourses';
 import styles from './courses.module.scss';
 
 
-const CourseLibrary = ({ data, history, location }) =>
+const CourseLibrary = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.courses }>

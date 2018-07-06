@@ -28,7 +28,7 @@ const episodes = [
   },
 ];
 
-const FreeCourses = (props) =>
+const FreeCourses = () =>
   <section className={ styles.capsule }>
     <div className={ styles.row }>
       <div className={ styles.intro }>

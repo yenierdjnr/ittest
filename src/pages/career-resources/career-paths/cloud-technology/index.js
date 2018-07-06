@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { CloudTechnologyPath as Path } from 'Components/CareerPaths';
 
-const CloudTechnology = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const CloudTechnology = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const CloudTechnology = ({ data, history, location, match, page, pageResources, 
 
     </main>
   </Fragment>
-  
+
 
 export default CloudTechnology;
 

@@ -4,11 +4,10 @@ import Carousel from 'Elements/Carousel';
 import QuoteCard from 'Components/QuoteCard';
 import {
   capsule, content,
-  offBlack, title
 } from './styles.module.scss';
 
 
-const ForYouTestimonials = (props) => 
+const ForYouTestimonials = () =>
   <div className={ capsule }>
     <div className={ content }>
       <Carousel>

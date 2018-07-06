@@ -86,7 +86,7 @@ class Plans extends Component {
   };
 
   render () {
-    const { data, history, location } = this.props;
+    const { location } = this.props;
     const { currentPricing } = this.state;
 
     return (

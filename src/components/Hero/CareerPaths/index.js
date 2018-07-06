@@ -7,7 +7,7 @@ import styles from './styles.module.scss';
 import { IconArrowRight } from 'Elements/Icons';
 
 
-const CareerPathsHero = ({ className='' }) => 
+const CareerPathsHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles['intro'] }>
       <div className={ styles.colXS12 }>

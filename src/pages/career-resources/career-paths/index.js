@@ -5,7 +5,7 @@ import { CareerPathsHero as Hero } from 'Components/Hero';
 import { CareerPathsMain as Paths } from 'Components/CareerPaths';
 import styles from './careerPaths.module.scss';
 
-const CareerPathsPage = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const CareerPathsPage = ({ location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.CareerPaths }>
@@ -19,6 +19,6 @@ const CareerPathsPage = ({ data, history, location, match, page, pageResources, 
 
     </main>
   </Fragment>
-  
+
 
 export default CareerPathsPage;

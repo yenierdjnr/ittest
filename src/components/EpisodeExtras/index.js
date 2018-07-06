@@ -4,7 +4,7 @@ import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 
 
-const EpisodeExtras = ({ data, transcript }) =>
+const EpisodeExtras = ({ transcript }) =>
   <section className={ styles.episodeExtras }>
     <ul className={ styles.extrasMenu }>
       <li>

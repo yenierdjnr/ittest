@@ -5,7 +5,7 @@ import {
 } from './styles.module.scss';
 
 
-const ThankYou = ({ className='' }) => 
+const ThankYou = () =>
   <section className={ capsule }>
   </section>
   ;

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const IconVirtualLab = (props) => {
-  const { className='', fill='none' } = props;
+  const { className='' } = props;
 
   return (
     <svg className={ className } viewBox="0 0 50.17 69.39" width="35" height="48.41">

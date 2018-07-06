@@ -1,9 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
 const IconBars = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+  const { fill='#FFFFFF' } = props;
 
   return (
     <svg width="58" height="81" viewBox="0 0 58 81">

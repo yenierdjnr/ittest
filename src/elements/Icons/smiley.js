@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-const IconSmiley = (props) => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconSmiley = () => {
 
   return (
     <svg width="109.2" viewBox="0 0 218.4 218.4">

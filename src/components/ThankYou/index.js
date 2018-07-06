@@ -6,8 +6,7 @@ import styles from './styles.module.scss';
 import TextLink from 'Elements/TextLink';
 
 
-const ThankYouContent = (props) => {
-  const { className='' } = props;
+const ThankYouContent = () => {
 
   return (
     <section className={ styles.capsule }>

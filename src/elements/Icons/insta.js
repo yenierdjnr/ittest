@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconInsta = (props) =>
+const IconInsta = () =>
   <svg width="25" height="21" viewBox="0 0 169.09 168.94">
     <title>Instagram</title>
     <desc>Instagram Icon</desc>

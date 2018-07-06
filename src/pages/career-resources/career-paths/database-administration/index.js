@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { DatabaseAdministrationPath as Path } from 'Components/CareerPaths';
 
-const DatabaseAdministration = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const DatabaseAdministration = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const DatabaseAdministration = ({ data, history, location, match, page, pageReso
 
     </main>
   </Fragment>
-  
+
 
 export default DatabaseAdministration;
 

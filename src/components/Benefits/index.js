@@ -6,7 +6,7 @@ import TextLink from 'Elements/TextLink';
 import BenefitList from './BenefitList';
 
 
-const Benefits = ({ className='' }) => 
+const Benefits = () =>
   <section className={ styles.capsule }>
     <div className={ styles.content }>
       <div className={ styles.titleContainer }>

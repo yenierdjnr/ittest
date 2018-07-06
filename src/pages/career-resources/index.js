@@ -6,7 +6,7 @@ import CareerResourcesMenu from 'Components/CareerResourcesMenu';
 import CareerCoach from 'Components/CareerCoach';
 import styles from './careerResources.module.scss';
 
-const CareerResources = ({ data, history, location }) =>
+const CareerResources = ({ location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>

@@ -6,7 +6,7 @@ import EulaContent from 'Components/EulaContent';
 import styles from './eula.module.scss';
 
 
-const Eula = ({ data, history, location }) =>
+const Eula = ({ location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.eula }>

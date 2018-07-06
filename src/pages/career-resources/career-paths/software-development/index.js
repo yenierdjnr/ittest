@@ -4,7 +4,7 @@ import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { DevelopmentPath as Path } from 'Components/CareerPaths';
 
-const SoftwareDevelopment = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => 
+const SoftwareDevelopment = ({ data, location }) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.Career }>
@@ -17,7 +17,7 @@ const SoftwareDevelopment = ({ data, history, location, match, page, pageResourc
 
     </main>
   </Fragment>
-  
+
 
 export default SoftwareDevelopment;
 

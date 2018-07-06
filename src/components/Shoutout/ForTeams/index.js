@@ -5,7 +5,7 @@ import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
 
-const ForTeams = (props) => 
+const ForTeams = () =>
   <section className={ styles.capsule }>
     <div className={ styles.content }>
       <Hx className={ styles.title } color={ styles.offBlack }size="2">Training a whole team?<br/>Ask about corporate membership.</Hx>

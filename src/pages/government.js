@@ -11,7 +11,7 @@ import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
 
 
-const Government = ({ data, history, location }) =>
+const Government = ({ data, location }) =>
   <Fragment>
     <Head location={ location }/>
     <main className={ styles.government }>

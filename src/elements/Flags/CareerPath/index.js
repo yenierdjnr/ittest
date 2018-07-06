@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import { IconArrowRight } from 'Elements/Icons';
 
-const CareerPath = ({ className='', title='Episode Title', description='description', link='link' }) => 
+const CareerPath = ({ title='Episode Title', description='description', link='link' }) =>
 
   <div className={ styles.cols }>
     <div className={ styles.item }>

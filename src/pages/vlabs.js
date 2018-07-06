@@ -6,7 +6,7 @@ import Vlabs from 'Components/Vlabs';
 import styles from './courses.module.scss';
 
 
-const VirtualLabs = ({ data, history, location}) =>
+const VirtualLabs = ({ data, location}) =>
   <Fragment>
     <Head location={ location } />
     <main className={ styles.courses }>

@@ -4,7 +4,7 @@ import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
 
 
-const CoursesHero = ({ location }) => 
+const CoursesHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles.row }>
       <div className={ styles.content }>

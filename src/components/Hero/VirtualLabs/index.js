@@ -5,7 +5,7 @@ import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 
 
-const VirtualLabsHero = ({ className='', handleSwitch }) => 
+const VirtualLabsHero = () =>
   <section className={ styles.capsule }>
     <div className={ styles['intro'] }>
       <Hx size="1" className={ styles['title'] }>Virtual Labs</Hx>
