@@ -25,9 +25,6 @@ if [ $1 == "--latest-shas" ]; then
   STAGING_SHA=$(git show-ref --verify -s refs/remotes/origin/master)
   PROD_SHA=$(git show-ref --verify -s refs/remotes/origin/production)
 
-  staging="{tag=\"$STAGING_SHA\"}"
-  prod="{tag=\"$PROD_SHA\"}"
-
   echo ""
   echo "*********************************************************"
   echo "* You asked for the latest shas to be used. Based on    *"
@@ -38,6 +35,9 @@ if [ $1 == "--latest-shas" ]; then
   echo "*********************************************************"
   echo ""
 fi;
+
+staging="{tag=\"$STAGING_SHA\"}"
+prod="{tag=\"$PROD_SHA\"}"
 
 docker-compose \
   run --rm \

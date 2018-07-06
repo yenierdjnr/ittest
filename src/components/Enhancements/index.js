@@ -14,14 +14,13 @@ const Enhancements = () =>
         <Hx className={ styles.sectionTitle } color={ styles.offBlack } size="2">Enhance Your Learning with Labs &amp; Practice Tests</Hx>
       </div>
     </div>
-
     <div className={ styles.list }>
       <div className={ styles['item'] }>
         <div className={ styles['icon-box']}>
           <IconLabs className={ styles['icon-labs'] }/>
         </div>
         <Hx className={ styles.title } color={ styles.offBlack } size="4">Hands-On Learning with Hosted Virtual Labs</Hx>
-        <Para className={ styles.summary } color={ styles.darkGrey }>Try out your skills on virtual machine labs with multiple  instances of Windows Server and Desktop Clients on your  OSX, Linux, iOS device, and Windows platform.</Para>
+        <Para className={ styles.summary } color={ styles.darkGrey }>Try out your skills on virtual machine labs with multiple instances of Windows Server and Desktop Clients on your OSX, Linux, iOS device, and Windows platform.</Para>
         <TextLink to="/vlabs/">view virtual labs</TextLink>
       </div>
       <div className={ styles['item'] }>
@@ -33,9 +32,7 @@ const Enhancements = () =>
         <TextLink to="/practice-tests/">see practice tests</TextLink>
       </div>
     </div>
-
   </section>
   ;
-
 
 export default Enhancements;

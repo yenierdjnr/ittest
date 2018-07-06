@@ -24,9 +24,8 @@ const Header = ({ pathname }) =>
           <IconAlert className={ styles.icon } /><Para className={ styles.title } color={ styles.purplePrimary }>Best viewed in a larger browser window, Edge, Chrome, or FireFox.</Para>
         </div>
       </div>
-    </header>
-  );
-}
+    </div>
+  </header>
 
 
 export default Header;

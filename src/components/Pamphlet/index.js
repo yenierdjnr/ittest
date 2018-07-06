@@ -25,9 +25,9 @@ const Pamphlet = ({ videoImg }) => {
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  ;
+    </section>
+  );
+}
 
 
 export default Pamphlet;

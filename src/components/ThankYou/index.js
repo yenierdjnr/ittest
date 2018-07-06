@@ -12,7 +12,7 @@ const ThankYouContent = () => {
     <section className={ styles.capsule }>
       <div className={ styles.content }>
         <div className={ styles.row }>
-          <Hx size="1" className={ styles['title'] } color={ styles.offBlack } size="2">Thank you! We received your request.</Hx>
+          <Hx className={ styles['title'] } color={ styles.offBlack } size="2">Thank you! We received your request.</Hx>
           <Para className={ styles['subtitle'] } color={ styles.offBlack } size="4">A team member will be in contact shortly.</Para>
           <div className={ styles.details }>
             <Para color={ styles.greyDark }>To ensure you'll receive the information you requested, please perform one of the following based on your email client:</Para>

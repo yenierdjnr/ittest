@@ -87,7 +87,7 @@ class Stats extends Component {
               useEasing={true}
               useGrouping={true}
               separator=","
-             />
+            />
             <p className={ styles.summary}>hours of content with new content added daily</p>
           </div>
           <div className={ styles.center }>
@@ -100,7 +100,7 @@ class Stats extends Component {
               useEasing={true}
               useGrouping={true}
               separator=","
-             />
+            />
             <p className={ styles.summary}>combined certifications held by ITProTV Edutainers</p>
           </div>
           <div className={ styles.right }>
@@ -114,7 +114,7 @@ class Stats extends Component {
               useGrouping={true}
               separator=","
               onComplete={this.onComplete}
-             />
+            />
             <p className={ styles.summary}>members of the ITProTV learning community</p>
           </div>
         </div>

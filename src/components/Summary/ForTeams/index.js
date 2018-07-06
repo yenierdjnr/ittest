@@ -8,7 +8,7 @@ import TextLink from 'Elements/TextLink';
 import RequestForm from 'Components/RequestForm';
 import { ViewportAnimation } from 'Elements/Viewport'
 
-const ForTeamsSummary = props => {
+const ForTeamsSummary = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.leftColumn }>
