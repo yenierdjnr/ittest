@@ -1,38 +1,10 @@
 @import '~Styles/main';
 
-
-$breakpoints: (
-  'tablet': $tablet,
-  'lower-desktop': $lower-desktop
-);
-
 .capsule {
-  margin: -75px auto 0 auto;
-  width: 400px;
-  max-width: 1200px;
+  margin-top: -75px;
   @extend .d-flex;
   @extend .justify-content-around;
   @extend .flex-row;
   @extend .flex-wrap;
-}
-
-
-@include media('>tablet') {
-  .capsule {
-    width: 630px;
-    // grid-template-columns: auto;
-  }
-}
-
-@include media('>lower-desktop') {
-  .capsule {
-    width: 100%;
-    // padding-left: 5rem;
-    // padding-right: 5rem;
-    // width: 100%;
-
-    // grid-template-columns: repeat(2, 27rem);
-    // justify-content: center;
-    // grid-row-gap: 2.4rem;
-  }
+  @extend .row;
 }

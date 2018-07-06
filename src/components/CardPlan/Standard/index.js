@@ -19,20 +19,24 @@ const Standard = ({ className='', info }) => {
   }
 
   return (
-    <a href={ `${process.env.ITPROTV_URL}/plans/standard-signup/${info.type}/` } className={ capsule }>
-      <div className={ description }>
-        <Hx className={ styles.title } color={ styles.blue } size="6">standard</Hx>
-        <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The Good Stuff</Hx>
-        <span className={ perks }>Full on-demand ITProTV course library</span>
+    <div className={ capsule }>
+      <div className={ styles.planWrap }>
+        <a href={ `${process.env.ITPROTV_URL}/plans/standard-signup/${info.type}/` }>
+          <div className={ description }>
+            <Hx className={ styles.title } color={ styles.blue } size="6">standard</Hx>
+            <Hx className={ styles.subtitle } color={ styles.offBlack } size="5">The Good Stuff</Hx>
+            <span className={ perks }>Full on-demand ITProTV course library</span>
+          </div>
+          <div className={ styles.pricing }>
+            <Hx className={ styles.price } color={ styles.blue } size="2">${ standard.price }<span className={ styles['per-year'] }>/ { standard.term }</span></Hx>
+            <span className={ styles.billing }>{ standard.billing2 }</span>
+            <span className={ styles.billing }>{ standard.billing1 }</span>
+            <TextLink className={ styles.link } color={ styles.blue } size="1.6" disabled>sign up</TextLink>
+          </div>
+          <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.blue }}></div>
+        </a>
       </div>
-      <div className={ styles.pricing }>
-        <Hx className={ styles.price } color={ styles.blue } size="2">${ standard.price }<span className={ styles['per-year'] }>/ { standard.term }</span></Hx>
-        <span className={ styles.billing }>{ standard.billing2 }</span>
-        <span className={ styles.billing }>{ standard.billing1 }</span>
-        <TextLink className={ styles.link } color={ styles.blue } size="1.6" disabled>sign up</TextLink>
-      </div>
-      <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.blue }}></div>
-    </a>
+    </div>
   );
 };
 

@@ -9,15 +9,15 @@ const lengthToString = (length) => {
     var h = Math.floor(length / 3600);
     var m = Math.floor(length % 3600 / 60);
 
-    var hDisplay = h > 0 ? h + (h == 1 ? " hour" : " hours") : "";
-    var mDisplay = m > 0 ? m + (m == 1 ? " minute" : " minutes") : "";
+    var hDisplay = h > 0 ? h + (h == 1 ? "H" : "H") : "";
+    var mDisplay = m > 0 ? m + (m == 1 ? "M" : "M") : "";
     return [hDisplay, mDisplay ];
 }
 
 
 const Course = ({ className='', title='Course Title', description='001-01', courseLength, url }) => {
   return (
-    <Link to={ url } 
+    <Link to={ url }
             className={ `${className} ${styles.link}` }>
       <li className={ `${className} ${styles.container}` }>
         <Hx className={ styles.title } color={ styles.offBlack } size='5'>{ title }</Hx>

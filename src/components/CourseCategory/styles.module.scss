@@ -11,12 +11,14 @@ $breakpoints: (
 }
 
 .Hero {
+  @extend .container-fluid;
   background-color: $color-offblack;
   display: block;
 }
 
 .Courses {
-  padding: 4.8rem 0 6.6rem;
+  padding-top: 4.8rem;
+  padding-bottom: 6.6rem;
   @extend .container;
 }
 

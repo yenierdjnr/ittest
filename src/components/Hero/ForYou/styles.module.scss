@@ -2,23 +2,17 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'upper-phablet': $upper-phablet,
-  'lower-phone': $lower-phone
+  'lower-tablet': $lower-tablet
 );
 
 
 .capsule {
-
-  padding: 12rem 0;
-  background-image: url('Images/forYou_hero@1x.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  @extend .container;
 }
 
 .intro {
   padding-left: 2.4rem;
-  @extend .container;
+  @extend .col-12;
 }
 
 .title {
@@ -35,10 +29,6 @@ $breakpoints: (
 
 
 @include media('<lower-tablet') {
-  .capsule {
-    padding: 6.8rem 0 5.1rem;
-  }
-
   .intro {
     display: flex;
     flex-flow: column nowrap;
@@ -60,17 +50,5 @@ $breakpoints: (
 
     font-size: 2.1rem;
     line-height: 3.1rem;
-  }
-}
-
-@include media('<upper-phablet') {
-  .title, .subtitle {
-    // width: unset;
-  }
-}
-
-@include media('retina2x', '>lower-phone') {
-  .capsule {
-    background-image: url('Images/forYou_hero@2x.jpg');
   }
 }
