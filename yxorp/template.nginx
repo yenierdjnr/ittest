@@ -1,3 +1,5 @@
+proxy_cache_path /var/cache/yxorp keys_zone=yxorp:1m;
+
 server {
 
   location / {
@@ -7,6 +9,9 @@ server {
     gzip on;
     gzip_proxied any;
     gzip_types *;
+
+    proxy_cache yxorp;
+    proxy_cache_valid 1h;
 
   }
 
