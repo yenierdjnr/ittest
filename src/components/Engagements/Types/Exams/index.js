@@ -13,17 +13,19 @@ class Exams extends PureComponent {
 
     return (
       <div className={ `${className} ${styles.capsule}` }>
-        <div className={ styles['img-box'] }>
-          <img className={ styles['img-exams'] } src={ imageExams } alt="exams" />
-          <div id="itpexams1_hype_capsule" className={ styles['ani-exams'] } style={{ margin:'auto', position:'relative', width:'400px',height:'400px',overflow:'hidden' }}>
+        <div className={ styles['img-cols'] }>
+          <div className={ styles['img-box'] }>
+            <img className={ styles['img-exams'] } src={ imageExams } alt="exams" />
           </div>
         </div>
-        <div className={ styles.info }>
-          <span className={ styles['sequence-num'] }>_03</span>
-          <Hx className={ styles.title } color={ styles.offBlack }>Access Virtual Labs and Practice Tests</Hx>
-          <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.darkGrey }>Test your skills risk-free in real-world lab environments. Take and re-take Kaplan IT Training&reg; practice tests until you're confident that you are ready to pass.</Para>
-          <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view virtual labs</TextLink>
-          <TextLink className={ styles.link } to="/practice-tests/" color={ styles.orangePrimary }>see practice tests</TextLink>
+        <div className={ styles['info-cols'] }>
+          <div className={ styles.info }>
+            <span className={ styles['sequence-num'] }>_03</span>
+            <Hx className={ styles.title } color={ styles.offBlack }>Access Virtual Labs and Practice Tests</Hx>
+            <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.darkGrey }>Test your skills risk-free in real-world lab environments. Take and re-take Kaplan IT Training&reg; practice tests until you're confident that you are ready to pass.</Para>
+            <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view virtual labs</TextLink>
+            <TextLink className={ styles.link } to="/practice-tests/" color={ styles.orangePrimary }>see practice tests</TextLink>
+          </div>
         </div>
       </div>
     );

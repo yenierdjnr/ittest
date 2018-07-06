@@ -7,24 +7,13 @@ $breakpoints: (
 
 
 .capsule {
-  @include display-grid;
-  -ms-grid-columns: 1fr minmax(auto, 1024px) 1fr;
-  grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
-
-  position: relative;
-  background-color: $color-white;
-
-  background-image: url('Images/patterns_vertical.svg');
-  background-repeat: no-repeat;
-  background-position-x: 85%;
+  @extend .container;
 }
 
 .content {
-  @include grid-column(2,3);
-  -ms-grid-column-span: 1;
-  // grid-column: 2 / 3;
-  width: 82rem;
-  padding: 96px 0 112px;
+  @extend .col-12;
+  padding-top: 96px;
+  padding-bottom: 112px;
 }
 
 .title {

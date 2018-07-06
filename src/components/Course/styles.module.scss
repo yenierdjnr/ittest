@@ -11,6 +11,11 @@ $breakpoints: (
   offBlack: $color-offblack;
 }
 
+.coursePage {
+  @extend .col;
+  padding: 0;
+}
+
 .Hero {
   background-color: $color-offblack;
   display: block;

@@ -4,6 +4,7 @@ export { default as IconTW } from './tw';
 export { default as IconYT } from './yt';
 export { default as IconInsta } from './insta';
 
+export { default as IconAlert } from './alert_icon';
 export { default as IconArrowRight } from './arrow_right';
 export { default as IconBars } from './bars';
 export { default as IconCamera } from './camera';

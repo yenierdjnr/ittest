@@ -7,40 +7,27 @@ $breakpoints: (
 );
 
 .capsule {
-  padding: 13.6rem 0 19.6rem;
-
-  @include display-grid;
-  -ms-grid-columns: 1fr minmax(320px, 1024px) 1fr;
-  grid-template-columns: 1fr minmax(320px, 1024px) 1fr;
-
-  background-image: url('Images/home_hero@1x.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  @extend .container;
 }
 
 .intro {
-  @include grid-column(2,3);
-  -ms-grid-column-span: 1;
-  // grid-column: 2 / 3;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  @extend .col-12;
+  @extend .col-lg-10;
+  @extend .offset-lg-1;
+  @extend .col-xl-8;
+  @extend .offset-xl-2;
 
   color: $color-white;
   text-align: center;
 }
 
 .title {
-  max-width: 82rem;
   font-size: 6.4rem;
   letter-spacing: 0.53px;
   margin-bottom: 2.4rem;
 }
 
 .subtitle {
-  max-width: 74.3rem;
   margin-bottom: 5.6rem;
   font-size: 2.8rem;
   line-height: 4.2rem;
@@ -53,6 +40,8 @@ $breakpoints: (
   text-transform: capitalize;
   transition-property: box-shadow, transform;
   transition-duration: .25s;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   &:hover {
     background-color: $color-orange-dark;

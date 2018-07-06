@@ -13,16 +13,13 @@ $breakpoints: (
 }
 
 .capsule {
-  @include display-grid;
-  -ms-grid-columns: auto 4.1rem auto;
-  grid-template-columns: auto 4.1rem auto;
+  @extend .row;
+  margin-bottom: 14rem;
 }
 
 .card-left {
-  @include grid-column(1,2);
-  -ms-grid-column-span: 1;
-  // grid-column: 1 / 2;
-  justify-self: right;
+  @extend .col-12;
+  @extend .col-lg-6;
 
   & .title {
     color: $color-green-dark;
@@ -34,10 +31,8 @@ $breakpoints: (
 }
 
 .card-right {
-  @include grid-column(3,4);
-  -ms-grid-column-span: 1;
-  // grid-column: 3 / 4;
-  justify-self: left;
+  @extend .col-12;
+  @extend .col-lg-6;
 
   & .title {
     color: $color-blue-dark;
@@ -49,13 +44,8 @@ $breakpoints: (
 }
 
 .card {
-  max-width: 58rem;
-  padding: 5.6rem 5.5rem 7.6rem 5.6rem;
+  padding: 5.6rem 3rem 7rem 3rem;
   position: relative;
-
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
 
   border-radius: 2px;
   box-shadow: 0 4px 20px 4px rgba($color-offblack, 0.18);
@@ -144,29 +134,16 @@ $breakpoints: (
 }
 
 @include media('<tablet') {
+
   .capsule {
-    -ms-grid-columns: minmax(auto, 533px);
-    grid-template-columns: minmax(auto, 533px);
-    -ms-grid-columns: minmax(261px,auto) 24px minmax(261px,auto);
-    grid-template-rows: minmax(261px,auto) 24px minmax(261px,auto);
-    justify-content: center;
+    margin-bottom: 7rem;
   }
 
   .card-left {
-    @include grid-column(1,-1);
-    -ms-grid-column-span: 1;
-    @include grid-row(1,2);
-    -ms-grid-row-span: 1;
-    // grid-column: unset;
-    // grid-row: 1 / 2;
+    margin-bottom: 4rem;
   }
   .card-right {
-    @include grid-column(1,-1);
-    -ms-grid-column-span: 1;
-    @include grid-row(3,4);
-    -ms-grid-row-span: 1;
-    // grid-column: unset;
-    // grid-row: 3 / 4;
+    margin-bottom: 4rem;
   }
 
   .card {

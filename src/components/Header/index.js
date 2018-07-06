@@ -1,11 +1,13 @@
 import React from 'react';
 
 import Logo from 'Components/Logo';
+import Para from 'Elements/Para';
+import { IconAlert } from 'Elements/Icons';
 import { HeaderNav as Nav } from 'Components/Nav';
 import styles from './styles.module.scss';
 
 
-const Header = ({ pathname }) => 
+const Header = ({ pathname }) =>
   <header className={ styles.capsule }>
     <div className={ styles.centerNavRow }>
       <div className={ styles.navOutter }>
@@ -17,9 +19,14 @@ const Header = ({ pathname }) =>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  
+      <div className={ styles.ieBannerWrap }>
+        <div className={ styles.ieBanner }>
+          <IconAlert className={ styles.icon } /><Para className={ styles.title } color={ styles.purplePrimary }>Best viewed in a larger browser window, Edge, Chrome, or FireFox.</Para>
+        </div>
+      </div>
+    </header>
+  );
+}
 
 
 export default Header;

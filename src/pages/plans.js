@@ -12,24 +12,6 @@ class Plans extends Component {
     super(props);
 
     this.state = {
-      annual: {
-        premium: {
-          price: '857',
-          term: 'year',
-          billing1: 'Annual Billing',
-          billing2: '(16% Discount)'
-        },
-        standard: {
-          price: '570',
-          term: 'year',
-          billing1: 'Annual Billing',
-          billing2: '(16% Discount)'
-        },
-        free: {
-          price: '0',
-          term: 'year'
-        }
-      },
       monthly: {
         premium: {
           price: '85.70',
@@ -48,8 +30,7 @@ class Plans extends Component {
           term: 'month'
         }
       },
-      currentPricing: {
-        type: 'annual',
+      annual: {
         premium: {
           price: '857',
           term: 'year',
@@ -67,17 +48,37 @@ class Plans extends Component {
           term: 'year'
         }
       },
+      currentPricing: {
+        type: 'monthly',
+        premium: {
+          price: '85.70',
+          term: 'month',
+          billing1: 'Month-to-Month Billing',
+          billing2: ''
+        },
+        standard: {
+          price: '57',
+          term: 'month',
+          billing1: 'Month-to-Month Billing',
+          billing2: ''
+        },
+        free: {
+          price: '0',
+          term: 'year'
+        }
+      },
     };
   }
 
   handleClick = (target) => {
     const { annual, monthly } = this.state;
+
     let currentPricing = {};
 
-    if (target === 'monthly') {
-      currentPricing = { type: 'monthly', ...monthly };
-    } else {
+    if (target === 'annual') {
       currentPricing = { type: 'annual', ...annual };
+    } else {
+      currentPricing = { type: 'monthly', ...monthly };
     }
 
     this.setState({

@@ -9,7 +9,8 @@ $breakpoints: (
 
 .capsule {
   @extend .container;
-  padding: 7.1rem;
+  padding-top: 7.1rem;
+  padding-bottom: 7.1rem;
 }
 
 .item {

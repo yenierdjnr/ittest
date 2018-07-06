@@ -9,18 +9,14 @@ $breakpoints: (
 
 .capsule {
   padding: 12rem 0 20.8rem;
-
-  @include display-grid;
-  grid-template-columns: 1fr minmax(320px, 1074px) 1fr;
-
   background-image: url('Images/forTeams_hero@1x.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .intro {
-  grid-column: 2 / 3;
   padding-left: 2.4rem;
+  @extend .container;
 }
 
 .title {

@@ -76,45 +76,47 @@ class Stats extends Component {
   render() {
     return (
       <div className={ styles.capsule }>
-        <div className={ styles.left }>
-          <CountUp
-            ref="content"
-            className={ `${styles.num} content` }
-            start={3800}
-            end={4000}
-            duration={2.75}
-            useEasing={true}
-            useGrouping={true}
-            separator=","
-          />
-          <p className={ styles.summary}>hours of content with new content added daily</p>
-        </div>
-        <div className={ styles.center }>
-          <CountUp
-            ref="certs"
-            className={ `${styles.num} certs` }
-            start={88}
-            end={288}
-            duration={2.75}
-            useEasing={true}
-            useGrouping={true}
-            separator=","
-          />
-          <p className={ styles.summary}>combined certifications held by ITProTV Edutainers</p>
-        </div>
-        <div className={ styles.right }>
-          <CountUp
-            ref="comm"
-            className={ `${styles.num} comm` }
-            start={99800}
-            end={100000}
-            duration={2.75}
-            useEasing={true}
-            useGrouping={true}
-            separator=","
-            onComplete={this.onComplete}
-          />
-          <p className={ styles.summary}>members of the ITProTV learning community</p>
+        <div className={ styles.statsRow }>
+          <div className={ styles.left }>
+            <CountUp
+              ref="content"
+              className={ `${styles.num} content` }
+              start={3800}
+              end={4000}
+              duration={2.75}
+              useEasing={true}
+              useGrouping={true}
+              separator=","
+             />
+            <p className={ styles.summary}>hours of content with new content added daily</p>
+          </div>
+          <div className={ styles.center }>
+            <CountUp
+              ref="certs"
+              className={ `${styles.num} certs` }
+              start={88}
+              end={288}
+              duration={2.75}
+              useEasing={true}
+              useGrouping={true}
+              separator=","
+             />
+            <p className={ styles.summary}>combined certifications held by ITProTV Edutainers</p>
+          </div>
+          <div className={ styles.right }>
+            <CountUp
+              ref="comm"
+              className={ `${styles.num} comm` }
+              start={99800}
+              end={100000}
+              duration={2.75}
+              useEasing={true}
+              useGrouping={true}
+              separator=","
+              onComplete={this.onComplete}
+             />
+            <p className={ styles.summary}>members of the ITProTV learning community</p>
+          </div>
         </div>
       </div>
     );

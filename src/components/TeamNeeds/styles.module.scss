@@ -33,14 +33,12 @@ $breakpoints: (
 .content {
   max-width: 1024px;
   margin: 0 auto;
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  @extend .d-lg-flex;
 }
 
 .item {
-  width: 29rem;
+  width: 30rem;
+  margin: 0 3rem;
 }
 
 .title {
@@ -58,61 +56,19 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding: 7.2rem 4rem 7.4rem;
-  }
-
-  .content {
-    flex-flow: column nowrap;
-    align-items: center;
-  }
-
-  .item {
-    max-width: 33.4rem;
-
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-
-    &:not(:last-child) {
-      margin-bottom: 6.4rem;
-    }
+    padding: 5rem 0;
   }
 
   .icon-box {
-    width: 10rem;
-    height: 10rem;
-    margin-bottom: 4rem;
-    border-radius: 5rem;
+    margin-bottom: 3rem;
+  }
 
-    & .camera {
-      width: 6.5rem;
-      height: 7.5rem;
-    }
-    & .bars {
-      width: 5.2rem;
-      height: 6.9rem;
-    }
-    & .mobile {
-      width: 4.9rem;
-      height: 6.5rem;
-    }
+  .item {
+    display: block;
+    margin: 8rem auto;
   }
 
   .title {
     margin-bottom: 1.6rem;
-  }
-}
-
-
-@include media('<=upper-phone') {
-  .item {
-    max-width: 29.5rem;
-  }
-}
-
-
-@include media('<=small-phone') {
-  .item {
-    width: 24rem;
   }
 }
