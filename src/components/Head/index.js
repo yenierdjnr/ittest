@@ -91,8 +91,8 @@ const metaData = {
   '/team/': {
     page: 'team',
     path: '/team/',
-    title: 'ITProTV Team',
-    description: 'Empower your IT team with the IT skills they need with binge-worthy learning from ITProTV',
+    title: 'The team behind ITProTV | ITProTV',
+    description: 'Meet the ITProTV team. Learn more about the leadership of the company and how ITProTV is growing to meet the global demand for IT training. Read about the background of the leaders.',
     canonical: `${process.env.SELF_URL}/team/`
   },
   '/contact/': {
@@ -119,8 +119,8 @@ const metaData = {
   '/edutainers/': {
     page: 'edutainers',
     path: '/edutainers/',
-    title: 'ITProTV Edutainers',
-    description: 'Meet ITProTV’s Edutainers; the experienced IT professionals who create engaging and entertaining IT training content',
+    title: 'ITProTV Subject Matter Experts - Edutainers | ITProTV',
+    description: 'Meet the ITProTV subject matter experts. Learn more about the edutainers who blend education and entertainment to make learning fun. ITProTV instructor backgrounds.',
     canonical: `${process.env.SELF_URL}/edutainers/`
   },
   '/career-resources/': {
