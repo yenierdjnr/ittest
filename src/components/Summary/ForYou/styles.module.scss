@@ -19,17 +19,19 @@ $breakpoints: (
 
 .list {
   @extend .row;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  // display: flex;
+  // flex-flow: row nowrap;
+  // justify-content: space-between;
+  @extend .d-flex;
+  @extend .justify-content-between;
 }
 
 .item {
   @extend .col-12;
   @extend .col-lg-4;
   width: 31.4rem;
-  display: flex;
-  flex-flow: column nowrap;
+  // display: flex;
+  // flex-flow: column nowrap;
 }
 
 .icon-box {
@@ -37,9 +39,13 @@ $breakpoints: (
   height: 12rem;
   margin-bottom: 4.8rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   border-radius: 6rem;
   background-color: $color-white-light;
@@ -69,7 +75,7 @@ $breakpoints: (
   }
   .list {
     padding: 0 4rem;
-    flex-flow: column nowrap;
+    // flex-flow: column nowrap;
   }
   .icon-box {
     width: 10rem;
