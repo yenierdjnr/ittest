@@ -1,7 +1,18 @@
+proxy_cache_path /var/cache/yxorp keys_zone=yxorp:1m;
+
 server {
 
   location / {
+
     proxy_pass ${PROXY_URL};
+
+    gzip on;
+    gzip_proxied any;
+    gzip_types *;
+
+    proxy_cache yxorp;
+    proxy_cache_valid 1h;
+
   }
 
   # blog redirects

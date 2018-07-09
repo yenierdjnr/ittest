@@ -64,7 +64,7 @@ class Plans extends Component {
         },
         free: {
           price: '0',
-          term: 'year'
+          term: 'month'
         }
       },
     };
