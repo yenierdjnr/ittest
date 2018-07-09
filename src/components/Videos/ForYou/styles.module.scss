@@ -4,6 +4,7 @@
 $breakpoints: (
   'tablet': $tablet,
   'upper-phablet': $upper-phablet,
+  'lower-tablet': $lower-tablet,
   'video-width': 669px
 );
 
@@ -13,6 +14,7 @@ $breakpoints: (
 }
 
 .capsule {
+  @extend .container;
   padding-top: 7.2rem;
   padding-bottom: 9.9rem;
   background-color: $color-offwhite;
@@ -20,14 +22,14 @@ $breakpoints: (
 
 .content {
   max-width: 1035px;
-  margin: 0 auto;
   @extend .row;
 }
 
 .video-capsule {
   margin-top: 1.3rem;
-  @extend .col-lg-8;
+  @extend .col-lg-7;
   @extend .col-12;
+  padding-left: 0;
 }
 
 .img {
@@ -67,7 +69,7 @@ $breakpoints: (
 
 .intro {
   @extend .col-12;
-  @extend .col-lg-4;
+  @extend .col-lg-5;
 }
 
 .title {
@@ -83,17 +85,6 @@ $breakpoints: (
     padding-top: 5.6rem;
     padding-bottom: 10.2rem;
   }
-  .content {
-    max-width: none;
-    flex-flow: column nowrap;
-    align-items: center;
-  }
-
-  .video-capsule {
-    order: 2;
-    margin-top: 0;
-  }
-
   .intro {
     margin-bottom: 7.1rem;
   }
@@ -104,6 +95,18 @@ $breakpoints: (
   .summary {
     font-size: 1.6rem;
     line-height: 2.4rem;
+  }
+}
+
+@include media('<lower-tablet') {
+  .video-capsule {
+    order: 2;
+    margin-top: 0;
+  }
+  .content {
+    max-width: none;
+    flex-flow: column nowrap;
+    align-items: center;
   }
 }
 

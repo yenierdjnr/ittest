@@ -7,15 +7,18 @@ $breakpoints: (
 );
 
 .capsule {
-  padding-bottom: 9rem;
   background-color: $color-white;
 }
 
-.heading {
-  padding: 7.2rem 0 16.2rem;
+.headerContainer {
+  @extend .container-fluid;
+  padding-top: 7.2rem;
+  padding-bottom: 16.2rem;
   background-color: $color-purple-dark;
   background-image: url('Images/pattern_lightpurple.svg');
   background-position: 50%;
+  @extend .d-flex;
+  @extend .justify-content-center;
 }
 
 .title {
@@ -33,38 +36,28 @@ $breakpoints: (
 .cardContainer {
   @extend .container;
   margin-top: -8rem;
+  padding-bottom: 6rem;
 }
 
 .card-plans {
   @extend .d-lg-flex;
-  @extend .justify-content-center;
-}
-
-.plan {
-  width: 270px;
-  padding: 0;
-  margin: 0 2rem;
-}
-
-@include media('<tablet') {
-  .capsule {
-    padding-bottom: 6rem;
-  }
-
-  .plan {
-    display: block;
-    margin: 2rem auto;
-  }
+  @extend .justify-content-lg-center;
 }
 
 @include media('<lower-tablet') {
-  .heading {
-    padding: 6.4rem 0 14.4rem;
+  .headerContainer {
+    padding-top: 6.4rem;
+    padding-bottom: 12rem;
   }
 
   .title {
     font-size: 3rem;
     line-height: 3.7rem;
     max-width: 28rem;
+  }
+  .plan {
+    display: block;
+    margin: 2rem auto;
+    max-width: 400px;
   }
 }

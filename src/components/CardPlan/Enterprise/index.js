@@ -7,7 +7,7 @@ import styles from '../styles.module.scss';
 
 
 const Enterprise = ({ className='' }) => {
-    let capsule = `${styles.capsule} ${className}`;
+    let capsule = `${styles.capsulePlans} ${className}`;
     let description = styles.description;
     let perks = styles.perks;
     let price = styles.price;

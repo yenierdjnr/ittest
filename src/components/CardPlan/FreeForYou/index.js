@@ -6,9 +6,9 @@ import TextLink from 'Elements/TextLink';
 import styles from '../styles.module.scss';
 
 
-const Free = ({ className='', info }) => {
+const FreeForYou = ({ className='', info }) => {
   const { free } = info;
-  let capsule = `${styles.capsulePlans} ${className}`;
+  let capsule = `${styles.capsuleForYou} ${className}`;
   let description = styles.description;
 
   if (className === 'pricing') {
@@ -39,4 +39,4 @@ const Free = ({ className='', info }) => {
 };
 
 
-export default Free;
+export default FreeForYou;

@@ -6,9 +6,9 @@ import TextLink from 'Elements/TextLink';
 import styles from '../styles.module.scss';
 
 
-const Premium = ({ className='', info }) => {
+const PremiumForYou = ({ className='', info }) => {
   const { premium } = info;
-  let capsule = `${styles.capsulePlans} ${className}`;
+  let capsule = `${styles.capsuleForYou} ${className}`;
   let description = styles.description;
   let perks = styles.perks;
 
@@ -43,4 +43,4 @@ const Premium = ({ className='', info }) => {
 };
 
 
-export default Premium;
+export default PremiumForYou;

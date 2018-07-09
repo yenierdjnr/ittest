@@ -27,12 +27,12 @@ $breakpoints: (
 
 .Learn-More {
   @extend .container-fluid;
-  padding: 0;
   background-color: $color-offwhite;
 }
 
 .Vendors {
   @extend .container-fluid;
+  padding: 0;
   background-color: #F4F4F7;
 }
 
@@ -42,6 +42,7 @@ $breakpoints: (
 
 .Testimonials {
   @extend .container-fluid;
+  padding: 0;
   @extend .ieHidden;
 }
 
@@ -53,6 +54,7 @@ $breakpoints: (
 .For-Teams {
   @extend .container-fluid;
   padding: 0;
+  background-color: #F4F4F7;
 }
 
 @include media('<tablet') {
