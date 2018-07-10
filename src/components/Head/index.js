@@ -14,7 +14,7 @@ const metaData = {
   '/': {
     page: 'home',
     path: '/',
-    title: 'IT Training Courses Online, Video Computer Courses | ITPro.TV',
+    title: 'IT Training Courses Online, Video Computer Courses | ITProTV',
     description: 'Easy to understand IT Training &amp; IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: `${process.env.SELF_URL}`
   },
@@ -227,13 +227,6 @@ const metaData = {
     title: 'Virtual Practice Lab Environments for ITProTV Members',
     description: '',
     canonical: `${process.env.SELF_URL}/vlabs/`
-  },
-  '/blog/': {
-    page: 'blog',
-    path: '/blog/',
-    title: 'Blog | ITProTV',
-    description: '',
-    canonical: `${process.env.SELF_URL}/blog/`
   },
   '/404': notFoundMetaData
 };
