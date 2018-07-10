@@ -19,8 +19,6 @@ $breakpoints: (
   @extend .d-flex;
   @extend .flex-column;
   @extend .flex-lg-row;
-  justify-content: space-between;
-  align-items: center;
 
   padding: 2.5rem 0;
 
@@ -36,7 +34,7 @@ $breakpoints: (
 .type {
   margin-bottom: 1.6rem;
   width: 100%;
-  display: flex;
+  @extend .d-flex;
   flex-flow: column nowrap;
 }
 
@@ -63,10 +61,6 @@ $breakpoints: (
 }
 
 .access {
-  // display: flex;
-  // flex-flow: row nowrap;
-  // flex: 1 0 27.7rem;
-  // justify-content: space-between;
   width: 100%;
   @extend .d-flex;
   @extend .flex-row;
@@ -74,37 +68,24 @@ $breakpoints: (
   @extend .justify-content-between;
 
   & .premium {
-    // width: 9rem;
     min-width: 12rem;
   }
   & .standard {
-    // width: 9.2rem;
     min-width: 12rem;
   }
   & .free {
-    // width: 4.9rem;
     min-width: 12rem;
   }
 }
 
 @include media('>=lower-tablet') {
-  .capsule {
-    // @include display-grid;
-    // grid-template-columns: minmax(auto, 434px) minmax(auto, 40px) minmax(auto, 492px);
-  }
-
-  .type {
-    // grid-column: 1 / 2;
-  }
   .title {
-    width: 432px;
+    // width: 432px;
   }
   .subtitle {
-    width: 432px;
+    // width: 432px;
   }
   .access {
-    // grid-column: 3 / 4;
     margin-bottom: 2rem;
-    // flex-basis: unset;
   }
 }

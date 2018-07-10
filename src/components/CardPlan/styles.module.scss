@@ -40,16 +40,19 @@
   height: 30rem;
   padding: 2.4rem 0 3.3rem;
 
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  // @extend .d-flex;
+  // @extend .flex-nowrap;
+  // @extend .align-items-center;
+
+  // display: flex;
+  // flex-flow: column nowrap;
+  // align-items: center;
 
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   background-color: $color-offwhite;
 }
 .pricing {
-  width: 270px;
   margin: 0 auto;
   height: 24rem;
   padding: 2.4rem 0 2.4rem;

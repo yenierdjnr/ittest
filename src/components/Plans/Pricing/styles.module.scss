@@ -2,9 +2,5 @@
 
 .capsule {
   margin-top: -75px;
-  @extend .d-flex;
-  @extend .justify-content-around;
-  @extend .flex-row;
-  @extend .flex-wrap;
   @extend .row;
 }

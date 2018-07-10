@@ -51,7 +51,7 @@ $breakpoints: (
   min-width: 12rem;
 }
 .pricing {
-  display: flex;
+  @extend .d-flex;
   flex-flow: column nowrap;
 
   color: $color-grey-dark;
@@ -73,7 +73,7 @@ $breakpoints: (
     }
   }
   .content {
-    padding: 0 2.4rem 5.6rem;
+    padding: 0 0 5.6rem;
   }
   .title {
     margin-bottom: 2.4rem;
@@ -83,10 +83,6 @@ $breakpoints: (
   }
   .plans {
     margin-bottom: 3.2rem;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
   }
   .benefits {
     padding: 0;
