@@ -13,7 +13,8 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 10.8rem 0 11.5rem;
+  padding-top: 10.8rem;
+  padding-bottom: 11.5rem;
 }
 
 .titleRow {
@@ -35,9 +36,8 @@ $breakpoints: (
 
 .list {
   @extend .row;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  @extend .d-flex;
+  @extend .justify-content-between;
 }
 
 .item {
@@ -58,9 +58,9 @@ $breakpoints: (
   height: 12rem;
   margin-bottom: 4.8rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .justify-content-center;
 
   border-radius: 6rem;
   background-color: $color-white-light;
@@ -80,7 +80,8 @@ $breakpoints: (
 
 @include media('<tablet') {
   .capsule {
-    padding: 6.6rem 0;
+    padding-top: 6.6rem;
+    padding-bottom: 6.6rem;
   }
   .sectionTitle {
     font-size: 3.8rem;
@@ -94,7 +95,6 @@ $breakpoints: (
   }
   .list {
     padding: 0 4rem;
-    flex-flow: column nowrap;
   }
   .icon-box {
     width: 10rem;

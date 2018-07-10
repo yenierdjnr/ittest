@@ -21,7 +21,6 @@ $breakpoints: (
 }
 
 .content {
-  max-width: 1035px;
   @extend .row;
 }
 
@@ -102,11 +101,6 @@ $breakpoints: (
   .video-capsule {
     order: 2;
     margin-top: 0;
-  }
-  .content {
-    max-width: none;
-    flex-flow: column nowrap;
-    align-items: center;
   }
 }
 
