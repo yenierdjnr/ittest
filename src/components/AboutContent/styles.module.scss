@@ -55,13 +55,12 @@ $breakpoints: (
 
 .iframe {
   @extend .row;
-  @extend .justify-content-center;
   @extend .embed-responsive;
-  @extend .embed-responsive-4by3;
-  max-width: 600px;
-  margin: 0 auto;
+  @extend .embed-responsive-16by9;
   .responsiveItem {
+    @extend .col-12;
     @extend .embed-responsive-item;
+    margin-left: 1rem;
   }
 }
 
