@@ -53,9 +53,9 @@ export default Government;
 
 export const query = graphql`
   query TeamVideo {
-    videoImage: imageSharp(id: { regex: "/forTeams_video@1x/"}) {
-      sizes(maxWidth: 669) {
-        ...GatsbyImageSharpSizes
+    videoImage: imageSharp(fluid: { originalName: { regex: "/forTeams_video@1x/"}}) {
+      fluid(maxWidth: 669) {
+        ...GatsbyImageSharpFluid
       }
     },
   }

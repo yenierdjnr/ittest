@@ -25,7 +25,7 @@ const TeamCerts = ({ className='', testimonials }) => {
           <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
             <div id="vidwrap-team-certs" className={ styles.vidwrap }></div>
             <IconPlay className={ styles['play-button'] }/>
-            <Img outerWrapperClassName={ styles.imgWrapper } sizes={ testimonials.sizes } alt="team video"/>
+            <Img outerWrapperClassName={ styles.imgWrapper } fluid={ testimonials.fluid } alt="team video"/>
           </div>
 
           <div className={ styles.testimonial }>

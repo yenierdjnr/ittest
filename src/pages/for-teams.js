@@ -52,14 +52,14 @@ export default ForTeams;
 
 export const query = graphql`
   query ForTeamVideoAndTestimonialTeamCerts {
-    videoImage: imageSharp(id: { regex: "/forTeams_video@1x/"}) {
-      sizes(maxWidth: 669) {
-        ...GatsbyImageSharpSizes
+    videoImage: imageSharp(fluid: {originalName: { regex: "/forTeams_video@1x/"}}) {
+      fluid(maxWidth: 669) {
+        ...GatsbyImageSharpFluid
       }
     },
-    testimonials: imageSharp(id: { regex: "/testimonial_video@1x/"}) {
-      sizes(maxWidth: 669) {
-        ...GatsbyImageSharpSizes
+    testimonials: imageSharp(fluid: {originalName: { regex: "/testimonial_video@1x/"}}) {
+      fluid(maxWidth: 669) {
+        ...GatsbyImageSharpFluid
       }
     }
   }

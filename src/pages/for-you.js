@@ -56,9 +56,9 @@ export default ForYou;
 
 export const query = graphql`
   query ForYou {
-    videoImg: imageSharp(id: { regex: "/forYou_video@1x/"}) {
-      sizes(maxWidth: 1050) {
-        ...GatsbyImageSharpSizes
+    videoImg: imageSharp(fluid: {originalName: { regex: "/forYou_video@1x/"}}) {
+      fluid(maxWidth: 1050) {
+        ...GatsbyImageSharpFluid
       }
     }
   }

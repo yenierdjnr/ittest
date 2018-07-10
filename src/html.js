@@ -2,15 +2,8 @@ import React from 'react';
 
 
 let stylesStr
-if (process.env.NODE_ENV === `production`) {
-  try {
-    stylesStr = require(`!raw-loader!../public/styles.css`)
-  } catch (e) {
-    return e
-  }
-}
 
-module.exports = class HTML extends React.Component {
+export default class HTML extends React.Component {
   render() {
     let css
     if (process.env.NODE_ENV === `production`) {

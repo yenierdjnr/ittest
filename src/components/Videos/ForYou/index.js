@@ -22,7 +22,7 @@ const ForYouVideo = ({ className='', videoImg }) => {
         <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
-          <Img outerWrapperClassName={ styles.img } sizes={ videoImg.sizes } alt="team video"/>
+          <Img outerWrapperClassName={ styles.img } fluid={ videoImg.fluid } alt="team video"/>
         </div>
         <div className={ styles.intro }>
           <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More & Enjoy Watching</Hx>

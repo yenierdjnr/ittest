@@ -13,7 +13,7 @@ const Pamphlet = ({ videoImg }) => {
       <div className={ styles.row }>
         <div className={ styles.content }>
           <ViewportAnimation>
-            <Img resolutions={ videoImg.resolutions }/>
+            <Img fixed={ videoImg.fixed }/>
           </ViewportAnimation>
           <div className={ styles.info }>
             <h2 className={ styles.title }>The Tough Ten: 10 Hardest IT  Gigs to Hire For</h2>

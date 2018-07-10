@@ -9,27 +9,25 @@ module.exports = {
     siteUrl: `${process.env.SELF_URL}`,
   },
   plugins: [
-    'gatsby-plugin-eslint',
-    'gatsby-plugin-react-next',
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
-    {
-      resolve: `gatsby-plugin-google-tagmanager`,
-      options: {
-        id: `${process.env.GOOGLE_TAG_MGR_ID}`,
+    // {
+    //   resolve: `gatsby-plugin-google-tagmanager`,
+    //   options: {
+    //     id: `${process.env.GOOGLE_TAG_MGR_ID}`,
 
-        // Include GTM in development.
-        // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: true,
+    //     // Include GTM in development.
+    //     // Defaults to false meaning GTM will only be loaded in production.
+    //     includeInDevelopment: true,
 
-      // Specify optional GTM environment details.
-      // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-      // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-sitemap'
-    },
+    //   // Specify optional GTM environment details.
+    //   // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+    //   // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-plugin-sitemap'
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -80,25 +78,25 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-favicon',
-      options: {
-        logo: './src/assets/images/favicon.png',
-        injectHTML: true,
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: true,
-          favicons: true,
-          firefox: true,
-          twitter: true,
-          yandex: true,
-          windows: true
-        }
-      }
-    },
-    'gatsby-plugin-react-helmet'
+    // {
+    //   resolve: 'gatsby-plugin-favicon',
+    //   options: {
+    //     logo: './src/assets/images/favicon.png',
+    //     injectHTML: true,
+    //     icons: {
+    //       android: true,
+    //       appleIcon: true,
+    //       appleStartup: true,
+    //       coast: true,
+    //       favicons: true,
+    //       firefox: true,
+    //       twitter: true,
+    //       yandex: true,
+    //       windows: true
+    //     }
+    //   }
+    // },
+      'gatsby-plugin-react-helmet'
   ]
 
 };

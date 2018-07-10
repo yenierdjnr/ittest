@@ -28,7 +28,7 @@ const ForTeamsVideo = ({ className='', videoImage }) => {
         <div id="background-video" className={ `${styles['for-teams-capsule']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
-          <Img outerWrapperClassName={ styles.img } sizes={ videoImage.sizes } alt="team video"/>
+          <Img outerWrapperClassName={ styles.img } fluid={ videoImage.fluid } alt="team video"/>
         </div>
       </div>
     </section>

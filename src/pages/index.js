@@ -62,9 +62,9 @@ export default HomePage;
 
 export const query = graphql`
   query HomeVideoImage {
-    videoImg: imageSharp(id: { regex: "/article@1x/"}) {
-      resolutions(width: 260, height: 195) {
-        ...GatsbyImageSharpResolutions
+    videoImg: imageSharp(fluid: {originalName: { regex: "/article@1x/"}}) {
+      fixed(width: 260, height: 195) {
+        ...GatsbyImageSharpFixed
       }
     }
   }

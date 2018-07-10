@@ -1,75 +1,40 @@
 const path = require('path');
-const { cssModulesConfig } = require("gatsby-1-config-css-modules");
 
-const LOCAL_IDENT_NAME = '[folder]__[local]--[hash:base64:5]';
-const replaceLoaderIdentName = (loader, newIdent) => {
-  const defaultConfig = cssModulesConfig("develop");
-  // Split loader string out into parts
-  const parts = defaultConfig.split("&");
+exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
 
-  // Find ident
-  const identIndex = parts.findIndex((el) => el.startsWith("localIdentName"));
-  const ident = parts[identIndex];
-  const identParts = ident.split("=");
-
-  // Replace existing ident with new
-  const replacedIdent = [identParts[0], "=", newIdent].join("");
-
-  // Join parts back into a string
-  const newConfig = parts.map(
-    (el, i) => i === identIndex ? replacedIdent : el
-  );
-
-  return newConfig.join("&");
-};
-
-
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === 'develop') {
-    config.loader(`cssModules`, (current) => {
-      const index = current.loaders.findIndex((loader) =>
-        loader.startsWith("css?")
-      );
-
-      const newLoader = replaceLoaderIdentName(
-        current.loaders[index],
-        LOCAL_IDENT_NAME
-      );
-
-      current.loaders[index] = newLoader;
-      return current;
+    let config = getConfig();
+    actions.setWebpackConfig({
+        resolve: {
+            alias: {
+                Components: path.resolve(config.context, 'src', 'components'),
+                Elements: path.resolve(config.context, 'src', 'elements'),
+                Images: path.resolve(config.context, 'src', 'assets', 'images'),
+                Styles: path.resolve(config.context, 'src', 'assets', 'styles')
+            }
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.css$/,
+                    use: [
+                        {
+                            loader: 'style-loader'
+                        },
+                        {
+                            loader: 'css-loader'
+                        },
+                        {
+                            loader: 'sass-loader'
+                        }
+                    ]
+                }
+            ]
+        }
     });
 
-    config.loader(`sassModules`, (current) => {
-      const index = current.loaders.findIndex((loader) =>
-        loader.startsWith("css?")
-      );
-
-      const newLoader = replaceLoaderIdentName(
-        current.loaders[index],
-        LOCAL_IDENT_NAME
-      );
-
-      current.loaders[index] = newLoader;
-      return current;
-    });
-  }
-
-  config.merge({
-    resolve: {
-      alias: {
-        Components: path.resolve(config._config.context, 'src', 'components'),
-        Elements: path.resolve(config._config.context, 'src', 'elements'),
-        Images: path.resolve(config._config.context, 'src', 'assets', 'images'),
-        Styles: path.resolve(config._config.context, 'src', 'assets', 'styles')
-      }
-    }
-  });
-
-  return config;
 };
 
-exports.createPages = ({ boundActionCreators: { createPage }, graphql}) => {
+exports.createPages = ({ actions: { createPage }, graphql}) => {
   const categoryComponent = path.resolve('src/components/CourseCategory/index.js');
   const courseComponent = path.resolve('src/components/Course/index.js');
 

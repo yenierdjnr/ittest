@@ -21,16 +21,13 @@ const OnAir = ({ data, location }) =>
     </main>
   </Fragment>
 
-
-
 export default OnAir;
-
 
 export const query = graphql`
   query OnAir {
-    videoImg: imageSharp(id: { regex: "/onAir_video@1x/"}) {
-      sizes(maxWidth: 1050) {
-        ...GatsbyImageSharpSizes
+    videoImg: imageSharp(fluid: {originalName: { regex: "/onAir_video@1x/"}}) {
+      fluid(maxWidth: 1050) {
+        ...GatsbyImageSharpFluid
       }
     }
   }
