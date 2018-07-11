@@ -18,7 +18,7 @@ case "$CMD" in
               MARKETING_ENV=staging node --max-old-space-size=4096 node_modules/.bin/gatsby build --verbose
               ;;
           "production")
-              MARKETING_ENV=production node --max-old-space-size=4096 node_modules/.bin/gatsby build
+              MARKETING_ENV=production node --max-old-space-size=2048 node_modules/.bin/gatsby build
               ;;
           *)
               echo "Not a branch for building, exiting"
