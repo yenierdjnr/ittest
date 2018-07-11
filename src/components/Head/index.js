@@ -228,6 +228,13 @@ const metaData = {
     description: 'Access virtual labs for hands-on learning of IT. Cloned virtual machine environments to learn IT risk-free.',
     canonical: `${process.env.SELF_URL}/vlabs/`
   },
+  '/webinar/': {
+    page: 'webinar',
+    path: '/webinar/',
+    title: 'Webinars | ITProTV',
+    description: '',
+    canonical: `${process.env.SELF_URL}/webinar/`
+  },
   '/404': notFoundMetaData
 };
 

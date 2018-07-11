@@ -1,0 +1,32 @@
+@import '~Styles/main';
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
+.webinar {
+  @extend .col;
+  padding: 0;
+}
+
+.Hero {
+  @extend .container-fluid;
+  padding-top: 8rem;
+  padding-bottom: 7.5rem;
+  background-color: $color-offblack;
+  background-image: url('Images/pattern_darkpurple.svg');
+  background-position: 50%;
+}
+
+.WebinarContent {
+  @extend .container;
+  padding: 0;
+}
+
+
+@include media('<tablet') {
+  .Hero {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,60 @@
+@import '~Styles/main';
+
+:export {
+  headingColor: $color-offblack;
+  darkGrey: $color-grey-dark;
+  orangePrimary: $color-orange-primary;
+}
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
+a {
+  color: $color-offblack;
+}
+
+.row {
+  @extend .row;
+}
+
+.cols {
+  margin: 3rem 0;
+  @extend .col-12;
+  @extend .col-lg-5;
+  @extend .offset-lg-1;
+}
+
+.title {
+
+}
+
+.content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img {
+  max-width: 150px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+}
+
+.summary {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.more {
+  padding-bottom: 2.4rem;
+  padding-top: .5rem;
+}
+
+@include media('<tablet') {
+  .cols {
+    margin-bottom: 3rem;
+  }
+}
