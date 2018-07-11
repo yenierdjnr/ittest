@@ -6,6 +6,7 @@ import AboutContent from 'Components/AboutContent';
 import AboutStory from 'Components/AboutStory';
 import TrustedBy from 'Components/TrustedBy';
 import Values from 'Components/Values';
+import Charity from 'Components/Charity';
 import styles from './about.module.scss';
 
 
@@ -33,6 +34,10 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
 
         <section className={ styles.Values }>
           <Values />
+        </section>
+
+        <section className={ styles.Charity }>
+          <Charity />
         </section>
 
       </main>
