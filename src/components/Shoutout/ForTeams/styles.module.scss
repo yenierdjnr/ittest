@@ -2,9 +2,8 @@
 
 
 $breakpoints: (
-  'tablet': $tablet,
   'lower-tablet': $lower-tablet,
-  'lower-phone': $lower-phone
+  'lower-desktop': $lower-desktop
 );
 
 :export {
@@ -12,51 +11,50 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 42px 0;
-  background-color: #F4F4F7;
+  @extend .container;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 
-.content {
-  max-width: 1024px;
+.text {
+  @extend .col-12;
+  @extend .col-xl-8;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-
-  margin: 0 auto;
+  @extend .d-flex;
+  @extend .align-items-xl-center;
+  @extend .justify-content-center;
+  @extend .justify-content-xl-start;
 }
 
+.btn {
+  @extend .col-12;
+  @extend .col-xl-4;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .justify-content-xl-end;
+  @extend .align-items-xl-center;
+}
 
-@include media('<tablet') {
-  .content {
-    flex-flow: column nowrap;
-  }
-
-  .content {
-    padding: 0 4rem;
-  }
-
+@include media('<lower-desktop') {
   .title {
     text-align: center;
     margin-bottom: 4.8rem;
   }
+
+  .btn {
+    margin-left: 0;
+  }
 }
+
 
 @include media('<lower-tablet') {
   .capsule {
-    padding: 6.4rem 0 6.5rem;
+    padding-top: 6.4rem;
+    padding-bottom: 6.5rem;
   }
 
   .title {
     font-size: 3rem;
     line-height: 3.7rem;
-  }
-}
-
-
-@include media('<lower-phone') {
-  .content {
-    max-width: 32rem;
   }
 }

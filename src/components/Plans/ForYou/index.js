@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Hx from 'Elements/Hx';
 import ButtonSwitch from 'Elements/ButtonSwitch';
-import { Free, Premium, Standard } from 'Components/CardPlan';
+import { FreeForYou, PremiumForYou, StandardForYou } from 'Components/CardPlan';
 import styles from './styles.module.scss';
 
 
@@ -89,16 +89,19 @@ class Plans extends Component {
 
     return (
       <section className={ styles.capsule }>
-        <header className={ styles.heading }>
-          <Hx className={ styles.title } size="2">Start or Advance Your IT Career Today</Hx>
-          <ButtonSwitch className={ styles.switch } handleSwitch={ this.handleClick } />
-        </header>
-
+        <div className={ styles.headerContainer }>
+          <div className={ styles.row }>
+            <header className={ styles.heading }>
+              <Hx className={ styles.title } size="2">Start or Advance Your IT Career Today</Hx>
+              <ButtonSwitch className={ styles.switch } handleSwitch={ this.handleClick } />
+            </header>
+          </div>
+        </div>
         <div className={ styles.cardContainer }>
           <div className={ styles['card-plans'] }>
-            <Premium info={ currentPricing } className={ styles.plan }/>
-            <Standard info={ currentPricing } className={ styles.plan }/>
-            <Free info={ currentPricing } className={ styles.plan }/>
+            <PremiumForYou info={ currentPricing } className={ styles.plan }/>
+            <StandardForYou info={ currentPricing } className={ styles.plan }/>
+            <FreeForYou info={ currentPricing } className={ styles.plan }/>
           </div>
         </div>
       </section>

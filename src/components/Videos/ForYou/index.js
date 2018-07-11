@@ -25,7 +25,7 @@ const ForYouVideo = ({ className='', videoImg }) => {
           <Img outerWrapperClassName={ styles.img } fluid={ videoImg.fluid } alt="team video"/>
         </div>
         <div className={ styles.intro }>
-          <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More & Enjoy Watching</Hx>
+          <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More &amp; Enjoy Watching</Hx>
           <Para className={ styles.summary } color={ styles.darkGrey } size="2">ITProTV delivers the IT instruction that you need to advance or launch your IT career in a fun and creative way. With attractive studios and an interactive, talk-show style format, you'll watch more and learn more. See why in this video.</Para>
         </div>
       </div>

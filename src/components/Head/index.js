@@ -14,7 +14,7 @@ const metaData = {
   '/': {
     page: 'home',
     path: '/',
-    title: 'IT Training Courses Online, Video Computer Courses | ITPro.TV',
+    title: 'IT Training Courses Online, Video Computer Courses | ITProTV',
     description: 'Easy to understand IT Training &amp; IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: `${process.env.SELF_URL}`
   },
@@ -42,14 +42,14 @@ const metaData = {
   '/for-teams/': {
     page: 'forTeams',
     path: '/for-teams/',
-    title: 'Corporate IT Training, IT Training for Business | ITPro.TV',
-    description: 'Corporate membership for IT training. Video IT training for businesses.  Easy to understand IT Certification courses online. Engaging videos with expert trainers. Free business demo.',
+    title: 'Corporate IT Training, IT Training for Business | ITProTV',
+    description: 'Corporate membership for IT training. Video IT training for businesses. Easy to understand IT Certification courses online. Engaging videos with expert trainers. Free business demo.',
     canonical: `${process.env.SELF_URL}/for-teams/`
   },
   '/for-you/': {
     page: 'forYou',
     path: '/for-you/',
-    title: 'Learn IT online today | ITPro.TV',
+    title: 'Learn IT online today | ITProTV',
     description: 'Learn IT and get IT certifications. Easy to understand IT Certification courses online. Grow your tech skills. Engaging videos with expert trainers. Start FREE now!',
     canonical: `${process.env.SELF_URL}/for-you/`
   },
@@ -84,22 +84,22 @@ const metaData = {
   '/about/': {
     page: 'about',
     path: '/about/',
-    title: 'About | ITProTV creates engaging learning',
-    description: '',
+    title: 'IT training company in Gainesville, Florida | ITProTV',
+    description: 'See the ITProTV studios, learn the story of the company, see clients ITProTV serves and learn the core values that drive the team.',
     canonical: `${process.env.SELF_URL}/about/`
   },
   '/team/': {
     page: 'team',
     path: '/team/',
-    title: 'ITProTV Team',
-    description: 'Empower your IT team with the IT skills they need with binge-worthy learning from ITProTV',
+    title: 'The team behind ITProTV | ITProTV',
+    description: 'Meet the ITProTV team. Learn more about the leadership of the company and how ITProTV is growing to meet the global demand for IT training. Read about the background of the leaders.',
     canonical: `${process.env.SELF_URL}/team/`
   },
   '/contact/': {
     page: 'contact',
     path: '/contact/',
-    title: 'Contact | ITProTV',
-    description: 'Contact ITProTV',
+    title: 'Support for ITProTV | ITProTV',
+    description: 'Get support for your ITProTV account. See ITProTV office locations. ITProTV phone number and email address. Maps to offices.',
     canonical: `${process.env.SELF_URL}/contact/`
   },
   '/government/': {
@@ -112,15 +112,15 @@ const metaData = {
   '/practice-tests/': {
     page: 'practice-tests',
     path: '/practice-tests/',
-    title: 'Practice Tests | ITProTV',
-    description: '',
+    title: 'Practice tests for IT certifications | ITProTV',
+    description: 'Access Kaplan IT Training (formerly Transcender) practice tests from ITProTV for Microsoft, CompTIA, EC-Council, PMI and more.',
     canonical: `${process.env.SELF_URL}/practice-tests/`
   },
   '/edutainers/': {
     page: 'edutainers',
     path: '/edutainers/',
-    title: 'ITProTV Edutainers',
-    description: 'Meet ITProTV’s Edutainers; the experienced IT professionals who create engaging and entertaining IT training content',
+    title: 'ITProTV Subject Matter Experts - Edutainers | ITProTV',
+    description: 'Meet the ITProTV subject matter experts. Learn more about the edutainers who blend education and entertainment to make learning fun. ITProTV instructor backgrounds.',
     canonical: `${process.env.SELF_URL}/edutainers/`
   },
   '/career-resources/': {
@@ -224,16 +224,9 @@ const metaData = {
   '/vlabs/': {
     page: 'vlabs',
     path: '/vlabs/',
-    title: 'Virtual Practice Lab Environments for ITProTV Members',
-    description: '',
+    title: 'Virtual labs, practice Labs for IT training | ITProTV',
+    description: 'Access virtual labs for hands-on learning of IT. Cloned virtual machine environments to learn IT risk-free.',
     canonical: `${process.env.SELF_URL}/vlabs/`
-  },
-  '/blog/': {
-    page: 'blog',
-    path: '/blog/',
-    title: 'Blog | ITProTV',
-    description: '',
-    canonical: `${process.env.SELF_URL}/blog/`
   },
   '/404': notFoundMetaData
 };

@@ -7,8 +7,25 @@ $breakpoints: (
 
 .plans {
   @extend .col;
+  padding: 0;
 }
 
-.Hero, .Pricing, .Benefits {
-  @extend .row;
+.Hero {
+  @extend .container-fluid;
+  background-color: $color-offblack;
+  background-image: url('Images/pattern_darkpurple.svg');
+  background-position: 50%;
+  padding-top: 9.6rem;
+  padding-bottom: 19rem;
+}
+
+.Pricing, .Benefits {
+  @extend .container;
+}
+
+@include media('<lower-phone') {
+  .Hero {
+    padding-top: 6.1rem;
+    padding-bottom: 13.1rem;
+  }
 }

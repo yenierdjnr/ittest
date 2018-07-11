@@ -1,5 +1,11 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'tablet': $tablet,
+  'lower-phone': $lower-phone
+);
+
 
 .for-you {
   @extend .col;
@@ -7,7 +13,12 @@
 }
 
 .Hero {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-image: url('Images/forYou_hero@1x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Summary {
@@ -15,12 +26,13 @@
 }
 
 .Learn-More {
-  @extend .no-gutters;
+  @extend .container-fluid;
   background-color: $color-offwhite;
 }
 
 .Vendors {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding: 0;
   background-color: #F4F4F7;
 }
 
@@ -29,20 +41,37 @@
 }
 
 .Testimonials {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding: 0;
   @extend .ieHidden;
 }
 
 .Plan {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding: 0;
 }
 
 .For-Teams {
-  @extend .no-gutters;
+  @extend .container-fluid;
+  padding: 0;
+  background-color: #F4F4F7;
 }
 
 @include media('<tablet') {
   .Testimonials {
     display: none;
+  }
+}
+
+@include media('<lower-tablet') {
+  .Hero {
+    padding-top: 6.8rem;
+    padding-bottom: 5.1rem;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .Hero {
+    background-image: url('Images/forYou_hero@2x.jpg');
   }
 }

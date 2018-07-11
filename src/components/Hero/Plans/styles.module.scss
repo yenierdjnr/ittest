@@ -6,14 +6,11 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .col;
-  background-color: $color-offblack;
-  background-image: url('Images/pattern_darkpurple.svg');
-  background-position: 50%;
+  @extend .container;
 }
 
 .intro {
-  padding: 9.6rem 0 19rem;
+  @extend .col-12;
 }
 
 .title {
@@ -28,12 +25,8 @@ $breakpoints: (
 
 
 @include media('<lower-phone') {
-  .intro {
-    padding: 6.1rem 0 13.1rem;
-  }
 
   .title {
-    width: 17rem;
     margin-bottom: 2.7rem;
 
     font-size: 4.8rem;

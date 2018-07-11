@@ -1,11 +1,5 @@
 @import '~Styles/main';
 
-
-$breakpoints: (
-  'tablet': $tablet,
-  'lower-phone': $lower-phone
-);
-
 :export {
   blue: $color-blue-primary;
   darkGreen: $color-green-dark;
@@ -14,12 +8,22 @@ $breakpoints: (
   purple: $color-purple-primary;
 }
 
-.capsule {
-  width: 280px;
-  display: flex;
-  flex-flow: column nowrap;
-  margin-bottom: 2.4rem;
+.capsulePlans {
+  @extend .col-12;
+  @extend .col-md-6;
+  @extend .col-xl-3;
 
+  margin-bottom: 2.4rem;
+}
+
+.capsuleForYou {
+  @extend .col-12;
+  @extend .col-lg-4;
+
+  margin-bottom: 2.4rem;
+}
+
+.planWrap {
   position: relative;
 
   border-radius: 2px;
@@ -33,20 +37,23 @@ $breakpoints: (
 }
 
 .description {
-  // width: 270px;
   height: 30rem;
   padding: 2.4rem 0 3.3rem;
 
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+  // @extend .d-flex;
+  // @extend .flex-nowrap;
+  // @extend .align-items-center;
+
+  // display: flex;
+  // flex-flow: column nowrap;
+  // align-items: center;
 
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   background-color: $color-offwhite;
 }
 .pricing {
-  // width: 270px;
+  margin: 0 auto;
   height: 24rem;
   padding: 2.4rem 0 2.4rem;
 
@@ -72,6 +79,7 @@ $breakpoints: (
 
 .perks {
   width: 18.1rem;
+  margin: 0 auto;
   display: block;
 
   color: $color-grey-dark;
@@ -125,19 +133,4 @@ $breakpoints: (
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-
-@include media('<tablet') {
-  .capsule {
-    width: 34.3rem;
-  }
-  .description {
-  }
-}
-
-@include media('<lower-phone') {
-  .capsule {
-    width: 28.8rem;
-  }
 }
