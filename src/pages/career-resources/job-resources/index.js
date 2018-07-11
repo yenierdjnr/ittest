@@ -15,7 +15,6 @@ const JobResources = ({ data, location }) =>
       </section>
 
       <section className={ styles.Info }>
-        <ITResources itResources={ data.itResources.edges.map((edge) => edge.node) } />
       </section>
 
     </main>
@@ -24,21 +23,21 @@ const JobResources = ({ data, location }) =>
 
 export default JobResources;
 
-export const query = graphql`
-  query ITResourcesQuery {
-      itResources: allItResourcesJson(sort: {order:ASC, fields: [weight]}) {
-        edges {
-          node {
-            itresourcecategory,
-            url,
-            resources {
-              title,
-              description,
-              img,
-              url
-            }
-          }
-        }
-      }
-    }
-`;
+// export const query = graphql`
+//   query ITResourcesQuery {
+//       itResources: allItResourcesJson {
+//         edges {
+//           node {
+//             itresourcecategory,
+//             url,
+//             resources {
+//               title,
+//               description,
+//               img,
+//               url
+//             }
+//           }
+//         }
+//       }
+//     }
+// `;
