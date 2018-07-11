@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import { CoursesHero as Hero } from 'Components/Hero';

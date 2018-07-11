@@ -11,23 +11,23 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
-    // {
-    //   resolve: `gatsby-plugin-google-tagmanager`,
-    //   options: {
-    //     id: `${process.env.GOOGLE_TAG_MGR_ID}`,
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: `${process.env.GOOGLE_TAG_MGR_ID}`,
 
-    //     // Include GTM in development.
-    //     // Defaults to false meaning GTM will only be loaded in production.
-    //     includeInDevelopment: true,
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
 
-    //   // Specify optional GTM environment details.
-    //   // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-    //   // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
-    //   },
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-sitemap'
-    // },
+      // Specify optional GTM environment details.
+      // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
+      // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap'
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

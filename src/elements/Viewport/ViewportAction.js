@@ -7,7 +7,8 @@ class ViewportAction extends PureComponent {
     this.recomputeState = this.recomputeState.bind(this);
     this.state = {
       fired: false
-    }
+    };
+    this.ref = React.createRef();
   }
 
   componentDidMount() {
@@ -28,8 +29,11 @@ class ViewportAction extends PureComponent {
   }
 
 
-  isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
+    isElementInViewport = (el) => {
+        console.log(this.ref);
+        console.log("\n\n\n\n\n\n\n\n\n\n\n");
+        console.log(this);
+    const rect = this.ref.getBoundingClientRect();
     const windowHeight = window.innerHeight || document.documentElement.clientHeight;
     const { threshold } = this.props;
 
@@ -39,7 +43,7 @@ class ViewportAction extends PureComponent {
   }
 
   recomputeState() {
-    if (this.mounted && !this.state.fired && this.isElementInViewport(this.instance)) {
+    if (this.mounted && !this.state.fired && this.isElementInViewport()) {
       this.setState({ fired: true}, this.props.onChange)
     }
   }

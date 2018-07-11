@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
 import { CourseCategoryHero as Hero } from 'Components/Hero';
 import { Course } from 'Elements/Flags';
