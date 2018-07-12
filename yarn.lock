@@ -4500,7 +4500,7 @@ gatsby-link@^2.0.0-beta.4:
     react-lifecycles-compat "^3.0.2"
     ric "^1.3.0"
 
-gatsby-plugin-google-tagmanager@next:
+gatsby-plugin-google-tagmanager@2.0.0-beta.2:
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.0.0-beta.2.tgz#52fe671f0052c8c2d28c287981eb0d2d1d02da3f"
   dependencies:
@@ -4519,7 +4519,7 @@ gatsby-plugin-page-creator@^2.0.0-beta.4:
     parse-filepath "^1.0.1"
     slash "^1.0.0"
 
-gatsby-plugin-react-helmet@next:
+gatsby-plugin-react-helmet@3.0.0-beta.3:
   version "3.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.0.0-beta.3.tgz#916ad68ff19de9d084a35cbda4a32ea88fe4b7e9"
   dependencies:
@@ -4551,7 +4551,7 @@ gatsby-plugin-sharp@^2.0.0-beta.3:
     sharp "^0.20.2"
     svgo "^0.7.2"
 
-gatsby-plugin-sitemap@next:
+gatsby-plugin-sitemap@2.0.0-beta.2:
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.0.0-beta.2.tgz#0c648f9c3aaa04aace916436d7d696435572ac89"
   dependencies:
@@ -4566,7 +4566,7 @@ gatsby-react-router-scroll@^2.0.0-beta.2:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@next:
+gatsby-source-filesystem@2.0.1-beta.3:
   version "2.0.1-beta.3"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.1-beta.3.tgz#757527d0494261b9e1b632539b11049f6e0dde17"
   dependencies:
@@ -4583,14 +4583,14 @@ gatsby-source-filesystem@next:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-json@next:
+gatsby-transformer-json@2.1.1-beta.2:
   version "2.1.1-beta.2"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-json/-/gatsby-transformer-json-2.1.1-beta.2.tgz#67da70644fecefe00ea456bdfcccdfedb56ceea4"
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
     bluebird "^3.5.0"
 
-gatsby-transformer-sharp@next:
+gatsby-transformer-sharp@2.1.1-beta.3:
   version "2.1.1-beta.3"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.1-beta.3.tgz#63e4d5a3997f5fe4f38bdba3a9e5a6d276f606c6"
   dependencies:
