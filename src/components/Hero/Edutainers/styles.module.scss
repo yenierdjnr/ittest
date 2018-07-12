@@ -2,8 +2,6 @@
 
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet,
-  'upper-phablet': $upper-phablet,
   'lower-phone': $lower-phone
 );
 
@@ -13,16 +11,6 @@ $breakpoints: (
   background-image: url('Images/edutainers-group.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-
-@include media('<lower-tablet') {
-
-}
-
-@include media('<upper-phablet') {
-  .title, .subtitle {
-  }
 }
 
 @include media('retina2x', '>lower-phone') {

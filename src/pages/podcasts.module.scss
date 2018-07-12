@@ -1,0 +1,37 @@
+@import '~Styles/main';
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
+);
+
+.podcasts {
+  @extend .col;
+  padding: 0;
+}
+
+.Hero {
+  @extend .container-fluid;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  background-image: url('Images/forTeams_hero@1x.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.PodcastContent {
+  @extend .container;
+}
+
+@include media('<lower-tablet') {
+  .Hero {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .Hero {
+    background-image: url('Images/forTeams_hero@2x.jpg');
+  }
+}

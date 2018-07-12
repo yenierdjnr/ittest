@@ -29,6 +29,9 @@ const FooterMenu = () => {
                 <li className={ styles['page-footer__menu-item'] }>
                   <a href="/career-resources/">career resources</a>
                 </li>
+                <li className={ styles['page-footer__menu-item'] }>
+                  <a href="/podcasts/">podcasts</a>
+                </li>
               </ul>
             </nav>
             <nav className={ styles['page-footer__menu'] }>

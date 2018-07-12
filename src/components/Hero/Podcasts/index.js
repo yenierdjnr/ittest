@@ -8,11 +8,12 @@ import {
 } from './styles.module.scss';
 
 
-const PrivacyPolicy = ({ className='' }) => {
+const PodcastHero = ({ className='' }) => {
   return (
+    
     <section className={ capsule }>
       <div className={ intro }>
-        <Hx size="1" className={ title }>Privacy Policy</Hx>
+        <Hx size="1" className={ title }>IT Podcasts</Hx>
       </div>
     </section>
 
@@ -20,4 +21,4 @@ const PrivacyPolicy = ({ className='' }) => {
 };
 
 
-export default PrivacyPolicy;
+export default PodcastHero;

@@ -228,6 +228,13 @@ const metaData = {
     description: 'Access virtual labs for hands-on learning of IT. Cloned virtual machine environments to learn IT risk-free.',
     canonical: `${process.env.SELF_URL}/vlabs/`
   },
+  '/podcasts/': {
+    page: 'podcasts',
+    path: '/podcasts/',
+    title: 'IT Podcasts – Technado, Ask SME Anything | ITProTV',
+    description: 'IT podcasts for IT professionals. Stay up to date on tech news and get answers to your IT questions from IT professionals who are experts.',
+    canonical: `${process.env.SELF_URL}/podcasts/`
+  },
   '/404': notFoundMetaData
 };
 
