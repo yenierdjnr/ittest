@@ -1,32 +1,52 @@
 @import '~Styles/main';
 
+:export {
+  offBlack: $color-offblack;
+}
 
 $breakpoints: (
-  'lower-tablet': $lower-tablet
+  'tablet': $tablet
 );
 
-.intro {
-  @extend .row;
-  color: $color-white;
-  text-align: center;
+.container {
+  @extend .container;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  @extend .col-12;
+  @extend .col-md-5;
 }
 
 .title {
-  @extend .col-12;
-  margin-bottom: 2rem;
-  text-align: center;
+  margin-bottom: 1rem;
 }
 
+.subtext {
+  @extend .col-12;
+  @extend .col-md-7;
+  @extend .align-self-center;
+}
 
-@include media('<lower-tablet') {
-  .capsule {
-    padding-top: 5.6rem;
-    padding-bottom: 5.9rem;
-  }
+.imgLogo {
+  max-width: 400px;
+  @extend .justify-content-center;
+}
 
+.row {
+  @extend .row;
+}
+
+@include media('<tablet') {
   .title {
-    font-size: 3rem;
-    line-height: 3.7rem;
-    margin-bottom: 1.6rem;
+    font-size: 5rem;
+    line-height: 4.8rem;
+  }
+  .imgLogo {
+    max-width: 350px;
+    margin-top: 3rem;
+  }
+  .container {
+    margin-bottom: 0;
   }
 }

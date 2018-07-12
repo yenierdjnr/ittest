@@ -1,7 +1,7 @@
 @import '~Styles/main';
 
 :export {
-  headingColor: $color-offblack;
+  offBlack: $color-offblack;
   darkGrey: $color-grey-dark;
   orangePrimary: $color-orange-primary;
 }
@@ -14,15 +14,49 @@ a {
   color: $color-offblack;
 }
 
+.container {
+  @extend .container;
+  margin-bottom: 1rem;
+}
+
+.colorContainer {
+  background-color: #f4f3f8;
+}
+
+.wrapper {
+  @extend .container;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: -1rem;
+}
+
+.logo {
+  @extend .col-12;
+  @extend .col-md-4;
+}
+
+.subtext {
+  @extend .col-12;
+  @extend .col-md-8;
+  @extend .align-self-center;
+}
+
+.header {
+  margin-top: 5rem;
+}
+
 .row {
   @extend .row;
+}
+
+.centerCol {
+  @extend .col-lg-2;
 }
 
 .cols {
   margin: 3rem 0;
   @extend .col-12;
   @extend .col-lg-5;
-  @extend .offset-lg-1;
 }
 
 .title {
@@ -35,10 +69,10 @@ a {
 }
 
 .img {
-  max-width: 150px;
+  max-width: 200px;
   float: left;
   margin-right: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .summary {

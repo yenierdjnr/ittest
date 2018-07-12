@@ -13,13 +13,13 @@ $breakpoints: (
   @extend .container-fluid;
   padding-top: 8rem;
   padding-bottom: 7.5rem;
-  background-color: $color-offblack;
-  background-image: url('Images/pattern_darkpurple.svg');
+  background-color: $color-offwhite;
+  background-image: url('Images/pattern_lightgray.svg');
   background-position: 50%;
 }
 
 .WebinarContent {
-  @extend .container;
+  @extend .container-fluid;
   padding: 0;
 }
 
