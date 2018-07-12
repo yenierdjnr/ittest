@@ -244,13 +244,6 @@ class Head extends Component {
     super(props);
   }
 
-
-  renderAnimationScripts = () => [
-    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js') } />,
-    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Exams_1.hyperesources/itpexams1_hype_generated_script.js') } />,
-    <script key="1" type="text/javascript" src={ withPrefix('animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js') } />
-  ];
-
   render() {
     const { location } = this.props;
     const { title, description, canonical } = getRenderMetaData(location.pathname);
@@ -286,11 +279,6 @@ class Head extends Component {
 
         <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
         <link rel="canonical" href={ canonical } />
-
-        {location.pathname === '/'
-          ? this.renderAnimationScripts()
-          : null
-        }
 
       </Helmet>
     );
