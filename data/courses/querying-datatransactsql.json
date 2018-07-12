@@ -1,0 +1,499 @@
+{
+  "description": "This course introduces viewers to Microsoft Transact-SQL, the language used to input and retrieve data from Microsoft SQL servers. The series is designed for viewers of all experience levels as it walks through running your very first query all the way through crafting advanced server-side stored procedures.",
+  "descriptionMD": "This course introduces viewers to Microsoft Transact-SQL, the language used to input and retrieve data from Microsoft SQL servers. The series is designed for viewers of all experience levels as it walks through running your very first query all the way through crafting advanced server-side stored procedures.",
+  "length": "67089",
+  "name": "Microsoft SQL Server 2016: Querying Data with Transact-SQL - 70-761",
+  "practiceExam": true,
+  "subtitle": "Microsoft SQL Server 2016",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course introduces viewers to Microsoft Transact-SQL, the language used to input and retrieve data from Microsoft SQL servers. The series is designed for viewers of all experience levels as it walks through running your very first query all the way through crafting advanced server-side stored procedures.",
+          "length": "496",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-0-0-0-overivew-111317-PGM.00_00_05_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-0-0-0-overivew-111317-PGM.00_00_05_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-0-0-0-overivew-111317-PGM.00_00_05_15.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.386\n[MUSIC]\n\n2\n00:00:03.386 --> 00:00:07.822\n[SOUND] Hello, thank you for\nchoosing ITProTV.\n\n3\n00:00:07.822 --> 00:00:13.240\nWe're talking about Querying Data\nwith Transact-SQL, with Don Pezet.\n\n4\n00:00:13.240 --> 00:00:15.580\nDon, tell us about Transact-SQL.\n\n5\n00:00:15.580 --> 00:00:16.830\nSo Transact-SQL,\n\n6\n00:00:16.830 --> 00:00:20.810\nit's actually an abbreviation for\nTransact Structured Query Language.\n\n7\n00:00:20.810 --> 00:00:23.400\nIt is a language that we\nuse to talk to databases.\n\n8\n00:00:23.400 --> 00:00:25.940\nSo if you have a relational database,\n\n9\n00:00:25.940 --> 00:00:27.480\nthere's a ton of great\ninformation in there.\n\n10\n00:00:27.480 --> 00:00:29.190\nYou have to be able to get it out.\n\n11\n00:00:29.190 --> 00:00:32.330\nAnd one of the most common ways\nto do that is through SQL, or\n\n12\n00:00:32.330 --> 00:00:33.890\nthe Structured Query Language.\n\n13\n00:00:33.890 --> 00:00:38.740\nWell, Transact-SQL is Microsoft's\nimplementation of SQL.\n\n14\n00:00:38.740 --> 00:00:40.750\nAnd it's what they use on\ntheir server products.\n\n15\n00:00:40.750 --> 00:00:45.662\nSo if you're using Microsoft SQL Server,\nwell, really, all the way back, or a long\n\n16\n00:00:45.662 --> 00:00:48.190\ntime, since their earliest versions of SQL\nServer, but all the way to the newer ones\n\n17\n00:00:48.190 --> 00:00:50.935\nlike 2016, which is what we're\ngonna be using here in this show.\n\n18\n00:00:50.935 --> 00:00:55.580\nTransact-SQL is how you're going to\ntalk to that server, so in this series,\n\n19\n00:00:55.580 --> 00:00:57.360\nthat's one of the things that\nwe're going to learn is,\n\n20\n00:00:57.360 --> 00:01:01.110\nif I've got a Microsoft SQL Server 2016,\nHow do I talk to it?\n\n21\n00:01:01.110 --> 00:01:04.760\nNow the cool part is that most\nof this is standards based, so\n\n22\n00:01:04.760 --> 00:01:10.630\nwhat you learn in this series can apply\nto SQL 2014, SQL 2012, SQL 2000, SQL 6.\n\n23\n00:01:10.630 --> 00:01:12.470\nI mean, it just goes way, way back.\n\n24\n00:01:12.470 --> 00:01:16.290\nThese languages, they haven't changed\nall that much in all these years.\n\n25\n00:01:16.290 --> 00:01:19.337\nNow, the way the databases optimized\ntheir performance, the way they work.\n\n26\n00:01:19.337 --> 00:01:22.415\nThe volumes of data that they can handle,\nhave gotten much larger and\n\n27\n00:01:22.415 --> 00:01:23.840\nevolved quite a bit.\n\n28\n00:01:23.840 --> 00:01:26.040\nBut by having a standard language,\n\n29\n00:01:26.040 --> 00:01:28.020\nit gives us the ability\nto do something awesome.\n\n30\n00:01:28.020 --> 00:01:32.130\nWhich is to learn how to talk to the\ndatabase service in a consistent manner.\n\n31\n00:01:32.130 --> 00:01:34.210\nAnd that's what this course is all about.\n\n32\n00:01:34.210 --> 00:01:36.037\n&gt;&gt; You already got me excited\nabout the whole thing, but\n\n33\n00:01:36.037 --> 00:01:37.850\nwho is this show targeted towards?\n\n34\n00:01:37.850 --> 00:01:39.010\n&gt;&gt; All right, well,\n\n35\n00:01:39.010 --> 00:01:44.110\nit's really targeted to anybody who\nneeds to get data out of the database.\n\n36\n00:01:44.110 --> 00:01:46.218\nNow, I could kinda trim\nthat down a little bit,\n\n37\n00:01:46.218 --> 00:01:48.410\nlike if you don't really\ncare about database.\n\n38\n00:01:48.410 --> 00:01:52.213\nYou just want the data, there's plenty of\nthird party graphic utilities you can use.\n\n39\n00:01:52.213 --> 00:01:55.395\nThere's things like Microsoft Access\nthat gives you a little Wizard that\n\n40\n00:01:55.395 --> 00:01:58.250\nyou can walk through, but\nif you're trying to go to scale.\n\n41\n00:01:58.250 --> 00:02:01.390\nIf you're trying to be able to handle\nany kind of high volume transactions.\n\n42\n00:02:01.390 --> 00:02:05.510\nThose hand holding type programs,\nthey don't work.\n\n43\n00:02:05.510 --> 00:02:08.990\nWe actually have to get in and\ntalk to the database server.\n\n44\n00:02:08.990 --> 00:02:12.410\nBe able to get that information and\nput information in, and\n\n45\n00:02:12.410 --> 00:02:13.960\nthat's where SQL comes in.\n\n46\n00:02:13.960 --> 00:02:17.550\nSo if your job responsibility involves\nthat, this is what you want to learn.\n\n47\n00:02:17.550 --> 00:02:20.170\nNow what types of jobs would do that,\ndevelopers.\n\n48\n00:02:20.170 --> 00:02:23.740\nDevelopers often times have to store data\nfor their applications in a database.\n\n49\n00:02:23.740 --> 00:02:25.230\nAnd be able to get the data back out for\n\n50\n00:02:25.230 --> 00:02:28.570\ntheir application uses,\nso they need to know SQL.\n\n51\n00:02:28.570 --> 00:02:33.410\nWe also have DevOps, people that\nare standing up their own database server,\n\n52\n00:02:33.410 --> 00:02:34.070\nright?\n\n53\n00:02:34.070 --> 00:02:36.000\nThey still need to be able to talk to it.\n\n54\n00:02:36.000 --> 00:02:37.710\nWe also have system administrators.\n\n55\n00:02:37.710 --> 00:02:39.857\nIf you're a system administrator and\nyou're responsible for\n\n56\n00:02:39.857 --> 00:02:40.755\nstanding up a SQL Server.\n\n57\n00:02:40.755 --> 00:02:43.103\nWell, some people just have\nto install the server and\n\n58\n00:02:43.103 --> 00:02:45.910\nthen they turn it over to the dev team and\nthat's it.\n\n59\n00:02:45.910 --> 00:02:48.730\nBut more often than not,\nwe're gonna need to be able to monitor and\n\n60\n00:02:48.730 --> 00:02:49.870\nmaintain that database.\n\n61\n00:02:49.870 --> 00:02:52.720\nAnd the way we do that is\nby querying against it.\n\n62\n00:02:52.720 --> 00:02:54.470\nSending it commands,\nseeing how it responds,\n\n63\n00:02:54.470 --> 00:02:56.220\nthat's how we know it's up and active.\n\n64\n00:02:56.220 --> 00:02:58.270\nJust because the server's powered\non doesn't mean it's working.\n\n65\n00:02:58.270 --> 00:03:01.900\nWe need to know,\ncan I actually get data out of it?\n\n66\n00:03:01.900 --> 00:03:06.080\nSo if you fall into any of those roles,\ndeveloper, DevOps, system administrator.\n\n67\n00:03:06.080 --> 00:03:09.930\nOr just somebody who wants to learn\nmore about the way the databases work.\n\n68\n00:03:09.930 --> 00:03:13.612\nLearning SQL is a great way to find\nout how to talk to talk to it.\n\n69\n00:03:13.612 --> 00:03:15.103\nAnd learning Transact-SQL,\n\n70\n00:03:15.103 --> 00:03:18.185\nis a great way to learn how to\ntalk to Microsoft's SQL Servers.\n\n71\n00:03:18.185 --> 00:03:21.070\n&gt;&gt; Wow, that sounds fantastic, is there\na certification available for the show?\n\n72\n00:03:21.070 --> 00:03:25.260\n&gt;&gt; Absolutely this is actually\nthe first step in becoming like\n\n73\n00:03:25.260 --> 00:03:27.100\na Microsoft Certified SQL Engineer.\n\n74\n00:03:27.100 --> 00:03:30.360\nSo the first certification that we\nstart with is called the MCSA, and\n\n75\n00:03:30.360 --> 00:03:32.470\nI've got Microsoft's page pulled up here.\n\n76\n00:03:32.470 --> 00:03:35.930\nThe MCSA for SQL Server 2016,\nif you look at it.\n\n77\n00:03:35.930 --> 00:03:39.630\nThe very first course in that journey\nis right here, course number one.\n\n78\n00:03:39.630 --> 00:03:44.860\nIt's exam 70-761, and\nthat's what our show is being based on.\n\n79\n00:03:44.860 --> 00:03:48.120\nSo, in this show we're going to cover\neach of the topics that are a part of\n\n80\n00:03:48.120 --> 00:03:49.150\nthat exam.\n\n81\n00:03:49.150 --> 00:03:52.080\nSo that we can learn what we\nneed to know to go and pass it.\n\n82\n00:03:52.080 --> 00:03:54.986\nNow, by itself, that's not enough, but\n\n83\n00:03:54.986 --> 00:03:59.763\nif you complete the next course or\nnext exam, the 70-762 exam.\n\n84\n00:03:59.763 --> 00:04:05.620\nWhen you pas both of those,\nyou get your MCSA in SQL Server 2016.\n\n85\n00:04:05.620 --> 00:04:08.860\nAnd from there you can even move on and\nthere's an MCSE that you can get.\n\n86\n00:04:08.860 --> 00:04:10.810\nAnd there's several specializations for\n\n87\n00:04:10.810 --> 00:04:13.290\nbig data and cloud databases,\nand all of that.\n\n88\n00:04:13.290 --> 00:04:17.764\nBut they all start right here\nwith this one, with this show,\n\n89\n00:04:17.764 --> 00:04:21.560\n70-761, which is for SQL Server 2016.\n\n90\n00:04:21.560 --> 00:04:24.510\nBe aware that there are other ones for\nthe previous versions,\n\n91\n00:04:24.510 --> 00:04:26.445\nlike SQL Server 2012 and 2014.\n\n92\n00:04:26.445 --> 00:04:31.021\nThey shared a different exam, 70-741,\nif that's the one you're looking for.\n\n93\n00:04:31.021 --> 00:04:32.675\nWell, we have a whole\nseparate show film for\n\n94\n00:04:32.675 --> 00:04:34.650\nthat because there's\na different user interface.\n\n95\n00:04:34.650 --> 00:04:38.130\nThings look different, so\nwe filmed it specifically for that.\n\n96\n00:04:38.130 --> 00:04:39.830\nHere though, things look different enough,\n\n97\n00:04:39.830 --> 00:04:42.590\nthat we actually got the dedicated\ncourse specifically for it.\n\n98\n00:04:42.590 --> 00:04:44.471\nAnd that's exactly what\nwe're gonna be learning.\n\n99\n00:04:44.471 --> 00:04:48.130\n&gt;&gt; A good IT pro is always learning, and\nwhat topics are covered in this show?\n\n100\n00:04:48.130 --> 00:04:51.450\nAlright, well, it really all starts kinda,\nfrom a beginner's perspective.\n\n101\n00:04:51.450 --> 00:04:55.840\nSo what is Transact-SQL, what does it\nlook like, how do I type in the commands?\n\n102\n00:04:55.840 --> 00:04:58.280\nAnd then,\nonce I know how to input commands,\n\n103\n00:04:58.280 --> 00:05:01.190\nwhat are the commands to even use?\n\n104\n00:05:01.190 --> 00:05:04.043\nAnd if we drill into that exam,\nlet me pull it up here.\n\n105\n00:05:04.043 --> 00:05:06.104\nSo I'm going to pull up\nthat 70-761 exam and\n\n106\n00:05:06.104 --> 00:05:08.590\nI'll pull up the details\nhere from Microsoft.\n\n107\n00:05:08.590 --> 00:05:10.740\nThey basically divide\nthings into three areas,\n\n108\n00:05:10.740 --> 00:05:13.640\nnow in the show we divided\nit up into a lot more areas.\n\n109\n00:05:13.640 --> 00:05:16.460\nBecause this is, it's a lot to take\nin just in three chunks, right?\n\n110\n00:05:16.460 --> 00:05:19.900\nSo I think we actually divide it into,\nI can't remember, like 10 or\n\n111\n00:05:19.900 --> 00:05:21.080\n11 different areas.\n\n112\n00:05:21.080 --> 00:05:22.030\nBut when you look inside,\n\n113\n00:05:22.030 --> 00:05:24.340\nfirst off we start with Managing\ndata with Transact-SQL.\n\n114\n00:05:24.340 --> 00:05:26.850\nNotice that that's almost half the exam.\n\n115\n00:05:26.850 --> 00:05:30.210\nA large part of the exam is based,\njust on managing that data.\n\n116\n00:05:30.210 --> 00:05:32.320\nActually interacting\nwith the database server,\n\n117\n00:05:32.320 --> 00:05:34.790\nwhat Transact SQL is all about, right?\n\n118\n00:05:34.790 --> 00:05:38.120\nAnd if you break that apart you'll see\nit's things like using SELECT queries.\n\n119\n00:05:38.120 --> 00:05:40.414\nWhich are the most\ncommon types of queries,\n\n120\n00:05:40.414 --> 00:05:43.339\nthat's how we request\ninformation from the database.\n\n121\n00:05:43.339 --> 00:05:46.108\nHow we combine data between\ntables using joins,\n\n122\n00:05:46.108 --> 00:05:48.610\nhow we aggregate data using functions.\n\n123\n00:05:48.610 --> 00:05:51.460\nThat's all interacting with the database.\n\n124\n00:05:51.460 --> 00:05:55.900\nThen we get into doing advanced queries,\nthese are queries that not everybody uses.\n\n125\n00:05:55.900 --> 00:05:59.080\nThe ones up here in the first section,\neverybody uses these.\n\n126\n00:05:59.080 --> 00:06:01.710\nYou use these everyday,\njust going to a website,\n\n127\n00:06:01.710 --> 00:06:03.885\ncoming to our website and\nclicking on the course library.\n\n128\n00:06:03.885 --> 00:06:05.370\nYou're running these queries\nin the background and\n\n129\n00:06:05.370 --> 00:06:06.210\nyou don't even know it, right?\n\n130\n00:06:06.210 --> 00:06:10.060\nThese happen everyday, the advance\nqueries aren't in every day things.\n\n131\n00:06:10.060 --> 00:06:11.820\nThese are more like an edge case or\n\n132\n00:06:11.820 --> 00:06:15.660\na corner case, where you can actually\nget some great benefits by using these.\n\n133\n00:06:15.660 --> 00:06:18.510\nDoing things like grouping sets,\nand pivots, and unpivots.\n\n134\n00:06:18.510 --> 00:06:22.168\nSo you can change the data that you're\ngetting back from the database servers.\n\n135\n00:06:22.168 --> 00:06:24.820\nSo we'll get a chance to see that, that\nmakes up a smaller portion of the exam.\n\n136\n00:06:24.820 --> 00:06:28.070\nAnd then the smallest portion\nis right down here at the end,\n\n137\n00:06:28.070 --> 00:06:31.350\nprogramming databases\nby using Transact SQL.\n\n138\n00:06:31.350 --> 00:06:34.590\nIf you're given access to a SQL Server,\nit has nothing on it.\n\n139\n00:06:34.590 --> 00:06:38.900\nIt doesn't have a database, has no tables,\nhow do you get that set up?\n\n140\n00:06:38.900 --> 00:06:41.410\nSo we focus on the infrastructure side,\nhow do I create the database?\n\n141\n00:06:41.410 --> 00:06:44.280\nHow do I create the tables,\nhow do I deal with data types.\n\n142\n00:06:44.280 --> 00:06:47.150\nAnd actually work with that information,\ninside of those tables?\n\n143\n00:06:47.150 --> 00:06:51.350\nUntil we run through that process of being\nable to maintain the integrity of our data\n\n144\n00:06:51.350 --> 00:06:52.340\non the server.\n\n145\n00:06:52.340 --> 00:06:55.190\nIt's a great way to see some of\nthe neat tools that are a part\n\n146\n00:06:55.190 --> 00:06:56.220\nof Microsoft SQL Server.\n\n147\n00:06:56.220 --> 00:06:58.875\nThat set it apart from other\ncompetitors that are out there.\n\n148\n00:06:58.875 --> 00:07:00.749\nSo that's kind of a rundown of it,\n\n149\n00:07:00.749 --> 00:07:04.703\nnow do be aware that this last section\nhere where programing databases.\n\n150\n00:07:04.703 --> 00:07:07.830\nIt's not as super-crazy in depth,\nthat if you're not a developer,\n\n151\n00:07:07.830 --> 00:07:08.890\ndon't worry, right?\n\n152\n00:07:08.890 --> 00:07:11.230\nIt's something that everybody can tackle.\n\n153\n00:07:11.230 --> 00:07:15.073\nThere's actually another course,\nif we look down the little list here.\n\n154\n00:07:15.073 --> 00:07:18.130\nYou'll see this,\nProvisioning SQL Databases.\n\n155\n00:07:18.130 --> 00:07:22.730\nAnd that goes far more in-depth,\ninto all the different case scenarios for\n\n156\n00:07:22.730 --> 00:07:23.670\ndeploying a database.\n\n157\n00:07:23.670 --> 00:07:26.570\nLike doing it in the cloud or\nlocally or with replication, and\n\n158\n00:07:26.570 --> 00:07:28.300\nall these other crazy solutions.\n\n159\n00:07:28.300 --> 00:07:30.970\nAnd there is another course\nthat's out there, this one.\n\n160\n00:07:30.970 --> 00:07:34.970\nDeveloping SQL Data Models, and\nImplementing a SQL Data Warehouse.\n\n161\n00:07:34.970 --> 00:07:40.474\nThose two as well go far more in-depth,\nin how to get things set up.\n\n162\n00:07:40.474 --> 00:07:43.400\nSo here in 70-761 we're really\nfocusing on the bare minimum.\n\n163\n00:07:43.400 --> 00:07:45.724\nWhat's the minimum it takes to\nget a database up and running?\n\n164\n00:07:45.724 --> 00:07:48.830\nAnd to get a table in place and\nto be able to share some data with it?\n\n165\n00:07:48.830 --> 00:07:51.200\nBut those are the topics that we're\ngonna be covering as we move the course.\n\n166\n00:07:51.200 --> 00:07:54.610\nSo by the time we're done, you'll be\nable to complete each of these tasks.\n\n167\n00:07:54.610 --> 00:07:57.593\n&gt;&gt; Fantastic, well, if this sounds like\nsomething you'd be interested in, and\n\n168\n00:07:57.593 --> 00:07:58.134\nit should be.\n\n169\n00:07:58.134 --> 00:08:01.750\nThen Querying Data with\nTransact-SQL is for you.\n\n170\n00:08:01.750 --> 00:08:05.502\nSo make sure you catch every single\nepisode, and thanks for watching ITProTV.\n\n171\n00:08:05.502 --> 00:08:10.513\n[SOUND]\n\n",
+          "url": "overview-70761",
+          "vimeoId": "242964325"
+        },
+        {
+          "description": "In this episode, Don provides the viewers with background on Transact-SQL and the differences between it and the ANSI standard Structured Query Language (SQL). He also introduces the three categories of T-SQL statements that will be explored throughout the remainder of the series.",
+          "length": "1134",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-1-introduction_to_transact_sql-111317-PGM.00_18_41_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-1-introduction_to_transact_sql-111317-PGM.00_18_41_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-1-introduction_to_transact_sql-111317-PGM.00_18_41_11.Still001-sm.jpg",
+          "title": "Introduction to Transact-SQL",
+          "transcript": "",
+          "url": "introductiontransactsql",
+          "vimeoId": "242963954"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to use the Microsoft SQL Server Management Studio (SSMS) to issue T-SQL queries against a server. He shows how to install the SSMS and get it connected to a database. He also highlights some of the benefits of using the SSMS like IntelliSense syntax highlighting and autocomplete.",
+          "length": "1908",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-2-introduction_to_transact_sql_pt2-111417-PGM.00_31_34_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-2-introduction_to_transact_sql_pt2-111417-PGM.00_31_34_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-1-2-introduction_to_transact_sql_pt2-111417-PGM.00_31_34_02.Still001-sm.jpg",
+          "title": "Introduction to Transact-SQL Part 2",
+          "transcript": "",
+          "url": "introductiontransactsql2",
+          "vimeoId": "242963341"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the SELECT statement. He demonstrates how to retrieve data from a SQL database using SELECT, and then shows how to use the WHERE clause to refine the results",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-1-retrieving_data_with_select-111317-PGM.00_26_06_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-1-retrieving_data_with_select-111317-PGM.00_26_06_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-1-retrieving_data_with_select-111317-PGM.00_26_06_14.Still001-sm.jpg",
+          "title": "Retrieving Data with SELECT",
+          "transcript": "",
+          "url": "retrieving-dataselect",
+          "vimeoId": "242962869"
+        },
+        {
+          "description": "In this episode, Don continues demonstrating how to use the SELECT statement to retrieve data from a SQL server. He expands upon part 1 by demonstrating how to use ORDER BY, UNION and DISTINCT to further refine the results of a SELECT query.",
+          "length": "1437",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-2-retrieving_data_with_select_pt2-111417-PGM.00_25_34_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-2-retrieving_data_with_select_pt2-111417-PGM.00_25_34_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-2-2-retrieving_data_with_select_pt2-111417-PGM.00_25_34_28.Still001-sm.jpg",
+          "title": "Retrieving Data with SELECT Part 2",
+          "transcript": "",
+          "url": "retrieving-dataselect2",
+          "vimeoId": "242961954"
+        },
+        {
+          "description": "In this episode, Don explains how to combine results from more than one table by using the JOIN clause. He demonstrates the basic operation of JOIN and then explains some methods to help simplify the SELECT query and make it more manageable.",
+          "length": "1779",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-1-combining_results_with_join-111417-PGM.00_31_20_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-1-combining_results_with_join-111417-PGM.00_31_20_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-1-combining_results_with_join-111417-PGM.00_31_20_08.Still001-sm.jpg",
+          "title": "Combining Results with JOIN",
+          "transcript": "",
+          "url": "combining-resultsjoin",
+          "vimeoId": "242962353"
+        },
+        {
+          "description": "In this episode, Don continues explaining how the JOIN clause can be used to generate results from multiple tables. He builds on part 1 by discussing other types of JOIN clauses that can be performed. He explains and demonstrates how to use INNER JOIN and three different types of OUTER JOIN.",
+          "length": "1973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-2-combining_results_with_join_pt2-111517-PGM.00_34_25_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-2-combining_results_with_join_pt2-111517-PGM.00_34_25_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-2-combining_results_with_join_pt2-111517-PGM.00_34_25_27.Still001-sm.jpg",
+          "title": "Combining Results with JOIN Part 2",
+          "transcript": "",
+          "url": "combining-resultsjoin2",
+          "vimeoId": "243363606"
+        },
+        {
+          "description": "In this episode, Don wraps up discussing how to use the JOIN clause to combine results from multiple tables. He builds on part 1 and part 2 by explaining how multiple JOIN clauses can be nested together and that you can even perform a JOIN between a table and itself.",
+          "length": "2125",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-3-combining_results_with_join_pt3-111717.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-3-combining_results_with_join_pt3-111717-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-1-3-3-combining_results_with_join_pt3-111717-sm.jpg",
+          "title": "Combining Results with JOIN Part 3",
+          "transcript": "",
+          "url": "combining-resultsjoin3",
+          "vimeoId": "243683674"
+        }
+      ],
+      "title": "Querying Data with T-SQL"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains how to add data to a table in SQL by using the INSERT statement. He demonstrates adding a single record, and explains a few methods for adding multiple records at the same time.",
+          "length": "1204",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-1-1-adding_data_with_insert-111717-PGM.00_25_36_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-1-1-adding_data_with_insert-111717-PGM.00_25_36_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-1-1-adding_data_with_insert-111717-PGM.00_25_36_11.Still001-sm.jpg",
+          "title": "Adding Data with INSERT",
+          "transcript": "",
+          "url": "adding-datainsert",
+          "vimeoId": "243683283"
+        },
+        {
+          "description": "In this episode, Don explains how to modify data in a SQL database table by using the UPDATE statement. He demonstrates modifying a single record, and explains a few methods for modifying multiple records at the same time. He ends the show by explaining a common mistake that can lead to data loss.",
+          "length": "1193",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-2-1-changing_data_with_update-111717-PGM.00_27_57_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-2-1-changing_data_with_update-111717-PGM.00_27_57_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-2-1-changing_data_with_update-111717-PGM.00_27_57_01.Still001-sm.jpg",
+          "title": "Changing Data with UPDATE",
+          "transcript": "",
+          "url": "changing-dataupdate",
+          "vimeoId": "243683479"
+        },
+        {
+          "description": "In this episode, Don explains how to remove data from a SQL database table by using the DELETE statement. First, he demonstrates deleting a single value by using the UPDATE statement. Next, he demonstrates deleting a single record, and explains a few methods for deleting multiple records at the same time. He ends the show by explaining a common mistake that can lead to data loss.",
+          "length": "1117",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-3-1-removing_data_with_delete-112017-PGM.00_18_24_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-3-1-removing_data_with_delete-112017-PGM.00_18_24_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-3-1-removing_data_with_delete-112017-PGM.00_18_24_08.Still001-sm.jpg",
+          "title": "Removing Data with DELETE",
+          "transcript": "",
+          "url": "removing-datadelete",
+          "vimeoId": "243915263"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the OUTPUT clause. He demonstrates how to use the OUTPUT clause to get better result feedback from SQL server, and he also demonstrates how the OUTPUT clause can be used for backup and auditing purposes.",
+          "length": "2075",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-4-1-recording_changes_with_output-112017-PGM.00_34_22_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-4-1-recording_changes_with_output-112017-PGM.00_34_22_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-2-4-1-recording_changes_with_output-112017-PGM.00_34_22_21.Still001-sm.jpg",
+          "title": "Recording Changes with OUTPUT",
+          "transcript": "",
+          "url": "recording-changesoutput",
+          "vimeoId": "243914951"
+        }
+      ],
+      "title": "Modifying Data with T-SQL"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don introduces the viewers to SQL functions. He begins by demonstrating some simple functions and explains how to use more advanced functions that require input parameters.",
+          "length": "1649",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-1-querying_data_with_functions-112817-PGM.00_28_20_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-1-querying_data_with_functions-112817-PGM.00_28_20_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-1-querying_data_with_functions-112817-PGM.00_28_20_21.Still001-sm.jpg",
+          "title": "Querying Data with Functions",
+          "transcript": "",
+          "url": "querying-datafunctions",
+          "vimeoId": "245016305"
+        },
+        {
+          "description": "In this episode, Don continues exploring functions in Transact-SQL. He explains some of the variations found between functions. Examples include scalar vs table-valued functions as well as deterministic vs non-deterministic functions",
+          "length": "982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-2-querying_data_with_functions_pt2-112817-PGM.00_17_55_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-2-querying_data_with_functions_pt2-112817-PGM.00_17_55_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-1-2-querying_data_with_functions_pt2-112817-PGM.00_17_55_11.Still001-sm.jpg",
+          "title": "Querying Data with Functions Part 2",
+          "transcript": "",
+          "url": "querying-datafunctions2",
+          "vimeoId": "245015279"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to combine multiple results together in order to meet the needs of your organization. He shows how to use the GROUP BY and HAVING clauses to aggregate results into a smaller data set.",
+          "length": "2040",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-2-1-aggregating_data-112817-PGM.00_34_53_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-2-1-aggregating_data-112817-PGM.00_34_53_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-2-1-aggregating_data-112817-PGM.00_34_53_08.Still001-sm.jpg",
+          "title": "Aggregating Data",
+          "transcript": "",
+          "url": "aggregating-data",
+          "vimeoId": "245013906"
+        },
+        {
+          "description": "In this episode, Don continues working with functions in Transact-SQL. This time, he focuses on performing arithmetic by making use of the numerous matehmatical functions included with T-SQL.",
+          "length": "1354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-3-1-performing_arithmetic-112917-PGM.00_25_11_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-3-1-performing_arithmetic-112917-PGM.00_25_11_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-3-1-performing_arithmetic-112917-PGM.00_25_11_19.Still001-sm.jpg",
+          "title": "Performing Arithmetic",
+          "transcript": "",
+          "url": "performing-arithmetic-sql70761",
+          "vimeoId": "245248884"
+        },
+        {
+          "description": "In this episode, Don examins how Transact-SQL handles dates. He demontrates multiple ways to retrieve the current date and time from a SQL server. He then demonstrates a series of functions that can be used to modify the date to support your queries.",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-4-1-working_with_dates-112917-PGM.00_30_09_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-4-1-working_with_dates-112917-PGM.00_30_09_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-4-1-working_with_dates-112917-PGM.00_30_09_23.Still001-sm.jpg",
+          "title": "Working with Dates",
+          "transcript": "",
+          "url": "dates-sql70761",
+          "vimeoId": "245249890"
+        },
+        {
+          "description": "In this episode, Don wraps up the series on functions by examining some of the system functions built into Microsoft SQL server. He explains how user and session data can be retrieved and then demonstrates how to combine that data with the OUTPUT clause to create a better logging and auditing solution.",
+          "length": "1713",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-5-1-system_functions-112917-PGM.00_28_19_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-5-1-system_functions-112917-PGM.00_28_19_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-3-5-1-system_functions-112917-PGM.00_28_19_17.Still001-sm.jpg",
+          "title": "System Functions",
+          "transcript": "",
+          "url": "system-functions-sql70761",
+          "vimeoId": "245250429"
+        }
+      ],
+      "title": "Working with Functions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don introduces the viewers to SQL data types. He explains what data types do and then walks the viewers through several of the default data types found in Microsoft SQL Server. He ends the show by demonstrating how data types can support and interfere with your queries.",
+          "length": "1935",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-1-data_types-121117-PGM.00_32_02_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-1-data_types-121117-PGM.00_32_02_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-1-data_types-121117-PGM.00_32_02_19.Still001-sm.jpg",
+          "title": "Data Types",
+          "transcript": "",
+          "url": "data-types",
+          "vimeoId": "247018066"
+        },
+        {
+          "description": "In this episode, Don continues discussing SQL data types. He demonstrates how data types can effect your queries. At the end of the show, he discusses the IDENTITY special modifier that can significantly impact how data types are applied.",
+          "length": "1422",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-2-data_types_pt2-121117.00_23_30_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-2-data_types_pt2-121117.00_23_30_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-1-2-data_types_pt2-121117.00_23_30_06.Still001-sm.jpg",
+          "title": "Data Types Part 2",
+          "transcript": "",
+          "url": "data-types2",
+          "vimeoId": "247018623"
+        },
+        {
+          "description": "In this episode, Don discusses how you can create custom data types to meet the needs of your organization. He explains how programatic data types can be developed with the Microsoft .NET Framework and he also shows how custom data types can be easily deployed via aliases in Transact-SQL.",
+          "length": "886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-2-1-custom_data_types-121117.00_14_34_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-2-1-custom_data_types-121117.00_14_34_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-2-1-custom_data_types-121117.00_14_34_17.Still001-sm.jpg",
+          "title": "Custom Data Types",
+          "transcript": "",
+          "url": "custom-data-types",
+          "vimeoId": "247018416"
+        },
+        {
+          "description": "a",
+          "length": "1450",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-1-converting_data_types-121217-PGM.00_23_56_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-1-converting_data_types-121217-PGM.00_23_56_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-1-converting_data_types-121217-PGM.00_23_56_20.Still001-sm.jpg",
+          "title": "Converting Data Types",
+          "transcript": "",
+          "url": "converting-data-types",
+          "vimeoId": "247018890"
+        },
+        {
+          "description": "In this episode, Don explains the challenges of working with multiple data types. He then demonstrates how to use CAST and CONVERT to alter the data type of query results to meet our needs.",
+          "length": "1275",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-2-converting_data_types_pt2-121217-PGM.00_22_39_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-2-converting_data_types_pt2-121217-PGM.00_22_39_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-3-2-converting_data_types_pt2-121217-PGM.00_22_39_13.Still001-sm.jpg",
+          "title": "Converting Data Types Part 2",
+          "transcript": "",
+          "url": "converting-data-types2",
+          "vimeoId": "247151390"
+        },
+        {
+          "description": "In this episode, Don explains how NULL values can impact our queries. He then demonstrates using CASE, ISNULL and COALESCE to ensure we get the results we need.",
+          "length": "1765",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-4-1-conditions_and_nulls-121317-PGM.00_29_11_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-4-1-conditions_and_nulls-121317-PGM.00_29_11_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-4-4-1-conditions_and_nulls-121317-PGM.00_29_11_29.Still001-sm.jpg",
+          "title": "Conditions and Nulls",
+          "transcript": "",
+          "url": "conditionsnulls",
+          "vimeoId": "248976064"
+        }
+      ],
+      "title": "Working with Data Types"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don revisits the topic of functions. This time around, he demonstrates how to create custom functions that can directly support your business need. He wraps up by demonstrating how to create and use scalar and table-valued functions.",
+          "length": "1962",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-1-1-user_defined_functions-121217.00_32_30_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-1-1-user_defined_functions-121217.00_32_30_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-1-1-user_defined_functions-121217.00_32_30_05.Still001-sm.jpg",
+          "title": "User Defined Functions",
+          "transcript": "",
+          "url": "user-defined-functions",
+          "vimeoId": "247150829"
+        },
+        {
+          "description": "In this episode, Don explains what a stored function is in Microsoft SQL. He demonstrates several built-in stored procedures and then shows how to create and execute custom stored procedures to support your business needs.",
+          "length": "2350",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-2-1-stored_procedures-121317.00_38_58_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-2-1-stored_procedures-121317.00_38_58_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-2-1-stored_procedures-121317.00_38_58_14.Still001-sm.jpg",
+          "title": "Stored Procedures",
+          "transcript": "",
+          "url": "stored-procedures",
+          "vimeoId": "247375763"
+        },
+        {
+          "description": "In this episode, Don explains how SQL Views function. He walks the viewers through several scenarios where views can be very useful and then demonstrates how to create and use views in Transact-SQL.",
+          "length": "1669",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-3-1-creating_views-121317-PGM.00_29_44_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-3-1-creating_views-121317-PGM.00_29_44_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-3-1-creating_views-121317-PGM.00_29_44_23.Still001-sm.jpg",
+          "title": "Creating Views",
+          "transcript": "",
+          "url": "creating-views",
+          "vimeoId": "247376904"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to transactions. He explains how transactions function and demonstrates how they can protect your data in the event of a failed query. He wraps up the episode with an example of how transactions can be used for troubleshooting and auditing.",
+          "length": "1861",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-1-transactions-121417-PGM.00_35_01_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-1-transactions-121417-PGM.00_35_01_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-1-transactions-121417-PGM.00_35_01_13.Still001-sm.jpg",
+          "title": "Transactions",
+          "transcript": "",
+          "url": "transactions",
+          "vimeoId": "247509320"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to transactions. He explains how transactions function and demonstrates how they can protect your data in the event of a failed query. He wraps up the episode with an example of how transactions can be used for troubleshooting and auditing.",
+          "length": "1559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-2-transactions_pt2-121417-PGM.00_27_06_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-2-transactions_pt2-121417-PGM.00_27_06_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-4-2-transactions_pt2-121417-PGM.00_27_06_21.Still001-sm.jpg",
+          "title": "Transactions Part 2",
+          "transcript": "",
+          "url": "transactions2",
+          "vimeoId": "247508448"
+        },
+        {
+          "description": "In this episode, Don explains the importance of catching and reporting errors in your SQL scripts. He demonstrates how to use TRY/CATCH blocks, RAISERROR and THROW to collect and report error information. He ends the episode by updating an existing query to provide proper error handling.",
+          "length": "1890",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-1-error_handling-011118.00_31_30_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-1-error_handling-011118.00_31_30_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-1-error_handling-011118.00_31_30_20.Still001-sm.jpg",
+          "title": "Error Handling",
+          "transcript": "",
+          "url": "error-handling",
+          "vimeoId": "250857206"
+        },
+        {
+          "description": "In this episode, Don explains the importance of catching and reporting errors in your SQL scripts. He demonstrates how to use TRY/CATCH blocks, RAISERROR and THROW to collect and report error information. He ends the episode by updating an existing query to provide proper error handling.",
+          "length": "1081",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-2-error_handling_pt2-011118.00_29_02_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-2-error_handling_pt2-011118.00_29_02_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-5-5-2-error_handling_pt2-011118.00_29_02_06.Still001-sm.jpg",
+          "title": "Error Handling Part 2",
+          "transcript": "",
+          "url": "error-handling2",
+          "vimeoId": "250856256"
+        }
+      ],
+      "title": "Programming Databases with T-SQL"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don demonstrates how to use subqueries to make complex queries more efficient. He explains how query execution plans are calculated and then shows how to measure whether or not a subquery can provide a performance improvement over a complex query.",
+          "length": "1632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-1-subqueries-010818-PGM.00_29_59_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-1-subqueries-010818-PGM.00_29_59_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-1-subqueries-010818-PGM.00_29_59_00.Still001-sm.jpg",
+          "title": "Subqueries",
+          "transcript": "",
+          "url": "subqueries",
+          "vimeoId": "250289089"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to use subqueries to make complex queries more efficient. He explains how query execution plans are calculated and then shows how to measure whether or not a subquery can provide a performance improvement over a complex query.",
+          "length": "3352",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-2-subqueries_pt2-010818-PGM.00_36_09_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-2-subqueries_pt2-010818-PGM.00_36_09_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-1-2-subqueries_pt2-010818-PGM.00_36_09_23.Still001-sm.jpg",
+          "title": "Subqueries Part 2",
+          "transcript": "",
+          "url": "subqueries2",
+          "vimeoId": "250289455"
+        },
+        {
+          "description": "In this episode, Don expands on methods by which we can group query results in Transact-SQL. He begins by demonstrating the limitations of the GROUP BY command. He then shows to we can use GROUPING SETS, CUBE and ROLLUP to provide more advanced aggregation of our results.",
+          "length": "1642",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-1-grouping_sets_and_cubes-011118-PGM.00_27_09_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-1-grouping_sets_and_cubes-011118-PGM.00_27_09_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-1-grouping_sets_and_cubes-011118-PGM.00_27_09_27.Still001-sm.jpg",
+          "title": "Grouping Sets and Cubes",
+          "transcript": "",
+          "url": "setscubes",
+          "vimeoId": "250854580"
+        },
+        {
+          "description": "In this episode, Don expands on methods by which we can group query results in Transact-SQL. He begins by demonstrating the limitations of the GROUP BY command. He then shows to we can use GROUPING SETS, CUBE and ROLLUP to provide more advanced aggregation of our results.",
+          "length": "1479",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-2-grouping_sets_and_cubes_pt2-011218-PGM.00_30_30_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-2-grouping_sets_and_cubes_pt2-011218-PGM.00_30_30_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-2-2-grouping_sets_and_cubes_pt2-011218-PGM.00_30_30_13.Still001-sm.jpg",
+          "title": "Grouping Sets and Cubes Part 2",
+          "transcript": "",
+          "url": "setscubes2",
+          "vimeoId": "251172879"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to four methods to rank results in Transact-SQL. He explains the different scenarios where ranking data is useful and then demonstrates using RANK, DENSE_RANK, NTILE and ROW_NUMBER to provide ranking data in our desired form.",
+          "length": "1554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-1-ranking_data_with_windows_functions-011618-PGM.00_25_40_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-1-ranking_data_with_windows_functions-011618-PGM.00_25_40_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-1-ranking_data_with_windows_functions-011618-PGM.00_25_40_22.Still001-sm.jpg",
+          "title": "Ranking Data with Window Functions",
+          "transcript": "",
+          "url": "ranking-datawindow-functions",
+          "vimeoId": "251542493"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to four methods to rank results in Transact-SQL. He explains the different scenarios where ranking data is useful and then demonstrates using RANK, DENSE_RANK, NTILE and ROW_NUMBER to provide ranking data in our desired form.",
+          "length": "1392",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-2-ranking_data_with_window_functions_pt2-011618-PGM.00_22_59_13.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-2-ranking_data_with_window_functions_pt2-011618-PGM.00_22_59_13.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-3-2-ranking_data_with_window_functions_pt2-011618-PGM.00_22_59_13.Still002-sm.jpg",
+          "title": "Ranking Data with Window Functions Part 2",
+          "transcript": "",
+          "url": "ranking-datawindow-functions2",
+          "vimeoId": "251541684"
+        },
+        {
+          "description": "In this episode, Don highlights a common problem with SQL tables where data is arranged in a form that is not useful for our needs. He then demonstrates how we can alter the arrangement of table data in RAM using the PIVOT and UNPIVOT commands to achieve our desired results.",
+          "length": "1957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-4-1-pivot_and_unpivot_data-011618-still.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-4-1-pivot_and_unpivot_data-011618-still-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-4-1-pivot_and_unpivot_data-011618-still-sm.jpg",
+          "title": "Pivot and Unpivot Data",
+          "transcript": "",
+          "url": "pivotunpivot-data",
+          "vimeoId": "251543554"
+        },
+        {
+          "description": "In this episode, Don explains how we can use functions to create on-demand views of existing table data. He then highlights a common error when using functions that return a table in our queries. Finally, he demonstrates how to use APPLY to overcome that error so that we can properly leverage our custom functions.",
+          "length": "1859",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-5-1-table_expressions_and_apply-011818-PGM.00_32_28_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-5-1-table_expressions_and_apply-011818-PGM.00_32_28_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-6-5-1-table_expressions_and_apply-011818-PGM.00_32_28_16.Still001-sm.jpg",
+          "title": "Table Expressions and Apply",
+          "transcript": "",
+          "url": "table-expressionsapply",
+          "vimeoId": "251827474"
+        }
+      ],
+      "title": "Advanced Transact-SQL"
+    },
+    {
+      "episodes": [
+        {
+          "description": "n this episode, Don explains how we can work with XML data inside of Transact-SQL. He demonstrates how to configure the output of a query to be formatted as XML. He then demonstrates how to use XML data as the input for a query.",
+          "length": "1928",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-1-1-working_with_xml-011218-PGM.00_34_35_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-1-1-working_with_xml-011218-PGM.00_34_35_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-1-1-working_with_xml-011218-PGM.00_34_35_18.Still001-sm.jpg",
+          "title": "Working with XML",
+          "transcript": "",
+          "url": "xml",
+          "vimeoId": "251172104"
+        },
+        {
+          "description": "In this episode, Don explains how we can work with JSON data inside of Transact-SQL. He demonstrates how to configure the output of a query to be formatted as JSON. He then demonstrates how to use JSON data as the input for a query.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-2-1-working_with_json-011719-PGM.00_32_35_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-2-1-working_with_json-011719-PGM.00_32_35_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sql70761/microsoft-sql70761-7-2-1-working_with_json-011719-PGM.00_32_35_09.Still001-sm.jpg",
+          "title": "Working with JSON",
+          "transcript": "",
+          "url": "json",
+          "vimeoId": "251826117"
+        }
+      ],
+      "title": "Working with JSON and XML"
+    }
+  ],
+  "url": "querying-datatransactsql",
+  "vLab": false
+}

@@ -1,0 +1,249 @@
+{
+  "description": "This show explores the foundational concepts and workings of Azure SQL. We start by defining why you might decide to implement a hosted database in Azure SQL vs an on-premise solution; detailing some of the benefits of moving to Azure SQL. We then describe some of the more advanced benefits of using Azure SQL like using Resource Groups, Geo-Restore, Point-In-Time Restore, and Self-Service Restore. Finally they take a look at the performance tiers as well as Database Throughput Units or DTUs.",
+  "descriptionMD": "",
+  "length": "37763",
+  "name": "Azure SQL",
+  "practiceExam": false,
+  "subtitle": "Relational Database-as-a-Service",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this segment, Daniel and Don give a general overview of what you can expect in the upcoming episodes. They cover what the show's about, the target audience, what will be covered overall, and other topics.",
+          "length": "328",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-0-0-overview-120715.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-0-0-overview-120715-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-0-0-overview-120715-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.071 --> 00:00:07.980\n[MUSIC]\n\n2\n00:00:07.980 --> 00:00:12.436\nIn this segment we're gonna take a look at\nthe upcoming Microsoft Azure SQL show that\n\n3\n00:00:12.436 --> 00:00:14.583\nwe have lined up for you here at ITProTV.\n\n4\n00:00:14.583 --> 00:00:16.703\nAnd joining me today to\nhelp us guide through that,\n\n5\n00:00:16.703 --> 00:00:18.488\nwell it's none other than Mr. Don Pezet.\n\n6\n00:00:18.488 --> 00:00:19.393\nHow's it going today Don?\n\n7\n00:00:19.393 --> 00:00:20.990\n>> It's going great Daniel, and\n\n8\n00:00:20.990 --> 00:00:23.885\njust excited to kick off\nanother new series on ITProTV.\n\n9\n00:00:23.885 --> 00:00:27.337\nNow, if you haven't heard about Microsoft\nAzure SQL, let's start there, and\n\n10\n00:00:27.337 --> 00:00:28.757\nwe'll talk about what it is, and\n\n11\n00:00:28.757 --> 00:00:31.379\nwe'll get a chance to see what\nwe're going to be doing here.\n\n12\n00:00:31.379 --> 00:00:34.304\nMicrosoft Azure SQL is\na hosted database service, or\n\n13\n00:00:34.304 --> 00:00:37.099\nrelational database service\nfrom Microsoft, and\n\n14\n00:00:37.099 --> 00:00:41.330\nit's really cool because databases\nhave become so important to companies.\n\n15\n00:00:41.330 --> 00:00:42.539\nYou put your data in, and\n\n16\n00:00:42.539 --> 00:00:46.350\nyou expect to get your data back out when\nyou need it and you expect it to be fast.\n\n17\n00:00:46.350 --> 00:00:50.525\nSo a lot of organizations have to worry\nabout when they build the database making\n\n18\n00:00:50.525 --> 00:00:53.826\nit reliable, making it available,\nmaking it nice and fast and\n\n19\n00:00:53.826 --> 00:00:55.156\nkeeping it maintained.\n\n20\n00:00:55.156 --> 00:00:57.852\nAnd that’s a lot of work and\ncan be quite expensive.\n\n21\n00:00:57.852 --> 00:01:01.602\nWith Azure SQL, we can get\nMicrosoft to do the work for us.\n\n22\n00:01:01.602 --> 00:01:04.850\nThey'll host the database on\ntheir servers up in Azure cloud.\n\n23\n00:01:04.850 --> 00:01:06.289\nThey'll maintain the servers.\n\n24\n00:01:06.289 --> 00:01:09.091\nIf there's a fault,\nlike a hard drive fails or something,\n\n25\n00:01:09.091 --> 00:01:12.695\ntheir network operations center catches\nit, gets in there and repairs it.\n\n26\n00:01:12.695 --> 00:01:17.117\nThey do all the leg work for us,\nand we get to focus on our data.\n\n27\n00:01:17.117 --> 00:01:18.997\nI need a table with some data in it.\n\n28\n00:01:18.997 --> 00:01:20.356\nI don't care about\nthe underlying database.\n\n29\n00:01:20.356 --> 00:01:22.213\nMicrosoft's already dealt with that for\nme.\n\n30\n00:01:22.213 --> 00:01:24.094\nI can throw that in there,\nget it up and going.\n\n31\n00:01:24.094 --> 00:01:27.614\nNow you can actually get a lot of control\non the database if you want it, or\n\n32\n00:01:27.614 --> 00:01:29.659\nyou can let Microsoft have that control.\n\n33\n00:01:29.659 --> 00:01:33.578\nIt's up to you, but if you're one of those\npeople that just needs a database and\n\n34\n00:01:33.578 --> 00:01:36.211\nwants it to be as reliable and\navailable as possible,\n\n35\n00:01:36.211 --> 00:01:38.450\nMicrosoft Azure SQL is\na great way to do that.\n\n36\n00:01:38.450 --> 00:01:39.506\n>> Yeah, sounds awesome, Don.\n\n37\n00:01:39.506 --> 00:01:44.357\nNow who exactly would be the demographic\nthat we're focusing here with Azure SQL?\n\n38\n00:01:44.357 --> 00:01:46.917\n>> So, there's actually a few\ndifferent types of people.\n\n39\n00:01:46.917 --> 00:01:50.027\nBack in the day, we used to just say,\nwell DBA is database administrators.\n\n40\n00:01:50.027 --> 00:01:54.528\nBut the whole point of Azure SQL is\nthat you don't have to be a DBA anymore.\n\n41\n00:01:54.528 --> 00:01:59.011\nSo the Azure SQL product is great for\npeople like system admins, right?\n\n42\n00:01:59.011 --> 00:02:02.131\nIn the past, you might have been\nresponsible for building up a physical\n\n43\n00:02:02.131 --> 00:02:05.260\nserver to be able to put SQL on there and\nthen turn it over to the dev team.\n\n44\n00:02:05.260 --> 00:02:07.617\nNow, you can just reach out and\nprovision it in Azure.\n\n45\n00:02:07.617 --> 00:02:09.938\nAnd so\nsys admins can really benefit from this.\n\n46\n00:02:09.938 --> 00:02:13.853\nBut developers can benefit from it also,\nbecause you might need a SQL database and\n\n47\n00:02:13.853 --> 00:02:17.843\nyou don't want to mess around the Windows\nserver operating system under the hood.\n\n48\n00:02:17.843 --> 00:02:19.515\nYou don't want to do updates.\n\n49\n00:02:19.515 --> 00:02:21.036\nYou don't want to be saddled with that.\n\n50\n00:02:21.036 --> 00:02:21.755\nYou're a developer.\n\n51\n00:02:21.755 --> 00:02:22.812\nYou want to write your product.\n\n52\n00:02:22.812 --> 00:02:23.766\nYou need a database, but\n\n53\n00:02:23.766 --> 00:02:26.459\nyou don't want to be involved in\nthe interworkings of that database.\n\n54\n00:02:26.459 --> 00:02:28.514\nYou just need a place to put your data.\n\n55\n00:02:28.514 --> 00:02:30.391\nAzure SQL works out great for you too.\n\n56\n00:02:30.391 --> 00:02:34.107\nSo it starts to fall into\nwhat we call dev ops, right?\n\n57\n00:02:34.107 --> 00:02:37.147\nWhere you might be a developer,\nyou might be operations, or\n\n58\n00:02:37.147 --> 00:02:38.708\nyou might be tasked with both.\n\n59\n00:02:38.708 --> 00:02:42.273\nThen this show's really gonna work out\nwell for you, cuz we can show how you can\n\n60\n00:02:42.273 --> 00:02:45.315\nuse Azure SQL and not have to worry\nabout the nitty gritty details.\n\n61\n00:02:45.315 --> 00:02:49.631\nJust let it be done with, and as your\norganization grows, if you're an internet\n\n62\n00:02:49.631 --> 00:02:53.945\nstartup and you're getting rapid growth,\nyou can dial up these databases to get\n\n63\n00:02:53.945 --> 00:02:58.283\nhigher performance and far exceed what\nyou can do with on-premises equipment.\n\n64\n00:02:58.283 --> 00:03:02.355\nSo, really, any of those types of roles,\nthis show is gonna work out well for you.\n\n65\n00:03:02.355 --> 00:03:04.319\n>> Excellent.\nNow that we know who should be watching\n\n66\n00:03:04.319 --> 00:03:06.121\nthis show or\nmight be interested in this show,\n\n67\n00:03:06.121 --> 00:03:07.843\nwhat is it exactly that we're gonna cover.\n\n68\n00:03:07.843 --> 00:03:11.437\nGive us some idea of what we're\ngonna see in the upcoming shows.\n\n69\n00:03:11.437 --> 00:03:14.480\nRight, I've kind of structured the\nepisodes to be broken up into five parts,\n\n70\n00:03:14.480 --> 00:03:17.494\nand in the beginning we're just going\nto talk about implementing Azure SQL.\n\n71\n00:03:17.494 --> 00:03:19.583\nHow do I create that database server.\n\n72\n00:03:19.583 --> 00:03:21.031\nHow do I create the database on it.\n\n73\n00:03:21.031 --> 00:03:24.247\nHow do I get connected to that data\nbase so I can use the darn thing?\n\n74\n00:03:24.247 --> 00:03:25.268\nWe're gonna start out there.\n\n75\n00:03:25.268 --> 00:03:29.110\nSo if you know absolutely zero\nabout Azure SQL you'll be fine..\n\n76\n00:03:29.110 --> 00:03:30.526\nThat's where we're gonna start.\n\n77\n00:03:30.526 --> 00:03:35.463\nBut after that, creating the database\nis one part, using it is another.\n\n78\n00:03:35.463 --> 00:03:36.879\nAnd that's where we're gonna\nbreak into other things.\n\n79\n00:03:36.879 --> 00:03:39.364\nWe'll take a look at how\nto maintain the databases,\n\n80\n00:03:39.364 --> 00:03:41.630\nwhich actually is really\neasy inside of Azure.\n\n81\n00:03:41.630 --> 00:03:44.230\nBut there's some things we can\ndo to help improve performance.\n\n82\n00:03:44.230 --> 00:03:45.642\nWe're gonna see how to optimize and\n\n83\n00:03:45.642 --> 00:03:48.430\ntroubleshoot our database in\nthe event that we're having problems.\n\n84\n00:03:48.430 --> 00:03:51.924\nIf we're running queries and they're\njust not running fast, we can try and\n\n85\n00:03:51.924 --> 00:03:52.588\nfind out why.\n\n86\n00:03:52.588 --> 00:03:55.388\nWe're gonna take a look at\nhow we manage our data,\n\n87\n00:03:55.388 --> 00:03:59.457\nwhich is going to include things like\nbacking up and restoring the data,\n\n88\n00:03:59.457 --> 00:04:03.948\nas well as doing bulk imports or exports\nof data, all sorts of good stuff there.\n\n89\n00:04:03.948 --> 00:04:05.863\nAnd then lastly we're\ngonna talk about security.\n\n90\n00:04:05.863 --> 00:04:10.028\nHow we secure our Azure databases to make\nsure that they are not a weak point,\n\n91\n00:04:10.028 --> 00:04:14.585\nbecause it's a rare week that goes by that\nwe don't worry about some company having\n\n92\n00:04:14.585 --> 00:04:15.452\na data breach.\n\n93\n00:04:15.452 --> 00:04:16.683\nYou don't wanna be that company.\n\n94\n00:04:16.683 --> 00:04:19.167\nSo we'll talk a little bit\nhow to lock those down.\n\n95\n00:04:19.167 --> 00:04:19.783\n>> Awesome.\n\n96\n00:04:19.783 --> 00:04:24.071\nNow Don, I know that a lot, well I know\nfor certain that Microsoft has a SQL exam.\n\n97\n00:04:24.071 --> 00:04:28.007\nIs this show going to map toward that\nexam, or is it something different?\n\n98\n00:04:28.007 --> 00:04:29.790\n>> This one is going to be a little\nsomething different, right?\n\n99\n00:04:29.790 --> 00:04:32.862\nMost of the shows here on ITPro TV\ndo focus on kind of working\n\n100\n00:04:32.862 --> 00:04:36.638\ntowards a certification, but\nthis one's more of a technical skills.\n\n101\n00:04:36.638 --> 00:04:39.241\nWe want to show you guys\nthe really important parts,\n\n102\n00:04:39.241 --> 00:04:42.033\nthe stuff in Azure SQL that\nyou're gonna use everyday.\n\n103\n00:04:42.033 --> 00:04:44.758\nWhen you study for a certification,\nyou learn a lot of great stuff.\n\n104\n00:04:44.758 --> 00:04:47.023\nA lot of great technologies that\nsometimes you don't implement, right?\n\n105\n00:04:47.023 --> 00:04:48.822\nThat just aren't used by a lot of people.\n\n106\n00:04:48.822 --> 00:04:50.865\nWe're gonna focus on the details, right?\n\n107\n00:04:50.865 --> 00:04:53.816\nThe stuff that you know you're\ngoing to use every single day.\n\n108\n00:04:53.816 --> 00:04:55.233\nSo it's all great content.\n\n109\n00:04:55.233 --> 00:04:57.855\nI'm always excited about\nthe tech skills shows that we do.\n\n110\n00:04:57.855 --> 00:05:01.523\nI know they don't lead to a certification\nbut what they do lead to is job success.\n\n111\n00:05:01.523 --> 00:05:04.659\nYou really learn that skill, and\nyou're ready to get out there and\n\n112\n00:05:04.659 --> 00:05:07.861\nimplement it and it's not some\nfringe topic that you may never see.\n\n113\n00:05:07.861 --> 00:05:10.692\n>> Awesome, well it sounds like\na really practical course, so\n\n114\n00:05:10.692 --> 00:05:13.808\nanybody that's interested in Azure SQL,\nthis is the place to be.\n\n115\n00:05:13.808 --> 00:05:15.419\nThese upcoming episodes\nare going to be awesome.\n\n116\n00:05:15.419 --> 00:05:19.358\nWe’re really working hard to\ncreate great content with that, so\n\n117\n00:05:19.358 --> 00:05:21.803\nhopefully we'll see you in the future.\n\n118\n00:05:21.803 --> 00:05:22.303\n[MUSIC]\n\n",
+          "url": "overview70706",
+          "vimeoId": "148658779"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore and explain some of the foundational concepts and workings of Azure SQL. They start by defining why you might decide to implement a hosted database in Azure SQL vs an on-premise solution; detailing some of the benefits of moving to Azure SQL. Then they describe some of the more advanced benefits of using Azure SQL like using Resource Groups, Geo-Restore, Point-In-Time Restore, and Self-Service Restore. Finally they take a look at the performance tiers as well as Database Throughput Units or DTUs.",
+          "length": "2129",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-1-intro_to_azure_sql-120715-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-1-intro_to_azure_sql-120715-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-1-intro_to_azure_sql-120715-2-sm.jpg",
+          "title": "Introduction to Azure SQL",
+          "transcript": "",
+          "url": "introduction-azure-sql",
+          "vimeoId": "148658770"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through creating databases using Microsoft Azure SQL. They begin with creating a simple, blank database; taking you step-by-step from start to finish. Then they explore some ways of importing an already existing database into Azure SQL.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-2-creating_your_first_database-120715.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-2-creating_your_first_database-120715-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-2-creating_your_first_database-120715-sm.jpg",
+          "title": "Creating Your First Database",
+          "transcript": "",
+          "url": "creating-database",
+          "vimeoId": "148658750"
+        },
+        {
+          "description": "In this episode, Don and Daniel detail ways in which you can connect your Azure SQL database to a SQL client/manager. First they start with connecting Azure SQL to Microsoft's Visual Studio. Then they show you how to download, install, and configure Microsoft's SQL Management Studio.",
+          "length": "2092",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-3-connecting_your_client-120815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-3-connecting_your_client-120815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-3-connecting_your_client-120815-1-sm.jpg",
+          "title": "Connecting Your Client",
+          "transcript": "",
+          "url": "connecting-client",
+          "vimeoId": "148658758"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain the concept and implementation of Azure SQL Elastic Pools. They begin by defining what an Elastic Pool is and how/why they might benefit your environment. Then they show you how to create an Elastic Pool, all the while informing your setup choices as to get the best bang for your buck.",
+          "length": "1878",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-4-using_elastic_pools-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-4-using_elastic_pools-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-1-4-using_elastic_pools-120915-1-sm.jpg",
+          "title": "Using Elastic Pools",
+          "transcript": "",
+          "url": "using-elastic-pools",
+          "vimeoId": "148882591"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through a few different ways in which you can migrate your on-premise database into Azure SQL. They start by showing you how to perform a scripted import using T-SQL from within Visual Studio. Then they demonstrate a migration using the SQL Management Studio Azure Deployment Wizard. Finally they perform a migration using BACPACs and monitor the progress of the migration.",
+          "length": "2262",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-1-migrating_databases_to_azure-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-1-migrating_databases_to_azure-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-1-migrating_databases_to_azure-120915-1-sm.jpg",
+          "title": "Migrating Databases to Azure",
+          "transcript": "",
+          "url": "migrating-databases-azure",
+          "vimeoId": "149027101"
+        },
+        {
+          "description": "In this episode, Daniel and Don show you how to create Tables and input data into an Azure SQL database. First they demonstrate creating tables in SQL and dive into some of the information that will be necessary for proper table creation and functionality. Then they show you how to create data to populate the tables as well as queries to retrieve data.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-2-tables_data-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-2-tables_data-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-2-tables_data-120915-1-sm.jpg",
+          "title": "Tables and Data",
+          "transcript": "",
+          "url": "tables-data",
+          "vimeoId": "148882705"
+        },
+        {
+          "description": "In this episode, Don and Daniel explore automation of tasks in Azure SQL. They start by explaining how to enable automation beginning with the SQL Server Agent. Then they jump into Azure and create an Automation Account which will be needed to create automated tasks for SQL. Here they introduce you to Runbooks which works inside of PowerShell to create the scripts for automation. Then they upload, test, publish, and schedule a task.",
+          "length": "2027",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-3-azure_automation-111416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-3-azure_automation-111416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-3-azure_automation-111416-1-sm.jpg",
+          "title": "Azure Automation",
+          "transcript": "",
+          "url": "azure-automation",
+          "vimeoId": "151903533"
+        },
+        {
+          "description": "In this episode, Don and Daniel take a look at exporting data from your Azure SQL database. First they talk about when you might need to export an entire database and then walk you through the methods to that end. Then they discuss how you might export pieces of data like tables from your database. They show you a few formats that you might export the data as such as XML, CSV, and even into an Excel spreadsheet.",
+          "length": "1879",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-4-exporting_data-111416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-4-exporting_data-111416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-2-4-exporting_data-111416-1-sm.jpg",
+          "title": "Exporting Data",
+          "transcript": "",
+          "url": "exporting-data",
+          "vimeoId": "151903530"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe and demonstrate how you can optimize your SQL databases by implementing indexes. They start off by explaining what an index is, the two main types of indexes (clustered and non-clustered) and how it can benefit your database. They also explain when NOT to use indexes.",
+          "length": "1788",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-1-implementing_indexes-011116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-1-implementing_indexes-011116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-1-implementing_indexes-011116-1-sm.jpg",
+          "title": "Implementing Indexes",
+          "transcript": "",
+          "url": "implementing-indexes",
+          "vimeoId": "151774504"
+        },
+        {
+          "description": "In this episode, Don and Daniel continue explaining how to implement indexes and here they pick back up by looking at the Azure Index Advisor. The Index Advisor will help you optimize your databases by suggesting indexes. They also look at Query Performance Insight tool and how to perform index maintenance.",
+          "length": "1625",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-2-implementing_indexes-011116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-2-implementing_indexes-011116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-asuresql-3-1-2-implementing_indexes-011116-1-sm.jpg",
+          "title": "Implementing Indexes Part 2",
+          "transcript": "",
+          "url": "implementing-indexes-2",
+          "vimeoId": "151774531"
+        },
+        {
+          "description": "In this episode, Don and Daniel talk about database maintenance tasks in Azure SQL. They begin with the demarcation of duties; what tasks are being handled by Microsoft(backups, replication, consistency checks) and what tasks are handled by the customer(index creation/maintenance, data partitioning, and statistics). Finally they take a close look at database statistics; specifically creating, maintaining, and removing statistics. Also covered is Asynchronous Statistics.",
+          "length": "1892",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-2-database_maintenance-111216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-2-database_maintenance-111216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-2-database_maintenance-111216-1-sm.jpg",
+          "title": "Database Maintenance",
+          "transcript": "",
+          "url": "database-maintenance",
+          "vimeoId": "151774547"
+        },
+        {
+          "description": "In this episode, Don and Daniel show you how to keep a watchful eye on your Azure SQL deployment by utilizing monitoring services. They start by exploring the Database Health check and looking at database events in the Azure SQL portal. They then show you how to monitor your database size and setup alerts to warn you when an action needs to be taken. Lastly, they demonstrate the Dynamic Management Views(DMVs) which works querying the database for specific information in real time.",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-3-monitoring-azure_sql-111216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-3-monitoring-azure_sql-111216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-3-monitoring-azure_sql-111216-1-sm.jpg",
+          "title": "Monitoring Azure SQL",
+          "transcript": "",
+          "url": "monitoring-azure-sql",
+          "vimeoId": "151774574"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain the concept and practice of scaling a Azure SQL database. Here they are going to show you how to scale your databases up or down, which can save costs, depending on your need. They also talk about scaling automation, which can help you scale your environment up and/or down at times when you know performance needs are going to change.",
+          "length": "1584",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-4-scaling_up_down-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-4-scaling_up_down-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-3-4-scaling_up_down-121015-1-sm.jpg",
+          "title": "Scaling Up/Down",
+          "transcript": "",
+          "url": "scaling-updown",
+          "vimeoId": "151774478"
+        },
+        {
+          "description": "In this episode, Don and Daniel dive into availability and recovery features provided by Azure SQL, here specifically looking at Geographical Redundancy. They start off by describing what geo-redundancy is and they two different types of geo-replication (Standard and Active) that's available in Azure SQL. Then they show you how to implement both types and even how to perform a failover test to make sure everything is working in case of an outage.",
+          "length": "2218",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-1-geographical_redundancy-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-1-geographical_redundancy-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-1-geographical_redundancy-121015-1-sm.jpg",
+          "title": "Geographical Redundancy",
+          "transcript": "",
+          "url": "geographical-redundancy",
+          "vimeoId": "151774459"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain how to recover data from a backup in case of an accidental deletion or corruption of data by implementing a self-service restore. They explain how Azure SQL takes backups and replicates data and then move into performing a restore from the Azure SQL portal as well as by using the PowerShell.",
+          "length": "1983",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-2-self_service_restore-011216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-2-self_service_restore-011216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-4-2-self_service_restore-011216-1-sm.jpg",
+          "title": "Self-Service Restore",
+          "transcript": "",
+          "url": "selfservice-restore",
+          "vimeoId": "151774610"
+        },
+        {
+          "description": "In this episode, Don and Daniel take a look at securing your Azure SQL database by controlling access through the network. First they show you how to configure the server level firewall through the Azure web portal as well as with PowerShell. They also cover securing multiple databases that share a server by creating rules with Transact SQL.",
+          "length": "1600",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-1-controlling_network_access-111316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-1-controlling_network_access-111316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-1-controlling_network_access-111316-1-sm.jpg",
+          "title": "Controlling Network Access",
+          "transcript": "",
+          "url": "controlling-network-access",
+          "vimeoId": "151825618"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain the different user account and roles implemented in Azure SQL. They being by opening the Azure Web Portal and setting up a server management administrator and describing all the possible roles available which grants permissions. Then they look at creating regular database users by using T-SQL with the SQL Management Studio and configure the default database roles, again for access permissions.",
+          "length": "1557",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-2-users_and_roles-111316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-2-users_and_roles-111316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-2-users_and_roles-111316-1-sm.jpg",
+          "title": "Users and Roles",
+          "transcript": "",
+          "url": "users-roles",
+          "vimeoId": "151825629"
+        },
+        {
+          "description": "In this episode, Don and Daniel dive into database permissions and schemas. They start by discussing database permissions and how they can be set on database objects like tables which will allow you to have very fine control over who can access that table. This leads them into describing setting permissions on users vs. groups/roles and when you would do one over the other. Finally they explain the idea of schemas which enables you to basically create a template to set permissions with an overarching scope.",
+          "length": "1324",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-3-permissions_and_schemas-111316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-3-permissions_and_schemas-111316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-3-permissions_and_schemas-111316-1-sm.jpg",
+          "title": "Permissions and Schemas",
+          "transcript": "",
+          "url": "permissions-schemas",
+          "vimeoId": "151825637"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain server and database auditing when using Azure SQL. First they go over how to enable server level auditing, taking you step-by-step through the Azure web portal. Next they show you how to enable auditing at the database level which can have certain advantages over auditing the server. They also explore the threat detection system to help secure your Azure SQL deployments.",
+          "length": "1903",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-4-database_auditing-111316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-4-database_auditing-111316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-5-4-database_auditing-111316-1-sm.jpg",
+          "title": "Database Auditing",
+          "transcript": "",
+          "url": "database-auditing",
+          "vimeoId": "151903532"
+        },
+        {
+          "description": "In this episode, Don and Daniel go over deploying applications to Azure. They begin by showing you how to deploy a fully functional web app from start to finish, all while using the Azure Marketplace, prebuilt application profiles (specifically mojoPortal). They also show you how you can develop your own app by using Visual Studio Community edition and connecting to Azure with your in-house apps.",
+          "length": "2216",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-6-1-deploying_applications-011516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-6-1-deploying_applications-011516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azuresql/techskills-azuresql-6-1-deploying_applications-011516-1-sm.jpg",
+          "title": "Deploying Applications",
+          "transcript": "",
+          "url": "deploying-applications",
+          "vimeoId": "151933934"
+        }
+      ],
+      "title": "Azure SQL"
+    }
+  ],
+  "url": "azure-sql",
+  "vLab": false
+}

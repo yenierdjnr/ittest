@@ -1,0 +1,260 @@
+{
+  "description": "There are a lot of different technologies that can be used to keep data more secure in Windows 10 including NTFS permissions, which controls the level of access someone has and the kind of actions one can perform on different files. The topics that are covered range from data security, host security, application management to recovery of the operating system. This is designed for a broad range of individuals including help-desk technicians to the average end-user seeking to implement a more secure Windows 10 environment.",
+  "descriptionMD": "",
+  "length": "34434",
+  "name": "Windows 10 Security",
+  "practiceExam": false,
+  "subtitle": "Security in Windows 10",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "There are a lot of different technologies that can be used to keep data more secure in Windows 10 including NTFS permissions, which controls the level of access someone has and the kind of actions one can perform on different files. The topics that are covered range from data security, host security, application management to recovery of the operating system. This is designed for a broad range of individuals including help-desk technicians to the average end-user seeking to implement a more secure Windows 10 environment.",
+          "length": "187",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/microsoft-windows-10-70698-0-0-overview-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/microsoft-windows-10-70698-0-0-overview-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/microsoft-windows-10-70698-0-0-overview-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.050 --> 00:00:05.183\n[SOUND] Hello, we're here to introduce\nyou to our new Windows 10 Security\n\n2\n00:00:05.183 --> 00:00:10.004\nshow where it's gonna be one of\nthe tech skills courses that we offer.\n\n3\n00:00:10.004 --> 00:00:13.270\nWe wanna make sure that you feel\ncomfortable and that you understand what's\n\n4\n00:00:13.270 --> 00:00:15.840\ngoing on, and here to help us\nout is gonna be Mr. Wes Brian.\n\n5\n00:00:15.840 --> 00:00:18.922\nWes, who is this particular\ncourse really designed for and\n\n6\n00:00:18.922 --> 00:00:21.212\nwhat topics are we gonna\nbe taking a look at?\n\n7\n00:00:21.212 --> 00:00:22.600\n&gt;&gt; Very good, Ronnie.\n\n8\n00:00:22.600 --> 00:00:26.050\nWhen it comes to this course, it's really\ngonna be for anybody that wants a better\n\n9\n00:00:26.050 --> 00:00:29.254\nunderstanding of the security mechanisms\nthat are inside of Windows 10.\n\n10\n00:00:29.254 --> 00:00:32.600\nKeep in mind that this isn't really\nfocused at any different skill level.\n\n11\n00:00:32.600 --> 00:00:34.730\nYou could be entry level, if you will.\n\n12\n00:00:34.730 --> 00:00:39.270\nMaybe somebody that just kinda home user\nif you will what is a little bit more\n\n13\n00:00:39.270 --> 00:00:42.840\ninterested in how you can secure your\nWindows 10 machines around the home.\n\n14\n00:00:42.840 --> 00:00:45.910\nYou could be an employer or\nan employee for that matter,\n\n15\n00:00:45.910 --> 00:00:50.190\nthat maybe you want to stand out\na little bit more than the rest and\n\n16\n00:00:50.190 --> 00:00:53.380\nbuild your skills inside of Windows\n10 by learning how to secure it.\n\n17\n00:00:53.380 --> 00:00:55.350\nAgain, like I said employers too.\n\n18\n00:00:55.350 --> 00:00:59.490\nIt could be managers as well, so this\nreally isn't focused to any one person.\n\n19\n00:00:59.490 --> 00:01:02.620\nAnd when it comes to the skill levels\nitself there aren't any prerequisites,\n\n20\n00:01:02.620 --> 00:01:07.330\nso it's a good way to kinda up your\nskills when it comes to security.\n\n21\n00:01:07.330 --> 00:01:09.430\nNow, what are some of the topics\nthat we're gonna look at?\n\n22\n00:01:09.430 --> 00:01:13.670\nWell, we're gonna look at various topics,\nthings like data security, authentication\n\n23\n00:01:13.670 --> 00:01:17.530\nand some of the authentication mechanisms\nthat you can see inside of Windows.\n\n24\n00:01:17.530 --> 00:01:20.820\nWe're gonna look at some\nconcepts like host security.\n\n25\n00:01:20.820 --> 00:01:23.990\nWhat does it mean to get your\noperating system secure so\n\n26\n00:01:23.990 --> 00:01:26.820\nyou're less vulnerable to some of\nthe attacks that are out there?\n\n27\n00:01:26.820 --> 00:01:28.870\nAs well as things like\napplication security.\n\n28\n00:01:28.870 --> 00:01:31.360\nNot only host security is important,\nbut the applications and\n\n29\n00:01:31.360 --> 00:01:35.030\nthe software that runs with inside of the\nWindows operating system is gonna be very,\n\n30\n00:01:35.030 --> 00:01:37.430\nvery important to be able to secure them.\n\n31\n00:01:37.430 --> 00:01:40.770\nWe'll look at concepts like some of\nthe enterprise-level concepts as well,\n\n32\n00:01:40.770 --> 00:01:43.320\nlike group policy, how about web browsers?\n\n33\n00:01:43.320 --> 00:01:46.620\nEverybody out there has used a web browser\nonce or twice I'm sure, so we're also\n\n34\n00:01:46.620 --> 00:01:50.260\ngonna look at things like web browser\nsecurity and functionalities that you can\n\n35\n00:01:50.260 --> 00:01:54.350\nuse to maybe even enhance your experience\ninside of the web browser itself.\n\n36\n00:01:54.350 --> 00:01:56.130\nWe'll look at things\nlike account management.\n\n37\n00:01:56.130 --> 00:02:01.820\nDo you know how to create user account,\nand some of the things that you can do to\n\n38\n00:02:01.820 --> 00:02:06.770\nrestrict to the access that a user might\nhave, if they're using the computers.\n\n39\n00:02:06.770 --> 00:02:10.290\nFor instance, maybe you have a child\nthat's logging into the machine,\n\n40\n00:02:10.290 --> 00:02:13.370\nyou wanna be able to control\nthe user experience that they have,\n\n41\n00:02:13.370 --> 00:02:14.630\nmake it a little bit more safe for them.\n\n42\n00:02:14.630 --> 00:02:16.940\nSo we'll look at things like\nbasic account management.\n\n43\n00:02:16.940 --> 00:02:19.720\nNow, Ronnie, we're gonna have all\nother kinds of things there, but\n\n44\n00:02:19.720 --> 00:02:22.730\nthese are some of the high level of\ntopics that you can expect to see\n\n45\n00:02:22.730 --> 00:02:24.810\ninstead of the Windows 10 security.\n\n46\n00:02:24.810 --> 00:02:28.840\n&gt;&gt; So Wes, is this particular\nshow then exam-focused or\n\n47\n00:02:28.840 --> 00:02:30.630\ndo we have to worry about anything like?\n\n48\n00:02:30.630 --> 00:02:34.220\n&gt;&gt; Well, this one is one that kinda\ndeviates from other things like our\n\n49\n00:02:34.220 --> 00:02:39.130\nWindows 10 courses that we have that are\nspecific to the MCSE and specific exams.\n\n50\n00:02:39.130 --> 00:02:40.620\nThis really isn't exam-centric.\n\n51\n00:02:40.620 --> 00:02:44.500\nKeep in mind, however, that you always\nbenefit, if you are out there right now\n\n52\n00:02:44.500 --> 00:02:48.720\nmaybe currently studying for a Windows 10\ncertification, well, this can benefit you\n\n53\n00:02:48.720 --> 00:02:52.540\nbut keep in mind that we're not gonna be\nfollowing things like skills measured and\n\n54\n00:02:52.540 --> 00:02:54.840\nthe objectives that you would\nfind in those certifications.\n\n55\n00:02:54.840 --> 00:02:58.710\nBut more information is always better\ninformation so if you wanna learn a little\n\n56\n00:02:58.710 --> 00:03:02.205\nbit more about Windows 10 security, stick\naround cuz we got a lot more coming up.\n\n57\n00:03:02.205 --> 00:03:07.424\n[NOISE]\n\n",
+          "url": "overview70744",
+          "vimeoId": "192697040"
+        },
+        {
+          "description": "In this episode, Wes and Daniel explain how to secure data on a Windows 10 machine using permissions. They start by explaining the New Technology File System(NTFS) permissions, both the standard and special sets. They they show you how shared permissions work and how they integrate with NTFS permissions.",
+          "length": "2009",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security-102615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security-102615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security-102615-1-sm.jpg",
+          "title": "Data Security",
+          "transcript": "",
+          "url": "data-security2",
+          "vimeoId": "143914723"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue detailing how to secure data using permissions on a Windows 10 machine, this time showing you how to check the effective permissions of a user or group. Then they show you how to enable the Encrypting File System to encrypt data on an NTFS volume. Finally they discuss using Data Execution Protection(DEP) to stop malicious software from being executed.",
+          "length": "1608",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt2-102715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt2-102715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt2-102715-1-sm.jpg",
+          "title": "Data Security Part 2",
+          "transcript": "",
+          "url": "data-security-2",
+          "vimeoId": "143914745"
+        },
+        {
+          "description": "In this episode, Daniel and Wes finish up data security in Windows 10 by drive encryption using BitLocker. They show you how to enable BitLocker on PCs with and without a Trusted Platform Modules(TPM) and even BitLocker-to-Go for mobile storage devices like USB hard drives and thumb drives.",
+          "length": "920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt3-102715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt3-102715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-1-0-data_security_pt3-102715-1-sm.jpg",
+          "title": "Data Security Part 3",
+          "transcript": "",
+          "url": "data-security-3",
+          "vimeoId": "143914759"
+        },
+        {
+          "description": "In this episode, Wes and Daniel walk you through securing your Windows 10 PC through many different authentication methods. They start with the venerable password authentication method. Here they show you how to create a secure password and how to enforce good password policies in Windows 10. Then they demo some of the newer authentication methods like Picture Passwords, PINs, and Windows Hello.",
+          "length": "1317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication-102715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication-102715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication-102715-1-sm.jpg",
+          "title": "Authentication",
+          "transcript": "",
+          "url": "authentication",
+          "vimeoId": "143914788"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue explaining authentication security in Windows 10, this time starting with the Credential Manager, which allows you to store usernames and passwords to your commonly used websites and networked PCs. Then they describe the Credential Guard for securing a user in a virtualized environment, and finally they round out with Microsoft Passport and screen locks.",
+          "length": "911",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication_pt2-102715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication_pt2-102715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-2-1-authentication_pt2-102715-1-sm.jpg",
+          "title": "Authentication Part 2",
+          "transcript": "",
+          "url": "authentication-2",
+          "vimeoId": "143914802"
+        },
+        {
+          "description": "In this episode, Daniel and Wes introduce you to the topic of Host Security through system hardening techniques found in Windows 10. Here they show you techniques like updates and patch management for the operating system and drivers which keep your systems safe from exploits. They also look at informational apps like Action Center and Security & Maintenance that help point you to possible security issues.",
+          "length": "2049",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security-102815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security-102815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security-102815-1-sm.jpg",
+          "title": "Host Security",
+          "transcript": "",
+          "url": "host-security",
+          "vimeoId": "144399819"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue explaining host security hardening techniques, here starting with the Windows Firewall. They show you how to use the Windows Firewall to allow wanted programs and protocols to interact with your PC while simultaneously blocking unwanted or unnecessary items. They also show you how to create security connection rules and check security associations.",
+          "length": "1902",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security_pt2-102815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security_pt2-102815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10-3-0-host_security_pt2-102815-1-sm.jpg",
+          "title": "Host Security Part 2",
+          "transcript": "",
+          "url": "host-security-2",
+          "vimeoId": "144399832"
+        },
+        {
+          "description": "In this episode, Daniel and Wes show you how to create a more fundamentally secure environment in Windows 10 by implementing local group policy. Here they explain what local group policy is, how to configure it, and some of the ways that you can secure your PC, like restricting access to the registry. They also show you how to create multiple policies for applying different levels of access depending on user roles (admins vs. standard users).",
+          "length": "1759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-4-1-group_policy_management-102915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-4-1-group_policy_management-102915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-4-1-group_policy_management-102915-1-sm.jpg",
+          "title": "Group Policy Management",
+          "transcript": "",
+          "url": "policy-management2",
+          "vimeoId": "145665769"
+        },
+        {
+          "description": "In this episode, Wes and Daniel explain how to stay safe in the wilds of the internet by taking advantage of the features found in your web browser; specifically Internet Explorer and Edge. They walk you through each of the tabs in Internet Options pointing out the settings that can be used to increase security. Also, they cover other browsing safety mechanisms like ActiveX filtering, SmartScreen filtering, and Tracking Protection.",
+          "length": "1970",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-browser_security-102915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-browser_security-102915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-browser_security-102915-1-sm.jpg",
+          "title": "Browser Security",
+          "transcript": "",
+          "url": "browser-security",
+          "vimeoId": "145665780"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explore security in your Windows 10 PC through account management. Here they explain the different types of accounts such as Local, Domain, and Microsoft account along with the difference between administrative and non-administrative. They also describe built-in access control called the User Account Control(UAC) mechanism as well as how to configure the UAC.",
+          "length": "1608",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management-103015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management-103015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management-103015-high-sm.jpg",
+          "title": "Account Management",
+          "transcript": "",
+          "url": "account-management",
+          "vimeoId": "144754596"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue Windows 10 security through account management. They begin by continuing their discussion about the features of using a Microsoft account for authentication, both pros and cons. They also discuss the benefits of using Single Sign-On account and where you might run into SSOs. Also discussed is Domain and Workgroup accounts and how they differ in use and security management.",
+          "length": "914",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management_pt2-103015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management_pt2-103015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-5-1-account_management_pt2-103015-high-sm.jpg",
+          "title": "Account Management Part 2",
+          "transcript": "",
+          "url": "account-management-2",
+          "vimeoId": "144754581"
+        },
+        {
+          "description": "In this episode, Wes and Daniel look into implementing different methods of application management to secure your Windows 10 environment. They show you how to control software installation and execution using tools like AppLocker, Assigned Access, and Sideloading. Then they move into environment isolation by setting up virtual machines in Hyper-V.",
+          "length": "2027",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-7-1-application_management-110215-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-7-1-application_management-110215-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-7-1-application_management-110215-high-sm.jpg",
+          "title": "Application Management",
+          "transcript": "",
+          "url": "application-management",
+          "vimeoId": "144754606"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explore securing your Windows 10 environment by using certificates. Here they explain some of the ways in which Windows 10 uses certificates for both the User and Machine to verify identity. Then they show how to work with certificates using the Certificate Manager. Lastly they explain what a Certificate Authority(CA) is and the difference between a Public and Private CA.",
+          "length": "1615",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-8-1-certificates-110215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-8-1-certificates-110215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-8-1-certificates-110215-1-sm.jpg",
+          "title": "Certificates",
+          "transcript": "",
+          "url": "certificates2",
+          "vimeoId": "146581817"
+        },
+        {
+          "description": "In this episode, Daniel and Wes show you how to check for security issues by utilizing the auditing features found in the Windows 10 operating system. Here they take you through Application Logs, System Logs, and Security Logs; showing each of the log's ability to provide information on attempted or successful security breaches. They also discuss using Disk Quotas to help limit the fallout of certain types of attacks and how to read the associated logs to investigate any possible issues pertaining to it.",
+          "length": "1793",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-9-1-auditing-110215-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-9-1-auditing-110215-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-9-1-auditing-110215-high-sm.jpg",
+          "title": "Auditing",
+          "transcript": "",
+          "url": "auditing",
+          "vimeoId": "144754646"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explain how to secure the availability of your data by implementing good data redundancy practices through backup and recovery procedures. They start by describing File History for quick file recovery, then they explore the Windows Backup and Restore utility to create a system image and system repair disk. Also covered is the Windows 10 Reset/Refresh options and advanced options in the Windows Recovery Environment.",
+          "length": "2430",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-10-0-backup_and_recovery-110315-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-10-0-backup_and_recovery-110315-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-10-0-backup_and_recovery-110315-high-sm.jpg",
+          "title": "Backup and Recovery",
+          "transcript": "",
+          "url": "backup-recovery",
+          "vimeoId": "146653890"
+        },
+        {
+          "description": "In this episode, Daniel and Wes look at configuring a Windows 10 client to connect securely to a wireless network. First they go over the different encryption types (WEP/WPS/WPA/WPA2) that may be supported by any given access point. Then they jump to the Windows 10 client and configure things like the Windows Firewall profile as well as showing how to connect to a secure wireless network. They also demonstrate other wireless security measures like WiFi Sense and MAC filtering.",
+          "length": "1872",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-11-1-windows_security-110415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-11-1-windows_security-110415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-11-1-windows_security-110415-1-sm.jpg",
+          "title": "Windows Security",
+          "transcript": "",
+          "url": "windows-security",
+          "vimeoId": "145665753"
+        },
+        {
+          "description": "In this episode, Wes and Dan explore some of the ways you might securely connect to a private network from a remote location using Windows 10. They start by configuring a VPN connection using the Windows 10 VPN client and discuss the different protocols used to secure VPN connections; including Point to Point Tunneling Protocol(PPTP), Layer 2 Tunneling Protocol(L2TP), and Secure Sockets Tunneling Protocol(SSTP). They also look at authentication protocols, specifically MS-CHAP, MS-CHAPv2, and EAP; then finish up with Microsoft Direct Access.",
+          "length": "1551",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-12-1-remote_access-110415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-12-1-remote_access-110415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-12-1-remote_access-110415-1-sm.jpg",
+          "title": "Remote Access",
+          "transcript": "",
+          "url": "remote-access3",
+          "vimeoId": "145665790"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes take a look at using Micrsoft Intune to help with securing Windows 10 machines.  Even though Intune can help with many different devices, they focus in on securing Windows 10 machines within the domain and also standalone machines outside the domain environment.",
+          "length": "2133",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-13-1-microsoft-intune-110515-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-13-1-microsoft-intune-110515-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-13-1-microsoft-intune-110515-2-sm.jpg",
+          "title": "Microsoft Intune",
+          "transcript": "",
+          "url": "microsoft-intune",
+          "vimeoId": "146581751"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes take introduce managing permissions from the command prompt.  They demonstrate how to modify, add, and remove permission from files and folders within the Windows Directory structure.  Using iscacls, they show the ability for the system administrator to script out permissions when necessary.",
+          "length": "1432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli-111615-1-sm.jpg",
+          "title": "Security in CLI",
+          "transcript": "",
+          "url": "security-cli",
+          "vimeoId": "146521427"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue to look at using the command line interface to configure common security settings in Windows 10. They show how to view firewall profile status and turn them on and off. They also show how to configure both inbound and outbound firewall rules and view the rules as well.",
+          "length": "1668",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli_pt2-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli_pt2-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/techskills-windows10security-14-1-security_in_cli_pt2-111715-1-sm.jpg",
+          "title": "Security in the CLI Part 2",
+          "transcript": "",
+          "url": "security-cli-2",
+          "vimeoId": "146521417"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue to look at using the command line interface to configure common security settings in Windows 10. They look at working with Windows Defender from the command line. They demonstrate how to launch different types of scans, as well as updating the Windows Defender definitions.",
+          "length": "759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-14-1-security_in_cli_pt3-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-14-1-security_in_cli_pt3-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wiley-windows10security/wiley-windows10security-14-1-security_in_cli_pt3-111715-1-sm.jpg",
+          "title": "Security in the CLI Part 3",
+          "transcript": "",
+          "url": "security-cli-3",
+          "vimeoId": "146521435"
+        }
+      ],
+      "title": "Windows 10 Security"
+    }
+  ],
+  "url": "windows-10-security",
+  "vLab": false
+}

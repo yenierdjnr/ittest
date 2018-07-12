@@ -5,7 +5,7 @@
   "name": "MCSA Windows Server 2012 - 70-410 (UPDATED 2017)",
   "practiceExam": true,
   "subtitle": "Installing and Configuring Windows Server 2012",
-  "tagUrl": "microsoft-technical",
+  "tagUrl": "microsoft",
   "topics": [
     {
       "episodes": [
@@ -16,7 +16,8 @@
           "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-0-0-0-overview-120417-PGM.00_00_05_27.Still001-med.jpg",
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-0-0-0-overview-120417-PGM.00_00_05_27.Still001-sm.jpg",
           "title": "Overview",
-          "transcript": "",
+          "transcript": "WEBVTT\n\n1\n00:00:00.207 --> 00:00:04.650\n[MUSIC]\nWelcome to Installing and\n\n2\n00:00:04.650 --> 00:00:10.054\nConfiguring Server 2012.\n\n3\n00:00:10.054 --> 00:00:13.873\nIn this overview, I'm going to explain\nkind of what this series looks like,\n\n4\n00:00:13.873 --> 00:00:17.221\nwhat to expect and just walk through\na little bit of the exam taking,\n\n5\n00:00:17.221 --> 00:00:18.940\ntest taking process.\n\n6\n00:00:18.940 --> 00:00:22.930\nSo, if we can take a look at my screen,\nI wanna share a page that Microsoft\n\n7\n00:00:22.930 --> 00:00:26.900\nhas some details provided\nsurrounding this particular exam.\n\n8\n00:00:26.900 --> 00:00:30.590\nSo, maybe you are a server admin, or\n\n9\n00:00:30.590 --> 00:00:34.120\nmaybe you're just looking to\nobtain a particular certification.\n\n10\n00:00:34.120 --> 00:00:37.331\nWell this exam is going\nto be part of a track for\n\n11\n00:00:37.331 --> 00:00:42.580\ncertification such as your MCP, or\nMicrosoft Certified Professional.\n\n12\n00:00:42.580 --> 00:00:45.826\nIt's a great place to\nstart with your MCSA,\n\n13\n00:00:45.826 --> 00:00:49.687\nyour Microsoft Certified\nSolutions Associate, or\n\n14\n00:00:49.687 --> 00:00:54.620\neven your MCSE, for\nyour Microsoft Certified Solutions Expert.\n\n15\n00:00:54.620 --> 00:00:58.320\nNow currently,\nat the point of this recording,\n\n16\n00:00:58.320 --> 00:01:02.210\nit's $165 U.S. to take the exam.\n\n17\n00:01:02.210 --> 00:01:05.020\nMicrosoft exams are a little\nfunny in the sense they don't\n\n18\n00:01:05.020 --> 00:01:09.120\noutright tell you exactly how many\nquestions are gonna be on the exam.\n\n19\n00:01:09.120 --> 00:01:13.720\nThe number could fluctuate, usually\nbetween 40 to 60 questions per exam.\n\n20\n00:01:13.720 --> 00:01:17.875\nAnd if we scroll down,\nwe can see there are six domain\n\n21\n00:01:17.875 --> 00:01:22.325\nobjectives underneath this\nSkills measured portion.\n\n22\n00:01:22.325 --> 00:01:26.287\nSo what that means, those are six\ncategories for the exam topics,\n\n23\n00:01:26.287 --> 00:01:27.080\nif you will.\n\n24\n00:01:27.080 --> 00:01:31.370\nAnd if we take a look at those, you can\neven see how they break them down into\n\n25\n00:01:31.370 --> 00:01:36.550\npercentage as far as an overall\nweighted percentage per category.\n\n26\n00:01:36.550 --> 00:01:40.700\nSo in the first domain,\nwe'll see install and configure servers.\n\n27\n00:01:40.700 --> 00:01:43.380\nAnd if you hit the plus button\nthe left-hand side here,\n\n28\n00:01:43.380 --> 00:01:49.420\nit'll expand out to just give you a little\nmore detail on really what to expect for\n\n29\n00:01:49.420 --> 00:01:51.810\na domain objective or topic here.\n\n30\n00:01:53.240 --> 00:01:57.280\nSo, the other five remaining topics\nare going to be configure server roles and\n\n31\n00:01:57.280 --> 00:01:57.790\nfeatures.\n\n32\n00:01:57.790 --> 00:02:00.230\nWe'll definitely take\na look at all of those.\n\n33\n00:02:00.230 --> 00:02:03.880\nWe'll also spend quite a good amount\nof time just looking at, well,\n\n34\n00:02:03.880 --> 00:02:07.160\nhow to configure Hyper-V with\nthe advent of virtualization.\n\n35\n00:02:07.160 --> 00:02:11.750\nIt's very important to understand how\nthose virtualized machines work in today's\n\n36\n00:02:11.750 --> 00:02:13.130\nenvironments here in Windows.\n\n37\n00:02:14.130 --> 00:02:18.960\nWe'll also take a look at deploying and\nconfiguring core network services,\n\n38\n00:02:18.960 --> 00:02:23.180\nas well as installing and\nadministering active directory.\n\n39\n00:02:23.180 --> 00:02:28.840\nAnd lastly, we'll specifically be looking\nat how to create and manage group policy.\n\n40\n00:02:28.840 --> 00:02:33.366\nSo there is quite a bit here, I think its\na great place for you to go ahead and\n\n41\n00:02:33.366 --> 00:02:34.250\nget started.\n\n42\n00:02:34.250 --> 00:02:37.063\nSo good luck, and I'll see you soon.\n\n43\n00:02:37.063 --> 00:02:42.530\n[MUSIC]\n\n",
+          "url": "overview-70410",
           "vimeoId": "245957467"
         },
         {
@@ -27,26 +28,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
           "title": "Planning a Server Installation",
           "transcript": "",
-          "vimeoId": "222681036"
-        },
-        {
-          "description": "In this episode, Ronnie and Cherokee look at the planning considerations for using Windows Server 2012 R2.  Cherokee reviews some of the different editions: Datacenter, Standard, Essentials and Foundation.  She also provides a scenario to consider when choosing which edition to pick.  Lastly, Cherokee provides us with the different hardware requirements when performing a basic installation of Server 2012 R2.",
-          "length": "1265",
-          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001.png",
-          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-med.jpg",
-          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
-          "title": "Planning a Server Installation 70410",
-          "transcript": "",
-          "vimeoId": "222681036"
-        },
-        {
-          "description": "In this episode, Ronnie and Cherokee look at the planning considerations for using Windows Server 2012 R2.  Cherokee reviews some of the different editions: Datacenter, Standard, Essentials and Foundation.  She also provides a scenario to consider when choosing which edition to pick.  Lastly, Cherokee provides us with the different hardware requirements when performing a basic installation of Server 2012 R2.",
-          "length": "1265",
-          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001.png",
-          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-med.jpg",
-          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-1-planning_a_server_installation-062017-PGM.00_20_49_06.Still001-sm.jpg",
-          "title": "Planning a Server Installation",
-          "transcript": "",
+          "url": "planningserver-installation-mcsa70410",
           "vimeoId": "222681036"
         },
         {
@@ -57,6 +39,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-2-install_and_configure_server_with_gui-062017-PGM.00_00_11_26.Still001-sm.jpg",
           "title": "Install and Configure Server with GUI",
           "transcript": "",
+          "url": "installconfigure-servergui-410",
           "vimeoId": "222681318"
         },
         {
@@ -67,6 +50,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-3-install_and_configure_server_core-062017-PGM.00_52_30_21.Still001-sm.jpg",
           "title": "Install and Configure Server Core",
           "transcript": "",
+          "url": "installconfigure-server-core",
           "vimeoId": "222837539"
         },
         {
@@ -77,6 +61,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-1-features_and_roles-062117-PGM.00_30_20_14.Still001-sm.jpg",
           "title": "Features and Roles",
           "transcript": "",
+          "url": "featuresroles",
           "vimeoId": "222837109"
         },
         {
@@ -87,6 +72,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-4-2-features_and_roles_pt2-062117-high-sm.jpg",
           "title": "Features and Roles Part 2",
           "transcript": "",
+          "url": "featuresroles2",
           "vimeoId": "224342460"
         },
         {
@@ -97,6 +83,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-1-additional_installation_configurations-070717-PGM.00_00_11_26.Still001-sm.jpg",
           "title": "Additional Installation Configurations",
           "transcript": "",
+          "url": "additional-installation-configurations",
           "vimeoId": "266492359"
         },
         {
@@ -107,6 +94,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-5-2-additional_installation_configurations_pt2-070717-PGM.00_24_26_27.Still001-sm.jpg",
           "title": "Additional Installation Configurations Part 2",
           "transcript": "",
+          "url": "additional-installation-configurations2",
           "vimeoId": "236589502"
         },
         {
@@ -117,6 +105,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-1-configuring_disks-070517-PGM.00_26_02_13.Still001-sm.jpg",
           "title": "Configuring Disks",
           "transcript": "",
+          "url": "configuring-disks-410",
           "vimeoId": "224657163"
         },
         {
@@ -127,6 +116,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-7-2-configuring_disks_pt2-070517-PGM.00_25_06_05.Still001-sm.jpg",
           "title": "Configuring Disks Part 2",
           "transcript": "",
+          "url": "configuring-disks2-410",
           "vimeoId": "224656895"
         },
         {
@@ -137,6 +127,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-1-storage_spaces-070617-PGM.00_29_02_03.Still001-sm.jpg",
           "title": "Storage Spaces",
           "transcript": "",
+          "url": "storage-spaces-70410",
           "vimeoId": "266491623"
         },
         {
@@ -147,6 +138,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-1-8-2-storage_spaces_pt2-070617-PGM.00_21_22_08.Still001-sm.jpg",
           "title": "Storage Spaces Part 2",
           "transcript": "",
+          "url": "storage-spaces2-410",
           "vimeoId": "224648762"
         },
         {
@@ -157,6 +149,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-1-desired_state_configuration-062317-PGM.00_30_14_26.Still001-sm.jpg",
           "title": "Desired State Configuration",
           "transcript": "",
+          "url": "desiredconfiguration",
           "vimeoId": "223136007"
         },
         {
@@ -167,6 +160,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-2-desired_state_configuration_pt2-062317-PGM.00_00_11_24.Still001-sm.jpg",
           "title": "Desired State Configuration Part 2",
           "transcript": "",
+          "url": "desiredconfiguration2",
           "vimeoId": "223136529"
         },
         {
@@ -177,6 +171,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-3-3-desired_state_configuration_pt3-062317-PGM.00_00_43_10.Still001-sm.jpg",
           "title": "Desired State Configuration Part 3",
           "transcript": "",
+          "url": "desiredconfiguration3",
           "vimeoId": "223137650"
         },
         {
@@ -187,6 +182,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-1-nic_teaming-070317-PGM.00_28_28_14.Still001-sm.jpg",
           "title": "NIC Teaming",
           "transcript": "",
+          "url": "nic-teaming",
           "vimeoId": "224342757"
         },
         {
@@ -197,6 +193,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-5-1-2-nic_teaming_pt2-070317-PGM.00_00_11_23.Still001-sm.jpg",
           "title": "NIC Teaming Part 2",
           "transcript": "",
+          "url": "nic-teaming2",
           "vimeoId": "224932408"
         }
       ],
@@ -212,6 +209,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-1-configure_ntfs_permission-071117.00_29_54_00.Still001-sm.jpg",
           "title": "Configure NTFS Permissions",
           "transcript": "",
+          "url": "configure-ntfs-permissions",
           "vimeoId": "225404733"
         },
         {
@@ -222,6 +220,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-1-2-configure_ntfs_permission_pt2-071117-PGM.00_10_50_28.Still001-sm.jpg",
           "title": "Configure NTFS Permissions Part 2",
           "transcript": "",
+          "url": "configure-ntfs-permissions2",
           "vimeoId": "225404988"
         },
         {
@@ -232,6 +231,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-1-configure_share_permissions-071217-PGM.00_26_08_21.Still001-sm.jpg",
           "title": "Configure Share Permissions",
           "transcript": "",
+          "url": "configure-share-permissions",
           "vimeoId": "225857680"
         },
         {
@@ -242,6 +242,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server70410-2-2-2-configure_share_permissions_pt2-071217-PGM.00_23_29_04.Still001-sm.jpg",
           "title": "Configure Share Permissions Part 2",
           "transcript": "",
+          "url": "configure-share-permissions2",
           "vimeoId": "225857955"
         },
         {
@@ -252,6 +253,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-1-configure_file_and_share_access-071317-PGM.00_22_58_11.Still001-sm.jpg",
           "title": "Configure File and Share Access",
           "transcript": "",
+          "url": "configure-fileshare-access",
           "vimeoId": "226158399"
         },
         {
@@ -262,6 +264,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-2-configure_file_and_share_access_pt2-071317.00_26_51_05.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 2",
           "transcript": "",
+          "url": "configure-fileshare-access2",
           "vimeoId": "225858223"
         },
         {
@@ -272,6 +275,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-3-configure_file_and_share_access_pt3-071417.00_29_01_17.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 3",
           "transcript": "",
+          "url": "configure-fileshare-access3",
           "vimeoId": "226159127"
         },
         {
@@ -282,6 +286,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-4-configure_file_and_share_access_pt4-071417-PGM.00_24_39_14.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 4",
           "transcript": "",
+          "url": "configure-fileshare-access4",
           "vimeoId": "226158670"
         },
         {
@@ -292,6 +297,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-5-configure_file_and_share_access_pt5-071417-PGM.00_20_32_17.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 5",
           "transcript": "",
+          "url": "configure-fileshare-access5",
           "vimeoId": "226158917"
         },
         {
@@ -302,6 +308,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt6-072417-PGM.00_23_15_09.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 6",
           "transcript": "",
+          "url": "configure-fileshare-access6",
           "vimeoId": "227076054"
         },
         {
@@ -312,6 +319,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-3-6-configure_file_and_share_access_pt7-072517-PGM.00_33_18_10.Still001-sm.jpg",
           "title": "Configure File and Share Access Part 7",
           "transcript": "",
+          "url": "configure-fileshare-access7",
           "vimeoId": "227262417"
         },
         {
@@ -322,6 +330,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-1-configuring_printers-072517-PGM.00_29_43_12.Still001-sm.jpg",
           "title": "Configuring Printers",
           "transcript": "",
+          "url": "configure-printers-70410",
           "vimeoId": "227076293"
         },
         {
@@ -332,6 +341,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-2-configuring_printers_pt2-072617-PGM.00_00_11_22.Still001-sm.jpg",
           "title": "Configuring Printers Part 2",
           "transcript": "",
+          "url": "configure-printers2",
           "vimeoId": "227262890"
         },
         {
@@ -342,6 +352,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-7-3-configuring_printers_pt3-072617-PGM.00_57_34_01.Still001-sm.jpg",
           "title": "Configuring Printers Part 3",
           "transcript": "",
+          "url": "configuring-printers3",
           "vimeoId": "227744002"
         },
         {
@@ -352,6 +363,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-1-configure_servers_for_remote_management-071717-PGM.00_21_06_00.Still001-sm.jpg",
           "title": "Configure Servers for Remote Management",
           "transcript": "",
+          "url": "configure-serversremote-management",
           "vimeoId": "230448575"
         },
         {
@@ -362,6 +374,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-2-configure_servers_for_remote_management_pt2-071717-PGM.00_27_27_24.Still001-sm.jpg",
           "title": "Configure Servers for Remote Management Part 2",
           "transcript": "",
+          "url": "configure-serversremote-management2",
           "vimeoId": "230448405"
         },
         {
@@ -372,6 +385,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-2-8-3-configure_servers_for_remote_management_pt3-071817-PGM.00_35_29_00.Still001-sm.jpg",
           "title": "Configure Servers for Remote Management Part 3",
           "transcript": "",
+          "url": "configure-serversremote-mgmt3",
           "vimeoId": "236588724"
         }
       ],
@@ -387,6 +401,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-1-understand_create_and_configure_vms-100217-PGM.00_28_54_22.Still001-sm.jpg",
           "title": "Understand, Create and Configure VMs",
           "transcript": "",
+          "url": "understand-createconfigure-vms",
           "vimeoId": "236589252"
         },
         {
@@ -397,6 +412,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-2-understand_create_and_configure_vms_pt2-100217-PGM.00_26_40_20.Still001-sm.jpg",
           "title": "Understand, Create and Configure VMs Part 2",
           "transcript": "",
+          "url": "understand-createconfigure-vms2",
           "vimeoId": "236589020"
         },
         {
@@ -407,6 +423,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-1-3-understand_create_and_configure_vms_pt3-100317.00_20_45_12.Still002-sm.jpg",
           "title": "Understand, Create and Configure VM Part 3",
           "transcript": "",
+          "url": "understand-createconfigure-vm3",
           "vimeoId": "236808034"
         },
         {
@@ -417,6 +434,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-2-1-configure_guest_integration_services-100317-PGM.00_27_08_12.Still001-sm.jpg",
           "title": "Configure Guest Integration Services",
           "transcript": "",
+          "url": "configure-guest-integration-services",
           "vimeoId": "236807762"
         },
         {
@@ -427,6 +445,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-1-additional_vm_configurations-100317-PGM.00_27_37_05.Still001-sm.jpg",
           "title": "Additional VM Configurations",
           "transcript": "",
+          "url": "additional-vm-configurations",
           "vimeoId": "236807493"
         },
         {
@@ -437,6 +456,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-3-2-additional_vm_configurations_pt2-100417-PGM.00_20_26_00.Still001-sm.jpg",
           "title": "Additional VM Configurations Part 2",
           "transcript": "",
+          "url": "additional-vm-configurations2",
           "vimeoId": "236935899"
         },
         {
@@ -447,6 +467,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-4-1-create_and_configure_vm_storage-100517-PGM.00_27_39_15.Still001-sm.jpg",
           "title": "Create and Configure VM Storage",
           "transcript": "",
+          "url": "createconfigure-vm-storage",
           "vimeoId": "237107217"
         },
         {
@@ -457,6 +478,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-5-1-working_with_vhds_in_powershell-100517-PGM.00_19_21_00.Still001-sm.jpg",
           "title": "Working with VHDs in Powershell",
           "transcript": "",
+          "url": "vhdspowershell",
           "vimeoId": "237107059"
         },
         {
@@ -467,6 +489,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-6-1-additional_storage_configurations-100517-PGM.00_16_08_25.Still001-sm.jpg",
           "title": "Additional Storage Configurations",
           "transcript": "",
+          "url": "additional-storage-configurations",
           "vimeoId": "237106937"
         },
         {
@@ -477,6 +500,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-1-hyper_v_networking-101617-PGM.00_29_02_01.Still002-sm.jpg",
           "title": "Hyper-V Networking",
           "transcript": "",
+          "url": "hyperv-networking",
           "vimeoId": "238591743"
         },
         {
@@ -487,6 +511,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-2-hyper_v_networking_pt2-101617-PGM.00_22_45_29.Still002-sm.jpg",
           "title": "Hyper-V Networking Part 2",
           "transcript": "",
+          "url": "hyperv-networking-pt2",
           "vimeoId": "238591021"
         },
         {
@@ -497,6 +522,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-3-hyper_v_networking_pt3-102017-PGM.00_51_45_19.Still001-sm.jpg",
           "title": "Hyper-V Networking Part 3",
           "transcript": "",
+          "url": "hyperv-networking3",
           "vimeoId": "239465377"
         },
         {
@@ -507,6 +533,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-3-7-4-hyper_v_networking_pt4-102017-PGM.00_00_11_21.Still001-sm.jpg",
           "title": "Hyper-V Networking Part 4",
           "transcript": "",
+          "url": "hyperv-networking4",
           "vimeoId": "240009501"
         }
       ],
@@ -522,6 +549,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-1-deploy_and_configure_dhcp-0722717-PGM.00_27_56_25.Still001-sm.jpg",
           "title": "Deploy and Configure DHCP",
           "transcript": "",
+          "url": "deployconfigure-dhcp",
           "vimeoId": "227745182"
         },
         {
@@ -532,6 +560,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-2-deploy_and_configure_dhcp_pt2-0722817-PGM.00_23_13_08.Still001-sm.jpg",
           "title": "Deploy and Configure DHCP Part 2",
           "transcript": "",
+          "url": "deployconfigure-dhcp2",
           "vimeoId": "227744878"
         },
         {
@@ -542,6 +571,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-3-deploy_and_configure_dhcp_pt3-0722817-PGM.00_24_03_17.Still001-sm.jpg",
           "title": "Deploy and Configure DHCP Part 3",
           "transcript": "",
+          "url": "deployconfigure-dhcp3",
           "vimeoId": "227744390"
         },
         {
@@ -552,6 +582,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-1-4-deploy_and_configure_dhcp_pt4-071517-PGM.00_50_29_07.Still001-sm.jpg",
           "title": "Deploy and Configure DHCP Part 4",
           "transcript": "",
+          "url": "deployconfigure-dhcp4",
           "vimeoId": "230448139"
         },
         {
@@ -562,6 +593,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-1-install_dns-102417-PGM.00_35_15_11.Still001-sm.jpg",
           "title": "Install DNS",
           "transcript": "",
+          "url": "install-dns",
           "vimeoId": "240151485"
         },
         {
@@ -572,6 +604,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-2-install_dns_pt_2-102417-PGM.00_29_24_04.Still001-sm.jpg",
           "title": "Install DNS Part 2",
           "transcript": "",
+          "url": "install-dns2",
           "vimeoId": "240151041"
         },
         {
@@ -582,6 +615,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-2-3-install_dns_pt_3-102417-PGM.00_32_05_26.Still001-sm.jpg",
           "title": "Install DNS Part 3",
           "transcript": "",
+          "url": "install-dns3",
           "vimeoId": "240010122"
         },
         {
@@ -592,6 +626,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-1-configure_dns-102617-PGM.00_34_38_12.Still001-sm.jpg",
           "title": "Configure DNS",
           "transcript": "",
+          "url": "configure-dns",
           "vimeoId": "240550547"
         },
         {
@@ -602,6 +637,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-2-configure_dns_pt_2-102617-PGM.01_28_08_03.Still001-sm.jpg",
           "title": "Configure DNS Part 2",
           "transcript": "",
+          "url": "configure-dns2",
           "vimeoId": "240218575"
         },
         {
@@ -612,6 +648,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-4-3-3-configure_dns_pt_3-102617-PGM.00_40_25_10.Still001-sm.jpg",
           "title": "Configure DNS Part 3",
           "transcript": "",
+          "url": "configure-dns3",
           "vimeoId": "240550014"
         },
         {
@@ -622,6 +659,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-1-ipv4_and_ipv6_interoperability-010518-PGM.00_23_23_02.Still001-sm.jpg",
           "title": "IPv4 and IPv6 Interoperability",
           "transcript": "",
+          "url": "ipv4ipv6-interoperability",
           "vimeoId": "250168712"
         },
         {
@@ -632,6 +670,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-4-4-2-ipv4_and_ipv6_interoperability_pt_2-010518.00_17_45_15.Still001-sm.jpg",
           "title": "IPv4 and IPv6 Interoperability Part 2",
           "transcript": "",
+          "url": "ipv4ipv6-interoperability2",
           "vimeoId": "250168282"
         },
         {
@@ -642,6 +681,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-1-configure_ipv4_and_ipv6-102517-PGM.00_32_36_00.Still001-sm.jpg",
           "title": "Configure IPv4 and IPv6",
           "transcript": "",
+          "url": "configure-ipv4ipv6-70410",
           "vimeoId": "240218052"
         },
         {
@@ -652,6 +692,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-6-1-2-configure_ipv4_and_ipv6_pt_2-102517-PGM.00_48_46_19.Still001-sm.jpg",
           "title": "Configure IPv4 and IPv6 Part 2",
           "transcript": "",
+          "url": "configure-ipv4ipv62",
           "vimeoId": "240151925"
         }
       ],
@@ -667,6 +708,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-1-install_domain_controllers-102317-CLN.00_29_44_04.Still001-sm.jpg",
           "title": "Install Domain Controllers",
           "transcript": "",
+          "url": "install-domain-controllers-70410",
           "vimeoId": "239825738"
         },
         {
@@ -677,6 +719,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-2-install_domain_controllers_pt_2-102317-PGM.00_26_57_29.Still001-sm.jpg",
           "title": "Install Domain Controllers Part 2",
           "transcript": "",
+          "url": "install-domain-controllers2-70410",
           "vimeoId": "239825118"
         },
         {
@@ -687,6 +730,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-3-install_domain_controllers_pt_3-102317-PGM.00_31_52_06.Still001-sm.jpg",
           "title": "Install Domain Controllers Part 3",
           "transcript": "",
+          "url": "install-domain-controllers3-70410",
           "vimeoId": "239824231"
         },
         {
@@ -697,6 +741,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-1-4-install_domain_controllers_pt_4-102317.00_32_39_20.Still001-sm.jpg",
           "title": "Install Domain Controllers Part 4",
           "transcript": "",
+          "url": "install-domain-controllers4",
           "vimeoId": "239826076"
         },
         {
@@ -707,6 +752,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-1-active_directory_users_and_computers-102717-PGM.00_30_29_19.Still001-sm.jpg",
           "title": "Active Directory Users and Computers",
           "transcript": "",
+          "url": "active-directory-userscomputers",
           "vimeoId": "240549251"
         },
         {
@@ -717,6 +763,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-2-active_directory_users_and_computers_pt_2-102717-PGM.00_29_56_11.Still001-sm.jpg",
           "title": "Active Directory Users and Computers Part 2",
           "transcript": "",
+          "url": "active-directory-userscomputers2",
           "vimeoId": "240549615"
         },
         {
@@ -727,6 +774,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-mcsa-server2012-70410-5-2-3-active_directory_users_and_computers_pt_3-102717-PGM.00_21_12_08.Still001-sm.jpg",
           "title": "Active Directory Users and Computers Part 3",
           "transcript": "",
+          "url": "active-directory-userscomputers3",
           "vimeoId": "240549019"
         },
         {
@@ -737,6 +785,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-1-create_and_manage_groups-and_ous-112217-PGM.00_26_29_21.Still001-sm.jpg",
           "title": "Create and Manage Groups and OUs",
           "transcript": "",
+          "url": "createmanage-groupsous",
           "vimeoId": "244657564"
         },
         {
@@ -747,6 +796,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-5-3-2-create_and_manage_groups-and_ous_pt_2-112217-PGM.00_46_58_10.Still001-sm.jpg",
           "title": "Create and Manage Groups and OUs Part 2",
           "transcript": "",
+          "url": "createmanage-groupsous2",
           "vimeoId": "244657243"
         }
       ],
@@ -762,6 +812,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-1-create_group_policy_objects-112017-PGM.00_33_44_16.Still001-sm.jpg",
           "title": "Create Group Policy Objects (GPOs)",
           "transcript": "",
+          "url": "createpolicy-objects-gpos",
           "vimeoId": "243916126"
         },
         {
@@ -772,6 +823,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-2-create_group_policy_objects_pt_2-112017-PGM.00_30_40_23.Still001-sm.jpg",
           "title": "Create Group Policy Objects (GPOs) Part 2",
           "transcript": "",
+          "url": "createpolicy-objects-gpos2",
           "vimeoId": "243915824"
         },
         {
@@ -782,6 +834,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-3-create_group_policy_objects_pt_3-112817-PGM.00_30_48_03.Still001-sm.jpg",
           "title": "Create Group Policy Objects (GPOs) Part 3",
           "transcript": "",
+          "url": "createpolicy-objects-gpos3",
           "vimeoId": "245019660"
         },
         {
@@ -792,6 +845,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-4-create_group_policy_objects_pt_3-112817-PGM.00_30_39_19.Still001-sm.jpg",
           "title": "Create Group Policy Objects (GPOs) Part 4",
           "transcript": "",
+          "url": "createpolicy-objects-gpos4",
           "vimeoId": "245019976"
         },
         {
@@ -802,6 +856,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-1-5-create_group_policy_objects_pt_5-112817-PGM.00_16_20_06.Still001-sm.jpg",
           "title": "Create Group Policy Objects (GPOs) Part 5",
           "transcript": "",
+          "url": "createpolicy-objects-gpos5",
           "vimeoId": "245019530"
         },
         {
@@ -812,6 +867,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-1-configure_security_policies-112017-PGM.00_34_12_05.Still001-sm.jpg",
           "title": "Configure Security Policies",
           "transcript": "",
+          "url": "configure-security-policies-70410",
           "vimeoId": "243915452"
         },
         {
@@ -822,6 +878,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-2-2-configure_security_policies_pt_2-112017-PGM.00_24_37_03.Still001-sm.jpg",
           "title": "Configure Security Policies Part 2",
           "transcript": "",
+          "url": "configure-security-policies2",
           "vimeoId": "243916443"
         },
         {
@@ -832,6 +889,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-1-configure_application_restriction_policies-112117-PGM.00_32_56_06.Still001-sm.jpg",
           "title": "Configure Application Restriction Policies",
           "transcript": "",
+          "url": "configure-application-restriction-policies",
           "vimeoId": "244100091"
         },
         {
@@ -842,6 +900,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-3-2-configure_application_restriction_policies_pt_2-112117-PGM.00_25_17_11.Still001-sm.jpg",
           "title": "Configure Application Restriction Policies Part 2",
           "transcript": "",
+          "url": "configure-application-restriction-policies2",
           "vimeoId": "244099692"
         },
         {
@@ -852,6 +911,7 @@
           "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70410-2017/microsoft-server70410-6-4-1-configure_windows_firewall-112117-PGM.00_28_58_16.Still001-sm.jpg",
           "title": "Configure Windows Firewall",
           "transcript": "",
+          "url": "configure-windows-firewall-70410",
           "vimeoId": "244099860"
         }
       ],

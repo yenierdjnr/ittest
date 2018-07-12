@@ -1,0 +1,233 @@
+{
+  "description": "This exam has been retired. CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-101 and LX0-102) are awarded with not one, but two certifications: the CompTIA Linux+ certification and the LPI LPIC-1 certification. That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+  "descriptionMD": "",
+  "length": "88593",
+  "name": "Linux+",
+  "practiceExam": false,
+  "subtitle": null,
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-101 and LX0-102) are awarded with not one, but two certifications: the CompTIA Linux+ certification and the LPI LPIC-1 certification. That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+          "length": "944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/001-Intro-to-Linux-sm.jpg",
+          "title": "Introduction to Linux+",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:04.900\n[MUSIC]\n\n2\n00:00:08.286 --> 00:00:08.950\nAll right.\n\n3\n00:00:08.950 --> 00:00:13.340\nToday we're gonna take a look at\nthe Linux+ certification from CompTIA.\n\n4\n00:00:13.340 --> 00:00:16.110\nThis is kind of an interesting\ncertification compared to\n\n5\n00:00:16.110 --> 00:00:17.940\na lot of the ones that CompTIA does,\n\n6\n00:00:17.940 --> 00:00:22.160\nbecause it's the first one that\nthey didn't actually develop.\n\n7\n00:00:22.160 --> 00:00:24.820\nAnd so that makes it interesting,\nso we do wanna talk about it.\n\n8\n00:00:24.820 --> 00:00:29.570\nKinda what it is, what it covers, and\nwhy CompTIA didn't develop this exam.\n\n9\n00:00:29.570 --> 00:00:31.270\nIt's all important stuff to know,\n\n10\n00:00:31.270 --> 00:00:35.170\nso let's just start with\nthe basics with what is Linux+?\n\n11\n00:00:35.170 --> 00:00:37.780\nIt's a certification from CompTIA,\n\n12\n00:00:37.780 --> 00:00:42.590\nthe same people that bring you A+,\nNet+, Security+, they bring you Linux+.\n\n13\n00:00:42.590 --> 00:00:46.770\nAnd it's designed to show that\na network or systems administrator\n\n14\n00:00:46.770 --> 00:00:51.760\nhas a basic level of knowledge in\noperating Linux servers and workstations.\n\n15\n00:00:51.760 --> 00:00:55.760\nIt's designed to be vendor neutral so\nit's not Red Hat only or\n\n16\n00:00:55.760 --> 00:00:57.670\nUbuntu canonical, whatever.\n\n17\n00:00:57.670 --> 00:01:00.690\nIt is design to be vendor neutral but\n\n18\n00:01:00.690 --> 00:01:04.660\nit does actually focus a little bit on\nthe Red Hat-based Linux products and\n\n19\n00:01:04.660 --> 00:01:08.080\nthe Debian-based Linux products,\nwhich almost everything is these days.\n\n20\n00:01:08.080 --> 00:01:11.635\nSo it does a great job of straddling\nthe fence between those and\n\n21\n00:01:11.635 --> 00:01:16.025\nshowing concepts, commands,\nadministration tools and\n\n22\n00:01:16.025 --> 00:01:20.980\ntechniques that apply to both sets of the\nLinux distributions that are out there.\n\n23\n00:01:20.980 --> 00:01:26.210\nSo it is a great certification in that it\ndoes show you have that general knowledge.\n\n24\n00:01:26.210 --> 00:01:27.180\nNow, in the beginning,\n\n25\n00:01:27.180 --> 00:01:32.250\nCompTIA actually had their own in-house\ndeveloped Linux+ certification.\n\n26\n00:01:32.250 --> 00:01:35.000\nBut over time,\nthey wanted to make it better and\n\n27\n00:01:35.000 --> 00:01:37.270\nmore generally accepted\namongst the community.\n\n28\n00:01:37.270 --> 00:01:40.150\nSo instead of continuing to\nwrite the exam themselves,\n\n29\n00:01:40.150 --> 00:01:44.810\nthey partnered with the LPI,\nthe Linux Professional Institute.\n\n30\n00:01:44.810 --> 00:01:49.850\nLPI actually had, or has, four levels\nof Linux certification available,\n\n31\n00:01:49.850 --> 00:01:52.780\nfrom basic all the way up to\nsuper mega expert, right?\n\n32\n00:01:52.780 --> 00:01:55.511\nYou have to wear suspenders and\nhave a beard for that one.\n\n33\n00:01:55.511 --> 00:01:57.265\n>> [LAUGH]\n>> [LAUGH] Even if you're a woman.\n\n34\n00:01:57.265 --> 00:02:02.260\n[LAUGH] And so you know they've\ngot some really advanced stuff and\n\n35\n00:02:02.260 --> 00:02:05.640\nCompTIA said well you know,\nwe really just want the lower end, right?\n\n36\n00:02:05.640 --> 00:02:08.025\nThe introductories,\npeople have the base knowledge,\n\n37\n00:02:08.025 --> 00:02:11.330\nit's the equivalent of one year of\nfield experience working with Linux.\n\n38\n00:02:11.330 --> 00:02:15.320\nThat's what they're shooting for\nand the LPI said well great.\n\n39\n00:02:15.320 --> 00:02:19.910\nWhat you can do is you can use our first\ntwo exams for our certification track and\n\n40\n00:02:19.910 --> 00:02:24.460\nuse that to gauge your Linux+ testers,\nright?\n\n41\n00:02:24.460 --> 00:02:25.910\nAnd so that's what they did,\nthey partnered up,\n\n42\n00:02:25.910 --> 00:02:28.880\nit's been a great partnership\nbetween the two organizations.\n\n43\n00:02:28.880 --> 00:02:31.850\nAnd so when you look at the CompTIA\nwebpages, it'll always say,\n\n44\n00:02:31.850 --> 00:02:33.859\nwell look I've got it\npulled up right here.\n\n45\n00:02:33.859 --> 00:02:38.612\nCompTIA Linux+ Powered by LPI, and\nthat lets you know that while it is\n\n46\n00:02:38.612 --> 00:02:43.580\na CompTIA certification,\nit's actually developed by the LPI.\n\n47\n00:02:43.580 --> 00:02:44.700\nOn a neat side,\n\n48\n00:02:44.700 --> 00:02:48.730\nit means when you pass the exams,\nyou actually get two certifications.\n\n49\n00:02:48.730 --> 00:02:53.360\nYou get the CompTIA Linux+ which\nis what most of us are after.\n\n50\n00:02:53.360 --> 00:02:58.120\nAnd then on the LPI,\nLinux Professional Institute, side,\n\n51\n00:02:58.120 --> 00:03:02.850\nyou'll see that you actually end up with\nwhat's called their LPIC-1 certification,\n\n52\n00:03:02.850 --> 00:03:05.160\nJunior Level Linux certification.\n\n53\n00:03:05.160 --> 00:03:08.640\nAnd to get that you have to\npass their first two exams\n\n54\n00:03:08.640 --> 00:03:11.330\nwhich are the same exams you\nhave to take for Linux+.\n\n55\n00:03:11.330 --> 00:03:14.200\nSo you actually end up double\ncertified which is just kind of neat.\n\n56\n00:03:15.360 --> 00:03:19.910\nNow, CompTIA does stop there at Linux+,\nthey don't go beyond that.\n\n57\n00:03:19.910 --> 00:03:22.670\nAnd so if you want to get\nmore advanced Linux skills,\n\n58\n00:03:22.670 --> 00:03:26.290\nwell that's where you come over to LPI and\nyou do LPIC-2, LPIC-3, right?\n\n59\n00:03:26.290 --> 00:03:30.150\nThat's how that partnership works, and how\nboth companies benefit from it and how you\n\n60\n00:03:30.150 --> 00:03:35.250\nbenefit from it too, because I'll tell\nyou a lot of people have heard of Linux+.\n\n61\n00:03:35.250 --> 00:03:40.339\nIt's a very popular certification, not\nas many people have heard of LPIC-2 and\n\n62\n00:03:40.339 --> 00:03:41.088\nLPIC-3.\n\n63\n00:03:41.088 --> 00:03:45.590\nThey're great certifications, believe me,\nbut not as many people have heard of them.\n\n64\n00:03:45.590 --> 00:03:48.430\nIf you want advanced certifications,\nthey're the way to go, right?\n\n65\n00:03:48.430 --> 00:03:51.080\nBut if you're just trying to do that\nentry-level thing, something that's higher\n\n66\n00:03:51.080 --> 00:03:54.000\nvisibility is great,\nlooks great on the resume, so here you go.\n\n67\n00:03:55.410 --> 00:03:59.140\nAll right, now the Linux+ certification\nis actually broken up into two exams.\n\n68\n00:03:59.140 --> 00:04:00.058\nSo, we have.\n\n69\n00:04:00.058 --> 00:04:01.797\nActually do they show it on this page?\n\n70\n00:04:01.797 --> 00:04:06.525\nThere it is, the LX0-101 and the LX0-102,\n\n71\n00:04:06.525 --> 00:04:10.030\ntwo different certification exams.\n\n72\n00:04:10.030 --> 00:04:15.195\nThey are a little bit on the pricey side,\nas most CompTIA exams have been lately,\n\n73\n00:04:15.195 --> 00:04:18.140\nthey've kind of raised\na bunch of their prices.\n\n74\n00:04:18.140 --> 00:04:21.140\nBut it's right around\n180 dollars per exam.\n\n75\n00:04:21.140 --> 00:04:24.095\nObviously, it varies based on your country\nbut it's right around in that area.\n\n76\n00:04:24.095 --> 00:04:29.248\nSo to take both of them you\nare looking at almost 400 dollars,\n\n77\n00:04:29.248 --> 00:04:34.180\nUS dollars, so it can be a little\nbit pricey, but it is two exams.\n\n78\n00:04:34.180 --> 00:04:38.370\n90 minutes each, so they're not incredibly\nlong, but you'll have 60 questions so\n\n79\n00:04:38.370 --> 00:04:41.190\nthat means you get about a minute and\na half per question and\n\n80\n00:04:41.190 --> 00:04:43.120\nyou don't wanna dabble too much.\n\n81\n00:04:43.120 --> 00:04:44.780\nThey are mostly multiple choice,\n\n82\n00:04:44.780 --> 00:04:48.750\nthere have been rumors of simulation\nquestions making it on the exams.\n\n83\n00:04:48.750 --> 00:04:53.550\nI haven't seen that yet but the rumor's\nout there, so it's mostly multiple choice,\n\n84\n00:04:53.550 --> 00:04:55.560\nand you can take it in\nseveral different languages.\n\n85\n00:04:55.560 --> 00:05:00.220\nLike all CompTIA exams,\nthey're administered through Pearson VUE.\n\n86\n00:05:00.220 --> 00:05:04.260\nSo you just find the local VUE\ntesting center that is near you.\n\n87\n00:05:04.260 --> 00:05:10.102\nIf you're not familiar with VUE,\ntheir website is pearsonvue, it's V-U-E,\n\n88\n00:05:10.102 --> 00:05:15.170\n.com and they have testing\nlocations all over the world.\n\n89\n00:05:15.170 --> 00:05:20.010\nSo you just come in here and you say,\ntest taker services, you're trying to take\n\n90\n00:05:20.010 --> 00:05:23.365\na test and you'll come in and pick what\nyou're trying to get certified in.\n\n91\n00:05:23.365 --> 00:05:29.485\nSo we can go to IT and\nfind old CompTIA in here, there we go.\n\n92\n00:05:29.485 --> 00:05:31.005\nAnd once we're in here.\n\n93\n00:05:31.005 --> 00:05:33.432\nNice, thank you for\ntelling me about your cookies.\n\n94\n00:05:33.432 --> 00:05:36.607\n[LAUGH] So you can come in here, and you\ncan kinda figure out what it is you want.\n\n95\n00:05:36.607 --> 00:05:39.227\nAnd you've got locate a test center, and\n\n96\n00:05:39.227 --> 00:05:43.207\nwe can find the test center that is\nnear us based on wherever it is you are.\n\n97\n00:05:43.207 --> 00:05:47.097\nSo maybe you are in Paris, France,\nso I'll just punch that in.\n\n98\n00:05:48.957 --> 00:05:55.477\nAnd looks like we got a couple there,\ndepending on which you are in.\n\n99\n00:05:55.477 --> 00:05:57.337\nSee, I'll show off my\nwitty Parisian knowledge.\n\n100\n00:05:57.337 --> 00:05:58.242\n>> That's nice, yes.\n\n101\n00:05:58.242 --> 00:06:00.170\nSo, anyhow you can see some\nof the different places\n\n102\n00:06:00.170 --> 00:06:01.330\nthat are available to test there.\n\n103\n00:06:01.330 --> 00:06:02.290\nAll over the world.\n\n104\n00:06:02.290 --> 00:06:05.464\nI think we have 2 of them here in our\ntown, and our town is a pretty small one.\n\n105\n00:06:05.464 --> 00:06:08.908\nSo you can go and take the test there,\nit's pretty low pressure, right?\n\n106\n00:06:08.908 --> 00:06:14.680\n60 questions, 90 minutes, multiple choice,\nit's not so bad if you know your stuff.\n\n107\n00:06:14.680 --> 00:06:17.215\nSo what is the stuff that we need to know?\n\n108\n00:06:17.215 --> 00:06:20.430\nWell the two exams\nare a little bit different.\n\n109\n00:06:20.430 --> 00:06:25.890\nWe've got the LX0-101,\nthat's the first exam, and\n\n110\n00:06:25.890 --> 00:06:30.250\nit covers what I consider to be\nthe introductory information.\n\n111\n00:06:30.250 --> 00:06:32.930\nNow if you've never\nworked with Linux before,\n\n112\n00:06:32.930 --> 00:06:34.670\nsome of this is pretty challenging.\n\n113\n00:06:34.670 --> 00:06:36.200\nBut if you've got experience with Linux,\n\n114\n00:06:36.200 --> 00:06:39.800\nif you've been running it on your desktop\nor as a server for years and years.\n\n115\n00:06:39.800 --> 00:06:44.370\nThis one's actually the easier of the two\nexams because it's covering things like\n\n116\n00:06:44.370 --> 00:06:46.660\nhow to get Linux installed.\n\n117\n00:06:46.660 --> 00:06:51.935\nSo, just installing it on a computer, how\nto get it updated to make sure that you're\n\n118\n00:06:51.935 --> 00:06:57.110\ndoing hot fixes and security updates, it's\ncovering basic command line exercises.\n\n119\n00:06:57.110 --> 00:06:59.250\nNow that's really important.\n\n120\n00:06:59.250 --> 00:07:03.000\nA lot of people say, well,\nI've been running Linux for five years and\n\n121\n00:07:03.000 --> 00:07:05.380\nI use Ubuntu and I love it, right?\n\n122\n00:07:05.380 --> 00:07:08.140\nAnd then I say okay how often do you drop\n\n123\n00:07:08.140 --> 00:07:10.550\nto the terminal shell to\nactually run command line?\n\n124\n00:07:10.550 --> 00:07:13.890\nAnd they go well never,\nI do it all through the GUI.\n\n125\n00:07:13.890 --> 00:07:16.340\nWell that's a recipe for disaster, right?\n\n126\n00:07:16.340 --> 00:07:18.640\nBecause the GUI differs so\n\n127\n00:07:18.640 --> 00:07:24.150\nmuch from distro to distro, it's hard\nto learn one way that works everywhere.\n\n128\n00:07:24.150 --> 00:07:27.305\nAnd if you're on a server you\nshouldn't have a GUI at all.\n\n129\n00:07:27.305 --> 00:07:32.750\nRight, so the exam is almost\nentirely based on command line.\n\n130\n00:07:32.750 --> 00:07:36.957\nCuz when you learn something that way,\nwhen you learn it command line style,\n\n131\n00:07:36.957 --> 00:07:39.442\nyou can use it on any\nGNU Linux distribution.\n\n132\n00:07:39.442 --> 00:07:44.850\nAnd so that really makes life easy,\nstandard, compliant, right?\n\n133\n00:07:44.850 --> 00:07:47.670\nSo if you've got a lot of graphical\nuser interface experience,\n\n134\n00:07:47.670 --> 00:07:50.700\nthat will help you a little bit on\nthe second exam, but on the first exam,\n\n135\n00:07:50.700 --> 00:07:52.780\nyou're gonna be dead in the water,\ncuz it's almost all command line.\n\n136\n00:07:52.780 --> 00:07:56.840\nSo we tackle that,\nthe GNU and Unix commands.\n\n137\n00:07:56.840 --> 00:08:00.490\nWe also take a look at how\nhardware devices are accessed,\n\n138\n00:08:00.490 --> 00:08:05.390\nhow the file systems work, and the file\nhierarchy, how the folders are arranged.\n\n139\n00:08:05.390 --> 00:08:08.190\nAnd again, if you've been\nworking with Unix or Linux for\n\n140\n00:08:08.190 --> 00:08:12.370\na while, then that's second\nnature by now more than likely.\n\n141\n00:08:12.370 --> 00:08:14.100\nBut, if you're brand new to this,\n\n142\n00:08:14.100 --> 00:08:17.690\nit's really different than a lot of other\noperating systems that are out there.\n\n143\n00:08:17.690 --> 00:08:20.970\nIf you've got a lot of Windows experience,\nthis stuff will blow your mind,\n\n144\n00:08:20.970 --> 00:08:22.690\nbecause it's really different,\n\n145\n00:08:22.690 --> 00:08:27.230\nthat hardware devices reference as files,\nnot as objects.\n\n146\n00:08:27.230 --> 00:08:30.621\nIf you're used to OSX and Mac OS,\n\n147\n00:08:30.621 --> 00:08:34.070\nMac OS is running on top of BSD so\nyou might think they're similar.\n\n148\n00:08:34.070 --> 00:08:38.610\nBut Apple is tweaked with that file system\nso much that directories and paths and\n\n149\n00:08:38.610 --> 00:08:42.250\nstuff are just not the same\nas we see in the Linux world.\n\n150\n00:08:42.250 --> 00:08:45.130\nSo getting used to this can be\na little challenging, right, so\n\n151\n00:08:45.130 --> 00:08:46.270\ndefinitely keep that in mind.\n\n152\n00:08:47.810 --> 00:08:50.030\nSo that's kind of what you\nexpect to see on the first exam.\n\n153\n00:08:50.030 --> 00:08:56.490\nNotice that the bulk of it, 43% of that\nexam, is from the command line, right.\n\n154\n00:08:56.490 --> 00:09:02.250\nGNU and Unix, or GNU, sometimes called\nNew, in Unix command line utility.\n\n155\n00:09:02.250 --> 00:09:05.120\nSo, you've really got to\nspend some time on that.\n\n156\n00:09:05.120 --> 00:09:09.750\nIf you are, [LAUGH] if you're\n30 plus years old and you cut\n\n157\n00:09:09.750 --> 00:09:14.650\nyour teeth on DOS and Windows 3.1, then\nit's not a big challenge to pick that up.\n\n158\n00:09:14.650 --> 00:09:19.940\nBut if you're 20 years old and just out\nof high school and you grew up with\n\n159\n00:09:19.940 --> 00:09:24.130\nWindows XP and stuff, you might not\nhave used the command line very much.\n\n160\n00:09:24.130 --> 00:09:27.389\nAnd even if you've been in\nthe Linux world for 10,\n\n161\n00:09:27.389 --> 00:09:30.990\n20 years, you might be GUI-heavy and\nnot command line-heavy.\n\n162\n00:09:30.990 --> 00:09:34.110\nSo, we do need to make sure we focus\nin on that and spend some time.\n\n163\n00:09:34.110 --> 00:09:36.480\nThat's what you're gonna\nsee on the first exam.\n\n164\n00:09:36.480 --> 00:09:38.920\nSo basic operational skills and really,\n\n165\n00:09:38.920 --> 00:09:43.120\neverything that you learn in this exam\nshould apply to any Linux distribution\n\n166\n00:09:43.120 --> 00:09:46.982\nthat you're running unless it's some\ncrazy completely whacked out one.\n\n167\n00:09:46.982 --> 00:09:49.269\n[LAUGH] But\nmost of them will work just like this.\n\n168\n00:09:50.660 --> 00:09:51.327\nAll right,\n\n169\n00:09:51.327 --> 00:09:55.270\nnow each of these topics are broken\ndown into quite a bit of sub topics.\n\n170\n00:09:55.270 --> 00:09:58.140\nYou'll see some of the different things\nthat it goes into and we'll go over all\n\n171\n00:09:58.140 --> 00:10:01.320\nthese during the actual show so I don't\nwant to bore us to death with them now.\n\n172\n00:10:01.320 --> 00:10:03.280\nBut lets take a look at that second exam.\n\n173\n00:10:03.280 --> 00:10:06.800\nThe other exam is the LX0-102,\n\n174\n00:10:06.800 --> 00:10:11.840\nthis guy right here, and it breaks\nthings down a little bit differently.\n\n175\n00:10:11.840 --> 00:10:15.860\nYou'll see where we tackle Shells,\nScripting and Data Management, all right?\n\n176\n00:10:17.230 --> 00:10:20.890\nIn my opinion, scripting is one of\nthe most useful things that you can learn,\n\n177\n00:10:20.890 --> 00:10:22.920\nbecause you don't wanna\nrun the same task over and\n\n178\n00:10:22.920 --> 00:10:26.300\nover again if you can automate it, and\nscripting is all about automating it.\n\n179\n00:10:26.300 --> 00:10:27.830\nSo we're gonna get\na chance to see that and\n\n180\n00:10:27.830 --> 00:10:30.770\nas an administrator that's something\nwe really do benefit from.\n\n181\n00:10:30.770 --> 00:10:35.340\nWe'll see user interfaces and desktops,\nwe're gonna talk about several of\n\n182\n00:10:35.340 --> 00:10:39.930\nthe different graphical user interfaces\navailable because you've got Gnome and\n\n183\n00:10:39.930 --> 00:10:44.665\nKDE, you've got Enlightenment,\nI think ten people run that.\n\n184\n00:10:44.665 --> 00:10:46.870\n>> [LAUGH]\n>> Xfce, which is one of my favorites,\n\n185\n00:10:46.870 --> 00:10:49.940\nso there's several different user\ninterfaces that are out there,\n\n186\n00:10:49.940 --> 00:10:52.810\nwe'll take a look at each of them and\nsome of the ins and outs.\n\n187\n00:10:52.810 --> 00:10:57.565\nBut notice, user interfaces and\ndesktops, only 8%,\n\n188\n00:10:57.565 --> 00:11:02.665\nvery small part of that exam because\nit's just not standard between systems.\n\n189\n00:11:02.665 --> 00:11:06.435\nWe'll see general administrative tasks,\nthings like creating user accounts,\n\n190\n00:11:06.435 --> 00:11:09.600\nchanging file permissions,\nstuff like that.\n\n191\n00:11:09.600 --> 00:11:14.200\nEssential system services, we'll take a\nlook at web servers and e-mail servers and\n\n192\n00:11:14.200 --> 00:11:16.520\nsome of the things that we typically run.\n\n193\n00:11:16.520 --> 00:11:20.290\nWe'll definitely spend some time on SSH\ncuz that's such an important service and\n\n194\n00:11:20.290 --> 00:11:24.290\na few of the other services that we\nmay use as a part of running Linux.\n\n195\n00:11:25.300 --> 00:11:27.890\nWe've got networking fundamentals.\n\n196\n00:11:27.890 --> 00:11:31.800\nSo configuring our network adapter, some\nof the neat features we have in Linux,\n\n197\n00:11:31.800 --> 00:11:35.560\nIPv4 and IPv6 support,\nsome of the different things there.\n\n198\n00:11:35.560 --> 00:11:39.830\nAs well as NFS, the network file system,\nwe’ll cover it in there too.\n\n199\n00:11:39.830 --> 00:11:43.250\nAnd then lastly, security,\nit’s last but not least.\n\n200\n00:11:43.250 --> 00:11:46.370\nIn a very literal sense,\nsecurity is really important to us.\n\n201\n00:11:46.370 --> 00:11:50.710\nA lot of us are using Linux as a server\noperating system and in that scenario,\n\n202\n00:11:50.710 --> 00:11:53.970\nsecurity's really important so\nwe need to take a look at that.\n\n203\n00:11:53.970 --> 00:11:57.930\nWe're gonna take a look at configuring\nsoftware firewalls under Linux, as well as\n\n204\n00:11:57.930 --> 00:12:01.990\nother processes like just staying up to\ndate that are really, really important.\n\n205\n00:12:03.020 --> 00:12:05.730\nSo, the first exam is based on\n\n206\n00:12:05.730 --> 00:12:09.170\nfundamentals that every Linux\nadministrator should have.\n\n207\n00:12:09.170 --> 00:12:12.660\nThe second exam is based\nmore on practical skills,\n\n208\n00:12:12.660 --> 00:12:15.570\nthings we're gonna do on\nan ongoing day-to-day basis.\n\n209\n00:12:15.570 --> 00:12:19.160\nSo they're really two neat\nexams that individually don't\n\n210\n00:12:19.160 --> 00:12:24.118\nprovide you with a well-rounded\nenough basis for Linux knowledge, but\n\n211\n00:12:24.118 --> 00:12:29.110\ncombined, it is the best\nstarting point bar none, right.\n\n212\n00:12:29.110 --> 00:12:32.600\nIt just really is a great starting point\nfor somebody who's getting into Linux and\n\n213\n00:12:32.600 --> 00:12:33.820\nlearning it.\n\n214\n00:12:33.820 --> 00:12:38.820\nIf you have never studied or\nused or even installed Linux,\n\n215\n00:12:38.820 --> 00:12:41.760\nthis certification is still for you, or\nat least our show is for you, right.\n\n216\n00:12:41.760 --> 00:12:43.960\nThe certification, you're probably\nnot ready for that exam today.\n\n217\n00:12:43.960 --> 00:12:45.810\n>> Right.\n>> So it might not be for you today, but\n\n218\n00:12:45.810 --> 00:12:47.680\nour show is.\n\n219\n00:12:47.680 --> 00:12:51.370\nWe're gonna show you how to install Linux,\nhow to get the operating system, how to\n\n220\n00:12:51.370 --> 00:12:56.140\nget it installed and how to do the work\nwith it, and it's a very rewarding thing.\n\n221\n00:12:56.140 --> 00:13:00.000\nLearning a new operating system, it's fun,\njust fun to see things that are different.\n\n222\n00:13:00.000 --> 00:13:01.920\nNow you even if the operating system\n\n223\n00:13:01.920 --> 00:13:02.490\nsucks,\n>> [LAUGH]\n\n224\n00:13:02.490 --> 00:13:03.700\n>> It's still a lot of fun to learn\n\n225\n00:13:03.700 --> 00:13:04.630\nsomething new.\n\n226\n00:13:04.630 --> 00:13:07.112\nSo, not that the Linux distros do.\n\n227\n00:13:07.112 --> 00:13:09.085\n>> [LAUGH] [INAUDIBLE]\n>> Some of them do.\n\n228\n00:13:09.085 --> 00:13:12.760\n[LAUGH] Yeah, choosing your distribution,\nthat is a tough, tough choice.\n\n229\n00:13:13.860 --> 00:13:17.100\nYeah, that's basically\nwhat this works out to.\n\n230\n00:13:17.100 --> 00:13:19.390\nKeep in mind, that it is two exams.\n\n231\n00:13:19.390 --> 00:13:22.586\nNow, we're gonna record one big show or\nseries of episodes and\n\n232\n00:13:22.586 --> 00:13:25.070\nwe're gonna cover both of those exams,\nright?\n\n233\n00:13:25.070 --> 00:13:28.578\nSo, it's not gonna be two entries in\nour episode library, or anything but\n\n234\n00:13:28.578 --> 00:13:30.090\nit is all gonna be there.\n\n235\n00:13:30.090 --> 00:13:34.870\nIt's important that you know both,\nI encourage you to go ahead and study for\n\n236\n00:13:34.870 --> 00:13:37.400\nboth before you take the first exam.\n\n237\n00:13:37.400 --> 00:13:40.780\nSome people study just the stuff for\nthe first exam and then go take it.\n\n238\n00:13:40.780 --> 00:13:42.935\nBut as you study for the second exam,\n\n239\n00:13:42.935 --> 00:13:46.650\nyou're kind of reinforcing your knowledge\nthat you are gonna have on that first one.\n\n240\n00:13:46.650 --> 00:13:50.730\nAnd so if you do the whole thing, if you\nstudy for the whole thing, when you go to\n\n241\n00:13:50.730 --> 00:13:55.160\ntake that first exam you'll be that much\nmore prepared, and so I do recommend that.\n\n242\n00:13:55.160 --> 00:13:58.300\nBut again, that's entirely up to you,\nwhatever is your preference.\n\n243\n00:13:58.300 --> 00:13:58.880\n>> Yeah.\n\n244\n00:13:58.880 --> 00:14:00.020\nOur show should also help you,\n\n245\n00:14:00.020 --> 00:14:03.200\nin the very fact that what we'll be doing\nis we'll be installing it right away.\n\n246\n00:14:03.200 --> 00:14:06.040\nWe'll show you how you can get it running\non your machine, so that you can practice.\n\n247\n00:14:06.040 --> 00:14:09.400\nThe more hands on practice,\nlike anything that you do it's\n\n248\n00:14:09.400 --> 00:14:12.110\ngonna actually bring you better results\nand you're gonna learn it better.\n\n249\n00:14:12.110 --> 00:14:14.990\nSo make sure you pay attention and\nespecially in the early episodes as we set\n\n250\n00:14:14.990 --> 00:14:19.268\nthis thing up, and we get it rolling\nto the front when we need to.\n\n251\n00:14:19.268 --> 00:14:20.470\n>> Yeah.\n\n252\n00:14:20.470 --> 00:14:24.709\nAll right well as far as general stuff\nI think that pretty much knocks it out.\n\n253\n00:14:24.709 --> 00:14:28.866\nThere is one other thing I do wanna\nmention is that Linux+ like all\n\n254\n00:14:28.866 --> 00:14:33.200\nCompTIA certifications now, does use a.\n\n255\n00:14:34.270 --> 00:14:38.730\nNot expiration, but\ncontinuing education type environment.\n\n256\n00:14:38.730 --> 00:14:42.000\nSo you do after renew your\ncertification every two years, so\n\n257\n00:14:42.000 --> 00:14:44.950\nbe aware of that, that once you\nget certified, you're not done.\n\n258\n00:14:44.950 --> 00:14:47.700\nIf you wanna maintain you\nLinux+ certification,\n\n259\n00:14:47.700 --> 00:14:51.770\nyou've gotta recertify every two\nyears through continuing education.\n\n260\n00:14:51.770 --> 00:14:55.430\nSo normally, we just retake the exam and\nyou're back in business.\n\n261\n00:14:55.430 --> 00:14:57.130\nSo, keep that in mind too.\n\n262\n00:14:57.130 --> 00:14:59.540\nIf you're already Linux+ certified,\n\n263\n00:14:59.540 --> 00:15:03.190\nyou may have gotten in in the early\ndays when there was a lifetime cert.\n\n264\n00:15:03.190 --> 00:15:06.240\nIf not you do need to repeat that\ncertification as time goes on.\n\n265\n00:15:06.240 --> 00:15:11.020\nBut other than that I think\nthat pretty much covers it.\n\n266\n00:15:11.020 --> 00:15:14.750\nDefinitely stay tuned, we're gonna kick\noff the show if you're watching live,\n\n267\n00:15:14.750 --> 00:15:16.060\nwe'll kick it off later today.\n\n268\n00:15:16.060 --> 00:15:20.220\nSo you'll get a chance to see that\nwealth of great information there and\n\n269\n00:15:20.220 --> 00:15:23.270\nif you've never used Linux+ boy,\nyou're in for a treat.\n\n270\n00:15:23.270 --> 00:15:26.760\nOr if you've never used Linux you're in\nfor a treat because it's a neat operating\n\n271\n00:15:26.760 --> 00:15:29.660\nsystem that has some great\nuses that are out there.\n\n272\n00:15:29.660 --> 00:15:32.200\nAnd it's really an interesting\nculture to become a part of.\n\n273\n00:15:32.200 --> 00:15:33.670\n>> It is.\n\n274\n00:15:33.670 --> 00:15:35.230\n>> All right, well stay tuned.\n\n275\n00:15:35.230 --> 00:15:38.472\nWe'll be back with\nthe Linux+ show after this.\n\n276\n00:15:38.472 --> 00:15:44.679\n[MUSIC]\n\n",
+          "url": "introduction-linux9",
+          "vimeoId": "98457568"
+        }
+      ],
+      "title": "Overview of CompTIA Linux+ (LX0-101/LX0-102)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don demonstrate and discuss how to obtain a copy of Debian and install it. Debian is one of the major distro branch that other Linux distros are based. They guide a user with no previous Linux experience on the installation process and what options are available on during the installation. They also show that the basic installation involves the use of the command-line utilities: apt-get, ifconfig and basic navigation commands that Linux Admins should readily use.",
+          "length": "6663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/002-Installing-Linux-Pt-1-sm.jpg",
+          "title": "Installing Linux Part 1",
+          "transcript": "",
+          "url": "installing-linux-1",
+          "vimeoId": "98457569"
+        },
+        {
+          "description": "In this episode, Ronnie and Don demonstrate and discuss how to obtain a copy of CentOS and install it. CentOS is used in place of Red Hat Enterprise. They guide a user with no previous Linux experience on the installation process and what options are available on during the installation. They also show that the basic installation involves the use of the command-line utilities: yum, ifconfig and basic navigation commands that Linux Admins should readily use.",
+          "length": "4830",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/003-Installing-Linux-Pt-2-sm.jpg",
+          "title": "Installing Linux Part 2",
+          "transcript": "",
+          "url": "installing-linux-2",
+          "vimeoId": "98538728"
+        }
+      ],
+      "title": "Linux Installation and Package Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don discuss the use of file editors. They list several of the different file editors and talk about their availability among different distros. The demonstrate the use of vi, the file editor that is found in just about every distro available. They show the power of vi to create a file, modify and save a file. They discuss the use of vi directly, on a consoled connection and a remote connection as well. They go through the basic commands that every Linux Admin needs to know when using a file editor.",
+          "length": "5913",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/004-Command-Line-Interface-sm.jpg",
+          "title": "Command Line Interface",
+          "transcript": "",
+          "url": "command-line-interface",
+          "vimeoId": "98660874"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look into working with the Command Line Interface of CentOS. They show basic tasks that could be accomplished in the GUI can also be accomplished by using Linux CLI shell commands. They demonstrate some file output commands and the use of filtering to easily manage what is displayed. They spend some time performing basic file management tasks and computer management task.",
+          "length": "7317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/005-Command-Line-Interface-Pt-2-sm.jpg",
+          "title": "Command Line Interface Part 2",
+          "transcript": "",
+          "url": "command-line-interface-2",
+          "vimeoId": "99181632"
+        }
+      ],
+      "title": "GNU and Unix Commands"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don are connecting hardware devices to our Linux distro for usage. They spend some time also taking a deeper look into the boot sequence, boot loader and the boot events that happens prior to and during the installation process.",
+          "length": "7930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/009-System-Architecture-sm.jpg",
+          "title": "System Architecture",
+          "transcript": "",
+          "url": "system-architecture",
+          "vimeoId": "98970286"
+        }
+      ],
+      "title": "System Architecture"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don tackle the concept of file systems and partition management from the Linux CLI. They talk about the various options available to Linux. They create a partition format it for use in Linux. Also they show how to mount and unmount a file system.",
+          "length": "5449",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/006-Disk-Management-sm.jpg",
+          "title": "Disk Management",
+          "transcript": "",
+          "url": "disk-management",
+          "vimeoId": "99181633"
+        },
+        {
+          "description": "In this episode, Ronnie and Don reinstall a CentOS distribution for the purpose of choosing no default options on the installation regarding Hard Disk configurations from the CLI. They also show the default system files hierarchy created and describe what file hierarchy system is created when you install a Linux distro.",
+          "length": "3149",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/007-Disk-Management-Pt-2-sm.jpg",
+          "title": "Disk Management Part 2",
+          "transcript": "",
+          "url": "disk-management-2",
+          "vimeoId": "99181637"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look at maintaining the hard disk from the CLI by creating disk quotas and managing permissions. They show how to see the integrity of the file systems and monitor disk usage. The talk about the use of symbolic and hard links.",
+          "length": "7383",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/008-Disk-Management-Pt-3-sm.jpg",
+          "title": "Disk Management Part 3",
+          "transcript": "",
+          "url": "disk-management-3",
+          "vimeoId": "99181636"
+        }
+      ],
+      "title": "Devices, Linux Filesystems, Filesystem Hierarchy Standard"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don configure a customized shell environment and demonstrate how do create a default shell environment for all users or configure it for individuals. Within the shell environment, they also set the search path for running applications. They show the creation of a script to add users to the system and end the episode by installing a MySQL server and running simple data manipulation commands against a database.",
+          "length": "7416",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/010-Shells-and-Scripting-sm.jpg",
+          "title": "Shells and Scripting",
+          "transcript": "",
+          "url": "shells-scripting",
+          "vimeoId": "99233876"
+        }
+      ],
+      "title": "Shells, Scripting and Data Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don install the GUI options to the CLI environment and configure X Window options. With the GUI installed, they setup the display manager and show how to configure it for users. They also walk through the accessibility options available for people with impaired abilities.",
+          "length": "6276",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/011-Graphical-User-Interface-sm.jpg",
+          "title": "Graphical User Interface",
+          "transcript": "",
+          "url": "graphical-user-interface",
+          "vimeoId": "99233877"
+        }
+      ],
+      "title": "User Interfaces and Desktop"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don tackle Linux administrative tasks through the CLI. These tasks include managing user and group accounts and the password database. They take a look at setting up scheduled tasks using cron jobs and the 'at' command. Because Linux Systems may be located and relocated to different places in the world, they show the locale and time zone settings. They also talk about the importance of time synchronization for computer systems and how to configure NTP.",
+          "length": "6958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/012-Administrative-Tasks-sm.jpg",
+          "title": "Administrative Tasks",
+          "transcript": "",
+          "url": "administrative-tasks",
+          "vimeoId": "99233878"
+        }
+      ],
+      "title": "Administrative Tasks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don dive into Linux System Services and show configuring system logging and using the basic Mail Transfer Agent within the Linux distro through the CLI. They also configure the use of printers and manage printing through the CLI.",
+          "length": "5651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/013-System-Services-sm.jpg",
+          "title": "Essential System Services",
+          "transcript": "",
+          "url": "essential-system-services",
+          "vimeoId": "99233879"
+        }
+      ],
+      "title": "Essential System Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don go through the basic networking fundamentals and basic CLI tools used in troubleshooting. They also show how to configure basic networking manually using the multiple files that must be used when setting up basic networking for the Linux System.",
+          "length": "4661",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/014-Networking-sm.jpg",
+          "title": "Networking",
+          "transcript": "",
+          "url": "networking-overview1",
+          "vimeoId": "99353351"
+        }
+      ],
+      "title": "Networking Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Don guide us through setting up security for the Linux Server that is to be used in production networks. They show how to change passwords, set up auditing and using proper security procedures. They setup basic host security. Also in this episode, they configure SSH for securing data on Linux Systems.",
+          "length": "8053",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/linuxplus/015-Security-Administration-sm.jpg",
+          "title": "Security Administration",
+          "transcript": "",
+          "url": "security-administration",
+          "vimeoId": "99353350"
+        }
+      ],
+      "title": "Security"
+    }
+  ],
+  "url": "linux-plus",
+  "vLab": false
+}

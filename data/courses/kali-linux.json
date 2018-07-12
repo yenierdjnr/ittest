@@ -1,0 +1,370 @@
+{
+  "description": "Kali Linux is an advanced, versatile penetration testing platform and has dozens and dozens of tools complied into it, making it a very powerful, yet highly customizable platform. These episodes will teach you how to install Kali Linux, and how to use Kali Linux to test the security of a network. You will learn how to effectively perform a penetration test using the various tools found in Kali Linux.",
+  "descriptionMD": "",
+  "length": "51589",
+  "name": "Kali Linux",
+  "practiceExam": false,
+  "subtitle": "Configuration of Kali Linux",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Kali Linux is a powerful Linux based operating system specifically built for penetration testing. Viewers will hear a brief overview of the operating system and what kinds of things it can be useful for.",
+          "length": "168",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-0-0-overview-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-0-0-overview-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-0-0-overview-062915-1-sm.jpg",
+          "title": "Kali Linux Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.287\n[MUSIC]\n\n2\n00:00:07.287 --> 00:00:10.161\nHello and\nwelcome to another episode of ITProTV.\n\n3\n00:00:10.161 --> 00:00:13.370\nI'm your host Mike Rodrick, and\nwith me today is Mr. Sean Oriyano.\n\n4\n00:00:13.370 --> 00:00:14.350\nHow are you doing Sean?\n\n5\n00:00:14.350 --> 00:00:15.910\n>> I'm doing pretty good, how about you?\n\n6\n00:00:15.910 --> 00:00:17.110\n>> I'm doing fantastic.\n\n7\n00:00:17.110 --> 00:00:21.430\nI'm excited because we've got Mr Sean\nOriyano standing right next to me and\n\n8\n00:00:21.430 --> 00:00:24.850\nwe're getting ready to start\nour series on Kali Linux.\n\n9\n00:00:24.850 --> 00:00:28.970\nAnd Sean, Kali Linux is a very\npopular version of Linux nowadays for\n\n10\n00:00:28.970 --> 00:00:30.070\nseveral reasons.\n\n11\n00:00:30.070 --> 00:00:33.280\nBut, tell us why we want to\nlearn all about Kali Linux.\n\n12\n00:00:33.280 --> 00:00:34.710\nWhat's so great about it?\n\n13\n00:00:34.710 --> 00:00:37.790\n>> Well there's a lot of great\nthings about it, to be honest.\n\n14\n00:00:37.790 --> 00:00:42.440\nIt is, like you said a very powerful\noperating system is definitely what it is.\n\n15\n00:00:42.440 --> 00:00:44.550\nIt's a Linux based operating system.\n\n16\n00:00:44.550 --> 00:00:49.210\nIt's highly customized so it's not\nthe generic type, like Ubuntu or Fedora or\n\n17\n00:00:49.210 --> 00:00:50.060\nanything like that.\n\n18\n00:00:50.060 --> 00:00:53.640\nIt's specifically built for\npenetration testing.\n\n19\n00:00:53.640 --> 00:00:57.100\nAnd it also, quite interestingly,\nhas a role in forensics, too.\n\n20\n00:00:57.100 --> 00:00:58.440\nIt can do that.\n\n21\n00:00:58.440 --> 00:01:01.410\nAnd it can do just\na whole range of things.\n\n22\n00:01:01.410 --> 00:01:06.160\nIf you have been through our CEH course, a\nlot of the stuff we did in there, in fact,\n\n23\n00:01:06.160 --> 00:01:08.240\nall of the stuff we did\nin there was Windows.\n\n24\n00:01:08.240 --> 00:01:11.350\nWhat we're gonna be doing in here is\nshowing a lot of the same stuff that we\n\n25\n00:01:11.350 --> 00:01:14.720\ndid in there, but showing you how\nto do those same things on Kali.\n\n26\n00:01:14.720 --> 00:01:16.420\nAnd the reason why you would do this,\nsaying, well,\n\n27\n00:01:16.420 --> 00:01:20.610\nwhy would you do it on windows and and\nthen do the same thing on Kali is that,\n\n28\n00:01:20.610 --> 00:01:23.320\nthere's different approaches, shows\nyou different approaches to something.\n\n29\n00:01:23.320 --> 00:01:26.620\nAnd there's also quite frankly\nmore tools available and\n\n30\n00:01:26.620 --> 00:01:30.110\ndiverse tools available in the Linux side\nthan there just are on the Window side.\n\n31\n00:01:30.110 --> 00:01:33.050\nYou have more flexibility,\nmore power, more options.\n\n32\n00:01:33.050 --> 00:01:36.290\nAnd so this is just to open\nup a world even more for you.\n\n33\n00:01:36.290 --> 00:01:40.190\nSo this is something that you can use\nto just really enhance your power and\n\n34\n00:01:40.190 --> 00:01:42.690\ncapabilities more than they already are.\n\n35\n00:01:42.690 --> 00:01:45.070\nSo if you've taken the CEH,\n\n36\n00:01:45.070 --> 00:01:47.850\nyou're gonna get to see\na different viewpoint on things.\n\n37\n00:01:47.850 --> 00:01:49.780\nIf you haven't, well that's fine.\n\n38\n00:01:49.780 --> 00:01:52.150\nWe're gonna show you how it fits in and\nshow you the process and\n\n39\n00:01:52.150 --> 00:01:54.610\nshow you the tools you use along the way.\n\n40\n00:01:54.610 --> 00:01:58.160\nTalk about the differences and all that\ngood stuff to really kind of get you\n\n41\n00:01:58.160 --> 00:01:59.870\ngoing, get you more comfortable with it.\n\n42\n00:01:59.870 --> 00:02:02.335\nThen you can do more exploring\non your own afterwards.\n\n43\n00:02:02.335 --> 00:02:06.340\nCuz there's still plenty that we won't\neven get to in here, there's just so\n\n44\n00:02:06.340 --> 00:02:07.510\nmuch with this tool.\n\n45\n00:02:07.510 --> 00:02:10.090\nBut this is really just to\nkind of get you going, and\n\n46\n00:02:10.090 --> 00:02:14.350\nyou'll definitely be able to after all is\nsaid and done with this series of courses.\n\n47\n00:02:14.350 --> 00:02:18.510\nYou'll be able to say, oh, let me explore\nsome more here and try some stuff out.\n\n48\n00:02:18.510 --> 00:02:19.297\n>> Fantastic.\n\n49\n00:02:19.297 --> 00:02:22.656\nAll right, well I hope that got\nyou as excited as it got me,\n\n50\n00:02:22.656 --> 00:02:25.780\nI'm really dying to learn\na lot more about this.\n\n51\n00:02:25.780 --> 00:02:28.090\nI'm a Windows guy by nature,\n\n52\n00:02:28.090 --> 00:02:30.290\nI've played with a bunch of\ndifferent versions of Linux.\n\n53\n00:02:30.290 --> 00:02:32.390\nThis one just seems to have\neverything built in to it.\n\n54\n00:02:32.390 --> 00:02:35.290\nI don't have a lot of compiling,\nor extra tools to do.\n\n55\n00:02:35.290 --> 00:02:36.900\nWe can do quite a lot with it.\n\n56\n00:02:36.900 --> 00:02:39.120\nSo hopefully everybody is ready.\n\n57\n00:02:39.120 --> 00:02:40.130\nSo stay tuned.\n\n58\n00:02:40.130 --> 00:02:41.972\nWe'll be back with more on Kali Linux.\n\n59\n00:02:41.972 --> 00:02:42.472\n[SOUND]\n\n",
+          "url": "kali-linux-overview",
+          "vimeoId": "132319760"
+        },
+        {
+          "description": "There are a lot of ways to run and utilize the tools within Kali Linux, but before one gets into the advanced functionality of a platform, one must first understand the basics. Viewers will hear discussions on the origins of Kali Linux and briefly discuss some of the usable tools in the Kali Linux platform.",
+          "length": "1691",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-0-what_is_kali_linux-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-0-what_is_kali_linux-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-0-what_is_kali_linux-062915-1-sm.jpg",
+          "title": "What is Kali Linux",
+          "transcript": "",
+          "url": "kali-linux-overview1",
+          "vimeoId": "132319762"
+        },
+        {
+          "description": "There are several different ways one can go about installing Kali Linux and working with it, so one should know how to properly install it in order that they may be able to properly use it. Viewers will hear discussions about the different options and benefits of different installs for Kali, and will see demonstrations on how to install Kali through both a virtual and live install.",
+          "length": "2249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-2-installing_kali_linux-062915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-2-installing_kali_linux-062915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-1-2-installing_kali_linux-062915-sm.jpg",
+          "title": "Installing Kali Linux",
+          "transcript": "",
+          "url": "installing-kali-linux",
+          "vimeoId": "132319761"
+        },
+        {
+          "description": "Once Kali Linux is properly installed, it can then be configured so that the full functionality behind the system can actually start to be used. Viewers will hear about configuring the network adapter and performing updates/upgrades on the system to get it set up and running.",
+          "length": "2100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-1-configuring_kali_linux-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-1-configuring_kali_linux-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-1-configuring_kali_linux-062915-1-sm.jpg",
+          "title": "Configuring Kali Linux",
+          "transcript": "",
+          "url": "configuring-kali-linux",
+          "vimeoId": "132254249"
+        },
+        {
+          "description": "Creating a virtual lab environment is useful for getting to practice the tools within Kali Linux to see what the tools are supposed to produce and what the different results look like. Viewers will hear about creating virtual machines like Metasploitable 2 and Kali Linux and also hear about the practicality and benefits of using them.",
+          "length": "1766",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-2-configuring_lab_environment-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-2-configuring_lab_environment-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-2-2-configuring_lab_environment-062915-1-sm.jpg",
+          "title": "Creating a Lab Environment",
+          "transcript": "",
+          "url": "creating-lab-environment",
+          "vimeoId": "132319756"
+        },
+        {
+          "description": "During the process of penetration testing, one should first start by gathering information. Viewers will hear about the idea of penetration testing and where Kali fits in to help gather information during the reconnaissance phase.",
+          "length": "1374",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-1-penetration-testing-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-1-penetration-testing-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-1-penetration-testing-062915-1-sm.jpg",
+          "title": "Penetration Testing",
+          "transcript": "",
+          "url": "penetration-testing",
+          "vimeoId": "132319758"
+        },
+        {
+          "description": "After one has gathered information on a target to perform a penetration test on, one can then begin to act upon that information. Viewers will hear a high level overview on the rest of the phases involved in performing a penetration test, which include the scanning, exploitation/gaining access, maintaining access, and reporting phases.",
+          "length": "1897",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-2-penetration-testing-pt2-062915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-2-penetration-testing-pt2-062915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-3-2-penetration-testing-pt2-062915-1-sm.jpg",
+          "title": "Penetration Testing Part 2",
+          "transcript": "",
+          "url": "penetration-testing-2",
+          "vimeoId": "132319754"
+        },
+        {
+          "description": "Some information that can be pulled from a target during the reconnaissance phase of a penetration test can include IP addresses, DNS information, operating system information, and much more. Viewers will hear a more in-depth explanation on the reconnaissance phase and some of the tools that can be used in the process.",
+          "length": "1753",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-1-what_is_recon-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-1-what_is_recon-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-1-what_is_recon-063015-1-sm.jpg",
+          "title": "What is Recon",
+          "transcript": "",
+          "url": "recon",
+          "vimeoId": "132368358"
+        },
+        {
+          "description": "A big part of the reconnaissance phase is gathering information on one's targets, so gaining information about the network that one's targets run on is going to be a part of that. Viewers will see demonstrations on using the Whois and NsLookup tools and hear about some of the information one can discover during the reconnaissance phase like IP ranges and subnet ranges, which are good to have when proceeding to the scanning phase.",
+          "length": "1940",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info-063015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info-063015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info-063015-high-sm.jpg",
+          "title": "Uncovering Network Info",
+          "transcript": "",
+          "url": "uncovering-network-info",
+          "vimeoId": "132368354"
+        },
+        {
+          "description": "Kali Linux comes with a vast amount of tools, which can help do a number of things including checking to see if systems are live or not. Viewers will hear how to utilize some of the command-line tools within Kali to conduct network ping sweeps, perform zone transfers, and do other functions to help gather information on a target network.",
+          "length": "2122",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info_pt2-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info_pt2-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-2-uncovering_network_info_pt2-063015-1-sm.jpg",
+          "title": "Uncovering Network Info Part 2",
+          "transcript": "",
+          "url": "uncovering-network-info-2",
+          "vimeoId": "132739964"
+        },
+        {
+          "description": "Website reconnaissance has to do with looking at what kind of information one can gather from a website somebody is hosting. Viewers will hear about some of the tools used to gather information from websites, which include the lbd, wget, and theharvester command-line tools.",
+          "length": "1804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon-063015-1-sm.jpg",
+          "title": "Website Recon",
+          "transcript": "",
+          "url": "website-recon",
+          "vimeoId": "132368345"
+        },
+        {
+          "description": "Utilizing website reconnaissance tactics and tools can allow one to extract metadata from public documents, generate and test domain typos, and perform lots of other functions. Viewers will hear about further tools to gather information from a public interface like the URLCrazy and Metagoofil command-line tools.",
+          "length": "1460",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon_pt2-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon_pt2-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-4-3-website_recon_pt2-063015-1-sm.jpg",
+          "title": "Website Recon Part 2",
+          "transcript": "",
+          "url": "website-recon-2",
+          "vimeoId": "132368350"
+        },
+        {
+          "description": "Once information is gathered using open-source intelligence, there are a lot of options for scanning one can do when moving over to the scanning phase. Viewers will hear about different types of scanning that can be done, which include host-based scanning, port scanning, network scanning, and vulnerability scanning and also hear about some techniques that can be used when implementing scanning techniques on a target network.",
+          "length": "1456",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-1-what_is_network_scanning-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-1-what_is_network_scanning-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-1-what_is_network_scanning-063015-1-sm.jpg",
+          "title": "What is Network Scanning",
+          "transcript": "",
+          "url": "network-scanning",
+          "vimeoId": "132368348"
+        },
+        {
+          "description": "Scanning for live hosts are a big part of the penetration process that helps lead to finding out what ports are open and then to what lies behind those ports. Viewers will hear about the process of scanning for live hosts and some of the tools used in the scanning and enumeration phase including fping, nmap, masscan, unicornscan, and netdiscover.",
+          "length": "1603",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-2-checking_for_live_systems-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-2-checking_for_live_systems-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-2-checking_for_live_systems-063015-1-sm.jpg",
+          "title": "Checking for Live Systems",
+          "transcript": "",
+          "url": "checking-live-systems",
+          "vimeoId": "132368349"
+        },
+        {
+          "description": "Once one has gone through the scanning phase and found live systems, one can then do port scans and start to enumerate things off those systems like list out groups, users, and password policies. Viewers will hear about the involved process, tools that function in both scanning and enumeration, and others that are limited only to enumeration.",
+          "length": "1676",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-3-enumeratiion-063015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-3-enumeratiion-063015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-5-3-enumeratiion-063015-1-sm.jpg",
+          "title": "Enumeration",
+          "transcript": "",
+          "url": "enumeration1",
+          "vimeoId": "132368347"
+        },
+        {
+          "description": "Gaining access is the third phase when one actually begins to penetrate a system. Viewers will hear a high level overview about gaining access to a system, which can entail cracking passwords and escalating privileges and lead to the point where one can implement tactics to maintain access to the system.",
+          "length": "1502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-1-gaining_access-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-1-gaining_access-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-1-gaining_access-070115-1-sm.jpg",
+          "title": "Gaining Access",
+          "transcript": "",
+          "url": "gaining-access-4",
+          "vimeoId": "132819458"
+        },
+        {
+          "description": "Cracking passwords are one of the first steps when it comes down to gaining access to a system, which the Kali Linux environment holds a lot of means to do so. Viewers will hear about the basic process to go through to get password information and hear discussions about the different kinds of tools used to crack passwords both online and offline.",
+          "length": "1892",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords-070115-1-sm.jpg",
+          "title": "Cracking Passwords",
+          "transcript": "",
+          "url": "cracking-passwords",
+          "vimeoId": "132819459"
+        },
+        {
+          "description": "Online password cracking can run a higher risk of being detected and triggering system policy that will shut down a password attack, so one might want to start with offline tactics before they jump into using online tactics. Viewers will hear about some of the online password tracking techniques including password guessing and some of the tools that can be used to accomplish the task of online password cracking.",
+          "length": "1078",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords_pt2-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords_pt2-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-2-cracking_passwords_pt2-070115-1-sm.jpg",
+          "title": "Cracking Passwords Part 2",
+          "transcript": "",
+          "url": "cracking-passwords-2",
+          "vimeoId": "132819460"
+        },
+        {
+          "description": "After gaining access to a system, one can then start to escalate privileges or set up a back door to begin to maintain access. Viewers will hear about the exploitation process and maintaining access phase, how to escalate one's privileges, and different ways to maintain access and bypass a system's normal authentication method.",
+          "length": "1430",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-3-after_gaining_access-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-3-after_gaining_access-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-6-3-after_gaining_access-070115-1-sm.jpg",
+          "title": "After Gaining Access",
+          "transcript": "",
+          "url": "gaining-access-5",
+          "vimeoId": "132820319"
+        },
+        {
+          "description": "A sniffer is something someone uses to capture network traffic and it can be used to intercept things like credentials and confidential data. Viewers will hear about sniffers, what they can be used for, and see a brief demonstration on the Driftnet, EtherApe, and Wireshark network sniffers.",
+          "length": "1386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers-070115-1-sm.jpg",
+          "title": "Using Sniffers",
+          "transcript": "",
+          "url": "using-sniffers",
+          "vimeoId": "132820320"
+        },
+        {
+          "description": "There are a lot of different sniffers that can grab a multitude of useful information, so learning more about all the tools and different functions of a sniffer should help to better evaluate which set of unique capabilities and options should be utilized in different situations. Viewers will hear about different sniffers, how they can be used to capture information and different types of traffic, and the things one has to worry about with sniffers on a modern network.",
+          "length": "1470",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers_pt2-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers_pt2-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-7-1-using_sniffers_pt2-070115-1-sm.jpg",
+          "title": "Using Sniffers Part 2",
+          "transcript": "",
+          "url": "using-sniffers-2",
+          "vimeoId": "132820322"
+        },
+        {
+          "description": "Social engineering is a collection of different techniques used to take advantage of the human nature to get people to give up information that they shouldn't. Viewers will hear about what all social engineering entails and also see a brief demonstration of the Social Engineering Toolkit (SET) within Kali.",
+          "length": "1647",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-8-1-social_engineering_toolkit-070115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-8-1-social_engineering_toolkit-070115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-8-1-social_engineering_toolkit-070115-1-sm.jpg",
+          "title": "Social Engineering Toolkit",
+          "transcript": "",
+          "url": "social-engineering-toolkit",
+          "vimeoId": "132820321"
+        },
+        {
+          "description": "Before one performs a penetration test on a web application, one should take a closer look at what it's expected to do and common issues that are associated with it. Viewers will hear about web applications in general, the various tools available in Kali for web application analysis, and about the client server relationship between the web server, the applications, and the client.",
+          "length": "1577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-1-web_applications-070215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-1-web_applications-070215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-1-web_applications-070215-1-sm.jpg",
+          "title": "Web Applications",
+          "transcript": "",
+          "url": "web-applications",
+          "vimeoId": "132755536"
+        },
+        {
+          "description": "Within Kali there are a lot of different tools to test web applications like Burp Suite, Paros, OWASP, and many more. Viewers will hear a high level overview of the different types of tools used to test web applications and web servers and also hear about the fuzzing process to test web applications.",
+          "length": "1460",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools-070215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools-070215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools-070215-1-sm.jpg",
+          "title": "Web Analysis Tools",
+          "transcript": "",
+          "url": "web-analysis-tools",
+          "vimeoId": "132755552"
+        },
+        {
+          "description": "Web crawlers are another facet to do web analysis with, which can give information on the structure of a website and test it for vulnerabilities. Viewers will hear detailed discussions about tools used for web server and web application testing and see some of the information one might be able to get back on a web server while using tools like Vega and WebScarab.",
+          "length": "1648",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt2-070215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt2-070215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt2-070215-1-sm.jpg",
+          "title": "Web Analysis Tools Part 2",
+          "transcript": "",
+          "url": "web-analysis-tools-2",
+          "vimeoId": "132755554"
+        },
+        {
+          "description": "Web Vulnerability scanners are another set of tools that can provide for web analysis. Viewers will hear about further tools that look for vulnerabilities of web servers and web applications including Burp Suite, Nikto, and OWASP.",
+          "length": "1563",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_p3-070215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_p3-070215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_p3-070215-1-sm.jpg",
+          "title": "Web Analysis Tools Part 3",
+          "transcript": "",
+          "url": "web-analysis-tools-3",
+          "vimeoId": "132755555"
+        },
+        {
+          "description": "In further elaboration upon web analysis tools, viewers will hear about the W3AF and GoLismero frameworks that can identify vulnerabilities in web security and web applications.",
+          "length": "1490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt4-070215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt4-070215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-9-2-web_analysis_tools_pt4-070215-1-sm.jpg",
+          "title": "Web Analysis Tools Part 4",
+          "transcript": "",
+          "url": "web-analysis-tools-4",
+          "vimeoId": "132755553"
+        },
+        {
+          "description": "A vast amount of websites are database driven, so it is important to test web applications, web servers, and the database behind them to prevent attacks like SQL injections. Viewers will hear about what a SQL injection is, what leads to it, and the tools that are available to assess databases and check for SQL injection vulnerabilities.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-10-1-sql-injection-070315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-10-1-sql-injection-070315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-10-1-sql-injection-070315-1-sm.jpg",
+          "title": "SQL Injection",
+          "transcript": "",
+          "url": "sql-injection1",
+          "vimeoId": "132759489"
+        },
+        {
+          "description": "A wireless network uses radio waves to send out information, which can be convenient in a lot of aspects, but lack on the security side of things. Viewers will hear about wireless networks and technologies, some of the tools used to test against wireless networks, and some misconfigurations with the wireless network.",
+          "length": "1487",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-1-wireless_networks-070315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-1-wireless_networks-070315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-1-wireless_networks-070315-1-sm.jpg",
+          "title": "Wireless Networks",
+          "transcript": "",
+          "url": "wireless-networks-3",
+          "vimeoId": "132759488"
+        },
+        {
+          "description": "With wireless technology pushing more toward convenience rather than safety, the threat of wireless attacks becomes increasingly prevalent. Viewers will hear about wireless attacks, tools one can use to test a wireless network, and some vulnerabilities that can be caused by Bluetooth, RFID, and NFC.",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-2-wireless_attacks_and_tools-070315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-2-wireless_attacks_and_tools-070315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-11-2-wireless_attacks_and_tools-070315-1-sm.jpg",
+          "title": "Wireless Attacks and Tools",
+          "transcript": "",
+          "url": "wireless-attacks-tools",
+          "vimeoId": "132828565"
+        },
+        {
+          "description": "Honeypots, firewalls, and Intrusion Detection Systems (IDS) are all security mechanisms that protect information on a network that penetration testers will need to be aware of, be able to detect them, and even evade them. Viewers will hear discussions about what honeypots, firewalls, and Intrusion Detection Systems (IDS) are, what they do, and some tools used to help detect them.",
+          "length": "1286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-12-1-honeypots_ids_and_firewalls-070315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-12-1-honeypots_ids_and_firewalls-070315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-12-1-honeypots_ids_and_firewalls-070315-1-sm.jpg",
+          "title": "Honeypots, IDSs and Firewalls",
+          "transcript": "",
+          "url": "honeypots-idss-firewalls",
+          "vimeoId": "132759491"
+        },
+        {
+          "description": "Many penetration testers have access to the same tools and skills that others within the industry can have, so one might want to try and differentiate themselves by the way they format and construct their findings on a report. Viewers will hear about some basic reporting tools within Kali that will help one with the documentation process to manage evidence, capture media, and show they’ve done a test.",
+          "length": "1994",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-13-1-reports-070315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-13-1-reports-070315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-kalilinux/techskills-kalilinux-13-1-reports-070315-1-sm.jpg",
+          "title": "Reports",
+          "transcript": "",
+          "url": "reports1",
+          "vimeoId": "132759490"
+        }
+      ],
+      "title": "Kali Linux"
+    }
+  ],
+  "url": "kali-linux",
+  "vLab": false
+}

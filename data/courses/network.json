@@ -1,0 +1,505 @@
+{
+  "description": "This exam has been retired. The Network+ certification was introduced by CompTIA in 1999. It was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining the Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) to provide the learner with a broad, vendor neutral perspective on the topics required to work in the field",
+  "descriptionMD": "",
+  "length": "150803",
+  "name": "Network+",
+  "practiceExam": false,
+  "subtitle": null,
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Network+ certification was introduced by CompTIA in 1999. It was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining the Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) to provide the learner with a broad, vendor neutral perspective on the topics required to work in the field",
+          "length": "884",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/001-Intro-To-Network.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/001-Intro-To-Network-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/001-Intro-To-Network-sm.jpg",
+          "title": "Overview of Network+",
+          "transcript": "",
+          "url": "overview-network",
+          "vimeoId": "109580303"
+        }
+      ],
+      "title": "Overview of CompTIA Network+ (N10-005)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don give a high level overview of the first objective of the Network+ exam. They detail the sub-objectives that will be covered in the 1.0 Networking Concepts objective such as the OSI model, classifying devices, IP addressing, ports and protocols, and more.",
+          "length": "434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-0-Networking-Concepts.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-0-Networking-Concepts-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-0-Networking-Concepts-sm.jpg",
+          "title": "Networking Concepts Overview",
+          "transcript": "",
+          "url": "networking-concepts-overview",
+          "vimeoId": "109580302"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at the OSI model and its seven layers. They break down each layer while discussing the protocols that can be found there. They also talk about TCP/IP model and how it compares to the OSI model.",
+          "length": "2338",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-1-OSI-Model.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-1-OSI-Model-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-1-OSI-Model-sm.jpg",
+          "title": "The OSI Model",
+          "transcript": "",
+          "url": "osi-model",
+          "vimeoId": "109580301"
+        },
+        {
+          "description": "In this episode Ronnie and Don classify the various devices, protocols and applications found on the network and how they relate to the OSI model.",
+          "length": "1755",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-2-Classifying-Items-In-OSI.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-2-Classifying-Items-In-OSI-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-2-Classifying-Items-In-OSI-sm.jpg",
+          "title": "Classifying Items In OSI",
+          "transcript": "",
+          "url": "classifying-items-osi",
+          "vimeoId": "109580300"
+        },
+        {
+          "description": "In this episode Don describes the characteristics of IP addressing. He begins with breaking down the IP address to binary conversion and how the subnet mask comes into play in determining which class the IP address belongs to. He wraps the show with a discussion on the main classes of IP addresses; both public and private classes.",
+          "length": "5605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing-sm.jpg",
+          "title": "IP Addressing",
+          "transcript": "",
+          "url": "ip-addressing1",
+          "vimeoId": "109692163"
+        },
+        {
+          "description": "In this episode Don covers the characteristics of IPv6 addressing. He begins by comparing IPv6 to IPv4 address and how they differ. He discusses the various classes of IPv6 addresses such as the private, loopback, multicast and link-local addresses.",
+          "length": "3360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing-sm.jpg",
+          "title": "IPv6 Addressing",
+          "transcript": "",
+          "url": "ipv6-addressing1",
+          "vimeoId": "109806715"
+        },
+        {
+          "description": "In this episode Don begins the multipart series on IPv4 subnetting. He begins with a detailed discussion on what a subnet is, what it does and what we use it for. He continues with explaining the process of decimal to binary conversion and how to determine whether an IP address is part of the same network as another address.",
+          "length": "4679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting-sm.jpg",
+          "title": "IPv4 Subnetting",
+          "transcript": "",
+          "url": "ipv4-subnetting",
+          "vimeoId": "109919271"
+        },
+        {
+          "description": "In this episode Don continues with a discussion on IPv4 subnetting with leveraging the use of subnets to create smaller or larger network to optimize network performance. He uses examples of splitting and combining networks to ensure enough IP address are available for network devices.",
+          "length": "5797",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv4-Subnetting-Pt-2-sm.jpg",
+          "title": "IPv4 Subnetting Part 2",
+          "transcript": "",
+          "url": "ipv4-subnetting-2",
+          "vimeoId": "110136671"
+        },
+        {
+          "description": "",
+          "length": "487",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example01-110614.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example01-110614-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example01-110614-sm.jpg",
+          "title": "Subnetting Example #1",
+          "transcript": "",
+          "url": "subnetting-example-15",
+          "vimeoId": "113538440"
+        },
+        {
+          "description": "",
+          "length": "581",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example02-110614.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example02-110614-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example02-110614-sm.jpg",
+          "title": "Subnetting Example #2",
+          "transcript": "",
+          "url": "subnetting-example-14",
+          "vimeoId": "113537690"
+        },
+        {
+          "description": "",
+          "length": "813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example03-110614.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example03-110614-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example03-110614-sm.jpg",
+          "title": "Subnetting Example #3",
+          "transcript": "",
+          "url": "subnetting-example-13",
+          "vimeoId": "113540546"
+        },
+        {
+          "description": "",
+          "length": "935",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example04-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example04-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example04-120214-sm.jpg",
+          "title": "Subnetting Example #4",
+          "transcript": "",
+          "url": "subnetting-example-12",
+          "vimeoId": "113538154"
+        },
+        {
+          "description": "",
+          "length": "691",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example05-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example05-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example05-120214-sm.jpg",
+          "title": "Subnetting Example #5",
+          "transcript": "",
+          "url": "subnetting-example-11",
+          "vimeoId": "113538003"
+        },
+        {
+          "description": "",
+          "length": "676",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example06-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example06-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example06-120214-sm.jpg",
+          "title": "Subnetting Example #6",
+          "transcript": "",
+          "url": "subnetting-example-10",
+          "vimeoId": "113538298"
+        },
+        {
+          "description": "",
+          "length": "1094",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example07-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example07-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example07-120214-sm.jpg",
+          "title": "Subnetting Example #7",
+          "transcript": "",
+          "url": "subnetting-example-7",
+          "vimeoId": "113538279"
+        },
+        {
+          "description": "",
+          "length": "727",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example08-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example08-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example08-120214-sm.jpg",
+          "title": "Subnetting Example #8",
+          "transcript": "",
+          "url": "subnetting-example-9",
+          "vimeoId": "113538450"
+        },
+        {
+          "description": "",
+          "length": "760",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example09-120214.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example09-120214-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/networkplus-1-3-subnetting-example09-120214-sm.jpg",
+          "title": "Subnetting Example #9",
+          "transcript": "",
+          "url": "subnetting-example-8",
+          "vimeoId": "113538309"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie take a look into the working with switches and the purpose of switching.  They introduce the concept of switching as a centralized connectivity device that provides forwarding, flooding and filtering of data to all the devices that are plugged into a switch. They identify and describe the basic IEEE 802.1q VLAN tagging concept.  They also describe some of the issues in a redundant switch topology (working with multiple switches with multiple paths) and how Spanning Tree Protocol functions.",
+          "length": "4626",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/031-Switching.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/031-Switching-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/031-Switching-sm.jpg",
+          "title": "Switching",
+          "transcript": "",
+          "url": "switching-technologies-3",
+          "vimeoId": "105865972"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie introduce the concept of working with routers and how routers function.  Routers help us to forward data between different IP networks but can only do so if they have routes they can see.  Wes and Ronnie show internal hardware of a basic router and talk about how routers can build the routing tables they need to forward data to other networks.  They introduce the concepts of static and dynamic routing and describe how some of the routing protocols work.",
+          "length": "6121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/032-Routers.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/032-Routers-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/032-Routers-sm.jpg",
+          "title": "Routers",
+          "transcript": "",
+          "url": "routers-switches1",
+          "vimeoId": "106171020"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie discuss the most common ports used in networking.  They provide the background of using ports between a source and destination computer.  The ports are important to keeping network traffic separated between source and destination.  Using Wireshark, they display the port information while making an http, ftp and telnet connection across a network.  ",
+          "length": "3392",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/033-Identifying-Common-TCPUDP-Ports.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/033-Identifying-Common-TCPUDP-Ports-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/033-Identifying-Common-TCPUDP-Ports-sm.jpg",
+          "title": "Identifying Common TCP/UDP Ports",
+          "transcript": "",
+          "url": "identifying-common-tcpudp-ports",
+          "vimeoId": "106967402"
+        },
+        {
+          "description": "In this episode Nate and Wes discuss some of the common networking protocols every Network+ professional should be familiar with. They give examples and scenarios of the use of these protocols. ",
+          "length": "5424",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/034-Common-Network-Protocols.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/034-Common-Network-Protocols-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/034-Common-Network-Protocols-sm.jpg",
+          "title": "Common Network Protocols",
+          "transcript": "",
+          "url": "common-network-protocols",
+          "vimeoId": "107163250"
+        },
+        {
+          "description": "In this episode, Nate and Ronnie discuss the one most common protocols used in networking, DNS (Domain Name System).  DNS helps us to resolve names to IP addresses to make it easier for people to network. People can use names instead of IP addresses to connect to machines.  Nate and Ronnie talk about the structure of DNS, they describe the function of DNS server and the components that make DNS work.  They demonstrate the DNS process works and show the different records and how to manually create a record too.",
+          "length": "5068",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/035-DNS-Concepts.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/035-DNS-Concepts-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/035-DNS-Concepts-sm.jpg",
+          "title": "DNS Concepts",
+          "transcript": "",
+          "url": "dns-concepts",
+          "vimeoId": "107256005"
+        },
+        {
+          "description": "In this episode Wes and Ronnie take a look at the network troubleshooting methodology. They discuss the steps every Network+ professional should be familiar with then diagnosing network issues. They give examples of identifying the problem, establishing a plan and verifying full system functionality.",
+          "length": "5886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/036-Troubleshooting-Methodology.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/036-Troubleshooting-Methodology-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/036-Troubleshooting-Methodology-sm.jpg",
+          "title": "Troubleshooting Methodology",
+          "transcript": "",
+          "url": "troubleshooting-methodology",
+          "vimeoId": "107464017"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at virtual networking components and its role in powering cloud computing. They discuss components such as network as a service (NaaS) as well as virtual PBXs and onsite vs. offsite components.",
+          "length": "3305",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/011-Virtual-Network-Components.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/011-Virtual-Network-Components-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/011-Virtual-Network-Components-sm.jpg",
+          "title": "Virtual Network Components",
+          "transcript": "",
+          "url": "virtual-network-components",
+          "vimeoId": "78302135"
+        }
+      ],
+      "title": "Networking Concepts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Mike take a look at the technology encountered when configuring routers and switches such as address translation and traffic filtering.",
+          "length": "4679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/005-Routers-and-Switches.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/005-Routers-and-Switches-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/005-Routers-and-Switches-sm.jpg",
+          "title": "Routers and Switches",
+          "transcript": "",
+          "url": "routers-switches",
+          "vimeoId": "78230265"
+        },
+        {
+          "description": "In this episode Wes and Mike discuss the planning and configuring of a wireless network such as WAP placement, antenna types and channel selection.",
+          "length": "4385",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/006-Configure-Wireless-Network.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/006-Configure-Wireless-Network-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/006-Configure-Wireless-Network-sm.jpg",
+          "title": "Configure a Wireless Network",
+          "transcript": "",
+          "url": "configure-wireless-network",
+          "vimeoId": "78230502"
+        },
+        {
+          "description": "In this episode Wes and Don examine the Dynamic Host Configuration Protocol (DHCP). They take a look at the concept and theory of DHCP and then demonstrate implementing DHCP in a network environment.",
+          "length": "4249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/008-DHCP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/008-DHCP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/008-DHCP-sm.jpg",
+          "title": "DHCP",
+          "transcript": "",
+          "url": "dhcp2",
+          "vimeoId": "78230693"
+        },
+        {
+          "description": "In this episode Nate and Don continue to explore the area of network troubleshooting. They work through a series of network issues and demonstrate how to diagnose and repair the issue using CompTIA's recommended troubleshooting methodology.",
+          "length": "6067",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/012-Troubleshooting-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/012-Troubleshooting-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/012-Troubleshooting-Pt-2-sm.jpg",
+          "title": "Troubleshooting Part 2",
+          "transcript": "",
+          "url": "troubleshooting-theory-9",
+          "vimeoId": "78342561"
+        },
+        {
+          "description": "In this episode Nate and Don explore the world of designing and implementing a small office or home office network. They take a look at the various components that make up a SOHO network as well as other considerations of that design.",
+          "length": "5632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/013-Building-SOHO-Network.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/013-Building-SOHO-Network-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/013-Building-SOHO-Network-sm.jpg",
+          "title": "Building a SOHO Network",
+          "transcript": "",
+          "url": "building-soho-network",
+          "vimeoId": "78302133"
+        }
+      ],
+      "title": "Network Installation and Configuration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don take look at various media types and connector types.",
+          "length": "6262",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/016-Network-Media.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/016-Network-Media-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/016-Network-Media-sm.jpg",
+          "title": "Network Media",
+          "transcript": "",
+          "url": "network-media",
+          "vimeoId": "79265654"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at the various wireless standards covered by IEEE 802.11. They explore the characteristics and behavior of each protocol and explain real world uses.",
+          "length": "3388",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/018-Network-Media-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/018-Network-Media-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/018-Network-Media-Pt-2-sm.jpg",
+          "title": "Network Media Part 2",
+          "transcript": "",
+          "url": "network-media-2",
+          "vimeoId": "79361291"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at wide area network (WAN) connections. They discuss technologies ranging from standard business connections like cable broadband and T1 lines all the way through ISP level connections like OC192s.",
+          "length": "5323",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/020-WAN-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/020-WAN-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/020-WAN-Technologies-sm.jpg",
+          "title": "WAN Technologies",
+          "transcript": "",
+          "url": "wan-technologies1",
+          "vimeoId": "79999095"
+        },
+        {
+          "description": "In this episode Wes and Nate discuss different types of network topologies such as star, mesh, and networking models such as client-server. They also explain the different LAN technologies and properties of each.",
+          "length": "5384",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/022-Technologies-and-Topologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/022-Technologies-and-Topologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/022-Technologies-and-Topologies-sm.jpg",
+          "title": "Technologies and Topologies",
+          "transcript": "",
+          "url": "technologies-topologies",
+          "vimeoId": "81109147"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at cabling design and documentation. They discuss the common methods for cabling a building and then discus the various ways of documenting the physical and logical networks.",
+          "length": "5270",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/024-Wired-Distribution.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/024-Wired-Distribution-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/024-Wired-Distribution-sm.jpg",
+          "title": "Wiring Distribution",
+          "transcript": "",
+          "url": "wiring-distribution1",
+          "vimeoId": "81719759"
+        }
+      ],
+      "title": "Network Media and Topologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don take a look at various network appliances such as load balances and proxy servers. They also demonstrate network monitoring using SNMP and network sniffers.",
+          "length": "5483",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/017-Network-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/017-Network-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/017-Network-Management-sm.jpg",
+          "title": "Network Management",
+          "transcript": "",
+          "url": "network-management-reporting1",
+          "vimeoId": "79265622"
+        },
+        {
+          "description": "In this episode Nate and Don discuss troubleshooting network issues and the assorted network tools than can be used to isolate the problem.",
+          "length": "4135",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/023-Troubleshooting-Tools.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/023-Troubleshooting-Tools-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/023-Troubleshooting-Tools-sm.jpg",
+          "title": "Troubleshooting Tools",
+          "transcript": "",
+          "url": "troubleshooting-tools1",
+          "vimeoId": "81499064"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at network optimization technologies. They discuss hardware and software solutions that can help a network be resilient and efficient.",
+          "length": "2527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/026-Network-Optimization.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/026-Network-Optimization-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/026-Network-Optimization-sm.jpg",
+          "title": "Network Optimization",
+          "transcript": "",
+          "url": "network-optimization",
+          "vimeoId": "82096103"
+        },
+        {
+          "description": "In this ITProTV special Ronnie and Don answer a question from the Q&A. They describe Simple Network Management Protocol (SNMP) in detail and then demonstrate several real-world examples of collecting and interpreting SNMP data for monitoring purposes.",
+          "length": "1166",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/027-SNMP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/027-SNMP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/027-SNMP-sm.jpg",
+          "title": "Simple Network Management Protocol (SNMP)",
+          "transcript": "",
+          "url": "simple-network-management-protocol-snmp",
+          "vimeoId": "87179915"
+        }
+      ],
+      "title": "Network Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don discuss wireless security measures and methods of user authentication. They demonstrate device placement and signal strength planning as well as authenticating on remote resources.",
+          "length": "4799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/015-Network-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/015-Network-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/015-Network-Security-sm.jpg",
+          "title": "Network Security",
+          "transcript": "",
+          "url": "network-security2",
+          "vimeoId": "79104575"
+        },
+        {
+          "description": "In this episode Nate and Don take a look at methods of securing network access. They discuss access control lists (ACL) and various VPN tunneling technologies. They continue with remote access types such as Remote Desktop Protocol (RDP) as well as Secure Shell (SSH).",
+          "length": "5544",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/014-Network-Access-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/014-Network-Access-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/014-Network-Access-Security-sm.jpg",
+          "title": "Network Access Security",
+          "transcript": "",
+          "url": "network-access-security",
+          "vimeoId": "78818276"
+        },
+        {
+          "description": "In this episode Mike and Don discuss some of the common security threats that network administrators are faced with and examine some of the methods used to defend against them.",
+          "length": "6197",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/021-Security-Threats-and-Appliances.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/021-Security-Threats-and-Appliances-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/021-Security-Threats-and-Appliances-sm.jpg",
+          "title": "Security Threats and Appliances",
+          "transcript": "",
+          "url": "security-threats-appliances",
+          "vimeoId": "81009444"
+        },
+        {
+          "description": "In this episode Nate and Don demonstrate the installation and management of a basic firewall. They run through various scenarios and demonstrate a typical configuration. If you would like to learn more about pfSense be sure to check out their website at http://pfsense.org",
+          "length": "4875",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/019-Configuring-A-Firewall.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/019-Configuring-A-Firewall-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/netplus/019-Configuring-A-Firewall-sm.jpg",
+          "title": "Configuring a Firewall",
+          "transcript": "",
+          "url": "configuring-firewall",
+          "vimeoId": "79830178"
+        }
+      ],
+      "title": "Network Security"
+    }
+  ],
+  "url": "network",
+  "vLab": false
+}

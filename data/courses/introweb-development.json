@@ -1,0 +1,227 @@
+{
+  "description": "In this series, Daniel and Justin start exploring the basics of web development. Using JavaScript and HTML as well as the constructs provided by the browser, such as the Browser Object Model and the Document Object Model, we create simple web applications to reinforce the basics of web development. If you want to know more about the browser environment for web applications, using the document object model to add some dynamic behavior to your web applications, listen to different events/interactions and respond accordingly, as well as store information in the browser then join us.",
+  "descriptionMD": "In this series, Daniel and Justin start exploring the basics of web development. Using JavaScript and HTML as well as the constructs provided by the browser, such as the Browser Object Model and the Document Object Model, we create simple web applications to reinforce the basics of web development. If you want to know more about the browser environment for web applications, using the document object model to add some dynamic behavior to your web applications, listen to different events/interactions and respond accordingly, as well as store information in the browser then join us.",
+  "length": "30170",
+  "name": "Intro to Web Development",
+  "practiceExam": false,
+  "subtitle": "Basic Theory and Beginning Applications",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Justin give a general overview of what to expect in the upcoming Intro to Web Development series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-0-0-overview-022317-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-0-0-overview-022317-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-0-0-overview-022317-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.008 --> 00:00:04.593\n[SOUND] In this segment we're gonna\ngive you a quick glimpse into what\n\n2\n00:00:04.593 --> 00:00:09.591\nyou're gonna expect from our upcoming\nIntro to Web Development series.\n\n3\n00:00:09.591 --> 00:00:13.106\nJustin, would you be so kind as to give us\na general overview of some of the topics\n\n4\n00:00:13.106 --> 00:00:15.470\nwe're going to encounter in that series?\n\n5\n00:00:15.470 --> 00:00:16.680\n&gt;&gt; That's a great question, Daniel.\n\n6\n00:00:16.680 --> 00:00:19.680\nThe first thing we'll gonna do is take\na look at the browser environment.\n\n7\n00:00:19.680 --> 00:00:22.350\nWhat's available or\nprovided to us by the browser,\n\n8\n00:00:22.350 --> 00:00:26.630\nsuch as the browser object,\nthe window object, the document object,\n\n9\n00:00:26.630 --> 00:00:30.630\nall of these things that we can use in\norder to interact with these Web pages.\n\n10\n00:00:30.630 --> 00:00:32.960\nAlso, we're gonna look at events.\n\n11\n00:00:32.960 --> 00:00:36.780\nEvents within the browser, like clicks,\nand transitions, and hovers, and\n\n12\n00:00:36.780 --> 00:00:38.170\nmouse enters,\n\n13\n00:00:38.170 --> 00:00:42.570\nas well as how can I store temporary\npieces of information within the browser?\n\n14\n00:00:42.570 --> 00:00:46.510\nAnd then we're gonna take a quick aside\nand actually build a few projects,\n\n15\n00:00:46.510 --> 00:00:50.470\nseeing how all of those culminate\ninto something fairly meaningful.\n\n16\n00:00:50.470 --> 00:00:53.170\n&gt;&gt; Awesome,\nyou said a lot of big words in there, so\n\n17\n00:00:53.170 --> 00:00:56.780\nthat assumes there might be some\nknowledge level that we might have, or\n\n18\n00:00:56.780 --> 00:00:58.750\nwe might need as the people\nthat are gonna watch it.\n\n19\n00:00:58.750 --> 00:01:01.810\nCan you give us an idea of\nwho the intended audience is?\n\n20\n00:01:01.810 --> 00:01:05.280\n&gt;&gt; So, the intended audience, you should\ndefinitely have some familiarity with,\n\n21\n00:01:05.280 --> 00:01:10.155\nHTML, CSS, as well as a decent\nunderstanding of JavaScript.\n\n22\n00:01:10.155 --> 00:01:14.640\nIncluding just basic things like\nvariables, loops, arrays, certain data\n\n23\n00:01:14.640 --> 00:01:20.000\nstructures, and it would be nice if I\nthrow in some new features of JavaScript.\n\n24\n00:01:20.000 --> 00:01:23.280\nYou should probably know a little bit of\nthose new features known as ECMAScript 6\n\n25\n00:01:23.280 --> 00:01:27.710\nor ECMAScript 2015, just because they make\nour code a little cleaner, a little nicer.\n\n26\n00:01:27.710 --> 00:01:30.430\n&gt;&gt; Excellent,\nnow a lot of our episodes and\n\n27\n00:01:30.430 --> 00:01:34.460\nseries that we create here at ITProTV\nlend themselves toward certification.\n\n28\n00:01:34.460 --> 00:01:37.130\nBut some of them are also just\ntechnical skills that you might be\n\n29\n00:01:37.130 --> 00:01:38.110\nwanting to know about.\n\n30\n00:01:38.110 --> 00:01:40.620\nWhich one of those columns\nwould this fall under?\n\n31\n00:01:40.620 --> 00:01:42.820\n&gt;&gt; So this is definitely\na technical skills class.\n\n32\n00:01:42.820 --> 00:01:47.470\nThere's no intrinsic certification\nother than your own kind of\n\n33\n00:01:47.470 --> 00:01:48.540\nadvancement of knowledge.\n\n34\n00:01:48.540 --> 00:01:51.223\nSo if you wanna know more,\ndefinitely join us there.\n\n35\n00:01:51.223 --> 00:01:55.076\n&gt;&gt; All right, well, if that sounds like\nsomething that might be interesting to\n\n36\n00:01:55.076 --> 00:01:58.177\nyou, we look forward to seeing\nyou in the upcoming episodes.\n\n37\n00:01:58.177 --> 00:02:01.224\n[SOUND]\n\n",
+          "url": "overview70760",
+          "vimeoId": "205934101"
+        },
+        {
+          "description": "In this episode, Daniel and Justin begin their look at building a Web API using JavaScript. They start by explaining what an API is, exploring the Browser Object Model, and reviewing the Windows Object. Then they look over the Location Object.",
+          "length": "1703",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-1-web_apis_for_javascript-021517-PGM.00_29_10_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-1-web_apis_for_javascript-021517-PGM.00_29_10_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-1-web_apis_for_javascript-021517-PGM.00_29_10_03.Still001-sm.jpg",
+          "title": "Web APIs for JavaScript",
+          "transcript": "",
+          "url": "web-apisjavascript",
+          "vimeoId": "204891260"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue their look at building a Web API using JavaScript. They pick back up by reviewing the History Object, the Screen Object, the Navigator Object, and the Document Object.",
+          "length": "1511",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-2-web_apis_for_javascript_pt._2-021517-PGM.00_25_16_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-2-web_apis_for_javascript_pt._2-021517-PGM.00_25_16_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-1-1-2-web_apis_for_javascript_pt._2-021517-PGM.00_25_16_27.Still001-sm.jpg",
+          "title": "Web APIs for JavaScript Part 2",
+          "transcript": "",
+          "url": "web-apisjavascript2",
+          "vimeoId": "204888326"
+        },
+        {
+          "description": "In this episode, Daniel and Justin begin their discussion and demonstration of the Document Object Model(DOM) used in Web API development. They start by introducing you to DOM \"Getters\" such as getElementById(). getElementsByTagName, querySelector, and querySelectorAll.",
+          "length": "1643",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-1-the_document_objective_model-021517-PGM.00_27_07_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-1-the_document_objective_model-021517-PGM.00_27_07_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-1-the_document_objective_model-021517-PGM.00_27_07_08.Still001-sm.jpg",
+          "title": "The Document Object Model",
+          "transcript": "",
+          "url": "document-object-model",
+          "vimeoId": "204889135"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue their discussion and demonstration of the Document Object Model(DOM) used in Web API development. They pick back up by exploring different elements and their properties. Then they show you how to create your own custom elements with the createElement function and then make modifications to that custom element.",
+          "length": "2216",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-2-the_document_object_model_pt._2-021617.00_38_51_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-2-the_document_object_model_pt._2-021617.00_38_51_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-2-1-2-the_document_object_model_pt._2-021617.00_38_51_10.Still001-sm.jpg",
+          "title": "The Document Object Model Part 2",
+          "transcript": "",
+          "url": "document-object-model2",
+          "vimeoId": "204892449"
+        },
+        {
+          "description": "In this episode, Daniel and Justin discuss working with Events when building a Web API. They start by defining what constitutes an Event and the different types of Events you might employ. Then they demonstrate the basics of connecting those events to a response.",
+          "length": "1746",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-3-1-working_with_events-021617-PGM.00_31_29_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-3-1-working_with_events-021617-PGM.00_31_29_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-3-1-working_with_events-021617-PGM.00_31_29_23.Still001-sm.jpg",
+          "title": "Working with Events",
+          "transcript": "",
+          "url": "events",
+          "vimeoId": "205235327"
+        },
+        {
+          "description": "In this episode, Daniel and Justin look at some common ways in which data is stored using the browser. They begin by explaining the use of cookies to store data in the browser, how to create your own cookies, and reasons you may or may not want to use them.",
+          "length": "1192",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-1-data_storage_in_the_browser-021717.00_19_36_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-1-data_storage_in_the_browser-021717.00_19_36_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-1-data_storage_in_the_browser-021717.00_19_36_23.Still001-sm.jpg",
+          "title": "Data Storage in the Browser",
+          "transcript": "",
+          "url": "data-storagethe-browser",
+          "vimeoId": "205235952"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue their look at ways in which you can store data in the browser. They start by exploring the LocalStorage feature of the browser; discussing and demonstrating its use. Finally, they check out the IndexedDB solution for browser data storage.",
+          "length": "1505",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-2-data_storage_in_the_browser_pt2-021717.00_24_49_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-2-data_storage_in_the_browser_pt2-021717.00_24_49_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-4-1-2-data_storage_in_the_browser_pt2-021717.00_24_49_16.Still001-sm.jpg",
+          "title": "Data Storage in the Browser Part 2",
+          "transcript": "",
+          "url": "data-storagethe-browser2",
+          "vimeoId": "205236322"
+        },
+        {
+          "description": "In this episode, Daniel and Justin begin building a Web API using the foundational skills from previous episodes. Here they will demonstrate building a counting utility which utilizes Events, Document Object Models, display manipulation.",
+          "length": "1971",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-lets_build_it_counter-021717.00_32_35_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-lets_build_it_counter-021717.00_32_35_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-lets_build_it_counter-021717.00_32_35_06.Still001-sm.jpg",
+          "title": "Lets Build It Counter",
+          "transcript": "",
+          "url": "buildcounter",
+          "vimeoId": "205236924"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue building their Counter program as a Web API, this time explaining the process of Refactoring which is basically taking code that you've already gotten to work and making it more maintainable and modular.",
+          "length": "2042",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-2-lets_buildit_counter_pt2-022017-PGM.00_33_46_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-2-lets_buildit_counter_pt2-022017-PGM.00_33_46_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-5-1-2-lets_buildit_counter_pt2-022017-PGM.00_33_46_14.Still001-sm.jpg",
+          "title": "Lets Build It Counter Part 2",
+          "transcript": "",
+          "url": "buildcounter2",
+          "vimeoId": "205432478"
+        },
+        {
+          "description": "In this episode, Daniel and Justin are back in their Intro to Web Development series with another Build-It project. This time they will be creating a countdown timer app using the techniques we've learned so far as well as a few new tips and tricks.",
+          "length": "1904",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-1-lets_build_it_timer-022017-PGM.00_31_28_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-1-lets_build_it_timer-022017-PGM.00_31_28_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-1-lets_build_it_timer-022017-PGM.00_31_28_22.Still001-sm.jpg",
+          "title": "Lets Build It Timer",
+          "transcript": "",
+          "url": "buildtimer",
+          "vimeoId": "205433318"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue building their timer app as a Web API. They begin by debugging their timer app as it had some unexpected results when running, which they use to illustrate their methodology for debugging and improving your code.",
+          "length": "2126",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-2-lets_build_it_timer_pt2-022017-PGM.00_35_11_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-2-lets_build_it_timer_pt2-022017-PGM.00_35_11_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-2-lets_build_it_timer_pt2-022017-PGM.00_35_11_18.Still001-sm.jpg",
+          "title": "Lets Build It Timer Part 2",
+          "transcript": "",
+          "url": "buildtimer2",
+          "vimeoId": "205434058"
+        },
+        {
+          "description": "In this episode, Daniel and Justin finish building their timer app as a Web API. Here they make some changes to our Timer app that address a runtime issue as well as making it more appealing stylistically.",
+          "length": "1466",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-3-lets_build_it_timer_pt3-022117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-3-lets_build_it_timer_pt3-022117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-6-1-3-lets_build_it_timer_pt3-022117-1-sm.jpg",
+          "title": "Lets Build It Timer Part 3",
+          "transcript": "",
+          "url": "buildtimer3",
+          "vimeoId": "205542558"
+        },
+        {
+          "description": "In this episode, Daniel and Justin are back with another example app which will give us more experience with coding a Web API. Watch as they build a simple hangman game which will help us develop our proficiency with handling keyboard Events.",
+          "length": "2180",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-1-lets_build_it_hangman-022117-PGM.00_36_59_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-1-lets_build_it_hangman-022117-PGM.00_36_59_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-1-lets_build_it_hangman-022117-PGM.00_36_59_01.Still001-sm.jpg",
+          "title": "Lets Build It Hangman",
+          "transcript": "",
+          "url": "buildhangman",
+          "vimeoId": "205434605"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue building their hangman game as a web API which will give us more experience working through the logic, functions, and styling commonly used in modern web applications.",
+          "length": "1535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-2-lets_build_it_hangman_pt2-022117-PGM.00_28_12_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-2-lets_build_it_hangman_pt2-022117-PGM.00_28_12_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-2-lets_build_it_hangman_pt2-022117-PGM.00_28_12_11.Still001-sm.jpg",
+          "title": "Lets Build It Hangman Part 2",
+          "transcript": "",
+          "url": "buildhangman2",
+          "vimeoId": "205435181"
+        },
+        {
+          "description": "In this episode, Daniel and Justin put the finishing touches on their Hangman application. They begin with more refactoring of the code to make it more modular and maintainable. They also make some changes to the way that app interacts with the user to make it more \"user friendly\".",
+          "length": "1366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-3-lets_build_it_hangman_pt3-022217-PGM.00_22_31_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-3-lets_build_it_hangman_pt3-022217-PGM.00_22_31_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-7-1-3-lets_build_it_hangman_pt3-022217-PGM.00_22_31_19.Still001-sm.jpg",
+          "title": "Lets Build It Hangman Part 3",
+          "transcript": "",
+          "url": "buildhangman3",
+          "vimeoId": "206249835"
+        },
+        {
+          "description": "In this episode, Daniel and Justin begin building a \"Piano\" type web app to illustrate more handling of key press events, which in this case will make sounds. Key concepts to take away include: Using the data attributes of HTML and using audio elements programmatically.",
+          "length": "1658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-1-lets_build_it_piano-022217-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-1-lets_build_it_piano-022217-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-1-lets_build_it_piano-022217-1-sm.jpg",
+          "title": "Lets Build It Piano",
+          "transcript": "",
+          "url": "buildpiano",
+          "vimeoId": "205933515"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue working on their \"Piano\" web app, adding more functionality and usability. Key concepts to take away include: Utilizing repetitive nature of HTML for selection and using CSS transitions in conjunction with JavaScript to accentuate application behavior.",
+          "length": "1563",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-2-lets_build_it_piano_pt2-022217-PGM-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-2-lets_build_it_piano_pt2-022217-PGM-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-2-lets_build_it_piano_pt2-022217-PGM-1-sm.jpg",
+          "title": "Lets Build It Piano Part 2",
+          "transcript": "",
+          "url": "buildpiano2",
+          "vimeoId": "205543336"
+        },
+        {
+          "description": "In this episode, Daniel and Justin finish refactoring and refining their Piano application. Key concepts to take away include: The importance of being careful and diligent to pay attention to details during the refactoring process and the debugging process.",
+          "length": "722",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-3-lets_build_it_piano_pt3-022317-PGM.00_11_51_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-3-lets_build_it_piano_pt3-022317-PGM.00_11_51_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtowebdevelopment/techskills-introtowebdevelopment-8-1-3-lets_build_it_piano_pt3-022317-PGM.00_11_51_11.Still001-sm.jpg",
+          "title": "Lets Build It Piano Part 3",
+          "transcript": "",
+          "url": "buildpiano3",
+          "vimeoId": "205933876"
+        }
+      ],
+      "title": "Intro to Web Development"
+    }
+  ],
+  "url": "introweb-development",
+  "vLab": false
+}

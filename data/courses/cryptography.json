@@ -1,0 +1,139 @@
+{
+  "description": "These episodes are designed to demystify the world of cryptography. One will hear about the different aspects of cryptography, associated terminology, different types of cryptography, applications to it and other topics ranging from the history of cryptography, to high-level concepts like ciphers and key exchanges. Discover practical applications of cryptography and how it is applied to various areas in the field of security.",
+  "descriptionMD": "",
+  "length": "44115",
+  "name": "Cryptography",
+  "practiceExam": false,
+  "subtitle": "An in-depth look into cryptography concepts",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "214",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-0-0-overview-051115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-0-0-overview-051115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-0-0-overview-051115-1-sm.jpg",
+          "title": "Cryptography Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:01.373\n[SOUND]\n>> Hey everyone,\n\n2\n00:00:01.373 --> 00:00:06.321\nwanted to take a minute to introduce\nyou to our Cryptography Series,\n\n3\n00:00:06.321 --> 00:00:10.005\nMike Rodrick here and\nwith me is Mr. Sean Oriyano.\n\n4\n00:00:10.005 --> 00:00:10.776\nHow you doing Sean?\n\n5\n00:00:10.776 --> 00:00:13.311\n>> Doing pretty good today, Mike.\n\n6\n00:00:13.311 --> 00:00:14.671\nHow about you?\n>> I'm doing fantastic.\n\n7\n00:00:14.671 --> 00:00:16.796\nLooking forward to this.\n\n8\n00:00:16.796 --> 00:00:24.600\nWe are going to be spending the next week\ncovering Sean's book called Cryptography.\n\n9\n00:00:24.600 --> 00:00:26.710\nSo Sean, first of all, why this book?\n\n10\n00:00:26.710 --> 00:00:29.362\nI know we got a lot of different\nbooks out there that I can go and\n\n11\n00:00:29.362 --> 00:00:32.482\nget about cryptography and other than\nthe fact that you wrote this one,\n\n12\n00:00:32.482 --> 00:00:34.000\n[LAUGH] what makes this one so good?\n\n13\n00:00:34.000 --> 00:00:35.235\n>> There you go.\n\n14\n00:00:35.235 --> 00:00:37.095\n>> [LAUGH]\n>> Or is there any other reason?\n\n15\n00:00:37.095 --> 00:00:38.975\n[LAUGH]\n>> Do you need another one?\n\n16\n00:00:38.975 --> 00:00:40.765\n>> That's what I was thinking.\n\n17\n00:00:40.765 --> 00:00:42.671\n[LAUGH]\n>> Well,\n\n18\n00:00:42.671 --> 00:00:44.890\nI've always had an interest\nin cryptography.\n\n19\n00:00:44.890 --> 00:00:48.180\nIt's been something that's just\nfascinated me since I was very young.\n\n20\n00:00:48.180 --> 00:00:51.060\nWhen I set about writing this book,\n\n21\n00:00:51.060 --> 00:00:54.780\nit comes on the heels of being\ninterested in this for years, but\n\n22\n00:00:54.780 --> 00:00:59.490\nonly seeing books that did beginning\nstuff right in the first chapter or two,\n\n23\n00:00:59.490 --> 00:01:04.220\nand then all of a sudden they're jumping\ninto all these abstract concepts.\n\n24\n00:01:04.220 --> 00:01:08.160\nNow, someone jumping in new to\nthat is gonna have a problem.\n\n25\n00:01:08.160 --> 00:01:11.252\nI mean, if you're an experienced person,\nif you're, we joke around,\n\n26\n00:01:11.252 --> 00:01:14.120\na propeller head,\nyou understand mathematics and all that,\n\n27\n00:01:14.120 --> 00:01:18.300\nthen maybe you're gonna get, jumping\ninto the advanced stuff really quick.\n\n28\n00:01:18.300 --> 00:01:22.940\nBut I wanted something that was easily\nunderstandable, dispensed with as many\n\n29\n00:01:22.940 --> 00:01:28.190\nof the formulas as possible, which I\navoided putting any of them in there.\n\n30\n00:01:28.190 --> 00:01:30.960\nI think there's like one or\ntwo in there, that's about it.\n\n31\n00:01:30.960 --> 00:01:34.130\nAnd so, I tried to make it accessible and\ngive examples and\n\n32\n00:01:34.130 --> 00:01:35.770\nmake it easy to understand.\n\n33\n00:01:35.770 --> 00:01:40.520\nSo in the end,\nthe result was a book that I'm proud of,\n\n34\n00:01:40.520 --> 00:01:43.890\nthat does make it easy,\ndoes show examples, and\n\n35\n00:01:43.890 --> 00:01:49.410\nmakes it accessible to anybody that\nis working with mathematics or not.\n\n36\n00:01:49.410 --> 00:01:53.270\nSomebody that is in IT,\nwhich this would be very useful for.\n\n37\n00:01:53.270 --> 00:01:57.500\nA security person, anybody,\nliterally anybody, can read this book.\n\n38\n00:01:57.500 --> 00:02:01.350\n>> So really not geared towards\nany one person or one field.\n\n39\n00:02:01.350 --> 00:02:04.820\nThis is something that somebody that has\na little experience can pick up and enjoy.\n\n40\n00:02:04.820 --> 00:02:07.720\nAs well as somebody that had never\nlooked at cryptography before,\n\n41\n00:02:07.720 --> 00:02:10.710\ncould pick up this book and\nreally enjoy it and\n\n42\n00:02:10.710 --> 00:02:15.500\nget a good understanding of that basic\nfoundation of knowledge on cryptography.\n\n43\n00:02:15.500 --> 00:02:16.210\n>> Exactly.\n\n44\n00:02:16.210 --> 00:02:17.210\n>> Fantastic.\n\n45\n00:02:17.210 --> 00:02:21.080\n>> And from what I've heard from people\nat Reddit, that's been the result, so\n\n46\n00:02:21.080 --> 00:02:22.110\nI'm pretty happy about it.\n\n47\n00:02:22.110 --> 00:02:27.220\nAnd I think it's just something that\ncan make a complex topic accessible.\n\n48\n00:02:27.220 --> 00:02:30.720\nIt's actually in the form of,\nin some ways, almost like a puzzle book,\n\n49\n00:02:30.720 --> 00:02:32.110\nso it can be fun.\n\n50\n00:02:32.110 --> 00:02:34.980\n>> All right, so looking forward to it,\nlooking forward to it.\n\n51\n00:02:34.980 --> 00:02:38.990\nSo what kinda things are we gonna talk\nabout over the next week here in our show?\n\n52\n00:02:38.990 --> 00:02:41.920\n>> Over the next week we\nare gonna talk about all different\n\n53\n00:02:41.920 --> 00:02:43.120\naspects in cryptography.\n\n54\n00:02:43.120 --> 00:02:46.470\nWe'll talk some about the history\nof cryptography, we'll talk about\n\n55\n00:02:46.470 --> 00:02:51.360\nterminology, we will talk about classic\ncryptography in the term of symmetric.\n\n56\n00:02:51.360 --> 00:02:55.360\nWe'll move to modern,\nasymmetric cryptography examples, hashing,\n\n57\n00:02:55.360 --> 00:02:57.030\nsteganography.\n\n58\n00:02:57.030 --> 00:02:59.690\nWe'll talk about applications of it, and\n\n59\n00:02:59.690 --> 00:03:03.980\nthen we'll end stuff off with what\nthe future of cryptography looks like.\n\n60\n00:03:03.980 --> 00:03:07.740\nWhen we get into some stuff that may\nbe kind of abstract in the form of\n\n61\n00:03:07.740 --> 00:03:11.712\nquantum cryptography, and\nthat means quantum physics, so.\n\n62\n00:03:11.712 --> 00:03:14.702\n>> [LAUGH].\n>> So I'm giving you a chance to study and\n\n63\n00:03:14.702 --> 00:03:16.650\nre-up on stuff, but\nit's some exciting stuff.\n\n64\n00:03:16.650 --> 00:03:19.830\n>> The whole spectrum of things\nwe're gonna see in here.\n\n65\n00:03:19.830 --> 00:03:20.680\n>> Fantastic.\n\n66\n00:03:20.680 --> 00:03:23.227\nFantastic.\nWell, I hope everybody out there is as\n\n67\n00:03:23.227 --> 00:03:26.570\nexcited as I am to get started\nin the world of cryptography, so\n\n68\n00:03:26.570 --> 00:03:29.230\nmake sure you tune in and\ncheck out our episodes.\n\n69\n00:03:29.230 --> 00:03:34.849\n[MUSIC]\n\n",
+          "url": "cryptography-overview",
+          "vimeoId": "127592745"
+        },
+        {
+          "description": null,
+          "length": "5495",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-1-0-history_of_cryptography-051115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-1-0-history_of_cryptography-051115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-1-0-history_of_cryptography-051115-1-sm.jpg",
+          "title": "History of Cryptography",
+          "transcript": "",
+          "url": "history-cryptography",
+          "vimeoId": "127592746"
+        },
+        {
+          "description": null,
+          "length": "5444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-2-0-the_language_of_cryptography-051115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-2-0-the_language_of_cryptography-051115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-2-0-the_language_of_cryptography-051115-1-sm.jpg",
+          "title": "The Language of Cryptography",
+          "transcript": "",
+          "url": "language-cryptography",
+          "vimeoId": "127592747"
+        },
+        {
+          "description": null,
+          "length": "5907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-3-0-components_of_cryptography-051215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-3-0-components_of_cryptography-051215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-3-0-components_of_cryptography-051215-1-sm.jpg",
+          "title": "Components of Cryptography",
+          "transcript": "",
+          "url": "components-cryptography",
+          "vimeoId": "127706938"
+        },
+        {
+          "description": null,
+          "length": "4310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers-051215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers-051215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers-051215-1-sm.jpg",
+          "title": "Algorithms and Ciphers",
+          "transcript": "",
+          "url": "algorithms-ciphers",
+          "vimeoId": "127706937"
+        },
+        {
+          "description": null,
+          "length": "3629",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers_pt2-051315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers_pt2-051315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-4-0-algorithms_and_ciphers_pt2-051315-1-sm.jpg",
+          "title": "Algorithms and Ciphers Part 2",
+          "transcript": "",
+          "url": "algorithms-ciphers-2",
+          "vimeoId": "127830742"
+        },
+        {
+          "description": null,
+          "length": "3823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-5-0-hashing-051315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-5-0-hashing-051315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-5-0-hashing-051315-1-sm.jpg",
+          "title": "Hashing",
+          "transcript": "",
+          "url": "hashing",
+          "vimeoId": "127938017"
+        },
+        {
+          "description": null,
+          "length": "6448",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-6-0-cryptoanalysis_and_code_breaking-051415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-6-0-cryptoanalysis_and_code_breaking-051415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-6-0-cryptoanalysis_and_code_breaking-051415-1-sm.jpg",
+          "title": "Cryptoanalysis and Code Breaking",
+          "transcript": "",
+          "url": "cryptoanalysis-code-breaking",
+          "vimeoId": "127934482"
+        },
+        {
+          "description": null,
+          "length": "2190",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-7-0-pki_and_applied_cryptography-051415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-7-0-pki_and_applied_cryptography-051415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-7-0-pki_and_applied_cryptography-051415-high-sm.jpg",
+          "title": "PKI and Applied Cryptography",
+          "transcript": "",
+          "url": "pki-applied-cryptography",
+          "vimeoId": "127934481"
+        },
+        {
+          "description": null,
+          "length": "3048",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-8-0-steganography-051515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-8-0-steganography-051515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-8-0-steganography-051515-1-sm.jpg",
+          "title": "Steganography",
+          "transcript": "",
+          "url": "steganography",
+          "vimeoId": "128167988"
+        },
+        {
+          "description": null,
+          "length": "3607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-9-0-the_future_of_cryptography-051515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-9-0-the_future_of_cryptography-051515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cryptography/skills-cryptography-9-0-the_future_of_cryptography-051515-1-sm.jpg",
+          "title": "The Future of Cryptography",
+          "transcript": "",
+          "url": "future-cryptography",
+          "vimeoId": "128249051"
+        }
+      ],
+      "title": "Cryptography"
+    }
+  ],
+  "url": "cryptography",
+  "vLab": false
+}

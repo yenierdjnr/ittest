@@ -1,0 +1,117 @@
+{
+  "description": "Wireshark is a free and open source network packet sniffer and protocol analyzer. It is an invaluable tool for any network administrator who needs detailed visibility into the traffic on their network. It utilizes a packet capture utility or sniffer, which watches any traffic/communication that crosses the network adapter and writes it to a file and then the protocol analyzer interprets the raw data obtained by the sniffer and turns it into readable data. It also provides in-depth tools for isolating faults and troubleshooting failures.",
+  "descriptionMD": "",
+  "length": "7461",
+  "name": "Wireshark",
+  "practiceExam": false,
+  "subtitle": "Network protocol analyzer",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "561",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-1-sm.jpg",
+          "title": "What is Wireshark?",
+          "transcript": "1\n00:00:00,000 --> 00:00:08,110\n[MUSIC]\n\n2\n00:00:08,110 --> 00:00:12,226\nIn this video series we're gonna take a\nlook at an amazing networking tool called\n\n3\n00:00:12,226 --> 00:00:12,900\nWireshark.\n\n4\n00:00:12,900 --> 00:00:16,210\nA lot of people have heard about it,\nnot a lot of people have used it.\n\n5\n00:00:16,210 --> 00:00:19,570\nWe want to take some time to show you how\nthe product works, how you can use it,\n\n6\n00:00:19,570 --> 00:00:22,040\nhow you can take advantage of that to\nhelp with your troubleshooting and\n\n7\n00:00:22,040 --> 00:00:24,510\njust general network\ngathering information.\n\n8\n00:00:24,510 --> 00:00:28,150\nIt is a terribly useful tool,\nand it is completely free,\n\n9\n00:00:28,150 --> 00:00:29,780\nthat makes it really attractive.\n\n10\n00:00:29,780 --> 00:00:31,640\nLet's start at the beginning though.\n\n11\n00:00:31,640 --> 00:00:33,370\nWhat is Wireshark?\n\n12\n00:00:33,370 --> 00:00:35,030\nWell, it's kind of hard to describe,\n\n13\n00:00:35,030 --> 00:00:37,900\nbecause Wireshark is actually\nseveral tools in one.\n\n14\n00:00:37,900 --> 00:00:40,860\nIt's a packet analyzer, it's a sniffer,\n\n15\n00:00:40,860 --> 00:00:43,770\nit's a protocol analyzer,\na packet capture device.\n\n16\n00:00:43,770 --> 00:00:47,660\nIt's all these different things\nwrapped into one big envelope.\n\n17\n00:00:47,660 --> 00:00:50,340\nSo let's tackle the pieces independently.\n\n18\n00:00:50,340 --> 00:00:57,110\nWe start with a packet capture utility,\nsometimes called a sniffer.\n\n19\n00:00:57,110 --> 00:01:00,990\nThere are many different sniffers that\nare out there from various vendors, but\n\n20\n00:01:00,990 --> 00:01:04,110\na sniffer pretty much works the same\nway no matter who it's from.\n\n21\n00:01:04,110 --> 00:01:09,300\nWhat a sniffer does, is it watches your\nnetwork card, and any traffic that crosses\n\n22\n00:01:09,300 --> 00:01:15,250\nthe network card, any communications,\ntelnet, SSH, TCP stuff, UDP stuff.\n\n23\n00:01:15,250 --> 00:01:18,950\nAny communication across that\nnetwork card, it captures it and\n\n24\n00:01:18,950 --> 00:01:20,410\nwrites it to a file.\n\n25\n00:01:20,410 --> 00:01:24,800\nIt doesn't do anything with it,\nit just gets it and saves it.\n\n26\n00:01:24,800 --> 00:01:29,890\nOn a normal computer, Linux,\nMac OS, Windows, doesn't matter, if\n\n27\n00:01:29,890 --> 00:01:34,970\nit receives traffic that is not destined\nfor that computer, it throws it away.\n\n28\n00:01:34,970 --> 00:01:39,020\nBut a sniffer, or a packet capture\nutility, won't throw it away.\n\n29\n00:01:39,020 --> 00:01:41,620\nIt'll hold it, it'll say all right,\nI'll take a copy of that, and\n\n30\n00:01:41,620 --> 00:01:42,170\nit'll write it down.\n\n31\n00:01:42,170 --> 00:01:47,340\nAll right, once you've got it written\ndown, you can then do stuff with it.\n\n32\n00:01:47,340 --> 00:01:51,230\nOne of the most popular packet capture\nutilities that are out there is called\n\n33\n00:01:51,230 --> 00:01:52,310\nTCP Dump.\n\n34\n00:01:52,310 --> 00:01:56,020\nIn the Unix and Linux world,\nit's a command line utility you can run\n\n35\n00:01:56,020 --> 00:01:58,155\nthat'll just give you\nan onscreen output or\n\n36\n00:01:58,155 --> 00:02:01,910\nit can dump it to a file of all\nthe traffic hitting your network adapter.\n\n37\n00:02:01,910 --> 00:02:05,860\nSo if you want to see what's going on in\nthe network, it's a great way to do it.\n\n38\n00:02:05,860 --> 00:02:08,732\nThe problem though is it just\ngives you this raw data and\n\n39\n00:02:08,732 --> 00:02:12,760\nyou then have to interpret it, and\nthe interpretation part is the hard part.\n\n40\n00:02:12,760 --> 00:02:15,670\nThat is what a protocol analyzer does.\n\n41\n00:02:15,670 --> 00:02:18,330\nAnd again there's a number of\nprotocol analyzer out there,\n\n42\n00:02:18,330 --> 00:02:21,340\nbut what they all do is\npretty much the same.\n\n43\n00:02:21,340 --> 00:02:24,690\nThey take the packets that\nwere obtained by a sniffer And\n\n44\n00:02:24,690 --> 00:02:28,030\nthey transform them into something\nthat becomes human readable,\n\n45\n00:02:28,030 --> 00:02:30,770\nsomething that we can look at and\nrecognize.\n\n46\n00:02:30,770 --> 00:02:35,230\nSome of them go even further, and not just\ntranslate into something we can recognize,\n\n47\n00:02:35,230 --> 00:02:40,280\nbut string it together to form patterns\nand give us additional information.\n\n48\n00:02:40,280 --> 00:02:44,870\nThat is what a protocol analyzer does,\nand the really advanced ones can\n\n49\n00:02:44,870 --> 00:02:47,640\nbreak that data down in a way\nthat makes it super simple for\n\n50\n00:02:47,640 --> 00:02:49,510\nus to interpret and to work with.\n\n51\n00:02:49,510 --> 00:02:51,251\nAnd that's why when you go to like,\n\n52\n00:02:51,251 --> 00:02:54,410\nWireShark's website they say\nit's WireShark, go deeper.\n\n53\n00:02:54,410 --> 00:02:55,720\nYou get this data,\n\n54\n00:02:55,720 --> 00:02:59,110\nyou've got the information,\nwhat can you extrapolate form it?\n\n55\n00:02:59,110 --> 00:03:01,460\nWhat can you determine based on\nthe information that you've gathered?\n\n56\n00:03:01,460 --> 00:03:05,290\nAnd you'll find there's actually a lot\nstuff you can learn about your network.\n\n57\n00:03:05,290 --> 00:03:08,990\nNow I started working with protocol\nanalyzers over 15 years ago, and\n\n58\n00:03:08,990 --> 00:03:13,700\nback then, they were almost like voodoo\nmagic, and they were incredibly expensive.\n\n59\n00:03:13,700 --> 00:03:16,460\nThe one I used the most\ncommonly was a product,\n\n60\n00:03:16,460 --> 00:03:18,780\nit's been bought out by a few\ndifferent companies, but back then,\n\n61\n00:03:18,780 --> 00:03:23,890\nit was network general sniffer pro is what\nit was called, and it cost about $15,000.\n\n62\n00:03:23,890 --> 00:03:26,530\nIt was very, very expensive.\n\n63\n00:03:26,530 --> 00:03:29,380\nThe company I worked for had purchased\nthe license for it, and we used it for\n\n64\n00:03:29,380 --> 00:03:31,220\ntroubleshooting all the time.\n\n65\n00:03:31,220 --> 00:03:35,210\nIt was a great product, but\nthat was a long time ago.\n\n66\n00:03:35,210 --> 00:03:37,560\nTechnologies have changed,\nprotocols have changed, and\n\n67\n00:03:37,560 --> 00:03:40,130\nall the software packages\nhave had to keep up to date.\n\n68\n00:03:40,130 --> 00:03:42,480\nSome of them have, some of them haven't.\n\n69\n00:03:42,480 --> 00:03:45,800\nUtilities like tcpdump haven't\nchanged much over the years,\n\n70\n00:03:45,800 --> 00:03:47,740\nthey just dump the data out to a file.\n\n71\n00:03:47,740 --> 00:03:50,110\nThere's much they can advance on that.\n\n72\n00:03:50,110 --> 00:03:54,620\nOther ones like Microsoft has something\ncalled the Microsoft Network Monitor, and\n\n73\n00:03:54,620 --> 00:03:58,930\nwhen it came out back in 1997,\nit was fancy, it was nice.\n\n74\n00:03:58,930 --> 00:04:02,560\nIt could really do a lot of stuff,\nbut today,\n\n75\n00:04:02,560 --> 00:04:05,330\nit's basically been abandoned by\nMicrosoft, they haven't updated it much.\n\n76\n00:04:05,330 --> 00:04:07,460\nYou can go to their site and\ndownload it for free, but\n\n77\n00:04:07,460 --> 00:04:10,290\nit's crippled compared to Wireshark.\n\n78\n00:04:10,290 --> 00:04:15,450\nWireshark is an open source protocol\nanalyzer that is actively being developed,\n\n79\n00:04:15,450 --> 00:04:17,550\ngetting new features every single week, so\n\n80\n00:04:17,550 --> 00:04:21,980\nit's a very current system and\nit's extremely powerful.\n\n81\n00:04:21,980 --> 00:04:25,050\nIt does pretty much\neverything you could want.\n\n82\n00:04:25,050 --> 00:04:27,590\nThere are a few little things,\nadvanced type functionalities,\n\n83\n00:04:27,590 --> 00:04:31,800\nthey might not have, and that's why other\nvendors still have the high end market.\n\n84\n00:04:31,800 --> 00:04:36,950\nCompanies like Fluke has\nthe network inspector, and\n\n85\n00:04:36,950 --> 00:04:39,850\nthat thing is incredibly expensive, but\n\n86\n00:04:39,850 --> 00:04:44,670\nit does a very good job and it breaks down\nyour network and shows what's going on.\n\n87\n00:04:44,670 --> 00:04:49,760\nSo there is still a high end market for\nthat, but for me as a network engineer,\n\n88\n00:04:49,760 --> 00:04:52,770\nI'm a big Cisco guy,\nI work with networking equipment a lot.\n\n89\n00:04:52,770 --> 00:04:57,120\nFor me, I rarely use these utilities,\nthese high end utilities because I know\n\n90\n00:04:57,120 --> 00:05:02,280\nthat WireShark does everything that\nI need so very powerful utility,\n\n91\n00:05:02,280 --> 00:05:08,030\nvery free and it will run on top of Linux,\nMac OS and Windows so it's multi platform.\n\n92\n00:05:08,030 --> 00:05:12,320\nA lot of the high end stuff, like the\nfluke stuff Will only run on windows, so\n\n93\n00:05:12,320 --> 00:05:15,620\nthere's limitations you have there, but\nwith Wireshark, you don't have that.\n\n94\n00:05:15,620 --> 00:05:17,220\nReally, really cool stuff.\n\n95\n00:05:17,220 --> 00:05:20,670\nNow, it's possible you've worked with\nWireshark before and don't know it..\n\n96\n00:05:20,670 --> 00:05:22,380\nIt used to have a different name.\n\n97\n00:05:22,380 --> 00:05:24,010\nWireshark was an open source product.\n\n98\n00:05:24,010 --> 00:05:27,820\nIt was developed by a network\nengineer/developer in his spare time,\n\n99\n00:05:27,820 --> 00:05:32,030\nand it was originally called ethereal,\nor you'll here ether real, but\n\n100\n00:05:32,030 --> 00:05:33,670\nit was ethereal.\n\n101\n00:05:33,670 --> 00:05:39,100\nThat was the original product, and when\nhe left the company he was working for,\n\n102\n00:05:39,100 --> 00:05:42,420\nthe name had been\ntrademarked by that company.\n\n103\n00:05:42,420 --> 00:05:45,640\nHe couldn't keep the name, so when he\nleft, he took his product with him, but\n\n104\n00:05:45,640 --> 00:05:48,650\nhe couldn't take the name until\nwe changed it to Wireshark.\n\n105\n00:05:48,650 --> 00:05:52,520\nThat was years ago now, so, anybody\ngetting started in IT in the last four or\n\n106\n00:05:52,520 --> 00:05:56,390\nfive years would probably only know it as\nWireshark, but every now and then you'll\n\n107\n00:05:56,390 --> 00:06:00,713\nhear it referred to as a theory of\nthat old name that was attached to it.\n\n108\n00:06:00,713 --> 00:06:03,240\nNow, it is open source, it's free,\nyou can go and download it,\n\n109\n00:06:03,240 --> 00:06:06,960\nyou can get the source code if you want\nbut, most of us just want the program.\n\n110\n00:06:06,960 --> 00:06:10,420\nSo, to get it you go to Wireshark's\nwebsite and you can download it and\n\n111\n00:06:10,420 --> 00:06:11,200\ninstall from there.\n\n112\n00:06:11,200 --> 00:06:12,790\nSo they've got the get started and\n\n113\n00:06:12,790 --> 00:06:15,930\non there you'll see where it's got\nthe different OS's, so here I've got OSX,\n\n114\n00:06:15,930 --> 00:06:20,150\nI've got Windows, Source Code,\nyou'll see other ones that are out there.\n\n115\n00:06:20,150 --> 00:06:25,050\nAnd if you're running Linux it's likely\nalready been ported to your distro,\n\n116\n00:06:25,050 --> 00:06:27,470\nyou just need to check\nthe repositories for your distro.\n\n117\n00:06:27,470 --> 00:06:30,730\nScent OS and Red Hat have got\nWireshark in their distros already,\n\n118\n00:06:30,730 --> 00:06:35,680\nso while it's not listed right here on\nthe website, it is available, all right.\n\n119\n00:06:35,680 --> 00:06:39,600\nNow, Wireshark will watch\nyour network adapter, so\n\n120\n00:06:39,600 --> 00:06:43,070\nwhichever network adapters you have,\nwireless or wired, and\n\n121\n00:06:43,070 --> 00:06:47,490\nit will capture any of the data on\nthose interfaces and record it.\n\n122\n00:06:47,490 --> 00:06:50,540\nYou don't have a whole lot of system\nrequirements with Wireshark because it is\n\n123\n00:06:50,540 --> 00:06:54,650\nreally flexible and multi-platform, but\none thing you need to be aware of is,\n\n124\n00:06:54,650 --> 00:06:58,140\nin order to capture traffic on a network\nadapter that's not destined for your\n\n125\n00:06:58,140 --> 00:07:02,660\nmachine, the network adapter has to be\nput into what's called promiscuous mode.\n\n126\n00:07:02,660 --> 00:07:05,940\nPromiscuous mode means even though I'm\ngetting traffic that's not destined for\n\n127\n00:07:05,940 --> 00:07:08,270\nme, I'm gonna to keep it.\n\n128\n00:07:08,270 --> 00:07:13,010\nSome physical network adapters will block\nthat traffic before it even makes it to\n\n129\n00:07:13,010 --> 00:07:16,170\nyour OS, so the OS doesn't even\nhave a chance to capture it,\n\n130\n00:07:16,170 --> 00:07:18,260\nit's already gone at that point.\n\n131\n00:07:18,260 --> 00:07:22,190\nAll right, so you need to make sure your\nnetwork adapter supports promiscuous mode.\n\n132\n00:07:22,190 --> 00:07:26,560\nA lot of them do, so, it's not like\nit's a rare feature or whatever.\n\n133\n00:07:26,560 --> 00:07:29,600\nBut if you find that no matter what you do\nwith Wireshark, you're just not getting\n\n134\n00:07:29,600 --> 00:07:33,190\nany packets, well that might be your\nindicator that you've got a problem there.\n\n135\n00:07:33,190 --> 00:07:37,920\nBut like I said most adapters do and when\nyou go to Wireshark's website, if you're\n\n136\n00:07:37,920 --> 00:07:41,400\nwondering how they make money because it\nis a free product, you'll see advertising.\n\n137\n00:07:41,400 --> 00:07:44,670\nAnd a lot of times the advertisements\nwill center around network adapters, so\n\n138\n00:07:44,670 --> 00:07:49,090\nlike right here 802.11\npacket capture adapters.\n\n139\n00:07:49,090 --> 00:07:52,180\nYou might already have a wireless\nadapter in your system, but\n\n140\n00:07:52,180 --> 00:07:55,650\nit might not support full promiscuous\nmode on a wireless network.\n\n141\n00:07:55,650 --> 00:07:58,640\nIt might not be able to capture all that\ndata, so if you're trying to do something\n\n142\n00:07:58,640 --> 00:08:03,170\nlike a WEP key attack, or even WPA1\ntype attacks, you might not be able\n\n143\n00:08:03,170 --> 00:08:06,330\nto pull them off with the wireless\nadapter that's built in your system.\n\n144\n00:08:06,330 --> 00:08:10,290\nSo if you purchase one of these network\nadapters, they specifically support\n\n145\n00:08:10,290 --> 00:08:13,120\nthe features you need,\nyou know you'll have that functionality.\n\n146\n00:08:13,120 --> 00:08:14,630\nThat's how Wire Shark makes their money.\n\n147\n00:08:14,630 --> 00:08:18,090\nWhen you buy things like this,\nthey also do consulting, there's training,\n\n148\n00:08:18,090 --> 00:08:21,800\nthere is an official certification track\nwith Wire Shark you can go through.\n\n149\n00:08:21,800 --> 00:08:25,610\nWe're not tackling that here, we're just\ngonna do general usage of the product, but\n\n150\n00:08:25,610 --> 00:08:28,550\nthere's various ways like that\nthat they generate their revenue.\n\n151\n00:08:28,550 --> 00:08:30,900\nSo don't think that they're\nshady because it's free,\n\n152\n00:08:30,900 --> 00:08:32,850\nthey just make their money other ways.\n\n153\n00:08:32,850 --> 00:08:34,090\nIt's a great resource and\n\n154\n00:08:34,090 --> 00:08:38,090\nit's really a gift to the networking\ncommunity to even have this available.\n\n155\n00:08:38,090 --> 00:08:39,012\nIt's incredibly powerful.\n\n156\n00:08:39,012 --> 00:08:42,540\nAll right, so,\nthat's pretty much all we need for\n\n157\n00:08:42,540 --> 00:08:45,080\nour high level interview\nhere with Wire Shark.\n\n158\n00:08:45,080 --> 00:08:47,630\nIf you're curious,\nyou can browse through their website,\n\n159\n00:08:47,630 --> 00:08:52,050\nit's just wireshark.org, and\nthey've got a Get Acquainted menu up top.\n\n160\n00:08:52,050 --> 00:08:55,580\nAnd you can read about it, you can learn\nabout the product and download it.\n\n161\n00:08:55,580 --> 00:08:58,580\nAt the end of the day,\nit is an open source product.\n\n162\n00:08:58,580 --> 00:09:00,170\nHere's all the different developers.\n\n163\n00:09:00,170 --> 00:09:02,240\nIt's a neat program and\n\n164\n00:09:02,240 --> 00:09:05,280\nwe'll see how to use it as we go\nthrough these series of videos.\n\n165\n00:09:05,280 --> 00:09:09,340\nSo stay tuned for those as we follow\nup with how to get it installed,\n\n166\n00:09:09,340 --> 00:09:11,690\nhow to work with it, and\nhow to interpret our data.\n\n167\n00:09:11,690 --> 00:09:13,800\nSo it's gonna be a whole series on that.\n\n168\n00:09:13,800 --> 00:09:17,075\nMake sure you stay tuned.\n\n169\n00:09:17,075 --> 00:09:21,644\n[SOUND]\n\n",
+          "url": "wireshark",
+          "vimeoId": "106821239"
+        },
+        {
+          "description": "",
+          "length": "564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-2-sm.jpg",
+          "title": "Installing Wireshark",
+          "transcript": "",
+          "url": "installing-wireshark",
+          "vimeoId": "106821241"
+        },
+        {
+          "description": "",
+          "length": "640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-6-sm.jpg",
+          "title": "Installing on OS X",
+          "transcript": "",
+          "url": "installing-os",
+          "vimeoId": "106822748"
+        },
+        {
+          "description": "",
+          "length": "657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-3-sm.jpg",
+          "title": "Capturing Packets",
+          "transcript": "",
+          "url": "capturing-packets",
+          "vimeoId": "106821243"
+        },
+        {
+          "description": "",
+          "length": "789",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/Wireshark-4-sm.jpg",
+          "title": "User Interface",
+          "transcript": "",
+          "url": "user-interface",
+          "vimeoId": "106821244"
+        },
+        {
+          "description": "",
+          "length": "1055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-5-sm.jpg",
+          "title": "Capturing Data",
+          "transcript": "",
+          "url": "capturing-data",
+          "vimeoId": "106821247"
+        },
+        {
+          "description": "",
+          "length": "1535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-7-sm.jpg",
+          "title": "Filtering Packets",
+          "transcript": "",
+          "url": "filtering-packets",
+          "vimeoId": "106822750"
+        },
+        {
+          "description": "",
+          "length": "692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-8-sm.jpg",
+          "title": "Assembling a Conversation",
+          "transcript": "",
+          "url": "assembling-conversation",
+          "vimeoId": "106822749"
+        },
+        {
+          "description": "",
+          "length": "968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/wireshark/wireshark-9-sm.jpg",
+          "title": "Statistics and Reporting",
+          "transcript": "",
+          "url": "statistics-reporting",
+          "vimeoId": "106822751"
+        }
+      ],
+      "title": "Configure Wireshark"
+    }
+  ],
+  "url": "wireshark",
+  "vLab": false
+}

@@ -1,0 +1,106 @@
+{
+  "description": "In this series, Justin and John walk through the beginning of learning ReactJS. John focuses on the prerequisite knowledge such as features of the JavaScript language that you should be familiar with, usage of build tools such as Webpack to develop and produce builds, as well as the nuance features of React. Over the course of the series, John takes a simple, plain JavaScript application and shows how to construct that same application using React.",
+  "descriptionMD": "In this series, Justin and John walk through the beginning of learning ReactJS. John focuses on the prerequisite knowledge such as features of the JavaScript language that you should be familiar with, usage of build tools such as Webpack to develop and produce builds, as well as the nuance features of React. Over the course of the series, John takes a simple, plain JavaScript application and shows how to construct that same application using React.",
+  "length": "8308",
+  "name": "Intro to React",
+  "practiceExam": false,
+  "subtitle": "Core Fundamentals",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, Justin and John walk through the beginning of learning ReactJS. John focuses on the prerequisite knowledge such as features of the JavaScript language that you should be familiar with, usage of build tools such as Webpack to develop and produce builds, as well as the nuance features of React. Over the course of the series, John takes a simple, plain JavaScript application and shows how to construct that same application using React.",
+          "length": "89",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-0-0-overview-062117-PGM.00_00_05_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-0-0-overview-062117-PGM.00_00_05_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-0-0-overview-062117-PGM.00_00_05_15.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "url": "overview-react",
+          "vimeoId": "222838082"
+        },
+        {
+          "description": "In this episode, Justin and John discuss what React is and the problems that it helps solve for front-end web developers. John discusses the assumed knowledge before engaging on this journey. Additionally, he gives an overview of the tools and ecosystem that are going to be used in order to learn more about React.",
+          "length": "1054",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-1-1-the_first_leap-061917.00_17_26_16.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-1-1-the_first_leap-061917.00_17_26_16.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-1-1-the_first_leap-061917.00_17_26_16.Still002-sm.jpg",
+          "title": "The First Leap",
+          "transcript": "",
+          "url": "leap",
+          "vimeoId": "222513204"
+        },
+        {
+          "description": "In this episode, John and Justin explore some common build processes. John takes a little deeper at the build process provided by create-react-app.",
+          "length": "1589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-plunging_into_build-061917.00_26_17_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-plunging_into_build-061917.00_26_17_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-plunging_into_build-061917.00_26_17_20.Still001-sm.jpg",
+          "title": "Plunging into the Build",
+          "transcript": "",
+          "url": "plungingthe-build",
+          "vimeoId": "222681684"
+        },
+        {
+          "description": "In this episode, John and Justin finish exploring some of the build processes, specifically looking at images and css build portions.",
+          "length": "847",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-2-plunging_into_build_pt2-062017-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-2-plunging_into_build_pt2-062017-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-2-1-2-plunging_into_build_pt2-062017-high-sm.jpg",
+          "title": "Plunging into the Build Part 2",
+          "transcript": "",
+          "url": "plungingthe-build2",
+          "vimeoId": "222682256"
+        },
+        {
+          "description": "In this episode, John and Justin look into the new JavaScript language features that are available in ES2015. John talks specifically about the language features that are part of the React community's practices such as const and let, imports and exports, and destructuring.",
+          "length": "1240",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-3-1-taking_a_breath_of_es2015-062017-PGM.00_21_53_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-3-1-taking_a_breath_of_es2015-062017-PGM.00_21_53_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-3-1-taking_a_breath_of_es2015-062017-PGM.00_21_53_02.Still001-sm.jpg",
+          "title": "Taking a Breath of ES2015",
+          "transcript": "",
+          "url": "takingbreathes2015",
+          "vimeoId": "222682449"
+        },
+        {
+          "description": "In this episode, John and Justin dive into the boilerplate React code that is generated by create-react-app. John starts highlighting what we need to know about React in order to start building React applications.",
+          "length": "1196",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-4-1-diving_into_react-062017-PGM.00_20_45_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-4-1-diving_into_react-062017-PGM.00_20_45_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introtoreact-4-1-diving_into_react-062017-PGM.00_20_45_05.Still001-sm.jpg",
+          "title": "Diving into React",
+          "transcript": "",
+          "url": "divingreact",
+          "vimeoId": "222681973"
+        },
+        {
+          "description": "In this episode, John and Justin start building the counter application using React. Additionally, John explores the use of state in our counter component.",
+          "length": "1215",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-5-1-powering_up_with_state-062117-PGM.00_20_04_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-5-1-powering_up_with_state-062117-PGM.00_20_04_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-5-1-powering_up_with_state-062117-PGM.00_20_04_04.Still001-sm.jpg",
+          "title": "Powering Up with State",
+          "transcript": "",
+          "url": "poweringwith",
+          "vimeoId": "222838119"
+        },
+        {
+          "description": "In this episode, John and Justin explore the use of props to extract state management to a top level component then refactored the counter component to rely on the state management of that top level component to know how behave.",
+          "length": "1078",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-6-1-streamlining_with_properties-062117.00_17_47_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-6-1-streamlining_with_properties-062117.00_17_47_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtoreact/techskills-introreact-6-1-streamlining_with_properties-062117.00_17_47_10.Still001-sm.jpg",
+          "title": "Streamlining with Properties",
+          "transcript": "",
+          "url": "streamliningproperties",
+          "vimeoId": "222837857"
+        }
+      ],
+      "title": "Intro to React"
+    }
+  ],
+  "url": "introreact",
+  "vLab": false
+}

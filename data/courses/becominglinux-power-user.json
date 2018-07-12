@@ -1,0 +1,258 @@
+{
+  "description": "Becoming a Linux Power User is a technical skills course designed to elevate viewers to \"Power User\" status. Linux provides a very robust and powerful platform that enables users to achieve great things. Unfortunately, most users only scratch the surface of what Linux is capable of. This series explores some of the more powerful functions hidden away behind the graphical user interface. Topics cover using terminals and shells, managing processes and files, and writing simple shell scripts.",
+  "descriptionMD": "Becoming a Linux Power User is a technical skills course designed to elevate viewers to \"Power User\" status. Linux provides a very robust and powerful platform that enables users to acheive great things. Unfortunately, most users only scratch the surface of what Linux is capable of. This series explores some of the more powerful functions hidden away behind the graphical user interface. Topics cover using terminals and shells, managing processes and files, and writing simple shell scripts.",
+  "length": "31310",
+  "name": "Becoming a Linux Power User",
+  "practiceExam": false,
+  "subtitle": "Becoming a Linux Power User",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Becoming a Linux Power User is a technical skills course designed to elevate viewers to \"Power User\" status. Linux provides a very robust and powerful platform that enables users to acheive great things. Unfortunately, most users only scratch the surface of what Linux is capable of. This series explores some of the more powerful functions hidden away behind the graphical user interface. Topics cover using terminals and shells, managing processes and files, and writing simple shell scripts.",
+          "length": "260",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-0-0-overview-062317-PGM.00_00_05_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-0-0-overview-062317-PGM.00_00_05_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-0-0-overview-062317-PGM.00_00_05_22.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.181\n[MUSIC]\n\n2\n00:00:05.181 --> 00:00:06.526\nHello, thanks for watching.\n\n3\n00:00:06.526 --> 00:00:11.422\nBecoming a Linux power user is an exciting\ncourse we're offering here at ITPRO.TV,\n\n4\n00:00:11.422 --> 00:00:13.911\nand to tell us more\nabout that is Don Pezet.\n\n5\n00:00:13.911 --> 00:00:16.460\nHey, Don,\ntell us what is exactly the course?\n\n6\n00:00:16.460 --> 00:00:20.940\n&gt;&gt; This is a pretty neat course, because\nit is designed to get users introduced to\n\n7\n00:00:20.940 --> 00:00:23.160\nhow powerful an operating system Linux is.\n\n8\n00:00:23.160 --> 00:00:25.740\nA lot people hear about\nthe Linux Operating System and\n\n9\n00:00:25.740 --> 00:00:26.750\nthey wanna learn more.\n\n10\n00:00:26.750 --> 00:00:29.540\nThey go and they install it, they get\na nice little graphical user interface.\n\n11\n00:00:29.540 --> 00:00:32.450\nAnd they give you the basic things that\nthey're used to from other operating\n\n12\n00:00:32.450 --> 00:00:37.580\nsystems like Microsoft Windows and\nMAC OS and operating systems like that.\n\n13\n00:00:37.580 --> 00:00:39.580\nBut you hear about how powerful it can be.\n\n14\n00:00:39.580 --> 00:00:42.530\nAll this extra stuff, and\nyou don't immediately see it.\n\n15\n00:00:42.530 --> 00:00:43.230\nSo in this series,\n\n16\n00:00:43.230 --> 00:00:46.180\nwhat we're trying to do is pull back\nthe veil and give us a chance to look\n\n17\n00:00:46.180 --> 00:00:51.032\nat some of the really cool things you\ncan do behind the scenes, and it's hard.\n\n18\n00:00:51.032 --> 00:00:53.830\nIt's a challenging stuff, it's not stuff\nyou can just figure out on your own.\n\n19\n00:00:53.830 --> 00:00:56.880\nSo, getting a change to get\na guided tour through some\n\n20\n00:00:56.880 --> 00:00:59.560\nof the powerful back-end\nfeatures inside of Linux.\n\n21\n00:00:59.560 --> 00:01:02.170\nIs a really great thing to do,\nespecially if you're getting started.\n\n22\n00:01:02.170 --> 00:01:05.580\nAnd that's exactly what this episode,\nor this series, is all about.\n\n23\n00:01:05.580 --> 00:01:08.950\n&gt;&gt; Now, who would benefit most from\nwatching, becoming a Linux power user?\n\n24\n00:01:08.950 --> 00:01:12.180\n&gt;&gt; Well, mostly it's going to\nbenefit people who are new to Linux.\n\n25\n00:01:12.180 --> 00:01:13.880\nIf you've worked with Linux for\na long time,\n\n26\n00:01:13.880 --> 00:01:17.000\nif you've been using it in the field,\nyou may well already know these topics, so\n\n27\n00:01:17.000 --> 00:01:18.270\nit might be a little boring to you.\n\n28\n00:01:18.270 --> 00:01:22.060\nBut if you're just getting started it\nis really daunting, really challenging.\n\n29\n00:01:22.060 --> 00:01:25.010\nAnd instead of getting intimidated and\njust going back to Windows or going back\n\n30\n00:01:25.010 --> 00:01:28.770\nto Mac OS, here is the chance for you to\ntake that time to learn the features,\n\n31\n00:01:28.770 --> 00:01:30.940\nget used to it, understand how it works.\n\n32\n00:01:30.940 --> 00:01:34.510\nSo if you're just getting started\nwith Linux, if you are a desktop\n\n33\n00:01:34.510 --> 00:01:37.980\nsupport engineer, if you are a systems\nadministrator, that you're gonna\n\n34\n00:01:37.980 --> 00:01:41.340\nbe managing the Linux Operating System,\nthis is good knowledge to learn.\n\n35\n00:01:41.340 --> 00:01:45.290\nAnd what we're gonna see in this series\npertains to servers as well as work\n\n36\n00:01:45.290 --> 00:01:47.820\nstations, so\nif you're working in either environment,\n\n37\n00:01:47.820 --> 00:01:49.290\nyou'll benefit from this series as well.\n\n38\n00:01:49.290 --> 00:01:51.900\nSo, it really does cover\na good group of people.\n\n39\n00:01:51.900 --> 00:01:54.840\n&gt;&gt; Now, is there a certification\navailable for this course?\n\n40\n00:01:54.840 --> 00:01:58.000\n&gt;&gt; There are a lot of really good Linux\ncertifications that are out there,\n\n41\n00:01:58.000 --> 00:02:00.950\nmany of which cover some of the topics\nwe're gonna cover in this series.\n\n42\n00:02:00.950 --> 00:02:03.150\nBut this series isn't really\nbuilt around a search.\n\n43\n00:02:03.150 --> 00:02:06.930\nSo there's no exam based on this content,\nfor what we're creating here.\n\n44\n00:02:06.930 --> 00:02:10.230\nThis is really focused, not to get you\na certification to get you a job, but\n\n45\n00:02:10.230 --> 00:02:14.950\nto get you comfortable with Linux and\nbecoming that power user.\n\n46\n00:02:14.950 --> 00:02:17.360\nSo we tackle exactly what\nwe think is pertinent and\n\n47\n00:02:17.360 --> 00:02:20.290\nrelevant to a power user\nto get you to that point.\n\n48\n00:02:20.290 --> 00:02:23.180\nOn one hand, it's really nice because\nthat means we're not saddled by\n\n49\n00:02:23.180 --> 00:02:24.470\na list of objectives we have to follow.\n\n50\n00:02:24.470 --> 00:02:26.710\nWe get to hand pick what\nwe think is important.\n\n51\n00:02:26.710 --> 00:02:29.410\nOn the other hand, it's a little more\ndifficult to kind of show on the resume.\n\n52\n00:02:29.410 --> 00:02:32.660\nSo what a lot of people do is watch\na series like this to get started.\n\n53\n00:02:32.660 --> 00:02:35.583\nAnd then move on to do things\nlike CompTIA's Linux+ or\n\n54\n00:02:35.583 --> 00:02:37.650\nthe LPIC-1 certification.\n\n55\n00:02:37.650 --> 00:02:40.680\nThose certifications cover a lot of\nthe topics that we're gonna see here\n\n56\n00:02:40.680 --> 00:02:41.500\nin this series.\n\n57\n00:02:41.500 --> 00:02:44.140\nBut they're not mirrored up exactly,\nso these here won't get you ready for\n\n58\n00:02:44.140 --> 00:02:45.070\nthose exams.\n\n59\n00:02:45.070 --> 00:02:47.930\n&gt;&gt; So what are some of the topics\ncovered in becoming a Linux power user?\n\n60\n00:02:47.930 --> 00:02:49.530\n&gt;&gt; All right, we've got quite a few and\n\n61\n00:02:49.530 --> 00:02:53.510\nthe very first topic's probably the most\nimportant one, which is using the shell.\n\n62\n00:02:53.510 --> 00:02:55.320\nWhen you first launch a Linux desktop,\n\n63\n00:02:55.320 --> 00:02:57.570\nyou're gonna see\na graphical user interface.\n\n64\n00:02:57.570 --> 00:03:00.000\nAnd a graphical user interface is\nsomething you can stumble through and\n\n65\n00:03:00.000 --> 00:03:00.660\nfigure out on your own.\n\n66\n00:03:00.660 --> 00:03:02.800\nYou just click around until\nyou find what you want.\n\n67\n00:03:02.800 --> 00:03:06.290\nBut the shell, when you drop to\nthe command line there is so\n\n68\n00:03:06.290 --> 00:03:08.890\nmuch more you can do,\nbut it's so much harder.\n\n69\n00:03:08.890 --> 00:03:10.640\nAnd you can't just stumble around and\nfigure it out.\n\n70\n00:03:10.640 --> 00:03:11.820\nSo we're gonna learn how to use the shell.\n\n71\n00:03:11.820 --> 00:03:14.460\nWe're gonna learn how to\nnavigate the Unix and\n\n72\n00:03:14.460 --> 00:03:18.090\nLinux file system, which is very\ndifferent than the Windows file system.\n\n73\n00:03:18.090 --> 00:03:20.920\nWe'll talk about how to work\nwith text files, because almost\n\n74\n00:03:20.920 --> 00:03:24.790\nall of the Linux Operating System\nconfigurations are stored in text files.\n\n75\n00:03:24.790 --> 00:03:27.525\nWe need to know how to manipulate those,\nand edit, change them.\n\n76\n00:03:27.525 --> 00:03:29.710\nThen we're gonna take a look\nto how to manage processes,\n\n77\n00:03:29.710 --> 00:03:32.860\nhow to run applications,\nhow to make them perform better,\n\n78\n00:03:32.860 --> 00:03:36.610\nhow to stop them if they're not performing\nright and manipulate how they work.\n\n79\n00:03:36.610 --> 00:03:39.023\nAnd lastly, we're gonna learn how\nto write simple shell script.\n\n80\n00:03:39.023 --> 00:03:43.232\nShell scripting is really where a lot of\nthe power of the Linux Operating System\n\n81\n00:03:43.232 --> 00:03:43.944\ncomes from.\n\n82\n00:03:43.944 --> 00:03:48.530\nThe Linux OS was designed by\ndevelopers for developers.\n\n83\n00:03:48.530 --> 00:03:52.080\nAnd it's evolved a lot since then, so\nthat now it's good for everybody to use.\n\n84\n00:03:52.080 --> 00:03:55.560\nBut if we know how to do a little bit of\ndevelopment, we could take advantage of\n\n85\n00:03:55.560 --> 00:03:59.170\nthat and really streamline our\nworkflow by using shell scripts.\n\n86\n00:03:59.170 --> 00:04:01.220\nSo that's what we'll take a look\nat at the end of the series.\n\n87\n00:04:01.220 --> 00:04:02.260\n&gt;&gt; Well, thanks, Don.\n\n88\n00:04:02.260 --> 00:04:05.040\nNow, if this sounds like something that\nyou'd be interested in, and it should,\n\n89\n00:04:05.040 --> 00:04:09.220\nyou should check out all the episodes in\nthe Becoming a Linux Power User series.\n\n90\n00:04:09.220 --> 00:04:15.384\nThanks for watching.\n[MUSIC]\n\n",
+          "url": "overview-linux-power-user",
+          "vimeoId": "223181905"
+        },
+        {
+          "description": "In this episode, Don and Mike discuss terminals in a Linux environment. They look at X-Term, GNOME, Terminator, and Guake. They explain the difference between preferences and profiles, and demonstrate configuring various aspects of a terminal.",
+          "length": "1556",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-1-terminals_and_shells-061417-PGM.00_25_40_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-1-terminals_and_shells-061417-PGM.00_25_40_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-1-terminals_and_shells-061417-PGM.00_25_40_13.Still001-sm.jpg",
+          "title": "Terminals and Shells",
+          "transcript": "",
+          "url": "terminalsshells",
+          "vimeoId": "221901337"
+        },
+        {
+          "description": "In this episode, Don and Mike discuss what shells are in a Linux environment. They cover the various shells that are available, and how to determine if a particular shell is installed. They also demonstrate how to change the default shell for an individual user.",
+          "length": "1114",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-2-terminals_and_shells_pt2-061417-PGM.00_18_18_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-2-terminals_and_shells_pt2-061417-PGM.00_18_18_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-1-2-terminals_and_shells_pt2-061417-PGM.00_18_18_04.Still001-sm.jpg",
+          "title": "Terminals and Shells Part 2",
+          "transcript": "",
+          "url": "terminalsshells2",
+          "vimeoId": "221901598"
+        },
+        {
+          "description": "In this episode, Don and Mike demonstrate executing basic commands. They start with simple commands like date and hostname. Then they look at using commands that take options, like ls and cat. They finish by demonstrating how to use history to execute a previously used command.",
+          "length": "2008",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-1-executing_commands-061417-PGM.00_33_12_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-1-executing_commands-061417-PGM.00_33_12_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-1-executing_commands-061417-PGM.00_33_12_01.Still001-sm.jpg",
+          "title": "Executing Commands",
+          "transcript": "",
+          "url": "executing-commands",
+          "vimeoId": "221901761"
+        },
+        {
+          "description": "In this episode, Don and Mike continue to look at executing commands. They demonstrate using the tab autocomplete feature, piping commands, sequential commands, and expanding commands. They finish by demonstrating creating and using shell variables.",
+          "length": "1830",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-2-executing_commands_pt2-061517-PGM.00_30_14_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-2-executing_commands_pt2-061517-PGM.00_30_14_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-2-executing_commands_pt2-061517-PGM.00_30_14_29.Still001-sm.jpg",
+          "title": "Executing Commands Part 2",
+          "transcript": "",
+          "url": "executing-commands2",
+          "vimeoId": "222354155"
+        },
+        {
+          "description": "In this episode, Don and Mike explain how to create aliases for commands. They demonstrate creating temporary aliases as well as how to make them permanent by modifying configuration files. Then they look at how to modify what information is displayed at the prompt.",
+          "length": "1564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-3-executing_commands_pt3-061517-PGM.00_25_47_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-3-executing_commands_pt3-061517-PGM.00_25_47_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-2-3-executing_commands_pt3-061517-PGM.00_25_47_29.Still001-sm.jpg",
+          "title": "Executing Commands Part 3",
+          "transcript": "",
+          "url": "executing-commands3",
+          "vimeoId": "222188803"
+        },
+        {
+          "description": "In this episode, Don and Mike show how to find help with commands. They demonstrate using the -h and --help options available with most commands. They also look at how to use the man pages to get more detailed help on a command.",
+          "length": "1360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-3-getting_help-061517-PGM.00_22_24_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-3-getting_help-061517-PGM.00_22_24_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-1-3-getting_help-061517-PGM.00_22_24_01.Still001-sm.jpg",
+          "title": "Getting Help",
+          "transcript": "",
+          "url": "getting-help",
+          "vimeoId": "222188655"
+        }
+      ],
+      "title": "Using the Shell"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don and Mike take a look at the Linux filesystem hierarchy. They look at the key folders and explain there purpose.",
+          "length": "1930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-1-filesystem_hierarchy-061617-PGM.00_31_55_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-1-filesystem_hierarchy-061617-PGM.00_31_55_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-1-filesystem_hierarchy-061617-PGM.00_31_55_07.Still001-sm.jpg",
+          "title": "Filesystem Hierarchy",
+          "transcript": "",
+          "url": "filesystem-hierarchy",
+          "vimeoId": "222511152"
+        },
+        {
+          "description": "In this episode, Don and Mike begin their look at Linux filesystem commands. They demonstrate commands used to create and work with files. They also look at aliases and metacharacters.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-filesystem_commands-061617-PGM.00_27_42_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-filesystem_commands-061617-PGM.00_27_42_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-filesystem_commands-061617-PGM.00_27_42_13.Still001-sm.jpg",
+          "title": "Filesytem Commands",
+          "transcript": "",
+          "url": "filesytem-commands",
+          "vimeoId": "222511469"
+        },
+        {
+          "description": "Don and Zach discuss where to send re-directed output, creating a file, how to add data on an existing file, expansion, and creating a numerical range-useful for working with multiple files.",
+          "length": "1383",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-2-filesystem_commands_pt2-061917-PGM.00_22_47_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-2-filesystem_commands_pt2-061917-PGM.00_22_47_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-2-2-filesystem_commands_pt2-061917-PGM.00_22_47_00.Still001-sm.jpg",
+          "title": "Filesystem Commands Part 2",
+          "transcript": "",
+          "url": "filesystem-commands2",
+          "vimeoId": "222511710"
+        },
+        {
+          "description": "Don and Zach cover assigning and removing permissions, what U.G.O. is, Symbolic Notation, Numeric Notation, where permissions come from, where default permissions come from, what '755' stands for, 'umask,' and how to change user/groups/owner.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-3-filesystem_permissions-061917-PGM.00_30_47_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-3-filesystem_permissions-061917-PGM.00_30_47_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-3-filesystem_permissions-061917-PGM.00_30_47_26.Still001-sm.jpg",
+          "title": "Filesystem Permissions",
+          "transcript": "",
+          "url": "filesystem-permissions",
+          "vimeoId": "222511902"
+        },
+        {
+          "description": "Don and Zach discuss how to move files to different locations & folders, using the 'cp' command, using the 'mv' command, and using the 'rm' command to totally remove files.",
+          "length": "1314",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-4-moving_files-061917-PGM.00_21_39_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-4-moving_files-061917-PGM.00_21_39_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-2-4-moving_files-061917-PGM.00_21_39_19.Still001-sm.jpg",
+          "title": "Moving Files",
+          "transcript": "",
+          "url": "moving-files",
+          "vimeoId": "222512120"
+        }
+      ],
+      "title": "Moving around the Filesystem"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss different pronunciations of 'Vi,' what Vi is, other editing tools nano-jed-mcedit-emacs, Vi is now called 'Vim,' why choose to use Vi (Vim), and how powerful & useful Vi is when you learn the language.",
+          "length": "1528",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-1-editing_files_with_vi-062017-PGM.00_29_33_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-1-editing_files_with_vi-062017-PGM.00_29_33_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-1-editing_files_with_vi-062017-PGM.00_29_33_06.Still001-sm.jpg",
+          "title": "Editing Files with Vi",
+          "transcript": "",
+          "url": "editing-filesvi",
+          "vimeoId": "222512302"
+        },
+        {
+          "description": "Don and Zach cover how to copy & paste (Yank-Put), moving without using arrow keys (h-l-k-j), ranges, and different searches & how to execute them.",
+          "length": "1572",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-2-editing_files_with_vi_pt2-062017-PGM.00_25_56_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-2-editing_files_with_vi_pt2-062017-PGM.00_25_56_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-1-2-editing_files_with_vi_pt2-062017-PGM.00_25_56_06.Still001-sm.jpg",
+          "title": "Editing Files with Vi Part 2",
+          "transcript": "",
+          "url": "editing-filesvi2",
+          "vimeoId": "222512587"
+        },
+        {
+          "description": "Don and Zach discuss options for finding files on a hard drive, cover various commands such as 'which-whereis-type-locate & find' command, searching by filename, searching by permission mode, search by file size, search by group, search by user ID, restricting search depth, other options, and grep command.",
+          "length": "1628",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-2-finding_files-062017-PGM.00_26_52_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-2-finding_files-062017-PGM.00_26_52_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-3-2-finding_files-062017-PGM.00_26_52_27.Still001-sm.jpg",
+          "title": "Finding Files",
+          "transcript": "",
+          "url": "finding-files",
+          "vimeoId": "222512898"
+        }
+      ],
+      "title": "Working with Text Files"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what a ‘Process’ is, what is meant by managing the processes, monitoring processes, using UNIX-BSD-GNU, monitoring processes in real time, what ‘Top’ is, running ‘Jobs,’ how to kill a process, changing a process priority, sorting by CPU usage, sorting by MEM usage, and a primer to what ‘Foreground’ & ‘Background’ processes are.",
+          "length": "1564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-1-managing_processes-062117-PGM.00_28_48_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-1-managing_processes-062117-PGM.00_28_48_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-1-managing_processes-062117-PGM.00_28_48_25.Still001-sm.jpg",
+          "title": "Managing Processes",
+          "transcript": "",
+          "url": "managing-processes-poweruser",
+          "vimeoId": "222679811"
+        },
+        {
+          "description": "Don and Zach cover more about Foreground & Background processes, different commands such as ‘fg’-‘nano’-‘ctrl+z’-’bg’-plus adding an ‘&’ to a command, do paused processes use resources, what ‘nice’ & ‘renice’ are, and various killing processes.",
+          "length": "1412",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-2-managing_processes_pt2-062117-PGM.00_24_01_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-2-managing_processes_pt2-062117-PGM.00_24_01_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-4-1-2-managing_processes_pt2-062117-PGM.00_24_01_22.Still001-sm.jpg",
+          "title": "Managing Processes Part 2",
+          "transcript": "",
+          "url": "managing-processes2",
+          "vimeoId": "222680142"
+        }
+      ],
+      "title": "Managing Running Processes"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what exactly a ‘Script’ is, if a script is a program, executing a script, demonstrations of creating scripts, what ‘Variables’ are, variable examples, do scripts do the same thing every time, will a script ever ask the user for information, and can we do math inside a script.",
+          "length": "2252",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-1-executing_scripts-062117-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-1-executing_scripts-062117-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-1-executing_scripts-062117-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "Executing Scripts",
+          "transcript": "",
+          "url": "executing-scripts",
+          "vimeoId": "222680497"
+        },
+        {
+          "description": "Don and Zach discuss what a ‘Construct’ is, give examples of what ‘Logic’ & how a construct works, modify scripts to include ‘Arguments,’ explain the ‘If’ construct, show more examples of what ‘If’ can do, perform ‘Tests,’ and examine other constructs that are useful.",
+          "length": "1652",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-1-programming_contructs-062217-PGM.00_27_15_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-1-programming_contructs-062217-PGM.00_27_15_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-1-programming_contructs-062217-PGM.00_27_15_22.Still001-sm.jpg",
+          "title": "Programming Constructs",
+          "transcript": "",
+          "url": "programming-constructs",
+          "vimeoId": "222836339"
+        },
+        {
+          "description": "Don and Zach continue the discussion of alternate constructs, explain what ‘case’ is, cover what a ‘Loop’ is, show how a simple loop can be used to perform certain activities more than once, look at alternate or more complex loops, and conclude with how ‘While-Do-& Until Do’ function.",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-2-programming_contructs_pt2-062217-PGM.00_32_40_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-2-programming_contructs_pt2-062217-PGM.00_32_40_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxpoweruser/techskills-linuxpoweruser-5-2-2-programming_contructs_pt2-062217-PGM.00_32_40_01.Still001-sm.jpg",
+          "title": "Programming Constructs Part 2",
+          "transcript": "",
+          "url": "programming-constructs2",
+          "vimeoId": "222836674"
+        }
+      ],
+      "title": "Writing Simple Shell Scripts"
+    }
+  ],
+  "url": "becominglinux-power-user",
+  "vLab": false
+}

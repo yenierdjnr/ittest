@@ -1,0 +1,172 @@
+{
+  "description": "In this series, we cover the basics of using NumPy for basic data analysis. Some of the things that are covered are as follows: installing NumPy using the Anaconda Python distribution, creating NumPy arrays in a variety of ways, gathering information about large datasets such as the mean, median and standard deviation, as well as utilizing Jupyter Notebooks for exploration using NumPy. If you are looking to get started with NumPy then join us!",
+  "descriptionMD": "In this series, we cover the basics of using NumPy for basic data analysis. Some of the things that are covered are as follows: installing NumPy using the Anaconda Python distribution, creating NumPy arrays in a variety of ways, gathering information about large datasets such as the mean, median and standard deviation, as well as utilizing Jupyter Notebooks for exploration using NumPy. If you are looking to get started with NumPy then join us!",
+  "length": "17527",
+  "name": "Intro to NumPy",
+  "practiceExam": false,
+  "subtitle": "Fast Numbers with Python Ease",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, we cover the basics of using NumPy for basic data analysis. Some of the things that are covered are as follows: installing NumPy using the Anaconda Python distribution, creating NumPy arrays in a variety of ways, gathering information about large datasets such as the mean, median and standard deviation, as well as utilizing Jupyter Notebooks for exploration using NumPy. If you are looking to get started with NumPy then join us!",
+          "length": "85",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-0-0-overview-042817-PGM.00_00_03_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-0-0-overview-042817-PGM.00_00_03_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-0-0-overview-042817-PGM.00_00_03_04.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "url": "overview-numpy",
+          "vimeoId": "215994207"
+        },
+        {
+          "description": "In this show, Cherokee and Justin review Python basics and and explain how it relates to NumPy and the Scientific community. They also take a look at a useful tool called Jupyter. Justin demonstrates how to install NumPy and verify the program is functioning properly.",
+          "length": "989",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-1-1-scienfific_python_and_setup-042416-PGM.00_16_14_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-1-1-scienfific_python_and_setup-042416-PGM.00_16_14_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-1-1-scienfific_python_and_setup-042416-PGM.00_16_14_02.Still001-sm.jpg",
+          "title": "Scientific Python and Setup",
+          "transcript": "",
+          "url": "scientific-pythonsetup",
+          "vimeoId": "214849443"
+        },
+        {
+          "description": "In this show, Cherokee and Justin review some NumPy concepts and delve into using Jupyter. Justin explains what we need to know before we get started by providing insightful tips and tricks. He also demonstrates how to manipulate lists us Jupyter.",
+          "length": "1767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-2-1-review_of_basics_jupyter-042417-PGM.00_29_12_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-2-1-review_of_basics_jupyter-042417-PGM.00_29_12_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-2-1-review_of_basics_jupyter-042417-PGM.00_29_12_18.Still001-sm.jpg",
+          "title": "Review of Python Basics with Jupyter",
+          "transcript": "",
+          "url": "reviewpython-basicsjupyter",
+          "vimeoId": "214850345"
+        },
+        {
+          "description": null,
+          "length": "1829",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-3-1-introducing_numpy_arrays-042417-PGM.00_30_13_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-3-1-introducing_numpy_arrays-042417-PGM.00_30_13_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-3-1-introducing_numpy_arrays-042417-PGM.00_30_13_12.Still001-sm.jpg",
+          "title": "Introducing NumPy Arrays",
+          "transcript": "",
+          "url": "introducing-numpy-arrays",
+          "vimeoId": "214851919"
+        },
+        {
+          "description": "In this episode, Peter and Justin dig into arrays and data types within NumPy. They will talk about what data types are available and how to construct arrays using that data, as well as the special considerations needed when working with those data types in NumPy.",
+          "length": "1510",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-4-1-numpy_array_and_datatypes-042617-PGM.00_24_55_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-4-1-numpy_array_and_datatypes-042617-PGM.00_24_55_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-4-1-numpy_array_and_datatypes-042617-PGM.00_24_55_26.Still001-sm.jpg",
+          "title": "NumPy Array and Data Types",
+          "transcript": "",
+          "url": "numpy-arraydatatypes",
+          "vimeoId": "215201069"
+        },
+        {
+          "description": "Numpy lets you view your data graphically as well as in its raw format. Justin and Peter show you how to use tools like matplotlib to see the relationships between arrays and provide examples of when this functionality might be useful for you.",
+          "length": "1355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-5-1-graphing_and_visualiation-042517-PGM.00_22_20_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-5-1-graphing_and_visualiation-042517-PGM.00_22_20_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-5-1-graphing_and_visualiation-042517-PGM.00_22_20_27.Still001-sm.jpg",
+          "title": "Graphing and Visualization",
+          "transcript": "",
+          "url": "graphingvisualization",
+          "vimeoId": "215201297"
+        },
+        {
+          "description": "Indexing and slicing arrays in NumPy can be a very powerful tool in your arsenal. In this episode, Justin and Peter show how to index and slice arrays, including multidimensional arrays, and search or slice for specific conditions. They also cover potential drawbacks and concerns to using these tools.",
+          "length": "1138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-6-1-indexing_and_slicing-arrays-042517-PGM.00_18_43_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-6-1-indexing_and_slicing-arrays-042517-PGM.00_18_43_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-6-1-indexing_and_slicing-arrays-042517-PGM.00_18_43_14.Still001-sm.jpg",
+          "title": "Indexing and Slicing Arrays",
+          "transcript": "",
+          "url": "indexingslicing-arrays",
+          "vimeoId": "215201511"
+        },
+        {
+          "description": "Views and copies are similar, but each has its own unique benefits and limitations. Justin and Peter show how NumPy handles multiple variables referencing the same underlying data and how to reconcile any issues that may cause.",
+          "length": "1207",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-7-1-copies_and_views-042617-PGM.00_19_52_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-7-1-copies_and_views-042617-PGM.00_19_52_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-7-1-copies_and_views-042617-PGM.00_19_52_28.Still001-sm.jpg",
+          "title": "Copies and Views",
+          "transcript": "",
+          "url": "copiesviews",
+          "vimeoId": "215009580"
+        },
+        {
+          "description": "In this episode, Peter and Justin dive deeper into working with arrays to see what happens when you add two together. They will also cover working with scalar and multiple arrays of different sizes.",
+          "length": "1248",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-8-1-elementwise_and_broadcasting_operations-042617-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-8-1-elementwise_and_broadcasting_operations-042617-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-8-1-elementwise_and_broadcasting_operations-042617-high-sm.jpg",
+          "title": "Elementwise and Broadcasting Operations",
+          "transcript": "",
+          "url": "elementwisebroadcasting-operations",
+          "vimeoId": "215201679"
+        },
+        {
+          "description": "Arrays can get unruly, so Justin and Peter use this episode to highlight some of the ways to reduce their complexity, including multidimensional arrays. Justin also shows off some shortcuts to help reduce some of the more cumbersome repetitive commands required.",
+          "length": "1177",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-9-1-reduction_operations-042617-PGM.00_19_22_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-9-1-reduction_operations-042617-PGM.00_19_22_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-9-1-reduction_operations-042617-PGM.00_19_22_27.Still001-sm.jpg",
+          "title": "Reduction Operations",
+          "transcript": "",
+          "url": "reduction-operations",
+          "vimeoId": "215201833"
+        },
+        {
+          "description": "NumPy lets you easily reshape or restructure arrays. In this episode, Justin and Peter review how to carry out those operations and discuss the limitations when using the transpose functionality in NumPy.",
+          "length": "1724",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-10-1-shape_and_sort_operations-042717-PGM.00_34_40_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-10-1-shape_and_sort_operations-042717-PGM.00_34_40_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-10-1-shape_and_sort_operations-042717-PGM.00_34_40_19.Still001-sm.jpg",
+          "title": "Shape and Sort Operations",
+          "transcript": "",
+          "url": "shapesort-operations",
+          "vimeoId": "215993760"
+        },
+        {
+          "description": "In this episode, Justin and Peter look back at data types to determine if there are times when operating through broadcast or operations that an array's data type will remain unchanged. They also show when it would be helpful to create your own custom data types.",
+          "length": "1092",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-11-1-data_types_casting_size_and_structure-042717-PGM.00_17_58_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-11-1-data_types_casting_size_and_structure-042717-PGM.00_17_58_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-11-1-data_types_casting_size_and_structure-042717-PGM.00_17_58_07.Still001-sm.jpg",
+          "title": "Data Types: Casting, Size, and Structure",
+          "transcript": "",
+          "url": "data-types-casting-sizestructure",
+          "vimeoId": "215993961"
+        },
+        {
+          "description": "In this episode, Justin and Peter will explain what structured arrays are and why you want them in your project. They'll also review the upsides beyond the obvious organizational ones, as well as any potential downsides to using structured arrays.",
+          "length": "1032",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-12-1-structured_arrays-042717.00_16_59_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-12-1-structured_arrays-042717.00_16_59_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-12-1-structured_arrays-042717.00_16_59_23.Still001-sm.jpg",
+          "title": "Structured Arrays",
+          "transcript": "",
+          "url": "structured-arrays",
+          "vimeoId": "215653529"
+        },
+        {
+          "description": "In this show, Cherokee and Justin build on previous topics covered in this series. They take a look at a possible use case of data analysis, linspace functions, and fig and ax variables. Tune in now to watch Justin demonstrate these skills to perform analysis and more.",
+          "length": "1374",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-13-1-lets_try_it_time_series_analysis-042817-PGM.00_22_38_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-13-1-lets_try_it_time_series_analysis-042817-PGM.00_22_38_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtonumpy/techskills-introtonumpy-13-1-lets_try_it_time_series_analysis-042817-PGM.00_22_38_14.Still001-sm.jpg",
+          "title": "Let's Try It: Image Manipulation",
+          "transcript": "",
+          "url": "lets-try-it-image-manipulation",
+          "vimeoId": "215994111"
+        }
+      ],
+      "title": "NumPy"
+    }
+  ],
+  "url": "numpy",
+  "vLab": false
+}

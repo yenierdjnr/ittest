@@ -1,0 +1,406 @@
+{
+  "description": "This series covers implementing and managing Red Hat Enterprise Linux (RHEL) v7.  RHEL v7 is the leading commercial Linux server software used by corporations around the world.  Topics covered by this series include installation, configuration, troubleshooting, and backup and recovery.  The goal of this series is to prepare any systems administrator to be able to support RHEL v7 in a production environment.",
+  "descriptionMD": "",
+  "length": "59624",
+  "name": "Red Hat Enterprise Linux",
+  "practiceExam": false,
+  "subtitle": "World's leading enterprise Linux platform",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This series covers implementing and managing Red Hat Enterprise Linux (RHEL) v7. RHEL v7 is the leading commercial Linux server software used by corporations around the world. Topics covered by this series include installation, configuration, troubleshooting, and backup and recovery. The goal of this series is to prepare any systems administrator to be able to support RHEL v7 in a production environment.",
+          "length": "239",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-0-0-overview-120516-PGM.00_00_03_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-0-0-overview-120516-PGM.00_00_03_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-0-0-overview-120516-PGM.00_00_03_09.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:01.937\n[SOUND] In this series,\n\n2\n00:00:01.937 --> 00:00:07.786\nwe're gonna be taking a look at\nRed Hat Enterprise Linux version 7.\n\n3\n00:00:07.786 --> 00:00:09.660\nNow most of you have\nalready heard of the OS.\n\n4\n00:00:09.660 --> 00:00:12.255\nIt's why you're here, but\nfor those who haven't,\n\n5\n00:00:12.255 --> 00:00:15.320\nRHEL is the largest commercially\nsupported version of Linux.\n\n6\n00:00:15.320 --> 00:00:18.250\nAnd what that means is,\nyou can go and you can pay for it,\n\n7\n00:00:18.250 --> 00:00:19.910\nwhich I know sounds contradictory for\nLinux,\n\n8\n00:00:19.910 --> 00:00:22.160\nthat normally we get it for\nfree from the various providers.\n\n9\n00:00:22.160 --> 00:00:26.110\nBut we can pay for it, and in exchange for\nthat payment, we get support.\n\n10\n00:00:26.110 --> 00:00:29.830\nWe get an actual corporate entity\nsitting behind the distribution that's\n\n11\n00:00:29.830 --> 00:00:32.270\navailable to assist us\nwhen we have problems.\n\n12\n00:00:32.270 --> 00:00:35.734\nAnd that's really something that's\nextremely important if you're using\n\n13\n00:00:35.734 --> 00:00:37.420\nLinux in a production environment.\n\n14\n00:00:37.420 --> 00:00:39.560\nAnd let me tell you, a lot of people are.\n\n15\n00:00:39.560 --> 00:00:40.793\nWhen you go out on the Internet,\n\n16\n00:00:40.793 --> 00:00:43.776\nthe majority of web servers you hit\nthese days are Linux-based web servers.\n\n17\n00:00:43.776 --> 00:00:46.890\nFortune 500 companies rely\non it every single day.\n\n18\n00:00:46.890 --> 00:00:51.137\nAll of the big Tech startups that are out\nthere using on a regular basis, and\n\n19\n00:00:51.137 --> 00:00:53.169\nRed Hat is at the forefront of that.\n\n20\n00:00:53.169 --> 00:00:55.228\nNow, because there's a pay element to it,\n\n21\n00:00:55.228 --> 00:00:57.588\na lot of people don't have\na lot of exposure to it.\n\n22\n00:00:57.588 --> 00:00:59.357\nBut you'd actually be surprised.\n\n23\n00:00:59.357 --> 00:01:02.481\nMany of the free Linux\ndistributions that are out there,\n\n24\n00:01:02.481 --> 00:01:04.890\nare based on the work that Red Hat does.\n\n25\n00:01:04.890 --> 00:01:07.010\nSo if you've run CENTOS,\n\n26\n00:01:07.010 --> 00:01:10.780\nwhich is the Community Enterprise\nOperating System, it is actually build\n\n27\n00:01:10.780 --> 00:01:15.460\nright off of the public open Source\ncode from Red Hat Enterprise Linux.\n\n28\n00:01:15.460 --> 00:01:16.990\nOracle Linux, same thing.\n\n29\n00:01:16.990 --> 00:01:21.900\nBuilt right off of Red Hat's code base,\nand even Amazon's Linux AMI that they\n\n30\n00:01:21.900 --> 00:01:25.170\nuse on Amazon web services that is used\nby millions of virtual machines around\n\n31\n00:01:25.170 --> 00:01:29.200\nthe world also built off of\nRed Hat's open source code base.\n\n32\n00:01:29.200 --> 00:01:31.370\nSo the work that Red Hat\ndoes to improve and\n\n33\n00:01:31.370 --> 00:01:35.140\nsecure their product, gets out there and\nimproves other platforms too.\n\n34\n00:01:35.140 --> 00:01:38.980\nSo if you've worked with CENTOS,\nor the Linux AMI from Amazon, or\n\n35\n00:01:38.980 --> 00:01:42.430\nOracle Linux you've actually already\nworked with Red Hat, and your skillset\n\n36\n00:01:42.430 --> 00:01:46.210\nmoves right into it, and everything's nice\nand the same, and that works out great.\n\n37\n00:01:46.210 --> 00:01:50.240\nBut in addition if something goes\nwrong You can pick up the phone,\n\n38\n00:01:50.240 --> 00:01:51.860\nopen up a support ticket with Red Hat, and\n\n39\n00:01:51.860 --> 00:01:53.710\ntheir engineers will help\nyou through the problems.\n\n40\n00:01:53.710 --> 00:01:56.530\nThat's what makes it\nsuch a robust platform.\n\n41\n00:01:56.530 --> 00:01:59.080\nNow, in this video series, what we're\ngonna do is we're gonna take a look\n\n42\n00:01:59.080 --> 00:02:02.790\nnot just at what Red Hat Enterprise Linux\nis, but how we can use it.\n\n43\n00:02:02.790 --> 00:02:05.450\nAnd we're gonna run through some of\nthe different configuration schemes and\n\n44\n00:02:05.450 --> 00:02:08.800\nsettings, the way that we configure\nthe system and get it online, and\n\n45\n00:02:08.800 --> 00:02:11.920\nmake it where you can get out there\nin a production environment and\n\n46\n00:02:11.920 --> 00:02:13.240\nuse it to its fullest.\n\n47\n00:02:13.240 --> 00:02:16.315\nWe start by taking a look at how to\ninstall Red Hat Enterprise Linux.\n\n48\n00:02:16.315 --> 00:02:18.770\nEither doing it manually or\ndoing it automated.\n\n49\n00:02:18.770 --> 00:02:21.340\nIf you need to roll out to a thousand\nmachines, you don't want to go and\n\n50\n00:02:21.340 --> 00:02:22.310\ndo this by hand.\n\n51\n00:02:22.310 --> 00:02:24.190\nWe'll show you how to create\na custom installer and\n\n52\n00:02:24.190 --> 00:02:25.960\nactually get that installation going.\n\n53\n00:02:25.960 --> 00:02:28.600\nWe'll show how to use\nthe security features inside of\n\n54\n00:02:28.600 --> 00:02:29.750\nRed Hat Enterprise Linux.\n\n55\n00:02:29.750 --> 00:02:31.940\nThere's SE Linux and Firewalld.\n\n56\n00:02:31.940 --> 00:02:35.350\nThere's all sorts of additional\nsecurity sublayers that are in there.\n\n57\n00:02:35.350 --> 00:02:37.460\nAnd we show how they work,\nhow you configure them,\n\n58\n00:02:37.460 --> 00:02:41.560\nand how you can maintain them to maintain\nthe most secure operating system possible.\n\n59\n00:02:41.560 --> 00:02:45.480\nWe also spend a good bit of time looking\nat file systems, choosing the right file\n\n60\n00:02:45.480 --> 00:02:48.950\nsystem really does have a big impact\non how your server performs, and so\n\n61\n00:02:48.950 --> 00:02:52.550\nwe get a chance to see that and how it\nworks inside of the Red Hat environment.\n\n62\n00:02:52.550 --> 00:02:54.287\nAnd then lastly,\nwe throw in some odds and ends.\n\n63\n00:02:54.287 --> 00:02:57.899\nSome other services and things that you\nmight need out there in the real world,\n\n64\n00:02:57.899 --> 00:03:01.507\nlike how to back up the system, how to\ndo snapshots, how to install software,\n\n65\n00:03:01.507 --> 00:03:03.641\nthird-party software, and maintain that,\n\n66\n00:03:03.641 --> 00:03:06.787\nhow to use the graphical user\ninterface as well as the command line.\n\n67\n00:03:06.787 --> 00:03:10.197\nAnd all the other skills that are needed\nfor a systems administrator that's gonna\n\n68\n00:03:10.197 --> 00:03:12.800\nbe supporting\na Red Hat Enterprise Linux environment.\n\n69\n00:03:12.800 --> 00:03:14.320\nSo if you're that kind of person,\n\n70\n00:03:14.320 --> 00:03:17.670\nif you're tasked to the job of supporting\nRed Hat, this is the place for you.\n\n71\n00:03:17.670 --> 00:03:20.480\nIf you just wanna learn more about it,\nif you're a hobbyist and you wanna explore\n\n72\n00:03:20.480 --> 00:03:24.250\nthe world of Red Hat Enterprise Linux,\nagain, another great place to jump in.\n\n73\n00:03:24.250 --> 00:03:26.890\nIf you're just getting started with Linux,\nthough, if you've never really touched\n\n74\n00:03:26.890 --> 00:03:30.150\nthe OS before, this might not be\nthe best place for you to start.\n\n75\n00:03:30.150 --> 00:03:33.237\nYou might wanna check out some of\nthe other shows we have on ITPRO.TV,\n\n76\n00:03:33.237 --> 00:03:36.585\nlike the Linux+ content, where we take\nyou from no Linux skill all the way up\n\n77\n00:03:36.585 --> 00:03:39.015\nto being proficient as\na basic system administrator.\n\n78\n00:03:39.015 --> 00:03:41.240\nThat's a great starting point for you.\n\n79\n00:03:41.240 --> 00:03:42.883\nBut if you've already worked with Linux,\nand\n\n80\n00:03:42.883 --> 00:03:45.455\nyou're more concerned with just\nlearning the differences in Red Hat and\n\n81\n00:03:45.455 --> 00:03:48.002\nhow we can support it in our environment,\nthen this is the show for you.\n\n82\n00:03:48.002 --> 00:03:50.786\nAnd if this sounds interesting,\nwell stay tuned,\n\n83\n00:03:50.786 --> 00:03:55.069\ncuz we've got episodes of Red Hat\nEnterprise Linux version 7 coming up next.\n\n84\n00:03:55.069 --> 00:03:58.539\n[SOUND]\n\n",
+          "url": "overview70745",
+          "vimeoId": "197905407"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate installing Red Hat Enterprise Linux; installing both RHEL7 with Graphical User Interface and RHEL7 CLI-Only. They take you through each step from start to finish, including setting the date and time/timezone, security policy settings, network settings, and base-software installation.",
+          "length": "2210",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-1-installing_rhel7-111416.00_36_35_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-1-installing_rhel7-111416.00_36_35_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-1-installing_rhel7-111416.00_36_35_10.Still001-sm.jpg",
+          "title": "Installing RHEL7",
+          "transcript": "",
+          "url": "installing-rhel7",
+          "vimeoId": "191960399"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through using the RHEL7 Graphical User Interface console. They look at some of the GUI system utilities, then introduce you to the task bar and interacting with running applications as well as moving between them. Lastly, they demonstrate the system menu, workspaces, and virtual terminals.",
+          "length": "1529",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-2-using_the_rhel7_console-111416.00_25_14_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-2-using_the_rhel7_console-111416.00_25_14_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-2-using_the_rhel7_console-111416.00_25_14_27.Still001-sm.jpg",
+          "title": "Using the RHEL7 Console",
+          "transcript": "",
+          "url": "usingrhel7-console",
+          "vimeoId": "191960398"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the process of updating software on a freshly installed Red Hat server. They start with system registration with Red Hat using the GUI and Subscription Manager then jumping right into software updates using the graphical tools. Next they introduce you to the YUM package management system for installing software through the command line.",
+          "length": "1656",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-3-software_updates-111516.00_27_21_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-3-software_updates-111516.00_27_21_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-3-software_updates-111516.00_27_21_08.Still001-sm.jpg",
+          "title": "Software Updates",
+          "transcript": "",
+          "url": "software-updates3",
+          "vimeoId": "192477065"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue explaining and demonstrating the process of updating and installing software using the command line utility, YUM. They pick back up with YUM groups for \"software type\" bundle installs. Also, they show you how to roll back and/or remove an update, then move on exploring how to modify YUM repositories; even enabling 3rd-Party repositories.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-rhel7-1-3-2-software_updates_pt2-111516.00_28_55_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-rhel7-1-3-2-software_updates_pt2-111516.00_28_55_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-rhel7-1-3-2-software_updates_pt2-111516.00_28_55_22.Still001-sm.jpg",
+          "title": "Software Updates Part 2",
+          "transcript": "",
+          "url": "software-updates2",
+          "vimeoId": "192477066"
+        },
+        {
+          "description": "In this episode, Daniel and Don discuss and demonstrate how to perform an unattended installation of RHEL7 using Kickstart. They begin by explaining the basics of Kickstart and how to create a ks.cfg file which provides the answers an admin would normally have to enter manually during installation. Then they show you a quick and easy way of using Kickstart with the default RHEL7 installation media.",
+          "length": "1994",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-1-deploying_with_kickstart-111616.00_33_21_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-1-deploying_with_kickstart-111616.00_33_21_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-1-deploying_with_kickstart-111616.00_33_21_23.Still001-sm.jpg",
+          "title": "Deploying with Kickstart",
+          "transcript": "",
+          "url": "deployingkickstart",
+          "vimeoId": "192652779"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their exploration of Kickstart, this time creating a standard Kickstart install ISO. Then they create a custom Kickstart ISO and show you how to edit the boot screen to give you the option of choosing any number of custom Kickstart installations. They also show you how to employ Kickstart with network based connections.",
+          "length": "1994",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-2-deploying_with_kickstart_pt2-111716.00_32_57_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-2-deploying_with_kickstart_pt2-111716.00_32_57_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-4-2-deploying_with_kickstart_pt2-111716.00_32_57_10.Still001-sm.jpg",
+          "title": "Deploying with Kickstart Part 2",
+          "transcript": "",
+          "url": "deployingkickstart2",
+          "vimeoId": "193564204"
+        },
+        {
+          "description": "In this episode, Daniel and Don attempt to dispel some of the mystery and even controversy that is Systemd. They explain what systemd is and what it does. They then introduce you to some key terms like Unit and Target. Finally they show you how to manage services, run-levels, and system power with the `systemctl` command.",
+          "length": "2085",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-5-systemd-111716.00_34_29_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-5-systemd-111716.00_34_29_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-1-5-systemd-111716.00_34_29_00.Still001-sm.jpg",
+          "title": "systemd",
+          "transcript": "",
+          "url": "systemd",
+          "vimeoId": "192651576"
+        },
+        {
+          "description": "In this episode, Wes and Don discuss creating a USB installation media for RHEL. They explore the process of media creation as well as a demonstration. They talk about performing the process on Linux, macOS and Windows.",
+          "length": "1732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-1-6-creating_usb_install_media-120216-PGM.00_28_39_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-1-6-creating_usb_install_media-120216-PGM.00_28_39_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-1-6-creating_usb_install_media-120216-PGM.00_28_39_22.Still001-sm.jpg",
+          "title": "Creating USB Install Media",
+          "transcript": "",
+          "url": "creating-usb-install-media",
+          "vimeoId": "195021727"
+        }
+      ],
+      "title": "Introduction to RHEL"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don show you the essentials for configuring networking in a Red Hat Enterprise Linux environment. They show you common tasks like viewing the current network configuration and configuring a network card. Next, they explore the Network Manager which is used mostly with CLI-Only installs.",
+          "length": "1790",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-1-network_configuration-111616.00_34_04_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-1-network_configuration-111616.00_34_04_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-1-network_configuration-111616.00_34_04_16.Still001-sm.jpg",
+          "title": "Network Configuration",
+          "transcript": "",
+          "url": "network-configuration5",
+          "vimeoId": "192654507"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue exploring network configuration in Red Had Linux, picking up by demonstrating a manual setup through the system configuration files. Here you'll see how to edit and configure the `network`, `hosts`, and `hostname` files, as well as `resolv.conf`. Lastly they show you how to start/stop/restart the network services.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-2-network_configuration_pt2-111616.00_30_49_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-2-network_configuration_pt2-111616.00_30_49_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-1-2-network_configuration_pt2-111616.00_30_49_18.Still001-sm.jpg",
+          "title": "Network Configuration Part 2",
+          "transcript": "",
+          "url": "network-configuration6",
+          "vimeoId": "192653753"
+        },
+        {
+          "description": "In this episode, Daniel and Don discuss the importance of correctly configuring the Network Time Protocol(NTP) on your RHEL7 server. They address some of the usual ways in which time/date/timezone settings are configured and then focus on using the `timedatectl` utility to that end as well as for synchronizing with an online or local NTP server utilizing `chronyd`.",
+          "length": "1686",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-2-network_time_protocol-111516.00_27_50_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-2-network_time_protocol-111516.00_27_50_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-2-network_time_protocol-111516.00_27_50_00.Still001-sm.jpg",
+          "title": "Network Time Protocol (NTP)",
+          "transcript": "",
+          "url": "network-time-protocol2",
+          "vimeoId": "192477064"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore sharing files over a network with the Network File System(NFS). They take you step-by-step through configuring a NFS server and client including installation, enabling and starting the NFS service, and then mounting the shared folder for access.",
+          "length": "1677",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-3-nfs-111716.00_27_47_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-3-nfs-111716.00_27_47_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-3-nfs-111716.00_27_47_09.Still001-sm.jpg",
+          "title": "Network File System (NFS)",
+          "transcript": "",
+          "url": "nfs",
+          "vimeoId": "193580676"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain and demonstrate setting up Samba for sharing files with Microsoft Windows clients. They start by talking about some of the history of SMB and Samba, then start the Samba Server installation and setup. They also walk you through working with the `smb.conf` and `smb.conf.example` files.",
+          "length": "1915",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-1-samba_and_smb-111816.00_00_28_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-1-samba_and_smb-111816.00_00_28_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-1-samba_and_smb-111816.00_00_28_20.Still001-sm.jpg",
+          "title": "Samba and SMB",
+          "transcript": "",
+          "url": "sambasmb",
+          "vimeoId": "193577377"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue to explain and demonstrate setting up Samba for sharing files with Microsoft Windows clients. They pick back up by performing some Red Hat focused administrative tasks that will complete the Samba connectivity setup. This includes settings up SE-Linux, configuring the firewall, and starting the Samba service.",
+          "length": "1176",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-2-samba_and_smb_pt2-111816.00_25_50_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-2-samba_and_smb_pt2-111816.00_25_50_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-2-4-2-samba_and_smb_pt2-111816.00_25_50_28.Still001-sm.jpg",
+          "title": "Samba and SMB Part 2",
+          "transcript": "",
+          "url": "sambasmb2",
+          "vimeoId": "193565364"
+        }
+      ],
+      "title": "Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explain the File System Hierarchy found in Red Hat Enterprise Linux. Here, they take you through and explain the intended purpose of common directories like `/boot`, `/etc`, `/proc`, `/opt`, and `/sbin`.",
+          "length": "2179",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-1-file_system_hierarchy-111816.00_36_01_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-1-file_system_hierarchy-111816.00_36_01_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-1-file_system_hierarchy-111816.00_36_01_06.Still001-sm.jpg",
+          "title": "File System Hierarchy",
+          "transcript": "",
+          "url": "file-system-hierarchy",
+          "vimeoId": "193560717"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate and explain how to manage storage and file systems in RHEL7. They start with foundations like MBR and GPT partitions. Then they walk you through partitioning a disk with command line utilities like fdisk, gdisk, and parted, as well as the graphical tool gparted. Finally, you will see how to put a filesystem on your disks and then mounting and unmounting the new volume.",
+          "length": "2261",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-managing_file_systems-112116-PGM.00_37_26_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-managing_file_systems-112116-PGM.00_37_26_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-managing_file_systems-112116-PGM.00_37_26_28.Still001-sm.jpg",
+          "title": "Managing File Systems",
+          "transcript": "",
+          "url": "managing-file-systems",
+          "vimeoId": "193757405"
+        },
+        {
+          "description": "In this episode, Daniel and Don introduce you to the very powerful Logical Volume Manager(LVM) for managing disks in Linux. They begin with the basics of using LVM. This includes creating physical volumes, volume groups, and logical groups. Then they demonstrate mounting the logical volume, adding more storage to the groups, making things permanent in fstab, and even deleting volumes.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-3-logical_volume_manager-112216.00_32_00_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-3-logical_volume_manager-112216.00_32_00_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-3-logical_volume_manager-112216.00_32_00_11.Still001-sm.jpg",
+          "title": "Logical Volume Manager",
+          "transcript": "",
+          "url": "logical-volume-manager2",
+          "vimeoId": "193755297"
+        },
+        {
+          "description": "In this episode, Daniel and Don show you how to utilize file system Snapshots in Red Hat Enterprise Linux. They start by installing Snapper, the snapshot utility and then creating the storage structure needed to facilitate the use of snapshots. You'll also see how to create a Snapper config file and ultimately, take snapshots, work with snapshots, revert changes using snapshots, and deleting snapshots.",
+          "length": "2003",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-4-file_system_snapshots-112216-.00_36_28_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-4-file_system_snapshots-112216-.00_36_28_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-4-file_system_snapshots-112216-.00_36_28_04.Still001-sm.jpg",
+          "title": "File System Snapshots",
+          "transcript": "",
+          "url": "file-system-snapshots",
+          "vimeoId": "193754507"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the System Storage Manager(SSM) which is meant to be an all-in-one solution for storage management. Here you will see how to use the SSM to perform a variety of tasks like listing volumes, creating volume groups, creating logical groups, and mounting. Also shown is adding disks, working with snapshots, and setting up RAID.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-5-system_storage_manager-112216.00_31_08_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-5-system_storage_manager-112216.00_31_08_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-5-system_storage_manager-112216.00_31_08_18.Still001-sm.jpg",
+          "title": "System Storage Manager (SSM)",
+          "transcript": "",
+          "url": "system-storage-manager",
+          "vimeoId": "193755954"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain the difference between the files systems available in RHEL7 so that you can choose the correct one for your environment. They compare and contrast the EXT2/3/4, XFS, and BTRFS filesystems.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-6-choosing_a_file_system-112816-PGM.00_27_56_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-6-choosing_a_file_system-112816-PGM.00_27_56_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-6-choosing_a_file_system-112816-PGM.00_27_56_00.Still001-sm.jpg",
+          "title": "Choosing a File System",
+          "transcript": "",
+          "url": "choosingfile-system",
+          "vimeoId": "193750716"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate migrating from one file system to another. They begin by showing you the officially supported method for migrating file systems which involves moving data from one disk to another with the desired file system. Then they show you how to perform an in-place file system migration by converting the file system.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-7-migrating_file_systems-112816-PGM.00_29_22_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-7-migrating_file_systems-112816-PGM.00_29_22_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-7-migrating_file_systems-112816-PGM.00_29_22_25.Still001-sm.jpg",
+          "title": "Migrating a File System",
+          "transcript": "",
+          "url": "migratingfile-system",
+          "vimeoId": "193752763"
+        },
+        {
+          "description": "In this episode, Daniel and Don give you a working knowledge of the XFS file system. Here they will show you how to work with XFS as your daily driver, performing tasks like creating, mounting, and repairing XFS volumes. They also show changing the XFS options like setting drive labels and/or UUID. Finally, they show you how to take a backup using `xfsdump`.",
+          "length": "1842",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-8-working_with_xfs-112816-PGM.00_30_28_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-8-working_with_xfs-112816-PGM.00_30_28_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-3-8-working_with_xfs-112816-PGM.00_30_28_12.Still001-sm.jpg",
+          "title": "Working with XFS",
+          "transcript": "",
+          "url": "xfs",
+          "vimeoId": "194036420"
+        }
+      ],
+      "title": "Storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explain and demonstrate how to encrypt entire hard drives and drive volumes using the Linux Unified Key Setup-on-disk-format, aka LUKS. Here you'll see how to enable disk encryption at installation, checking encryption status after installation, and encrypting a volume using `cryptsetup`.",
+          "length": "1921",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-1-luks_disk_encryption-112916.00_31_45_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-1-luks_disk_encryption-112916.00_31_45_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-1-luks_disk_encryption-112916.00_31_45_04.Still001-sm.jpg",
+          "title": "LUKS Disk Encryption",
+          "transcript": "",
+          "url": "luks-disk-encryption",
+          "vimeoId": "193756721"
+        },
+        {
+          "description": "In this episode, Daniel and Don take a look into managing Security-Enhanced Linux or SE-Linux. The goal of this episode is to equip you for working in an SE-Linux environment which includes learning the SE-Linux Modes, checking and changing status, and finally configuring SE-Linux to working with both standard and non-standard services.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-2-managing_selinux-112916-PGM.00_35_31_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-2-managing_selinux-112916-PGM.00_35_31_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-2-managing_selinux-112916-PGM.00_35_31_16.Still001-sm.jpg",
+          "title": "Managing SELinux",
+          "transcript": "",
+          "url": "managing-selinux",
+          "vimeoId": "194037051"
+        },
+        {
+          "description": "In this episode, Daniel and Don introduce you to firewalld which is the default firewall for RHEL7, replacing iptables. They begin by showing you how to perform management tasks like start/stop firewalld service, list default zones, create custom zones, assigning network interfaces to a zone, and allowing standard and non-standard services.",
+          "length": "1695",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-3-configuring_firewalld-112916-PGM.00_28_01_09.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-3-configuring_firewalld-112916-PGM.00_28_01_09.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-4-3-configuring_firewalld-112916-PGM.00_28_01_09.Still002-sm.jpg",
+          "title": "Configuring firewalld",
+          "transcript": "",
+          "url": "configuring-firewalld",
+          "vimeoId": "194037743"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate how to take the already secure SSH and secure it even further. They will show you techniques for hardening both the SSH server and clients including changing the default port, restricting who can login, and configuring key-based authentication.",
+          "length": "1968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-4-securing_ssh-120116.00_32_32_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-4-securing_ssh-120116.00_32_32_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-4-securing_ssh-120116.00_32_32_25.Still001-sm.jpg",
+          "title": "Securing SSH",
+          "transcript": "",
+          "url": "securing-ssh",
+          "vimeoId": "195018578"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain how to keep your Red Hat Enterprise Linux systems secure by installing security updates. They begin by showing you how to check for and apply security updates available for your system from the terminal and then jump over to the Red Hat Customer Portal to perform security updates.",
+          "length": "1706",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-5-security_updates-120116-PGM.00_28_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-5-security_updates-120116-PGM.00_28_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-4-5-security_updates-120116-PGM.00_28_11_24.Still001-sm.jpg",
+          "title": "Security Updates",
+          "transcript": "",
+          "url": "security-updates",
+          "vimeoId": "195020354"
+        }
+      ],
+      "title": "Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore the Automatic Bug Reporting Tool(ABRT) which is used to detect application crashes and report them to vendors. They demonstrate how to install, configure, and run ABRT using both the command-line interface as well as the graphical user interface.",
+          "length": "1677",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-1-automatic_bug_reporting_tool-113016-PGM.00_27_44_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-1-automatic_bug_reporting_tool-113016-PGM.00_27_44_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-1-automatic_bug_reporting_tool-113016-PGM.00_27_44_06.Still001-sm.jpg",
+          "title": "Automatic Bug Reporting Tool (ABRT)",
+          "transcript": "",
+          "url": "automatic-bug-reporting-tool",
+          "vimeoId": "198201816"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through using SOS Reports for those unfortunate times when you need to contact Red Hat Support and supply them with server information. They will show you how to create both standard and custom SOS reports and then upload them to Red Had Support.",
+          "length": "1607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-2-sos_reports-120116-PGM.00_26_33_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-2-sos_reports-120116-PGM.00_26_33_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-2-sos_reports-120116-PGM.00_26_33_17.Still001-sm.jpg",
+          "title": "SOS Reports",
+          "transcript": "",
+          "url": "sos-reports",
+          "vimeoId": "195021385"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore a variety of ways to monitor system performance on your Red Had Enterprise Linux servers and workstations. They start by monitoring the \"Big 4\" (CPU, Memory, Network, and Disk) with the venerable command-line tools like `top`, `df`, and `free`. Then they move into GUI tools like OProfile.",
+          "length": "1725",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-3-monitoring_system_performance-120116-PGM.00_28_32_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-3-monitoring_system_performance-120116-PGM.00_28_32_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-redhat-5-3-monitoring_system_performance-120116-PGM.00_28_32_05.Still001-sm.jpg",
+          "title": "Monitoring System Performance",
+          "transcript": "",
+          "url": "monitoring-system-performance",
+          "vimeoId": "195020902"
+        },
+        {
+          "description": "In this episode, Wes and Don explore the world of troubleshooting through the monitoring of system logs. They cover topics like DMESG, syslog, system log rotation, remote system log monitoring, the systemd journal and log filtering.",
+          "length": "2355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-5-4-monitoring_system_logs-120216-PGM.00_39_01_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-5-4-monitoring_system_logs-120216-PGM.00_39_01_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-5-4-monitoring_system_logs-120216-PGM.00_39_01_10.Still001-sm.jpg",
+          "title": "Monitoring System Logs",
+          "transcript": "",
+          "url": "monitoring-system-logs",
+          "vimeoId": "195019428"
+        }
+      ],
+      "title": "Troubleshooting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don discuss virtualization technologies in RHEL. They will talk about concepts like QEMU, KVM as well as QEMU plus KVM and libvirt. They will explain the requirements to support these technologies, performing the process through the GUI and the CLI.",
+          "length": "2081",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-6-1-using_qemu_and_kvm-120216-PGM.00_34_27_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-6-1-using_qemu_and_kvm-120216-PGM.00_34_27_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-redhat/techskills-rhel7-6-1-using_qemu_and_kvm-120216-PGM.00_34_27_08.Still001-sm.jpg",
+          "title": "Using QEMU and KVM",
+          "transcript": "",
+          "url": "using-qemukvm",
+          "vimeoId": "197960588"
+        }
+      ],
+      "title": "Virtualization"
+    }
+  ],
+  "url": "red-hat-linux",
+  "vLab": false
+}

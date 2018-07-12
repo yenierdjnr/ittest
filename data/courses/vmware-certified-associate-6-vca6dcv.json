@@ -1,0 +1,231 @@
+{
+  "description": "The VCA6 show dives into data center virtualization fundamentals and featuring vSphere 6 as the solution.  It helps the candidate of the VCA6-DCV certification by discussing and demonstrating VMWare’s data center virtualization technology.  The demonstrations and the discussion in each episode go into to identifying the technical requirements for managing the VMWare vSphere 6 environment.  The segments focus on data center challenges and understanding what VMWare products and solutions can be used to meet those requirements.",
+  "descriptionMD": "",
+  "length": "30111",
+  "name": "VMware Certified Associate 6 VCA6-DCV",
+  "practiceExam": false,
+  "subtitle": "Data Center Virtualization",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The VCA6 show dives into data center virtualization fundamentals and featuring vSphere 6 as the solution. It helps the candidate of the VCA6-DCV certification by discussing and demonstrating VMWare’s data center virtualization technology. The demonstrations and the discussion in each episode go into to identifying the technical requirements for managing the VMWare vSphere 6 environment. The segments focus on data center challenges and understanding what VMWare products and solutions can be used to meet those requirements.",
+          "length": "648",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-0-0-overview-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-0-0-overview-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-0-0-overview-040816-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.012 --> 00:00:03.701\n[SOUND] In this segment,\n\n2\n00:00:03.701 --> 00:00:09.603\nwe're gonna give you a brief overview\n\n3\n00:00:09.603 --> 00:00:16.068\nof our upcoming VCA6-DCV exam series.\n\n4\n00:00:16.068 --> 00:00:19.595\nAnd joining me here to help out with\nevery endeavors, Mr. Ronnie Wong.\n\n5\n00:00:19.595 --> 00:00:22.410\nRonnie, can you help\ngive us a generalization,\n\n6\n00:00:22.410 --> 00:00:24.769\na general overview of what this is about?\n\n7\n00:00:24.769 --> 00:00:29.778\n>> We take a look at actually trying our\nhand here at actually doing the VCA6.\n\n8\n00:00:29.778 --> 00:00:33.505\nWhat we're trying to say is that we wanna\nget used to the technology that we're\n\n9\n00:00:33.505 --> 00:00:36.990\ngonna find inside the VMware\nespecially in vSphere version 6.\n\n10\n00:00:36.990 --> 00:00:38.330\nNormally this is gonna be for\n\n11\n00:00:38.330 --> 00:00:43.230\nsomeone that is actually a decision maker\ntrying to make a move into virtualization\n\n12\n00:00:43.230 --> 00:00:46.310\nthinking that it's something that they\nmight wanna do for their data center or\n\n13\n00:00:46.310 --> 00:00:49.050\nsomebody that's helping to\nmake that decision as well.\n\n14\n00:00:49.050 --> 00:00:51.670\nAnd they need to get more\nfamiliar with the topics so\n\n15\n00:00:51.670 --> 00:00:54.650\nthat they have a general understanding and\nthey can actually do a little bit\n\n16\n00:00:54.650 --> 00:00:58.350\nmore research into it, to see if\nthis is the way that they wanna go.\n\n17\n00:00:58.350 --> 00:01:01.797\nIt really does help out, of course,\nif you have a technical background,\n\n18\n00:01:01.797 --> 00:01:05.687\nyou've been working in IT for a little bit\nof time, but there is no real requirement\n\n19\n00:01:05.687 --> 00:01:08.488\nas far as the certification goes,\nbut it really does help.\n\n20\n00:01:08.488 --> 00:01:12.331\nBecause some of the concepts will cover\nof course our general concepts that we'll\n\n21\n00:01:12.331 --> 00:01:14.590\nfind throughout the entire IT industry.\n\n22\n00:01:14.590 --> 00:01:18.880\n>> So the intended audience for this\nseries is gonna be, anybody that wants to\n\n23\n00:01:18.880 --> 00:01:23.880\nknow more about virtualization in general\nand maybe even the VMware products itself.\n\n24\n00:01:23.880 --> 00:01:24.750\n>> It really is it.\n\n25\n00:01:24.750 --> 00:01:29.130\nReally does help us to be able to see how\nthose VMware products hook together and\n\n26\n00:01:29.130 --> 00:01:30.540\nbe able to work together.\n\n27\n00:01:30.540 --> 00:01:35.301\nUnderstand the technical requirements\nbehind them especially in terms of VMware,\n\n28\n00:01:35.301 --> 00:01:37.110\nvSphere 6.\n\n29\n00:01:37.110 --> 00:01:41.020\nSo once we have that understanding, that\nmakes it easier for the decision maker and\n\n30\n00:01:41.020 --> 00:01:43.900\nmakes it easier for somebody at\nleast trying to administrate or\n\n31\n00:01:43.900 --> 00:01:48.580\nget their hands into the administration\nof these sphere 6, as well.\n\n32\n00:01:48.580 --> 00:01:49.238\n>> All right, Ronnie.\n\n33\n00:01:49.238 --> 00:01:54.240\nDoes this series, is it going to\ncorrelate with any exams or tests?\n\n34\n00:01:54.240 --> 00:01:55.238\n>> It really does.\n\n35\n00:01:55.238 --> 00:01:58.150\nInside of VMware, of course,\nthey have a learning division,\n\n36\n00:01:58.150 --> 00:02:02.160\nwhich means they also have training,\nand they also have certifications.\n\n37\n00:02:02.160 --> 00:02:07.409\nSo when we start taking a look at it,\nwhat this actual series is going\n\n38\n00:02:07.409 --> 00:02:12.398\nto help you out in, is for\nyou to be able to earn your VCA6-DCV.\n\n39\n00:02:12.398 --> 00:02:13.720\nNow, what does that actually mean?\n\n40\n00:02:13.720 --> 00:02:17.410\nLet's take a look at my screen here for\na moment and that will help us out.\n\n41\n00:02:17.410 --> 00:02:19.330\nSo when we take a look here,\n\n42\n00:02:19.330 --> 00:02:24.030\nVMware Certified Associate 6\nData Center Virtualization Fundamentals.\n\n43\n00:02:24.030 --> 00:02:26.810\nSo the term fundamentals let's\nyou actually understand that,\n\n44\n00:02:26.810 --> 00:02:30.320\nhey, here is the exam that\nwe are actually going for.\n\n45\n00:02:30.320 --> 00:02:32.560\nAnd it's actually a fundamentals exam.\n\n46\n00:02:32.560 --> 00:02:35.400\nSo it actually rests heavily\nmore on the concepts.\n\n47\n00:02:35.400 --> 00:02:38.710\nAnd the technologies in terms of\nidentification and understanding\n\n48\n00:02:38.710 --> 00:02:43.300\nthe benefits and understanding solutions\nthat VMware provides rather than the idea\n\n49\n00:02:43.300 --> 00:02:47.360\nof configuration and of mastery of\nall the programs that you see there.\n\n50\n00:02:47.360 --> 00:02:53.660\nThis matches up to an exam number\nright here which is 1V0-601.\n\n51\n00:02:53.660 --> 00:02:56.670\nAnd that's what you actually wanna\ntake a look at when you start\n\n52\n00:02:56.670 --> 00:02:58.840\nto earn that certification.\n\n53\n00:02:58.840 --> 00:03:02.290\nOf course, that means that if you're\ngoing to earn that certification,\n\n54\n00:03:02.290 --> 00:03:05.600\nyou need to of course sign up and\nbe able to pass it, as well.\n\n55\n00:03:05.600 --> 00:03:08.613\nSo some of the details in\nthat is gonna actually be,\n\n56\n00:03:08.613 --> 00:03:11.830\nwell, this, the exam that you take\nis gonna be 50 questions long.\n\n57\n00:03:13.040 --> 00:03:18.077\nAnd you'll have a 75 minute duration to\nbuild to take that exam and your passing\n\n58\n00:03:18.077 --> 00:03:23.263\nscore is a 300, now they don’t tell you\nwhat the upper number is but that's what\n\n59\n00:03:23.263 --> 00:03:28.548\nthe passing score is gonna be as a 300 out\nof those 50 questions when you do that.\n\n60\n00:03:28.548 --> 00:03:33.017\nNow, the other thing occurs that most\npeople are concerned about them,\n\n61\n00:03:33.017 --> 00:03:36.532\nis that when you take a look\nthere is a price associated and\n\n62\n00:03:36.532 --> 00:03:41.364\ncurrently the price associated with\nthis is gonna be a about $120, US, so\n\n63\n00:03:41.364 --> 00:03:46.230\nmake sure you note that when you\nactually go to pay for the exam.\n\n64\n00:03:46.230 --> 00:03:50.350\nSo this exam is actually the current one\nthat gives you that associate level in\n\n65\n00:03:50.350 --> 00:03:52.060\nterms of VMware.\n\n66\n00:03:52.060 --> 00:03:57.060\nAnd it's actually very easy for you to\nget access to register for this exam.\n\n67\n00:03:57.060 --> 00:03:59.160\nNow, before you actually\nsay anything like, man,\n\n68\n00:03:59.160 --> 00:04:00.600\ndo I need to go to a testing center?\n\n69\n00:04:00.600 --> 00:04:05.340\nYou really don't because this\nparticular exam is non-proctored, and\n\n70\n00:04:05.340 --> 00:04:07.180\nthat means you can take it online.\n\n71\n00:04:07.180 --> 00:04:10.176\nNow, does that mean wow,\nit's an online exam, can I cheat?\n\n72\n00:04:10.176 --> 00:04:14.682\nWell, no, you really can't and\nthe reason why is that they actually take\n\n73\n00:04:14.682 --> 00:04:18.980\nscreenshots as you're actually on\nthat exam to see what's going on.\n\n74\n00:04:18.980 --> 00:04:22.250\nSo don't think that it's actually\njust unproctored and that means, hey,\n\n75\n00:04:22.250 --> 00:04:23.800\nit's an open book exam.\n\n76\n00:04:23.800 --> 00:04:27.020\nIt means that time limit is actually\nsomething they follow by very strictly and\n\n77\n00:04:27.020 --> 00:04:31.350\nthey do take screenshots of\nwhat's going on during the exam.\n\n78\n00:04:31.350 --> 00:04:33.310\nSo they'll know if you're\nactually flipping through and\n\n79\n00:04:33.310 --> 00:04:35.430\ngoing through web pages and\nwhen you're doing that.\n\n80\n00:04:35.430 --> 00:04:37.710\nBut yes, you won't be able to do that.\n\n81\n00:04:37.710 --> 00:04:40.090\nNow, when you register for\nthis, it's fairly simple.\n\n82\n00:04:40.090 --> 00:04:42.961\nYou'll actually notice that,\nright here on this very page,\n\n83\n00:04:42.961 --> 00:04:44.957\nis that it actually gives you this button.\n\n84\n00:04:44.957 --> 00:04:50.166\nSo if you do a search from your favorite\nbrowser, and you type in VCA6-DCV exam,\n\n85\n00:04:50.166 --> 00:04:55.072\nyou actually bring up this Register Now,\nand if you already have a Pearson VUE\n\n86\n00:04:55.072 --> 00:05:00.456\naccount, you'll just walk through, pick\nthe language that you want this to be in.\n\n87\n00:05:00.456 --> 00:05:04.278\nAnd notice there's three languages,\nEnglish, Japanese and Chinese.\n\n88\n00:05:04.278 --> 00:05:06.719\nIf you actually happen to\nbe proficient in all three,\n\n89\n00:05:06.719 --> 00:05:10.083\nI took mine in English cuz I'm not\nproficient in Japanese, I know a little\n\n90\n00:05:10.083 --> 00:05:13.555\nbit of Chinese, but overall English is\nactually gonna be my base language,\n\n91\n00:05:13.555 --> 00:05:16.580\nyou'll be able to register for\nit, and here's the key.\n\n92\n00:05:16.580 --> 00:05:19.582\nYou don't just get to register for\nit some time in the future,\n\n93\n00:05:19.582 --> 00:05:23.450\nwhat they actually intend for you to do is\nto get the knowledge that you need, and\n\n94\n00:05:23.450 --> 00:05:27.550\nwhen you are ready for that exam, you\nselect that register and you pay for it.\n\n95\n00:05:27.550 --> 00:05:30.178\nAnd it gives you two\ndays to take the exam.\n\n96\n00:05:30.178 --> 00:05:33.051\nSo you actually see that from\nthat point once you pay and\n\n97\n00:05:33.051 --> 00:05:35.924\nyou say yes,\nat the very end of that process of paying,\n\n98\n00:05:35.924 --> 00:05:39.640\nthere's gonna be a little button\nthat says start the exam.\n\n99\n00:05:39.640 --> 00:05:44.150\nSo if you accidentally click on that and\nstart it, you have to take the exam.\n\n100\n00:05:44.150 --> 00:05:48.600\nSo be very careful when you choose\nto register for this exam, as well.\n\n101\n00:05:48.600 --> 00:05:53.730\nNow, the neat thing is, when you actually\nstart taking a look, is that if you get to\n\n102\n00:05:53.730 --> 00:05:59.430\nthis page, you do have access while down\nhere underneath the Register Now button.\n\n103\n00:05:59.430 --> 00:06:02.220\nSo I recommend that you not click\non Register Now immediately after\n\n104\n00:06:02.220 --> 00:06:03.090\ngoing to this page.\n\n105\n00:06:03.090 --> 00:06:05.700\nYou can, you can take a look at it and\nnot register.\n\n106\n00:06:05.700 --> 00:06:08.068\nBut notice they actually\ngive you the exam topics,\n\n107\n00:06:08.068 --> 00:06:11.548\neven some suggestions on how to prepare,\nand some additional resources.\n\n108\n00:06:11.548 --> 00:06:14.850\nI recommend that you take\nadvantage of all three.\n\n109\n00:06:14.850 --> 00:06:17.700\n>> Ronnie, you actually hit on a really\ngood question here that I've got for\n\n110\n00:06:17.700 --> 00:06:23.390\nyou is, what specifically are the topics\nthat we're going to cover in the series?\n\n111\n00:06:23.390 --> 00:06:26.480\n>> Well, when it comes down to it,\nremember that when we take a look at this,\n\n112\n00:06:26.480 --> 00:06:30.280\nwe actually will follow the exam topics\nin the series that we'll be covering.\n\n113\n00:06:30.280 --> 00:06:34.520\nSo what we're actually going to do here\nis we take a look here on my machine.\n\n114\n00:06:34.520 --> 00:06:36.870\nWe'll follow these exam topics along and\n\n115\n00:06:36.870 --> 00:06:41.000\nwe'll see that there's some overlap to it\nand which we'll just cover once instead of\n\n116\n00:06:41.000 --> 00:06:43.090\nactually going through\nthem multiple times.\n\n117\n00:06:43.090 --> 00:06:47.460\nSo for example, explaining\nthe data virtualization concepts,\n\n118\n00:06:47.460 --> 00:06:50.820\nidentifying those typical\nchallenges is pretty much key.\n\n119\n00:06:50.820 --> 00:06:54.720\nAnd we'll take a look at things like,\nwhat is the data center itself and\n\n120\n00:06:54.720 --> 00:06:59.535\nwhat is data center virtualization, we'll\ntalk about the benefits of virtualization\n\n121\n00:06:59.535 --> 00:07:03.588\nas well as some of the common components\nthat we'll also see there, too.\n\n122\n00:07:03.588 --> 00:07:07.488\nAnd then, of course, we'll take a look\nat the challenges that VMware helps us\n\n123\n00:07:07.488 --> 00:07:10.738\nto resolve by taking a look at some\nof the different editions, and\n\n124\n00:07:10.738 --> 00:07:12.980\nwe'll make sure we enumerate those.\n\n125\n00:07:12.980 --> 00:07:17.060\nTake a look at management challenges,\nscalability, and optimization challenges\n\n126\n00:07:17.060 --> 00:07:22.230\nthat we tend to actually have to face,\nand where VMware helps us to face those.\n\n127\n00:07:22.230 --> 00:07:25.200\nAnd then, of course,\nwe get into the meat of the product,\n\n128\n00:07:25.200 --> 00:07:29.375\nwhich is to get more familiar\nwith vSphere technologies.\n\n129\n00:07:29.375 --> 00:07:31.774\nvSphere 6, and you'll see us in here,\n\n130\n00:07:31.774 --> 00:07:36.645\nthat we'll go over storage technologies,\nnetworking, resource management,\n\n131\n00:07:36.645 --> 00:07:40.458\navailability and even some of\nthe different products that we may\n\n132\n00:07:40.458 --> 00:07:43.938\nnot have covered anywhere else\nduring the entire course.\n\n133\n00:07:43.938 --> 00:07:47.612\nAnd then, in the end, we'll take a look\nat some of the different challenges that\n\n134\n00:07:47.612 --> 00:07:50.490\nhappen when we start talking\nabout business challenges here.\n\n135\n00:07:50.490 --> 00:07:53.780\nAnd usually some of the business\nchallenges happen to deal with size.\n\n136\n00:07:53.780 --> 00:07:57.930\nWhat size is your organization and\nwhat we actually have to expect from that.\n\n137\n00:07:57.930 --> 00:07:58.810\nThe good thing is,\n\n138\n00:07:58.810 --> 00:08:01.870\nduring the entire course, you'll probably\nend up seeing that we'll cover just about\n\n139\n00:08:01.870 --> 00:08:06.510\nevery single challenge that we normally\nwill face in the course itself.\n\n140\n00:08:06.510 --> 00:08:10.100\nAnd so, at the end it's really just\na review of everything that we need.\n\n141\n00:08:10.100 --> 00:08:12.320\nSo when you start taking a look here,\n\n142\n00:08:12.320 --> 00:08:16.280\nsome of the things that you want to\nconsider as you actually are preparing,\n\n143\n00:08:16.280 --> 00:08:20.090\nand getting ready for\nthis course is the terminology itself.\n\n144\n00:08:20.090 --> 00:08:23.280\nMaking sure, of course, that if you\nknow some of the ideas and some\n\n145\n00:08:23.280 --> 00:08:28.370\nof the concepts, make sure you learn the\nVMware idea and the concepts there, too.\n\n146\n00:08:28.370 --> 00:08:31.490\nAnd of course, make sure you actually\nknow the names of these products,\n\n147\n00:08:31.490 --> 00:08:34.760\ncuz this is a big one that you\nhave to pay attention to, as well.\n\n148\n00:08:34.760 --> 00:08:39.310\nSo this is why it's not the most\ntechnically challenging exam before us,\n\n149\n00:08:39.310 --> 00:08:43.180\nbut it is actually an exam that will\nchallenge you as far as the number of\n\n150\n00:08:43.180 --> 00:08:45.210\nproducts that we go through.\n\n151\n00:08:45.210 --> 00:08:50.230\nAnd yes, if you want to pass the exam, you\ngot to know those products, those features\n\n152\n00:08:50.230 --> 00:08:54.360\nand even some of the benefits of those,\nso make sure you pay careful attention\n\n153\n00:08:54.360 --> 00:08:58.860\nduring the entirety of this series\nas we actually go through this.\n\n154\n00:08:58.860 --> 00:09:02.360\nNow, the other thing is,\nright here on the preparation,\n\n155\n00:09:02.360 --> 00:09:06.500\nthey have in that nice three-hour\ntraining video for you to go through.\n\n156\n00:09:06.500 --> 00:09:08.570\nAnd this is their recommended training,\nand\n\n157\n00:09:08.570 --> 00:09:10.950\nthey even have a practice exam for you.\n\n158\n00:09:10.950 --> 00:09:12.780\nAnd all of this is for free.\n\n159\n00:09:12.780 --> 00:09:16.916\nNow, on the practice exam, it'll give\nyou 99 times to go through this.\n\n160\n00:09:16.916 --> 00:09:17.716\nNow, what does that mean?\n\n161\n00:09:17.716 --> 00:09:21.250\nIt doesn't mean it's the exact same exam,\nso you gotta be careful.\n\n162\n00:09:21.250 --> 00:09:25.950\nUse it only to help you assess in areas\nthat you are having problems in, and\n\n163\n00:09:25.950 --> 00:09:28.520\nyou'll see that if you ever\nget 100% score, you're done.\n\n164\n00:09:28.520 --> 00:09:30.470\nIt won't let you take it again.\n\n165\n00:09:30.470 --> 00:09:32.250\nSo it'll lock you out at that point.\n\n166\n00:09:32.250 --> 00:09:36.840\nSo always at the end, it even tells you,\nat least make one answer wrong if you're\n\n167\n00:09:36.840 --> 00:09:41.270\nnot taking the exam immediately, and\nthat way you can always go back through.\n\n168\n00:09:41.270 --> 00:09:43.730\nUse it to actually find areas\nthat you're weak in and then,\n\n169\n00:09:43.730 --> 00:09:46.610\nonce you actually find those weak areas,\nmake sure you go back and\n\n170\n00:09:46.610 --> 00:09:49.920\nstudy them a bit more in\ndepth when you do so.\n\n171\n00:09:49.920 --> 00:09:54.080\nThe other thing that I want you to be able\nto take advantage of, is really this last\n\n172\n00:09:54.080 --> 00:10:00.350\none right here where it says,\nTest Drive VMware vSphere Environment.\n\n173\n00:10:01.390 --> 00:10:04.590\nThis will give you access\nto a nice virtual lab\n\n174\n00:10:04.590 --> 00:10:09.060\nthat will allow you to test drive vSphere\nand take a look at all the different\n\n175\n00:10:09.060 --> 00:10:12.720\ncomponents that we talked about\nthroughout this particular series.\n\n176\n00:10:12.720 --> 00:10:14.180\nIt's really gonna help you out.\n\n177\n00:10:14.180 --> 00:10:17.560\nThe more that you get hands on with it,\nthe better off you're gonna actually\n\n178\n00:10:17.560 --> 00:10:21.400\nbe as you take a look at those different\nproducts that are actually offered, and\n\n179\n00:10:21.400 --> 00:10:23.890\nwhat vSphere really wants\nyou to be able to do.\n\n180\n00:10:23.890 --> 00:10:28.490\nSo there is a lot of information, but I\nthink we're actually ready to get started.\n\n181\n00:10:28.490 --> 00:10:30.680\n>> Well, Ronnie, thanks so\nmuch for that overview and\n\n182\n00:10:30.680 --> 00:10:33.730\nthat general assessment of what we\ncan expect in this upcoming series.\n\n183\n00:10:33.730 --> 00:10:37.354\nAnd if it sounds like something\nthat you might be interested in,\n\n184\n00:10:37.354 --> 00:10:40.790\nthen we look forward to seeing\nyou in the upcoming episodes.\n\n185\n00:10:40.790 --> 00:10:44.447\n[SOUND]\n\n",
+          "url": "overview70722",
+          "vimeoId": "162582950"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through a review of virtualization concepts to prepare you for the VCA6-DCV exam. They begin with the physical hardware and how hypervisors access it. Then they describe the two different types of hypervisors; the Hosted(Type-II) and the Bare-Metal(Type-I). Finally they explore some of the advantages of implementing a virtualized environment.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-1-review_virtualitation_concepts-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-1-review_virtualitation_concepts-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-1-review_virtualitation_concepts-040516-1-sm.jpg",
+          "title": "Review Virtualization Concepts",
+          "transcript": "",
+          "url": "review-virtualization-concepts",
+          "vimeoId": "161916528"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their review of virtualization concepts, starting here with the problems that virtualization solves. Next, they discuss what devices can be virtualized and what v-technologies VMware provides for that task. Finally, they show the many benefits of virtualization which includes, availability, scalability, optimization, and management.",
+          "length": "1986",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-2-review_virtualitation_concepts_pt2-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-2-review_virtualitation_concepts_pt2-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vc6a6dcv-dcv-1-0-2-review_virtualitation_concepts_pt2-040516-1-sm.jpg",
+          "title": "Review Virtualization Concepts Part 2",
+          "transcript": "",
+          "url": "review-virtualization-concepts-2",
+          "vimeoId": "161916529"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain the benefits Data Center Virtualization. These advantages include lowered cost, maintenance, and space to support your Data Center. It also allows for a highly available environment which increases your business continuity and reducing your downtime.",
+          "length": "1779",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-1-explain_dcv_benefits-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-1-explain_dcv_benefits-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-1-explain_dcv_benefits-040516-1-sm.jpg",
+          "title": "Explain DCV Benefits",
+          "transcript": "",
+          "url": "explain-dcv-benefits",
+          "vimeoId": "162122465"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss some common challenges when managing a datacenter and look at how VMware addresses them. First they look at the different editions of VMware vSphere to familiarize you with them. Then they jump right into datacenter challenges like licensing, scalability, and downtime; explaining VMware's proposed solutions with vSphere.",
+          "length": "1884",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-2-understand_dcv_challenges-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-2-understand_dcv_challenges-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-1-2-understand_dcv_challenges-040516-1-sm.jpg",
+          "title": "Understand DCV Challenges",
+          "transcript": "",
+          "url": "understand-dcv-challenges",
+          "vimeoId": "162120912"
+        }
+      ],
+      "title": "Explain Data Center Virtualization Concepts and Identify Typical Data Center Challenges"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie explain many of the VMware vSphere technologies. They being by explaining the basics of a VMware environment which includes the ESXi hypervisor, the vSphere client, and the vSphere server. Then they look at migration technologies, starting with vMotion. Next they look at VMware's solutions to grant you High Availability and Fault Tolerance. Finally, they show you how the VMware environment can cluster devices and pool resources like storage.",
+          "length": "1818",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-1-describe_vsphere_technologies-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-1-describe_vsphere_technologies-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-1-describe_vsphere_technologies-040516-1-sm.jpg",
+          "title": "Describe vSphere Technologies",
+          "transcript": "",
+          "url": "describe-vsphere-technologies",
+          "vimeoId": "162116629"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain how to identify vSphere storage technologies. They begin by differentiating between physical and virtual storage as well as the going over some of the benefits of virtual storage. They also look at the High Availability features in vSphere and help you contrast/compare the VMFS and NFS datastores.",
+          "length": "1930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-1-identify_vsphere_storage-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-1-identify_vsphere_storage-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-1-identify_vsphere_storage-040716-1-sm.jpg",
+          "title": "Identify vSphere Storage Technologies",
+          "transcript": "",
+          "url": "identify-vsphere-storage",
+          "vimeoId": "162115291"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue their look at vSphere Storage Technologies; picking up with explaining Thin Provisioning. Then they explore the capabilities of a Virtual Storage Area Network(SAN) appliance and then Virtual Volume capabilities. Finally, they identify the capabilities of Storage I/O control.",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-2-identify_vsphere_storage_pt2-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-2-identify_vsphere_storage_pt2-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-2-2-identify_vsphere_storage_pt2-040716-1-sm.jpg",
+          "title": "Identify vSphere Storage Technologies Part 2",
+          "transcript": "",
+          "url": "identify-vsphere-storage-2",
+          "vimeoId": "162113554"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie jump into the exciting world of networking technologies in vSphere. Here they begin by explaining how vSphere connects virtual machines through the Standard and Distributed Virtual Switches. They also introduce you to the virtual switch components, being the Management Plane and the Data Plane. Finally, they look at switch policies and network I/O control.",
+          "length": "1652",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-3-identify_vsphere_networking_technologies-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-3-identify_vsphere_networking_technologies-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-dcv-2-3-identify_vsphere_networking_technologies-040716-1-sm.jpg",
+          "title": "Identify vSphere Networking Technologies",
+          "transcript": "",
+          "url": "identify-vshpere-networking-technologies",
+          "vimeoId": "162584367"
+        },
+        {
+          "description": "Errata:  Ronnie mentions DRS as being Dynamic Resource Scheduler, that is not correct.  It is Distributed Resource Scheduler.  This is an important distinction for the exam please note.    Ronnie was mixing the DPM (Dynamic Power Management) concepts and DRS together, it does happen.\nIn this episode, Daniel and Ronnie walk you through the different resource management technologies in vSphere. They begin by explaining the concept of resource management with regards to your virtualized environment. Then they briefly touch on vRealize. Next, they jump into explaining the different vMotion technologies; Cross vSwitch, Cross vCenter, Long Distance, and Storage vMotion. Finally, they address Distributed Resource Management, Distributed Power Management, and High Availability.",
+          "length": "1951",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-4-identify_vsphere-resource_mgmt-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-4-identify_vsphere-resource_mgmt-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-4-identify_vsphere-resource_mgmt-040816-1-sm.jpg",
+          "title": "Identify vSphere Resource Management",
+          "transcript": "",
+          "url": "identify-vsphere-resource-management",
+          "vimeoId": "162582971"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at some of the availability technologies and solutions found in vSphere. The begin by explaining the most commonly used availability system which is backups; specifically vSphere Data Protection. Then they discuss vCloud Air Disaster Recovery and Private Cloud Disaster Recovery. Finally then cover vSphere replication requirements and even show you how to configure High Availability.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-5-identify_vsphere_avalability_technologies-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-5-identify_vsphere_avalability_technologies-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-5-identify_vsphere_avalability_technologies-040816-1-sm.jpg",
+          "title": "Identify vSphere Availability Technologies",
+          "transcript": "",
+          "url": "identify-vsphere-availability-technologies",
+          "vimeoId": "162824382"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore the networking side of VMware by looking at VMware NSX. With NSX you are able to set up a virtualized network of switches, gateways, routers, and even load balancers. Next they focus on exploring the features of vRealize which works to configure operations, monitoring, and alerts, among other things. Finally, they explain the EVO Rack and EVO Rail systems.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-6-explain_dcv_products-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-6-explain_dcv_products-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-2-6-explain_dcv_products-040816-1-sm.jpg",
+          "title": "Explain DCV Products",
+          "transcript": "",
+          "url": "explain-dcv-products",
+          "vimeoId": "162582988"
+        }
+      ],
+      "title": "Identify, Explain and Differentiate VMware vSphere Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Ronnie explore and help to identify various virtual infrastructure objects. They will also explain how to identify and differentiate between different objects statuses and conditions as well as a descriptions of the actions that can be applied different statuses or conditions are identified.",
+          "length": "1895",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-understand_virtual_object_status-011017-PGM.00_31_21_10.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-understand_virtual_object_status-011017-PGM.00_31_21_10.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-understand_virtual_object_status-011017-PGM.00_31_21_10.Still002-sm.jpg",
+          "title": "Understand Virtual Object Status",
+          "transcript": "",
+          "url": "understand-virtual-object-status",
+          "vimeoId": "199040204"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie explore the vSphere web interface used to configure ESXi servers. They explain the function of the different client panes, object navigation, the main workspace, filters, access control, tagging and categorization.",
+          "length": "2005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-2-navigate_vsphere_interface-011017-PGM.00_33_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-2-navigate_vsphere_interface-011017-PGM.00_33_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-2-navigate_vsphere_interface-011017-PGM.00_33_11_26.Still001-sm.jpg",
+          "title": "Navigate vSphere Interface",
+          "transcript": "",
+          "url": "navigate-vsphere-interface",
+          "vimeoId": "199041155"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie discuss the technologies and tools administrators can utilize to monitor hosts running on ESXi. They look at tools like the Client Integration Plugin, how to acquire the plugin and browser support. They also explain the VWWare Remote Console, VMWare tools and how to utilize them.",
+          "length": "1712",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-3-monitor_esxi_host_and_vms-011117-PGM.00_28_19_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-3-monitor_esxi_host_and_vms-011117-PGM.00_28_19_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-3-monitor_esxi_host_and_vms-011117-PGM.00_28_19_00.Still001-sm.jpg",
+          "title": "Monitor ESXi Host and VMs",
+          "transcript": "",
+          "url": "monitor-esxi-hostvms",
+          "vimeoId": "199217955"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie discuss the various operations that can be performed on a VM through the vSphere Web Client. They explain the different power states of a VM and how to identify these states. They look at the different startup options available for VMs on ESXi.",
+          "length": "1600",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-1-perform_vm_operations-011117-PGM.00_26_26_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-1-perform_vm_operations-011117-PGM.00_26_26_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-1-perform_vm_operations-011117-PGM.00_26_26_17.Still001-sm.jpg",
+          "title": "Perform VM Operations",
+          "transcript": "",
+          "url": "perform-vm-operations",
+          "vimeoId": "199341641"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie continue their discussion on the various operations that can be performed on a VM through the vSphere. They will look at vApp operations that can be performed as well as demonstrating operating system installation in Windows and Linux.",
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-2-perform_vm_operations_pt2-011117.00_28_43_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-2-perform_vm_operations_pt2-011117.00_28_43_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-4-2-perform_vm_operations_pt2-011117.00_28_43_02.Still001-sm.jpg",
+          "title": "Perform VM Operations Part 2",
+          "transcript": "",
+          "url": "perform-vm-operations2",
+          "vimeoId": "204582288"
+        }
+      ],
+      "title": "VCA6-DCV Update for Exam 1V0-621"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie go over the common business challenges like availability, management, optimization, and scalability; and how to leverage VMware solutions to remediate those issues. They help you discern which solution to use based on business size from small to enterprise.",
+          "length": "658",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-apply_vmware_dcv_solutions-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-apply_vmware_dcv_solutions-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vc6a6dcv/vmware-vca6dcv-3-1-apply_vmware_dcv_solutions-040816-1-sm.jpg",
+          "title": "Apply VMware DCV Solutions",
+          "transcript": "",
+          "url": "apply-vmware-dcv-solutions",
+          "vimeoId": "162584319"
+        }
+      ],
+      "title": "Correlate VMware Data Center Virtualization Solutions with Specific Business Challenges"
+    }
+  ],
+  "url": "vmware-certified-associate-6-vca6dcv",
+  "vLab": false
+}

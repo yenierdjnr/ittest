@@ -1,0 +1,203 @@
+{
+  "description": "This Accelerated Cisco CCNA Routing + Switching show helps candidate review their exam readiness for 200-105 exam.  It’s a fast paced and hard hitting review of every exam objective for latest CCNA 200-105 exam. The accelerated pace is helpful for those that are ready for the exam and give an in-depth review of each objective you may encounter for CCNA R+S.\nThe episodes can be used as part of building a candidate's knowledge and skills in LAN switching technologies such as trunking, VLAN trunking protocol and dealing with Switching loops along with troubleshooting. IPv4 and IPv6 routing technologies in RIPng, EIGRP and OSPF are also discussed and configured helping the candidate to understand and troubleshoot configuration and routing issues. WAN technologies, infrastructure services, and infrastructure maintenance technologies are also described and configured to help the CCNA candidate not only for the exam but also for business and production use.",
+  "descriptionMD": "",
+  "length": "33069",
+  "name": "Accelerated CCNA Routing and Switching",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Network Associate",
+  "tagUrl": "ccna",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This show helps the Cisco CCNA Routing + Switching candidate prepare for the 200-105 exam objectives. The episodes can be used as part of building a candidate's knowledge and skills in LAN switching technologies such as trunking, VLAN trunking protocol and dealing with Switching loops along with troubleshooting. IPv4 and IPv6 routing technologies in RIPng, EIGRP and OSPF are also discussed and configured helping the candidate to understand and troubleshoot configuration and routing issues. WAN technologies, infrastructure services, and infrastructure maintenance technologies are also described and configured to help the CCNA candidate not only for the exam but also for business and production use.",
+          "length": "254",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-introduction_to_icnd2-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-introduction_to_icnd2-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-introduction_to_icnd2-052616-1-sm.jpg",
+          "title": "Introduction to ICND2",
+          "transcript": "WEBVTT\n\n1\n00:00:00.055 --> 00:00:09.411\n[MUSIC]\n\n2\n00:00:09.411 --> 00:00:11.190\nWelcome to ITProTV.\n\n3\n00:00:11.190 --> 00:00:15.992\nToday, we're gonna introduce you to\nthe new ICND2 content, getting ready for\n\n4\n00:00:15.992 --> 00:00:20.167\nthat CCNA routing and\nswitching exam, Exam number 200-105.\n\n5\n00:00:20.167 --> 00:00:23.372\nAnd here to give us some details\non it is gonna be Mr. Todd Lammle.\n\n6\n00:00:23.372 --> 00:00:24.141\nThank you for joining us.\n\n7\n00:00:24.141 --> 00:00:26.151\n>> All right, Ronnie,\nit's great to be here and be back.\n\n8\n00:00:26.151 --> 00:00:29.072\nWe're gonna jump into ICND2.\n\n9\n00:00:29.072 --> 00:00:33.190\nHopefully you've gone though ICND1 and\nCCENT, and maybe even took your exam and\n\n10\n00:00:33.190 --> 00:00:34.511\nthat's under your belt.\n\n11\n00:00:34.511 --> 00:00:37.996\nOr you're looking to build some more\nfoundation before you take your CCENT,\n\n12\n00:00:37.996 --> 00:00:39.410\nthat's a good idea.\n\n13\n00:00:39.410 --> 00:00:42.320\nAll right, so in these episodes\nwe're going to go ahead and\n\n14\n00:00:42.320 --> 00:00:45.350\nstart with deep understanding\nof switching, all right?\n\n15\n00:00:45.350 --> 00:00:48.400\nWe're gonna do enhanced switching,\nand that includes\n\n16\n00:00:48.400 --> 00:00:52.580\na deep dive into spanning tree protocol\nand rapid spanning tree protocol.\n\n17\n00:00:52.580 --> 00:00:56.620\nAlso, back on the objectives\nfrom at least six years ago\n\n18\n00:00:56.620 --> 00:01:00.014\non the CCNA is something\ncalled virtual trunk protocol.\n\n19\n00:01:00.014 --> 00:01:04.740\nSo it's back, right, and we're gonna\ngo through VTP and learn how to use\n\n20\n00:01:04.740 --> 00:01:09.400\nthat in CDP to find your bridge and to\nupdate your databases and stuff like that.\n\n21\n00:01:09.400 --> 00:01:12.550\nAnd then we're going to go ahead and have\nsome fun after we get through all those\n\n22\n00:01:12.550 --> 00:01:15.850\nepisodes, and hit something ether\nchannel where we're bundling things.\n\n23\n00:01:15.850 --> 00:01:19.009\nSo we're not using spanning tree, really,\nor we're gonna bundle our links so\n\n24\n00:01:19.009 --> 00:01:20.850\nspanning tree sees it as one link.\n\n25\n00:01:20.850 --> 00:01:25.209\nAnd then we're gonna hit HSRP, which\nis somewhat of a disappointment to me,\n\n26\n00:01:25.209 --> 00:01:29.314\nbecause we really shouldn't use HSRP\ntoday, you should be using GLBP.\n\n27\n00:01:29.314 --> 00:01:32.578\nBut in the new objectives\nthey came out with in 2016,\n\n28\n00:01:32.578 --> 00:01:36.185\nthey took that off when it was on before,\nand only left on HSRP.\n\n29\n00:01:36.185 --> 00:01:38.700\nAnd that's a mistake as far as I can tell.\n\n30\n00:01:38.700 --> 00:01:42.333\nBut, we're gonna go through HSRP\nin detail, we're gonna use it,\n\n31\n00:01:42.333 --> 00:01:46.364\nyou're gonna pass your CCNA and\nthen never use HSRP again, only use GLBP.\n\n32\n00:01:46.364 --> 00:01:48.357\nAll right, and we'll talk about that.\n\n33\n00:01:48.357 --> 00:01:52.743\nAll right, then we're gonna hit\na deep dive into EIGRP and EIGRPv6.\n\n34\n00:01:52.743 --> 00:01:54.946\nWe're gonna spend a good\namount of time on that,\n\n35\n00:01:54.946 --> 00:01:58.975\nreally understanding it's a routing\nprotocol that just always seems to work.\n\n36\n00:01:58.975 --> 00:02:02.593\nAnd unlike the next episode after that,\nOSPF E2 and OSPF E3,\n\n37\n00:02:02.593 --> 00:02:07.165\nit's a little more convoluted and we have\na little bit more work to do with OSPF,\n\n38\n00:02:07.165 --> 00:02:10.119\nand a little bit more\nfundamental understanding.\n\n39\n00:02:10.119 --> 00:02:13.855\nSo it is a much bigger section than\nit is on EIGRP cuz there's just so\n\n40\n00:02:13.855 --> 00:02:14.803\nmuch more to it.\n\n41\n00:02:14.803 --> 00:02:16.961\nAll right, so after that we're\ngonna hit troubleshooting.\n\n42\n00:02:16.961 --> 00:02:22.375\nI'm gonna go back to all our routing\nprotocols, and default routes.\n\n43\n00:02:22.375 --> 00:02:26.660\nAnd we're going to look at IP and\nIPv6 access lists,\n\n44\n00:02:26.660 --> 00:02:29.719\nboth standard and extended, right?\n\n45\n00:02:29.719 --> 00:02:33.564\nSo, in the CCENT only covered\nstandard access lists, but\n\n46\n00:02:33.564 --> 00:02:38.960\nnow they don't get real big into extended\naccess lists in the CCNA anymore.\n\n47\n00:02:38.960 --> 00:02:41.710\nBut in the troubleshooting section,\nwe're gonna have to understand\n\n48\n00:02:41.710 --> 00:02:45.350\nextended access lists and\nbe able to troubleshoot both IP 4 and\n\n49\n00:02:45.350 --> 00:02:48.350\nIP version 6 and\nthat's kinda a new objective there.\n\n50\n00:02:48.350 --> 00:02:52.070\nThen, we're gonna go and hit, in the\ntroubleshooting section, we've got SPAN\n\n51\n00:02:52.070 --> 00:02:55.690\nand we've got service level agreements\nthat we're gonna use to troubleshoot and\n\n52\n00:02:55.690 --> 00:02:57.360\ntest our networks with, okay?\n\n53\n00:02:57.360 --> 00:03:00.070\nSo then after that we're\ngonna hit wide area networks.\n\n54\n00:03:00.070 --> 00:03:03.290\nNow, the good news is,\nafter all of these years,\n\n55\n00:03:03.290 --> 00:03:07.260\nFrame Relay is no longer on a CCNA,\nthat is so long overdue.\n\n56\n00:03:07.260 --> 00:03:12.860\nSo starting in 2016 they took out the\nFrame Relay and we've got more PPP really.\n\n57\n00:03:12.860 --> 00:03:15.470\nSo we still have some serial links, right?\n\n58\n00:03:15.470 --> 00:03:18.270\nI don't see those a lot in any of\nmy customers too much anymore.\n\n59\n00:03:18.270 --> 00:03:20.230\nBut if you have serial links,\nyou can still run HTLC,\n\n60\n00:03:20.230 --> 00:03:23.080\nthat's still in the objectives,\nbut PPP, multi-link PPP.\n\n61\n00:03:23.080 --> 00:03:25.590\nAnd then we're gonna go ahead and\nhit our tunnels,\n\n62\n00:03:25.590 --> 00:03:28.540\nwe'll top out VPN, build a GRE tunnel.\n\n63\n00:03:28.540 --> 00:03:34.020\nAnd then we're gonna end with a really\nfun lab on BGP, border gateway protocols.\n\n64\n00:03:34.020 --> 00:03:35.850\nSo that's a new objective as well.\n\n65\n00:03:35.850 --> 00:03:38.650\nAnd then we're gonna end with\nnetwork device security and\n\n66\n00:03:38.650 --> 00:03:41.230\nevolution of intelligent networks.\n\n67\n00:03:41.230 --> 00:03:43.030\nThose will be our last episodes.\n\n68\n00:03:43.030 --> 00:03:46.312\nThey're not nearly as long, so we start\noff with really long episodes, right?\n\n69\n00:03:46.312 --> 00:03:49.658\nWe kinda then have some fun,\nget into EIGRP,\n\n70\n00:03:49.658 --> 00:03:54.780\nget into some real heavy depth in OSPF and\ntroubleshooting, right?\n\n71\n00:03:54.780 --> 00:03:57.888\nAnd then we end up with\nsome fun new stuff, right?\n\n72\n00:03:57.888 --> 00:04:01.377\nThat's how the new ICND2 is gonna go,\nso stick around.\n\n73\n00:04:01.377 --> 00:04:04.740\nLet's head, right now,\ninto enhanced switching.\n\n74\n00:04:04.740 --> 00:04:11.507\n[MUSIC]\n\n",
+          "url": "introduction-icnd2",
+          "vimeoId": "169854286"
+        },
+        {
+          "description": "In this episode, Todd Lammle describes and configures how a CCNA candidate deals with switch loop problems such as broadcast storms, multiple source paths and mac-address table instabilities.  He demonstrates how STP, Spanning-Tree Protocol, works to stop these problems by creating a single path for data to the Root Bridge.  He describes the STP Root Bridge Selection and how non-root bridges decides it’s root port as well as how to decide whether ports block or forward data.   Todd also introduces the different STP standards of 802.1d, 802.1w, and 802.1s.",
+          "length": "3247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-1-enhanced_switching-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-1-enhanced_switching-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-1-enhanced_switching-052416-1-sm.jpg",
+          "title": "Enhanced Switching",
+          "transcript": "",
+          "url": "enhanced-switching",
+          "vimeoId": "168554820"
+        },
+        {
+          "description": "In this episode, Mr. Lammle continues with demonstrating how to verify and change how spanning tree protocol can work by manually changing the priority to become the root bridge and by configuring a switch to become the root for a particular vlan.  Todd also describes the use of VTP and it’s practical usage by configuring the VTP domain-name and mode.  Even so it can be practical, it’s considered to bring more problems than solutions to a switching network.",
+          "length": "2135",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-2-enhanced_switching_pt2-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-2-enhanced_switching_pt2-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-1-1-2-enhanced_switching_pt2-052416-1-sm.jpg",
+          "title": "Enhanced Switching Part 2",
+          "transcript": "",
+          "url": "enhanced-switching-2-06",
+          "vimeoId": "168554403"
+        },
+        {
+          "description": "In this episode, Cisco Expert, Todd Lammle demonstrates and explains the configuration and use of EtherChannel.  He discusses bundling multiple links together to provide redundancy and more bandwidth between switches.  In STP, the entire EtherChannel is seen as a single logical link.  There are 2 configuration:  PAgP and LACP.  They must be configured on both sides of the connection with a port-group, interfaces must be added to a channel-group.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-2-1-etherchannel-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-2-1-etherchannel-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-2-1-etherchannel-052416-1-sm.jpg",
+          "title": "EtherChannel",
+          "transcript": "",
+          "url": "etherchannel",
+          "vimeoId": "168554221"
+        }
+      ],
+      "title": "LAN Switching Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mr. Todd Lammle introduces the routing protocol of OSPF.   OSPF is a link-state protocol that uses the Shortest Path First Algorithm to determine the best route to the destination and does more, according to Todd.  He tells us that OSPF also creates a neighbor table, topology table and routing table based on “cost” (bandwidth).  OSPF doesn’t exchange routes so much as link-states between routers, Todd says.  He also describes that routers can report different LSAs depending on whether the router is an ABR, Area Border Router or ASBR, Autonomous System Border Router.  He also shows the basic OSPF configuration styles using the ‘Router OSPF <Process-ID>’ command or per interface using ‘ip ospf <proccess-id> area<area-id>1’",
+          "length": "2104",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-1-ospf-052516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-1-ospf-052516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-1-ospf-052516-1-sm.jpg",
+          "title": "OSPF",
+          "transcript": "",
+          "url": "ospf7",
+          "vimeoId": "168937925"
+        },
+        {
+          "description": "In this episode, Cisco Expert Todd Lammle continues to describe and demonstrates how routers become OSPF neighbors and what fields must match for routers to become neighbors.  He describes how, from where and when the different LSA are advertised out.  If your OSPF is in ethernet broadcast network, OSPF will elect a DR, Designated Router and a BDR, Backup Designated Router.  He shows the basic configuration and verification of OSPF single area and multiple area configuration.",
+          "length": "3357",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-2-ospf_pt2-052516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-2-ospf_pt2-052516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-5-1-2-ospf_pt2-052516-1-sm.jpg",
+          "title": "OSPF Part 2",
+          "transcript": "",
+          "url": "ospf8",
+          "vimeoId": "169083136"
+        },
+        {
+          "description": "In this episode, Todd Lammle introduces EIGRP as a routing protocol.  This protocol creates a 100% loop free routing for all routers configured with EIGRP.  He also describes how EIGRP builds a neighbor table, topology table and routing table to discover not only the best route (Successor) but also the next best route (Feasible Successor).  Todd also shows the simple configuration for EIGRP and differences for using subnets depending on the IOS version.  To insure that routers become EIGRP neighbors, routers must match on Autonomous System number and K-Values, Todd reminds us.",
+          "length": "1950",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-1-eigrp-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-1-eigrp-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-1-eigrp-052416-1-sm.jpg",
+          "title": "EIGRP",
+          "transcript": "",
+          "url": "eigrp7",
+          "vimeoId": "168553847"
+        },
+        {
+          "description": "In this episode, Todd demonstrates the EIGRP configuration between multiple routers and does some troubleshooting with the configured routers.  After demonstrating the working model in EIGRP, he add IPv6 EIGRP configuration along with using the variance commands to show the ease of configuration.",
+          "length": "2446",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-2-eigrp_pt2-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-2-eigrp_pt2-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-4-1-2-eigrp_pt2-052416-1-sm.jpg",
+          "title": "EIGRP Part 2",
+          "transcript": "",
+          "url": "eigrp-2",
+          "vimeoId": "168553699"
+        },
+        {
+          "description": "In this episode, Todd Lammle demonstrates troubleshooting skills on Cisco routers.  He implements multiple routing protocols including RIP,RIPng, EIGRP, OSPF and OSPF v3 on points out the troubleshooting points to examine when routing isn’t occurring.  He also points out issues with using default-information originate.",
+          "length": "2814",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-1-troubleshooting-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-1-troubleshooting-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-1-troubleshooting-052616-1-sm.jpg",
+          "title": "Troubleshooting",
+          "transcript": "",
+          "url": "troubleshooting",
+          "vimeoId": "168937918"
+        },
+        {
+          "description": "In this episode, Cisco Expert Todd Lammle continues with troubleshooting with EIGRP in IPv6 and makes sure we understand the configuration issue of typing no shutdown in the ipv6 router configuration.  He also goes into details about neighbor adjacencies not forming and shows how to compare the configurations for the matching values we must see. He also assigns an access-list to a routing protocol and well as demonstrates access-list application. He turns his attention to switches and demonstrates using SPAN and SLA testing to round out the list of tools that we can use to help troubleshooting routing and switching on cisco devices.",
+          "length": "3386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-2-troubleshooting_pt2-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-2-troubleshooting_pt2-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-7-1-2-troubleshooting_pt2-052616-1-sm.jpg",
+          "title": "Troubleshooting Part 2",
+          "transcript": "",
+          "url": "troubleshooting-2",
+          "vimeoId": "168937917"
+        }
+      ],
+      "title": "Routing Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cisco Expert, Todd Lammle describes some of the Wide Area Network technologies such as leased, shared and broadband connections between sites.  He then describes and configures PPP and Multi-Link PPP connections between routers and demonstrates how to configure a dialer configuration.",
+          "length": "2958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-1-wide_area_networks-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-1-wide_area_networks-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-1-wide_area_networks-052616-1-sm.jpg",
+          "title": "Wide Area Networks",
+          "transcript": "",
+          "url": "wide-networks",
+          "vimeoId": "168937923"
+        },
+        {
+          "description": "In this episode, Mr. Todd Lammle describes VPN technologies.  He categories them into Enterprise-Managed VPN and Service Provider VPNs.  Then he describes the most common types of Enterprise-Managed VPNs such as remote access, site-to-site and extranet vpns.  Todd also describes and configures a GRE tunnel and BGP.",
+          "length": "1651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-2-wide_area_networks_pt2-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-2-wide_area_networks_pt2-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-6-1-2-wide_area_networks_pt2-052616-1-sm.jpg",
+          "title": "Wide Area Networks Part 2",
+          "transcript": "",
+          "url": "wide-networks-2",
+          "vimeoId": "168937922"
+        }
+      ],
+      "title": "WAN Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Todd introduces us to HSRP and GLBP.  HSRP has reappeared as an exam objective even though rarely used in production systems; the standard today will be GLBP, according to Lammle.  He configures HSRP as a fault tolerant system to take over, using the standby command and preempt will allow us to configure this configuration and create a virtual router with a virtual IP address.",
+          "length": "1220",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-3-1-first_hop_redundancy_protocols-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-3-1-first_hop_redundancy_protocols-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-3-1-first_hop_redundancy_protocols-052416-1-sm.jpg",
+          "title": "First Hop Redundancy Protocols",
+          "transcript": "",
+          "url": "hop-redundancy-protocols",
+          "vimeoId": "168553920"
+        }
+      ],
+      "title": "Infrastructure Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Todd Lammle introduces to some of the network management concept for remote authentication using AAA servers.  He also demonstrates preventing a rogue DCHP server from getting access to the network to cause issues.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-8-1-basic_network_decive_management-052716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-8-1-basic_network_decive_management-052716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-8-1-basic_network_decive_management-052716-1-sm.jpg",
+          "title": "Basic Network Device Management",
+          "transcript": "",
+          "url": "basic-network-device-management",
+          "vimeoId": "168937919"
+        },
+        {
+          "description": "In this episode, Cisco Expert Todd Lammle helps us to go beyond the concept of just connectivity of cisco devices to the concepts of centralized management and even Software Defined Networking.  Because networks are becoming more complex, we need complex management to allow us to manage network devices regardless of location, or type of device.  Todd explains all these concepts to help us to get ready for the intelligent network.",
+          "length": "2334",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-9-1-evolution_of_intelligent_networks-052716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-9-1-evolution_of_intelligent_networks-052716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-icnd2200105/cisco-icnd2200-105-9-1-evolution_of_intelligent_networks-052716-1-sm.jpg",
+          "title": "Evolution of Intelligent Networks",
+          "transcript": "",
+          "url": "evolution-intelligent-networks",
+          "vimeoId": "168937920"
+        }
+      ],
+      "title": "Infrastructure Maintenance"
+    }
+  ],
+  "url": "ccna-routing-switching2",
+  "vLab": false
+}

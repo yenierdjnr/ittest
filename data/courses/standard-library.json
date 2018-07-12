@@ -1,0 +1,183 @@
+{
+  "description": "Part of the power of Python is the array of tools that come built into the language, known as the Python Standard Library. In this series, we take a look at the Standard Library, import from the Standard Library, as well as take a view of some of the more common modules, or parts, of the Standard Library. If you want to dive a little deeper, then we will see you there.",
+  "descriptionMD": "Part of the power of Python is the array of tools that come built into the language, known as the Python Standard Library. In this series, we take a look at the Standard Library, import from the Standard Library, as well as take a view of some of the more common modules, or parts, of the Standard Library. If you want to dive a little deeper, then we will see you there.",
+  "length": "21597",
+  "name": "Use the Standard Library",
+  "practiceExam": false,
+  "subtitle": "The Power of Python",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Part of the power of Python is the array of tools that come built into the language, known as the Python Standard Library. In this series, we take a look at the Standard Library, import from the Standard Library, as well as take a view of some of the more common modules, or parts, of the Standard Library. If you want to dive a little deeper, then we will see you there.",
+          "length": "171",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-0-0-0-overview-062918-PGM.00_00_05_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-0-0-0-overview-062918-PGM.00_00_05_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-0-0-0-overview-062918-PGM.00_00_05_29.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:05.052\n[SOUND] Hello, and thank you for\n\n2\n00:00:05.052 --> 00:00:08.923\nwatching DevProTV.\n\n3\n00:00:08.923 --> 00:00:13.400\nToday we're gonna be talking about use\nthe standard library with Justin Denison.\n\n4\n00:00:13.400 --> 00:00:16.440\nNow Justin, can you tell us\nabout what this course has to\n\n5\n00:00:16.440 --> 00:00:18.130\noffer the people out there?\n&gt;&gt; So\n\n6\n00:00:18.130 --> 00:00:22.140\nPython's called a batteries included\nlanguage, and, well, up until this point\n\n7\n00:00:22.140 --> 00:00:26.360\nwe've kind of been dabbling just in the\nthings that are just readily available.\n\n8\n00:00:26.360 --> 00:00:30.440\nHowever, that's not all the power that's\navailable in Python, we have this\n\n9\n00:00:30.440 --> 00:00:35.420\nexpansive set of other functionalities\nthat are called the standard libraries, so\n\n10\n00:00:35.420 --> 00:00:37.230\nwe are gonna be exploring\nthat a little bit.\n\n11\n00:00:37.230 --> 00:00:39.340\n&gt;&gt; Okay, so who should watch this show?\n\n12\n00:00:39.340 --> 00:00:40.710\n&gt;&gt; This is a show for\n\n13\n00:00:40.710 --> 00:00:42.290\nsomeone who's just getting\nstarted programming,\n\n14\n00:00:42.290 --> 00:00:46.200\npredictably programming in Python because\nthat's what we're gonna be talking about.\n\n15\n00:00:46.200 --> 00:00:49.080\nWell, your like, I feel comfortable,\nright, with creating lists and\n\n16\n00:00:49.080 --> 00:00:52.660\ntuples and now I want to do a little more.\n\n17\n00:00:52.660 --> 00:00:57.010\nI'm trying to figure out well,\nI need to manage some dates, right?\n\n18\n00:00:57.010 --> 00:00:59.360\nI need to figure out\nhow to work with times.\n\n19\n00:00:59.360 --> 00:01:03.180\nIt's meant to help level up\nyour Python programming skills.\n\n20\n00:01:03.180 --> 00:01:05.910\n&gt;&gt; Is this a certification-based course?\n\n21\n00:01:05.910 --> 00:01:08.230\n&gt;&gt; It is not certification-based.\n\n22\n00:01:08.230 --> 00:01:13.123\nAs I've already said, it is meant to\nhelp you progress in your understanding\n\n23\n00:01:13.123 --> 00:01:16.006\nof Python and programming in general.\n&gt;&gt; Could you\n\n24\n00:01:16.006 --> 00:01:18.987\ntell us a little bit more about what\ntopics will be covered in user standard\n\n25\n00:01:18.987 --> 00:01:21.640\nlibrary?\n&gt;&gt; So I'm gonna take a look at some of\n\n26\n00:01:21.640 --> 00:01:27.210\nthe topics that I used most when I\nfirst started programming in Python.\n\n27\n00:01:27.210 --> 00:01:30.040\nThat's the datetime module\nwhere we can manage dates,\n\n28\n00:01:30.040 --> 00:01:33.170\ntimes, and well, together, datetimes.\n\n29\n00:01:33.170 --> 00:01:34.210\nI know it's kind of an odd thing.\n\n30\n00:01:34.210 --> 00:01:38.595\nWe also explore what the concept\nof a date or a time is.\n\n31\n00:01:38.595 --> 00:01:43.370\nWe also see how to use OS\nspecific functionalities,\n\n32\n00:01:43.370 --> 00:01:46.951\nincluding how to manage file paths, or\n\n33\n00:01:46.951 --> 00:01:51.631\nfolder paths, and\nkind of poking around on those.\n\n34\n00:01:51.631 --> 00:01:54.537\nLook at a little bit of randomness and\n\n35\n00:01:54.537 --> 00:02:00.466\nmanipulating the underlying system\nportion for Python, like settings.\n\n36\n00:02:00.466 --> 00:02:02.045\nHow does the interpreter run?\n\n37\n00:02:02.045 --> 00:02:03.670\nHow does the runtime run?\n\n38\n00:02:03.670 --> 00:02:06.310\nAnd how to change those.\n\n39\n00:02:06.310 --> 00:02:11.330\nWe also spend a little bit of time,\nhow do I get access to those?\n\n40\n00:02:11.330 --> 00:02:12.390\nHow do those come in?\n\n41\n00:02:12.390 --> 00:02:14.230\nWhy are they just available?\n\n42\n00:02:14.230 --> 00:02:16.820\nI can't just use those?\n\n43\n00:02:16.820 --> 00:02:17.560\nHow do I bring those in?\n\n44\n00:02:17.560 --> 00:02:20.991\nSo those are a few of the topics\nthat we're gonna take a look at.\n\n45\n00:02:20.991 --> 00:02:24.156\nAnd, well, I will tell you,\nit seems not that difficult but\n\n46\n00:02:24.156 --> 00:02:28.005\nit can get a little deep, so you might\nwanna bring your hip waiters as far as\n\n47\n00:02:28.005 --> 00:02:32.091\nthat is concerned.\n&gt;&gt; All right, Justin, thank you so much,\n\n48\n00:02:32.091 --> 00:02:37.141\nand if user standard library is something\nthat interests you, and you wanna be\n\n49\n00:02:37.141 --> 00:02:42.419\nthe one step closer to being a Python pro,\nbe sure to check out every single episode\n\n50\n00:02:42.419 --> 00:02:47.965\nthat user standard library has to offer in\nour course library, thanks for watching.\n\n51\n00:02:47.965 --> 00:02:48.465\n[SOUND]\n\n",
+          "url": "overviewthe-standard-library",
+          "vimeoId": "278018813"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a brief tour of the Python standard library documentation as well as discuss the utility of the standard library.",
+          "length": "946",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-1-1-1-what_is_the_standard_library-062518-PGM.00_15_39_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-1-1-1-what_is_the_standard_library-062518-PGM.00_15_39_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-1-1-1-what_is_the_standard_library-062518-PGM.00_15_39_21.Still001-sm.jpg",
+          "title": "What is the Standard Library",
+          "transcript": "",
+          "url": "standard-library",
+          "vimeoId": "277310095"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a look at several ways to import modules from the Python standard library. Justin highlights the pros and cons of the different import methods.",
+          "length": "1158",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-2-1-1-access_the_standard_library-062518-PGM.00_21_18_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-2-1-1-access_the_standard_library-062518-PGM.00_21_18_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-2-1-1-access_the_standard_library-062518-PGM.00_21_18_05.Still001-sm.jpg",
+          "title": "Access the Standard Library",
+          "transcript": "",
+          "url": "accessstandard-library",
+          "vimeoId": "277309909"
+        },
+        {
+          "description": "In this episode, Justin and Aubri explore some of the common functionality that is sometimes needed from the os module.",
+          "length": "1631",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-3-1-1-use_the_os_module-062518-PGM.00_27_30_24.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-3-1-1-use_the_os_module-062518-PGM.00_27_30_24.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-3-1-1-use_the_os_module-062518-PGM.00_27_30_24.Still002-sm.jpg",
+          "title": "Use the os Module",
+          "transcript": "",
+          "url": "os-module",
+          "vimeoId": "277309695"
+        },
+        {
+          "description": "In this episode, Justin and Aubri dive into the os.path module for manipulating, creating, and inspecting file paths. Justin explores the functions that provide functionality for each of those areas as well as discusses the headaches that os.path alleviates.",
+          "length": "1766",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-1-use_the_os_path_module-062618-PGM.00_35_05_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-1-use_the_os_path_module-062618-PGM.00_35_05_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-1-use_the_os_path_module-062618-PGM.00_35_05_27.Still001-sm.jpg",
+          "title": "Use the os.path Module",
+          "transcript": "",
+          "url": "ospath-module-standard-library",
+          "vimeoId": "277309444"
+        },
+        {
+          "description": "In this episode, Justin and Aubri dive into the os.path module for manipulating, creating, and inspecting file paths. Justin explores the functions that provide functionality for each of those areas as well as discusses the headaches that os.path alleviates.",
+          "length": "1600",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-2-use_the_os_path_module_pt2-062618-PGM.00_32_42_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-2-use_the_os_path_module_pt2-062618-PGM.00_32_42_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-4-1-2-use_the_os_path_module_pt2-062618-PGM.00_32_42_03.Still001-sm.jpg",
+          "title": "Use the os.path Module Part 2",
+          "transcript": "",
+          "url": "ospath-module2",
+          "vimeoId": "277310292"
+        },
+        {
+          "description": "In this episode, Justin and Aubri talk about handling dates and times in Python. Justin discusses the representation of dates and times in many programming languages then dives into the datetime module to demonstrate how that module makes things easier to reason about by creating dates, times, and datetimes.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-1-use_the_datetime_module_getting_started-062618-PGM.00_33_48_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-1-use_the_datetime_module_getting_started-062618-PGM.00_33_48_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-1-use_the_datetime_module_getting_started-062618-PGM.00_33_48_24.Still001-sm.jpg",
+          "title": "Use the datetime Module: Getting Started",
+          "transcript": "",
+          "url": "datetime-module-getting-started",
+          "vimeoId": "277343706"
+        },
+        {
+          "description": "In this episode, Justin and Aubri continue their discussion about handling dates, times, and datetimes in Python. Justin explores the use of timedelta objects, the representation of changes in datetimes, in order to create a new datetime object as well as how timedeltas are produced when doing math with dates, times, and datetimes.",
+          "length": "1280",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-2-use_the_datetime_module_timedeltas_and_arithmetic-062718-PGM.00_21_55_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-2-use_the_datetime_module_timedeltas_and_arithmetic-062718-PGM.00_21_55_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-2-use_the_datetime_module_timedeltas_and_arithmetic-062718-PGM.00_21_55_10.Still001-sm.jpg",
+          "title": "Use the datetime Module: Timedeltas and Arithmetic",
+          "transcript": "",
+          "url": "datetime-module-timedeltasarithmetic",
+          "vimeoId": "277342969"
+        },
+        {
+          "description": "In this episode, Justin and Aubri further explore the datetime module by exploring the ability to compare datetime objects.",
+          "length": "1427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-3-use_the_datetime_module_comparisons-062718-PGM.00_00_12_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-3-use_the_datetime_module_comparisons-062718-PGM.00_00_12_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-3-use_the_datetime_module_comparisons-062718-PGM.00_00_12_26.Still001-sm.jpg",
+          "title": "Use the datetime Module: Comparisons",
+          "transcript": "",
+          "url": "datetime-module-comparisons",
+          "vimeoId": "277342326"
+        },
+        {
+          "description": "In this episode, Justin and Aubri finish up the exploring the datetime module by parsing, converting text, to datetimes. Additionally, Justin demonstrates how to take a datetime, create a formatted string from that object, and basic usage of the timezone objects.",
+          "length": "1534",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-4-use_the_datetime_module_parsing_and_timezones-062718-PGM.00_27_30_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-4-use_the_datetime_module_parsing_and_timezones-062718-PGM.00_27_30_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-5-1-4-use_the_datetime_module_parsing_and_timezones-062718-PGM.00_27_30_11.Still001-sm.jpg",
+          "title": "Use the datetime Module: Parsing and Timezones",
+          "transcript": "",
+          "url": "datetime-module-parsingtimezones",
+          "vimeoId": "277344194"
+        },
+        {
+          "description": "In this episode, Justin and Aubri jump into learning some math using Python. Justin demonstrates the use of the math module to bring in some additional math functions that are needed from time to time.",
+          "length": "1634",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-6-1-1-use_the_math_module-062818-PGM.00_27_55_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-6-1-1-use_the_math_module-062818-PGM.00_27_55_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-6-1-1-use_the_math_module-062818-PGM.00_27_55_14.Still001-sm.jpg",
+          "title": "Use the math Module",
+          "transcript": "",
+          "url": "math-module",
+          "vimeoId": "278010410"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a look at the sys module in the Python standard library. Justin explores the interpreter settings for Python and demonstrates the settings that are commonly used.",
+          "length": "1418",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-1-use_the_sys_module_interpreter_settings-062818-PGM.00_25_52_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-1-use_the_sys_module_interpreter_settings-062818-PGM.00_25_52_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-1-use_the_sys_module_interpreter_settings-062818-PGM.00_25_52_19.Still001-sm.jpg",
+          "title": "Use the sys Module: Interpreter Settings",
+          "transcript": "",
+          "url": "sys-module-interpreter-settings",
+          "vimeoId": "278009753"
+        },
+        {
+          "description": "In this episode, Justin and Aubri continue their exploration of the sys module in the Python standard library. Justin demonstrates the runtime environment portion of the sys module such as command line options, status codes, and input/output streams available to Python.",
+          "length": "1660",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-2-use_the_sys_module_runtime_envrionment-062818-PGM.00_28_24_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-2-use_the_sys_module_runtime_envrionment-062818-PGM.00_28_24_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-2-use_the_sys_module_runtime_envrionment-062818-PGM.00_28_24_11.Still001-sm.jpg",
+          "title": "Use the sys Module: Runtime Environment",
+          "transcript": "",
+          "url": "sys-module-runtime-environment",
+          "vimeoId": "278008128"
+        },
+        {
+          "description": "In this episode, Justin and Aubri wrap up their look into the sys module by exploring the settings and functionality provided around the modules and imports that are running in Python. Justin highlights some useful aspects of being able to look at imports and the modules that are available to Python.",
+          "length": "1691",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-3-use_the_sys_module_modules_and_imports-062918-PGM.00_29_28_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-3-use_the_sys_module_modules_and_imports-062918-PGM.00_29_28_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-7-1-3-use_the_sys_module_modules_and_imports-062918-PGM.00_29_28_17.Still001-sm.jpg",
+          "title": "Use the sys Module: Modules and Imports",
+          "transcript": "",
+          "url": "sys-module-modulesimports",
+          "vimeoId": "278005187"
+        },
+        {
+          "description": "In this episode, Justin and Aubri dive into the random module. Justin demonstrates the generation of random numbers and ranges using module level functions as well as how to manage multiple random states using objects.",
+          "length": "1948",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-8-1-1-use_the_random_module-062918-PGM.00_32_28_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-8-1-1-use_the_random_module-062918-PGM.00_32_28_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usethestandardlibrary/techskills-usethestandardlibrary-8-1-1-use_the_random_module-062918-PGM.00_32_28_15.Still001-sm.jpg",
+          "title": "Use the random Module",
+          "transcript": "",
+          "url": "random-module",
+          "vimeoId": "278006514"
+        }
+      ],
+      "title": "Use the Standard Library"
+    }
+  ],
+  "url": "standard-library",
+  "vLab": false
+}

@@ -1,0 +1,422 @@
+{
+  "description": "Microsoft Exchange 2013 is one of the most popular commercially supported email and collaboration platforms in the world. This course helps systems administrators to quickly come up to speed on deploying and supporting each of the various services provided in Exchange. In addition to the real world skills, this course also covers each of the exam objectives required for the Microsoft 70-341 exam which counts toward the MCP and MCSE certifications.",
+  "descriptionMD": "",
+  "length": "50639",
+  "name": "Microsoft Exchange 2013 - 70-341",
+  "practiceExam": true,
+  "subtitle": "Core Solutions of Microsoft Exchange Server 2013",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Microsoft Exchange 2013 is one of the most popular commercially supports email and collaboration platforms in the world. This course helps systems administrators to quickly come up to speed on deploying and supporting each of the various services provided in Exchange. In addition to the real world skills, this course also covers each of the exam objectives required for the Microsoft 70-341 exam which counts toward the MCP and MCSE certifications.",
+          "length": "197",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-0-0-overview-081015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-0-0-overview-081015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-0-0-overview-081015-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:05.186\n[SOUND] In this series, we're gonna be\n\n2\n00:00:05.186 --> 00:00:11.646\ntaking a look at Microsoft Exchange 2013.\n\n3\n00:00:11.646 --> 00:00:14.872\nWe've had a lot of request from viewers\nout there from people implementing their\n\n4\n00:00:14.872 --> 00:00:17.400\nown email systems and\nthey're choosing Microsoft Exchange.\n\n5\n00:00:17.400 --> 00:00:18.410\nThey want some help to be able to do that.\n\n6\n00:00:18.410 --> 00:00:20.640\nSo that's what this series\nis kinda built around.\n\n7\n00:00:20.640 --> 00:00:25.030\nNow we're using the exam objectives for\nthe 70-341 exam to\n\n8\n00:00:25.030 --> 00:00:28.410\nbuild this episode series, just to\nmake sure we cover all that content.\n\n9\n00:00:28.410 --> 00:00:31.140\nBecause it really is a great way\nto get introduced to the product,\n\n10\n00:00:31.140 --> 00:00:34.140\nas well as to get it implemented\nquickly and reliably.\n\n11\n00:00:34.140 --> 00:00:38.140\nNow that means that we're gonna cover a\nlot of great stuff to get you exam ready,\n\n12\n00:00:38.140 --> 00:00:40.690\nbut from a practical sense\nwhat are we gonna cover?\n\n13\n00:00:40.690 --> 00:00:44.910\nWell, in this series we're going to take a\nlook at how to select the right edition of\n\n14\n00:00:44.910 --> 00:00:49.050\nMicrosoft Exchange, how to get Exchange\ninstalled and have the right amount of\n\n15\n00:00:49.050 --> 00:00:53.060\nservers for your environment, get that\nnetwork design properly put in place.\n\n16\n00:00:53.060 --> 00:00:56.944\nHow to implement mailbox services, which\nis probably the most important part of\n\n17\n00:00:56.944 --> 00:00:58.890\nan email server is to\nbe able to send email.\n\n18\n00:00:58.890 --> 00:01:01.140\nBut also take a look\nat the calendaring and\n\n19\n00:01:01.140 --> 00:01:03.460\nother functionality that's\nbuilt inside of Exchange.\n\n20\n00:01:03.460 --> 00:01:06.660\nThere is a ton of power under\nthe hood of Exchange that makes it\n\n21\n00:01:06.660 --> 00:01:08.560\nfar more than an email server.\n\n22\n00:01:08.560 --> 00:01:10.660\nAnd we're gonna take a look\nat all of that, right.\n\n23\n00:01:10.660 --> 00:01:12.790\nLet's take a look at the exam\nobjectives to get a look at some of\n\n24\n00:01:12.790 --> 00:01:14.080\nthe things we're gonna cover.\n\n25\n00:01:14.080 --> 00:01:17.690\nI said we were gonna build this\naround the 70-341 exam and\n\n26\n00:01:17.690 --> 00:01:20.610\nyou'll see that it breaks\nthings up into four categories.\n\n27\n00:01:20.610 --> 00:01:23.380\nInstalling and\nconfiguring the mailbox role, right.\n\n28\n00:01:23.380 --> 00:01:24.880\nThat's the email portion, right.\n\n29\n00:01:24.880 --> 00:01:26.610\nGetting email set up.\n\n30\n00:01:26.610 --> 00:01:29.246\nInstalling and\nconfiguring the client access role.\n\n31\n00:01:29.246 --> 00:01:35.770\nThat's getting POP3, IMAP4, the Outlook\nWeb App, getting those things configured,\n\n32\n00:01:35.770 --> 00:01:39.140\nas well as the full Microsoft Outlook\nclient and some of the advanced\n\n33\n00:01:39.140 --> 00:01:43.950\nfunctionality we get with it, seeing how\nto get those implemented and put in place.\n\n34\n00:01:43.950 --> 00:01:46.751\nThen we're going to move into\ninstalling and configuring transport.\n\n35\n00:01:46.751 --> 00:01:50.277\nNow, by transport we mean what\nhappens to our email while it moves\n\n36\n00:01:50.277 --> 00:01:51.440\nacross the network.\n\n37\n00:01:51.440 --> 00:01:55.879\nAnd that might sound pretty boring, but\nthis is where we do things like anti-spam,\n\n38\n00:01:55.879 --> 00:01:56.700\nanti-virus.\n\n39\n00:01:56.700 --> 00:01:58.270\nWe can do compliance or\n\n40\n00:01:58.270 --> 00:02:02.370\nregulatory compliance type rules where you\ndo email retention or redirecting email.\n\n41\n00:02:02.370 --> 00:02:05.470\nThere's a lot of stuff you can do\nto email while it's in transit.\n\n42\n00:02:05.470 --> 00:02:07.590\nIt might be really complex things or\nreally simple,\n\n43\n00:02:07.590 --> 00:02:11.250\nlike sticking a footer on the bottom\nthat says, this is a private email,\n\n44\n00:02:11.250 --> 00:02:13.500\nplease do not disclose it,\nor something of that nature.\n\n45\n00:02:13.500 --> 00:02:14.880\nThere's a lot we can do there.\n\n46\n00:02:14.880 --> 00:02:17.880\nWe'll see how to manage our\nmessage queues, and so on.\n\n47\n00:02:17.880 --> 00:02:21.120\nAnd then we've got designing and\nmanaging an Exchange infrastructure.\n\n48\n00:02:21.120 --> 00:02:24.560\nWhen you start to build this out,\nyou'll find that small environments\n\n49\n00:02:24.560 --> 00:02:27.320\nhave very different needs\nfrom large environments.\n\n50\n00:02:27.320 --> 00:02:30.940\nIf you just have one Exchange\nadministrator and 20 mailboxes,\n\n51\n00:02:30.940 --> 00:02:33.900\nyou can have a really straightforward and\nsimple Exchange deployment.\n\n52\n00:02:33.900 --> 00:02:35.910\nBut if you have 50,000 users and\n\n53\n00:02:35.910 --> 00:02:40.080\nten Exchange administrators, well, now\nthings get a lot more complex and so we'll\n\n54\n00:02:40.080 --> 00:02:44.040\nlook at some of the functionality that's\nbuilt into Exchange that supports that.\n\n55\n00:02:44.040 --> 00:02:44.970\nSo, all in all,\n\n56\n00:02:44.970 --> 00:02:47.980\nit's gonna be a really good series\ncovering all the information you need.\n\n57\n00:02:47.980 --> 00:02:49.400\nIf you wanna get certified, great.\n\n58\n00:02:49.400 --> 00:02:51.240\nWe're gonna cover all the objectives.\n\n59\n00:02:51.240 --> 00:02:54.412\nIf you're not interested in getting\ncertified, that's fine too.\n\n60\n00:02:54.412 --> 00:02:56.980\nWe're gonna show you what you\nneed to know about Exchange to\n\n61\n00:02:56.980 --> 00:02:59.750\nget it deployed in your environment,\nand to be able to take\n\n62\n00:02:59.750 --> 00:03:02.990\nadvantage of the really cool features\nthat are new in Exchange 2013.\n\n63\n00:03:02.990 --> 00:03:06.960\nSo, if that sounds interesting to you,\nthen you're in the right place.\n\n64\n00:03:06.960 --> 00:03:10.456\nStay tuned, we've got\nMicrosoft Exchange 2013 coming up next.\n\n65\n00:03:10.456 --> 00:03:17.249\n[MUSIC]\n\n",
+          "url": "overview-mcsa-windows-81-70691",
+          "vimeoId": "135908058"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to Microsoft Exchange 2013. He discusses the differences between the Standard and Enterprise editions of Exchange, and wraps up by discussing how Exchange licensing is handled.",
+          "length": "1579",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-1-introduction_to_exchange2013-081015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-1-introduction_to_exchange2013-081015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-1-introduction_to_exchange2013-081015-1-sm.jpg",
+          "title": "Introduction to Exchange 2013",
+          "transcript": "",
+          "url": "introduction-exchange-2013",
+          "vimeoId": "135908053"
+        },
+        {
+          "description": "In this episode, Don discusses the server roles available in Exchange 2013. He begins by discussing the roles found in Exchange 2010 and earlier, and then wraps up by explaining the mail flow in Exchange 2013 along with how each role interacts.",
+          "length": "1400",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-2-exchange_server_roles-081015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-2-exchange_server_roles-081015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-2-exchange_server_roles-081015-1-sm.jpg",
+          "title": "Exchange Server Roles",
+          "transcript": "",
+          "url": "exchange-server-roles",
+          "vimeoId": "135908052"
+        },
+        {
+          "description": "In this episode, Don discusses the steps necessary to prepare your Active Directory prior to installing Exchange 2013. He also discusses some of the different administrative roles that may need to be involved in getting prepared for an Exchange deployment.",
+          "length": "1691",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-3-preparing_the_active_directory-081015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-3-preparing_the_active_directory-081015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-3-preparing_the_active_directory-081015-1-sm.jpg",
+          "title": "Preparing the Active Directory",
+          "transcript": "",
+          "url": "preparing-active-directory",
+          "vimeoId": "135908050"
+        },
+        {
+          "description": "In this episode, Don demonstrates installing Exchange 2013 on a Windows Server 2012 R2 system. He discusses the prerequisites and then walks the viewers through a Mailbox and Client Access server install.",
+          "length": "1467",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-4-installing_exchange_server_2013-081015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-4-installing_exchange_server_2013-081015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-1-4-installing_exchange_server_2013-081015-1-sm.jpg",
+          "title": "Installing Exchange Server 2013",
+          "transcript": "",
+          "url": "installing-exchange-server-2013",
+          "vimeoId": "135908049"
+        }
+      ],
+      "title": "Installing Exchange 2013"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don introduces the viewers to the Exchange 2013 mailbox database. He discusses the files that makeup a mailbox database and walks us through how to create our own databases.",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases-081115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases-081115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases-081115-1-sm.jpg",
+          "title": "Mailbox Databases",
+          "transcript": "",
+          "url": "mailbox-databases",
+          "vimeoId": "135992745"
+        },
+        {
+          "description": "In this episode, Don continues discussing mailbox databases. He begins by demonstrating how to move mailbox databases to alternate locations. He then discusses tuning the file system to ensure that the database operates at optimal efficiency.",
+          "length": "1679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases_pt2-081115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases_pt2-081115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-1-mailbox_databases_pt2-081115-1-sm.jpg",
+          "title": "Mailbox Databases Part 2",
+          "transcript": "",
+          "url": "mailbox-databases-2",
+          "vimeoId": "135992746"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the Exchange 2013 public folder functionality. He discusses how to create and configure public folders. He wraps up the episode by demonstrating how to set permissions and load data into a public folder.",
+          "length": "1311",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-2-public_folders-081115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-2-public_folders-081115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-2-public_folders-081115-1-sm.jpg",
+          "title": "Public Folders",
+          "transcript": "",
+          "url": "public-folders",
+          "vimeoId": "135992747"
+        },
+        {
+          "description": "In this episode, Don demonstrates how Microsoft Exchange assembles a Global Address List. He also shows how to create custom address lists suitable for creating filtered address books for the end users. He ends the show describing the offline address book process.",
+          "length": "1524",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-3-address_books-081215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-3-address_books-081215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-3-address_books-081215-1-sm.jpg",
+          "title": "Address Books",
+          "transcript": "",
+          "url": "address-books",
+          "vimeoId": "136202927"
+        },
+        {
+          "description": "In this episode, Don demonstrates the various recipient types found in Exchange. He walks the viewers through creating standard user mailboxes, and then moves on to more specialized recipients like resource mailboxes and shared mailboxes.",
+          "length": "1508",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients-081215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients-081215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients-081215-1-sm.jpg",
+          "title": "Recipients",
+          "transcript": "",
+          "url": "recipients",
+          "vimeoId": "136202925"
+        },
+        {
+          "description": "This episode is the exciting conclusion to Exchange recipients. In this episode, Don moves on to more specialized recipients like resource mailboxes and shared mailboxes.",
+          "length": "891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients_pt2-081215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients_pt2-081215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-4-recipients_pt2-081215-1-sm.jpg",
+          "title": "Recipients Part 2",
+          "transcript": "",
+          "url": "recipients-2",
+          "vimeoId": "136202924"
+        },
+        {
+          "description": "In this episode, Don describes the various types of distribution groups found in Exchange 2013. He demonstrates how to create and manage the groups, as well as when one group type would be preferred over another based on a client's needs.",
+          "length": "1569",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-5-distribution_groups-082515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-5-distribution_groups-082515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-5-distribution_groups-082515-1-sm.jpg",
+          "title": "Distribution Groups",
+          "transcript": "",
+          "url": "distribution",
+          "vimeoId": "137284153"
+        },
+        {
+          "description": "In this episode, Don demonstrates the various methods for users to delegate access to their Exchange email. He covers Send As, Send on Behalf of, and Full Access delegations as well as which should be used in what scenarios.",
+          "length": "1217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-6-mailbox_delegation-081315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-6-mailbox_delegation-081315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-6-mailbox_delegation-081315-1-sm.jpg",
+          "title": "Mailbox Delegation",
+          "transcript": "",
+          "url": "mailbox-delegation",
+          "vimeoId": "136518221"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to configured \"accepted domains\" in Exchange 2013. This is a critical piece to ensure mail flows properly in a new Exchange install. He ends the episode by configuring Address Policies to apply the new domain suffix to new and existing user accounts.",
+          "length": "1256",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-7-email_address_policies-081315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-7-email_address_policies-081315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-2-7-email_address_policies-081315-1-sm.jpg",
+          "title": "Email Address Policies",
+          "transcript": "",
+          "url": "email-address-policies",
+          "vimeoId": "136518259"
+        }
+      ],
+      "title": "Mailbox Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains the various methods that a client can use to connect to Exchange 2013. He demonstrates MAPI, Outlook Anywhere, ActiveSync, POP3, IMAP4 and SMTP. He also gives some pointers as to when one connectivity method is preferred over another.",
+          "length": "1676",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-1-client_connectivity-081815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-1-client_connectivity-081815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-1-client_connectivity-081815-1-sm.jpg",
+          "title": "Client Connectivity",
+          "transcript": "",
+          "url": "client-connectivity",
+          "vimeoId": "136729107"
+        },
+        {
+          "description": "In this episode, Don explains the Autodiscover service in Exchange 2013. He demonstrates how Microsoft Outlook clients can automatically configure themselves to access an Exchange server. He also explains the steps needed to support clients outside of your local network.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autodiscover-081715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autodiscover-081715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autodiscover-081715-1-sm.jpg",
+          "title": "Autodiscover",
+          "transcript": "",
+          "url": "autodiscover",
+          "vimeoId": "136729109"
+        },
+        {
+          "description": "This episode is the exciting conclusion to the Autodiscover episode. In the last episode, Don demonstrated LAN connectivity. In this episode, he demonstrates configuring Autodiscover for external clients. He ends the episode demonstrating the MailTips feature in Exchange 2013.",
+          "length": "1172",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autosdicover_pt2-081715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autosdicover_pt2-081715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-2-autosdicover_pt2-081715-1-sm.jpg",
+          "title": "Autodiscover Part 2",
+          "transcript": "",
+          "url": "autodiscover-2",
+          "vimeoId": "136729105"
+        },
+        {
+          "description": "In this episode, Don takes the viewers into the world of bring your own device (BYOD) clients. He demonstrates the mobile device management features found in Exchange 2013. He ends the episode by applying a mobile security policy to an Android device.",
+          "length": "1433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-3-mobile_access-081715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-3-mobile_access-081715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-3-3-mobile_access-081715-1-sm.jpg",
+          "title": "Mobile Access",
+          "transcript": "",
+          "url": "mobile-access",
+          "vimeoId": "136729108"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to configure high availability for Client Access Servers in Exchange 2013. He walks the viewers through the process of installing and configuring the Network Load Balancing feature found in Windows 2012.",
+          "length": "1626",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft_exchange70341-3-4-work_load_balancing-081415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft_exchange70341-3-4-work_load_balancing-081415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft_exchange70341-3-4-work_load_balancing-081415-1-sm.jpg",
+          "title": "Network Load Balancing",
+          "transcript": "",
+          "url": "network-load-balancing1",
+          "vimeoId": "136336213"
+        }
+      ],
+      "title": "Client Access Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains the default send and receive connectors present in Exchange 2013. He then demonstrates how to create custom connectors, and some of the various scenarios where that would be necessary.",
+          "length": "1627",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-1-sendrecieve_connectors-081315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-1-sendrecieve_connectors-081315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-1-sendrecieve_connectors-081315-1-sm.jpg",
+          "title": "Send/Receive Connectors",
+          "transcript": "",
+          "url": "sendreceive-connectors",
+          "vimeoId": "136518355"
+        },
+        {
+          "description": "In this episode, Don explains how Transport Rules function in Exchange 2013. He then demonstrates how to configure Transport Rules to achieve common scenarios like appending a legal disclaimer to all emails.",
+          "length": "1776",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-2-transport_rules-081815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-2-transport_rules-081815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-2-transport_rules-081815-1-sm.jpg",
+          "title": "Transport Rules",
+          "transcript": "",
+          "url": "transport-rules",
+          "vimeoId": "136729103"
+        },
+        {
+          "description": "In this episode, Don explores the message queues maintained by the Hub Transport Service found on Exchange Mailbox servers. He demonstrates how the queues work as well as troubleshooting and monitoring techniques.",
+          "length": "1417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-3-message_queues-081815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-3-message_queues-081815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-4-3-message_queues-081815-1-sm.jpg",
+          "title": "Message Queues",
+          "transcript": "",
+          "url": "message-queues",
+          "vimeoId": "136729104"
+        }
+      ],
+      "title": "Mail Flow"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains Microsoft Exchange Edge Transport Servers and their purpose. He then walks the viewers through the prerequisites and installation process.",
+          "length": "1394",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server-082115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server-082115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server-082115-1-sm.jpg",
+          "title": "Installing Edge Servers",
+          "transcript": "",
+          "url": "installing-edge-servers",
+          "vimeoId": "136955390"
+        },
+        {
+          "description": "This episode is the exciting conclusion to the Installing Edge Servers episode. Now that the server is installed, Don demonstrates how to connect the server to the internal network and verify replication between the systems.",
+          "length": "1246",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server_pt2-082115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server_pt2-082115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-1-installing_edge_server_pt2-082115-1-sm.jpg",
+          "title": "Installing Edge Servers Part 2",
+          "transcript": "",
+          "url": "installing-edge-servers-2",
+          "vimeoId": "136955389"
+        },
+        {
+          "description": "In this episode, Don walks the viewers through the available transport agents found on an Edge Transport server. He demonstrates several scenarios where transport rules can be applied to improve email security. He ends the episode by showing how to replicate the rules between Edge servers.",
+          "length": "1729",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-2-configuring_rules-082415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-2-configuring_rules-082415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-5-2-configuring_rules-082415-1-sm.jpg",
+          "title": "Configuring Rules",
+          "transcript": "",
+          "url": "configuring-rules",
+          "vimeoId": "137178876"
+        }
+      ],
+      "title": "Edge Transport Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don discusses some of the different methods available for monitoring replication health in Exchange 2013. He begins by demonstrating how to use the PowerShell to query Database Copy status and Database Availability Group health. He then demonstrates using several counters in the Windows Performance Monitor to record performance trends over longer periods of time.",
+          "length": "1652",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance-092115-1-sm.jpg",
+          "title": "Monitoring and Maintenance",
+          "transcript": "",
+          "url": "monitoring-maintenance-4",
+          "vimeoId": "140111799"
+        },
+        {
+          "description": "In this episode, Don discusses some of the various methods for monitoring the performance and health of Exchange 2013 Mailbox servers and Client Access Servers. He discusses several Performance Monitor counters and highlights how each can be used to monitor different aspects of Exchange performance. He wraps up the show by discussing the Exchange Best Practices Analyzer (BPA).",
+          "length": "1679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt2-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt2-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt2-092115-1-sm.jpg",
+          "title": "Monitoring and Maintenance Part 2",
+          "transcript": "",
+          "url": "monitoring-maintenance-5",
+          "vimeoId": "140111798"
+        },
+        {
+          "description": "In this episode, Don wraps up demonstrating how to monitor Microsoft Exchange 2013 Client Access and Mailbox servers. He shifts from the standard performance counters covered in part 2, to “customer experience” counters that better reflect the end-user experience when sending and receiving email. He discusses ways to detect resource limitations in OWA, Outlook and SMTP.",
+          "length": "1872",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt3-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt3-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-6-1-monitoring_and_maintenance_pt3-092115-1-sm.jpg",
+          "title": "Monitoring and Maintenance Part 3",
+          "transcript": "",
+          "url": "monitoring-maintenance-3",
+          "vimeoId": "140111800"
+        }
+      ],
+      "title": "Monitoring and Maintenance"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don demonstrates how to configure Database Availability Groups in Exchange 2013. He discusses the prerequisites and walks the viewers through the setup process.",
+          "length": "1309",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups-081415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups-081415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups-081415-1-sm.jpg",
+          "title": "Database Availability Groups",
+          "transcript": "",
+          "url": "database-availability",
+          "vimeoId": "136336181"
+        },
+        {
+          "description": "This episode is the exciting conclusion to Database Availability Groups. Now that the servers are configured, Don continues on with the configuration to create multiple database copies. He ends the episode by demonstrating how the database can failover during a failure.",
+          "length": "1589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups_pt2-081415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups_pt2-081415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-1-database_availability_groups_pt2-081415-1-sm.jpg",
+          "title": "Database Availability Groups Part 2",
+          "transcript": "",
+          "url": "database-availability-2",
+          "vimeoId": "136336179"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to properly backup and restore an Exchange mailbox database. He explains various backup strategies as well as some third party software that may be more appropriate in some situations.",
+          "length": "1891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-2-mailbox_database_restore-081915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-2-mailbox_database_restore-081915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-2-mailbox_database_restore-081915-1-sm.jpg",
+          "title": "Mailbox Database Restore",
+          "transcript": "",
+          "url": "mailbox-database-restore",
+          "vimeoId": "136822912"
+        },
+        {
+          "description": "In this episode, Don demonstrates creating a Dial Tone database in Exchange. This is the quickest way to get a failed Mailbox Server online after a failure, but requires proper planning and execution.",
+          "length": "1975",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-3-dial_tone_restore-081915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-3-dial_tone_restore-081915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-3-dial_tone_restore-081915-1-sm.jpg",
+          "title": "Dial Tone Restore",
+          "transcript": "",
+          "url": "dial-tone-restore",
+          "vimeoId": "136822911"
+        },
+        {
+          "description": "In this episode, Don explains how to restore a Public Folder environment in Exchange 2013. He describes how to restore the entire Public Folder mailbox, as well as how to restore individual folders. Finally, he demonstrates the process.",
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-4-public_folder_restore-082115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-4-public_folder_restore-082115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-4-public_folder_restore-082115-1-sm.jpg",
+          "title": "Public Folder Restore",
+          "transcript": "",
+          "url": "public-folder-restore",
+          "vimeoId": "136955391"
+        },
+        {
+          "description": "In this episode, Don demonstrates how to use Microsoft Exchange Recovery Databases to restore a single user's mailbox. While complex, the process is preferable to a full restore as it does not disturb other user's mailboxes.",
+          "length": "1069",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-5-single_mailbox_recovery-081915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-5-single_mailbox_recovery-081915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70341/microsoft-exchange70341-7-5-single_mailbox_recovery-081915-1-sm.jpg",
+          "title": "Single Mailbox Recovery",
+          "transcript": "",
+          "url": "single-mailbox-recovery",
+          "vimeoId": "136822913"
+        }
+      ],
+      "title": "Backup and Restore"
+    }
+  ],
+  "url": "microsoft-exchange-2013",
+  "vLab": false
+}

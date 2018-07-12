@@ -1,0 +1,161 @@
+{
+  "description": "Technicians and administrators alike need tools to diagnose computer problems, centrally manage encryption and recovery keys, provide consistency in user settings, provide application co-existence and more. These are some of the topics that we will tackle in our series on MDOP.",
+  "descriptionMD": "",
+  "length": "21188",
+  "name": "Microsoft Desktop Optimization Pack",
+  "practiceExam": false,
+  "subtitle": "MDOP",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Technicians and administrators alike need tools to diagnose computer problems, centrally manage encryption and recovery keys, provide consistency in user settings, provide application co-existence and more. These are some of the topics that we will tackle in our series on MDOP.",
+          "length": "206",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/overview-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:03.698 --> 00:00:04.216\nWe're here\n\n2\n00:00:04.216 --> 00:00:07.860\nto present to you an overview of\nthe Microsoft Desktop Optimization Pack.\n\n3\n00:00:07.860 --> 00:00:10.260\nThis is gonna be a new tech\nskills show for us, so\n\n4\n00:00:10.260 --> 00:00:13.730\nthat we can actually help you understand\nwhat this product is really all about, and\n\n5\n00:00:13.730 --> 00:00:16.410\nhere to help us out better\nis gonna be Mr Wes Bryan.\n\n6\n00:00:16.410 --> 00:00:21.060\nWes, who is this particular show really\nfor, and what topics will we be covering?\n\n7\n00:00:21.060 --> 00:00:24.350\n&gt;&gt; Well, this is an interesting tech\nskill, because one of the things you might\n\n8\n00:00:24.350 --> 00:00:29.100\nfind out there is, there is plenty of, I\nwould say, textual information about MDOP.\n\n9\n00:00:29.100 --> 00:00:33.560\nBut one of the things it's lacking,\nis more video content, and\n\n10\n00:00:33.560 --> 00:00:36.380\nit is something that,\nit does rear its head from time to time.\n\n11\n00:00:36.380 --> 00:00:40.190\nSo this going to be focused on anybody\nthat wants a little bit better of\n\n12\n00:00:40.190 --> 00:00:43.590\nan understanding of Microsoft's Enterprise\nsuite of technologies,\n\n13\n00:00:43.590 --> 00:00:47.710\nknown as\nthe Microsoft Desktop Optimization Pack.\n\n14\n00:00:47.710 --> 00:00:51.370\nIt helps you to manage things\nlike the user experience.\n\n15\n00:00:51.370 --> 00:00:55.930\nFor instance, desktop applications, things\nlike virtualization, as well as managing\n\n16\n00:00:55.930 --> 00:00:59.820\na lot of the features that you'll find\ninside of your Windows environments.\n\n17\n00:00:59.820 --> 00:01:01.790\nKeep in mind that the viewer\nis gonna be introduced to,\n\n18\n00:01:01.790 --> 00:01:03.220\nnot just a single technology.\n\n19\n00:01:03.220 --> 00:01:06.680\nI know we call this\nMicrosoft Desktop Optimization Pack,\n\n20\n00:01:06.680 --> 00:01:09.470\nbut keep in mind it could\nalso be renamed a toolkit,\n\n21\n00:01:09.470 --> 00:01:14.260\nbecause it has many different applications\nor products, all bundled into one.\n\n22\n00:01:14.260 --> 00:01:18.020\nFor instance, user experience\nvirtualization is gonna be one of those\n\n23\n00:01:18.020 --> 00:01:21.290\nthings that we'll be looking at,\nsometimes called UEV.\n\n24\n00:01:21.290 --> 00:01:24.640\nIt's a way that I can take settings,\nand I can virtualize them, and\n\n25\n00:01:24.640 --> 00:01:27.950\nhave those settings follow me\nwhen I go to different computers.\n\n26\n00:01:27.950 --> 00:01:29.330\nIt's a real handy tool.\n\n27\n00:01:29.330 --> 00:01:30.203\nThings like AppV.\n\n28\n00:01:30.203 --> 00:01:31.230\nMaybe you've heard of this.\n\n29\n00:01:31.230 --> 00:01:33.100\nThis is the Application Virtualization.\n\n30\n00:01:33.100 --> 00:01:37.510\nI need to virtualize an application,\nbut maybe I don't want to put it into\n\n31\n00:01:37.510 --> 00:01:41.200\na hypervisor, and, you know, virtualize\nthe whole entire operating system.\n\n32\n00:01:41.200 --> 00:01:44.990\nSo this is a good way that you could take\napplications, and in a more modular sense,\n\n33\n00:01:44.990 --> 00:01:47.660\nyou can virtualise each\nindividual one if you need to.\n\n34\n00:01:47.660 --> 00:01:50.533\nSome of the other topics that\nwe'll be looking at, is MBAM.\n\n35\n00:01:50.533 --> 00:01:53.641\nThat is, the Microsoft BitLocker,\nan administration and\n\n36\n00:01:53.641 --> 00:01:55.141\nmonitoring kit you can use.\n\n37\n00:01:55.141 --> 00:01:59.467\nIt's, maybe you've heard of BitLocker\ninside of the Windows operating system,\n\n38\n00:01:59.467 --> 00:02:03.975\nwell, BitLocker, unless you're in group\npolicy, is kind of a decentralized type of\n\n39\n00:02:03.975 --> 00:02:07.770\nmanagement system, and it's usually\non a computer to computer basis.\n\n40\n00:02:07.770 --> 00:02:11.740\nBut what this does, the MBAM Software,\nis it allows you to scale up to\n\n41\n00:02:11.740 --> 00:02:16.170\nlarge enterprises, and\ncentrally manage BitLocker keys and\n\n42\n00:02:16.170 --> 00:02:19.890\nBitLocker encryptions that are in\nyour Enterprise level environment.\n\n43\n00:02:19.890 --> 00:02:23.570\nWe'll look at another tool, that,\none of my personal favorites in the MDOP\n\n44\n00:02:23.570 --> 00:02:26.930\nplatform, is something known as\nthe Diagnostic and Recovery Toolkit.\n\n45\n00:02:26.930 --> 00:02:29.120\nAnd this is a great way that,\nlike it says,\n\n46\n00:02:29.120 --> 00:02:32.470\nyou can diagnose different problems that\nhappen inside of the Windows environment.\n\n47\n00:02:32.470 --> 00:02:35.230\nSo, we've got more than just that,\nbut keep in mind\n\n48\n00:02:35.230 --> 00:02:40.240\nthat some of the topics that you can see\ninside of the MDOP series coming up.\n\n49\n00:02:40.240 --> 00:02:43.980\n&gt;&gt; Now Wes, is there any particular\nexam that's associated with this?\n\n50\n00:02:43.980 --> 00:02:46.700\nOr are we just really talking\nabout learning the skills itself?\n\n51\n00:02:46.700 --> 00:02:49.920\n&gt;&gt; I would say the latter's probably gonna\nbe true, we're gonna be looking more at\n\n52\n00:02:49.920 --> 00:02:53.040\nthe skills that you need, and\njust kind of looking at the technology,\n\n53\n00:02:53.040 --> 00:02:56.660\nnot really exam-centric on this one,\nbut I will throw a word of caution.\n\n54\n00:02:56.660 --> 00:03:00.080\nOne of the things that I've seen, and\nif you've taken previous Windows client\n\n55\n00:03:00.080 --> 00:03:04.260\ncertifications, MDOP sometimes\ndoes rear it's head on the exam.\n\n56\n00:03:04.260 --> 00:03:08.000\nSo, while this isn't specific to any\ncertification, keep in mind any time\n\n57\n00:03:08.000 --> 00:03:11.910\nyou're managing a Windows 10 client\noperating system, if you're studying for\n\n58\n00:03:11.910 --> 00:03:15.260\nthat very certification,\nthis can help to expand your knowledge.\n\n59\n00:03:15.260 --> 00:03:17.955\nSo, if that's something you wanna\nknow a little bit more about,\n\n60\n00:03:17.955 --> 00:03:20.405\nthe Microsoft Desktop Optimization Pack,\nstick around,\n\n61\n00:03:20.405 --> 00:03:21.589\ncuz we got a lot more to come.\n\n",
+          "url": "overview70740",
+          "vimeoId": "191183251"
+        },
+        {
+          "description": "In this episode, Daniel and Wes begin their Microsoft Desktop Optimization Pack Series by exploring Bitlocker Admin and Monitoring components. This includes the Domain Controller, Management Workstations, Database Server, Administration and Monitoring Server, and MBAM Client.",
+          "length": "1422",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-1-mbam_components-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-1-mbam_components-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-1-mbam_components-041816-1-sm.jpg",
+          "title": "MBAM Components",
+          "transcript": "",
+          "url": "mbam-components",
+          "vimeoId": "164035281"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explain the preplanning steps necessary for the Microsoft Active Directory to work with Bitlocker Administration and Monitoring services. They will look at the user accounts and group roles used to manage the MBAM system. Finally they discuss the Group Policy templates that are downloaded and added for MBAM.",
+          "length": "2141",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-2-preparing_adds_for_mbam-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-2-preparing_adds_for_mbam-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-2-preparing_adds_for_mbam-041816-1-sm.jpg",
+          "title": "Preparing ADDS for MBAM",
+          "transcript": "",
+          "url": "preparing-adds-mbam",
+          "vimeoId": "164035280"
+        },
+        {
+          "description": "In this episode, Daniel and Wes take you through the installation of the MBAM utility. They begin by explaining the prerequisites that will need to be installed before the MBAM installation can begin. This includes IIS web server service as well as SQL server and ASP .NET frameworks. Finally they are able to walk you through each step to getting MBAM installed.",
+          "length": "2215",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-3-installing_mbam-041916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-3-installing_mbam-041916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-3-installing_mbam-041916-1-sm.jpg",
+          "title": "Installing MBAM",
+          "transcript": "",
+          "url": "installing-mbam",
+          "vimeoId": "164035279"
+        },
+        {
+          "description": "In this episode, Daniel and Wes show you how to deploy and configure MBAM. They start by getting the client installed on a desktop workstation running Windows 10. Then they go back to the server and configure all the necessary settings through Group Policy. They also walk you through all the GPO settings for MBAM, explaining them as they go.",
+          "length": "2296",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-4-deploying_and_configuring_mbam-041916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-4-deploying_and_configuring_mbam-041916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-4-deploying_and_configuring_mbam-041916-1-sm.jpg",
+          "title": "Deploying and Configuring MBAM",
+          "transcript": "",
+          "url": "deploying-configuring-mbam",
+          "vimeoId": "164035278"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explore the actual administration and recovery of end devices using the MBAM administration console. They start by looking at the End User experience. Then they look at the Compliance and Auditing features. Finally, they demonstrate and actual recovery of a client machine.",
+          "length": "2087",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-5-administering_and_recovery-042116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-5-administering_and_recovery-042116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-1-5-administering_and_recovery-042116-1-sm.jpg",
+          "title": "Administering and Recovery",
+          "transcript": "",
+          "url": "administering-recovery",
+          "vimeoId": "164035354"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explore the handy tool from Microsoft known as the Diagnostic and Recovery Toolset. They start by explaining what the DaRT is and walk you through setting up the prerequisites for its installation. Then they demonstrate the install of the DaRT system.",
+          "length": "1879",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-1-diagnostics_and_recovery_toolset-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-1-diagnostics_and_recovery_toolset-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-1-diagnostics_and_recovery_toolset-042016-1-sm.jpg",
+          "title": "Diagnostics and Recovery Toolset",
+          "transcript": "",
+          "url": "diagnostics-recovery-toolset",
+          "vimeoId": "164035277"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue their look at the Diagnostic and Recovery Toolset. In the previous episode they got it successfully installed, so here they show you how to create a DaRT image and use the DaRT system to remotely access a client PC. They also demonstrate all the tools that come bundled with DaRT.",
+          "length": "2100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-2-diagnostics_and_recovery_toolset_pt2-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-2-diagnostics_and_recovery_toolset_pt2-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-2-1-2-diagnostics_and_recovery_toolset_pt2-042016-1-sm.jpg",
+          "title": "Diagnostics and Recovery Toolset Part 2",
+          "transcript": "",
+          "url": "diagnostics-recovery-toolset-2",
+          "vimeoId": "164035276"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explore application virtualization with Microsoft's AppV software. Here they explain the concept of application virtualization and the prerequisites for installing the AppV Sequencer. Then they sequence a software program for the purposes of virtualizing on a client computer.",
+          "length": "1780",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization-042216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization-042216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization-042216-1-sm.jpg",
+          "title": "Application Virtualization",
+          "transcript": "",
+          "url": "application-virtualization",
+          "vimeoId": "164633697"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue their discussion on Microsoft's AppV. They jump back in by demonstrating the installation of the AppV client and then running the previously sequenced software along side an older version. Finally they look at editing AppV packages and the settings therein.",
+          "length": "942",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization_pt2-042216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization_pt2-042216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-3-1-application_virtualization_pt2-042216-1-sm.jpg",
+          "title": "Application Virtualization Part 2",
+          "transcript": "",
+          "url": "application-virtualization-2",
+          "vimeoId": "164632402"
+        },
+        {
+          "description": "In this episode, Daniel and Wes introduce you to MDOP's User Experience Virtualization. They begin by describing what UE-V is as well as its similarities and differences to Folder Redirection and/or Roaming Profile. Then they explain all the components of the UE-V system and then move to preparing the environment for the UE-V deployment.",
+          "length": "1510",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-1-user_experience_virtualization-050216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-1-user_experience_virtualization-050216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-1-user_experience_virtualization-050216-1-sm.jpg",
+          "title": "User Experience Virtualization",
+          "transcript": "",
+          "url": "user-experience-virtualization",
+          "vimeoId": "165194269"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue demonstrating how to deploy the User Experience Virtualization system. Here they pick up by showing you step-by-step how to install the UE-V Generator. Then they create customized settings location templates. Finally, they configure the UE-V Group Policy settings.",
+          "length": "1489",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-2-user_experience_virtualization_pt2-050216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-2-user_experience_virtualization_pt2-050216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-2-user_experience_virtualization_pt2-050216-1-sm.jpg",
+          "title": "User Experience Virtualization Part 2",
+          "transcript": "",
+          "url": "user-experience-virtualization-2",
+          "vimeoId": "165194237"
+        },
+        {
+          "description": "In this episode, Daniel and Wes finish demonstrating how to deploy the User Experience Virtualization system. Here they prepare the client computer by installing the UE-V agent. Then they test the UE-V system by changing some settings and checking their persistence. Finally they open up the Company Settings Center and look at the options available there.",
+          "length": "1121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-3-user_experience_virtualization_pt3-050216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-3-user_experience_virtualization_pt3-050216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-mdop/techskills-mdop-4-1-3-user_experience_virtualization_pt3-050216-1-sm.jpg",
+          "title": "User Experience Virtualization Part 3",
+          "transcript": "",
+          "url": "user-experience-virtualization-3",
+          "vimeoId": "165194646"
+        }
+      ],
+      "title": "Microsoft Desktop Optimization Pack"
+    }
+  ],
+  "url": "microsoft-desktop-optimization-pack",
+  "vLab": false
+}

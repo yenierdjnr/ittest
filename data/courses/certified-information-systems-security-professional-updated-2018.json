@@ -1,0 +1,918 @@
+{
+  "description": "The Certified Information Systems Security Professional (CISSP) certification is the gold standard in the IT Security field. Security professionals that have achieved their CISSP designation are regarded as some of the most talented and knowledgeable people in their field. The certification demonstrates that the holder has been working in IT Security for over five years, has a broad range of knowledge in ten domains related to creating, supporting and maintaining a secure IT infrastructure and can implement things like risk management and risk identification.",
+  "descriptionMD": "The Certified Information Systems Security Professional (CISSP) certification is the gold standard in the IT Security field. Security professionals that have achieved their CISSP designation are regarded as some of the most talented and knowledgeable people in their field. The certification demonstrates that the holder has been working in IT Security for over five years, has a broad range of knowledge in ten domains related to creating, supporting and maintaining a secure IT infrastructure and can implement things like risk management and risk identification.",
+  "length": "154842",
+  "name": "Certified Information Systems Security Professional (UPDATED 2018)",
+  "practiceExam": false,
+  "subtitle": "CISSP",
+  "tagUrl": "cissp",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Certified Information Systems Security Professional (CISSP) certification is the gold standard in the IT Security field. Security professionals that have achieved their CISSP designation are regarded as some of the most talented and knowledgeable people in their field. The certification demonstrates that the holder has been working in IT Security for over five years, has a broad range of knowledge in ten domains related to creating, supporting and maintaining a secure IT infrastructure and can implement things like risk management and risk identification.",
+          "length": "386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-0-0-0-overview-062218-PGM.00_00_05_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-0-0-0-overview-062218-PGM.00_00_05_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-0-0-0-overview-062218-PGM.00_00_05_18.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:06.009\n[MUSIC]\n\n2\n00:00:06.009 --> 00:00:08.677\nIn this episode we'd like\nto take a few moments to\n\n3\n00:00:08.677 --> 00:00:11.880\ntell you what you can expect\nin the upcoming CISSP series.\n\n4\n00:00:11.880 --> 00:00:13.910\nAnd here with our overview is Adam Gordon.\n\n5\n00:00:13.910 --> 00:00:15.110\nAdam, how are we doing today?\n\n6\n00:00:15.110 --> 00:00:15.930\n&gt;&gt; Doing well, doing well.\n\n7\n00:00:15.930 --> 00:00:16.480\nHow about you?\n\n8\n00:00:16.480 --> 00:00:17.140\n&gt;&gt; I'm doing good.\n\n9\n00:00:17.140 --> 00:00:19.420\nWhat can we expect in the upcoming series?\n\n10\n00:00:19.420 --> 00:00:21.770\n&gt;&gt; A whole bunch of stuff\nhaving to do with CISSP.\n\n11\n00:00:21.770 --> 00:00:22.272\n&gt;&gt; Very good [CROSSTALK].\n\n12\n00:00:22.272 --> 00:00:24.030\n&gt;&gt; Let's be a little bit\nmore specific than that.\n\n13\n00:00:24.030 --> 00:00:26.121\nSo if you're joining us for\nthe CISSP show,\n\n14\n00:00:26.121 --> 00:00:28.390\nall the episodes that will make it up.\n\n15\n00:00:28.390 --> 00:00:31.640\nYou hopefully are aware of\nthe fact that in April of 2018,\n\n16\n00:00:31.640 --> 00:00:34.420\nISC Squared announced as\nthey do every three years,\n\n17\n00:00:34.420 --> 00:00:38.200\nthat there will be a revision in\nsome form to the knowledge base.\n\n18\n00:00:38.200 --> 00:00:41.510\nWhat we call the CBK,\nthe common body of knowledge.\n\n19\n00:00:41.510 --> 00:00:45.540\nCurrently made up of 8 domains actually\ncurrently since 2015 since the last\n\n20\n00:00:45.540 --> 00:00:48.924\nmajor revision from 10 domains down to 8.\n\n21\n00:00:48.924 --> 00:00:54.230\nThe 2015 to 2018 revision, to 8 domains\nhas for the most part held true\n\n22\n00:00:54.230 --> 00:00:57.680\ngoing into the 2018 revision,\nthose same 8 domains are still there,\n\n23\n00:00:57.680 --> 00:01:00.720\nwe've modified the name a little\nbit in one or more of them.\n\n24\n00:01:00.720 --> 00:01:02.050\nWe've mixed and matched and\n\n25\n00:01:02.050 --> 00:01:06.360\nreordered some of the topics that make up\neach of the domains and moved them around,\n\n26\n00:01:06.360 --> 00:01:11.420\nbut really not a huge,\nseismic shift the way it was going\n\n27\n00:01:11.420 --> 00:01:16.390\ninto the 2015 update as the move from 10\ndomains down to 8, so that part is good.\n\n28\n00:01:16.390 --> 00:01:18.280\nWe will address all eight domains and\n\n29\n00:01:18.280 --> 00:01:23.300\naddress them in the order that the\nISC-Squared CISSP blueprint or the exam\n\n30\n00:01:23.300 --> 00:01:26.915\nsignifies, meaning if you join me here,\nwe'll quickly show you what we are doing.\n\n31\n00:01:26.915 --> 00:01:29.150\nWe're going to start with Security and\nRisk Management.\n\n32\n00:01:29.150 --> 00:01:32.970\nAnd all I've done, you'll see me use this\ndocument throughout all of the episodes.\n\n33\n00:01:32.970 --> 00:01:36.010\nIs taken the exam blueprint\nlisting of domains and\n\n34\n00:01:36.010 --> 00:01:40.745\nsubtopics and just in the same order\nthey are produced by ISC Squared.\n\n35\n00:01:40.745 --> 00:01:44.230\nPut them into a word document, simply\nhighlighting what we're doing at every\n\n36\n00:01:44.230 --> 00:01:48.570\nstage of our discussion so you always\nstart every episode knowing where we are.\n\n37\n00:01:48.570 --> 00:01:51.000\nWe'll start with the Security and\nRisk Management Domain.\n\n38\n00:01:51.000 --> 00:01:54.600\nThere are 12 sub topic areas\nthat we will go through there.\n\n39\n00:01:54.600 --> 00:01:55.710\nYou can see them on the screen but\n\n40\n00:01:55.710 --> 00:01:57.800\nwe're not too worried about\nthe detail right now.\n\n41\n00:01:57.800 --> 00:01:59.831\nYou'll get a chance to\nsee them in depth and\n\n42\n00:01:59.831 --> 00:02:02.152\nup close as we go through\nall of the discussions.\n\n43\n00:02:02.152 --> 00:02:06.650\nWe'll move into Asset Security,\none of the smaller domains overall.\n\n44\n00:02:06.650 --> 00:02:09.920\nWe'll deal with Security Architecture and\nEngineering.\n\n45\n00:02:09.920 --> 00:02:14.860\nThis is one of the larger domains, also\none of the ones that a lot of people get\n\n46\n00:02:14.860 --> 00:02:18.040\na little put off by in the sense\nthat they get a little scared by.\n\n47\n00:02:18.040 --> 00:02:22.300\nBecause it does contain cryptography which\nwas a discussion area under network and\n\n48\n00:02:22.300 --> 00:02:25.340\ncommunication security in\nthe old ten domain mapping.\n\n49\n00:02:25.340 --> 00:02:27.630\nSo obviously a very important\naspect of what we do.\n\n50\n00:02:27.630 --> 00:02:32.340\nIt also deals with a lot of the system\narchitecture that sometimes\n\n51\n00:02:32.340 --> 00:02:34.320\nthrows people for a bit of a loop.\n\n52\n00:02:34.320 --> 00:02:37.480\nWe'll try to make that as painless\nas possible for you I promise.\n\n53\n00:02:37.480 --> 00:02:40.040\nBut it is actually a very\nexciting area and one that,\n\n54\n00:02:40.040 --> 00:02:42.690\nas we peel back the layers\nof complexity around.\n\n55\n00:02:42.690 --> 00:02:45.980\nMost people tend to find that they\nactually have a fairly good grasp of,\n\n56\n00:02:45.980 --> 00:02:47.992\neven though they don't know\nalways see that going in.\n\n57\n00:02:47.992 --> 00:02:51.650\nBecause it deals with a lot of\nthe fundamentals of what we actually do\n\n58\n00:02:51.650 --> 00:02:53.960\nin the pursuit of everyday jobs and\n\n59\n00:02:53.960 --> 00:02:57.930\nroles in IT, regardless of\nwhat our focus maybe over all.\n\n60\n00:02:57.930 --> 00:03:00.040\nSo, we'll spend some time there certainly.\n\n61\n00:03:00.040 --> 00:03:03.550\nWe're also going to go through\nCommunication and Network Security.\n\n62\n00:03:03.550 --> 00:03:06.050\nThis has now became a very short domain.\n\n63\n00:03:06.050 --> 00:03:10.050\nActually the shortest of all the domains\njust in terms of the number of topics, but\n\n64\n00:03:10.050 --> 00:03:12.200\nstill incredibly important to what we do.\n\n65\n00:03:12.200 --> 00:03:17.220\nThis is the bread and butter of most,\nif not all of the IT professionals\n\n66\n00:03:17.220 --> 00:03:21.940\nthat come into the realm of CISSP\nlooking to ultimately certify.\n\n67\n00:03:21.940 --> 00:03:25.770\nBecause almost without exception, all of\nus come from some sort of a background\n\n68\n00:03:25.770 --> 00:03:29.640\nregardless of what we do that has a\nfundamental understanding of the terms and\n\n69\n00:03:29.640 --> 00:03:31.590\nthe techniques we will discuss here.\n\n70\n00:03:31.590 --> 00:03:34.580\nIdentity and\nAccess Management will be very important,\n\n71\n00:03:34.580 --> 00:03:38.720\nespecially these days in the world\nof web services and the Cloud.\n\n72\n00:03:38.720 --> 00:03:40.890\nSo domain Five overall.\n\n73\n00:03:40.890 --> 00:03:42.840\nDomain six, Security Assessment and\n\n74\n00:03:42.840 --> 00:03:46.600\nTesting, that's the one that sometimes\npeople get a little put off by because\n\n75\n00:03:46.600 --> 00:03:48.910\nthey don't feel they have\na lot of knowledge in.\n\n76\n00:03:48.910 --> 00:03:51.600\nAnd unlike domain three for\nSystems Architecture and\n\n77\n00:03:51.600 --> 00:03:54.160\nEngineering, where our\nsecurity architecture and\n\n78\n00:03:54.160 --> 00:03:57.920\nengineering, where we do find that we\ndo have a background as we get into it.\n\n79\n00:03:57.920 --> 00:04:01.336\nIf you haven't really done assessment and\ntesting work before,\n\n80\n00:04:01.336 --> 00:04:05.310\nyou can feel a little strange and a little\nbit of an alien like environment for\n\n81\n00:04:05.310 --> 00:04:08.353\nus to be discussing, but\nrest assured it's actually very\n\n82\n00:04:08.353 --> 00:04:11.750\nstraightforward conversation,\nthat'll be domain six.\n\n83\n00:04:11.750 --> 00:04:16.370\nDomain seven, Security Operations\nby far in a way the largest of\n\n84\n00:04:16.370 --> 00:04:20.500\nall the domains as you can see,\nvery, very big, lots of stuff there.\n\n85\n00:04:20.500 --> 00:04:23.270\nBut again,\na fairly straightforward conversation.\n\n86\n00:04:23.270 --> 00:04:25.710\nWe see some oldies and goodies like BCDR,\n\n87\n00:04:25.710 --> 00:04:28.950\nbusiness continuity disaster\nrecovery planning appear there.\n\n88\n00:04:28.950 --> 00:04:31.160\nPhysical security, things of that nature.\n\n89\n00:04:31.160 --> 00:04:34.926\nAnd then rounding out with domain\neight Software Development Security,\n\n90\n00:04:34.926 --> 00:04:39.239\nwhere we discuss development life cycles,\ndevelopment methodologies and discuss\n\n91\n00:04:39.239 --> 00:04:43.810\na variety of different things associated\nwith how we can understand what happens.\n\n92\n00:04:43.810 --> 00:04:47.230\nFrom a development perspective with regard\nto the software that many of us take for\n\n93\n00:04:47.230 --> 00:04:48.460\ngranted all the time.\n\n94\n00:04:48.460 --> 00:04:50.940\nWe use, but we don't necessarily\nunderstand the security.\n\n95\n00:04:50.940 --> 00:04:53.960\nSo we'll have some interesting\nconversations associated with that.\n\n96\n00:04:53.960 --> 00:04:55.300\nAll together all up,\n\n97\n00:04:55.300 --> 00:05:00.090\nthose eight domains make up\nthe CISSP CBK common body of knowledge.\n\n98\n00:05:00.090 --> 00:05:01.610\nWe will spend time going through each and\n\n99\n00:05:01.610 --> 00:05:03.960\nevery one of them,\nlooking in all the nooks and crannies and\n\n100\n00:05:03.960 --> 00:05:07.160\nall the different corners associated\nwith those conversations.\n\n101\n00:05:07.160 --> 00:05:10.516\nAt the end of every one of those\ndomain blocks of knowledge,\n\n102\n00:05:10.516 --> 00:05:12.194\nwe've instituted a wrap up or\n\n103\n00:05:12.194 --> 00:05:16.824\nkey points additional episode that kind of\nreviews and hits the highlights for you\n\n104\n00:05:16.824 --> 00:05:21.521\nand reinforces those key points you should\ngo back and make sure you're studying so\n\n105\n00:05:21.521 --> 00:05:24.571\nyou have a nice way of wrapping\nall that knowledge up.\n\n106\n00:05:24.571 --> 00:05:28.723\nWe also have a block of resources,\nboth show notes and often additional\n\n107\n00:05:28.723 --> 00:05:33.636\nsupplementary documentary material that we\nwill refer to in many of our episodes and\n\n108\n00:05:33.636 --> 00:05:37.717\nthat we make available to you downloadable\nas part of the show notes and\n\n109\n00:05:37.717 --> 00:05:39.610\nthe attachment to the episode.\n\n110\n00:05:39.610 --> 00:05:41.110\nSo make sure you look for that.\n\n111\n00:05:41.110 --> 00:05:42.930\nIt's got all sorts of documents.\n\n112\n00:05:42.930 --> 00:05:46.690\nIt's got all the NIST standards that we\nreference that are freely available and\n\n113\n00:05:46.690 --> 00:05:50.350\nany other things that I think may be\nvaluable that will be helpful for you.\n\n114\n00:05:50.350 --> 00:05:53.830\nIncluding a glossary of terms,\nyou have a vocabulary list.\n\n115\n00:05:53.830 --> 00:05:56.360\nThat you can use to study there and\nmake flash cards from.\n\n116\n00:05:56.360 --> 00:05:58.870\nAnd you'll hear me refer to the importance\nof flash cards time and again.\n\n117\n00:05:58.870 --> 00:06:02.210\nSo I look forward, as I know Wes does\nas well, to spending time with you.\n\n118\n00:06:02.210 --> 00:06:05.060\nYou'll see some new faces popping\nin here from time to time.\n\n119\n00:06:05.060 --> 00:06:06.350\nIt won't just be Wes.\n\n120\n00:06:06.350 --> 00:06:09.230\nWe'll have Daniel join us and\nmaybe one or two other surprise guests.\n\n121\n00:06:09.230 --> 00:06:10.340\nWe'll see how that goes.\n\n122\n00:06:10.340 --> 00:06:12.350\nBut certainly look for\nmyself, look for all of us.\n\n123\n00:06:12.350 --> 00:06:15.351\nAnd we look forward to seeing\nyou as we discuss CISSP and\n\n124\n00:06:15.351 --> 00:06:18.690\nthe CBK that makes up the knowledge\nbase associated with it.\n\n125\n00:06:18.690 --> 00:06:23.751\n[MUSIC]\n\n",
+          "url": "overview-cissp-2018",
+          "vimeoId": "277164450"
+        },
+        {
+          "description": "Adam and Wes discuss the concepts of confidentiality, integrity & availability.",
+          "length": "2380",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-1-confidentiality_integrity_and_availability-052518-PGM.00_42_12_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-1-confidentiality_integrity_and_availability-052518-PGM.00_42_12_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-1-confidentiality_integrity_and_availability-052518-PGM.00_42_12_01.Still001-sm.jpg",
+          "title": "Confidentiality, Integrity, Availability (CIA)",
+          "transcript": "",
+          "url": "confidentiality-integrity-availability-cia",
+          "vimeoId": "272387793"
+        },
+        {
+          "description": "Adam and Wes discuss the concepts of confidentiality, integrity & availability.",
+          "length": "1804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-2-confidentiality_integrity_and_availability_pt2-052518.00_31_48_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-2-confidentiality_integrity_and_availability_pt2-052518.00_31_48_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-1-2-confidentiality_integrity_and_availability_pt2-052518.00_31_48_09.Still001-sm.jpg",
+          "title": "Confidentiality, Integrity, Availability (CIA) Pt2",
+          "transcript": "",
+          "url": "confidentiality-integrit",
+          "vimeoId": "272387455"
+        },
+        {
+          "description": "Adam and Wes discuss the alignment of security function to business strategy, goals, mission, and objectives. They also examine the importance of organizational processes, roles and responsibilities. The need for well defined and documented security control frameworks is touched upon along with the need to clear define concepts of due care and due diligence within the organization.",
+          "length": "1751",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-1-evaluate_and_apply_security_governance_principles-052518-PGM.00_29_11_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-1-evaluate_and_apply_security_governance_principles-052518-PGM.00_29_11_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-1-evaluate_and_apply_security_governance_principles-052518-PGM.00_29_11_14.Still001-sm.jpg",
+          "title": "Evaluate, Apply Security Governance Principles",
+          "transcript": "",
+          "url": "evaluate-apply-security-governance-principles",
+          "vimeoId": "272388246"
+        },
+        {
+          "description": "Adam and Wes discuss the alignment of security function to business strategy, goals, mission, and objectives. They also examine the importance of organizational processes, roles and responsibilities. The need for well defined and documented security control frameworks is touched upon along with the need to clear define concepts of due care and due diligence within the organization.",
+          "length": "3571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-2-evaluate_and_apply_security_governance_principles_pt2-060518-PGM.00_59_17_07.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-2-evaluate_and_apply_security_governance_principles_pt2-060518-PGM.00_59_17_07.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-2-2-evaluate_and_apply_security_governance_principles_pt2-060518-PGM.00_59_17_07.Still002-sm.jpg",
+          "title": "Evaluate, Apply Security Goverance Principles Pt2",
+          "transcript": "",
+          "url": "evaluate-apply-security-goverance-principles-pt2",
+          "vimeoId": "273696248"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine compliance requirements.",
+          "length": "2142",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-1-determine_compliance_requirements-052418-PGM.00_28_15_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-1-determine_compliance_requirements-052418-PGM.00_28_15_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-1-determine_compliance_requirements-052418-PGM.00_28_15_22.Still001-sm.jpg",
+          "title": "Determine Compliance Requirements",
+          "transcript": "",
+          "url": "determine-compliance-requirements",
+          "vimeoId": "273694697"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine compliance requirements.",
+          "length": "2400",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-2-determine-compliance-requirements_pt2-060818.00_39_49_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-2-determine-compliance-requirements_pt2-060818.00_39_49_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-2-determine-compliance-requirements_pt2-060818.00_39_49_16.Still001-sm.jpg",
+          "title": "Determine Compliance Requirements Part 2",
+          "transcript": "",
+          "url": "determine-compliance-requirements2",
+          "vimeoId": "274497562"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine compliance requirements.",
+          "length": "1380",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-3-determine-compliance-requirements_pt3-060818.00_22_47_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-3-determine-compliance-requirements_pt3-060818.00_22_47_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-3-3-determine-compliance-requirements_pt3-060818.00_22_47_19.Still001-sm.jpg",
+          "title": "Determine Compliance Requirements Part 3",
+          "transcript": "",
+          "url": "determine-compliance-requirments3",
+          "vimeoId": "274497290"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand legal & regulatory issues.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-1-understand_legal_and_regulatory_issues-060818-PGM.00_31_21_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-1-understand_legal_and_regulatory_issues-060818-PGM.00_31_21_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-1-understand_legal_and_regulatory_issues-060818-PGM.00_31_21_14.Still001-sm.jpg",
+          "title": "Understand Legal and Regulatory Issues",
+          "transcript": "",
+          "url": "understand-legalregulatory-issues",
+          "vimeoId": "274497009"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand legal & regulatory issues.",
+          "length": "2100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-2-understand_legal_and_regulatory_issues_pt2-060818-PGM.00_34_45_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-2-understand_legal_and_regulatory_issues_pt2-060818-PGM.00_34_45_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-4-2-understand_legal_and_regulatory_issues_pt2-060818-PGM.00_34_45_27.Still001-sm.jpg",
+          "title": "Understand Legal and Regulatory Issues Part 2",
+          "transcript": "",
+          "url": "understand-legalregulatory-issues2",
+          "vimeoId": "274496656"
+        },
+        {
+          "description": "Adam and Wes discuss the ISC2 code of ethics.",
+          "length": "534",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-5-1-understand_adhere_to_and_promote_ethics-060818-PGM.00_11_43_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-5-1-understand_adhere_to_and_promote_ethics-060818-PGM.00_11_43_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-5-1-understand_adhere_to_and_promote_ethics-060818-PGM.00_11_43_04.Still001-sm.jpg",
+          "title": "Understand, adhere to and promote ethics",
+          "transcript": "",
+          "url": "understand-adhereand-promote-ethics",
+          "vimeoId": "274498203"
+        },
+        {
+          "description": "Adam and Wes discuss the definitions of security policy, standards, procedures, & guidelines.",
+          "length": "868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-6-1-policy_standards_procedures_and_guidelines-060818-PGM.00_14_36_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-6-1-policy_standards_procedures_and_guidelines-060818-PGM.00_14_36_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-6-1-policy_standards_procedures_and_guidelines-060818-PGM.00_14_36_20.Still001-sm.jpg",
+          "title": "Policy, Standards, Procedures and Guidelines",
+          "transcript": "",
+          "url": "policy-standards-proceduresguidelines",
+          "vimeoId": "274498009"
+        },
+        {
+          "description": "Adam and Daniel discuss how to identify, analyze and prioritize Business Continuity (BC) requirements.",
+          "length": "2050",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-1-understand_business_continuity_requirements-061118-PGM.00_00_14_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-1-understand_business_continuity_requirements-061118-PGM.00_00_14_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-1-understand_business_continuity_requirements-061118-PGM.00_00_14_24.Still001-sm.jpg",
+          "title": "Understand Business Continuity Requirements",
+          "transcript": "",
+          "url": "understand-business-continuity-requirements",
+          "vimeoId": "274744018"
+        },
+        {
+          "description": "Adam and Daniel discuss how to identify, analyze and prioritize Business Continuity (BC) requirements.",
+          "length": "1919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-2-understand_business_continuity_requirements_pt2-061118-PGM.00_00_15_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-2-understand_business_continuity_requirements_pt2-061118-PGM.00_00_15_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-2-understand_business_continuity_requirements_pt2-061118-PGM.00_00_15_07.Still001-sm.jpg",
+          "title": "Understand Business Continuity Requirements Part 2",
+          "transcript": "",
+          "url": "understand-business-continuity-requirements2",
+          "vimeoId": "274743561"
+        },
+        {
+          "description": "Adam and Daniel discuss how to identify, analyze and prioritize Business Continuity (BC) requirements.",
+          "length": "1617",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-3-understand_business_continuity_requirements_pt3-061118-PGM.00_26_45_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-3-understand_business_continuity_requirements_pt3-061118-PGM.00_26_45_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-7-3-understand_business_continuity_requirements_pt3-061118-PGM.00_26_45_09.Still001-sm.jpg",
+          "title": "Understand Business Continuity Requirements Part 3",
+          "transcript": "",
+          "url": "understand-business-continuity-requirements3",
+          "vimeoId": "274744429"
+        },
+        {
+          "description": "Adam and Daniel discuss how to contribute to and enforce personnel security policies and procedures.",
+          "length": "2118",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-8-1-personnel_security_policies_and_procedures-061118-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-8-1-personnel_security_policies_and_procedures-061118-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-8-1-personnel_security_policies_and_procedures-061118-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "Personnel, Security Policies and Procedures",
+          "transcript": "",
+          "url": "personnel-security-policiesprocedures",
+          "vimeoId": "274743144"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply risk management concepts. Adam discusses the MUST KNOW CONCEPTS from NIST SP800-30R1.",
+          "length": "2250",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-1-understand_and_apply_risk_management_concepts-061218.00_37_18_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-1-understand_and_apply_risk_management_concepts-061218.00_37_18_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-1-understand_and_apply_risk_management_concepts-061218.00_37_18_02.Still001-sm.jpg",
+          "title": "Understand/Apply Risk Management Concepts",
+          "transcript": "",
+          "url": "understandapply-risk-management-concepts",
+          "vimeoId": "274950460"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply risk management concepts. Adam discusses the NIST SP800-30R1 Risk assessment/analysis methodology.",
+          "length": "2008",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-2-understand_and_apply_risk_management_concepts_pt2-061218-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-2-understand_and_apply_risk_management_concepts_pt2-061218-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-2-understand_and_apply_risk_management_concepts_pt2-061218-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Understand/Apply Risk Management Concepts Part 2",
+          "transcript": "",
+          "url": "understandapply-risk-management-concepts2",
+          "vimeoId": "274949559"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply risk management concepts. Adam discusses the 4 risk responses as well as the different types and categories of controls.",
+          "length": "1902",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-3-understand_and_apply_risk_management_concepts_pt3-061218.00_31_31_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-3-understand_and_apply_risk_management_concepts_pt3-061218.00_31_31_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-3-understand_and_apply_risk_management_concepts_pt3-061218.00_31_31_09.Still001-sm.jpg",
+          "title": "Understand/Apply Risk Management Concepts Part 3",
+          "transcript": "",
+          "url": "understandapply-risk-management-concepts3",
+          "vimeoId": "274948789"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply risk management concepts. Adam discusses the types of security control assessments that we can engage in.",
+          "length": "2196",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-4-understand_and_apply_risk_management_concepts_pt4-061218-PGM.00_36_23_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-4-understand_and_apply_risk_management_concepts_pt4-061218-PGM.00_36_23_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-4-understand_and_apply_risk_management_concepts_pt4-061218-PGM.00_36_23_27.Still001-sm.jpg",
+          "title": "Understand/Apply Risk Management Concepts Part 4",
+          "transcript": "",
+          "url": "understandapply-risk-management-concepts4",
+          "vimeoId": "274952261"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply risk management concepts. Adam discusses the differences between Quantitative and Qualitative risk assessments. In addition, Adam and Daniel also examine common Risk frameworks.",
+          "length": "1993",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-5-understand_and_apply_risk_management_concepts_pt5-061218-PGM.00_33_00_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-5-understand_and_apply_risk_management_concepts_pt5-061218-PGM.00_33_00_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-9-5-understand_and_apply_risk_management_concepts_pt5-061218-PGM.00_33_00_09.Still001-sm.jpg",
+          "title": "Understand/Apply Risk Management Concepts Part 5",
+          "transcript": "",
+          "url": "understandapply-risk-management-concepts5",
+          "vimeoId": "274948004"
+        },
+        {
+          "description": "Adam and Daniel discuss how to understand & apply threat modeling concepts.",
+          "length": "2293",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-10-1-understand_and_apply_threat_modeling_concepts-061318-PGM.00_38_01_21.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-10-1-understand_and_apply_threat_modeling_concepts-061318-PGM.00_38_01_21.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-10-1-understand_and_apply_threat_modeling_concepts-061318-PGM.00_38_01_21.Still002-sm.jpg",
+          "title": "Understanding/Apply Threat Modeling Concepts",
+          "transcript": "",
+          "url": "understandingapply-threat-modeling-concepts",
+          "vimeoId": "274951491"
+        },
+        {
+          "description": "Adam and Daniel discuss how to apply risk-based management concepts to the supply chain.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-11-1-apply_risk_management_to_the_supply_chain-061118-PGM.00_31_16_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-11-1-apply_risk_management_to_the_supply_chain-061118-PGM.00_31_16_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-11-1-apply_risk_management_to_the_supply_chain-061118-PGM.00_31_16_11.Still001-sm.jpg",
+          "title": "Apply Risk Management to the Supply Chain",
+          "transcript": "",
+          "url": "apply-risk-managementthe-supply-chain",
+          "vimeoId": "274744757"
+        },
+        {
+          "description": "Adam and Daniel discuss how to establish and maintain a security awareness, education, and training program.",
+          "length": "853",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-12-1-security_awareness_education_and_training-061218-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-12-1-security_awareness_education_and_training-061218-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-12-1-security_awareness_education_and_training-061218-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Security Awareness/Education and Training",
+          "transcript": "",
+          "url": "security-awarenesseducationtraining",
+          "vimeoId": "274952961"
+        },
+        {
+          "description": "Adam and Wes discuss the main key points for studying in Domain 1.",
+          "length": "1229",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-13-1-security_and_risk_management_key_points-062218-PGM.00_20_16_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-13-1-security_and_risk_management_key_points-062218-PGM.00_20_16_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-13-1-security_and_risk_management_key_points-062218-PGM.00_20_16_20.Still001-sm.jpg",
+          "title": "Security and Risk Management - Key Points",
+          "transcript": "",
+          "url": "securityrisk-management-key",
+          "vimeoId": "277164933"
+        },
+        {
+          "description": "Adam and Wes discuss take a deeper look at the concepts of Confidentiality, Integrity and Availability.",
+          "length": "2437",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-14-1-CIA_deep_dive-062918-PGM.00_40_24_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-14-1-CIA_deep_dive-062918-PGM.00_40_24_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-14-1-CIA_deep_dive-062918-PGM.00_40_24_06.Still001-sm.jpg",
+          "title": "CIA Deep Dive",
+          "transcript": "",
+          "url": "cia-deep-dive",
+          "vimeoId": "278016184"
+        },
+        {
+          "description": "Adam and Wes discuss take a deeper look at organizational roles and responsibilities.",
+          "length": "992",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-15-1-organizational_roles_and_responsibilities-062918-PGM.00_16_19_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-15-1-organizational_roles_and_responsibilities-062918-PGM.00_16_19_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-15-1-organizational_roles_and_responsibilities-062918-PGM.00_16_19_01.Still001-sm.jpg",
+          "title": "Organizational Roles and Responsibilities",
+          "transcript": "",
+          "url": "organizational-rolesresponsibilities",
+          "vimeoId": "278018675"
+        },
+        {
+          "description": "Adam and Wes discuss take a deeper look at risk terminology and concepts.",
+          "length": "1844",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-16-1-risk_terminology_and_concepts-062918-PGM.00_30_31_22.Still004.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-16-1-risk_terminology_and_concepts-062918-PGM.00_30_31_22.Still004-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-1-16-1-risk_terminology_and_concepts-062918-PGM.00_30_31_22.Still004-sm.jpg",
+          "title": "Risk Terminology and Concepts",
+          "transcript": "",
+          "url": "risk-terminologyconcepts",
+          "vimeoId": "278018351"
+        }
+      ],
+      "title": "Security and Risk Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Daniel discuss how to identify and classify information and assets.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-1-1-identify_and_classify_information_and_assets-061318-PGM.00_28_47_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-1-1-identify_and_classify_information_and_assets-061318-PGM.00_28_47_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-1-1-identify_and_classify_information_and_assets-061318-PGM.00_28_47_05.Still001-sm.jpg",
+          "title": "Identify and Classify Information and Assets",
+          "transcript": "",
+          "url": "identifyclassify-informationassets",
+          "vimeoId": "275071175"
+        },
+        {
+          "description": "Adam and Daniel discuss how to determine and maintain information and asset ownership.",
+          "length": "1042",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-2-1-determine_and_maintain_information_assets_ownership-061318-PGM.00_17_08_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-2-1-determine_and_maintain_information_assets_ownership-061318-PGM.00_17_08_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-2-1-determine_and_maintain_information_assets_ownership-061318-PGM.00_17_08_03.Still001-sm.jpg",
+          "title": "Determine and Maintain Information/Asset Ownership",
+          "transcript": "",
+          "url": "determinemaintain-informationasset-ownership",
+          "vimeoId": "275072079"
+        },
+        {
+          "description": "Adam and Wes discuss how to protect privacy.",
+          "length": "2346",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-1-protect_privacy-061418-PGM.00_38_52_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-1-protect_privacy-061418-PGM.00_38_52_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-1-protect_privacy-061418-PGM.00_38_52_25.Still001-sm.jpg",
+          "title": "Protect Privacy",
+          "transcript": "",
+          "url": "protect-privacy-cissp2018",
+          "vimeoId": "275258700"
+        },
+        {
+          "description": "Adam and Wes discuss how to protect privacy.",
+          "length": "2517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-2-protect_privacy_pt2-061418-PGM.00_41_43_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-2-protect_privacy_pt2-061418-PGM.00_41_43_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-3-2-protect_privacy_pt2-061418-PGM.00_41_43_11.Still001-sm.jpg",
+          "title": "Protect Privacy Part 2",
+          "transcript": "",
+          "url": "protect-privacy2",
+          "vimeoId": "275259047"
+        },
+        {
+          "description": "Adam and Daniel discuss how to ensure appropriate asset retention.",
+          "length": "1009",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-4-1-ensure_appropriate_asset_retention-061318-PGM.00_18_49_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-4-1-ensure_appropriate_asset_retention-061318-PGM.00_18_49_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-4-1-ensure_appropriate_asset_retention-061318-PGM.00_18_49_19.Still001-sm.jpg",
+          "title": "Ensure Appropriate Asset Retention",
+          "transcript": "",
+          "url": "ensure-appropriate-asset-retention",
+          "vimeoId": "275071872"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine data security controls.",
+          "length": "1677",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-1-determine_data_security_controls-061518-PGM.00_28_00_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-1-determine_data_security_controls-061518-PGM.00_28_00_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-1-determine_data_security_controls-061518-PGM.00_28_00_21.Still001-sm.jpg",
+          "title": "Determine Data Security Controls",
+          "transcript": "",
+          "url": "determine-data-security-controls",
+          "vimeoId": "275865662"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine data security controls.",
+          "length": "2137",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-2-determine_data_security_controls_pt2-061518-PGM.00_35_31_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-2-determine_data_security_controls_pt2-061518-PGM.00_35_31_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-2-determine_data_security_controls_pt2-061518-PGM.00_35_31_28.Still001-sm.jpg",
+          "title": "Determine Data Security Controls Part 2",
+          "transcript": "",
+          "url": "determine-data-security-controls2",
+          "vimeoId": "275867539"
+        },
+        {
+          "description": "Adam and Wes discuss how to determine data security controls.",
+          "length": "2007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-3-determine_data_security_controls_pt3-061518-PGM.00_33_14_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-3-determine_data_security_controls_pt3-061518-PGM.00_33_14_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-5-3-determine_data_security_controls_pt3-061518-PGM.00_33_14_06.Still001-sm.jpg",
+          "title": "Determine Data Security Controls Part 3",
+          "transcript": "",
+          "url": "determine-data-security-controls3",
+          "vimeoId": "275868593"
+        },
+        {
+          "description": "Adam and Wes discuss how to establish asset handling requirements.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-6-1-establish_asset_handling_requirements-061518-PGM.00_31_35_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-6-1-establish_asset_handling_requirements-061518-PGM.00_31_35_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-6-1-establish_asset_handling_requirements-061518-PGM.00_31_35_02.Still001-sm.jpg",
+          "title": "Establish Asset Handling Requirements",
+          "transcript": "",
+          "url": "establish-asset-handling-requirements",
+          "vimeoId": "275866443"
+        },
+        {
+          "description": "Adam and Wes discuss the main key points for studying in Domain 2.",
+          "length": "683",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-7-1-asset_security_key_points-062218-PGM.00_11_10_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-7-1-asset_security_key_points-062218-PGM.00_11_10_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-2-7-1-asset_security_key_points-062218-PGM.00_11_10_29.Still001-sm.jpg",
+          "title": "Asset Security - Key Points",
+          "transcript": "",
+          "url": "asset-security-key",
+          "vimeoId": "277164617"
+        }
+      ],
+      "title": "Asset Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to implement secure design principles in networks.",
+          "length": "2256",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-1-secure_design_principles_in_networks-062918-PGM.00_38_55_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-1-secure_design_principles_in_networks-062918-PGM.00_38_55_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-1-secure_design_principles_in_networks-062918-PGM.00_38_55_29.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks",
+          "vimeoId": "278017892"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in networks.",
+          "length": "2494",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-2-secure_design_principles_in_networks_pt2-070918-PGM.00_42_10_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-2-secure_design_principles_in_networks_pt2-070918-PGM.00_42_10_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-2-secure_design_principles_in_networks_pt2-070918-PGM.00_42_10_06.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 2",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks2",
+          "vimeoId": "279320505"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in networks.",
+          "length": "1922",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-3-secure_design_principles_in_networks_pt3-070918-PGM.00_32_26_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-3-secure_design_principles_in_networks_pt3-070918-PGM.00_32_26_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-3-secure_design_principles_in_networks_pt3-070918-PGM.00_32_26_11.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 3",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks3",
+          "vimeoId": "279320160"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in networks.",
+          "length": "2235",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-4-secure_design_principles_in_networks_pt4-070918-PGM.00_37_14_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-4-secure_design_principles_in_networks_pt4-070918-PGM.00_37_14_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-4-secure_design_principles_in_networks_pt4-070918-PGM.00_37_14_04.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 4",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks4",
+          "vimeoId": "279319881"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in networks.",
+          "length": "2568",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-5-secure_design_principles_in_networks_pt5-070918-PGM.00_49_40_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-5-secure_design_principles_in_networks_pt5-070918-PGM.00_49_40_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-5-secure_design_principles_in_networks_pt5-070918-PGM.00_49_40_09.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 5",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks5",
+          "vimeoId": "279321089"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in networks.",
+          "length": "1408",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-6-secure_design_principles_in_networks_pt6-070918-PGM.00_29_07_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-6-secure_design_principles_in_networks_pt6-070918-PGM.00_29_07_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-6-secure_design_principles_in_networks_pt6-070918-PGM.00_29_07_03.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 6",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks6",
+          "vimeoId": "279320908"
+        },
+        {
+          "description": "Adam and Ronnie discuss how to implement secure design principles in\nnetworks.",
+          "length": "2240",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-7-secure_design_principles_in_networks_pt7-070918-PGM-2.00_37_08_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-7-secure_design_principles_in_networks_pt7-070918-PGM-2.00_37_08_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-4-1-7-secure_design_principles_in_networks_pt7-070918-PGM-2.00_37_08_02.Still001-sm.jpg",
+          "title": "Secure Design Principles in Networks Part 7",
+          "transcript": "",
+          "url": "secure-design-principlesnetworks7",
+          "vimeoId": "279319614"
+        }
+      ],
+      "title": "Communication and Network Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to control physical & logical access to assets.",
+          "length": "12049",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-1-control_physical_and_logical_access_to_assets-062518-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-1-control_physical_and_logical_access_to_assets-062518-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-1-control_physical_and_logical_access_to_assets-062518-high-sm.jpg",
+          "title": "Control Physical and Logical Access to Assets",
+          "transcript": "",
+          "url": "control-physicallogical-accessassets",
+          "vimeoId": "277162558"
+        },
+        {
+          "description": "Adam and Wes discuss how to control physical & logical access to assets.",
+          "length": "1848",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-2-control_physical_and_logical_access_to_assets_pt2-062518-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-2-control_physical_and_logical_access_to_assets_pt2-062518-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-1-2-control_physical_and_logical_access_to_assets_pt2-062518-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Control Physical and Logical Access to Assets Pt 2",
+          "transcript": "",
+          "url": "control-physicallogical-accessassets-pt-2",
+          "vimeoId": "277161615"
+        },
+        {
+          "description": "Adam and Wes discuss how to manage identification and authentication of people, devices, and services.",
+          "length": "2097",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-1-manage_identification_and_authentication-062518-PGM.00_34_45_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-1-manage_identification_and_authentication-062518-PGM.00_34_45_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-1-manage_identification_and_authentication-062518-PGM.00_34_45_02.Still001-sm.jpg",
+          "title": "Manage Identification and Authentication",
+          "transcript": "",
+          "url": "manage-identificationauthentication",
+          "vimeoId": "277168297"
+        },
+        {
+          "description": "Adam and Wes discuss how to manage identification and authentication of people, devices, and services.",
+          "length": "2485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-2-manage_identification_and_authentication_pt2-062518-PGM.00_41_13_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-2-manage_identification_and_authentication_pt2-062518-PGM.00_41_13_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-2-manage_identification_and_authentication_pt2-062518-PGM.00_41_13_15.Still001-sm.jpg",
+          "title": "Manage Identification and Authentication Part 2",
+          "transcript": "",
+          "url": "manage-identificationauthentication2",
+          "vimeoId": "277167231"
+        },
+        {
+          "description": "Adam and Wes discuss how to manage identification and authentication\nof people, devices, and services.",
+          "length": "971",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-3-manage_identification_and_authentication_pt3-062518-PGM.00_15_56_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-3-manage_identification_and_authentication_pt3-062518-PGM.00_15_56_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-2-3-manage_identification_and_authentication_pt3-062518-PGM.00_15_56_20.Still001-sm.jpg",
+          "title": "Manage Identification and Authentication Part 3",
+          "transcript": "",
+          "url": "manage-identificationauthentication3",
+          "vimeoId": "277161246"
+        },
+        {
+          "description": "Adam and Wes discuss how to integrate identity as a third-party service.",
+          "length": "2563",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-3-1-integrate_identity_as_a_third-party_service-062818-PGM.00_42_27_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-3-1-integrate_identity_as_a_third-party_service-062818-PGM.00_42_27_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-3-1-integrate_identity_as_a_third-party_service-062818-PGM.00_42_27_13.Still001-sm.jpg",
+          "title": "Integrate Identity as a Third-Party Service",
+          "transcript": "",
+          "url": "integrate-identitya-thirdparty-service",
+          "vimeoId": "278016730"
+        },
+        {
+          "description": "Adam and Wes discuss how to implement and manage authorization mechanisms.",
+          "length": "1506",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-1-implement_manage_authorization_mechanisms-062818-PGM.00_25_01_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-1-implement_manage_authorization_mechanisms-062818-PGM.00_25_01_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-1-implement_manage_authorization_mechanisms-062818-PGM.00_25_01_18.Still001-sm.jpg",
+          "title": "Implement/Manage Authorization Mechanisms",
+          "transcript": "",
+          "url": "implementmanage-authorization-mechanisms",
+          "vimeoId": "278017686"
+        },
+        {
+          "description": "Adam and Wes discuss how to implement and manage authorization mechanisms.",
+          "length": "1874",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-2-implement_manage_authorization_mechanisms_pt2-062818-PGM.00_00_14_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-2-implement_manage_authorization_mechanisms_pt2-062818-PGM.00_00_14_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-4-2-implement_manage_authorization_mechanisms_pt2-062818-PGM.00_00_14_07.Still001-sm.jpg",
+          "title": "Implement/Manage Authorization Mechanisms Pt.2",
+          "transcript": "",
+          "url": "implementmanage-authorization-mechanisms-pt2",
+          "vimeoId": "278016501"
+        },
+        {
+          "description": "Adam and Wes discuss how to manage the identity and access provisioning lifecycle.",
+          "length": "1321",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-5-1-manage_identity_and_access_provisioning_lifecycle-062818-PGM.00_23_09_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-5-1-manage_identity_and_access_provisioning_lifecycle-062818-PGM.00_23_09_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-5-1-manage_identity_and_access_provisioning_lifecycle-062818-PGM.00_23_09_11.Still001-sm.jpg",
+          "title": "Manage Identity and Access Provisioning Lifecycle",
+          "transcript": "",
+          "url": "manage-identityaccess-provisioning-lifecycle",
+          "vimeoId": "278017507"
+        },
+        {
+          "description": "Adam and Wes discuss common access control attacks.",
+          "length": "2103",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-1-access_control_attacks-062818-PGM.00_35_59_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-1-access_control_attacks-062818-PGM.00_35_59_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-1-access_control_attacks-062818-PGM.00_35_59_19.Still001-sm.jpg",
+          "title": "Access Control Attacks",
+          "transcript": "",
+          "url": "access-control-attacks",
+          "vimeoId": "278017238"
+        },
+        {
+          "description": "Adam and Wes discuss common access control attacks.",
+          "length": "1102",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-2-access_control_attacks_pt2-062818-PGM.00_18_25_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-2-access_control_attacks_pt2-062818-PGM.00_18_25_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-6-2-access_control_attacks_pt2-062818-PGM.00_18_25_10.Still001-sm.jpg",
+          "title": "Access Control Attacks Part 2",
+          "transcript": "",
+          "url": "access-control-attacks2",
+          "vimeoId": "278017080"
+        },
+        {
+          "description": "Adam and Wes discuss the main key points for studying in Domain 5.",
+          "length": "1234",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-7-1-identity_and_access_management-key_points-062918-PGM.00_20_21_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-7-1-identity_and_access_management-key_points-062918-PGM.00_20_21_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-5-7-1-identity_and_access_management-key_points-062918-PGM.00_20_21_27.Still001-sm.jpg",
+          "title": "Identity and Access Management - Key Points",
+          "transcript": "",
+          "url": "identityaccess-management-key",
+          "vimeoId": "278018190"
+        }
+      ],
+      "title": "Identity and Access Management (IAM)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "2116",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-1-security_in_the_sdlc-061818-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-1-security_in_the_sdlc-061818-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-1-security_in_the_sdlc-061818-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Security in the SDLC",
+          "transcript": "",
+          "url": "securitythe-sdlc",
+          "vimeoId": "275864686"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "1613",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-2-security_in_the_sdlc_pt2-061818-PGM.00_27_01_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-2-security_in_the_sdlc_pt2-061818-PGM.00_27_01_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-2-security_in_the_sdlc_pt2-061818-PGM.00_27_01_22.Still001-sm.jpg",
+          "title": "Security in the SDLC Part 2",
+          "transcript": "",
+          "url": "securitythe-sdlc2",
+          "vimeoId": "275864107"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "2547",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-3-security_in_the_sdlc_pt3-061818-PGM.00_43_23_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-3-security_in_the_sdlc_pt3-061818-PGM.00_43_23_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-3-security_in_the_sdlc_pt3-061818-PGM.00_43_23_24.Still001-sm.jpg",
+          "title": "Security in the SDLC Part 3",
+          "transcript": "",
+          "url": "securitythe-sdlc3",
+          "vimeoId": "275922871"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "2405",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-4-security_in_the_sdlc_pt4-061818.00_39_52_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-4-security_in_the_sdlc_pt4-061818.00_39_52_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-4-security_in_the_sdlc_pt4-061818.00_39_52_01.Still001-sm.jpg",
+          "title": "Security in the SDLC Part 4",
+          "transcript": "",
+          "url": "securitythe-sdlc4",
+          "vimeoId": "275923279"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-5-security_in_the_sdlc_pt5-061818-PGM.00_30_39_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-5-security_in_the_sdlc_pt5-061818-PGM.00_30_39_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-5-security_in_the_sdlc_pt5-061818-PGM.00_30_39_16.Still001-sm.jpg",
+          "title": "Security in the SDLC Part 5",
+          "transcript": "",
+          "url": "securitythe-sdlc5",
+          "vimeoId": "275869557"
+        },
+        {
+          "description": "Adam and Wes discuss how to understand and integrate security in the Software Development Life Cycle (SDLC).",
+          "length": "588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-6-security_in_the_sdlc_pt6-062218-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-6-security_in_the_sdlc_pt6-062218-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-1-6-security_in_the_sdlc_pt6-062218-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Security in the SDLC Part 6",
+          "transcript": "",
+          "url": "securitythe-sdlc6",
+          "vimeoId": "277166025"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "1860",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-1-security_controls_in_dev_environments-061818-PGM.00_31_36_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-1-security_controls_in_dev_environments-061818-PGM.00_31_36_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-1-security_controls_in_dev_environments-061818-PGM.00_31_36_11.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments",
+          "transcript": "",
+          "url": "security-controlsdev-environments",
+          "vimeoId": "275869074"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2323",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-2-security_controls_in_dev_environments_pt2-061918-PGM.00_38_27_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-2-security_controls_in_dev_environments_pt2-061918-PGM.00_38_27_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-2-security_controls_in_dev_environments_pt2-061918-PGM.00_38_27_26.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 2",
+          "transcript": "",
+          "url": "security-controlsdev-environments2",
+          "vimeoId": "276091973"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2836",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-3-security_controls_in_dev_environments_pt3-061918-PGM.00_47_57_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-3-security_controls_in_dev_environments_pt3-061918-PGM.00_47_57_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-3-security_controls_in_dev_environments_pt3-061918-PGM.00_47_57_01.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 3",
+          "transcript": "",
+          "url": "security-controlsdev-environments3",
+          "vimeoId": "276092412"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2379",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-4-security_controls_in_dev_environments_pt4-062018-PGM.00_44_40_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-4-security_controls_in_dev_environments_pt4-062018-PGM.00_44_40_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-4-security_controls_in_dev_environments_pt4-062018-PGM.00_44_40_27.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 4",
+          "transcript": "",
+          "url": "security-controlsdev-environments4",
+          "vimeoId": "276258434"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2178",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-5-security_controls_in_dev_environments_pt5-062018-PGM.00_37_18_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-5-security_controls_in_dev_environments_pt5-062018-PGM.00_37_18_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-5-security_controls_in_dev_environments_pt5-062018-PGM.00_37_18_20.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 5",
+          "transcript": "",
+          "url": "security-controlsdev-environments5",
+          "vimeoId": "276258993"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2206",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-6-security_controls_in_dev_environments_pt6-062018-PGM.00_39_07_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-6-security_controls_in_dev_environments_pt6-062018-PGM.00_39_07_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-6-security_controls_in_dev_environments_pt6-062018-PGM.00_39_07_12.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 6",
+          "transcript": "",
+          "url": "security-controlsdev-environments6",
+          "vimeoId": "276256946"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-7-security_controls_in_dev_environments_pt7-062118-PGM.00_38_54_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-7-security_controls_in_dev_environments_pt7-062118-PGM.00_38_54_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-7-security_controls_in_dev_environments_pt7-062118-PGM.00_38_54_17.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 7",
+          "transcript": "",
+          "url": "security-controlsdev-environments7",
+          "vimeoId": "276448081"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-8-security_controls_in_dev_environments_pt8-062118-PGM.00_36_47_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-8-security_controls_in_dev_environments_pt8-062118-PGM.00_36_47_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-8-security_controls_in_dev_environments_pt8-062118-PGM.00_36_47_27.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 8",
+          "transcript": "",
+          "url": "security-controlsdev-environments8",
+          "vimeoId": "276447794"
+        },
+        {
+          "description": "Adam and Wes discuss how to identify and apply security controls in development environments.",
+          "length": "1063",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-9-security_controls_in_dev_environments_pt9-062118-PGM.00_01_53_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-9-security_controls_in_dev_environments_pt9-062118-PGM.00_01_53_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-2-9-security_controls_in_dev_environments_pt9-062118-PGM.00_01_53_12.Still001-sm.jpg",
+          "title": "Security Controls in Dev Environments Part 9",
+          "transcript": "",
+          "url": "security-controlsdev-environments9",
+          "vimeoId": "276447670"
+        },
+        {
+          "description": "Adam and Daniel discuss how to assess effectiveness of software security.",
+          "length": "2098",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-3-1-assess_effectiveness_of_software_security-062118-PGM.00_36_56_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-3-1-assess_effectiveness_of_software_security-062118-PGM.00_36_56_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-3-1-assess_effectiveness_of_software_security-062118-PGM.00_36_56_15.Still001-sm.jpg",
+          "title": "Assess Effectiveness of Software Security",
+          "transcript": "",
+          "url": "assess-effectivenesssoftware-security",
+          "vimeoId": "276448457"
+        },
+        {
+          "description": "Adam and Daniel discuss how to assess the security impact of acquired software.",
+          "length": "865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-4-1-assess_security_impact_of_acquired_software-062118-PGM.00_14_12_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-4-1-assess_security_impact_of_acquired_software-062118-PGM.00_14_12_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-4-1-assess_security_impact_of_acquired_software-062118-PGM.00_14_12_00.Still001-sm.jpg",
+          "title": "Assess Security Impact of Acquired Software",
+          "transcript": "",
+          "url": "assess-security-impactacquired-software",
+          "vimeoId": "276448736"
+        },
+        {
+          "description": "Adam and Daniel discuss how to define and apply secure coding guidelines and standards.",
+          "length": "1857",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-5-1-secure_coding_guidelines_and_standards-062118.00_30_44_18.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-5-1-secure_coding_guidelines_and_standards-062118.00_30_44_18.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-5-1-secure_coding_guidelines_and_standards-062118.00_30_44_18.Still002-sm.jpg",
+          "title": "Secure Coding Guidelines and Standards",
+          "transcript": "",
+          "url": "secure-coding-guidelinesstandards",
+          "vimeoId": "276447455"
+        },
+        {
+          "description": "Adam and Wes discuss databases & Data Warehouses.",
+          "length": "2138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-1-databases_and_data_warehouses-062218-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-1-databases_and_data_warehouses-062218-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-1-databases_and_data_warehouses-062218-high-sm.jpg",
+          "title": "Databases and Data Warehouses",
+          "transcript": "",
+          "url": "databasesdata-warehouses",
+          "vimeoId": "277163580"
+        },
+        {
+          "description": "Adam and Wes discuss databases & Data Warehouses.",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-2-databases_and_data_warehouses_pt2-062218-PGM.00_27_27_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-2-databases_and_data_warehouses_pt2-062218-PGM.00_27_27_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-6-2-databases_and_data_warehouses_pt2-062218-PGM.00_27_27_06.Still001-sm.jpg",
+          "title": "Databases and Data Warehouses Part 2",
+          "transcript": "",
+          "url": "databasesdata-warehouses2",
+          "vimeoId": "277166648"
+        },
+        {
+          "description": "Adam and Wes discuss types of storage.",
+          "length": "711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-7-1-types_of_storage-062218-PGM.00_12_04_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-7-1-types_of_storage-062218-PGM.00_12_04_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-7-1-types_of_storage-062218-PGM.00_12_04_16.Still001-sm.jpg",
+          "title": "Types of Storage",
+          "transcript": "",
+          "url": "typesstorage",
+          "vimeoId": "277166320"
+        },
+        {
+          "description": "Adam and Wes discuss Knowledge-based Systems.",
+          "length": "708",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-8-1-knowledge-based_systems-062218-PGM.00_11_36_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-8-1-knowledge-based_systems-062218-PGM.00_11_36_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-8-1-knowledge-based_systems-062218-PGM.00_11_36_06.Still001-sm.jpg",
+          "title": "Knowledge-based Systems",
+          "transcript": "",
+          "url": "knowledgebased-systems",
+          "vimeoId": "277165733"
+        },
+        {
+          "description": "Adam and Wes discuss the main key points for studying in Domain 8.",
+          "length": "565",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-9-1-software_development_security_key_points-062218-PGM.00_09_12_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-9-1-software_development_security_key_points-062218-PGM.00_09_12_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/isc2-cissp-2018/isc2-cissp-2018-8-9-1-software_development_security_key_points-062218-PGM.00_09_12_26.Still001-sm.jpg",
+          "title": "Software Development Security - Key Points",
+          "transcript": "",
+          "url": "software-development-security-key",
+          "vimeoId": "277165482"
+        }
+      ],
+      "title": "Software Development Security"
+    }
+  ],
+  "url": "certified-information-systems-security-professional-updated-2018",
+  "vLab": false
+}

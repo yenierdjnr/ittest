@@ -1,0 +1,359 @@
+{
+  "description": "Metasploit is a popular penetration testing software, which is represented as a suite of tools, which can go through the whole penetration testing process. Whether using Windows or Linux, Metasploit can be a powerful tool to test network security and is positioned as something that network administrators, penetration testers and even developers could use, which can make it a valuable addition to one’s security toolkit.",
+  "descriptionMD": "",
+  "length": "43041",
+  "name": "Metasploit",
+  "practiceExam": false,
+  "subtitle": "Configuration of Metasploit",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "216",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-0-0-overview-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-0-0-overview-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-0-0-overview-070615-1-sm.jpg",
+          "title": "Metasploit Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.398\n[MUSIC]\n\n2\n00:00:07.398 --> 00:00:08.385\nHello and welcome.\n\n3\n00:00:08.385 --> 00:00:12.770\nGot another exciting set of videos\ncoming your way here at ITProTV.\n\n4\n00:00:12.770 --> 00:00:16.310\nWe're gonna be covering\na product known as Metasploit.\n\n5\n00:00:16.310 --> 00:00:19.490\nAnd Sean, tell us about Metasploit and\nwhy I'd wanna watch this.\n\n6\n00:00:19.490 --> 00:00:21.870\nWhat can I do with Metasploit?\n\n7\n00:00:21.870 --> 00:00:26.210\n>> Metasploit, I guess the question is,\nas far as pen testing's concerned,\n\n8\n00:00:26.210 --> 00:00:27.650\nwhat can't you do?\n\n9\n00:00:27.650 --> 00:00:32.400\nBecause Metasploit is commonly\nreferred to as a tool, but\n\n10\n00:00:32.400 --> 00:00:36.670\nit's really a suite of tools,\nit's not just one thing.\n\n11\n00:00:36.670 --> 00:00:41.650\nIt's open source so people can add stuff\nto it, they can extend it out pretty far.\n\n12\n00:00:41.650 --> 00:00:44.260\nAnd it can do just\na tremendous amount of things.\n\n13\n00:00:44.260 --> 00:00:47.470\nIn fact,\nif you really look at the tool itself or\n\n14\n00:00:47.470 --> 00:00:51.820\nthe suite of tools itself,\nyou can pretty much go through\n\n15\n00:00:51.820 --> 00:00:55.960\nthe whole penetration testing\nprocess just with Metasploit.\n\n16\n00:00:55.960 --> 00:00:58.830\nSo there's just that much there.\n\n17\n00:00:58.830 --> 00:01:01.580\nSo it's really something\nthat you gotta get in and\n\n18\n00:01:01.580 --> 00:01:04.650\nreally get your hands dirty to\nunderstand what's going on there.\n\n19\n00:01:04.650 --> 00:01:08.800\nSo it's incredibly powerful and very\nuseful and even if you decide not to use\n\n20\n00:01:08.800 --> 00:01:14.300\nit on its own and you use it as part of\nyour other pen testing tools and the rest\n\n21\n00:01:14.300 --> 00:01:17.990\nof your pen testing process, you're still\ngonna get a lot of mileage out of it.\n\n22\n00:01:17.990 --> 00:01:22.120\nThis will add a whole extra level\nto your pen testing capability.\n\n23\n00:01:22.120 --> 00:01:23.530\n>> And you said it was open source so\n\n24\n00:01:23.530 --> 00:01:27.860\nit's freely accessible,\nruns on different platforms I'm assuming?\n\n25\n00:01:27.860 --> 00:01:30.800\n>> Yes, it runs on Linux and\n\n26\n00:01:30.800 --> 00:01:34.310\nWindows, and I believe, yeah,\nUnix, you can get it for that too.\n\n27\n00:01:34.310 --> 00:01:36.023\nIt's close enough, I guess, right?\n\n28\n00:01:36.023 --> 00:01:37.313\n>> [LAUGH]\n>> So you can get it on there.\n\n29\n00:01:37.313 --> 00:01:42.383\nSo we're gonna be focusing on using\nit on Linux, but like I said,\n\n30\n00:01:42.383 --> 00:01:47.020\nyou can get it on Windows and\ndo your stuff over there.\n\n31\n00:01:47.020 --> 00:01:50.180\nIronically enough is if you go ahead and\ninstall it on Windows,\n\n32\n00:01:50.180 --> 00:01:52.340\nyou're pretty much gonna get\nthe same interface over there.\n\n33\n00:01:52.340 --> 00:01:53.310\nYou get the command line.\n\n34\n00:01:53.310 --> 00:01:53.970\nLine.\nSo yeah, you\n\n35\n00:01:53.970 --> 00:01:56.720\ncould move the command line here or\nyou can move it here.\n\n36\n00:01:56.720 --> 00:02:00.456\nBut you're getting a command line and\nyou'll like it.\n\n37\n00:02:00.456 --> 00:02:03.690\n>> [LAUGH] There's no fancy GUI for us to\nclick through or anything like that, huh?\n\n38\n00:02:03.690 --> 00:02:06.545\n>> Very, very little on that.\n\n39\n00:02:06.545 --> 00:02:10.585\nAnd you'll get pretty much everything\nright throughout the command line, so\n\n40\n00:02:10.585 --> 00:02:14.535\nthere are some GUI based things in there\nthat are either part of the product or\n\n41\n00:02:14.535 --> 00:02:16.585\nhas been added on by a third party.\n\n42\n00:02:16.585 --> 00:02:21.285\nWhat you're gonna be looking at command\nline for the most part and we're\n\n43\n00:02:21.285 --> 00:02:25.375\njust gonna go ahead and keep things simple\nand use it right inside of Kali Linux.\n\n44\n00:02:25.375 --> 00:02:29.620\nYou know we did a whole set\nof shows on Kali Linux so\n\n45\n00:02:29.620 --> 00:02:32.900\nif you're going through the whole process\nhere, you can watch the Kali Linux one and\n\n46\n00:02:32.900 --> 00:02:37.610\nget familiar with that and then jump right\nover into this and kind of see how this\n\n47\n00:02:37.610 --> 00:02:40.630\nfits in with that product and\nthe stuff we covered over there.\n\n48\n00:02:40.630 --> 00:02:43.870\n>> And this is something I could use\nif I was a penetration tester and\n\n49\n00:02:43.870 --> 00:02:45.680\nI was doing it for\nmoney or for a business.\n\n50\n00:02:45.680 --> 00:02:47.170\nThis is a product I could use.\n\n51\n00:02:47.170 --> 00:02:51.360\nAlso if I was just a network admin or\npart of the security team in a company.\n\n52\n00:02:51.360 --> 00:02:53.330\nSomething I could use\nto test my own stuff or\n\n53\n00:02:53.330 --> 00:02:55.200\nmake sure everything was on the up and up?\n\n54\n00:02:55.200 --> 00:02:59.420\n>> Yes, it's very well positioned as\nsomething that a security administrator or\n\n55\n00:02:59.420 --> 00:03:01.204\nsomebody along those lines would use.\n\n56\n00:03:01.204 --> 00:03:05.370\nIt could be used by developers, it could\nbe used by a number of different people.\n\n57\n00:03:05.370 --> 00:03:06.440\nNetwork admins, yeah,\n\n58\n00:03:06.440 --> 00:03:09.439\nI could see some tools in there that they\nmight get some mileage out of as well.\n\n59\n00:03:10.450 --> 00:03:14.120\nI'm not sure how far they'd be able\nto take it there, but who knows?\n\n60\n00:03:14.120 --> 00:03:16.620\nNetwork admins can always find, you give\nthem something like this, they're like,\n\n61\n00:03:16.620 --> 00:03:17.310\nI can use it.\n\n62\n00:03:17.310 --> 00:03:18.290\nSo who knows?\n\n63\n00:03:18.290 --> 00:03:20.740\nThey'll probably find some\nway to use it over there.\n\n64\n00:03:20.740 --> 00:03:21.270\n>> Good deal.\n\n65\n00:03:21.270 --> 00:03:24.890\nAll right, well we've got a bunch of\nexciting episodes coming your way.\n\n66\n00:03:24.890 --> 00:03:30.186\nDealing with Metasploit, so everybody\nstay tuned, sit back, relax, and enjoy.\n\n67\n00:03:30.186 --> 00:03:36.199\n[MUSIC]\n\n",
+          "url": "metasploit-overview",
+          "vimeoId": "132857401"
+        },
+        {
+          "description": null,
+          "length": "1544",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-0-what_is_metasploit-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-0-what_is_metasploit-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-0-what_is_metasploit-070615-1-sm.jpg",
+          "title": "What is Metasploit",
+          "transcript": "",
+          "url": "metasploit-overview1",
+          "vimeoId": "132857403"
+        },
+        {
+          "description": null,
+          "length": "1465",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-1-versions_of_metasploit-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-1-versions_of_metasploit-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-1-1-versions_of_metasploit-070615-1-sm.jpg",
+          "title": "Versions of Metasploit",
+          "transcript": "",
+          "url": "versions-metasploit",
+          "vimeoId": "132857408"
+        },
+        {
+          "description": null,
+          "length": "1674",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-1-metasploit_basics-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-1-metasploit_basics-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-1-metasploit_basics-070615-1-sm.jpg",
+          "title": "Metasploit Basics",
+          "transcript": "",
+          "url": "metasploit-basics",
+          "vimeoId": "132857409"
+        },
+        {
+          "description": null,
+          "length": "1612",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-2-exploring_the__interface-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-2-exploring_the__interface-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-2-exploring_the__interface-070615-1-sm.jpg",
+          "title": "Exploring the Interface",
+          "transcript": "",
+          "url": "exploring-interface",
+          "vimeoId": "132857410"
+        },
+        {
+          "description": null,
+          "length": "918",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-3-exploring_the__utilties-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-3-exploring_the__utilties-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-2-3-exploring_the__utilties-070615-1-sm.jpg",
+          "title": "Exploring the Utilities",
+          "transcript": "",
+          "url": "exploring-utilities",
+          "vimeoId": "132955246"
+        },
+        {
+          "description": null,
+          "length": "1558",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-1-passive_intellgence_gathering-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-1-passive_intellgence_gathering-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-1-passive_intellgence_gathering-070615-1-sm.jpg",
+          "title": "Passive Intelligence Gathering",
+          "transcript": "",
+          "url": "passive-intelligence-gathering",
+          "vimeoId": "132955248"
+        },
+        {
+          "description": null,
+          "length": "1609",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intellgence_gathering-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intellgence_gathering-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intellgence_gathering-070615-1-sm.jpg",
+          "title": "Active Intelligence Gathering",
+          "transcript": "",
+          "url": "active-intelligence-gathering",
+          "vimeoId": "132955249"
+        },
+        {
+          "description": null,
+          "length": "1505",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intelligence_gathering_pt2-070615-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intelligence_gathering_pt2-070615-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-3-2-active_intelligence_gathering_pt2-070615-high-sm.jpg",
+          "title": "Active Intelligence Gathering Part 2",
+          "transcript": "",
+          "url": "active-intelligence-gathering-2",
+          "vimeoId": "132955250"
+        },
+        {
+          "description": null,
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-1-using_vulnerability_scan-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-1-using_vulnerability_scan-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-1-using_vulnerability_scan-070715-1-sm.jpg",
+          "title": "Using a Vulnerability Scan",
+          "transcript": "",
+          "url": "using-vulnerability-scan",
+          "vimeoId": "133069159"
+        },
+        {
+          "description": null,
+          "length": "1752",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-2-doing_vulnerability_scan-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-2-doing_vulnerability_scan-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-2-doing_vulnerability_scan-070715-1-sm.jpg",
+          "title": "Doing a Vulnerability Scan",
+          "transcript": "",
+          "url": "doing-vulnerability-scan",
+          "vimeoId": "132965387"
+        },
+        {
+          "description": null,
+          "length": "1944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners-070715-1-sm.jpg",
+          "title": "Vulnerability Scanners",
+          "transcript": "",
+          "url": "vulnerability-scanners",
+          "vimeoId": "132965383"
+        },
+        {
+          "description": null,
+          "length": "1406",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners_pt2-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners_pt2-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-3-vulnerability_scanners_pt2-070715-1-sm.jpg",
+          "title": "Vulnerability Scanners Part 2",
+          "transcript": "",
+          "url": "vulnerability-scanners-2",
+          "vimeoId": "133070291"
+        },
+        {
+          "description": null,
+          "length": "1222",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-5-exploits_a_closer_look-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-5-exploits_a_closer_look-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-5-exploits_a_closer_look-070715-1-sm.jpg",
+          "title": "Exploits: A Closer Look",
+          "transcript": "",
+          "url": "exploits-closer-look",
+          "vimeoId": "132965389"
+        },
+        {
+          "description": null,
+          "length": "1610",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-6-exploits-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-6-exploits-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-4-6-exploits-070715-1-sm.jpg",
+          "title": "Exploits",
+          "transcript": "",
+          "url": "exploits-closer-look1",
+          "vimeoId": "132967613"
+        },
+        {
+          "description": null,
+          "length": "1442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-5-2-exploiting_services-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-5-2-exploiting_services-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-5-2-exploiting_services-070715-1-sm.jpg",
+          "title": "Exploiting Services",
+          "transcript": "",
+          "url": "exploiting-services",
+          "vimeoId": "132967614"
+        },
+        {
+          "description": null,
+          "length": "1386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-1-what_is_meterpreter-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-1-what_is_meterpreter-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-1-what_is_meterpreter-070815-1-sm.jpg",
+          "title": "What is Meterpreter",
+          "transcript": "",
+          "url": "meterpreter",
+          "vimeoId": "133080597"
+        },
+        {
+          "description": null,
+          "length": "1560",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-2-launching_meterpreter-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-2-launching_meterpreter-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-2-launching_meterpreter-070815-1-sm.jpg",
+          "title": "Launching the Meterpreter",
+          "transcript": "",
+          "url": "launching-meterpreter",
+          "vimeoId": "133080602"
+        },
+        {
+          "description": null,
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-3-using_the__meterpreter-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-3-using_the__meterpreter-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-3-using_the__meterpreter-070815-1-sm.jpg",
+          "title": "Using the Meterpreter",
+          "transcript": "",
+          "url": "using-meterpreter",
+          "vimeoId": "133080599"
+        },
+        {
+          "description": null,
+          "length": "1602",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-4-using_the__meterpreter-_pt2-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-4-using_the__meterpreter-_pt2-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-4-using_the__meterpreter-_pt2-070815-1-sm.jpg",
+          "title": "Using the Meterpreter Part 2",
+          "transcript": "",
+          "url": "using-meterpreter-2",
+          "vimeoId": "133080601"
+        },
+        {
+          "description": null,
+          "length": "918",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-5-advanced_meterpreter-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-5-advanced_meterpreter-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-6-5-advanced_meterpreter-070815-1-sm.jpg",
+          "title": "Advanced Meterpreter",
+          "transcript": "",
+          "url": "advanced-meterpreter",
+          "vimeoId": "133080605"
+        },
+        {
+          "description": null,
+          "length": "951",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-1-social_engineering-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-1-social_engineering-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-1-social_engineering-070815-1-sm.jpg",
+          "title": "Social Engineering",
+          "transcript": "",
+          "url": "social-engineering1",
+          "vimeoId": "133082526"
+        },
+        {
+          "description": null,
+          "length": "1177",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-2-set_integration-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-2-set_integration-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-7-2-set_integration-070815-1-sm.jpg",
+          "title": "SET Integration",
+          "transcript": "",
+          "url": "set-integration",
+          "vimeoId": "133082527"
+        },
+        {
+          "description": null,
+          "length": "1401",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-1-what_is_armitage-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-1-what_is_armitage-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-1-what_is_armitage-070915-1-sm.jpg",
+          "title": "What is Armitage",
+          "transcript": "",
+          "url": "armitage",
+          "vimeoId": "133157376"
+        },
+        {
+          "description": null,
+          "length": "1545",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-2-configuring_armitage-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-2-configuring_armitage-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-2-configuring_armitage-070915-1-sm.jpg",
+          "title": "Configuring Armitage",
+          "transcript": "",
+          "url": "configuring-armitage",
+          "vimeoId": "133157377"
+        },
+        {
+          "description": null,
+          "length": "1240",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits-070915-1-sm.jpg",
+          "title": "Armitage Exploits",
+          "transcript": "",
+          "url": "armitage-exploits",
+          "vimeoId": "133157378"
+        },
+        {
+          "description": null,
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits_pt2-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits_pt2-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-3-armitage_exploits_pt2-070915-1-sm.jpg",
+          "title": "Armitage Exploits Part 2",
+          "transcript": "",
+          "url": "armitage-exploits-2",
+          "vimeoId": "133169678"
+        },
+        {
+          "description": null,
+          "length": "1265",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit-070915-1-sm.jpg",
+          "title": "After the Exploit",
+          "transcript": "",
+          "url": "exploits-closer-look2",
+          "vimeoId": "133157380"
+        },
+        {
+          "description": null,
+          "length": "1283",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit_pt2-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit_pt2-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-4-after_the_exploit_pt2-070915-1-sm.jpg",
+          "title": "After the Exploit Part 2",
+          "transcript": "",
+          "url": "exploit-2",
+          "vimeoId": "133157379"
+        },
+        {
+          "description": null,
+          "length": "1063",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-5-pivoting-070915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-5-pivoting-070915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-8-5-pivoting-070915-1-sm.jpg",
+          "title": "Pivoting",
+          "transcript": "",
+          "url": "pivoting",
+          "vimeoId": "133157692"
+        },
+        {
+          "description": null,
+          "length": "1502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-9-1-advanced_metasploit-070915-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-9-1-advanced_metasploit-070915-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-metasploit/techskills-metasploit-9-1-advanced_metasploit-070915-2-sm.jpg",
+          "title": "Advanced Metasploit",
+          "transcript": "",
+          "url": "advanced-metasploit",
+          "vimeoId": "133157693"
+        }
+      ],
+      "title": "Metasploit"
+    }
+  ],
+  "url": "metasploit",
+  "vLab": false
+}

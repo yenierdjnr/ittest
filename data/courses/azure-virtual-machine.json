@@ -1,0 +1,227 @@
+{
+  "description": "The Microsoft Azure Virtual Machine course covers the foundational knowledge you need to implement an Azure Virtual Machine. The course is geared toward system administrators, who currently have systems in Azure or support local servers and want to transition over to Azure. One should expect to learn how to deploy virtual machines into Windows Azure, different configurations of those servers and how to manage them, the process of how to back up and restore a server and other features in Azure that can be used to supplement a virtual machine.",
+  "descriptionMD": "",
+  "length": "33247",
+  "name": "Azure Virtual Machine",
+  "practiceExam": false,
+  "subtitle": "Azure VM",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this segment, Daniel and Don give a general overview of what you can expect in the upcoming episodes. They cover what the show's about, the target audience, what will be covered overall, and other topics.",
+          "length": "366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-0-0-overview-113015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-0-0-overview-113015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-0-0-overview-113015-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:04.650\n[SOUND] In this segment,\nwe're gonna go over\n\n2\n00:00:04.650 --> 00:00:09.775\nthe Microsoft Azure Virtual Machine\ncourse that\n\n3\n00:00:09.775 --> 00:00:14.901\nwe're gonna make available\nhere from ITProTV.\n\n4\n00:00:14.901 --> 00:00:18.401\nAnd Don, you're here to help us walk\nthrough what we should actually come to\n\n5\n00:00:18.401 --> 00:00:19.500\nexpect from this show.\n\n6\n00:00:19.500 --> 00:00:20.930\nThere's a lot of cool stuff coming up.\n\n7\n00:00:20.930 --> 00:00:22.590\n>> Yeah, it's a neat one.\n\n8\n00:00:22.590 --> 00:00:26.880\nIn the world of cloud services,\na lot of people have heard of Amazon and\n\n9\n00:00:26.880 --> 00:00:29.970\nEC2 and\neven Google Compute to a lesser extent,\n\n10\n00:00:29.970 --> 00:00:31.700\nsome of the other vendors\nthat are out there.\n\n11\n00:00:31.700 --> 00:00:34.460\nBut Microsoft's Azure has\nreally been gaining steam,\n\n12\n00:00:34.460 --> 00:00:38.780\nand you can do a lot of stuff in Azure,\na lot of database hosting and\n\n13\n00:00:38.780 --> 00:00:40.750\ninstance hosting,\nall sorts of crazy things.\n\n14\n00:00:40.750 --> 00:00:44.773\nBut in this show we're gonna focus\nspecifically on virtual machines.\n\n15\n00:00:44.773 --> 00:00:48.718\nTaking your servers, that in the past\nmight have been physical servers, or even\n\n16\n00:00:48.718 --> 00:00:52.663\nvirtual servers in your own environment,\nand moving them up into the Azure cloud\n\n17\n00:00:52.663 --> 00:00:56.380\nwhere you can start to take advantage\nof a lot of really cool features.\n\n18\n00:00:56.380 --> 00:01:00.840\nAnd just the efficiencies of scale that\nyou get by running in a world-class\n\n19\n00:01:00.840 --> 00:01:02.500\ndata center like one of Microsoft's.\n\n20\n00:01:02.500 --> 00:01:04.860\nAnd I mean it's a really powerful tool.\n\n21\n00:01:04.860 --> 00:01:06.660\nA lot of people are nervous or\n\n22\n00:01:06.660 --> 00:01:10.680\njust don't necessary trust\nmaking that jump into the cloud.\n\n23\n00:01:10.680 --> 00:01:14.360\nAnd so, what we hope to do with this\nshow is take away that nervousness,\n\n24\n00:01:14.360 --> 00:01:16.670\nthat trepidation and\nmake you recognize that, boy,\n\n25\n00:01:16.670 --> 00:01:19.030\nthere's some really good\nstuff to be found there.\n\n26\n00:01:19.030 --> 00:01:23.220\nAnd it's really inexpensive,\nwhich is kind of a benefit in most books.\n\n27\n00:01:23.220 --> 00:01:26.500\nBut we'll get a chance to see that, see\nsome of the cool features, and really just\n\n28\n00:01:26.500 --> 00:01:29.990\njump in there and tackle using Windows\nAzure to support our virtual machines.\n\n29\n00:01:29.990 --> 00:01:32.834\n>> Now Don you're using a lot\nof big words there, and\n\n30\n00:01:32.834 --> 00:01:36.968\nobviously this is probably not for\nthe intro [LAUGH] into IT kinda person,\n\n31\n00:01:36.968 --> 00:01:40.053\nwho is the target audience for\nthis specific course?\n\n32\n00:01:40.053 --> 00:01:42.483\n>> All right, so who we're giving this\ntowards are really gonna be system\n\n33\n00:01:42.483 --> 00:01:43.100\nadmins, right?\n\n34\n00:01:43.100 --> 00:01:47.690\nSo, these are people who either currently\nalready have some systems in Azure.\n\n35\n00:01:47.690 --> 00:01:52.160\nOr support local servers and\nwanna make that jump to Azure.\n\n36\n00:01:52.160 --> 00:01:54.860\nBut the key point is that you're\nalready working with servers.\n\n37\n00:01:54.860 --> 00:01:56.610\nNow, I'm leaving clients out of this.\n\n38\n00:01:56.610 --> 00:01:59.816\nYou can put Windows 7, Windows 8,\nWindows 10 clients in Azure.\n\n39\n00:01:59.816 --> 00:02:01.060\nBut it's not really what it's made for.\n\n40\n00:02:01.060 --> 00:02:02.560\nIt's really made for servers.\n\n41\n00:02:02.560 --> 00:02:06.160\nSo, you need to have some experience\nwith either Linux or Windows as a server\n\n42\n00:02:06.160 --> 00:02:09.730\ndeployed in the environment and kinda be\nsupporting that before you jump into this.\n\n43\n00:02:09.730 --> 00:02:13.110\nIf you don't understand those concepts,\nif you don't have that foundational\n\n44\n00:02:13.110 --> 00:02:16.780\nknowledge, it's really hard to view\nthe difference between virtualizing versus\n\n45\n00:02:16.780 --> 00:02:18.955\nphysical, and it really just\nkind of falls to pieces there.\n\n46\n00:02:18.955 --> 00:02:23.462\nSo,you really should have already kind of\nmade some steps as far as getting your\n\n47\n00:02:23.462 --> 00:02:25.966\nMCSA, or\nat least an MCP in Windows Server.\n\n48\n00:02:25.966 --> 00:02:28.120\nYou've kind of worked\nwith that technology.\n\n49\n00:02:28.120 --> 00:02:29.790\nYou've implemented it out\nthere in the field, and\n\n50\n00:02:29.790 --> 00:02:32.770\nnow you're looking at how you can benefit\nby putting it into a virtual environment.\n\n51\n00:02:32.770 --> 00:02:36.540\nSo, yeah, definitely not the starting\nout type show for somebody.\n\n52\n00:02:36.540 --> 00:02:40.617\nStarting out, if you've never even\ngone to the Microsoft Azure web page,\n\n53\n00:02:40.617 --> 00:02:42.246\nyou'll be fine, all right?\n\n54\n00:02:42.246 --> 00:02:44.070\nBut you gotta have some server experience.\n\n55\n00:02:44.070 --> 00:02:47.130\nYou gotta to understand what that's\nlike to host your own system.\n\n56\n00:02:47.130 --> 00:02:50.160\nTo see about moving that into a virtual\nworld, that's the big difference.\n\n57\n00:02:50.160 --> 00:02:52.992\nBut if you've never even heard of Azure,\nif you've never even heard of AWS,\n\n58\n00:02:52.992 --> 00:02:55.274\nor Google Computer, or whatever,\nyou'll be fine, right?\n\n59\n00:02:55.274 --> 00:02:59.056\nWe are gonna cover it all from the\nbeginning to advanced as we move through\n\n60\n00:02:59.056 --> 00:03:02.020\nusing your virtual machines\nin Microsoft Azure.\n\n61\n00:03:02.020 --> 00:03:02.540\n>> All right Don.\n\n62\n00:03:02.540 --> 00:03:05.600\nNow it's time to dangle\nthe really good bait out there.\n\n63\n00:03:05.600 --> 00:03:06.480\nTell these good folks,\n\n64\n00:03:06.480 --> 00:03:11.710\nwhat are we going to cover, what should\nthey expect to learn in this class?\n\n65\n00:03:11.710 --> 00:03:12.341\n>> All right, so\n\n66\n00:03:12.341 --> 00:03:15.613\nwe're gonna tackle some things that\nI consider really need-to-know.\n\n67\n00:03:15.613 --> 00:03:19.050\nWe're gonna start off with just\na broad introduction to Azure.\n\n68\n00:03:19.050 --> 00:03:21.899\nSo if you have never heard of it,\nwe'll give you that intro.\n\n69\n00:03:21.899 --> 00:03:25.375\nAnd in that one we're gonna talk about\nthings like pricing, which is important.\n\n70\n00:03:25.375 --> 00:03:27.723\nYou gotta understand how this is\nbilled and determine whether or\n\n71\n00:03:27.723 --> 00:03:29.297\nnot you're actually saving money or not.\n\n72\n00:03:29.297 --> 00:03:32.515\nWe're gonna talk about some of\nthe advanced features we get by being\n\n73\n00:03:32.515 --> 00:03:33.030\nin Azure.\n\n74\n00:03:33.030 --> 00:03:37.980\nThe stuff like the heavy redundancy, and\ninfrastructure, network operation center,\n\n75\n00:03:37.980 --> 00:03:40.040\npeople that are super talented.\n\n76\n00:03:40.040 --> 00:03:41.620\nJust tons of advantages of being there.\n\n77\n00:03:41.620 --> 00:03:43.380\nSo we'll get a chance to see those.\n\n78\n00:03:43.380 --> 00:03:47.680\nWe're also gonna take a look at how to\ndeploy virtual machines, be they Linux or\n\n79\n00:03:47.680 --> 00:03:49.370\nWindows, into the Windows Azure.\n\n80\n00:03:49.370 --> 00:03:53.340\nWe'll talk about how to convert a physical\nsystem to move it into a virtual system.\n\n81\n00:03:53.340 --> 00:03:56.380\nIf you've already got servers locally and\nyou wanna move them into Azure,\n\n82\n00:03:56.380 --> 00:03:59.280\nwe'll get a chance to see how to do that,\nand that process.\n\n83\n00:03:59.280 --> 00:04:02.640\nWe'll talk about some of the different\nconfigurations for those servers,\n\n84\n00:04:02.640 --> 00:04:05.220\nthe different ways that we can\nspec them out for performance.\n\n85\n00:04:05.220 --> 00:04:07.520\nAnd once they're up and running,\nwe'll talk about how we can manage them.\n\n86\n00:04:07.520 --> 00:04:11.846\nHow we can make sure they're running just\nfine, staying up, staying in business, and\n\n87\n00:04:11.846 --> 00:04:14.419\nreally leveraging some of\nthe high availability and\n\n88\n00:04:14.419 --> 00:04:17.280\nredundancy features that\nare available in Azure.\n\n89\n00:04:17.280 --> 00:04:19.170\nIt's a very complex network, and\n\n90\n00:04:19.170 --> 00:04:21.430\nit's up to you to make sure\nyou take advantage of it.\n\n91\n00:04:21.430 --> 00:04:24.000\nWe're also gonna talk about\nhow to backup and restore.\n\n92\n00:04:24.000 --> 00:04:25.130\nCuz this is really weird, right?\n\n93\n00:04:25.130 --> 00:04:27.929\nWhen you got a physical server,\nI need to back up that physical server.\n\n94\n00:04:27.929 --> 00:04:30.540\nAnd when it's time to restore I go and\ngrab those tapes.\n\n95\n00:04:30.540 --> 00:04:31.560\nBut when it's all virtual, and\n\n96\n00:04:31.560 --> 00:04:35.420\nit's all up there in the cloud you\ndon't even know the physical server.\n\n97\n00:04:35.420 --> 00:04:36.810\nYou don't even know what it looks like.\n\n98\n00:04:36.810 --> 00:04:39.360\nBut you've got to backup it and\nrestore it, that's just really weird.\n\n99\n00:04:39.360 --> 00:04:42.300\nSo, we're gonna talk about\nhow that process works too.\n\n100\n00:04:42.300 --> 00:04:45.860\nAnd throughout all of that, which sounds\nlike good stuff, but throughout all of\n\n101\n00:04:45.860 --> 00:04:49.660\nthat, we're also gonna be talking about\nsome of the other features in Azure\n\n102\n00:04:49.660 --> 00:04:53.770\nthat we can use to supplement the virtual\nmachines to make them even more robust.\n\n103\n00:04:53.770 --> 00:04:57.040\nSo there's a couple of neat little things,\nlike DNS, that we'll get into.\n\n104\n00:04:57.040 --> 00:05:00.420\nYou can build VM's all day long and\nnot worry about DNS at all.\n\n105\n00:05:00.420 --> 00:05:03.770\nBut sooner or later you're gonna wanna\nattach a host name to a virtual machine,\n\n106\n00:05:03.770 --> 00:05:05.776\nand you'll need to know\na little bit about DNS.\n\n107\n00:05:05.776 --> 00:05:09.030\nSo we'll cover some of that too all\nthroughout the course of the series.\n\n108\n00:05:09.030 --> 00:05:11.300\n>> Sounds very, very cool so far.\n\n109\n00:05:11.300 --> 00:05:14.340\nNow, I know a lot of the shows\nthat we do here at ITProTV,\n\n110\n00:05:14.340 --> 00:05:15.880\nthey're exam oriented, right?\n\n111\n00:05:15.880 --> 00:05:17.620\nThey're working you toward an exam.\n\n112\n00:05:17.620 --> 00:05:20.440\nIs there an exam associated with this?\n\n113\n00:05:20.440 --> 00:05:21.770\n>> Not really, not yet.\n\n114\n00:05:21.770 --> 00:05:25.119\nSo Microsoft is working on several\ndifferent Azure certifications, and\n\n115\n00:05:25.119 --> 00:05:27.613\nthey've got a few of\nthe MCSE-level stuff that does.\n\n116\n00:05:27.613 --> 00:05:30.994\nBut at the lower level, the kinda getting\nstarted like we're gonna be doing, and\n\n117\n00:05:30.994 --> 00:05:32.808\neven some of the advanced\nstuff we get into,\n\n118\n00:05:32.808 --> 00:05:35.180\nthey really don't have an exam\nthat's catered to this.\n\n119\n00:05:35.180 --> 00:05:38.680\nSo this is more of a technical skills\nshow, one that's done for your benefit.\n\n120\n00:05:38.680 --> 00:05:40.760\nJust the knowledge that you\nwant to gain from it, not so\n\n121\n00:05:40.760 --> 00:05:42.590\nmuch based on getting\na certification out of it.\n\n122\n00:05:42.590 --> 00:05:43.910\nStill very valuable knowledge.\n\n123\n00:05:43.910 --> 00:05:44.920\n>> Well awesome stuff Don.\n\n124\n00:05:44.920 --> 00:05:46.770\nI know it sounds like\na really awesome show.\n\n125\n00:05:46.770 --> 00:05:48.918\nI'm looking forward to\ndoing the show with you.\n\n126\n00:05:48.918 --> 00:05:50.530\nAnd hopefully we'll see you guys there.\n\n127\n00:05:50.530 --> 00:05:52.160\nA lot of great content coming up.\n\n128\n00:05:52.160 --> 00:05:53.640\nSo stay tuned and\n\n129\n00:05:53.640 --> 00:05:57.380\njoin us with these new Azure from\nMicrosoft and their virtual machines.\n\n130\n00:05:57.380 --> 00:05:59.470\nAnd we'll see you then.\n\n131\n00:05:59.470 --> 00:06:06.319\n[SOUND]\n\n",
+          "url": "overview70704",
+          "vimeoId": "147474253"
+        },
+        {
+          "description": "In this episode, Daniel and Don go over the basics of Microsoft Azure. They start with the very foundational knowledge; things like typical scenarios for why you may want to utilize Azure VMs, as well as some of the benefits of using Azure VMs. Then they move into detail about licensing considerations and pricing specifics so you can make sure you're getting the best bang for your buck.",
+          "length": "1968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-1-microsoft_azure_basics-113015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-1-microsoft_azure_basics-113015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-1-microsoft_azure_basics-113015-1-sm.jpg",
+          "title": "Microsoft Azure Basics",
+          "transcript": "",
+          "url": "microsoft-azure-basics",
+          "vimeoId": "147474268"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore some of the default limits to the Azure Virtual Machines. This includes the default CPU core limits, DNS restrictions, and storage sizes. Then they explain how to push beyond those limits when the need arises. Finally, they explain the differences in Azure VM types. This covers the Basic vs. Standard tiers as well as the A, D/DS, and G/GS series of Virtual Machines.",
+          "length": "1925",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-2-virtual_machine_types-113015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-2-virtual_machine_types-113015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-2-virtual_machine_types-113015-1-sm.jpg",
+          "title": "Virtual Machine Types",
+          "transcript": "",
+          "url": "virtual-machine-types",
+          "vimeoId": "147474281"
+        },
+        {
+          "description": "In this episode, Daniel and Don show you how to create a Microsoft Azure Virtual Machine. The first method they cover for creating a VM is by using the Azure Legacy Portal, taking you step-by-step through the VM creation wizard. Next, they utilize the newer Preview Portal, which is poised to replace the Legacy Portal. Also covered is the topic of a Cloud Service and what that means to the Azure VM user.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-3-creating_virtual_machines-113015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-3-creating_virtual_machines-113015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-3-creating_virtual_machines-113015-1-sm.jpg",
+          "title": "Creating Virtual Machines",
+          "transcript": "",
+          "url": "virtual-machine-types2",
+          "vimeoId": "147474296"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain how to install and configure PowerShell for Azure. First they walk you through downloading and installing the Azure commands for PowerShell. Then they take you step-by-step through connecting to Azure using PowerShell in multiple different ways. Finally, they show you how to create an Azure Virtual Machine via the PowerShell.",
+          "length": "1833",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-4-azure_powershell-120115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-4-azure_powershell-120115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-4-azure_powershell-120115-1-sm.jpg",
+          "title": "Azure PowerShell",
+          "transcript": "",
+          "url": "azure-powershell",
+          "vimeoId": "148667842"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through connecting to an Azure Virtual Machine. They start by explaining the default access methods for connecting to both a Windows Server VM (Remote Desktop) and a Linux VM (SSH). Then they explain how to add security to those access methods using the Azure Firewall.",
+          "length": "1778",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-5-connecting_to_a_vm-120115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-5-connecting_to_a_vm-120115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-5-connecting_to_a_vm-120115-1-sm.jpg",
+          "title": "Connecting to a VM",
+          "transcript": "",
+          "url": "connecting-vm",
+          "vimeoId": "148667848"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore how to use Azure to quickly deploy a custom virtual machine \"image\". They start things off by describing the concept of imaging, which is basically taking a picture of a computer's state. Then they use the Azure portal to create an Azure VM image, step-by-step. Finally, they show you how to create a new VM or recreate a VM using the custom image from the Azure portal.",
+          "length": "1681",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-6-using_vm_images-012116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-6-using_vm_images-012116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-6-using_vm_images-012116-1-sm.jpg",
+          "title": "Azure VM Images",
+          "transcript": "",
+          "url": "azure-vm-images",
+          "vimeoId": "152756388"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through creating custom scripts in PowerShell, to automate custom deployments in Azure. They start by explaining the benefits of custom scripting; benefits like increased speed and flexibility. Then they show you the steps you'll need to take to create a custom script to fit your deployment needs.",
+          "length": "1629",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-7-azure_custom_scripts-012216--1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-7-azure_custom_scripts-012216--1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-1-7-azure_custom_scripts-012216--1-sm.jpg",
+          "title": "Azure Custom Scripts",
+          "transcript": "",
+          "url": "azure-custom-scripts",
+          "vimeoId": "152756385"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore storage management in Microsoft Azure Virtual Machines. They start by explaining Azure's temporary storage connected to your VM. Then they describe the more permanent or persistent storage that can be added to your VMs, known as Fixed Disks. Finally they add persistent disks to a VM.",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage-120215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage-120215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage-120215-1-sm.jpg",
+          "title": "Virtual Machine Storage",
+          "transcript": "",
+          "url": "virtual-machine-storage",
+          "vimeoId": "148667865"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue to explore storage management in Microsoft Azure Virtual Machines. Picking up where they left off, they add a disk to a VM using Azure PowerShell and then connect a pre-existing disk to a VM. Next they explain the different Storage Account types like L(Locally Redudndant), G(Geo Redundant), R(Read-Access Geo Redundant), P(Premium Locally Redundant), and Z(Zone Redundant). Finally, they cover monitoring your disk performance and setting up alerts.",
+          "length": "2088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage_pt2-120215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage_pt2-120215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-1-virtual_machine_storage_pt2-120215-1-sm.jpg",
+          "title": "Virtual Machine Storage Part 2",
+          "transcript": "",
+          "url": "virtual-machine-storage-2",
+          "vimeoId": "148667861"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain the concept and application of storage pools with Azure Virtual Machines. They start by creating a storage pool in a Windows environment using Storage Services. Then they jump over into a Linux VM and show you how partition disks using fdisk and then use LVM to group disks together to create a Volume Group and a Logical Volume.",
+          "length": "1720",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-2-storage_pools-120315-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-2-storage_pools-120315-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-2-storage_pools-120315-2-sm.jpg",
+          "title": "Storage Pools",
+          "transcript": "",
+          "url": "storage-pools2",
+          "vimeoId": "148667874"
+        },
+        {
+          "description": "In this episode, Don and Daniel explore Microsoft's *Azure Files* as a common network storage solution between Virtual Machines. First they run down some of the basic functions and limitations of Azure Files. Then they walk you through creating an Azure File share using the Azure Portal and by using the PowerShell.",
+          "length": "1464",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-3-azure_files-120315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-3-azure_files-120315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-2-3-azure_files-120315-1-sm.jpg",
+          "title": "Azure Files",
+          "transcript": "",
+          "url": "azure-files",
+          "vimeoId": "148667884"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain the Cloud Services feature of Microsoft Azure. They begin by explaining exactly what Cloud Services is as well as some of its limitations and implementations. Then they show you how to use the Azure Portal and PowerShell to create Cloud Services for use in your environment.",
+          "length": "1797",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-1-cloud_service-120415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-1-cloud_service-120415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-1-cloud_service-120415-1-sm.jpg",
+          "title": "Cloud Services",
+          "transcript": "",
+          "url": "cloud-services5",
+          "vimeoId": "148667892"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe Microsoft Azure's *Resource Groups*. They start off by explaining how Resource Groups are replacing Cloud Services as a way to group Azure resources, hence the name. Then they take a look at what Resource Groups can do that Cloud Services cannot. Also talked about are: monitoring, load balancing, and Core Quotas.",
+          "length": "1946",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-2-resource_groups-120415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-2-resource_groups-120415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-2-resource_groups-120415-1-sm.jpg",
+          "title": "Resource Groups",
+          "transcript": "",
+          "url": "resource",
+          "vimeoId": "148881936"
+        },
+        {
+          "description": "In this episode, Don and Daniel dive into looking at Networking Azure Virtual Machines. They kick things off by defining and describing Virtual Networks(VN), both how they work as well as some of their limitations. Then they jump over to some guidelines to follow when implementing a Virtual Network in Azure. They also cover topics such as DNS in VNs and creating/configuring Network Security Groups which is basically the Azure firewall.",
+          "length": "1897",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-3-virtual_machine_networking-120415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-3-virtual_machine_networking-120415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-3-virtual_machine_networking-120415-1-sm.jpg",
+          "title": "Virtual Machine Networking",
+          "transcript": "",
+          "url": "virtual-machine-networking",
+          "vimeoId": "148667901"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain how to use Load Balancing to increase productivity, reliability, and redundancy. They start by explaining the concept of load balancing and then move right into using features in Azure to implement load balancing in a variety of ways. Specific Azure load balancing technologies include DNS round-robin, Azure Traffic Manager, and Azure Load-Balanced Sets.",
+          "length": "2145",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-4-load_balancing-011816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-4-load_balancing-011816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-3-4-load_balancing-011816-1-sm.jpg",
+          "title": "Load Balancing",
+          "transcript": "",
+          "url": "load-balancing",
+          "vimeoId": "152192398"
+        },
+        {
+          "description": "In this episode, Daniel and Don take a look at Availability Sets in Microsoft Azure. They begin by explaining what an availability set is exactly and why it's important for Azure users. Then they explain the concepts that go along with availability sets, concepts like Fault Domains(FD) and Update Domains(UD). Lastly they show you how to configure Availability Sets for your Virtual Machines in Azure.",
+          "length": "1620",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-1-availability_sets-011816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-1-availability_sets-011816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-1-availability_sets-011816-1-sm.jpg",
+          "title": "Availability Sets",
+          "transcript": "",
+          "url": "availability-sets",
+          "vimeoId": "152192397"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain and demonstrate how to autoscale your Azure Virtual Machine environment. Autoscaling is a great way to make sure that an expected level of performance is being achieved as well as saving you money. Here Don and Daniel show you how to configure autoscaling, which includes setting up triggers(CPU, Queues, and Schedules) and attaching to an Availability Group. They also cover best practices concepts when setting up your autoscaling systems.",
+          "length": "2057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-2-autoscaling-012016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-2-autoscaling-012016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-2-autoscaling-012016-1-sm.jpg",
+          "title": "Autoscaling",
+          "transcript": "",
+          "url": "autoscaling",
+          "vimeoId": "152469613"
+        },
+        {
+          "description": "In this episode, Daniel and Don discuss backup and recovery options available in an Azure VM environment. They begin by covering the basic topics of disaster recovery and backup best practices and concepts, then go over the technologies that are typically used to perform backup operations; specifically Microsoft System Center Orchestrator, Azure Site Recovery, and Azure Backup. Finally, they show you how to use Azure Backup to take and restore machine.",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-3-backup_and_restore-012116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-3-backup_and_restore-012116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-azurevm/techskills-azurevm-4-3-backup_and_restore-012116-1-sm.jpg",
+          "title": "Backup and Restore",
+          "transcript": "",
+          "url": "backup-restore",
+          "vimeoId": "152756389"
+        }
+      ],
+      "title": "Azure Virtual Machine"
+    }
+  ],
+  "url": "azure-virtual-machine",
+  "vLab": false
+}

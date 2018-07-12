@@ -1,0 +1,478 @@
+{
+  "description": "The Implementing an Advanced Server Infrastructure exam is the second of two exams required to obtain the Microsoft Certified Solutions Expert (MCSE) certification and shows one knows how to manage and maintain a server infrastructure and implement a data center according to Microsoft’s best practices. This exam moves into significantly more complex topics and configurations than those covered in the previous examinations. The topics covered range from high availability to identity and access solutions. The typical viewer would be anyone operating as a senior systems administrator in a large or enterprise level business and also focuses on.",
+  "descriptionMD": "",
+  "length": "98108",
+  "name": "MCSE Windows Server 2012 - 70-414",
+  "practiceExam": true,
+  "subtitle": "Implementing an Advanced Server Infrastructure",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Implementing an Advanced Server Infrastructure exam is the second of two exams required to obtain the Microsoft Certified Solutions Expert (MCSE) certification. This exam moves into significantly more complex topics and configurations than those covered in the previous examinations. The topics covered range from high availability to identity and access solutions. The typical viewer would be anyone operating as a senior systems administrator in a large or enterprise level business.",
+          "length": "1053",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-0-0-overview-102714.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-0-0-overview-102714-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-0-0-overview-102714-sm.jpg",
+          "title": "Overview of MCSE Windows Server 2012 (70-414)",
+          "transcript": "1\n00:00:00,006 --> 00:00:06,105\n[SOUND] The 70-414 exam\nis the final step for\n\n2\n00:00:06,105 --> 00:00:12,056\ncandidates that are looking\nto achieve the MCSE\n\n3\n00:00:12,056 --> 00:00:17,275\nserver infrastructure certification.\n\n4\n00:00:17,275 --> 00:00:18,885\nIt's a long road.\n\n5\n00:00:18,885 --> 00:00:20,320\n>> Mm-hm.\n>> There's a lot of stuff that you gotta\n\n6\n00:00:20,320 --> 00:00:21,540\nlearn along the way.\n\n7\n00:00:21,540 --> 00:00:22,900\nAnd this is kinda the end.\n\n8\n00:00:22,900 --> 00:00:26,220\nSo let's take a minute and\njust look at what this entails, and\n\n9\n00:00:26,220 --> 00:00:27,530\nlet's start really high level.\n\n10\n00:00:27,530 --> 00:00:29,100\nBy the time you've gotten to this point,\n\n11\n00:00:29,100 --> 00:00:33,250\nyou more than likely know what\nthe MCSE server infrastructure is.\n\n12\n00:00:33,250 --> 00:00:36,050\nBut let's just take a glance at it\nreal quick, do a quick overview, and\n\n13\n00:00:36,050 --> 00:00:39,800\nthen we'll dive into exactly what\nthis exam and certification entail.\n\n14\n00:00:39,800 --> 00:00:41,002\n>> Cool.\n\n15\n00:00:41,002 --> 00:00:45,930\nAll right now the MCSE server\ninfrastructure it actually starts out\n\n16\n00:00:45,930 --> 00:00:48,220\nas the MCSA server infrastructure.\n\n17\n00:00:48,220 --> 00:00:52,551\nSo, by the time you're at this point, you\nshould have already completed the 7410,\n\n18\n00:00:52,551 --> 00:00:56,830\n411 and 412 examinations,\nonce you've achieved those,\n\n19\n00:00:56,830 --> 00:01:00,430\nyou get the MCSA Server\nAdministrator Certification.\n\n20\n00:01:00,430 --> 00:01:03,860\nIt's the Microsoft Certified\nSolutions Associate.\n\n21\n00:01:03,860 --> 00:01:05,777\nThat's MCSA.\n>> I love the way that they changed\n\n22\n00:01:05,777 --> 00:01:07,700\nthe name, and left the acronym the same.\n\n23\n00:01:07,700 --> 00:01:09,794\nIt's a really good for all of us,] right?\n\n24\n00:01:09,794 --> 00:01:12,391\n>> It's a lot better than the way\nit used to be, you know, for\n\n25\n00:01:12,391 --> 00:01:16,190\na little while it became the MCTS, and\nthe MCITP, and everyone hated that.\n\n26\n00:01:16,190 --> 00:01:19,660\nSo at least it's back to the original\nacronyms that people like.\n\n27\n00:01:19,660 --> 00:01:23,735\nYou should already have your MCSA\nbefore moving into the MCSE.\n\n28\n00:01:23,735 --> 00:01:24,270\n>> Mm-hm.\n\n29\n00:01:24,270 --> 00:01:25,540\n>> Right?\nIt kinda goes without saying.\n\n30\n00:01:25,540 --> 00:01:28,040\n>> Yep.\n>> And the main reason is the MCSA\n\n31\n00:01:28,040 --> 00:01:31,360\nreally focuses on the how to do things.\n\n32\n00:01:31,360 --> 00:01:32,920\nHow to implement active directory.\n\n33\n00:01:32,920 --> 00:01:34,610\nHow to install DNS.\n\n34\n00:01:34,610 --> 00:01:37,490\nHow to set up file replication services.\n\n35\n00:01:37,490 --> 00:01:39,358\nHow to do all these different things.\n\n36\n00:01:39,358 --> 00:01:40,530\n>> Mm-hm.\n>> All right.\n\n37\n00:01:40,530 --> 00:01:42,390\nBut you don't get the why side of it.\n\n38\n00:01:42,390 --> 00:01:42,940\nRight?\nAnd\n\n39\n00:01:42,940 --> 00:01:45,850\nthat's because somebody at the MCSA\nlevel is not doing designs,\n\n40\n00:01:45,850 --> 00:01:47,550\nthey're doing implementation.\n\n41\n00:01:47,550 --> 00:01:48,790\n>> Right.\n>> They're the grunt-workers,\n\n42\n00:01:48,790 --> 00:01:51,480\nthe people in the field\nactually making things happen,\n\n43\n00:01:51,480 --> 00:01:52,860\nwhich is really important work.\n\n44\n00:01:52,860 --> 00:01:53,680\n>> Right.\n>> Don't let me\n\n45\n00:01:53,680 --> 00:01:55,520\nsound like that's not important.\n\n46\n00:01:55,520 --> 00:01:58,720\nWhat they do is extremely important, but\n\n47\n00:01:58,720 --> 00:02:02,650\nsomebody has to be behind the scenes\ngoverning our overall design.\n\n48\n00:02:02,650 --> 00:02:03,960\n>> Right.\n\n49\n00:02:03,960 --> 00:02:06,100\nAnd that's when the MCSE comes in.\n\n50\n00:02:06,100 --> 00:02:11,210\nWhoever has that role,\nthe Microsoft Certified Solutions Expert,\n\n51\n00:02:11,210 --> 00:02:15,160\nthey're the person that's coming up with\nthe overall, the big picture, all right?\n\n52\n00:02:15,160 --> 00:02:17,380\nNot necessarily going into the field and\ndoing the work.\n\n53\n00:02:17,380 --> 00:02:20,530\nNow, you need to already have that\nexperience because how do you a design if\n\n54\n00:02:20,530 --> 00:02:22,760\nyou don't know how something works.\n\n55\n00:02:22,760 --> 00:02:24,530\nBut they need to understand the why.\n\n56\n00:02:25,630 --> 00:02:30,200\nAnd at this point, you also should\nhave completed the 7413 exam,\n\n57\n00:02:30,200 --> 00:02:34,730\nwhich was the first one that really\ndived straight into designing and\n\n58\n00:02:34,730 --> 00:02:36,910\nimplementing a server infrastructure.\n\n59\n00:02:36,910 --> 00:02:41,510\nWe rehash all of the things in 410,\n411, and 412.\n\n60\n00:02:41,510 --> 00:02:46,360\nRight here on 413 we're looking at the why\nyou do these things why you might need\n\n61\n00:02:46,360 --> 00:02:49,730\nfive servers as opposed to four servers\nwhere you would put those servers in\n\n62\n00:02:49,730 --> 00:02:50,340\nthe global design.\n\n63\n00:02:52,340 --> 00:02:56,890\nThat leads us to the last one which is\n7414 the show that we're getting prepared\n\n64\n00:02:56,890 --> 00:03:00,800\nfor right here with\nthis one we dive not so\n\n65\n00:03:00,800 --> 00:03:06,410\nmuch into the why of our server\ninfrastructure but how we manage and\n\n66\n00:03:06,410 --> 00:03:10,140\nmaintain that server infrastructure,\nhow you keep your data center operational?\n\n67\n00:03:10,140 --> 00:03:12,970\nAnd it really does build\naround the data center.\n\n68\n00:03:12,970 --> 00:03:14,870\nWe kind of put workstations\nout of our mind.\n\n69\n00:03:14,870 --> 00:03:17,270\nAny workstation stuff on this one?\n\n70\n00:03:17,270 --> 00:03:18,290\n>> I don't think so at all.\n\n71\n00:03:18,290 --> 00:03:21,430\nReally in your SAs,\nyou're learning how to monitor and\n\n72\n00:03:21,430 --> 00:03:23,880\nmanage your individual\nservers you're setting up.\n\n73\n00:03:23,880 --> 00:03:27,110\nYou're the DHCP admin or that DNS admin.\n\n74\n00:03:27,110 --> 00:03:30,870\nNow you're talking about monitoring your\nwhole solution, and your data center, and\n\n75\n00:03:30,870 --> 00:03:34,100\nyour virtual machine infrastructure and\nall of that.\n\n76\n00:03:34,100 --> 00:03:37,350\n>> So whenever it comes to monitoring\nthese days the Microsoft monitoring\n\n77\n00:03:37,350 --> 00:03:40,270\nmanaging, they have their\nsystem center suite.\n\n78\n00:03:40,270 --> 00:03:42,980\nAnd so what we're gonna do is\nlook at if you're running your\n\n79\n00:03:42,980 --> 00:03:45,560\nown data center even if its\ncloud data center right.\n\n80\n00:03:45,560 --> 00:03:47,830\nYou tied a Windows Azure or whatever.\n\n81\n00:03:47,830 --> 00:03:50,290\nYou need to monitor and\nmanage those systems and\n\n82\n00:03:50,290 --> 00:03:53,660\nthere are a number of system center\nsolutions that deal with that.\n\n83\n00:03:53,660 --> 00:03:55,210\nAnd that's what we're\ngonna take a look at.\n\n84\n00:03:55,210 --> 00:03:58,880\nThe general best practices for\nhow you should be running your environment\n\n85\n00:03:58,880 --> 00:04:02,440\nas well as the tools from\nMicrosoft that you can use.\n\n86\n00:04:02,440 --> 00:04:04,230\nRight?\nYou don't have to in real life.\n\n87\n00:04:04,230 --> 00:04:05,230\nYou can use whatever you want.\n\n88\n00:04:05,230 --> 00:04:08,740\nBut if you wanna pass this exam you\nneed to know the system center stuff.\n\n89\n00:04:08,740 --> 00:04:12,380\nSo we're kinda shifting and\nthat's why this one was designing and\n\n90\n00:04:12,380 --> 00:04:14,280\nthis one is just implementing.\n\n91\n00:04:14,280 --> 00:04:15,750\nRight?\nImplementing in advanced server\n\n92\n00:04:15,750 --> 00:04:19,541\ninfrastructure because we're gonna see,\nwe are going to see a lot of design,\n\n93\n00:04:19,541 --> 00:04:21,440\nwe'll get to that with\nthe exam objectives.\n\n94\n00:04:21,440 --> 00:04:25,500\nIt is focused more on what\nyou need to put in place to\n\n95\n00:04:25,500 --> 00:04:30,460\nkeep your data center running nice and\nsmooth and keep an eye on it.\n\n96\n00:04:30,460 --> 00:04:34,730\nWhen you've completed that fifth exam,\nyou'll be awarded the MCSE,\n\n97\n00:04:34,730 --> 00:04:37,090\nthe Microsoft Certified Solutions Expert.\n\n98\n00:04:37,090 --> 00:04:42,790\nAnd that will designate that you are an\nexpert, that you know how to implement\n\n99\n00:04:42,790 --> 00:04:45,700\na data center according to\nMicrosoft's best practices, right,\n\n100\n00:04:45,700 --> 00:04:46,790\na server infrastructure.\n\n101\n00:04:46,790 --> 00:04:50,780\nAll right, so\nlet's take a look at the exam itself.\n\n102\n00:04:50,780 --> 00:04:53,340\nAll right.\nIf I jump over here to the 7414\n\n103\n00:04:53,340 --> 00:04:54,250\nexam, it's $150.\n\n104\n00:04:54,250 --> 00:04:55,060\nRight?\n\n105\n00:04:55,060 --> 00:04:57,720\nMicrosoft exams are really reasonably\n\n106\n00:04:57,720 --> 00:05:00,340\npriced compared to other\nvendors these days.\n\n107\n00:05:00,340 --> 00:05:02,380\nAlthough you do have to\ntake a lot of the exams.\n\n108\n00:05:02,380 --> 00:05:04,880\n>> And then again every three years or\nsomething.\n\n109\n00:05:04,880 --> 00:05:06,170\nSo they get their money.\n\n110\n00:05:06,170 --> 00:05:08,919\n>> Yep.\nSo we do have a new exam, 70-414.\n\n111\n00:05:08,919 --> 00:05:10,170\nIt's $150.00 to take it.\n\n112\n00:05:10,170 --> 00:05:14,090\nYou can take it at any\nPearson View Center.\n\n113\n00:05:15,590 --> 00:05:19,970\nRight today, while we're taping this,\nyou can still take the exam at Sylvan for\n\n114\n00:05:19,970 --> 00:05:21,010\nMetrics Centers also.\n\n115\n00:05:22,010 --> 00:05:26,790\nThat ends, I think they make a note of\nthat right here, yeah, January 1st, 2015.\n\n116\n00:05:26,790 --> 00:05:30,350\nSo, if you're watching this\nJanuary 1st 2015 or later,\n\n117\n00:05:30,350 --> 00:05:32,750\nwhich is only, two months away.\n\n118\n00:05:32,750 --> 00:05:36,230\nThen, after that point, you won't be able\nto take it at Prometric anymore, right?\n\n119\n00:05:36,230 --> 00:05:39,260\nSo you'll need to take it at view, and\n\n120\n00:05:39,260 --> 00:05:42,341\nI would just plan on taking\nit at view right now.\n\n121\n00:05:42,341 --> 00:05:43,930\n>> Yea, and\nyou look at there where it says,\n\n122\n00:05:43,930 --> 00:05:47,700\nI think with Prometric it takes five\nto seven business days I think.\n\n123\n00:05:47,700 --> 00:05:48,610\nSo they're just not.\n\n124\n00:05:49,690 --> 00:05:53,000\nVery quick with that stuff or Pearson VUE\nyou can find out that day or the next day,\n\n125\n00:05:54,040 --> 00:05:58,480\nand get your transcript updated,\nthings like that.\n\n126\n00:05:58,480 --> 00:06:02,120\n>> You'll always find your pass or fail\nscore right at the end of the exam, so\n\n127\n00:06:02,120 --> 00:06:02,990\nthey do that.\n\n128\n00:06:02,990 --> 00:06:04,090\nWhat Mike's talking about is they\n\n129\n00:06:04,090 --> 00:06:05,970\nhave to get that information\nback to Microsoft, right.\n\n130\n00:06:05,970 --> 00:06:09,022\nAnd yeah,\nthat's what's pretty bad about that.\n\n131\n00:06:09,022 --> 00:06:11,450\nAll right, so\nthat's why we see both of them here, but\n\n132\n00:06:11,450 --> 00:06:15,010\nif I were you I would just plan on view\nand not worry about the record so much.\n\n133\n00:06:15,010 --> 00:06:17,720\nAll right, so that's the exam cost.\n\n134\n00:06:17,720 --> 00:06:21,840\nThey give you some basic information but\nthey aren't really detailed about things\n\n135\n00:06:21,840 --> 00:06:27,270\nlike how many questions you have and\nwhat's the passing score, and so on.\n\n136\n00:06:27,270 --> 00:06:30,900\nThat's because Microsoft does\nthese performance based exams, and\n\n137\n00:06:30,900 --> 00:06:34,587\nthat means you could have several\ndifferent amounts of questions.\n\n138\n00:06:34,587 --> 00:06:37,560\nSo, Mike, you and I could go and\ntake this exam right now and\n\n139\n00:06:37,560 --> 00:06:39,820\nI might have 50 more questions than you.\n\n140\n00:06:39,820 --> 00:06:42,200\nThat doesn't mean that\nMike got an easier exam,\n\n141\n00:06:42,200 --> 00:06:46,980\njust means maybe you got\nmore simulations that I did.\n\n142\n00:06:46,980 --> 00:06:48,210\n>> Right.\nAn old, drag and drop,\n\n143\n00:06:48,210 --> 00:06:50,760\nput them in place type questions,\nthings like that.\n\n144\n00:06:50,760 --> 00:06:53,860\n>> And they do full, it's not flash based.\n\n145\n00:06:53,860 --> 00:06:56,010\nI forget what they built it on.\n\n146\n00:06:56,010 --> 00:06:56,950\nProbably silverlight.\n\n147\n00:06:56,950 --> 00:07:01,535\nThey do these imbedded plug ins that\nactually give you a fake Windows UI so\n\n148\n00:07:01,535 --> 00:07:03,585\nyou can go through and\nconfigure some things.\n\n149\n00:07:03,585 --> 00:07:05,235\nThey're awkward and I\n>> They are.\n\n150\n00:07:05,235 --> 00:07:06,004\n>> But they're in there.\n\n151\n00:07:06,004 --> 00:07:07,975\n>> [LAUGH]\n>> It's supposed to show that you actually\n\n152\n00:07:07,975 --> 00:07:09,185\nhave that experience.\n\n153\n00:07:09,185 --> 00:07:12,810\nOn a design exam, though,\none like this you're gonna have a lot more\n\n154\n00:07:12,810 --> 00:07:17,020\nword problems, a lot of where\nthey describe an environment and\n\n155\n00:07:17,020 --> 00:07:19,080\nyou make recommended changes\nbased on your knowledge.\n\n156\n00:07:19,080 --> 00:07:20,950\n>> Yeah, bring your reading\nglasses if you need them.\n\n157\n00:07:20,950 --> 00:07:23,720\nIt's like reading an essay in there and\nthen going back and\n\n158\n00:07:23,720 --> 00:07:26,115\nanswering ten questions on\nthis essay they've given you.\n\n159\n00:07:26,115 --> 00:07:27,650\nMm-hm.\n\n160\n00:07:27,650 --> 00:07:31,770\nAll right, so some of the other things we\nneed to know, the exam objectives, right?\n\n161\n00:07:31,770 --> 00:07:35,720\nThis one covers what doesn't look\nlike all that much in the beginning.\n\n162\n00:07:35,720 --> 00:07:38,790\nReally just four objectives,\nnice and small.\n\n163\n00:07:38,790 --> 00:07:41,370\nWe've got manage and\nmaintain a server infrastructure.\n\n164\n00:07:41,370 --> 00:07:44,870\nAnd notice how each of these\nare listed as 25 to 30%.\n\n165\n00:07:44,870 --> 00:07:46,310\nExcept the last one's 20 to 25%.\n\n166\n00:07:46,310 --> 00:07:51,270\nSo the exam's pretty evenly\ndivided across these four.\n\n167\n00:07:51,270 --> 00:07:53,660\nAnd the first one is just straight\nup server infrastructure.\n\n168\n00:07:53,660 --> 00:07:57,160\nSo we're talking about, you've got\na data center, you've got servers,\n\n169\n00:07:57,160 --> 00:07:59,610\nyou've got physical servers and\nvirtual servers.\n\n170\n00:07:59,610 --> 00:08:02,440\nWe need to maintain that infrastructure.\n\n171\n00:08:02,440 --> 00:08:06,700\nAnd if we break that out you'll see they\nbreak it down into quite a few things,\n\n172\n00:08:06,700 --> 00:08:08,170\nstarting with an administrative model.\n\n173\n00:08:08,170 --> 00:08:12,070\nRight?\nAdministrative models are how we\n\n174\n00:08:12,070 --> 00:08:12,990\nimplement management.\n\n175\n00:08:12,990 --> 00:08:15,110\nIs it just one person,\nis it multiple people,\n\n176\n00:08:15,110 --> 00:08:16,720\ndo people have different levels of access?\n\n177\n00:08:16,720 --> 00:08:19,519\nThose are all different things we think\nabout in our administrative model.\n\n178\n00:08:21,410 --> 00:08:23,280\nThen we've got our\nmonitoring strategy right?\n\n179\n00:08:23,280 --> 00:08:24,348\nHow are we going to monitor this.\n\n180\n00:08:24,348 --> 00:08:27,500\nIf a server fails, if an issue happens,\nhow do we get information?\n\n181\n00:08:27,500 --> 00:08:30,460\nIf we're troubleshooting what historical\ndata do we have to collect to be able\n\n182\n00:08:30,460 --> 00:08:33,150\nto look at and what tools and\nresources are available to us?\n\n183\n00:08:33,150 --> 00:08:35,760\nAnd that's when we start introducing\nthe viewers into System Center 2012.\n\n184\n00:08:35,760 --> 00:08:38,720\nAnd we're going to be doing\nSystem Center 2012 R2,\n\n185\n00:08:38,720 --> 00:08:42,380\nbecause that's what's on\nthe new version of the exam.\n\n186\n00:08:42,380 --> 00:08:45,070\nSo we'll be using that\nthroughout the whole show,\n\n187\n00:08:45,070 --> 00:08:49,630\nbut in real life, most of what's\nin 2012 is the same in 2012 R2.\n\n188\n00:08:49,630 --> 00:08:53,220\nBut there will be a few additional\nfeatures we cover that are new in R2.\n\n189\n00:08:53,220 --> 00:08:55,800\nAnd then we got plan and\n\n190\n00:08:55,800 --> 00:09:00,770\nimplement automated remediation, so when\nsomething goes wrong, how can we fix it?\n\n191\n00:09:00,770 --> 00:09:02,330\nRight?\nWhat's our backup plan?\n\n192\n00:09:02,330 --> 00:09:04,260\nAnd can we automate that, right?\n\n193\n00:09:04,260 --> 00:09:06,170\nCan we automate taking\ncare of the problems, and\n\n194\n00:09:06,170 --> 00:09:08,160\ngetting things back up and running?\n\n195\n00:09:08,160 --> 00:09:12,920\nSo it's a pretty heavy topic for\njust being one part of the exam.\n\n196\n00:09:14,600 --> 00:09:16,030\nAfter that we break into plan and\n\n197\n00:09:16,030 --> 00:09:18,810\nimplement a highly available\nenterprise infrastructure.\n\n198\n00:09:20,000 --> 00:09:22,620\nA better way to deal with failures is to\n>> [LAUGH]\n\n199\n00:09:22,620 --> 00:09:24,040\n>> Avoid them in the first place.\n\n200\n00:09:24,040 --> 00:09:24,730\n>> Exactly.\n>> Right,\n\n201\n00:09:24,730 --> 00:09:28,490\nso what kind of infrastructure can we put\nin place to make it where failures don't\n\n202\n00:09:28,490 --> 00:09:29,750\naffect our services.\n\n203\n00:09:29,750 --> 00:09:33,770\nSo we'll talk about clustering,\nnetwork services, network load balancing,\n\n204\n00:09:33,770 --> 00:09:34,810\nand other things.\n\n205\n00:09:34,810 --> 00:09:37,600\nAnd then we'll talk about storage,\nwhich is a big deal.\n\n206\n00:09:37,600 --> 00:09:40,758\nA lot of people don't properly plan for\nstorage failures.\n\n207\n00:09:40,758 --> 00:09:45,225\nThen we'll take a look at other roles\nthat we might need to make redundant.\n\n208\n00:09:45,225 --> 00:09:48,154\nAnd, by roles,\nI mean things like DHCP, DNS,\n\n209\n00:09:48,154 --> 00:09:51,189\nthey mention [CROSSTALK]\n>> Basic infrastructure that really keeps\n\n210\n00:09:51,189 --> 00:09:52,270\neverything else running.\n\n211\n00:09:52,270 --> 00:09:55,160\n>> Mm-hm.\nAnd then lastly we've got\n\n212\n00:09:55,160 --> 00:09:59,370\na business continuity and\ndisaster recovery solution, all right?\n\n213\n00:09:59,370 --> 00:10:02,780\nAnd I know it kind of sounds the same,\nbut business continuity,\n\n214\n00:10:02,780 --> 00:10:07,720\nthat means making sure that we can keep\nworking, even when there's a failure.\n\n215\n00:10:07,720 --> 00:10:11,100\nDuring the failure we might not be at\nfull capacity, but we're still working.\n\n216\n00:10:11,100 --> 00:10:11,720\nRight.\n>> Huh.\n\n217\n00:10:11,720 --> 00:10:15,210\n>> Disaster recovery's getting\nus back to peak performance.\n\n218\n00:10:15,210 --> 00:10:15,870\n>> Right.\n\n219\n00:10:15,870 --> 00:10:20,000\n>> So, you know, if on a good day you're\nat 100% and then a failure happens,\n\n220\n00:10:20,000 --> 00:10:21,260\ninstead of dropping to 0%,\n>> Right\n\n221\n00:10:21,260 --> 00:10:23,660\n>> Then you drop to 50% or something.\n\n222\n00:10:23,660 --> 00:10:25,530\n>> Huh.\n>> So you're running at half capacity.\n\n223\n00:10:25,530 --> 00:10:27,630\nAnd then after you fix the problem\nyou come back up to a 100,\n\n224\n00:10:27,630 --> 00:10:31,410\nso staying at that 50%,\nthat's business continuity.\n\n225\n00:10:31,410 --> 00:10:34,420\nYou're continuing to do\nbusiness during the failure,\n\n226\n00:10:34,420 --> 00:10:38,010\nand after we get back up to 100%,\nthat's disaster recovery, we're recovered.\n\n227\n00:10:39,940 --> 00:10:43,410\nThat's one of those sections right\nthere that in, real life land.\n\n228\n00:10:43,410 --> 00:10:45,830\nIt's not a skill you use every day but\n\n229\n00:10:45,830 --> 00:10:47,640\non the day you do use it\n>> [LAUGH]\n\n230\n00:10:47,640 --> 00:10:49,000\n>> You are glad you have it.\n\n231\n00:10:49,000 --> 00:10:49,680\n>> Absolutely.\n\n232\n00:10:49,680 --> 00:10:51,365\n>> I have been there.\n\n233\n00:10:51,365 --> 00:10:56,200\n>> [LAUGH]\n>> All right now, I know on most of these\n\n234\n00:10:56,200 --> 00:11:01,365\nthey say 25 to 30%, but this next one,\nit's pretty much guaranteed to be 30%.\n\n235\n00:11:01,365 --> 00:11:05,415\nThe virtualization push\nis huge at Microsoft.\n\n236\n00:11:05,415 --> 00:11:08,465\nAnd I'm not just talking about HyperV,\nbut Windows Azure also,\n\n237\n00:11:08,465 --> 00:11:11,970\nwhich is built on HyperV, so\nI guess it's kind of the same, but,\n\n238\n00:11:11,970 --> 00:11:17,160\nthey pretty much expect every environment\nto use virtualization tools now.\n\n239\n00:11:17,160 --> 00:11:19,720\nSo we've got a big section on it, and\n\n240\n00:11:19,720 --> 00:11:23,300\nthis'll actually make up a decent part\nof our show because it is so important.\n\n241\n00:11:24,510 --> 00:11:27,290\nBut you'll see in here we've got\na plan for our virtualization host.\n\n242\n00:11:27,290 --> 00:11:28,770\nThat's the physical machines.\n\n243\n00:11:28,770 --> 00:11:30,190\nWe got a plan for our virtual machines.\n\n244\n00:11:30,190 --> 00:11:32,920\nThe VM's.\nWe'll take a look at networking and\n\n245\n00:11:32,920 --> 00:11:37,380\nstorage under virtualization and\ndesign considerations and plans.\n\n246\n00:11:37,380 --> 00:11:40,030\nNotice how a lot of these say plan and\nimplement.\n\n247\n00:11:40,030 --> 00:11:43,130\nThe plan side,\nwe've gotta come up with our design.\n\n248\n00:11:43,130 --> 00:11:43,880\nWe gotta plan and\n\n249\n00:11:43,880 --> 00:11:47,440\nfigure out exactly what we need to provide\nour network the resources it needs.\n\n250\n00:11:47,440 --> 00:11:50,740\nBut the implement side,\nwe've usually already learned.\n\n251\n00:11:50,740 --> 00:11:54,100\nOn the implement side, we've already\nlearned how to implement HyperV.\n\n252\n00:11:54,100 --> 00:11:55,460\nWe already know how to bring up VMs.\n\n253\n00:11:55,460 --> 00:11:56,910\nThat's not new.\n\n254\n00:11:56,910 --> 00:12:00,490\nSo what we're adding on are some\nof the System Center Utilities.\n\n255\n00:12:00,490 --> 00:12:03,100\nThings like\nthe System Center Virtual Machine Manager.\n\n256\n00:12:03,100 --> 00:12:04,100\nSCVMM.\n\n257\n00:12:04,100 --> 00:12:05,810\nAnd so we'll see some additional things.\n\n258\n00:12:05,810 --> 00:12:07,660\nYeah, right here.\nVirtual Machine Manager.\n\n259\n00:12:07,660 --> 00:12:11,100\nSo we'll see bringing system center\ninto the mix to implement these.\n\n260\n00:12:11,100 --> 00:12:14,450\nWhereas before we might have\ndone it directly in HyperV.\n\n261\n00:12:14,450 --> 00:12:15,350\nAnd that's essential.\n\n262\n00:12:15,350 --> 00:12:16,950\nThe larger your data center gets,\n\n263\n00:12:16,950 --> 00:12:20,610\nthe less practical it is to manage\nthings on an individual server basis.\n\n264\n00:12:22,690 --> 00:12:26,750\nAnd our last section is design and\nimplement identity and access solutions.\n\n265\n00:12:26,750 --> 00:12:27,770\n>> Mm.\n>> Mike, this is your favorite section.\n\n266\n00:12:27,770 --> 00:12:28,990\n>> Oh yeah, we love this stuff.\n\n267\n00:12:28,990 --> 00:12:30,080\nCertificate services.\n\n268\n00:12:30,080 --> 00:12:30,780\nLove those.\n\n269\n00:12:30,780 --> 00:12:32,500\nWe get to dive into that.\n\n270\n00:12:32,500 --> 00:12:33,700\nSetting up the whole hierarchy.\n\n271\n00:12:33,700 --> 00:12:37,700\nIt's not just setting up a certificate\nserver, but planning for that the root and\n\n272\n00:12:37,700 --> 00:12:40,950\nthen your subordinates and\ndeciding how you want to play that out.\n\n273\n00:12:40,950 --> 00:12:43,570\nAre you doing different subordinates for\ndifferent locations or\n\n274\n00:12:43,570 --> 00:12:45,790\ndifferent purposes and things like that?\n\n275\n00:12:45,790 --> 00:12:49,450\nAnd I think we'll end up tying into\nmanaging the certificates themselves and\n\n276\n00:12:49,450 --> 00:12:52,740\nthen extending our authentication\nbeyond our boundaries.\n\n277\n00:12:52,740 --> 00:12:55,260\nTaking it out into the cloud or\nwith extranets.\n\n278\n00:12:55,260 --> 00:12:59,030\nOur business partners doing,\nour federation identity solution.\n\n279\n00:12:59,030 --> 00:13:01,590\nWe'll take a peak at how\nwe set that up either\n\n280\n00:13:01,590 --> 00:13:03,170\nwith a business partner or Microsoft.\n\n281\n00:13:03,170 --> 00:13:07,060\nMicrosoft provides that federation\nservices that we can tie into there.\n\n282\n00:13:07,060 --> 00:13:10,930\nThen getting into RMS and\neverybody uses RMS right Don?\n\n283\n00:13:10,930 --> 00:13:12,150\nOh yeah.\nAbsolutely.\n\n284\n00:13:12,150 --> 00:13:13,545\nIt's widely deployed.\n\n285\n00:13:13,545 --> 00:13:15,880\n[LAUGH]\n>> We make fun of it.\n\n286\n00:13:15,880 --> 00:13:20,800\nThe right's management service, it's\n>> It is good because we've talked\n\n287\n00:13:20,800 --> 00:13:23,720\na little bit about it before, but\nit does give you the ability to take those\n\n288\n00:13:23,720 --> 00:13:28,510\npermissions and tie them to the document\nitself, not to the file system.\n\n289\n00:13:28,510 --> 00:13:33,330\nSo we can extend our control over those\nresources beyond our boundaries and\n\n290\n00:13:33,330 --> 00:13:34,920\nbeyond our file systems.\n\n291\n00:13:34,920 --> 00:13:36,870\n>> It does have a good place in it.\n\n292\n00:13:36,870 --> 00:13:38,990\n>> Yeah.\nIf you're an all Microsoft shop,\n\n293\n00:13:38,990 --> 00:13:42,940\nRMS is a great way to do\ndigital rights management, DRM.\n\n294\n00:13:42,940 --> 00:13:44,130\nRight?\n\n295\n00:13:44,130 --> 00:13:47,850\nBut if you've got users that are external\nto your organization there's a good bit of\n\n296\n00:13:47,850 --> 00:13:49,360\nplanning that has to go into that.\n\n297\n00:13:49,360 --> 00:13:52,770\nAnd if you're not a Microsoft shop,\nif you have a mixture of platforms,\n\n298\n00:13:52,770 --> 00:13:54,340\nthere's a lot of planning\nthat has to go in there.\n\n299\n00:13:54,340 --> 00:13:58,640\nSo So we kinda tackled that, but this last\nsection here, they do downplay a bit,\n\n300\n00:13:58,640 --> 00:14:02,470\nsee how they say 20%- 25%, so a smaller\nportion of the exam comes from there, but\n\n301\n00:14:02,470 --> 00:14:06,350\nit is important, it's good information\nto know, especially if you're gonna be\n\n302\n00:14:06,350 --> 00:14:10,810\nextending your data center into the cloud,\ninto Windows Azure or\n\n303\n00:14:10,810 --> 00:14:14,320\nwhatever, you'll want to be able\nto link credentials between those.\n\n304\n00:14:14,320 --> 00:14:17,890\nAnd that's the type of stuff\nthat we'll tackle down there.\n\n305\n00:14:17,890 --> 00:14:22,500\nSo those are the overall objectives that's\ngonna be covered in this certification.\n\n306\n00:14:22,500 --> 00:14:25,340\nEven if you're not seeking\nthe certification a lot of this is good\n\n307\n00:14:25,340 --> 00:14:26,840\nknowledge to have.\n\n308\n00:14:26,840 --> 00:14:27,520\nBut I will say this.\n\n309\n00:14:27,520 --> 00:14:30,880\nIf you're just getting\nstarted in IT the MCSE is\n\n310\n00:14:30,880 --> 00:14:33,070\nnot the certification\nyou should be seeking.\n\n311\n00:14:33,070 --> 00:14:37,450\nThe MCSE is designed for\npeople who have been in the field for\n\n312\n00:14:37,450 --> 00:14:39,150\nmany years at this point.\n\n313\n00:14:39,150 --> 00:14:41,200\nThat have already implemented\nthe technologies,\n\n314\n00:14:41,200 --> 00:14:43,730\nthey already understand the how's and\nso on, and\n\n315\n00:14:43,730 --> 00:14:48,070\nthey've seen enough different environments\nto start to understand the why's.\n\n316\n00:14:48,070 --> 00:14:52,850\nSo what we're really doing is applying\nMicrosoft's best practices to those why's\n\n317\n00:14:52,850 --> 00:14:55,850\nand getting ready for\nthat more of a management position.\n\n318\n00:14:55,850 --> 00:14:57,160\nSo if you are,\n\n319\n00:14:57,160 --> 00:15:02,505\nif you have a goal of becoming a system\nadmin manager or a network manager.\n\n320\n00:15:02,505 --> 00:15:04,300\n>> Mm-hm.\n>> Or something like that.\n\n321\n00:15:04,300 --> 00:15:07,910\nThat is the type of person that the MCSE\nis really designed for and consultants.\n\n322\n00:15:07,910 --> 00:15:10,720\nRight, people that are roaming\nconsultants, need to have these\n\n323\n00:15:10,720 --> 00:15:13,210\nskills because you're dealing with so\nmany different environments.\n\n324\n00:15:13,210 --> 00:15:17,130\nHow do you make sure they are properly\nset up and ready to grow in scale.\n\n325\n00:15:17,130 --> 00:15:20,410\nYou don't want a solution for today,\nyou need a solution that lasts for\n\n326\n00:15:20,410 --> 00:15:21,610\ntomorrow and beyond.\n\n327\n00:15:22,920 --> 00:15:25,280\nThat sounds like marketing.\n\n328\n00:15:25,280 --> 00:15:27,160\nTomorrow and beyond.\n\n329\n00:15:27,160 --> 00:15:29,960\nAll right, so\ndefinitely keep that in mind.\n\n330\n00:15:29,960 --> 00:15:32,690\nThe exam itself is a pretty\nfair exam I think.\n\n331\n00:15:32,690 --> 00:15:35,340\nMicrosoft of all the exam\nvendors out there.\n\n332\n00:15:35,340 --> 00:15:38,276\nMicrosoft has one of\nthe best grammar checkers.\n\n333\n00:15:38,276 --> 00:15:38,857\n>> Right.\n\n334\n00:15:38,857 --> 00:15:42,290\n>> I know I get so frustrated\nsometimes at the other vendors when,\n\n335\n00:15:42,290 --> 00:15:45,080\nyou read the question and\nyou're like, this makes no sense,\n\n336\n00:15:45,080 --> 00:15:47,290\nit doesn't matter if I know\nthe technology or not.\n\n337\n00:15:47,290 --> 00:15:50,220\nI just can't decipher what\nthis person is saying.\n\n338\n00:15:50,220 --> 00:15:53,100\nAnd Microsoft is really good about that.\n\n339\n00:15:53,100 --> 00:15:57,180\nYou will see though,\nbecause this is a design exam.\n\n340\n00:15:57,180 --> 00:15:59,325\nThat there will often times be\nmore than one right answer.\n\n341\n00:15:59,325 --> 00:16:00,320\n>> Mm-hm.\n\n342\n00:16:00,320 --> 00:16:05,670\n>> If they're asking you to select the\nappropriate design model for a solution,\n\n343\n00:16:05,670 --> 00:16:08,990\nit's not uncommon that all of the design\nmodels they recommend would work.\n\n344\n00:16:08,990 --> 00:16:11,260\n>> Right.\n>> That everyone of them would work.\n\n345\n00:16:11,260 --> 00:16:14,890\nBut one of them will best\nmatch the scenario, right?\n\n346\n00:16:14,890 --> 00:16:19,140\nThat client's needs or future expansion or\nleast administrative effort,\n\n347\n00:16:19,140 --> 00:16:20,830\nwhatever it is that they're asking for.\n\n348\n00:16:20,830 --> 00:16:22,410\nSo, be ready for that.\n\n349\n00:16:22,410 --> 00:16:27,080\nThese are a little bit more, I don't want\nto call them subjective, you know, but\n\n350\n00:16:27,080 --> 00:16:30,870\nthey do require a little bit of\nindependent thought to make sure you pick\n\n351\n00:16:30,870 --> 00:16:33,290\nthe best answer cell.\n\n352\n00:16:33,290 --> 00:16:38,030\nI know for me, on this exam, the old mark\nfor review button, I'd probably use that\n\n353\n00:16:38,030 --> 00:16:41,810\nmore than any other exam, just because\nthere's different ways to do things.\n\n354\n00:16:43,170 --> 00:16:48,000\nAll right, but all that being said,\nit's a pretty exciting certification.\n\n355\n00:16:48,000 --> 00:16:52,350\nIt's a nice change from the 413 which\nwas very design heavy, you know.\n\n356\n00:16:52,350 --> 00:16:55,500\nThis one we get into a lot of design,\nbut we're seeing some new stuff,\n\n357\n00:16:55,500 --> 00:16:58,150\nwe're seeing the system centered tools and\nthat's a lot of fun.\n\n358\n00:16:59,382 --> 00:17:02,650\nAll right, so Mike can you think of\nanything we have left off here for\n\n359\n00:17:02,650 --> 00:17:03,280\nour review?\n\n360\n00:17:03,280 --> 00:17:07,134\n>> No I think we covered it all,\nwe talked about the objectives and\n\n361\n00:17:07,134 --> 00:17:08,747\nthe track that we're on.\n\n362\n00:17:08,747 --> 00:17:10,572\n>> That's basically it.\n\n363\n00:17:10,572 --> 00:17:14,530\nAll right, well, ladies and gentlemen,\nif that stuff sounds exciting to you, and\n\n364\n00:17:14,530 --> 00:17:17,100\nthat's what you want to learn,\nthey you are in the right place.\n\n365\n00:17:17,100 --> 00:17:20,810\nThis was just our little overview to\nintroduce you to the certification, but\n\n366\n00:17:20,810 --> 00:17:24,121\nstay tuned because we have episodes\ncovering the actual exam content\n\n367\n00:17:24,121 --> 00:17:24,704\ncoming up.\n\n368\n00:17:24,704 --> 00:17:31,290\nI hope to see you then.\n\n369\n00:17:31,290 --> 00:17:33,259\n[SOUND]\n\n",
+          "url": "overview-mcse-windows-server-2012-70414",
+          "vimeoId": "110244913"
+        }
+      ],
+      "title": "Overview of MCSE Windows Server 2012 (70-414)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "492",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-0-manage-server-infrastructure-102714.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-0-manage-server-infrastructure-102714-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-0-manage-server-infrastructure-102714-sm.jpg",
+          "title": "Manage and Maintain Server Infrastructure",
+          "transcript": "",
+          "url": "manage-maintain-server-infrastructure",
+          "vimeoId": "110244912"
+        },
+        {
+          "description": "",
+          "length": "5488",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-1-Design-an-admin-model-102714.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-1-Design-an-admin-model-102714-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-1-Design-an-admin-model-102714-sm.jpg",
+          "title": "Design an Admin Model",
+          "transcript": "",
+          "url": "design-admin-model",
+          "vimeoId": "110244914"
+        },
+        {
+          "description": "",
+          "length": "4016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-2-design-a-monitoring-strategy-102814.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-2-design-a-monitoring-strategy-102814-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-2-design-a-monitoring-strategy-102814-sm.jpg",
+          "title": "Design A Monitoring Strategy",
+          "transcript": "",
+          "url": "design-monitoring-strategy",
+          "vimeoId": "110354320"
+        },
+        {
+          "description": "",
+          "length": "4878",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-3-automated-remediation-102814.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-3-automated-remediation-102814-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-1-3-automated-remediation-102814-sm.jpg",
+          "title": "Automated Remediation",
+          "transcript": "",
+          "url": "automated-remediation",
+          "vimeoId": "110354323"
+        }
+      ],
+      "title": "Manage and maintain a server infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-0-overview-102814.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-0-overview-102814-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-0-overview-102814-sm.jpg",
+          "title": "Highly Available Infrastructure",
+          "transcript": "",
+          "url": "highly-available-infrastructure",
+          "vimeoId": "110354327"
+        },
+        {
+          "description": "",
+          "length": "4604",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-102914.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-102914-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-102914-sm.jpg",
+          "title": "Failover Clustering",
+          "transcript": "",
+          "url": "failover-clustering",
+          "vimeoId": "110609346"
+        },
+        {
+          "description": "",
+          "length": "3634",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-pt2-102914.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-pt2-102914-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-1-failover-clustering-pt2-102914-sm.jpg",
+          "title": "Failover Clustering Part 2",
+          "transcript": "",
+          "url": "failover-clustering-2",
+          "vimeoId": "110602518"
+        },
+        {
+          "description": "",
+          "length": "2128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-2-ha-with-network-services-102914.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-2-ha-with-network-services-102914-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-2-ha-with-network-services-102914-sm.jpg",
+          "title": "HA With Network Services",
+          "transcript": "",
+          "url": "ha-network-services",
+          "vimeoId": "110603433"
+        },
+        {
+          "description": "",
+          "length": "3984",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-3-ha-storage-solutions-103014.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-3-ha-storage-solutions-103014-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-3-ha-storage-solutions-103014-sm.jpg",
+          "title": "HA Storage Solutions",
+          "transcript": "",
+          "url": "ha-storage-solutions",
+          "vimeoId": "110604283"
+        },
+        {
+          "description": "",
+          "length": "4488",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-5-bc-and-dr-solutions-103014.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-5-bc-and-dr-solutions-103014-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-2-5-bc-and-dr-solutions-103014-sm.jpg",
+          "title": "BC and DR Solutions",
+          "transcript": "",
+          "url": "bc-dr-solutions",
+          "vimeoId": "110604958"
+        }
+      ],
+      "title": "Plan and implement a highly available enterprise infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-0-overview-102814.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-0-overview-102814-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-0-overview-102814-sm.jpg",
+          "title": "Virtualization Infrastructure",
+          "transcript": "",
+          "url": "virtualization-infrastructure",
+          "vimeoId": "110354328"
+        },
+        {
+          "description": "",
+          "length": "3536",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-1-virtualization-hosts-10312014.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-1-virtualization-hosts-10312014-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-3-1-virtualization-hosts-10312014-sm.jpg",
+          "title": "Virtualization Hosts",
+          "transcript": "",
+          "url": "virtualization-hosts",
+          "vimeoId": "110775800"
+        },
+        {
+          "description": null,
+          "length": "5752",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-2-plan_and_implement_vms_030215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-2-plan_and_implement_vms_030215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-2-plan_and_implement_vms_030215-1-sm.jpg",
+          "title": "Plan and Implement VMs",
+          "transcript": "",
+          "url": "plan-implement-vms",
+          "vimeoId": "121139679"
+        },
+        {
+          "description": null,
+          "length": "3684",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-4-virtualization_storage-030315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-4-virtualization_storage-030315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-4-virtualization_storage-030315-1-sm.jpg",
+          "title": "Virtualization Storage",
+          "transcript": "",
+          "url": "virtualization-storage",
+          "vimeoId": "121242870"
+        },
+        {
+          "description": null,
+          "length": "2956",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-5-virtual_machine_movement-030415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-5-virtual_machine_movement-030415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-5-virtual_machine_movement-030415-1-sm.jpg",
+          "title": "Virtual Machine Movement",
+          "transcript": "",
+          "url": "virtual-machine-movement",
+          "vimeoId": "121366617"
+        },
+        {
+          "description": null,
+          "length": "4570",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-3-plan_virtualization_networking-030515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-3-plan_virtualization_networking-030515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-3-plan_virtualization_networking-030515-1-sm.jpg",
+          "title": "Plan Virtualization Networking",
+          "transcript": "",
+          "url": "plan-virtualization-networking",
+          "vimeoId": "121458961"
+        },
+        {
+          "description": null,
+          "length": "3650",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-6-maintain_vm-infrastructure-030615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-6-maintain_vm-infrastructure-030615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-mcse70414-3-6-maintain_vm-infrastructure-030615-1-sm.jpg",
+          "title": "Maintain VM Infrastructure",
+          "transcript": "",
+          "url": "maintain-vm-infrastructure",
+          "vimeoId": "121685266"
+        }
+      ],
+      "title": "Plan and implement a server virtualization infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "237",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-4-0-overview-102814.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-4-0-overview-102814-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse70414-4-0-overview-102814-sm.jpg",
+          "title": "Identity and Access Solutions",
+          "transcript": "",
+          "url": "identity-access-solutions",
+          "vimeoId": "110354329"
+        },
+        {
+          "description": "In this episode, Daniel and Mike describe and demonstrate what it takes to design and implement a Certificate Authority(CA) Infrastructure. They start by looking at the hierarchical tiers when using an offline root CA. Then they explore Certificate Enrollment Web Services and Certificate Enrollment Policy Web Services. Finally, they describe Network Device Enrollment Services.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-design_a_ca_infrastructure-060716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-design_a_ca_infrastructure-060716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-design_a_ca_infrastructure-060716-1-sm.jpg",
+          "title": "Design a CA Infrastructure",
+          "transcript": "",
+          "url": "design-ca-infrastructure",
+          "vimeoId": "170667315"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion of designing and implementing a Certificate Authority(CA) Infrastructure. Here they demonstrate the process of certificate validation and revocation. Finally, they look at backing up and restoring the CA database and private key in a Disaster Recovery situation.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-2-design_a_ca_infrastructure_pt2-060716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-2-design_a_ca_infrastructure_pt2-060716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-1-2-design_a_ca_infrastructure_pt2-060716-1-sm.jpg",
+          "title": "Design a CA Infrastructure Part 2",
+          "transcript": "",
+          "url": "design-ca-infrastructure-2",
+          "vimeoId": "170667314"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue the discussion of CA infrastructure by moving into the installing the CA role and bringing the root CA online. They also show how to configure the certification revocation list distribution point commonly known as the CDP as well as configuring the authority information access.",
+          "length": "2007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-3-design_a_ca_infrastructure_pt3-062817-PGM.00_42_38_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-3-design_a_ca_infrastructure_pt3-062817-PGM.00_42_38_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-3-design_a_ca_infrastructure_pt3-062817-PGM.00_42_38_21.Still001-sm.jpg",
+          "title": "Design a CA Infrastructure Part 3",
+          "transcript": "",
+          "url": "designca-infrastructure3",
+          "vimeoId": "224315067"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue the discussion of CA infrastructure by moving into the installing the CA role and bringing the the subordinate certificate authority online. They also look at how to import that root CA certificate on the subordinate CA, completing the certificate signing request as well as installing the subordinate CA certificate. Finally, they will demonstrate how to deploy the root CA certificate through ADDS.",
+          "length": "2034",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-4-design_a_ca_infrastructure_pt4-062817-PGM.00_35_42_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-4-design_a_ca_infrastructure_pt4-062817-PGM.00_35_42_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-2-4-design_a_ca_infrastructure_pt4-062817-PGM.00_35_42_20.Still001-sm.jpg",
+          "title": "Design a CA Infrastructure Part 4",
+          "transcript": "",
+          "url": "designca-infrastructure4",
+          "vimeoId": "224315438"
+        },
+        {
+          "description": "In this episode, Wes and Mike talk about concepts surrounding the implementation and management of certification within a CA infrastructure. They look at the different schema types for certificate templates and server compatibility.",
+          "length": "2343",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-1-implement_and_manage_certificates-062917-PGM.00_39_33_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-1-implement_and_manage_certificates-062917-PGM.00_39_33_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-1-implement_and_manage_certificates-062917-PGM.00_39_33_07.Still001-sm.jpg",
+          "title": "Implement and Manage Certificates",
+          "transcript": "",
+          "url": "implementmanage-certificates",
+          "vimeoId": "224316737"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their discussion on concepts surrounding the implementation and management of certification within a CA infrastructure. They talk about auto enrollment , superseding certificates, multipurpose certifications and adding purposes through extensions. Finally they will look at setting up a EFS recovery agent.",
+          "length": "2091",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-2-implement_and_manage_certificates_pt2-062917-PGM.01_01_15_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-2-implement_and_manage_certificates_pt2-062917-PGM.01_01_15_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-2-implement_and_manage_certificates_pt2-062917-PGM.01_01_15_20.Still001-sm.jpg",
+          "title": "Implement and Manage Certificates Part 2",
+          "transcript": "",
+          "url": "implementmanage-certificates2",
+          "vimeoId": "224316131"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their discussion on concepts surrounding the implementation and management of certification within a CA infrastructure. They move through EFS recovery agents then into key recovery agents or KRA’s as well as the process of setting up a KRA’s and demonstrate key archival and recovery.",
+          "length": "2488",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-3-implement_and_manage_certificates_pt3-062917-PGM.00_41_11_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-3-implement_and_manage_certificates_pt3-062917-PGM.00_41_11_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/microsoft-server70414-4-3-3-implement_and_manage_certificates_pt3-062917-PGM.00_41_11_13.Still001-sm.jpg",
+          "title": "Implement and Manage Certificates Part 3",
+          "transcript": "",
+          "url": "implementmanage-certificates3",
+          "vimeoId": "224315746"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take you through implementing Federated Identity services. Here they start by discussing the planning steps for standing up an ADFS server, a Federation Server Proxy, and High Availability(HA). They also discuss the other key components like Federation Server Certificates and Federation Server Farms.",
+          "length": "2052",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-1-implementing_federated_identity-041217-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-1-implementing_federated_identity-041217-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-1-implementing_federated_identity-041217-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Implementing Federated Identity",
+          "transcript": "",
+          "url": "implementing-federated-identity",
+          "vimeoId": "213221052"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue discussing components and steps for implementing Federated Identity Services. They pick back up by talking about integrating with Online Services, Azure, and Office365. They also explore configuring ADFS Claims Providers and Attribute Stores.",
+          "length": "1627",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-2-implementing_federated_identity_pt2-041217-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-2-implementing_federated_identity_pt2-041217-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-2-implementing_federated_identity_pt2-041217-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Implementing Federated Identity Part 2",
+          "transcript": "",
+          "url": "implementing-federated-identity2",
+          "vimeoId": "213221532"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue discussing components and steps for implementing Federated Identity Services. Here they round out their overview of topics by discussing Claims Provider Trust components, creating Claims Rules, designing Claims types, and implementing Web Application Proxy.",
+          "length": "1504",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-3-implementing_federated_identity_pt3-041217-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-3-implementing_federated_identity_pt3-041217-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-3-implementing_federated_identity_pt3-041217-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Implementing Federated Identity Part 3",
+          "transcript": "",
+          "url": "implementing-federated-identity3",
+          "vimeoId": "213221850"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take all the previously discussed concepts and use them to actually stand up Active Directory Federated Identity Services. Here they take you step-by-step through the process, discussing each component in detail so that you are properly equipped to perform an ADFS implementation.",
+          "length": "2147",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-4-implementing_federated_identity_pt4-041217-PGM.00_35_31_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-4-implementing_federated_identity_pt4-041217-PGM.00_35_31_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-4-implementing_federated_identity_pt4-041217-PGM.00_35_31_09.Still001-sm.jpg",
+          "title": "Implementing Federated Identity Part 4",
+          "transcript": "",
+          "url": "implementing-federated-identity4",
+          "vimeoId": "213222149"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take all the previously discussed concepts and use them to actually stand up Active Directory Federated Identity Services. Here they take you step-by-step through the process, discussing each component in detail so that you are properly equipped to perform an ADFS implementation.",
+          "length": "1029",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-5-implementing_federated_identity_pt5-041317-PGM.00_16_52_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-5-implementing_federated_identity_pt5-041317-PGM.00_16_52_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-4-5-implementing_federated_identity_pt5-041317-PGM.00_16_52_29.Still001-sm.jpg",
+          "title": "Implementing Federated Identity Part 5",
+          "transcript": "",
+          "url": "implementing-federated-identity5",
+          "vimeoId": "214171014"
+        },
+        {
+          "description": "In this episode, Daniel and Adam introduce you to Dynamic Access Control. Here they will discuss and demonstrate planning and implementing data access for users and devices. They go over each of the building blocks and vocabulary, prerequisites for setting up DAC, and then demo an actual DAC implementation.",
+          "length": "1211",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-5-dynamic_access_control-041317-PGM.00_00_12_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-5-dynamic_access_control-041317-PGM.00_00_12_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-5-dynamic_access_control-041317-PGM.00_00_12_02.Still001-sm.jpg",
+          "title": "Dynamic Access Control",
+          "transcript": "",
+          "url": "dynamic-access-control",
+          "vimeoId": "213222592"
+        },
+        {
+          "description": "In this episode, Daniel and Adam overview the concepts and components for implementing Rights Management. Here they discuss the AD-RMS workflow steps and major AD-RMS components, specifically Clusters, Root-certification servers, and Licensing servers.",
+          "length": "1788",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-implementing_rights_management-041317-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-implementing_rights_management-041317-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-implementing_rights_management-041317-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Implementing Rights Management",
+          "transcript": "",
+          "url": "implementing-rights-management",
+          "vimeoId": "213223034"
+        },
+        {
+          "description": "In this episode, Daniel and Adam overview the concepts and components for implementing Rights Management. They pick back up by exploring the steps for planning and implementing an AD-RMS Cluster. Then, they look at configuring High Availability(HA) and Sizing.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-2-implementing_rights_management_pt2-041317-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-2-implementing_rights_management_pt2-041317-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-2-implementing_rights_management_pt2-041317-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Implementing Rights Management Part 2",
+          "transcript": "",
+          "url": "implementing-rights-management2",
+          "vimeoId": "213223666"
+        },
+        {
+          "description": "In this episode, Daniel and Adam overview the concepts and components for implementing Rights Management. Topics discussed here include Backup and Recovery strategies, decommissioning/removing AD-RMS, upgrading/migrating, and RMS Templates and Template distribution.",
+          "length": "1779",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-3-implementing_rights_management_pt3-041317-PGM.00_29_21_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-3-implementing_rights_management_pt3-041317-PGM.00_29_21_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-3-implementing_rights_management_pt3-041317-PGM.00_29_21_21.Still001-sm.jpg",
+          "title": "Implementing Rights Management Part 3",
+          "transcript": "",
+          "url": "implementing-rights-management3",
+          "vimeoId": "213238208"
+        },
+        {
+          "description": "In this episode, Daniel and Adam overview the concepts and components for implementing Rights Management. Topics discussed here include options for configuring AD-RMS Exclusion Policies, planning the AD-RMS Super-Users group, integration with Sharepoint, integration with ADFS, and AD-RMS with Azure.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-4-implementing_rights_management_pt4-041317-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-4-implementing_rights_management_pt4-041317-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-6-4-implementing_rights_management_pt4-041317-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Implementing Rights Management Part 4",
+          "transcript": "",
+          "url": "implementing-rights-management4",
+          "vimeoId": "213239301"
+        },
+        {
+          "description": "In this episode, Daniel and Adam start their demonstration of configuring Active Directory Rights Management Services. Here they will take all the concepts that you've been learning and walk you through the setup involved in standing up a AD-RMS system.",
+          "length": "1993",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-configuring_ad-rms-041417-PGM.00_32_57_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-configuring_ad-rms-041417-PGM.00_32_57_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-configuring_ad-rms-041417-PGM.00_32_57_11.Still001-sm.jpg",
+          "title": "Configuring AD-RMS",
+          "transcript": "",
+          "url": "configuring-adrms",
+          "vimeoId": "213660179"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their demonstration of configuring Active Directory Rights Management Services. Here they will take all the concepts that you've been learning and walk you through the setup involved in standing up a AD-RMS system.",
+          "length": "2515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-2-configuring_ad-rms_pt2-041417-PGM.00_41_38_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-2-configuring_ad-rms_pt2-041417-PGM.00_41_38_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-2-configuring_ad-rms_pt2-041417-PGM.00_41_38_28.Still001-sm.jpg",
+          "title": "Configuring AD-RMS Part 2",
+          "transcript": "",
+          "url": "configuring-adrms2",
+          "vimeoId": "213661013"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their demonstration of configuring Active Directory Rights Management Services. Here they will take all the concepts that you've been learning and walk you through the setup involved in standing up a AD-RMS system.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-3-configuring_ad-rms_pt3-041417-PGM.00_30_14_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-3-configuring_ad-rms_pt3-041417-PGM.00_30_14_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-3-configuring_ad-rms_pt3-041417-PGM.00_30_14_10.Still001-sm.jpg",
+          "title": "Configuring AD-RMS Part 3",
+          "transcript": "",
+          "url": "configuring-adrms3",
+          "vimeoId": "213661427"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their demonstration of configuring Active Directory Rights Management Services. Here they will take all the concepts that you've been learning and walk you through the setup involved in standing up a AD-RMS system.",
+          "length": "816",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-4-configuring_ad-rms_pt4-041417-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-4-configuring_ad-rms_pt4-041417-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70414/mcse-windows-server-2012-4-7-4-configuring_ad-rms_pt4-041417-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "Configuring AD-RMS Part 4",
+          "transcript": "",
+          "url": "configuring-adrms4",
+          "vimeoId": "214171220"
+        }
+      ],
+      "title": "Design and implement identity and access solutions"
+    }
+  ],
+  "url": "mcse-windows-server-2013",
+  "vLab": false
+}

@@ -1,0 +1,661 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "descriptionMD": "_This show is still in production.  We are updating the recording to reflect new features and interface.  The previously recorded one will be moved to Legacy when this updated version is complete._Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "length": "97906",
+  "name": "MCSA Windows 10 - 70-697 (UPDATED 2018)",
+  "practiceExam": true,
+  "subtitle": "Configuring Windows Devices",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike demonstrate using a Microsoft account to synchronize settings across multiple devices. They also look at how to disable this functionality using Group Policy. Then they demonstrate how to assign an Office 365 license to a user.",
+          "length": "1729",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-1-support_microsoft_store_and_cloud_apps-050918-PGM.00_32_33_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-1-support_microsoft_store_and_cloud_apps-050918-PGM.00_32_33_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-1-support_microsoft_store_and_cloud_apps-050918-PGM.00_32_33_10.Still001-sm.jpg",
+          "title": "Support Microsoft Store and Cloud Apps",
+          "transcript": "WEBVTT\n\n1\n00:00:00.280 --> 00:00:02.416\nWelcome to ITPRO.TV.\n\n2\n00:00:02.416 --> 00:00:04.985\nI'm your host Don Pezet.\n\n3\n00:00:04.985 --> 00:00:06.231\n[CROSSTALK]\n\n4\n00:00:06.231 --> 00:00:08.507\n[MUSIC]\n\n5\n00:00:08.507 --> 00:00:13.110\n&gt;&gt; You're watching ITPRO.TV.\n&gt;&gt; Welcome everyone to your\n\n6\n00:00:13.110 --> 00:00:15.480\nConfigure Windows Devices series.\n\n7\n00:00:15.480 --> 00:00:19.750\nIf you're studying for the 70-697,\nthen you're in the perfect place.\n\n8\n00:00:19.750 --> 00:00:22.900\nI'm your host, Cherokee Boose, and\nin this episode, specifically,\n\n9\n00:00:22.900 --> 00:00:27.530\nwe'll be looking at how we can support\nour Microsoft Store and cloud apps.\n\n10\n00:00:27.530 --> 00:00:30.710\nAnd with us today in studios we have Mr.\nMike Rodrick.\n\n11\n00:00:30.710 --> 00:00:31.920\nHow's it going today, Mike?\n\n12\n00:00:31.920 --> 00:00:33.130\nGreat, Cherokee, thanks for having me.\n\n13\n00:00:33.130 --> 00:00:37.800\nExcited as always to talk about Windows\n10, and good old Microsoft store apps,\n\n14\n00:00:37.800 --> 00:00:41.890\ncloud apps, all these apps that\nwe've got to support, right?\n\n15\n00:00:41.890 --> 00:00:42.390\n[LAUGH]\n&gt;&gt; [LAUGH]\n\n16\n00:00:42.390 --> 00:00:43.208\n&gt;&gt; All right, so,\n\n17\n00:00:43.208 --> 00:00:46.140\nthat's what we're gonna take a look at.\nOne of the objectives,\n\n18\n00:00:46.140 --> 00:00:47.810\nthey call it, as you said,\nthe 70-697 exam.\n\n19\n00:00:47.810 --> 00:00:50.510\nThey talk about intergrating\na Microsoft account\n\n20\n00:00:50.510 --> 00:00:52.530\nincluding personalization settings.\n\n21\n00:00:52.530 --> 00:00:55.420\nAnd so that's what I wanna look at today.\n\n22\n00:00:55.420 --> 00:00:58.410\nAnd this is something that's\nactually kind of influx right now.\n\n23\n00:00:58.410 --> 00:01:03.270\nAs we're shooting these episodes,\nthings are a changing as they like to say.\n\n24\n00:01:03.270 --> 00:01:04.470\nI don't know where, or\n\n25\n00:01:04.470 --> 00:01:07.030\nwho likes to say that, but.\n&gt;&gt; Like this is the only\n\n26\n00:01:07.030 --> 00:01:09.164\nthing that's changing here-\n&gt;&gt; [CROSSTALK]\n\n27\n00:01:09.164 --> 00:01:09.995\n&gt;&gt; Exactly, and\n\n28\n00:01:09.995 --> 00:01:14.575\nthe reason I say this is because a lot\nof the documentation that you'll go out.\n\n29\n00:01:14.575 --> 00:01:18.201\nAnd you might read as you're preparing for\nthis exam is gonna talk about\n\n30\n00:01:18.201 --> 00:01:21.414\nassociating a Microsoft account\nwith either a local account.\n\n31\n00:01:21.414 --> 00:01:25.693\nMeaning I've got a workgroup machine or\nmy home machine that I've logged\n\n32\n00:01:25.693 --> 00:01:29.190\non with a local account and\nI have a Microsoft account.\n\n33\n00:01:29.190 --> 00:01:32.630\nI can associate that Microsoft\naccount with my local account.\n\n34\n00:01:32.630 --> 00:01:36.560\nAnd it's gonna allow me to synchronize\nsettings, and some other things.\n\n35\n00:01:36.560 --> 00:01:38.120\nAnd we'll talk about that in a second.\n\n36\n00:01:38.120 --> 00:01:40.560\nBut then the documentation will also say\nthat you could do the same thing with\n\n37\n00:01:40.560 --> 00:01:42.050\na domain account.\n\n38\n00:01:42.050 --> 00:01:45.160\nBut what's happening is Microsoft\nis changing that a little bit.\n\n39\n00:01:45.160 --> 00:01:50.010\nAs of right now, there isn't a way\nto associate your Microsoft account\n\n40\n00:01:50.010 --> 00:01:51.140\nwith your domain account.\n\n41\n00:01:51.140 --> 00:01:53.640\nAnd I'll show you where\nthat setting is missing.\n\n42\n00:01:53.640 --> 00:01:57.650\nThere's still a group policy that it gives\nthe administrators the ability to block\n\n43\n00:01:57.650 --> 00:01:58.610\nMicrosoft accounts.\n\n44\n00:01:58.610 --> 00:02:01.330\nBut it seems like Microsoft might be\ndoing this a little in the background.\n\n45\n00:02:01.330 --> 00:02:04.680\nAnd I found an obscure blog\nthat is relatively recent, and\n\n46\n00:02:04.680 --> 00:02:06.950\nfrom some people at Microsoft.\n\n47\n00:02:06.950 --> 00:02:09.460\nThat were talking about\nhow a lot of the IT people\n\n48\n00:02:09.460 --> 00:02:12.270\nthat they'd talked to had\ncomplained about this.\n\n49\n00:02:12.270 --> 00:02:15.670\nThought it was a security risk,\nbeing able to synchronize settings from my\n\n50\n00:02:15.670 --> 00:02:20.160\ndomain systems with systems that\nare out of my enterprise's control.\n\n51\n00:02:20.160 --> 00:02:23.692\nNow with my home devices,\nlaptops, things like that.\n\n52\n00:02:23.692 --> 00:02:25.310\nAnd so maybe I mean,\n\n53\n00:02:25.310 --> 00:02:28.550\nI'm trying to put logic to what\nMicrosoft's doing, I obviously don't know.\n\n54\n00:02:28.550 --> 00:02:34.090\nBut the option is missing, that's the\npoint along stories that is trying to say,\n\n55\n00:02:34.090 --> 00:02:35.350\nthat option's not there.\n&gt;&gt; Well thank you for\n\n56\n00:02:35.350 --> 00:02:38.240\nbringing it to our attention, because\nI know I certainly encountered that.\n\n57\n00:02:38.240 --> 00:02:43.810\nAnd it's not, we're not saying don't study\nand don't proceed with your studies here.\n\n58\n00:02:43.810 --> 00:02:47.720\nIt's just, be aware of it so\nyou can evolve as well.\n\n59\n00:02:47.720 --> 00:02:50.170\n&gt;&gt; Exactly, and so we'll talk about it.\n\n60\n00:02:50.170 --> 00:02:53.590\nI'll show you how it used to be, how it is\nnow, and then that way when you go into\n\n61\n00:02:53.590 --> 00:02:57.288\nthe exam you'll be prepared for\neither, whatever they ask you.\n\n62\n00:02:57.288 --> 00:03:00.350\nWhat we're gonna do, again a Microsoft\naccount is simply an account that I go out\n\n63\n00:03:00.350 --> 00:03:03.370\nand I create through Microsoft, it's free.\n\n64\n00:03:03.370 --> 00:03:09.980\nYou can create either a .outlook.com or\na .hotmail.com account.\n\n65\n00:03:09.980 --> 00:03:15.140\nAnd when you use a Microsoft account\nto log in to your systems or associate\n\n66\n00:03:15.140 --> 00:03:19.790\nthat with an account, it'll allow you\nto synchronize settings across devices.\n\n67\n00:03:19.790 --> 00:03:22.240\nBasically because you\nhave a Microsoft account\n\n68\n00:03:22.240 --> 00:03:25.090\nyou have a little slice of\nstorage out there in the cloud.\n\n69\n00:03:25.090 --> 00:03:27.810\nAnd we can choose to\nsynchronize certain settings.\n\n70\n00:03:27.810 --> 00:03:30.470\nWhat'll happen is it'll store\nthose settings up in the cloud.\n\n71\n00:03:30.470 --> 00:03:32.410\nAnd if I go to a different system and\n\n72\n00:03:32.410 --> 00:03:37.310\nlog on, it can retrieve those settings and\nset them on that machine as well.\n\n73\n00:03:37.310 --> 00:03:41.550\nThings like my background, my favorites,\nand a few other things, themes and things\n\n74\n00:03:41.550 --> 00:03:45.490\nlike that, can be synchronized across\nmultiple devices, which is kind of cool.\n\n75\n00:03:45.490 --> 00:03:48.790\nI like that concept,\nit works out pretty well.\n\n76\n00:03:48.790 --> 00:03:49.900\n&gt;&gt; I'm just waiting for\n\n77\n00:03:49.900 --> 00:03:53.630\ntheir new phone to come out, Windows\nphone, they've been talking about it for\n\n78\n00:03:53.630 --> 00:03:57.985\nyears now, and that would just be perfect.\n&gt;&gt; Don't hold you breath, right?\n\n79\n00:03:57.985 --> 00:03:59.702\n[LAUGH]\n&gt;&gt; [LAUGH]\n\n80\n00:03:59.702 --> 00:04:00.240\n&gt;&gt; All right, so\n\n81\n00:04:00.240 --> 00:04:02.430\nlet's take a look at my screen here and\nwe will get started.\n\n82\n00:04:02.430 --> 00:04:04.500\nI have a Windows 10 machine.\n\n83\n00:04:04.500 --> 00:04:09.000\nI'm currently logged on with\na local account named Mike, right?\n\n84\n00:04:09.000 --> 00:04:11.540\nAnd this is just a standard,\nit's the local admin.\n\n85\n00:04:11.540 --> 00:04:13.910\nIn fact, I think it's the first\naccount on the system.\n\n86\n00:04:13.910 --> 00:04:15.410\nBut it's nothing special.\n\n87\n00:04:15.410 --> 00:04:16.780\nIt's just a local account.\n\n88\n00:04:16.780 --> 00:04:19.810\nAnd what I'm gonna do,\nI'm gonna go to my Settings.\n\n89\n00:04:19.810 --> 00:04:21.040\nI'm going to click on Accounts.\n\n90\n00:04:22.380 --> 00:04:26.509\nUnderneath your info, that top node there,\nI can see my account,\n\n91\n00:04:26.509 --> 00:04:29.910\nMike it's a local account,\nmeaning it's stored in the local SAM file.\n\n92\n00:04:29.910 --> 00:04:32.010\nIt's not a domain account or\nanything like that.\n\n93\n00:04:32.010 --> 00:04:35.260\nAnd then down below here,\nwe can see where it says Windows is better\n\n94\n00:04:35.260 --> 00:04:37.430\nwhen your settings and\nfiles are automatically synced.\n\n95\n00:04:37.430 --> 00:04:39.200\nUse a Microsoft account instead.\n\n96\n00:04:39.200 --> 00:04:41.080\nSign in with a Microsoft account instead.\n\n97\n00:04:41.080 --> 00:04:46.730\nSo if click this link it's gonna\nopen up a dialogue box and\n\n98\n00:04:46.730 --> 00:04:49.170\nit's going to ask me for\nmy Microsoft account.\n\n99\n00:04:49.170 --> 00:04:55.633\nSo I'll type in, so what's one of\nmy accounts that I can use here.\n\n100\n00:04:55.633 --> 00:04:59.554\nWe will try that one, we will click next\nI think I remember my password for that.\n\n101\n00:05:02.732 --> 00:05:03.710\nAnd we'll sign in.\n\n102\n00:05:04.870 --> 00:05:07.870\nAnd now what it's asking me for, and\n\n103\n00:05:07.870 --> 00:05:10.070\nI should've done that a little slower,\nright?\n\n104\n00:05:10.070 --> 00:05:14.210\nFirst it asked me for my username,\nright, mikerodrick@outlook.com.\n\n105\n00:05:14.210 --> 00:05:15.870\nThat's my Microsoft account.\n\n106\n00:05:15.870 --> 00:05:18.930\nThen it asks me for the password for\nthat Microsoft account.\n\n107\n00:05:18.930 --> 00:05:22.610\nMake sure it's actually my account, that\nI own it and I have permission to use it.\n\n108\n00:05:22.610 --> 00:05:27.180\nNow it's asking me for my,\nnotice it says current Windows password.\n\n109\n00:05:27.180 --> 00:05:31.300\nTo verify that I am the owner\nof this local account as well.\n\n110\n00:05:31.300 --> 00:05:35.120\nCuz what if I had left myself logged in,\nand somebody else walked up.\n\n111\n00:05:35.120 --> 00:05:37.880\nAnd they could have gone into,\nif I had left myself logged in\n\n112\n00:05:37.880 --> 00:05:40.765\nthey could've easily opened\nsettings gone into hear your info.\n\n113\n00:05:40.765 --> 00:05:45.190\nChose to sync your Microsoft account\nused one that they know, right.\n\n114\n00:05:45.190 --> 00:05:49.250\nAnd then they could turn around and\nlog in to the system as me.\n\n115\n00:05:49.250 --> 00:05:52.550\nThat's what they're trying to prevent\nhere making sure it's actually me.\n\n116\n00:05:52.550 --> 00:05:56.100\nI got to remember my\npassword on this machine.\n\n117\n00:05:57.260 --> 00:05:58.510\nHopefully that's the right one.\n\n118\n00:06:00.430 --> 00:06:01.210\nWe shall see.\n\n119\n00:06:01.210 --> 00:06:03.120\nSo basically you have to\nput in both passwords.\n\n120\n00:06:03.120 --> 00:06:07.420\nThe password for your Microsoft account,\nand the password for your local account.\n\n121\n00:06:07.420 --> 00:06:10.480\nAnd now it's telling me use\nWindows Hello instead of your password.\n\n122\n00:06:10.480 --> 00:06:14.900\nWe've got several episodes where we deal\nwith Windows Hello, how we can use PINs or\n\n123\n00:06:14.900 --> 00:06:16.530\nbiometrics to authenticate.\n\n124\n00:06:16.530 --> 00:06:19.480\nAnd actually it didn't click on\nanything and the window went away.\n\n125\n00:06:19.480 --> 00:06:22.800\nI guess it gave up and\nsaid he must not be doing that, and\n\n126\n00:06:22.800 --> 00:06:24.330\nclosed itself.\n&gt;&gt; [LAUGH]\n\n127\n00:06:24.330 --> 00:06:26.127\n&gt;&gt; I haven't seen that before, but\n\n128\n00:06:26.127 --> 00:06:26.838\n[SOUND] okay.\n\n129\n00:06:26.838 --> 00:06:29.020\nAnd now you will see my\ninformation has changed, right?\n\n130\n00:06:29.020 --> 00:06:32.830\nIt says mikeroderick@outlook.com\nas an administrator.\n\n131\n00:06:32.830 --> 00:06:39.550\nSo now my Microsoft account is\nassociated with my local account.\n\n132\n00:06:39.550 --> 00:06:46.705\nAnd if I log off,\nWhen I go to log back on,\n\n133\n00:06:46.705 --> 00:06:51.640\nI'll be logging on, those to, sorry,\nyou have to look at my face there twice.\n\n134\n00:06:51.640 --> 00:06:55.330\nBut you notice it's pulling all of\nmy information from that account.\n\n135\n00:06:55.330 --> 00:07:00.370\nAnd now I'm gonna be using the password\nfor my Microsoft account to log in.\n\n136\n00:07:00.370 --> 00:07:04.040\nSo it's kinda like this account has,\nit's associated with, but\n\n137\n00:07:04.040 --> 00:07:06.120\nit's almost taken over my local account.\n\n138\n00:07:06.120 --> 00:07:09.860\nI don't see that local account, I don't\nuse that local account password anymore.\n\n139\n00:07:09.860 --> 00:07:13.490\nI can if I choose to do at some point,\noops,\n\n140\n00:07:13.490 --> 00:07:17.180\ngo back into my settings and my accounts.\n\n141\n00:07:18.400 --> 00:07:21.350\nAnd I can choose sign-in\nwith local account instead.\n\n142\n00:07:21.350 --> 00:07:24.480\nSo I could remove my Microsoft\naccount from this system.\n\n143\n00:07:24.480 --> 00:07:25.240\n&gt;&gt; And sometimes,\n\n144\n00:07:25.240 --> 00:07:27.940\nI have my personal\ncomputer setup like that.\n\n145\n00:07:27.940 --> 00:07:32.020\nAnd if I don't have an internet\nconnection and you're just so\n\n146\n00:07:32.020 --> 00:07:36.840\nused to typing in your Outlook password,\nor whatever.\n\n147\n00:07:36.840 --> 00:07:38.790\nAnd if you forget about that.\n\n148\n00:07:38.790 --> 00:07:43.850\nIt will remind you to use\nthe local the local password or\n\n149\n00:07:43.850 --> 00:07:45.040\nPIN there.\n&gt;&gt; Exactly, all right,\n\n150\n00:07:45.040 --> 00:07:49.300\nnow that we are signed it with a Microsoft\naccount I can click sync your settings.\n\n151\n00:07:49.300 --> 00:07:54.103\nAnd this is where I can choose what\nsettings I want to synchronize.\n\n152\n00:07:54.103 --> 00:07:57.428\nI can turn the whole thing on or off and\nmaybe I don't want any settings to\n\n153\n00:07:57.428 --> 00:08:00.046\nsynchronize between the devices\nevery device I use is.\n\n154\n00:08:00.046 --> 00:08:02.568\nSeparate, I don't want any of\nthose settings pulling across.\n\n155\n00:08:02.568 --> 00:08:04.298\nI can turn it off altogether.\n\n156\n00:08:04.298 --> 00:08:07.598\nThe choices I have, theme,\nInternet Explorer settings,\n\n157\n00:08:07.598 --> 00:08:11.030\nbecause that is still\neverybody's favorite browser.\n\n158\n00:08:11.030 --> 00:08:13.670\nPasswords notice is turned on,\nbut it’s grayed out.\n\n159\n00:08:13.670 --> 00:08:18.640\nAnd it says passwords won't sync until\nyou verify your identity on this device.\n\n160\n00:08:18.640 --> 00:08:22.570\nAnd in order to do that I can click verify\nand it's going to do the whole thing.\n\n161\n00:08:22.570 --> 00:08:28.230\nIt will send you a text to a phone or you\ncould choose I don't have any of these.\n\n162\n00:08:28.230 --> 00:08:30.220\nMaybe choose a different option.\n\n163\n00:08:30.220 --> 00:08:33.740\nI'm not going to do that on this test\nmachine just because I don't want my\n\n164\n00:08:33.740 --> 00:08:35.400\npassword syncing with this.\n\n165\n00:08:35.400 --> 00:08:37.410\nBut just understand you have that option.\n\n166\n00:08:37.410 --> 00:08:42.220\nBut a great test question right,\nyou can sync everything except passwords\n\n167\n00:08:42.220 --> 00:08:45.340\nin order to sync passwords you\nhave to verify your account,\n\n168\n00:08:45.340 --> 00:08:48.650\nmeaning you're gonna have to get one of\nthose security codes texted to your phone.\n\n169\n00:08:48.650 --> 00:08:50.710\nEnter that code into the system so\nit knows it's you,\n\n170\n00:08:50.710 --> 00:08:54.770\nand then you can start syncing\npasswords across multiple devices.\n\n171\n00:08:54.770 --> 00:08:56.810\nLanguage preferences, ease of access,\n\n172\n00:08:56.810 --> 00:09:01.460\nand other random Windows settings\nthat Microsoft chooses to include.\n\n173\n00:09:01.460 --> 00:09:03.540\nAll right, so that's all well and\ngood on this one system.\n\n174\n00:09:03.540 --> 00:09:05.600\nBut syncing really isn't all that exciting\n\n175\n00:09:05.600 --> 00:09:06.708\nunless you get another system.\n&gt;&gt; That's right.\n\n176\n00:09:06.708 --> 00:09:07.640\n&gt;&gt; Right?\n\n177\n00:09:07.640 --> 00:09:09.780\nSo, let's take a look\nat a different machine.\n\n178\n00:09:09.780 --> 00:09:12.180\nI'm going to do it a little\nbit differently here.\n\n179\n00:09:12.180 --> 00:09:16.790\nSo, this another, again, Windows 10\nlaptop, but I don't have an account.\n\n180\n00:09:16.790 --> 00:09:18.460\nI don't have a local account on this.\n\n181\n00:09:20.130 --> 00:09:23.220\nSo, what I want to do is go into accounts,\nand\n\n182\n00:09:23.220 --> 00:09:25.790\nshow you a different\nway you could do this.\n\n183\n00:09:25.790 --> 00:09:30.240\nThis is Melissa's computer, and so,\nwhat she can do it go to family and\n\n184\n00:09:30.240 --> 00:09:33.420\nother people,\nrather than create me a local account.\n\n185\n00:09:33.420 --> 00:09:35.560\nAnd then I log in with a local account.\n\n186\n00:09:35.560 --> 00:09:39.205\nAnd then I associate my Microsoft\naccount with that local account.\n\n187\n00:09:39.205 --> 00:09:42.660\nShe can simply add a Microsoft\naccount right here.\n\n188\n00:09:42.660 --> 00:09:43.920\nOther people.\n\n189\n00:09:43.920 --> 00:09:48.670\nAdd someone to this PC.\n&gt;&gt; I actually went just through\n\n190\n00:09:48.670 --> 00:09:50.190\nthis the other night with my son.\n\n191\n00:09:50.190 --> 00:09:55.230\nHe's getting to that like age where he's\nstarting to get his own accounts and such,\n\n192\n00:09:55.230 --> 00:09:59.250\nso I actually gave him a Microsoft,\nlike an online account.\n\n193\n00:09:59.250 --> 00:10:02.980\nAnd every time I had set him up before,\nI always created a local account.\n\n194\n00:10:02.980 --> 00:10:05.140\nAnd then he said okay Mom,\nso what's the password.\n\n195\n00:10:05.140 --> 00:10:07.740\nAnd I'm like,\nit's the password to your email account.\n\n196\n00:10:07.740 --> 00:10:09.760\nHe's like like I didn't even.\n\n197\n00:10:09.760 --> 00:10:10.439\n&gt;&gt; Nice.\n&gt;&gt; Yeah, so [LAUGH]\n\n198\n00:10:10.439 --> 00:10:11.423\n&gt;&gt; Right, yeah, and\n\n199\n00:10:11.423 --> 00:10:14.400\nthat gives you the ability to control.\n&gt;&gt; The parental controls.\n\n200\n00:10:14.400 --> 00:10:15.385\n&gt;&gt; All kinds of things,\n\n201\n00:10:15.385 --> 00:10:17.530\nyeah with the parental controls,\nvery good.\n\n202\n00:10:17.530 --> 00:10:21.260\nAll right, so if Melissa wants to\nallow me to log into this machine,\n\n203\n00:10:21.260 --> 00:10:24.004\nshe can come in here and\nchoose to add another person.\n\n204\n00:10:24.004 --> 00:10:28.011\nmikeroderick@outlook.com, next, and\n\n205\n00:10:28.011 --> 00:10:33.205\nthat's it right,\nthat's all that she needs to know is,\n\n206\n00:10:33.205 --> 00:10:39.782\nI want to allow this Microsoft\naccount to log into this system.\n\n207\n00:10:39.782 --> 00:10:45.298\nAll right, so I'll click close on that,\nand I will switch user.\n\n208\n00:10:45.298 --> 00:10:50.120\nNotice that mikerodrick@outlook.com\nshowed up on the list,\n\n209\n00:10:50.120 --> 00:10:52.480\nthere it is,\nI type in the appropriate password.\n\n210\n00:10:56.810 --> 00:11:01.680\nAnd it's now basically creating an account\nand a profile for me on this machine so\n\n211\n00:11:01.680 --> 00:11:05.540\nit will have to go through this initial\nphase of hey welcome while we get\n\n212\n00:11:05.540 --> 00:11:09.860\nthings set up and downloads all\nthe bloatware, I mean cool apps, that\n\n213\n00:11:09.860 --> 00:11:14.460\nMicrosoft wants to put on my start menu\nand eventually it will say let's start.\n\n214\n00:11:14.460 --> 00:11:16.356\nI was kinda hoping my\ntiming would be better and\n\n215\n00:11:16.356 --> 00:11:19.446\nit would start when I said that.\n&gt;&gt; It's okay cuz I'll talk about something\n\n216\n00:11:19.446 --> 00:11:21.380\nhere, there's lots to talk about, right?\n\n217\n00:11:21.380 --> 00:11:22.950\nBut apps, right?\n\n218\n00:11:22.950 --> 00:11:25.740\nSo back in the day I know\nI spoke about this before,\n\n219\n00:11:25.740 --> 00:11:27.950\nbut, I used to call them programs.\n\n220\n00:11:27.950 --> 00:11:30.715\nFor like any kind of Microsoft\nbinary that you would install,\n\n221\n00:11:30.715 --> 00:11:31.840\nusually with a CD or DVD.\n\n222\n00:11:31.840 --> 00:11:35.340\nBut now you hear this\nterm apps all the time.\n\n223\n00:11:35.340 --> 00:11:38.220\nBut sometimes it's spelled differently.\n\n224\n00:11:38.220 --> 00:11:42.380\nAnd I think Microsoft really,\nwhen you see that capital APPS,\n\n225\n00:11:42.380 --> 00:11:46.630\nthey're really referring to like\ntheir cloud or Microsoft store apps.\n\n226\n00:11:46.630 --> 00:11:51.130\nAnd then if you have third party\nsoftware that you're installing,\n\n227\n00:11:51.130 --> 00:11:55.290\nthen you can call an application,\nso that the app etiquette, I guess?\n\n228\n00:11:55.290 --> 00:11:57.430\n&gt;&gt; Yeah, cuz your apps, or your Windows,\n\n229\n00:11:57.430 --> 00:11:59.630\nuniversal Windows platform developed apps.\n&gt;&gt; Right.\n\n230\n00:11:59.630 --> 00:12:04.480\nVersus the old school desktop apps which\ninstall differently, and yeah, absolutely.\n\n231\n00:12:04.480 --> 00:12:05.900\nAll right, so\nhere it's saying the same thing.\n\n232\n00:12:05.900 --> 00:12:08.380\nThey really want us to use Windows Hello.\n\n233\n00:12:08.380 --> 00:12:10.100\nAnd again,\nwe've talked about this in other episodes.\n\n234\n00:12:10.100 --> 00:12:12.910\nIt's a much more secure way to\nauthenticate to your system.\n\n235\n00:12:12.910 --> 00:12:14.880\nWe really should do that.\n\n236\n00:12:14.880 --> 00:12:16.240\nI'm gonna click next.\n\n237\n00:12:16.240 --> 00:12:17.420\nIt's really confusing.\n\n238\n00:12:17.420 --> 00:12:20.380\nThis screen throws some people\noff cuz it doesn't look like\n\n239\n00:12:20.380 --> 00:12:21.710\nthere's any way to skip this.\n\n240\n00:12:21.710 --> 00:12:23.700\nIt says use Windows Hello\ninstead of your password.\n\n241\n00:12:23.700 --> 00:12:24.880\nSet up a PIN.\n\n242\n00:12:24.880 --> 00:12:26.280\nWhat if you don't want to?\n\n243\n00:12:26.280 --> 00:12:30.060\nWell, you click next to move\nto the next screen, and\n\n244\n00:12:30.060 --> 00:12:33.350\nthen just click cancel\ninstead of setting up a PIN.\n\n245\n00:12:33.350 --> 00:12:35.150\nI would recommend you do set up a PIN.\n\n246\n00:12:35.150 --> 00:12:36.210\nIt's more secure, but\n\n247\n00:12:36.210 --> 00:12:39.560\nI just wanted to show you how you\ncould get in without setting up a PIN.\n\n248\n00:12:39.560 --> 00:12:43.130\nAnd then you see down here it says,\ndid you mean to cancel?\n\n249\n00:12:43.130 --> 00:12:43.850\nMy gosh.\n\n250\n00:12:43.850 --> 00:12:44.960\nDon't cancel.\n\n251\n00:12:44.960 --> 00:12:46.580\nI'll set up a PIN later.\n\n252\n00:12:46.580 --> 00:12:51.130\nWink, wink, maybe I will, maybe I won't,\nbut that's for me to decide, Microsoft.\n\n253\n00:12:51.130 --> 00:12:54.520\nAnd I could set up my OneDrive,\nwhich would be a good idea.\n\n254\n00:12:54.520 --> 00:12:55.950\nI'll go ahead and click next.\n\n255\n00:12:57.160 --> 00:13:00.830\nAnd that'll allow it, again,\nto connect out to my OneDrive account,\n\n256\n00:13:00.830 --> 00:13:03.270\nbecause remember,\nOneDrive is also Cloud based.\n\n257\n00:13:03.270 --> 00:13:06.260\nSo now on both machines\nusing this user account,\n\n258\n00:13:06.260 --> 00:13:08.970\nI have access to that\nsame OneDrive storage.\n\n259\n00:13:08.970 --> 00:13:12.480\nSo files that I've put up there from this\ndevice, I can go to the other device and\n\n260\n00:13:12.480 --> 00:13:15.310\nlog in with that same account and\naccess those same files.\n\n261\n00:13:15.310 --> 00:13:20.060\nSo there's lots of benefits of using\na Microsoft account to log into your\n\n262\n00:13:20.060 --> 00:13:22.510\nWindows 10 machines.\n\n263\n00:13:22.510 --> 00:13:28.770\nAs I go to Settings here, now that I'm\nlogged in I can go to accounts and\n\n264\n00:13:28.770 --> 00:13:32.790\nsync my settings and\nagain you'll see the same options.\n\n265\n00:13:32.790 --> 00:13:35.750\nEverything except for passwords is set up.\n\n266\n00:13:36.780 --> 00:13:38.220\nNow let's do this.\n\n267\n00:13:38.220 --> 00:13:42.150\nLet me see if I have any, yeah,\n\n268\n00:13:42.150 --> 00:13:45.200\nit's still doing a few of those\nsetting up your profile things.\n\n269\n00:13:45.200 --> 00:13:47.720\nSo certain things are not responding.\n\n270\n00:13:47.720 --> 00:13:52.130\nYou can see File Explorer is\njust not wanting to open up.\n\n271\n00:13:52.130 --> 00:13:55.130\nLet's go back over to the first machine,\nit should be done by now.\n\n272\n00:13:55.130 --> 00:13:58.600\nAnd really all I wanted to do let me see\nif I've got a picture in here, yeah.\n\n273\n00:14:00.390 --> 00:14:01.590\nI'm gonna change my background,\n\n274\n00:14:01.590 --> 00:14:06.150\nnow again on this background we've\ngot that default Windows background.\n\n275\n00:14:06.150 --> 00:14:10.480\nOver here default Windows background,\nmachine is still not responding.\n\n276\n00:14:10.480 --> 00:14:13.910\nIt's actually setting up\nOneDrive at this point and so\n\n277\n00:14:13.910 --> 00:14:15.980\nit's making the machine a little bit busy.\n\n278\n00:14:15.980 --> 00:14:17.010\nI wanna change my background.\n\n279\n00:14:18.280 --> 00:14:20.570\nLet's set that as the desktop background.\n&gt;&gt; Okay, so\n\n280\n00:14:20.570 --> 00:14:24.399\nis it gonna happen in real time?\n&gt;&gt; All right, well, let's find out.\n\n281\n00:14:24.399 --> 00:14:25.579\nProbably not because this machine is so\n\n282\n00:14:25.579 --> 00:14:26.206\ndarn busy right now\n&gt;&gt; [LAUGH].\n\n283\n00:14:26.206 --> 00:14:27.849\n&gt;&gt; So I've got OneDrive but\n\n284\n00:14:27.849 --> 00:14:32.153\nwhat will happen is in a few minutes\nit'll actually just change my\n\n285\n00:14:32.153 --> 00:14:33.530\nbackground.\n&gt;&gt; Wow, okay.\n\n286\n00:14:33.530 --> 00:14:36.840\n&gt;&gt; I can try to speed it up by logging off\n\n287\n00:14:36.840 --> 00:14:38.400\nand logging back on.\n\n288\n00:14:38.400 --> 00:14:39.890\nAnd I probably should.\n\n289\n00:14:39.890 --> 00:14:41.820\nLet me log off of this machine as well\n\n290\n00:14:42.820 --> 00:14:47.570\nto make sure it's synchronizing those\nsettings and storing them up in the Cloud.\n\n291\n00:14:47.570 --> 00:14:52.040\nSo, back to home two which is where\nI had that standard background.\n\n292\n00:14:52.040 --> 00:14:53.240\nLet me log back in.\n\n293\n00:14:57.270 --> 00:14:59.520\nAnd see if it has taken place yet.\n\n294\n00:14:59.520 --> 00:15:01.570\nFingers crossed drum roll please.\n\n295\n00:15:01.570 --> 00:15:02.860\nAnd nothing.\n\n296\n00:15:02.860 --> 00:15:05.810\nBut I promise you it will\neventually kick over.\n\n297\n00:15:05.810 --> 00:15:10.470\nIt's not a quite instantaneous again\nbecause this account was just created and\n\n298\n00:15:10.470 --> 00:15:11.997\nit's doing a lot of\nthings in the background.\n\n299\n00:15:11.997 --> 00:15:17.970\nBut I know like I do the same thing in my\nhome with my laptop and my home desktop.\n\n300\n00:15:17.970 --> 00:15:22.140\nI can change the background on one,\nwalk over to the home machine, and\n\n301\n00:15:22.140 --> 00:15:23.960\nit's already changed over there.\n\n302\n00:15:23.960 --> 00:15:25.640\nSo it does occur pretty fast, but\n\n303\n00:15:25.640 --> 00:15:29.668\nthis is just the initial account setup\nthat's probably making it take a little\n\n304\n00:15:29.668 --> 00:15:31.090\nwhile all right.\n&gt;&gt; And\n\n305\n00:15:31.090 --> 00:15:35.570\nthe background, maybe that's\nnot what everyone's cup of tea.\n\n306\n00:15:35.570 --> 00:15:37.060\nBut one of the things you had showed us,\n\n307\n00:15:37.060 --> 00:15:39.580\nMike, you showed us those\naccessibility options.\n\n308\n00:15:39.580 --> 00:15:43.600\nAnd think about how helpful that could be\nfor someone if you have someone assist and\n\n309\n00:15:43.600 --> 00:15:46.688\nhelp them getting their laptops\nconfigured a certain way, and\n\n310\n00:15:46.688 --> 00:15:49.650\nthey don't have the means\nto go through that again.\n\n311\n00:15:49.650 --> 00:15:53.180\nIndependently or something,\nand it's like updating and\n\n312\n00:15:53.180 --> 00:15:56.300\nit doesn't have that secondary machine,\ndoesn't have to be reconfigured.\n\n313\n00:15:56.300 --> 00:15:58.500\nIt's just pulling all those\nsettings from the other ones,\n\n314\n00:15:58.500 --> 00:16:01.338\nthat's really cool actually.\n&gt;&gt; Yeah absolutely, it's really nice,\n\n315\n00:16:01.338 --> 00:16:04.671\nif at all you're the one that needs those\naccessibility options where all those\n\n316\n00:16:04.671 --> 00:16:05.180\nsettings.\n\n317\n00:16:05.180 --> 00:16:07.179\nRight.\n&gt;&gt; Are gonna come through.\n\n318\n00:16:07.179 --> 00:16:10.173\nI'll just leave that.\n\n319\n00:16:10.173 --> 00:16:12.650\nAll right, I just realized\nthat was our old logo there.\n\n320\n00:16:13.850 --> 00:16:17.540\nAll right, so let's go flip over this\nother machine, see if it is still,\n\n321\n00:16:17.540 --> 00:16:18.270\nhasn't caught up.\n\n322\n00:16:18.270 --> 00:16:20.910\nWe'll come back and\ncheck on that in a minute and\n\n323\n00:16:20.910 --> 00:16:23.960\nfind out if that has updated those\nsettings across both machines.\n\n324\n00:16:23.960 --> 00:16:27.850\nThe most important thing is we see where\nto do that, where to go to Assign, or\n\n325\n00:16:27.850 --> 00:16:29.200\nassociate that Microsoft account.\n\n326\n00:16:29.200 --> 00:16:30.780\nIf you already have a local account,\n\n327\n00:16:30.780 --> 00:16:32.550\nyou can associate your\nMicrosoft account with it.\n\n328\n00:16:32.550 --> 00:16:36.670\nIf you don't, somebody can give you\npermission to log on using your Microsoft\n\n329\n00:16:36.670 --> 00:16:40.503\naccount, and then you can configure your\nsettings that you want to synchronize.\n\n330\n00:16:41.532 --> 00:16:44.260\nAll right, next,\nI want to show one more thing with this.\n\n331\n00:16:44.260 --> 00:16:49.470\nI'm going to remote into\nthe main controller or\n\n332\n00:16:49.470 --> 00:16:52.350\na domain controller, I guess.\n\n333\n00:16:57.408 --> 00:17:03.340\nSlowly but surely, and actually while\nI'm doing that, let's flip over here.\n\n334\n00:17:03.340 --> 00:17:06.510\nThis is a Windows 10 machine,\nthat's part of the domain.\n\n335\n00:17:06.510 --> 00:17:08.270\nI already have the settings opened up.\n\n336\n00:17:08.270 --> 00:17:14.810\nLet me close that so you guys can see\nStart Settings and then Accounts.\n\n337\n00:17:14.810 --> 00:17:20.010\nYour info, notice there are no options\nhere for associating a Microsoft\n\n338\n00:17:20.010 --> 00:17:23.930\naccount with my domain account.\n&gt;&gt; So this is what you were talking about\n\n339\n00:17:23.930 --> 00:17:26.160\nthe beginning of the show.\n&gt;&gt; Mm-hm exactly, and\n\n340\n00:17:26.160 --> 00:17:29.465\nI've played around with this a few\ntimes cuz I thought I was going crazy.\n\n341\n00:17:29.465 --> 00:17:30.480\n&gt;&gt; [LAUGH]\n\n342\n00:17:30.480 --> 00:17:33.760\n&gt;&gt; I can go to other people, and\n\n343\n00:17:33.760 --> 00:17:38.620\nadd someone else and I can add my\nmikerodrick@outlook.com to this machine.\n\n344\n00:17:38.620 --> 00:17:42.330\nEven though it's a domain machine, I can\ngive my Microsoft account permission to\n\n345\n00:17:42.330 --> 00:17:45.180\nlog in, but\nit won't have any access to the domain.\n\n346\n00:17:45.180 --> 00:17:47.640\nIt would just be like\nany other local account.\n\n347\n00:17:47.640 --> 00:17:51.050\nRemember, client machines can have\nboth domain based accounts and\n\n348\n00:17:51.050 --> 00:17:51.730\nlocal accounts.\n&gt;&gt; So\n\n349\n00:17:51.730 --> 00:17:54.090\nyou still see that segregation there.\n&gt;&gt; Yeah so\n\n350\n00:17:54.090 --> 00:17:57.490\nthis is the only way,\nyou cannot sync settings\n\n351\n00:17:57.490 --> 00:18:01.680\nfrom domain accounts with your Microsoft\naccounts at this point with Windows.\n\n352\n00:18:02.860 --> 00:18:07.130\nAll right, so let's see what is next, back\nover to that domain controller real quick,\n\n353\n00:18:07.130 --> 00:18:08.410\nif he's loaded up,\n\n354\n00:18:08.410 --> 00:18:14.000\nI did wanna show you the group policy just\nin case they would ask you on the exam.\n\n355\n00:18:14.000 --> 00:18:20.000\nSo, I am going to navigate,\nthis is again a Windows 10 exam, right?\n\n356\n00:18:20.000 --> 00:18:23.760\nBut they might ask you some questions,\nnot so much about how to do it, but\n\n357\n00:18:23.760 --> 00:18:24.405\nbeing familiar.\n\n358\n00:18:24.405 --> 00:18:27.390\nCuz if I have to troubleshoot,\nI have to understand what's going on.\n\n359\n00:18:27.390 --> 00:18:28.980\nAnd why isn't this working?\n\n360\n00:18:28.980 --> 00:18:33.440\nWhy can't I associate my Microsoft\naccount with my domain account?\n\n361\n00:18:33.440 --> 00:18:34.870\nNow, careful with that, right?\n\n362\n00:18:34.870 --> 00:18:40.140\nI just told you it seems like Microsoft is\nchanging it so you can't do that anymore.\n\n363\n00:18:40.140 --> 00:18:46.430\nBut the exam ref and other reference\nmaterial that you study says you can.\n\n364\n00:18:46.430 --> 00:18:49.940\nAnd they also point out how administrators\ncan block it if they want to.\n\n365\n00:18:49.940 --> 00:18:51.920\nSo, I wanna show you that option at least.\n\n366\n00:18:51.920 --> 00:18:56.713\nIf you go into computer configuration.\n\n367\n00:18:56.713 --> 00:18:59.940\nGosh where is that guy at?\n\n368\n00:18:59.940 --> 00:19:05.694\nPolicies, Windows settings,\n\n369\n00:19:05.694 --> 00:19:13.080\nsecurity settings, local policies.\n\n370\n00:19:13.080 --> 00:19:13.850\nThere it is.\n\n371\n00:19:15.340 --> 00:19:18.360\nSometimes remembering the path\nto these policies can be tricky.\n\n372\n00:19:18.360 --> 00:19:21.260\nThe computer configuration\npolicy is Windows settings,\n\n373\n00:19:21.260 --> 00:19:24.870\nsecurity settings,\nlocal policies, security options.\n\n374\n00:19:24.870 --> 00:19:27.780\nSo, buried way down in there,\nhere's the option right here.\n\n375\n00:19:27.780 --> 00:19:30.090\nBlock Microsoft accounts.\n\n376\n00:19:30.090 --> 00:19:32.800\nNow, if I double click on that\nyou'll see it's not defined.\n\n377\n00:19:32.800 --> 00:19:35.540\nSo at this point I'm not\nblocking Microsoft accounts yet\n\n378\n00:19:35.540 --> 00:19:38.590\nI cannot associate a Microsoft\naccount with my domain account.\n\n379\n00:19:38.590 --> 00:19:39.350\nThat's what I was saying.\n\n380\n00:19:39.350 --> 00:19:41.540\nMicrosoft seems to be changing things.\n\n381\n00:19:41.540 --> 00:19:45.610\nBut for the exam know if they ask you.\n&gt;&gt; Where would you go to block\n\n382\n00:19:45.610 --> 00:19:48.432\na user?\n&gt;&gt; Yes, cuz they'll give you a scenario\n\n383\n00:19:48.432 --> 00:19:52.080\nthey'll say you're an administrator for\na corporate environment.\n\n384\n00:19:52.080 --> 00:19:56.510\nYou're running 2016 servers and\nyou're running Windows 10 clients.\n\n385\n00:19:56.510 --> 00:20:00.290\nAnd your company doesn't want your\nusers using Microsoft accounts.\n\n386\n00:20:00.290 --> 00:20:01.600\nHow would you prevent that?\n\n387\n00:20:01.600 --> 00:20:02.630\nAnd you need to be able to tell and\n\n388\n00:20:02.630 --> 00:20:06.050\nthere's a group policy that you can set,\nBlock Microsoft Accounts.\n\n389\n00:20:06.050 --> 00:20:10.550\nI can turn this on and I can say,\nUsers Can't Add Microsoft Accounts.\n\n390\n00:20:10.550 --> 00:20:11.210\nRemember what I said,\n\n391\n00:20:11.210 --> 00:20:16.390\neven on domainic machine I could\ngive a Microsoft account access.\n\n392\n00:20:16.390 --> 00:20:19.230\nI can't associate it\nwith my domain account.\n\n393\n00:20:19.230 --> 00:20:22.840\nBut I can give it permission to\nlog on to that client machine.\n\n394\n00:20:22.840 --> 00:20:24.590\nThis option would prevent that.\n\n395\n00:20:24.590 --> 00:20:30.990\nI don't want somebody logging on to their\ndomain machine using Microsoft accounts.\n\n396\n00:20:30.990 --> 00:20:32.000\nSo I can choose that.\n\n397\n00:20:32.000 --> 00:20:35.660\nThey also have users can't add or\nlogin with Microsoft accounts and\n\n398\n00:20:35.660 --> 00:20:38.130\nagain, that would end up\nblocking that ability.\n\n399\n00:20:38.130 --> 00:20:41.090\nSo for the exam,\nunderstand that that option is there.\n\n400\n00:20:41.090 --> 00:20:41.922\nIn the real world,\n\n401\n00:20:41.922 --> 00:20:45.970\nunderstand that I can't associate a\nMicrosoft account with my domain account,\n\n402\n00:20:45.970 --> 00:20:49.950\nbut I can give it permission to log on and\nthat's how I would block it.\n\n403\n00:20:49.950 --> 00:20:51.230\nAll right, hopefully that's enough.\n\n404\n00:20:51.230 --> 00:20:55.920\nThat was a lot talking about a relatively\nsimple thing, but like I said,\n\n405\n00:20:55.920 --> 00:20:57.885\nit's changing and\nit gets a little bit confusing.\n\n406\n00:20:57.885 --> 00:21:00.030\nWanna make sure we're\nall on the same page.\n\n407\n00:21:00.030 --> 00:21:01.230\nAll right, next thing they call out.\n\n408\n00:21:01.230 --> 00:21:04.418\nInstall a managed software\nusing Microsoft Office 365.\n\n409\n00:21:04.418 --> 00:21:09.350\nSo that is what we are going to do next.\n\n410\n00:21:09.350 --> 00:21:16.240\nAnd Office 365, or Microsoft Office 365,\nis their cloud based Office solution.\n\n411\n00:21:16.240 --> 00:21:20.450\nAll right, it allows me to manage\na subscription based service as\n\n412\n00:21:20.450 --> 00:21:25.540\nan organization, I can provide Office\nthrough the cloud to my users.\n\n413\n00:21:25.540 --> 00:21:30.870\nBut I have to have licenses, and I have\nto assign those licenses to my users.\n\n414\n00:21:30.870 --> 00:21:35.946\nOnce I have assigned them a license,\nthey can log into portal.office.com or\n\n415\n00:21:35.946 --> 00:21:37.900\nmicrosoftonline.com.\n\n416\n00:21:37.900 --> 00:21:39.940\nAnd they can access\nthe Office applications, and\n\n417\n00:21:39.940 --> 00:21:43.820\nthey can run Cloud versions of\nthose Office applications, or\n\n418\n00:21:43.820 --> 00:21:46.960\nthey can install them\nlocally on their machine.\n\n419\n00:21:46.960 --> 00:21:49.410\nSo let's take a look at that.\n\n420\n00:21:50.680 --> 00:21:57.164\nI'm gonna navigate out\nto portal.office.com.\n\n421\n00:21:59.150 --> 00:22:01.110\nI'm gonna log in with my\n\n422\n00:22:05.220 --> 00:22:10.644\norganizations portal, office portal,\n\n423\n00:22:10.644 --> 00:22:15.620\nand from here you can actually\nsee that I already have\n\n424\n00:22:15.620 --> 00:22:19.710\na license assigned to my account and\nI show certain apps here.\n\n425\n00:22:19.710 --> 00:22:23.370\nAnd I can click on explore\nall of your apps and\n\n426\n00:22:23.370 --> 00:22:26.440\nI'll get to see all the different\napps that I can install.\n\n427\n00:22:27.630 --> 00:22:29.780\nExcel, Forms, Onedrive.\n\n428\n00:22:29.780 --> 00:22:33.980\nAnd what apps show up here really depends\non the subscription level that you have.\n\n429\n00:22:33.980 --> 00:22:37.040\nSo don't assume that you'll always\nsee these same applications.\n\n430\n00:22:37.040 --> 00:22:40.330\nDepends on what kind of license you\nhave purchased, or subscription you have\n\n431\n00:22:40.330 --> 00:22:44.290\npurchased from Microsoft.\n&gt;&gt; And sometimes even if the administrator\n\n432\n00:22:44.290 --> 00:22:47.570\ndoesn't want you to install certain apps,\nthey may only show you what\n\n433\n00:22:47.570 --> 00:22:49.670\nthey would allow to be installed, too.\n&gt;&gt; Yep, absolutely.\n\n434\n00:22:49.670 --> 00:22:53.730\nAll right, so if I click on admin,\nthis is gonna open up another page.\n\n435\n00:22:53.730 --> 00:22:57.540\nIt's my adming portal for Office 365.\n\n436\n00:22:57.540 --> 00:23:01.330\nAnd from here, I can go to Users and\nActive Users, and\n\n437\n00:23:01.330 --> 00:23:04.530\nI can see user accounts\nthat exist in my directory.\n\n438\n00:23:04.530 --> 00:23:06.910\nAnd I can see the status, right?\n\n439\n00:23:06.910 --> 00:23:08.820\nI can see some are unlicensed.\n\n440\n00:23:08.820 --> 00:23:11.677\nSome have this Enterprise Mobility and\n\n441\n00:23:11.677 --> 00:23:16.550\nSecurity as well as Office 365 for\nbusiness, right?\n\n442\n00:23:16.550 --> 00:23:19.660\nAnd again, this is more of\nthe server side of things, but\n\n443\n00:23:19.660 --> 00:23:23.960\non this exam, they might expect me to\nunderstand what could be going wrong.\n\n444\n00:23:23.960 --> 00:23:27.660\nWhy can't Daniel install any\nof the office applications,\n\n445\n00:23:27.660 --> 00:23:29.670\nbecause he's not licensed, right?\n\n446\n00:23:29.670 --> 00:23:31.420\nNow, I might not be able to do it myself.\n\n447\n00:23:31.420 --> 00:23:35.600\nI might have to get my office admin\nto go in there and give the license.\n\n448\n00:23:35.600 --> 00:23:39.200\nBut as a help desk person I would need\nto understand what the problem was and\n\n449\n00:23:39.200 --> 00:23:43.670\nhow to escalate it appropriately so\nthat the problem could get solved, right?\n\n450\n00:23:43.670 --> 00:23:49.240\nSo if I click on Dan's name, I come in\nhere and I look at product licenses.\n\n451\n00:23:49.240 --> 00:23:50.570\nAnd I can assign a license.\n\n452\n00:23:50.570 --> 00:23:54.100\nAnd actually, you know what before I\nassign the license, let's flip back over\n\n453\n00:23:54.100 --> 00:23:58.732\nhere to a client machine.\n&gt;&gt; Are we gonna check to see how\n\n454\n00:23:58.732 --> 00:24:00.247\nmany we have?\n&gt;&gt; Yeah, well,\n\n455\n00:24:00.247 --> 00:24:05.649\nlet's see what happens with a log-on and\nthey're not licensed, versus are, right?\n\n456\n00:24:05.649 --> 00:24:09.815\nSo, let me log off.\n\n457\n00:24:09.815 --> 00:24:13.630\nI don't know who I was logged on as,\nand now I'm gonna log on as Dan.\n\n458\n00:24:16.480 --> 00:24:18.640\nI'm logging into the main\non my domain machine.\n\n459\n00:24:18.640 --> 00:24:20.770\nI'm coming into work for the day.\n\n460\n00:24:20.770 --> 00:24:24.200\nI've been told or\nI want to install Office.\n\n461\n00:24:24.200 --> 00:24:27.190\nAnd my coworkers and\nI just go out to portal.office.com and\n\n462\n00:24:27.190 --> 00:24:28.426\nyou can install Office.\n\n463\n00:24:28.426 --> 00:24:33.661\nSo I'm just gonna launch up Edge,\nor whatever his browser choice is,\n\n464\n00:24:33.661 --> 00:24:37.135\nand we're gonna go to portal.office.com.\n\n465\n00:24:40.217 --> 00:24:41.984\nEdge is faster than both Chrome and\nFirefox.\n\n466\n00:24:41.984 --> 00:24:42.958\n&gt;&gt; That's just great.\n\n467\n00:24:42.958 --> 00:24:43.558\n&gt;&gt; Just in case.\n\n468\n00:24:43.558 --> 00:24:44.570\n&gt;&gt; [LAUGH].\n\n469\n00:24:47.120 --> 00:24:48.367\n&gt;&gt; All right, let's try a different\n\n470\n00:24:48.367 --> 00:24:49.140\npage here.\n&gt;&gt; [LAUGH]\n\n471\n00:24:49.140 --> 00:24:49.763\n&gt;&gt; You see how fast it is?\n\n472\n00:24:49.763 --> 00:24:50.589\n&gt;&gt; I was gonna say, are you\n\n473\n00:24:50.589 --> 00:24:52.569\ngonna try it in a different browser, Mike?\n&gt;&gt; [LAUGH]\n\n474\n00:24:52.569 --> 00:24:56.881\n&gt;&gt; [LAUGH] Just kidding.\n\n475\n00:24:56.881 --> 00:24:58.385\n&gt;&gt; Here we go, all right.\n\n476\n00:24:58.385 --> 00:25:01.065\nSo Dan says, cool, I'm gonna log in.\n\n477\n00:25:01.065 --> 00:25:08.622\nDan@itprotvdemo.com You'll\ntype in his password.\n\n478\n00:25:10.376 --> 00:25:13.320\nOf course Dan is a good guy,\nand he won't save his password.\n\n479\n00:25:13.320 --> 00:25:15.352\nHe doesn't mind typing it in now and\nagain.\n\n480\n00:25:19.323 --> 00:25:21.790\nRight, and here we go.\n\n481\n00:25:21.790 --> 00:25:23.764\nHe's logged in, but he doesn't see a lot.\n\n482\n00:25:23.764 --> 00:25:27.430\nI see Store, and that's it, right?\n\n483\n00:25:27.430 --> 00:25:31.440\nAnd if I go to Install Office Apps,\nI can see Install Software.\n\n484\n00:25:31.440 --> 00:25:36.200\nAnd if I click on that,\nI get a whole lot of nothing.\n\n485\n00:25:36.200 --> 00:25:37.510\nPlease contact your Admin.\n\n486\n00:25:37.510 --> 00:25:40.430\nLooks like they haven't assigned\nyou a license, all right.\n\n487\n00:25:40.430 --> 00:25:43.490\nSo, let's assign a license.\n\n488\n00:25:43.490 --> 00:25:49.280\nOver here, I'm gonna tell him that, or\ntell Office, that Dan logs in from the US.\n\n489\n00:25:49.280 --> 00:25:50.360\nAnd you need to choose a reason.\n\n490\n00:25:50.360 --> 00:25:52.100\nIt will actually tell you over here,\n\n491\n00:25:52.100 --> 00:25:55.090\nsome products are different\nbased on your region.\n\n492\n00:25:55.090 --> 00:25:59.252\nSo it helps to tell them what region\nyour user, normally logs in from.\n\n493\n00:25:59.252 --> 00:26:02.610\nHe might travel and go to Europe for\nmeetings and things like that.\n\n494\n00:26:02.610 --> 00:26:05.086\nBut primarily he logs in in the US.\n\n495\n00:26:05.086 --> 00:26:09.147\nAnd I'm gonna give him Office 365\nBusiness, and once I turn that on,\n\n496\n00:26:09.147 --> 00:26:11.889\nyou'll see I have a few\ndifferent options here.\n\n497\n00:26:11.889 --> 00:26:18.510\nOffice 365, OneDrive, Office Online,\nSway, Forms, but this will change, right?\n\n498\n00:26:18.510 --> 00:26:22.350\nDepending on the level of subscription\nthat your organization has,\n\n499\n00:26:22.350 --> 00:26:24.340\nyou might see different options here.\n\n500\n00:26:24.340 --> 00:26:27.260\nI'm gonna go ahead and give him\nthe enterprise mobility and security.\n\n501\n00:26:27.260 --> 00:26:30.990\nThat's really a different episode, but\nwhile I'm here I will as well do that.\n\n502\n00:26:30.990 --> 00:26:37.890\nAnd I will go ahead and click save,\nand then close, and I'll close that.\n\n503\n00:26:37.890 --> 00:26:43.311\nAll right, now I'll back up the Dan's\nmachine [SOUND] that is the wrong machine.\n\n504\n00:26:43.311 --> 00:26:45.390\nGo back over to Dan's machine.\n\n505\n00:26:45.390 --> 00:26:47.680\nAnd Daniel was gonna click back.\n\n506\n00:26:47.680 --> 00:26:49.463\nSo he called the hub desk and\nsaid, hey, what's the deal?\n\n507\n00:26:49.463 --> 00:26:51.280\nI don't have any Office applications.\n\n508\n00:26:51.280 --> 00:26:53.190\nWhy can't I Install Office?\n\n509\n00:26:53.190 --> 00:26:54.850\nAnd they escalate it up.\n\n510\n00:26:54.850 --> 00:26:57.740\nThe admin goes and assigns Dan a license.\n\n511\n00:26:57.740 --> 00:27:02.590\nSo Dan comes back in here, and\ngoes back out to Office 365.\n\n512\n00:27:02.590 --> 00:27:06.980\nAnd then he's going to and\nit doesn't look like it has kicked in yet.\n\n513\n00:27:06.980 --> 00:27:08.070\n&gt;&gt; That's what I was going to ask.\n\n514\n00:27:08.070 --> 00:27:12.110\nBecause sometimes I've dealt with Cloud\nservices and it does take a little minute.\n\n515\n00:27:12.110 --> 00:27:16.860\nSo if Dan's on the phone you might\nhave some awkward silence there.\n\n516\n00:27:16.860 --> 00:27:18.500\n&gt;&gt; Absolutely.\n\n517\n00:27:18.500 --> 00:27:22.763\nLet's try relaunching that browser and\nthen going back in,\n\n518\n00:27:22.763 --> 00:27:24.608\nhave it reauthenticate.\n\n519\n00:27:24.608 --> 00:27:25.984\nGo back to portal.office.com.\n\n520\n00:27:28.183 --> 00:27:33.080\nEnter in my password, and\nthat's not the right password for Daniel.\n\n521\n00:27:34.410 --> 00:27:35.548\nToo many different accounts in my head.\n&gt;&gt; As you said,\n\n522\n00:27:35.548 --> 00:27:37.034\nhow do you remember all of this?\n&gt;&gt; I do.\n\n523\n00:27:37.034 --> 00:27:37.684\n&gt;&gt; [LAUGH]\n\n524\n00:27:37.684 --> 00:27:39.037\n&gt;&gt; And they're not all the same,\n\n525\n00:27:39.037 --> 00:27:39.730\nI promise.\n\n526\n00:27:39.730 --> 00:27:41.355\nOkay, some of them are.\n\n527\n00:27:41.355 --> 00:27:46.856\nAnd it doesn't look like it has\nkicked in just yet, no, it has not.\n\n528\n00:27:46.856 --> 00:27:50.202\nAll right, probably what we will have to\ndo, I know we are getting short of time.\n\n529\n00:27:50.202 --> 00:27:53.270\nAnyway, Cherokee we'll give\nthat a few minutes to bake but\n\n530\n00:27:53.270 --> 00:27:58.290\nit is a good example if you guys\nare working with this troubleshooting and\n\n531\n00:27:58.290 --> 00:28:01.100\nyour admin calls and says,\nyep, I've updated it.\n\n532\n00:28:01.100 --> 00:28:02.730\nDaniel now has a license.\n\n533\n00:28:02.730 --> 00:28:06.060\nSo you tell Daniel to log in and try it\nout, and he says, nope, it hasn't changed.\n\n534\n00:28:06.060 --> 00:28:09.110\nMicrosoft will tell you,\ngive it ten minutes and come back.\n\n535\n00:28:09.110 --> 00:28:13.165\nCuz it takes a minute for everything to\nreplicate across there data centers for\n\n536\n00:28:13.165 --> 00:28:14.415\nall of that to kick in.\n\n537\n00:28:14.415 --> 00:28:17.845\nSo we will stop here, and\ncome back maybe with another part?\n\n538\n00:28:17.845 --> 00:28:19.440\n&gt;&gt; Yeah, that's a great actual example.\n\n539\n00:28:19.440 --> 00:28:22.445\nBecause in real life we're not just\n\n540\n00:28:22.445 --> 00:28:24.895\nhaphazardly handing out\nall those licenses.\n\n541\n00:28:24.895 --> 00:28:26.435\nThat you guys really may encounter this.\n\n542\n00:28:26.435 --> 00:28:28.945\nGreat demo for that Mike.\n\n543\n00:28:28.945 --> 00:28:30.145\nAnd thank you so much for joining us.\n\n544\n00:28:30.145 --> 00:28:31.405\nBut for now let's sign out.\n\n545\n00:28:31.405 --> 00:28:33.665\nI've been your host, Cherokee Boose.\n&gt;&gt; And I'm Mike Rodrick.\n\n546\n00:28:33.665 --> 00:28:36.762\n&gt;&gt; See you next time here at ITVProTV.\n\n547\n00:28:36.762 --> 00:28:42.658\n[MUSIC]\n\n548\n00:28:42.658 --> 00:28:45.762\n&gt;&gt; Thank you for watching ITPro.TV.\n\n",
+          "url": "support-microsoft-storecloud-apps",
+          "vimeoId": "268999879"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at installing and managing software using Microsoft Office 365. They explore the Microsoft Store, and discuss the Microsoft Store for Business and for Education. They also look at manually updating Microsoft Store apps.",
+          "length": "1374",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-2-support_microsoft_store_and_cloud_apps_pt2-050918-PGM.00_22_40_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-2-support_microsoft_store_and_cloud_apps_pt2-050918-PGM.00_22_40_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-2-support_microsoft_store_and_cloud_apps_pt2-050918-PGM.00_22_40_20.Still001-sm.jpg",
+          "title": "Support Microsoft Store and Cloud Apps Part 2",
+          "transcript": "",
+          "url": "support-microsoft-storecloud-apps-pt2",
+          "vimeoId": "268999400"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at sideloading LOB apps using PowerShell and DISM. They demonstrate how to enable sideloading, and then sideload an app for an individual, then all users on a system.",
+          "length": "1949",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-3-support_microsoft_store_and_cloud_apps_pt3-050918-PGM.00_32_48_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-3-support_microsoft_store_and_cloud_apps_pt3-050918-PGM.00_32_48_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-3-support_microsoft_store_and_cloud_apps_pt3-050918-PGM.00_32_48_23.Still001-sm.jpg",
+          "title": "Support Microsoft Store and Cloud Apps Part 3",
+          "transcript": "",
+          "url": "support-microsoft-storecloud-apps-pt3",
+          "vimeoId": "269055139"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at deploying apps using Microsoft Intune. They sideload a line-of-business app and deep link a Microsoft Store app. Then they use the Company Portal to install the apps.",
+          "length": "1446",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-4-support_microsoft_store_and_cloud_apps_pt4-050918-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-4-support_microsoft_store_and_cloud_apps_pt4-050918-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-1-4-support_microsoft_store_and_cloud_apps_pt4-050918-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Support Microsoft Store and Cloud Apps Part 4",
+          "transcript": "",
+          "url": "support-microsoft-storecloud-apps4",
+          "vimeoId": "269212477"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at supporting authentication and authorization. They discuss the concept of multi-factor authentication. Then they demonstrate working with certificates, installing them and how to add a trusted certificate to the appropriate certificate store in Windows 10.",
+          "length": "1444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-1-support_authenication_and_authorization-050418-PGM.00_24_16_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-1-support_authenication_and_authorization-050418-PGM.00_24_16_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-1-support_authenication_and_authorization-050418-PGM.00_24_16_04.Still001-sm.jpg",
+          "title": "Support Authentication and Authorization",
+          "transcript": "",
+          "url": "support-authenticationauthorization-70697",
+          "vimeoId": "268424535"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at authentication and authorization. They look at biometric options in Windows 10, including using a fingerprint scanner or facial recognition to log in.",
+          "length": "1591",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-2-support_authenication_and_authorization_pt2-050418-PGM.00_28_36_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-2-support_authenication_and_authorization_pt2-050418-PGM.00_28_36_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-2-support_authenication_and_authorization_pt2-050418-PGM.00_28_36_14.Still001-sm.jpg",
+          "title": "Support Authentication and Authorization Pt2",
+          "transcript": "",
+          "url": "support-authenticationauthorization-pt2-70697",
+          "vimeoId": "268423960"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at authentication and authorization. They demonstrate creating and using and virtual smart cards. They also look at configuring Homegroups.",
+          "length": "1762",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-3-support_authenication_and_authorization_pt3-050718-PGM.00_29_09_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-3-support_authenication_and_authorization_pt3-050718-PGM.00_29_09_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-3-support_authenication_and_authorization_pt3-050718-PGM.00_29_09_28.Still001-sm.jpg",
+          "title": "Support Authentication and Authorization Pt3",
+          "transcript": "",
+          "url": "support-authenticationauthorization-pt3-70697",
+          "vimeoId": "268613428"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at authentication and authorization. They demonstrate creating and using and virtual smart cards. They also look at configuring Homegroups, as well as differentiating between workgroup and domain authentication.",
+          "length": "1540",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-4-support_authenication_and_authorization_pt4-050718-PGM.00_25_26_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-4-support_authenication_and_authorization_pt4-050718-PGM.00_25_26_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-4-support_authenication_and_authorization_pt4-050718-PGM.00_25_26_29.Still001-sm.jpg",
+          "title": "Support Authentication and Authorization Pt4",
+          "transcript": "",
+          "url": "support-authenticationauthorization-pt4-70697",
+          "vimeoId": "268613825"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike finish their discussion about authentication and authorization. They discuss secure channel and credential caching. They look at account policies used to secure user accounts. They also demonstrate using Credential Manager.",
+          "length": "2151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-5-support_authenication_and_authorization_pt5-061218-PGM.00_35_38_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-5-support_authenication_and_authorization_pt5-061218-PGM.00_35_38_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-1-2-5-support_authenication_and_authorization_pt5-061218-PGM.00_35_38_00.Still001-sm.jpg",
+          "title": "Support Authentication and Authorization Pt5",
+          "transcript": "",
+          "url": "support-authenticationauthorization-pt5",
+          "vimeoId": "275137174"
+        }
+      ],
+      "title": "Manage Identity"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Cherokee and Mike begin their look at migrating user data. They demonstrate how to begin the process using the User State Migration Tool (USMT). They explore the default configuration files, and demonstrate generating and modifying a custom configuration file.",
+          "length": "2106",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-1-migrate_and_configure_user_data-041618-PGM.00_34_53_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-1-migrate_and_configure_user_data-041618-PGM.00_34_53_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-1-migrate_and_configure_user_data-041618-PGM.00_34_53_02.Still001-sm.jpg",
+          "title": "Migrate and Configure User Data",
+          "transcript": "",
+          "url": "migrateconfigure-user-data-706972018",
+          "vimeoId": "265380108"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike demonstrate using scanstate to collect the user data to be migrated, and several switches that can be used with scanstate to control which profiles are migrated. Then they use loadstate to pull the migrated data to the destination machine.",
+          "length": "1430",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-2-migrate_and_configure_user_data_pt2-041618-PGM.01_18_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-2-migrate_and_configure_user_data_pt2-041618-PGM.01_18_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-2-migrate_and_configure_user_data_pt2-041618-PGM.01_18_11_22.Still001-sm.jpg",
+          "title": "Migrate and Configure User Data Part 2",
+          "transcript": "",
+          "url": "migrateconfigure-user-data2-706972018",
+          "vimeoId": "265380390"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with profiles in Windows 10. They work with local profiles, discussing the components that make up a profile. Then they look at configuring folder location, and using Group Policy to redirect folders to a network location.",
+          "length": "1798",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-3-migrate_and_configure_user_data_pt3-050618-PGM.00_34_50_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-3-migrate_and_configure_user_data_pt3-050618-PGM.00_34_50_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-3-migrate_and_configure_user_data_pt3-050618-PGM.00_34_50_00.Still001-sm.jpg",
+          "title": "Migrate and Configure User Data Part 3",
+          "transcript": "",
+          "url": "migrateconfigure-user-data3-2018",
+          "vimeoId": "273913516"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue to work with profiles. This time they demonstrate how to configure roaming profiles. They modify a user account in Active Directory, and use PowerShell to modify a user account.",
+          "length": "2155",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-4-migrate_and_configure_user_data_pt4-050618-PGM.00_43_15_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-4-migrate_and_configure_user_data_pt4-050618-PGM.00_43_15_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-1-4-migrate_and_configure_user_data_pt4-050618-PGM.00_43_15_24.Still001-sm.jpg",
+          "title": "Migrate and Configure User Data Part 4",
+          "transcript": "",
+          "url": "migrateconfigure-user-data4-2018",
+          "vimeoId": "273914907"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike begin their look at working with Hyper-V in Windows 10. They begin by installing Hyper-V, after discussing the various ways to start the installation. Then they look at the different settings available to configure Hyper-V.",
+          "length": "1601",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-1-configure_hyper_v-031318-PGM-KiPro.00_26_26_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-1-configure_hyper_v-031318-PGM-KiPro.00_26_26_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-1-configure_hyper_v-031318-PGM-KiPro.00_26_26_04.Still001-sm.jpg",
+          "title": "Configure Hyper-V",
+          "transcript": "",
+          "url": "configure-hyperv-2018",
+          "vimeoId": "260241523"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike discuss the options available when creating virtual hard drives. They discuss the different formats, VHD and VHDX, as well as the different types, fixed, dynamic and differencing.",
+          "length": "1770",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-2-configure_hyper_v_pt2-031318-PGM-HDMI.00_29_17_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-2-configure_hyper_v_pt2-031318-PGM-HDMI.00_29_17_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-2-configure_hyper_v_pt2-031318-PGM-HDMI.00_29_17_23.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 2",
+          "transcript": "",
+          "url": "configure-hyperv2-2018",
+          "vimeoId": "260241244"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue working with Hyper-V. They demonstrate creating the different types of virtual hard drives using the GUI and PowerShell.",
+          "length": "1652",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-3-configure_hyper_v_pt3-031318.00_27_20_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-3-configure_hyper_v_pt3-031318.00_27_20_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-3-configure_hyper_v_pt3-031318.00_27_20_02.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 3",
+          "transcript": "",
+          "url": "configure-hyperv3-2018",
+          "vimeoId": "260241782"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue working with Hyper-V. They demonstrate creating a virtual machine using the new virtual machine wizard in Hyper-V.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-4-configure_hyper_v_pt4-031518-PGM-HDMI.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-4-configure_hyper_v_pt4-031518-PGM-HDMI.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-4-configure_hyper_v_pt4-031518-PGM-HDMI.00_00_11_25.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 4",
+          "transcript": "",
+          "url": "configure-hyperv4-2018",
+          "vimeoId": "260495441"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue working with Hyper-V. They demonstrate creating new virtual machines, this time using fixed drives and differencing drives.",
+          "length": "1515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-5-configure_hyper_v_pt5-031518-PGM-HDMI.00_30_43_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-5-configure_hyper_v_pt5-031518-PGM-HDMI.00_30_43_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-5-configure_hyper_v_pt5-031518-PGM-HDMI.00_30_43_21.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 5",
+          "transcript": "",
+          "url": "configure-hyperv5-2018",
+          "vimeoId": "260495272"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue to work with Hyper-V, focusing on networking. They explain the different types of virtual switches available in Hyper-V, and demonstrate how to create them, and connect virtual machines to them.",
+          "length": "2154",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-6-configure_hyper_v_pt6-031518-PGM.00_35_43_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-6-configure_hyper_v_pt6-031518-PGM.00_35_43_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-6-configure_hyper_v_pt6-031518-PGM.00_35_43_13.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 6",
+          "transcript": "",
+          "url": "configure-hyperv6",
+          "vimeoId": "260495626"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike wrap up their look at Hyper-V. They start by looking at integration services, what they are and how to install them. Then they demonstrate working with checkpoints, differentiating between production checkpoints and standard checkpoints.",
+          "length": "2266",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-7-configure_hyperv_pt7-060818.00_38_59_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-7-configure_hyperv_pt7-060818.00_38_59_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-2-7-configure_hyperv_pt7-060818.00_38_59_15.Still001-sm.jpg",
+          "title": "Configure Hyper-V Part 7",
+          "transcript": "",
+          "url": "configure-hyperv7",
+          "vimeoId": "274715763"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with mobility options in Windows 10. They demonstrate how to configure and use offline files.",
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-1-configure_mobility_options-031918-PGM.00_32_48_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-1-configure_mobility_options-031918-PGM.00_32_48_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-1-configure_mobility_options-031918-PGM.00_32_48_12.Still001-sm.jpg",
+          "title": "Configure Mobility Options",
+          "transcript": "",
+          "url": "configure-mobility-options-2018",
+          "vimeoId": "261123144"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with mobility options in Windows 10. They work with power options, creating power plans on the local machine, and using Group Policy.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-2-configure_mobility_options_pt2-032018-PGM.00_44_03_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-2-configure_mobility_options_pt2-032018-PGM.00_44_03_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-2-configure_mobility_options_pt2-032018-PGM.00_44_03_22.Still001-sm.jpg",
+          "title": "Configure Mobility Options Part 2",
+          "transcript": "",
+          "url": "configure-mobility-options2-2018",
+          "vimeoId": "261123880"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with mobility options in Windows 10. They demonstrate how to configure and use Windows To Go.",
+          "length": "2126",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-3-configure_mobility_options_pt3-032118-PGM.00_35_12_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-3-configure_mobility_options_pt3-032118-PGM.00_35_12_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-3-configure_mobility_options_pt3-032118-PGM.00_35_12_10.Still001-sm.jpg",
+          "title": "Configure Mobility Options Part 3",
+          "transcript": "",
+          "url": "configure-mobility-options3-2018",
+          "vimeoId": "261357450"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with mobility options in Windows 10. They discuss sync options and the Windows Mobility Center.",
+          "length": "1315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-4-configure_mobility_options_pt4-032118-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-4-configure_mobility_options_pt4-032118-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-3-4-configure_mobility_options_pt4-032118-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Configure Mobility Options Part 4",
+          "transcript": "",
+          "url": "configure-mobility-options4",
+          "vimeoId": "261357098"
+        },
+        {
+          "description": "In this series, we will explore the use of community code, or code written by others that to solve a particular problem or provide a particular functionality. We will explore how you can obtain these created solutions to increase your problem solving speed. In order to do so, we will explore the use of tools like pip, pipenv, and conda which are solutions to the fetching and managing of outside dependency requirements. If you are looking to solve bigger and bigger problems or just explore something of interest, then you will need help from others. Want to learn more? Join us as we dive in to the wonderful world of Python!",
+          "length": "1607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-1-configure-mobile-device-security-070918-PGM.00_54_48_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-1-configure-mobile-device-security-070918-PGM.00_54_48_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-1-configure-mobile-device-security-070918-PGM.00_54_48_29.Still001-sm.jpg",
+          "title": "Configure Mobile Device Security",
+          "transcript": "",
+          "url": "configure-mobile-device-security",
+          "vimeoId": "279318732"
+        }
+      ],
+      "title": "Plan Desktop and Device Deployment"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike begin their conversation about supporting mobile devices. They start by connecting a device to Microsoft Azure. Then they demonstrate working with Microsoft Intune compliance policies.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-1-support_mobile_devices-051118-PGM.00_32_07_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-1-support_mobile_devices-051118-PGM.00_32_07_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-1-support_mobile_devices-051118-PGM.00_32_07_02.Still001-sm.jpg",
+          "title": "Support Mobile Devices",
+          "transcript": "",
+          "url": "support-mobile-devices-70697-2018",
+          "vimeoId": "269671670"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with Microsoft Intune configuration policies. Then they demonstrate setting up Work Folders and connecting a corporate device.",
+          "length": "2097",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-2-support_mobile_devices_pt_2-051118-PGM.00_34_44_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-2-support_mobile_devices_pt_2-051118-PGM.00_34_44_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-2-support_mobile_devices_pt_2-051118-PGM.00_34_44_26.Still001-sm.jpg",
+          "title": "Support Mobile Devices Part 2",
+          "transcript": "",
+          "url": "support-mobile-devices2-70697",
+          "vimeoId": "269672110"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue to look at Work Folders. They connect a personal laptop to Work Folders. Then they demonstrate configuring offline files.",
+          "length": "2079",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-3-support_mobile_devices_pt_3-051118-PGM.00_34_26_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-3-support_mobile_devices_pt_3-051118-PGM.00_34_26_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-3-support_mobile_devices_pt_3-051118-PGM.00_34_26_26.Still001-sm.jpg",
+          "title": "Support Mobile Devices Part 3",
+          "transcript": "",
+          "url": "support-mobile-devices3",
+          "vimeoId": "269671195"
+        }
+      ],
+      "title": "Plan and Implement a Microsoft Intune Device Management Solution"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike look at configuring IP settings. They configure an IP address statically and through DHCP. They examine the advanced settings for DNS.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-1-configure_ip_settings-022618-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-1-configure_ip_settings-022618-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-1-configure_ip_settings-022618-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "Configure IP Settings",
+          "transcript": "",
+          "url": "configure-ip-settings-706972018",
+          "vimeoId": "257965232"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at configuring IP settings. They examine the advanced settings for DNS. They also look at configuring network location.",
+          "length": "2112",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-2-configure_ip_settings_pt2-022618-PGM.00_00_11_23.Still003.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-2-configure_ip_settings_pt2-022618-PGM.00_00_11_23.Still003-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-1-2-configure_ip_settings_pt2-022618-PGM.00_00_11_23.Still003-sm.jpg",
+          "title": "Configure IP Settings Part 2",
+          "transcript": "",
+          "url": "configure-ip-settings2-706972018",
+          "vimeoId": "257966688"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike configure network settings. They look at connecting to wireless networks and managing preferred wireless networks. They also discuss location-aware printing, and how Windows 10 implements this feature.",
+          "length": "1856",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-2-1-configure_network_settings-022618-PGM.00_30_43_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-2-1-configure_network_settings-022618-PGM.00_30_43_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-2-1-configure_network_settings-022618-PGM.00_30_43_19.Still001-sm.jpg",
+          "title": "Configure Network Settings",
+          "transcript": "",
+          "url": "configure-network-settings-706972018",
+          "vimeoId": "257963623"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike begin their discussion on configuring network security. They demonstrate configuring firewall settings using both the Windows Firewall console, and the Windows Firewall with Advanced Security console.",
+          "length": "2057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-1-configure_network_security-022818-PGM.00_38_01_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-1-configure_network_security-022818-PGM.00_38_01_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-1-configure_network_security-022818-PGM.00_38_01_11.Still001-sm.jpg",
+          "title": "Configure Network Security",
+          "transcript": "",
+          "url": "configure-network-security-706972018",
+          "vimeoId": "258320733"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their discussion on configuring network security. They demonstrate configuring connection security rules and look at the options available.",
+          "length": "1672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-2-configure_network_security_pt2-022818-PGM.00_34_45_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-2-configure_network_security_pt2-022818-PGM.00_34_45_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-2-configure_network_security_pt2-022818-PGM.00_34_45_02.Still001-sm.jpg",
+          "title": "Configure Network Security Part 2",
+          "transcript": "",
+          "url": "configure-network-security2-706972018",
+          "vimeoId": "258320401"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their discussion on configuring network security. They also look at configuring authentication exemptions as well as configuring network discovery.",
+          "length": "1672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-3-configure_network_security_pt3-022818-PGM.00_27_38_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-3-configure_network_security_pt3-022818-PGM.00_27_38_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-4-3-3-configure_network_security_pt3-022818-PGM.00_27_38_22.Still001-sm.jpg",
+          "title": "Configure Network Security Part 3",
+          "transcript": "",
+          "url": "configure-network-security3-706972018",
+          "vimeoId": "258321112"
+        }
+      ],
+      "title": "Configure networking"
+    },
+    {
+      "episodes": [],
+      "title": "Configure storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike configure shared resources. They discuss applying share permissions and how they impact access. Then they configure public folder sharing.",
+          "length": "1386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-1-configure_shared_resources-032318-PGM.00_22_52_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-1-configure_shared_resources-032318-PGM.00_22_52_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-1-configure_shared_resources-032318-PGM.00_22_52_17.Still001-sm.jpg",
+          "title": "Configure Shared Resources",
+          "transcript": "",
+          "url": "configure-shared-resources-2018",
+          "vimeoId": "261884756"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at shared resources. They demonstrate both the basic sharing wizard, and the advanced sharing method.",
+          "length": "1856",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-2-configure_shared_resources_pt2-032318-PGM.00_34_38_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-2-configure_shared_resources_pt2-032318-PGM.00_34_38_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-2-configure_shared_resources_pt2-032318-PGM.00_34_38_21.Still001-sm.jpg",
+          "title": "Configure Shared Resources Part 2",
+          "transcript": "",
+          "url": "configure-shared-resources2-2018",
+          "vimeoId": "261839202"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at shared resources. They start by creating a share using PowerShell. Then they demonstrate configuring a Homegroup and libraries.",
+          "length": "2145",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-3-configure_shared_resources_pt3_RESHOOT-033018-PGM.00_36_58_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-3-configure_shared_resources_pt3_RESHOOT-033018-PGM.00_36_58_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-3-configure_shared_resources_pt3_RESHOOT-033018-PGM.00_36_58_29.Still001-sm.jpg",
+          "title": "Configure Shared Resources Part 3",
+          "transcript": "",
+          "url": "configure-shared-resources3-7069720018",
+          "vimeoId": "262825745"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at shared resources. They start by configuring shared printers. Then they demonstrate configuring OneDrive.",
+          "length": "1986",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-4-configure_shared_resources_pt4-033018.00_32_53_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-4-configure_shared_resources_pt4-033018.00_32_53_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-1-4-configure_shared_resources_pt4-033018.00_32_53_17.Still001-sm.jpg",
+          "title": "Configure Shared Resources Part 4",
+          "transcript": "",
+          "url": "configure-shared-resources4",
+          "vimeoId": "262825352"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike work with Encrypting File System. They explain how EFS works, and demonstrate encrypting files and folders.",
+          "length": "1495",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-1-configure_file_and_folder_access-040218-PGM.00_33_35_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-1-configure_file_and_folder_access-040218-PGM.00_33_35_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-1-configure_file_and_folder_access-040218-PGM.00_33_35_28.Still001-sm.jpg",
+          "title": "Configure File and Folder Access",
+          "transcript": "",
+          "url": "configure-filefolder-access-706972018",
+          "vimeoId": "263048080"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at EFS. They demonstrate how to configure a Data Recovery Agent, and use the recovery agent to recover an encrypted file.",
+          "length": "1428",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-2-configure_file_and_folder_access_pt_2-040218-PGM.00_24_26_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-2-configure_file_and_folder_access_pt_2-040218-PGM.00_24_26_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-2-configure_file_and_folder_access_pt_2-040218-PGM.00_24_26_02.Still001-sm.jpg",
+          "title": "Configure File and Folder Access Part 2",
+          "transcript": "",
+          "url": "configure-filefolder-access2-706972018",
+          "vimeoId": "263046228"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike look at configuring NTFS permissions. They describe the permissions available, and how to assign the permissions to users and groups. They also look at the difference between explicit permissions and inherited permissions.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-3-configure_file_and_folder_access_pt_3-040318-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-3-configure_file_and_folder_access_pt_3-040318-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-3-configure_file_and_folder_access_pt_3-040318-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Configure File and Folder Access Part 3",
+          "transcript": "",
+          "url": "configure-filefolder-access3-706972018",
+          "vimeoId": "263380853"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike demonstrate how to make changes to inherited permissions. They also explore using the effective access tab to verify and troubleshoot NTFS permissions.",
+          "length": "1825",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-4-configure_file_and_folder_access_pt_4-040318-PGM.00_31_33_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-4-configure_file_and_folder_access_pt_4-040318-PGM.00_31_33_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-2-4-configure_file_and_folder_access_pt_4-040318-PGM.00_31_33_11.Still001-sm.jpg",
+          "title": "Configure File and Folder Access Part 4",
+          "transcript": "",
+          "url": "configure-filefolder-access4-706972018",
+          "vimeoId": "263167662"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike take a look at configuring NTFS disk quotas. Then they demonstrate how to configure file access auditing.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-1-configure_file_access_auditing-040418-PGM.00_33_22_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-1-configure_file_access_auditing-040418-PGM.00_33_22_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-1-configure_file_access_auditing-040418-PGM.00_33_22_26.Still001-sm.jpg",
+          "title": "Configure File Access Auditing",
+          "transcript": "",
+          "url": "configure-file-access-auditing-706972018",
+          "vimeoId": "263379733"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at configuring file access auditing. They complete the configuration process and check the results.",
+          "length": "1064",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-2-configure_file_access_auditing_pt2-040418-PGM.00_18_45_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-2-configure_file_access_auditing_pt2-040418-PGM.00_18_45_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-6-3-2-configure_file_access_auditing_pt2-040418-PGM.00_18_45_18.Still001-sm.jpg",
+          "title": "Configure File Access Auditing Part 2",
+          "transcript": "",
+          "url": "configure-file-access-auditing2-706972018",
+          "vimeoId": "263380414"
+        }
+      ],
+      "title": "Manage data access and protection"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike begin their look at configuring remote connections. They demonstrate configuring a system to accept remote desktop connections and how to make the connection.",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-1-configure_remote_connections-041818-PGM.00_29_23_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-1-configure_remote_connections-041818-PGM.00_29_23_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-1-configure_remote_connections-041818-PGM.00_29_23_09.Still001-sm.jpg",
+          "title": "Configure Remote Connections",
+          "transcript": "",
+          "url": "configure-remote-connections-706972018",
+          "vimeoId": "265636267"
+        },
+        {
+          "description": "In this episode, Zach and Mike begin their look at configuring remote connections. They start with remote desktop. They demonstrate configuring a system to accept remote desktop connections and some new features available through RDP. They also take a look at Remote Desktop Connection Manager.",
+          "length": "1786",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-2-configure_remote_connections_pt_2-041818-PGM.00_29_33_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-2-configure_remote_connections_pt_2-041818-PGM.00_29_33_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-2-configure_remote_connections_pt_2-041818-PGM.00_29_33_05.Still001-sm.jpg",
+          "title": "Configure Remote Connections Part 2",
+          "transcript": "",
+          "url": "configure-remote-connections2-706972018",
+          "vimeoId": "265635717"
+        },
+        {
+          "description": "In this episode, Zach and Mike begin their look at configuring remote connections. They start with remote desktop. They demonstrate configuring a system to accept remote desktop connections and some new features available through RDP. They also take a look at Remote Desktop Connection Manager.",
+          "length": "1289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-3-configure_remote_connections_pt_3-041818-PGM.00_21_15_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-3-configure_remote_connections_pt_3-041818-PGM.00_21_15_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-3-configure_remote_connections_pt_3-041818-PGM.00_21_15_12.Still001-sm.jpg",
+          "title": "Configure Remote Connections Part 3",
+          "transcript": "",
+          "url": "configure-remote-connections3-706972018",
+          "vimeoId": "265636689"
+        },
+        {
+          "description": "In this episode, Zach and Mike begin their look at configuring remote connections. They start with remote desktop. They demonstrate configuring a system to accept remote desktop connections and some new features available through RDP. They also take a look at Remote Desktop Connection Manager.",
+          "length": "2227",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-4-configure_remote_connections_pt4-042318-PGM.00_01_13_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-4-configure_remote_connections_pt4-042318-PGM.00_01_13_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-1-4-configure_remote_connections_pt4-042318-PGM.00_01_13_08.Still001-sm.jpg",
+          "title": "Configure Remote Connections Part 4 2018",
+          "transcript": "",
+          "url": "configure-remote-connections4-2018",
+          "vimeoId": "266340550"
+        },
+        {
+          "description": "In this episode, Zach and Mike continue their discussion on configuring remote connections. They look at the various VPN protocols supported by Windows 10. They demonstrate how to configure a VPN connection to use a specific protocol, and look at the available options.",
+          "length": "1883",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-1-configure_remote_access-042018.00_31_12_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-1-configure_remote_access-042018.00_31_12_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-1-configure_remote_access-042018.00_31_12_05.Still001-sm.jpg",
+          "title": "Configure Remote Access",
+          "transcript": "",
+          "url": "configure-remote-access-2018",
+          "vimeoId": "266340046"
+        },
+        {
+          "description": "In this episode, Zach and Mike finish their look at configuring remote connections. They discuss some of the new VPN features introduced in Windows 10. They also look at BranchCache and DirectAccess.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-2-configure_remote_access_pt_2-042018.00_28_46_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-2-configure_remote_access_pt_2-042018.00_28_46_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-7-2-2-configure_remote_access_pt_2-042018.00_28_46_02.Still001-sm.jpg",
+          "title": "Configure Remote Access Part 2",
+          "transcript": "",
+          "url": "configure-remote-access2-2018",
+          "vimeoId": "266339586"
+        }
+      ],
+      "title": "Manage remote access"
+    },
+    {
+      "episodes": [],
+      "title": "Manage apps"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Cherokee and Mike configure system recovery. They begin  \nby creating a recovery drive. Then they look at how to configure and use system  \nrestore points.",
+          "length": "2074",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-1-configure_system_recovery-041018.00_36_20_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-1-configure_system_recovery-041018.00_36_20_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-1-configure_system_recovery-041018.00_36_20_27.Still001-sm.jpg",
+          "title": "Configure System Recovery",
+          "transcript": "",
+          "url": "configure-system-recovery-706972018",
+          "vimeoId": "264309657"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue their look at configuring system recovery. They look at using PowerShell to work with restore points. Then they explore Windows 10 advanced startup options.",
+          "length": "1576",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-2-configure_system_recovery_pt_2-041018-PGM.00_54_26_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-2-configure_system_recovery_pt_2-041018-PGM.00_54_26_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-2-configure_system_recovery_pt_2-041018-PGM.00_54_26_17.Still001-sm.jpg",
+          "title": "Configure System Recovery Part 2",
+          "transcript": "",
+          "url": "configure-system-recovery2-706972018",
+          "vimeoId": "264309411"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike wrap up their discussion on configuring",
+          "length": "2243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-3-configure_system_recovery_pt_3-041218.00_37_11_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-3-configure_system_recovery_pt_3-041218.00_37_11_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-1-3-configure_system_recovery_pt_3-041218.00_37_11_15.Still001-sm.jpg",
+          "title": "Configure System Recovery Part 3",
+          "transcript": "",
+          "url": "configure-system-recovery3-706972018",
+          "vimeoId": "264622011"
+        },
+        {
+          "description": "In this episode, Zach and Mike configure file recovery. They start by configuring file history. They demonstrate enabling file history, using the default settings. Then they look at ways to customize file history.",
+          "length": "1813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-2-1-configure_file_recovery-041218.00_33_21_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-2-1-configure_file_recovery-041218.00_33_21_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-2-1-configure_file_recovery-041218.00_33_21_16.Still001-sm.jpg",
+          "title": "Configure File Recovery",
+          "transcript": "",
+          "url": "configure-file-recovery-706972018",
+          "vimeoId": "264622581"
+        },
+        {
+          "description": "In this episode, Zach and Mike configure update settings. They look at how to manually check for updates and how to control when updates are applied. They also look at some advanced update options.",
+          "length": "2057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-3-1-configure_and_manage_updates-040518-PGM.00_34_31_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-3-1-configure_and_manage_updates-040518-PGM.00_34_31_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-9-3-1-configure_and_manage_updates-040518-PGM.00_34_31_15.Still001-sm.jpg",
+          "title": "Configure and Manage Updates",
+          "transcript": "",
+          "url": "configuremanage-updates-706972018",
+          "vimeoId": "263562467"
+        }
+      ],
+      "title": "Manage updates and recovery"
+    }
+  ],
+  "url": "mcsa-windows-10-70697-updated-2018",
+  "vLab": false
+}

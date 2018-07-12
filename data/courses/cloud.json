@@ -1,0 +1,444 @@
+{
+  "description": "The CompTIA Cloud+ Certification is designed for IT professionals tasked with supporting private and public cloud infrastructures that have at least a few years of experience in IT networking. More and more companies are deploying cloud services in addition to, or in place of, traditional server infrastructure. The Cloud+ certification covers all the underlying hardware technologies, software, and logistics of deploying the technology, is designed to provide a well-rounded foundational knowledge of cloud and virtualization technologies and works to certify and validate one’s knowledge in the area of cloud computing.",
+  "descriptionMD": "The CompTIA Cloud+ Certification is designed for IT professionals tasked with supporting private and public cloud infrastructures that have at least a few years of experience in IT networking. More and more companies are deploying cloud services in addition to, or in place of, traditional server infrastructure. The Cloud+ certification covers all the underlying hardware technologies, software, and logistics of deploying the technology, is designed to provide a well-rounded foundational knowledge of cloud and virtualization technologies and works to certify and validate one’s knowledge in the area of cloud computing. __[Click here](https://itpro.tv/comptia-partnership) to get an exam voucher discount.__",
+  "length": "70352",
+  "name": "CompTIA Cloud+",
+  "practiceExam": false,
+  "subtitle": "Vendor-neutral cloud management",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CompTIA Cloud+ Certification is designed for IT professionals tasked with supporting private and public cloud infrastructures. More and more companies are deploying cloud services in addition to, or in place of, traditional server infrastructure. The Cloud+ certification is designed to provide a well-rounded foundational knowledge of cloud and virtualization technologies.",
+          "length": "532",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-0-0-overview-022416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-0-0-overview-022416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-0-0-overview-022416-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.006 --> 00:00:09.464\n[SOUND]\n\n2\n00:00:09.464 --> 00:00:10.246\nIn this video,\n\n3\n00:00:10.246 --> 00:00:14.050\nwe're gonna be looking at CompTIA's\nCloud+, and I have Don Pezet here.\n\n4\n00:00:14.050 --> 00:00:16.368\nDon, tell us a little bit about Cloud+.\n\n5\n00:00:16.368 --> 00:00:20.620\n>> The Cloud+ certification is one of the\nnewer certifications to come from CompTIA.\n\n6\n00:00:20.620 --> 00:00:23.990\nAnd it's designed to help certify and\n\n7\n00:00:23.990 --> 00:00:27.330\nvalidate your knowledge in\nthe area of cloud computing.\n\n8\n00:00:27.330 --> 00:00:30.580\nCloud's a big buzzword right now,\na lot of people are deploying these.\n\n9\n00:00:30.580 --> 00:00:35.130\nAnd they're deploying public clouds\nlike with Amazon Web Services,\n\n10\n00:00:35.130 --> 00:00:38.600\nMicrosoft Azure, Google Compute,\nthose type technologies.\n\n11\n00:00:38.600 --> 00:00:41.620\nAnd they're also deploying private clouds,\nclouds\n\n12\n00:00:41.620 --> 00:00:46.000\nthat you build in your own organization\nwith technologies like VMware VSphere,\n\n13\n00:00:46.000 --> 00:00:50.650\nMicrosoft's Hyper-V, Citrix Xenserver,\nthose types of technologies.\n\n14\n00:00:50.650 --> 00:00:54.550\nWell, you have to have a certain amount of\nknowledge to support that infrastructure\n\n15\n00:00:54.550 --> 00:00:59.000\nand that's exactly what CompTIA's Cloud+\ncovers, is making sure that\n\n16\n00:00:59.000 --> 00:01:03.820\nyou've got the necessary knowledge and\nskills to manage the servers yourself or\n\n17\n00:01:03.820 --> 00:01:05.730\nto determine when you\nshould outsource that and\n\n18\n00:01:05.730 --> 00:01:08.340\nlet one of the big cloud providers\non the internet handle that.\n\n19\n00:01:08.340 --> 00:01:12.670\nAnd even how to do a hybrid between the\ntwo, where you manage some resources and\n\n20\n00:01:12.670 --> 00:01:13.790\nthey manage others.\n\n21\n00:01:13.790 --> 00:01:16.550\nWell obviously there is a lot of\nresponsibility that comes in whichever\n\n22\n00:01:16.550 --> 00:01:20.360\nmodel you choose and so\nthat's exactly what we cover in Cloud+.\n\n23\n00:01:20.360 --> 00:01:22.440\nAll the underlying hardware technologies,\n\n24\n00:01:22.440 --> 00:01:26.420\nthe software,\nthe logistics of deploying the technology.\n\n25\n00:01:26.420 --> 00:01:29.640\nIt's very different from the traditional\nphysical server model, and\n\n26\n00:01:29.640 --> 00:01:32.250\nso the Cloud+ is designed\nto create that separation.\n\n27\n00:01:32.250 --> 00:01:34.850\nIt's not the old way of doing things,\nit's a new way, and\n\n28\n00:01:34.850 --> 00:01:37.418\nhere's all the different\ntechnologies you might see.\n\n29\n00:01:37.418 --> 00:01:41.310\n>> Don, now Cloud+,\nwith all the CompTIA exams,\n\n30\n00:01:41.310 --> 00:01:44.000\nthey always have a certain target audience\n\n31\n00:01:44.000 --> 00:01:47.790\nWith Cloud+ can you tell us a little bit\nabout, who is the target on this one?\n\n32\n00:01:47.790 --> 00:01:52.520\n>> If we pull up the official exam\nguide from CompTIA here, basically they\n\n33\n00:01:52.520 --> 00:01:57.105\nstate what they're looking for is that\nif you're gonna be jumping into Cloud+,\n\n34\n00:01:57.105 --> 00:02:02.035\nthey expect you to already be Network+\nand/or CompTIA Storage+ certified, right?\n\n35\n00:02:02.035 --> 00:02:05.625\nThey expect you to already have some\nexperience with supporting networking.\n\n36\n00:02:05.625 --> 00:02:08.325\nAnd networking applies in storage and\nregular networks.\n\n37\n00:02:08.325 --> 00:02:10.975\nIt's not required, but\nthey want you to have that knowledge.\n\n38\n00:02:10.975 --> 00:02:12.805\nSo you should already\nbe familiar with that.\n\n39\n00:02:12.805 --> 00:02:17.830\nThey also want you to have 24 to 36 months\nof work experience in IT networking.\n\n40\n00:02:17.830 --> 00:02:20.320\nThis is not designed for\nsomebody who's brand new to IT.\n\n41\n00:02:20.320 --> 00:02:23.770\nThis is designed for\nsomebody who's already in the IT world,\n\n42\n00:02:23.770 --> 00:02:27.530\nis already working with systems,\nmaybe locally, maybe in the cloud,\n\n43\n00:02:27.530 --> 00:02:32.120\nthat wants to know more, that wants\nto be ready for that new technology.\n\n44\n00:02:32.120 --> 00:02:35.850\nIn IT, things change so fast and\nif you're not updating your skills,\n\n45\n00:02:35.850 --> 00:02:38.110\nyou can become outdated very,\nvery quickly.\n\n46\n00:02:38.110 --> 00:02:39.460\nYour skill set becomes outdated and\n\n47\n00:02:39.460 --> 00:02:42.070\nthat makes you less marketable\nas an IT professional.\n\n48\n00:02:42.070 --> 00:02:46.300\nWell, Cloud+ is focused on what's new,\nthe new way of doing things,\n\n49\n00:02:46.300 --> 00:02:48.690\njumping into those technologies and\nembracing them, and so\n\n50\n00:02:48.690 --> 00:02:51.540\nthat's why it's geared towards\npeople that are already in IT.\n\n51\n00:02:51.540 --> 00:02:55.420\nThat already have that Network+ level of\nknowledge so that we can jump right in and\n\n52\n00:02:55.420 --> 00:02:59.400\nfocus on the important stuff, the what's\nnew, the virtualization technologies, and\n\n53\n00:02:59.400 --> 00:03:02.280\nnot have to focus on things like,\nhey, here's how we do subnetting.\n\n54\n00:03:02.280 --> 00:03:05.220\nWe should already know that\nknowledge by this point.\n\n55\n00:03:05.220 --> 00:03:07.070\n>> As with every CompTIA exam,\n\n56\n00:03:07.070 --> 00:03:09.290\nthere's gonna be a series of\nobjectives you have to know.\n\n57\n00:03:09.290 --> 00:03:10.370\nDon, here in Cloud+,\n\n58\n00:03:10.370 --> 00:03:14.860\nwhat are some of the topics that we can\nexpect to learn across this journey?\n\n59\n00:03:14.860 --> 00:03:17.560\n>> Well they break everything\nup across seven domains, and\n\n60\n00:03:17.560 --> 00:03:23.160\nI've got it here on the slide where,\nbasically each topic is pretty important.\n\n61\n00:03:23.160 --> 00:03:27.330\nAnd I know on some CompTIA exams you'll\nhave where one domain counts for\n\n62\n00:03:27.330 --> 00:03:31.620\n40% of the exam but in Cloud+ it's\nactually a pretty even distribution.\n\n63\n00:03:31.620 --> 00:03:33.830\nWe start with just cloud concepts and\nmodels.\n\n64\n00:03:33.830 --> 00:03:36.730\nA lot of people have misunderstanding\nof what a cloud is, and and\n\n65\n00:03:36.730 --> 00:03:40.060\nthey just automatically assume it means\nsomething like Amazon Web Services.\n\n66\n00:03:40.060 --> 00:03:43.210\nBut you have private clouds that are\nentirely internal that are just in your\n\n67\n00:03:43.210 --> 00:03:44.200\norganization.\n\n68\n00:03:44.200 --> 00:03:46.570\nAnd so we talk about those\ndifferent concepts and models,\n\n69\n00:03:46.570 --> 00:03:49.380\nthe different implementations\nthat you may see out there.\n\n70\n00:03:49.380 --> 00:03:51.120\nThen we do virtualization.\n\n71\n00:03:51.120 --> 00:03:54.480\nWhat is virtualization, and why would\nwe wanna go to a cloud when we've got\n\n72\n00:03:54.480 --> 00:03:56.970\nperfectly good physical servers already?\n\n73\n00:03:56.970 --> 00:03:59.950\nAnd so we cover that,\nwe cover what's that big difference and\n\n74\n00:03:59.950 --> 00:04:02.210\nwhy one gives us advantages over another.\n\n75\n00:04:02.210 --> 00:04:04.220\nThen we talk about our infrastructure.\n\n76\n00:04:04.220 --> 00:04:07.230\nWhat resources do I have to have\navailable to make this all work?\n\n77\n00:04:07.230 --> 00:04:08.790\nI'm gonna need different hardware,\n\n78\n00:04:08.790 --> 00:04:12.816\ndifferent networking, different storage\nthan a traditional server environment, and\n\n79\n00:04:12.816 --> 00:04:15.380\nso we take a look at\nthat infrastructure too.\n\n80\n00:04:15.380 --> 00:04:17.550\nIn domain four we've got\nresource management.\n\n81\n00:04:17.550 --> 00:04:21.500\nWhen we start lumping all of our servers\ninto this virtual environment it's\n\n82\n00:04:21.500 --> 00:04:26.550\neasy to lose track of how much RAM, CPU,\nnetwork and disk resources that we've got.\n\n83\n00:04:26.550 --> 00:04:29.060\nAnd we've got to be able to manage\nall of that and keep track of it and\n\n84\n00:04:29.060 --> 00:04:30.422\nkeep everything healthy.\n\n85\n00:04:30.422 --> 00:04:33.950\nAnd it's just a different world from\nthe old physical model where everything\n\n86\n00:04:33.950 --> 00:04:35.170\nhad dedicated resources.\n\n87\n00:04:36.430 --> 00:04:39.930\nDomain five is one of the more\nimportant ones, which is security.\n\n88\n00:04:39.930 --> 00:04:42.930\nWhen you start deploying this\nstuff into a cloud environment,\n\n89\n00:04:42.930 --> 00:04:45.270\nif it's a public cloud you can be at risk,\nand so\n\n90\n00:04:45.270 --> 00:04:47.790\nwe need to make sure we've secured\nour systems, that we've taken\n\n91\n00:04:47.790 --> 00:04:52.600\nthe necessary precautions to minimize\nour security risk in our attack surface.\n\n92\n00:04:52.600 --> 00:04:53.950\nAnd so we cover our topics too.\n\n93\n00:04:55.050 --> 00:04:58.160\nAs the show starts to wind down,\nwe get into the systems management.\n\n94\n00:04:58.160 --> 00:05:01.290\nOnce everything's up and running, we're\nnot just done, we don't walk away and\n\n95\n00:05:01.290 --> 00:05:02.310\ncall it a job done.\n\n96\n00:05:02.310 --> 00:05:03.690\nNow we've gotta keep it running.\n\n97\n00:05:03.690 --> 00:05:07.090\nSo how do we manage those systems and\nkeep them healthy and operational,\n\n98\n00:05:07.090 --> 00:05:08.860\nmonitoring performance and all that?\n\n99\n00:05:08.860 --> 00:05:11.750\nAnd then the last one, in domain seven,\n\n100\n00:05:11.750 --> 00:05:14.870\nwe cover what's really\nthe shining gem of a cloud.\n\n101\n00:05:14.870 --> 00:05:15.930\nWhen you have a cloud,\n\n102\n00:05:15.930 --> 00:05:20.510\nit is really easy to build in business\ncontinuity, disaster recovery,\n\n103\n00:05:20.510 --> 00:05:25.510\nresilience, high availability, we can\nbuild all of that into our infrastructure.\n\n104\n00:05:25.510 --> 00:05:30.190\nSo that we could lose a hard drive,\na power supply, a server,\n\n105\n00:05:30.190 --> 00:05:35.155\nan entire building, and still have our\nservices available to our customers.\n\n106\n00:05:35.155 --> 00:05:37.710\nThat we can have very\nhigh levels of redundancy\n\n107\n00:05:37.710 --> 00:05:39.920\nwith minimal commitment to hardware.\n\n108\n00:05:39.920 --> 00:05:44.300\nIt makes solutions that weren't\npossible for companies ten years ago,\n\n109\n00:05:44.300 --> 00:05:48.280\npossible even for companies with small\nbudgets, it's really neat stuff.\n\n110\n00:05:48.280 --> 00:05:51.254\nAnd those are all the different topics\nthat we're gonna be seeing on this exam.\n\n111\n00:05:51.254 --> 00:05:55.626\n>> So you've hit the books,\nyou've hit the internet, you've studied,\n\n112\n00:05:55.626 --> 00:06:00.286\nyou've gone through the motion of\nhopefully viewing us here at ITProTV, and\n\n113\n00:06:00.286 --> 00:06:03.880\nnow it's time to sit in the hot seat and\ntake the exam.\n\n114\n00:06:03.880 --> 00:06:06.600\nDon, how will we go\nabout taking that exam?\n\n115\n00:06:06.600 --> 00:06:11.150\n>> Well, the exam itself, it's a digital\nexam, you take it on a computer.\n\n116\n00:06:11.150 --> 00:06:13.000\nIt's a multiple choice exam for\nthe most part.\n\n117\n00:06:13.000 --> 00:06:15.190\nThere's some drag and\ndrop questions, things like that.\n\n118\n00:06:15.190 --> 00:06:17.390\nBut you can't just take\nit on your own computer.\n\n119\n00:06:17.390 --> 00:06:20.620\nYou have to go to\na Pearson Vue Testing Center.\n\n120\n00:06:20.620 --> 00:06:22.620\nSo Pearson Vue Centers,\nthey're all over the world.\n\n121\n00:06:22.620 --> 00:06:26.210\nIf you go to their website, it's vue.com.\n\n122\n00:06:26.210 --> 00:06:29.350\nIf you go to vue.com, you can do\na search for a test center right there,\n\n123\n00:06:29.350 --> 00:06:31.060\nyou'll find one in your local area.\n\n124\n00:06:31.060 --> 00:06:33.830\nYou can call them, schedule the exam,\nand go to take it.\n\n125\n00:06:33.830 --> 00:06:35.480\nAnd I've got the exam details here.\n\n126\n00:06:35.480 --> 00:06:40.288\nThe exam number is CV0-001,\nthat's the exam that you wanna take.\n\n127\n00:06:40.288 --> 00:06:45.060\nAnd it's 100 questions, so it's not so\nbad, but you've only got an hour and\n\n128\n00:06:45.060 --> 00:06:45.860\na half, you got 90 minutes.\n\n129\n00:06:45.860 --> 00:06:49.720\nNot if you look at that,\nthat's less than a minute per question.\n\n130\n00:06:49.720 --> 00:06:53.600\nSo when you get to this exam,\nyou need to know your answers.\n\n131\n00:06:53.600 --> 00:06:54.840\nThis isn't a, I'm gonna sit here and\n\n132\n00:06:54.840 --> 00:06:57.920\nponder it and think about it,\nI've got 50 seconds,\n\n133\n00:06:57.920 --> 00:07:02.390\nor whatever, per question to answer, and\nmake sure that I get through it on time.\n\n134\n00:07:02.390 --> 00:07:06.340\nIt's graded on a scale of 100 to 900,\nand a 750 is passing.\n\n135\n00:07:06.340 --> 00:07:11.210\nSo, you've got, where you can get\nsome questions wrong and still pass.\n\n136\n00:07:11.210 --> 00:07:14.980\nYou don't have a perfectionist, but\na 750's still a pretty high number.\n\n137\n00:07:14.980 --> 00:07:17.700\nWe need to make sure that\nwe know our material.\n\n138\n00:07:17.700 --> 00:07:22.140\nAnd so, when you go to the Vue's website\nand you find that local testing center, so\n\n139\n00:07:22.140 --> 00:07:25.250\nI'm just gonna go here to For\ntest takers, and once we're in here,\n\n140\n00:07:25.250 --> 00:07:29.100\nwe can tell it what exam we wanna take,\nand I'll just punch in CompTIA.\n\n141\n00:07:30.330 --> 00:07:31.210\nAnd then over here,\n\n142\n00:07:31.210 --> 00:07:33.852\nwe can create an account for free,\nand we can start to go and test.\n\n143\n00:07:33.852 --> 00:07:39.050\nWe can do a Find a test center, and I can\nlocate that test center that's near me.\n\n144\n00:07:39.050 --> 00:07:41.470\nSo we can pick a city.\n\n145\n00:07:41.470 --> 00:07:46.120\nLet's pick somewhere,\nI don't know, we'll do London.\n\n146\n00:07:46.120 --> 00:07:49.950\nI guess that's a really big city but\nwell either way we can just do London.\n\n147\n00:07:49.950 --> 00:07:50.700\nAnd so we'll do a search for\n\n148\n00:07:50.700 --> 00:07:54.160\nthat and it's gonna show me, well there's\nmore than one city called London.\n\n149\n00:07:54.160 --> 00:07:57.120\nLet's go with London,\nOhio that can't be too big of a city.\n\n150\n00:07:57.120 --> 00:08:00.460\nAnd we can click on that and\nI can see that in London,\n\n151\n00:08:00.460 --> 00:08:05.000\nOhio which apparently is a big city cuz we\ngot five different Vue centers in there\n\n152\n00:08:05.000 --> 00:08:06.740\nthat you can go and take that exam.\n\n153\n00:08:06.740 --> 00:08:10.550\nSo you pick your center, sign up for\nthe exam, pay your money and\n\n154\n00:08:10.550 --> 00:08:13.400\nthen go and pass it and\nget your certification.\n\n155\n00:08:13.400 --> 00:08:14.940\nWell, if all that sounds\nexciting to you and\n\n156\n00:08:14.940 --> 00:08:17.680\nyou're ready to jump in and start\nlearning about cloud technologies and\n\n157\n00:08:17.680 --> 00:08:20.080\nin the Cloud+ in general,\nyou're in the right place.\n\n158\n00:08:20.080 --> 00:08:22.220\nStay tuned,\nwe've got episodes coming up next.\n\n159\n00:08:22.220 --> 00:08:25.080\nIf you're not quite ready, if you don't\nmeet those minimum requirements, for\n\n160\n00:08:25.080 --> 00:08:27.198\nexample, check out\nthe rest of our library.\n\n161\n00:08:27.198 --> 00:08:31.070\nWe've got Network+, we did a great series\non that where you can jump right in with\n\n162\n00:08:31.070 --> 00:08:33.400\nno experience necessary,\ncatch that content.\n\n163\n00:08:33.400 --> 00:08:36.082\nAnd then when you finish Network+,\nyou can come right back over here,\n\n164\n00:08:36.082 --> 00:08:37.350\nCloud+ will be waiting for you.\n\n165\n00:08:37.350 --> 00:08:38.690\nDefinitely check it out.\n\n166\n00:08:38.690 --> 00:08:41.422\nBut for those of you continuing\non with us, stay tuned,\n\n167\n00:08:41.422 --> 00:08:43.411\nnew episodes of Cloud+ coming up next.\n\n",
+          "url": "overview70716",
+          "vimeoId": "156736177"
+        },
+        {
+          "description": "In this episode, Daniel and Don kick off the Cloud+ series by explaining some foundational concepts and terms. They start by describing what a cloud service is as well as the ideas of accountability and responsibility. Then they explore the common cloud models which include Software as as Service(SaaS), Platform as a Service(PaaS), and Infrastructure as a Service(IaaS). Finally they look at some of the less common cloud services like CaaS, DaaS, and XaaS.",
+          "length": "2087",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-1-cloud_services-020816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-1-cloud_services-020816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-1-cloud_services-020816-1-sm.jpg",
+          "title": "Cloud Services",
+          "transcript": "",
+          "url": "cloud-services6",
+          "vimeoId": "154722161"
+        },
+        {
+          "description": "In this episode, Daniel and Don discuss cloud delivery models, which is basically how the cloud services are provided to the end user. Here they explain the most common models, including Public, Private, Hybrid, and Community clouds. They also explore automation and orchestration which helps you plan complex operations and have the cloud system automatically deploy them.",
+          "length": "1792",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-2-delivery_models-020816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-2-delivery_models-020816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-2-delivery_models-020816-1-sm.jpg",
+          "title": "Cloud Delivery Models",
+          "transcript": "",
+          "url": "cloud-delivery-models",
+          "vimeoId": "154722187"
+        },
+        {
+          "description": "In this episode, Daniel and Don get you up to speed with some of the terminology and buzz-words/phrases that permeate in conversation pertaining to cloud services. Here they cover terms like Elasticity, Pay-as-you-grow, and Chargeback. They also define other terms such as Multitenancy, Cloud bursting, and Rapid Deployment.",
+          "length": "1656",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-3-cloud_terminology-020816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-3-cloud_terminology-020816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-3-cloud_terminology-020816-1-sm.jpg",
+          "title": "Cloud Terminology",
+          "transcript": "",
+          "url": "cloud-terminology",
+          "vimeoId": "154722205"
+        },
+        {
+          "description": "In this episode, Daniel and Don walk you through common cloud storage concepts. They discuss how cloud providers store your data as well as the benefits of using cloud storage. Then they define cloud storage characteristics, which introduce you to terms like BLOB(Binary Large OBject) and Identifiers, specifically Object ID and Metadata/Extended Metadata. Finally they cover Cloud Storage Security controls. This includes Access Control(permissions), Access Policies, and Replicas.",
+          "length": "2137",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-4-object_storage_concepts-020916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-4-object_storage_concepts-020916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-1-4-object_storage_concepts-020916-1-sm.jpg",
+          "title": "Object Storage Concepts",
+          "transcript": "",
+          "url": "object-storage-concepts",
+          "vimeoId": "154908670"
+        }
+      ],
+      "title": "Cloud Concepts and Models"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore the typical virtualization infrastructure. They start off by discussing some of the benefits of virtualization such as elasticity, network isolation, and hardware consolidation. Then they explain the differences between the Type-II and Type-I hypervisors. Finally, they go over some virtual cloud components like virtual NICs, CPU, RAM, and storage.",
+          "length": "2226",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-1-virtualization_infrastructure-020916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-1-virtualization_infrastructure-020916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-1-virtualization_infrastructure-020916-1-sm.jpg",
+          "title": "Virtualization Infrastructure",
+          "transcript": "",
+          "url": "virtualization-infrastructure2",
+          "vimeoId": "154908689"
+        },
+        {
+          "description": "In this episode, Daniel and Don introduce you to creating and working with virtual machines. They begin by going over the virtual hardware requirements for items like CPU and RAM. They explain the CPU's special characteristics with regards to virtualization for both AMD and Intel chips. They also show you how virtualization software allocates RAM for the guest Operating Systems.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-1-virtual_machines-021016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-1-virtual_machines-021016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-1-virtual_machines-021016-1-sm.jpg",
+          "title": "Virtual Machines",
+          "transcript": "",
+          "url": "virtual-machines",
+          "vimeoId": "155033757"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue working toward creating a virtual machine; this time picking up with networking and disk considerations. They start by explaining virtual networks and virtual switches. They show you the many ways which you can connect a VM to your actual network through bridging, NAT, and even VLAN assignment. Then they jump into virtual disks where they explain concepts like fixed vs. dynamic size, IDE/SATA/SCSI virtualization, and virtual Storage Area Networks(SAN).",
+          "length": "2164",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-2-virtual_machines_pt2-021016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-2-virtual_machines_pt2-021016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-2-2-virtual_machines_pt2-021016-1-sm.jpg",
+          "title": "Virtual Machines Part 2",
+          "transcript": "",
+          "url": "virtual-machines-2",
+          "vimeoId": "155033777"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish their mini-series on virtual machines by taking all the previously discussed topics and actually creating a VM. They also explain and install the \"guest tools\" on the newly created VM, which expands the VM's capabilities and support. Now that they have a fully functional VM they explain how you can use it as a template to create clones for rapid, on-demand deployments.",
+          "length": "1805",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1-sm.jpg",
+          "title": "Virtual Machines Part 3",
+          "transcript": "",
+          "url": "virtual-machines-3",
+          "vimeoId": "155122023"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore some of the reasons and methods for migration in a virtual environment. They being by looking at motives that could necessitate a migration, reasons like testing, upgrading, and/or performance issues. Then they discuss some of the migration variations, including physical to virtual, virtual to virtual, and virtual to physical. Also covered are some of caveats and considerations that need to be addressed before migrating.",
+          "length": "2194",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-3-migrating_systems-021116-1-sm.jpg",
+          "title": "Migrating Systems",
+          "transcript": "",
+          "url": "migrating-systems",
+          "vimeoId": "155033865"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain one of the most useful features of any virtualization platform and that is snapshots. They begin by explaining what a snapshot is and then show you how they can be used to quickly restore a VM to a specific point in time. Then they cover taking backups in a virtualized environment, looking at both image and file backups.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-4-snapshots_and_backups-021116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-4-snapshots_and_backups-021116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-2-4-snapshots_and_backups-021116-1-sm.jpg",
+          "title": "Snapshots and Backups",
+          "transcript": "",
+          "url": "snapshots-backups",
+          "vimeoId": "155122063"
+        }
+      ],
+      "title": "Virtualization"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explain some of the foundational information that is needed when working with attached storage in a private cloud environment. They begin by going through the common attached storage solutions like Network Attached Storage(NAS), Direct Attached Storage(DAS), and Storage Area Networks(SAN). They also cover some of the protocols and media used to connect attached storage. This includes Fibre Channel Protocol(FPC), Fiber Channel over Internet Protocol(FPIC), and Fibre Channel over Ethernet.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-1-1-storage_configuration-021116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-1-1-storage_configuration-021116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-1-1-storage_configuration-021116-1-sm.jpg",
+          "title": "Storage Configuration",
+          "transcript": "",
+          "url": "storage-configuration",
+          "vimeoId": "155128506"
+        },
+        {
+          "description": "In this episode, Daniel and Don go over the common storage media, or drives, that you will work with when using a Storage Area Network(SAN) device. First they explain the different disk types. This includes SSD, spinning, USB, and tape. Then they cover the different connectors and data transfer speed for SATA and SAS. Finally they discuss tiering which allows you to use a variety of drives while optimizing storage through policies.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-storage_media-021216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-storage_media-021216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-storage_media-021216-1-sm.jpg",
+          "title": "Storage Media",
+          "transcript": "",
+          "url": "storage-media",
+          "vimeoId": "155387869"
+        },
+        {
+          "description": "In this episode, Daniel and Don take you through some of the common RAID levels employed in Storage Area Network(SAN) environments. They give you a detailed rundown on RAID levels 0, 1, 5, 6, 1+0, and 0+1. They then explain some of the different filesystems that you may encounter, like EXT, NTFS, and ZFS.",
+          "length": "1972",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-3-raid_and_file-systems-021216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-3-raid_and_file-systems-021216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-3-raid_and_file-systems-021216-1-sm.jpg",
+          "title": "RAID and File Systems",
+          "transcript": "",
+          "url": "raid-file-systems",
+          "vimeoId": "155387923"
+        },
+        {
+          "description": "In this episode, Daniel and Don take you through configuring a Storage Area Network(SAN) appliance. They explain the best practices and procedures for implementing a SAN and then jump into actually working with a SAN's interface. They show you how to create LUNs as well as security features like zoning and LUN masking.",
+          "length": "2020",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-4-san_configuration-021216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-4-san_configuration-021216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-4-san_configuration-021216-1-sm.jpg",
+          "title": "SAN Configuration",
+          "transcript": "",
+          "url": "san-configuration",
+          "vimeoId": "155387942"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review basic networking concepts.  They briefly describe the use of IP addresses and its breakdown.  Don takes time to describe the basics of classful and classless IP address spaces and the use of subnet masks.  The guys take a look at 2 examples:  1 of subnetting and 1 of supernetting.  They emphasize the need to understand why and when it use them.",
+          "length": "2156",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-1-network_concepts-021516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-1-network_concepts-021516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-1-network_concepts-021516-1-sm.jpg",
+          "title": "Network Concepts",
+          "transcript": "",
+          "url": "network-concepts",
+          "vimeoId": "155436832"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue describe the basic networking concepts of NAT and PAT.   They look briefly at the technology that allows for Private IP addresses to communicate with devices that have Public IP addresses.  They talk about the components involved and the use of port numbers to make it work.  They also take a look at specific port numbers that should be known.",
+          "length": "1924",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-2-network_concepts-pt2-021516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-2-network_concepts-pt2-021516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-2-2-network_concepts-pt2-021516-1-sm.jpg",
+          "title": "Network Concepts Part 2",
+          "transcript": "",
+          "url": "network-concepts-2",
+          "vimeoId": "155436880"
+        },
+        {
+          "description": "In this episode Wes and Don discuss advanced networking concepts. They will introduce virtual local area networks(VLAN) and IEEE 802.1Q VLAN trunks. They look at bonding two or more switch ports through a technique call link aggregation. They explain some of the aspects of the network adapters needed in virtualization.",
+          "length": "2026",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-6-advanced_networking-021616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-6-advanced_networking-021616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-6-advanced_networking-021616-1-sm.jpg",
+          "title": "Advanced Networking",
+          "transcript": "",
+          "url": "advanced-networking",
+          "vimeoId": "155684884"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at different network optimization techniques. They will explore different network types such as wide area networks, local area networks and metropolitan area networks. They discuss different techniques to keep these network connection running efficiently and effectively like clustering, load balancing, compression and caching. They demonstrate tools like ping, nslookup, traceroute and ifconfig to troubleshooting network connections as well.",
+          "length": "2108",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-7-network_optimization-021616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-7-network_optimization-021616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-3-7-network_optimization-021616-1-sm.jpg",
+          "title": "Networking Optimization",
+          "transcript": "",
+          "url": "networking-optimization",
+          "vimeoId": "155684736"
+        }
+      ],
+      "title": "Infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don will dive into monitoring resource utilization. They will look at the common resources that can effect performance such as CPU, RAM, disk I/O and network bandwidth. They talk about the methods that can be used to monitor these resources such as SNMP, WMI, IPMI and Syslog. They explore what administrators can use to set up alerting like setting up SMS messages, email messages and HTTP posts.",
+          "length": "1749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-1-monitoring_resources-021616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-1-monitoring_resources-021616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-1-monitoring_resources-021616-1-sm.jpg",
+          "title": "Monitoring Resources",
+          "transcript": "",
+          "url": "monitoring-resources",
+          "vimeoId": "155684912"
+        },
+        {
+          "description": "In this episode Wes and Don dive into resource allocation and discuss the primary resources needed in virtualization such as memory, processing power, storage and network bandwidth. They look at best practices when assigning memory like dynamic versus static memory allocation and CPU allocation.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-allocating_resources-022416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-allocating_resources-022416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-allocating_resources-022416-1-sm.jpg",
+          "title": "Allocating Resources",
+          "transcript": "",
+          "url": "allocating-resources",
+          "vimeoId": "156736037"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on resource allocation and the primary resources needed in virtualization such as memory, processing power, storage and network bandwidth. They explore best practices when provisioning storage for virtual machine as well as network communication best practices. They will talk about reservations, quotas and licensing in this episode.",
+          "length": "1999",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-2-allocating_resources_pt2-022416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-2-allocating_resources_pt2-022416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-2-2-allocating_resources_pt2-022416-1-sm.jpg",
+          "title": "Allocating Resources Part 2",
+          "transcript": "",
+          "url": "allocating-resources-2",
+          "vimeoId": "156736141"
+        },
+        {
+          "description": "In this episode Wes and Don explore remote access technologies used to connect to cloud based virtual environments. They look at the difference between remotely connecting to a virtual machine host as well as a virtual machine guest. They will discuss topics like using Microsoft's Remote Desktop Protocol, SSH and VNC to manage the virtual environment.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-3-romote_access-022416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-3-romote_access-022416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-4-3-romote_access-022416-1-sm.jpg",
+          "title": "Remote Access",
+          "transcript": "",
+          "url": "remote-access4",
+          "vimeoId": "156735852"
+        }
+      ],
+      "title": "Resource Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don will examine security concepts that help to keep cloud-based solutions protected and available. They will discuss technologies like virtual private networks (VPNs), software-based and hardware based firewalls, de-militarized zones (DMZs) and audit logs.",
+          "length": "2119",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-1-security_concepts_pt1-021716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-1-security_concepts_pt1-021716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-1-security_concepts_pt1-021716-1-sm.jpg",
+          "title": "Security Concepts",
+          "transcript": "",
+          "url": "security-concepts",
+          "vimeoId": "156016567"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on the security concepts that help to keep cloud-based solutions protected and available. They look at the common types of attacks like distributed denial-of-service, ping-of-death and ping floods scenarios. They also dive into the world of access control models ranging from role-based access control to single sign on (SSO).",
+          "length": "2142",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-2-security_concepts_pt2-021716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-2-security_concepts_pt2-021716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-2-security_concepts_pt2-021716-1-sm.jpg",
+          "title": "Security Concepts Part 2",
+          "transcript": "",
+          "url": "security-concepts-2",
+          "vimeoId": "156016757"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on the security concepts that help to keep cloud-based solutions protected and available. They talk about encryption types that are used to protect data like AES, 3DES, RC4 and RC5. They will look at the different data states such as \"data in transit\" and \"data at rest,\" and the security techniques used to secure these different data states.",
+          "length": "2069",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-3-security_concepts_pt3-021816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-3-security_concepts_pt3-021816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-1-3-security_concepts_pt3-021816-1-sm.jpg",
+          "title": "Security Concepts Part 3",
+          "transcript": "",
+          "url": "security-concepts-3",
+          "vimeoId": "156016768"
+        },
+        {
+          "description": "In this episode Wes and Don discuss storage security. They look at topics like obfuscation,access controls lists (ACLs), users and host authentication through the challenge handshake authentcation protocol and log auditing.",
+          "length": "2040",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-2-storage_security-021816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-2-storage_security-021816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-2-storage_security-021816-1-sm.jpg",
+          "title": "Storage Security",
+          "transcript": "",
+          "url": "storage-security",
+          "vimeoId": "156016809"
+        },
+        {
+          "description": "In this episode Wes and Don focus on the systems we use to access cloud based data. They introduce the viewers to the concept of system hardening like disabling administrative accounts, changing default usernames and passwords, installing antivirus, patches and implementing host-based firewalls.",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-3-system_hardening-021816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-3-system_hardening-021816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-5-3-system_hardening-021816-1-sm.jpg",
+          "title": "System Hardening",
+          "transcript": "",
+          "url": "system-hardening",
+          "vimeoId": "156016862"
+        }
+      ],
+      "title": "Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don take a look at the policies and procedure concepts to manage information technology based businesses. They discuss common concepts such as asset management, asset accountability and IP address management. They will dive into the realm of capacity management and help to differentiate asset management from capacity management.",
+          "length": "2191",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-1-policies_and_procedures-021916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-1-policies_and_procedures-021916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-1-policies_and_procedures-021916-1-sm.jpg",
+          "title": "Policies and Procedures",
+          "transcript": "",
+          "url": "policies-procedures2",
+          "vimeoId": "156016882"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on policies and procedures. They move into configuration management and change management. The introduce concepts such as change requests, cange advisory boards. They will look at life cycle managment and the five step process defined by the information lifecycle management and practical lifecycle management.",
+          "length": "1686",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-2-policies_and_procedures_pt2-021916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-2-policies_and_procedures_pt2-021916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-1-2-policies_and_procedures_pt2-021916-1-sm.jpg",
+          "title": "Policies and Procedures Part 2",
+          "transcript": "",
+          "url": "policies-procedures-2",
+          "vimeoId": "156275430"
+        },
+        {
+          "description": "In this episode Wes and Don talk about the concepts that drive performance. They look at disk performance and disk-related concepts such as IOPS, reads vs. writes, metadata performance and caching. They demonstrate networking concepts like bandwidth, throughput, latency, jumbo frames, multipathing and load balancing. They will also explain scaling topics such as scaling vertically, horizontally and diagonally.",
+          "length": "1962",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-2-performance_concepts-021916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-2-performance_concepts-021916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-2-performance_concepts-021916-1-sm.jpg",
+          "title": "Performance Concepts",
+          "transcript": "",
+          "url": "performance-concepts",
+          "vimeoId": "156275449"
+        },
+        {
+          "description": "In this episode Wes and Don explore the techniques that can be used to optimize performance. They talk about the best practices that can be followed to maintain optimal performance like performance baselining, vendor-specific tools as well third party management tools.",
+          "length": "2711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-1-optimizing_performance-022216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-1-optimizing_performance-022216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-1-optimizing_performance-022216-1-sm.jpg",
+          "title": "Optimizing Performance",
+          "transcript": "",
+          "url": "optimizing-performance",
+          "vimeoId": "156428448"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on performance optimization. They look at disk optimization and such topics as disk tuning, disk latency, I/O tuning, I/O throttling. They will also explore common disk problems such as disk and host bus adapter",
+          "length": "1717",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-2-optimizing_performance_pt2-022216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-2-optimizing_performance_pt2-022216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-2-optimizing_performance_pt2-022216-1-sm.jpg",
+          "title": "Optimizing Performance Part 2",
+          "transcript": "",
+          "url": "optimizing-performance-2",
+          "vimeoId": "156409035"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on performance optimization. They look at memory performance and the techniques to optimizes memory. They demonstrate concepts such as memory failure, oversubscription and memory ballooning. With networking being a major dependency of cloud computing, Wes and Don will dive into network performance topic like NIC failure, replication, latency and load balancing. They explain common CPU concepts like virtual CPU count and hyperthreading as well as monitoring service performance.",
+          "length": "2434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-3-optimizing_performance_pt3-022316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-3-optimizing_performance_pt3-022316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-6-3-3-optimizing_performance_pt3-022316-1-sm.jpg",
+          "title": "Optimizing Performance Part 3",
+          "transcript": "",
+          "url": "optimizing-performance-3",
+          "vimeoId": "156556334"
+        }
+      ],
+      "title": "Systems Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don explore concepts related to maintaining business continuity through disaster recovery. They look at recovery time objective, recovery point objective mean time between failure and mean time to repair. They identify redundency and fault tolerance techniques such as high availability,local clustering and geolocation.",
+          "length": "1739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-1-disaster_recovery-022316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-1-disaster_recovery-022316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-1-disaster_recovery-022316-1-sm.jpg",
+          "title": "Disaster Recovery",
+          "transcript": "",
+          "url": "disaster-recovery2",
+          "vimeoId": "156556388"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on disaster recovery. They will explain the difference between hot,warm and cold sites. They will differeniate between failover, failback, geographical diversity, replication and multipathing.",
+          "length": "2223",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-2-disaster_recovery_pt2-022316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-2-disaster_recovery_pt2-022316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-cloudpluscv0001/comptia-cloudpluscv0001-7-1-2-disaster_recovery_pt2-022316-1-sm.jpg",
+          "title": "Disaster Recovery Part 2",
+          "transcript": "",
+          "url": "disaster-recovery-2",
+          "vimeoId": "156556417"
+        }
+      ],
+      "title": "Business Continuity in the Cloud"
+    }
+  ],
+  "url": "cloud",
+  "vLab": false
+}

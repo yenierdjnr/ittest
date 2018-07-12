@@ -1,0 +1,302 @@
+{
+  "description": "The Becoming a Linux System Administrator covers managing Linux systems in a business environment. Topics covered include installing Linux, managing software and using centralized user directories among others. The primary goal of the course is to highlight the differences in managing Linux machines in a business environment versus stand-alone or home systems.",
+  "descriptionMD": "The *Becoming a Linux System Administrator* covers managing Linux systems in a business environment. Topics covered include installing Linux, managing software and using centralized user directories among others. The primary goal of the course is to highlight the differences in managing Linux machines in a business environment versus stand-alone or home systems.",
+  "length": "39214",
+  "name": "Becoming a Linux System Admin",
+  "practiceExam": false,
+  "subtitle": "Becoming a Linux System Admin",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Becoming a Linux Power User covers managing Linux systems in a business environment. Topics covered include installing Linux, managing software and using centralized user directories among others. The primary goal of the course is to highlight the differences in managing Linux machines in a business environment versus stand-alone or home systems.",
+          "length": "281",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-0-0-overview-062317-notes.00_00_05_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-0-0-overview-062317-notes.00_00_05_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-0-0-overview-062317-notes.00_00_05_15.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.361\n[MUSIC]\n\n2\n00:00:05.361 --> 00:00:09.726\nHello, Becoming a Linux System\nAdministrator is an exciting series we're\n\n3\n00:00:09.726 --> 00:00:13.150\noffering here at ITProTV, and\nto tell us more is Don Pezet.\n\n4\n00:00:13.150 --> 00:00:14.238\nDon, tell us more about the course.\n\n5\n00:00:14.238 --> 00:00:18.050\n&gt;&gt; All right, so Becoming a Linux\nSystem Administrator is a course that's\n\n6\n00:00:18.050 --> 00:00:22.370\ndesigned to really take your skills with\nLinux and move them up to the next level.\n\n7\n00:00:22.370 --> 00:00:26.580\nA lot of people use Linux as an operating\nsystem, and it's used on servers across\n\n8\n00:00:26.580 --> 00:00:29.720\nthe world, a lot of the Internet\nservices we access use Linux.\n\n9\n00:00:29.720 --> 00:00:32.070\nBut even on the desktop,\nthere's plenty of people like me,\n\n10\n00:00:32.070 --> 00:00:34.986\nwhere I'm running Linux right here\non my own desktop, and that's great.\n\n11\n00:00:34.986 --> 00:00:38.230\nIf you're just an individual,\nit works really well.\n\n12\n00:00:38.230 --> 00:00:42.563\nBut when you move into the business world,\nand now you're managing desktops and\n\n13\n00:00:42.563 --> 00:00:46.067\nlaptops for hundreds, thousands,\ntens of thousands of users,\n\n14\n00:00:46.067 --> 00:00:48.438\nthings are a little bit different, right?\n\n15\n00:00:48.438 --> 00:00:51.629\nIf I just wanna install software for\nmyself, that's no big deal, but\n\n16\n00:00:51.629 --> 00:00:54.985\nif I wanna install software for\n100 people, that's much different,\n\n17\n00:00:54.985 --> 00:00:57.170\nit's a different type of experience.\n\n18\n00:00:57.170 --> 00:01:02.663\nAnd so in the Becoming\na Linux System Administrator series.\n\n19\n00:01:02.663 --> 00:01:03.582\n&gt;&gt; You got it.\n&gt;&gt; I know, it's tough.\n\n20\n00:01:03.582 --> 00:01:06.120\n[LAUGH] In this series,\n\n21\n00:01:06.120 --> 00:01:10.180\nwe take a look at what those skills are,\nhow things are different.\n\n22\n00:01:10.180 --> 00:01:14.010\nReally, we can almost call this\nseries Linux in the Business, right?\n\n23\n00:01:14.010 --> 00:01:16.800\nInstead of using it for\na personal computer or\n\n24\n00:01:16.800 --> 00:01:20.170\njust as a hobbyist type thing,\nhow is it used in a business?\n\n25\n00:01:20.170 --> 00:01:24.000\nAnd how is that different than\nadministering a system just for ourselves?\n\n26\n00:01:24.000 --> 00:01:26.093\nAnd that's really what we'll get a chance\nto see right here in this series.\n\n27\n00:01:26.093 --> 00:01:28.946\n&gt;&gt; And Don, who would benefit\nmost from watching the Becoming\n\n28\n00:01:28.946 --> 00:01:31.280\na Linux System Administrator series?\n\n29\n00:01:31.280 --> 00:01:34.950\n&gt;&gt; Well, really, anybody who uses Linux\nwould benefit from it, but really,\n\n30\n00:01:34.950 --> 00:01:37.260\nit's gonna be people using\nLinux in the workplace.\n\n31\n00:01:37.260 --> 00:01:38.930\nThere's some of the things we learn,\n\n32\n00:01:38.930 --> 00:01:42.030\nlike configuring multiple\nuser accounts on a system.\n\n33\n00:01:42.030 --> 00:01:44.950\nWell, if it's your home computer, you're\nprobably the only person who uses it,\n\n34\n00:01:44.950 --> 00:01:46.940\nyou're not gonna need\nmultiple user accounts.\n\n35\n00:01:46.940 --> 00:01:50.430\nBut in a workplace,\nit's very common to have shared computers,\n\n36\n00:01:50.430 --> 00:01:52.940\nwhere you might have ten different\nemployees that could sit down and\n\n37\n00:01:52.940 --> 00:01:54.700\nuse a computer at a particular time.\n\n38\n00:01:54.700 --> 00:01:56.420\nAnd that's something we have to support.\n\n39\n00:01:56.420 --> 00:02:01.478\nSo if you're using Linux in the workplace,\nthis series is really gonna benefit you.\n\n40\n00:02:01.478 --> 00:02:05.950\nNow, if you're a home user, but you're\nthinking about getting a job supporting\n\n41\n00:02:05.950 --> 00:02:09.390\nLinux in the workplace, then again, this\nis gonna be a great skill set to have,\n\n42\n00:02:09.390 --> 00:02:12.080\nthat you'll be able to use when you\nget out there in the workforce.\n\n43\n00:02:12.080 --> 00:02:13.510\nSo either side can benefit,\n\n44\n00:02:13.510 --> 00:02:16.780\nbut really, it is geared towards people\nsupporting Linux in the workplace.\n\n45\n00:02:16.780 --> 00:02:18.797\n&gt;&gt; Now,\nis there a certification that you can get?\n\n46\n00:02:18.797 --> 00:02:21.449\n&gt;&gt; There are a number of\ncertifications that are out there, but\n\n47\n00:02:21.449 --> 00:02:23.940\nthis particular series\nisn't built around them.\n\n48\n00:02:23.940 --> 00:02:27.540\nWe wanted to focus specifically on the\nskills that you needed to support Linux\n\n49\n00:02:27.540 --> 00:02:29.800\nfrom that system administrator type role.\n\n50\n00:02:29.800 --> 00:02:34.217\nThere are certifications, like the CompTIA\nLinux+ and the LPIC-1 certification,\n\n51\n00:02:34.217 --> 00:02:37.710\nthat both cover everything I'm\ngonna cover here in this series.\n\n52\n00:02:37.710 --> 00:02:40.820\nBut they cover a lot more, also,\nthey go well beyond it, and so\n\n53\n00:02:40.820 --> 00:02:43.410\nthey're really designed for\nmore advanced Linux users.\n\n54\n00:02:43.410 --> 00:02:45.027\nIf you're just getting started\nin system administration,\n\n55\n00:02:45.027 --> 00:02:45.828\nthat can be really daunting.\n\n56\n00:02:45.828 --> 00:02:49.174\nSo we wanted to focus on the core\ntasks that were really important,\n\n57\n00:02:49.174 --> 00:02:53.150\nthe things that, really, you need\nto know out there in the workplace.\n\n58\n00:02:53.150 --> 00:02:56.710\nAnd then once you've got a grasp of that\nand a firm understanding, then you can\n\n59\n00:02:56.710 --> 00:02:59.520\nstart studying the more advanced things\nand move on to those other certifications.\n\n60\n00:02:59.520 --> 00:03:02.000\nWe've already got those courses\non the ITProTV site, so for\n\n61\n00:03:02.000 --> 00:03:04.910\nthose of you who are ready for\nthat, you can jump right to it.\n\n62\n00:03:04.910 --> 00:03:07.380\nBut for everybody else,\nthis is where we'll want to start.\n\n63\n00:03:07.380 --> 00:03:09.760\n&gt;&gt; And\nwhat topics are covered in this series?\n\n64\n00:03:09.760 --> 00:03:13.610\n&gt;&gt; All right, so we cover a lot of neat\nthings, and this is an evolving course, so\n\n65\n00:03:13.610 --> 00:03:15.170\nwe can always add more things to it later.\n\n66\n00:03:15.170 --> 00:03:17.360\nBut the core things that\nwe're gonna cover are,\n\n67\n00:03:17.360 --> 00:03:18.990\nfirst off, learning system administration.\n\n68\n00:03:18.990 --> 00:03:21.620\nSo what do we mean by\nsystem administration, and\n\n69\n00:03:21.620 --> 00:03:24.720\nwhy is that different than\non a personal computer?\n\n70\n00:03:24.720 --> 00:03:27.060\nThen we'll take a look\nat installing Linux.\n\n71\n00:03:27.060 --> 00:03:30.250\nI know it seems like installing Linux is\npretty easy, you boot the computer up and\n\n72\n00:03:30.250 --> 00:03:31.407\nyou press next 15 times.\n\n73\n00:03:31.407 --> 00:03:32.100\n&gt;&gt; [LAUGH]\n&gt;&gt; But\n\n74\n00:03:32.100 --> 00:03:35.443\nthere's a lot of choices you can\nmanipulate in there that change the way\n\n75\n00:03:35.443 --> 00:03:38.840\nthe computer behaves, and so we're gonna\ntake a look at how that gets installed.\n\n76\n00:03:38.840 --> 00:03:40.260\nThen we'll take a look at getting and\n\n77\n00:03:40.260 --> 00:03:44.770\nmanaging software, how we load software on\nthe system, how we keep it up to date, and\n\n78\n00:03:44.770 --> 00:03:47.830\nhow we can manage that and\ncontrol people's access to it.\n\n79\n00:03:47.830 --> 00:03:49.560\nThen we take a look at\nmanaging user accounts.\n\n80\n00:03:49.560 --> 00:03:52.068\nI mentioned in the workplace,\nit's not uncommon to have shared systems.\n\n81\n00:03:52.068 --> 00:03:56.097\nSo how do we control user access, and\nrestrict access to some people and\n\n82\n00:03:56.097 --> 00:03:57.780\nallow access to others?\n\n83\n00:03:57.780 --> 00:03:59.305\nWe'll get a chance to see that.\nAnd then finally,\n\n84\n00:03:59.305 --> 00:04:03.837\nwe'll talk about managing disks and file\nsystems, how we control the way that our\n\n85\n00:04:03.837 --> 00:04:08.236\nhard drives are presented to the operating\nsystem, who has access to what, and\n\n86\n00:04:08.236 --> 00:04:11.080\nthe other resources that\nare found inside of that.\n\n87\n00:04:11.080 --> 00:04:14.312\nSo all of this is kinda pertaining to\nkeeping our system up and running, and\n\n88\n00:04:14.312 --> 00:04:17.543\nhealthy, and the things that we do in\nthe workplace, things like adding or\n\n89\n00:04:17.543 --> 00:04:20.555\nreplacing a hard drive, and\nhow that's reflected inside of the OS.\n\n90\n00:04:20.555 --> 00:04:24.370\nThose are things we need to know if we're\ngoing to be a system administrator.\n\n91\n00:04:24.370 --> 00:04:27.630\n&gt;&gt; So if Becoming a Linux System\nAdministrator sounds interesting to you,\n\n92\n00:04:27.630 --> 00:04:30.850\nmake sure you check out all the videos,\nall the lessons in the series.\n\n93\n00:04:30.850 --> 00:04:37.172\nThank you for watching.\n[MUSIC]\n\n",
+          "url": "overview-linux-sys",
+          "vimeoId": "223335912"
+        },
+        {
+          "description": "In this show, Cherokee and Don explore graphical tools that can be used to help manage systems. First, they look at OS integrated features such as, system-config commands. Next, they look at tools specific to the window manager GNOME. Lastly, they cover some web based third party tools such as Webmin, Cockpit, and CUPS.",
+          "length": "1739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-1-graphical_administration_tools-062617-PGM.00_28_42_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-1-graphical_administration_tools-062617-PGM.00_28_42_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-1-graphical_administration_tools-062617-PGM.00_28_42_24.Still001-sm.jpg",
+          "title": "Graphical Administration Tools",
+          "transcript": "",
+          "url": "graphical-administration-tools",
+          "vimeoId": "223336028"
+        },
+        {
+          "description": "In this episode Don and Cherokee define the root user account. Don explains the high level access this account carries and suggests using it on an as needed basis. He demonstrates a couple of alternative methods of temporary elevated access such as using superuser (sd) and superuser do (sudo). Don also suggests using a syntax checker (visudo) to help prevent typos.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-2-the_root_user_account-062617-PGM.00_31_17_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-2-the_root_user_account-062617-PGM.00_31_17_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-2-the_root_user_account-062617-PGM.00_31_17_07.Still001-sm.jpg",
+          "title": "The root User Account",
+          "transcript": "",
+          "url": "root-user-account",
+          "vimeoId": "223443122"
+        },
+        {
+          "description": "In this show, Cherokee and Don focus on command to manage systems. First, Don explains the different folder locations such as /sbin and /usr/sbin he also explains the importance of certain files the system requires to boot. They also discuss additional locations one may find helpful tools. Many tools are demonstrated including the tools listed in the /etc folder.",
+          "length": "1571",
+          "thumbnail": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-1-administrative_commands-062617-PGM.00_28_12_24.Still001.png",
+          "thumbnailMed": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-1-administrative_commands-062617-PGM.00_28_12_24.Still001-med.jpg",
+          "thumbnailSm": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-1-administrative_commands-062617-PGM.00_28_12_24.Still001-sm.jpg",
+          "title": "Administrative Commands",
+          "transcript": "",
+          "url": "administrative-commands",
+          "vimeoId": "223443887"
+        },
+        {
+          "description": "In this show, Don and Cherokee continue to examine helpful administrative commands. They specifically focus on system logs. Don explains how journald is making its way into the market but may not be supported by all applications thus making it important to also check syslogd for important log information.",
+          "length": "1180",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-2-administrative_commands_part_2-062617-PGM.00_19_24_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-2-administrative_commands_part_2-062617-PGM.00_19_24_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-3-2-administrative_commands_part_2-062617-PGM.00_19_24_26.Still001-sm.jpg",
+          "title": "Administrative Commands Part 2",
+          "transcript": "",
+          "url": "administrative-commands2",
+          "vimeoId": "223444118"
+        },
+        {
+          "description": "In this episode, Cherokee and Don focus on hardware. They explain how the system detects and identifies different components. They look at how to identify if hardware is working properly by using tools such as dmessage and journalctl. Doe demonstrates how hardware should be detected by udevd. He also explains how overrides can be used as well as using ls to list different buses.",
+          "length": "1705",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-1-configuring_hardware-062717-PGM.00_28_20_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-1-configuring_hardware-062717-PGM.00_28_20_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-1-configuring_hardware-062717-PGM.00_28_20_02.Still001-sm.jpg",
+          "title": "Configuring Hardware",
+          "transcript": "",
+          "url": "configuring-hardware",
+          "vimeoId": "223444550"
+        },
+        {
+          "description": "In this show, Don and Cherokee continue to discuss hardware. First, they look at drivers and Don demonstrates how to use lsmod to view loaded modules. He also shows additional how to obtain additional info using modinfo, -v, -vv and more.",
+          "length": "1709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-2-configuring_hardware_pt_2-062717-PGM.00_28_14_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-2-configuring_hardware_pt_2-062717-PGM.00_28_14_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-1-4-2-configuring_hardware_pt_2-062717-PGM.00_28_14_29.Still001-sm.jpg",
+          "title": "Configuring Hardware Part 2",
+          "transcript": "",
+          "url": "configuring-hardware2",
+          "vimeoId": "223444297"
+        }
+      ],
+      "title": "Learning System Administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Don and Cherokee prepare for an Ubuntu installation. Don explains where to download the installation file, which version may be right for you and how to prepare a USB for a bootable install.",
+          "length": "1696",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-1-installing_ubuntu-062717-PGM.00_28_02_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-1-installing_ubuntu-062717-PGM.00_28_02_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-1-installing_ubuntu-062717-PGM.00_28_02_26.Still001-sm.jpg",
+          "title": "Installing Ubuntu",
+          "transcript": "",
+          "url": "installing-ubuntu",
+          "vimeoId": "223444779"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue walking you through installing Ubuntu Linux. Here they will demonstrate and explain booting from usb media to launch the installer, explain the different installation types, configure\\partition the hard disk, and create the 1st user account.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-2-installing_ubuntu_pt_2-062817-PGM.00_30_47_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-2-installing_ubuntu_pt_2-062817-PGM.00_30_47_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-2-installing_ubuntu_pt_2-062817-PGM.00_30_47_26.Still001-sm.jpg",
+          "title": "Installing Ubuntu Part 2",
+          "transcript": "",
+          "url": "installing-ubuntu2",
+          "vimeoId": "223606405"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish walking you through installing Ubuntu Linux. Here they will demonstrate finishing up the install, perform software and kernel updates, and look for any hardware errors that would need troubleshooting with dmesg.",
+          "length": "1181",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-3-installing_ubuntu_pt_3-062817-PGM.00_19_25_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-3-installing_ubuntu_pt_3-062817-PGM.00_19_25_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-1-3-installing_ubuntu_pt_3-062817-PGM.00_19_25_25.Still001-sm.jpg",
+          "title": "Installing Ubuntu Part 3",
+          "transcript": "",
+          "url": "installing-ubuntu3",
+          "vimeoId": "223606784"
+        },
+        {
+          "description": "In this episode, Daniel and Don begin walking you through installing Fedora Linux as your Operating System. Here they show you how to obtain the Fedora Linux installation software as well as creating a bootable usb key with dd while explaining how to use RawWrite32 or the Fedora Media Writer for Win32 and/or Mac users.",
+          "length": "1481",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-1-installing_fedora-062817-PGM.00_25_03_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-1-installing_fedora-062817-PGM.00_25_03_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-1-installing_fedora-062817-PGM.00_25_03_14.Still001-sm.jpg",
+          "title": "Installing Fedora",
+          "transcript": "",
+          "url": "installing-fedora",
+          "vimeoId": "223606629"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue walking you through installing Fedora Linux. Here they demonstrate how to boot the installation media from a usb key, explore configuring the hard disk partitions, configuring the time zone, and setting up network connectivity in the installer.",
+          "length": "2251",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-2-installing_fedora_pt_2-062917-PGM.00_37_15_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-2-installing_fedora_pt_2-062917-PGM.00_37_15_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-2-installing_fedora_pt_2-062917-PGM.00_37_15_02.Still001-sm.jpg",
+          "title": "Installing Fedora Part 2",
+          "transcript": "",
+          "url": "installing-fedora2",
+          "vimeoId": "224336045"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish walking you through installing Fedora Linux. Here they will explore and explain logging in for the first time, and post-install administration like checking for hardware error with dmesg and installing software and/or kernel updates.",
+          "length": "1622",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-3-installing_fedora_pt_3-062917-PGM.00_28_13_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-3-installing_fedora_pt_3-062917-PGM.00_28_13_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-2-3-installing_fedora_pt_3-062917-PGM.00_28_13_10.Still001-sm.jpg",
+          "title": "Installing Fedora Part 3",
+          "transcript": "",
+          "url": "installing-fedora3",
+          "vimeoId": "224335387"
+        },
+        {
+          "description": "In this episode, Daniel and Don take a look at performing an unattended installation of your Linux distro. Here they will explain and explore how to use Kickstart to build an answer file which will answer all the necessary configuration questions for a light-touch install. Then they will show you how to deploy your Kickstart answer file to install the OS.",
+          "length": "1769",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-3-enterprise_installation-062917-PGM.00_29_27_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-3-enterprise_installation-062917-PGM.00_29_27_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-3-enterprise_installation-062917-PGM.00_29_27_29.Still001-sm.jpg",
+          "title": "Enterprise Installations",
+          "transcript": "",
+          "url": "enterprise-installations",
+          "vimeoId": "224335704"
+        },
+        {
+          "description": "Don and Zach discuss what 'Dual Booting' is, what are the considerations/gotchas involved in setting up and using, virtualization, configuring Dual Boot, and maintenance considerations of a Dual Boot config.",
+          "length": "1768",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-1-dual_booting-070317-PGM.00_29_13_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-1-dual_booting-070317-PGM.00_29_13_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-1-dual_booting-070317-PGM.00_29_13_10.Still001-sm.jpg",
+          "title": "Dual Booting",
+          "transcript": "",
+          "url": "dual-booting",
+          "vimeoId": "224336449"
+        },
+        {
+          "description": "Don and Zach conclude the discussion on considerations of using Dual Boot configurations on various 'Distros' & operating systems, using SELinux, configuring 'Grub,' and pushing changes to Grub.",
+          "length": "1492",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-2-dual_booting_pt_2-070317-PGM.00_24_36_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-2-dual_booting_pt_2-070317-PGM.00_24_36_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-2-4-2-dual_booting_pt_2-070317-PGM.00_24_36_25.Still001-sm.jpg",
+          "title": "Dual Booting Part 2",
+          "transcript": "",
+          "url": "dual-booting2",
+          "vimeoId": "224336759"
+        }
+      ],
+      "title": "Installing Linux"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what 'Apt\" is, why we would need a utility like Apt, using 'Apt-Get' to acquire software and track dependencies, upgrading and installing packages, acquiring 3rd party software, how we remove packages once installed, Apt repositories, and what 'Aptitude' is.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-1-managing_software_with_apt-070517-PGM.00_30_49_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-1-managing_software_with_apt-070517-PGM.00_30_49_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-1-managing_software_with_apt-070517-PGM.00_30_49_15.Still001-sm.jpg",
+          "title": "Managing Software with Apt",
+          "transcript": "",
+          "url": "managing-softwareapt",
+          "vimeoId": "224468788"
+        },
+        {
+          "description": "Don and Zach discuss the utilities of YUM & DNF, history of them, differences between the two, how to use the utilities, where we can acquire software from, using 'Checksum, using the 'Repository,' installing software, and importing the \"Signing Key.\"",
+          "length": "1687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-2-managing_software_with_yumdnf-070317-PGM.00_27_49_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-2-managing_software_with_yumdnf-070317-PGM.00_27_49_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-3-2-managing_software_with_yumdnf-070317-PGM.00_27_49_06.Still001-sm.jpg",
+          "title": "Managing Software with YUM/DNF",
+          "transcript": "",
+          "url": "managing-softwareyumdnf",
+          "vimeoId": "224337048"
+        }
+      ],
+      "title": "Getting and Managing Software"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach cover how we create user accounts and why, deleting or changing user accounts, creating or changing passwords for users, deleting passwords or forcing expiration, where new user log-in default settings come from, and how administrators get info about user accounts in system.",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-1-creating_user_accounts-070517-PGM.00_37_20_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-1-creating_user_accounts-070517-PGM.00_37_20_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-1-creating_user_accounts-070517-PGM.00_37_20_23.Still001-sm.jpg",
+          "title": "Creating User Accounts",
+          "transcript": "",
+          "url": "creating-user-accounts",
+          "vimeoId": "224655759"
+        },
+        {
+          "description": "Don and Zach discuss why we need groups, how we create them, how we use them, and how as an administrator we can access info to see what groups a user is part of.",
+          "length": "1450",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-2-understanding_group_accounts-070517-PGM.00_23_54_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-2-understanding_group_accounts-070517-PGM.00_23_54_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-2-understanding_group_accounts-070517-PGM.00_23_54_19.Still001-sm.jpg",
+          "title": "Understanding Group Accounts",
+          "transcript": "",
+          "url": "understandingaccounts",
+          "vimeoId": "224469115"
+        },
+        {
+          "description": "Don and Zach discuss what Advanced Permissions are, how they differ from Basic Permissions, what we need two sets of permissions, how we create users, create groups, filesystem Access Control Lists, what 'ACL' is, how to enable the ACL, assigning permissions for a user, assigning permissions for a group, directory permissions, and what a 'Sticky Bit' is.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-3-advanced_permissions-070717-PGM.00_43_03_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-3-advanced_permissions-070717-PGM.00_43_03_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-4-3-advanced_permissions-070717-PGM.00_43_03_08.Still001-sm.jpg",
+          "title": "Advanced Permissions",
+          "transcript": "",
+          "url": "advanced-permissions",
+          "vimeoId": "224932265"
+        }
+      ],
+      "title": "Managing User Accounts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what partitioning systems are, why they are useful, MBR partitions, GPT partitions, how to use these systems, partitioning an MBR disk, using 'Gdisk' for GPT disks, and other tools to use for partitioning,",
+          "length": "1709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-1-partitioning_disks-070617-PGM.00_28_14_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-1-partitioning_disks-070617-PGM.00_28_14_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-1-partitioning_disks-070617-PGM.00_28_14_05.Still001-sm.jpg",
+          "title": "Partitioning Disks",
+          "transcript": "",
+          "url": "partitioning-disks",
+          "vimeoId": "224656016"
+        },
+        {
+          "description": "Don and Zach cover selecting a filesystem when formatting disks, different filesystems & their functionality, creating a filesystem, formatting a filesystem, resizing filesystems, mounting & un-mounting partitions, making mounting changes permanent, and mount points.",
+          "length": "2088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-2-formatting_and_mounting_disks-070617-PGM.00_34_32_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-2-formatting_and_mounting_disks-070617-PGM.00_34_32_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-2-formatting_and_mounting_disks-070617-PGM.00_34_32_24.Still001-sm.jpg",
+          "title": "Formatting and Mounting Disks",
+          "transcript": "",
+          "url": "formattingmounting-disks",
+          "vimeoId": "224656298"
+        },
+        {
+          "description": "Don and Zach discuss what LVM is, why we would choose LVM over other traditional volumes, how we use LVM, creating physical volumes, creating a volume group, formatting and mounting logical volume, adding storage to volume group, maintenance, how we make mount permanent, and how we can remove mount.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-3-using_lvm-070617-PGM.00_29_18_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-3-using_lvm-070617-PGM.00_29_18_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxsysadmin/techskills-linuxsysadmin-5-3-using_lvm-070617-PGM.00_29_18_27.Still001-sm.jpg",
+          "title": "Using LVM",
+          "transcript": "",
+          "url": "using-lvm",
+          "vimeoId": "224656612"
+        }
+      ],
+      "title": "Managing Disks and Filesystems"
+    }
+  ],
+  "url": "becominglinux-admin",
+  "vLab": false
+}

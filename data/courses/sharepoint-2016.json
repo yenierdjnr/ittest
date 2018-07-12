@@ -1,0 +1,315 @@
+{
+  "description": "This series of videos will provide you with the knowledge and skills to plan and administer a Microsoft SharePoint 2016 environment. You will learn how to deploy, administer, and troubleshoot your SharePoint environment. These videos also provide guidelines, best practices, and considerations that help you optimize your SharePoint deployment.\n\nThis is the first in a sequence of two courses for IT professionals and is aligned with the SharePoint 2016 IT Pro certification.",
+  "descriptionMD": "",
+  "length": "41339",
+  "name": "SharePoint 2016 - 70-339",
+  "practiceExam": false,
+  "subtitle": "Planning and Administering SharePoint 2016",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This series of videos covers the knowledge and skills needed to configure and manage a Microsoft® SharePoint Server 2016 environment. You will learn how to configure SharePoint Server 2016, as well as provide guidelines, best practices, and considerations that will help you optimize your SharePoint server deployment. These videos align with the first exam in the SharePoint Server 2016 certification.",
+          "length": "806",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-0-0-overview-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-0-0-overview-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-0-0-overview-042016-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.012 --> 00:00:04.348\n[SOUND]\n\n2\n00:00:04.348 --> 00:00:09.400\n[MUSIC]\n\n3\n00:00:09.400 --> 00:00:11.293\nHello, welcome to ITProTV.\n\n4\n00:00:11.293 --> 00:00:14.311\nI am Mike Rodrick and\nwith me today is Mr. Mark Ingram.\n\n5\n00:00:14.311 --> 00:00:19.001\nAnd we're here to start recording\nour SharePoint 2016 series.\n\n6\n00:00:19.001 --> 00:00:23.637\nSo here to tell you a little bit more\nabout what to expect from the upcoming\n\n7\n00:00:23.637 --> 00:00:25.470\nvideos is Mr. Mark Ingram.\n\n8\n00:00:25.470 --> 00:00:26.510\nHow is it going, Mark?\n\n9\n00:00:26.510 --> 00:00:28.140\n>> Good, Mike, thanks very much.\n\n10\n00:00:28.140 --> 00:00:32.450\nWe have a lot to cover, and what's new?\n\n11\n00:00:32.450 --> 00:00:33.830\nWhat can SharePoint do?\n\n12\n00:00:33.830 --> 00:00:35.120\nWhat can't it do?\n\n13\n00:00:35.120 --> 00:00:36.900\nWe finally have a mature product now.\n\n14\n00:00:36.900 --> 00:00:40.220\nThe first version came out in 2001,\nwhich was a bit of a going show,\n\n15\n00:00:40.220 --> 00:00:44.070\nfrankly, but through major revisions and\nrefinement and feedback,\n\n16\n00:00:44.070 --> 00:00:46.220\nMicrosoft's got a stellar product.\n\n17\n00:00:46.220 --> 00:00:46.960\nIs it perfect?\n\n18\n00:00:46.960 --> 00:00:47.460\nNo.\n\n19\n00:00:47.460 --> 00:00:48.650\nCan it do a lot?\n\n20\n00:00:48.650 --> 00:00:50.650\nYes.\nIt can mean many things to many people.\n\n21\n00:00:50.650 --> 00:00:54.680\nSo I'm excited to tell you about all\nthe ways where SharePoint can help you\n\n22\n00:00:54.680 --> 00:00:59.898\nstreamline your workflows,\nyour collaboration and so much more.\n\n23\n00:00:59.898 --> 00:01:03.730\nSo we're gonna cover a bunch of\nthe objectives that we'll be talking about\n\n24\n00:01:03.730 --> 00:01:05.850\nin the episodes to come.\n\n25\n00:01:05.850 --> 00:01:06.400\n>> Very good, Mark.\n\n26\n00:01:06.400 --> 00:01:09.286\nNow is this course, are we gonna\nbe talking from the ground up,\n\n27\n00:01:09.286 --> 00:01:12.827\nlike somebody that's not familiar with\nSharePoint, never used it before,\n\n28\n00:01:12.827 --> 00:01:14.248\nis this a good course for them?\n\n29\n00:01:14.248 --> 00:01:18.285\n>> Absolutely, with no assumed prior\nSharePoint knowledge, a background,\n\n30\n00:01:18.285 --> 00:01:22.511\na general background in IT and working\nwith information is certainly useful but\n\n31\n00:01:22.511 --> 00:01:23.596\nwe assume nothing.\n\n32\n00:01:23.596 --> 00:01:26.871\n>> [LAUGH] And then for people that\nare familiar with SharePoint but\n\n33\n00:01:26.871 --> 00:01:31.220\nmaybe are new to SharePoint 2016,\nprobably be a good fit for them as well.\n\n34\n00:01:31.220 --> 00:01:34.710\n>> Absolutely, so what's in it for\nthe experienced SharePoint administrator?\n\n35\n00:01:34.710 --> 00:01:38.080\nMicrosoft has put a lot of\ninvestment into SharePoint Online.\n\n36\n00:01:38.080 --> 00:01:42.020\nIn fact, all the development really\nover the past number of years,\n\n37\n00:01:42.020 --> 00:01:43.240\na lot in SharePoint Online.\n\n38\n00:01:43.240 --> 00:01:47.670\nSo we'll all be working in some kind\nof hybrid environment eventually,\n\n39\n00:01:47.670 --> 00:01:50.230\nif not a pure\nSharePoint Online environment.\n\n40\n00:01:50.230 --> 00:01:55.206\nOf course, with that ties in with O 365,\nso if you're not in the cloud\n\n41\n00:01:55.206 --> 00:01:59.629\nnow it's time to jump on even in\na trial environment with Azure.\n\n42\n00:01:59.629 --> 00:02:01.823\nIt's definitely the future and\nthe future is now.\n\n43\n00:02:01.823 --> 00:02:02.867\nSo you wanna be ahead of the curve.\n\n44\n00:02:02.867 --> 00:02:08.235\nSo that's the reason for it, if you're an\nexperienced SharePoint administrator but\n\n45\n00:02:08.235 --> 00:02:11.922\ndo not yet use cloud services,\nthis course is also for you.\n\n46\n00:02:11.922 --> 00:02:12.770\n>> Very good.\n\n47\n00:02:12.770 --> 00:02:17.320\nSo, what kind of topics are we gonna cover\nas we progress through these episodes.\n\n48\n00:02:17.320 --> 00:02:19.920\n>> Well, we'll look at first\nan introduction to SharePoint,\n\n49\n00:02:19.920 --> 00:02:21.260\nsome of the key functionality.\n\n50\n00:02:21.260 --> 00:02:23.520\nAgain, it can be many\nthings to many people.\n\n51\n00:02:23.520 --> 00:02:26.890\nWe don't cover all\nthe technology of SharePoint.\n\n52\n00:02:26.890 --> 00:02:28.735\nWe have an advanced class for that.\n\n53\n00:02:28.735 --> 00:02:29.330\n>> [LAUGH].\n>> However,\n\n54\n00:02:29.330 --> 00:02:33.410\nyou'll get a good grounding and then we'll\nlook at a lot of the success of your\n\n55\n00:02:33.410 --> 00:02:37.070\nSharePoint deployment actually has\nnothing to do with touching the keyboard.\n\n56\n00:02:37.070 --> 00:02:39.320\nI'm talking about governance and planning.\n\n57\n00:02:39.320 --> 00:02:41.792\nSo the expression goes,\nif you don't have time to plan,\n\n58\n00:02:41.792 --> 00:02:43.345\nyou have to make time to plan later.\n\n59\n00:02:43.345 --> 00:02:48.238\nIn other words, after you've screwed up,\nplowed straight ahead without thinking,\n\n60\n00:02:48.238 --> 00:02:51.066\nsort of the ready, fire,\naim approach, right?\n\n61\n00:02:51.066 --> 00:02:53.370\nOr we'll fix it later, no.\n\n62\n00:02:53.370 --> 00:02:56.060\nSo we really slow you down\nin the beginning modules\n\n63\n00:02:56.060 --> 00:02:58.620\nlooking at things like\nan information architecture.\n\n64\n00:02:58.620 --> 00:03:02.020\nSo if you do deploy SharePoint and\nyou're new to product,\n\n65\n00:03:02.020 --> 00:03:04.540\nit's a great time to look at\nyour existing information,\n\n66\n00:03:04.540 --> 00:03:09.460\nhow it's stored, often with mergers and\nmaybe moving physical locations.\n\n67\n00:03:09.460 --> 00:03:13.992\nA lot of literal and\nfigurative IT related junk goes with you.\n\n68\n00:03:13.992 --> 00:03:16.710\nSo maybe a good time to\nprune out the old and\n\n69\n00:03:16.710 --> 00:03:20.130\nalso to standardize on classifications for\ndata.\n\n70\n00:03:20.130 --> 00:03:23.520\nSo that a customer for example,\nin the sales department\n\n71\n00:03:23.520 --> 00:03:25.810\nmeans the same thing as a customer\nin the marketing department.\n\n72\n00:03:25.810 --> 00:03:29.990\nIn terms of the data, how we describe\na customer, the data we retain etc.\n\n73\n00:03:29.990 --> 00:03:34.010\nSo, again governance is a key part of the\nsuccess of your SharePoint deployments.\n\n74\n00:03:34.010 --> 00:03:37.030\nWe talk about design and\ninformation architecture.\n\n75\n00:03:37.030 --> 00:03:41.780\nAnd then we go into designing,\nboth logical and physical architectures.\n\n76\n00:03:41.780 --> 00:03:43.910\nSo, how is information gonna flow?\n\n77\n00:03:43.910 --> 00:03:47.260\nHow many SharePoint service do\nyou need in your environment?\n\n78\n00:03:47.260 --> 00:03:48.560\nAre you gonna go hybrid?\n\n79\n00:03:48.560 --> 00:03:51.465\nAre you gonna go with\nthe purely online environment?\n\n80\n00:03:51.465 --> 00:03:53.366\nLot of questions to ask.\n\n81\n00:03:53.366 --> 00:03:55.025\nOffice 365 integration?\n\n82\n00:03:55.025 --> 00:03:56.430\nAre you gonna choose Yammer?\n\n83\n00:03:56.430 --> 00:03:59.390\nAre you integrating SharePoint\nwith Exchange and Lync?\n\n84\n00:03:59.390 --> 00:04:00.389\nI know I've asked a lot of questions here.\n\n85\n00:04:00.389 --> 00:04:01.063\n>> Wow, yeah.\n\n86\n00:04:01.063 --> 00:04:05.167\n>> But these are some of the questions\nwe'll answer as you watch the episodes and\n\n87\n00:04:05.167 --> 00:04:07.331\nwatch the demos and our witty repartee.\n\n88\n00:04:07.331 --> 00:04:10.943\n>> [LAUGH]\n>> Some of the jokes are lame frankly,\n\n89\n00:04:10.943 --> 00:04:13.700\nbut you take it with the bad,\nit's a mixed bag.\n\n90\n00:04:13.700 --> 00:04:17.510\nSo installing configuring the product,\nwe get into that.\n\n91\n00:04:17.510 --> 00:04:20.922\nNot at first, we get into that\nlater because again, we really want\n\n92\n00:04:20.922 --> 00:04:26.150\nyou to consider the governance aspects and\nthe planning first before installing.\n\n93\n00:04:26.150 --> 00:04:30.824\nSo, we'll look at farm settings, so\nSharePoint farm is your entire SharePoint\n\n94\n00:04:30.824 --> 00:04:34.204\ndeployment, what settings have\nto be made at that level.\n\n95\n00:04:34.204 --> 00:04:39.038\nProvisioning of farm settings like\nincoming email and outgoing email,\n\n96\n00:04:39.038 --> 00:04:41.821\nintegration with Office WebApp Server.\n\n97\n00:04:41.821 --> 00:04:44.422\nAnd we show you how to\ncreate web applications and\n\n98\n00:04:44.422 --> 00:04:46.550\nsite collections in SharePoint.\n\n99\n00:04:46.550 --> 00:04:50.500\nSo a way of allowing for\nextending IIS websites to allow for\n\n100\n00:04:50.500 --> 00:04:52.358\nSharePoint functionality.\n\n101\n00:04:52.358 --> 00:04:54.610\nAnd with it,\nonce we create site collections,\n\n102\n00:04:54.610 --> 00:04:58.318\nthen we can start creating other objects,\ndocument libraries, sub-sites,\n\n103\n00:04:58.318 --> 00:05:02.530\net cetera, and really start using\nSharePoint for what it's intended for.\n\n104\n00:05:02.530 --> 00:05:04.620\nWe have a variety of service\napplications as well,\n\n105\n00:05:04.620 --> 00:05:09.020\nso we can provide services like search and\nbusiness connectivity services.\n\n106\n00:05:09.020 --> 00:05:11.550\nSo one of the great things about\nSharePoint, we can connect to\n\n107\n00:05:11.550 --> 00:05:14.980\nany organized data source and\nbring it into a SharePoint environment.\n\n108\n00:05:14.980 --> 00:05:18.710\nIn other words, have it searchable\nfrom within one interface.\n\n109\n00:05:18.710 --> 00:05:24.140\nSome people deploy SharePoint, their prime\ndriver is search because the user is so\n\n110\n00:05:24.140 --> 00:05:28.040\nfrazzled to having to go to multiple\ndata repositories with different search\n\n111\n00:05:28.040 --> 00:05:32.430\nterminology and queries just to try and\nextract data they need to do their job.\n\n112\n00:05:32.430 --> 00:05:36.759\nSo one of the topics we look at in this\ncourse as well is that users often spend\n\n113\n00:05:36.759 --> 00:05:41.641\n20 to 40% of their time throughout the\nwork week just looking for information,\n\n114\n00:05:41.641 --> 00:05:43.670\nnot even doing anything with it.\n\n115\n00:05:43.670 --> 00:05:47.280\nNot synthesizing, prioritizing,\ndeleting, forwarding,\n\n116\n00:05:47.280 --> 00:05:50.800\ncreating reports, not just looking for\nit and often they get frustrated and\n\n117\n00:05:50.800 --> 00:05:53.170\nrecreate it, a total waste of time.\n\n118\n00:05:53.170 --> 00:05:57.800\nSo by properly designing a search\ninterface in SharePoint, no matter where\n\n119\n00:05:57.800 --> 00:06:03.000\nthat data lives, inside your firewall,\ncompetitors' websites, news sources,\n\n120\n00:06:03.000 --> 00:06:07.693\ngovernment repositories, SQL databases,\nOracle databases, any organized data\n\n121\n00:06:07.693 --> 00:06:12.190\nsource can be indexed, searchable from\nSharePoint and have the results displayed.\n\n122\n00:06:12.190 --> 00:06:14.606\nAlso the content from those external and\n\n123\n00:06:14.606 --> 00:06:18.952\ninternal data resources can be\ndisplayed in a dashboard in SharePoint.\n\n124\n00:06:18.952 --> 00:06:22.774\nSo, that was Bill Gates' idea back\nin the day in the 90's I believe,\n\n125\n00:06:22.774 --> 00:06:26.686\nthe digital dashboard, he got\ncredited with that, that terminology.\n\n126\n00:06:26.686 --> 00:06:31.219\nSo the idea of you get information feeding\ninto one screen rather then you having to\n\n127\n00:06:31.219 --> 00:06:32.940\ngo look at it, it comes to you.\n\n128\n00:06:32.940 --> 00:06:37.365\nAnd that could be things like KPIs,\nstock reports, baseball scores.\n\n129\n00:06:37.365 --> 00:06:40.350\n>> [LAUGH]\n>> Weather information,\n\n130\n00:06:40.350 --> 00:06:42.420\ninformation on your commute time.\n\n131\n00:06:42.420 --> 00:06:46.671\nOther KPIs like turnover,\nyear-to-date sales, whatever is important\n\n132\n00:06:46.671 --> 00:06:50.728\nto you can come to you as opposed to\nyou having to manually go look for it.\n\n133\n00:06:50.728 --> 00:06:55.107\nWe'll talk, we'll have that information\ndisplayed in a SharePoint context.\n\n134\n00:06:55.107 --> 00:06:58.995\nWe also, it can be very complicated if\nyou don't do it properly in terms of\n\n135\n00:06:58.995 --> 00:07:02.592\ngranting the right access to content\nin a SharePoint environment.\n\n136\n00:07:02.592 --> 00:07:05.525\nSo, as always,\nthe law of least privilege applies.\n\n137\n00:07:05.525 --> 00:07:10.250\nGive people just enough rights and\npermissions to do the job, but no more.\n\n138\n00:07:10.250 --> 00:07:13.020\nSometimes people get lazy and\nsay we'll make that person a local admin,\n\n139\n00:07:13.020 --> 00:07:16.272\nand then you hope they don't realize what\nthey can do with local admin privileges.\n\n140\n00:07:16.272 --> 00:07:17.045\n>> [LAUGH]\n>> And\n\n141\n00:07:17.045 --> 00:07:20.490\nthat's often the fault of the application\ncreator because they didn't\n\n142\n00:07:20.490 --> 00:07:23.930\nconfigure the app properly so you have to\nprovide more permissions than possible.\n\n143\n00:07:23.930 --> 00:07:27.541\nBut in a SharePoint context, we'll\nshow you what permissions to apply and\n\n144\n00:07:27.541 --> 00:07:31.110\nwhere inheritance kicks in, and\nwhy you might wanna break inheritance?\n\n145\n00:07:32.550 --> 00:07:35.270\nAnd we'll look at different\nways of authenticating as well.\n\n146\n00:07:35.270 --> 00:07:38.800\nSo not just internally in\nour own organization but\n\n147\n00:07:38.800 --> 00:07:42.620\nhow can we provide a certain kind of\naccess to say partner organization so they\n\n148\n00:07:42.620 --> 00:07:47.350\ncan access certain documents or content on\nour SharePoint site, without the hassle of\n\n149\n00:07:47.350 --> 00:07:50.650\nus having to give them accounts in\nour active directory environment.\n\n150\n00:07:50.650 --> 00:07:53.280\nSo you might have set up\nfederation services before for\n\n151\n00:07:53.280 --> 00:07:56.530\nother kinds of collaboration between\norganizations, a similar process here.\n\n152\n00:07:56.530 --> 00:08:01.040\nWe'll show you exactly what to do to\nconfigure that partner authorization.\n\n153\n00:08:01.040 --> 00:08:03.460\nAnd then also we'll get into\nhardening the platform somewhat.\n\n154\n00:08:03.460 --> 00:08:07.140\nSecuring the platform so\nfarm level security, settings,\n\n155\n00:08:07.140 --> 00:08:09.720\nchanges to make in your\nSQL server backend,\n\n156\n00:08:09.720 --> 00:08:15.090\nto make hacking a little harder and make\nyour information a little more secure.\n\n157\n00:08:15.090 --> 00:08:19.780\nAlso we got total control over\nthe kinds of content people can save\n\n158\n00:08:19.780 --> 00:08:21.000\nin a SharePoint context.\n\n159\n00:08:21.000 --> 00:08:24.330\nWe'll look at how to block certain file\ntypes from living in your SharePoint\n\n160\n00:08:24.330 --> 00:08:24.850\nenvironment.\n\n161\n00:08:25.970 --> 00:08:27.420\nTaxonomy is a big part.\n\n162\n00:08:27.420 --> 00:08:29.270\nThis goes back to governance and planning.\n\n163\n00:08:29.270 --> 00:08:33.430\nSo taxonomy, a good example of\ntaxonomy is the duodecimal system.\n\n164\n00:08:33.430 --> 00:08:38.180\nIt's robust, it stood the test of time for\na 100 years or more.\n\n165\n00:08:38.180 --> 00:08:41.896\nSo, no matter if you went to college\n50 years ago or five years ago or\n\n166\n00:08:41.896 --> 00:08:45.525\nfive years in the future,\nthat duodecimal system still holds up.\n\n167\n00:08:45.525 --> 00:08:50.050\nIt still allows for\nthe classification of new knowledge and\n\n168\n00:08:50.050 --> 00:08:51.330\ncoexistence with old knowledge.\n\n169\n00:08:51.330 --> 00:08:54.198\nSo that is a kind of taxonomy, an example.\n\n170\n00:08:54.198 --> 00:09:01.770\nOther taxonomy examples from the world of\nspecies, fish, even plant life, rocks.\n\n171\n00:09:01.770 --> 00:09:06.490\nI mean there's a schema or an organized\nplan for how to classify that information.\n\n172\n00:09:06.490 --> 00:09:10.680\nSo, in a SharePoint context as it relates\nto your organization, you need to have\n\n173\n00:09:10.680 --> 00:09:15.520\na way of classifying information\nto make management of it easier.\n\n174\n00:09:15.520 --> 00:09:18.080\nBut also to make finding content or\n\n175\n00:09:18.080 --> 00:09:21.380\nthe findability of your\ninformation that much easier.\n\n176\n00:09:21.380 --> 00:09:25.655\nSo we'll look at metadata, which is\ninvolved in classifying and part of your\n\n177\n00:09:25.655 --> 00:09:31.580\ntaxonomy and why you probably want to\ncollect more metadata than you are now.\n\n178\n00:09:31.580 --> 00:09:35.625\nWe look at ways to automate that\ncollection process so that users aren't\n\n179\n00:09:35.625 --> 00:09:39.935\nhassled with having to enter multiple\nfields manually or pick from a list when\n\n180\n00:09:39.935 --> 00:09:44.146\nthey try and save a document in\na SharePoint document library for example.\n\n181\n00:09:44.146 --> 00:09:46.328\nUser profile is another\nsection of the course.\n\n182\n00:09:46.328 --> 00:09:50.687\nThis is great because we can import\ncontent from active directory so\n\n183\n00:09:50.687 --> 00:09:55.000\ninformation about individual users and\nadd to it big time.\n\n184\n00:09:55.000 --> 00:09:58.560\nSo we can surface more resources or\n\n185\n00:09:58.560 --> 00:10:01.230\nmore intellectual resources if you\nlike throughout our organization.\n\n186\n00:10:01.230 --> 00:10:06.990\nSo, it's said that 50 to 75% of what's\nneeded to run your organization comes,\n\n187\n00:10:06.990 --> 00:10:09.870\nor lives in the minds of employees.\n\n188\n00:10:09.870 --> 00:10:13.630\nIn other words, it's not documented\nanywhere, so that means I can't search for\n\n189\n00:10:13.630 --> 00:10:15.680\nit easily until now.\n\n190\n00:10:15.680 --> 00:10:20.160\nBecause with SharePoint user profiles,\nthere are built in fields for\n\n191\n00:10:20.160 --> 00:10:25.140\nthings like alma mater,\nhobbies, programming languages.\n\n192\n00:10:25.140 --> 00:10:29.710\nAnything you want to expose like that that\nthere's no active directory field for,\n\n193\n00:10:29.710 --> 00:10:30.670\nthere is in SharePoint.\n\n194\n00:10:30.670 --> 00:10:32.570\nWe can also create custom fields as well.\n\n195\n00:10:32.570 --> 00:10:35.420\nWhat this means is when I'm searching for\ninformation, say,\n\n196\n00:10:35.420 --> 00:10:36.669\non a programming language.\n\n197\n00:10:37.770 --> 00:10:41.760\nI dont just get some documentation,\nI can find Fred Smith\n\n198\n00:10:41.760 --> 00:10:46.730\nover in Anchorage is an expert in Python,\nfor example.\n\n199\n00:10:46.730 --> 00:10:48.244\nIm gonna ping Fred right now,\n\n200\n00:10:48.244 --> 00:10:51.592\nwith presence awareness\nI can see Fred's online.\n\n201\n00:10:51.592 --> 00:10:53.050\nIm gonna ping him and ask him a question.\n\n202\n00:10:53.050 --> 00:10:56.214\nOtherwise I would not necessarily have\nknown that Fred was a Python expert,\n\n203\n00:10:56.214 --> 00:10:59.850\nespecially if you have a large\ngeographically disbursed organization.\n\n204\n00:10:59.850 --> 00:11:01.660\nSo it can really make\n\n205\n00:11:02.950 --> 00:11:06.810\nemployees more resourceful to other\nemployees in the organization.\n\n206\n00:11:08.010 --> 00:11:08.940\nEnterprise search.\n\n207\n00:11:08.940 --> 00:11:09.620\nSo as I mentioned,\n\n208\n00:11:09.620 --> 00:11:12.950\nsearch is a big reason why people\ndeploy SharePoint in the first place.\n\n209\n00:11:12.950 --> 00:11:15.090\nI'm not saying it's easy to setup,\n\n210\n00:11:15.090 --> 00:11:20.610\nwe'll show you some of the basics to set\nup Enterprise search in your environment.\n\n211\n00:11:20.610 --> 00:11:25.560\nThat can be frankly a multi day process\nand a thing,s something you tweak over\n\n212\n00:11:25.560 --> 00:11:31.520\ntime to increase or improve the quality of\nthe results from various search queries.\n\n213\n00:11:31.520 --> 00:11:33.920\nSo I'm not gonna kid you here.\n\n214\n00:11:33.920 --> 00:11:37.560\nIt requires librarian type skills\n\n215\n00:11:37.560 --> 00:11:41.940\nto be able to properly service\ninformation from search results.\n\n216\n00:11:41.940 --> 00:11:45.430\nAnd then we'd be remiss if we\ndidn't tell you how to monitor and\n\n217\n00:11:45.430 --> 00:11:47.110\nmaintain your SharePoint environment.\n\n218\n00:11:47.110 --> 00:11:51.830\nSo things like optimizing, caching,\nwe'll look at how to look at log files.\n\n219\n00:11:51.830 --> 00:11:53.740\nHealth analyzer rules.\n\n220\n00:11:53.740 --> 00:11:54.824\nHow to monitor network traffic?\n\n221\n00:11:54.824 --> 00:11:58.315\nHow to monitor, maybe a page loads slowly,\nhow to analyze that so\n\n222\n00:11:58.315 --> 00:12:02.199\nyou can identify elements of the page\nthat are causing it to load slowly?\n\n223\n00:12:02.199 --> 00:12:04.254\nOften it's a poorly written web part.\n\n224\n00:12:04.254 --> 00:12:08.365\nWe'll look at how to secure your\nenvironment that way as well in terms of\n\n225\n00:12:08.365 --> 00:12:09.118\nweb parts and\n\n226\n00:12:09.118 --> 00:12:14.700\ncontent that users can access to maintain\nthe overall security of your environment.\n\n227\n00:12:14.700 --> 00:12:15.240\n>> All right, Mark,\n\n228\n00:12:15.240 --> 00:12:19.120\nsounds like we've got a lot of information\nto go over that's gonna help me implement,\n\n229\n00:12:19.120 --> 00:12:22.900\ndeploy, work with, manage, and\nmaintain my SharePoint environment.\n\n230\n00:12:22.900 --> 00:12:25.890\nThere's also an exam associated\nwith this information, correct?\n\n231\n00:12:25.890 --> 00:12:26.590\n>> Absolutely, Mike.\n\n232\n00:12:26.590 --> 00:12:30.430\nIt's the 70-339 exam from Microsoft,\n\n233\n00:12:30.430 --> 00:12:35.180\nso we'll cover all\nthe objectives on the exam.\n\n234\n00:12:35.180 --> 00:12:38.500\nWill you be able to pass the exam\nafter watching these episodes?\n\n235\n00:12:38.500 --> 00:12:39.042\nOf course not.\n\n236\n00:12:39.042 --> 00:12:40.018\n[LAUGH]\n>> [LAUGH]\n\n237\n00:12:40.018 --> 00:12:41.950\n>> You gotta get some hands on.\n\n238\n00:12:41.950 --> 00:12:46.820\nAnd your day-to-day real world experience\nwith SharePoint will help tie you through.\n\n239\n00:12:46.820 --> 00:12:50.060\nGone are the days where you could just\nread a book or watch some videos and\n\n240\n00:12:50.060 --> 00:12:52.290\njust breeze in and\ncome out with a passing score.\n\n241\n00:12:52.290 --> 00:12:53.985\nSo I don't wanna get you\nunder any illusions.\n\n242\n00:12:53.985 --> 00:12:56.959\nHowever, we'll cover all the concepts\nthat do appear on the exam.\n\n243\n00:12:56.959 --> 00:13:00.824\nSo you're not gonna be surprised\nwhen you get hands on or\n\n244\n00:13:00.824 --> 00:13:04.700\nwhen you attempt the exam at\nthe questions that come up.\n\n245\n00:13:04.700 --> 00:13:05.660\n>> Very good Mark.\n\n246\n00:13:05.660 --> 00:13:08.960\nAll right, I'll tell you what, you've\ngot me excited about SharePoint 2016.\n\n247\n00:13:08.960 --> 00:13:11.852\nI hope everybody out there\nis as excited as I am.\n\n248\n00:13:11.852 --> 00:13:13.815\nIf you are, you are in the right place,\nstay tuned.\n\n249\n00:13:13.815 --> 00:13:16.891\nWe got some really exciting\nSharePoint episodes coming your way.\n\n250\n00:13:16.891 --> 00:13:25.959\n[MUSIC]\n\n",
+          "url": "overview70724",
+          "vimeoId": "164057236"
+        },
+        {
+          "description": "In this episode, Mark and Mike talk about the structure and capabilities of a SharePoint 2016 environment. They also discuss the major changes for IT professionals in SharePoint 2016, including key components of a SharePoint deployment, new features in SharePoint 2016, and deployment options.",
+          "length": "1570",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-1-1-introducing_sharepoint_2016-041116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-1-1-introducing_sharepoint_2016-041116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-1-1-introducing_sharepoint_2016-041116-1-sm.jpg",
+          "title": "Introducing SharePoint 2016",
+          "transcript": "",
+          "url": "introducing-sharepoint-2016",
+          "vimeoId": "162672954"
+        },
+        {
+          "description": "In this episode, Mark and Mike describe how to gather business requirements, and the key elements of a successful information architecture project. They also explain how to structure information within a SharePoint 2016 deployment and make it easy to find and retrieve.",
+          "length": "1308",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-2-1-designing-an-information-architecture-041116-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-2-1-designing-an-information-architecture-041116-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-2-1-designing-an-information-architecture-041116-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Designing an Information Architecture",
+          "transcript": "",
+          "url": "designing-information-architecture",
+          "vimeoId": "162672956"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss how to plan a logical architecture design for a SharePoint 2016 deployment. They talk about the importance of planning, and the importance of determining what the organization needs from a SharePoint deployment.",
+          "length": "1861",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-1-designing_a_logical_architecture-041116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-1-designing_a_logical_architecture-041116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-1-designing_a_logical_architecture-041116-1-sm.jpg",
+          "title": "Designing a Logical Architecture",
+          "transcript": "",
+          "url": "designing-logical-architecture",
+          "vimeoId": "163856407"
+        },
+        {
+          "description": "In this episode, Mark and Mike use some diagrams to help visualize the logical and physical deployment models used in a SharePoint 2016 deployment. They talk about the advantages of different architectures based on the organizations needs.",
+          "length": "1699",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-2-logical_and_physical_architecture-041218-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-2-logical_and_physical_architecture-041218-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-3-2-logical_and_physical_architecture-041218-1-sm.jpg",
+          "title": "Logical and Physical Architecture",
+          "transcript": "",
+          "url": "logical-physical-architecture",
+          "vimeoId": "162988112"
+        },
+        {
+          "description": "In this episode, Mark and Mike describe the physical design requirements for SharePoint 2016, and the physical components necessary to fulfill the physical architecture design. They also describe how to map a logical architecture design to a physical architecture design.",
+          "length": "1251",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-4-1-designing_a_physical_Aarchitecture-041116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-4-1-designing_a_physical_Aarchitecture-041116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-4-1-designing_a_physical_Aarchitecture-041116-1-sm.jpg",
+          "title": "Designing a Physical Architecture",
+          "transcript": "",
+          "url": "designing-physical-architecture",
+          "vimeoId": "162672953"
+        },
+        {
+          "description": "In this episode, Mark and Mike demonstrate installing SharePoint 2016. They go through the installation wizard, describing the different options available. Then they complete the initial farm configuration wizard to complete the installation process.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-1-1-installing_sharepoint_2016-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-1-1-installing_sharepoint_2016-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-1-1-installing_sharepoint_2016-041316-1-sm.jpg",
+          "title": "Installing SharePoint",
+          "transcript": "",
+          "url": "installing-sharepoint",
+          "vimeoId": "166210132"
+        },
+        {
+          "description": "In this episode, Mark and Mike begin their exploration of farm level settings. They look at managing servers and services, converting roles, and configuring email settings. They also look at alternate access management, enabling farm features and farm solutions.",
+          "length": "1823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-1-configuring_farm_settings-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-1-configuring_farm_settings-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-1-configuring_farm_settings-041318-1-sm.jpg",
+          "title": "Configuring Farm Settings",
+          "transcript": "",
+          "url": "configuring-farm-settings",
+          "vimeoId": "163859393"
+        },
+        {
+          "description": "In this episode, Mark and Mike continue their exploration of farm level settings. They look at configuring privacy options, and monitoring options like health analyzer and timer jobs. Then they cover some of the security settings, like the farm administrators group, distribution groups, and web application policies.",
+          "length": "1745",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-2-configuring_farm_settings_pt2-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-2-configuring_farm_settings_pt2-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-2-configuring_farm_settings_pt2-041318-1-sm.jpg",
+          "title": "Configuring Farm Settings Part 2",
+          "transcript": "",
+          "url": "configuring-farm-settings-2",
+          "vimeoId": "163858515"
+        },
+        {
+          "description": "In this episode, Mark and Mike continue their exploration of farm level settings. They explore settings that deal with managed accounts, authentication providers and antivirus settings. They also look at blocked file types, web part security, and self-service site collections settings.",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-3-configuring_farm_settings_pt3-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-3-configuring_farm_settings_pt3-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-3-configuring_farm_settings_pt3-041318-1-sm.jpg",
+          "title": "Configuring Farm Settings Part 3",
+          "transcript": "",
+          "url": "configuring-farm-settings-3",
+          "vimeoId": "163858244"
+        },
+        {
+          "description": "In this episode, Mark and Mike continue their exploration of farm level settings. They begin by looking at Information Rights Management settings and backup and restore settings. They explore upgrade and migration settings, patch management settings and database management. They also look at general application settings.",
+          "length": "1560",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-4-configuring_farm_settings_pt4-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-4-configuring_farm_settings_pt4-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-4-configuring_farm_settings_pt4-041318-1-sm.jpg",
+          "title": "Configuring Farm Settings Part 4",
+          "transcript": "",
+          "url": "configuring-farm-settings-4",
+          "vimeoId": "164294994"
+        },
+        {
+          "description": "In this episode, Mark and Mike finish their exploration of farm level settings. They look at farm level search settings.",
+          "length": "577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-5-configuring_farm_settings_pt5-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-5-configuring_farm_settings_pt5-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-5-2-5-configuring_farm_settings_pt5-041318-1-sm.jpg",
+          "title": "Configuring Farm Settings Part 5",
+          "transcript": "",
+          "url": "configuring-farm-settings-5",
+          "vimeoId": "162986281"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss how to create web applications and site collections. They also look at the various setting used to configure a web application.",
+          "length": "1615",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-1-creating_web_apps_and_site_collections-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-1-creating_web_apps_and_site_collections-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-1-creating_web_apps_and_site_collections-041318-1-sm.jpg",
+          "title": "Creating Web Apps and Site Collections",
+          "transcript": "",
+          "url": "creating-web-apps-site-collections",
+          "vimeoId": "164426182"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss how to configure a site collection. They look at the various settings and options available for a site collection.",
+          "length": "1708",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-2-configuring_site_collection-041318-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-2-configuring_site_collection-041318-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-6-2-configuring_site_collection-041318-1-sm.jpg",
+          "title": "Configuring Site Collection",
+          "transcript": "",
+          "url": "configuring-site-collection",
+          "vimeoId": "163856126"
+        },
+        {
+          "description": "In this episode, Mark and Mike describe the service application architecture in SharePoint 2016. They demonstrate how to provision and manage service applications through the GUI and using PowerShell. They also demonstrate creating service application proxy groups.",
+          "length": "1432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-7-1-plan_and_configure_service_applications-041418-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-7-1-plan_and_configure_service_applications-041418-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-7-1-plan_and_configure_service_applications-041418-1-sm.jpg",
+          "title": "Plan and Configure Service Applications",
+          "transcript": "",
+          "url": "plan-configure-service-applications",
+          "vimeoId": "166218361"
+        },
+        {
+          "description": "In this episode, Mark and Mike how configure authorization in SharePoint 2016. They create several groups in Active Directory and then create web application policies that grants permissions to those groups.",
+          "length": "1800",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-8-1-managing_users_and_permissions-041516-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-8-1-managing_users_and_permissions-041516-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-8-1-managing_users_and_permissions-041516-high-sm.jpg",
+          "title": "Managing Users and Permissions",
+          "transcript": "",
+          "url": "managing-users-permissions",
+          "vimeoId": "166216957"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss the SharePoint 2016 authentication infrastructure. They demonstrate how to configure claims, providers, and identity federation for SharePoint 2016. They also configure SharePoint to trust ADFS as an identity provider.",
+          "length": "1202",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-9-1-configuring_federated_authentication-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-9-1-configuring_federated_authentication-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-9-1-configuring_federated_authentication-042016-1-sm.jpg",
+          "title": "Configuring Federated Authentication",
+          "transcript": "",
+          "url": "configuring-federated-authentication",
+          "vimeoId": "164056507"
+        },
+        {
+          "description": "In this episode, Mark and Mike look at securing a SharePoint environment. They talk about the importance of securing the underlying OS platform. Then they demonstrate configuring farm-level security. They configure blocked file types, web part security, and implement security auditing.",
+          "length": "1330",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-10-1-farm_level_security-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-10-1-farm_level_security-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-10-1-farm_level_security-042016-1-sm.jpg",
+          "title": "Farm Level Security",
+          "transcript": "",
+          "url": "farm-level-security",
+          "vimeoId": "166218362"
+        },
+        {
+          "description": "In this episode, Mark and Mike explain how to create and manage content types and content type propagation. They demonstrate creating content types and publish content types across site collections. They also create term sets and terms, and configure the managed metadata service.",
+          "length": "1760",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-11-1-managing_taxonomy-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-11-1-managing_taxonomy-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-11-1-managing_taxonomy-041816-1-sm.jpg",
+          "title": "Managing Taxonomy",
+          "transcript": "",
+          "url": "managing-taxonomy",
+          "vimeoId": "164053169"
+        },
+        {
+          "description": "In this episode, Mark and Mike explain how to configure the User Profile service application, and manage user profiles and audiences. They also configure directory import and synchronization. Then they configure and provision My Sites.",
+          "length": "1551",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-12-1-configuring_user_profiles-042016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-12-1-configuring_user_profiles-042016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-12-1-configuring_user_profiles-042016-1-sm.jpg",
+          "title": "Configuring User Profiles",
+          "transcript": "",
+          "url": "configuring-user-profiles2",
+          "vimeoId": "164054303"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss the Search service architecture, and how to configure the Search service in SharePoint. They demonstrate configuring Enterprise Search by configuring the Search service application and add a file share content source.",
+          "length": "2274",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-13-1-configuring_enterprise_search-041916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-13-1-configuring_enterprise_search-041916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-13-1-configuring_enterprise_search-041916-1-sm.jpg",
+          "title": "Configuring Enterprise Search",
+          "transcript": "",
+          "url": "configuring-enterprise-search",
+          "vimeoId": "164051943"
+        },
+        {
+          "description": "In this episode, Mark and Mike explain how to implement a monitoring plan for SharePoint 2016. They look at several reports that help identify and resolve problems. They also demonstrate investigating page load times by analyzing network traffic.",
+          "length": "1046",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-14-1-monitoring_a_sharepoint_2016_deployment-041916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-14-1-monitoring_a_sharepoint_2016_deployment-041916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-14-1-monitoring_a_sharepoint_2016_deployment-041916-1-sm.jpg",
+          "title": "Monitoring a SharePoint 2016 Deployment",
+          "transcript": "",
+          "url": "monitoring-sharepoint-2016-deployment",
+          "vimeoId": "164056899"
+        },
+        {
+          "description": "In this episode, Mark and Mike begin their exploration of SharePoint Online. They demonstrate creating a trial account, and look at the available options. They look at setting up a sandbox environment, as well as several resources available to help you get started with SharePoint   Online.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-1-introduction_to_sharepoint_online-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-1-introduction_to_sharepoint_online-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-1-introduction_to_sharepoint_online-041816-1-sm.jpg",
+          "title": "Introduction to SharePoint Online",
+          "transcript": "",
+          "url": "introduction-sharepoint-online",
+          "vimeoId": "164053735"
+        },
+        {
+          "description": "In this episode, Mark and Mike continue their look at SharePoint Online, focusing on the SharePoint Online admin center. They demonstrate creating a site collection, and then explore various options to manage the site collection. They work with user profiles, managing audiences, and managing user permissions. They also look at managing My Sites in SharePoint Online.",
+          "length": "1845",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-2-introduction_to_sharepoint_online_pt2-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-2-introduction_to_sharepoint_online_pt2-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-2-introduction_to_sharepoint_online_pt2-041816-1-sm.jpg",
+          "title": "Introduction to SharePoint Online Part 2",
+          "transcript": "",
+          "url": "introduction-sharepoint-online-2",
+          "vimeoId": "164052565"
+        },
+        {
+          "description": "In this episode, Mark and Mike continue their exploration of the SharePoint Online admin center. They look at the BCS (business continuity service), and the term store. They also look at app settings, as well as configuring hybrid solutions.",
+          "length": "1516",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-3-introduction_to_sharepoint_online_pt3-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-3-introduction_to_sharepoint_online_pt3-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sharepoint-70339-15-1-3-introduction_to_sharepoint_online_pt3-041816-1-sm.jpg",
+          "title": "Introduction to SharePoint Online Part 3",
+          "transcript": "",
+          "url": "introduction-sharepoint-3",
+          "vimeoId": "164055393"
+        },
+        {
+          "description": "In this episode, Mark and Mike discuss configuring SharePoint Online search capabilities. They look at how to optimize search results by defining indexed fields, and promoting sites. They also look at creating search suggestions and managing result sources and query rules.",
+          "length": "1513",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-2-sharepoint_online_search_adiministration-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-2-sharepoint_online_search_adiministration-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-2-sharepoint_online_search_adiministration-041816-1-sm.jpg",
+          "title": "SharePoint Online Search Administration",
+          "transcript": "",
+          "url": "sharepoint-online-search-administration",
+          "vimeoId": "164054863"
+        },
+        {
+          "description": "In this episode, Mark and Mike take a look at integrating SharePoint Online with other online technologies. They start with OneDrive and Yammer, exploring different options available. Then they look at Delve, Sway and the Office Store.",
+          "length": "1409",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-3-sharepoint_online_intergrated_technologies-041816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-3-sharepoint_online_intergrated_technologies-041816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint2016/microsoft-sharepoint-70339-15-3-sharepoint_online_intergrated_technologies-041816-1-sm.jpg",
+          "title": "SharePoint Online Integrated Technologies",
+          "transcript": "",
+          "url": "sharepoint-online-integrated-technologies",
+          "vimeoId": "164056052"
+        }
+      ],
+      "title": "SharePoint 2016"
+    }
+  ],
+  "url": "sharepoint-2016",
+  "vLab": false
+}

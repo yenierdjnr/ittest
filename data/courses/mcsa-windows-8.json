@@ -1,0 +1,405 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows 8 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "descriptionMD": "",
+  "length": "125374",
+  "name": "MCSA Windows 8.1 - 70-687",
+  "practiceExam": true,
+  "subtitle": "Configuring Windows 8.1",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows 8 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+          "length": "631",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/microsoft70687-0-0-overview-sm.jpg",
+          "title": "Overview of MCSA Windows 8.1 (70-687)",
+          "transcript": "1\n00:00:00,000 --> 00:00:08,487\n[MUSIC]\n\n2\n00:00:08,487 --> 00:00:13,575\nThis show on ITProTV covers\nthe Microsoft 70-687 exam,\n\n3\n00:00:13,575 --> 00:00:17,720\nwhich is for the, the Windows 8 MCSA.\n\n4\n00:00:17,720 --> 00:00:22,170\nThe MCSA is the MIcrosoft certified\nsolutions associate and it's designed to\n\n5\n00:00:22,170 --> 00:00:26,250\nbe a mid level certification for I.T.\nSystems Administrators.\n\n6\n00:00:26,250 --> 00:00:30,278\nIf you work in an environment where\nyou support Windows 8 desktops or\n\n7\n00:00:30,278 --> 00:00:35,400\nWindows 8 machines just deployed in\nany manner inside your organization.\n\n8\n00:00:35,400 --> 00:00:37,970\nWell, that's what this\ncertification is designed for.\n\n9\n00:00:37,970 --> 00:00:41,180\nThere is more than one MCSA\nthat's out there though.\n\n10\n00:00:41,180 --> 00:00:43,470\nThere is the MCSA for\ndesktop infrastructure,\n\n11\n00:00:43,470 --> 00:00:44,860\nwhich is what pertains to Windows 8.\n\n12\n00:00:44,860 --> 00:00:47,680\nThere's also the MCSA for\nserver infrastructure,\n\n13\n00:00:47,680 --> 00:00:50,124\nwhich pertains to Windows Server 2012.\n\n14\n00:00:50,124 --> 00:00:52,776\nSo you have to make sure you're\ngoing down the right track for\n\n15\n00:00:52,776 --> 00:00:56,380\nyour certification based on the job\nrole that you're going to perform.\n\n16\n00:00:56,380 --> 00:01:00,050\nSo if you're someone who works\non servers quite a bit well,\n\n17\n00:01:00,050 --> 00:01:01,440\nthe 7687 exam is not, necessarily,\n\n18\n00:01:01,440 --> 00:01:05,510\none that's going to line up with\nthe certifications you need to pursue.\n\n19\n00:01:05,510 --> 00:01:07,700\nSo before we dive into\nthis one specifically,\n\n20\n00:01:07,700 --> 00:01:09,890\nlet's just take a look at that full track.\n\n21\n00:01:09,890 --> 00:01:11,590\nI've got pulled up here\nMicrosoft's website for\n\n22\n00:01:11,590 --> 00:01:13,430\nthe Microsoft Certified\nSolutions Associate,\n\n23\n00:01:13,430 --> 00:01:16,530\nand you'll see all\nthe different tracks they have.\n\n24\n00:01:16,530 --> 00:01:20,655\nThe MCSA server for\nWindows 2008 as well 2012.\n\n25\n00:01:20,655 --> 00:01:24,997\nWe've got the Windows 8 and Windows 7\nas well as some of the SQL Server and\n\n26\n00:01:24,997 --> 00:01:28,350\neven Microsoft Office 365 certifications.\n\n27\n00:01:28,350 --> 00:01:29,730\nEach of these are different tracks.\n\n28\n00:01:29,730 --> 00:01:33,530\nThey all lead to you attaining a MCSA,\nall right.\n\n29\n00:01:33,530 --> 00:01:37,260\nSo you really have the MCSA with its\nvarious specializations underneath it.\n\n30\n00:01:37,260 --> 00:01:40,080\nIf you want to work with servers,\nyou'll want to jump into the server track.\n\n31\n00:01:41,250 --> 00:01:44,700\nFor Windows 8 though, we've got this\nguy right here, the MCSA in Windows 8.\n\n32\n00:01:44,700 --> 00:01:48,510\nTo get your MCSA, you actually\nneed to complete two exams, so\n\n33\n00:01:48,510 --> 00:01:50,980\nit's two exams to one certification.\n\n34\n00:01:50,980 --> 00:01:53,600\nBut the exams are very closely related.\n\n35\n00:01:53,600 --> 00:01:55,640\nThe first one is this show,\n\n36\n00:01:55,640 --> 00:02:00,652\nconfiguring Windows 8.1 which\nlines up with the 70-87 exam.\n\n37\n00:02:00,652 --> 00:02:04,270\nAnd that exam covers all sorts\nof information pertaining to\n\n38\n00:02:04,270 --> 00:02:08,000\nactually setting up and\ninstalling, deploying Windows 8.\n\n39\n00:02:08,000 --> 00:02:11,600\nSo how do we get our environment up and\nrunning using Windows 8?\n\n40\n00:02:11,600 --> 00:02:16,119\nOnce you've completed and, and passed\nthat exam, you move onto the next one,\n\n41\n00:02:16,119 --> 00:02:18,286\nwhich is supporting Windows 8.1.\n\n42\n00:02:18,286 --> 00:02:20,870\nAll right, now you've got\nWindows 8 in your environment.\n\n43\n00:02:20,870 --> 00:02:22,200\nHow do keep it running smoothly?\n\n44\n00:02:22,200 --> 00:02:25,080\nHow do you trouble shoot issues and\nresolve problems?\n\n45\n00:02:25,080 --> 00:02:27,503\nHow do you maintain your environment,\nall right?\n\n46\n00:02:27,503 --> 00:02:31,960\nAnd that's the 70-688 exam,\nthe sister course to this one.\n\n47\n00:02:31,960 --> 00:02:34,859\nBut let's take a look at that 687 exam,\nbecause that's what this show is about.\n\n48\n00:02:36,400 --> 00:02:37,060\nAll right.\n\n49\n00:02:37,060 --> 00:02:42,005\nThe 7687 exam, like most Microsoft exams,\ncosts $150 to take, so it's not a terribly\n\n50\n00:02:42,005 --> 00:02:46,116\nexpensive exam, except you've gotta\ntake two of them to get the MCSA, right.\n\n51\n00:02:46,116 --> 00:02:48,510\nSo you've got about $300 in exam costs.\n\n52\n00:02:48,510 --> 00:02:51,230\nThat's United States dollars\nyour currency may vary.\n\n53\n00:02:52,480 --> 00:02:54,810\nBut the exam itself is\npretty straightforward.\n\n54\n00:02:54,810 --> 00:02:59,260\nYou can take it at any Pearson Vue\ntesting center located around the world,\n\n55\n00:02:59,260 --> 00:03:01,728\nif you've never tested with them\nbefore check out their website.\n\n56\n00:03:01,728 --> 00:03:06,321\nGo to www.pearsonvue,\nV-U-E .com/microsoft and\n\n57\n00:03:06,321 --> 00:03:10,020\nyou can sign up for an account with them.\n\n58\n00:03:10,020 --> 00:03:13,090\nLocate a testing center near you,\nthere's normally one near by,\n\n59\n00:03:13,090 --> 00:03:15,580\nand then you can go and\ntake the exam whenever you schedule.\n\n60\n00:03:16,680 --> 00:03:20,600\nBut for getting ready for the exam,\nwell that's where our content comes in.\n\n61\n00:03:20,600 --> 00:03:23,030\nAll right,\nnow who is this one designed for?\n\n62\n00:03:23,030 --> 00:03:26,440\nWell, it's designed for somebody\nwho's gonna be working in a business\n\n63\n00:03:26,440 --> 00:03:28,590\nthat is going to be supporting Windows 8.\n\n64\n00:03:28,590 --> 00:03:31,840\nIf you're a home user, your gonna learn\nabout a lot of technologies in this\n\n65\n00:03:31,840 --> 00:03:33,720\nshow that aren't useful at home.\n\n66\n00:03:33,720 --> 00:03:36,240\nIn fact, will make your life\na lot more difficult at home,\n\n67\n00:03:36,240 --> 00:03:39,930\nbecause they're technologies\ndesigned to support hundreds or\n\n68\n00:03:39,930 --> 00:03:43,060\nthousands of systems,\nnot to support five systems.\n\n69\n00:03:43,060 --> 00:03:44,410\nRight?\nYou'll find that if you use\n\n70\n00:03:44,410 --> 00:03:48,610\nthe technologies we discuss in this show\nat home, it will make things take a lot\n\n71\n00:03:48,610 --> 00:03:51,882\nlonger than they should when you could\nhave just gone and done it manually.\n\n72\n00:03:51,882 --> 00:03:55,810\nAll right, so we're really gonna focus\non automating and repeating activities,\n\n73\n00:03:55,810 --> 00:03:59,380\nbecause at home, you might just\ninstall Windows 8 on one machine, but\n\n74\n00:03:59,380 --> 00:04:02,450\nat your office, you might install\nWindows 8 on 500 machines.\n\n75\n00:04:02,450 --> 00:04:04,460\nAnd you don't want to do\nit 500 separate times.\n\n76\n00:04:04,460 --> 00:04:05,960\nSo if we can script it,\n\n77\n00:04:05,960 --> 00:04:09,680\nautomate it, deploy an image that\nhas everything set the way we want,\n\n78\n00:04:09,680 --> 00:04:13,912\nit saves a ton of time and it's absolutely\nworth it in a corporate environment.\n\n79\n00:04:13,912 --> 00:04:16,580\nAll right so let's take a look\nat what's covered on this exam.\n\n80\n00:04:16,580 --> 00:04:20,110\nThe exam's broken up into seven\ndifferent topic areas and\n\n81\n00:04:21,110 --> 00:04:22,800\nthe the font here is kind of small.\n\n82\n00:04:22,800 --> 00:04:24,680\nLet me zoom in on that a little bit.\n\n83\n00:04:24,680 --> 00:04:26,990\nAnd we can kind of run down the list here.\n\n84\n00:04:26,990 --> 00:04:29,670\nWe start with simply installing and\nupgrading to Windows 8.1.\n\n85\n00:04:29,670 --> 00:04:31,600\nAnd I know what you're saying.\n\n86\n00:04:31,600 --> 00:04:35,600\nAll right Don, I pop in a disc and I click\nnext 20 times and we're done, right.\n\n87\n00:04:35,600 --> 00:04:37,930\nThat is how a normal installation will go,\nbut for\n\n88\n00:04:37,930 --> 00:04:41,120\nthis one we will cover\nthe automation piece.\n\n89\n00:04:41,120 --> 00:04:45,020\nHow can we deploy Windows 8 over the\nnetwork without even having a disc at all.\n\n90\n00:04:45,020 --> 00:04:47,780\nHow can we have our own line\nof business applications\n\n91\n00:04:47,780 --> 00:04:50,520\nall ready installed when Windows\n8 comes up the first time.\n\n92\n00:04:50,520 --> 00:04:53,640\nHow can we make things as\nautomatic as possible?\n\n93\n00:04:53,640 --> 00:04:56,370\nSo you get a chance to see that as well\nas some of the other concerns with\n\n94\n00:04:56,370 --> 00:04:57,180\nupgrading to Windows 8.1.\n\n95\n00:04:57,180 --> 00:05:00,410\nThen we'll see configuring hardware and\n\n96\n00:05:00,410 --> 00:05:05,530\napplications, most systems have\na fairly common set of hardware.\n\n97\n00:05:05,530 --> 00:05:08,480\nBut there's always these extra devices\nthat people bring in that we may need to\n\n98\n00:05:08,480 --> 00:05:12,730\nload custom configurations for, and we'll\nget a chance to see how all that works.\n\n99\n00:05:12,730 --> 00:05:14,510\nNext is the networking side.\n\n100\n00:05:14,510 --> 00:05:17,300\nWindows 8 is a fully network\naware operating system,\n\n101\n00:05:17,300 --> 00:05:18,960\nwhich is not really new for it.\n\n102\n00:05:18,960 --> 00:05:21,602\nBut that means that it,\nit doesn't just support it, but\n\n103\n00:05:21,602 --> 00:05:24,092\nactually expect to have\na connection to the network.\n\n104\n00:05:24,092 --> 00:05:28,270\nFor things like automatic updates and\neasy search functionality and, and\n\n105\n00:05:28,270 --> 00:05:32,260\nusing your Microsoft Live ID to\nsynchronize account settings.\n\n106\n00:05:32,260 --> 00:05:34,390\nThat stuff all requires\na network configuration.\n\n107\n00:05:34,390 --> 00:05:36,910\nSo we'll take a look at how to set\nup the networking under Windows 8?\n\n108\n00:05:36,910 --> 00:05:38,230\nTo get the machines to talk together.\n\n109\n00:05:39,500 --> 00:05:43,050\nThen, configuring\nthe access to our networks.\n\n110\n00:05:43,050 --> 00:05:45,520\nIf we start to share things like files,\nfolders,\n\n111\n00:05:45,520 --> 00:05:49,700\nprinters, we probably wanna control who\ncan get to what, and who can do what?\n\n112\n00:05:49,700 --> 00:05:52,440\nSo we'll see some of the different\ntechnologies that are available there to\n\n113\n00:05:52,440 --> 00:05:53,720\ncontrol access to our system.\n\n114\n00:05:54,880 --> 00:05:57,530\nThen we've got remote access and mobility.\n\n115\n00:05:57,530 --> 00:06:01,230\nSo today we're going to learn about\nthings like VPNs and dial-up connections.\n\n116\n00:06:01,230 --> 00:06:04,980\nHopefully, you don't have to use dial-up\nanymore but VPN is very commonly used,\n\n117\n00:06:04,980 --> 00:06:09,000\nas well as other mobile technologies\nlike tablet computing, right.\n\n118\n00:06:09,000 --> 00:06:11,690\nWindows 8 has that two different versions,\n\n119\n00:06:11,690 --> 00:06:15,910\nthe normal Windows 8 and\nthen the Windows 8 RT or just Windows RT.\n\n120\n00:06:15,910 --> 00:06:19,129\nAnd so we talk a little bit about\nthat not, not a ton on Windows RT.\n\n121\n00:06:19,129 --> 00:06:22,169\nBut we also discuss some of\nthe differences with mobile platforms in\n\n122\n00:06:22,169 --> 00:06:24,500\ngeneral, like supporting battery life,\nright.\n\n123\n00:06:24,500 --> 00:06:28,270\nYou don't have a battery in a desktop\nPC to worry about, but in a laptop or\n\n124\n00:06:28,270 --> 00:06:29,150\na tablet, you do.\n\n125\n00:06:30,840 --> 00:06:33,710\nNext we talk about monitoring and\nmaintaining Windows clients.\n\n126\n00:06:33,710 --> 00:06:37,590\nNow, this is a small portion on\nmaintaining the clients because the next\n\n127\n00:06:37,590 --> 00:06:40,170\nexam goes into great depth on it.\n\n128\n00:06:40,170 --> 00:06:43,560\nAnd then at the very end we've got\nsystem and data recovery options.\n\n129\n00:06:43,560 --> 00:06:46,070\nWhen you deploy Windows 8,\nyou need to have something in\n\n130\n00:06:46,070 --> 00:06:49,150\nplace to be able to back it up, and\nrestore in the event of failure.\n\n131\n00:06:49,150 --> 00:06:52,090\nAnd that's kind of how we round\noff those topics as we cover,\n\n132\n00:06:52,090 --> 00:06:55,270\nhow to safely back up and\nrestore your system?\n\n133\n00:06:55,270 --> 00:06:59,620\nIt's really good knowledge, all of this\nis, and most of it, you'll turn around and\n\n134\n00:06:59,620 --> 00:07:01,350\nuse in your environment.\n\n135\n00:07:01,350 --> 00:07:03,590\nWhat I find a lot of people do\nis they go through all of this,\n\n136\n00:07:03,590 --> 00:07:06,390\nthey learn the different options that\nare out there, and then they pick and\n\n137\n00:07:06,390 --> 00:07:09,200\nchoose the ones they want to\ndeploy in their organization.\n\n138\n00:07:09,200 --> 00:07:12,420\nBut you don't know what to use, if you\ndon't know what all is out there and\n\n139\n00:07:12,420 --> 00:07:15,160\nthat's what this certi,\ncertification is designed for.\n\n140\n00:07:15,160 --> 00:07:17,070\nI find that all in all,\nit's a pretty fair exam.\n\n141\n00:07:17,070 --> 00:07:20,200\nThe, the examination contents,\nit can be a lot, right?\n\n142\n00:07:20,200 --> 00:07:23,580\nIt's a lot of content, but\nthe exam's pretty straightforward and\n\n143\n00:07:23,580 --> 00:07:26,950\nMicrosoft doesn't normally get\ntoo tricky on their exams.\n\n144\n00:07:26,950 --> 00:07:31,160\nSo if you're gonna be going to work in\na medium or large organization, and\n\n145\n00:07:31,160 --> 00:07:32,850\nyou're going to be deploying Windows 8.\n\n146\n00:07:32,850 --> 00:07:36,560\nThis is a great certification again, it's\njust a great set of knowledge to have,\n\n147\n00:07:36,560 --> 00:07:39,300\neven if you don't go on to do\nthe certification, all right.\n\n148\n00:07:39,300 --> 00:07:43,670\nIf your environment is all Windows 7,\nit's still useful to learn Windows 8,\n\n149\n00:07:43,670 --> 00:07:46,740\nbecause eventually you may go to it or\nmaybe you'll skip over Windows 8, and\n\n150\n00:07:46,740 --> 00:07:48,360\nyou'll just go straight to Windows 10.\n\n151\n00:07:48,360 --> 00:07:52,340\nWell, Windows 10 is building off of\na lot of the Window 8 technologies.\n\n152\n00:07:52,340 --> 00:07:56,580\nSo if you skip over an OS,\nyou're gonna be behind an eight ball.\n\n153\n00:07:56,580 --> 00:08:00,810\nYou've got a lot more knowledge to make up\nfor the changes between the two systems.\n\n154\n00:08:00,810 --> 00:08:04,480\nBut if you learn Windows 8 in between, now\nyou're that much closer to being ready for\n\n155\n00:08:04,480 --> 00:08:05,240\nWindows 10.\n\n156\n00:08:05,240 --> 00:08:08,480\nSo it's always a good idea to\nlearn the new operating system,\n\n157\n00:08:08,480 --> 00:08:10,590\neven if they're not that popular, right?\n\n158\n00:08:10,590 --> 00:08:11,515\nLike Windows Vista.\n\n159\n00:08:11,515 --> 00:08:14,330\n[LAUGH] So, so we definitely\nkeep that in mind as we go and\n\n160\n00:08:14,330 --> 00:08:16,240\nselect our certifications.\n\n161\n00:08:16,240 --> 00:08:19,380\nNow if you are interested\nin learning about servers\n\n162\n00:08:19,380 --> 00:08:21,740\nthis is not the certification for you.\n\n163\n00:08:21,740 --> 00:08:22,700\nThis is the MCSA for\n\n164\n00:08:22,700 --> 00:08:26,150\nwindows 8, you need to look into\nthe MCSA for Windows server 2012, right.\n\n165\n00:08:26,150 --> 00:08:30,800\nThat's going to steer you in the server\nside and maybe you want to do both right.\n\n166\n00:08:30,800 --> 00:08:34,500\nIt's not that many exams to go and\nget the MCSA in both and now, you know,\n\n167\n00:08:34,500 --> 00:08:38,430\nthe server and desktop side, and\nthat make you a very powerful person.\n\n168\n00:08:38,430 --> 00:08:41,810\nAs far as being attractive\nto a company to hire or\n\n169\n00:08:41,810 --> 00:08:43,660\njust being able to\nsupport the environment.\n\n170\n00:08:43,660 --> 00:08:46,590\nYou'll better understand\nthe interaction between client and, and\n\n171\n00:08:46,590 --> 00:08:49,710\nserver if you know\nthe configurations of both, right.\n\n172\n00:08:49,710 --> 00:08:51,230\nSo there's a lot of\nbenefits doing both sides.\n\n173\n00:08:52,400 --> 00:08:55,040\nAll right, so\nif that sounds like what you wanna learn,\n\n174\n00:08:55,040 --> 00:08:57,930\nthe certification you're looking to get,\nthen you're in the right place.\n\n175\n00:08:57,930 --> 00:08:58,640\nStay tuned.\n\n176\n00:08:58,640 --> 00:09:01,910\nWe'll have more Windows 8\nepisodes coming up soon.\n\n177\n00:09:01,910 --> 00:09:05,750\nBut if you're looking for servers or\nif you're just starting in IT, right.\n\n178\n00:09:05,750 --> 00:09:07,710\nYou haven't even gotten your feet wet yet.\n\n179\n00:09:07,710 --> 00:09:09,420\nThis isn't the greatest starting point for\nyou.\n\n180\n00:09:09,420 --> 00:09:12,960\nYou're looking to learn about servers,\nthere's the MCSA for Windows Server.\n\n181\n00:09:12,960 --> 00:09:16,720\nAnd if you're just getting started,\nwell you might want to take a look\n\n182\n00:09:16,720 --> 00:09:20,580\nat our Microsoft Technology Associate,\nthe MTA certification.\n\n183\n00:09:20,580 --> 00:09:24,920\nIt starts out with Windows 7 and covers\nthe basic of operating system deployment.\n\n184\n00:09:24,920 --> 00:09:29,470\nIs a much better place to start at if\nthis is your first IT Certification.\n\n185\n00:09:29,470 --> 00:09:33,130\nHowever, the MTA knowledge is,\nis pretty basic.\n\n186\n00:09:33,130 --> 00:09:35,220\nSo if you've working with Windows for\na little while,\n\n187\n00:09:35,220 --> 00:09:36,950\nyou might get kind of bored in that one.\n\n188\n00:09:36,950 --> 00:09:40,550\nAnd you certainly are able to just skip\nover it and come straight to the MCSA.\n\n189\n00:09:40,550 --> 00:09:43,760\nThat's what a lot of people do,\nso keep that in mind.\n\n190\n00:09:43,760 --> 00:09:45,860\nAs you go to select your certification.\n\n191\n00:09:45,860 --> 00:09:48,770\nAll right, well if you're sticking\nwith us for the MCSA Windows 8,\n\n192\n00:09:48,770 --> 00:09:51,380\nthen I'll see you in the next episode.\n\n193\n00:09:51,380 --> 00:09:53,710\nIf not, browse the rest of\nthe certification collection.\n\n194\n00:09:53,710 --> 00:09:56,420\nI think you'll find one certification or,\nor more that are,\n\n195\n00:09:56,420 --> 00:09:58,880\nare kind of more in line\nwith what your needs are.\n\n196\n00:09:58,880 --> 00:10:00,920\nAnd if you can't determine where to start?\n\n197\n00:10:00,920 --> 00:10:05,360\nJust ask, you can always shoot\nan email to support@itpro.tv or\n\n198\n00:10:05,360 --> 00:10:07,030\nemail me at Don@itpro.tv.\n\n199\n00:10:07,030 --> 00:10:10,260\nYou'll probably get a faster response from\nsupport, but just reach out to us and\n\n200\n00:10:10,260 --> 00:10:11,000\nwe'll help you.\n\n201\n00:10:11,000 --> 00:10:13,680\nWe can give you advice,\nsuggestions on where to start, you know,\n\n202\n00:10:13,680 --> 00:10:14,680\nit's what we do here.\n\n203\n00:10:14,680 --> 00:10:18,332\nSo take advantage of that, we're,\nwe're always ready to answer questions.\n\n204\n00:10:18,332 --> 00:10:21,390\nAll right, well for those of you getting\nready to learn, we're about to start.\n\n205\n00:10:21,390 --> 00:10:24,641\nFor the rest of you,\ngood luck in your certification.\n\n206\n00:10:24,641 --> 00:10:30,750\n[SOUND]\n\n",
+          "url": "overview-mcsa-windows-81-70687",
+          "vimeoId": "112926023"
+        }
+      ],
+      "title": "Overview of MCSA Windows 8.1 (70-687)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don and Nate introduce us to the Windows 8 operating system. They take a few moments to discuss what is new in Windows 8 and run through a few installation scenarios.",
+          "length": "6542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/001-Intro-To-Windows-8-sm.jpg",
+          "title": "Intro To Windows 8",
+          "transcript": "",
+          "url": "intro-windows-8",
+          "vimeoId": "78228492"
+        },
+        {
+          "description": "In this episode Ronnie and Don describe the hardware requirements of installing Windows RT on ARM-based processor devices. They emphasize features important to Windows 8.1 which have been improved including Hyper-V, Miracast Display and Secure Boot.",
+          "length": "1932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/021-Hardware-Requirements-sm.jpg",
+          "title": "Hardware Requirements",
+          "transcript": "",
+          "url": "hardware-requirements",
+          "vimeoId": "87125066"
+        },
+        {
+          "description": "In this episode Ronnie and Don describe and demonstrate how to add additional feature to Windows 8.1 that may not be installed by default. They also demonstrate how to configure the OS to use an additional input language.",
+          "length": "1246",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/022-Additional-Features-sm.jpg",
+          "title": "Additional Features",
+          "transcript": "",
+          "url": "additional-features",
+          "vimeoId": "87125067"
+        },
+        {
+          "description": "In this episode Nate and Ronnie take a look at configuring user profiles. They discuss and demonstrate roaming profiles, mandatory profiles, super-mandatory profiles and how to use the primary computers feature to restrict profile use.",
+          "length": "4314",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/020-Configuring-User-Profiles-sm.jpg",
+          "title": "Configuring User Profiles",
+          "transcript": "",
+          "url": "configuring-user-profiles",
+          "vimeoId": "86925893"
+        },
+        {
+          "description": "In this episode Ronnie and Don configure a domain user to use roaming profiles. They also explain the scenarios in which roaming profiles would be preferred over traditional local profiles.",
+          "length": "877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/023-Roaming-Profiles-sm.jpg",
+          "title": "Roaming Profiles",
+          "transcript": "",
+          "url": "roaming-profiles",
+          "vimeoId": "87125069"
+        },
+        {
+          "description": "In this episode Nate and Don take a look at Windows Easy Transfer (WET), the User State Migration Tool (USMT), and Folder Redirection. These are all tools used to transfer a user's information between computers.",
+          "length": "4740",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/002-Migrating-User-Profiles-sm.jpg",
+          "title": "Migrating User Profiles",
+          "transcript": "",
+          "url": "migrating-user-profiles",
+          "vimeoId": "78343712"
+        }
+      ],
+      "title": "Install and upgrade to Windows 8.1"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don install, upgrade, and roll-back device drivers, as well as demonstrate how to locate the proper drivers for specific hardware.",
+          "length": "4416",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/003-Hardware-and-Apps-Pt1-sm.jpg",
+          "title": "Hardware and Apps Part 1",
+          "transcript": "",
+          "url": "hardware-apps-5",
+          "vimeoId": "159548369"
+        },
+        {
+          "description": "In this episode Nate and Don discuss application compatibility settings. They demonstrate creating application shims as well as side-loading Windows 8 modern style apps.",
+          "length": "6137",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/004-Hardware-and-Apps-Pt2-sm.jpg",
+          "title": "Hardware and Apps Part 2",
+          "transcript": "",
+          "url": "hardware-apps-6",
+          "vimeoId": "78229080"
+        },
+        {
+          "description": "In this episode Mike and Nate demonstrate creating AppLocker rules as well as configuring access to hardware. They also discuss basic Internet Explorer features and how to configure them.",
+          "length": "6952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/005-Hardware-and-Apps-Pt3-sm.jpg",
+          "title": "Hardware and Apps Part 3",
+          "transcript": "",
+          "url": "hardware-apps-3",
+          "vimeoId": "78345007"
+        },
+        {
+          "description": "In this episode Mike and Nate demonstrate configuring Hyper-V. They show how to install the feature, create virtual machines, virtual switches, and virtual hard drives. The finish by discussing how to manage snapshots and exporting virtual machines.",
+          "length": "5717",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/006-Hardware-and-Apps-Pt4-sm.jpg",
+          "title": "Hardware and Apps Part 4",
+          "transcript": "",
+          "url": "hardware-apps-4",
+          "vimeoId": "78229087"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss the use of signed and unsigned drivers and demonstrate how to install them. They also explain how to pre-stage drivers into the Windows 8.1 DriverStore. ",
+          "length": "816",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/024-Managing-Drivers-sm.jpg",
+          "title": "Managing Drivers",
+          "transcript": "",
+          "url": "managing-drivers",
+          "vimeoId": "87125070"
+        },
+        {
+          "description": "In this episode Ronnie and Don explore various ways of limiting the applications an end user can execute. They demonstrate software restriction policies as well as the new Assigned Access feature in Windows 8 which allow you to pick and choose the application an end user should be allowed to run.",
+          "length": "1999",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/025-Restricting-Access-sm.jpg",
+          "title": "Restricting Access",
+          "transcript": "",
+          "url": "restricting-access",
+          "vimeoId": "87669808"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at the general settings in Internet Explorer 11 and discuss some of the commonly configured components. They also discuss some of the new issues that may arise from using a new browser and demonstrate techniques like Compatibility View which can be used to correct them.",
+          "length": "1928",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/026-Internet-Explorer-11-sm.jpg",
+          "title": "Internet Explorer 11",
+          "transcript": "",
+          "url": "internet-explorer-11",
+          "vimeoId": "87669809"
+        },
+        {
+          "description": "In this episode Ronnie and Don examine some of the new features added to Hyper-V in Windows 8.1. In particular they demonstrate moving virtual machine storage while the VM is online. They also explain what each of the integration services do and demonstrate how to individually enable and disable them.",
+          "length": "919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/027-Hyper-V-New-Features-sm.jpg",
+          "title": "Hyper-V New Features",
+          "transcript": "",
+          "url": "hyperv-features",
+          "vimeoId": "87669835"
+        }
+      ],
+      "title": "Configure hardware and applications"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don tackle basic networking concepts in Windows 8. They take a look at assigning IPv4 and IPv6 address as well as basic troubleshooting.",
+          "length": "4820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/007-Network-Connectivity-sm.jpg",
+          "title": "Network Connectivity",
+          "transcript": "",
+          "url": "network-connectivity-4",
+          "vimeoId": "78229344"
+        },
+        {
+          "description": "In this episode Mike and Nate delve into the world of network security. They cover Windows Firewall, IPSec policies and wireless security.",
+          "length": "6315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/008-Network-Security-sm.jpg",
+          "title": "Network Security",
+          "transcript": "",
+          "url": "network-security",
+          "vimeoId": "78229410"
+        },
+        {
+          "description": "In this episode Mike and Nate explorer the tools and techniques used for remote management. They cover Remote Desktop, RSAT, WinRM/RS as well as Windows PowerShell.",
+          "length": "4713",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/009-Network-Management-sm.jpg",
+          "title": "Remote Management",
+          "transcript": "",
+          "url": "remote-management",
+          "vimeoId": "78229564"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at supporting users remotely with Remote Assistance and Easy Connect in Windows 8.1. They discuss the need, benefits and requirements of Remote Assistance in a business environment. They also demonstrate using Remote Assistance.",
+          "length": "1335",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/028-Remote-Assistance-sm.jpg",
+          "title": "Remote Assistance",
+          "transcript": "",
+          "url": "remote-assistance",
+          "vimeoId": "89330911"
+        }
+      ],
+      "title": "Configure network connectivity"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don take a look at sharing folders and libraries as well as introduce the viewers to permissions and shared printing. They also explore using Homegroups to share data and do a quick examination of EFS.",
+          "length": "5499",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/010-Configure-Shared-Resources-sm.jpg",
+          "title": "Configure Shared Resources",
+          "transcript": "",
+          "url": "configure-shared-resources",
+          "vimeoId": "78229717"
+        },
+        {
+          "description": "In this episode Mike and Nate take a look at NTFS permissions, disk quotas and object access auditing. They demonstrate the processes needed to configure various NTFS permissions and disk quotas as well as enabling and logging object access auditing.",
+          "length": "6542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/011-File-and-Folder-Access-sm.jpg",
+          "title": "File and Folder Access",
+          "transcript": "",
+          "url": "file-folder-access",
+          "vimeoId": "78229886"
+        },
+        {
+          "description": "In this episode Mike and Nate dive into securing Windows 8 clients using local security policies and User Account Control. They also demonstrate configuring SmartScreen filters and enabling Secure Boot.",
+          "length": "5503",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/012-Local-Security-Settings-sm.jpg",
+          "title": "Local Security Settings",
+          "transcript": "",
+          "url": "local-security-settings",
+          "vimeoId": "78345008"
+        },
+        {
+          "description": "In this episode Mike and Nate introduce us to the process of authenticating users and authorizing access. They also cover managing credentials and certificates with smart cards.",
+          "length": "3588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/013-Authentication-Authorization-sm.jpg",
+          "title": "Authentication & Authorization",
+          "transcript": "",
+          "url": "authentication-authorization",
+          "vimeoId": "78229851"
+        },
+        {
+          "description": "In this episode Mike and Nate conclude their A&A discussion by covering biometrics as well as picture passwords and PIN. They also demonstrate setting up a Microsoft Account through Windows 8.",
+          "length": "3310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/014-Authentication-Authorization-Pt2-sm.jpg",
+          "title": "Authentication & Authorization Part 2",
+          "transcript": "",
+          "url": "authentication-authorization-2",
+          "vimeoId": "78230029"
+        },
+        {
+          "description": "In this episode Ronnie and Don explain user authentication in workgroups and domains. They talk about the differences and benefits between the two environments. They discuss the use of virtual smartcards for authentication and explain the benefits of keeping the User Account Control (UAC) enabled.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/029-Authentication-Methods-sm.jpg",
+          "title": "Authentication Methods",
+          "transcript": "",
+          "url": "authentication-methods",
+          "vimeoId": "89330912"
+        }
+      ],
+      "title": "Configure access to resources"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Mike take a look at configuring virtual private networks (VPN) and the technologies supporting remote access such as VPN Reconnect. They also demonstrate how to support a user through Remote Assistance.",
+          "length": "6361",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/015-Configure-Remote-Connections-sm.jpg",
+          "title": "Configure Remote Connections",
+          "transcript": "",
+          "url": "configure-remote-connections",
+          "vimeoId": "78230186"
+        },
+        {
+          "description": "In this episode Nate and Don take a look at mobility settings in Windows 8. They explore the differences between desktop and laptop systems and demonstrate some of the advanced features such as power management, offline files and drive encryption.",
+          "length": "6037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/017-Mobility-Options-sm.jpg",
+          "title": "Mobility Options",
+          "transcript": "",
+          "url": "mobility-options",
+          "vimeoId": "78230558"
+        },
+        {
+          "description": "In this episode Nate and Ronnie complete the 70-687 new objectives by tackling the last topic of using Windows 8.1 with Broadband Tethering.  They describe the use of broadband air cards and the native ability to do broadband tethering with 8.1 and they describe the ease of configuration.",
+          "length": "1121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/031-Broadband-Tethering-sm.jpg",
+          "title": "Broadband Tethering",
+          "transcript": "",
+          "url": "broadband-tethering",
+          "vimeoId": "89722320"
+        }
+      ],
+      "title": "Configure remote access and mobility"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don take a look at keeping a Windows 8 system healthy and optimized. They discuss regular updates and patching as well as storage redundancy mechanisms.",
+          "length": "5297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/018-Maintaining-Windows8-Pt1-sm.jpg",
+          "title": "Maintaining Windows Part 1",
+          "transcript": "",
+          "url": "maintaining-windows-3",
+          "vimeoId": "78230581"
+        },
+        {
+          "description": "In this episode Mike and Nate wrap up maintaining Windows 8 by analyzing event logs and creating event subscriptions. They also demonstrate Task Manager, Reliability Monitor as well as optimizing indexing options.",
+          "length": "6503",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/019-Maintaining-Windows8-Pt2-sm.jpg",
+          "title": "Maintaining Windows Part 2",
+          "transcript": "",
+          "url": "maintaining-windows-4",
+          "vimeoId": "78230839"
+        }
+      ],
+      "title": "Monitor and maintain Windows clients"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Don take a look and backup and recovery. They show several different options for backing up individual files and entire systems and how to restore them when disaster strikes.",
+          "length": "5227",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/016-Backup-and-Recovery-sm.jpg",
+          "title": "Backup and Recovery",
+          "transcript": "",
+          "url": "backup-recovery-options1",
+          "vimeoId": "78230294"
+        },
+        {
+          "description": "In this ITProTV special Nate and Ronnie take a look at recovery features in Windows 8.1. They talk briefly about creating a recovery drive and partition, creating System Restore points and recovering files with Microsoft OneDrive (SkyDrive). They also show how to create a recovery drive, system restore points and recovering a file with OneDrive.",
+          "length": "2402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70687/030-Recovery-Options-sm.jpg",
+          "title": "Recovery Options",
+          "transcript": "",
+          "url": "recovery-options",
+          "vimeoId": "89418734"
+        }
+      ],
+      "title": "Configure backup and recovery options"
+    }
+  ],
+  "url": "mcsa-windows-8",
+  "vLab": true
+}

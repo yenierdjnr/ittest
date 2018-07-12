@@ -1,0 +1,216 @@
+{
+  "description": "Active Directory Domain Services (AD DS) allows you to create a scalable, secure, and manageable infrastructure for user and resource management, and you can provide support for directory-enabled applications. In these episodes, you will learn how to deploy and maintain Active Directory in both traditional networks and cloud-based solutions.",
+  "descriptionMD": "",
+  "length": "34024",
+  "name": "Working with Active Directory",
+  "practiceExam": false,
+  "subtitle": "Deploy and maintain Active Directory",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Active Directory Domain Services (AD DS) allows you to create a scalable, secure, and manageable infrastructure for user and resource management, and you can provide support for directory-enabled applications. In these episodes, you will learn how to deploy and maintain Active Directory in both traditional networks and cloud-based solutions.",
+          "length": "279",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-0-0-overview-121015-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.565\n[MUSIC]\n\n2\n00:00:07.565 --> 00:00:11.838\nHello, we're here to introduce you to an\nexciting new series on Active Directory.\n\n3\n00:00:11.838 --> 00:00:15.283\nActive Directory is one of the more\nimportant concepts that we can learn about\n\n4\n00:00:15.283 --> 00:00:16.292\nas IT professionals.\n\n5\n00:00:16.292 --> 00:00:19.692\nAnd we wanna make sure that everybody has\na good understanding of the foundations\n\n6\n00:00:19.692 --> 00:00:21.690\nand the basics in Active Directory.\n\n7\n00:00:21.690 --> 00:00:24.510\nAnd we've got Mike Rodrick to\nactually help us out here,\n\n8\n00:00:24.510 --> 00:00:26.180\nto show us what we're\ngonna be talking about.\n\n9\n00:00:26.180 --> 00:00:28.360\nSo Mike, what are we gonna be\ncovering here in Active Directory?\n\n10\n00:00:28.360 --> 00:00:30.372\n>> Well,\nwe're gonna cover from A to Z, Ronnie.\n\n11\n00:00:30.372 --> 00:00:33.550\nThis is the place to be if you\nwanna learn about Active Directory.\n\n12\n00:00:33.550 --> 00:00:38.103\nWe're gonna start with the very basics\nof getting Active Directory installed.\n\n13\n00:00:38.103 --> 00:00:41.640\nAnd even just installing Active Directory,\nthere's different ways I can install it.\n\n14\n00:00:41.640 --> 00:00:46.253\nIf we're gonna install it on a full-blown\nserver with a GUI interface or\n\n15\n00:00:46.253 --> 00:00:48.608\nif we're gonna do it on Server Core.\n\n16\n00:00:48.608 --> 00:00:51.136\nWe're gonna take a look at\ncloning Domain Controller,\n\n17\n00:00:51.136 --> 00:00:54.328\nso that we can push domain controllers\nout in a rapid pace if we need to.\n\n18\n00:00:54.328 --> 00:00:57.563\nIf we need to deploy additional\ndomain controllers very quickly,\n\n19\n00:00:57.563 --> 00:01:00.170\nwe are gonna take a look at cloning,\nas well.\n\n20\n00:01:00.170 --> 00:01:01.980\nAnd then we're gonna break\nActive Directory down.\n\n21\n00:01:01.980 --> 00:01:05.785\nLike I said, we're gonna start at the very\nbasics, and kind of work our way through.\n\n22\n00:01:05.785 --> 00:01:08.790\nSo we're gonna learn about\nwhat makes Active Directory.\n\n23\n00:01:08.790 --> 00:01:12.740\nWe'll talk about the database,\nand the SYSVOL folder structure.\n\n24\n00:01:12.740 --> 00:01:17.342\nWe'll talk about organizing Active\nDirectory with organizational units.\n\n25\n00:01:17.342 --> 00:01:19.820\nWe're gonna take a look\nat user accounts and\n\n26\n00:01:19.820 --> 00:01:22.300\ncomputer accounts and\ngetting those created.\n\n27\n00:01:22.300 --> 00:01:26.180\nBecause really, Active Directory again,\nit's as Ronnie said, a very important\n\n28\n00:01:26.180 --> 00:01:29.780\ntopic if you're going to be administering\nan Active Directory network,\n\n29\n00:01:29.780 --> 00:01:33.310\nand almost all enterprises\nare running Active Directory.\n\n30\n00:01:33.310 --> 00:01:37.522\nWe move out of that work group model\nvery early on when we're in that SOHO.\n\n31\n00:01:37.522 --> 00:01:39.502\nWe get more than 10, 15 users,\n\n32\n00:01:39.502 --> 00:01:43.165\nwe're probably gonna be\nimplementing Active Directory.\n\n33\n00:01:43.165 --> 00:01:46.375\nThat's a beautiful thing about Active\nDirectory, it's very, very scalable.\n\n34\n00:01:46.375 --> 00:01:51.037\nIt can go from ten objects to\ntens of thousands of objects, and\n\n35\n00:01:51.037 --> 00:01:53.555\neven more, it scales very well.\n\n36\n00:01:53.555 --> 00:01:57.960\nBut, that brings challenges as we\nstart getting geographically dispersed\n\n37\n00:01:57.960 --> 00:01:59.073\nwith our offices.\n\n38\n00:01:59.073 --> 00:02:01.063\nAnd we've got offices in different cities.\n\n39\n00:02:01.063 --> 00:02:03.945\nNow I've gotta worry about\nreplication with Active Directory,\n\n40\n00:02:03.945 --> 00:02:07.720\nmaking sure that we have a consistent\nstate so we're gonna deal with that.\n\n41\n00:02:07.720 --> 00:02:13.798\nReplication and sites, and replication\nlinks or site links, you name it.\n\n42\n00:02:13.798 --> 00:02:14.959\nI'm trying to think of what else, Ronnie.\n\n43\n00:02:14.959 --> 00:02:19.530\nWe're gonna look at the trust relations\nthat get created in Active Directory.\n\n44\n00:02:19.530 --> 00:02:25.315\nHow to create our own trust if we need to\nset up trust with external organizations.\n\n45\n00:02:25.315 --> 00:02:27.730\nAdding additional domain controllers.\n\n46\n00:02:27.730 --> 00:02:31.810\nAs our forest grows,\nmaybe we go to a multi-domain environment.\n\n47\n00:02:31.810 --> 00:02:33.770\nHow do we add those child domains?\n\n48\n00:02:33.770 --> 00:02:35.970\nWhat if I've got a separate namespace?\n\n49\n00:02:35.970 --> 00:02:41.050\nWe'll throw a little bit of DNS in there\nbecause Active Directory does rely on DNS,\n\n50\n00:02:41.050 --> 00:02:44.480\nbut we're really gonna\nfocus primarily on DNS.\n\n51\n00:02:44.480 --> 00:02:46.664\nWe'll talk a little bit\nabout group policy but\n\n52\n00:02:46.664 --> 00:02:49.976\nthen we've got other shows where\nwe're gonna focus on group policy.\n\n53\n00:02:49.976 --> 00:02:53.936\nThis, again,\nis gonna really focus on Active Directory.\n\n54\n00:02:53.936 --> 00:02:56.652\nWe've gotta make sure we're ready for\ndisasters, right?\n\n55\n00:02:56.652 --> 00:02:59.300\nWe've gotta make sure we're\nbacking up Active Directory.\n\n56\n00:02:59.300 --> 00:03:01.920\nHow do we restore Active Directory?\n\n57\n00:03:01.920 --> 00:03:06.085\nWhat if I've got a deleted object that\nchanges the restoration process of putting\n\n58\n00:03:06.085 --> 00:03:07.062\nthat object back?\n\n59\n00:03:07.062 --> 00:03:09.180\nWe're gonna show you\nhow to do that as well.\n\n60\n00:03:09.180 --> 00:03:11.170\nSo if you do anything\nwith Active Directory,\n\n61\n00:03:11.170 --> 00:03:14.240\nwhether you're the admin\nthat handles everything.\n\n62\n00:03:14.240 --> 00:03:17.840\nOr maybe you've been delegated\na task that you're responsible for\n\n63\n00:03:17.840 --> 00:03:19.670\nresetting user accounts' passwords.\n\n64\n00:03:19.670 --> 00:03:23.270\nAnd we're gonna look at that delegation\nwizard and see how that's done.\n\n65\n00:03:23.270 --> 00:03:26.900\nMaybe you're administering Active\nDirectory but your organization is growing\n\n66\n00:03:26.900 --> 00:03:31.260\nand you need to delegate portions\nof your job out to other people.\n\n67\n00:03:31.260 --> 00:03:33.074\nHow do I do that in a secure fashion?\n\n68\n00:03:33.074 --> 00:03:36.979\nHow do I let the help desk go in and\nreset passwords but not for\n\n69\n00:03:36.979 --> 00:03:40.340\nthe admin accounts, or\nnot create new users.\n\n70\n00:03:40.340 --> 00:03:42.362\nWe're gonna show you how to do that.\n\n71\n00:03:42.362 --> 00:03:45.412\nLike I said, we'll work a little bit\nwith those default group policies,\n\n72\n00:03:45.412 --> 00:03:47.686\ngroups are another thing\nthat we've gotta deal with.\n\n73\n00:03:47.686 --> 00:03:51.122\nHow we create groups within\nActive Directory and\n\n74\n00:03:51.122 --> 00:03:53.813\nassign permissions to those groups.\n\n75\n00:03:53.813 --> 00:03:55.310\nPre-staging computer accounts.\n\n76\n00:03:55.310 --> 00:03:57.630\nI mean, you name it, we're gonna cover it.\n\n77\n00:03:57.630 --> 00:04:01.310\nSo if you need to learn about\nActive Directory, whether it's installing\n\n78\n00:04:01.310 --> 00:04:05.050\nActive Directory or maintaining an\nexisting Active Directory infrastructure.\n\n79\n00:04:05.050 --> 00:04:09.225\nIf you're new to it, or if you've had some\nexperience with it and you wanna brush up\n\n80\n00:04:09.225 --> 00:04:13.122\non your Flexible Single Master Operation\nroles and how to move those around.\n\n81\n00:04:13.122 --> 00:04:17.074\nAnd what to do if one of the domain\ncontrollers that's holding one of those\n\n82\n00:04:17.074 --> 00:04:17.850\nFSMOs fails.\n\n83\n00:04:17.850 --> 00:04:19.570\nHow do I recover from that?\n\n84\n00:04:19.570 --> 00:04:20.980\nWe're gonna show you how.\n\n85\n00:04:20.980 --> 00:04:25.480\nSo, again, if you need to learn about\nActive Directory, this is the place to be.\n\n86\n00:04:25.480 --> 00:04:27.818\nAll right, so we've got some\ngreat episodes coming your way.\n\n87\n00:04:27.818 --> 00:04:31.057\nWe're gonna, again, work with\nActive Directory from top to bottom.\n\n88\n00:04:31.057 --> 00:04:32.019\nHope to see you there.\n\n89\n00:04:32.019 --> 00:04:38.959\n[MUSIC]\n\n",
+          "url": "overview70705",
+          "vimeoId": "148636515"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce us to Microsoft’s Active Directory Components.  They describe the purpose of Active Directory in a work environment.  Also, they take time to familiarize us with common terminology used with understandingActive Directory.",
+          "length": "2289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-1-active_directory_components-110315-1-sm.jpg",
+          "title": "Active Directory Components",
+          "transcript": "",
+          "url": "active-directory-components",
+          "vimeoId": "146125830"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take an look how Active Directory works with multiple domain controllers and domains.  They talk about the domain and forest functional levels.  Along the same lines they introduce the concepts of trust between domains and forests.",
+          "length": "2287",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-1-2-ad_functionality-110315-1-sm.jpg",
+          "title": "AD Functionality",
+          "transcript": "",
+          "url": "ad-functionality",
+          "vimeoId": "146125838"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike get started with installing Active Directory on a Windows Server 2012 R2 machine.  They discuss some of the prerequisites that need to be in place before starting the installation.  Also they show some of the considerations that must be looked at during the installation process.",
+          "length": "2159",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory-110415-high-sm.jpg",
+          "title": "Installing Active Directory",
+          "transcript": "",
+          "url": "installing-active-directory2",
+          "vimeoId": "146126014"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue the installation process by verifying a successful installation from the GUI install.  They also take some time to show the way to remotely install Active Directory and configure a Domain Controller from Server Manager.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt2-110415-high-sm.jpg",
+          "title": "Installing Active Directory Part 2",
+          "transcript": "",
+          "url": "installing-active-directory-2",
+          "vimeoId": "146125978"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show us how to get Active Directory Domain Controllers running on Server Core.  They show the use of Powershell Scripting to install and configure not only an additional domain controller in the same domain but use the scripting to also create a Domain controller in a child domain.",
+          "length": "1665",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-actvedirectory-2-1-installing_active_directory_pt3-1-sm.jpg",
+          "title": "Installing Active Directory Part 3",
+          "transcript": "",
+          "url": "installing-active-directory-3",
+          "vimeoId": "146125995"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike show how to get started with a Read-only Domain Controller.  They take a look at the prerequisites to making one.  They prestage the computer account using the Wizard.  They install the ADDS role with the RODC option checked.  They also show now make sure that only the necessary password caching is setup as well.  They briefly mention the benefits of using a RODC.",
+          "length": "2151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-2-read_only_dc-110515-1-sm.jpg",
+          "title": "Read-only Domain Controller",
+          "transcript": "",
+          "url": "readonly-domain-controller",
+          "vimeoId": "146125854"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at virtualizing Microsoft’s Active Directory.  Even though Active Directory replicates between Domain Controllers, there are times where running a virtualized Domain Controller it’s place, according to the guys.  They discuss the problems that exists where there are single points of failure that cause issues and that virtualizing the AD can help.  Another advantage virtualizing AD gives an organization is the ability to clone the DC and deploy multiple DCs quickly and easily.",
+          "length": "2349",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-2-3-ad_virtualization-112515-1-sm.jpg",
+          "title": "AD Virtualization",
+          "transcript": "",
+          "url": "ad-virtualization",
+          "vimeoId": "148255464"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into the logical organization, delegation and administrative aspects of working with Active Directory.  They emphasize the logical organization units.  Also the guys take a look at creating OUs using the GUI and using Powershell too.  This is the basic unit used to administer Active Directory.",
+          "length": "1931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-1-organizatioinal_units-110515-1-sm.jpg",
+          "title": "Organizational Units",
+          "transcript": "",
+          "url": "organizational-units2",
+          "vimeoId": "146125907"
+        },
+        {
+          "description": "in this episode, Ronnie and Mike take a look at creating and administering user accounts in Active Directory.  These accounts are the primary unique objects that we can use to audit and give permissions to resources to in our Active Directory Domain.  So they take some time to show how to create them using the GUI and using Powershell to add in multiple accounts simultaneously.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/teckskills-activedirectory-3-2-user_accounts-110515-1-sm.jpg",
+          "title": "User Accounts",
+          "transcript": "",
+          "url": "user-accounts2",
+          "vimeoId": "146148908"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie take time to look into the use of computer accounts.  Like Users, computers need accounts in Active Directory to establish a trust relationship between the computer and the AD for administration.  They also show how to create the account using pre-staging as well as joining a computer to the domain.  The guys take a little time to show what occurs when the trust relationship is broken and use PowerShell to repair the trust relationship.",
+          "length": "1838",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-3-computer_accounts-110615-1-sm.jpg",
+          "title": "Computer Accounts",
+          "transcript": "",
+          "url": "computer-accounts",
+          "vimeoId": "145197705"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a deep dive in the Active Directory Groups.  They start by describing the use of groups and why we should use them.  Mike shows the creation of groups and some of choices that affect their use in AD.  Then they talk about the nesting strategies when using Groups in Active Directory",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-3-4-groups-110615-high-sm.jpg",
+          "title": "Groups",
+          "transcript": "",
+          "url": "98369",
+          "vimeoId": "145197716"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike talk about the different flexible Single multi-master operations roles exist within an Active Directory Forest and Domains.  The describe what each role does and why It's important to AD operations. The guys even take a look at how to transfer between Domain Controllers and seize roles when necessary.",
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-2-operations_masters-110615-1-sm.jpg",
+          "title": "Operations Masters",
+          "transcript": "",
+          "url": "operations-masters",
+          "vimeoId": "145197735"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike dive into Active Directory Permissions.   These permissions are similar to NTFS permissions but provide better control over inheritance of permissions.  They emphasize the best practice when using these permissions and show how the delegation wizard works and how to extend the delegation wizard’s options.  As with any permissions in Windows, they guys emphasize best practices need to apply when working with AD permissions.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-4-1-permissions-111815-1-sm.jpg",
+          "title": "AD Permissions",
+          "transcript": "",
+          "url": "ad-permissions",
+          "vimeoId": "146522471"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss localization of services and controlling replication through AD sites.  They create sites and show how to link them.  They take time to discuss the reasons to use sites and how to create and change them through AD Sites and Services.",
+          "length": "1712",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-111815-1-sm.jpg",
+          "title": "AD Sites and Replication",
+          "transcript": "",
+          "url": "ad-sites-replication",
+          "vimeoId": "146522387"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look into the replication topology within sites and between sites.  Before starting replication, Mike shows how to create a site and then establish the links between sites so that replication can occur.  Then, the guys take a little time to show how DCs are put into sites and how clients use affinity to establish what site they are in.  Also taking a look the protocols used within sites and between sites for replication.",
+          "length": "1895",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt2-111815-1-sm.jpg",
+          "title": "AD Sites and Replication Part 2",
+          "transcript": "",
+          "url": "ad-sites-replication-2",
+          "vimeoId": "146522437"
+        },
+        {
+          "description": "in this episode, Ronnie and Mike continue to show more about replication and establish that there are not only inter site and intrusive but also how the AD partitions are replicated as well.  This essentially creates and additional replication topology.  Then, they end up talking about how replication conflicts can happen and the different ways that they do occur between replication partners.",
+          "length": "1197",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-5-1-sites_and_replication-pt3-111815-1-sm.jpg",
+          "title": "AD Sites and Replication Part 3",
+          "transcript": "",
+          "url": "ad-sites-replication-3",
+          "vimeoId": "146522465"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike take a look at Active Directory Backup.  They discuss why it’s important and when to use it. Replication is not a replacement for backup and can be problematic.  Backups insure that we can have AD in the state we need it. They show how to perform a backup and do both a non-authoritative restore and authoritative restore.",
+          "length": "2525",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-activedirectory/techskills-activedirectory-ad_backup_and_recovery-111915-1-sm.jpg",
+          "title": "AD Backup and Restore",
+          "transcript": "",
+          "url": "ad-backup-restore",
+          "vimeoId": "146522374"
+        }
+      ],
+      "title": "Active Directory"
+    }
+  ],
+  "url": "active-directory",
+  "vLab": false
+}

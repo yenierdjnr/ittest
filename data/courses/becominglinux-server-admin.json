@@ -1,0 +1,360 @@
+{
+  "description": "The Becoming a Linux Server Administrator covers managing Linux servers in a business environment. Topics covered include installing Linux as a server, managing networking and troubleshooting the OS. Other episodes demonstrate how to configure a web server, a file server, and other common servers. The primary goal of the course is to help system administrators learn to deploy and support the Linux operating system as a server platform.",
+  "descriptionMD": "The *Becoming a Linux Server Administrator* covers managing Linux servers in a business environment. Topics covered include installing Linux as a server, managing networking and troubleshooting the OS. Other episodes demonstrate how to configure a web server, a file server, and other common servers. The primary goal of the course is to help system administrators learn to deploy and support the Linux operating system as a server platform.",
+  "length": "43784",
+  "name": "Becoming a Linux Server Admin",
+  "practiceExam": false,
+  "subtitle": "Becoming a Linux Server Admin",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Becoming a Linux Server Administrator covers managing Linux servers in a business environment. Topics covered include installing Linux as a server, managing networking and troubleshooting the OS. Other episodes demonstrate how to configure a web server, a file server, and other common servers. The primary goal of the course is to help system administrators learn to deploy and support the Linux operating system as a server platform.",
+          "length": "253",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-0-0-overview-071717-PGM.00_04_03_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-0-0-overview-071717-PGM.00_04_03_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-0-0-overview-071717-PGM.00_04_03_24.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.846\n[MUSIC]\n\n2\n00:00:05.846 --> 00:00:07.169\nHello, and thank you for joining us.\n\n3\n00:00:07.169 --> 00:00:09.557\nIn this video we're taking\nto look at the upcoming,\n\n4\n00:00:09.557 --> 00:00:12.030\nBecoming a Linux Server Administrator\nseries.\n\n5\n00:00:12.030 --> 00:00:15.600\nAnd what is becoming\na Linux Server Administrator series?\n\n6\n00:00:15.600 --> 00:00:18.300\n&gt;&gt; Sure, you know a lot of people out\nthere wan to learn the Linux operating\n\n7\n00:00:18.300 --> 00:00:21.460\nsystems, it's very popular and most people\nget their start working on a desktop.\n\n8\n00:00:21.460 --> 00:00:25.400\nYou install Linux on your laptop, or\nyour PC, and that's how you learn it.\n\n9\n00:00:25.400 --> 00:00:29.950\nBut in real life land where Linux really\ndominates is in the server market.\n\n10\n00:00:29.950 --> 00:00:33.180\nAnd you'll find that running Linux\non a server is a lot different\n\n11\n00:00:33.180 --> 00:00:35.270\nthan running Linux on a work station.\n\n12\n00:00:35.270 --> 00:00:38.010\nSo in this series what we do is we try and\n\n13\n00:00:38.010 --> 00:00:39.940\nget the users accustomed\nto working on a server.\n\n14\n00:00:39.940 --> 00:00:40.990\nWe show them that environment,\n\n15\n00:00:40.990 --> 00:00:44.110\nwhat it's like working with Linux in\na server environment and the different\n\n16\n00:00:44.110 --> 00:00:47.580\nadministrative tasks we have to perform\nto keep that system up and running.\n\n17\n00:00:47.580 --> 00:00:51.620\nIt really helps to take your Linux skills\nfrom hobbyist to professional, and\n\n18\n00:00:51.620 --> 00:00:55.230\nget you out there in the real world using\ntrade skills to manage Linux servers.\n\n19\n00:00:55.230 --> 00:00:57.190\n&gt;&gt; And who is the show targeted towards?\n\n20\n00:00:57.190 --> 00:00:59.840\n&gt;&gt; Well, this could really apply\nto a number of different people,\n\n21\n00:00:59.840 --> 00:01:03.530\nif you work for a company that implements\nLinux servers and you're responsible for\n\n22\n00:01:03.530 --> 00:01:06.130\nsupporting those servers this\nseries should be great for you.\n\n23\n00:01:06.130 --> 00:01:09.120\nCuz we're gonna help you ensure those\nservers are installed properly.\n\n24\n00:01:09.120 --> 00:01:10.240\nAnd show you how to maintain them.\n\n25\n00:01:10.240 --> 00:01:12.420\nAnd run the different services\nthat are inside of there.\n\n26\n00:01:12.420 --> 00:01:14.630\nIf you're just curious about\nhow Linux servers work,\n\n27\n00:01:14.630 --> 00:01:16.780\nthis is a great series for you.\n\n28\n00:01:16.780 --> 00:01:18.920\nBut if you're looking to\nrun Linux on your desktop,\n\n29\n00:01:18.920 --> 00:01:22.310\nwell that's not really a thing\nwe're going to be covering here.\n\n30\n00:01:22.310 --> 00:01:25.450\nIn fact, we're going to do very very\nlittle with the graphical user interface.\n\n31\n00:01:25.450 --> 00:01:27.650\nSo if you're just getting\nstarted with Linux,\n\n32\n00:01:27.650 --> 00:01:29.760\nthis will be a pretty harsh spot to start.\n\n33\n00:01:29.760 --> 00:01:32.950\nSo, the typical viewer for the series\nis gonna be somebody who already\n\n34\n00:01:32.950 --> 00:01:34.900\nhas experience working with\na Linux operating system,\n\n35\n00:01:34.900 --> 00:01:37.880\nmaybe not servers but\nat least experience with the OS itself.\n\n36\n00:01:37.880 --> 00:01:39.490\nAnd is ready to make that jump.\n\n37\n00:01:39.490 --> 00:01:43.175\nIf you're somebody who's just starting\nout, wanting to get that first taste\n\n38\n00:01:43.175 --> 00:01:45.675\nof working with Linux,\nI encourage you to check out our Linux for\n\n39\n00:01:45.675 --> 00:01:49.355\nBeginners series, or\nour Becoming a Linux System Administrator.\n\n40\n00:01:49.355 --> 00:01:50.565\nDifferent than server administrator.\n\n41\n00:01:50.565 --> 00:01:52.185\nSystem focuses on the desktop.\n\n42\n00:01:52.185 --> 00:01:55.225\nWe use a lot of GUI utilities and other\nthings there, and you get that experience.\n\n43\n00:01:55.225 --> 00:01:59.247\nBut this one, this series is dedicated\nto that person that's got to support\n\n44\n00:01:59.247 --> 00:02:01.207\nservers and work in that environment.\n\n45\n00:02:01.207 --> 00:02:03.507\n&gt;&gt; Is there certificated available for\nthis?\n\n46\n00:02:03.507 --> 00:02:05.287\n&gt;&gt; No, you know this series is\na little bit different than what we\n\n47\n00:02:05.287 --> 00:02:06.207\ncreate normally on [INAUDIBLE] TV.\n\n48\n00:02:06.207 --> 00:02:08.527\nA lot of our content is\ncertification based but\n\n49\n00:02:08.527 --> 00:02:11.057\nhere, it's more real world skills based.\n\n50\n00:02:11.057 --> 00:02:14.337\nI wanna show you guys what it takes to\nbe able to manage these systems and\n\n51\n00:02:14.337 --> 00:02:16.657\ngive you more of a hands\non practical example.\n\n52\n00:02:16.657 --> 00:02:20.210\nSo as this series goes through, you'll\nsee where we're doing just examples,\n\n53\n00:02:20.210 --> 00:02:22.210\nlabs we're actually working\nwith the equipment and\n\n54\n00:02:22.210 --> 00:02:25.260\ngetting it set up and\nusing it and implementing it.\n\n55\n00:02:25.260 --> 00:02:28.810\nWithout having to worry about what\nquestion is on a particular exam.\n\n56\n00:02:28.810 --> 00:02:31.085\nThere are some great certifications\nout there if you're looking for\n\n57\n00:02:31.085 --> 00:02:34.700\nLinux certifications we have several\non our own site like CompTIA Linux+.\n\n58\n00:02:34.700 --> 00:02:37.240\nYou can check those out and get certified.\n\n59\n00:02:37.240 --> 00:02:39.670\nBut if you're just looking\nto get the practical skills,\n\n60\n00:02:39.670 --> 00:02:41.300\nthat's what this series is all about.\n\n61\n00:02:41.300 --> 00:02:43.350\n&gt;&gt; Now what topics\nare covered in this show?\n\n62\n00:02:43.350 --> 00:02:44.780\n&gt;&gt; Well you know, we cover a big range.\n\n63\n00:02:44.780 --> 00:02:45.870\nWe start with the really important stuff,\n\n64\n00:02:45.870 --> 00:02:49.980\nwhich is how you install a Linux server\nand how you get it initially set up.\n\n65\n00:02:49.980 --> 00:02:52.810\nThere's a lot of initial configuration\nyou have to go through to get that Linux\n\n66\n00:02:52.810 --> 00:02:55.220\nserver in place and deployed correctly.\n\n67\n00:02:55.220 --> 00:02:58.530\nWe talked a little bit about securing and\nhardening a Linux server,\n\n68\n00:02:58.530 --> 00:03:01.550\nwhich is another really important thing\nbecause these servers are typically\n\n69\n00:03:01.550 --> 00:03:03.740\nexposed to the Internet, and\nthat makes them a security risk.\n\n70\n00:03:03.740 --> 00:03:06.090\nSo we've gotta make sure that\nthey're configured properly.\n\n71\n00:03:06.090 --> 00:03:09.790\nAfter that, we're gonna break\ndown into individual services.\n\n72\n00:03:09.790 --> 00:03:12.030\nAnd we'll take a look at\nhow to set up a web server,\n\n73\n00:03:12.030 --> 00:03:13.900\nwe'll talk about how to\nset up a database server,\n\n74\n00:03:13.900 --> 00:03:18.830\nwe'll talk about how to do Samba and\nfile sharing, NFS, another file system.\n\n75\n00:03:18.830 --> 00:03:22.590\nAnd so different kind of roles that\nyour Linux server can perform.\n\n76\n00:03:22.590 --> 00:03:26.170\nNow we're gonna take a look\nat these from the basics.\n\n77\n00:03:26.170 --> 00:03:27.740\nTake for example a database server.\n\n78\n00:03:27.740 --> 00:03:29.720\nIf I wanna set up MariaDB.\n\n79\n00:03:29.720 --> 00:03:33.948\nWell, we could have 100 hours of\ncontent on how just to setup MariaDB.\n\n80\n00:03:33.948 --> 00:03:36.180\nSo in this series it's\nmore of an introduction.\n\n81\n00:03:36.180 --> 00:03:38.750\nHow we get the database server deployed,\nhow we connect to it,\n\n82\n00:03:38.750 --> 00:03:42.150\nhow we make sure it's secured\nproperly to be able to put it in use.\n\n83\n00:03:42.150 --> 00:03:46.480\nBut you can carry that knowledge on and go\ninto the more advanced courses later on to\n\n84\n00:03:46.480 --> 00:03:47.890\nlearn more about these\nindividual products.\n\n85\n00:03:47.890 --> 00:03:51.250\nBut here we'll look at how to set up\nall these difference server types and\n\n86\n00:03:51.250 --> 00:03:52.840\nget them running in\nthe production environment.\n\n87\n00:03:52.840 --> 00:03:53.710\n&gt;&gt; That sounds great.\n\n88\n00:03:53.710 --> 00:03:56.910\nBecoming a Linux server administrator,\nif this sounds interesting to you, and I'm\n\n89\n00:03:56.910 --> 00:04:02.100\nsure it does, watch all the video content\nin becoming a Linux server administrator.\n\n90\n00:04:02.100 --> 00:04:03.410\nThank you for watching.\n\n91\n00:04:03.410 --> 00:04:04.326\nSee you soon.\n\n92\n00:04:04.326 --> 00:04:08.912\n[MUSIC]\n\n",
+          "url": "overview-linuxserver",
+          "vimeoId": "225991988"
+        },
+        {
+          "description": "Don and Zach discuss Installing Linux as a Server, why install it, how to install it, starting the Server, monitoring the Server, obtaining installation media, obtaining the necessary hardware, performing the install, and what you need to know when working with Red Hat 7.3 / Ubuntu / & Centos in regards to the installation of Linux as a Server.",
+          "length": "1896",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-1-installing_linux_as_a_server-071717-PGM.00_31_20_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-1-installing_linux_as_a_server-071717-PGM.00_31_20_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-1-installing_linux_as_a_server-071717-PGM.00_31_20_11.Still001-sm.jpg",
+          "title": "Installing Linux as a Server",
+          "transcript": "",
+          "url": "installing-linuxa-server",
+          "vimeoId": "225992051"
+        },
+        {
+          "description": "Don and Zach continue to cover Installing Linux As A Server, what kind of configuration is needed from the start, configuring the Server, Licensing, Networking, Drivers, Default Files, User Accounts, starting the Server, performing updates, and performing a reboot.",
+          "length": "1388",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-2-installing_linux_as_a_server_pt_2-071717-PGM.00_23_47_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-2-installing_linux_as_a_server_pt_2-071717-PGM.00_23_47_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-1-2-installing_linux_as_a_server_pt_2-071717-PGM.00_23_47_08.Still001-sm.jpg",
+          "title": "Installing Linux as a Server Part 2",
+          "transcript": "",
+          "url": "installing-linuxa-server2",
+          "vimeoId": "225992841"
+        },
+        {
+          "description": "Don and Zach cover what we need to do to secure the server, configuring passwords, configuring certificates, configure firewall, determine default zone, allow a standard service through firewall, adding custom services, allowing a non-standard service through firewall, configure TCP Wrappers, configure SELinux, view SELinux log, configure service related security, monitoring the Server, and performing updates.",
+          "length": "2413",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-2-1-hardening_a_linux_server-071717-PGM.00_40_30_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-2-1-hardening_a_linux_server-071717-PGM.00_40_30_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-2-1-hardening_a_linux_server-071717-PGM.00_40_30_19.Still001-sm.jpg",
+          "title": "Hardening a Linux Server",
+          "transcript": "",
+          "url": "hardeninglinux-server",
+          "vimeoId": "225993163"
+        },
+        {
+          "description": "Don and Zach discuss what are some of the things we need to configure in SSH, SSHD, AllowUsers Policy, AllowGroups Policy, restarting SSH, using Certificates to login, generating a Public/ Private Key Pair, disabling Password Authentication on the server, changing the port in the SSHD config, allowing the port in the Firewall, and testing the connection.",
+          "length": "1452",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-3-configuring_ssh-071817-PGM.00_23_55_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-3-configuring_ssh-071817-PGM.00_23_55_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-3-configuring_ssh-071817-PGM.00_23_55_28.Still001-sm.jpg",
+          "title": "Configuring SSH",
+          "transcript": "",
+          "url": "configuring-ssh",
+          "vimeoId": "226153141"
+        },
+        {
+          "description": "Don and Zach cover basic log messages from boot-up, system log, SYSLOG, system log rotation, additional maintenance of logs, remote system logs, RSYSLOG, making logs permanent, SystemD Jounal, storing logs as secured binary so they can't be altered, how logging differs on various OS, persistent storage, JournalCTL command, JournalD as a replacement for SYSLOG, filtering for priority and filtering for time.",
+          "length": "1939",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-4-configuring_system_logging-071817-PGM.00_32_50_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-4-configuring_system_logging-071817-PGM.00_32_50_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-4-configuring_system_logging-071817-PGM.00_32_50_05.Still001-sm.jpg",
+          "title": "Configuring System Logging",
+          "transcript": "",
+          "url": "configuring-system-logging",
+          "vimeoId": "226153361"
+        },
+        {
+          "description": "Don and Zach consider how best to monitor performance, when we would need to view performance, viewing current & short-term data, display processes in real-time, disk storage/utilization, memory utilization/historical data, what SAR is, SYSSTAT, how we view logged CPU usage data, viewing logged disk activity, viewing logged network activity, viewing network errors, and viewing real-time data.",
+          "length": "1563",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-5-monitoring_performance-071817-PGM.00_27_58_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-5-monitoring_performance-071817-PGM.00_27_58_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-1-5-monitoring_performance-071817-PGM.00_27_58_02.Still001-sm.jpg",
+          "title": "Monitoring Performance",
+          "transcript": "",
+          "url": "monitoring-performance-linuxserver",
+          "vimeoId": "226153744"
+        }
+      ],
+      "title": "Understanding Server Administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss options in regards to configuring networking, restarting network service, SYSTEMCTL, configuring adapters, configuration using interface scripts, SYSCONFIG, configuration using global settings, configurations that apply to all NICs, name lookups, NetworkManager (NMCLI), and configuring using NetworkManager.",
+          "length": "1800",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-1-configuring_networking-071917-PGM.00_29_44_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-1-configuring_networking-071917-PGM.00_29_44_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-1-configuring_networking-071917-PGM.00_29_44_08.Still001-sm.jpg",
+          "title": "Configure Networking",
+          "transcript": "",
+          "url": "configure-networking-linuxserver",
+          "vimeoId": "226298939"
+        },
+        {
+          "description": "Don and Zach discuss what advanced networking is, how we begin the process, IP address Aliases, what 'Onparent' is, ethernet channel bonding, creating the bond configuration, adding the NICs to the bond, enabling the bonding module, and custom routes.",
+          "length": "1885",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-2-advanced_networking-071917-PGM.00_48_47_18.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-2-advanced_networking-071917-PGM.00_48_47_18.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-2-2-advanced_networking-071917-PGM.00_48_47_18.Still002-sm.jpg",
+          "title": "Advanced Networking",
+          "transcript": "",
+          "url": "advanced-networking-linux-server",
+          "vimeoId": "226485177"
+        }
+      ],
+      "title": "Administering Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what SysV Init & Upstart Init are, a brief history of SysV Init and Upstart, Upstart as improved SysV, how to manage SysV & Upstart, configuring both, how we interact with init, how init varies between distros, changing the run level while the system is running, information gathering, and manually controlling the services.",
+          "length": "1667",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-1-sysv_init_and_upstart-072017-PGM.00_30_13_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-1-sysv_init_and_upstart-072017-PGM.00_30_13_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-1-sysv_init_and_upstart-072017-PGM.00_30_13_06.Still001-sm.jpg",
+          "title": "SysV Init and Upstart",
+          "transcript": "",
+          "url": "sysv-initupstart",
+          "vimeoId": "226448130"
+        },
+        {
+          "description": "Don and Zach give an overview as to why we would choose systemd over Upstart & SysV Init, go over key terms, discuss Target, NFS, go over Process, managing services, tools we need for systemd, managing run levels, and system power.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-2-systemd-072017-PGM.00_28_21_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-2-systemd-072017-PGM.00_28_21_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-3-2-systemd-072017-PGM.00_28_21_20.Still001-sm.jpg",
+          "title": "systemd",
+          "transcript": "",
+          "url": "systemd-linux-server",
+          "vimeoId": "226447781"
+        }
+      ],
+      "title": "Starting and Stopping Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what BIND is, why we would choose BIND over other DNS servers, installing the BIND packages, editing the configuration file, define the listen ports, restrict recursive lookups, verify Configuration files, cleanup permissions, named.servce, and allowing BIND through firewalld.",
+          "length": "1443",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-1-installing_bind-072117-PGM.00_23_47_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-1-installing_bind-072117-PGM.00_23_47_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-1-installing_bind-072117-PGM.00_23_47_01.Still001-sm.jpg",
+          "title": "Installing BIND",
+          "transcript": "",
+          "url": "installing-bind-linux-server",
+          "vimeoId": "226903514"
+        },
+        {
+          "description": "Don and Zach explain getting started with Forward Lookup Zones, creating a Zone File, creating Core Records, what SOA is, Name Servers (NS), adding the Zone to BIND, Verify Syntax, and Cleanup Permissions.",
+          "length": "1592",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-1-configuring_zones_and_records-072117-PGM.00_26_17_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-1-configuring_zones_and_records-072117-PGM.00_26_17_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-1-configuring_zones_and_records-072117-PGM.00_26_17_04.Still001-sm.jpg",
+          "title": "Configuring Zones and Records",
+          "transcript": "",
+          "url": "configuring-zonesrecords-linux-server",
+          "vimeoId": "226903697"
+        },
+        {
+          "description": "Don and Zach continue looking at Configuring Zones & Records, Reverse Lookup Records, creating Core Records, SOA, NS, Creating PTR Records, adding Zone to BIND, verify Syntax, Cleanup File Permissions, and restarting BIND.",
+          "length": "929",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-2-configuring_zones_and_records_pt_2-072117-PGM.00_15_13_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-2-configuring_zones_and_records_pt_2-072117-PGM.00_15_13_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-4-2-2-configuring_zones_and_records_pt_2-072117-PGM.00_15_13_23.Still001-sm.jpg",
+          "title": "Configuring Zones and Records Part 2",
+          "transcript": "",
+          "url": "configuring-zonesrecords2-linux-server",
+          "vimeoId": "227075193"
+        }
+      ],
+      "title": "Configuring a DNS Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss  DHCPD, standards based DHCP server, installation, minimum configuration needed to get started, configuring static DHCP leases, operations, troubleshoot fail to start, and tools for monitoring DHCP.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-5-1-installing_dhcpd-080717.00_28_40_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-5-1-installing_dhcpd-080717.00_28_40_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-5-1-installing_dhcpd-080717.00_28_40_17.Still001-sm.jpg",
+          "title": "Installing dhcpd",
+          "transcript": "",
+          "url": "installing-dhcpd",
+          "vimeoId": "228812754"
+        }
+      ],
+      "title": "Configuring a DHCP Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what software is needed, installing a minimal Apache web server, installing a 'feature rich' Apache web server, and the minimum configuration needed to get started.",
+          "length": "1153",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-1-installing_httpd-080717-PGM.00_18_58_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-1-installing_httpd-080717-PGM.00_18_58_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-1-installing_httpd-080717-PGM.00_18_58_04.Still001-sm.jpg",
+          "title": "Installing httpd",
+          "transcript": "",
+          "url": "installing-httpd",
+          "vimeoId": "228812551"
+        },
+        {
+          "description": "Don and Zach continue installing httpd, loading custom content, typical server configuration, troubleshoot fail to start after modifying configuration, storing content elsewhere, hosting multiple websites on same server, and name-based virtual hosts.",
+          "length": "1890",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-2-installing_httpd_pt_2-080717-PGM.00_31_13_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-2-installing_httpd_pt_2-080717-PGM.00_31_13_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-1-2-installing_httpd_pt_2-080717-PGM.00_31_13_26.Still001-sm.jpg",
+          "title": "Installing httpd Part 2",
+          "transcript": "",
+          "url": "installing-httpd2",
+          "vimeoId": "228812988"
+        },
+        {
+          "description": "Don and Zach discuss SSL, if SSL is supported by default, installing SSL, generating our own certificates, define the certificate & key, multiple websites needing different certificates, and SSL versions that are compromised or weak.",
+          "length": "1911",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-2-configuring_ssl-080817-PGM.00_31_35_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-2-configuring_ssl-080817-PGM.00_31_35_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-6-2-configuring_ssl-080817-PGM.00_31_35_03.Still001-sm.jpg",
+          "title": "Configuring SSL",
+          "transcript": "",
+          "url": "configuring-ssl",
+          "vimeoId": "228969663"
+        }
+      ],
+      "title": "Configuring an Apache Web Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what MariaDB is, how to install, basic security settings, critical configuration options, getting the server on-line, and adding additional users to the server.",
+          "length": "1596",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-1-installing_mariadb-080817-PGM.00_26_20_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-1-installing_mariadb-080817-PGM.00_26_20_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-1-installing_mariadb-080817-PGM.00_26_20_14.Still001-sm.jpg",
+          "title": "Installing MariaDB",
+          "transcript": "",
+          "url": "installing-mariadb",
+          "vimeoId": "228970766"
+        },
+        {
+          "description": "Don and Zach continue the discussion on using MariaDB, updating user privileges, adding user permissions, removing user permissions, grant full access, lift user access, backup database, and restore database.",
+          "length": "1311",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-2-installing_mariadb_pt_2-080817-PGM.00_22_45_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-2-installing_mariadb_pt_2-080817-PGM.00_22_45_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-1-2-installing_mariadb_pt_2-080817-PGM.00_22_45_16.Still001-sm.jpg",
+          "title": "Installing MariaDB Part 2",
+          "transcript": "",
+          "url": "installing-mariadb2",
+          "vimeoId": "228970529"
+        },
+        {
+          "description": "\"Don and Zach explain commands available when working with database data, creating a table, creating a database, enforcing 'uniqueness,' getting data into the table, and importing bulk data from CSV file.\"",
+          "length": "2047",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-1-working_with_data-080917.00_33_52_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-1-working_with_data-080917.00_33_52_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-1-working_with_data-080917.00_33_52_21.Still001-sm.jpg",
+          "title": "Working with Data",
+          "transcript": "",
+          "url": "data-linux-server",
+          "vimeoId": "229134904"
+        },
+        {
+          "description": "Don and Zach discuss importing data via an SQL script, getting data loaded, looking at the data, view all data in a table, changing data, and joining results from multiple tables.",
+          "length": "1546",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-2-working_with_data_pt_2-080917.00_25_33_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-2-working_with_data_pt_2-080917.00_25_33_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-7-2-2-working_with_data_pt_2-080917.00_25_33_29.Still001-sm.jpg",
+          "title": "Working with Data Part 2",
+          "transcript": "",
+          "url": "data2",
+          "vimeoId": "229134584"
+        }
+      ],
+      "title": "Configuring a MariaDB Database Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach cover what is needed to get Samba installed, installing Samba, configuration files, configuring Samba, using 'Testparm' to verify config file, starting/stopping Samba Daemon (SMBD), starting/stopping NetBIOS Name Server (NMBD), and allowing access through the firewall.",
+          "length": "1966",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-1-installing_samba-080917.00_32_32_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-1-installing_samba-080917.00_32_32_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-1-installing_samba-080917.00_32_32_14.Still001-sm.jpg",
+          "title": "Installing Samba",
+          "transcript": "",
+          "url": "installing-samba",
+          "vimeoId": "229134124"
+        },
+        {
+          "description": "Don and Zach talk about practical usage of Samba, sharing folders, adding folder to Samba's config file, testing to see if the share is advertised, end user access to folder, mounting a Samba share in Linux, and using GUI.",
+          "length": "1545",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-2-installing_samba_pt_2-080917.00_25_57_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-2-installing_samba_pt_2-080917.00_25_57_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-8-1-2-installing_samba_pt_2-080917.00_25_57_28.Still001-sm.jpg",
+          "title": "Installing Samba Part 2",
+          "transcript": "",
+          "url": "installing-samba2",
+          "vimeoId": "229135321"
+        }
+      ],
+      "title": "Configuring a Samba File Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach cover why we would use NFS instead of SAMBA, what it takes to get NFS up & running, how to share a folder via NFS, modify the firewall rules, getting a client connected to the folder, and adding to FSTAB during boot.",
+          "length": "1634",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-9-1-installing_nfs-081017.00_27_00_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-9-1-installing_nfs-081017.00_27_00_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-9-1-installing_nfs-081017.00_27_00_24.Still001-sm.jpg",
+          "title": "Installing NFS",
+          "transcript": "",
+          "url": "installing-nfs",
+          "vimeoId": "229281250"
+        }
+      ],
+      "title": "Configuring an NFS File Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Don and Zach discuss what it takes to get FTP up & running, install VSFTPD, how to configure FTP, what data users see when they connect, monitoring people's access, restricting who is allowed to use the server, SELinux interfering with VSFTP, and can we make VSFTP use encryption.",
+          "length": "2013",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-1-configuring_an_ftp_server-081017-PGM.00_35_50_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-1-configuring_an_ftp_server-081017-PGM.00_35_50_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-1-configuring_an_ftp_server-081017-PGM.00_35_50_22.Still001-sm.jpg",
+          "title": "Configuring an FTP Server",
+          "transcript": "",
+          "url": "configuringftp-server",
+          "vimeoId": "229280542"
+        },
+        {
+          "description": "Don and Zach discuss what it takes to get SFTP up & running, enable SSH, default configuration not ideal, access SSH Shells, FTP, update SELinux, restart SSHD, and testing out the SFTP server.",
+          "length": "1501",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-2-configuring_an_sftp_server-081017.00_24_48_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-2-configuring_an_sftp_server-081017.00_24_48_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-linuxserveradmin/techskills-linuxserveradmin-10-2-configuring_an_sftp_server-081017.00_24_48_03.Still001-sm.jpg",
+          "title": "Configuring an SFTP Server",
+          "transcript": "",
+          "url": "configuringsftp-server",
+          "vimeoId": "229280976"
+        }
+      ],
+      "title": "Configuring a FTP Server"
+    }
+  ],
+  "url": "becominglinux-server-admin",
+  "vLab": false
+}

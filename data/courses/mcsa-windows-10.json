@@ -1,0 +1,553 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "descriptionMD": "_This show is complete.  We are updating the recording to reflect new features and interface.  This one will be moved to Legacy when the updated version is complete._Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "length": "75789",
+  "name": "MCSA Windows 10 - 70-697",
+  "practiceExam": true,
+  "subtitle": "Configuring Windows Devices",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. This exam configuring Windows devices  covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+          "length": "405",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-win1070697-0-0-overview-102915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-win1070697-0-0-overview-102915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-win1070697-0-0-overview-102915-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.129 --> 00:00:03.278\n[SOUND] In this segment,\n\n2\n00:00:03.278 --> 00:00:08.316\nwe are going to do an overview of the new\n\n3\n00:00:08.316 --> 00:00:13.047\n70-697 exam for Microsoft.\n\n4\n00:00:13.047 --> 00:00:18.670\nWhich is really a Windows 10 exam,\nwhich is configuring devices and features.\n\n5\n00:00:18.670 --> 00:00:21.838\nAnd obviously it's going to be\ninside the Windows 10 environment.\n\n6\n00:00:21.838 --> 00:00:25.558\nAnd I brought along Mike here to helps us\nwalk through some of the objectives in\n\n7\n00:00:25.558 --> 00:00:28.547\nthe domains there and\nto see what we can expect from this exam.\n\n8\n00:00:28.547 --> 00:00:31.289\n>> Yeah, it's going to be a little\ndifferent from some of the other client\n\n9\n00:00:31.289 --> 00:00:32.671\nexams that we've done in the past.\n\n10\n00:00:32.671 --> 00:00:35.380\nIt's gonna go more towards The Cloud.\n\n11\n00:00:35.380 --> 00:00:38.240\nWe're gonna bring in a lot of\ndifferent Cloud technologies,\n\n12\n00:00:38.240 --> 00:00:41.320\nbecause we need to be able to\nsupport these Windows 10 devices and\n\n13\n00:00:41.320 --> 00:00:45.005\nthere's a lot of integrated features\nin Windows 10 that deal with The Cloud.\n\n14\n00:00:45.005 --> 00:00:48.547\nOneDrive, for example, and\nRemoteApp, and many others.\n\n15\n00:00:48.547 --> 00:00:53.962\nSo when we look at this, we're gonna be\nlooking at Windows 10 as our platform.\n\n16\n00:00:53.962 --> 00:00:57.770\nAnd we've got to look at Windows\n10 on laptops, on desktops,\n\n17\n00:00:57.770 --> 00:01:02.296\non mobile devices, on tablets and\nintegrating that with The Cloud as well.\n\n18\n00:01:02.296 --> 00:01:07.431\nSo a little bit of a difference from\nwhat we might have seen on Windows 7,\n\n19\n00:01:07.431 --> 00:01:09.462\nfor example, client exam.\n\n20\n00:01:09.462 --> 00:01:13.575\nSo let's take a look at the,\nas Daniel said, it's 70-697,\n\n21\n00:01:13.575 --> 00:01:17.628\nthat's gonna be the exam number,\nconfiguring Windows devices.\n\n22\n00:01:17.628 --> 00:01:20.331\nAnd we take a look at the skills\nthat we're going to be going over,\n\n23\n00:01:20.331 --> 00:01:21.963\nto help you get prepared for this exam.\n\n24\n00:01:21.963 --> 00:01:22.796\nThere's a lot of them.\n\n25\n00:01:22.796 --> 00:01:25.596\nWe're going to be talking\nabout identities and\n\n26\n00:01:25.596 --> 00:01:28.754\nhow we can support Windows Store apps and\nCloud apps.\n\n27\n00:01:28.754 --> 00:01:31.714\nAgain, you'll see a lot of these\nnew technologies being brought in,\n\n28\n00:01:31.714 --> 00:01:34.123\nbecause that's just what our\nusers are gonna be using and\n\n29\n00:01:34.123 --> 00:01:36.046\nyou've gotta be able\nto support this stuff.\n\n30\n00:01:36.046 --> 00:01:41.230\nOffice 365, using Microsoft Intune\nto deploy applications\n\n31\n00:01:41.230 --> 00:01:46.421\nout to devices, even non-Windows devices,\niOS and Android.\n\n32\n00:01:46.421 --> 00:01:48.671\nSupporting different\nauthentication methods.\n\n33\n00:01:48.671 --> 00:01:52.790\nAnd Windows 10 brings in a lot of\nnew things with biometrics and\n\n34\n00:01:52.790 --> 00:01:56.004\nPINs that we can use on\nsome of our mobile devices.\n\n35\n00:01:56.004 --> 00:02:00.278\nWe start getting down into desktop\ndeployment and using migrating user\n\n36\n00:02:00.278 --> 00:02:04.421\nprofiles from their older operating\nsystem, over to Windows 10.\n\n37\n00:02:04.421 --> 00:02:08.379\nCuz we know that Windows 10 does things a\nlot different as far as that profile goes.\n\n38\n00:02:08.379 --> 00:02:12.494\nWe've gotta see how do we move their stuff\nfrom their old devices over to their new\n\n39\n00:02:12.494 --> 00:02:13.046\ndevices?\n\n40\n00:02:13.046 --> 00:02:19.504\nUsing Hyper-V and supporting remote\ndesktop or virtual desktop infrastructure.\n\n41\n00:02:19.504 --> 00:02:22.337\nMobility options like Windows to go.\n\n42\n00:02:22.337 --> 00:02:24.046\nSynchronizing files.\n\n43\n00:02:24.046 --> 00:02:26.462\nAnd again, it's just a change\nin the way we do things.\n\n44\n00:02:26.462 --> 00:02:30.338\nWe're on more mobile devices, I need to be\nable to work with those files from many\n\n45\n00:02:30.338 --> 00:02:33.086\ndifferent platforms,\nfrom many different locations.\n\n46\n00:02:33.086 --> 00:02:35.087\nThis is gonna make sure we're ready for\nthat.\n\n47\n00:02:35.087 --> 00:02:36.504\nSetting up BitLocker.\n\n48\n00:02:36.504 --> 00:02:39.379\nMobile devices,\neasy to lose, easy to steal.\n\n49\n00:02:39.379 --> 00:02:41.629\nGotta make sure that data is safe.\n\n50\n00:02:41.629 --> 00:02:44.501\nSo supporting those mobile devices, again,\n\n51\n00:02:44.501 --> 00:02:47.379\nyou see a lot of Intune\nin our objectives here.\n\n52\n00:02:47.379 --> 00:02:52.430\nUsing that to push out updates or\nagain, push out applications.\n\n53\n00:02:52.430 --> 00:02:56.670\nThen we get down into some of our old,\nI call it old school, like we use to do.\n\n54\n00:02:56.670 --> 00:02:58.879\n>> A little more traditional type\nof things that we can expect.\n\n55\n00:02:58.879 --> 00:03:00.254\n[LAUGH]\n>> Yeah, exactly.\n\n56\n00:03:00.254 --> 00:03:04.477\nSo dealing with configuring IP,\nbecause we still have to deal with TCPIP\n\n57\n00:03:04.477 --> 00:03:08.011\nconfiguration, network locations,\nwireless networks,\n\n58\n00:03:08.011 --> 00:03:12.582\nsetting up our firewall to allow all of\nthese different types of connections,\n\n59\n00:03:12.582 --> 00:03:14.754\nand yet still keep our devices safe.\n\n60\n00:03:14.754 --> 00:03:15.921\nUsing storage.\n\n61\n00:03:15.921 --> 00:03:18.004\nSo DFS client settings.\n\n62\n00:03:18.004 --> 00:03:22.003\nAnd how do they connect and\naccess those work resources?\n\n63\n00:03:22.003 --> 00:03:28.296\nAgain, keeping that data safe using\nEFS and BitLocker and BitLocker To Go.\n\n64\n00:03:28.296 --> 00:03:32.379\nHow do I manage that from\na enterprise standpoint?\n\n65\n00:03:32.379 --> 00:03:36.772\nHow do we use things like MBAM,\nMicrosoft's BitLocker administration and\n\n66\n00:03:36.772 --> 00:03:40.683\nmonitoring, so that I don't have\nto touch every single machine and\n\n67\n00:03:40.683 --> 00:03:42.962\nconfigure BitLocker independently.\n\n68\n00:03:42.962 --> 00:03:44.337\nData access protection.\n\n69\n00:03:44.337 --> 00:03:47.534\nWe start getting into\nHomeGroup settings and\n\n70\n00:03:47.534 --> 00:03:52.170\nconfiguring libraries and\nfolder permissions using OneDrive.\n\n71\n00:03:52.170 --> 00:03:55.971\nManaging remote access\nwith VPN connections and\n\n72\n00:03:55.971 --> 00:04:00.336\nVPN reconnect and Wi-Fi Direct and\nmore Windows To Go.\n\n73\n00:04:00.336 --> 00:04:03.837\nWe get down into applications and\nwe're looking at Azure.\n\n74\n00:04:03.837 --> 00:04:06.942\nAll right this is a big thing now and\neven on these client exams,\n\n75\n00:04:06.942 --> 00:04:09.650\nthey're gonna expect you\nto understand some of that.\n\n76\n00:04:09.650 --> 00:04:10.420\nAll right?\n\n77\n00:04:10.420 --> 00:04:13.191\nMaybe not going out to Azure and\nsetting everything up, but\n\n78\n00:04:13.191 --> 00:04:14.921\nmaking sure my clients can connect.\n\n79\n00:04:14.921 --> 00:04:17.003\nWhat do I do when they don't\nget those remote apps?\n\n80\n00:04:17.003 --> 00:04:19.421\nWhy are they not showing\nup on their device?\n\n81\n00:04:19.421 --> 00:04:21.087\nSo how do we support all that?\n\n82\n00:04:21.087 --> 00:04:24.572\nHow do we make these applications\nthat we've had in the past,\n\n83\n00:04:24.572 --> 00:04:27.220\nwork on these Windows 10 devices?\n\n84\n00:04:27.220 --> 00:04:29.340\nThings like\nthe Application Compatibility Toolkit,\n\n85\n00:04:29.340 --> 00:04:34.220\nusing Hyper-V as your remote app,\nor User Experience Virtualization.\n\n86\n00:04:35.340 --> 00:04:39.604\nSo allowing those older applications\nto still function, and then, of course,\n\n87\n00:04:39.604 --> 00:04:42.754\nbeing able to recover in\nthe event something does go wrong.\n\n88\n00:04:42.754 --> 00:04:46.129\nSo looking at System Recovery,\nSystem Restore.\n\n89\n00:04:46.129 --> 00:04:50.209\nAnd Windows 10 has some cool new\nfeatures with the refresh options and\n\n90\n00:04:50.209 --> 00:04:51.504\nthe recycle options.\n\n91\n00:04:51.504 --> 00:04:55.921\nWe can still do stuff that we did in\nthe past, like our driver rollbacks.\n\n92\n00:04:55.921 --> 00:05:00.962\nWe've got our file history,\nstoring some of that up on OneDrive.\n\n93\n00:05:00.962 --> 00:05:04.869\nSo, you're gonna see some of the stuff\nthat we used to do in the past with our\n\n94\n00:05:04.869 --> 00:05:08.296\nclients as well as a lot of new\nstuff being brought into this exam.\n\n95\n00:05:08.296 --> 00:05:10.447\nSo this exam is really designed for\n\n96\n00:05:10.447 --> 00:05:14.463\nanybody that's going to have\nto support Windows 10 devices.\n\n97\n00:05:14.463 --> 00:05:20.004\nWhether that's desktops, laptops,\nphones, tablets, any of that.\n\n98\n00:05:20.004 --> 00:05:22.555\nAnd even some non-Microsoft devices,\n\n99\n00:05:22.555 --> 00:05:26.462\nbecause we know in today's\nnetworks we've got a lot of BYOD.\n\n100\n00:05:26.462 --> 00:05:29.511\nWe've got a lot of people that\nare bringing in devices that are not\n\n101\n00:05:29.511 --> 00:05:30.128\nMicrosoft.\n\n102\n00:05:30.128 --> 00:05:31.619\nWe've got our iOS devices,\n\n103\n00:05:31.619 --> 00:05:35.796\nwe've got our android devices, and we\nneed to be able to support those as well.\n\n104\n00:05:35.796 --> 00:05:39.558\nSo if you're somebody that is planning\non getting into the field and\n\n105\n00:05:39.558 --> 00:05:42.004\nsupporting these types of mobile devices.\n\n106\n00:05:42.004 --> 00:05:45.206\nOr if you're already out there and\nyour network is now changing and\n\n107\n00:05:45.206 --> 00:05:49.035\nthings are moving out to The Cloud, and\nyou've got to continue to support those\n\n108\n00:05:49.035 --> 00:05:51.922\nclient devices,\nthis is gonna be the video series for you.\n\n109\n00:05:51.922 --> 00:05:54.254\nAnd in the end, you're gonna get\na certification out of it, right?\n\n110\n00:05:54.254 --> 00:05:57.563\nWe're gonna go through\nall of these objectives,\n\n111\n00:05:57.563 --> 00:06:00.962\ngetting you ready to\ntake that 70-697 exam.\n\n112\n00:06:00.962 --> 00:06:04.629\nThat's gonna get you that Microsoft\nCertified Professional certification.\n\n113\n00:06:04.629 --> 00:06:09.519\nAnd probably more as they move on\nwith those exam, but that is yet\n\n114\n00:06:09.519 --> 00:06:13.879\nto be seen, it's still kind\nof in the beta at this point.\n\n115\n00:06:13.879 --> 00:06:17.254\nBut you'll definitely get your\nMicrosoft Certified Professional.\n\n116\n00:06:17.254 --> 00:06:20.295\nMost likely other certifications\nat the end of all of this.\n\n117\n00:06:20.295 --> 00:06:25.296\nSo, if that wounds like something that\nyou have to do now or want to move into.\n\n118\n00:06:25.296 --> 00:06:29.586\nIf that's the career path that you want\nto go down, this is the place to be.\n\n119\n00:06:29.586 --> 00:06:31.380\nThese are the videos for you.\n\n120\n00:06:31.380 --> 00:06:35.586\nThis is going to help you get\nthat 70-697 certification.\n\n121\n00:06:35.586 --> 00:06:38.504\nSo, hope to see you here soon.\n\n122\n00:06:38.504 --> 00:06:44.679\n[SOUND]\n\n",
+          "url": "overview70697",
+          "vimeoId": "144399716"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at some of the different cloud technologies that Windows 10 devices can integrate into well.  Windows 10 pushes us heavily towards cloud solutions for identity management.  Here the guys show the ability to manage applications using office 365 and Microsoft Intune.",
+          "length": "1694",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps-092515-1-sm.jpg",
+          "title": "Windows Store and Apps",
+          "transcript": "",
+          "url": "manage-identity",
+          "vimeoId": "141427692"
+        },
+        {
+          "description": "In this episode Daniel and Ronnie discuss and show how to manage sideloading apps into images and show what policies must be configured for this work. They talk about some specific challenges that deployment personnel may address.",
+          "length": "1355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt2-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt2-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt2-092515-1-sm.jpg",
+          "title": "Windows Store and Apps Part 2",
+          "transcript": "",
+          "url": "manage-identity-2",
+          "vimeoId": "141427698"
+        },
+        {
+          "description": "",
+          "length": "1294",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt3-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt3-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-1-windows_store_cloud_apps_pt3-092515-1-sm.jpg",
+          "title": "Windows Store and Apps Part 3",
+          "transcript": "",
+          "url": "manage-identity-3",
+          "vimeoId": "141427717"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie talk about moving beyond the password for authentication and take a look at the different authentication factors.  They show that Windows 10 is seriously setup to move us from depending on passwords to supporting the multifactor authentication with the least possible amount of pain points for the end user.",
+          "length": "1644",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication-091115-1-sm.jpg",
+          "title": "Supporting Authentication",
+          "transcript": "",
+          "url": "supporting-authentication",
+          "vimeoId": "139489728"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue to demonstrate the multiple ways that Windows 10 is ready for multifactor authentication, including Windows Hello, the Microsoft biometric framework that works with Microsoft passport.",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt2-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt2-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt2-091115-1-sm.jpg",
+          "title": "Support Authentication Part 2",
+          "transcript": "",
+          "url": "support-authentication-2",
+          "vimeoId": "139489729"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show that Windows 10 is still capable of integrating with existing authentication providers.  Windows 10 still can carry out username/password authentication using the credential manager, local accounts as well domain accounts.  They also show how to configure Windows Hello for authentication.",
+          "length": "1702",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt3-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt3-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt3-092515-1-sm.jpg",
+          "title": "Support Authentication Part 3",
+          "transcript": "",
+          "url": "support-authentication-3",
+          "vimeoId": "141427654"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce the Hyper-V \"VSM\", the Virtual Security Manager. This technology helps to insure that even the host machine cannot access the Lsass.exe process. This prevents attacks where the credentials can be stolen from the host computer's memory. They tell us the requirements to make it work and show the policy settings that must be present to make it work.",
+          "length": "526",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt4-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt4-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-1-2-supporting_authentication_pt4-091115-1-sm.jpg",
+          "title": "Support Authentication Part 4",
+          "transcript": "",
+          "url": "support-authentication-5",
+          "vimeoId": "140785329"
+        }
+      ],
+      "title": "Manage identity"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie introduce us to configuring Hyper-V in Windows 10.  They describe the basic hardware requirements and show how to get it installed in Windows 10.",
+          "length": "1879",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv-091415-1-sm.jpg",
+          "title": "Configuring Hyper-V",
+          "transcript": "",
+          "url": "configuring-hyperv4",
+          "vimeoId": "142126663"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie get the Hyper-V manager functioning by showing how to create a VM in Windows 10 Hyper-V.  Once configured, a virtual machine will function as another computer would.",
+          "length": "1899",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv_pt2-091415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv_pt2-091415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyperv_pt2-091415-1-sm.jpg",
+          "title": "Configuring Hyper-V Part 2",
+          "transcript": "",
+          "url": "configuring-hyperv-4",
+          "vimeoId": "139725582"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue to take a look at some additional configurations that need to be configured to make the VMs work efficiently and properly",
+          "length": "2438",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyper_v_pt3-100915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyper_v_pt3-100915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-2-configuring_hyper_v_pt3-100915-1-sm.jpg",
+          "title": "Configuring Hyper-V Part 3",
+          "transcript": "",
+          "url": "configuring-hyperv-5",
+          "vimeoId": "142126664"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie configure some of the different options that allow access to files when offline and even the ability to take Windows 10 with you wherever you go.",
+          "length": "1715",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-configure_mobility_options-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-configure_mobility_options-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-configure_mobility_options-091515-1-sm.jpg",
+          "title": "Mobility Options",
+          "transcript": "",
+          "url": "mobility-options2",
+          "vimeoId": "139723059"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at some other ways to make Windows 10 more mobile friendly.  They explore some of the power management policies and talk about windows to go.  They show the policies and demonstrate the creation and use of Windows to go.  They also mention scenarios that are good for the use of both.",
+          "length": "1953",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt2-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt2-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt2-091515-1-sm.jpg",
+          "title": "Mobility Options Part 2",
+          "transcript": "",
+          "url": "mobility-options-2",
+          "vimeoId": "139723057"
+        },
+        {
+          "description": "In this episode Daniel and Ronnie take a look at synchronization options and wi-fi direct.  These are options that allow you make the most of mobile devices by synchronizing settings and files between devices using the Microsoft Account and how Windows 10 can create a point to point connection between itself and wifi direct enabled devices.",
+          "length": "1902",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt3-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt3-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt3-091515-1-sm.jpg",
+          "title": "Mobility Options Part 3",
+          "transcript": "",
+          "url": "mobility-options-3",
+          "vimeoId": "139723058"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at a few remaining feature that Windows 10 has for mobility. They also show a little bit of security with Bitlocker drive encryption.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt4-091515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt4-091515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-2-3-mobility_options_pt4-091515-1-sm.jpg",
+          "title": "Mobility Options Part 4",
+          "transcript": "",
+          "url": "mobility-options-4",
+          "vimeoId": "139723056"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes take a look at using Powercfg from the command line.  The guys show that the same configuration settings cn be managed from the GUI in control panel.  Wes then shows how to see the current power plan on his machines using the CLI.  This interface shows us the main piece of information that we will use which is the GUID, Global Unique Identifier, that every power plan has to identify it.  Using some different options, Wes continues to demonstrate how to set a particular power plan as being active as well.  Lastly, the guys show us how to bring up html reports on energy efficiency and battery life that is good to see when dealing with power consumption issues in the workplace.",
+          "length": "1834",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-using_powercfg-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-using_powercfg-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-using_powercfg-032916-1-sm.jpg",
+          "title": "Using Powercfg",
+          "transcript": "",
+          "url": "using-powercfg",
+          "vimeoId": "161101050"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes take a look at the different low power states that can be managed by Windows 10.  From the CLI and using powercfg, Wes demonstrates how to find OEM specified information on the power states.  West  also describes the difference between lower power and no power state using the standby-states.  Lastly, they demonstrate how to change the power state using the powercfg command as well.",
+          "length": "1287",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-using_powercfg_pt2-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-using_powercfg_pt2-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-using_powercfg_pt2-032916-1-sm.jpg",
+          "title": "Using Powercfg Part 2",
+          "transcript": "",
+          "url": "using-powercfg-2",
+          "vimeoId": "160912156"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes show the management of BitLocker from the CLI.  Using the manage-bde command, they show how to enable bit locker when on both TPM based and non TPM based machines.  They also demonstrate how to verify the status.  Wes also takes us through the command to disable protectors and enable additional protectors too to make sure we get the combination of protections that we desire to have when using BitLocker for drive encryption.",
+          "length": "1771",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-6-supporting_bitlocker-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-6-supporting_bitlocker-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-6-supporting_bitlocker-032916-1-sm.jpg",
+          "title": "Supporting BitLocker",
+          "transcript": "",
+          "url": "supporting-bitlocker",
+          "vimeoId": "161177229"
+        },
+        {
+          "description": "In this episode, Ronnie and Wes take a look using the command prompt to help support users on the network.  Many of the devices will be connecting to our network and cause Windows 10 categorize it as a connection profile.  They show the profiles can be changed through the command prompt by using powershell cmdlets.  You can also see the profiles through the netsh commands to show settings according to Wes.   Wes also demonstrates the use of the modern networking interface in Windows 10.  He does this to emphasize the new changes as well as to help the support technician to become more familiar with this newer interface.",
+          "length": "1801",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-1-supporting_networking-040116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-1-supporting_networking-040116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-1-supporting_networking-040116-1-sm.jpg",
+          "title": "Support Networking",
+          "transcript": "",
+          "url": "support-networking",
+          "vimeoId": "162852169"
+        },
+        {
+          "description": null,
+          "length": "2134",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-supporting_networking_pt2-040116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-supporting_networking_pt2-040116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-2-5-2-supporting_networking_pt2-040116-1-sm.jpg",
+          "title": "Support Networking Part 2",
+          "transcript": "",
+          "url": "support-networking-2",
+          "vimeoId": "162553906"
+        }
+      ],
+      "title": "Plan desktop and device deployment"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel delve into supporting mobile access and data synchronization. They describe how to use Work Folders and Sync Center in Windows 10 for offline file access. Also covered is the Microsoft Phone Companion.",
+          "length": "1878",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-1-support_mobile_devices-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-1-support_mobile_devices-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-1-support_mobile_devices-092515-1-sm.jpg",
+          "title": "Support Mobile Devices",
+          "transcript": "",
+          "url": "support-mobile-devices",
+          "vimeoId": "141427584"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel show you how to use Microsoft InTune to deploy updates to Windows 10 clients. Identifying required updates, approving and/or declining updates, automatic updates, and setting deadlines for update installation are covered in this episode.",
+          "length": "1095",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-3-2-updating_with_intune-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-3-2-updating_with_intune-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-3-2-updating_with_intune-091715-1-sm.jpg",
+          "title": "Updating with Intune",
+          "transcript": "",
+          "url": "updating-intune",
+          "vimeoId": "139723055"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain basic management for Microsoft InTune. They show you how to create and manage InTune user accounts as well as how to enroll devices to be managed by InTune.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_091715-1-sm.jpg",
+          "title": "Intune Device Management",
+          "transcript": "",
+          "url": "intune-device-management",
+          "vimeoId": "139723060"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue with basic configuration for the Microsoft InTune device management solution. They move forward with viewing and managing enrolled devices; they create and manage user and computer groups as well as remote computers. They also cover configuring monitors and alerts.",
+          "length": "1956",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_pt2-091715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_pt2-091715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-3-3-intune_device_management_pt2-091715-1-sm.jpg",
+          "title": "Intune Device Management Part 2",
+          "transcript": "",
+          "url": "intune-device-management-2",
+          "vimeoId": "139747370"
+        },
+        {
+          "description": "In this episode, Daniel and Wes take you through supporting a Microsoft Intune environment. They start by looking at the different administrative roles that are inherent to Intune. Then they get into Intune Configuration and Compliance Policies.",
+          "length": "1368",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-supporting_microsoft_intune-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-supporting_microsoft_intune-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-supporting_microsoft_intune-040716-1-sm.jpg",
+          "title": "Supporting Microsoft Intune",
+          "transcript": "",
+          "url": "supporting-microsoft-intune",
+          "vimeoId": "162553903"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue their look at supporting a Microsoft Intune environment, jumping back in by creating Configuration and Compliance policies. Next they take deploy the created polices and we see them connect a Windows and Android based mobile phone.",
+          "length": "1948",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-2-supporting_microsoft_intune_pt2-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-2-supporting_microsoft_intune_pt2-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-3-4-2-supporting_microsoft_intune_pt2-040716-1-sm.jpg",
+          "title": "Supporting Microsoft Intune Part 2",
+          "transcript": "",
+          "url": "supporting-microsoft-intune-2",
+          "vimeoId": "162553902"
+        },
+        {
+          "description": "In this episode, Daniel and Wes finish their exposition on supporting Microsoft Intune, starting with connecting Apple iOS devices to an Intune environment. Finally, they explain how to figure the resultant set of policy when Configuration and Compliance Policies collide.",
+          "length": "1535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-3-4-3-supporting_microsoft_intune_pt3-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-3-4-3-supporting_microsoft_intune_pt3-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-3-4-3-supporting_microsoft_intune_pt3-040816-1-sm.jpg",
+          "title": "Supporting Microsoft Intune Part 3",
+          "transcript": "",
+          "url": "supporting-microsoft-intune-3",
+          "vimeoId": "162553892"
+        }
+      ],
+      "title": "Plan and implement a Microsoft Intune device management solution"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Mike look at configuring IP settings in Windows 10. They focus on IP settings that deal with name resolution. They show how to configure primary and alternate DNS servers, and how to adjust the order that they are used.",
+          "length": "1433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configure_ip_settings-091815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configure_ip_settings-091815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configure_ip_settings-091815-1-sm.jpg",
+          "title": "Configure IP Settings",
+          "transcript": "",
+          "url": "configure-ip-settings",
+          "vimeoId": "140174255"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike continue their look at configuring IP settings in Windows 10. They talk about static and dynamic assignment of IP settings. They also talk about IPv4 classes, IPv6, and firewall profiles.",
+          "length": "2288",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configuring_ip_settings_pt2-091815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configuring_ip_settings_pt2-091815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-1-configuring_ip_settings_pt2-091815-1-sm.jpg",
+          "title": "Configure IP Settings Part 2",
+          "transcript": "",
+          "url": "configure-ip-settings-2",
+          "vimeoId": "140174254"
+        },
+        {
+          "description": "In this episode, Mike and Daniel describe some of the network security options provided in the Windows 10 operating system. They cover firewall basics and then go into detail on how to configure the Windows Firewall basic and advanced settings.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-4-3-configure_network_security-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-4-3-configure_network_security-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-4-3-configure_network_security-092115-1-sm.jpg",
+          "title": "Configure Network Security",
+          "transcript": "",
+          "url": "configure-network-security",
+          "vimeoId": "140797851"
+        },
+        {
+          "description": "In this episode, Mike and Daniel continue exploring network security in Windows 10 by explaining how to implement connection security rules (IPsec), as well as making connection authentication exceptions and configuring the network discovery option.",
+          "length": "1708",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-3-configure_network_security_pt2-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-3-configure_network_security_pt2-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-4-3-configure_network_security_pt2-092115-1-sm.jpg",
+          "title": "Configure Network Security Part 2",
+          "transcript": "",
+          "url": "configure-network-security-2",
+          "vimeoId": "140174252"
+        }
+      ],
+      "title": "Configure networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel show you how to troubleshoot common issues related to access and authorization. Specifically mentioned here is working with NTFS and share permissions and learning how to utilize the Effective Access Permissions to see exactly what security is being applied. Also covered is securing access to removable media using group policy.",
+          "length": "2273",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-5-2-supporting_data_security-092515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-5-2-supporting_data_security-092515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-5-2-supporting_data_security-092515-1-sm.jpg",
+          "title": "Supporting Data Security",
+          "transcript": "",
+          "url": "supporting-data-security",
+          "vimeoId": "140785036"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore the topic of data security in Windows 10 and show you how to resolve issues related to permissions and Dynamic Access Control(DAC). Then they explain how to recover EFS encrypted files using the Data Recovery Agent.",
+          "length": "1524",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security-103015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security-103015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security-103015-1-sm.jpg",
+          "title": "Data Security",
+          "transcript": "",
+          "url": "data-security",
+          "vimeoId": "144399735"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue discussing how to identify and resolve data security issues, this time touching on how to handle access to removable media like CD/DVDs, Floppy drives, and removable disks. Finally, they show you how to use the BitLocker Data Recover Agent to access a locked volume.",
+          "length": "781",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security_pt2-103016-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security_pt2-103016-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697-5-2-data_security_pt2-103016-high-sm.jpg",
+          "title": "Data Security Part 2",
+          "transcript": "",
+          "url": "data-security-4",
+          "vimeoId": "145142372"
+        },
+        {
+          "description": "In this episode, Daniel and Wes describe the benefits of the Microsoft \"suite\" of mobile device administration tools. This includes the myriad of advantages in Azure RemoteApp, Intune, App-V, and Office 365 as well as the few drawbacks.",
+          "length": "1523",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-5-3-app_technology_benefits-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-5-3-app_technology_benefits-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-5-3-app_technology_benefits-040816-1-sm.jpg",
+          "title": "App Technology Benefits",
+          "transcript": "",
+          "url": "app-technology-benefits",
+          "vimeoId": "162553891"
+        }
+      ],
+      "title": "Configure storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel walk you through the many different ways that you can access and share resources. They explain in detail how to create and manage shared folders and access to those shares as well as how to share a connected print device.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-6-1-configure_shared_resources-092115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-6-1-configure_shared_resources-092115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-6-1-configure_shared_resources-092115-1-sm.jpg",
+          "title": "Configure Shared Resources",
+          "transcript": "",
+          "url": "configure-shared-resources2",
+          "vimeoId": "140714334"
+        },
+        {
+          "description": "In this episode, Mike and Daniel show you the basics of configuring and controlling file and folder access through setting proper NTFS permissions. They also explain how to enable disk quotas for limiting disk usage.",
+          "length": "2016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access-092215-1-sm.jpg",
+          "title": "File and Folder Access",
+          "transcript": "",
+          "url": "file-folder-access2",
+          "vimeoId": "140714381"
+        },
+        {
+          "description": "In this episode, Daniel and Mike describe how to secure files using the Encrypted File System (EFS). They detail the procedure for encrypting files using EFS and then round out the show by enabling auditing of file access which allows you to see exactly who has been accessing or attempting to access data.",
+          "length": "1957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access_pt2-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access_pt2-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-6-2-file_and_folder_access_pt2-092215-1-sm.jpg",
+          "title": "File and Folder Access Part 2",
+          "transcript": "",
+          "url": "file-folder-access-2",
+          "vimeoId": "140714380"
+        }
+      ],
+      "title": "Manage data access and protection"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel explain how to configure remote connections in the Windows 10 operating system. They show you how to take advantage of the Remote Desktop program, the built-in Virtual Private Network (VPN) client, and broadband tethering.",
+          "length": "1908",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-7-1-remote_connections-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-7-1-remote_connections-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-7-1-remote_connections-092215-1-sm.jpg",
+          "title": "Remote Connections",
+          "transcript": "",
+          "url": "remote-connections",
+          "vimeoId": "140714407"
+        }
+      ],
+      "title": "Manage remote access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel walk you through accessing applications through the Azure cloud service with Azure RemoteApp. They show you how to prepare a deployment and configure the settings for RemoteApp. Then they show you how to prepare the client device to connect and use RemoteApp. Also discussed is setting security for signed apps through group policy.",
+          "length": "1168",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/wiley-microsoft70697-8-1-azure_remoteapp-103015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/wiley-microsoft70697-8-1-azure_remoteapp-103015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/wiley-microsoft70697-8-1-azure_remoteapp-103015-high-sm.jpg",
+          "title": "Azure RemoteApp",
+          "transcript": "",
+          "url": "azure-remoteapp",
+          "vimeoId": "144754568"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explain the procedure for deploying Azure RemoteApp. They begin by showing you how to create a Virtual Machine in Azure which will be the platform for RemoteApp. Then they connect to the new VM and run Sysprep, and finally create a VM image in Azure.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-supporting_azure_remoteapp-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-supporting_azure_remoteapp-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-supporting_azure_remoteapp-040516-1-sm.jpg",
+          "title": "Supporting Azure RemoteApp",
+          "transcript": "",
+          "url": "supporting-azure-remoteapp",
+          "vimeoId": "162553898"
+        },
+        {
+          "description": "In this episode, Daniel and Wes finish up their discussion on supporting Azure RemoteApp, picking back up by creating a RemoteApp Template and a RemoteApp Collection. Next they show you how to publish your RemoteApp so that your clients can access them. Finally, they demonstrate connecting to RemoteApp with a Windows 10 mobile device.",
+          "length": "1818",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-2-supporting_azure_remoteapp_pt2-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-2-supporting_azure_remoteapp_pt2-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-3-2-supporting_azure_remoteapp_pt2-040516-1-sm.jpg",
+          "title": "Supporting Azure RemoteApp Part 2",
+          "transcript": "",
+          "url": "supporting-azure-remoteapp-2",
+          "vimeoId": "177691798"
+        },
+        {
+          "description": "In this episode, Daniel and Wes show you how to install, configure, and deploy App-V in Windows 10. They begin by explaining when/where/why App-V would be utilized and then install the App-V software. Then they look at installing the App-V Sequencer and Client which is where much of the App-V magic happens. Finally, they install an app with App-V and explain some of the benefits and costs associated with an App-V deployment.",
+          "length": "1791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-4-supporting_app_v-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-4-supporting_app_v-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-windows70697_2-8-4-supporting_app_v-040516-1-sm.jpg",
+          "title": "Supporting AppV",
+          "transcript": "",
+          "url": "supporting-appv",
+          "vimeoId": "162553905"
+        }
+      ],
+      "title": "Manage apps"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Daniel describe how to configure a Recovery Drive in Windows 10. They also show you how to setup Windows 10 to utilize Restore Points to revert a PC back to a previous state when encountering critical system issues. They also show you how to employ the Refresh and Recycle settings as recovery options.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-9-1-system_recovery-092315-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-9-1-system_recovery-092315-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70967-9-1-system_recovery-092315-high-sm.jpg",
+          "title": "System Recovery",
+          "transcript": "",
+          "url": "system-recovery",
+          "vimeoId": "140345724"
+        },
+        {
+          "description": "In this episode Mike and Daniel show you how to configure file recovery in Windows 10. They walk you through setting up the file recovery utility and then demonstrate how to restore a lost or corrupted file. Also covered is setting up Windows Updates, including managing the update history, creating update policies, and even uninstalling a problematic update.",
+          "length": "1885",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-9-2-updates_and_recovery-092315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-9-2-updates_and_recovery-092315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70697/microsoft-mcsa70697-9-2-updates_and_recovery-092315-1-sm.jpg",
+          "title": "Updates and File Recovery",
+          "transcript": "",
+          "url": "updates-file-recovery",
+          "vimeoId": "140345720"
+        }
+      ],
+      "title": "Manage updates and recovery"
+    }
+  ],
+  "url": "mcsa-windows-10",
+  "vLab": false
+}

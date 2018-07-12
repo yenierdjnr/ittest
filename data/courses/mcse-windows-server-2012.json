@@ -1,0 +1,186 @@
+{
+  "description": "The Designing and Implementing a Server Infrastructure exam is the first of two exams required to obtain the Microsoft Certified Solutions Expert (MCSE) certification. This exam departs from the traditional pattern of \"how\" to perform tasks and instead focuses on \"why\" these things are done and “why” one would want to make certain decisions like use IPsec instead of PPTP or have four active directory domain controllers instead of one. This course covers topics ranging from server capacity planning and placement to active directory topology design. The typical viewer would be anyone involved in designing network solutions or working in a consulting role.",
+  "descriptionMD": "",
+  "length": "57612",
+  "name": "MCSE Windows Server 2012 - 70-413",
+  "practiceExam": true,
+  "subtitle": "Designing and Implementing a Server Infrastructure",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Designing and Implementing a Server Infrastructure exam is the first of two exams required to obtain the Microsoft Certified Solutions Expert (MCSE) certification. This exam departs from the traditional pattern of \"how\" to perform tasks and instead focuses on \"why\" these things are done. This course covers topics ranging from server capacity planning and placement to active directory topology design. The typical viewer would be anyone involved in designing network solutions or working in a consulting role.",
+          "length": "497",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/microsoftmcseserver2012-0-0-overview-112414.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/microsoftmcseserver2012-0-0-overview-112414-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/microsoftmcseserver2012-0-0-overview-112414-sm.jpg",
+          "title": "Overview of MCSE Windows Server 2012 (70-413)",
+          "transcript": "1\n00:00:00,004 --> 00:00:04,994\n[SOUND] The 70-413 exam is the first\n\n2\n00:00:04,994 --> 00:00:09,102\nexam on the way to completing your\n\n3\n00:00:09,102 --> 00:00:17,188\nMicrosoft Certified Solutions\nExpert Certificate, the MCSE.\n\n4\n00:00:17,188 --> 00:00:20,615\nThe MCSE is one of the most sought\nafter certifications from Microsoft and\n\n5\n00:00:20,615 --> 00:00:24,539\nit's definitely one of the most well known\nIT certifications throughout the entire\n\n6\n00:00:24,539 --> 00:00:28,110\nindustry so it's definitely\na target people are looking for.\n\n7\n00:00:28,110 --> 00:00:31,140\nMicrosoft has expanded the MCSE\nquite a bit over the years so\n\n8\n00:00:31,140 --> 00:00:33,060\nthere's actually more than one track.\n\n9\n00:00:33,060 --> 00:00:36,590\nLet's start and take a look at that real\nquick before we dive into the nitty gritty\n\n10\n00:00:36,590 --> 00:00:37,730\ndetails.\n\n11\n00:00:37,730 --> 00:00:40,830\nI've got the Microsoft certification and\ntraining page pulled up here and\n\n12\n00:00:40,830 --> 00:00:43,780\nthey're just showing all of\nthe different MCSE's that are available.\n\n13\n00:00:43,780 --> 00:00:46,770\nThere's the MCSE desktop infrastructure,\nwhich is important for\n\n14\n00:00:46,770 --> 00:00:48,960\npeople who are going to be\nsupporting Windows 7 or\n\n15\n00:00:48,960 --> 00:00:52,940\nWindows 8 desktops in a corporate or\nlarge enterprise environment.\n\n16\n00:00:52,940 --> 00:00:57,110\nThey cover technologies based on deploying\nhundreds of thousands of machines and\n\n17\n00:00:57,110 --> 00:00:58,490\nmaintaining them.\n\n18\n00:00:58,490 --> 00:01:02,520\nBut when you have that many desktops you\nneed servers to provide services and\n\n19\n00:01:02,520 --> 00:01:06,030\nthat's where the MCSE server\ninfrastructure comes in.\n\n20\n00:01:06,030 --> 00:01:11,460\nNow, there is an MCSE for Windows Server\n2012 as well as Windows Server 2008.\n\n21\n00:01:11,460 --> 00:01:13,240\nSo depending on which\ncertification you're looking for,\n\n22\n00:01:13,240 --> 00:01:15,560\nyou'll want to make sure you\nchoose the appropriate one.\n\n23\n00:01:15,560 --> 00:01:18,390\nThe ones here on IT Pro TV are built\naround Windows Server 2012,\n\n24\n00:01:18,390 --> 00:01:22,580\nwe choose to do the newer\ncertification as opposed to the older.\n\n25\n00:01:22,580 --> 00:01:25,520\nBut you'll see that there are other ones\nout there, like the private cloud, for\n\n26\n00:01:25,520 --> 00:01:28,740\nsetting up the system center solutions\nthat are available through Microsoft.\n\n27\n00:01:28,740 --> 00:01:32,820\nThere's enterprise devices and apps,\nwhich focuses around mobile and\n\n28\n00:01:32,820 --> 00:01:33,910\nsome development.\n\n29\n00:01:33,910 --> 00:01:35,600\nData platform for databases.\n\n30\n00:01:35,600 --> 00:01:39,420\nBusiness Intelligence for\nusing the data in the databases.\n\n31\n00:01:39,420 --> 00:01:42,708\nWe've got Messaging, which is for\nMicrosoft Exchange and collaboration.\n\n32\n00:01:42,708 --> 00:01:44,660\nYou got MSCE: Communication,\n\n33\n00:01:44,660 --> 00:01:48,790\nwhich is built around the link server and\nsome of the voice over IP technologies.\n\n34\n00:01:48,790 --> 00:01:53,000\nAnd then good old SharePoint, for\ninformation exchange and handling.\n\n35\n00:01:53,000 --> 00:01:55,400\nQuite a few different MCSEs.\n\n36\n00:01:55,400 --> 00:01:57,610\nWhen someone out there says,\nhey, I'm an MCSE.\n\n37\n00:01:57,610 --> 00:02:02,100\nWe have to follow it up with a question,\nwith great, what are you an MCSE in?\n\n38\n00:02:02,100 --> 00:02:04,240\nWhich one are you actually certified in?\n\n39\n00:02:04,240 --> 00:02:08,660\nWell, we're tackling the most common one,\nand that's server infrastructure.\n\n40\n00:02:08,660 --> 00:02:12,980\nThese are employees that will be\nresponsible for configuring and\n\n41\n00:02:12,980 --> 00:02:14,730\nmaintaining servers.\n\n42\n00:02:14,730 --> 00:02:17,580\nNow, those servers might\nbe providing name look ups.\n\n43\n00:02:17,580 --> 00:02:21,760\nIt might be authentication, file servers,\nprint servers Email servers,\n\n44\n00:02:21,760 --> 00:02:23,250\nwho knows what they're providing.\n\n45\n00:02:23,250 --> 00:02:26,430\nBut the basic foundation is\nthe Microsoft Windows Server product, and\n\n46\n00:02:26,430 --> 00:02:27,890\nwe need to know the ins and outs of it,\n\n47\n00:02:27,890 --> 00:02:32,410\nand that's what the MCSE Server\nInfrastructure is all about.\n\n48\n00:02:32,410 --> 00:02:36,980\nNow, MSCE Server Infrastructure, that's\nthe generic name for the certification.\n\n49\n00:02:36,980 --> 00:02:39,960\nThere's specific tests,\nthough, catered to whether or\n\n50\n00:02:39,960 --> 00:02:43,480\nnot you are doing Windows server 2012 or\nWindows server 2008.\n\n51\n00:02:43,480 --> 00:02:47,530\nIf you are doing Windows server 2012,\n\n52\n00:02:47,530 --> 00:02:51,480\nnotice that there's five\ndifferent exams listed here.\n\n53\n00:02:51,480 --> 00:02:53,500\nMost of these, you should already have.\n\n54\n00:02:53,500 --> 00:02:58,490\nIf you are pursuing the MCSC,\nyou have to get your MCSA first.\n\n55\n00:02:58,490 --> 00:03:02,940\nLike the MCSC, there are several MSCAs,\nyou need the MCSA for\n\n56\n00:03:02,940 --> 00:03:04,870\nServer Infrastructure for\nWindows Server 2012.\n\n57\n00:03:04,870 --> 00:03:07,010\nWhen you have the MCSA for\n\n58\n00:03:07,010 --> 00:03:11,540\nWindows Server 2012 that's these three\nexams right here, 410, 411, and 412.\n\n59\n00:03:11,540 --> 00:03:13,990\nIt's actually 70-410, 70-411, and 70-412.\n\n60\n00:03:13,990 --> 00:03:19,730\nIf you don't have your MCSA yet,\nstop here.\n\n61\n00:03:19,730 --> 00:03:22,140\nYou don't need the MSCE videos just yet.\n\n62\n00:03:22,140 --> 00:03:23,710\nJump back to the MCSA, right?\n\n63\n00:03:23,710 --> 00:03:25,690\nWe've already filmed them\nright here on ITProTV and\n\n64\n00:03:25,690 --> 00:03:28,980\nyou can start moving through\nstarting with 70-410.\n\n65\n00:03:28,980 --> 00:03:33,080\nIf you go out of order one of two\nthings is going to happen, all right?\n\n66\n00:03:33,080 --> 00:03:35,260\nOne, you'll get in over\nyour head very fast.\n\n67\n00:03:35,260 --> 00:03:37,860\nWhen we start right here with 70-413,\n\n68\n00:03:37,860 --> 00:03:42,380\nit's assumed you already have all the\nknowledge from those first three shows.\n\n69\n00:03:43,440 --> 00:03:44,940\nSo that's problem number one.\n\n70\n00:03:44,940 --> 00:03:46,580\nProblem number two is,\nif you start here and\n\n71\n00:03:46,580 --> 00:03:50,510\nyou go pass this exam,\nyou will not get a certification for it.\n\n72\n00:03:50,510 --> 00:03:54,880\nYou cannot get your MCSE unless\nyou also have your MCSA.\n\n73\n00:03:54,880 --> 00:03:58,940\nThat's the starting point,\nbefore you proceed to here.\n\n74\n00:03:58,940 --> 00:04:02,970\nNow at 70-413 is this, designing and\nimplementing a server infrastructure and\n\n75\n00:04:02,970 --> 00:04:04,010\nthis is a really neat one.\n\n76\n00:04:04,010 --> 00:04:08,230\nIt's different than pretty much any\nother show we've done on IT Pro TV.\n\n77\n00:04:08,230 --> 00:04:13,990\nIn 410, 411, and 412, you learn how\nto do a ton of different things.\n\n78\n00:04:13,990 --> 00:04:16,000\nHow to set up the active directory.\n\n79\n00:04:16,000 --> 00:04:18,810\nHow to configure routing and\nremote access.\n\n80\n00:04:18,810 --> 00:04:19,850\nHow to do all this stuff.\n\n81\n00:04:20,920 --> 00:04:23,750\nBut you never really address the why.\n\n82\n00:04:23,750 --> 00:04:27,230\nWhy would I choose to use\nIPsec instead of PPTP?\n\n83\n00:04:27,230 --> 00:04:32,290\nWhy would I choose to use\nnetwork access protection?\n\n84\n00:04:32,290 --> 00:04:35,250\nWhy would I choose to have four\nactive directory domain controllers\n\n85\n00:04:35,250 --> 00:04:36,290\ninstead of one?\n\n86\n00:04:36,290 --> 00:04:39,070\nWhy would I choose to have five\ndomains instead of just having\n\n87\n00:04:39,070 --> 00:04:40,960\none domain in a single forest.\n\n88\n00:04:40,960 --> 00:04:42,530\nWhy do we make these decisions?\n\n89\n00:04:42,530 --> 00:04:45,470\nWell that's what the 70-413 show covers.\n\n90\n00:04:45,470 --> 00:04:48,540\nWe take a look at a lot of\nthe different infrastructure,\n\n91\n00:04:48,540 --> 00:04:50,860\nthe things that were covered\nin the other servers.\n\n92\n00:04:50,860 --> 00:04:54,760\nAnd now we find out the why,\nthe design mechanisms that go behind this.\n\n93\n00:04:54,760 --> 00:04:57,240\nHow we make the right decisions.\n\n94\n00:04:57,240 --> 00:05:02,110\nThis is not a responsibility that\nsomebody new to IT is going to be doing.\n\n95\n00:05:02,110 --> 00:05:04,340\nNobody is going to hire somebody\nright out of college and say,\n\n96\n00:05:04,340 --> 00:05:06,110\n\"hey can you design my network\".\n\n97\n00:05:07,280 --> 00:05:11,080\nBecause if you choose a poor design\non day one it's going to have\n\n98\n00:05:11,080 --> 00:05:13,880\nlasting ramifications for\nthe life of that network.\n\n99\n00:05:13,880 --> 00:05:15,340\nYou need somebody with experience and\n\n100\n00:05:15,340 --> 00:05:18,810\na deep understanding of how all\nthe different pieces interact.\n\n101\n00:05:18,810 --> 00:05:21,850\nWhen you have that understanding,\nyou can create a very stable,\n\n102\n00:05:21,850 --> 00:05:23,760\nvery reliable design.\n\n103\n00:05:23,760 --> 00:05:26,710\nThat will give you a much better network\nexperience throughout the life of your\n\n104\n00:05:26,710 --> 00:05:27,680\ntechnology.\n\n105\n00:05:27,680 --> 00:05:29,590\nSo, that's what's covered in 70-413.\n\n106\n00:05:29,590 --> 00:05:33,320\nThere is some implementation.\n\n107\n00:05:33,320 --> 00:05:36,050\nThere's a few technologies we cover in\nthere that weren't on the other exams and\n\n108\n00:05:36,050 --> 00:05:37,530\nso we actually show those.\n\n109\n00:05:37,530 --> 00:05:40,580\nBut most of it is just discussing designs.\n\n110\n00:05:40,580 --> 00:05:44,880\nPossible arrangements of technologies to\nprovide the best possible deployment and\n\n111\n00:05:44,880 --> 00:05:48,260\nthe different things we have to take\ninto account that influence our design.\n\n112\n00:05:48,260 --> 00:05:50,930\nWe have to make modifications\nbased on our current network.\n\n113\n00:05:50,930 --> 00:05:53,450\nSo it's really neat,\nit's very conceptual, and\n\n114\n00:05:53,450 --> 00:05:58,150\nit's all built around stuff you've already\nlearned, so I will just reiterate it here.\n\n115\n00:05:58,150 --> 00:06:02,070\nIt is really important that you complete\nthose first three certification exams\n\n116\n00:06:02,070 --> 00:06:04,868\nbefore progressing to here.\n\n117\n00:06:04,868 --> 00:06:09,440\nNow once 413 is done, you are ready to\nmove on to 414 the other part of MCSC for\n\n118\n00:06:09,440 --> 00:06:10,630\nWindows Server 2012.\n\n119\n00:06:10,630 --> 00:06:14,890\nAnd it's implementing an advanced\nserver infrastructure.\n\n120\n00:06:14,890 --> 00:06:18,750\nYou take some of those earlier services\nand you extend them even further with some\n\n121\n00:06:18,750 --> 00:06:21,690\nadvanced functionality that's in there and\nwe even take a look at some other\n\n122\n00:06:21,690 --> 00:06:25,250\nones like active directory federation\nservices that are just much more\n\n123\n00:06:25,250 --> 00:06:29,340\ncomplex than any of the technologies\ndeployed in the earlier shows.\n\n124\n00:06:29,340 --> 00:06:31,210\nSo, really neat stuff here.\n\n125\n00:06:31,210 --> 00:06:33,080\nWhen you pass these two exams,\n\n126\n00:06:33,080 --> 00:06:37,520\nIf you already have your MCSA\nyou'll then be awarded the MCSE.\n\n127\n00:06:37,520 --> 00:06:40,970\nAnd for most people,\nthat's where they stop with Microsoft.\n\n128\n00:06:40,970 --> 00:06:43,750\nMicrosoft does have a few\nhigher tier certifications,\n\n129\n00:06:43,750 --> 00:06:45,590\nlike the Microsoft Certified Architect.\n\n130\n00:06:45,590 --> 00:06:48,220\nI know they were talking\nabout retiring that one, or\n\n131\n00:06:48,220 --> 00:06:50,480\nthe Microsoft Certified Master\nwas another one.\n\n132\n00:06:50,480 --> 00:06:53,280\nBut their still out there,\nyou can still achieve those.\n\n133\n00:06:53,280 --> 00:06:56,350\nBut they are just not very common they\nare very, very difficult to get and so\n\n134\n00:06:56,350 --> 00:06:59,260\nmost people stop right\nthere with the M-C-S-E.\n\n135\n00:06:59,260 --> 00:07:01,380\nBut is that the end if you are learning?\n\n136\n00:07:01,380 --> 00:07:05,090\nNo, once you've completed that it's\na good idea to broaden your horizons.\n\n137\n00:07:05,090 --> 00:07:09,030\nYou likely are having to integrate to\nproducts from other vendors like Linux or\n\n138\n00:07:09,030 --> 00:07:12,650\nMac OS and so you may extend out to\nstart learning about those platforms and\n\n139\n00:07:12,650 --> 00:07:14,790\ndeploying service with those technologies.\n\n140\n00:07:14,790 --> 00:07:17,870\nSo just keep that in mind as you move\nthrough, while this might seem like\n\n141\n00:07:17,870 --> 00:07:21,830\nthe end of your certification path with\nMicrosoft, it may just be the beginning\n\n142\n00:07:21,830 --> 00:07:26,350\nof you entering into other operating\nsystems, so always pay attention, look for\n\n143\n00:07:26,350 --> 00:07:29,430\nthe various resources that\nare out there learn all you can.\n\n144\n00:07:29,430 --> 00:07:32,920\nThat's the piece of advice I always\ngive to people is, learn all you can.\n\n145\n00:07:32,920 --> 00:07:38,010\nBecause it never hurts to know additional\ninformation it's always going to help.\n\n146\n00:07:38,010 --> 00:07:40,950\nSo that's basically what we're going\nto be taking a look at in the 70-413.\n\n147\n00:07:40,950 --> 00:07:44,000\nThat design, that why, how we do things,\n\n148\n00:07:44,000 --> 00:07:48,170\nand why they're done throughout\na Microsoft environment.\n\n149\n00:07:48,170 --> 00:07:51,060\nThat sounds like the right place for\nyou if you got your MCSA and\n\n150\n00:07:51,060 --> 00:07:53,760\nyou're ready to move into the MCSE and\nstay tuned,\n\n151\n00:07:53,760 --> 00:07:56,940\nbecause we've got the 70-413\nepisodes coming up next.\n\n152\n00:07:56,940 --> 00:08:00,050\nIf you need to tackle the MCSA or\nsome of the other content, make sure you\n\n153\n00:08:00,050 --> 00:08:02,890\njump over to those shows, because it's\nall part of your IT Pro TV subscription,\n\n154\n00:08:02,890 --> 00:08:06,920\nso just make sure you start in\nthe right place and move forward.\n\n155\n00:08:06,920 --> 00:08:10,520\nWell best of luck on your exams and I'll\nsee you in the episodes coming up next.\n\n156\n00:08:10,520 --> 00:08:17,669\n[MUSIC]\n\n",
+          "url": "overview-mcse-windows-server-2012-70413",
+          "vimeoId": "112924624"
+        }
+      ],
+      "title": "Overview for MCSE Windows Server 2012 R2 (70-413)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/001-Designing-A-Server-Infrastructure.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/001-Designing-A-Server-Infrastructure-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/001-Designing-A-Server-Infrastructure-sm.jpg",
+          "title": "Designing A Server Infrastructure",
+          "transcript": "",
+          "url": "designing-server-infrastructure",
+          "vimeoId": "106972325"
+        },
+        {
+          "description": "",
+          "length": "4592",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/002-Planning-Server-Deployments.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/002-Planning-Server-Deployments-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/002-Planning-Server-Deployments-sm.jpg",
+          "title": "Planning Server Deployments",
+          "transcript": "",
+          "url": "planning-server-deployments",
+          "vimeoId": "107163251"
+        },
+        {
+          "description": "",
+          "length": "5479",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/003-Server-Migration-and-VM-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/003-Server-Migration-and-VM-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/003-Server-Migration-and-VM-Services-sm.jpg",
+          "title": "Server Migration and VM Roles",
+          "transcript": "",
+          "url": "server-migration-vm-roles",
+          "vimeoId": "107256004"
+        },
+        {
+          "description": "",
+          "length": "4566",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/004-Planning-For-Storage.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/004-Planning-For-Storage-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/004-Planning-For-Storage-sm.jpg",
+          "title": "Planning For Storage",
+          "transcript": "",
+          "url": "planning-storage",
+          "vimeoId": "107615165"
+        }
+      ],
+      "title": "Plan and deploy a server infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "6057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/005-Network-Infrastructure.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/005-Network-Infrastructure-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/005-Network-Infrastructure-sm.jpg",
+          "title": "Network Infrastructure",
+          "transcript": "",
+          "url": "network-infrastructure",
+          "vimeoId": "107615164"
+        }
+      ],
+      "title": "Design and implement network infrastructure services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "5189",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/006-Planning-Network-Access.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/006-Planning-Network-Access-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/006-Planning-Network-Access-sm.jpg",
+          "title": "Planning Network Access",
+          "transcript": "",
+          "url": "planning-network-access",
+          "vimeoId": "107698423"
+        },
+        {
+          "description": "",
+          "length": "3434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/007-Planning-Network-Access-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/007-Planning-Network-Access-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/007-Planning-Network-Access-Pt2-sm.jpg",
+          "title": "Planning Network Access Part 2",
+          "transcript": "",
+          "url": "planning-network-access-2",
+          "vimeoId": "107698635"
+        },
+        {
+          "description": "",
+          "length": "6038",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/008-Planning-Network-Access-Pt3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/008-Planning-Network-Access-Pt3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/008-Planning-Network-Access-Pt3-sm.jpg",
+          "title": "Planning Network Access Part 3",
+          "transcript": "",
+          "url": "planning-network-access-3",
+          "vimeoId": "107807715"
+        }
+      ],
+      "title": "Design and implement network access services"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "5167",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/009-Planning-For-AD-Logical.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/009-Planning-For-AD-Logical-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/009-Planning-For-AD-Logical-sm.jpg",
+          "title": "Planning For AD (Logical)",
+          "transcript": "",
+          "url": "planning-ad-logical3",
+          "vimeoId": "107935425"
+        },
+        {
+          "description": "",
+          "length": "6378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/010-Planning-For-AD-Logical-pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/010-Planning-For-AD-Logical-pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/010-Planning-For-AD-Logical-pt2-sm.jpg",
+          "title": "Planning For AD (Logical) Part 2",
+          "transcript": "",
+          "url": "planning-ad-logical-2",
+          "vimeoId": "107935426"
+        }
+      ],
+      "title": "Design and implement an Active Directory infrastructure (logical)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "6122",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/011-Planning-For-AD-Physical.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/011-Planning-For-AD-Physical-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/011-Planning-For-AD-Physical-sm.jpg",
+          "title": "Planning For AD (Physical)",
+          "transcript": "",
+          "url": "planning-ad-physical",
+          "vimeoId": "108116128"
+        },
+        {
+          "description": "",
+          "length": "3162",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/012-Planning-For-AD-Physical-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/012-Planning-For-AD-Physical-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcse70413/012-Planning-For-AD-Physical-Pt-2-sm.jpg",
+          "title": "Planning For AD (Physical) Part 2",
+          "transcript": "",
+          "url": "planning-ad-physical-2",
+          "vimeoId": "108116129"
+        }
+      ],
+      "title": "Design and implement an Active Directory infrastructure (physical)"
+    }
+  ],
+  "url": "mcse-windows-server-2012",
+  "vLab": false
+}

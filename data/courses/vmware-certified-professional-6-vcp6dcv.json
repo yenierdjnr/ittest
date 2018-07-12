@@ -1,0 +1,591 @@
+{
+  "description": "The VMware Certified Professional certification is the most highly recognized certification dealing specifically with virtualization technologies. VMware vSphere is the leading virtualization technology available today and is in use at most large organizations. The VMware Certified Professional 6 – Data Center Virtualization (VCP6-DCV) certification is tailored towards IT System Administrators who are looking to deploy and maintain VMware vSphere and its associated products (ESXi, vCenter, VDP, VMware Converter, etc) in their environment.",
+  "descriptionMD": "",
+  "length": "91954",
+  "name": "VMware Certified Professional 6  VCP6-DCV",
+  "practiceExam": true,
+  "subtitle": "Data Center Virtualization",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The VMware Certified Professional certification is the most highly recognized certification dealing specifically with virtualization technologies. VMware vSphere is the leading virtualization technology available today and is in use at most large organizations. The VMware Certified Professional 6 – Data Center Virtualization (VCP6-DCV) certification is tailored towards IT System Administrators who are looking to deploy and maintain VMware vSphere and its associated products (ESXi, vCenter, VDP, VMware Converter, etc) in their environment.",
+          "length": "500",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-0-0-overview-070616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-0-0-overview-070616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-0-0-overview-070616-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.008 --> 00:00:03.900\n[SOUND]\n\n2\n00:00:03.900 --> 00:00:08.927\n[MUSIC]\n\n3\n00:00:08.927 --> 00:00:13.820\nIn this video we're going to take a look\nat the PCP6-DCV show on ITPRO TV.\n\n4\n00:00:13.820 --> 00:00:18.900\nNow, in addition to having one of\nthe longest acronym names available,\n\n5\n00:00:18.900 --> 00:00:20.350\nit's also one of the most popular ones.\n\n6\n00:00:20.350 --> 00:00:21.370\nIt's from VM ware and\n\n7\n00:00:21.370 --> 00:00:26.750\nit focuses on Virtualization technologies\nusing the vSphere version six suite.\n\n8\n00:00:26.750 --> 00:00:30.285\nSo, let's take a look\nat what this exam is.\n\n9\n00:00:30.285 --> 00:00:32.330\nWho's going to work towards this and\nthe certification and\n\n10\n00:00:32.330 --> 00:00:34.230\nthe other things that\nare involved with this series.\n\n11\n00:00:34.230 --> 00:00:38.190\nNow it is a lot of fun and I really want\nto stress a couple of things first off.\n\n12\n00:00:38.190 --> 00:00:42.900\nThis is designed to be the starting\npoint for getting certified with VMware.\n\n13\n00:00:42.900 --> 00:00:47.300\nThey have a VCA which is kind of\nan introduction to VMware and vSphere.\n\n14\n00:00:47.300 --> 00:00:50.270\nAnd then there's the VCP which\nis what this show is based on.\n\n15\n00:00:50.270 --> 00:00:53.760\nAnd this is for people who are going\nto be implementing and deploying,\n\n16\n00:00:53.760 --> 00:00:57.600\nmaintaining VMware vSphere\nout there in the real world.\n\n17\n00:00:57.600 --> 00:00:59.390\nNow the products have\na number of different names.\n\n18\n00:00:59.390 --> 00:01:01.940\nAnd so when I say vSphere that\nmight not mean anything to you.\n\n19\n00:01:01.940 --> 00:01:04.720\nYou might know it better\nas VMware's ESX or\n\n20\n00:01:04.720 --> 00:01:09.960\nESXi, vCenter,\nvSphere Suite itself, vCenter.\n\n21\n00:01:09.960 --> 00:01:11.880\nLet's see, what else do we have?\n\n22\n00:01:11.880 --> 00:01:13.920\nHorizon View, vRealize.\n\n23\n00:01:13.920 --> 00:01:18.450\nAll these different products from\nVMware are a part of the vSphere Suite.\n\n24\n00:01:18.450 --> 00:01:23.360\nAnd the VCP6-DCV It actually covers\na lot of those different technologies\n\n25\n00:01:23.360 --> 00:01:25.480\nfrom a real world application standpoint.\n\n26\n00:01:25.480 --> 00:01:27.290\nThese are the things you're\ngoing to be using out there.\n\n27\n00:01:27.290 --> 00:01:29.470\nAll right so\nlet's take a look at the certification.\n\n28\n00:01:29.470 --> 00:01:31.640\nI've got the Mware's webpage pull up here.\n\n29\n00:01:31.640 --> 00:01:34.450\nAnd they're basically detailing\ninformation about the certification.\n\n30\n00:01:34.450 --> 00:01:38.100\nAnd the full name is\nthe VMware Certified Professional 6-\n\n31\n00:01:38.100 --> 00:01:40.100\nData Center Virtualization.\n\n32\n00:01:40.100 --> 00:01:44.380\nPreviously we had version five,\nV sphere suite five and 5.5.\n\n33\n00:01:44.380 --> 00:01:46.220\nAnd now we're up to version 6.\n\n34\n00:01:46.220 --> 00:01:49.060\nBut not much has changed as far\nas the certification itself.\n\n35\n00:01:49.060 --> 00:01:51.575\nThey do have that VCA.\n\n36\n00:01:51.575 --> 00:01:54.300\nVCA6-DCV, it's kind of\nan introductory certification.\n\n37\n00:01:54.300 --> 00:01:56.820\nWe had that content on IT ProTV also.\n\n38\n00:01:56.820 --> 00:02:01.340\nBut a lot of people chose to skip\nover that because it is very basic,\n\n39\n00:02:01.340 --> 00:02:02.200\nvery introductory.\n\n40\n00:02:02.200 --> 00:02:06.039\nJust kind of helping you recognize\nthe products, not actually do anything.\n\n41\n00:02:06.039 --> 00:02:06.737\n[LAUGH].\n\n42\n00:02:06.737 --> 00:02:11.340\nSo, once you get to the VCP6, that's where\nyou're actually learning how to do stuff.\n\n43\n00:02:11.340 --> 00:02:13.920\nHow to implement Vsphere\nin your environment and\n\n44\n00:02:13.920 --> 00:02:15.810\nbe able to maintain and support it.\n\n45\n00:02:15.810 --> 00:02:18.200\nNow some of you may move on to some\nof the more advanced certifications.\n\n46\n00:02:18.200 --> 00:02:23.420\nLike the VCAP and the VCIX,\nthose are more advanced.\n\n47\n00:02:23.420 --> 00:02:26.130\nBut we're limiting ourselves right\nhere to this professional level, and\n\n48\n00:02:26.130 --> 00:02:27.040\nthere's a main reason for that.\n\n49\n00:02:27.040 --> 00:02:30.550\nOne of the big reasons is that a lot of\npeople watch our shows because they want\n\n50\n00:02:30.550 --> 00:02:32.260\nto get certified.\n\n51\n00:02:32.260 --> 00:02:34.890\nUnfortunately, VMware\nhas a very strict rule.\n\n52\n00:02:34.890 --> 00:02:40.490\nIf you want to take the exam, you have to\ntake an authorized course from VMware.\n\n53\n00:02:40.490 --> 00:02:44.460\nAnd I can't stress this enough,\nthe ITProTV course is a great course.\n\n54\n00:02:44.460 --> 00:02:46.440\nWe cover everything that's on the exam.\n\n55\n00:02:46.440 --> 00:02:48.930\nBut it is not an authorized\ncourse from VMware.\n\n56\n00:02:48.930 --> 00:02:51.880\nWhat that means is that if you watch\nour show from start to finish, and\n\n57\n00:02:51.880 --> 00:02:54.520\nyou learn everything and\nyou're ready to go.\n\n58\n00:02:54.520 --> 00:02:56.760\nYou're still not qualified\nto take the exam.\n\n59\n00:02:56.760 --> 00:03:00.220\nAnd you can see that right up here\nin the new candidate requirements.\n\n60\n00:03:00.220 --> 00:03:03.350\nIf you come down here, and you say I'm\nnew to VMware data center virtualization,\n\n61\n00:03:03.350 --> 00:03:04.460\nthey'll tell you the steps.\n\n62\n00:03:04.460 --> 00:03:04.990\nRight.\n\n63\n00:03:04.990 --> 00:03:08.070\nFirst off, they want you to work\nwith vSphere for at least 6 months.\n\n64\n00:03:08.070 --> 00:03:09.240\nHave a little exposure to it.\n\n65\n00:03:09.240 --> 00:03:11.040\nDon't just come in with no knowledge.\n\n66\n00:03:11.040 --> 00:03:14.440\nThen, attend one of\nthe required training courses.\n\n67\n00:03:14.440 --> 00:03:16.650\nYou've got to attend their\nauthorized training course.\n\n68\n00:03:16.650 --> 00:03:17.830\nAnd at the end of the course,\n\n69\n00:03:17.830 --> 00:03:21.040\nthey'll give you a voucher\nthat'll let you take the exam.\n\n70\n00:03:21.040 --> 00:03:23.580\nWe can't give you the voucher,\nbecause it's not an authorized course.\n\n71\n00:03:23.580 --> 00:03:26.759\nSo if you're just looking\nto learn about VMware,\n\n72\n00:03:26.759 --> 00:03:29.180\ndeploy it in your environment,\nour show is great.\n\n73\n00:03:29.180 --> 00:03:31.830\nIf you've already taken\nan authorized course, and\n\n74\n00:03:31.830 --> 00:03:33.680\nyou're looking to reaffirm that knowledge.\n\n75\n00:03:33.680 --> 00:03:36.030\nAnd get ready for the exam,\nagain, our course is great.\n\n76\n00:03:36.030 --> 00:03:37.600\nBut if you're just starting out.\n\n77\n00:03:37.600 --> 00:03:39.490\nAnd you're dead set on getting that exam,\n\n78\n00:03:39.490 --> 00:03:41.490\nthen the ITProTV show might\nnot be the right one for you.\n\n79\n00:03:41.490 --> 00:03:44.660\nDefinitely keep that in mind\nwhen you go to look at this.\n\n80\n00:03:44.660 --> 00:03:47.450\nAfter that, though,\nyou can complete the foundations exam or\n\n81\n00:03:47.450 --> 00:03:51.380\nyou can skip over it and\ngo right to the VCP6-DCV exam.\n\n82\n00:03:51.380 --> 00:03:55.450\nTake it, pass it and\nget your VCP certification.\n\n83\n00:03:55.450 --> 00:03:59.230\nNow the exam itself,\nlet me show you the details on it.\n\n84\n00:03:59.230 --> 00:04:04.080\nIt's 100 minutes, so it's little more than\nan hour and a half and it's 85 questions.\n\n85\n00:04:04.080 --> 00:04:07.850\nThe majority of the questions are multiple\nchoice, so it's not too challenging.\n\n86\n00:04:07.850 --> 00:04:12.040\nYou do have a couple of drag and drop, and\na couple of simulation type of questions.\n\n87\n00:04:12.040 --> 00:04:13.800\nBut most of it's multiple choice.\n\n88\n00:04:13.800 --> 00:04:17.600\nAnd you churn through, it's not terribly\nexpensive compared to some vendors.\n\n89\n00:04:17.600 --> 00:04:20.000\nIn each country,\nit's priced a little different.\n\n90\n00:04:20.000 --> 00:04:21.490\nHere in the US, it's $225.\n\n91\n00:04:21.490 --> 00:04:25.390\nAnd you can jump in and take that exam,\npass it, and get certified.\n\n92\n00:04:25.390 --> 00:04:28.300\nNow, you do need to renew it every\ncouple of years to stay up to date.\n\n93\n00:04:28.300 --> 00:04:31.190\nBut new versions of vSphere come out,\nand that's what a lot of people will do.\n\n94\n00:04:31.190 --> 00:04:34.380\nIs just take the newer versions, and\nthat renews you and keeps you current.\n\n95\n00:04:35.410 --> 00:04:37.810\nNow, the exam, itself,\ncovers a range of topics.\n\n96\n00:04:37.810 --> 00:04:39.740\nAnd this is what we based our show on.\n\n97\n00:04:39.740 --> 00:04:43.520\nWhen you watch the ITProTV show for\nVCP6-DCV,\n\n98\n00:04:43.520 --> 00:04:45.700\nwe run through each of these areas.\n\n99\n00:04:45.700 --> 00:04:48.290\nNow, we have rearranged\nthe topics a little bit.\n\n100\n00:04:48.290 --> 00:04:52.400\nSee, for example, how it starts right off\nwith administering vSphere 6 security.\n\n101\n00:04:52.400 --> 00:04:53.190\nWell we didn't do that.\n\n102\n00:04:53.190 --> 00:04:55.960\nWe started with getting\nthe vSphere Suite installed.\n\n103\n00:04:55.960 --> 00:04:58.650\nIt's kind of important to get\nthe installed before you can secure it.\n\n104\n00:04:58.650 --> 00:05:01.685\nSo, we arranged ours to be in\na little bit more logical order.\n\n105\n00:05:01.685 --> 00:05:04.920\nBut we do cover every single one of\nthe objectives that are listed here\n\n106\n00:05:04.920 --> 00:05:05.860\non the screen.\n\n107\n00:05:05.860 --> 00:05:07.960\nWe cover securing vSphere.\n\n108\n00:05:07.960 --> 00:05:11.780\nAnd that's the vCenter Server as well\nas the ESXi virtualization host,\n\n109\n00:05:11.780 --> 00:05:13.470\nwe cover securing all of that.\n\n110\n00:05:13.470 --> 00:05:15.440\nWe cover networking and\nstorage configuration.\n\n111\n00:05:15.440 --> 00:05:18.190\nThat's part of your infrastructure and\nthat's got to be done right.\n\n112\n00:05:18.190 --> 00:05:20.360\nOtherwise you're going to\nhave poor performance.\n\n113\n00:05:20.360 --> 00:05:23.125\nWe talk about doing deployments and\nupgrades.\n\n114\n00:05:23.125 --> 00:05:26.725\nYou might have an existing 5 or\n5.5 environment.\n\n115\n00:05:26.725 --> 00:05:29.515\nWe cover how to upgrade that to 6 and\nget that in place.\n\n116\n00:05:29.515 --> 00:05:32.005\nWe're talking about administering and\nmanaging our resources.\n\n117\n00:05:32.005 --> 00:05:35.367\nThis is kind of like the monitoring and\nmaintaining of vSphere.\n\n118\n00:05:35.367 --> 00:05:37.807\nWe need to keep track of all of\nour hardware and software, and\n\n119\n00:05:37.807 --> 00:05:40.417\nmake sure that it's\nperforming at its peak.\n\n120\n00:05:40.417 --> 00:05:42.677\nWe talk about backing up and\nrecovering the deployment,\n\n121\n00:05:42.677 --> 00:05:45.042\nall the different pieces\nthat go into our solution.\n\n122\n00:05:45.042 --> 00:05:46.927\nBecause there's a lot of\ndifferent components.\n\n123\n00:05:46.927 --> 00:05:48.837\nAnd we need to make sure that\nwe know how to back that up.\n\n124\n00:05:48.837 --> 00:05:50.697\nAnd to restore it in the event\nthat we have a failure.\n\n125\n00:05:51.807 --> 00:05:53.277\nWe cover troubleshooting tools.\n\n126\n00:05:53.277 --> 00:05:56.507\nThere's a ton of different tools and\ntechniques available for finding and\n\n127\n00:05:56.507 --> 00:05:58.570\nfixing problems inside of vSphere.\n\n128\n00:05:58.570 --> 00:05:59.870\nSo we run through a lot of those.\n\n129\n00:05:59.870 --> 00:06:00.810\nSome are obvious.\n\n130\n00:06:00.810 --> 00:06:04.872\nOnes that you see in the GUI, others\nare a lot more cryptic and command liney.\n\n131\n00:06:04.872 --> 00:06:08.020\nKind of buried behind the scenes but\nare incredibly useful for\n\n132\n00:06:08.020 --> 00:06:09.040\nwhen you're having problems.\n\n133\n00:06:10.110 --> 00:06:12.370\nWe also talk about\nconsolidating your data center.\n\n134\n00:06:12.370 --> 00:06:16.330\nSo what I'm really talking about here is\nconverting physical machines into virtual\n\n135\n00:06:16.330 --> 00:06:16.870\nmachines.\n\n136\n00:06:16.870 --> 00:06:20.370\nSo we kind of run through that process\nof using the The VMware converter\n\n137\n00:06:20.370 --> 00:06:21.920\nto convert our physical machines.\n\n138\n00:06:21.920 --> 00:06:24.590\nOr even to convert virtual\nmachines in other platforms,\n\n139\n00:06:24.590 --> 00:06:26.806\nmaybe of Hyper-V or XenServer.\n\n140\n00:06:26.806 --> 00:06:30.070\nAnd you want to bring those\nvirtual machines into a ESX so\n\n141\n00:06:30.070 --> 00:06:30.880\nwe cover how to do that.\n\n142\n00:06:31.890 --> 00:06:36.000\nWe talk about availability solutions\nlike clustering inside of vSphere.\n\n143\n00:06:36.000 --> 00:06:37.180\nAs well as replication.\n\n144\n00:06:37.180 --> 00:06:40.580\nAnd a few other techniques that we can\nuse to make sure that even if our entire\n\n145\n00:06:40.580 --> 00:06:41.710\nbuilding fails.\n\n146\n00:06:41.710 --> 00:06:45.180\nThat our virtual machines are still up and\nrunning somewhere else.\n\n147\n00:06:45.180 --> 00:06:48.550\nAnd then lastly, we talk about managing\nthe virtual machines themselves.\n\n148\n00:06:48.550 --> 00:06:49.630\nWhen you start speeding up VMs.\n\n149\n00:06:49.630 --> 00:06:54.060\nThere's a lot of performance concerns in\nother areas that we need to be aware of\n\n150\n00:06:54.060 --> 00:06:57.200\nto make sure that our virtual\nmachines perform as well\n\n151\n00:06:57.200 --> 00:06:58.680\nAs their physical counterparts.\n\n152\n00:06:58.680 --> 00:07:00.430\nSince that's the whole\nadvantage of virtualization.\n\n153\n00:07:00.430 --> 00:07:04.390\nIs that we can get the same level of\nperformance from non dedicated hardware.\n\n154\n00:07:04.390 --> 00:07:06.060\nAnd that frees us up for redundancy and\n\n155\n00:07:06.060 --> 00:07:09.300\nperformance improvements that you\ndefinitely want to take advantage of.\n\n156\n00:07:09.300 --> 00:07:11.980\nSo those are all the things that\nwe're going to be tackling as we\n\n157\n00:07:11.980 --> 00:07:17.040\nrun through V M ware through\nthe VCP6-DCV certification.\n\n158\n00:07:17.040 --> 00:07:18.640\nWe cover it all, it's a good time.\n\n159\n00:07:18.640 --> 00:07:22.040\nIf you're starting out with\nabsolutely no exposure,\n\n160\n00:07:22.040 --> 00:07:24.460\nthen I do recommend you\ncatch our VCA show.\n\n161\n00:07:24.460 --> 00:07:27.330\nIt's in the courseware library\nright beside the VCP show.\n\n162\n00:07:27.330 --> 00:07:29.780\nYou can watch the VCA and\nit's very high level.\n\n163\n00:07:29.780 --> 00:07:32.250\nAnd it just introduces you to\nall the different products.\n\n164\n00:07:32.250 --> 00:07:34.840\nBecause when you deploy these fier,\n\n165\n00:07:34.840 --> 00:07:38.100\nI mean there's a good ten different\nproducts in there that all work together.\n\n166\n00:07:38.100 --> 00:07:39.350\nAnd it gets really confusing.\n\n167\n00:07:39.350 --> 00:07:41.870\nSo the VCA can shed\na lot of light on that.\n\n168\n00:07:41.870 --> 00:07:44.680\nBut when you're ready to actually\nlearn how to implement and\n\n169\n00:07:44.680 --> 00:07:47.498\nuse the technologies, VCP,\nthat's the place you want to be.\n\n170\n00:07:47.498 --> 00:07:50.540\nYou're going to go right in there and\nstart deploying the technologies getting\n\n171\n00:07:50.540 --> 00:07:53.240\nand put in place and\nactually seeing it operating.\n\n172\n00:07:53.240 --> 00:07:55.150\nAnd you'll see there's\na lot of power to this.\n\n173\n00:07:55.150 --> 00:07:58.170\nIt's something everybody's using\nout there in the enterprise and\n\n174\n00:07:58.170 --> 00:07:59.310\nbusiness environments.\n\n175\n00:07:59.310 --> 00:08:04.107\nSo definitely something that\nyou want to take advantage of.\n\n176\n00:08:04.107 --> 00:08:04.945\nWell, if that sounds exciting to you,\nthen you are in the right place.\n\n177\n00:08:04.945 --> 00:08:10.565\nStay tuned because we've got\nepisodes of VCP6-DCV coming up next.\n\n178\n00:08:10.565 --> 00:08:19.999\n[MUSIC]\n\n",
+          "url": "overview70731",
+          "vimeoId": "173757276"
+        },
+        {
+          "description": "In this episode Wes and Don introduces the viewers to the VMware vSphere suite. They explain difference between Type 1, Type 2 hypervisors and the pros and cons of each. They discusses the multiple editions of vSphere.",
+          "length": "2336",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv1-introduction_to_vsphere-052316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv1-introduction_to_vsphere-052316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv1-introduction_to_vsphere-052316-1-sm.jpg",
+          "title": "Introduction to vSphere",
+          "transcript": "",
+          "url": "introduction-vsphere",
+          "vimeoId": "168056695"
+        },
+        {
+          "description": "In this episode Wes and Don demonstrate installing and configuring the VMware ESXi hypervisor. They discusses some of the hardware requirements, installation methods. They walk the viewer through the installation procedures.",
+          "length": "2049",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-1-installing_the_vsphere_hypervisor-052316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-1-installing_the_vsphere_hypervisor-052316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-1-installing_the_vsphere_hypervisor-052316-1-sm.jpg",
+          "title": "Installing the vSphere Hypervisor",
+          "transcript": "",
+          "url": "installing-vsphere-hypervisor",
+          "vimeoId": "168055017"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on installing and configuring the VMware ESXi hypervisor. They take a look at the post-installation considerations for the vSphere hypervisor like configuring DNS and configuring NTP.",
+          "length": "2073",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-2-installing_the_vsphere_hypervisor_pt2-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-2-installing_the_vsphere_hypervisor_pt2-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-2-2-installing_the_vsphere_hypervisor_pt2-052416-1-sm.jpg",
+          "title": "Installing the vSphere Hypervisor Part 2",
+          "transcript": "",
+          "url": "installing-vsphere-hypervisor-2",
+          "vimeoId": "168054788"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate installing and configuring vCenter to manage ESXi host machines. They talk about the system requirements to run vCenter as well as the vCenter Server Appliance (vCSA) and using the Platform Services Controller.",
+          "length": "1845",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-1-installing_vmware_vcenter-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-1-installing_vmware_vcenter-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-1-installing_vmware_vcenter-052416-1-sm.jpg",
+          "title": "Installing VMware vCenter",
+          "transcript": "",
+          "url": "installing-vmware-vcenter",
+          "vimeoId": "168052858"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on installing and configuring vCenter to manage ESXi hosts. They look at using the Native client or the more feature rich Web Client to configure the ESXi hosts. They explore the various settings that can be configure in Web Client.",
+          "length": "1813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-2-installing_vmware_vcenter_pt2-052416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-2-installing_vmware_vcenter_pt2-052416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-3-2-installing_vmware_vcenter_pt2-052416-1-sm.jpg",
+          "title": "Installing VMware vCenter Part 2",
+          "transcript": "",
+          "url": "installing-vmware-vcenter-2",
+          "vimeoId": "168052674"
+        },
+        {
+          "description": "In this episode, Wes and Don explore automating host configuration deployment through Auto Deploy. They explain the prerequisites  for the host as well as the vCenter prerequisites.",
+          "length": "1943",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-1-deploying_hosts_with_auto_deploy-060716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-1-deploying_hosts_with_auto_deploy-060716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-1-deploying_hosts_with_auto_deploy-060716-1-sm.jpg",
+          "title": "Deploying Hosts with Auto Deploy",
+          "transcript": "",
+          "url": "deploying-hosts-auto-deploy",
+          "vimeoId": "169849848"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their exploration on automating host configuration deployment through Auto Deploy. They look at setting up the vSphere Installation Bundle (VIB) Depot. They will demonstrate how to deploy, configure and export the image.",
+          "length": "1893",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-2-deploying_hosts_with_auto_deploy_pt2-060716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-2-deploying_hosts_with_auto_deploy_pt2-060716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-4-2-deploying_hosts_with_auto_deploy_pt2-060716-1-sm.jpg",
+          "title": "Deploying Hosts with Auto Deploy Part 2",
+          "transcript": "",
+          "url": "deploying-hosts-auto-deploy-2",
+          "vimeoId": "169849895"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate configurations and settings control through host profiles in vCenter. They discuss some of the various settings that can be configured and the benefits of using host profiles. They explain the creation and application of a host profile to an ESXi host.",
+          "length": "2224",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-5-host_profiles-060616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-5-host_profiles-060616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-5-host_profiles-060616-1-sm.jpg",
+          "title": "Host Profiles",
+          "transcript": "",
+          "url": "host-profiles",
+          "vimeoId": "169850787"
+        },
+        {
+          "description": "In this episode, Wes and Don start the process of upgrading older versions of vSphere to vSphere version 6. They discuss the VMware's 4 phases process to perform a complete upgrade. They demonstrate Phase 1 upgrading the vCenter server.",
+          "length": "2077",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-1-upgrading_to_vsphere6-062016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-1-upgrading_to_vsphere6-062016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-1-upgrading_to_vsphere6-062016-1-sm.jpg",
+          "title": "Upgrading to vSphere 6",
+          "transcript": "",
+          "url": "upgrading-vsphere-6",
+          "vimeoId": "171757367"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the process of upgrading older versions of vSphere to vSphere version 6. They demonstrate Phase 2 upgrading the ESXi hosts inside of vSphere.",
+          "length": "2435",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-2-upgrading_to_vsphere6_pt2-062016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-2-upgrading_to_vsphere6_pt2-062016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-2-upgrading_to_vsphere6_pt2-062016-1-sm.jpg",
+          "title": "Upgrading to vSphere 6 Part 2",
+          "transcript": "",
+          "url": "upgrading-vsphere-6-2",
+          "vimeoId": "171757366"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the process of upgrading older versions of vSphere to vSphere version 6.  They demonstrate Phase 3 upgrading VMware Tools and the virtual machines hardware versions. They also look at the last phase, Phase 4 upgrading the datastores to VMFS version 5 and upgrading the vSwitches.",
+          "length": "1987",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-3-upgrading_to_vsphere6_pt3-062116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-3-upgrading_to_vsphere6_pt3-062116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-1-6-3-upgrading_to_vsphere6_pt3-062116-1-sm.jpg",
+          "title": "Upgrading to vSphere 6 Part 3",
+          "transcript": "",
+          "url": "upgrading-vsphere-6-3",
+          "vimeoId": "171757365"
+        }
+      ],
+      "title": "Installing vSphere 6"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don demonstrate how to setup and configuration role-based access control. They discuss the roles that can be delegated inside of vCenter. They explain permission propagation to help the viewer understand what the results would be when permissions are set at different levels.",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-1-role_based_access_control-052516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-1-role_based_access_control-052516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-1-role_based_access_control-052516-1-sm.jpg",
+          "title": "Role-Based Access Control",
+          "transcript": "",
+          "url": "role-based-access-control",
+          "vimeoId": "168556182"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on how to setup and configuration role-based access control. They discuss the roles that can be delegated inside of vCenter. They explain permission propagation to help the viewer understand what the results would be when permissions are set at different levels.",
+          "length": "1586",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-2-role_based_access_control_pt2-052516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-2-role_based_access_control_pt2-052516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-2-1-2-role_based_access_control_pt2-052516-1-sm.jpg",
+          "title": "Role-Based Access Control Part 2",
+          "transcript": "",
+          "url": "role-based-access-control-2",
+          "vimeoId": "168555797"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate implementing a single sign-on inside of vCenter. They discuss components like the VMware Certificate Authority (vMCA), the Platform Services Controller (PSC) and the role they play inside of a single sign-on infrastructure.",
+          "length": "1744",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-1-single_sign_on-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-1-single_sign_on-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-1-single_sign_on-052616-1-sm.jpg",
+          "title": "Single Sign-On",
+          "transcript": "",
+          "url": "single-sign",
+          "vimeoId": "168555781"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on implementing a single sign-on. They explain using single sign-on policies to control or limit user access. They look at the considerations that need to be taken into account with upgrades when using a single sign-on. They demonstrate how to join ESXi hosts to a Microsoft Active Directory domain.",
+          "length": "1819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-2-single_sign_on_pt2-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-2-single_sign_on_pt2-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-2-2-single_sign_on_pt2-052616-1-sm.jpg",
+          "title": "Single Sign-On Part 2",
+          "transcript": "",
+          "url": "single-sign-2",
+          "vimeoId": "168555508"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate how to reduce the attack surface of vSphere by using a security practice called hardening. They look at how to harden ESXi hosts by disabling services, firewall configuration and host profiles.",
+          "length": "2582",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-1-hardening_vsphere-052616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-1-hardening_vsphere-052616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-1-hardening_vsphere-052616-1-sm.jpg",
+          "title": "Hardening vShpere",
+          "transcript": "",
+          "url": "hardening-vshpere",
+          "vimeoId": "168555427"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on how to reduce the attack surface of vSphere by using a security practice called hardening. They look at how to harden vCenter Servers by using the VMware Certificate Authority (VMCA). They look at management through the GUI as well as more options that the CLI gives the user access to.",
+          "length": "1982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-2-hardening_vsphere_pt2-052716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-2-hardening_vsphere_pt2-052716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dvc-2-3-2-hardening_vsphere_pt2-052716-1-sm.jpg",
+          "title": "Hardening vSphere Part 2",
+          "transcript": "",
+          "url": "hardening-vsphere-2",
+          "vimeoId": "168554784"
+        }
+      ],
+      "title": "vSphere Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don demonstrate the types of vSwitches that can be set up and used in vSphere. They look at VM-base vSwitches that are used for VM communications as well as VMkernel vSwitches that are used for host communications and management.",
+          "length": "2005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-1-configureing_vswitches-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-1-configureing_vswitches-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-1-configureing_vswitches-1-sm.jpg",
+          "title": "Configuring vSwitches",
+          "transcript": "",
+          "url": "configuring-vswitches",
+          "vimeoId": "168555113"
+        },
+        {
+          "description": "**Errata - Don mentions a vSphere Enterprise license is needed for DV switches which is incorrect. The actual license needed for DV switches is Enterprise Plus**\n\nIn this episode, Don describes Distributed Virtual Switches and discusses how dvSwitches can overcome the limitations found in traditional vSwitches. He then demonstrates deploying and managing dvSwitches inside of vCenter 6.",
+          "length": "2110",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-1-configuring_distributed_vswitches-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-1-configuring_distributed_vswitches-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-1-configuring_distributed_vswitches-053116-1-sm.jpg",
+          "title": "Configuring Distributed vSwitches",
+          "transcript": "",
+          "url": "configuring-distributed-vswitches",
+          "vimeoId": "168932278"
+        },
+        {
+          "description": "In this episode, Don continues working with Distributed Virtual Switches in VMware vCenter 6. He demonstrates distributed port groups and shows how dvSwitches can span multiple ESXi hosts creating a true Software Defined Network (SDN)",
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-2-configuring_distributed_vswitches_pt2-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-2-configuring_distributed_vswitches_pt2-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-2-2-configuring_distributed_vswitches_pt2-053116-1-sm.jpg",
+          "title": "Configuring Distributed vSwitches Part 2",
+          "transcript": "",
+          "url": "configuring-distributed-vswitches-2",
+          "vimeoId": "168932277"
+        },
+        {
+          "description": "In this episode, Don discusses some of the advanced functionality available in VMware vSwitches. He begins by demonstrating how to use the Link Aggregation and Control Protocol (LACP) to bundle ports for increased performance and redundancy. Then he demonstrates Network I/O Control (NIOC) and how it can help prevent bandwidth starvation.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-3-lacp_and_nioc-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-3-lacp_and_nioc-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-3-3-lacp_and_nioc-053116-1-sm.jpg",
+          "title": "LACP and NI/OC",
+          "transcript": "",
+          "url": "lacp-nioc",
+          "vimeoId": "168932276"
+        }
+      ],
+      "title": "vSphere Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don provides an overview of how VMware ESXi and VMware vCenter manage storage. He introduces the viewers to the concept of a VMware Datastore and discusses some of the different types of storage available for use inside of a vSphere deployment.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-1-understaning_vsphere_storage-053116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-1-understaning_vsphere_storage-053116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-1-understaning_vsphere_storage-053116-1-sm.jpg",
+          "title": "Understanding vSphere Storage",
+          "transcript": "",
+          "url": "understanding-vsphere-storage",
+          "vimeoId": "168932275"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate how to configure and implement datastores in vSphere. They explain direct-attached storage, iSCSI, FCoE and fibre channel.",
+          "length": "1961",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-1-working_with_datastores-060116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-1-working_with_datastores-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-1-working_with_datastores-060116-1-sm.jpg",
+          "title": "Working with Datastores",
+          "transcript": "",
+          "url": "datastores",
+          "vimeoId": "169100592"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on configuring and implementing datastores in vSphere. They look at creating NFS based datastores and their implementation. They explain creating vCenter server storage filters and their usage.",
+          "length": "1949",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-2-working_with_datastores_pt2-060116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-2-working_with_datastores_pt2-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-2-2-working_with_datastores_pt2-060116-1-sm.jpg",
+          "title": "Working with Datastores Part 2",
+          "transcript": "",
+          "url": "datastores-2",
+          "vimeoId": "169100591"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate storage I/O control or SIOC. They talk about concepts like Dynamic Queue Depth Throttling, Network I/O Control, the requirements and configurations",
+          "length": "1746",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-3-storage_io_control-062116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-3-storage_io_control-062116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-3-storage_io_control-062116-1-sm.jpg",
+          "title": "Storage IO Control",
+          "transcript": "",
+          "url": "storage-io-control",
+          "vimeoId": "171757364"
+        },
+        {
+          "description": "In this episode, Wes and Don enter into the realm of vSANs in vSphere. They discuss the recommendations when using virtual SANs including license, drive and host considerations.",
+          "length": "2071",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-1-virtual_san-062216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-1-virtual_san-062216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-1-virtual_san-062216-1-sm.jpg",
+          "title": "Virtual SAN",
+          "transcript": "",
+          "url": "virtual-san",
+          "vimeoId": "171970377"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on virtual SANs (vSANs). The look at managing disks, fault domains, storage policies, the VSAN observer and virtual volumes or VVOLs.",
+          "length": "2391",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-2-virtual_san_pt2-062216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-2-virtual_san_pt2-062216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-4-2-virtual_san_pt2-062216-1-sm.jpg",
+          "title": "Virtual SAN Part 2",
+          "transcript": "",
+          "url": "virtual-san-2",
+          "vimeoId": "171970395"
+        },
+        {
+          "description": "In this episode, Wes and Don demonstrate setting up and implementing storage multi-pathing. They talk about Path Selection Plug-ins (PSP) including path selection policy and path claiming. They mention technologies like Storage Array Top Plug-ins (SATPs), Most Recently Used (MRUs), Round Robin and Fixed path.",
+          "length": "2101",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-1-storage_multi-pathing-062316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-1-storage_multi-pathing-062316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-1-storage_multi-pathing-062316-1-sm.jpg",
+          "title": "Storage Multi-Pathing",
+          "transcript": "",
+          "url": "storage-multipathing",
+          "vimeoId": "172100716"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on setting up and implementing storage multi-patting. They look at Asymmetric Logical Unit Access (ALUA) and the different path statuses such as active, standby, disabled and dead. They talk about monitoring and configuration of the storage controllers as well.",
+          "length": "1146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-2-storage_multi-pathing_pt2-062316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-2-storage_multi-pathing_pt2-062316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-4-5-2-storage_multi-pathing_pt2-062316-1-sm.jpg",
+          "title": "Storage Multi-Pathing Part 2",
+          "transcript": "",
+          "url": "storage-multipathing-2",
+          "vimeoId": "172100722"
+        }
+      ],
+      "title": "vSphere Storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don demonstrate how to create and configure virtual machines inside of vSphere. They explain the various settings that can be configured when creating and managing virtual machines.",
+          "length": "2035",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-1-creating_virtual_machines-060116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-1-creating_virtual_machines-060116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-1-creating_virtual_machines-060116-1-sm.jpg",
+          "title": "Creating Virtual Machines",
+          "transcript": "",
+          "url": "creating-virtual-machines",
+          "vimeoId": "169100590"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on how to create and configure virtual machines inside of vSphere. They explain the upgrade process when upgrading a guest from one hardware version to another. They look at the files that make up the virtual machine like .vmdk, .nvram, and .vmx files.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-2-creating_virtual_machines_pt2-060216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-2-creating_virtual_machines_pt2-060216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-2-creating_virtual_machines_pt2-060216-1-sm.jpg",
+          "title": "Creating Virtual Machines Part 2",
+          "transcript": "",
+          "url": "creating-virtual-machines-5",
+          "vimeoId": "169852227"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their demonstration on how to create and configure virtual machines inside of vSphere. They explain the process of installing the VMware Tools and various settings. They also discuss additional options such as Remote Console, power management, boot options and Fibre Channel NPIVs.",
+          "length": "1505",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-3-creating_virtual_machines_pt3-060216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-3-creating_virtual_machines_pt3-060216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-1-3-creating_virtual_machines_pt3-060216-1-sm.jpg",
+          "title": "Creating Virtual Machines Part 3",
+          "transcript": "",
+          "url": "creating-virtual-machines-6",
+          "vimeoId": "169851351"
+        },
+        {
+          "description": "In this episode, Wes and Don introduce creating and deploying vApps inside of vCenter. They also discuss creating and managing virtual machine clones and templates.",
+          "length": "2099",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-2-vapps_clones_and_templates-060316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-2-vapps_clones_and_templates-060316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-2-vapps_clones_and_templates-060316-1-sm.jpg",
+          "title": "vApps Clones and Templates",
+          "transcript": "",
+          "url": "vapps-clones-templates",
+          "vimeoId": "169851627"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into and explore the VMware Converter. They discuss the source operating systems that are supported from Windows to Linux. They will also look at the different types of conversions that can be performed such as physical-to-virtual (P2V) and virtual-to-virtual (V2V) as well as deploying to vCenter.",
+          "length": "2210",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-3-using_the_vmware_converter-060616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-3-using_the_vmware_converter-060616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-5-3-using_the_vmware_converter-060616-1-sm.jpg",
+          "title": "Using VMware Converter",
+          "transcript": "",
+          "url": "using-vmware-converter",
+          "vimeoId": "169850125"
+        }
+      ],
+      "title": "vSphere Virtual Machines"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don demonstrate how to efficiently manage compute resources by implementing multi-level resource pooling. They discuss the hierarchical resource pools by nesting resource pools. They also take a look at using tiered resource pooling with vFlash.",
+          "length": "1746",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-6-1-resource_pools-060316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-6-1-resource_pools-060316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-6-1-resource_pools-060316-1-sm.jpg",
+          "title": "Resource Pools",
+          "transcript": "",
+          "url": "resource-pools",
+          "vimeoId": "169850820"
+        }
+      ],
+      "title": "Resource Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don discuss virtual machine snapshots. They talk about the benefit of snapshots in vSphere. As with all technologies there are disadvantages to snapshots and they explore not only the pro’s but the con’s of using snapshots in a virtualized environment.",
+          "length": "2094",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-1-snapshots-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-1-snapshots-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-1-snapshots-062416-1-sm.jpg",
+          "title": "Snapshots",
+          "transcript": "",
+          "url": "snapshots",
+          "vimeoId": "172402754"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on virtual machine snapshots. They look at creating, deleting, restoring and consolidating snapshots.",
+          "length": "1161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-2-snapshots_pt2-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-2-snapshots_pt2-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-1-2-snapshots_pt2-062416-1-sm.jpg",
+          "title": "Snapshots Part 2",
+          "transcript": "",
+          "url": "snapshots-2",
+          "vimeoId": "172402753"
+        },
+        {
+          "description": "In this episode, Wes and Dan discuss how to keep the vSphere environment up and running through VMWare Data Protection (VDP). They look at various topics like sizing, image-level and guest-level backups.",
+          "length": "2377",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-2-vmware_data_protection-062416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-2-vmware_data_protection-062416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-2-vmware_data_protection-062416-1-sm.jpg",
+          "title": "VMware Data Protection",
+          "transcript": "",
+          "url": "vmware-data-protection",
+          "vimeoId": "172572119"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look into the vSphere Replication appliance.  Don explains the need for replication in a production environment and why we should consider not only in vSphere Replication but also through other services as well depending on the data.  They also demonstrate how to import the Replication appliance into vSphere and configure it for use.   The guys also take some time to register the appliance into vCenter and show the steps for replicating a VM and talk about recovering a replica.",
+          "length": "2801",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-3-vsphere_replication-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-3-vsphere_replication-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-7-3-vsphere_replication-070116-1-sm.jpg",
+          "title": "vSphere Replication",
+          "transcript": "",
+          "url": "vsphere-replication",
+          "vimeoId": "173620542"
+        }
+      ],
+      "title": "Backup and Recover a vSphere Deployment"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don are doing a quick run down of the most common networking and storage troubleshooting tools found built into the vSphere vCenter.  These foundational concepts and knowledge of how to use these tools will benefit anybody working with vmware.  They go over not only the GUI location of these tools but also come of the CLI tools available that a VMWare professional should be familiar with in troubleshooting.",
+          "length": "2109",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-1-troubleshooting-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-1-troubleshooting-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-1-troubleshooting-070116-1-sm.jpg",
+          "title": "Troubleshooting",
+          "transcript": "",
+          "url": "troubleshooting17",
+          "vimeoId": "173620414"
+        },
+        {
+          "description": "In this episode, Ronnie and Don cover some of the most utilized troubleshooting tools found in vSphere.  They continue show some additional troubleshooting tools found in vSphere.  Don emphasizes the importance of log files in troubleshooting and shows were to get to them.  They also take some time to show monitoring tools in vSphere that give more help to a troubleshooter for the performance issues.  Since vSphere is normally implemented in high availability and using Distributed Resource Services to help maintain the uptime and performance, Don also shows how to use and see the tools for both.  Lastly, they mention the enterprise product, vRealize that brings all these tools together as a centralized utility and tool to manage and troubleshoot a vSphere environment.",
+          "length": "1369",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-2-troubleshooting_pt2-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-2-troubleshooting_pt2-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-8-1-2-troubleshooting_pt2-070116-1-sm.jpg",
+          "title": "Troubleshooting Part 2",
+          "transcript": "",
+          "url": "troubleshooting-17",
+          "vimeoId": "173621005"
+        }
+      ],
+      "title": "Troubleshooting vSphere 6"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don discuss the concept of clustering and high availability. They talk about the options such as high availability, fault tolerance and vMotion. They demonstrate how to create a cluster and migrating guested into the cluster.",
+          "length": "1892",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-1-clustering_and_ha-060716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-1-clustering_and_ha-060716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-1-clustering_and_ha-060716-1-sm.jpg",
+          "title": "Clustering and HA",
+          "transcript": "",
+          "url": "clustering-ha",
+          "vimeoId": "169849883"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on the concepts of clustering and high availability. They explain various advanced configurations such as admission control, failover and monitoring.",
+          "length": "1927",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-2-clustering_and_ha_pt2-060816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-2-clustering_and_ha_pt2-060816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-2-clustering_and_ha_pt2-060816-1-sm.jpg",
+          "title": "Clustering and HA Part 2",
+          "transcript": "",
+          "url": "clustering-ha-2",
+          "vimeoId": "170161658"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on the concepts of clustering and high availability. They explore datastore heartbeats,ensuring quorum, vMotion and more.",
+          "length": "1349",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-3-clustering_and_ha_pt3-060816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-3-clustering_and_ha_pt3-060816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-1-3-clustering_and_ha_pt3-060816-1-sm.jpg",
+          "title": "Clustering and HA Part 3",
+          "transcript": "",
+          "url": "clustering-ha-3",
+          "vimeoId": "170160749"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into the world of fault tolerance. They take a look at the Distributed Resources Schedule and setting up resources scheduling.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-1-fault_tolerance_and_drs-060916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-1-fault_tolerance_and_drs-060916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-1-fault_tolerance_and_drs-060916-1-sm.jpg",
+          "title": "Fault Tolerance and DRS",
+          "transcript": "",
+          "url": "fault-tolerance-drs",
+          "vimeoId": "170160601"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion in the world of fault tolerance and the Distributed Resources Scheduler (DRS). They explain how to influence DRS and a concept known as affinity.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-2-fault_tolerance_and_drs_pt2-060916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-2-fault_tolerance_and_drs_pt2-060916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-9-2-2-fault_tolerance_and_drs_pt2-060916-1-sm.jpg",
+          "title": "Fault Tolerance and DRS Part 2",
+          "transcript": "",
+          "url": "fault-tolerance-drs-2",
+          "vimeoId": "170160307"
+        }
+      ],
+      "title": "Managing Availability"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don explore content libraries with in vSphere. They discuss local libraries, subscribed libraries, subscriptions, publishing, permissions and more.",
+          "length": "1729",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-10-1-multi_site_content_libraries-061016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-10-1-multi_site_content_libraries-061016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/vmware-vcp6dcv/vmware-vcp6dcv-10-1-multi_site_content_libraries-061016-1-sm.jpg",
+          "title": "Multi-site Content Libraries",
+          "transcript": "",
+          "url": "multisite-content-libraries",
+          "vimeoId": "170617047"
+        }
+      ],
+      "title": "Multi-site Environments"
+    }
+  ],
+  "url": "vmware-certified-professional-6-vcp6dcv",
+  "vLab": false
+}

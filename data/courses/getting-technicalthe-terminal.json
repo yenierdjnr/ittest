@@ -1,0 +1,73 @@
+{
+  "description": "In this series, we are going to learn the basics of using the command-line interface. If you have ever been scared when the cursor shows up on a seemingly blank screen or wondered what the Terminal or cmd application can accomplish, then stay tuned to learn the basics and increase your productivity.",
+  "descriptionMD": "In this series, we are going to learn the basics of using the command-line interface. If you have ever been scared when the cursor shows up on a seemingly blank screen or wondered what the Terminal or cmd application can accomplish, then stay tuned to learn the basics and increase your productivity.",
+  "length": "7472",
+  "name": "Getting Technical with the Terminal",
+  "practiceExam": false,
+  "subtitle": "Comfort with the Command-line",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, we are going to learn the basics of using the command-line interface. If you have ever been scared when the cursor shows up on a seemingly blank screen or wondered what the Terminal or cmd application can accomplish, then stay tuned to learn the basics and increase your productivity.",
+          "length": "120",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-0-0-0-overview-030118-PGM.00_00_12_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-0-0-0-overview-030118-PGM.00_00_12_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-0-0-0-overview-030118-PGM.00_00_12_15.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:10.000\n[MUSIC]\n\n2\n00:00:12.954 --> 00:00:15.455\nHello and welcome to\nGetting Technical with the Terminal.\n\n3\n00:00:15.455 --> 00:00:19.379\nHere to help us explain what this series\nis all about is Mr. Justin Dennison.\n\n4\n00:00:19.379 --> 00:00:22.623\nSo Justin, what are we going\nto be learning about in this\n\n5\n00:00:22.623 --> 00:00:25.428\nseries?\n&gt;&gt; Well, the main goal of this series is\n\n6\n00:00:25.428 --> 00:00:30.367\nto remove some of the fear that happens\nwhen we remove the GUI interface, right?\n\n7\n00:00:30.367 --> 00:00:35.258\nThe graphical user interface from our\ninteractions with the computer and learn\n\n8\n00:00:35.258 --> 00:00:40.640\na little bit about how to create folders,\ncreate files, move folders and files.\n\n9\n00:00:40.640 --> 00:00:44.590\nNavigate around without the point and\nclick that we're all so\n\n10\n00:00:44.590 --> 00:00:48.300\nuse to in an effort, well,\nto make us a little more productive, and\n\n11\n00:00:48.300 --> 00:00:52.080\nto make us comfortable in case we ever\nhave to encounter that environment again.\n\n12\n00:00:52.080 --> 00:00:53.860\n&gt;&gt; All right, well, that sounds exciting.\n\n13\n00:00:53.860 --> 00:00:55.650\nSo who is this intended for?\n\n14\n00:00:55.650 --> 00:00:57.530\nWhat's our target audience here?\n&gt;&gt; Well,\n\n15\n00:00:57.530 --> 00:01:01.740\nthis target audience is definitely,\nyou've never been in a terminal, right?\n\n16\n00:01:01.740 --> 00:01:04.904\nYou have never seen what\nthe command line interface or\n\n17\n00:01:04.904 --> 00:01:10.190\njust this basic interface with no GUI\napplication, you've never seen it before.\n\n18\n00:01:10.190 --> 00:01:11.275\nAnd if you're part of that,\n\n19\n00:01:11.275 --> 00:01:13.550\nthen that's our ultimate goal\nis to make you comfortable.\n\n20\n00:01:13.550 --> 00:01:16.790\nAllow you to understand what's going on,\n\n21\n00:01:16.790 --> 00:01:21.730\nand create a modicum of proficiency.\n&gt;&gt; Well, it sounds like the perfect\n\n22\n00:01:21.730 --> 00:01:24.310\nseries for me because that's\nwhere I would need to start.\n\n23\n00:01:24.310 --> 00:01:27.825\nSo is this geared towards\nany type of certification or\n\n24\n00:01:27.825 --> 00:01:33.915\ntechnical body that I can take a test for?\n&gt;&gt; This is not certification-based,\n\n25\n00:01:33.915 --> 00:01:36.468\nthis is more about, well,\nlearning a little more so\n\n26\n00:01:36.468 --> 00:01:38.840\nwe can continue our progression, right?\n\n27\n00:01:38.840 --> 00:01:41.158\nIf you want to learn how to\nbecome a proficient developer,\n\n28\n00:01:41.158 --> 00:01:43.918\nwell, you're probably gonna end up\nin a terminal from time to time.\n\n29\n00:01:43.918 --> 00:01:47.462\nAnd this is targeted towards you,\nto dip our toes into the water and\n\n30\n00:01:47.462 --> 00:01:48.610\nget things rolling.\n\n31\n00:01:48.610 --> 00:01:51.999\nAnd if that sounds like a set of skills\nthat you're ready to embark on, well,\n\n32\n00:01:51.999 --> 00:01:52.949\nI'll see you there.\n\n33\n00:01:52.949 --> 00:02:00.278\n[MUSIC]\n\n",
+          "url": "overview-getting-terminal",
+          "vimeoId": "258339240"
+        },
+        {
+          "description": "In this episode, Justin and Vonne explore the terminal environment that are necessary to really dig deep into the development world. Justin provides an overview of the terminal, terminal emulator, and shell.",
+          "length": "1132",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-1-1-what_is_the_terminal-030118.00_18_46_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-1-1-what_is_the_terminal-030118.00_18_46_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-1-1-what_is_the_terminal-030118.00_18_46_05.Still001-sm.jpg",
+          "title": "What is the Terminal?",
+          "transcript": "",
+          "url": "terminal-terminal",
+          "vimeoId": "258338973"
+        },
+        {
+          "description": "In this episode, Justin and Vonne explore how to access the terminal environment as well as how to augment the terminal environment.",
+          "length": "1558",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-2-1-opening-the-ternminal-022618.00_36_41_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-2-1-opening-the-ternminal-022618.00_36_41_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-2-1-opening-the-ternminal-022618.00_36_41_17.Still001-sm.jpg",
+          "title": "Opening the Terminal",
+          "transcript": "",
+          "url": "terminal",
+          "vimeoId": "257969886"
+        },
+        {
+          "description": "In this episode, Justin and Vonne take a look at how to navigate around on the system when you are in the terminal environment. Justin takes time to give tips about how to most efficiently use the terminal environment.",
+          "length": "1482",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-3-1-navigating-the-ternminal-022618-PGM.00_24_35_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-3-1-navigating-the-ternminal-022618-PGM.00_24_35_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-3-1-navigating-the-ternminal-022618-PGM.00_24_35_25.Still001-sm.jpg",
+          "title": "Navigating in the Terminal",
+          "transcript": "",
+          "url": "navigatingthe-terminal",
+          "vimeoId": "257969565"
+        },
+        {
+          "description": "In this episode, Justin and Vonne further expand on how to use the terminal environment to create folders and files as well as how to move those folders and files and delete folders and files.",
+          "length": "1544",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-4-1-making_folders_and_files-022718-PGM.00_25_36_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-4-1-making_folders_and_files-022718-PGM.00_25_36_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-gettingtechnicalwiththeterminal/techskills-getting-technical-with-the-terminal-1-4-1-making_folders_and_files-022718-PGM.00_25_36_16.Still001-sm.jpg",
+          "title": "Making Folders and Files",
+          "transcript": "",
+          "url": "foldersfiles",
+          "vimeoId": "257970717"
+        }
+      ],
+      "title": "Terminal"
+    }
+  ],
+  "url": "getting-technicalthe-terminal",
+  "vLab": false
+}

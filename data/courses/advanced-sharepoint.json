@@ -1,0 +1,260 @@
+{
+  "description": "This series of videos covers the knowledge and skills needed to plan, configure, and manage the advanced features in a SharePoint 2016 environment, including implementing high availability, disaster recovery, service application architecture, and Microsoft Business Connectivity Services. It also covers social computing features, productivity, and collaboration platforms and features, as well as business intelligence solutions, Enterprise Content Management, web content management infrastructure.\n\nThis is the second in a sequence of two courses for IT Professionals and is aligned with the SharePoint 2016 IT Pro certification.",
+  "descriptionMD": "",
+  "length": "32731",
+  "name": "Advanced SharePoint 2016 - 70-339",
+  "practiceExam": false,
+  "subtitle": "Advanced Technologies of SharePoint 2016",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-0-0-overview-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-0-0-overview-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-0-0-overview-070116-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.012 --> 00:00:04.254\n[SOUND]\n\n2\n00:00:04.254 --> 00:00:09.215\n[MUSIC]\n\n3\n00:00:09.215 --> 00:00:13.070\nHello, in this video we're gonna\ngive you an overview of what you\n\n4\n00:00:13.070 --> 00:00:17.010\ncan expect in our upcoming\nseries Advanced SharePoint 2016.\n\n5\n00:00:17.010 --> 00:00:20.740\nStanding next to me is\nour SharePoint expert Mr.\n\n6\n00:00:20.740 --> 00:00:25.130\nMark Ingram who's gonna fill us in on some\nof the details of our upcoming series.\n\n7\n00:00:25.130 --> 00:00:26.040\nHow you doing Mark?\n\n8\n00:00:26.040 --> 00:00:27.780\n>> Good Mike, thanks very much.\n\n9\n00:00:27.780 --> 00:00:34.110\nSo some of you will have already watched\nthe first SharePoint series we filmed and\n\n10\n00:00:34.110 --> 00:00:38.830\nyou'll need content from that week and\nthis upcoming week of episodes.\n\n11\n00:00:38.830 --> 00:00:42.640\nIn order to have a chance\nat passing the 70-339 exam,\n\n12\n00:00:42.640 --> 00:00:47.740\nyou'll also need hands-on experience\nas you would for any Microsoft exam.\n\n13\n00:00:47.740 --> 00:00:50.460\nLet's take a look at what\nthose objectives are.\n\n14\n00:00:50.460 --> 00:00:54.670\nOkay, so we can see that this\nexam is currently in beta.\n\n15\n00:00:54.670 --> 00:00:58.390\nAnd many of you won't even be attempting\nthe exam during the beta period, so\n\n16\n00:00:58.390 --> 00:00:59.290\nthat's fine.\n\n17\n00:00:59.290 --> 00:01:04.350\nIf you are feeling really proactive and\nwant to write the exam, how it works,\n\n18\n00:01:04.350 --> 00:01:08.240\nthe beta exams, typically you don't find\nout for months, whether or not you passed.\n\n19\n00:01:08.240 --> 00:01:12.900\nSo you're one of the guinea pigs,\nand they do their metrics and\n\n20\n00:01:12.900 --> 00:01:17.120\nfigure out who should get a passing\nscore based on a variety of criteria.\n\n21\n00:01:17.120 --> 00:01:20.650\nThere's someone at Microsoft, Liberty\nMunson, one of the best names ever.\n\n22\n00:01:20.650 --> 00:01:23.400\nAnd that's her whole job,\nis psychometrics and and\n\n23\n00:01:23.400 --> 00:01:28.490\nexam analysis and verifying the validity\nor reliability of these exams.\n\n24\n00:01:28.490 --> 00:01:31.760\nOkay, so scrolling down here.\n\n25\n00:01:31.760 --> 00:01:34.690\nThere's a variety of objective domains for\n\n26\n00:01:34.690 --> 00:01:39.100\nevery exam, and for\nthis one we have seven objective domains.\n\n27\n00:01:39.100 --> 00:01:43.230\nSo again we use content from the basic\nSharePoint admin course, and\n\n28\n00:01:43.230 --> 00:01:47.710\nthis week's segments,\nepisodes, and we can see here,\n\n29\n00:01:47.710 --> 00:01:51.450\nI like to print these out because\ntrying to navigate multiple screens,\n\n30\n00:01:51.450 --> 00:01:54.200\nit's tough to get a handle on\nit even if you use digital ink.\n\n31\n00:01:54.200 --> 00:01:55.160\nSo, do yourself a favor.\n\n32\n00:01:55.160 --> 00:01:59.950\nPrint them out and then you can use\na highlighter or somehow highlight\n\n33\n00:01:59.950 --> 00:02:04.310\nobjectives you have no clue about or areas\nyou wanna brush up on, and then maybe some\n\n34\n00:02:04.310 --> 00:02:07.610\nof those areas you'll be quite confident\nin but you should still review those.\n\n35\n00:02:07.610 --> 00:02:12.520\nSo if I click on Show all it expands and\nyou can see here under each objective\n\n36\n00:02:12.520 --> 00:02:17.200\ndomain for example design SharePoint\ninfrastructure, we get into very explicit\n\n37\n00:02:17.200 --> 00:02:21.970\ndetail about what you need to be\nconfident on and have skills in hands on.\n\n38\n00:02:21.970 --> 00:02:26.170\nNow some of them are designed related type\nquestions you'll get, so the hands on\n\n39\n00:02:26.170 --> 00:02:30.827\nwould be more architecturally planning and\nknowing architectural models for example.\n\n40\n00:02:30.827 --> 00:02:32.264\nSo, we're not going to\ngo through all of these.\n\n41\n00:02:32.264 --> 00:02:37.055\nJust my main point is to get you onto\nthis page ASAP in your exam journey for\n\n42\n00:02:37.055 --> 00:02:39.268\nwhatever exam you're writing.\n\n43\n00:02:39.268 --> 00:02:41.304\nFind out what the test is on.\n\n44\n00:02:41.304 --> 00:02:42.287\nPretty fundamental, right?\n\n45\n00:02:42.287 --> 00:02:44.499\nA lot of people thought well,\nI'll just do the courses first,\n\n46\n00:02:44.499 --> 00:02:45.471\nthen I'll think about it.\n\n47\n00:02:45.471 --> 00:02:49.390\nBy reviewing all the exam objectives and\nreading the content.\n\n48\n00:02:49.390 --> 00:02:54.150\nIt'll make your ears perk up when you hear\nconcepts related to those exam objectives,\n\n49\n00:02:54.150 --> 00:02:57.522\nso it's never too early to start\npreparing for the exam objectives.\n\n50\n00:02:57.522 --> 00:03:00.740\nAll right, that said, let's talk\nabout what we're covering this week.\n\n51\n00:03:00.740 --> 00:03:02.070\nWe've got a lot to cover.\n\n52\n00:03:02.070 --> 00:03:06.060\nSo we'll look at four\narchitectural models of SharePoint.\n\n53\n00:03:06.060 --> 00:03:12.230\nAlways, exam fodder is new functionality\nand change functionality, deprecated.\n\n54\n00:03:12.230 --> 00:03:14.140\nMaybe new names for the old things.\n\n55\n00:03:14.140 --> 00:03:17.420\nSo any changes compared to\nthe previous version is fair game and\n\n56\n00:03:17.420 --> 00:03:20.050\nyou can expect questions\ndesigned to confuse you\n\n57\n00:03:20.050 --> 00:03:24.210\ninto perhaps selecting an answer\nthat used to be correct.\n\n58\n00:03:24.210 --> 00:03:25.620\nFor example, SharePoint 2013.\n\n59\n00:03:25.620 --> 00:03:28.279\nBut now in the new era\nis no longer correct.\n\n60\n00:03:29.330 --> 00:03:33.590\nSo core Microsoft SharePoint\nconcepts we'll review as well,\n\n61\n00:03:33.590 --> 00:03:37.170\nhybrid scenarios are a huge part\nof Microsoft's way forward,\n\n62\n00:03:37.170 --> 00:03:41.650\nmost of the investment in new design,\nnew technologies,\n\n63\n00:03:41.650 --> 00:03:44.750\nnew productivity apps, for example,\nhappens in the hybrid world,\n\n64\n00:03:44.750 --> 00:03:48.970\nwith SharePoint online,\na combination of online and on print.\n\n65\n00:03:48.970 --> 00:03:53.760\nSo we'll look at hybrid architectures, and\nconfiguring one drive and one drive for\n\n66\n00:03:53.760 --> 00:03:56.210\nbusiness, as well.\n\n67\n00:03:56.210 --> 00:03:58.840\nWe'll also look at business\ncontinuity management.\n\n68\n00:03:58.840 --> 00:04:00.390\nAlways in season.\n\n69\n00:04:00.390 --> 00:04:01.780\nYou might be subject to a disaster.\n\n70\n00:04:01.780 --> 00:04:04.160\nYour data center may burn to a crisp.\n\n71\n00:04:04.160 --> 00:04:05.340\nWhat's your strategy?\n\n72\n00:04:05.340 --> 00:04:07.630\nSo we'll look at various\nhigh-availability strategies,\n\n73\n00:04:07.630 --> 00:04:13.060\nboth local and maybe geolocated\nsomewhere else beyond where you are.\n\n74\n00:04:13.060 --> 00:04:17.748\nWe'll look at the benefit of using\nAzure as a DR site, if you will.\n\n75\n00:04:17.748 --> 00:04:21.261\nAnd various back-up and restore plans,\n\n76\n00:04:21.261 --> 00:04:27.500\nvarious SQL topologies which will help\nyou in your back-up and DR rules.\n\n77\n00:04:27.500 --> 00:04:32.180\nWe'll also look at business connectivity\nservices in secure store service.\n\n78\n00:04:32.180 --> 00:04:36.609\nSo the ability to connect in to any\norganized data source creating middleware,\n\n79\n00:04:36.609 --> 00:04:40.840\nessentially, connect in to that other\ndata source and the secure storage server\n\n80\n00:04:40.840 --> 00:04:44.740\nstores credentials used to\naccess the other data source.\n\n81\n00:04:44.740 --> 00:04:49.430\nThe benefit here is that, individual users\ncan access a variety of data repositories\n\n82\n00:04:49.430 --> 00:04:52.330\nto do their work or pulling in data for\nreports for example.\n\n83\n00:04:52.330 --> 00:04:54.740\nDon't spend half their\ntime authenticating.\n\n84\n00:04:54.740 --> 00:04:59.550\nSo we can move towards the holy grail of\nsingle sign-on by leveraging the secure\n\n85\n00:04:59.550 --> 00:05:01.950\nstore service.\n\n86\n00:05:01.950 --> 00:05:05.420\nWe'll also look at productivity services,\nso we'll look at SharePoint apps and\n\n87\n00:05:05.420 --> 00:05:06.480\nthe app architecture.\n\n88\n00:05:08.940 --> 00:05:13.800\nAccess services, PowerPoint automation\nservices, Word automation services.\n\n89\n00:05:13.800 --> 00:05:17.010\nAnd we'll talk about solutions\nas a way of introducing\n\n90\n00:05:17.010 --> 00:05:19.870\nfunctionality in your\nSharePoint environment.\n\n91\n00:05:21.030 --> 00:05:25.060\nConnecting people, so\nwe'll talk about planning user profiles,\n\n92\n00:05:25.060 --> 00:05:28.520\nmy sites, profile synchronization.\n\n93\n00:05:28.520 --> 00:05:32.900\nWe'll look at community sites as a way\nof setting up discussion boards and\n\n94\n00:05:32.900 --> 00:05:37.310\nfostering knowledge exchange\nwithin your organization.\n\n95\n00:05:37.310 --> 00:05:40.570\nWeb content managements\nwe'll look at as well.\n\n96\n00:05:40.570 --> 00:05:45.650\nSo especially considerations regarding\nmultiple locals and languages.\n\n97\n00:05:45.650 --> 00:05:48.740\nWe'll look at managed navigation and\ncatalog sites.\n\n98\n00:05:49.790 --> 00:05:53.700\nAnd web content management is part of\nenterprise content management we'll look\n\n99\n00:05:53.700 --> 00:05:54.478\nat that as well.\n\n100\n00:05:54.478 --> 00:05:57.620\nSo including e-discovery for\n\n101\n00:05:57.620 --> 00:06:02.640\nlegal discovery, records management\nwe'll cover in that episode as well.\n\n102\n00:06:02.640 --> 00:06:05.930\nAnd site based retention policies.\n\n103\n00:06:05.930 --> 00:06:09.840\nWe'll also look at some BI solutions,\nsome really cool BI technologies like\n\n104\n00:06:09.840 --> 00:06:14.590\nPower BI for example,\nwe can leverage within Office 365, so\n\n105\n00:06:14.590 --> 00:06:20.440\na variety of business intelligence tools\nare available to us and productivity.\n\n106\n00:06:20.440 --> 00:06:24.880\nSo we'll look at integration with\nSharePoint and project server and\n\n107\n00:06:24.880 --> 00:06:26.770\nalso project team sites.\n\n108\n00:06:26.770 --> 00:06:29.690\nWe'll show you how to set those up and\n\n109\n00:06:29.690 --> 00:06:32.580\nproject server integration\nwe'll talk about as well.\n\n110\n00:06:32.580 --> 00:06:36.030\nAnd also upgrading and\nmigrating to SharePoint 2016.\n\n111\n00:06:36.030 --> 00:06:41.020\nSo we'll look at planning considerations\nbefore you consider upgrading and\n\n112\n00:06:41.020 --> 00:06:44.220\nthe flexibility in terms of\nsite collection upgrades and\n\n113\n00:06:44.220 --> 00:06:46.660\nthen some advanced scenarios, as well.\n\n114\n00:06:46.660 --> 00:06:51.440\nSo all this and more is coming at\nyou in these series of episodes.\n\n115\n00:06:51.440 --> 00:06:52.630\n>> All right, Mark.\n\n116\n00:06:52.630 --> 00:06:56.260\nFantastic, you've got me excited\nabout Advanced SharePoint 2016.\n\n117\n00:06:56.260 --> 00:07:00.930\nI hope you are excited as I am,\nso we are ready to get started.\n\n118\n00:07:00.930 --> 00:07:04.945\nHope to see you there.\n\n119\n00:07:04.945 --> 00:07:11.704\n[SOUND]\n\n",
+          "url": "overview70730",
+          "vimeoId": "173617828"
+        },
+        {
+          "description": null,
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-1-sharepoint_2016_architecture-062716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-1-sharepoint_2016_architecture-062716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-1-sharepoint_2016_architecture-062716-1-sm.jpg",
+          "title": "SharePoint 2016 Architecture",
+          "transcript": "",
+          "url": "sharepoint-2016-architecture",
+          "vimeoId": "172613012"
+        },
+        {
+          "description": null,
+          "length": "1091",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-2-sharepoint_2016_architecture_pt2-062716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-2-sharepoint_2016_architecture_pt2-062716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-1-2-sharepoint_2016_architecture_pt2-062716-1-sm.jpg",
+          "title": "SharePoint 2016 Architecture Part 2",
+          "transcript": "",
+          "url": "sharepoint-2016-architecture-2",
+          "vimeoId": "172613026"
+        },
+        {
+          "description": null,
+          "length": "1932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-2-sharepoint_2016_whats_new-062716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-2-sharepoint_2016_whats_new-062716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-2-sharepoint_2016_whats_new-062716-1-sm.jpg",
+          "title": "SharePoint 2016 What's New",
+          "transcript": "",
+          "url": "sharepoint-2016-whats",
+          "vimeoId": "172613046"
+        },
+        {
+          "description": null,
+          "length": "566",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-3-sharepoint_2016_whats_removed-062716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-3-sharepoint_2016_whats_removed-062716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-1-3-sharepoint_2016_whats_removed-062716-1-sm.jpg",
+          "title": "SharePoint 2016 What's Removed",
+          "transcript": "",
+          "url": "sharepoint-2016-whats-removed",
+          "vimeoId": "172613066"
+        },
+        {
+          "description": null,
+          "length": "1976",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-2-1-high_availability_disaster_recovery-062716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-2-1-high_availability_disaster_recovery-062716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-2-1-high_availability_disaster_recovery-062716-1-sm.jpg",
+          "title": "High Availability and Disaster Recovery",
+          "transcript": "",
+          "url": "availability-disaster-recovery",
+          "vimeoId": "173043885"
+        },
+        {
+          "description": null,
+          "length": "1707",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-1-business_connectivity_services-062816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-1-business_connectivity_services-062816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-1-business_connectivity_services-062816-1-sm.jpg",
+          "title": "Business Connectivity Services",
+          "transcript": "",
+          "url": "business-connectivity-services",
+          "vimeoId": "173043434"
+        },
+        {
+          "description": null,
+          "length": "739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-2-business_connectivity_services_pt2-062816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-2-business_connectivity_services_pt2-062816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-3-1-2-business_connectivity_services_pt2-062816-1-sm.jpg",
+          "title": "Business Connectivity Services Part 2",
+          "transcript": "",
+          "url": "business-connectivity-services-2",
+          "vimeoId": "173043836"
+        },
+        {
+          "description": null,
+          "length": "2325",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-4-1-enterprise_content_management-062816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-4-1-enterprise_content_management-062816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-4-1-enterprise_content_management-062816-1-sm.jpg",
+          "title": "Enterprise Content Management",
+          "transcript": "",
+          "url": "enterprise-content-management",
+          "vimeoId": "173464071"
+        },
+        {
+          "description": null,
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-web_content_management-062816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-web_content_management-062816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-web_content_management-062816-1-sm.jpg",
+          "title": "Web Content Management",
+          "transcript": "",
+          "url": "web-content-management",
+          "vimeoId": "173044873"
+        },
+        {
+          "description": null,
+          "length": "2124",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-6-1-productivity_and_collaboration-062916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-6-1-productivity_and_collaboration-062916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-6-1-productivity_and_collaboration-062916-1-sm.jpg",
+          "title": "Productivity and Collaboration",
+          "transcript": "",
+          "url": "productivity-collaboration",
+          "vimeoId": "173464101"
+        },
+        {
+          "description": null,
+          "length": "1256",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-7-1-upgrading_and_migrating-062916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-7-1-upgrading_and_migrating-062916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-7-1-upgrading_and_migrating-062916-1-sm.jpg",
+          "title": "Upgrading and Migrating to SharePoint 2016",
+          "transcript": "",
+          "url": "upgrading-migrating",
+          "vimeoId": "173464380"
+        },
+        {
+          "description": null,
+          "length": "1755",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-1-social_computing_features-062916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-1-social_computing_features-062916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-1-social_computing_features-062916-1-sm.jpg",
+          "title": "Social Computing Features",
+          "transcript": "",
+          "url": "social-computing-features",
+          "vimeoId": "173464654"
+        },
+        {
+          "description": null,
+          "length": "1749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-2-social_computing_features_Pt2-062916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-2-social_computing_features_Pt2-062916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-8-1-2-social_computing_features_Pt2-062916-1-sm.jpg",
+          "title": "Social Computing Features Part 2",
+          "transcript": "",
+          "url": "social-computing-features-2",
+          "vimeoId": "173618336"
+        },
+        {
+          "description": null,
+          "length": "1185",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-1-office365_sharepoint_online_registration-063016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-1-office365_sharepoint_online_registration-063016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-1-office365_sharepoint_online_registration-063016-1-sm.jpg",
+          "title": "Office 365 and SharePoint Online Registration",
+          "transcript": "",
+          "url": "office-365-sharepoint-online-registration",
+          "vimeoId": "173464783"
+        },
+        {
+          "description": null,
+          "length": "1811",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-1-office_365_administration-063016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-1-office_365_administration-063016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-1-office_365_administration-063016-1-sm.jpg",
+          "title": "Office 365 Administration",
+          "transcript": "",
+          "url": "office-365-sharepoint-administration",
+          "vimeoId": "173618718"
+        },
+        {
+          "description": null,
+          "length": "1391",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-2-office_365_administration_pt2-063016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-2-office_365_administration_pt2-063016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-2-2-office_365_administration_pt2-063016-1-sm.jpg",
+          "title": "Office 365 Administration Part 2",
+          "transcript": "",
+          "url": "office-365-administration-2",
+          "vimeoId": "173465026"
+        },
+        {
+          "description": null,
+          "length": "1555",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-3-sharepiont_online_administration-063016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-3-sharepiont_online_administration-063016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-3-sharepiont_online_administration-063016-1-sm.jpg",
+          "title": "SharePoint Online Adminstration",
+          "transcript": "",
+          "url": "sharepoint-online-adminstration",
+          "vimeoId": "173465268"
+        },
+        {
+          "description": null,
+          "length": "1332",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-4-sharepoint_online_user_experience-063016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-4-sharepoint_online_user_experience-063016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-9-4-sharepoint_online_user_experience-063016-1-sm.jpg",
+          "title": "SharePoint Online User Experience",
+          "transcript": "",
+          "url": "sharepoint-online-user-experience",
+          "vimeoId": "173465382"
+        },
+        {
+          "description": null,
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-1-governance-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-1-governance-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-1-governance-070116-1-sm.jpg",
+          "title": "Governance",
+          "transcript": "",
+          "url": "governance",
+          "vimeoId": "173618978"
+        },
+        {
+          "description": null,
+          "length": "1378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-2-governance_pt2-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-2-governance_pt2-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-10-1-2-governance_pt2-070116-1-sm.jpg",
+          "title": "Governance Part 2",
+          "transcript": "",
+          "url": "governance-2",
+          "vimeoId": "173619373"
+        },
+        {
+          "description": null,
+          "length": "1265",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-11-1-hybrid_features-070116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-11-1-hybrid_features-070116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sharepoint70339b/microsoft-sharepoint70339b-11-1-hybrid_features-070116-1-sm.jpg",
+          "title": "Hybrid Features",
+          "transcript": "",
+          "url": "hybrid-features",
+          "vimeoId": "173619504"
+        }
+      ],
+      "title": "Advanced SharePoint"
+    }
+  ],
+  "url": "advanced-sharepoint",
+  "vLab": false
+}

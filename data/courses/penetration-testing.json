@@ -1,0 +1,227 @@
+{
+  "description": "In this series, Daniel and Mike discuss, explain, and demonstrate some of the common tools and techniques used by Penetrations Testers during a security audit. Watch as they explore topics like hacking platforms and test environments, creating BIND/REVERSE shells, discovering and exploiting Buffer Overflows, Cross Site Scripting attacks, Local and Remote File Inclusion attacks, SQL-Injection, Password attacks, Privilege Escalation, and Port Redirection.",
+  "descriptionMD": "In this series, Daniel and Mike discuss, explain, and demonstrate some of the common tools and techniques used by Penetrations Testers during a security audit. Watch as they explore topics like hacking platforms and test environments, creating BIND/REVERSE shells, discovering and exploiting Buffer Overflows, Cross Site Scripting attacks, Local and Remote File Inclusion attacks, SQL-Injection, Password attacks, Privilege Escalation, and Port Redirection.",
+  "length": "33546",
+  "name": "Penetration Testing",
+  "practiceExam": false,
+  "subtitle": "Tools and techniques for verifying security integrity",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, Daniel and Mike discuss, explain, and demonstrate some of the common tools and techniques used by Penetrations Testers during a security audit. Watch as they explore topics like hacking platforms and test environments, creating BIND/REVERSE shells, discovering and exploiting Buffer Overflows, Cross Site Scripting attacks, Local and Remote File Inclusion attacks, SQL-Injection, Password attacks, Privilege Escalation, and Port Redirection.",
+          "length": "214",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-0-0-overview-020317-PGM.00_00_03_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-0-0-overview-020317-PGM.00_00_03_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-0-0-overview-020317-PGM.00_00_03_08.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.030 --> 00:00:03.591\n[SOUND]\nHello,\n\n2\n00:00:03.591 --> 00:00:09.010\nwe got a new series coming your way\nhere at ITProTV, penetration testing.\n\n3\n00:00:09.010 --> 00:00:13.650\nAnd here to tell us all about it and\nwhat we can expect is Mr Daniel Lowrie.\n\n4\n00:00:13.650 --> 00:00:17.130\n&gt;&gt; Mike, I am so excited about\nthis new series we got coming up.\n\n5\n00:00:17.130 --> 00:00:21.040\nWorked long and hard to bring you guys\na great penetration testing series.\n\n6\n00:00:21.040 --> 00:00:23.760\nGot a lot of really cool techniques and\ntools and\n\n7\n00:00:23.760 --> 00:00:25.360\nthings that we're gonna walk through and\n\n8\n00:00:25.360 --> 00:00:30.220\nshow you guys, that you can properly\npenetration and test your own systems.\n\n9\n00:00:30.220 --> 00:00:32.730\nThat's our great caveat\nwe always like to say.\n\n10\n00:00:32.730 --> 00:00:35.040\nDon't do these things on\nother people's computers.\n\n11\n00:00:35.040 --> 00:00:38.460\nLet me give you a quick rundown on\nsome of the techniques and tools,\n\n12\n00:00:38.460 --> 00:00:41.580\nand items that you might find\nin our series coming up.\n\n13\n00:00:41.580 --> 00:00:43.790\nWe're gonna learn basics of Linux.\n\n14\n00:00:43.790 --> 00:00:47.510\nWe're gonna take a look at Kali Linux\nas a pen-testing platform.\n\n15\n00:00:47.510 --> 00:00:50.220\nWe're gonna use it extensively\nthroughout the series.\n\n16\n00:00:50.220 --> 00:00:53.820\nSo, if you're unfamiliar with Linux you\nget a little bit of a primer there.\n\n17\n00:00:53.820 --> 00:00:57.560\nWe do have a bit of assumed knowledge\nwhen it comes to this level,\n\n18\n00:00:57.560 --> 00:01:01.180\nbecause it is a very high level course.\n\n19\n00:01:01.180 --> 00:01:03.800\nYou do have to have some Linux knowledge.\n\n20\n00:01:03.800 --> 00:01:06.580\nYou do need to have a pretty good\nextensive Windows knowledge.\n\n21\n00:01:06.580 --> 00:01:10.120\nYou will probably need some\nprogramming knowledge as well.\n\n22\n00:01:10.120 --> 00:01:11.030\nSo keep that in mind.\n\n23\n00:01:11.030 --> 00:01:13.660\nThis series is definitely\ngoing to test you.\n\n24\n00:01:13.660 --> 00:01:14.770\nIt's gonna twist you.\n\n25\n00:01:14.770 --> 00:01:18.500\nIt's gonna push you to the edge because\nthere's a lot of advanced techniques and\n\n26\n00:01:18.500 --> 00:01:21.090\nmethodologies that you're\ngonna find throughout.\n\n27\n00:01:21.090 --> 00:01:23.930\nA couple other things that we're gonna\ntake a look at is how to create shells.\n\n28\n00:01:23.930 --> 00:01:27.300\nBind shells, reverse shells,\nvery cool stuff.\n\n29\n00:01:27.300 --> 00:01:30.140\nScanning and\nenumeration tools and techniques.\n\n30\n00:01:30.140 --> 00:01:31.150\nTools are all out there.\n\n31\n00:01:31.150 --> 00:01:34.160\nWe definitely all need to know how\nto do things like end map scans.\n\n32\n00:01:34.160 --> 00:01:38.563\nWork with, I don't know for\nweb scanning, SQL scanning,\n\n33\n00:01:38.563 --> 00:01:42.670\ntons of different types of\nscanning options available for us.\n\n34\n00:01:42.670 --> 00:01:44.420\nWe need to find the flaws right.\n\n35\n00:01:45.570 --> 00:01:49.460\nThen we need to look on writing\ncustom buffer overflows.\n\n36\n00:01:49.460 --> 00:01:52.670\nYes, when I said this gets\na little bit above board\n\n37\n00:01:52.670 --> 00:01:55.282\nthis is where the definitely\nthe metal meets the meat.\n\n38\n00:01:55.282 --> 00:01:58.690\nWe're gonna walk you through a finding,\ncreating, and\n\n39\n00:01:58.690 --> 00:02:03.130\nexploiting a program that is\nvulnerable to a buffer overflow.\n\n40\n00:02:03.130 --> 00:02:05.210\nSo taking you from soup that's on that.\n\n41\n00:02:05.210 --> 00:02:07.030\nWe'll also take a look\nat cross side scripting.\n\n42\n00:02:07.030 --> 00:02:09.485\nA very common technique nowadays.\n\n43\n00:02:09.485 --> 00:02:13.450\nSo you how to implement that so that\nyou might be able to test your systems.\n\n44\n00:02:13.450 --> 00:02:18.580\nContinuing on the line of maybe,\nweb, we have client side attacks,\n\n45\n00:02:18.580 --> 00:02:23.790\nsession hijacking, very dangerous,\nremote and local file inclusions.\n\n46\n00:02:23.790 --> 00:02:28.290\nRFIs, LFIs, if that's how you've\nheard them before, very dangerous.\n\n47\n00:02:28.290 --> 00:02:32.230\nWe'll also look at privilege escalation\nonce we've gained access to the box.\n\n48\n00:02:32.230 --> 00:02:34.210\nMaybe we're not administrators, per se?\n\n49\n00:02:34.210 --> 00:02:36.610\nWe want to bump that privilege up, so\n\n50\n00:02:36.610 --> 00:02:38.510\nwe're gonna use privilege\nescalation techniques for that.\n\n51\n00:02:38.510 --> 00:02:42.070\nWe're gonna take a look at SQL injection,\nbecause if you don't know your SQL\n\n52\n00:02:42.070 --> 00:02:44.870\ninjection, well, then you're coming\nlate to the party ladies and gentleman.\n\n53\n00:02:44.870 --> 00:02:49.520\nSo we're gonna give you a good base\nfoundation knowledge on how to do SQL\n\n54\n00:02:49.520 --> 00:02:53.380\ninjection attacks in\nyour penetration testing.\n\n55\n00:02:53.380 --> 00:02:55.050\nAlso take a look at password cracking.\n\n56\n00:02:55.050 --> 00:02:57.710\nIt's like a day without sunshine if\nwe haven't cracked a password when it\n\n57\n00:02:57.710 --> 00:02:58.810\ncomes to hacking, right?\n\n58\n00:02:58.810 --> 00:03:00.850\nOr penetration testing should I say.\n\n59\n00:03:00.850 --> 00:03:05.090\nAlso looking at network\nservice proof force attacks.\n\n60\n00:03:05.090 --> 00:03:09.360\nAnd finally, port redirection to\nget around those pesky firewalls.\n\n61\n00:03:09.360 --> 00:03:13.320\nSo a lot of really in depth and\nbroad information that\n\n62\n00:03:13.320 --> 00:03:18.140\nshould build you a great foundation for\ndoing your own penetration testing.\n\n63\n00:03:18.140 --> 00:03:21.410\n&gt;&gt; All right, Daniel,\nthose sound like some exciting topics.\n\n64\n00:03:21.410 --> 00:03:25.270\nI'm excited, hopefully everybody\nout there is as excited as I am.\n\n65\n00:03:25.270 --> 00:03:26.390\nCan't wait to get started,\n\n66\n00:03:26.390 --> 00:03:29.840\ncan't wait to see you with us here for\npenetration testing.\n\n67\n00:03:29.840 --> 00:03:34.249\n[SOUND]\n\n",
+          "url": "overview70756",
+          "vimeoId": "202942882"
+        },
+        {
+          "description": "In this episode, Dan and Mike go over some of the basic skills used when penetration testing. They also discuss using different platforms to perform penetration testing.",
+          "length": "2764",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-1-1-platforms_and_basic_skills-013017-PGM.00_46_10_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-1-1-platforms_and_basic_skills-013017-PGM.00_46_10_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-1-1-platforms_and_basic_skills-013017-PGM.00_46_10_28.Still001-sm.jpg",
+          "title": "Platforms and Basic Skills",
+          "transcript": "",
+          "url": "platformsbasic-skills",
+          "vimeoId": "202062475"
+        },
+        {
+          "description": "In this episode, Dan and Mike demonstrate creating remote shells. They compare and contrast BIND and reverse shells. They show how to use netcat and the NMAP's ncat.",
+          "length": "2282",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-2-1-remote_shells-013017-PGM.00_37_48_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-2-1-remote_shells-013017-PGM.00_37_48_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-2-1-remote_shells-013017-PGM.00_37_48_01.Still001-sm.jpg",
+          "title": "Remote Shells",
+          "transcript": "",
+          "url": "remote-shells",
+          "vimeoId": "202063272"
+        },
+        {
+          "description": "In this episode, Dan and Mike go over different scanning and enumeration techniques. They demonstrate host discovery, email address enumeration, service enumeration, as well as vulnerability scanning.",
+          "length": "2362",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-3-1-scanning_and_enumeration-013017-PGM.00_39_38_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-3-1-scanning_and_enumeration-013017-PGM.00_39_38_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-3-1-scanning_and_enumeration-013017-PGM.00_39_38_09.Still001-sm.jpg",
+          "title": "Scanning and Enumeration",
+          "transcript": "",
+          "url": "scanningenumeration",
+          "vimeoId": "202063933"
+        },
+        {
+          "description": "In this episode, Dan and Mike begin their look into buffer overflow attacks. They explain what a buffer overflow is and what causes them. They also set up a debugger to create a buffer overflow attack.",
+          "length": "1584",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-1-buffer_overflows-013117-PGM.00_26_10_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-1-buffer_overflows-013117-PGM.00_26_10_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-1-buffer_overflows-013117-PGM.00_26_10_21.Still001-sm.jpg",
+          "title": "Buffer Overflows",
+          "transcript": "",
+          "url": "buffer-overflows",
+          "vimeoId": "202064659"
+        },
+        {
+          "description": "In this episode, Dan and Mike continue to look at buffer overflow attacks. They demonstrate using a debugger to fuzz a program and to determine if a buffer overflow attack is possible.",
+          "length": "1689",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-2-buffer_overflows_pt2-013117-PGM.00_27_55_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-2-buffer_overflows_pt2-013117-PGM.00_27_55_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-2-buffer_overflows_pt2-013117-PGM.00_27_55_10.Still001-sm.jpg",
+          "title": "Buffer Overflows Part 2",
+          "transcript": "",
+          "url": "buffer-overflows2",
+          "vimeoId": "202087190"
+        },
+        {
+          "description": "In this episode, Dan and Mike continue to look at buffer overflow attacks. They use their debugger and pattern creators to determine the location of key registers.",
+          "length": "1930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-3-buffer_overflows_pt3-013117-PGM.00_33_21_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-3-buffer_overflows_pt3-013117-PGM.00_33_21_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-3-buffer_overflows_pt3-013117-PGM.00_33_21_00.Still001-sm.jpg",
+          "title": "Buffer Overflows Part 3",
+          "transcript": "",
+          "url": "buffer-overflows3",
+          "vimeoId": "202088017"
+        },
+        {
+          "description": "In this episode, Dan and Mike continue to look at buffer overflow attacks. They create the shellcode to launch a reverse shell, create the exploit, and launch the attack.",
+          "length": "1375",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-4-buffer_overflows_pt4-013117-PGM.00_22_42_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-4-buffer_overflows_pt4-013117-PGM.00_22_42_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-4-1-4-buffer_overflows_pt4-013117-PGM.00_22_42_04.Still001-sm.jpg",
+          "title": "Buffer Overflows Part 4",
+          "transcript": "",
+          "url": "buffer-overflows4",
+          "vimeoId": "202088646"
+        },
+        {
+          "description": "In this episode, Dan and Mike discuss cross-site scripting. They define what cross-site scripting is as well as how to tell if a site is vulnerable. They demonstrate using cross-site scripting to hijack a session, and to perform a browser redirection.",
+          "length": "2506",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-1-web_apps_cross_site_scripting-020117-PGM.00_41_31_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-1-web_apps_cross_site_scripting-020117-PGM.00_41_31_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-1-web_apps_cross_site_scripting-020117-PGM.00_41_31_14.Still001-sm.jpg",
+          "title": "Web Apps Cross Site Scripting",
+          "transcript": "",
+          "url": "web-apps-cross-site-scripting",
+          "vimeoId": "202378819"
+        },
+        {
+          "description": "In this episode, Dan and Mike look at remote file inclusion. They demonstrate how to determine if a site is vulnerable to RFI. Then they use RFI to obtain a reverse shell on a target machine.",
+          "length": "1967",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-2-web_apps_remote_file_inclusion-020117-PGM.00_32_57_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-2-web_apps_remote_file_inclusion-020117-PGM.00_32_57_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-2-web_apps_remote_file_inclusion-020117-PGM.00_32_57_19.Still001-sm.jpg",
+          "title": "Web Apps Remote File Inclusion (RFI)",
+          "transcript": "",
+          "url": "web-apps-remote-file-inclusion",
+          "vimeoId": "202379059"
+        },
+        {
+          "description": "In this episode, Dan and Mike look at local file inclusion. They demonstrate how to determine if a site is vulnerable to LFI.  Then they use LFI to obtain a reverse shell on a target machine.",
+          "length": "1931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-3-web_apps_local_file_inclusion-020117-PGM.00_31_57_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-3-web_apps_local_file_inclusion-020117-PGM.00_31_57_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-5-3-web_apps_local_file_inclusion-020117-PGM.00_31_57_18.Still001-sm.jpg",
+          "title": "Web Apps Local File Inclusion (LFI)",
+          "transcript": "",
+          "url": "web-apps-local-file-inclusion",
+          "vimeoId": "202379256"
+        },
+        {
+          "description": "In this episode, Dan and Mike demonstrate how to transfer files to a compromised machine. They discuss several tools that can be used in Linux and Windows. They demonstrate transferring files using both FTP and TFTP.",
+          "length": "1874",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-6-1-file_transfer_fun-020217-PGM.00_30_59_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-6-1-file_transfer_fun-020217-PGM.00_30_59_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-6-1-file_transfer_fun-020217-PGM.00_30_59_20.Still001-sm.jpg",
+          "title": "File Transfer Fun",
+          "transcript": "",
+          "url": "file-transfer-fun",
+          "vimeoId": "202939086"
+        },
+        {
+          "description": "In this episode, Dan and Mike demonstrate how to escalate privileges on a Windows system using two different methods. They first use an existing vulnerability to escalate privileges. Then they use a misconfigured task to accomplish privilege escalation.",
+          "length": "1664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-1-windows_privilege_escalation-020217-PGM.00_27_55_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-1-windows_privilege_escalation-020217-PGM.00_27_55_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-1-windows_privilege_escalation-020217-PGM.00_27_55_01.Still001-sm.jpg",
+          "title": "Windows Privilege Escalation",
+          "transcript": "",
+          "url": "windows-privilege-escalation",
+          "vimeoId": "202939472"
+        },
+        {
+          "description": "In this episode, Dan and Mike demonstrate how to escalate privileges in a Linux environment. They discuss different methods that might be used for privilege escalation. Then they demonstrate performing a lateral escalation, followed by an escalation to root.",
+          "length": "1462",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-2-linux_privilege_escalation-020217-PGM.00_24_08_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-2-linux_privilege_escalation-020217-PGM.00_24_08_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-7-2-linux_privilege_escalation-020217-PGM.00_24_08_15.Still001-sm.jpg",
+          "title": "Linux Privilege Escalation",
+          "transcript": "",
+          "url": "linux-privilege-escalation",
+          "vimeoId": "202939926"
+        },
+        {
+          "description": "In this episode, Dan and Mike begin their look at SQL injection. They discuss what SQL injection is and where the vulnerability occurs. They demonstrate performing a SQL injection through a form on a web page as well as by injecting a command in a URL.",
+          "length": "1944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-1-sql_injection-020317-PGM.00_32_10_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-1-sql_injection-020317-PGM.00_32_10_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-1-sql_injection-020317-PGM.00_32_10_07.Still001-sm.jpg",
+          "title": "SQL Injection",
+          "transcript": "",
+          "url": "sql-injection3",
+          "vimeoId": "202940388"
+        },
+        {
+          "description": "In this episode, Dan and Mike continue their look into SQL injection. This time they demonstrate how to perform blind SQL injection. They also use sqlmap to automate the process of detecting and exploiting SQL injection flaws.",
+          "length": "1580",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-2-sql_injection_pt2-020317-PGM.00_26_42_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-2-sql_injection_pt2-020317-PGM.00_26_42_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-8-1-2-sql_injection_pt2-020317-PGM.00_26_42_17.Still001-sm.jpg",
+          "title": "SQL Injection Part 2",
+          "transcript": "",
+          "url": "sql-injection4",
+          "vimeoId": "202940899"
+        },
+        {
+          "description": "In this episode, Dan and Mike begin their discussion on password attacks. They explain how dictionary attacks are performed and how dictionaries are created or obtained. They also look at brute force attacks and tools used to perform them.",
+          "length": "2050",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-1-password_cracking_and_attacks-020317-PGM.00_34_16_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-1-password_cracking_and_attacks-020317-PGM.00_34_16_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-1-password_cracking_and_attacks-020317-PGM.00_34_16_10.Still001-sm.jpg",
+          "title": "Password Cracking and Attacks",
+          "transcript": "",
+          "url": "password-crackingattacks",
+          "vimeoId": "202941322"
+        },
+        {
+          "description": "In this episode, Dan and Mike continue their look into password attacks. They look at where passwords are stored in both Linux and Windows, and how to obtain them. They also demonstrate how to perform a passing the hash attack.",
+          "length": "1151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-2-password_cracking_and_attacks_pt2-020317-PGM.00_18_58_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-2-password_cracking_and_attacks_pt2-020317-PGM.00_18_58_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-9-1-2-password_cracking_and_attacks_pt2-020317-PGM.00_18_58_11.Still001-sm.jpg",
+          "title": "Password Cracking and Attacks Part 2",
+          "transcript": "",
+          "url": "password-crackingattacks2",
+          "vimeoId": "202941973"
+        },
+        {
+          "description": "In this episode, Dan and Mike discuss different types of port redirection. They look at port forwarding and SSH tunneling. They also demonstrate remote port forwarding with SSH.",
+          "length": "1217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-10-1-port_redirection-020317-PGM.00_20_03_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-10-1-port_redirection-020317-PGM.00_20_03_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pentest/techskills-pentest-10-1-port_redirection-020317-PGM.00_20_03_19.Still001-sm.jpg",
+          "title": "Port Redirection",
+          "transcript": "",
+          "url": "port-redirection",
+          "vimeoId": "202942511"
+        }
+      ],
+      "title": "Penetration Testing"
+    }
+  ],
+  "url": "penetration-testing",
+  "vLab": false
+}

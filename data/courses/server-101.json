@@ -1,0 +1,533 @@
+{
+  "description": "The Windows Server 101 show is meant for those who have little to no experience in managing and maintaining Windows Server.  It fills in the gap for the desktop support technician who wants some basic and practical Window Server Skills, for the IT professional who may work in other areas and want learn more about Windows Server Administration as well as for the A+ and Network+ certified who need the learn just some Window Server Management and Maintenance before they dive into the MCSA to MCSE certification tracks. The goal is introduction and immediate skill development to manage Windows Server.   This is not for the professional who already has years of experience.",
+  "descriptionMD": "The Windows Server 101 show is meant for those who have little to no experience in managing and maintaining Windows Server.  It fills in the gap for the desktop support technician who wants some basic and practical Window Server Skills, for the IT professional who may work in other areas and want learn more about Windows Server Administration as well as for the A+ and Network+ certified who need the learn just some Window Server Management and Maintenance before they dive into the MCSA to MCSE certification tracks. The goal is introduction and immediate skill development to manage Windows Server.   This is not for the professional who already has years of experience.",
+  "length": "70060",
+  "name": "Windows Server 101",
+  "practiceExam": false,
+  "subtitle": "Introduction to Windows Server",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Windows Server 101 show is meant for those who have little to no experience in managing and maintaining Windows Server. It fills in the gap for the desktop support technician who wants some basic and practical Window Server Skills, for the IT professional who may work in other areas and want learn more about Windows Server Administration as well as for the A+ and Network+ certified who need the learn just some Window Server Management and Maintenance before they dive into the MCSA to MCSE certification tracks. The goal is introduction and immediate skill development to manage Windows Server. This is not for the professional who already has years of experience. The ebook can be downloaded here https://itprotv-notes-bucket.s3.amazonaws.com/Windows_Server_101_by_Brian_Svidergol.pdf",
+          "length": "350",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-0-0-overview-062117.00_00_05_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-0-0-overview-062117.00_00_05_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-0-0-overview-062117.00_00_05_19.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:05.672\n[MUSIC]\n\n2\n00:00:05.672 --> 00:00:07.433\nWelcome to ITProTV.\n\n3\n00:00:07.433 --> 00:00:11.964\nI'm here to introduce to you a new\nshow that we're producing on\n\n4\n00:00:11.964 --> 00:00:13.767\nWindows Server 101.\n\n5\n00:00:13.767 --> 00:00:17.045\nNow if you're wondering,\nwhat the heck is Windows Server 101 about?\n\n6\n00:00:17.045 --> 00:00:18.052\nThat's a great question.\n\n7\n00:00:18.052 --> 00:00:22.156\nWhat we found out is that there is a\nknowledge gap that you may have if you've\n\n8\n00:00:22.156 --> 00:00:24.590\njust come from studying A+ and Network+.\n\n9\n00:00:24.590 --> 00:00:27.752\nAnd say, hey,\nI'm about to jump into the MCSA track.\n\n10\n00:00:27.752 --> 00:00:30.204\nBut then you feel\na little bit overwhelmed,\n\n11\n00:00:30.204 --> 00:00:34.790\nbecause there is a ton of knowledge\nright there inside of that MCSA track.\n\n12\n00:00:34.790 --> 00:00:39.185\nWell, this is going to fill in that gap of\nthe server knowledge that you'll need as\n\n13\n00:00:39.185 --> 00:00:40.660\nyou go in to that training.\n\n14\n00:00:40.660 --> 00:00:43.975\nAlso, you may be doing\ndesktop support right now in\n\n15\n00:00:43.975 --> 00:00:47.860\nwhich you haven't had any\nreal server experience.\n\n16\n00:00:47.860 --> 00:00:51.368\nThis show will at least help you get\nsettled and started, and feeling\n\n17\n00:00:51.368 --> 00:00:55.556\ncomfortable in that server knowledge, and\nprovide you the skills that you need.\n\n18\n00:00:55.556 --> 00:01:00.413\nNow this particular show is going to\nbe produced around a book by one of\n\n19\n00:01:00.413 --> 00:01:04.880\nour subject matters that we had\ncome in called Brian Sviderol.\n\n20\n00:01:04.880 --> 00:01:07.266\nBrian Svidergol wrote a book\ncalled Windows Server 101.\n\n21\n00:01:07.266 --> 00:01:10.500\nLet me show you what I'm\ntalking about right here.\n\n22\n00:01:10.500 --> 00:01:13.938\nSo here on my screen, it is an e-book and\n\n23\n00:01:13.938 --> 00:01:17.489\nthe great thing is it will be free for\nyou.\n\n24\n00:01:17.489 --> 00:01:20.476\nSo, Brian has actually released\nthis out into the public.\n\n25\n00:01:20.476 --> 00:01:25.413\nAnd here at ITProTV, we've obtained\npermission to also produce a show\n\n26\n00:01:25.413 --> 00:01:30.620\ngiving the content or surrounding\nthe content of this book as well.\n\n27\n00:01:30.620 --> 00:01:33.667\nAnd you'll actually see\nright here in his abstract,\n\n28\n00:01:33.667 --> 00:01:38.610\naimed as an introduction to Windows Server\nprovides an overview of administration and\n\n29\n00:01:38.610 --> 00:01:43.487\nmanagement for Windows Server operating\nsystem without any prerequisite knowledge\n\n30\n00:01:43.487 --> 00:01:46.830\nof Windows Server is necessary and\nthat is the whole goal.\n\n31\n00:01:46.830 --> 00:01:51.212\nSo if you are actually saying,\nI need to learn more about Windows Server,\n\n32\n00:01:51.212 --> 00:01:52.708\nthis is the show for you.\n\n33\n00:01:52.708 --> 00:01:54.839\nIf you're getting ready\nto take the MCSA or\n\n34\n00:01:54.839 --> 00:01:58.033\nto take that track on, well,\nthis is the show for you as well that\n\n35\n00:01:58.033 --> 00:02:02.520\nwe'll get you comfortable with the\nknowledge and the material that you need.\n\n36\n00:02:02.520 --> 00:02:07.910\nNow, this particular show though is not\nbased around any particular exam at all.\n\n37\n00:02:07.910 --> 00:02:10.428\nSo, there are no real\nobjectives that are met.\n\n38\n00:02:10.428 --> 00:02:11.616\nHere at ITProTV,\n\n39\n00:02:11.616 --> 00:02:16.960\nwe wanted to make sure that we gave you\nthe best possible chance at exceeding.\n\n40\n00:02:16.960 --> 00:02:22.140\nAnd of course, succeeding on\nyour MCSA skills as you move on.\n\n41\n00:02:22.140 --> 00:02:24.640\nSo, what are some of the things\nthat we'll be covering?\n\n42\n00:02:24.640 --> 00:02:28.719\nWell, Brian's book is actually divided\nup into five different parts and\n\n43\n00:02:28.719 --> 00:02:31.970\nthere's actually 24\ndifferent chapters in it.\n\n44\n00:02:31.970 --> 00:02:35.614\nWe tried to actually produce,\nwell, either a single a show or\n\n45\n00:02:35.614 --> 00:02:39.970\nmultiple shows around those particular\nchapters that will help you out.\n\n46\n00:02:39.970 --> 00:02:44.325\nSo what you'll actually see in this\nparticular show that's coming up is that\n\n47\n00:02:44.325 --> 00:02:48.613\nyou'll see different episodes based\non just basic server fundamentals and\n\n48\n00:02:48.613 --> 00:02:52.298\nthis is where we get you familiar\nwith Windows Server itself, and\n\n49\n00:02:52.298 --> 00:02:55.380\nunderstanding the functions,\nand the features, and\n\n50\n00:02:55.380 --> 00:02:59.600\nhow to do a few things that you\nmay not have actually done before.\n\n51\n00:02:59.600 --> 00:03:03.913\nYou're also of course, going to see the\nidea of networking components that we find\n\n52\n00:03:03.913 --> 00:03:07.750\nin Windows Server itself and we'll\ntalk about some of the details there.\n\n53\n00:03:07.750 --> 00:03:08.543\nAnd o course,\n\n54\n00:03:08.543 --> 00:03:12.843\nyour basic Network+ knowledge is going\nto be of tremendous help for you as you\n\n55\n00:03:12.843 --> 00:03:18.160\ncontinue to go through those particular\nsections that we'll cover in there.\n\n56\n00:03:18.160 --> 00:03:21.530\nThen we'll expose you to\nthe basics of Active Directory,\n\n57\n00:03:21.530 --> 00:03:24.644\ndirectory services as well\nalong with group policy.\n\n58\n00:03:24.644 --> 00:03:28.180\nAnd we'll talk about managing user\naccounts and computer accounts.\n\n59\n00:03:28.180 --> 00:03:32.784\nWe'll even see the use of group policy and\nhow we actually apply them, and\n\n60\n00:03:32.784 --> 00:03:38.240\nwhere to apply the as well as getting\neverything set up for what we need to do.\n\n61\n00:03:38.240 --> 00:03:39.650\nWe'll also see in the fourth part.\n\n62\n00:03:39.650 --> 00:03:44.760\nWe'll see services covered storage\nas well as NTFS permissions.\n\n63\n00:03:44.760 --> 00:03:49.054\nOne of the big topics that you'll see that\nwill be throughout everything that you'll\n\n64\n00:03:49.054 --> 00:03:52.108\ndo in your MCSA or MCSE track\nas you continue to move forward.\n\n65\n00:03:52.108 --> 00:03:54.606\nSo make sure you do take a look at those,\nas well.\n\n66\n00:03:54.606 --> 00:03:57.414\nAnd then finally, our last section,\n\n67\n00:03:57.414 --> 00:04:02.590\nwe'll be covering file services\nas well as print services.\n\n68\n00:04:02.590 --> 00:04:08.063\nNow once you actually have that and\neverything is good, that will give\n\n69\n00:04:08.063 --> 00:04:13.905\nyou a solid foundation for, of course,\nyou to proceed on to well deeper and\n\n70\n00:04:13.905 --> 00:04:18.670\nmore advanced topics that you'll\nsee inside MCSA and MCSE.\n\n71\n00:04:18.670 --> 00:04:23.950\nSo, this will give you at least a broad\nbreadth of knowledge to help you do so.\n\n72\n00:04:23.950 --> 00:04:27.889\nNow for you to obtain Brian's e-book,\nyou can go out there and\n\n73\n00:04:27.889 --> 00:04:29.462\nsearch on the internet.\n\n74\n00:04:29.462 --> 00:04:36.538\nUse your favorite browser engine, type in\nBrian Sviderol's name, S-V-I-D-E-R-O-L.\n\n75\n00:04:36.538 --> 00:04:40.634\nI know it's kind of a long name to spell\nout there, but you can actually type in\n\n76\n00:04:40.634 --> 00:04:45.370\nWindows Server 101 and you'll probably\nsee that there'll be a link there.\n\n77\n00:04:45.370 --> 00:04:50.236\nNow if you're actually an ITProTV member\nthough, you'll also see a link directly to\n\n78\n00:04:50.236 --> 00:04:54.831\nthis particular overview video as well and\nthat will also give you that access and\n\n79\n00:04:54.831 --> 00:04:57.618\nthat chance to be able to\ndownload that book too.\n\n80\n00:04:57.618 --> 00:04:59.982\nNow, this is not a light book.\n\n81\n00:04:59.982 --> 00:05:07.300\nSo even as an overview, it is,\nelectronically about 353 pages.\n\n82\n00:05:07.300 --> 00:05:09.890\nSo, you plus or minus about 50 pages for\n\n83\n00:05:09.890 --> 00:05:13.160\ntable of contents and\nthen some indexing at the end.\n\n84\n00:05:13.160 --> 00:05:16.250\nBut overall though,\nit's still about 300 pages.\n\n85\n00:05:16.250 --> 00:05:17.989\nSo, it is a great book.\n\n86\n00:05:17.989 --> 00:05:20.220\nIt's a great base of knowledge.\n\n87\n00:05:20.220 --> 00:05:24.423\nCombine that along with your own study\nskills, along with the labs that you can\n\n88\n00:05:24.423 --> 00:05:28.768\nactually follow in Brian's book as well\nas labs that we present here at ITProTV.\n\n89\n00:05:28.768 --> 00:05:33.467\nIt will get you prepared for\nwhat you need in Windows Server knowledge.\n\n90\n00:05:33.467 --> 00:05:36.643\nSo if you're ready to proceed,\nmake sure you stay tuned for\n\n91\n00:05:36.643 --> 00:05:38.940\nthe first video following this overview.\n\n",
+          "url": "overview-server101",
+          "vimeoId": "225282842"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee brief talk about purpose of this show. The team discuss the basic premise of Windows Server and it’s use and setup for a Windows Server Environment.  They dive into some of the hardware considerations we should understand and know as a Server Administrator.  Cherokee also shows the beginning of installation and the choices you must make before the installation completes.  Lastly, she reviews the minimum hardware requirement for getting the installation of Window Server completed.",
+          "length": "1395",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-1-a_peek_into_windows-052217-PGM.00_25_04_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-1-a_peek_into_windows-052217-PGM.00_25_04_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-1-a_peek_into_windows-052217-PGM.00_25_04_09.Still001-sm.jpg",
+          "title": "A Peek into Windows",
+          "transcript": "",
+          "url": "peekwindows",
+          "vimeoId": "218616186"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee take a look at the software side of Windows Server.  The break down of the operating system is described by Cherokee.   The team briefly differentiates between physical and virtual servers as well as workgroups vs. domains..   Cherokee introduces the basics of how Window Server is secured.  They discuss briefly the nature of Windows Server in the cloud.  Lastly, Cherokee previews some of the other networking topics Server Admins will need to be familiar with as they work with Windows Servers.",
+          "length": "1507",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-2-a_peek_into_windows_pt2-052217.00_24_51_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-2-a_peek_into_windows_pt2-052217.00_24_51_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-2-1-2-a_peek_into_windows_pt2-052217.00_24_51_00.Still001-sm.jpg",
+          "title": "A Peek into Windows Part 2",
+          "transcript": "",
+          "url": "peekwindows2",
+          "vimeoId": "218634505"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee introduce the Server Manager in Windows Server.  Cherokee shows what the Server Manager help the System Admin to do for the local computer and multiple computers.  She takes the time to explore the different elements and mention why it’s an important part of the Sys Admin’s management to use.  She demonstrates creating a group and showing some of the different elements can be managed from using the Server Manager.",
+          "length": "1335",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-3-1-introduction_to_server_manager-052217.00_21_59_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-3-1-introduction_to_server_manager-052217.00_21_59_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-3-1-introduction_to_server_manager-052217.00_21_59_10.Still001-sm.jpg",
+          "title": "Introduction to Server Manager",
+          "transcript": "",
+          "url": "introductionserver-manager",
+          "vimeoId": "218635087"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee embrace the pervasive command based management tool called PowerShell. Ronnie explains the syntax verb noun structure and offers several examples to set the tone and familiarize the layout of commands and commandlets. He also demonstrates how to query and filter queries. Lastly, you will learn various symbols and the ways in which they aid PowerShell navigation.",
+          "length": "2008",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-1-get_started_with_powershell-052317-PGM.00_36_42_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-1-get_started_with_powershell-052317-PGM.00_36_42_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-1-get_started_with_powershell-052317-PGM.00_36_42_04.Still001-sm.jpg",
+          "title": "Get Started with PowerShell",
+          "transcript": "",
+          "url": "startedpowershell",
+          "vimeoId": "218784877"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee continue to discuss PowerShell. Specifically, they explain what type of administrative functions can be executed to make work more efficient. Ronnie demonstrates how to verify Hotfix installs, troubleshoot network connectivity and invoke history all thru PowerShell.",
+          "length": "1834",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-2-get_started_with_powershell_pt2-052317-PGM.00_31_26_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-2-get_started_with_powershell_pt2-052317-PGM.00_31_26_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-4-1-2-get_started_with_powershell_pt2-052317-PGM.00_31_26_04.Still001-sm.jpg",
+          "title": "Get Started with PowerShell Part 2",
+          "transcript": "",
+          "url": "startedpowershell2",
+          "vimeoId": "218941620"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee demonstrate how to add server roles and features in Windows Server.  They discuss what a server role is and what must be done to install the role  using the GUI and PowerShell.  Cherokee demonstrates the installation of 2 separate roles and then how to uninstall an installed role.  They emphasize the best practice of only installing the services and features needed and not haphazardly installing every role and feature available.",
+          "length": "1662",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-5-1-adding_server_roles_and_features-052417-PGM.00_27_28_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-5-1-adding_server_roles_and_features-052417-PGM.00_27_28_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-5-1-adding_server_roles_and_features-052417-PGM.00_27_28_03.Still001-sm.jpg",
+          "title": "Adding Server Roles and Features",
+          "transcript": "",
+          "url": "adding-server-rolesfeatures-server101",
+          "vimeoId": "219091471"
+        }
+      ],
+      "title": "Server Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Cherokee dive into reviewing the networking fundamentals.  Cherokee reviews the quick history of networking and an overview of subnetting basics.  She provides a scenario on where we would use subnetting and a practical application  of it when creating DHCP scopes.  Lastly, she gives a few minutes providing some review of port number and how they are used.",
+          "length": "1732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-1-networking_fundamentals-052517-PGM.00_28_37_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-1-networking_fundamentals-052517-PGM.00_28_37_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-1-networking_fundamentals-052517-PGM.00_28_37_02.Still001-sm.jpg",
+          "title": "Networking Fundamentals",
+          "transcript": "",
+          "url": "networking-fundamentals-server101",
+          "vimeoId": "219092568"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with additional the networking fundamentals.  Cherokee demonstrates how to provide some networking redundancy and even performance using the NIC teaming.  She distinguishes the 2 type of NIC Teaming used and demonstrates how to configure the independent mode.  She also reviews some of the technology used to help secure the networking communications between the server and other devices.",
+          "length": "1070",
+          "thumbnail": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-2-networking_fundamentals_pt2-052517-PGM.00_18_47_22.Still001.png",
+          "thumbnailMed": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-2-networking_fundamentals_pt2-052517-PGM.00_18_47_22.Still001-med.jpg",
+          "thumbnailSm": "ahttps://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-6-1-2-networking_fundamentals_pt2-052517-PGM.00_18_47_22.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 2",
+          "transcript": "",
+          "url": "networking-fundamentals2-server101",
+          "vimeoId": "219092855"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee take us through configuring the DHCP server for use.  Cherokee shows how to setup a scope and scope options.  She explains each step and the shows the end result of the setup.  She explains that even though configured, it may not be ready for use until the server is authorized in your domain environment.  She discusses with Ronnie the use of dynamic IPs and configures reserved IPs within the DHCP scope.  Lastly, she shows how to backup and restore the DHCP database through the GUI.",
+          "length": "1372",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-1-managing_a_dhcp_server_role-052517-PGM.00_45_53_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-1-managing_a_dhcp_server_role-052517-PGM.00_45_53_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-1-managing_a_dhcp_server_role-052517-PGM.00_45_53_13.Still001-sm.jpg",
+          "title": "Managing a DHCP Server Role",
+          "transcript": "",
+          "url": "managingdhcp-server-role-server101",
+          "vimeoId": "219511017"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee show configuring the DHCP server role using powershell.  Cherokee shows how to create a scope with scope options and a scope reservation here.  The team emphasizes the goal of using powershell to automate multiple scope, option and reservation creations.  They demonstrate also some simple powershell commands to also show the DHCP utilization too.",
+          "length": "1561",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-2-managing_a_dhcp_server_role_pt2-052617-PGM.00_27_16_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-2-managing_a_dhcp_server_role_pt2-052617-PGM.00_27_16_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-7-1-2-managing_a_dhcp_server_role_pt2-052617-PGM.00_27_16_23.Still001-sm.jpg",
+          "title": "Managing a DHCP Server Role Part 2",
+          "transcript": "",
+          "url": "managingdhcp-server-role2",
+          "vimeoId": "219680127"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee introduce managing client name resolution.  Cherokee mentions the different types of name resolution available to Windows Clients: DNS, HOSTS and LMHOSTS files and WINS.  She turns her attention onto describing form and function of the FQDN, Fully Qualified Domain Name and the DNS resolution process from the client. Lastly, she demonstrates of the powershell and command line utilities can be used to discover DNC functionality for a client computer.",
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-1-managing_client_name_resolution-053017-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-1-managing_client_name_resolution-053017-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-1-managing_client_name_resolution-053017-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Managing Client Name Resolution",
+          "transcript": "",
+          "url": "managing-client-name-resolution",
+          "vimeoId": "219881661"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with client name resolution.  Cherokee emphasizes the importance of isolating where the DNS issue is occurring: locally or on the server.  She uses and discusses different tools to aid in troubleshooting DNS on the client.",
+          "length": "944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-2-managing_client_name_resolution_pt2-053117-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-2-managing_client_name_resolution_pt2-053117-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-8-1-2-managing_client_name_resolution_pt2-053117-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Managing Client Name Resolution Part 2",
+          "transcript": "",
+          "url": "managing-client-name-resolution2",
+          "vimeoId": "219883466"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee take a look at skills resolving around the DNS Server Role on Windows Server.  Cherokee takes the time to guide through the different properties on 8 different tabs.  She also shows how to stop and restart the DNS Server as well as the use of the Server Cache and describes forwarders and conditional forwarding.  Cherokee describes some of the different resource records that Server Admins should become familiar with in the day to day operations of DNS.  Lastly, she describes the use of Round Robin DNS.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-managing_the_dns_server_role-060117-PGM.00_28_56_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-managing_the_dns_server_role-060117-PGM.00_28_56_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-managing_the_dns_server_role-060117-PGM.00_28_56_12.Still001-sm.jpg",
+          "title": "Managing the DNS Server Role",
+          "transcript": "",
+          "url": "managingdns-server-role-server101",
+          "vimeoId": "220013402"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with the DNS Server management first by demonstrating the default round robin configuration of DNS.  Cherokee also goes on to describe the use of scavenging and shows how to identify the timestamp and TTL used in the process.  She also demonstrates the ability to force scavenging to occur too.",
+          "length": "1106",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-2-managing_the_dns_server_role_pt2-060117-PGM.00_18_11_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-2-managing_the_dns_server_role_pt2-060117-PGM.00_18_11_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-9-1-2-managing_the_dns_server_role_pt2-060117-PGM.00_18_11_10.Still001-sm.jpg",
+          "title": "Managing the DNS Server Role Part 2",
+          "transcript": "",
+          "url": "managingdns-server-role2-server101",
+          "vimeoId": "220013237"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee show how to create and work with standard DNS zones.  Cherokee explains the use of the Primary Zones and Secondary Zones.  She also creates them through the DNS Console.  She explains also how the secondary DNS zone gets its zone transfer and the differences between full zone transfers and incremental zone transfers.",
+          "length": "1858",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-1-working_with_dns_zones-060517-PGM.00_53_47_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-1-working_with_dns_zones-060517-PGM.00_53_47_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-1-working_with_dns_zones-060517-PGM.00_53_47_07.Still001-sm.jpg",
+          "title": "Working with DNS Zones",
+          "transcript": "",
+          "url": "dns-zones-server101",
+          "vimeoId": "220459585"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue working with 2 additional zone types:  Stub Zones and Active-Directory integrated zones.  These types of zones are more prevalent in a Windows Active Directory Environment, according to Cherokee.  She also discusses the different benefits of using these zone types that include replication, secure updates  and dynamic management.",
+          "length": "1225",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-2-working_with_dns_zones_pt2-060517-PGM.00_25_08_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-2-working_with_dns_zones_pt2-060517-PGM.00_25_08_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-10-1-2-working_with_dns_zones_pt2-060517-PGM.00_25_08_15.Still001-sm.jpg",
+          "title": "Working with DNS Zones Part 2",
+          "transcript": "",
+          "url": "dns-zones2-server101",
+          "vimeoId": "220460243"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee show some of the basic network troubleshooting utilities that Server Admins should be familiar with in a domain environment.  Cherokee shows some of the different options with ping to get results.  These can be used to to determine the latency, round trip time and connectivity.  Even though this works very effectively, it is limited in options compared to test-connection—a powershell cmdlet, according to Cherokee.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-1-troubleshooting_network_connections-060717-.00_36_03_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-1-troubleshooting_network_connections-060717-.00_36_03_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-1-troubleshooting_network_connections-060717-.00_36_03_19.Still001-sm.jpg",
+          "title": "Troubleshooting Network Connections",
+          "transcript": "",
+          "url": "troubleshooting-network-connections-server101",
+          "vimeoId": "220799359"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with some additional tools like ipconfig, get-netipconfiguration, tracert, pathping, arp and nslookup.  Cherokee shows the basic information found from ipconfig and compares it with powershell cmdlet ‘get-netipconfiguration’.  She also uses tracert and compares the output to pathping.  Lastly, she uses arp and nslookup to review some layer 2 and layer 3 issues.",
+          "length": "1605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-2-troubleshooting_network_connections_pt2-060717-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-2-troubleshooting_network_connections_pt2-060717-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-2-troubleshooting_network_connections_pt2-060717-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Troubleshooting Network Connections Part 2",
+          "transcript": "",
+          "url": "troubleshooting-network-connections2",
+          "vimeoId": "221306554"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee wrap troubleshooting networking connections by take a look at a couple of additional command line based utilities:  Netstat and telnet.  Cherokee shows multiple options with Netstat to demonstrate the different results can be seen with it.  As a live statistical tool, it allows us to verify many things including the ports that are connecting or connected and other information.  She also uses telnet to demonstrate TCP connections are working.  Though primary used a tool for remote access, it can be used to test a connection to specific port to see if it’s up and connected too, according to the team.  She also demonstrates powerhshell cmdlet test-netconnection.",
+          "length": "1449",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-3-troubleshooting_network_connections_pt3-060717-PGM.00_25_50_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-3-troubleshooting_network_connections_pt3-060717-PGM.00_25_50_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-11-1-3-troubleshooting_network_connections_pt3-060717-PGM.00_25_50_28.Still001-sm.jpg",
+          "title": "Troubleshooting Network Connections Part 3",
+          "transcript": "",
+          "url": "troubleshooting-network-connections3",
+          "vimeoId": "220951440"
+        }
+      ],
+      "title": "Networking Components of Windows Server"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Ronnie begin a discussion surrounding Active Directory.  Ronnie explains the structure of an Active Directory environment and the terms used to describe the components. Ronnie demonstrates how to configure Remote Management to run commands on a remote server. Ronnie also demonstrates how create a customized Microsoft Management Console (MMC).",
+          "length": "1820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-1-active_directory_basic_administration-052617-PGM.00_30_58_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-1-active_directory_basic_administration-052617-PGM.00_30_58_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-1-active_directory_basic_administration-052617-PGM.00_30_58_09.Still001-sm.jpg",
+          "title": "Active Directory Basic Administration",
+          "transcript": "",
+          "url": "active-directory-basic-administration-server101",
+          "vimeoId": "219680354"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie begin discussing Organizational Units (OU's).  Ronnie explains why OU's should be used. He also shows how to create, manage and delete one.",
+          "length": "1269",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-2-active_directory_basic_administration_pt2-052617-PGM.00_27_18_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-2-active_directory_basic_administration_pt2-052617-PGM.00_27_18_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-12-1-2-active_directory_basic_administration_pt2-052617-PGM.00_27_18_26.Still001-sm.jpg",
+          "title": "Active Directory Basic Administration Part 2",
+          "transcript": "",
+          "url": "active-directory-basic-administration2",
+          "vimeoId": "219882346"
+        },
+        {
+          "description": "One of the most common tasks to perform in Active Directory is the creation of user accounts. Ronnie and Cherokee demonstrate the different ways you can create users and the options you can include for that object.  First Ronnie shows how to create one user then he  shows what it takes to create several users at once.",
+          "length": "1818",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-create_user_accounts-053017-PGM.00_31_08_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-create_user_accounts-053017-PGM.00_31_08_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-create_user_accounts-053017-PGM.00_31_08_14.Still001-sm.jpg",
+          "title": "Create User Accounts",
+          "transcript": "",
+          "url": "create-user-accounts-server101",
+          "vimeoId": "219680579"
+        },
+        {
+          "description": "In this show Cherokee and Ronnie continue to examine Active Directory user accounts. Depending on the task one may choose to ADUC, PowerShell or additional tools such as a CSV file to create, modify or delete objects. Ronnie shows while it may be cumbersome to type a long string of PowerShell syntax it will help save time in the long run.",
+          "length": "1747",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-2-create_user_accounts_pt2-053017-PGM.00_00_12_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-2-create_user_accounts_pt2-053017-PGM.00_00_12_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-13-1-2-create_user_accounts_pt2-053017-PGM.00_00_12_02.Still001-sm.jpg",
+          "title": "Create User Accounts Part 2",
+          "transcript": "",
+          "url": "create-user-accounts2",
+          "vimeoId": "219680785"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie tackle some of the most common administrative duties one may encounter whilst working within Active Directory. The discuss some best practices that should be considered followed by Ronnie demonstrating how to configure the in both the GUI and via PowerShell. Tune in to learn how to set passwords, expiration options, unlock accounts and manage stale accounts.",
+          "length": "1917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-14-1-manage_user_accounts-053117-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-14-1-manage_user_accounts-053117-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-14-1-manage_user_accounts-053117-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Managing User Accounts",
+          "transcript": "",
+          "url": "managing-user-accounts-server101",
+          "vimeoId": "219882931"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee explain how to manage computer accounts. They look at two different ways of doing so. First, they explain that computer accounts by default are created when a computer joins a domain or created manually when pre-staging an account before it is joined to a domain. They also show different ways to accomplish these tasks both in the GUI as well as PowerShell.",
+          "length": "1406",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-managing_ad_computer_accounts-060117-PGM.00_23_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-managing_ad_computer_accounts-060117-PGM.00_23_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-managing_ad_computer_accounts-060117-PGM.00_23_11_25.Still001-sm.jpg",
+          "title": "Manage AD Computer Accounts",
+          "transcript": "",
+          "url": "manage-ad-computer-accounts-server101",
+          "vimeoId": "220012476"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee continue to look at how manage computer accounts. Ronnie shows two different methods to create computer accounts. First, he shows how computers accounts are generated when the computer joins a domain followed by pre-staging the computer account. Ronnie explains the benefits of creating pre-staged accounts as in addition to the various methods to get the job done.",
+          "length": "1373",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-2-managing_ad_computer_accounts_pt2-060117-PGM.00_22_39_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-2-managing_ad_computer_accounts_pt2-060117-PGM.00_22_39_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-15-1-2-managing_ad_computer_accounts_pt2-060117-PGM.00_22_39_17.Still001-sm.jpg",
+          "title": "Managing AD Computer Accounts Part 2",
+          "transcript": "",
+          "url": "managing-ad-computer-accounts2-server101",
+          "vimeoId": "220012975"
+        },
+        {
+          "description": "Ronnie and Zach discuss what is a 'Group,' what are group managing tasks, how to access groups, regular duties for the server administrator, managing groups, group types, what is a 'Forest,' and permissions.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-1-managing_groups-060217-PGM.00_30_33_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-1-managing_groups-060217-PGM.00_30_33_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-1-managing_groups-060217-PGM.00_30_33_17.Still001-sm.jpg",
+          "title": "Managing Groups",
+          "transcript": "",
+          "url": "managingserver101",
+          "vimeoId": "220459018"
+        },
+        {
+          "description": "Ronnie and Zach continue discussing managing groups beginning in this episode with what default groups are, different types of default groups we should be familiar with, how to add members to a group using ADUC & ADAC & Powershell, and how to remove members from using ADUC & ADAC & Powershell.",
+          "length": "1435",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-2-managing_groups_pt2-060217-PGM.00_28_12_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-2-managing_groups_pt2-060217-PGM.00_28_12_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-16-1-2-managing_groups_pt2-060217-PGM.00_28_12_21.Still001-sm.jpg",
+          "title": "Managing Groups Part 2",
+          "transcript": "",
+          "url": "managingpart-2-server101",
+          "vimeoId": "220300686"
+        },
+        {
+          "description": "Ronnie and Zach discuss what a group policy is, common group policy management tasks, configuration management, built-in management technology, domain based vs. local group policy, when to use domain based & local group policy, create a GPO, and using GPMC to create a GPO.",
+          "length": "2017",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-1-working_with_group_policy-060217-PGM.00_33_21_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-1-working_with_group_policy-060217-PGM.00_33_21_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-1-working_with_group_policy-060217-PGM.00_33_21_16.Still001-sm.jpg",
+          "title": "Working with Group Policy",
+          "transcript": "",
+          "url": "policy-server101",
+          "vimeoId": "220300915"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee introduce Group Policy. First, Ronnie explains the differences between Policies and Preferences and why one may choose one setting over the other. They also speak about inheritance and ways in which inheritance can be blocked. Lastly, Ronnie cover link order to set policy priority.",
+          "length": "1952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-2-working_with_group_policy_pt2-060617-PGM.00_36_37_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-2-working_with_group_policy_pt2-060617-PGM.00_36_37_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-17-1-2-working_with_group_policy_pt2-060617-PGM.00_36_37_18.Still001-sm.jpg",
+          "title": "Working with Group Policy Part 2",
+          "transcript": "",
+          "url": "policy2",
+          "vimeoId": "220642617"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie introduce the idea of implementing security with via group policy. First, Ronnie walks us through six different policy setting and explains how each one can be used. They continue their conversation but take an unusual twist to explain a a non-group policy settings called fine-grained password and account lockout policies.",
+          "length": "1543",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-1-securing_server_with_group_policy-060617-PGM.00_25_27_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-1-securing_server_with_group_policy-060617-PGM.00_25_27_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-1-securing_server_with_group_policy-060617-PGM.00_25_27_16.Still001-sm.jpg",
+          "title": "Securing Server with Group Policy",
+          "transcript": "",
+          "url": "securing-servergroup-policy",
+          "vimeoId": "220643294"
+        },
+        {
+          "description": "This episode picks up from the previous the conversation where Cherokee and Ronnie discuss implementing password policies. First, they delve deeper within fine-grained password policies via group policy management console (GPMC).",
+          "length": "1551",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-2-securing_server_with_group_policy_pt2-060717-PGM.00_25_35_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-2-securing_server_with_group_policy_pt2-060717-PGM.00_25_35_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-2-securing_server_with_group_policy_pt2-060717-PGM.00_25_35_22.Still001-sm.jpg",
+          "title": "Securing Server with Group Policy Part 2",
+          "transcript": "",
+          "url": "securing-servergroup-policy2",
+          "vimeoId": "220950614"
+        },
+        {
+          "description": "In this show Ronnie and Cherokee continue to discuss how group policy can secure servers. They show how Windows Firewall can be incorporated to apply and manage rules.",
+          "length": "1607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-3-securing_server_with_group_policy_pt3-060717-PGM.00_26_31_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-3-securing_server_with_group_policy_pt3-060717-PGM.00_26_31_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-18-1-3-securing_server_with_group_policy_pt3-060717-PGM.00_26_31_08.Still001-sm.jpg",
+          "title": "Securing Server with Group Policy Part 3",
+          "transcript": "",
+          "url": "securing-servergroup-policy3",
+          "vimeoId": "220950957"
+        }
+      ],
+      "title": "Active Directory Domain Services Tasks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Cherokee and Ronnie explain what services are and how managing them correctly can improve system and network performance. Ronnie demonstrates how to navigate through the services management console using services.msc, the primary management tool. He also demonstrates other ways to start and stop a service through the GUI and PowerShell.",
+          "length": "1710",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-1-managing_windows_services-060817-PGM.00_28_14_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-1-managing_windows_services-060817-PGM.00_28_14_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-1-managing_windows_services-060817-PGM.00_28_14_11.Still001-sm.jpg",
+          "title": "Managing Windows Services",
+          "transcript": "",
+          "url": "managing-windows-services-server101",
+          "vimeoId": "221263777"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie continue to discuss ways to manage services. First, Ronnie explains the purpose of a service account, which accounts one should use and explains issues you may encounter. Next, they look at group managed service accounts and describe ways to work across multiple servers, schedule tasks, and provide application support.",
+          "length": "1510",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-2-managing_windows_services_pt2-060817-PGM.00_24_54_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-2-managing_windows_services_pt2-060817-PGM.00_24_54_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-19-1-2-managing_windows_services_pt2-060817-PGM.00_24_54_03.Still001-sm.jpg",
+          "title": "Managing Windows Services Part 2",
+          "transcript": "",
+          "url": "managing-windows-services2-server101",
+          "vimeoId": "221264524"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee introduce working with local storage.  Cherokee reviews of the basic storage and terminology concepts.  She reviews basic disk redundancy and performance technology like RAID, 0, 1, and 5.  She distinguishes partitioning technology of MBR and GPT.",
+          "length": "1705",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-1-working_with_local_storage-060817-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-1-working_with_local_storage-060817-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-1-working_with_local_storage-060817-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Working with Local Storage",
+          "transcript": "",
+          "url": "local-storage-server101",
+          "vimeoId": "221265073"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue with storage concepts.  Cherokee distinguishes between Volumes and Partitions.  She demonstrates how to create volumes using the Disk Management utility built into the Windows Server Environment.",
+          "length": "1835",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-2-working_with_local_storage_pt2-060817-PGM.00_30_18_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-2-working_with_local_storage_pt2-060817-PGM.00_30_18_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-2-working_with_local_storage_pt2-060817-PGM.00_30_18_16.Still001-sm.jpg",
+          "title": "Working with Local Storage Part 2",
+          "transcript": "",
+          "url": "local-storage2-server101",
+          "vimeoId": "221263176"
+        },
+        {
+          "description": "In this episode, Ronnie and Cherokee continue working with local storage.  They show how to configure multiple hard drives for usage in storage spaces.  This is another way to dynamically manage and configure storage within the Windows Server OS.  Cherokee demonstrates how to configure multiple options for storage space depending on the demands.  The team emphasize the ease and use of this technology when working with local storage.",
+          "length": "2096",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-3-working_with_local_storage_pt3-060917-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-3-working_with_local_storage_pt3-060917-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-20-1-3-working_with_local_storage_pt3-060917-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Working with Local Storage Part 3",
+          "transcript": "",
+          "url": "local-storage3",
+          "vimeoId": "221420190"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie explain how NTFS permissions can be used on a system running an NTFS file system. Ronnie shows the default standard permission setting options and suggests avoiding the deny option whenever possible.",
+          "length": "1703",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-1-managing_ntfs_permissions-060917-PGM.00_28_07_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-1-managing_ntfs_permissions-060917-PGM.00_28_07_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-1-managing_ntfs_permissions-060917-PGM.00_28_07_25.Still001-sm.jpg",
+          "title": "Managing NTFS Permissions",
+          "transcript": "",
+          "url": "managing-ntfs-permissions",
+          "vimeoId": "221419038"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee continue talking about NTFS permissions. First, they look at a more tailored  approach to configure permissions using the advanced option. Ronnie also demonstrates how to change ownership, encrypt files and folders, as well as implementing auditing.",
+          "length": "1313",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-2-managing_ntfs_permissions_pt._2-060917-PGM.00_21_38_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-2-managing_ntfs_permissions_pt._2-060917-PGM.00_21_38_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-21-1-2-managing_ntfs_permissions_pt._2-060917-PGM.00_21_38_06.Still001-sm.jpg",
+          "title": "Managing NTFS Permissions Part 2",
+          "transcript": "",
+          "url": "managing-ntfs-permissions2",
+          "vimeoId": "221421001"
+        }
+      ],
+      "title": "Services, Storage and NTFS Permissions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Ronnie and Cherokee explain how to manage access control across shared folders and files. First, they explain how share permissions affect NTFS permissions and even advise against combining the two. They discuss the purpose of hidden shares and demonstrate how to create one.",
+          "length": "1687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-1-managing_shared_folders_and_files-060917-PGM.00_33_37_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-1-managing_shared_folders_and_files-060917-PGM.00_33_37_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-1-managing_shared_folders_and_files-060917-PGM.00_33_37_18.Still001-sm.jpg",
+          "title": "Managing Shared Folders and Files",
+          "transcript": "",
+          "url": "managing-shared-foldersfiles",
+          "vimeoId": "221420767"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie continue to discuss shared folders and files.  first, they discuss Access-Based Enumeration (ABE) a way to implement the principle of least privilege and only display folders and files to which the user has been granted permission. They also look at how to enable shadow copies to store multiple versions of a folder or file. Lastly, they look at File Server Resource Manager as a way to implement quotas, screen files and generate reports.",
+          "length": "1803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-2-managing_shared_folders_and_files_pt2-060917-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-2-managing_shared_folders_and_files_pt2-060917-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-22-1-2-managing_shared_folders_and_files_pt2-060917-high-sm.jpg",
+          "title": "Managing Shared Folders and Files Part 2",
+          "transcript": "",
+          "url": "managing-shared-foldersfiles2",
+          "vimeoId": "221420492"
+        },
+        {
+          "description": "In this show, Ronnie and Cherokee look at utilizing print services. They discuss and demonstrate how to provide correct drivers for end users in an environment. They also Look at management functions such as managing print permissions and managing print queues.",
+          "length": "1502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-1-managing_print_services-060917-PGM.00_24_46_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-1-managing_print_services-060917-PGM.00_24_46_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-1-managing_print_services-060917-PGM.00_24_46_13.Still001-sm.jpg",
+          "title": "Managing Print Services",
+          "transcript": "",
+          "url": "managing-print-services",
+          "vimeoId": "221419727"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie continue to discuss Print Services. Specifically, the look at why and how to configure printer pooling. Don't miss the import considerations to keep in mind for your printer pooling design.",
+          "length": "807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-2-managing_print_services_pt2-060917-PGM.00_13_12_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-2-managing_print_services_pt2-060917-PGM.00_13_12_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-windowsserver101/techskills-windowsserver101-23-1-2-managing_print_services_pt2-060917-PGM.00_13_12_23.Still001-sm.jpg",
+          "title": "Managing Print Services Part 2",
+          "transcript": "",
+          "url": "managing-print-services2",
+          "vimeoId": "221420058"
+        }
+      ],
+      "title": "File Services and Print Services"
+    }
+  ],
+  "url": "server-101",
+  "vLab": false
+}

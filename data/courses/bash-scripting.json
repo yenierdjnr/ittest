@@ -1,0 +1,260 @@
+{
+  "description": "Unix and Unix-like operating systems(Linux/BSD), known for their speed and reliability, are becoming an ever increasing presence in many data centers and server closets. That being the case, systems administrators that are new to the command-line driven nature of these systems will need to get up to speed on how to interact with the CLI shell environment found as the default on the majority of those systems. In this series, we introduce you to that shell environment known as the Bourne Again Shell or bash, for short. The series starts with an introduction to the bash environment, showing and explaining to you how to navigate through the system using text-based commands. This includes file system navigation, setting file permissions, manipulating output, etc. Then, building upon that foundation, we show you how to automate repetitive tasks by creating customized scripts. All the main bash scripting abilities are covered; from basic repetitive command execution, to more complex functionality like arithmetic, arrays, conditional statements(if-then/elif/case-esac), program loops(for/while/until), and functions/libraries.",
+  "descriptionMD": "",
+  "length": "42335",
+  "name": "Bash and Scripting",
+  "practiceExam": false,
+  "subtitle": "CLI",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "259",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-0-0-overview-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-0-0-overview-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-0-0-overview-111715-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:01.554\n[MUSIC]\n\n2\n00:00:01.554 --> 00:00:05.596\nWelcome, we're taking a look at Bash and\n\n3\n00:00:05.596 --> 00:00:11.150\nScripting this is gonna be\npart of our tech skill series.\n\n4\n00:00:11.150 --> 00:00:15.920\nWhat we wanna do is we wanna make sure\nthat we introduce you to what the show is\n\n5\n00:00:15.920 --> 00:00:20.000\ngonna be about and our, of course\nsubject matter expert Mr. Daniel Lowrie.\n\n6\n00:00:20.000 --> 00:00:22.670\nDaniel tell us what we're\ngonna be doing in this show.\n\n7\n00:00:22.670 --> 00:00:24.063\n>> Yeah, in Bash and scripting,\n\n8\n00:00:24.063 --> 00:00:26.446\nwe're going to be doing\na lot of interesting stuff.\n\n9\n00:00:26.446 --> 00:00:29.930\nIf you've never heard of Linux or Unix or\nmaybe you've got a Macbook and you might\n\n10\n00:00:29.930 --> 00:00:34.110\nnot know this but the Bash environment,\nthe Bourne-again shell, is actually built\n\n11\n00:00:34.110 --> 00:00:38.070\ninto that system and maybe you started to\nthink hey, I'm going to partake in this.\n\n12\n00:00:38.070 --> 00:00:39.640\nI want to see what I can do with it.\n\n13\n00:00:39.640 --> 00:00:43.540\nAnd maybe even I want to get into\nscripting, create scripts that do things\n\n14\n00:00:43.540 --> 00:00:48.150\nfor me in the system that\nare customizable for myself.\n\n15\n00:00:48.150 --> 00:00:51.370\nSo how do I do that,\nwhere do I get started?\n\n16\n00:00:51.370 --> 00:00:55.260\nThat's what this show is all about, if\nyou've been administrating a Linux system\n\n17\n00:00:55.260 --> 00:00:58.630\nor a Unix system, anything with a Bash\nshell in it, this is also for you, right?\n\n18\n00:00:58.630 --> 00:01:01.450\nYou you know the basics and\nyou need to get to that next level,\n\n19\n00:01:01.450 --> 00:01:04.840\nyou need to start to be able to\ncreate more complex scripts.\n\n20\n00:01:04.840 --> 00:01:06.100\nThat we're gonna get to as well.\n\n21\n00:01:06.100 --> 00:01:10.670\nSo hopefully, if you're watching this, I\nwant to take you down the stream of where\n\n22\n00:01:10.670 --> 00:01:12.570\nwe're gonna go,\nwhere we're gonna take you.\n\n23\n00:01:12.570 --> 00:01:14.540\nWe're gonna start with some\nvery basic functionality.\n\n24\n00:01:14.540 --> 00:01:18.450\nWe're gonna work right into the best,\nget your feet wet as it were.\n\n25\n00:01:18.450 --> 00:01:21.490\nSo that you understand,\nhow do I work the directories?\n\n26\n00:01:21.490 --> 00:01:22.680\nHow do I create files?\n\n27\n00:01:22.680 --> 00:01:24.170\nHow do I make directories?\n\n28\n00:01:24.170 --> 00:01:27.350\nHow do I do a whole lot of\nthings that are just normal,\n\n29\n00:01:27.350 --> 00:01:29.910\neveryday activities inside\nof the Bash environment?\n\n30\n00:01:29.910 --> 00:01:32.290\nSo that's where we're going to start.\n\n31\n00:01:32.290 --> 00:01:35.620\nThen we're going to move you along into\nusing things like text editors, because\n\n32\n00:01:35.620 --> 00:01:39.320\ntext editors, if we know how to use those,\nwell that's how we create our scripts.\n\n33\n00:01:39.320 --> 00:01:45.300\nWe have to be able to work with text\nfiles, you have to remember in a pure Bash\n\n34\n00:01:45.300 --> 00:01:50.330\nenvironment, there is no graphical, so\nyou may be stuck using just those CLI or\n\n35\n00:01:50.330 --> 00:01:53.590\nCommand Line Interface tools\nthat are at your ready.\n\n36\n00:01:53.590 --> 00:01:57.865\nThere are some text editors\nthat are built in the CLIs and\n\n37\n00:01:57.865 --> 00:02:01.565\nin the Bash environment specifically,\nso we're gonna try to show you, wade\n\n38\n00:02:01.565 --> 00:02:05.445\nyou through a couple of more commonly used\ntext editors inside of your Bash system.\n\n39\n00:02:05.445 --> 00:02:09.588\nOther things we're gonna take a look\nat is how to do things like math.\n\n40\n00:02:09.588 --> 00:02:10.810\nInside of yourself you're thinking,\n\n41\n00:02:10.810 --> 00:02:13.880\nwow, why would I want to do math,\nI'm not a mathematician.\n\n42\n00:02:13.880 --> 00:02:16.580\nBecause math is something\nthat you're actually\n\n43\n00:02:16.580 --> 00:02:18.760\ngoing to do as get into more\nadvanced scripting functions.\n\n44\n00:02:18.760 --> 00:02:20.460\nSo we're going to show how to do that.\n\n45\n00:02:20.460 --> 00:02:23.630\nWe're also going to take a look at\ncreating conditional statements.\n\n46\n00:02:23.630 --> 00:02:28.740\nThis is where it really starts to put\nthe meat on the bones of the show.\n\n47\n00:02:28.740 --> 00:02:32.330\nIs how do I do one thing over another?\n\n48\n00:02:32.330 --> 00:02:34.350\nHow do I make it loop through that?\n\n49\n00:02:34.350 --> 00:02:37.030\nWe're gonna look at loops and\nhow to create those.\n\n50\n00:02:37.030 --> 00:02:40.780\nWe're gonna create functions which\nare basically mini scripts that I can call\n\n51\n00:02:40.780 --> 00:02:43.910\ninside of the scripts that I'm creating\nand I don't have to rewrite my code.\n\n52\n00:02:43.910 --> 00:02:50.086\nSo I can create a whole library of\ndifferent functions that do things like,\n\n53\n00:02:50.086 --> 00:02:55.020\nif-then statements and for\nand while and until loops\n\n54\n00:02:55.020 --> 00:02:59.950\nthat will create the functionality inside\nof my script to get the response and\n\n55\n00:02:59.950 --> 00:03:02.970\nthe exiting the actual functionality\nthat I'm looking for from my script.\n\n56\n00:03:02.970 --> 00:03:05.010\nSo there's going to be a lot of stuff.\n\n57\n00:03:05.010 --> 00:03:07.470\nWe're also going to take\na look at regular expression.\n\n58\n00:03:07.470 --> 00:03:10.060\nA very difficult topic but\na lot of scripting involves this,\n\n59\n00:03:10.060 --> 00:03:10.870\nworking with that.\n\n60\n00:03:10.870 --> 00:03:16.280\nHow do I search for things that\nmaybe are known or even unknown?\n\n61\n00:03:16.280 --> 00:03:16.930\nThat can help us out.\n\n62\n00:03:16.930 --> 00:03:20.300\nWe also want to take a look at\nlogical operators, parameters,\n\n63\n00:03:20.300 --> 00:03:24.980\nand a lot of interesting things that\nare add-on functionality to our scripts.\n\n64\n00:03:24.980 --> 00:03:28.760\nHow do we make them go beyond what\nwe've already built them to do?\n\n65\n00:03:29.940 --> 00:03:33.410\nHow do we add functionality outside\nof it and expand that horizon?\n\n66\n00:03:33.410 --> 00:03:36.510\nLet's see here, is there anything\nelse that we need to go over?\n\n67\n00:03:36.510 --> 00:03:40.050\nBasically, the major part of scripting.\n\n68\n00:03:40.050 --> 00:03:44.430\nOnce we get out of what is Bash,\nhow do I work with Bash, how do I become\n\n69\n00:03:44.430 --> 00:03:50.540\nan everyday user, that's when we start\nreally veering toward creating scripts.\n\n70\n00:03:50.540 --> 00:03:57.890\nAnd then that will be the rest of the meat\non the bone, right, which will be creating\n\n71\n00:03:57.890 --> 00:04:00.670\nvariables, moving into those conditional\nstatements, moving into those loops,\n\n72\n00:04:00.670 --> 00:04:03.590\nusing regular expression, using\nthings like parameters and functions.\n\n73\n00:04:03.590 --> 00:04:05.440\nSo it's a lot of goings on with this show.\n\n74\n00:04:05.440 --> 00:04:08.310\nSo if you're If you're interested\nin creating scripts you've\n\n75\n00:04:08.310 --> 00:04:09.370\nfound the right place.\n\n76\n00:04:09.370 --> 00:04:15.991\nWe've got a lot great content coming up\nfor you and we hope to see you there.\n\n77\n00:04:15.991 --> 00:04:18.879\n[MUSIC]\n\n",
+          "url": "overview70700",
+          "vimeoId": "146521487"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel introduce us to BASH--Bourne Again Shell.  They talk about the history and basics of how bash started.  Discussing what a shell is, they introduce the ways in which we interact with bash in the interactive login, the interactive non-login and the non-interactive ways.  The guys also take a moment to describe the use of bash as both a scripting and programming language.   They spend a little time emphasizing the flexibility and portability of bash skills across multiple Linux distros.",
+          "length": "2075",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-1-what_is_bash-110915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-1-what_is_bash-110915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-1-what_is_bash-110915-sm.jpg",
+          "title": "What is Bash",
+          "transcript": "",
+          "url": "bash",
+          "vimeoId": "146026808"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin issuing commands to the underlying operating with the goal of getting information returns about the system itself. They talk about built in commands that are used to do this and learning the basis of running commands from the shell to make the OS do what we need for it do.  They also show ways that we can efficiently operate the OS through bash.",
+          "length": "2336",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-2-issuing_commands_in_bash-110915-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-2-issuing_commands_in_bash-110915-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-1-2-issuing_commands_in_bash-110915-high-sm.jpg",
+          "title": "Issuing Commands in Bash",
+          "transcript": "",
+          "url": "issuing-commands-bash",
+          "vimeoId": "145426732"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel guide us using BASH to manage files and directories.  Key to running commands is knowing where be when running commands, they show now to use basic commands to navigate through folders.  They show how to create and copy files and folders.  They also talk about the use of links in bash.",
+          "length": "2302",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-3-1-files_and_directories_in_bash-110915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-3-1-files_and_directories_in_bash-110915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-3-1-files_and_directories_in_bash-110915-sm.jpg",
+          "title": "Files and Directories in Bash",
+          "transcript": "",
+          "url": "files-directories-bash",
+          "vimeoId": "145426746"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel discuss permissions and changing permission in BASH.  This topic is important as we may need to change permissions for users to be able to run files, according the guys.  They take some time to show how to see the permissions, modify them also show how to seize ownership of the files.",
+          "length": "2226",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-4-1-permissions_in_bash-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-4-1-permissions_in_bash-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-4-1-permissions_in_bash-111015-1-sm.jpg",
+          "title": "Permissions in Bash",
+          "transcript": "",
+          "url": "permissions-bash",
+          "vimeoId": "145426755"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel take a look into the basic way to create, modify and edit files within BASH using a text editor. Remembering that in Linux everything is a file, Daniel and Ronnie take a look at working with some of the different text editors to accomplish tasks within BASH.",
+          "length": "2223",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-5-1-text_editors_in_bash-111015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-5-1-text_editors_in_bash-111015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-5-1-text_editors_in_bash-111015-1-sm.jpg",
+          "title": "Text editors in Bash",
+          "transcript": "",
+          "url": "text-editors-bash",
+          "vimeoId": "145426762"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin working in BASH to show how to redirect output.  This redirection can be put to many uses in scripting as well as troubleshooting so that data can be appended for historical data or overwritten for comparative issues, according to the guys.  Demonstrating the use of GREP and TEE, they show where the power of using piping is very helpful when working in BASH.",
+          "length": "1927",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-6-1-io_manipulation_in_bash-111015-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-6-1-io_manipulation_in_bash-111015-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-6-1-io_manipulation_in_bash-111015-high-sm.jpg",
+          "title": "I/O Manipulation in Bash",
+          "transcript": "",
+          "url": "io-manipulation-bash",
+          "vimeoId": "145426773"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel introduce the concept of variables and working with variables in BASH. They talk about what a variable is and the scope of using them:  global and local variables.  They create the basic variable in RAM and show the output with the echo command.  Using the terminal, they show some of scripts that define global variables and local variables.",
+          "length": "1531",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash-111115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash-111115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash-111115-1-sm.jpg",
+          "title": "Variables in BASH",
+          "transcript": "",
+          "url": "variables-bash",
+          "vimeoId": "146026801"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel introduce the concept of variables and working with variables in BASH. They talk about what a variable is and the scope of using them:  global and local variables.  They create the basic variable in RAM and show the output with the echo command.  Using the terminal, they show some of scripts that define global variables and local variables.",
+          "length": "1762",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash_pt2-111115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash_pt2-111115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-8-1-variables_in_bash_pt2-111115-1-sm.jpg",
+          "title": "Variables in BASH Part 2",
+          "transcript": "",
+          "url": "variables-bash-2",
+          "vimeoId": "146026780"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel continue to show the scripts and their locations. They show basic array creation and use of aliases as well as show now to unset a variable.  These are basic tools that we will use when creating powerful scripts.",
+          "length": "2107",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-9-1-creating_scripts_in_bash-111115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-9-1-creating_scripts_in_bash-111115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashingandscripting-9-1-creating_scripts_in_bash-111115-1-sm.jpg",
+          "title": "Creating Scripts in BASH",
+          "transcript": "",
+          "url": "creating-scripts-bash",
+          "vimeoId": "146026766"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin to take a look at what it takes to create a script and why we use scripts.  They show the components of script creation and talk about why those element are included in scripts  After creating some scripts, they also show how to make them excitable and show the command used in debugging scripts you’ve created.",
+          "length": "2202",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-12-1-logical_operators_in_bash-111315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-12-1-logical_operators_in_bash-111315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-12-1-logical_operators_in_bash-111315-1-sm.jpg",
+          "title": "Logical Operators in BASH",
+          "transcript": "",
+          "url": "logical-operators-bash",
+          "vimeoId": "146026746"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel show us how to script the most basic condition: true or false.  They use the AND operator and the OR operator to help us under the syntax and function.  They also show several scripts that operate on those conditions.  There is a chance were every output may not give us the both and but we need  in-between values, according to the guys, it’s just as easy as substituting the AND / OR with mathematical or symbolic expressions to help.",
+          "length": "2014",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements-111315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements-111315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements-111315-1-sm.jpg",
+          "title": "Conditional Statements",
+          "transcript": "",
+          "url": "conditional-statements",
+          "vimeoId": "146012357"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin to use conditional if-then statements in scripting.  They use this single condition with operators and variables showing us how to use logic to get the output we’re expecting to see.  This same logic can be applied not only to string values but also to arithmetic to derive a value based on a conditional statement.",
+          "length": "1615",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements_pt2-111315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements_pt2-111315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-13-1-conditional_statements_pt2-111315-1-sm.jpg",
+          "title": "Conditional Statements Part 2",
+          "transcript": "",
+          "url": "conditional-statements-2",
+          "vimeoId": "146012343"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel continue on with conditional statements by showing us the power of the conditional statements to handle multiple conditions and also to choose to report the output based on the condition or conditions.  Using nested if statements and case commands are we we work with complex and multiple conditions.",
+          "length": "2170",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash-111615-1-sm.jpg",
+          "title": "Creating Loops in BASH",
+          "transcript": "",
+          "url": "creating-loops-bash",
+          "vimeoId": "146012332"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel show how to use for loops from the BASH.  Many repeatable task that need to be automated can be handled by creating loops in scripting according to the guys.  They show multiple examples of loops to show how this may work.  They take a look into C-style loops and show a practical script to backup multiple files.",
+          "length": "1757",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt2-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt2-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt2-111615-1-sm.jpg",
+          "title": "Creating Loops in BASH Part 2",
+          "transcript": "",
+          "url": "creating-loops-bash-2",
+          "vimeoId": "146012317"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel show how to use until and nested loops from the BASH.  Needing to run things until a condition becomes true?  This is the show where they take a look into until loops.  These loops are great when you need to run a script like redirecting the contents of a folder to NULL until an error is generated.  Daniel and Ronnie also take a look at nested loops and redirecting the output of loops to a file.",
+          "length": "1823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt3-111615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt3-111615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-14-1-creating_loops_in_bash_pt3-111615-1-sm.jpg",
+          "title": "Creating Loops in BASH Part 3",
+          "transcript": "",
+          "url": "creating-loops-bash-3",
+          "vimeoId": "146012304"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel introduce us to the use of regular expressions.  Every output that you and I have is represented by a character, including spaces.  This is helpful because this means that everything is searchable, even when we do not know the exact values we are looking for.  Using regular expressions allows users to search for anything within our computers, or within a file on a computer for matching patterns.  This search ignores syntax and focuses only on patterns.",
+          "length": "1942",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-7-1-regular_expressions_in_bash-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-7-1-regular_expressions_in_bash-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-7-1-regular_expressions_in_bash-111715-1-sm.jpg",
+          "title": "Regular Expressions in BASH",
+          "transcript": "",
+          "url": "regular-expressions-bash",
+          "vimeoId": "146521507"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin to show the use of variables within scripts.  They take a look again at basic variables.   Even though we can create variables and define them, there are times when we need input from another user.  Daniel demonstrates how we accomplish having another user provide input for the variables and even multiple inputs for an array.  Here are the building blocks for more complex scripts that we create.",
+          "length": "2158",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-10-1-variables_in_bash_scripts-111215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-10-1-variables_in_bash_scripts-111215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-10-1-variables_in_bash_scripts-111215-1-sm.jpg",
+          "title": "Variables in BASH Scripting",
+          "transcript": "",
+          "url": "variables-bash-scripting",
+          "vimeoId": "146521683"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel begin to show the use of variables within scripts.  They take a look again at basic variables.   Even though we can create variables and define them, there are times when we need input from another user.  Daniel demonstrates how we accomplish having another user provide input for the variables and even multiple inputs for an array.  Here are the building blocks for more complex scripts that we create.",
+          "length": "1951",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash-111215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash-111215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash-111215-1-sm.jpg",
+          "title": "Math in BASH",
+          "transcript": "",
+          "url": "math-bash",
+          "vimeoId": "146521700"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel take a look at using the BASH calculator.  The guys show how to use it and why we would uses the BASH calculator instead of the basic let or expo commands.  We also see the power of bc when we work with some complicated math problems.",
+          "length": "1917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash_pt2-111215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash_pt2-111215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-11-1-math_in_bash_pt2-111215-1-sm.jpg",
+          "title": "Math in BASH Part 2",
+          "transcript": "",
+          "url": "math-bash-2",
+          "vimeoId": "146522296"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel introduce how to use functions in BASH scripting.   Functions are used to reduce repetitive nature of scripting when certain tasks are called over and over again, according to the guys.  They show us how functions can be made and then called within our scripts.  Even though we can simply create them within the script, we can also take output of a function and have that output to a variable for uses complex scripts.  Daniel then shows how to create a library of functions and how to call that library within scripts.",
+          "length": "2243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-15-1-functions_in_bash-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-15-1-functions_in_bash-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-15-1-functions_in_bash-111715-1-sm.jpg",
+          "title": "Functions in BASH",
+          "transcript": "",
+          "url": "functions-bash",
+          "vimeoId": "146521672"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel continue to show how include user input into BASH scripting.  This helps when creating a script and we do not know the exact values needed at the moment of script creation.  They show how to create a parameterized script so that it request additional information for the the script before being run.  Also this is helpful when there may be multiple parameters that need to be provided.",
+          "length": "1795",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-16-1-parameters_in_bash-111715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-16-1-parameters_in_bash-111715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-bashandscripting/techskills-bashandscripting-16-1-parameters_in_bash-111715-1-sm.jpg",
+          "title": "Parameters in BASH",
+          "transcript": "",
+          "url": "parameters-bash",
+          "vimeoId": "146521527"
+        }
+      ],
+      "title": "Bash and Scripting"
+    }
+  ],
+  "url": "bash-scripting",
+  "vLab": false
+}
