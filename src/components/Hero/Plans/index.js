@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import ButtonSwitch from 'Elements/ButtonSwitch';
 
-
 const Plans = ({ className='', handleSwitch }) => {
   return (
     <section className={ styles.capsule }>
@@ -17,6 +16,5 @@ const Plans = ({ className='', handleSwitch }) => {
     </section>
   );
 };
-
 
 export default Plans;

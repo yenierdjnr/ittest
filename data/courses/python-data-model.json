@@ -1,0 +1,438 @@
+{
+  "description": "Python has a set of protocols that the language internally adhere to which provides the functionality for features such as iteration, context manager behavior, string representation of an object, and many other things. When you create custom classes in Python and make use of these protocols then you can create custom behavior in the context of iterations, types, comparison of objects, operator overloading, and much more. Knowing about these will help level up your Python skills. If you are ready to progress forward in your Python prowess, then join us to learn more about the Python data model.",
+  "descriptionMD": "Python has a set of protocols that the language internally adhere to which provides the functionality for features such as iteration, context manager behavior, string representation of an object, and many other things. When you create custom classes in Python and make use of these protocols then you can create custom behavior in the context of iterations, types, comparison of objects, operator overloading, and much more. Knowing about these will help level up your Python skills. If you are ready to progress forward in your Python prowess, then join us to learn more about the Python data model.",
+  "length": "45877",
+  "name": "Python Data Model",
+  "practiceExam": false,
+  "subtitle": "Magic Methods in Python Classes",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Python has a set of protocols that the language internally adhere to which provides the functionality for features such as iteration, context manager behavior, string representation of an object, and many other things. When you create custom classes in Python and make use of these protocols then you can create custom behavior in the context of iterations, types, comparison of objects, operator overloading, and much more. Knowing about these will help level up your Python skills. If you are ready to progress forward in your Python prowess, then join us to learn more about the Python data model.",
+          "length": "125",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-0-0-0-overview-020718-PGM.00_00_06_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-0-0-0-overview-020718-PGM.00_00_06_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-0-0-0-overview-020718-PGM.00_00_06_00.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.954\n[MUSIC]\n\n2\n00:00:05.954 --> 00:00:09.550\nIn this segment we are gonna take a few\nminutes to briefly overlook what you can\n\n3\n00:00:09.550 --> 00:00:12.000\nexpect from the upcoming\nPython Data Model series.\n\n4\n00:00:12.000 --> 00:00:14.659\nJustin if you would be so kind to\ngive us some idea of the the topics\n\n5\n00:00:14.659 --> 00:00:16.301\nthat we are gonna cover in that series.\n\n6\n00:00:16.301 --> 00:00:21.195\n&gt;&gt; So this series is meant to really\nup your game in Python, right?\n\n7\n00:00:21.195 --> 00:00:25.547\nWhat are some of these nice, behind\nthe scenes magic that we can now leverage\n\n8\n00:00:25.547 --> 00:00:29.358\nto our own advantage to make our\nlives a little bit easier, right?\n\n9\n00:00:29.358 --> 00:00:34.845\nPickling, copying, maybe making\na custom object behave like a number,\n\n10\n00:00:34.845 --> 00:00:37.776\nbeing able to compare custom objects.\n\n11\n00:00:37.776 --> 00:00:42.871\nMaybe actually making sure an object is\nconstructed exactly like you want it.\n\n12\n00:00:42.871 --> 00:00:44.732\nThese are all things we're\ngonna cover in this series.\n\n13\n00:00:44.732 --> 00:00:47.227\n&gt;&gt; Now, Justin a lot of times,\nwe have two different formats here.\n\n14\n00:00:47.227 --> 00:00:49.691\nTypically, we have\ncertification based tracks and\n\n15\n00:00:49.691 --> 00:00:51.825\nwe also have technical\nskills based tracks.\n\n16\n00:00:51.825 --> 00:00:53.600\nThings that we need people to know or\n\n17\n00:00:53.600 --> 00:00:56.332\npeople might want to know as\na technical type of skill.\n\n18\n00:00:56.332 --> 00:00:58.754\nWhich one of those tracks\nwould these series fall under?\n\n19\n00:00:58.754 --> 00:01:00.973\n&gt;&gt; This series is definitely\na technical skill, right?\n\n20\n00:01:00.973 --> 00:01:03.119\nThe assumption is you know\na little bit of Python.\n\n21\n00:01:03.119 --> 00:01:04.601\nYou really wanna up your game.\n\n22\n00:01:04.601 --> 00:01:07.511\nIt's not that I'm gonna test you\nat the end or someone else is.\n\n23\n00:01:07.511 --> 00:01:11.780\nBut you really want to understand\nthe inner workings of Python.\n\n24\n00:01:11.780 --> 00:01:14.641\nAnd that's what we're\ngonna do in this course.\n\n25\n00:01:14.641 --> 00:01:15.226\nAnd, Justin,\n\n26\n00:01:15.226 --> 00:01:18.112\nalso it seems like you're assuming some\nknowledge when it comes to Python.\n\n27\n00:01:18.112 --> 00:01:21.666\nWhat should the skill level be for\nthe person that is watching this series?\n\n28\n00:01:21.666 --> 00:01:23.941\n&gt;&gt; I recommend that you've been\nprogramming in Python for a little bit.\n\n29\n00:01:23.941 --> 00:01:27.754\nThis is probably a more intermediate to\nintermediate advanced type thing, right?\n\n30\n00:01:27.754 --> 00:01:33.187\nYou can get away without knowing any of\nthis in the series for a while in Python.\n\n31\n00:01:33.187 --> 00:01:36.502\nBut you should know what a Python\nclass is, how to create a class,\n\n32\n00:01:36.502 --> 00:01:38.987\na general idea of object\noriented programming.\n\n33\n00:01:38.987 --> 00:01:43.425\nAs well as, you have spawned Python\nfunctions, you've written Python scripts.\n\n34\n00:01:43.425 --> 00:01:47.128\nSo I recommend,\nif you're brand-new to Python,\n\n35\n00:01:47.128 --> 00:01:50.495\nmaybe here is not\nthe greatest place to start.\n\n36\n00:01:50.495 --> 00:01:53.897\n&gt;&gt; All right, well, Justin it looks like\nyou've got a lot of stuff on deck for\n\n37\n00:01:53.897 --> 00:01:55.629\nus in this series and it sounds great.\n\n38\n00:01:55.629 --> 00:01:59.079\nAnd if it sounds great to you we look\nforward to seeing you in those upcoming\n\n39\n00:01:59.079 --> 00:01:59.645\nepisodes.\n\n40\n00:01:59.645 --> 00:02:04.253\n[MUSIC]\n\n",
+          "url": "overview-pythondatamodel",
+          "vimeoId": "254858924"
+        },
+        {
+          "description": "In this episode, Justin and Mike start exploring the Python protocols for creating and initializing object instances. Justin explores the differences between the \\_\\_new\\_\\_ and \\_\\_init\\_\\_ methods as well as when to consider using those methods.",
+          "length": "1466",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-1-1-creating_and_initializing_an_instance-011618-PGM.00_24_30_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-1-1-creating_and_initializing_an_instance-011618-PGM.00_24_30_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-1-1-creating_and_initializing_an_instance-011618-PGM.00_24_30_05.Still001-sm.jpg",
+          "title": "Creating and Initializing an Instance",
+          "transcript": "",
+          "url": "creatinginitializinginstance",
+          "vimeoId": "251550412"
+        },
+        {
+          "description": "In this episode, Justin and Mike start exploring how you can represent an object for an output operation. Moreover, Justin discusses the nuanced differences between the \\_\\_str\\_\\_ and \\_\\_repr\\_\\_ methods as part of the Python data model protocol.",
+          "length": "1217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-2-1-representing_an_instance_str_and_repr-011618-PGM.00_20_59_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-2-1-representing_an_instance_str_and_repr-011618-PGM.00_20_59_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-2-1-representing_an_instance_str_and_repr-011618-PGM.00_20_59_14.Still001-sm.jpg",
+          "title": "Representing an Instance: str and repr",
+          "transcript": "",
+          "url": "representinginstance-strrepr",
+          "vimeoId": "251550166"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue the exploration of output representations. Justin demonstrates the usage of the \\_\\_format\\_\\_ method in order to provide custom string template formatting for users.",
+          "length": "1451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-3-1-representing_an_instance_format-011618-PGM.00_24_01_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-3-1-representing_an_instance_format-011618-PGM.00_24_01_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-3-1-representing_an_instance_format-011618-PGM.00_24_01_24.Still001-sm.jpg",
+          "title": "Representing an Instance: format",
+          "transcript": "",
+          "url": "representinginstance-format",
+          "vimeoId": "251549952"
+        },
+        {
+          "description": "In this episode, Justin and ______ explore one final representation method that can be implemented in Python. Specifically, Justin demonstrates both a simple way to create a bytes object from a class as well as other processes that can be used when writing a custom \\_\\_bytes\\_\\_ method.",
+          "length": "985",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-4-1-representing_an_instance_bytes-011718-PGM.00_20_06_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-4-1-representing_an_instance_bytes-011718-PGM.00_20_06_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-4-1-representing_an_instance_bytes-011718-PGM.00_20_06_17.Still001-sm.jpg",
+          "title": "Representing an Instance: bytes",
+          "transcript": "",
+          "url": "representinginstance-bytes",
+          "vimeoId": "251683380"
+        },
+        {
+          "description": "In this episode, Justin and ______ explore creating code when an object instance is deleted using the \\_\\_del\\_\\_ method. Moreover, Justin discusses some of the pain points that can arise when relying on the \\_\\_del\\_\\_ method within Python.",
+          "length": "1267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-5-1-deleting_an_instance-011718.00_20_59_21.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-5-1-deleting_an_instance-011718.00_20_59_21.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-1-5-1-deleting_an_instance-011718.00_20_59_21.Still002-sm.jpg",
+          "title": "Deleting an Instance",
+          "transcript": "",
+          "url": "deletinginstance",
+          "vimeoId": "251683181"
+        }
+      ],
+      "title": "Basics"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and ______ explore how a custom class can work with iteration. Justin discusses the implementation of \\_\\_iter\\_\\_ and \\_\\_next\\_\\_ methods in order to create a custom iterable.",
+          "length": "1500",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-1-1-objects_as_iterables-011718.00_24_53_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-1-1-objects_as_iterables-011718.00_24_53_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-1-1-objects_as_iterables-011718.00_24_53_08.Still001-sm.jpg",
+          "title": "Objects as Iterables",
+          "transcript": "",
+          "url": "objectsiterables",
+          "vimeoId": "251682982"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore how you can replicate dictionary-like behavior when creating a class. Justin explores the implementation of the \\_\\_getitem\\_\\_ method in order to bring access of values by keys just like a dictionary.",
+          "length": "1016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-2-1-getting_items-012218-PGM.00_18_57_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-2-1-getting_items-012218-PGM.00_18_57_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-2-1-getting_items-012218-PGM.00_18_57_12.Still001-sm.jpg",
+          "title": "Getting Items",
+          "transcript": "",
+          "url": "getting-items",
+          "vimeoId": "252217273"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore further adding dictionary-like behavior by providing the ability to set and delete values from an object. Justin highlights the details necessary in order to use \\_\\_setitem\\_\\_ and \\_\\_delitem\\_\\_ to further add dictionary-like behavior.",
+          "length": "1448",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-3-1-setting_and_deleting_items-012218-PGM.00_23_58_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-3-1-setting_and_deleting_items-012218-PGM.00_23_58_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-2-3-1-setting_and_deleting_items-012218-PGM.00_23_58_21.Still001-sm.jpg",
+          "title": "Setting and Deleting Items",
+          "transcript": "",
+          "url": "settingdeleting-items",
+          "vimeoId": "252216855"
+        }
+      ],
+      "title": "Containers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Zach take a look at the ability to coerce a custom object to True or False based on the \\_\\_bool\\_\\_ methods.",
+          "length": "1371",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-1-1-obtaining_the_boolean_representation-012218-PGM.00_00_12_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-1-1-obtaining_the_boolean_representation-012218-PGM.00_00_12_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-1-1-obtaining_the_boolean_representation-012218-PGM.00_00_12_19.Still001-sm.jpg",
+          "title": "Obtaining the Boolean Representation",
+          "transcript": "",
+          "url": "obtainingboolean-representation",
+          "vimeoId": "252216528"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore creating a custom comparable that will allow the equal and not equal comparisons on custom objects.",
+          "length": "1579",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-2-1-equality_and_inequality-012318-PGM.00_28_49_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-2-1-equality_and_inequality-012318-PGM.00_28_49_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-2-1-equality_and_inequality-012318-PGM.00_28_49_13.Still001-sm.jpg",
+          "title": "Equality and Inequality",
+          "transcript": "",
+          "url": "equalityinequality",
+          "vimeoId": "252569174"
+        },
+        {
+          "description": "In this episode, Justin and Zach, further expand on the ability of custom objects to be less than, less than or equal to, greater than, and greater than or equal to using the \\_\\_lt\\_\\_, \\_\\_le\\_\\_, \\_\\_gt\\_\\_, and \\_\\_ge\\_\\_ methods.",
+          "length": "1364",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-3-1-greater_and_less-012318-PGM.00_25_24_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-3-1-greater_and_less-012318-PGM.00_25_24_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-3-1-greater_and_less-012318-PGM.00_25_24_12.Still001-sm.jpg",
+          "title": "Greater and Less",
+          "transcript": "",
+          "url": "pythondata",
+          "vimeoId": "252568473"
+        },
+        {
+          "description": "In this episode, Justin and Daniel explore using custom objects in sets and dictionaries and the effects of overriding the \\_\\_hash\\_\\_ method when using custom objects in sets and dictionaries. Additionally, Justin discusses how to handle some of the 'gotchas' using \\_\\_slots\\_\\_ for the object.",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-hashing_and_slots-020618-PGM.00_30_34_14.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-hashing_and_slots-020618-PGM.00_30_34_14.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-hashing_and_slots-020618-PGM.00_30_34_14.Still002-sm.jpg",
+          "title": "Hashing and Slots",
+          "transcript": "",
+          "url": "hashingslots",
+          "vimeoId": "254726643"
+        }
+      ],
+      "title": "Comparables"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Zach make use to the \\_\\_add\\_\\_ and \\_\\_radd\\_\\_ methods to provide custom objects to be used with the \"+\" operator.",
+          "length": "1590",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-adding-012318-PGM.00_27_23_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-adding-012318-PGM.00_27_23_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-3-4-1-adding-012318-PGM.00_27_23_05.Still001-sm.jpg",
+          "title": "Adding",
+          "transcript": "",
+          "url": "adding-pythondata",
+          "vimeoId": "252570190"
+        },
+        {
+          "description": "In this episode, Justin and Zach demonstrate the \"-\" operator overriding using the \\_\\_sub\\_\\_, \\_\\_rsub\\_\\_, and \\_\\_isub\\_\\_ methods.",
+          "length": "1151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-2-1-subtracting-012418-PGM.00_20_56_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-2-1-subtracting-012418-PGM.00_20_56_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-2-1-subtracting-012418-PGM.00_20_56_09.Still001-sm.jpg",
+          "title": "Subtracting",
+          "transcript": "",
+          "url": "subtracting",
+          "vimeoId": "252906479"
+        },
+        {
+          "description": "In this episode, Justin and Zach add the ability to multiply two custom objects using the \\_\\_mul\\_\\_, \\_\\_rmul\\_\\_, and \\_\\_imul\\_\\_ methods.",
+          "length": "885",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-3-1-multiplying-012418-PGM.00_14_44_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-3-1-multiplying-012418-PGM.00_14_44_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-3-1-multiplying-012418-PGM.00_14_44_24.Still001-sm.jpg",
+          "title": "Multiplying",
+          "transcript": "",
+          "url": "multiplying",
+          "vimeoId": "252906960"
+        },
+        {
+          "description": "In this episode, Justin and Zach review some of the \"gotchas\" with division in the Python world. Moreover, Justin demonstrates how custom objects can be divided using the \\_\\_floordiv\\_\\_, \\_\\_truediv\\_\\_, and associated methods.",
+          "length": "1559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-4-1-dividing-012418-PGM.00_29_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-4-1-dividing-012418-PGM.00_29_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-4-1-dividing-012418-PGM.00_29_11_27.Still001-sm.jpg",
+          "title": "Dividing",
+          "transcript": "",
+          "url": "dividing",
+          "vimeoId": "252907222"
+        },
+        {
+          "description": "In this episode, Justin and Zach  continue building custom objects that emulate numeric types by exploring \\_\\_mod\\_\\_ and \\_\\_pow\\_\\_ to provide the ability to find the modulus as well as raise the object to a power.",
+          "length": "1647",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-5-1-modulo_and_powers-012618-PGM.00_27_19_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-5-1-modulo_and_powers-012618-PGM.00_27_19_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-5-1-modulo_and_powers-012618-PGM.00_27_19_22.Still001-sm.jpg",
+          "title": "Modulo and Powers",
+          "transcript": "",
+          "url": "modulopowers",
+          "vimeoId": "253278167"
+        },
+        {
+          "description": "In this episode, Justin and Zach dive into customizing the bit-shifting operations for a custom object using \\_\\_rshift\\_\\_, \\_\\_rrshift\\_\\_, \\_\\_lshift\\_\\_, \\_\\_rlshift\\_\\_, \\_\\_ilshift\\_\\_, and \\_\\_irshift\\_\\_.",
+          "length": "1318",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-6-1-bit_shifting_operations-013118-PGM.00_23_37_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-6-1-bit_shifting_operations-013118-PGM.00_23_37_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-6-1-bit_shifting_operations-013118-PGM.00_23_37_05.Still001-sm.jpg",
+          "title": "Bit Shifting Operations",
+          "transcript": "",
+          "url": "bit-shifting-operations",
+          "vimeoId": "253816692"
+        },
+        {
+          "description": "In this episode, Justin and Zach continue with bit operations by creating custom behavior for the bitwise or, xor, and and using the \\_\\_and\\_\\_, \\_\\_or\\_\\_, \\_\\_xor\\_\\_, \\_\\_rand\\_\\_, \\_\\_ror\\_\\_, \\_\\_rxor\\_\\_, \\_\\_iand\\_\\_, \\_\\_ior\\_\\_, and \\_\\_ixor\\_\\_.",
+          "length": "1558",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-7-1-bitwise_logical_operations-020118-PGM.00_00_12_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-7-1-bitwise_logical_operations-020118-PGM.00_00_12_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-7-1-bitwise_logical_operations-020118-PGM.00_00_12_23.Still001-sm.jpg",
+          "title": "Bitwise Logical Operations",
+          "transcript": "",
+          "url": "bitwise-logical-operations",
+          "vimeoId": "253983149"
+        },
+        {
+          "description": "In this episode, Justin and Zach start looking at the custom implementation of unary \"+\" and \"-\" operators using the \\_\\_pos\\_\\_ and \\_\\_neg\\_\\_ methods.",
+          "length": "1157",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-8-1-negative_and_positive-012618-PGM.00_19_07_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-8-1-negative_and_positive-012618-PGM.00_19_07_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-8-1-negative_and_positive-012618-PGM.00_19_07_05.Still001-sm.jpg",
+          "title": "Negative and Positive",
+          "transcript": "",
+          "url": "negativepositive",
+          "vimeoId": "253279439"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss the creation of custom objects that can have an absolute value and inverse using the methods \\_\\_abs\\_\\_ and \\_\\_invert\\_\\_.",
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-9-1-absolute_value_and_inverse-012618-PGM.00_27_30_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-9-1-absolute_value_and_inverse-012618-PGM.00_27_30_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-9-1-absolute_value_and_inverse-012618-PGM.00_27_30_23.Still001-sm.jpg",
+          "title": "Absolute Value and Inverse",
+          "transcript": "",
+          "url": "absolute-valueinverse",
+          "vimeoId": "253279974"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore converting custom objects to their float and integer representation using the methods \\_\\_int\\_\\_ and \\_\\_float\\_\\_.",
+          "length": "1176",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-10-1-integers_and_floats-012918-PGM.00_19_30_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-10-1-integers_and_floats-012918-PGM.00_19_30_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-10-1-integers_and_floats-012918-PGM.00_19_30_07.Still001-sm.jpg",
+          "title": "Integers and Floats",
+          "transcript": "",
+          "url": "integersfloats",
+          "vimeoId": "253427997"
+        },
+        {
+          "description": "In this episode, Justin and Zach demonstrate how custom objects can be rounded if they are emulating a numeric type using the \\_\\_round\\_\\_ method.",
+          "length": "949",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-11-1-rounding-012918-PGM.00_16_59_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-11-1-rounding-012918-PGM.00_16_59_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-11-1-rounding-012918-PGM.00_16_59_22.Still001-sm.jpg",
+          "title": "Rounding",
+          "transcript": "",
+          "url": "rounding",
+          "vimeoId": "253427703"
+        },
+        {
+          "description": "In this episode, Justin and Zach utilize the \\_\\_floor\\_\\_ and \\_\\_ceil\\_\\_ methods to obtain the floor and ceiling representation of a custom objects if the objects are emulating numeric types.",
+          "length": "1375",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-12-1-floor_and_ceiling.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-12-1-floor_and_ceiling-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-12-1-floor_and_ceiling-sm.jpg",
+          "title": "Floor and Ceiling",
+          "transcript": "",
+          "url": "floorceiling",
+          "vimeoId": "253428243"
+        },
+        {
+          "description": "In this episode, Justin and Daniel look into a couple of different data model methods, \\_\\_trunc\\_\\_ and \\_\\_index\\_\\_. Utilizing the \\_\\_trunc\\_\\_ method, Justin demonstrates how to truncate the representation of a numerical-like object. Moreover, Justin explores the use of an object as an index in a list.",
+          "length": "1460",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-13-1-truncation_and_indexing-013018-PGM.00_24_11_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-13-1-truncation_and_indexing-013018-PGM.00_24_11_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-13-1-truncation_and_indexing-013018-PGM.00_24_11_28.Still001-sm.jpg",
+          "title": "Truncation and Indexing",
+          "transcript": "",
+          "url": "truncationindexing",
+          "vimeoId": "253818381"
+        },
+        {
+          "description": "In this episode, Justin and Daniel continue investigating the Python data model by exploring how to represent a numeric type as a complex number utilizing the \\_\\_complex\\_\\_ method.",
+          "length": "1097",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-14-1-complex_number-013018-PGM.00_18_07_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-14-1-complex_number-013018-PGM.00_18_07_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-4-14-1-complex_number-013018-PGM.00_18_07_12.Still001-sm.jpg",
+          "title": "Complex Number",
+          "transcript": "",
+          "url": "complex",
+          "vimeoId": "254035320"
+        }
+      ],
+      "title": "Numbers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Daniel revisit the idea of looking up information contained within an object. Justin demonstrates the reading of attributes and customizing that behavior using the \\_\\_getattr\\_\\_ method.",
+          "length": "1313",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-1-1-getting_attributes-013018-PGM.00_31_57_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-1-1-getting_attributes-013018-PGM.00_31_57_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-1-1-getting_attributes-013018-PGM.00_31_57_04.Still001-sm.jpg",
+          "title": "Getting Attributes",
+          "transcript": "",
+          "url": "getting-attributes",
+          "vimeoId": "253817538"
+        },
+        {
+          "description": "In this episode, Justin and Zach hijack the setting and deleting of attributes on custom objects using \\_\\_setattr\\_\\_ and \\_\\_delattr\\_\\_.",
+          "length": "1122",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-2-1-setting_attributes-013118-PGM.00_19_14_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-2-1-setting_attributes-013118-PGM.00_19_14_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-2-1-setting_attributes-013118-PGM.00_19_14_21.Still001-sm.jpg",
+          "title": "Setting and Deleting Attributes",
+          "transcript": "",
+          "url": "settingdeleting-attributes",
+          "vimeoId": "253983817"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss the idea of descriptors briefly when considering a property that needs either to be dependent or have custom logic associated with generating the value. Justin demonstrates the use of the property decorator to define custom object properties that adhere to the \"get\", \"set\", and \"delete\" paradigm.",
+          "length": "1311",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-3-1-descriptors_property_decorators-020118-PGM.00_22_25_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-3-1-descriptors_property_decorators-020118-PGM.00_22_25_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-3-1-descriptors_property_decorators-020118-PGM.00_22_25_06.Still001-sm.jpg",
+          "title": "Descriptors: Property Decorators",
+          "transcript": "",
+          "url": "descriptors-property-decorators",
+          "vimeoId": "253983534"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss and implement a custom descriptor object. Additonally, Justin demonstrates how to use a descriptor as a property in another class.",
+          "length": "1564",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-4-1-descriptors_creating_a_custom_descriptor-020118-PGM.00_28_20_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-4-1-descriptors_creating_a_custom_descriptor-020118-PGM.00_28_20_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-5-4-1-descriptors_creating_a_custom_descriptor-020118-PGM.00_28_20_26.Still001-sm.jpg",
+          "title": "Descriptors: Creating a Custom Descriptor",
+          "transcript": "",
+          "url": "descriptors-creatingcustom-descriptor",
+          "vimeoId": "253982831"
+        }
+      ],
+      "title": "Attributes"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Daniel explore how to make a custom object behave like a function using the \\_\\_call\\_\\_ method. Justin further discusses why you would want to have an object that is callable.",
+          "length": "1220",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-6-1-1-making_an_object_callable-020518.00_24_20_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-6-1-1-making_an_object_callable-020518.00_24_20_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-6-1-1-making_an_object_callable-020518.00_24_20_04.Still001-sm.jpg",
+          "title": "Making an Object Callable",
+          "transcript": "",
+          "url": "object-callable",
+          "vimeoId": "254547397"
+        }
+      ],
+      "title": "Functions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Daniel demonstrate how you can make a custom object work with context managers using the \\_\\_enter\\_\\_ and \\_\\_exit\\_\\_ methods.",
+          "length": "1275",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/python-7-1-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/python-7-1-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/python-7-1-1-sm.jpg",
+          "title": "Clean Up with Context Managers",
+          "transcript": "",
+          "url": "cleanwith-context-managers",
+          "vimeoId": "254727612"
+        }
+      ],
+      "title": "Context Managers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Daniel explore the nuances of copying objects with special attention to the difference between copy and deepcopy. Additionally, Justin demonstrates how to override the \\_\\_copy\\_\\_ and \\_\\_deepcopy\\_\\_ to provide custom copy behavior.",
+          "length": "1415",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-1-1-copying_objects-020718-PGM.00_27_18_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-1-1-copying_objects-020718-PGM.00_27_18_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-1-1-copying_objects-020718-PGM.00_27_18_27.Still001-sm.jpg",
+          "title": "Copying Objects",
+          "transcript": "",
+          "url": "copying-objects",
+          "vimeoId": "254858574"
+        },
+        {
+          "description": "In this episode, Justin and Daniel discuss and demonstrate customizing the behavior of the pickle module when pickling and unpickling an object using the \\_\\_getstate\\_\\_ and \\_\\_setstate\\_\\_ methods.",
+          "length": "1444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-2-1-pickling_get_and_set_state-020718-PGM.00_23_56_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-2-1-pickling_get_and_set_state-020718-PGM.00_23_56_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythondatamodel/techskills-pythondatamodel-8-2-1-pickling_get_and_set_state-020718-PGM.00_23_56_07.Still001-sm.jpg",
+          "title": "Pickling: Get and Set State",
+          "transcript": "",
+          "url": "picklingand-set",
+          "vimeoId": "254857844"
+        }
+      ],
+      "title": "Serialization"
+    }
+  ],
+  "url": "python-data-model",
+  "vLab": false
+}

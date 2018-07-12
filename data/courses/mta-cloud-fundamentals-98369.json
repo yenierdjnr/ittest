@@ -1,0 +1,291 @@
+{
+  "description": "The Microsoft Technology Associate (MTA) Cloud Fundamentals course is for anyone looking to learn foundational cloud computing knowledge as well as basic skills inside of Office 365 and Microsoft Intune. This is a great course for someone wanting to learn basic Office 365, Exchange Online, SharePoint Online and Skype for Business tasks. Content wise, one will hear about the different technologies one would use when it comes to utilizing the cloud, securing the data in the cloud, and even connect different services to things like the Office 365 interface as well as focus on the knowledge required for the 98-369: MTA Cloud Fundamental Exam. To gain an MTA certification, you must pass only one MTA exam.",
+  "descriptionMD": "",
+  "length": "37499",
+  "name": "MTA - Cloud Fundamentals - 98-369",
+  "practiceExam": false,
+  "subtitle": "Cloud Fundamentals",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this segment, Daniel and Wes give a general overview of what you can expect in the upcoming episodes. They cover what the show's about, the target audience, what will be covered overall, and other topics.",
+          "length": "295",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-0-0-overview-010416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-0-0-overview-010416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-0-0-overview-010416-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.122 --> 00:00:07.400\n[MUSIC]\n\n2\n00:00:07.400 --> 00:00:11.820\nIn this segment we're gonna be discussing\nwhat you can expect when it comes to this\n\n3\n00:00:11.820 --> 00:00:16.370\nnew series we're coming out with, which is\nthe MTA Cloud Fundamental series coming\n\n4\n00:00:16.370 --> 00:00:20.530\nfrom ITProTV and Microsoft,\nwho provides the actual content for this.\n\n5\n00:00:20.530 --> 00:00:22.610\nAnd joining me along here is Mr.\nWes Bryan.\n\n6\n00:00:22.610 --> 00:00:25.870\nWes, we got you here cuz you're\ngonna help us figure out what,\n\n7\n00:00:25.870 --> 00:00:28.060\nlet me just start with,\nwhat is this show about?\n\n8\n00:00:28.060 --> 00:00:29.320\nWhat can we expect from this show?\n\n9\n00:00:29.320 --> 00:00:31.840\n>> Well, one of the things that you're\ngonna see that is gonna be prevalent\n\n10\n00:00:31.840 --> 00:00:36.210\nthroughout this entire series is\ndemonstrating the fundamental knowledge,\n\n11\n00:00:36.210 --> 00:00:40.510\nthe basic principles that you\nsee in the Microsoft Cloud.\n\n12\n00:00:40.510 --> 00:00:42.020\nUsing basic skills.\n\n13\n00:00:42.020 --> 00:00:46.230\nThat's one of the things that's gonna\ncome up throughout the entire series.\n\n14\n00:00:46.230 --> 00:00:50.150\nIf you haven't seen or\nheard anything about the Cloud,\n\n15\n00:00:50.150 --> 00:00:52.720\nit's kind of hard in today's day\nnot to hear about the Cloud, but\n\n16\n00:00:52.720 --> 00:00:55.640\nmaybe some of these topics\nare a little bit confusing.\n\n17\n00:00:55.640 --> 00:00:58.280\nYou're going to see some of the\nfundamentals and some of the basic stuff\n\n18\n00:00:58.280 --> 00:01:03.750\nthat you need to be familiar with in order\nto get into Microsoft Cloud technologies.\n\n19\n00:01:03.750 --> 00:01:04.340\n>> Awesome.\n\n20\n00:01:04.340 --> 00:01:07.810\nNow Wes, what can we expect\nfrom the upcoming after this.\n\n21\n00:01:07.810 --> 00:01:11.380\nWhat can we expect content\nwise to see in those?\n\n22\n00:01:11.380 --> 00:01:14.250\n>> Well we're gonna be talking about\nthings like the service models\n\n23\n00:01:14.250 --> 00:01:14.980\nthat you can see.\n\n24\n00:01:14.980 --> 00:01:15.670\nYou know,\n\n25\n00:01:15.670 --> 00:01:20.470\nwhat are the different technologies that\nwe use when we talk about the cloud?\n\n26\n00:01:20.470 --> 00:01:23.180\nWhat does it even mean when\nwe talk about the cloud?\n\n27\n00:01:23.180 --> 00:01:25.420\nWe're gonna talk about\nthings like security.\n\n28\n00:01:25.420 --> 00:01:29.190\nSecuring that data when it's\nnot stored in our location, so\n\n29\n00:01:29.190 --> 00:01:31.560\nwe'll talk about things like security.\n\n30\n00:01:31.560 --> 00:01:34.550\nWe'll even look at how to\nconnect different services,\n\n31\n00:01:34.550 --> 00:01:38.260\nthe things like the Office 365 interface.\n\n32\n00:01:38.260 --> 00:01:40.480\nLook at the interface,\nsee what the interface is about,\n\n33\n00:01:40.480 --> 00:01:43.720\nsee how to use it, as well as\nthings like Microsoft InTune, and\n\n34\n00:01:43.720 --> 00:01:47.260\nwalk through some of the Microsoft InTune\ntechnologies likewise.\n\n35\n00:01:47.260 --> 00:01:47.970\n>> Awesome.\n\n36\n00:01:47.970 --> 00:01:52.340\nA really good question would be next\nis who is our intended audience?\n\n37\n00:01:52.340 --> 00:01:55.390\nWho will benefit from this series?\n\n38\n00:01:55.390 --> 00:02:00.970\n>> Well, if you are somebody that's\nlooking demonstrate to maybe an employer\n\n39\n00:02:00.970 --> 00:02:06.120\nor maybe a prospective employer that\nyou have that fundamental knowledge,\n\n40\n00:02:06.120 --> 00:02:10.470\nthat basic entry level skill,\nthat if somebody was to ask you a question\n\n41\n00:02:10.470 --> 00:02:14.700\nabout the Microsoft Cloud platform,\nyou'd be able to answer them.\n\n42\n00:02:14.700 --> 00:02:17.080\nYou'd be able to give\na conversation to them.\n\n43\n00:02:17.080 --> 00:02:21.900\nSo you're going to see that this is\nreally geared to people who already have\n\n44\n00:02:21.900 --> 00:02:23.820\nsome basic hands-on experience.\n\n45\n00:02:23.820 --> 00:02:26.040\nMaybe you've seen Office365 before.\n\n46\n00:02:26.040 --> 00:02:29.270\nHave you worked with firewalls,\nhave you worked with InTune?\n\n47\n00:02:29.270 --> 00:02:29.810\nMaybe not.\n\n48\n00:02:29.810 --> 00:02:31.090\nIt's not a requirement.\n\n49\n00:02:31.090 --> 00:02:34.600\nBut if you've got some introductory\nknowledge to Microsoft InTune that's\n\n50\n00:02:34.600 --> 00:02:36.470\na very good thing to have.\n\n51\n00:02:36.470 --> 00:02:40.750\nDo you have experience in things\nlike networking topologies,\n\n52\n00:02:40.750 --> 00:02:43.500\ndifferent devices in network ports.\n\n53\n00:02:43.500 --> 00:02:47.850\nIf you have some of those basic level\nskills then this is gonna be right up your\n\n54\n00:02:47.850 --> 00:02:51.640\nalley in moving,\nin stepping into the cloud technology.\n\n55\n00:02:51.640 --> 00:02:53.760\n>> Awesome.\nNow will the people watching need to have\n\n56\n00:02:53.760 --> 00:02:58.610\nany kind of prerequisite background\nknowledge, some already built\n\n57\n00:02:58.610 --> 00:03:02.165\nunderstanding about cloud technologies,\nor are we starting from the ground up?\n\n58\n00:03:02.165 --> 00:03:05.195\n>> Well as far as the cloud technologies\ngo, you really don't have to\n\n59\n00:03:05.195 --> 00:03:09.435\nhave too many of even the fundamentals,\nand we're gonna go over the basics.\n\n60\n00:03:09.435 --> 00:03:12.255\nBut there are some things that are almost\ngonna be assumed knowledge, so\n\n61\n00:03:12.255 --> 00:03:13.970\njust understand that.\n\n62\n00:03:13.970 --> 00:03:16.928\nWe start mentioning firewalls, you're\ngoing to have to know what a firewall is.\n\n63\n00:03:16.928 --> 00:03:18.070\nIf we mention a network port,\n\n64\n00:03:18.070 --> 00:03:20.910\nare you going to have to have all\nof those network ports memorized?\n\n65\n00:03:20.910 --> 00:03:24.140\nNo, but you will have to know\nwhat a communication port is.\n\n66\n00:03:24.140 --> 00:03:28.810\nYou will have to know what things like\nbring your own device scenarios mean.\n\n67\n00:03:28.810 --> 00:03:32.910\nThings like on site,\nthings like off site, or on premise.\n\n68\n00:03:32.910 --> 00:03:37.810\nAt least understanding some\nof the terminology here, but\n\n69\n00:03:37.810 --> 00:03:42.870\nmostly for the cloud portion of this,\nyou won't really have to know too much.\n\n70\n00:03:42.870 --> 00:03:45.400\n>> Now, Wes,\na lot of the series that we tape here, and\n\n71\n00:03:45.400 --> 00:03:50.810\nwe share with you good people out there,\nat IT Pro TV, they're exam based, right?\n\n72\n00:03:50.810 --> 00:03:52.830\nThey are driven towards\nsome sort of certification.\n\n73\n00:03:52.830 --> 00:03:55.920\nIs this an example of that type of series?\n\n74\n00:03:55.920 --> 00:03:56.450\n>> That's right,\n\n75\n00:03:56.450 --> 00:04:00.640\nthis is another one that falls under\nthe umbrella offering at Microsoft.\n\n76\n00:04:00.640 --> 00:04:02.300\nMicrosoft Technology Associate.\n\n77\n00:04:02.300 --> 00:04:04.070\nAnd they've got a handful\nof them out there, and\n\n78\n00:04:04.070 --> 00:04:08.550\nthis another one of the portions\nof that handful, if you will.\n\n79\n00:04:08.550 --> 00:04:14.930\nThis is the 98369 MTA Cloud Fundamental\nExam that you'll be taking,\n\n80\n00:04:14.930 --> 00:04:17.910\nand that's what we're going to go\nthrough as we go through this.\n\n81\n00:04:17.910 --> 00:04:21.960\nWe're going to be lining this up with the\nskills measure that you'll see required to\n\n82\n00:04:21.960 --> 00:04:26.340\npass that exam, and\nit is going to be exam oriented.\n\n83\n00:04:26.340 --> 00:04:27.640\n>> Awesome.\nWell it sounds like\n\n84\n00:04:27.640 --> 00:04:30.830\nthere's a lot of information that's going\nto be covered in these upcoming episodes.\n\n85\n00:04:30.830 --> 00:04:31.710\nIt sounds really exciting.\n\n86\n00:04:31.710 --> 00:04:34.130\nI'm actually happy to be\na part of this stuff.\n\n87\n00:04:34.130 --> 00:04:36.570\nI really enjoy Cloud,\nI know you do as well.\n\n88\n00:04:36.570 --> 00:04:37.920\nHopefully if you're watching this,\n\n89\n00:04:37.920 --> 00:04:40.500\nthis sounds like something\nthat maybe tickles your fancy.\n\n90\n00:04:40.500 --> 00:04:44.010\nOr maybe it's something that you need\nto know as a requirement for your job.\n\n91\n00:04:44.010 --> 00:04:47.516\nSo we look forward to you joining\nus in these upcoming episodes, and\n\n92\n00:04:47.516 --> 00:04:48.631\nwe'll see you then.\n\n93\n00:04:48.631 --> 00:04:54.889\n[MUSIC]\n\n",
+          "url": "overview70709",
+          "vimeoId": "151781692"
+        },
+        {
+          "description": "In this episode, Wes and Daniel go over some of the basic principals and concepts with regards to Cloud Services. They start by defining traditional, on-premise service models and then contrast those from their cloud-based counterparts. They also touch upon the financial aspect of both on-premise and cloud-based environments, specifically explaining CapEx and OpEx models.",
+          "length": "1599",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-1-cloud_principles_and_delivery-010416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-1-cloud_principles_and_delivery-010416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-1-cloud_principles_and_delivery-010416-1-sm.jpg",
+          "title": "Cloud Principles and Delivery",
+          "transcript": "",
+          "url": "cloud-principles-delivery",
+          "vimeoId": "151781702"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue explaining some basic principals and concepts of cloud services, here providing specific details for Infrastructure as a Service(IaaS), Platform as a Service(PaaS), and Software as a Service(SaaS). They describe what encompasses each service type and the when/where/why you might take advantage of them. They also talk a bit about a hybrid environment where you blend cloud-based and on-premise services.",
+          "length": "1951",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-2-cloud_principles_and_delivery_pt2-010416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-2-cloud_principles_and_delivery_pt2-010416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-1-2-cloud_principles_and_delivery_pt2-010416-1-sm.jpg",
+          "title": "Cloud Principles and Delivery Part 2",
+          "transcript": "",
+          "url": "cloud-principles-delivery-2",
+          "vimeoId": "151781733"
+        },
+        {
+          "description": "In this episode, Wes and Daniel tackle some of the privacy policies that are in effect when using Microsoft as a cloud service provider. Some of those policies include concepts like data ownership, data custodial responsibilities, and customer privacy measures, which is accomplished through customer controls and configuration, hardware/software design elements that prevent \"fence hopping\" through shared storage or resources, and extensive security auditing. They also explain compliance standards like HIPPA for cloud services.",
+          "length": "2039",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-1-cloud_security_policies-010516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-1-cloud_security_policies-010516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-1-cloud_security_policies-010516-1-sm.jpg",
+          "title": "Cloud Security",
+          "transcript": "",
+          "url": "cloud-security-policies",
+          "vimeoId": "151821130"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue looking at cloud security requirements and policies. They start by explaining what level of trust you can have with Microsoft as your cloud service provider; maintaining the integrity of your data when in the hands of a third party and transparency of operations with said party. They also describe some of the security tactics used to protect your data when it is either sitting at rest on a server or traveling across the internet.",
+          "length": "2230",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-2-cloud_security_policies-010516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-2-cloud_security_policies-010516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-2-2-cloud_security_policies-010516-1-sm.jpg",
+          "title": "Cloud Security Part 2",
+          "transcript": "",
+          "url": "cloud-security-2",
+          "vimeoId": "151813189"
+        },
+        {
+          "description": "In this episode, Wes and Daniel go over the benefits of using cloud services. Topics covered include, Scalability, or the ability to grow or shrink the scale of the service when necessary, Redundancy which increases fault tolerance, and Availability of services and data. They also explain the difference between what is meant by customizable vs. configurable.",
+          "length": "2054",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-3-using_cloud_services-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-3-using_cloud_services-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-3-using_cloud_services-010616-1-sm.jpg",
+          "title": "Using Cloud Services",
+          "transcript": "",
+          "url": "using-cloud-services",
+          "vimeoId": "151821116"
+        },
+        {
+          "description": "In this episode, Wes and Daniel cover updates and availability to your data and cloud services. They go through each of the cloud service types(IaaS/PaaS/SaaS) and explain what the customer and the provider is responsible for with regards to updates and availability. They also show you how to use the provided heath monitoring system to spot and prepare for provider issues.",
+          "length": "1906",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-4-cloud_updates_and_availablitiy-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-4-cloud_updates_and_availablitiy-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-1-4-cloud_updates_and_availablitiy-010616-1-sm.jpg",
+          "title": "Cloud Updates and Availability",
+          "transcript": "",
+          "url": "cloud-updates-availability",
+          "vimeoId": "151821051"
+        }
+      ],
+      "title": "Understand the cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Daniel go over requirements and dependencies for using cloud services, specifically Office365 and InTune. They start by looking at things like planning the network, opening firewalls, client requirements, and bandwidth needs. Next they look at the service plans available and the costs involved.",
+          "length": "1838",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-1-enable_cloud_services-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-1-enable_cloud_services-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-1-enable_cloud_services-010716-1-sm.jpg",
+          "title": "Enable Cloud Services",
+          "transcript": "",
+          "url": "enable-cloud-services",
+          "vimeoId": "151781747"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue explaining the steps to enable the Office365 cloud services. Here they move forward by looking at pricing plans for the Enterprise level services, looking over things like cost and features for each of the E-level plans. Then they move on to actually creating a demo account to test for your environment. This includes setting up an administrator account and connecting a custom domain.",
+          "length": "1114",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-2-enable_cloud_services_pt2-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-2-enable_cloud_services_pt2-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-2-enable_cloud_services_pt2-010716-1-sm.jpg",
+          "title": "Enable Cloud Services Part 2",
+          "transcript": "",
+          "url": "enable-cloud-services-2",
+          "vimeoId": "151781767"
+        },
+        {
+          "description": "In this episode, Daniel and Wes continue taking you through the necessary steps to enable cloud services, here specifically they show you how to sign-up for Office365. First they show you how to create a \"tenant\" account and setup your first administrator. Next they explain and demonstrate registering and verifying your domain. Finally, they help you understand the process of configuring DNS for connecting your domain to Office365.",
+          "length": "1540",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-3-enable_cloud_services_pt3-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-3-enable_cloud_services_pt3-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-1-3-enable_cloud_services_pt3-010716-1-sm.jpg",
+          "title": "Enable Cloud Services Part 3",
+          "transcript": "",
+          "url": "enable-cloud-services-3",
+          "vimeoId": "151781802"
+        },
+        {
+          "description": "In this episode, Wes and Daniel finish up the topic of enabling cloud services by walking you through the setup for Microsoft Intune integration with Office365. They show you how much of the legwork is already done by having already setup Office365 and touch upon the steps necessary to integrate Intune and setup an Intune administrator.",
+          "length": "742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-2-enable_cloud_services-010816-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-2-enable_cloud_services-010816-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-2-2-enable_cloud_services-010816-2-sm.jpg",
+          "title": "Enable Cloud Services Part 4",
+          "transcript": "",
+          "url": "enable-cloud-services4",
+          "vimeoId": "151781860"
+        }
+      ],
+      "title": "Enable Microsoft cloud services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Daniel explore administrating Office365 and InTune. They start by looking at tasks like creating users, groups, and assigning services and licenses. They explain the differences between the different cloud identities, specifically Online identities, Synchronized identities, and Federated identities. They also cover assigning permissions and managing password policies.",
+          "length": "2016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-1-administering_cloud_services-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-1-administering_cloud_services-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-1-administering_cloud_services-010816-1-sm.jpg",
+          "title": "Administering Cloud Services",
+          "transcript": "",
+          "url": "administering-cloud-services",
+          "vimeoId": "151813137"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue looking at Office365 and InTune administration tasks. They pick up here by exploring the Service Health dash-board monitoring service. From here you can see what Microsoft is working on in their cloud environment which allows you to prepare for possible connectivity loss. They also show you how to log service support tickets to help resolve issues.",
+          "length": "822",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-2-administering_cloud_services_pt2-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-2-administering_cloud_services_pt2-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-3-1-2-administering_cloud_services_pt2-010816-1-sm.jpg",
+          "title": "Administering Cloud Services Part 2",
+          "transcript": "",
+          "url": "administering-cloud-services2",
+          "vimeoId": "151813152"
+        }
+      ],
+      "title": "Administer Office 365 and Microsoft Intune"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Daniel look at configuring Microsoft's cloud email service, Exchange Online. They start with managing recipient resources like mailboxes, shared mailboxes, contacts, and email groups. Then they look at configuring Sharepoint Online; looking at external sharing, enabling RSS, and setting storage limits.",
+          "length": "1784",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-1-configure_cloud_services-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-1-configure_cloud_services-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-1-configure_cloud_services-010816-1-sm.jpg",
+          "title": "Configure Cloud Services",
+          "transcript": "",
+          "url": "configure-cloud-services",
+          "vimeoId": "151813163"
+        },
+        {
+          "description": "In this episode, Wes and Daniel continue cloud service configuration by taking a look at Skype for Business. They walk you through setting up user options, external communication settings, and setting dial-in settings for meetings. Then they jump into Microsoft InTune configuration. They show you how to work with the administration console, install the InTune Agent on clients, as well as create and deploy a configuration policy. They also show you setting up InTune for mobile devices.",
+          "length": "1669",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-2-configure_cloud_services_pt2-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-2-configure_cloud_services_pt2-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-4-1-2-configure_cloud_services_pt2-010816-1-sm.jpg",
+          "title": "Configure Cloud Services Part 2",
+          "transcript": "",
+          "url": "configure-cloud-services-2",
+          "vimeoId": "151813176"
+        }
+      ],
+      "title": "Use and configure Microsoft cloud services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike look at some common issues dealing with users connecting to cloud services. They demonstrate how to use tools like ipconfig, ping, and nslookup to troubleshoot connectivity. They also talk about the importance of troubleshooting the physical side, like network adapters and networking media as well.",
+          "length": "1957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-1-support_cloud_users-011116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-1-support_cloud_users-011116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-1-support_cloud_users-011116-1-sm.jpg",
+          "title": "Support Cloud Users",
+          "transcript": "",
+          "url": "support-cloud-users",
+          "vimeoId": "152158303"
+        },
+        {
+          "description": "In this episode, Wes and Mike Windows continue to look at supporting cloud users. They focus their troubleshooting on firewall issues, looking at both the Windows Firewall console and the Windows Firewall with Advanced Security. They demonstrate using Telnet to test connectivity based on port number. they also look at browser and proxy settings.",
+          "length": "1477",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-2-support_cloud_users_pt2-011116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-2-support_cloud_users_pt2-011116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-2-support_cloud_users_pt2-011116-1-sm.jpg",
+          "title": "Support Cloud Users Part 2",
+          "transcript": "",
+          "url": "support-cloud-users-2",
+          "vimeoId": "152158301"
+        },
+        {
+          "description": "In this episode, Wes and Mike finish up their conversation on supporting cloud users. They look at issues dealing with activation and licensing, and platform support for both desktops and mobile devices. They also demonstrate doing a repair on an Office installation.",
+          "length": "1538",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-3-support_cloud_users_pt3-011116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-3-support_cloud_users_pt3-011116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-1-3-support_cloud_users_pt3-011116-1-sm.jpg",
+          "title": "Support Cloud Users Part 3",
+          "transcript": "",
+          "url": "support-cloud-users3",
+          "vimeoId": "152158302"
+        },
+        {
+          "description": "In this episode, Wes and Mike take a look at some of the techniques and tools we can use to troubleshoot connecting to Exchange Online. They talk about the importance of making sure the latest updates are applied. Then they demonstrate two tools to aid in this.",
+          "length": "2018",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-1-support_exchange_online-011216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-1-support_exchange_online-011216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-1-support_exchange_online-011216-1-sm.jpg",
+          "title": "Support Exchange Online",
+          "transcript": "",
+          "url": "support-exchange-online",
+          "vimeoId": "151821062"
+        },
+        {
+          "description": "In this episode Wes and Mike continue troubleshooting connecting to Exchange Online. This time they explore issues with delegating mailbox access, looking at the different permissions available. They also demonstrate using PowerShell to connect and troubleshoot connecting to Exchange Online.",
+          "length": "1511",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-2-support_exchange_online-011216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-2-support_exchange_online-011216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-2-2-support_exchange_online-011216-1-sm.jpg",
+          "title": "Support Exchange Online Part 2",
+          "transcript": "",
+          "url": "support-exchange-online-2",
+          "vimeoId": "151821072"
+        },
+        {
+          "description": "In this episode, Wes and Mike troubleshoot connectivity to SharePoint Online. They start by identifying the storage limits of SharePoint Online. Then they troubleshoot using the Open in Explorer option. They finish by troubleshooting synchronization issues with OneDrive.",
+          "length": "1756",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-3-support_sharepoint_online-011316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-3-support_sharepoint_online-011316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-3-support_sharepoint_online-011316-1-sm.jpg",
+          "title": "Support SharePoint Online",
+          "transcript": "",
+          "url": "support-sharepoint-online",
+          "vimeoId": "151821084"
+        },
+        {
+          "description": "In this episode, Wes and Mike troubleshoot Skype for Business. They look at Skype for Business client issues and authentication issues. They also talk about network issues as well as issues related to services.",
+          "length": "1284",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-4-support_skype_for_business-011316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-4-support_skype_for_business-011316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-4-support_skype_for_business-011316-1-sm.jpg",
+          "title": "Support Skype for Business",
+          "transcript": "",
+          "url": "support-skype-business",
+          "vimeoId": "151821090"
+        },
+        {
+          "description": "In this episode, Wes and Mike take another look at many of the tools available for troubleshooting connectivity to cloud-based services, like Office 365. They start by using basic network connectivity troubleshooting tools, like nslookup and ipconfig and tracert. They also cover the equivalent PowerShell commandlets. Then they look at the tools provided by Office 365.",
+          "length": "2359",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-5-tools_for_troubleshooting-011316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-5-tools_for_troubleshooting-011316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98369/mta-cloud-fundamentals-6-5-tools_for_troubleshooting-011316-1-sm.jpg",
+          "title": "Tools for Troubleshooting",
+          "transcript": "",
+          "url": "tools-troubleshooting",
+          "vimeoId": "151821105"
+        }
+      ],
+      "title": "Support cloud users"
+    }
+  ],
+  "url": "mta-cloud-fundamentals-98369",
+  "vLab": false
+}

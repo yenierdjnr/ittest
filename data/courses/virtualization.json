@@ -1,0 +1,260 @@
+{
+  "description": "Virtualization technology is key for everyone working professionally in the IT field. Familiarity with some of the most used Virtualization tools would be valuable to the IT professional. This show reviews basic virtualization technology common to all virtualization tools. Then it takes each of the mentioned tools and dives into getting it started.",
+  "descriptionMD": "",
+  "length": "42996",
+  "name": "Virtualization Technologies",
+  "practiceExam": false,
+  "subtitle": "Fundamentals of Virtualization",
+  "tagUrl": "systems-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Virtualization technology is key for everyone working professionally in the IT field. Familiarity with some of the most used Virtualization tools would be valuable to the IT professional. This show reviews basic virtualization technology common to all virtualization tools. Then it takes each of the mentioned tools and dives into getting it started.",
+          "length": "259",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-0-0-overview-121815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-0-0-overview-121815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-0-0-overview-121815-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.346\n[MUSIC]\n\n2\n00:00:07.346 --> 00:00:08.390\nHello and welcome.\n\n3\n00:00:08.390 --> 00:00:12.120\nWe're here to introduce a new series,\nVirtualization Technologies.\n\n4\n00:00:12.120 --> 00:00:14.600\nAnd Ronnie,\nwhat can we expect to see in this?\n\n5\n00:00:14.600 --> 00:00:17.980\n>> When we start taking a look at\nvirtualization technologies, what we're\n\n6\n00:00:17.980 --> 00:00:22.040\ngonna do of course is make sure that you\nunderstand what the basics really are.\n\n7\n00:00:22.040 --> 00:00:26.218\nWe're gonna talk about some different\nterminologies that you're gonna encounter.\n\n8\n00:00:26.218 --> 00:00:29.776\nWe're gonna actually make sure that\nyou understand why we actually use\n\n9\n00:00:29.776 --> 00:00:33.450\nvirtualization, as well as take a look\nat just the basic concepts between\n\n10\n00:00:33.450 --> 00:00:37.088\nthe technologies, such as type one and\ntype two high providers as well.\n\n11\n00:00:37.088 --> 00:00:39.090\nSo, we're gonna introduce you that way.\n\n12\n00:00:39.090 --> 00:00:44.130\nAnd then, you're gonna see in this series\nthat we're going to be walking you through\n\n13\n00:00:44.130 --> 00:00:48.680\nsome of the most popular virtualization\ntechnologies you are likely to see,\n\n14\n00:00:48.680 --> 00:00:50.573\nsuch as Oracle's VirtualBox.\n\n15\n00:00:50.573 --> 00:00:54.999\nWe're gonna take you through,\nof course, Microsoft's Hyper V,\n\n16\n00:00:54.999 --> 00:00:58.882\nwe're also gonna take a look\nat VMwares Workstation 2, or\n\n17\n00:00:58.882 --> 00:01:03.795\nWorkstation 11 I should say, and\nthen of course VMwares ESX or VSphere.\n\n18\n00:01:03.795 --> 00:01:07.908\nAnd lastly we're gonna take a look at\none that is a little bit more unusual,\n\n19\n00:01:07.908 --> 00:01:12.482\nespecially if you're just starting out\nin virtualization, one called KVM Kernel\n\n20\n00:01:12.482 --> 00:01:16.590\nbased virtual machines,\nthat normally runs off of Linux as well.\n\n21\n00:01:16.590 --> 00:01:20.355\nSo we'll be taking a look at all those\ndifferent technologies for us, and\n\n22\n00:01:20.355 --> 00:01:21.701\nintroducing you to them.\n\n23\n00:01:21.701 --> 00:01:23.789\nWell see, the idea here is fairly simple,\n\n24\n00:01:23.789 --> 00:01:26.577\nwe want you to actually feel\nlike that you can install it.\n\n25\n00:01:26.577 --> 00:01:29.337\nWe want you to be able to\ncreate a virtual machine in it,\n\n26\n00:01:29.337 --> 00:01:32.250\nas well as be able to manage\nthat virtual machine.\n\n27\n00:01:32.250 --> 00:01:36.300\nBe able to do some of the basic things\nthat anybody in the IT industry\n\n28\n00:01:36.300 --> 00:01:39.490\nwould actually be able to say hey,\nI can work with that technology.\n\n29\n00:01:39.490 --> 00:01:42.810\n>> Ronnie, now speaking of maybe just\nstarting out in a virtualization\n\n30\n00:01:42.810 --> 00:01:46.090\ntechnology, is this gonna be\nsomething that's exam based,\n\n31\n00:01:46.090 --> 00:01:50.470\nmaybe targeted towards a certain exam or\ncertification?\n\n32\n00:01:50.470 --> 00:01:55.560\n>> This particular set of shows that\nwe're gonna be doing are not really gonna\n\n33\n00:01:55.560 --> 00:02:00.360\nbe exam based, but they're more towards\nhelping you develop as an IT worker.\n\n34\n00:02:00.360 --> 00:02:04.090\nThe whole goal is simple, let's just\ntake for an example as a scenario,\n\n35\n00:02:04.090 --> 00:02:06.990\nthat you're getting hired for\na company and you wanna learn more about\n\n36\n00:02:06.990 --> 00:02:11.250\nvirtualization technology, because you're\ngonna be expected to know about it.\n\n37\n00:02:11.250 --> 00:02:12.845\nWell this series is perfect for you,\n\n38\n00:02:12.845 --> 00:02:15.930\nsince you will get an introduction\nto the basic terminology.\n\n39\n00:02:15.930 --> 00:02:19.690\nYou will also end up seeing all of those\ndifferent technologies that we've just\n\n40\n00:02:19.690 --> 00:02:23.970\nmentioned here, and show you how to\nactually work in them a little bit, so\n\n41\n00:02:23.970 --> 00:02:28.660\nthat you can feel confident\nthat as you go into a job,\n\n42\n00:02:28.660 --> 00:02:32.110\nto a production network somewhere,\nthat you're not gonna be completely lost.\n\n43\n00:02:32.110 --> 00:02:35.180\nAnd you actually have seen some\nof the very technical sides\n\n44\n00:02:35.180 --> 00:02:38.080\nof the way that we install it,\nas well as get a virtual machine up and\n\n45\n00:02:38.080 --> 00:02:41.810\nrunning and even getting rid\nof virtual machines as well.\n\n46\n00:02:41.810 --> 00:02:43.920\nSo this is actually a very good and\n\n47\n00:02:43.920 --> 00:02:47.355\nvery hands on type of series\nyou're gonna eventually see.\n\n48\n00:02:47.355 --> 00:02:51.360\n>> Now, Ronnie, if somebody is getting\ninto virtualization technologies, and\n\n49\n00:02:51.360 --> 00:02:55.068\nthey're gonna be watching our series\non virtualization technologies,\n\n50\n00:02:55.068 --> 00:02:57.236\nwho is the targeted audience for this one?\n\n51\n00:02:57.236 --> 00:03:00.881\n>> The targeted audience is really\nthe person that needs to understand more\n\n52\n00:03:00.881 --> 00:03:02.144\nabout virtualization.\n\n53\n00:03:02.144 --> 00:03:06.309\nWhether you're just somebody that's saying\nhey, I want to know about virtualization,\n\n54\n00:03:06.309 --> 00:03:10.200\nor whether you're actually somebody that\nis now working on staff at some production\n\n55\n00:03:10.200 --> 00:03:13.654\nnetwork and they're telling you you're\nabout to actually get introduced\n\n56\n00:03:13.654 --> 00:03:17.910\nmore to the virtualization technologies,\nor they want you to learn more about it.\n\n57\n00:03:17.910 --> 00:03:22.630\nWell here's where you will get a bit of a\ndive into the different technologies, and\n\n58\n00:03:22.630 --> 00:03:26.490\nregardless of what shop that you're\nworking in, you'll probably see one,\n\n59\n00:03:26.490 --> 00:03:31.250\nif not more than one of these\ntechnologies that we will be diving into.\n\n60\n00:03:31.250 --> 00:03:36.530\nSo if your goal of course is to become\na better IT worker in your skills,\n\n61\n00:03:36.530 --> 00:03:40.480\nif your goal is hey, my job is going\nto require it in the near future,\n\n62\n00:03:40.480 --> 00:03:44.670\nI need to learn more about it, or\nI'm just interested in the technology,\n\n63\n00:03:44.670 --> 00:03:47.630\nit will range every where\nin that different range.\n\n64\n00:03:47.630 --> 00:03:51.620\nIt doesn't get in to the most technical\naspects of every single virtualization\n\n65\n00:03:51.620 --> 00:03:56.200\ntechnology, but a good well-rounded\napproach to how you install it,\n\n66\n00:03:56.200 --> 00:03:58.120\nhow do you actually create a VM?\n\n67\n00:03:58.120 --> 00:04:01.120\nWhere do you actually get\nthe installation files from, and\n\n68\n00:04:01.120 --> 00:04:03.510\nof course,\nhow do you get it up and running?\n\n69\n00:04:03.510 --> 00:04:06.246\nAnd we'll actually show you all\nof that in this new series.\n\n70\n00:04:06.246 --> 00:04:09.411\n>> Great, and if that sounds something\nlike you might be interested in,\n\n71\n00:04:09.411 --> 00:04:10.915\nvirtualization technologies,\n\n72\n00:04:10.915 --> 00:04:13.986\nstick around cuz we've got a lot\nof great episodes coming your way.\n\n73\n00:04:13.986 --> 00:04:19.409\n[MUSIC]\n\n",
+          "url": "overview70708",
+          "vimeoId": "150796232"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce the concepts of virtualization. They cover some of the basic terminology needed to understand virtualization. They explain important concepts such as hypervisors, VMs, and host and guest operating systems. They also talk about hardware assisted virtualization technologies, Intel VT and AMD-V.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-1-virualization_concepts-120715-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-1-virualization_concepts-120715-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-1-virualization_concepts-120715-2-sm.jpg",
+          "title": "Virtualization Concepts",
+          "transcript": "",
+          "url": "introduction-virtualization",
+          "vimeoId": "148636153"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike talk about the benefits and limitations of virtualization. They explain how virtualization provides benefits through consolidation, containment, high optimization, and migration. They go over some of the limitations of virtualization, including administration and configuration challenges, as well as consolidation ratios. They also cover how virtualization can impact security considerations and practices.",
+          "length": "1904",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-2-benefits_and_limitations-120715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-2-benefits_and_limitations-120715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-2-benefits_and_limitations-120715-1-sm.jpg",
+          "title": "Benefits and Limitations",
+          "transcript": "",
+          "url": "virtualization-benefits-limits",
+          "vimeoId": "148636162"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike discuss the different types of hypervisors available. They compare and contrast Type I and Type II hypervisors and give examples of each. They go over some hardware requirements, like 64-bit processors, virtualization extenstions, and BIOS support.",
+          "length": "2222",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-3-getting_started-120815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-3-getting_started-120815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-3-getting_started-120815-1-sm.jpg",
+          "title": "Getting Started",
+          "transcript": "",
+          "url": "popular-virtualization-technologies",
+          "vimeoId": "148636170"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike demonstrate installing VirtualBox, a Type II hypervisor. They verify system requirements and download the VirualBox installer files. Then the do a default install on Windows 10. Once installed, they create a basic virtual machine.",
+          "length": "2156",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-4-installing_virtualbox-120815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-4-installing_virtualbox-120815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-1-4-installing_virtualbox-120815-1-sm.jpg",
+          "title": "Installing Virtual Box",
+          "transcript": "",
+          "url": "installing-virtual-box",
+          "vimeoId": "148636181"
+        },
+        {
+          "description": null,
+          "length": "2107",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-2-configuring_a_vm-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-2-configuring_a_vm-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-2-configuring_a_vm-120915-1-sm.jpg",
+          "title": "Configuring a VM",
+          "transcript": "",
+          "url": "configuring-vm",
+          "vimeoId": "148927248"
+        },
+        {
+          "description": null,
+          "length": "2103",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features-120915-1-sm.jpg",
+          "title": "Advanced VM Features",
+          "transcript": "",
+          "url": "advanced-vm-features",
+          "vimeoId": "148927330"
+        },
+        {
+          "description": null,
+          "length": "2084",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features_pt2-120915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features_pt2-120915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-2-3-advanced_vm_features_pt2-120915-1-sm.jpg",
+          "title": "Advanced VM Features Part 2",
+          "transcript": "",
+          "url": "advanced-vm-features-2",
+          "vimeoId": "148927289"
+        },
+        {
+          "description": "In this episode Ronnie and Wes demonstrate VMWare Workstation. They discuss the requirements to get VMWare Workstation installed and running. They will talk about the resources needed for the host operating system as well as the requirements for guest virtual machines that run inside VMWare Workstation.",
+          "length": "2209",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-1-installing_vmware_workstation-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-1-installing_vmware_workstation-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-1-installing_vmware_workstation-121415-1-sm.jpg",
+          "title": "VMware Workstation",
+          "transcript": "",
+          "url": "installing-vmware-workstation",
+          "vimeoId": "149018857"
+        },
+        {
+          "description": "3.2- In this episode Ronnie and Wes take a look at how to configure a virtual machine in VMWare Workstation. They talk about some of the pre-installation tasks like operating system installation media, applications to be installed and network configuration. They explore post-installation tasks like installing VMWare Workstation Tools, capturing a point-in-time snapshot of a virtual machine and cloning a virtual machine. They will demonstrate how to remove a virtual machine once the VM is no longer needed.",
+          "length": "2290",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-2-configure_workstation_vm-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-2-configure_workstation_vm-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-2-configure_workstation_vm-121415-1-sm.jpg",
+          "title": "Configure a VMware VM",
+          "transcript": "",
+          "url": "configure-vmware-vm",
+          "vimeoId": "149018858"
+        },
+        {
+          "description": "In this episode Ronnie and Wes discuss some of the advanced configurations that can be achieved in VMWare Workstation.",
+          "length": "1942",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-3-advanced_vm_featured-121415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-3-advanced_vm_featured-121415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-3-advanced_vm_featured-121415-1-sm.jpg",
+          "title": "Advanced VM Features",
+          "transcript": "",
+          "url": "advanced-vm-features3",
+          "vimeoId": "149018866"
+        },
+        {
+          "description": "3.4 In this episode Ronnie and Wes look at managing virtual machines inside of VMWare Workstation. They discuss how to manage the virtual disks that the virtual machines use through compaction and defragmentation. They demonstrate how to configure preferences once a virtual machine has been created and to share files through creating shared folders. They explore maintaining security for the virtual machine environment.",
+          "length": "2220",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-4-manage_vmware_vms-121515-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-4-manage_vmware_vms-121515-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-3-4-manage_vmware_vms-121515-2-sm.jpg",
+          "title": "Manage VMware VMs",
+          "transcript": "",
+          "url": "manage-vmware-vms",
+          "vimeoId": "149760888"
+        },
+        {
+          "description": "In this episode Ronnie and Wes introducing Microsoft’s Hyper-V. They will look at the hardware requirements to get Hyper-V installed and running. They will discuss the requirements for the host operating system as well as the guest operating system. They demonstrate how to create a virtual machine using the Hyper-V Manager console inside of Windows Server 2012 R2.",
+          "length": "1952",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-0-install_hyper_v-121615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-0-install_hyper_v-121615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-0-install_hyper_v-121615-1-sm.jpg",
+          "title": "Install Hyper-V",
+          "transcript": "",
+          "url": "install-hyperv",
+          "vimeoId": "150796219"
+        },
+        {
+          "description": "In this episode, Ronnie and Mike introduce Microsoft’s Hyper-V found in Windows Server 2012R2.   They discuss how the Hyper-V role installs as a Type I hypervisor.  Then Mike shows some of the different settings that we might want to consider customizing before creating a VM in Hyper-V.  Since most Type I Hypervisors are used in a production environment they mention that taking the time to make the customization is worth the time and effort to be more efficient later as we produce more VMs on Hyper-V.",
+          "length": "1932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v-121015-1-sm.jpg",
+          "title": "Configuring Hyper-V",
+          "transcript": "",
+          "url": "configuring-hyperv6",
+          "vimeoId": "150820206"
+        },
+        {
+          "description": "n this episode, Ronnie and Mike talk about the setting and configurations that we must consider when building a Hyper-V VM for production use.  They show how to configure resource settings during the creation and talk about some of settings that may need to be created separately then selected in the given wizard.  After walking through the wizard,  they create a VM with no OS installed and show virtualized machine that we can now follow a regular install of an operating system.",
+          "length": "2312",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v_pt2-121015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v_pt2-121015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-4-1-configuring_hyper-v_pt2-121015-1-sm.jpg",
+          "title": "Configuring Hyper-V Part 2",
+          "transcript": "",
+          "url": "configuring-hyperv-6",
+          "vimeoId": "150820207"
+        },
+        {
+          "description": "5.1-In this episode Ronnie and Wes take a look at VMWare ESXi also know today as VSphere. They discuss the requirements to get ESXi installed and where to find the information on those requirements. They talk about the host operation system requirements and demonstrate the installation process.",
+          "length": "2217",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-1-install_vmware_esxi-121515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-1-install_vmware_esxi-121515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-1-install_vmware_esxi-121515-1-sm.jpg",
+          "title": "Install VMware ESXi",
+          "transcript": "",
+          "url": "install-vmware-esxi",
+          "vimeoId": "150796222"
+        },
+        {
+          "description": "In this episode Ronnie and Wes look at how to configure VMWare ESXi. They will show you how to connect to the ESXi server and install the client. They will explore the client interface and discuss the features available to the user. They demonstrate creating a VMWare ESXi virtual machine.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationchnologies-5-2-configure_vmware_esxi-121515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationchnologies-5-2-configure_vmware_esxi-121515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationchnologies-5-2-configure_vmware_esxi-121515-1-sm.jpg",
+          "title": "Configure VMware ESXi",
+          "transcript": "",
+          "url": "configure-vmware-esxi",
+          "vimeoId": "150796213"
+        },
+        {
+          "description": "In this episode Ronnie and Wes take a look at how to manage VMWare ESXi virtual machines. They will go through how to install the guest operation system inside the virtual machine. They discuss the options available when configuring the data store where is installation media can be installed from. They explore how to monitor the performance of the virtual machines and resource allocation on the host machine. They explore the power down options for the virtual machines and the affect the virtual machine.",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-3-manage_vms_in_esxi-121615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-3-manage_vms_in_esxi-121615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-5-3-manage_vms_in_esxi-121615-1-sm.jpg",
+          "title": "Manage VMs in ESXi",
+          "transcript": "",
+          "url": "manage-vms-esxi",
+          "vimeoId": "150796217"
+        },
+        {
+          "description": "In this episode Ronnie and Wes explore the Kernel-Based Virtual Machine or KVM. They demonstrate the hardware requirements for KVM and how to verify the system has the necessary requirements. They look at installing the correct packages needed to run KVM as well as verifying those packages are installed and present prior to using KVM.",
+          "length": "2065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-1-create_and_manage_vms-121715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-1-create_and_manage_vms-121715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-1-create_and_manage_vms-121715-1-sm.jpg",
+          "title": "Install KVM",
+          "transcript": "",
+          "url": "create-manage-vms",
+          "vimeoId": "150796215"
+        },
+        {
+          "description": "In this episode Ronnie and Wes continue their discussion on Kernel-based Virtual Machine or KVM. They look at how to set up network communication by creating a bridged network adapter. They show how to configure forwarding in IPTables for the KVM platform. They will also demonstrate how to use SELinux to implement mandatory access control for the directory that the virtual machines use.",
+          "length": "1663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-2-create_and_manage_vms-pt2-121715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-2-create_and_manage_vms-pt2-121715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-1-2-create_and_manage_vms-pt2-121715-1-sm.jpg",
+          "title": "Install KVM Part 2",
+          "transcript": "",
+          "url": "create-manage-vms-2",
+          "vimeoId": "150796216"
+        },
+        {
+          "description": "In this episode Ronnie and Wes look at how to create a virtual machine inside of Kernel-based Virtual Machine or KVM. They look at how to accomplish this task inside the graphical user interface(GUI) as well as how to create a virtual machine in a terminal session. They demonstrate how to start and stop virtual machines from the terminal. They explore how to set a virtual machine up for an autostart as well.",
+          "length": "1350",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-1-create_and_manage_vms-121815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-1-create_and_manage_vms-121815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-1-create_and_manage_vms-121815-1-sm.jpg",
+          "title": "Create and Manage VMs",
+          "transcript": "",
+          "url": "create-manage-vms-3",
+          "vimeoId": "150796214"
+        },
+        {
+          "description": "In this episode Ronnie and Wes continue their discussion on creating and managing virtual machines inside of Kernel-based Virtual Machines or KVM. They look at how to clone a virtual machine as well as starting and stopping the cloned machines. They demonstrate how to create and restore virtual machine snapshots. They also explorer some of the various management commands in that can be used inside of KVM.",
+          "length": "2098",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-2-create_and_manage_vms_pt2-121815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-2-create_and_manage_vms_pt2-121815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-virtualizationtechnologies/techskills-virtualizationtechnologies-6-2-2-create_and_manage_vms_pt2-121815-1-sm.jpg",
+          "title": "Create and Manage VMs Part 2",
+          "transcript": "",
+          "url": "create-manage-vms-4",
+          "vimeoId": "150796212"
+        }
+      ],
+      "title": "Virtualization Technologies"
+    }
+  ],
+  "url": "virtualization",
+  "vLab": false
+}

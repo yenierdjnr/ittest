@@ -1,0 +1,807 @@
+{
+  "description": "The Network+ certification was introduced by CompTIA in 1999 and was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) and provides users with a broad, vendor neutral perspective on the topics required to work in the field of Network Administration.",
+  "descriptionMD": "The _Network+ certification_ was introduced by CompTIA in 1999 and was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) and provides users with a broad, vendor neutral perspective on the topics required to work in the field of Network Administration.  __This course has been CAQC'd and qualifies for CEU credits. [Click here](https://itpro.tv/comptia-partnership) to get an exam voucher discount.__",
+  "length": "269509",
+  "name": "Network+",
+  "practiceExam": true,
+  "subtitle": "Vendor-neutral Networking",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Network+ certification was introduced by CompTIA in 1999. It was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining the Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) to provide the learner with a broad, vendor neutral perspective on the topics required to work in the field",
+          "length": "1226",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-0-0-overview-031715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-0-0-overview-031715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-0-0-overview-031715-1-sm.jpg",
+          "title": "Network+ Overview",
+          "transcript": "1\n00:00:00,025 --> 00:00:07,629\n[SOUND].\n\n2\n00:00:07,629 --> 00:00:12,458\nAll right, in this segment we're\ngonna talk about the new Network+\n\n3\n00:00:12,458 --> 00:00:15,746\nexam from CompTIA, the N 10-006 exam.\n\n4\n00:00:15,746 --> 00:00:20,450\nThat's right, old five he's done,\nhe's gone the way of the dodo.\n\n5\n00:00:20,450 --> 00:00:23,300\nWell, he's probably still lurking around\nin there, might be able to find one or\n\n6\n00:00:23,300 --> 00:00:25,470\ntwo walking around in the world.\n\n7\n00:00:25,470 --> 00:00:29,750\nBut we've got the new 006, so\nthat's what we want to start going over.\n\n8\n00:00:29,750 --> 00:00:31,730\nWe want you guys to be prepared for that.\n\n9\n00:00:31,730 --> 00:00:34,350\nThat's gonna be what we are going\nto be doing here at ITProTV,\n\n10\n00:00:34,350 --> 00:00:38,770\nwe're going to be following their exam\nobjectives for that specific exam.\n\n11\n00:00:38,770 --> 00:00:41,370\nBecause, we're gonna go ahead and\ntell you right now,\n\n12\n00:00:41,370 --> 00:00:46,220\nthat joker is a whole lot beefier than\nits younger brother, that is for sure.\n\n13\n00:00:46,220 --> 00:00:47,505\nOr older brother, should I say?\n\n14\n00:00:47,505 --> 00:00:49,960\n[LAUGH] It is the newer exam.\n\n15\n00:00:49,960 --> 00:00:51,820\nDon, have you had a chance\nto take a look at this guy?\n\n16\n00:00:51,820 --> 00:00:52,890\n>> Yeah, absolutely.\n\n17\n00:00:52,890 --> 00:00:55,700\nOne of the nice things about CompTIA is\nthat they keep their exams up to date,\n\n18\n00:00:55,700 --> 00:00:57,520\nthey keep them relevant\nwith new technologies.\n\n19\n00:00:57,520 --> 00:01:00,470\nAnd that means that we've gotta work\nhard to stay up to date ourselves,\n\n20\n00:01:00,470 --> 00:01:01,572\nand that's a good thing.\n\n21\n00:01:01,572 --> 00:01:04,280\nThe 005 exam it actually expires of\n\n22\n00:01:04,280 --> 00:01:06,170\nSeptember of this year\nif you're in the US.\n\n23\n00:01:06,170 --> 00:01:09,870\nIt expires in December of this\nyear if you're outside of the US.\n\n24\n00:01:09,870 --> 00:01:12,590\nAnd this year is 2015 depending\non when you watch this video\n\n25\n00:01:12,590 --> 00:01:14,490\nit might already be expired.\n\n26\n00:01:14,490 --> 00:01:19,090\nSo if you haven't taken the 005 exam yet\nodds are it's time for\n\n27\n00:01:19,090 --> 00:01:22,180\nyou to switch over and start studying for\nthe new 006 objectives.\n\n28\n00:01:22,180 --> 00:01:24,590\nYou always want to take the current exam.\n\n29\n00:01:24,590 --> 00:01:28,200\nThe exams usually last for\nabout three years before they expire or\n\n30\n00:01:28,200 --> 00:01:29,710\nretire them and bring in the next one.\n\n31\n00:01:29,710 --> 00:01:32,140\nSo, this is just the next iteration and\n\n32\n00:01:32,140 --> 00:01:35,070\nDaniel said there have been\na lot of changes in it.\n\n33\n00:01:35,070 --> 00:01:38,900\nBut before we dive into that, lets\njust start off with someone who hasn't\n\n34\n00:01:38,900 --> 00:01:40,530\neven heard of network clause, right.\n\n35\n00:01:40,530 --> 00:01:42,460\nWe're ready to jump into the upgrades.\n\n36\n00:01:42,460 --> 00:01:44,110\nBut what if you're brand new to this?\n\n37\n00:01:44,110 --> 00:01:46,330\nAnd what is Network processing?\n\n38\n00:01:46,330 --> 00:01:48,700\n>> Yeah.\nThat's actually a really great question.\n\n39\n00:01:48,700 --> 00:01:49,690\nWhat is Network plus?\n\n40\n00:01:49,690 --> 00:01:52,940\nWell, it's a obviously\na technical certification for\n\n41\n00:01:52,940 --> 00:01:55,450\nanyone that wants to get\ninto the networking field.\n\n42\n00:01:55,450 --> 00:01:57,720\nSay that's really looking good over there.\n\n43\n00:01:57,720 --> 00:01:59,660\nThat Network administrator job.\n\n44\n00:01:59,660 --> 00:02:01,620\nI really am interested\nin that kind of thing.\n\n45\n00:02:01,620 --> 00:02:05,240\nMaybe you've been in as a tech in\nsome way, shape or form in the past,\n\n46\n00:02:05,240 --> 00:02:08,570\nyou really do need to have some\nexperience when it comes to this exam.\n\n47\n00:02:08,570 --> 00:02:13,450\nBut going through this exam, looking at\nthe study material, things like that.\n\n48\n00:02:13,450 --> 00:02:16,110\nTrying to figure out what what\nit is they want you to know so\n\n49\n00:02:16,110 --> 00:02:18,385\nthat you can pass their test.\n\n50\n00:02:18,385 --> 00:02:22,513\nOr once you get that exam, it's going to\nallow you to be able to start applying for\n\n51\n00:02:22,513 --> 00:02:24,459\nthose Network administrator jobs and\n\n52\n00:02:24,459 --> 00:02:28,041\nsaying I actually do have some\nexperience in this, but not only that,\n\n53\n00:02:28,041 --> 00:02:32,157\nI have a certification that says I\nknow what the heck I'm talking about.\n\n54\n00:02:32,157 --> 00:02:35,437\nAnd when Don says that they keep\nthese things update, that's for\n\n55\n00:02:35,437 --> 00:02:36,287\na very good reason.\n\n56\n00:02:36,287 --> 00:02:40,027\nBecause, as they keep updating these\nthings to make sure that the material that\n\n57\n00:02:40,027 --> 00:02:44,357\nyou're covering is relevant to the day,\nright.\n\n58\n00:02:44,357 --> 00:02:47,777\nWe don't want to be covering\nmaterial from ten years ago.\n\n59\n00:02:47,777 --> 00:02:48,867\nWhat good would that be?\n\n60\n00:02:48,867 --> 00:02:50,297\nThat technology is getting older.\n\n61\n00:02:50,297 --> 00:02:52,550\nIt's probably retiring itself.\n\n62\n00:02:52,550 --> 00:02:54,260\nSo they keep you marketable.\n\n63\n00:02:54,260 --> 00:02:55,610\nThis is a very good thing right?\n\n64\n00:02:55,610 --> 00:03:00,040\nKeeps you marketable by looking at this\nnetwork plus exam, starting to study for\n\n65\n00:03:00,040 --> 00:03:04,010\nthat, give it in the your old bag there on\nthe belt so you can pull it out and say,\n\n66\n00:03:04,010 --> 00:03:05,400\n\"I am net plus.\n\n67\n00:03:05,400 --> 00:03:09,380\nI know about networking, I know about\nnetworking typologies, architecture,\n\n68\n00:03:09,380 --> 00:03:13,630\nyou name it, I should have some sort of\nexperience with all that type of thing.\n\n69\n00:03:13,630 --> 00:03:17,200\nAnd this certification\nproves that is true.\n\n70\n00:03:17,200 --> 00:03:21,370\n>> Yeah, and the way CompTIA presents\nit is that if somebody takes and\n\n71\n00:03:21,370 --> 00:03:26,550\npasses the CompTIA Network plus exam,\nthey have the equivalent knowledge\n\n72\n00:03:26,550 --> 00:03:29,640\nof somebody who has been working\nin the field for nine months.\n\n73\n00:03:29,640 --> 00:03:34,630\nSo if you were to get a job today, and\nwork for nine months, you learn a lot.\n\n74\n00:03:34,630 --> 00:03:38,290\nYou'd be exposed to a lot of things\nout there in the real world and\n\n75\n00:03:38,290 --> 00:03:41,190\nwhen you pass the exam, you're saying\nthat I've got that level of experience.\n\n76\n00:03:41,190 --> 00:03:43,410\nYou might not have actually worked for\nnine months.\n\n77\n00:03:43,410 --> 00:03:46,500\nMaybe you haven't worked in IT at all,\nyou're just getting started.\n\n78\n00:03:46,500 --> 00:03:50,240\nBut you've been messing around with\nit as a hobby, or learning, or\n\n79\n00:03:50,240 --> 00:03:54,370\nyou've been working help desk not\nnecessarily Network Engineering, right?\n\n80\n00:03:54,370 --> 00:03:55,870\nSo, you're trying to show that hey,\n\n81\n00:03:55,870 --> 00:03:58,930\neven though I don't have that on\nmy resume I have that experience.\n\n82\n00:03:58,930 --> 00:04:00,260\nI've learned it.\nI've done it.\n\n83\n00:04:00,260 --> 00:04:01,730\nSo, let me get some credit for it.\n\n84\n00:04:01,730 --> 00:04:03,570\nAnd that's what network plus is all about.\n\n85\n00:04:03,570 --> 00:04:05,530\nSo, if that's what you're looking for,\n\n86\n00:04:05,530 --> 00:04:08,660\nthen the Network+ certification\nis the great place to start out.\n\n87\n00:04:08,660 --> 00:04:12,670\nNow, if you're not looking for that, maybe\nyou just want general computer knowledge.\n\n88\n00:04:12,670 --> 00:04:14,450\nYou're not sure if networking\nis the field for you, or\n\n89\n00:04:14,450 --> 00:04:17,090\nyou're really,\ntruly just getting started out.\n\n90\n00:04:17,090 --> 00:04:18,845\nYou just learned what\na mouse was yesterday.\n\n91\n00:04:18,845 --> 00:04:22,200\nNetwork+ is not the great\nplace to start on day one.\n\n92\n00:04:22,200 --> 00:04:26,750\nSo instead,\nyou really want to start that one with A+.\n\n93\n00:04:26,750 --> 00:04:30,940\nIf you're just getting started in IT,\nCompTIA has the IT Fundamentals for\n\n94\n00:04:30,940 --> 00:04:32,960\nsomebody who just learned what a mouse is.\n\n95\n00:04:32,960 --> 00:04:36,520\nAnd then they've got CompTIA A+,\nwhich is general computer knowledge.\n\n96\n00:04:36,520 --> 00:04:38,740\nThings like working on hardware and\nsoftware.\n\n97\n00:04:38,740 --> 00:04:39,730\nAnd some networking.\n\n98\n00:04:39,730 --> 00:04:41,450\nYou get an introduction to networking.\n\n99\n00:04:41,450 --> 00:04:45,400\nWhen you're ready to move up into\nconfiguring routers, switches, firewalls,\n\n100\n00:04:45,400 --> 00:04:46,610\ndevices like that.\n\n101\n00:04:46,610 --> 00:04:48,729\nThat's where network plus comes in and\n\n102\n00:04:48,729 --> 00:04:51,497\nhaving that general\nknowledge about the concept.\n\n103\n00:04:51,497 --> 00:04:53,070\nThat's what Network plus covers.\n\n104\n00:04:53,070 --> 00:04:54,290\n>> Yeah.\nIt's a really good exam,\n\n105\n00:04:54,290 --> 00:04:58,440\nit's tough enough for\nyou that if you do pass this thing,\n\n106\n00:04:58,440 --> 00:05:01,789\nthen you can feel pretty proud\nabout your accomplishment.\n\n107\n00:05:01,789 --> 00:05:02,455\nIt's no joke.\n\n108\n00:05:02,455 --> 00:05:06,972\nI mean, maybe back when it first came\nout it was a much more lower level, but\n\n109\n00:05:06,972 --> 00:05:11,924\nthere wasn't as nearly as much technology\nand knowledge base as there is now, for\n\n110\n00:05:11,924 --> 00:05:15,630\nyour average network administrator\nas there was back then.\n\n111\n00:05:15,630 --> 00:05:18,490\nI mean today, just about any kid on a blog\n\n112\n00:05:18,490 --> 00:05:22,770\ncan figure out how to configure a SOHO\nrouter and get you up and running and\n\n113\n00:05:22,770 --> 00:05:26,530\ndoing that, making small home networks,\neven maybe in small business networks.\n\n114\n00:05:26,530 --> 00:05:29,150\nIf you have that kind of\nexperience that's really good.\n\n115\n00:05:29,150 --> 00:05:32,940\nThat's gonna help you in this because\nit does have that part in there.\n\n116\n00:05:32,940 --> 00:05:37,540\nBut with the 006 exam it moves\nup a whole lot more than that,\n\n117\n00:05:37,540 --> 00:05:40,710\nyou're really gonna get a very wide and\n\n118\n00:05:40,710 --> 00:05:45,410\nquite a deep knowledge base when\nit comes to networking itself.\n\n119\n00:05:45,410 --> 00:05:49,110\nWell, I say we go ahead and\ntake a look at the exam objectives.\n\n120\n00:05:49,110 --> 00:05:49,860\nWhat do you think, Don?\n\n121\n00:05:49,860 --> 00:05:50,920\n>> Yeah.\nLet's talk about those.\n\n122\n00:05:50,920 --> 00:05:54,110\nSo, CompTIA takes the information\nyou need to know and\n\n123\n00:05:54,110 --> 00:05:56,130\nthey break it up into\nwhat are called Domains.\n\n124\n00:05:56,130 --> 00:05:58,910\nThe Network+ exam covers\nfive different domains, so\n\n125\n00:05:58,910 --> 00:06:00,990\nlet's just kinda run\nthrough these real quick.\n\n126\n00:06:00,990 --> 00:06:05,380\nThe very first one, domain 1.0,\nis network architecture.\n\n127\n00:06:05,380 --> 00:06:09,510\nThat's talking about the overall\nbig picture for a network.\n\n128\n00:06:09,510 --> 00:06:12,390\nThere's several different topology types\nthat are out there, and technologies.\n\n129\n00:06:12,390 --> 00:06:14,070\nThere's wired and wireless.\n\n130\n00:06:14,070 --> 00:06:16,460\nThere's different cables and cards.\n\n131\n00:06:16,460 --> 00:06:19,850\nYou need to know that to build the\ninfrastructure up to have a network and\n\n132\n00:06:19,850 --> 00:06:21,270\nthat's what that first domain covers.\n\n133\n00:06:21,270 --> 00:06:25,470\nIt makes up 22% of the exam,\nwhich is a pretty big chunk,\n\n134\n00:06:25,470 --> 00:06:28,510\nit's almost a quarter of the exam\nright out of that very first domain.\n\n135\n00:06:28,510 --> 00:06:31,330\n>> Yeah if you don't understand\nthe interworkings and\n\n136\n00:06:31,330 --> 00:06:33,670\nthe different ways,\nthat networks are built,\n\n137\n00:06:33,670 --> 00:06:37,240\nwell then you are going to have a hard\ntime if you get out there in the field.\n\n138\n00:06:37,240 --> 00:06:39,840\nAnd start saying well,\nyeah I can build this.\n\n139\n00:06:39,840 --> 00:06:43,230\nAnd then you're gonna be like okay,\nI don't know what's going on here.\n\n140\n00:06:43,230 --> 00:06:46,540\nYou have to have that basic architecture,\nand when we say architecture,\n\n141\n00:06:46,540 --> 00:06:49,710\nit's the building blocks for your network,\nthat's basically what we're talking about.\n\n142\n00:06:49,710 --> 00:06:53,230\nHow do I build that network\nout from either the ground up,\n\n143\n00:06:53,230 --> 00:06:56,700\nor come in to one that has already been\nbuilt, understand what's going on, and\n\n144\n00:06:56,700 --> 00:07:00,650\nthen be able to assist in continuing that,\nsupporting that?\n\n145\n00:07:00,650 --> 00:07:02,620\nAnd building it even further from there.\n\n146\n00:07:02,620 --> 00:07:05,780\nSo that's why this objective is very,\nvery important.\n\n147\n00:07:05,780 --> 00:07:08,480\nIt's one you want to spend\na lot of quality time on.\n\n148\n00:07:08,480 --> 00:07:11,410\nMake sure that you understand\nall the key concepts and\n\n149\n00:07:11,410 --> 00:07:13,520\ndifferent factoids that\nthey want you to memorize.\n\n150\n00:07:13,520 --> 00:07:15,500\nGod knows there's plenty of them in there.\n\n151\n00:07:15,500 --> 00:07:19,730\nBut, you do have to get that stuff\nrock solid buried into the brain so\n\n152\n00:07:19,730 --> 00:07:22,680\nthat when it comes time for\neither an exam objective and\n\n153\n00:07:22,680 --> 00:07:26,160\nthe exam itself or\nwhen you out there in the field and\n\n154\n00:07:26,160 --> 00:07:29,290\nyou need to support something,\nyou know that stuff really well.\n\n155\n00:07:30,410 --> 00:07:34,090\n>> The next objective, or\nthe next domain, is Network operations.\n\n156\n00:07:34,090 --> 00:07:36,950\nOnce you've built a network,\nyou've got to keep it running.\n\n157\n00:07:36,950 --> 00:07:38,510\nAnd that's what network\noperations is all about,\n\n158\n00:07:38,510 --> 00:07:41,610\nthe day to day operations of\nkeeping a network healthy.\n\n159\n00:07:41,610 --> 00:07:43,412\nMonitoring if for performance,\n\n160\n00:07:43,412 --> 00:07:47,530\nupgrading it when necessary,\nhandling security incidents as they occur,\n\n161\n00:07:47,530 --> 00:07:50,703\nall of that function that is\npart of a day to day operation.\n\n162\n00:07:50,703 --> 00:07:54,525\nAnd that makes up another 20% of the exam\ncuz that's a good bit of what you're gonna\n\n163\n00:07:54,525 --> 00:07:55,279\ndo in real life.\n\n164\n00:07:55,279 --> 00:07:59,631\n>> Yeah, especially when you talked about\noperations- There are plenty of things\n\n165\n00:07:59,631 --> 00:08:02,511\nthat you are going to get really,\nreally good at, and\n\n166\n00:08:02,511 --> 00:08:04,860\nthey're going to cover that in the exam.\n\n167\n00:08:04,860 --> 00:08:07,800\nThings like, I am not getting\naccess to the Internet, right?\n\n168\n00:08:07,800 --> 00:08:10,990\nThat's gonna be a very common\nthing that a network technician\n\n169\n00:08:10,990 --> 00:08:12,800\nis going to get come across his desk.\n\n170\n00:08:12,800 --> 00:08:15,810\nHe's gonna have someone come in and say,\nI can't get to this file server, or\n\n171\n00:08:15,810 --> 00:08:19,570\nI can't get to our,\nmy VPN isn't working correctly.\n\n172\n00:08:19,570 --> 00:08:23,480\nAnd I'm using terminology but\nit's stuff that you're going to learn\n\n173\n00:08:23,480 --> 00:08:27,280\nthese types of things as we cover\nthese different exam objectives.\n\n174\n00:08:27,280 --> 00:08:27,950\nThat's a hard word to say, Don.\n\n175\n00:08:27,950 --> 00:08:30,019\n>> [LAUGH]\n>> Exam objectives.\n\n176\n00:08:30,019 --> 00:08:32,300\nSay that three times fast and\nyou're doing really great.\n\n177\n00:08:32,300 --> 00:08:33,860\n>> And you'll automatically pass the exam.\n\n178\n00:08:33,860 --> 00:08:34,410\n>> That's right.\n\n179\n00:08:34,410 --> 00:08:38,350\nIt's a trick they don't tell you about,\na little back door on the exam there.\n\n180\n00:08:38,350 --> 00:08:39,112\nThe computer.\n\n181\n00:08:39,112 --> 00:08:40,336\n[LAUGH]\n>> Now I mentioned\n\n182\n00:08:40,336 --> 00:08:44,969\nsecurity incidents under operations, that\nkinda leads us into the next objective, or\n\n183\n00:08:44,969 --> 00:08:46,925\ndomain, 3.0 network security.\n\n184\n00:08:46,925 --> 00:08:52,360\nSecurity is a much bigger objective\nunder the new exam than it used to be.\n\n185\n00:08:52,360 --> 00:08:54,730\nAnd that is because security is so\nimportant.\n\n186\n00:08:54,730 --> 00:08:55,370\nThere are so\n\n187\n00:08:55,370 --> 00:08:59,120\nmany high visibility compromises\nhappening out there in the world.\n\n188\n00:08:59,120 --> 00:09:01,780\nThe targets of the world, or Adobe.\n\n189\n00:09:01,780 --> 00:09:03,380\nWhere these companies\nthat got compromised and\n\n190\n00:09:03,380 --> 00:09:06,060\nlost all their customer data,\ncredit card data and so on.\n\n191\n00:09:06,060 --> 00:09:08,500\nWell, it starts with networks.\n\n192\n00:09:08,500 --> 00:09:10,558\nIt's networks that facilitate\nthese types of attacks.\n\n193\n00:09:10,558 --> 00:09:14,410\nAnd so we need to understand how to\nimplement proper network security to\n\n194\n00:09:14,410 --> 00:09:18,500\nensure that we've closed off all those\nback doors that other attackers can use\n\n195\n00:09:18,500 --> 00:09:20,050\nto try and gain access to our system.\n\n196\n00:09:20,050 --> 00:09:22,890\nNow, security under Network+ is not like\n\n197\n00:09:22,890 --> 00:09:26,490\nsecurity under Security+ where\nthey really dive into it.\n\n198\n00:09:26,490 --> 00:09:27,840\nHere, it's just one section.\n\n199\n00:09:27,840 --> 00:09:30,202\nBut it is 20% of the exam, so on the exam.\n\n200\n00:09:30,202 --> 00:09:31,386\nOr 18%, sorry.\n\n201\n00:09:31,386 --> 00:09:32,479\n18% of the exam.\n\n202\n00:09:32,479 --> 00:09:36,543\nSo almost one out of five questions on\nthe exam is gonna be security-related.\n\n203\n00:09:36,543 --> 00:09:39,050\nThat's a big chunk, you wanna make\nsure you're prepared for that.\n\n204\n00:09:39,050 --> 00:09:40,804\n>> Yeah, that is no joke at all.\n\n205\n00:09:40,804 --> 00:09:43,536\nThat tells you how much\nthey think of security,\n\n206\n00:09:43,536 --> 00:09:46,300\nespecially when it comes to networking.\n\n207\n00:09:46,300 --> 00:09:51,560\nBecause when you network a computer, well,\nyou're basically trying to allow at least\n\n208\n00:09:51,560 --> 00:09:55,100\nsome access to it from other networks,\n\n209\n00:09:55,100 --> 00:09:58,760\nor from your own networks that\naren't physically connected maybe.\n\n210\n00:09:58,760 --> 00:10:00,430\nOr I got two computers that are connected,\n\n211\n00:10:00,430 --> 00:10:03,450\nyou never know where a security\nbreach might come from.\n\n212\n00:10:03,450 --> 00:10:06,170\nYou gotta learn about security\nbreaches from the inside,\n\n213\n00:10:06,170 --> 00:10:07,390\nfrom the external security risks.\n\n214\n00:10:07,390 --> 00:10:11,110\nYou're just gonna have to learn\nthings like encryption policies and\n\n215\n00:10:11,110 --> 00:10:16,420\nhow different types of appliances that\nyou can use to harden up your network and\n\n216\n00:10:16,420 --> 00:10:17,210\nit's a really good thing.\n\n217\n00:10:17,210 --> 00:10:20,280\nI mean this isn't just exam\nstuff as far as I'm concerned.\n\n218\n00:10:20,280 --> 00:10:23,560\nThis is practical application\nstuff you've got to know.\n\n219\n00:10:23,560 --> 00:10:27,460\nYou gotta have that down and\nagain why they spend or put so\n\n220\n00:10:27,460 --> 00:10:31,130\nmuch weight on it in the exam cuz\nthey understand that at CompTIA.\n\n221\n00:10:31,130 --> 00:10:34,610\nAnd they say you need to know this\npretty well and we're gonna try and\n\n222\n00:10:34,610 --> 00:10:37,100\nhelp at compute to know that stuff.\n\n223\n00:10:37,100 --> 00:10:40,030\nAnd the next domain is domain 4.0,\nand it's troubleshooting it.\n\n224\n00:10:40,030 --> 00:10:43,218\nDaniel, I don't even know why they put\nthis on the exam, right, because networks,\n\n225\n00:10:43,218 --> 00:10:44,790\nonce they're in place, they just work.\n\n226\n00:10:44,790 --> 00:10:46,032\nDon't they?\n>> They just work all the time.\n\n227\n00:10:46,032 --> 00:10:48,990\n[LAUGH]\n>> If you've worked in IT,\n\n228\n00:10:48,990 --> 00:10:51,920\nyou know that stuff never works\nthe way it's supposed to.\n\n229\n00:10:51,920 --> 00:10:56,350\nYou think computers are ones and zeroes,\nbut somehow they get 0.5's in there.\n\n230\n00:10:56,350 --> 00:10:59,520\nAnd we end up having to troubleshoot\nthem to solve the problems.\n\n231\n00:10:59,520 --> 00:11:01,240\nThat's what domain 4.0 is all about.\n\n232\n00:11:01,240 --> 00:11:03,590\nIt makes up a quarter of the exam.\n\n233\n00:11:03,590 --> 00:11:06,590\nIt's the largest of all the domains.\n\n234\n00:11:06,590 --> 00:11:10,510\nIf your network is not working the way\nit's supposed to, how do you fix it?\n\n235\n00:11:10,510 --> 00:11:12,490\nHow do you get things operating smoothly?\n\n236\n00:11:12,490 --> 00:11:15,810\nThis is really the highest\nvisibility part of your job.\n\n237\n00:11:15,810 --> 00:11:18,330\nWhen you're a good network engineer and\n\n238\n00:11:18,330 --> 00:11:21,440\nyou're doing your job, people don't\neven know you're there, right?\n\n239\n00:11:21,440 --> 00:11:22,530\nThe network just works.\n\n240\n00:11:22,530 --> 00:11:24,760\nThey get on the Internet,\nthey don't even know you exists.\n\n241\n00:11:24,760 --> 00:11:28,047\nBut the instant something goes wrong\nall of a sudden they remember you.\n\n242\n00:11:28,047 --> 00:11:29,390\nOh, where's that network guy?\n\n243\n00:11:29,390 --> 00:11:30,840\nHe needs to fix this.\n\n244\n00:11:30,840 --> 00:11:32,345\nAnd, it's very, very visible.\n\n245\n00:11:32,345 --> 00:11:35,380\nSo we need to understand how to\nproperly troubleshoot a network and\n\n246\n00:11:35,380 --> 00:11:38,640\nhow to resolve those issues\nas quickly as possible.\n\n247\n00:11:38,640 --> 00:11:43,190\n>> Yeah, the ability to logically\nthink through a problem and because\n\n248\n00:11:43,190 --> 00:11:47,880\nyou know the subject matter so well, and\nthe concepts that are involved with them.\n\n249\n00:11:47,880 --> 00:11:51,020\nThat's why you spend so\nmuch time in these other domains, right?\n\n250\n00:11:51,020 --> 00:11:53,130\nThat's really building\nyour knowledge base so\n\n251\n00:11:53,130 --> 00:11:57,720\nthat when you get to troubleshooting, you\nhave all the conceptual data that you need\n\n252\n00:11:57,720 --> 00:11:59,990\nto be able to logically think\nyour way through the problem.\n\n253\n00:11:59,990 --> 00:12:02,480\nNot only that but\nCompTIA usually does a pretty good job\n\n254\n00:12:02,480 --> 00:12:05,930\nof coming up with their own formula so\nthat you don't have to use your own.\n\n255\n00:12:05,930 --> 00:12:09,090\nYou don't have to come up with some\nplan to work through a system.\n\n256\n00:12:09,090 --> 00:12:10,808\nThey say well here's for\nyou, just try this.\n\n257\n00:12:10,808 --> 00:12:11,540\nThis is this,\n\n258\n00:12:11,540 --> 00:12:16,220\nbut very successful throughout many of\na technician out there in the field.\n\n259\n00:12:16,220 --> 00:12:19,510\nThey use this everyday and\nI know I've used it plenty of times.\n\n260\n00:12:19,510 --> 00:12:22,550\nIt's easy to just say hold on I\ndon't need to reinvent the wheel.\n\n261\n00:12:22,550 --> 00:12:24,210\nI mean, use what they have.\n\n262\n00:12:24,210 --> 00:12:26,980\nThey're gonna teach you their method for\ndoing that and\n\n263\n00:12:26,980 --> 00:12:29,960\nit's a really good method, so\nthat you can logically step through that.\n\n264\n00:12:29,960 --> 00:12:33,080\nI used to always say,\ndon't just teach me how it works,\n\n265\n00:12:33,080 --> 00:12:34,750\nteach me what to do when it breaks, right?\n\n266\n00:12:34,750 --> 00:12:35,570\nCuz like Don says,\n\n267\n00:12:35,570 --> 00:12:39,060\nyou get the it's supposed to be ones and\nzeros but every now a 0.5 gets in there.\n\n268\n00:12:39,060 --> 00:12:42,413\nI used to work with a guy who would always\nsay, well, that's impossible, right?\n\n269\n00:12:42,413 --> 00:12:44,407\n>> [LAUGH]\n>> Someone would call and say,\n\n270\n00:12:44,407 --> 00:12:46,670\nthis is happening with my network.\n\n271\n00:12:46,670 --> 00:12:48,350\nAnd he would go, well, that's impossible.\n\n272\n00:12:48,350 --> 00:12:49,700\nIt doesn't work that way.\n\n273\n00:12:49,700 --> 00:12:51,440\nIt's impossible for it to do that.\n\n274\n00:12:51,440 --> 00:12:52,340\nWell, let me show you.\n\n275\n00:12:52,340 --> 00:12:55,705\nAnd he'd come in and take a look and\nhe would go, this shouldn't happen.\n\n276\n00:12:55,705 --> 00:12:59,450\n[LAUGH] And you're like, well,\nI understand that it shouldn't happen, but\n\n277\n00:12:59,450 --> 00:13:01,017\nit is happening, what do we do?\n\n278\n00:13:01,017 --> 00:13:02,607\nWhere's the breakdown occurring?\n\n279\n00:13:02,607 --> 00:13:04,628\nAnd we need to try to figure that out, and\n\n280\n00:13:04,628 --> 00:13:09,020\nthat's why troubleshooting Is the most\nimportant domain that they have.\n\n281\n00:13:09,020 --> 00:13:11,750\n>> Now that last domain that we have\nis the smallest of the domains.\n\n282\n00:13:11,750 --> 00:13:16,290\nIt's 16% of the exam, domain 5.0 which\nis industry standards practices and\n\n283\n00:13:16,290 --> 00:13:17,660\nnetwork theory.\n\n284\n00:13:17,660 --> 00:13:19,450\nThese are things that\nare very important to know.\n\n285\n00:13:19,450 --> 00:13:24,020\nThey're not a hands on skill, but\nare more theoretical and conceptual.\n\n286\n00:13:24,020 --> 00:13:28,420\nThat there are ideas behind how networking\nshould work, ideas behind how you should\n\n287\n00:13:28,420 --> 00:13:32,550\ninteract with your customers and handle\nservice tickets and do basic practices.\n\n288\n00:13:32,550 --> 00:13:35,510\nIndustry standards that give\nyou those recommendations for\n\n289\n00:13:35,510 --> 00:13:37,220\nthe way to run the networks.\n\n290\n00:13:37,220 --> 00:13:39,980\nThose scenarios are things\nthat you need to be aware of.\n\n291\n00:13:39,980 --> 00:13:40,840\nYou need to learn those.\n\n292\n00:13:40,840 --> 00:13:44,390\nNow you might have learned those by doing,\nout there in the field.\n\n293\n00:13:44,390 --> 00:13:47,016\nBut if you're somebody who's learning\nat home, if you're just getting into\n\n294\n00:13:47,016 --> 00:13:49,709\nnetworking, you haven't been exposed\nto those corporate environments yet.\n\n295\n00:13:49,709 --> 00:13:53,086\nAnd that's what domain 5.0 is designed\nto kind of correct, to get it to\n\n296\n00:13:53,086 --> 00:13:56,852\nwhere you do understand those things,\nhow systems operate inside of a business.\n\n297\n00:13:56,852 --> 00:13:59,270\nSo for example, a good change management.\n\n298\n00:13:59,270 --> 00:14:00,640\nIt's a critical skill.\n\n299\n00:14:00,640 --> 00:14:02,450\nWorking on a home network\nwhen you wanna make a change,\n\n300\n00:14:02,450 --> 00:14:03,970\nyou just do it and that's it.\n\n301\n00:14:03,970 --> 00:14:06,890\nBut if you've got ten other network\nengineers that you work with and\n\n302\n00:14:06,890 --> 00:14:10,510\nyou're supporting thousands of routers,\nif somebody makes an unauthorized change,\n\n303\n00:14:10,510 --> 00:14:12,370\nit can really cause some problems.\n\n304\n00:14:12,370 --> 00:14:14,730\nWe've gotta have structures\nin place to handle that and\n\n305\n00:14:14,730 --> 00:14:16,930\nthat's where our final domain covers that.\n\n306\n00:14:16,930 --> 00:14:19,160\n>> Yeah, I don't even know what\nmore to add to that, really,\n\n307\n00:14:19,160 --> 00:14:22,310\nit's that basic stuff\nthat Don was just saying.\n\n308\n00:14:22,310 --> 00:14:26,080\nJust gotta know the way things\nwork normally inside of a network\n\n309\n00:14:26,080 --> 00:14:27,360\nas a network technician.\n\n310\n00:14:27,360 --> 00:14:29,840\nYou can't just go into a router and\ngo, you know what,\n\n311\n00:14:29,840 --> 00:14:34,080\nI think I'm gonna add me a new interface\ntoday, and plug that in, I'll just\n\n312\n00:14:34,080 --> 00:14:37,830\ntake this company credit card, purchase\nan MPLS line and that'll be good for me.\n\n313\n00:14:37,830 --> 00:14:38,430\nWe need that.\n\n314\n00:14:38,430 --> 00:14:39,855\nLet's just make that happen, right?\n\n315\n00:14:39,855 --> 00:14:43,380\nNow, you can't just do these things\nunless it's your own network, right?\n\n316\n00:14:43,380 --> 00:14:47,170\nSo we do need to learn,\nwhat is the standard practices?\n\n317\n00:14:47,170 --> 00:14:49,920\nHow do we need to operate\nas a network technician?\n\n318\n00:14:49,920 --> 00:14:51,480\nWhat are some of\nthe things I need to know?\n\n319\n00:14:51,480 --> 00:14:54,910\nAnd it's really awesome that\nCompTIA puts this in the exam.\n\n320\n00:14:54,910 --> 00:14:57,010\nIt's kinda like with the A+ exam.\n\n321\n00:14:57,010 --> 00:14:59,890\nWe just went through that as well,\nand they have this professionalism and\n\n322\n00:14:59,890 --> 00:15:00,710\nthings like that.\n\n323\n00:15:00,710 --> 00:15:05,160\nStuff that we do need to\nimplement as a person\n\n324\n00:15:05,160 --> 00:15:08,660\nthat is a technician that\nhelps us do our job better,\n\n325\n00:15:08,660 --> 00:15:12,740\nhelps other people around us that\ndon't necessarily know what we do.\n\n326\n00:15:12,740 --> 00:15:13,990\nThey just need us to do it.\n\n327\n00:15:13,990 --> 00:15:17,042\nBut they need to know how to work with us,\nso they're not working against us.\n\n328\n00:15:17,042 --> 00:15:19,085\nIt does happen from time to time.\n\n329\n00:15:19,085 --> 00:15:21,730\n>> All right, well,\nDaniel let's start winding this one down.\n\n330\n00:15:21,730 --> 00:15:24,480\nI do wanna talk a little\nbit about the exam itself.\n\n331\n00:15:24,480 --> 00:15:27,520\nWhen you watch the ITProTV content,\nour goal is to\n\n332\n00:15:27,520 --> 00:15:31,410\ncover all the exam objectives so\nyou have an idea of what each topic is.\n\n333\n00:15:31,410 --> 00:15:34,900\nWhen you're comfortable with all of\nthe topics that are on the exam,\n\n334\n00:15:34,900 --> 00:15:38,530\nit's time to take the exam and\nget certified.\n\n335\n00:15:38,530 --> 00:15:42,500\nAnd you do that not through us, but\nthrough Prometric testing centers.\n\n336\n00:15:42,500 --> 00:15:44,470\nThere is an organization called Prometric.\n\n337\n00:15:44,470 --> 00:15:46,540\nOh, sorry, this is not through Prometric,\nit's the Pearson VUE.\n\n338\n00:15:46,540 --> 00:15:48,479\nGotta get my testing center's right.\n\n339\n00:15:48,479 --> 00:15:51,463\n>> Prometric's gone.\n>> It's VUE, which is vue.com.\n\n340\n00:15:51,463 --> 00:15:55,737\nYou can go to VUE's website and\nregister for the CompTIA Network+ exam.\n\n341\n00:15:55,737 --> 00:15:58,988\nThe exam number is N10-006.\n\n342\n00:15:58,988 --> 00:16:02,436\nIf you go to CompTIA's website you\ncan find more information about that.\n\n343\n00:16:02,436 --> 00:16:07,650\nThere's Vue testing centers all over\nthe world, so you can find one near you.\n\n344\n00:16:07,650 --> 00:16:11,300\nIf you don't know where one is,\ndefinitely check out CompTIA's website.\n\n345\n00:16:11,300 --> 00:16:12,880\nI've got it pulled up here on my laptop.\n\n346\n00:16:12,880 --> 00:16:17,110\nIf you go to certification.comptia.org,\non their\n\n347\n00:16:17,110 --> 00:16:21,760\npage you've got this Get Certified menu\nand you can choose the Network+ exam.\n\n348\n00:16:21,760 --> 00:16:24,840\nIt'll take you in there and give you\nsome information about Network+ and\n\n349\n00:16:24,840 --> 00:16:26,230\nits got the exam objectives.\n\n350\n00:16:26,230 --> 00:16:30,040\nYou can pull the official PDF that has all\nof the exam objectives that are on there.\n\n351\n00:16:30,040 --> 00:16:32,870\nIt serves as a great outline to follow\nwhile you're watching the show to make\n\n352\n00:16:32,870 --> 00:16:34,500\nsure you've learned everything.\n\n353\n00:16:34,500 --> 00:16:38,370\nThey also have information about the exam\nitself, kind of buried down here a bit.\n\n354\n00:16:38,370 --> 00:16:42,050\nThey've got the old information for\nthe 005 exam, but the new one right here,\n\n355\n00:16:42,050 --> 00:16:43,183\n06, is what you want.\n\n356\n00:16:43,183 --> 00:16:45,400\nIt's 90 questions maximum.\n\n357\n00:16:45,400 --> 00:16:48,480\nIt could be less, but\n90 questions is the maximum you will have.\n\n358\n00:16:48,480 --> 00:16:49,981\nYou have an hour and a half to do it.\n\n359\n00:16:49,981 --> 00:16:51,851\nNot a ton of time, right?\n\n360\n00:16:51,851 --> 00:16:55,344\nIt's about a minute per question, so\nyou've got to stay on the ball while you\n\n361\n00:16:55,344 --> 00:16:58,472\ngo through and\nanswer all the questions on the exam.\n\n362\n00:16:58,472 --> 00:17:01,690\nYou gotta score a 720\nout of a 1,000 to pass,\n\n363\n00:17:01,690 --> 00:17:04,820\nand you can take the exam\nat any Vue testing center.\n\n364\n00:17:04,820 --> 00:17:09,540\nAnd they used to have a link in here for\nfinding the Vue testing center near you.\n\n365\n00:17:09,540 --> 00:17:11,060\nAnd did they get rid of the link?\n\n366\n00:17:11,060 --> 00:17:12,260\n>> I can't believe they've done that.\n\n367\n00:17:12,260 --> 00:17:13,770\n>> It certainly looks like they did.\n\n368\n00:17:13,770 --> 00:17:18,334\nSo if you want to find that,\nyou can just go to vue.com, V-U-E .com.\n\n369\n00:17:18,334 --> 00:17:21,130\nThat'll take you to\nthe Pearson Vue web page.\n\n370\n00:17:21,130 --> 00:17:23,807\nAnd from here if you go to the For\ntest takers,\n\n371\n00:17:23,807 --> 00:17:27,273\nthat's where you can go to find\na testing center near you.\n\n372\n00:17:27,273 --> 00:17:31,180\nThey ask you to pick your program,\nso we'll just say we are CompTIA.\n\n373\n00:17:32,430 --> 00:17:35,520\nAnd here you'll start to see information\nabout the CompTIA certifications and\n\n374\n00:17:35,520 --> 00:17:36,330\nexams.\n\n375\n00:17:36,330 --> 00:17:38,880\nAnd from here we can find\na testing center that's near you.\n\n376\n00:17:38,880 --> 00:17:42,121\nSo if I come in and\npunch in a test center near me,\n\n377\n00:17:42,121 --> 00:17:46,510\nI'll just say zip code 32605,\nand I'll search for that.\n\n378\n00:17:46,510 --> 00:17:49,320\nAnd it'll give me a list of the various\ntesting centers that are available.\n\n379\n00:17:49,320 --> 00:17:52,371\nI can go to the University of Florida or\nBradford Union Technical Center.\n\n380\n00:17:52,371 --> 00:17:53,347\nI don't actually know where that is.\n\n381\n00:17:53,347 --> 00:17:56,370\nBut you can pick any of these places and\ngo and take it.\n\n382\n00:17:56,370 --> 00:17:57,710\nYou'll find there's\nplenty of them near you.\n\n383\n00:17:57,710 --> 00:18:02,030\nAnd I'm in the US, but\nPearson Vue is all over the world.\n\n384\n00:18:02,030 --> 00:18:03,810\nLet's say I'm in Berlin, Germany.\n\n385\n00:18:05,310 --> 00:18:08,680\nIf I punch in Berlin\nwe'll see what we get.\n\n386\n00:18:08,680 --> 00:18:11,540\nLooks like we got several\nright there in Germany.\n\n387\n00:18:11,540 --> 00:18:12,954\nSo you can find one definitely near you.\n\n388\n00:18:12,954 --> 00:18:14,695\nThe exam cost,\ndo you remember that Daniel?\n\n389\n00:18:14,695 --> 00:18:21,100\n>> Yes, we were looking at it and it's\n$277 US if you're in the United States.\n\n390\n00:18:21,100 --> 00:18:24,030\nI don't know what that equals\nin British pounds or euros or\n\n391\n00:18:24,030 --> 00:18:26,140\nwhatever the case may be, but\nyou can do the conversion.\n\n392\n00:18:26,140 --> 00:18:27,070\nIt's quite simple.\n\n393\n00:18:27,070 --> 00:18:29,360\nGoogle does a lot of cool things for us.\n\n394\n00:18:29,360 --> 00:18:34,320\nBut in the US if I wanted to take to exam\ntoday I would have to pay 277 bones.\n\n395\n00:18:34,320 --> 00:18:38,620\nThat's a good price, but\nI get a lot with that.\n\n396\n00:18:38,620 --> 00:18:41,910\nIf I get that certification,\nthat is an investment.\n\n397\n00:18:41,910 --> 00:18:45,390\nIt is a really good investment\ninto my future and my career,\n\n398\n00:18:45,390 --> 00:18:48,650\nand it's going to lead to me\nmaking more money myself.\n\n399\n00:18:48,650 --> 00:18:53,900\nSo that $277 is really a paltry sum, a\ndrop in the bucket when it comes to this.\n\n400\n00:18:53,900 --> 00:18:56,050\nNow, that being said, I don't want\nyou to go out there and think,\n\n401\n00:18:56,050 --> 00:18:59,510\noh, I'll just study a little book,\nmaybe watch a couple of ITProTV videos and\n\n402\n00:18:59,510 --> 00:19:01,550\nI'm gonna go smoke this exam.\n\n403\n00:19:01,550 --> 00:19:02,400\nTake your time.\n\n404\n00:19:02,400 --> 00:19:04,750\nReally take this exam seriously.\n\n405\n00:19:04,750 --> 00:19:08,564\nIt is a tougher exam\nthan what it would be.\n\n406\n00:19:08,564 --> 00:19:12,380\nThey've really upped their game,\nso I want you guys to be prepared.\n\n407\n00:19:12,380 --> 00:19:13,270\nUse our videos.\n\n408\n00:19:13,270 --> 00:19:15,299\nUse any other type of study\nmaterial that you can find.\n\n409\n00:19:15,299 --> 00:19:19,730\nThere are great books and websites that\nare just littered all over the Internet.\n\n410\n00:19:19,730 --> 00:19:22,250\nYou can find all sorts of great\ninformation that's gonna help\n\n411\n00:19:22,250 --> 00:19:23,490\nyou get this done.\n\n412\n00:19:23,490 --> 00:19:26,530\nReally know that information so that when\nyou sit down at that testing center,\n\n413\n00:19:26,530 --> 00:19:31,440\nand you've got that exam in front of you,\nit's just cranking it out no problem.\n\n414\n00:19:31,440 --> 00:19:32,930\nIt's very simple.\n\n415\n00:19:32,930 --> 00:19:36,280\nNow again, 90 questions with 90 minutes.\n\n416\n00:19:36,280 --> 00:19:36,887\nIs that enough time, Don?\n\n417\n00:19:36,887 --> 00:19:37,711\nCan you get it done?\n\n418\n00:19:37,711 --> 00:19:40,550\n>> Absolutely,\npeople pass it every single day.\n\n419\n00:19:40,550 --> 00:19:42,395\nWe've both done it multiple times.\n\n420\n00:19:42,395 --> 00:19:45,060\n[LAUGH] So it's a very doable goal.\n\n421\n00:19:45,060 --> 00:19:46,009\nYou just have to hit the books.\n\n422\n00:19:46,009 --> 00:19:46,567\n>> Yeah.\n\n423\n00:19:46,567 --> 00:19:49,837\n>> All right, well, if all of that\nsounds interesting and exciting to you,\n\n424\n00:19:49,837 --> 00:19:51,280\nthen you are in the right place.\n\n425\n00:19:51,280 --> 00:19:51,850\nStay tuned.\n\n426\n00:19:51,850 --> 00:19:54,140\nWe've got Network+ episodes coming up.\n\n427\n00:19:54,140 --> 00:19:55,590\nIf that doesn't sound quite right for\nyou or\n\n428\n00:19:55,590 --> 00:19:58,530\nif you're not quite ready to jump\nright into Network+, remember,\n\n429\n00:19:58,530 --> 00:20:02,630\nwith your ITProTV subscription you\nhave access to our entire catalog.\n\n430\n00:20:02,630 --> 00:20:07,170\nCompTIA IT Fundamentals and\nA+ are both great places to get started.\n\n431\n00:20:07,170 --> 00:20:10,407\nFor other networking knowledge we\nhave things like the Cisco CCNA or\n\n432\n00:20:10,407 --> 00:20:13,834\nCisco CCNT you can jump into,\na little more focused on the Cisco world.\n\n433\n00:20:13,834 --> 00:20:16,388\nThere's a lot of different\nresources available on the site.\n\n434\n00:20:16,388 --> 00:20:17,851\nMake sure you take advantage of them.\n\n435\n00:20:17,851 --> 00:20:21,426\nBut if Network+ is what you want,\nstay tuned cuz it's coming up next.\n\n436\n00:20:21,426 --> 00:20:26,690\n[MUSIC]\n\n",
+          "url": "network-overview",
+          "vimeoId": "122547472"
+        }
+      ],
+      "title": "Overview"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Daniel take you through some of the various network devices that you will most likely encounter as a network tech in the field. They explain in great detail network appliances like routers, switches, firewalls, and even intrusion detection/prevention systems.",
+          "length": "6360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplusn10006-1-1-various_network_devices-031615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplusn10006-1-1-various_network_devices-031615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplusn10006-1-1-various_network_devices-031615-1-sm.jpg",
+          "title": "Various Network Devices",
+          "transcript": "",
+          "url": "various-network-devices-3",
+          "vimeoId": "122423041"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel continue on with familiarizing you with various network devices. Here they cover network appliances like content filters, load balancers, and VPN concentrators.",
+          "length": "4284",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-1-various_network_devices_pt2-031815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-1-various_network_devices_pt2-031815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-1-various_network_devices_pt2-031815-1-sm.jpg",
+          "title": "Various Network Devices Part 2",
+          "transcript": "",
+          "url": "various-network-devices-2",
+          "vimeoId": "122558513"
+        },
+        {
+          "description": "In this episode, Don and Daniel describe and demonstrate some of the networking services and applications that a Network+ certified tech will need to support. In great detail, they explain and even show you the \"science\" behind Virtual Private Networks (VPN) from learning what a VPN is, to the various types of VPNs and their associated encryption types and tunnels.",
+          "length": "3687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-2-networking_services-031715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-2-networking_services-031715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-2-networking_services-031715-1-sm.jpg",
+          "title": "Networking Services",
+          "transcript": "",
+          "url": "networking-services-3",
+          "vimeoId": "122547471"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue exploring different networking services and applications; specifically diving into remote authentication, authorization, and accounting servers (TACACS/RADIUS), Remote Access Servers (RAS), VoIP, and more.",
+          "length": "2753",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-2-networking_services_pt2-031915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-2-networking_services_pt2-031915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-2-networking_services_pt2-031915-1-sm.jpg",
+          "title": "Networking Services Part 2",
+          "transcript": "",
+          "url": "networking-services-2",
+          "vimeoId": "122751921"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain how to install and configure some of the various networking services/applications that are found on a typical network. Topics covered in no small detail include DHCP and DNS; two of the major services found on most networks.",
+          "length": "6085",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-3-networking_services_and_applications-031815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-3-networking_services_and_applications-031815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-3-networking_services_and_applications-031815-1-sm.jpg",
+          "title": "Networking Services/Applications",
+          "transcript": "",
+          "url": "networking-servicesapplications-3",
+          "vimeoId": "123013419"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie pick back up the task of explaining how to install and configure various networking services/applications. This time they are covering Proxy servers and their various applications. Also covered is Network Address Translation (NAT) and Port Forwarding.",
+          "length": "4193",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-3-network_services_and_applications_pt2-031915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-3-network_services_and_applications_pt2-031915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus-006-1-3-network_services_and_applications_pt2-031915-1-sm.jpg",
+          "title": "Networking Services/Applications Part 2",
+          "transcript": "",
+          "url": "networking-servicesapplications-2",
+          "vimeoId": "122751922"
+        },
+        {
+          "description": null,
+          "length": "5645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies-1-sm.jpg",
+          "title": "WAN Technologies",
+          "transcript": "",
+          "url": "wan-technologies2",
+          "vimeoId": "124296887"
+        },
+        {
+          "description": null,
+          "length": "5473",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies_pt2-040715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies_pt2-040715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-4-wan_technologies_pt2-040715-1-sm.jpg",
+          "title": "WAN Technologies Part 2",
+          "transcript": "",
+          "url": "wan-technologies-2",
+          "vimeoId": "124451039"
+        },
+        {
+          "description": null,
+          "length": "7167",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-5-network_cables_and_connectors-040715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-5-network_cables_and_connectors-040715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-5-network_cables_and_connectors-040715-1-sm.jpg",
+          "title": "Network Cables and Connectors",
+          "transcript": "",
+          "url": "network-cables-connectors",
+          "vimeoId": "124651362"
+        },
+        {
+          "description": null,
+          "length": "4151",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-network_cables_and_connectors_pt2-040815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-network_cables_and_connectors_pt2-040815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-network_cables_and_connectors_pt2-040815-1-sm.jpg",
+          "title": "Network Cables and Connectors Part 2",
+          "transcript": "",
+          "url": "network-cables-connectors-2",
+          "vimeoId": "124614907"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie examine the different network topologies and types covered in the Net+ exam. They cover all the bases starting with Mesh topologies and working all the way through Bus, Ring, Star, and Hybrid. Also covered are network types like Point-to-Point and Client/Server.",
+          "length": "4088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-6-common_network_topologies-041015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-6-common_network_topologies-041015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-6-common_network_topologies-041015-1-sm.jpg",
+          "title": "Common Network Topologies",
+          "transcript": "",
+          "url": "common-network-topologies",
+          "vimeoId": "124827279"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explain the different network infrastructures and how they are implemented. Common implementations like WAN, MAN, and LAN are covered as well as some more specialized networks like Industrial Control Systems (ICS) and Medianets.",
+          "length": "4210",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-7-network_infrastructures-041315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-7-network_infrastructures-041315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-7-network_infrastructures-041315-1-sm.jpg",
+          "title": "Network Infrastructures",
+          "transcript": "",
+          "url": "network-infrastructures",
+          "vimeoId": "124926699"
+        },
+        {
+          "description": null,
+          "length": "5577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing-041315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing-041315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing-041315-1-sm.jpg",
+          "title": "Basic Routing",
+          "transcript": "",
+          "url": "basic-routing",
+          "vimeoId": "124926700"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue exploring the different routing protocols as well as covering the myriad of routing metrics used to calculate route paths. Also, they show you how to increase the availability of a network by employing redundancy protocols like Virtual Routing Redundancy Protocol (VRRP) and Hot Standby Routing Protocol (HSRP)",
+          "length": "4532",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing_pt2-041415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing_pt2-041415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-9-basic_routing_pt2-041415-1-sm.jpg",
+          "title": "Basic Routing Part 2",
+          "transcript": "",
+          "url": "basic-routing-2",
+          "vimeoId": "125037315"
+        },
+        {
+          "description": "In this episode, Wes and Daniel explain the basics of Unified Communication (UC) technologies like Voice over IP phone systems, video conferencing, and other real-time services. They also give you an overview of the UC servers, end devices, and gateways that facilitate the various UC services.",
+          "length": "3636",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-10-communication_technologies-041415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-10-communication_technologies-041415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-10-communication_technologies-041415-1-sm.jpg",
+          "title": "Communication Technologies",
+          "transcript": "",
+          "url": "communication-technologies",
+          "vimeoId": "125037316"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explore and contrast the technologies that support virtualization and cloud services. They go over the different virtualized network hardware like virtual routers, switches, and NICs as well as covering the topic of storage over a network. Cloud services like IaaS, SaaS, and PaaS are also discussed.",
+          "length": "5758",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-11-cloud_and_virtualization-041515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-11-cloud_and_virtualization-041515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-11-cloud_and_virtualization-041515-1-sm.jpg",
+          "title": "Cloud and Virtualization",
+          "transcript": "",
+          "url": "cloud-virtualization",
+          "vimeoId": "125140257"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take you through all the considerations to take into account when designing and building a basic network. They explain some of the advantages as well as the disadvantages when it comes to both wired and wireless network, while also showing you some of the devices needed to implement either.",
+          "length": "4110",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-12-building_a_basic_network-041515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-12-building_a_basic_network-041515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-12-building_a_basic_network-041515-1-sm.jpg",
+          "title": "Building a Basic Network",
+          "transcript": "",
+          "url": "building-basic-network",
+          "vimeoId": "125140256"
+        },
+        {
+          "description": "In this episode Don begins the multipart series on IPv4 subnetting. He begins with a detailed discussion on what a subnet is, what it does and what we use it for. He continues with explaining the process of decimal to binary conversion and how to determine whether an IP address is part of the same network as another address.",
+          "length": "4670",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting-high-sm.jpg",
+          "title": "IPv4 Subnetting",
+          "transcript": "",
+          "url": "ipv4-subnetting-4",
+          "vimeoId": "128171018"
+        },
+        {
+          "description": "In this episode Don continues with a discussion on IPv4 subnetting with leveraging the use of subnets to create smaller or larger network to optimize network performance. He uses examples of splitting and combining networks to ensure enough IP address are available for network devices.",
+          "length": "5784",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting_pt2-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting_pt2-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-1-8-ipv4_subnetting_pt2-high-sm.jpg",
+          "title": "IPv4 Subnetting Part 2",
+          "transcript": "",
+          "url": "ipv4-subnetting-3",
+          "vimeoId": "128174852"
+        },
+        {
+          "description": null,
+          "length": "486",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example01-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example01-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example01-110614-high-sm.jpg",
+          "title": "Subnetting Example #1",
+          "transcript": "",
+          "url": "subnetting-example-22",
+          "vimeoId": "128172006"
+        },
+        {
+          "description": null,
+          "length": "581",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example02-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example02-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example02-110614-high-sm.jpg",
+          "title": "Subnetting Example #2",
+          "transcript": "",
+          "url": "subnetting-example-23",
+          "vimeoId": "128171450"
+        },
+        {
+          "description": null,
+          "length": "813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example03-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example03-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example03-110614-high-sm.jpg",
+          "title": "Subnetting Example #3",
+          "transcript": "",
+          "url": "subnetting-example-24",
+          "vimeoId": "128171820"
+        },
+        {
+          "description": null,
+          "length": "936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example04-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example04-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example04-110614-high-sm.jpg",
+          "title": "Subnetting Example #4",
+          "transcript": "",
+          "url": "subnetting-example-16",
+          "vimeoId": "128169167"
+        },
+        {
+          "description": null,
+          "length": "691",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example05-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example05-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example05-110614-high-sm.jpg",
+          "title": "Subnetting Example #5",
+          "transcript": "",
+          "url": "subnetting-example-17",
+          "vimeoId": "128170178"
+        },
+        {
+          "description": null,
+          "length": "676",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example06-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example06-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example06-110614-high-sm.jpg",
+          "title": "Subnetting Example #6",
+          "transcript": "",
+          "url": "subnetting-example-18",
+          "vimeoId": "128169434"
+        },
+        {
+          "description": null,
+          "length": "1095",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example07-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example07-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example07-110614-high-sm.jpg",
+          "title": "Subnetting Example #7",
+          "transcript": "",
+          "url": "subnetting-example-19",
+          "vimeoId": "128169841"
+        },
+        {
+          "description": null,
+          "length": "726",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example08-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example08-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example08-110614-high-sm.jpg",
+          "title": "Subnetting Example #8",
+          "transcript": "",
+          "url": "subnetting-example-20",
+          "vimeoId": "128170944"
+        },
+        {
+          "description": null,
+          "length": "761",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example09-110614-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example09-110614-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-subnetting-example09-110614-high-sm.jpg",
+          "title": "Subnetting Example #9",
+          "transcript": "",
+          "url": "subnetting-example-21",
+          "vimeoId": "128171248"
+        },
+        {
+          "description": "In this episode Don describes the characteristics of IP addressing. He begins with breaking down the IP address to binary conversion and how the subnet mask comes into play in determining which class the IP address belongs to. He wraps the show with a discussion on the main classes of IP addresses; both public and private classes.",
+          "length": "5605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/Net-1-3-IP-Addressing-sm.jpg",
+          "title": "IP Addressing",
+          "transcript": "",
+          "url": "ip-addressing2",
+          "vimeoId": "109692163"
+        },
+        {
+          "description": "In this episode Don covers the characteristics of IPv6 addressing. He begins by comparing IPv6 to IPv4 address and how they differ. He discusses the various classes of IPv6 addresses such as the private, loopback, multicast and link-local addresses.",
+          "length": "3360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/networkplus/1-3-IPv6-Addressing-sm.jpg",
+          "title": "IPv6 Addressing",
+          "transcript": "",
+          "url": "ipv6-addressing2",
+          "vimeoId": "109806715"
+        }
+      ],
+      "title": "Network architecture"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie continue walking you through different types of monitoring and monitoring tools. They show you how to use monitors like Security Information and Event Management (SIEM) for collecting security logs from multiple points; and then show how to do some wireless monitoring for getting the most efficient wireless network setup. Also covered is environmental and power monitoring.",
+          "length": "4803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools-041615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools-041615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools-041615-1-sm.jpg",
+          "title": "Monitoring Tools",
+          "transcript": "",
+          "url": "monitoring-tools",
+          "vimeoId": "125243028"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue walking you through different types of monitoring and monitoring tools. They show you how to use monitors like Security Information and Event Management (SIEM) for collecting security logs from multiple points; and then show how to do some wireless monitoring for getting the most efficient wireless network setup. Also covered is environmental and power monitoring.",
+          "length": "3070",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools_pt2-041615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools_pt2-041615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-1-monitoring_tools_pt2-041615-1-sm.jpg",
+          "title": "Monitoring Tools Part 2",
+          "transcript": "",
+          "url": "monitoring-tools-2",
+          "vimeoId": "125243029"
+        },
+        {
+          "description": "In this episode, Daniel and Wes explain how to analyze the info and reports gathered by your monitoring and performance tools. They explain some of the basic concepts like baselines and bottlenecks and then get into more detailed concepts like interface monitoring output, graphs, and utilization charts.",
+          "length": "4202",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-2-analyzing_metrics_and_reports-041715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-2-analyzing_metrics_and_reports-041715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-2-analyzing_metrics_and_reports-041715-1-sm.jpg",
+          "title": "Analyzing Metrics and Reports",
+          "transcript": "",
+          "url": "analyzing-metrics-reports",
+          "vimeoId": "125452671"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain how to implement certain resources to support and manage your network and/or system configurations. They describe the importance of having good backups and network documentation, the basics of Network Access Control systems, asset management, and network diagrams.",
+          "length": "4803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-3-support_configuration_management-050715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-3-configuration_management_resources-041715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-3-configuration_management_resources-041715-1-sm.jpg",
+          "title": "Support Config Management",
+          "transcript": "",
+          "url": "support-config-management",
+          "vimeoId": "127253164"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain the importance of network segmentation. They explain the logic behind the need to segregate networks and give examples of the types of systems that might need segmenting like SCADA, test environments, and legacy systems.",
+          "length": "3024",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-4-network_segmentation-042015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-4-network_segmentation-042015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-4-network_segmentation-042015-1-sm.jpg",
+          "title": "Network Segmentation",
+          "transcript": "",
+          "url": "network-segmentation",
+          "vimeoId": "125793469"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the importance and procedure for installing and applying various types of patches and updates. They talk about vulnerability patches, driver updates, and firmware updates. They also explain why you might need to downgrade an updated system and the difference between the two.",
+          "length": "2325",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-5-patches_and_updates-042015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-5-patches_and_updates-042015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-5-patches_and_updates-042015-1-sm.jpg",
+          "title": "Patches and Updates",
+          "transcript": "",
+          "url": "patches-updates",
+          "vimeoId": "125793468"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel explain the functions of a network switch as well as its features and configuration. They show you how to create things like VLANs, set a default gateway and configure IP addresses. They also explain features like Power-over-Ethernet(PoE) and VLAN-Trunking-Protocol (VTP) and how they can benefit your network.",
+          "length": "6190",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches-042015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches-042015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches-042015-1-sm.jpg",
+          "title": "Configuring Switches",
+          "transcript": "",
+          "url": "configuring-switches",
+          "vimeoId": "125706860"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue explaining switch configuration. They expound on switch management by discussing user authentication; both locally and server based (AAA). They also instruct you on how to connect to a managed switch via a console cable or through remote protocols like telnet.",
+          "length": "1792",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches_pt2-042115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches_pt2-042115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-6-configuring_switches_pt2-042115-1-sm.jpg",
+          "title": "Configuring Switches Part 2",
+          "transcript": "",
+          "url": "configuring-switches-2",
+          "vimeoId": "125804058"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss implementing wireless infrastructure and the technologies that support it. They explain the different wireless devices like Access Points and the various mobile devices. Then they discuss topics like placement, antennae types, and wireless topologies.",
+          "length": "4529",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-7-wireless_infrastructure-042115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-7-wireless_infrastructure-042115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-2-7-wireless_infrastructure-042115-1-sm.jpg",
+          "title": "Wireless Infrastructure",
+          "transcript": "",
+          "url": "wireless-infrastructure",
+          "vimeoId": "125804055"
+        }
+      ],
+      "title": "Network operations"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie go over the basic concepts that pertain to risk management and disaster recovery. They explore the standards, policies, and procedures that will help ensure business continuity in the event of a worst-case scenario. Topics covered include disaster recovery, data breaches, end-user awareness and training, and risk mitigation through vulnerability testing and redundancy.",
+          "length": "5515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-1-risk_related_concepts-042215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-1-risk_related_concepts-042215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-1-risk_related_concepts-042215-1-sm.jpg",
+          "title": "Risk Related Concepts",
+          "transcript": "",
+          "url": "risk-related-concepts",
+          "vimeoId": "125804051"
+        },
+        {
+          "description": null,
+          "length": "6208",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia_netplus006-3-2-threats_and_vulnerabilities-042315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia_netplus006-3-2-threats_and_vulnerabilities-042315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia_netplus006-3-2-threats_and_vulnerabilities-042315-1-sm.jpg",
+          "title": "Threats and Vulnerabilities",
+          "transcript": "",
+          "url": "threats-vulnerabilities",
+          "vimeoId": "125904240"
+        },
+        {
+          "description": null,
+          "length": "6104",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-2-threats_and_vulnerabilities_pt2-042415.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-2-threats_and_vulnerabilities_pt2-042415-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-2-threats_and_vulnerabilities_pt2-042415-sm.jpg",
+          "title": "Threats and Vulnerabilities Part 2",
+          "transcript": "",
+          "url": "threats-vulnerabilities-2",
+          "vimeoId": "126372709"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain the various techniques used when implementing network hardening. They cover security techniques such as antivirus/antimalware for the workstation and the network wire. They also demonstrate switch port security that helps in maintaining data and workstation integrity. Also discussed is the importance of using secure protocols like SSH, SSL, and IPsec.",
+          "length": "4421",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques-050815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques-050815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques-050815-1-sm.jpg",
+          "title": "Network Hardening Techniques",
+          "transcript": "",
+          "url": "network-hardening-techniques",
+          "vimeoId": "127289077"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue explaining the various techniques used when implementing network hardening. They cover the use of Access Control Lists (ACL) and web proxies to filter content, wireless security, and user authentication techniques like PAP, CHAP, and Kerberos. Hashing to maintain integrity is also covered.",
+          "length": "5967",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques_pt2-051115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques_pt2-051115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-3-network_hardening_techniques_pt2-051115-1-sm.jpg",
+          "title": "Network Hardening Techniques Part 2",
+          "transcript": "",
+          "url": "network-hardening-techniques-2",
+          "vimeoId": "127592744"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel explain and contrast the various physical controls that can be implemented for security. They discuss physical security measures like Mantraps, video surveillance systems, biometrics, and electronic lock systems.",
+          "length": "3201",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-4-physical_security-051215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-4-physical_security-051215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-4-physical_security-051215-1-sm.jpg",
+          "title": "Physical Security",
+          "transcript": "",
+          "url": "physical-security-awareness2",
+          "vimeoId": "127659398"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie go over the basic concepts of digital forensics. They introduce you to the standard practices and procedures for handling an incident be it accidental or criminal. They cover concepts like eDiscovery, documentation, chain of custody, and data transport.",
+          "length": "2866",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-7-basic_forensic_concepts-051215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-7-basic_forensic_concepts-051215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-7-basic_forensic_concepts-051215-1-sm.jpg",
+          "title": "Basic Forensic Concepts",
+          "transcript": "",
+          "url": "basic-forensic-concepts",
+          "vimeoId": "127659399"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie explain the basics of installing and configuring a firewall. They explain the differences between the types of firewalls, whether they be software or hardware, the type of firewall service they can provide, as well as some practical use and implementation.",
+          "length": "6360",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-5-basic_firewall_config-051315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-5-basic_firewall_config-051315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-5-basic_firewall_config-051315-1-sm.jpg",
+          "title": "Basic Firewall Config",
+          "transcript": "",
+          "url": "basic-firewall-config",
+          "vimeoId": "127825293"
+        },
+        {
+          "description": "In this episode, Ronnie and Daniel explain the how, when, and where of implementing Network Access Control (NAC) systems. They give an overview of NAC operations for granting and denying access to networks and network resources and then describe the different NAC models like Mandatory, Discretionary, Role and Rule based.",
+          "length": "4296",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-6-access_control_models-051415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-6-access_control_models-051415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-3-6-access_control_models-051415-1-sm.jpg",
+          "title": "Access Control Models",
+          "transcript": "",
+          "url": "access-control-models",
+          "vimeoId": "127867870"
+        }
+      ],
+      "title": "Network security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through the CompTIA network troubleshooting method. Step-by-step they explore and explain each process; from identifying the problem, to implementing a solution and documenting your findings.",
+          "length": "4395",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-1-troubleshooting_theory-051815.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-1-troubleshooting_theory-051815-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-1-troubleshooting_theory-051815-sm.jpg",
+          "title": "Net+ Troubleshooting Theory",
+          "transcript": "",
+          "url": "net-troubleshooting-theory",
+          "vimeoId": "128375597"
+        },
+        {
+          "description": null,
+          "length": "6675",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplus006-4-2-troubleshooting_tools-051915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplus006-4-2-troubleshooting_tools-051915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-networkplus006-4-2-troubleshooting_tools-051915-sm.jpg",
+          "title": "Troubleshooting Tools",
+          "transcript": "",
+          "url": "troubleshooting-tools2",
+          "vimeoId": "128375598"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss troubleshooting and resolving common wireless issues. They explain various issues like signal loss, interference, overlapping channels, and channel saturation.",
+          "length": "5437",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-3-common_wireless_issues-052015.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-3-common_wireless_issues-052015-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-3-common_wireless_issues-052015-sm.jpg",
+          "title": "Common Wireless Issues",
+          "transcript": "",
+          "url": "common-wireless-issues",
+          "vimeoId": "128493267"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie walk you through common issues with copper cable media. They discuss troubleshooting problems like electrical shorts and cuts, incorrect termination, and interference from other electrical devices.",
+          "length": "3304",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-4-copper_cable_issues-052215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-4-copper_cable_issues-052215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-4-copper_cable_issues-052215-sm.jpg",
+          "title": "Copper Cable Issues",
+          "transcript": "",
+          "url": "copper-cable-issues",
+          "vimeoId": "128989514"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss troubleshooting, and resolving common issue with fiber optic cables. They cover issues like signal attenuation, wavelength mismatches, and bend radius limitations.",
+          "length": "1768",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-5-common_fiber_optics_issues-052215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-5-common_fiber_optics_issues-052215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-5-common_fiber_optics_issues-052215-sm.jpg",
+          "title": "Common Fiber Optics Issues",
+          "transcript": "",
+          "url": "common-fiber-optics-issues",
+          "vimeoId": "128989511"
+        },
+        {
+          "description": "In this episode, Daniel and Mike walk you through many common security issues and what you can do to troubleshoot and resolve them. They discuss security problems like misconfigured firewalls, denial of service attacks, malicious users, and authentication issues.",
+          "length": "6989",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-7-resolving_security_issues-060815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-7-resolving_security_issues-060815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-7-resolving_security_issues-060815-1-sm.jpg",
+          "title": "Resolving Security Issues",
+          "transcript": "",
+          "url": "resolving-security-issues",
+          "vimeoId": "130220842"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explain how to troubleshoot and resolve common WAN issues. They describe the different types of equipment involved with connecting WANs along with techniques for resolving problems with that equipment when they arise. Also discussed is router interface errors and misconfiguration issue as well as DNS and even satellite WAN issues.",
+          "length": "5613",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-8-common_wan_issues-060915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-8-common_wan_issues-060915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-8-common_wan_issues-060915-1-sm.jpg",
+          "title": "Common WAN Issues",
+          "transcript": "",
+          "url": "common-wan-issues",
+          "vimeoId": "130449783"
+        },
+        {
+          "description": "In this episode Mike and Ronnie take a look at some of easily overlooked network issues that can cause networking performance issues.  They show and discuss not only issues that directly relate to the end user but also at the network service level and network infrastructure.",
+          "length": "7141",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-6-common_network_issues-061515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-6-common_network_issues-061515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-4-6-common_network_issues-061515-1-sm.jpg",
+          "title": "Common Network Issues",
+          "transcript": "",
+          "url": "common-network-issues",
+          "vimeoId": "130994248"
+        }
+      ],
+      "title": "Troubleshooting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Daniel and Mike describe the layers of the OSI reference model. They walk you through each layer describing its purpose and how it is used when sending and receiving data over a computer network.",
+          "length": "4686",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-1-osi_layers-061015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-1-osi_layers-061015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-1-osi_layers-061015-1-sm.jpg",
+          "title": "OSI Layers",
+          "transcript": "",
+          "url": "osi-layers",
+          "vimeoId": "130449784"
+        },
+        {
+          "description": "In this episode, Mike and Daniel describe many of the basic networking theories and concepts you might encounter as a network technician. Topics covered include data encapsulation, signal modulation/multiplexing, and data collision detection and avoidance.",
+          "length": "6161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-2-basic_network_theory-061115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-2-basic_network_theory-061115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-2-basic_network_theory-061115-1-sm.jpg",
+          "title": "Basic Network Theory",
+          "transcript": "",
+          "url": "basic-network-theory",
+          "vimeoId": "130545288"
+        },
+        {
+          "description": null,
+          "length": "2963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-3-wireless_standards-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-3-wireless_standards-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-3-wireless_standards-061215-1-sm.jpg",
+          "title": "Wireless Standards",
+          "transcript": "",
+          "url": "wireless-standards",
+          "vimeoId": "130769500"
+        },
+        {
+          "description": null,
+          "length": "3272",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-4-wired_connectivity__standards-061215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-4-wired_connectivity__standards-061215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-4-wired_connectivity__standards-061215-1-sm.jpg",
+          "title": "Wired Connectivity Standards",
+          "transcript": "",
+          "url": "wired-connectivity-standards",
+          "vimeoId": "130769502"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie take a look a different scenarios that IT professionals must consider implementing policies and procedures. They show some of the different templates available and discuss why they are needed.",
+          "length": "2913",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-5-policies_and_procedures-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-5-policies_and_procedures-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-5-policies_and_procedures-061615-1-sm.jpg",
+          "title": "Policies and Procedures",
+          "transcript": "",
+          "url": "policies-procedures",
+          "vimeoId": "131129585"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie take a look into some of the most common safety practices around high voltage, equipment installation, chemical spills and emergencies.  They also describe fire supression systems including Clean Agent.",
+          "length": "3470",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-6-safety_practices-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-6-safety_practices-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-6-safety_practices-061615-1-sm.jpg",
+          "title": "Safety Practices",
+          "transcript": "",
+          "url": "safety-practices",
+          "vimeoId": "131129583"
+        },
+        {
+          "description": "In this episode, Mike and Ronnie talk about equipment installation considerations including basic scability in design to practical installation matters like power, placement and monitoring systems to be considered. They show example from the ITProTV facilities.",
+          "length": "5327",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-7-managing_equipment-061815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-7-managing_equipment-061815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-7-managing_equipment-061815-1-sm.jpg",
+          "title": "Managing Equipment",
+          "transcript": "",
+          "url": "managing-equipment",
+          "vimeoId": "131197535"
+        },
+        {
+          "description": "In this episode Mike and Ronnie discuss the needs and procedures of basic change management.  They talk about the importance of documentation and communication that should be part of every IT team when equipment changes, configuration changes and event changes can impact the network.",
+          "length": "3194",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-8-change_management-061815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-8-change_management-061815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-8-change_management-061815-1-sm.jpg",
+          "title": "Change Management",
+          "transcript": "",
+          "url": "change-management",
+          "vimeoId": "131197534"
+        },
+        {
+          "description": null,
+          "length": "2982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-9-ports_and_protocols-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-9-ports_and_protocols-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-9-ports_and_protocols-061915-1-sm.jpg",
+          "title": "Ports and Protocols",
+          "transcript": "",
+          "url": "ports-protocols",
+          "vimeoId": "131432007"
+        },
+        {
+          "description": null,
+          "length": "1464",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-10-using_ports_and_protocols-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-10-using_ports_and_protocols-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-netplus006-5-10-using_ports_and_protocols-061915-1-sm.jpg",
+          "title": "Using Ports and Protocols",
+          "transcript": "",
+          "url": "using-ports-protocols",
+          "vimeoId": "131432006"
+        }
+      ],
+      "title": "Industry standards, practices, and network theory"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Daniel explore a few miscellaneous topics pertaining to wired and wireless technologies. Here they cover media converters like Single-Mode Fiber to Ethernet, Multimode Fiber to Ethernet, Fiber to Coax, and Single Mode to Multimode Fiber.",
+          "length": "1364",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-1-additional_information-012916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-1-additional_information-012916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-1-additional_information-012916-1-sm.jpg",
+          "title": "Additional Information",
+          "transcript": "",
+          "url": "additional-information8",
+          "vimeoId": "153772553"
+        },
+        {
+          "description": "In this episode, Wes and Daniel look at a few more miscellaneous topics; this time looking at IPv6 related content. Here they cover DHCP6, which is automatic addressing of nodes using the IPv6 networking protocol. They explain stateless, stateful, and manual configurations. They also cover IPv6 in a still largely IPv4 world and how the two can coexist with 6to4/4to6 tunneling and Teredo/Miredo.",
+          "length": "1596",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-2-additional_information-012916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-2-additional_information-012916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus006/comptia-n10006-6-2-additional_information-012916-1-sm.jpg",
+          "title": "Additional Information Part 2",
+          "transcript": "",
+          "url": "additional-information-7",
+          "vimeoId": "153773060"
+        }
+      ],
+      "title": "Additional Topics"
+    }
+  ],
+  "url": "network1",
+  "vLab": true
+}

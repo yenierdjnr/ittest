@@ -5,31 +5,28 @@ import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 
 const episodeLengthToString = (length) => {
-    length = Number(length);
-    var h = Math.floor(length / 3600);
-    var m = Math.floor(length % 3600 / 60);
+  length = Number(length);
+  const h = Math.floor(length / 3600);
+  const m = Math.floor(length % 3600 / 60);
 
-    var hDisplay = h > 0 ? h + (h == 1 ? " hour" : " hours") : "";
-    var mDisplay = m > 0 ? m + (m == 1 ? " minute" : " minutes") : "";
-    return [hDisplay, mDisplay ];
+  const hDisplay = h > 0 ? h + (h == 1 ? " hour" : " hours") : "";
+  const mDisplay = m > 0 ? m + (m == 1 ? " minute" : " minutes") : "";
+  return [hDisplay, mDisplay ];
 }
 
 
-const EpisodeDetails = props => {
-
-  return (
-    <section className={ styles.episodeDetails }>
-      <Hx className={ styles.title } size="4" color={ styles.offBlack }>{ props.title }
-        <span className={ styles.length }>
-          {!!props.length &&
+const EpisodeDetails = (props) => 
+  <section className={ styles.episodeDetails }>
+    <Hx className={ styles.title } size="4" color={ styles.offBlack }>{ props.title }
+      <span className={ styles.length }>
+        {!!props.length &&
             <span>{ episodeLengthToString(props.length).join(' ') }</span>
-          }
-        </span>
-      </Hx>
-      <Para className={ styles.summary } color={ styles.greyDark }>{ props.description }</Para>
-    </section>
-  );
-};
+        }
+      </span>
+    </Hx>
+    <Para className={ styles.summary } color={ styles.greyDark }>{ props.description }</Para>
+  </section>
+  ;
 
 
 export default EpisodeDetails;

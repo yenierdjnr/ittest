@@ -1,0 +1,304 @@
+{
+  "description": "In these episodes we look at the transition of an IT service from a design plan to a live service. We examine closely processes such as Change Management and Release and Deployment Management and we also look at what services are made of in Service Asset & Configuration Management. We look at the concept of early life support and also the value of knowledge in enabling decision making. Like all ITIL shows we also look at critical success factors and key performance indicators and we do some exam prep too!",
+  "descriptionMD": "** Look for our partner PassionIT Group's information [HERE](https://itprotv-notes-bucket.s3.amazonaws.com/ITIL_OVERVIEW.zip)  Codes for offers are available to members and in the download in the second episode** In these episodes we look at the transition of an IT service from a design plan to a live service. We examine closely processes such as Change Management and Release and Deployment Management and we also look at what services are made of in Service Asset & Configuration Management. We look at the concept of early life support and also the value of knowledge in enabling decision making. Like all ITIL shows we also look at critical success factors and key performance indicators and we do some exam prep too! For course completion certificates to be submitted for exams, please [contact PassionIT Group](mailto:info@passionitgroup.com).",
+  "length": "45685",
+  "name": "Accredited ITIL Intermediate - Service Transition",
+  "practiceExam": false,
+  "subtitle": "Service Transition",
+  "tagUrl": "itil-master",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In these episodes we look at the transition of an IT service from a design plan to a live service. We examine closely processes such as Change Management and Release and Deployment Management and we also look at what services are made of in Service Asset & Configuration Management. We look at the concept of early life support and also the value of knowledge in enabling decision making. Like all ITIL shows we also look at critical success factors and key performance indicators and we do some exam prep too! For course completion certificates to be submitted for exams, please contact PassionIT Group.",
+          "length": "946",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-0-0-introduction_to_itil_intermediate-061517.00_00_02_27.Still004.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-0-0-introduction_to_itil_intermediate-061517.00_00_02_27.Still004-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-0-0-introduction_to_itil_intermediate-061517.00_00_02_27.Still004-sm.jpg",
+          "title": "Introduction to ITIL Intermediate",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:06.224\n[SOUND] Hi and welcome to ITPRO.TV.\n\n2\n00:00:06.224 --> 00:00:08.174\nMy name is Jo Peacock, and\n\n3\n00:00:08.174 --> 00:00:14.127\nI'm going to be taking you through\nan introduction to your ITIL Intermediate.\n\n4\n00:00:14.127 --> 00:00:18.291\nSo let's take a look then at our\nfirst slide here, coming up.\n\n5\n00:00:18.291 --> 00:00:22.360\nAnd we have our introduction\nto our intermediate class, and\n\n6\n00:00:22.360 --> 00:00:27.730\nexactly what content is going to be found\nin this upcoming intermediate class.\n\n7\n00:00:27.730 --> 00:00:32.340\nYou will see, what we will cover\nis an introduction to the class,\n\n8\n00:00:32.340 --> 00:00:37.100\nfollowed by the principles and\nthe processes of the life cycle phase.\n\n9\n00:00:37.100 --> 00:00:40.550\nThen we'll take a look organizing for\nthat life cycle phase,\n\n10\n00:00:40.550 --> 00:00:43.500\nand also the technology considerations,\n\n11\n00:00:43.500 --> 00:00:48.270\nespecially those that we need when\nwe're implementing the phase itself.\n\n12\n00:00:48.270 --> 00:00:51.880\nThen we'll take a look at the challenges\nand the critical success factors, and\n\n13\n00:00:51.880 --> 00:00:57.140\nall of the risks that are associated\nwith that particular life cycle phase.\n\n14\n00:00:57.140 --> 00:01:00.603\nAnd most importantly of course for\nyou, is that preparation for\n\n15\n00:01:00.603 --> 00:01:04.980\nthe exam that's going to be coming up\nwhen you have completed your class, okay?\n\n16\n00:01:05.980 --> 00:01:10.670\nSo let me take a look now then at how\nwe're going to approach this particular\n\n17\n00:01:10.670 --> 00:01:11.790\nintermediate class.\n\n18\n00:01:14.250 --> 00:01:17.230\nWe're going to be doing\nsome presentation work.\n\n19\n00:01:17.230 --> 00:01:22.550\nObviously, you're going to be watching us\non screen, both myself and my colleague.\n\n20\n00:01:22.550 --> 00:01:27.110\nAnd we're going to be taking through\nthe course materials for the class.\n\n21\n00:01:27.110 --> 00:01:29.910\nAnd then,\nthere are going to be some discussions and\n\n22\n00:01:29.910 --> 00:01:35.530\nsome exercises that are going to be\nbased primarily in our chat rooms,\n\n23\n00:01:35.530 --> 00:01:38.140\nand also in our forums as well.\n\n24\n00:01:38.140 --> 00:01:42.530\nAnd we're also available, if you want\nto undertake any of the assessments.\n\n25\n00:01:42.530 --> 00:01:46.168\nThen please feel free to come\nback to us via the forums, and\n\n26\n00:01:46.168 --> 00:01:49.080\nwe will be able to help\nyou out in any way we can.\n\n27\n00:01:49.080 --> 00:01:52.808\nAlso provided in the course material,\nwhich is available for\n\n28\n00:01:52.808 --> 00:01:57.120\nyou to download are mock tests or\nexams, if you prefer to use that word.\n\n29\n00:01:57.120 --> 00:02:02.720\nAnd we will be conducting a run\nthrough of that mock exam for you.\n\n30\n00:02:04.530 --> 00:02:08.621\nSo where are we then at\nITIL intermediate level?\n\n31\n00:02:08.621 --> 00:02:11.873\nWell, you'll see in\nusing Bloom's Taxonomy,\n\n32\n00:02:11.873 --> 00:02:14.820\nthat we are actually at level 4 analyzing.\n\n33\n00:02:14.820 --> 00:02:18.100\nIn other words,\nwe've done at foundation level.\n\n34\n00:02:18.100 --> 00:02:20.081\nWe've done the remembering and\n\n35\n00:02:20.081 --> 00:02:23.243\nthe understanding of those\nconcepts within ITIL.\n\n36\n00:02:23.243 --> 00:02:27.686\nAnd we're actually moving through\napplying those concepts to\n\n37\n00:02:27.686 --> 00:02:33.090\nanalyzing those concepts, and\nbeing able to apply the ITIL processes.\n\n38\n00:02:33.090 --> 00:02:40.248\nAnd also the concepts at a real-world\nlevel in a real-world situation.\n\n39\n00:02:40.248 --> 00:02:42.590\nSo where does ITIL comes from then?\n\n40\n00:02:42.590 --> 00:02:44.849\nWell, let me give you\na little bit of a background.\n\n41\n00:02:44.849 --> 00:02:47.857\nIt's actually owned by\na company called Axelos.\n\n42\n00:02:47.857 --> 00:02:54.110\nAnd it was first published in\nthe mid 1980s by the UK government.\n\n43\n00:02:54.110 --> 00:03:00.748\nAnd the Office of Government Commerce\nowned ITIL for a very, very long time.\n\n44\n00:03:00.748 --> 00:03:05.196\nAnd we developed ITIL right\nthe way back from the 1980s\n\n45\n00:03:05.196 --> 00:03:08.828\nthrough it's version two in the 1990's,\n\n46\n00:03:08.828 --> 00:03:14.115\nmid 1990's to version three,\nwhich was released in 2007.\n\n47\n00:03:14.115 --> 00:03:18.848\nAnd then there was an update\nto version three in 2011,\n\n48\n00:03:18.848 --> 00:03:22.140\nwhich is exactly where we are right now.\n\n49\n00:03:22.140 --> 00:03:23.010\nIt is copyrighted.\n\n50\n00:03:23.010 --> 00:03:25.110\nIt is trademark protected.\n\n51\n00:03:25.110 --> 00:03:30.960\nIt's a framework for managing services,\nand as such it is a flexible framework.\n\n52\n00:03:30.960 --> 00:03:36.730\nA framework that we would expect any\norganization to adopt as a framework,\n\n53\n00:03:36.730 --> 00:03:39.948\nbut then to adopt it to suit your needs,\nokay?\n\n54\n00:03:39.948 --> 00:03:44.209\nITIL was born right\nthe way back in the 1980s,\n\n55\n00:03:44.209 --> 00:03:49.180\nout of a desire to be able to\ndemonstrate value for money and\n\n56\n00:03:49.180 --> 00:03:54.070\nefficiency for\nthe use of taxpayers money within the UK.\n\n57\n00:03:54.070 --> 00:03:58.175\nWay back in the 1980s,\nthese things started appearing on desk.\n\n58\n00:03:58.175 --> 00:04:03.800\nAnd quite frankly, we didn't know\nhow to manage these in an unbiased,\n\n59\n00:04:03.800 --> 00:04:08.129\nin an impartial, and\nan efficient and effective way.\n\n60\n00:04:08.129 --> 00:04:10.420\nAnd thus ITIL was born.\n\n61\n00:04:10.420 --> 00:04:15.521\nAnd ITIL was born from a group of industry\nexperts that went out into the big wide\n\n62\n00:04:15.521 --> 00:04:21.397\nworld, and analyzed various organizations\nfrom a various different industry sectors,\n\n63\n00:04:21.397 --> 00:04:27.062\nnot just government, but we're talking\nfinance, we're talking retail, and etc.\n\n64\n00:04:27.062 --> 00:04:31.230\nAnd they came back with\na set of best practices.\n\n65\n00:04:31.230 --> 00:04:38.109\nBest practices that they observed in the\nreal world for managing our IT services.\n\n66\n00:04:38.109 --> 00:04:39.950\nAnd thus, we have ITIL.\n\n67\n00:04:39.950 --> 00:04:43.520\nAnd as I've already said,\nwe've had subsequent revisions.\n\n68\n00:04:43.520 --> 00:04:46.063\nAnd now, we're up to version three 2011.\n\n69\n00:04:46.063 --> 00:04:51.071\nSo we work on the understanding that,\n\n70\n00:04:51.071 --> 00:04:56.240\nwe have a life to every single service.\n\n71\n00:04:57.500 --> 00:05:00.960\nAnd we start off with a concept and\nservice strategy, and\n\n72\n00:05:00.960 --> 00:05:05.080\nthen we take that concept and\nwe design it.\n\n73\n00:05:05.080 --> 00:05:09.731\nAnd then we develop it, and\nwe deploy it as a service into a live\n\n74\n00:05:09.731 --> 00:05:14.573\nenvironment which is where we operate and\nwhere we maintain it.\n\n75\n00:05:14.573 --> 00:05:19.003\nAnd we continually seek to\nensure that we are aligned with\n\n76\n00:05:19.003 --> 00:05:21.969\nthe needs of the organization in CSI.\n\n77\n00:05:24.692 --> 00:05:27.130\nSo you're attending this class,\n\n78\n00:05:27.130 --> 00:05:33.027\nbecause you probably want to achieve\nan ITIL intermediate qualification, okay?\n\n79\n00:05:34.180 --> 00:05:37.920\nSo you can see that if we were\nto start off right at the very,\n\n80\n00:05:37.920 --> 00:05:40.292\nvery top, you'll see where I am.\n\n81\n00:05:40.292 --> 00:05:46.560\nI am an accredited ITIL trainer working\nwith an accredited training organization.\n\n82\n00:05:46.560 --> 00:05:51.610\nI'm also an accredited examiner and\nproctor or invigilator for\n\n83\n00:05:51.610 --> 00:05:57.020\nthese exams,and work very, very closely\nwith the official ITIL accreditor and\n\n84\n00:05:57.020 --> 00:06:00.560\nalso Axelos who owns the ITIL copyright.\n\n85\n00:06:02.100 --> 00:06:07.080\nNow in terms of ITIL, where can you\ngo with your qualification level?\n\n86\n00:06:07.080 --> 00:06:08.859\nWell, we start off with ITIL foundation.\n\n87\n00:06:08.859 --> 00:06:13.908\nAnd ITIL foundation is a,\nwould traditionally be a three day\n\n88\n00:06:13.908 --> 00:06:19.750\nclassroom experience where we learn\nthe foundations of ITIL, okay?\n\n89\n00:06:19.750 --> 00:06:23.692\nAnd we learned all the terminology and all\nof the definitions to that terminology.\n\n90\n00:06:23.692 --> 00:06:28.900\nThere's roughly around about 75 that we\nlearn within the ITIL foundation class.\n\n91\n00:06:28.900 --> 00:06:34.440\nAnd then as we move through, we can either\ntake an ITIL practitioner class, which can\n\n92\n00:06:34.440 --> 00:06:39.976\nbe taken at any point in time throughout\nthe progression of your career within\n\n93\n00:06:39.976 --> 00:06:46.220\nITIL, because ITIL practitioner focuses\non the implementation of ITIL, okay?\n\n94\n00:06:46.220 --> 00:06:50.210\nWhereas, if we take a look at the more\nadvanced intermediate classes,\n\n95\n00:06:50.210 --> 00:06:55.040\nyou are at this moment\nin a life cycle module.\n\n96\n00:06:55.040 --> 00:06:59.720\nAnd those life cycle modules consist\nof service strategies, service design,\n\n97\n00:06:59.720 --> 00:07:04.470\nservice transition, service operation,\nand continual service improvement.\n\n98\n00:07:04.470 --> 00:07:07.680\nAnd that’s where we focus on those\nlife cycles that we've just looked at\n\n99\n00:07:07.680 --> 00:07:09.330\npreviously.\n\n100\n00:07:09.330 --> 00:07:14.268\nOkay, and on the right-hand side\nthen we have our capability modules.\n\n101\n00:07:14.268 --> 00:07:22.461\nAnd these capability modules really focus\non specific areas within ITIL such as RCV,\n\n102\n00:07:22.461 --> 00:07:27.372\nwhich focuses on release control and\nvalidation.\n\n103\n00:07:27.372 --> 00:07:30.897\nAnd these classes,\nyou will notice that every single one\n\n104\n00:07:30.897 --> 00:07:34.430\nof this classes has got\na score right beside each one.\n\n105\n00:07:34.430 --> 00:07:38.080\nSo we've got a number two for\nITIL foundation and we've got a three for\n\n106\n00:07:38.080 --> 00:07:44.660\nlife cycle modules, and we've got\na four for our capability modules.\n\n107\n00:07:44.660 --> 00:07:50.700\nNow what we need to do is ensure\nthat we have achieved a minimum\n\n108\n00:07:50.700 --> 00:07:57.935\nof 15 credits at both either life cycle or\ncapability module level.\n\n109\n00:07:57.935 --> 00:08:03.855\nIn order to be able to qualify to see\nthe managing across the life cycle class,\n\n110\n00:08:03.855 --> 00:08:08.665\nand the full subsequently,\nthe test that goes among with that class.\n\n111\n00:08:08.665 --> 00:08:11.995\nSo we need to take two\nfrom the ITIL foundation.\n\n112\n00:08:11.995 --> 00:08:15.065\nThat's a prerequisite,\nwe have to do the foundation and\n\n113\n00:08:15.065 --> 00:08:19.500\nthen we need to add in another\n15 scores from either,\n\n114\n00:08:19.500 --> 00:08:24.090\nas I've said, the life cycle or capability\nstream, now you can interchange.\n\n115\n00:08:24.090 --> 00:08:29.100\nYou can mix and match, you do not have\nto stick to one stream or the other.\n\n116\n00:08:29.100 --> 00:08:33.215\nOnce you've gotten that 17 in total scores\n\n117\n00:08:33.215 --> 00:08:37.165\nthat are needed to be able to sit\nmanaging across the life cycle.\n\n118\n00:08:37.165 --> 00:08:41.345\nYour perfectly able to sit\nthat life cycle class and\n\n119\n00:08:41.345 --> 00:08:43.845\nto be able to take that test afterwards.\n\n120\n00:08:43.845 --> 00:08:48.341\nAnd as soon as you've taken that test,\nyou will be awarded those five\n\n121\n00:08:48.341 --> 00:08:52.307\ncredits which will mean that\nyou have achieved ITIL expert.\n\n122\n00:08:52.307 --> 00:08:57.442\nNow ITIL expert is allocated as soon\nas you have pass the management\n\n123\n00:08:57.442 --> 00:09:02.510\nacross the lifecycle test,\nand have achieved 22 credits.\n\n124\n00:09:02.510 --> 00:09:07.272\nBoth of those must happen in order for\nyou to achieve Itil expert.\n\n125\n00:09:07.272 --> 00:09:10.657\nNow we have the ITIL master qualification,\nand\n\n126\n00:09:10.657 --> 00:09:14.630\nthe ITIL master is\na completely different beast.\n\n127\n00:09:14.630 --> 00:09:19.220\nThe ITIL master is a two\nyear qualification.\n\n128\n00:09:19.220 --> 00:09:24.839\nAnd during that two years,\nyou will be expected to submit various\n\n129\n00:09:24.839 --> 00:09:31.191\nwhite papers on specific topics within\nthe ITIL qualifications scheme.\n\n130\n00:09:31.191 --> 00:09:35.598\nSo this could be topics on,\nactivities within ITIL.\n\n131\n00:09:35.598 --> 00:09:38.830\nThis could be talked with\nsome processes within ITIL.\n\n132\n00:09:38.830 --> 00:09:43.581\nThis could be topics on implementation\nof various aspects of ITIL.\n\n133\n00:09:43.581 --> 00:09:47.082\nBut you will be require to sit\na number of white papers or\n\n134\n00:09:47.082 --> 00:09:51.410\nsubmit a number of white papers\nover the period of two years.\n\n135\n00:09:51.410 --> 00:09:56.520\nAt the end of those two years,\nonce you have submitted the prerequisite\n\n136\n00:09:56.520 --> 00:10:01.260\nwhite papers, then you will be\nasked to attend a panel interview.\n\n137\n00:10:01.260 --> 00:10:04.630\nAnd during that panel interview\nyou will be assessed.\n\n138\n00:10:04.630 --> 00:10:06.760\nNot only on your white papers,\n\n139\n00:10:06.760 --> 00:10:11.880\nbut also on your experience within\nthe IT service management arena.\n\n140\n00:10:11.880 --> 00:10:13.890\nAnd at the end of that paneling to view,\n\n141\n00:10:13.890 --> 00:10:18.630\nthen if successful, you will be\nawarded the status of ITIL Master.\n\n142\n00:10:20.060 --> 00:10:21.700\nSo the qualification scheme,\n\n143\n00:10:21.700 --> 00:10:25.340\nI'm going to take this back\nnow to Bloom's taxonomy then.\n\n144\n00:10:25.340 --> 00:10:29.360\nAnd just very, very quickly, look at\nthe fact that an ITIL foundation, and\n\n145\n00:10:29.360 --> 00:10:32.450\nI know that I've already covered\nthis in a previous slide.\n\n146\n00:10:32.450 --> 00:10:36.700\nWe just looked at understanding\nthe terminology and\n\n147\n00:10:36.700 --> 00:10:39.150\nthe concepts of ITIL foundation.\n\n148\n00:10:39.150 --> 00:10:41.273\nAnd then in the lifecycle modules,\n\n149\n00:10:41.273 --> 00:10:45.679\nwe're looking at implementing those\nprocesses contained within ITIL.\n\n150\n00:10:45.679 --> 00:10:50.937\nAnd in capability, we're looking at\nactually undertaking those processes and\n\n151\n00:10:50.937 --> 00:10:52.802\nmanaging those processes.\n\n152\n00:10:52.802 --> 00:10:55.330\nWho is managing across the life cycle?\n\n153\n00:10:55.330 --> 00:10:57.890\nThis is for senior management.\n\n154\n00:10:57.890 --> 00:11:02.190\nThis is at CIO level and\nat senior management level, and\n\n155\n00:11:02.190 --> 00:11:05.905\nin as we like to abbreviate it to.\n\n156\n00:11:05.905 --> 00:11:10.165\nYour concern with leading\nIT service management.\n\n157\n00:11:10.165 --> 00:11:14.818\nSo I mentioned, right,\nat the very beginning of all of this,\n\n158\n00:11:14.818 --> 00:11:20.466\nthat we had a test to go along with every\nsingle lifecycle face and there is.\n\n159\n00:11:20.466 --> 00:11:25.573\nAnd we will conducting this session\nto go all over this particular test,\n\n160\n00:11:25.573 --> 00:11:30.345\nor at least a sample of this test\njust to give you some preparation for\n\n161\n00:11:30.345 --> 00:11:32.960\nthe actual test itself.\n\n162\n00:11:32.960 --> 00:11:37.600\nSo your test is conducted online,\nit's conducted virtually.\n\n163\n00:11:39.160 --> 00:11:44.120\nIt is an eight multiple\nchoice question test, okay?\n\n164\n00:11:44.120 --> 00:11:46.390\nIt's complex multiple choice.\n\n165\n00:11:46.390 --> 00:11:49.440\nYou get an hour and a half for\nthis particular test, and\n\n166\n00:11:49.440 --> 00:11:53.840\nwith every single question,\nyou will be given a scenario and\n\n167\n00:11:53.840 --> 00:11:58.270\nthen you will be given\nfour possible options,\n\n168\n00:11:58.270 --> 00:12:04.660\nfour possible answers for the question\nthat is posed along with that scenario.\n\n169\n00:12:04.660 --> 00:12:07.920\nYou get five points for\nthe best fit answer.\n\n170\n00:12:07.920 --> 00:12:09.730\nNow mentions out there are the most.\n\n171\n00:12:09.730 --> 00:12:14.667\nI always call it the best fit,\nbecause every single question asks what\n\n172\n00:12:14.667 --> 00:12:19.030\nis the best answer given the scenario and\ngiven the question?\n\n173\n00:12:19.030 --> 00:12:25.168\nDon't be alarmed if you don't see\nan answer that you think is 100% correct,\n\n174\n00:12:25.168 --> 00:12:29.152\nbecause the question is asking you for\nthe best fit.\n\n175\n00:12:29.152 --> 00:12:32.990\nAnd for that best fit,\nyou're gonna get five points.\n\n176\n00:12:32.990 --> 00:12:35.732\nFor the next best fit,\nyou're gonna get three.\n\n177\n00:12:35.732 --> 00:12:40.204\nFor the next one, which we've\nconsidered to be the least correct,\n\n178\n00:12:40.204 --> 00:12:41.783\nyou're gonna get one.\n\n179\n00:12:41.783 --> 00:12:45.050\nAnd for the next one,\nyou're gonna get a zero.\n\n180\n00:12:45.050 --> 00:12:50.110\nNow it mentions up on that slide there\nthat the next one is zero marks for\n\n181\n00:12:50.110 --> 00:12:51.020\nincorrect.\n\n182\n00:12:51.020 --> 00:12:56.490\nWe like to call that in the industry us\nin the know we call that the distractor.\n\n183\n00:12:56.490 --> 00:13:00.600\nAnd we call it the distractor for\na reason, cuz it distracts.\n\n184\n00:13:00.600 --> 00:13:05.215\nAnd quite often what you will find is with\nyour distractor a lot of the words and\n\n185\n00:13:05.215 --> 00:13:08.907\nthe terminology that are taken\nstraight out of the ITIL book,\n\n186\n00:13:08.907 --> 00:13:13.309\nstraight out of the publications, and\nour input into that zero pointed.\n\n187\n00:13:13.309 --> 00:13:17.122\nBecause it's there to distract,\nand it sounds great.\n\n188\n00:13:17.122 --> 00:13:21.825\nBut more often than not,\nthat distractor has no\n\n189\n00:13:21.825 --> 00:13:26.600\nrelevance to the scenario or\nto the question.\n\n190\n00:13:26.600 --> 00:13:29.390\nSo you have to be incredibly\ncareful with that.\n\n191\n00:13:29.390 --> 00:13:31.480\nIt's so easy to be distracted.\n\n192\n00:13:32.800 --> 00:13:38.270\nYou have to get 28 out of a possible\n40 in order to be able to pass,\n\n193\n00:13:38.270 --> 00:13:42.660\nand achieve accreditation at\nany lifecycle test, okay?\n\n194\n00:13:44.540 --> 00:13:48.960\nIf English is not your first language, you\nare allowed a paper dictionary, but you\n\n195\n00:13:48.960 --> 00:13:55.650\nwill be ask to show that to the proctor\nat that time that you take the test.\n\n196\n00:13:55.650 --> 00:14:02.410\nAnd as I've already said, you have to\nhave an ITIL foundation in version 3 or\n\n197\n00:14:02.410 --> 00:14:09.459\nversion 3 2011, or an ITIL version\n2 foundation bridge to version 3.\n\n198\n00:14:11.060 --> 00:14:12.940\nI will be very, very honest with you.\n\n199\n00:14:12.940 --> 00:14:17.500\nThere are not that many people that\nhave attained the version 2 to\n\n200\n00:14:17.500 --> 00:14:22.520\nversion 3 bridge, and\nmost people will have the version 3 or\n\n201\n00:14:22.520 --> 00:14:25.800\n2011, ITIL foundation certificate.\n\n202\n00:14:27.540 --> 00:14:31.730\nYou will be required to\nupload that certificate to\n\n203\n00:14:31.730 --> 00:14:36.510\nthe examining board prior to\nCT in your lifecycle test.\n\n204\n00:14:36.510 --> 00:14:38.430\nSo be prepared with that.\n\n205\n00:14:38.430 --> 00:14:42.590\nYou will need to have it to hand and\nsave as a PDF as well.\n\n206\n00:14:44.250 --> 00:14:50.160\nSo when we come to the end of\nevery single life cycle class,\n\n207\n00:14:50.160 --> 00:14:53.420\nwe will be going over, and\nthis one's no exception.\n\n208\n00:14:53.420 --> 00:14:56.410\nWe'll be going over a sample test for you.\n\n209\n00:14:56.410 --> 00:14:59.670\nAnd during that sample test,\nI'll be giving you lots of hints and\n\n210\n00:14:59.670 --> 00:15:04.150\ntips on how to select that\nbest fit possible answer.\n\n211\n00:15:04.150 --> 00:15:08.300\nAnd also, how to ensure that you read\nthe full question, how to relax and\n\n212\n00:15:08.300 --> 00:15:12.740\nto make sure that you approach\nit with an open mind.\n\n213\n00:15:12.740 --> 00:15:16.100\nBut you consider relevance\nin every single answer.\n\n214\n00:15:17.590 --> 00:15:22.321\nUltimately, we wanna get you past\nthe test just as much as you want\n\n215\n00:15:22.321 --> 00:15:24.738\nto achieve that accreditation.\n\n216\n00:15:24.738 --> 00:15:30.473\nSo just to sum up what we will be\ndoing over the next few shows,\n\n217\n00:15:30.473 --> 00:15:37.231\nis encouraging you to take your ITIL\nlifecycle intermediate classes.\n\n218\n00:15:37.231 --> 00:15:41.685\nAnd feel free to join us in the forums for\nany questions that you may have.\n\n219\n00:15:41.685 --> 00:15:45.954\n[SOUND]\n\n",
+          "url": "introductionitil-intermediate-itil-st-service",
+          "vimeoId": "228422232"
+        },
+        {
+          "description": "In this episode, Ronnie and Jo begin the foundation refresher. Jo reviews the key aspects of ITIL foundation by describing the 5 core volume service lifecycles: service strategy, service design, service transition, service operation, and continual service improvement. She also defines what ITIL means by a Service and Service Management. Also the key terms that define value: Utility and Warranty by Jo.",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-1-foundation_refresher-061517.00_33_29_07.Still005.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-1-foundation_refresher-061517.00_33_29_07.Still005-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-1-foundation_refresher-061517.00_33_29_07.Still005-sm.jpg",
+          "title": "ITIL Foundation Refresher",
+          "transcript": "",
+          "url": "itil-foundation-refresher-service-transition",
+          "vimeoId": "228421989"
+        },
+        {
+          "description": "In this episode, Ronnie and Jo continue with the foundation refresher. Jo reviews asset, resource, capabilities and processes from the ITIL perspective. She emphasizes the process model and roles associated with processes. Lastly, she describes the accountability that belongs to the service owner as well.",
+          "length": "1442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-2-foundation_refresher_pt2-061517.00_23_46_07.Still004.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-2-foundation_refresher_pt2-061517.00_23_46_07.Still004-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-1-2-2-foundation_refresher_pt2-061517.00_23_46_07.Still004-sm.jpg",
+          "title": "ITIL Foundation Refresher Part 2",
+          "transcript": "",
+          "url": "itil-foundation-refresher-pt2-service-transition",
+          "vimeoId": "228421833"
+        },
+        {
+          "description": "In this show, Jo and Cherokee explain the importance of  ensuring  any modifications to the IT environment affecting new, modified or retiring services meet the expectations of the business, customers and users.",
+          "length": "1912",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-3-1-objectives_and_principles-071717-PGM.00_31_36_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-3-1-objectives_and_principles-071717-PGM.00_31_36_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-3-1-objectives_and_principles-071717-PGM.00_31_36_04.Still001-sm.jpg",
+          "title": "Objectives and Principles",
+          "transcript": "",
+          "url": "objectivesprinciples",
+          "vimeoId": "225988273"
+        },
+        {
+          "description": "In this show, Jo and Cherokee introduce a high-level view of the communications and management activities which support service transition. They discuss effective ways to manage communications, commitment and more.  Tune in to learn the emotional cycle and understand how to motivate.",
+          "length": "2035",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-1-managing_people_through_transitions-071717-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-1-managing_people_through_transitions-071717-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-1-managing_people_through_transitions-071717-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Managing People Through Transitions",
+          "transcript": "",
+          "url": "managing-peopletransitions",
+          "vimeoId": "225988942"
+        },
+        {
+          "description": "In this show, Cherokee and Jo cover the aspects of organizational roles and responsibilities, along with how to plan and implement organizational change. In addition, they also explain methods, practices and techniques relating to assessing organizational readiness for, monitoring progress of,  and organizational change.",
+          "length": "2083",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-2-managing_people_through_transitions_pt2-071717-PGM.00_34_26_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-2-managing_people_through_transitions_pt2-071717-PGM.00_34_26_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-2-managing_people_through_transitions_pt2-071717-PGM.00_34_26_13.Still001-sm.jpg",
+          "title": "Managing People Through Transitions Part 2",
+          "transcript": "",
+          "url": "managing-peopletransitions2",
+          "vimeoId": "225989624"
+        },
+        {
+          "description": "In this show, Cherokee and Jo discuss how to manage Stakeholders. JO explains the importance of Stakeholder management strategy, changes in stakeholder commitment and even shares tools such as a Stakeholder map to help perform analysis.",
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-3-managing_people_through_transitions_pt3-071717-PGM.00_00_12_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-3-managing_people_through_transitions_pt3-071717-PGM.00_00_12_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-4-1-3-managing_people_through_transitions_pt3-071717-PGM.00_00_12_03.Still001-sm.jpg",
+          "title": "Managing People Through Transitions Part 3",
+          "transcript": "",
+          "url": "managing-peopletransitions3",
+          "vimeoId": "228067065"
+        },
+        {
+          "description": "In this show, Jo and Cherokee take a look at how to streamline a process through the use of process models. They encourage the use of process models to facilitate efficient and effective processes that are appealing and not perceived as bureaucratic.",
+          "length": "1791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-5-1-1-stprocesses_transition_planning_and_support-071717-PGM.00_30_21_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-5-1-1-stprocesses_transition_planning_and_support-071717-PGM.00_30_21_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-5-1-1-stprocesses_transition_planning_and_support-071717-PGM.00_30_21_04.Still001-sm.jpg",
+          "title": "ST Processes - Transition Planning and Support",
+          "transcript": "",
+          "url": "st-processes-transition-planningsupport",
+          "vimeoId": "226148352"
+        },
+        {
+          "description": "In this show, Jo and Cherokee take a look at how to streamline a process through the use of process models. They encourage the use of process models to facilitate efficient and effective processes that are appealing and not perceived as bureaucratic.",
+          "length": "921",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-6-1-1-process_models-071817-PGM.00_15_05_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-6-1-1-process_models-071817-PGM.00_15_05_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-6-1-1-process_models-071817-PGM.00_15_05_21.Still001-sm.jpg",
+          "title": "Process Models",
+          "transcript": "",
+          "url": "process-models",
+          "vimeoId": "226150261"
+        },
+        {
+          "description": "In this episode, Cherokee and JO define Change  Management as a way to control the lifecycle of all changes whilst enabling beneficial changes to be made with minimum disruption to IT Services. Jo explains the numerous ways it should add value to a business and not add add layers of complexity or bureaucracy.",
+          "length": "2132",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-1-stprocesses_change_management-071717-PGM.00_35_15_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-1-stprocesses_change_management-071717-PGM.00_35_15_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-1-stprocesses_change_management-071717-PGM.00_35_15_25.Still001-sm.jpg",
+          "title": "ST Processes - Change Management",
+          "transcript": "",
+          "url": "st-processes-change-management",
+          "vimeoId": "226149303"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo continue to discuss Change Management. Jo explains how it adds value to the business, characterizes qualities of poor Change Management, and more. She also shows the differences between normal, standard and emergency changes. Tune in for more!",
+          "length": "2115",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-2-stprocesses_change_management_pt2-071817-PGM.00_00_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-2-stprocesses_change_management_pt2-071817-PGM.00_00_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-2-stprocesses_change_management_pt2-071817-PGM.00_00_11_26.Still001-sm.jpg",
+          "title": "ST Process - Change Management Part 2",
+          "transcript": "",
+          "url": "st-process-change-management2",
+          "vimeoId": "226150596"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo continue to discuss Change Management. Jo identifies inputs such as policies and strategies, RFCs, and change proposals. She them compares those inputs to what an expected output looks like.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-3-stprocesses_change_management_pt3-071817-PGM.00_28_41_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-3-stprocesses_change_management_pt3-071817-PGM.00_28_41_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-7-1-3-stprocesses_change_management_pt3-071817-PGM.00_28_41_00.Still001-sm.jpg",
+          "title": "ST Processes - Change Management Part 3",
+          "transcript": "",
+          "url": "st-processes-change-management3",
+          "vimeoId": "226151016"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo explain the purpose of Configuration Management and how it ensures  the assets required to deliver services are properly controlled, that accurate and reliable information about those assets is available when and where required and includes details of how the assets have been configured and the relationships between them.",
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-1-stprocesses_sacm-071817-PGM.00_25_55_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-1-stprocesses_sacm-071817-PGM.00_25_55_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-1-stprocesses_sacm-071817-PGM.00_25_55_25.Still001-sm.jpg",
+          "title": "ST Processes - SACM",
+          "transcript": "",
+          "url": "st-processes-sacm",
+          "vimeoId": "226151301"
+        },
+        {
+          "description": "In this episode, Jo and Cherokee continue to discuss SACM. Specifically, Jo describes the breakdown of configuration management systems and the including the logical layers of the Configuration Management System (CMS). In addition to internal structure Jo explains the integration of the Definitive Media Library (DMS), and the Configuration Management Data Base(s) (CMDB).",
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-2-stprocesses_sacm_pt2-071817-PGM.00_00_11_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-2-stprocesses_sacm_pt2-071817-PGM.00_00_11_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-8-1-2-stprocesses_sacm_pt2-071817-PGM.00_00_11_21.Still001-sm.jpg",
+          "title": "ST Processes - SACM Part 2",
+          "transcript": "",
+          "url": "st-processes-sacm2",
+          "vimeoId": "226151587"
+        },
+        {
+          "description": "In this show, Jo and Cherokee explain how Change Evaluation provides a consistent and standardized means of determining the performance of a service change in the context of likely impacts on business outcomes and on existing services and infrastructure.",
+          "length": "1841",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-9-1-stprocesses_change_evaluation-071817-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-9-1-stprocesses_change_evaluation-071817-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-9-1-stprocesses_change_evaluation-071817-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "ST Processes - Change Evaluation",
+          "transcript": "",
+          "url": "st-processes-change-evaluation",
+          "vimeoId": "226151877"
+        },
+        {
+          "description": "In this show, Jo and Cherokee explain how to plan and implement a structured validation and test process in addition to explaining the significance to provide an expected quality assurance. Jo also covers how to identify, assess and address issues throughout Service Transition.",
+          "length": "1662",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-1-stprocesses_service_validation_and_testing-071817-PGM.00_27_26_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-1-stprocesses_service_validation_and_testing-071817-PGM.00_27_26_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-1-stprocesses_service_validation_and_testing-071817-PGM.00_27_26_05.Still001-sm.jpg",
+          "title": "ST Processes - Service Validation and Testing",
+          "transcript": "",
+          "url": "st-processes-service-validationtesting",
+          "vimeoId": "226294654"
+        },
+        {
+          "description": "In this show Cherokee and Jo continue talking about service validation and testing. Jo reminds us how how this concept will not be a one size fits all as it greatly depends on what we are testing and how we are testing it. They discuss examples of KPIs to help determine various CSFs. Tune in for all this and more!",
+          "length": "1388",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-2-stprocesses_service_validation_and_testing_pt2-071817-PGM.00_24_45_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-2-stprocesses_service_validation_and_testing_pt2-071817-PGM.00_24_45_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-10-1-2-stprocesses_service_validation_and_testing_pt2-071817-PGM.00_24_45_04.Still001-sm.jpg",
+          "title": "ST Processes - Service Validation, Testing Pt. 2",
+          "transcript": "",
+          "url": "st-processes-service-validation-testing-pt-2",
+          "vimeoId": "226295237"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo outline how to plan, schedule and control the build They also explain how to manage test and deployment of releases in addition to delivering new functionality required by the business while protecting the integrity of existing services.",
+          "length": "2224",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-1-stprocesses_release_and_deployment_management-071917-PGM.00_36_48_09.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-1-stprocesses_release_and_deployment_management-071917-PGM.00_36_48_09.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-1-stprocesses_release_and_deployment_management-071917-PGM.00_36_48_09.Still002-sm.jpg",
+          "title": "ST Processes - Release and Deployment Mgmt",
+          "transcript": "",
+          "url": "st-processes-releasedeployment-mgmt",
+          "vimeoId": "226295910"
+        },
+        {
+          "description": "In this show, Jo and Cherokee continue to discuss Release and Deployment Management . Jo explains the differences between a release process trigger versus a deployment trigger. They also examine how those triggers interface with the four phases of Release and Deployment Management. Inputs, outputs and more are covered as well!",
+          "length": "2065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-2-stprocesses_release_and_deployment_management_pt2-071917-PGM.00_00_11_22.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-2-stprocesses_release_and_deployment_management_pt2-071917-PGM.00_00_11_22.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-11-1-2-stprocesses_release_and_deployment_management_pt2-071917-PGM.00_00_11_22.Still002-sm.jpg",
+          "title": "ST Processes - Release and Deployment Mgmt Pt.2",
+          "transcript": "",
+          "url": "st-processes-releasedeployment-mgmt-pt2",
+          "vimeoId": "226296755"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo foster ideas on how to share perspectives, ideas, experience and information. They also stress the need to  ensure these  ideas are available to enable informed decisions; and to reduce the need to rediscover knowledge. Jo encourages the idea idea of Service Knowledge Management System (SKMS)  as a logical way to interrogate data and the relationships between the configuration items thus providing knowledge and facts to help execute informed decisions.",
+          "length": "1885",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-12-1-stprocesses_knowledge_management-071917-PGM.00_00_38_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-12-1-stprocesses_knowledge_management-071917-PGM.00_00_38_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-12-1-stprocesses_knowledge_management-071917-PGM.00_00_38_00.Still001-sm.jpg",
+          "title": "ST Processes - Knowledge Management",
+          "transcript": "",
+          "url": "st-processes-knowledge-management",
+          "vimeoId": "226297328"
+        },
+        {
+          "description": "In this episode, Cherokee and Jo cover technology considerations for service transition. Technology’s role in service transition is explored, as well as how it should be “designed in”. They also share the mechanisms for maintaining and maximizing benefit from the technology. A range of tools are reviewed from enterprise-wide tools through to more specific ITSM technology and support tools.",
+          "length": "1317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-13-1-technology_considerations-071917-PGM.00_27_01_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-13-1-technology_considerations-071917-PGM.00_27_01_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-13-1-technology_considerations-071917-PGM.00_27_01_13.Still001-sm.jpg",
+          "title": "Technology Considerations",
+          "transcript": "",
+          "url": "technology-considerations-st",
+          "vimeoId": "226297685"
+        },
+        {
+          "description": "In this show, Jo and Cherokee use the CSI approach to implement Service Transition. Jo walks through the various stages involved and highlights key activities in the introduction of service transition.",
+          "length": "1903",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-14-1-implementing_service_transition-071917-PGM.00_31_28_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-14-1-implementing_service_transition-071917-PGM.00_31_28_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-14-1-implementing_service_transition-071917-PGM.00_31_28_11.Still001-sm.jpg",
+          "title": "Implementing Service Transition",
+          "transcript": "",
+          "url": "implementing-service-transition",
+          "vimeoId": "226297900"
+        },
+        {
+          "description": "In this show, Jo and Cherokee cover the challenges and critical success factors  critical success factors(CSF) facing service transition. They also explain how risk mitigation contributes to service transition.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-15-1-challenges_csfs_and_risks-071917-PGM.00_27_54_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-15-1-challenges_csfs_and_risks-071917-PGM.00_27_54_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-15-1-challenges_csfs_and_risks-071917-PGM.00_27_54_28.Still001-sm.jpg",
+          "title": "Challenges, CSFs and Risks",
+          "transcript": "",
+          "url": "challenges-csfsrisks-st",
+          "vimeoId": "226298136"
+        },
+        {
+          "description": "In this episode, Ronnie and Jo review some of the different techniques and details when sitting for your ITIL Intermediate exam. They recommend downloading the sample paper for review. Jo reviews the details on scoring of the exam. She also has solid exam advice for delegates preparing for an exam.",
+          "length": "1088",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-0-exam_review_introduction-061517.00_17_54_11.Still004.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-0-exam_review_introduction-061517.00_17_54_11.Still004-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-0-exam_review_introduction-061517.00_17_54_11.Still004-sm.jpg",
+          "title": "Exam Review Introduciton",
+          "transcript": "",
+          "url": "exam-review-introduciton-service-transition",
+          "vimeoId": "228421659"
+        },
+        {
+          "description": "ITIL Intermediate Service Transition exam review",
+          "length": "2320",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-1-exam_review-072017-PGM.00_00_03_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-1-exam_review-072017-PGM.00_00_03_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-1-exam_review-072017-PGM.00_00_03_10.Still001-sm.jpg",
+          "title": "Exam Review",
+          "transcript": "",
+          "url": "exam-review-st",
+          "vimeoId": "226736194"
+        },
+        {
+          "description": "ITIL Intermediate Service Transition exam review",
+          "length": "2051",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-2-exam_review_pt2-071917-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-2-exam_review_pt2-071917-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/itil-intermediatest/itil-intermediatest-16-1-2-exam_review_pt2-071917-high-sm.jpg",
+          "title": "Exam Review Part 2",
+          "transcript": "",
+          "url": "exam-review2-st",
+          "vimeoId": "226736467"
+        }
+      ],
+      "title": "Accredited ITIL Intermediate - Service Transition"
+    }
+  ],
+  "url": "accredited-itil-intermediate-service-transition",
+  "vLab": false
+}

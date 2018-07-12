@@ -1,9 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconMobile = props => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconMobile = (props) => {
+  const { fill='#FFFFFF' } = props;
 
   return (
     <svg width="34" height="81" viewBox="0 0 34 81">

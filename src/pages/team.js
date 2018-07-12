@@ -6,24 +6,22 @@ import TeamContent from 'Components/TeamContent';
 import styles from './team.module.scss';
 
 
-const Team = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.team }>
+const Team = ({ location }) =>
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.team }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.TeamContent }>
-          <TeamContent />
-        </section>
+      <section className={ styles.TeamContent }>
+        <TeamContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default Team;

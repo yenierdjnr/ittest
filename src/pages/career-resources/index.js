@@ -6,26 +6,24 @@ import CareerResourcesMenu from 'Components/CareerResourcesMenu';
 import CareerCoach from 'Components/CareerCoach';
 import styles from './careerResources.module.scss';
 
-const CareerResources = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.Career }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const CareerResources = ({ location }) =>
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.Career }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.CareerResourcesMenu }>
-          <CareerResourcesMenu />
-        </section>
+      <section className={ styles.CareerResourcesMenu }>
+        <CareerResourcesMenu />
+      </section>
 
-        <section className={ styles.CareerCoach }>
-          <CareerCoach />
-        </section>
+      <section className={ styles.CareerCoach }>
+        <CareerCoach />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 export default CareerResources;

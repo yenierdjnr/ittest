@@ -1,0 +1,216 @@
+{
+  "description": "In this series, we take a look what version control is as well as the use of version control when creating software. After an overview of various software",
+  "descriptionMD": "In this series, we take a look what version control is as well as the use of version control when creating software. After an overview of various software",
+  "length": "24975",
+  "name": "Version Control",
+  "practiceExam": false,
+  "subtitle": "\"git\"ting into Version Control",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, we take a look what version control is as well as the use of version control when creating software. After an overview of various version control systems, Justin dives into the use of git and GitHub to manage projects. Justin pays particular attention to the version control system and less on the programming portion for the first part. He explores creating a git repository, cloning repositories from GitHub, committing changes to a repository, using branches, collaborating with git, and more. If you are looking to get started with version control, specifically git, then join us there.",
+          "length": "210",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-0-0-0-overview-061318.00_00_12_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-0-0-0-overview-061318.00_00_12_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-0-0-0-overview-061318.00_00_12_17.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.092 --> 00:00:10.092\n[MUSIC]\n\n2\n00:00:12.874 --> 00:00:14.906\nHello and thank you for watching DevProTV.\n\n3\n00:00:14.906 --> 00:00:18.740\nWe're talking about version\ncontrol with Justin Dennison.\n\n4\n00:00:18.740 --> 00:00:19.680\nJustin, good to see you.\n\n5\n00:00:19.680 --> 00:00:22.010\nCan you tell us a little\nbit about version control?\n\n6\n00:00:22.010 --> 00:00:26.200\n&gt;&gt; So the main goal of version control,\nand this is one of those idols that\n\n7\n00:00:26.200 --> 00:00:28.380\nmay lead you astray so\nI'm going to set you straight right now.\n\n8\n00:00:28.380 --> 00:00:31.440\nWe're first going to look at some\nother version control systems,\n\n9\n00:00:31.440 --> 00:00:34.740\nkind of a survey initially, but\nthen we're going to choose Git.\n\n10\n00:00:35.740 --> 00:00:40.790\nGIT, as our version control system to\nkind of utilize and work through and\n\n11\n00:00:40.790 --> 00:00:44.500\nsee how it comes into play, so we're gonna\ninstall git, we're gonna set it up and\n\n12\n00:00:44.500 --> 00:00:48.350\nconfigure it locally on a machine, we're\nalso gonna great a GitHub account, and\n\n13\n00:00:48.350 --> 00:00:52.870\nthere are alternatives to that but we've\njust chosen GitHub because it's something\n\n14\n00:00:52.870 --> 00:00:56.590\nI know and ti's still very relevant and\nthen we're gonna learn about, well,\n\n15\n00:00:56.590 --> 00:00:58.660\nhow do I create a Git repo?\n\n16\n00:00:58.660 --> 00:01:02.440\nHow do I commit changes or\nadd things to a repo?\n\n17\n00:01:02.440 --> 00:01:03.540\nHow do I collaborate?\n\n18\n00:01:03.540 --> 00:01:05.415\nWhat are effective practices?\n\n19\n00:01:05.415 --> 00:01:10.130\nHow does this all work in software,\nand does it have to be just software?\n\n20\n00:01:10.130 --> 00:01:15.006\nAnd some of it is ultimately up to you,\nthose decisions.\n\n21\n00:01:15.006 --> 00:01:18.965\nBut will talk about those at length\n&gt;&gt; And who is this show targeted towards?\n\n22\n00:01:18.965 --> 00:01:22.758\n&gt;&gt; So this is someone who is maybe is\nlike I know a little bit about a version\n\n23\n00:01:22.758 --> 00:01:27.004\ncontrol or I have never heard a control,\nwhat are you talking about before what\n\n24\n00:01:27.004 --> 00:01:31.313\nare the possible options, I wanna get\nstarted right, I'm trying to break in to\n\n25\n00:01:31.313 --> 00:01:35.790\nprograming and I've heard a lot that I\nneed to know Version Control Systems.\n\n26\n00:01:35.790 --> 00:01:39.790\nAnd so we teach you one but\nalong with practices kind of map over.\n\n27\n00:01:39.790 --> 00:01:41.038\nSo used to get you start,\n\n28\n00:01:41.038 --> 00:01:44.315\nget you comfortable with employing\nVersion Control Practices.\n\n29\n00:01:44.315 --> 00:01:46.579\n&gt;&gt; Now is there a certification\navailable for this course?\n\n30\n00:01:46.579 --> 00:01:48.900\nThere is not a certification available for\nthis course.\n\n31\n00:01:48.900 --> 00:01:50.300\nThis is about leveling up your skills.\n\n32\n00:01:50.300 --> 00:01:56.010\nGetting comfortable with a new tool and a\nnew set of practices.B That allow you to,\n\n33\n00:01:56.010 --> 00:01:58.740\nnumber one,\nkeep track of things that you've done.\n\n34\n00:01:58.740 --> 00:02:00.800\nBut also collaborate\nwith other individuals.\n\n35\n00:02:00.800 --> 00:02:02.660\nAnd I've chosen Git,\n\n36\n00:02:02.660 --> 00:02:06.880\nbecause it seems to be the more pervasive\nof the technologies at current time.\n\n37\n00:02:06.880 --> 00:02:09.470\nThat doesn't mean that you\nwill encounter other ones.\n\n38\n00:02:09.470 --> 00:02:13.144\nBut, you know, as I said before,\nthose ideas and\n\n39\n00:02:13.144 --> 00:02:17.095\npractices and\nskills kind of map over fairly easily.\n\n40\n00:02:17.095 --> 00:02:20.370\n&gt;&gt; Now, you've already touched on it,\nso what topics are covered?\n\n41\n00:02:20.370 --> 00:02:23.770\n&gt;&gt; So, initialization of a repo,\nsetting up a remote repo,\n\n42\n00:02:23.770 --> 00:02:26.410\nconnecting a remote and local repos.\n\n43\n00:02:26.410 --> 00:02:27.530\nNow, when I say repos,\n\n44\n00:02:27.530 --> 00:02:31.530\nthose ultimately end up being\nfolders with Special structures.\n\n45\n00:02:31.530 --> 00:02:33.280\nAnd then what is a branch?\n\n46\n00:02:33.280 --> 00:02:34.230\nHow do I branch?\n\n47\n00:02:34.230 --> 00:02:35.340\nHow do I collaborate?\n\n48\n00:02:35.340 --> 00:02:37.550\nHow do I collaborate with a single repost?\n\n49\n00:02:37.550 --> 00:02:40.420\nHow do I collaborate with\nmultiple copies of repost?\n\n50\n00:02:40.420 --> 00:02:44.200\nHow do I sync changes to\na remote repost on GitHub?\n\n51\n00:02:44.200 --> 00:02:45.910\nHow do I bring those changes down?\n\n52\n00:02:46.940 --> 00:02:49.930\nHow do I bring these\nbranched back together?\n\n53\n00:02:49.930 --> 00:02:52.400\nAnd what happens when things go wry?\n\n54\n00:02:52.400 --> 00:02:54.499\nNow that's just a touch of things.\n\n55\n00:02:54.499 --> 00:02:58.127\nThere's still a lot more\nthat I haven't talked about.\n\n56\n00:02:58.127 --> 00:03:00.174\nThe ultimate goal, is to give you a,\n\n57\n00:03:00.174 --> 00:03:03.220\nhere are the core concepts\nthat you need to know right.\n\n58\n00:03:03.220 --> 00:03:05.410\nAnd those are the things\nI just talked about.\n\n59\n00:03:05.410 --> 00:03:08.610\nAnd then every once in a while\nwe'll add in a little extra right,\n\n60\n00:03:08.610 --> 00:03:10.500\nthat is maybe a more advanced feature but\n\n61\n00:03:10.500 --> 00:03:14.090\nis very applicable in the context of\nthe situation that we're exploring.\n\n62\n00:03:14.090 --> 00:03:17.720\n&gt;&gt; Thanks, Justin, that sounds great now\nif version control sounds like something\n\n63\n00:03:17.720 --> 00:03:21.297\nyou might be interested in and you should,\nmake sure you watch all the episodes in\n\n64\n00:03:21.297 --> 00:03:23.732\nthe course library and\nthanks for watching DevProTV.\n\n65\n00:03:23.732 --> 00:03:29.466\n[MUSIC]\n\n",
+          "url": "overview-version-control",
+          "vimeoId": "275069543"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss the use of version control in different contexts with particular attention paid to creating software. Justin gives an overview of different version control systems as well as relays reasons using git may be advantageous over other systems.",
+          "length": "1692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-1-1-1-what_is_version_control-060718-PGM.00_29_29_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-1-1-1-what_is_version_control-060718-PGM.00_29_29_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-1-1-1-what_is_version_control-060718-PGM.00_29_29_18.Still001-sm.jpg",
+          "title": "What is Version Control",
+          "transcript": "",
+          "url": "version-control",
+          "vimeoId": "274082063"
+        },
+        {
+          "description": "In this episode, Justin and Zach make take a look at how to install git and configure the git tool to for local use.",
+          "length": "1236",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-1-set_up_git-060718-PGM.00_22_21_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-1-set_up_git-060718-PGM.00_22_21_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-1-set_up_git-060718-PGM.00_22_21_11.Still001-sm.jpg",
+          "title": "Set Up git",
+          "transcript": "",
+          "url": "setgit",
+          "vimeoId": "274081593"
+        },
+        {
+          "description": "In this episode, Justin and Aubri explore setting up the git tools on a Windows-based machine.",
+          "length": "1161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-2-set_up_git_windows-061818-PGM.00_19_10_26.Still003.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-2-set_up_git_windows-061818-PGM.00_19_10_26.Still003-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-2-1-2-set_up_git_windows-061818-PGM.00_19_10_26.Still003-sm.jpg",
+          "title": "Set Up git: Windows",
+          "transcript": "",
+          "url": "setgit-windows",
+          "vimeoId": "276251748"
+        },
+        {
+          "description": "In this episode, Justin and Zach create a repository using the local git command line tools. Justin demonstrates the initialization of the repository, committing changes to the repo, and modifying files to further commit as changes.",
+          "length": "1458",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-3-1-1-our_first_repository-060718-PGM.00_30_43_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-3-1-1-our_first_repository-060718-PGM.00_30_43_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-3-1-1-our_first_repository-060718-PGM.00_30_43_14.Still001-sm.jpg",
+          "title": "Our First Repository",
+          "transcript": "",
+          "url": "repository",
+          "vimeoId": "274082415"
+        },
+        {
+          "description": "In this episode, Justin and Zach set up a GitHub account and create a git repository using GitHub instead of the local client. Additionally, Justin demonstrates how to obtain a copy of the BitHub repository using the git command line client.",
+          "length": "1451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-4-1-1-our_first_github_repository-060818-PGM.00_40_06_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-4-1-1-our_first_github_repository-060818-PGM.00_40_06_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-4-1-1-our_first_github_repository-060818-PGM.00_40_06_08.Still001-sm.jpg",
+          "title": "Our First GitHub Repository",
+          "transcript": "",
+          "url": "github-repository",
+          "vimeoId": "274755676"
+        },
+        {
+          "description": "In this episode, Justin and Zach take a little further look at how remote(GitHub) repositories and local repositories can get out of \"sync\". In order to alleviate those out of sync issues, Justin demonstrates how to ensure that your remote and local repositories are linked, how to send local changes to the remote repository, and how to retrieve remote changes to the local repository.",
+          "length": "1855",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-5-1-1-connect_remote_and_local_repos-061118-PGM.00_30_59_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-5-1-1-connect_remote_and_local_repos-061118-PGM.00_30_59_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-5-1-1-connect_remote_and_local_repos-061118-PGM.00_30_59_07.Still001-sm.jpg",
+          "title": "Connect Remote and Local Repos",
+          "transcript": "",
+          "url": "connect-remotelocal-repos",
+          "vimeoId": "274755944"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore the concept of a branch in git and how branches can be used for collaboration, experimentation, and providing a comparison between different branches thus providing insights all the while learning to use the git command line tool. Moreover, Justin explores how to manage branches using GitHub.",
+          "length": "1633",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-1-branch_in_a_repository-061118-PGM.00_27_22_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-1-branch_in_a_repository-061118-PGM.00_27_22_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-1-branch_in_a_repository-061118-PGM.00_27_22_00.Still001-sm.jpg",
+          "title": "Branch in a Repository",
+          "transcript": "",
+          "url": "brancha-repository",
+          "vimeoId": "274740954"
+        },
+        {
+          "description": "In this episode, Justin and Zach continue their exploration of branches, specifically how to merge two branches so that changes from one branch are pulled into the primary branch. Additionally, Justin demonstrates how merge conflicts can arise from this practice and demonstrates how to reolve merge conflicts.",
+          "length": "1362",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-2-branch_in_a_repository_pt2-061118-PGM.00_24_10_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-2-branch_in_a_repository_pt2-061118-PGM.00_24_10_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-6-1-2-branch_in_a_repository_pt2-061118-PGM.00_24_10_01.Still001-sm.jpg",
+          "title": "Branch in a Repository Part 2",
+          "transcript": "",
+          "url": "brancha-repository2",
+          "vimeoId": "274719132"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss the use of pull requests as a way to formalize working together with others or even on your own repositories. Justin demonstrates how to issue a pull request through the GitHub interface as well as explores the interactions that one can have with an \"open\" pull request.",
+          "length": "1577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-7-1-1-create_a_pull_request-061218-PGM.00_26_25_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-7-1-1-create_a_pull_request-061218-PGM.00_26_25_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-7-1-1-create_a_pull_request-061218-PGM.00_26_25_05.Still001-sm.jpg",
+          "title": "Create a Pull Request",
+          "transcript": "",
+          "url": "createpull-request",
+          "vimeoId": "274741275"
+        },
+        {
+          "description": "In this episode, Justin and Zach dive into how to create a release (tag) using the git command line tool. Additionally, Justin explores how to push those tags to GitHub as well as use GitHub to obtain specific releases.",
+          "length": "1446",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-8-1-1-create_a_tagged_release-061218-PGM.00_23_57_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-8-1-1-create_a_tagged_release-061218-PGM.00_23_57_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-8-1-1-create_a_tagged_release-061218-PGM.00_23_57_24.Still001-sm.jpg",
+          "title": "Create a Tagged Release",
+          "transcript": "",
+          "url": "createtagged-release",
+          "vimeoId": "274740576"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore one way to collaborate with individuals by creating collaborators on the GitHub repo. Zach is invited to become a collaborator on the project and make commits. Justin demonstrates basic controls to disallow the commiting on the master branch as well as review a pull request from Zach.",
+          "length": "1432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-1-collaborate_with_collaborators-061318-CLN.00_24_18_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-1-collaborate_with_collaborators-061318-CLN.00_24_18_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-1-collaborate_with_collaborators-061318-CLN.00_24_18_29.Still001-sm.jpg",
+          "title": "Collaborate with Collaborators",
+          "transcript": "",
+          "url": "collaboratecollaborators",
+          "vimeoId": "274941091"
+        },
+        {
+          "description": "In this episode, Justin and Zach continue to explore the use of collaborators on projects. Zach is the owner of a repository that needs some help so Justin becomes a collaborator to demonstrate the view point of a restricted collaborator.",
+          "length": "1750",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-2-collaborate_with_collaborators_pt2-061318-PGM.00_29_05_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-2-collaborate_with_collaborators_pt2-061318-PGM.00_29_05_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-9-1-2-collaborate_with_collaborators_pt2-061318-PGM.00_29_05_05.Still001-sm.jpg",
+          "title": "Collaborate with Collaborators Part 2",
+          "transcript": "",
+          "url": "collaboratecollaborators2",
+          "vimeoId": "274941360"
+        },
+        {
+          "description": "In this episode, Justin and Daniel explore the concept of a fork using GitHub. Justin demonstrates how to create a fork as well as keep a fork up to date with the originating repository.",
+          "length": "1280",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-10-1-1-our_first_fork-061418-PGM.00_21_30_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-10-1-1-our_first_fork-061418-PGM.00_21_30_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-10-1-1-our_first_fork-061418-PGM.00_21_30_24.Still001-sm.jpg",
+          "title": "Our First Fork",
+          "transcript": "",
+          "url": "fork",
+          "vimeoId": "275133527"
+        },
+        {
+          "description": "In this episode, Justin and Daniel explore another way to collaborate on a project using git. Justin discusses that using \"forks\" assumes that you are using a service like GitHub or GitLab. After creating a \"fork\", Justin takes on the role of an outside individual contributing to a project by committing changes on a branch and issuing a cross \"fork\" pull request.",
+          "length": "1242",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-1-collaborate_with_forks-061418-PGM.00_20_35_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-1-collaborate_with_forks-061418-PGM.00_20_35_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-1-collaborate_with_forks-061418-PGM.00_20_35_07.Still001-sm.jpg",
+          "title": "Collaborate with Forks",
+          "transcript": "",
+          "url": "collaborateforks",
+          "vimeoId": "275133369"
+        },
+        {
+          "description": "In this episode, Justin and Daniel continue the exploration of using \"forks\" as a means of collaborating. Justin creates a repository that Daniel forks and demonstrates the use of pull requests to update Justin's original repo.",
+          "length": "1054",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-2-collaborate_with_forks_pt2-061418-PGM.00_23_24_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-2-collaborate_with_forks_pt2-061418-PGM.00_23_24_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-11-1-2-collaborate_with_forks_pt2-061418-PGM.00_23_24_14.Still001-sm.jpg",
+          "title": "Collaborate with Forks Part 2",
+          "transcript": "",
+          "url": "collaborateforks2",
+          "vimeoId": "275133202"
+        },
+        {
+          "description": "In this episode, Justin and Daniel explore utilizing multiple branches to create a formalized workflow process.",
+          "length": "1568",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-12-1-1-project_python_with_git-061518-PGM.00_26_35_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-12-1-1-project_python_with_git-061518-PGM.00_26_35_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-12-1-1-project_python_with_git-061518-PGM.00_26_35_04.Still001-sm.jpg",
+          "title": "Project: Python with git",
+          "transcript": "",
+          "url": "project-pythongit",
+          "vimeoId": "275861633"
+        },
+        {
+          "description": "In this episode, Justin and Aubri discuss keeping sensitive information and junk files out of your git repository using a .gitignore file.",
+          "length": "1568",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-13-1-1-keeping_things_clean_gitignore-061818.00_26_01_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-13-1-1-keeping_things_clean_gitignore-061818.00_26_01_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-versioncontrol/techskills-version-control-2018-13-1-1-keeping_things_clean_gitignore-061818.00_26_01_20.Still001-sm.jpg",
+          "title": "Keeping Things Clean: .gitignore",
+          "transcript": "",
+          "url": "keepingclean-gitignore",
+          "vimeoId": "275861115"
+        }
+      ],
+      "title": "Version Control"
+    }
+  ],
+  "url": "version-control",
+  "vLab": false
+}

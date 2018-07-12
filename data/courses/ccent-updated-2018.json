@@ -1,0 +1,945 @@
+{
+  "description": "The CCENT show is built around the exam objectives for the Cisco certification bearing the same name.  The episodes are meant for the entry level technician working in a small branch environment where he is expected to install, configure, operate and troubleshoot Cisco routers and switches.  Each episode will focus on the technology, why we use it and how to configure and or operate them for a small enterprise environment.",
+  "descriptionMD": "The CCENT show is built around the exam objectives for the Cisco certification bearing the same name.  The episodes are meant for the entry level technician working in a small branch environment where he is expected to install, configure, operate and troubleshoot Cisco routers and switches.  Each episode will focus on the technology, why we use it and how to configure and or operate them for a small enterprise environment.",
+  "length": "137087",
+  "name": "CCENT (2018)",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Entry Networking Technician",
+  "tagUrl": "ccna",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCENT show is built around the exam objectives for the Cisco certification bearing the same name. The episodes are meant for the entry level technician working in a small branch environment where he is expected to install, configure, operate and troubleshoot Cisco routers and switches. Each episode will focus on the technology, why we use it and how to configure and or operate them for a small enterprise environment.",
+          "length": "415",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-0-0-overview-032618-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-0-0-overview-032618-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-0-0-overview-032618-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:06.391\n[SOUND] Welcome to the overview for\nthe Cisco CCENT show,\n\n2\n00:00:06.391 --> 00:00:10.736\nwhich we're about to get started in.\n\n3\n00:00:10.736 --> 00:00:14.283\nWe wanna make sure that you understood\nsome of the different details behind\n\n4\n00:00:14.283 --> 00:00:18.370\nalso getting ready for the exam and also\nwhat we'll be covering in this series.\n\n5\n00:00:18.370 --> 00:00:21.800\nSo let's take a look at my desktop\nhere that will help us to see.\n\n6\n00:00:21.800 --> 00:00:25.420\nWhen we start off and we start taking a\nlook at the idea of doing the Cisco CCENT\n\n7\n00:00:25.420 --> 00:00:29.620\nshow, we wanna make sure that you\nare getting prepared for the right exam.\n\n8\n00:00:29.620 --> 00:00:33.520\nWhen you take a look at that, the exam\nnumber that you'll need, is that this show\n\n9\n00:00:33.520 --> 00:00:40.490\nis in preparation for exam 100-105\nICND1 is the actual exam name.\n\n10\n00:00:40.490 --> 00:00:43.200\nAnd our show is gonna be named,\nof course, Cisco CCENT,\n\n11\n00:00:43.200 --> 00:00:47.810\nin the idea of making sure that\nthey're all aligned together.\n\n12\n00:00:47.810 --> 00:00:49.200\nNow this exam though,\n\n13\n00:00:49.200 --> 00:00:53.790\nis gonna be about 90 minutes long, covers\nanywhere between 45 to 55 questions.\n\n14\n00:00:53.790 --> 00:00:54.455\nHave you worked that out?\n\n15\n00:00:54.455 --> 00:00:58.490\nIt's a little bit over an minute\nper question but not much.\n\n16\n00:00:58.490 --> 00:01:02.280\nSo, you want to make sure you\ntake requirement a bit seriously\n\n17\n00:01:02.280 --> 00:01:04.690\nbecause Cisco exams are notorious.\n\n18\n00:01:04.690 --> 00:01:09.280\nWhere the idea of not only of course do\nyou need to get the answers right but\n\n19\n00:01:09.280 --> 00:01:12.920\nof course you need to get them\nright very quickly as well.\n\n20\n00:01:12.920 --> 00:01:16.880\nSo make sure you understand that\nbefore you go into the exam too.\n\n21\n00:01:16.880 --> 00:01:22.090\nNow as we start to get ready for that\nexam day and you're ready to go ahead and\n\n22\n00:01:22.090 --> 00:01:25.000\ntake this, you're gonna sign\nup at a Pearson VUE Center.\n\n23\n00:01:25.000 --> 00:01:27.810\nAnd you wanna make sure that you go\nthrough and you'll create your own\n\n24\n00:01:27.810 --> 00:01:31.560\nCisco ID, make sure that you get\nregistered for the proper exam.\n\n25\n00:01:31.560 --> 00:01:34.925\nAnd this is where you'll need that\nexam number that you'll be able to do,\n\n26\n00:01:34.925 --> 00:01:36.640\nthen you follow the instructions.\n\n27\n00:01:36.640 --> 00:01:41.370\nFind your nearest Pearson VUE\ntesting center to help you out.\n\n28\n00:01:41.370 --> 00:01:46.230\nNow as far as the exam costs go, I'm gonna\nclick on a different page to help us out.\n\n29\n00:01:46.230 --> 00:01:52.380\nAs of March 2017, so a little bit over a\nyear ago as of the recording of this show,\n\n30\n00:01:52.380 --> 00:01:57.740\nwe'll end up seeing that the exam\ncosts have actually changed over time.\n\n31\n00:01:57.740 --> 00:02:03.290\nAnd when we start looking at it, it's a\nproctored exam beginning with 100 and also\n\n32\n00:02:03.290 --> 00:02:09.244\nof course the 200 series here and when you\nsee that in US dollars, it's about $165.\n\n33\n00:02:09.244 --> 00:02:13.838\nNow if you happen to be in other places\naround the world, make sure you check and\n\n34\n00:02:13.838 --> 00:02:18.224\nthe easiest way to check the cost of this\nis gonna be through your Pearson VUE\n\n35\n00:02:18.224 --> 00:02:23.390\nwebsite to make sure that you get all\nthe actual right details ready to go too.\n\n36\n00:02:23.390 --> 00:02:28.980\nAlso, make sure you show up for\nthe testing, about 15 minutes early.\n\n37\n00:02:28.980 --> 00:02:33.150\nBring the form of ID that you need to,\nas they ask you to do so and\n\n38\n00:02:33.150 --> 00:02:36.180\nthen get ready to test for\nthe exam as well.\n\n39\n00:02:36.180 --> 00:02:40.670\nSo what are some of the topics we'll\nbe covering inside of our series?\n\n40\n00:02:40.670 --> 00:02:44.700\nIt's gonna be based officially off of\ncourse, the objectives themselves.\n\n41\n00:02:44.700 --> 00:02:48.350\nAnd if you're saying, well, where are the\nexam objectives, if you just simply use\n\n42\n00:02:48.350 --> 00:02:51.450\nyour favorite search engine and\nyou type in Cisco exam 100-105,\n\n43\n00:02:51.450 --> 00:02:56.700\nit will probably lead\nyou to this web page.\n\n44\n00:02:56.700 --> 00:02:59.700\nAnd on this web page,\nyou'll end up seeing that there is a link\n\n45\n00:02:59.700 --> 00:03:02.660\ndown here where it says\nreview the exam topics.\n\n46\n00:03:02.660 --> 00:03:06.800\nWhen you click on that link, then it will\ngive you a list of topics which you can\n\n47\n00:03:06.800 --> 00:03:12.510\nnow download for a complete list\nof the topics in a PDF format.\n\n48\n00:03:12.510 --> 00:03:16.240\nWhen you do that, here's what\nthe download will bring you to.\n\n49\n00:03:16.240 --> 00:03:18.970\nIt will, of course,\nbring you to a breakdown of the exam\n\n50\n00:03:18.970 --> 00:03:22.850\nby the percentages here and\ntell you some of the same information.\n\n51\n00:03:22.850 --> 00:03:25.014\nNow you'll actually see\nthat is an assessment,\n\n52\n00:03:25.014 --> 00:03:28.037\nthat's gonna be 45 to 55 questions,\nabout 90 minutes here.\n\n53\n00:03:28.037 --> 00:03:32.130\nAnd you wanna make sure that you pay\nattention to each one of these topics.\n\n54\n00:03:32.130 --> 00:03:36.230\nSo during our show, we'll make sure that\nwe cover all of the actual networking\n\n55\n00:03:36.230 --> 00:03:40.540\nfundamentals which will account for\nabout a fifth of the exam itself.\n\n56\n00:03:40.540 --> 00:03:44.860\nWhich of course begins with the OSI and\nTCP model comparisons.\n\n57\n00:03:44.860 --> 00:03:49.654\nWe of course will break down and make sure\nthat we cover networking fundamentals,\n\n58\n00:03:49.654 --> 00:03:53.620\nas much as we can, to get you prepared for\nthe exam that comes along.\n\n59\n00:03:53.620 --> 00:03:57.054\nAlso, we'll be heading\nLAN Switching Fundamentals,\n\n60\n00:03:57.054 --> 00:04:02.096\nwhich of course includes understanding\nthe idea of various switching concepts,\n\n61\n00:04:02.096 --> 00:04:04.300\nthe Ethernet frame format as well.\n\n62\n00:04:04.300 --> 00:04:07.851\nOf course even some cabling\nissues that you'll run across,\n\n63\n00:04:07.851 --> 00:04:12.900\nbasic VLAN configuration, as well as\nconnecting the multiple switches too.\n\n64\n00:04:12.900 --> 00:04:15.920\nAnd you'll see that there's a lot of\ndifferent information in here that will be\n\n65\n00:04:15.920 --> 00:04:18.430\ncovering as we go on through the show.\n\n66\n00:04:18.430 --> 00:04:21.930\nOnce we get through that, of course\nthere will be routing fundamentals.\n\n67\n00:04:21.930 --> 00:04:26.450\nWe'll be using RIP primarily to help us\nunderstand the concept of routing but\n\n68\n00:04:26.450 --> 00:04:31.200\nalso, as our initial dynamic routing\nprotocol configurations too,\n\n69\n00:04:31.200 --> 00:04:34.210\nas well as we'll be handling\nstatic routing information.\n\n70\n00:04:34.210 --> 00:04:37.310\nWe'll also be doing some inter-VLAN\nrouting during that show and\n\n71\n00:04:37.310 --> 00:04:40.360\neven IPv6 routing,\nwe'll talk about that briefly too.\n\n72\n00:04:41.370 --> 00:04:44.381\nSo you'll see a lot of other\nthings are also included in there.\n\n73\n00:04:44.381 --> 00:04:48.915\nOnce we're done with the concept of\nrouting and switching, as far as the basic\n\n74\n00:04:48.915 --> 00:04:53.588\ntopic, we'll talk about of course\ninfrastructure services that also exists,\n\n75\n00:04:53.588 --> 00:04:56.767\nDNS and DHCP are kind of\nthe two basic ones you'll see.\n\n76\n00:04:56.767 --> 00:04:59.292\nAnd we've course what she set that up for\nus,\n\n77\n00:04:59.292 --> 00:05:03.320\nas well as the labs as we walk through\nall these different concepts too.\n\n78\n00:05:03.320 --> 00:05:08.010\nWe'll configure NTP, our network\ntime protocol, as well as NAT for\n\n79\n00:05:08.010 --> 00:05:11.680\nnetwork address translation, that will\nbe a big part of what we'll be covering.\n\n80\n00:05:11.680 --> 00:05:14.377\nAnd then lastly, we'll talk about\nsome infrastructure maintenance.\n\n81\n00:05:14.377 --> 00:05:17.810\nThroughout in the entire series, we'll\nprobably be using some of the different\n\n82\n00:05:17.810 --> 00:05:21.750\ntechnologies that we'll be covering\nhere in this bit domain objective.\n\n83\n00:05:21.750 --> 00:05:24.130\nTo make sure and\nthen we'll review them at the end,\n\n84\n00:05:24.130 --> 00:05:27.930\nwhere there's actually a lot of different\nprotocols and some of the different device\n\n85\n00:05:27.930 --> 00:05:30.080\nconfigurations that you\nneed to know about.\n\n86\n00:05:30.080 --> 00:05:34.267\nIn terms of securing the device and making\nsure that you know how to maintain them,\n\n87\n00:05:34.267 --> 00:05:37.189\nas well as do things like backups and\npassword recovery.\n\n88\n00:05:37.189 --> 00:05:42.000\nSo all these are actually\na part of the CCENT exam.\n\n89\n00:05:42.000 --> 00:05:46.535\nNow remember for this exam, it doesn't\nrequire you to have any other professional\n\n90\n00:05:46.535 --> 00:05:49.084\ncertification knowledge\nas you go into this.\n\n91\n00:05:49.084 --> 00:05:51.684\nSo there's no prerequisite or\nrequirement but\n\n92\n00:05:51.684 --> 00:05:56.560\nit does require you to have a strong\nformation in basic networking right away.\n\n93\n00:05:56.560 --> 00:06:00.480\nSo if you do not have that, it is\nrecommended of course that you go ahead\n\n94\n00:06:00.480 --> 00:06:05.180\nand that you take a look at getting some\nof that knowledge set before you start.\n\n95\n00:06:05.180 --> 00:06:09.181\nBut we'll be covering a lot of it\nas a review at the very beginning,\n\n96\n00:06:09.181 --> 00:06:12.116\nas it does cover a big\nportion of the exam as well.\n\n97\n00:06:12.116 --> 00:06:15.764\nOr another basic topic, right, that we\ndefinitely need to discuss in which\n\n98\n00:06:15.764 --> 00:06:17.954\nwe will discuss in depth\nwill be subnetting.\n\n99\n00:06:17.954 --> 00:06:21.020\nSo we'll make sure that you\nunderstand how to subnet,\n\n100\n00:06:21.020 --> 00:06:25.110\nas well as how to actually get\nfaster at doing subnetting as well.\n\n101\n00:06:25.110 --> 00:06:27.460\nWhich is probably one of the main and\n\n102\n00:06:27.460 --> 00:06:30.760\nprobably one of the hardest concepts\nthat you'll have to be able to do\n\n103\n00:06:30.760 --> 00:06:35.480\nat a proficient level on\nthe CCENT exam too, okay?\n\n104\n00:06:35.480 --> 00:06:39.890\nSo, if you are getting prepared for\nyour Cisco CCENT exam,\n\n105\n00:06:39.890 --> 00:06:43.630\nmake sure you watch this episode and that\nyou review the concepts that are here.\n\n106\n00:06:43.630 --> 00:06:45.420\nAnd if you are ready to get started,\n\n107\n00:06:45.420 --> 00:06:47.990\nall you have to do is click\non the next video link.\n\n108\n00:06:47.990 --> 00:06:49.828\nThank you for joining us.\n\n109\n00:06:49.828 --> 00:06:54.986\n[MUSIC]\n\n",
+          "url": "overview-ccent2018",
+          "vimeoId": "262037291"
+        },
+        {
+          "description": "The CCENT show is built around the exam objectives for the Cisco certification bearing the same name.  The episodes are meant for the entry level technician working in a small branch environment where he is expected to install, configure, operatate and troubleshoot Cisco routers and switches.  Each episode will focus on the technology, why we use it and how to configure and or operate them for a small enterprise environment.",
+          "length": "1431",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-1-1-what_is_networking-021918.00_23_47_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-1-1-what_is_networking-021918.00_23_47_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-0-1-1-what_is_networking-021918.00_23_47_21.Still001-sm.jpg",
+          "title": "What is Networking?",
+          "transcript": "",
+          "url": "networking-ccent2018",
+          "vimeoId": "256773540"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie discuss and describe the OSI model used to describe how data originates from a source, accesses the media, traverses networking devices to forward data to the destination device. They also reveal that networking troubleshooting can also be based on this descriptive model",
+          "length": "1631",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-1-understand_and_apply_the_osi_model-021918.00_27_16_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-1-understand_and_apply_the_osi_model-021918.00_27_16_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-1-understand_and_apply_the_osi_model-021918.00_27_16_24.Still001-sm.jpg",
+          "title": "Understand and Apply the OSI Model",
+          "transcript": "",
+          "url": "understandapplyosi-model-ccent2018",
+          "vimeoId": "256645432"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie continue show how the OSI applies to preparing the data to be moved across the network. They demonstrate how each layer adds additional header information.",
+          "length": "1960",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-2-understand_and_apply_the_osi_model_pt_2-021918-PGM.00_32_27_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-2-understand_and_apply_the_osi_model_pt_2-021918-PGM.00_32_27_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-2-understand_and_apply_the_osi_model_pt_2-021918-PGM.00_32_27_18.Still001-sm.jpg",
+          "title": "Understand and Apply the OSI Model Part 2",
+          "transcript": "",
+          "url": "understandapplyosi-model2-cc",
+          "vimeoId": "256645790"
+        },
+        {
+          "description": "In this episode, Wes and Ronnie complete the encapsulation process. They associate other terminology like \"segment,\" \"packet,\" and \"frame.\" They also describe how L2 PDU is the data that is converted to signal, impulses or bits that is put on the wire as a complete set of data that is ready for the network.  They also show the destination device uses the headers to process the data.",
+          "length": "1316",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-3-understand_and_apply_the_osi_model_pt_3-021918-PGM.00_22_21_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-3-understand_and_apply_the_osi_model_pt_3-021918-PGM.00_22_21_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-1-3-understand_and_apply_the_osi_model_pt_3-021918-PGM.00_22_21_06.Still001-sm.jpg",
+          "title": "Understand and Apply the OSI Model Part 3",
+          "transcript": "",
+          "url": "understandapplyosi-model2-ci",
+          "vimeoId": "256646183"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss and describe the TCP/IP networking model used in the majority of LAN networks and on the internet. They use multiple examples to describe how the TCP/IP layers work. process. Lastly, they compare and contrast the OSI and TCP/IP model.",
+          "length": "1845",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-2-1-understand_and_apply_tcpip_model-022018-PGM.00_30_32_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-2-1-understand_and_apply_tcpip_model-022018-PGM.00_30_32_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-2-1-understand_and_apply_tcpip_model-022018-PGM.00_30_32_06.Still001-sm.jpg",
+          "title": "Understand and Apply TCP/IP Model",
+          "transcript": "",
+          "url": "understandapply-tcpip-model-ccent2018",
+          "vimeoId": "256800614"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe and discuss the two foundational Transport Layer Protocols: TCP and UDP.  They compare and contrast and explain their basic breakdown, function and give examples of when they are used in networking.",
+          "length": "1891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-3-1-compare_and_contrast_tcp_and_udp-022018-PGM.00_31_17_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-3-1-compare_and_contrast_tcp_and_udp-022018-PGM.00_31_17_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-3-1-compare_and_contrast_tcp_and_udp-022018-PGM.00_31_17_01.Still001-sm.jpg",
+          "title": "Compare and Contrast TCP and UDP",
+          "transcript": "",
+          "url": "comparecontrast-tcpudp-ccent2018",
+          "vimeoId": "256800935"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe some of the different networking components usually found within an enterprise network.  They discuss briefly the purpose of each device and where they are normally connected in the network path.  They describe the connection path from internet connection through to the end user devices.",
+          "length": "1457",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-4-1-describe_enterprise_infrastructure_components-022018-PGM.00_24_05_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-4-1-describe_enterprise_infrastructure_components-022018-PGM.00_24_05_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-4-1-describe_enterprise_infrastructure_components-022018-PGM.00_24_05_14.Still001-sm.jpg",
+          "title": "Describe Enterprise Infrastructure Components",
+          "transcript": "",
+          "url": "describe-enterprise-infrastructure-components",
+          "vimeoId": "256801392"
+        },
+        {
+          "description": "n this episode, Daniel and Ronnie take a look at basic networking topologies called out the CCENT exams.  They talk about the problems that can happen with a bad design and compare that with better network topology.  The team explains the purpose and contrasts the difference and provide the use case for them too.",
+          "length": "1147",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-1-5-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-1-5-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-1-5-1-sm.jpg",
+          "title": "Compare and Contrast Network Topologies",
+          "transcript": "",
+          "url": "comparecontrast-network-topologies",
+          "vimeoId": "256801722"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the networking architectures.  They review the concepts of the 3-Tier Architecture and the Collapsed Architechture.  They also state the goals of this design is for capacity and capability of your network.",
+          "length": "1523",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-6-1-describe_enterprise_networking_architecture-022118.00_25_11_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-6-1-describe_enterprise_networking_architecture-022118.00_25_11_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-6-1-describe_enterprise_networking_architecture-022118.00_25_11_02.Still001-sm.jpg",
+          "title": "Describe Enterprise Networking Architecture",
+          "transcript": "",
+          "url": "describe-enterprise-networking-architecture",
+          "vimeoId": "258318935"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie review some of the different networking cabling technicians may encounter while working.  They review some of the fiber cabling and copper calbing details to help prepare for the exam.  Also they review where you're likely to find these cables in a network.",
+          "length": "2108",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-7-1-select_appropriate_cabling-022118.00_34_56_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-7-1-select_appropriate_cabling-022118.00_34_56_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-7-1-select_appropriate_cabling-022118.00_34_56_27.Still001-sm.jpg",
+          "title": "Select Appropriate Cabling",
+          "transcript": "",
+          "url": "select-appropriate-cabling",
+          "vimeoId": "256959697"
+        },
+        {
+          "description": "n this episode, Cherokee and Ronnie discuss different types of IP addresses and their use.  They also begin the talk about why addressing is important for communication.  Using the MAC address as the initial example, they talk about the pool size of addresses and why it doesn't work on the internet.",
+          "length": "1732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-1-understand_and_apply_ipv4_addressing-022118-PGM.00_28_38_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-1-understand_and_apply_ipv4_addressing-022118-PGM.00_28_38_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-1-understand_and_apply_ipv4_addressing-022118-PGM.00_28_38_28.Still001-sm.jpg",
+          "title": "Understand and Apply IPv4 Addressing",
+          "transcript": "",
+          "url": "understandapply-ipv4-addressing",
+          "vimeoId": "256960707"
+        },
+        {
+          "description": "Cherokee and Ronnie continue with addressing.  This time, they focus on the IP address breakdown to help understand the 2 parts of an IP address.  The review the structure of IP Addresses in classes A,B, and C.",
+          "length": "1664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-2-understand_and_apply_ipv4_addressing_pt_2-022118.00_27_31_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-2-understand_and_apply_ipv4_addressing_pt_2-022118.00_27_31_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-2-understand_and_apply_ipv4_addressing_pt_2-022118.00_27_31_28.Still001-sm.jpg",
+          "title": "Understand and Apply IPv4 Addressing Part 2",
+          "transcript": "",
+          "url": "understandapply-ipv4-addressing2",
+          "vimeoId": "256961102"
+        },
+        {
+          "description": "Daniel and Ronnie continue with addressing.  They show how to convert binary to decimal and decimal to binary numbers.  These conversions are key to help identify different address regardless of whether they are reported in decimal or binary.",
+          "length": "1910",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-3-understand_and_apply_ipv4_addressing_pt_3-022218.00_31_38_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-3-understand_and_apply_ipv4_addressing_pt_3-022218.00_31_38_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-3-understand_and_apply_ipv4_addressing_pt_3-022218.00_31_38_27.Still001-sm.jpg",
+          "title": "Understand and Apply IPv4 Addressing Part 3",
+          "transcript": "",
+          "url": "understandapply-ipv4-addressing3",
+          "vimeoId": "257314003"
+        },
+        {
+          "description": "Daniel and Ronnie discuss how the binary can help reveal some additional information to prepare for the exam: It reveals the NetworkID and the BroadcastID.  They also discuss briefly limitation of classing addressing which lead to classful routing.  The classful routing works based on the 1st Octet only.  They also describe some of the methods used to deal with the limitation of the IPv4 address pool: NAT, VLSM and IPv6.  Lastly, they show how IPv4 addresses are applied to routers and switches.",
+          "length": "1809",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-4-understand_and_apply_ipv4_addressing_pt_4-022218.00_29_58_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-4-understand_and_apply_ipv4_addressing_pt_4-022218.00_29_58_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-8-4-understand_and_apply_ipv4_addressing_pt_4-022218.00_29_58_00.Still001-sm.jpg",
+          "title": "Understand and Apply IPv4 Addressing Part 4",
+          "transcript": "",
+          "url": "understandapply-ipv4-addressing4",
+          "vimeoId": "257314173"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie begin taking a look at subnetting.  They discuss the uses of subnetting. The team subnets a single class c network and sub divides it into 4 subnets.",
+          "length": "1724",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-1-understand_and_apply_subnetting-022218.00_28_31_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-1-understand_and_apply_subnetting-022218.00_28_31_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-1-understand_and_apply_subnetting-022218.00_28_31_23.Still001-sm.jpg",
+          "title": "Understand and Apply Subnetting",
+          "transcript": "",
+          "url": "understandapply-subnetting",
+          "vimeoId": "257314287"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the results of class c subnetting.  They demonstrate how the NetworkID, Range and BroadcastID determined and not just a random thought.  The guys discuss preparations for the exam will include not only the ability to subnet but subnet quickly.",
+          "length": "1383",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-2-understand_and_apply_subnetting_pt_2-022218-PGM.00_22_49_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-2-understand_and_apply_subnetting_pt_2-022218-PGM.00_22_49_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-9-2-understand_and_apply_subnetting_pt_2-022218-PGM.00_22_49_15.Still001-sm.jpg",
+          "title": "Understand and Apply Subnetting Part 2",
+          "transcript": "",
+          "url": "understandapply-subnetting2",
+          "vimeoId": "257314399"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take an opportunity to work through the logic of tackling exam questions about subnetting.  They review the questions, answers and logic after each question.",
+          "length": "2067",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-1-understand_class_b_subnetting-022318.00_34_15_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-1-understand_class_b_subnetting-022318.00_34_15_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-1-understand_class_b_subnetting-022318.00_34_15_09.Still001-sm.jpg",
+          "title": "Understand Class B Subnetting",
+          "transcript": "",
+          "url": "understand-classsubnetting",
+          "vimeoId": "257549991"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the use of CIDR.  The team describe CIDR's function.  They contrast this notation as being easier way to report the network bits no longer by arbitrary classes.  They emphasize the importance understanding these notations for the exam.",
+          "length": "1377",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-2-understand_class_b_subnetting_pt_2-022318.00_27_55_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-2-understand_class_b_subnetting_pt_2-022318.00_27_55_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-2-understand_class_b_subnetting_pt_2-022318.00_27_55_19.Still001-sm.jpg",
+          "title": "Understand Class B Subnetting Part 2",
+          "transcript": "",
+          "url": "understand-classsubnetting2",
+          "vimeoId": "257550828"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show how to take the fundamentals of subnetting and apply them quickly to a given scenario.  These techniques, the guys discuss the benefit of these techniques are really useful only if you know the fundamentals.",
+          "length": "1592",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-3-understand_class_b_subnetting_pt_3-022318.00_26_20_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-3-understand_class_b_subnetting_pt_3-022318.00_26_20_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-10-3-understand_class_b_subnetting_pt_3-022318.00_26_20_08.Still001-sm.jpg",
+          "title": "Understand Class B Subnetting Part 3",
+          "transcript": "",
+          "url": "understand-classsubnetting3",
+          "vimeoId": "257551204"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the basics of IPv6 addressing.  The team describe it's history and why it is needed for networking today.  They also describe the IPv6 address as 128 bits and it is reported in hexadecimal format.  IPv6 address works the same as the IPv4 address having 2 parts:  Network ID and Interface ID.  They also mention that there are several types",
+          "length": "1565",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-1-identify_ipv6_addressing_scheme-022618-PGM.00_25_52_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-1-identify_ipv6_addressing_scheme-022618-PGM.00_25_52_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-1-identify_ipv6_addressing_scheme-022618-PGM.00_25_52_29.Still001-sm.jpg",
+          "title": "Identify IPv6 Addressing Scheme",
+          "transcript": "",
+          "url": "identify-ipv6-addressing-scheme",
+          "vimeoId": "257971763"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss some of the different IPv6 address types.  The guys discuss the different types of unicast addresses: Unspecified, Loopback, ULA and Global Unicast.  These unicast types of addresses are used for testing, for reaching nodes within the same local networks and routing.",
+          "length": "1686",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-2-identify_ipv6_addressing_scheme_pt_2-022618-PGM.00_27_53_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-2-identify_ipv6_addressing_scheme_pt_2-022618-PGM.00_27_53_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-2-identify_ipv6_addressing_scheme_pt_2-022618-PGM.00_27_53_14.Still001-sm.jpg",
+          "title": "Identify IPv6 Addressing Scheme Part 2",
+          "transcript": "",
+          "url": "identify-ipv6-addressing-scheme2",
+          "vimeoId": "257968445"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the use of multicast IPv6 addresses.  They describe the format and that multicasts supercede broadcasts in IPv6.",
+          "length": "1589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-3-identify_ipv6_addressing_scheme_pt_3-022618-PGM.00_26_15_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-3-identify_ipv6_addressing_scheme_pt_3-022618-PGM.00_26_15_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-11-3-identify_ipv6_addressing_scheme_pt_3-022618-PGM.00_26_15_10.Still001-sm.jpg",
+          "title": "Identify IPv6 Addressing Scheme Part 3",
+          "transcript": "",
+          "url": "identify-ipv6-addressing-scheme3",
+          "vimeoId": "257968823"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie show access into the initial device.  The team reviews the boot process for cisco devices.  The boot the cisco switch and show the initial information at boot.  Lastly, the begin with the initial switch configuration.",
+          "length": "1904",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-1-perform_initial_device_configuration-022718-PGM.00_31_32_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-1-perform_initial_device_configuration-022718-PGM.00_31_32_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-1-perform_initial_device_configuration-022718-PGM.00_31_32_05.Still001-sm.jpg",
+          "title": "Perform Initial Device Configuration",
+          "transcript": "",
+          "url": "perform-initial-device-configuration",
+          "vimeoId": "257969145"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue with initial device configuration by setting up for remote access to a switch.  They configure the switch with a hostname, domain-name and crypto keys along with setting up the virtual lines for remote connection to happen using ssh only.",
+          "length": "1543",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-2-perform_initial_device_configuration_pt_2-022818-PGM.00_25_37_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-2-perform_initial_device_configuration_pt_2-022818-PGM.00_25_37_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-2-perform_initial_device_configuration_pt_2-022818-PGM.00_25_37_13.Still001-sm.jpg",
+          "title": "Perform Initial Device Configuration Part 2",
+          "transcript": "",
+          "url": "perform-initial-device-configuration2",
+          "vimeoId": "258318610"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie continue with the lab this time verifying the remote connection is possible from another machine on the network.  Also , they do the basic router configuration as well.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-3-perform_initial_device_configuration_pt_3-022818-PGM.00_32_45_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-3-perform_initial_device_configuration_pt_3-022818-PGM.00_32_45_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-12-3-perform_initial_device_configuration_pt_3-022818-PGM.00_32_45_18.Still001-sm.jpg",
+          "title": "Perform Initial Device Configuration Part 3",
+          "transcript": "",
+          "url": "perform-initial-device-configuration3",
+          "vimeoId": "258315519"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the use of IPv4 addresses.  They begin with subnetting 192.168.16.0/24 network into 3 networks: One that supports 110 hosts, another that supports 55 hosts and a third that supports 25 hosts. They apply the ip addresses in each subnet to the available interfaces to create network connectivity.",
+          "length": "1901",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-1-configure_ipv4_addressing-022818-PGM.00_31_28_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-1-configure_ipv4_addressing-022818-PGM.00_31_28_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-1-configure_ipv4_addressing-022818-PGM.00_31_28_09.Still001-sm.jpg",
+          "title": "Configure IPv4 Addressing",
+          "transcript": "",
+          "url": "configure-ipv4-addressing",
+          "vimeoId": "258317623"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie configure the other interfaces in the lab for connectivity too.  These include adding IP addresses to the specified interfaces as well as configuring SVIs on switches with IP addresses.  Lastly, they begin to verify connectivity and run into an issue when subnetting, they discuss and explain what can happen if you overlap the IP subnets.",
+          "length": "889",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-2-configure_ipv4_addressing_pt_2-022818-PGM.00_14_37_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-2-configure_ipv4_addressing_pt_2-022818-PGM.00_14_37_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-2-configure_ipv4_addressing_pt_2-022818-PGM.00_14_37_13.Still001-sm.jpg",
+          "title": "Configure IPv4 Addressing Part 2",
+          "transcript": "",
+          "url": "configure-ipv4-addressing2",
+          "vimeoId": "258316890"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie begin verifying network connectivity and basic troubleshooting.  They show some of the most common errors and mistakes caused by configuration and can be fixed by them too!",
+          "length": "1462",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-3-configure_ipv4_addressing_pt_3-022818-PGM.00_00_12_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-3-configure_ipv4_addressing_pt_3-022818-PGM.00_00_12_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-13-3-configure_ipv4_addressing_pt_3-022818-PGM.00_00_12_00.Still001-sm.jpg",
+          "title": "Configure IPv4 Addressing Part 3",
+          "transcript": "",
+          "url": "configure-ipv4-addressing3",
+          "vimeoId": "258314615"
+        },
+        {
+          "description": "In this episode, Daniel and onnie discuss the use of IPv6 addresses. They create 3 smaller networks from 2001:a::/48.  With the created networks, they show how to enable IPv6 routing on each router using ipv6 unicast-routing. They assign the ipv6 addresses on the router interfaces for connectivity.  Using show ipv6 interface brief, the team shows each interface with the global-unicast address assigned and also a self-assigned link-local address.",
+          "length": "1810",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-1-configure_ipv6_addressing-030118-PGM.00_32_07_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-1-configure_ipv6_addressing-030118-PGM.00_32_07_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-1-configure_ipv6_addressing-030118-PGM.00_32_07_17.Still001-sm.jpg",
+          "title": "Configure IPv6 Addressing",
+          "transcript": "",
+          "url": "configure-ipv6-addressing",
+          "vimeoId": "258319578"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss basic ipv6 issues when assigning addresses. They describe the possibility of manually assigning IPv6 Link Local addresses.  Lastly, they reveal that statically assigning the addresses are not our only option.  We also have SLAAC, Stateless Address Auto Configuration.  They also configure an interface to use the RS and RA to get an IPv6 address on it's interface.",
+          "length": "1749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-2-configure_ipv6_addressing_pt_2-030118-PGM.00_29_35_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-2-configure_ipv6_addressing_pt_2-030118-PGM.00_29_35_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-14-2-configure_ipv6_addressing_pt_2-030118-PGM.00_29_35_13.Still001-sm.jpg",
+          "title": "Configure IPv6 Addressing Part 2",
+          "transcript": "",
+          "url": "configure-ipv6-addressing2",
+          "vimeoId": "258319263"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss how to apply troubleshooting methodologies.  They discuss that though many methods are available they can be reduced to a few different approaches. They begin with emphasizing problem isolation.  The methods are descriptive: bottom-up, top-down and divide-and-conquer using the OSI model as a guide.",
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-1-apply_troubleshooting_methodologies-030218-PGM.00_28_18_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-1-apply_troubleshooting_methodologies-030218-PGM.00_28_18_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-1-apply_troubleshooting_methodologies-030218-PGM.00_28_18_13.Still001-sm.jpg",
+          "title": "Apply Troubleshooting Methodologies",
+          "transcript": "",
+          "url": "apply-troubleshooting-methodologies",
+          "vimeoId": "258836232"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss how to apply troubleshooting methodologies.  They use practice-labs.com lab to show the way to isolate, apply a problem and verify the action is correct.",
+          "length": "1889",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-2-apply_troubleshooting_methodologies_pt_2-030218-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-2-apply_troubleshooting_methodologies_pt_2-030218-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-2-apply_troubleshooting_methodologies_pt_2-030218-high-sm.jpg",
+          "title": "Apply Troubleshooting Methodologies Part 2",
+          "transcript": "",
+          "url": "apply-troubleshooting-methodologies2",
+          "vimeoId": "258835850"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss how to apply troubleshooting methodologies.  They use practice-labs.com lab to show the way to isolate, apply a problem and verify the action is correct.",
+          "length": "1720",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-3-apply_troubleshooting_methodologies_pt_3-030218-PGM.00_29_40_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-3-apply_troubleshooting_methodologies_pt_3-030218-PGM.00_29_40_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-15-3-apply_troubleshooting_methodologies_pt_3-030218-PGM.00_29_40_20.Still001-sm.jpg",
+          "title": "Apply Troubleshooting Methodologies Part 3",
+          "transcript": "",
+          "url": "apply-troubleshooting-methodologies3",
+          "vimeoId": "258837222"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at the component parts of a cisco switch.  They show the ports and identification of them.  Also, the team looks at the internal components showing that there are no real upgradable parts.",
+          "length": "1854",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-1-interact_with_cisco_devices-022718-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-1-interact_with_cisco_devices-022718-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-1-interact_with_cisco_devices-022718-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Interact with Cisco Devices",
+          "transcript": "",
+          "url": "interactcisco-devices",
+          "vimeoId": "257968062"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie discuss the physical components of a Cisco ASA 5505 and Cisco 3845 router.  They discuss the physical presentation of the device, power supply and possible modifications to add additional functionality.",
+          "length": "2372",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-2-interact_with_cisco_devices_pt_2-022718-PGM1.00_39_19_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-2-interact_with_cisco_devices_pt_2-022718-PGM1.00_39_19_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-1-16-2-interact_with_cisco_devices_pt_2-022718-PGM1.00_39_19_26.Still001-sm.jpg",
+          "title": "Interact with Cisco Devices Part 2",
+          "transcript": "",
+          "url": "interactcisco-devices2",
+          "vimeoId": "257967617"
+        }
+      ],
+      "title": "Network Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie introduce the basic switching functions. The review basic fundamental concepts of broadcast domains and collision domains.  They also describe the basic difference betweena hub and a switch.",
+          "length": "1536",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-1-describe_and_variety_switching_concepts-030518-PGM.00_25_30_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-1-describe_and_variety_switching_concepts-030518-PGM.00_25_30_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-1-describe_and_variety_switching_concepts-030518-PGM.00_25_30_27.Still001-sm.jpg",
+          "title": "Describe and Verify Switching Concepts",
+          "transcript": "",
+          "url": "describeverify-switching-concepts-2018",
+          "vimeoId": "258836972"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce the basic switching functions. Here they discuss the building of the mac address table.  They also review the concepts of the decision to flood, forward, or filter data moving through a switch and how the mac address table is populated.",
+          "length": "1680",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-2-describe_and_variety_switching_concepts_pt_2-030518-PGM.00_00_12_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-2-describe_and_variety_switching_concepts_pt_2-030518-PGM.00_00_12_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-2-describe_and_variety_switching_concepts_pt_2-030518-PGM.00_00_12_03.Still001-sm.jpg",
+          "title": "Describe and Verify Switching Concepts Part 2",
+          "transcript": "",
+          "url": "describeverify-switching-concepts2",
+          "vimeoId": "259005806"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie introduce the basic switching functions. Using Practice-labs.com, they loosely follow the guide to help to reinforce the switching concepts.",
+          "length": "1892",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-3-describe_and_variety_switching_concepts_pt_3-030518-PGM.00_33_27_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-3-describe_and_variety_switching_concepts_pt_3-030518-PGM.00_33_27_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-1-3-describe_and_variety_switching_concepts_pt_3-030518-PGM.00_33_27_10.Still001-sm.jpg",
+          "title": "Describe and Verify Switching Concepts Part 3",
+          "transcript": "",
+          "url": "describeverify-switching-concepts3",
+          "vimeoId": "258836578"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie breakdown the details of the ethernet frame header information.  The review each part of the frame header and identify their value.",
+          "length": "1835",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-1-interpret_ethernet_frame_format-030618-PGM.00_30_21_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-1-interpret_ethernet_frame_format-030618-PGM.00_30_21_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-1-interpret_ethernet_frame_format-030618-PGM.00_30_21_10.Still001-sm.jpg",
+          "title": "Interpret Ethernet Frame Format",
+          "transcript": "",
+          "url": "interpret-ethernet-frame-format",
+          "vimeoId": "259363864"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie use Wireshark to capture the frame information.  They point out how to examine the header information.  Capturing `https` and `ssh` traffic, they demonstrate not only the encrypted data but the frame information remains readable.",
+          "length": "1127",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-2-interpret_ethernet_frame_format_pt_2-030618-PGM.00_18_34_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-2-interpret_ethernet_frame_format_pt_2-030618-PGM.00_18_34_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-2-2-interpret_ethernet_frame_format_pt_2-030618-PGM.00_18_34_07.Still001-sm.jpg",
+          "title": "Interpret Ethernet Frame Format Part 2",
+          "transcript": "",
+          "url": "interpret-ethernet-frame-format2",
+          "vimeoId": "259363627"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at issues dealing with interfaces and cabling.  They demonstrate how to use cisco switches and routers to get information and to configure them for duplex.  The also discuss hard setting the duplex for troubleshooting and use of auto.",
+          "length": "1909",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-1-troubleshoot_interfaces_and_cables-030718_CLN.00_31_37_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-1-troubleshoot_interfaces_and_cables-030718_CLN.00_31_37_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-1-troubleshoot_interfaces_and_cables-030718_CLN.00_31_37_29.Still001-sm.jpg",
+          "title": "Troubleshoot Interfaces and Cables",
+          "transcript": "",
+          "url": "troubleshoot-interfacescables",
+          "vimeoId": "260238992"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie take a look at issues dealing with interfaces and cabling.  They demonstrate how to use cisco switches and routers to get information and to configure them for speed and mdix. They show speed settings on routers and switches and talk about the issues with cabling choices and how mdix works.",
+          "length": "1855",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-2-troubleshoot_interfaces_and_cables_pt_2-030718-CLN.00_30_42_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-2-troubleshoot_interfaces_and_cables_pt_2-030718-CLN.00_30_42_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-3-2-troubleshoot_interfaces_and_cables_pt_2-030718-CLN.00_30_42_09.Still001-sm.jpg",
+          "title": "Troubleshoot Interfaces and Cables Part 2",
+          "transcript": "",
+          "url": "troubleshoot-interfacescables2",
+          "vimeoId": "260239415"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe the use of vlans and configure. The guys describe using vlans on a single switch and on multiple switches.  They also describe how to configure using trunk ports to span vlans across multiple switches.",
+          "length": "1848",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-1-configure_and_verify_vlans-030718-PGM.00_30_36_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-1-configure_and_verify_vlans-030718-PGM.00_30_36_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-1-configure_and_verify_vlans-030718-PGM.00_30_36_13.Still001-sm.jpg",
+          "title": "Configure and Verify VLANs",
+          "transcript": "",
+          "url": "configureverify-vlans",
+          "vimeoId": "260238636"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe how to configure vlans and assign ports to vlans.  They configure and name vlans.  Once configured, they verified the configuration on the switch, preparing the switch to assign ports to the vlans.",
+          "length": "1518",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-2-configure_and_verify_vlans_pt_2-030818-PGM.00_25_05_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-2-configure_and_verify_vlans_pt_2-030818-PGM.00_25_05_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-2-configure_and_verify_vlans_pt_2-030818-PGM.00_25_05_14.Still001-sm.jpg",
+          "title": "Configure and Verify VLANs Part 2",
+          "transcript": "",
+          "url": "configureverify-vlans2",
+          "vimeoId": "259363276"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie describe how to configure vlans and assign ports to vlans.  The team shows to configure the ports to assign to vlan.  They review the diferent port modes and show how to assign them to existing vlans.  They also show how to assign a port into and create a vlan within the interface configuration prompt. They create a default vlan to \"park\" our ports into when needed and lastly they configure a voice and data vlan to assign a single interface to both.",
+          "length": "1987",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-3-configure_and_verify_vlans_pt_3-030818-PGM.00_32_54_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-3-configure_and_verify_vlans_pt_3-030818-PGM.00_32_54_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-4-3-configure_and_verify_vlans_pt_3-030818-PGM.00_32_54_08.Still001-sm.jpg",
+          "title": "Configure and Verify VLANs Part 3",
+          "transcript": "",
+          "url": "configureverify-vlans3",
+          "vimeoId": "259364287"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie now work multiple switches.  They describe the benefits of doing so in an existing environment.  The team also shows how to make the switches work together by configuring trunks which allow for multiple vlans to flow over them.  They describe the use of vlan tagging 802.1q for allow trunks to keep the data tagged to a vlan. Lastly, the discuss the Native VLAN, this is the vlan in which the traffic is untagged and normally used for management and not port assignments",
+          "length": "1665",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-1-configure_multiple_switch-030918-PGM.00_28_12_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-1-configure_multiple_switch-030918-PGM.00_28_12_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-1-configure_multiple_switch-030918-PGM.00_28_12_04.Still001-sm.jpg",
+          "title": "Configure Multiple Switches",
+          "transcript": "",
+          "url": "configure-multiple-switches",
+          "vimeoId": "259969261"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie now work multiple switches. The guys continue by explaining how to manually configure vlans on all the switches to work over the trunk links and configure VTP, so that VLANs will automatically be configured on additional switches.",
+          "length": "1519",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-2-configure_multiple_switch_pt_2-030918-PGM.00_25_21_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-2-configure_multiple_switch_pt_2-030918-PGM.00_25_21_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-2-configure_multiple_switch_pt_2-030918-PGM.00_25_21_04.Still001-sm.jpg",
+          "title": "Configure Multiple Switches Part 2",
+          "transcript": "",
+          "url": "configure-multiple-switches2",
+          "vimeoId": "259969076"
+        },
+        {
+          "description": "In this episode, Daniel and Ronnie now work multiple switches.  They describe the benefits of doing so in an existing environment.  They complete the vlan configuration with verification.  Also they create a Native VLAN on this trunk port.",
+          "length": "1585",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-3-configure_multiple_switch_pt_3-030918-PGM.00_26_11_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-3-configure_multiple_switch_pt_3-030918-PGM.00_26_11_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-5-3-configure_multiple_switch_pt_3-030918-PGM.00_26_11_26.Still001-sm.jpg",
+          "title": "Configure Multiple Switches Part 3",
+          "transcript": "",
+          "url": "configure-multiple-switches3",
+          "vimeoId": "259968901"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie take a look at Layer 2 discovery protocols.",
+          "length": "1467",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-6-1-configure_and_verify_layer_2_protocol-031218.00_25_37_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-6-1-configure_and_verify_layer_2_protocol-031218.00_25_37_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-6-1-configure_and_verify_layer_2_protocol-031218.00_25_37_10.Still001-sm.jpg",
+          "title": "Configure and Verify Layer 2 Protocols",
+          "transcript": "",
+          "url": "configureverify-layer-2-protocols",
+          "vimeoId": "259968486"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie introduce the concept of port-security. They discuss different violation modes and the need for \"switchport port-security.\"",
+          "length": "2079",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-1-configure_and_verify_port_security-032218-PGM.00_34_27_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-1-configure_and_verify_port_security-032218-PGM.00_34_27_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-1-configure_and_verify_port_security-032218-PGM.00_34_27_04.Still001-sm.jpg",
+          "title": "Configure and Verify Port Security",
+          "transcript": "",
+          "url": "configureverify-port-security",
+          "vimeoId": "261485772"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie complete the port-security configurations.  The team demonstrates how to configure a recovery from a violation is possible.",
+          "length": "953",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-2-configure_and_verify_port_security_pt_2-032218-PGM.00_15_51_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-2-configure_and_verify_port_security_pt_2-032218-PGM.00_15_51_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-2-7-2-configure_and_verify_port_security_pt_2-032218-PGM.00_15_51_15.Still001-sm.jpg",
+          "title": "Configure and Verify Port Security Part 2",
+          "transcript": "",
+          "url": "configureverify-port-security2",
+          "vimeoId": "261485606"
+        }
+      ],
+      "title": "LAN Switching Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie introduce basic routing concepts. They explain how a packet uses the layer 2 and layer 3 protocols in networking.  The team demonstrates how the IP address (Layer 3 addresses) do not change but the layer 2 protocols do change as data move from device to device.  They also describe the changing fo the layer 2 protocol at each hop is known as frame rewrite.",
+          "length": "1696",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-1-1-describe_routing_concepts-031218.00_28_04_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-1-1-describe_routing_concepts-031218.00_28_04_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-1-1-describe_routing_concepts-031218.00_28_04_05.Still001-sm.jpg",
+          "title": "Describe Routing Concepts",
+          "transcript": "",
+          "url": "describe-routing-concepts",
+          "vimeoId": "259968697"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie introduce basic routing table and the information it provides.  They explain the different components found in the routing table.  Also, the pair describe the use of Administrative Distance for routing protocols.  Lastly, they demonstrate basic routing using static routes and a dynamic routing protocol.",
+          "length": "1917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-1-describe_routing_tables-031318.00_31_46_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-1-describe_routing_tables-031318.00_31_46_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-1-describe_routing_tables-031318.00_31_46_08.Still001-sm.jpg",
+          "title": "Describe Routing Tables",
+          "transcript": "",
+          "url": "describe-routing-tables",
+          "vimeoId": "260243049"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie introduce basic routing table and the information it provides. They discuss the different components of the routing table in use.  The guys discuss and show how to configure dynamic routing and demonstrate how the router learns from another protocol.",
+          "length": "2148",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-2-describe_routing_tables_pt_2-031318-PGM.00_35_34_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-2-describe_routing_tables_pt_2-031318-PGM.00_35_34_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-2-2-describe_routing_tables_pt_2-031318-PGM.00_35_34_09.Still001-sm.jpg",
+          "title": "Describe Routing Tables Part 2",
+          "transcript": "",
+          "url": "describe-routing-tables2",
+          "vimeoId": "259968266"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review the need of interVLAN routing as vlans on a single switch cannot directly communicate without a router.  They discuss the configuration must occur on the switch as well as the trunk.  They show how to configure the trunk port on the switch as well as the subinterfaces on the router.",
+          "length": "1841",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-1-configure_intervlan_routing-031318-PGM.00_31_00_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-1-configure_intervlan_routing-031318-PGM.00_31_00_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-1-configure_intervlan_routing-031318-PGM.00_31_00_17.Still001-sm.jpg",
+          "title": "Configure InterVLAN Routing",
+          "transcript": "",
+          "url": "configure-intervlan-routing",
+          "vimeoId": "260242689"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue demonstrating the interVLAN routing using a layer 3 switch.  The team demonstrates the conifguration of Switched Virtual Interfaces (SVI) on a single switch.  They show the configuration on a layer 3 switch and how to verify it's configured properly.",
+          "length": "1157",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-2-configure_intervlan_routing_pt_2-031318-PGM.00_20_41_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-2-configure_intervlan_routing_pt_2-031318-PGM.00_20_41_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-3-2-configure_intervlan_routing_pt_2-031318-PGM.00_20_41_03.Still001-sm.jpg",
+          "title": "Configure InterVLAN Routing Part 2",
+          "transcript": "",
+          "url": "configure-intervlan-routing2",
+          "vimeoId": "260242528"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure static routing with IPv4.  The guys show how to create a static route and show how the destination side has to be configured with a static route back or using a default route. They also show the routing table to verify that static routes are in the routing lookup table.  Lastly, the team configures a floating static route to recover from a routing failure.",
+          "length": "2011",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-4-1-configure_static_routing_ipv4-031418-PGM.00_33_17_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-4-1-configure_static_routing_ipv4-031418-PGM.00_33_17_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-4-1-configure_static_routing_ipv4-031418-PGM.00_33_17_29.Still001-sm.jpg",
+          "title": "Configure Static Routing IPv4",
+          "transcript": "",
+          "url": "configure-static-routing-ipv4",
+          "vimeoId": "260243336"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure static routing with IPv6.  The guys show how to create a static route and show how the destination side has to be configured with a static route back or using a default route. They also show the routing table to verify that static routes are in the routing lookup table.",
+          "length": "1430",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-5-1-configure_static_routing_ipv6-031418-PGM.00_23_36_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-5-1-configure_static_routing_ipv6-031418-PGM.00_23_36_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-5-1-configure_static_routing_ipv6-031418-PGM.00_23_36_18.Still001-sm.jpg",
+          "title": "Configure Static Routing IPv6",
+          "transcript": "",
+          "url": "configure-static-routing-ipv6",
+          "vimeoId": "260243756"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure RIP for IPv4.",
+          "length": "1708",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-1-configure_ripv2_for_ipv4-031518-PGM.00_28_29_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-1-configure_ripv2_for_ipv4-031518-PGM.00_28_29_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-1-configure_ripv2_for_ipv4-031518-PGM.00_28_29_11.Still001-sm.jpg",
+          "title": "Configure RIPv2 for IPv4",
+          "transcript": "",
+          "url": "configure-ripv2ipv4",
+          "vimeoId": "260497469"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure RIP for IPv4.",
+          "length": "1939",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-2-configure_ripv2_for_ipv4_pt_2-031518.00_32_07_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-2-configure_ripv2_for_ipv4_pt_2-031518.00_32_07_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-2-configure_ripv2_for_ipv4_pt_2-031518.00_32_07_09.Still001-sm.jpg",
+          "title": "Configure RIPv2 for IPv4 Part 2",
+          "transcript": "",
+          "url": "configure-ripv2ipv42",
+          "vimeoId": "260497696"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure RIP for IPv4.",
+          "length": "2074",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-3-configure_ripv2_for_ipv4_pt_3-031518-PGM.00_36_42_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-3-configure_ripv2_for_ipv4_pt_3-031518-PGM.00_36_42_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-3-6-3-configure_ripv2_for_ipv4_pt_3-031518-PGM.00_36_42_29.Still001-sm.jpg",
+          "title": "Configure RIPv2 for IPv4 Part 3",
+          "transcript": "",
+          "url": "configure-ripv2ipv43",
+          "vimeoId": "260497928"
+        }
+      ],
+      "title": "Routing Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie introduce the concept of DNS.  The team describe the DNS lookup process.  They show how the process can work for each individual device but it requires configuration on every device that uses it.  They also describe the use of a DNS Server and how to can serve other devices too.",
+          "length": "1838",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-1-describe_and_configure_dns_on_a_router-031618-PGM.00_36_46_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-1-describe_and_configure_dns_on_a_router-031618-PGM.00_36_46_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-1-describe_and_configure_dns_on_a_router-031618-PGM.00_36_46_25.Still001-sm.jpg",
+          "title": "Describe and Configure DNS on a Router",
+          "transcript": "",
+          "url": "describeconfigure-dnsa-router",
+          "vimeoId": "260815390"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue to configure DNS using a router as the DNS server.  They also discuss the more common usage of hosts tables for routers too.  The guys demontrate how to configure a router as a DNS server and show how it can work.  Lastly, they describe the more common usage of hosts-tables instead.",
+          "length": "1622",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-2-describe_and_configure_dns_on_a_router_pt_2-031618-PGM.00_27_20_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-2-describe_and_configure_dns_on_a_router_pt_2-031618-PGM.00_27_20_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-1-2-describe_and_configure_dns_on_a_router_pt_2-031618-PGM.00_27_20_22.Still001-sm.jpg",
+          "title": "Describe and Configure DNS on a Router Part 2",
+          "transcript": "",
+          "url": "describeconfigure-dnsa-router2",
+          "vimeoId": "260814503"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie describe the use of DHCP server as the replacement for static configurations.  Though, according to the team, a mix of static and dynamic configuration are important, they emphasize the use of DHCP as a service.  The guys discuss the process for DHCP and options that can be configured for DHCP clients.",
+          "length": "1870",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-1-configure_dhcp_on_a_router-031618.00_30_58_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-1-configure_dhcp_on_a_router-031618.00_30_58_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-1-configure_dhcp_on_a_router-031618.00_30_58_09.Still001-sm.jpg",
+          "title": "Configure DHCP on a Router",
+          "transcript": "",
+          "url": "configure-dhcpa-router",
+          "vimeoId": "260814944"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue to configure DHCP clients and even an DHCP relay.  The discuss the way to configure a router interface as a DHCP client for an IP address on its interface.  Also they configure how to use DHCP on a different broadcast domain.",
+          "length": "1195",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-2-configure_dhcp_on_a_router_pt_2-031618.00_23_53_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-2-configure_dhcp_on_a_router_pt_2-031618.00_23_53_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-2-2-configure_dhcp_on_a_router_pt_2-031618.00_23_53_10.Still001-sm.jpg",
+          "title": "Configure DHCP on a Router Part 2",
+          "transcript": "",
+          "url": "configure-dhcpa-router2",
+          "vimeoId": "260814231"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie talk about synchronizing router clocks. They show how to manually configure a router's clock.  Even so, the team also shows that this doesn't make it synchronize for accuracy as much as to demonstrate how it can be controlled.",
+          "length": "1692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-1-configure_and_verify_ntp-031918-PGM.00_27_58_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-1-configure_and_verify_ntp-031918-PGM.00_27_58_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-1-configure_and_verify_ntp-031918-PGM.00_27_58_24.Still001-sm.jpg",
+          "title": "Configure and Verify NTP",
+          "transcript": "",
+          "url": "configureverify-ntp",
+          "vimeoId": "261003975"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue with the clock synchronization by show how to setup an ntp server and ntp client. They describe the configure details that used to setup the router as an ntp master, and as an ntp client.  Lastly, they demonstrate how to verify it's use.",
+          "length": "1698",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-2-configure_and_verify_ntp_pt_2-031918-PGM.00_28_04_24.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-2-configure_and_verify_ntp_pt_2-031918-PGM.00_28_04_24.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-3-2-configure_and_verify_ntp_pt_2-031918-PGM.00_28_04_24.Still002-sm.jpg",
+          "title": "Configure and Verify NTP Part 2",
+          "transcript": "",
+          "url": "configureverify-ntp2",
+          "vimeoId": "261004339"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the use of ACLs: Standard Access Control Lists, Extended Access Controls and mention Named lists too.  They describe the configuration and logic of the configuration and operation of ACLs.  They begin configuring Standard ACLs.",
+          "length": "2011",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-1-configure_standard_access_lists-032018-PGM.00_33_18_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-1-configure_standard_access_lists-032018-PGM.00_33_18_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-1-configure_standard_access_lists-032018-PGM.00_33_18_02.Still001-sm.jpg",
+          "title": "Configure Standard Access Lists",
+          "transcript": "",
+          "url": "configure-standard-access-lists",
+          "vimeoId": "261132093"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue with configuring access lists.  They continue with applying an ACL to an interface.  They remind that both: creating an ACL and applying to an interface is essential to the ACL operation.  They create an extended ACL to show it's flexibiity and review the importance of the placement of ACLs.",
+          "length": "1590",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-2-configure_standard_access_lists_pt_2-032018-PGM.00_26_19_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-2-configure_standard_access_lists_pt_2-032018-PGM.00_26_19_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-2-configure_standard_access_lists_pt_2-032018-PGM.00_26_19_15.Still001-sm.jpg",
+          "title": "Configure Standard Access Lists Part 2",
+          "transcript": "",
+          "url": "configure-standard-access-lists2",
+          "vimeoId": "261132525"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to configure a Named Access list.  The team remind us that though emphasis is on Standard ACLs, it is not the only ACLs to be configured.  They demonstrate how to configure it and that it has the same functionality as previously configured lists too.",
+          "length": "1366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-3-configure_standard_access_lists_pt_3-032018-PGM.00_25_19_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-3-configure_standard_access_lists_pt_3-032018-PGM.00_25_19_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-3-configure_standard_access_lists_pt_3-032018-PGM.00_25_19_29.Still001-sm.jpg",
+          "title": "Configure Standard Access Lists Part 3",
+          "transcript": "",
+          "url": "configure-standard-access-lists3",
+          "vimeoId": "261131867"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie conclude the ACL configuration by taking a named access list and apply it to a virtual interface.  They show how applying the an ACL is different on a virtual interface and how to verify it's working.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-4-configure_standard_access_lists_pt_4-032018-PGM.00_29_33_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-4-configure_standard_access_lists_pt_4-032018-PGM.00_29_33_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-4-4-configure_standard_access_lists_pt_4-032018-PGM.00_29_33_20.Still001-sm.jpg",
+          "title": "Configure Standard Access Lists Part 4",
+          "transcript": "",
+          "url": "configure-standard-access-lists4",
+          "vimeoId": "261132922"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie introduce the concept of NAT--Network Address Translation.  They describe the different ways to implement it and begin to configure Static NAT.",
+          "length": "1935",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-1-configure_nat-032118.00_32_03_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-1-configure_nat-032118.00_32_03_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-1-configure_nat-032118.00_32_03_27.Still001-sm.jpg",
+          "title": "Configure NAT",
+          "transcript": "",
+          "url": "configure-nat-2018",
+          "vimeoId": "261354971"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure dynamic NAT.  The describe how to configure it on the router and verify it's working.  They also discuss when to use it in comparison to static routing.",
+          "length": "1657",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-2-configure_nat_pt_2-032118.00_28_04_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-2-configure_nat_pt_2-032118.00_28_04_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-2-configure_nat_pt_2-032118.00_28_04_27.Still001-sm.jpg",
+          "title": "Configure NAT Part 2",
+          "transcript": "",
+          "url": "configure-nat2",
+          "vimeoId": "261354660"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure the most commonly use form of NAT: NAT overload or PAT--both are used to describe the same thing.  Here they configure this by using an access-list and a nat statement to combine it with interface and the overload keyword.",
+          "length": "1315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-3-configure_nat_pt_3-032118-PGM.00_21_42_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-3-configure_nat_pt_3-032118-PGM.00_21_42_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-4-5-3-configure_nat_pt_3-032118-PGM.00_21_42_12.Still001-sm.jpg",
+          "title": "Configure NAT Part 3",
+          "transcript": "",
+          "url": "configure-nat3",
+          "vimeoId": "261354428"
+        }
+      ],
+      "title": "Infrastructure Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie configure basic monitoring using syslog commands.  They discuss the use of the buffer and a syslog server. The team setup the syslog server and configure the router to send logs to it.",
+          "length": "1790",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-1-1-implement_device_monitoring-032218-PGM.00_33_58_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-1-1-implement_device_monitoring-032218-PGM.00_33_58_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-1-1-implement_device_monitoring-032218-PGM.00_33_58_28.Still001-sm.jpg",
+          "title": "Implement Device Monitoring",
+          "transcript": "",
+          "url": "implement-device-monitoring",
+          "vimeoId": "261485269"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review basic device management.  They discuss the need for backing up a router or switch's configurations using tftp.  They demonstrate how to do this from the Cisco CLI.  Also, they review the use and configuratiion of Layer 2 discovery protocols.",
+          "length": "1995",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-2-1-configure_device_management-032218-PGM.00_33_01_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-2-1-configure_device_management-032218-PGM.00_33_01_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-2-1-configure_device_management-032218-PGM.00_33_01_16.Still001-sm.jpg",
+          "title": "Configure Device Management",
+          "transcript": "",
+          "url": "configure-device-management",
+          "vimeoId": "261831416"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review some of the basic device hardening configuration. The team walks through basic configuration setting up the device for use in a network.",
+          "length": "1971",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-1-implement_initial_device_hardening-032318-PGM.00_33_48_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-1-implement_initial_device_hardening-032318-PGM.00_33_48_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-1-implement_initial_device_hardening-032318-PGM.00_33_48_08.Still001-sm.jpg",
+          "title": "Implement Initial Device Hardening",
+          "transcript": "",
+          "url": "implement-initial-device-hardening",
+          "vimeoId": "261844950"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue with the initial device hardening as well as reviewing basic device configurations for functioning with routing protocols and remote access.",
+          "length": "1048",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-2-implement_initial_device_hardening_pt2-032318-PGM.00_19_23_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-2-implement_initial_device_hardening_pt2-032318-PGM.00_19_23_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-3-2-implement_initial_device_hardening_pt2-032318-PGM.00_19_23_07.Still001-sm.jpg",
+          "title": "Implement Initial Device Hardening Part 2",
+          "transcript": "",
+          "url": "implement-initial-device-hardening2",
+          "vimeoId": "261845279"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to do file system management and perform a recovery of the image and password-recovery.",
+          "length": "2232",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-4-1-perform_device_management-032318-PGM.00_40_39_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-4-1-perform_device_management-032318-PGM.00_40_39_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-5-4-1-perform_device_management-032318-PGM.00_40_39_05.Still001-sm.jpg",
+          "title": "Perform Device Management",
+          "transcript": "",
+          "url": "perform-device-management",
+          "vimeoId": "261844488"
+        }
+      ],
+      "title": "Infrastructure Maintenance"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Ronnie take an opportunity to work through the logic of tackling exam questions about subnetting.  They review the questions, answers and logic after each question",
+          "length": "1765",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-1-subnetting_practice-022318-PGM.00_29_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-1-subnetting_practice-022318-PGM.00_29_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-1-subnetting_practice-022318-PGM.00_29_11_22.Still001-sm.jpg",
+          "title": "Subnetting Practice",
+          "transcript": "",
+          "url": "subnetting-practice",
+          "vimeoId": "257570585"
+        },
+        {
+          "description": "In this episode,Ronnie take an opportunity to work through the logic of tackling exam questions about subnetting. He reviews the questions, answers and logic after each question.",
+          "length": "921",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-2-subnetting_practice_pt2-032318-PGM.00_15_07_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-2-subnetting_practice_pt2-032318-PGM.00_15_07_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105-2018/cisco-ccent100105-6-1-2-subnetting_practice_pt2-032318-PGM.00_15_07_16.Still001-sm.jpg",
+          "title": "Subnetting Practice Part 2",
+          "transcript": "",
+          "url": "subnetting-practice2",
+          "vimeoId": "261845458"
+        }
+      ],
+      "title": "Subnetting"
+    }
+  ],
+  "url": "ccent-updated-2018",
+  "vLab": false
+}

@@ -8,7 +8,7 @@ class Menu extends Component {
     super(props);
   }
 
-  handleClick = index => e => {
+  handleClick = (index) => (e) => {
     this.props.onChange(index);
   };
 
@@ -20,22 +20,22 @@ class Menu extends Component {
         <div className={ styles.row }>
           <div className={ styles.cols }>
             <ul className={ styles.list }>
-              {categories.map((category, index) => (
-                  <li
-                    key={category}
-                    className={ `${styles.item} ${activeCategory == index && styles.active}`}
-                    onClick={ this.handleClick(index) }
-                  >
-                    <span>{category}</span>
-                  </li>
-              ))}
+              {categories.map((category, index) => 
+                <li
+                  key={category}
+                  className={ `${styles.item} ${activeCategory == index && styles.active}`}
+                  onClick={ this.handleClick(index) }
+                >
+                  <span>{category}</span>
+                </li>
+              )}
             </ul>
           </div>
         </div>
       </section>
     );
   }
-};
+}
 
 
 export default Menu;

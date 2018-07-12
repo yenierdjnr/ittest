@@ -1,0 +1,62 @@
+{
+  "description": "The Working with SSH show aims to remove the intimidation of using the Secure Shell protocol on your network. SSH allows for encrypting network communications to protect from eavesdropping and man-in-the-middle attacks. This series demonstrates how to configure and use SSH to securely manage your systems.",
+  "descriptionMD": "",
+  "length": "1997",
+  "name": "Working with SSH",
+  "practiceExam": false,
+  "subtitle": "SSH Tools and Tips",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "80",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-0-0-overview-060415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-0-0-overview-060415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-0-0-overview-060415-1-sm.jpg",
+          "title": "Working with SSH",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:03.013\n[SOUND] All right,\n\n2\n00:00:03.013 --> 00:00:07.994\nwelcome to Working With SSH,\n\n3\n00:00:07.994 --> 00:00:12.186\na new series on ITProTV.\n\n4\n00:00:12.186 --> 00:00:16.014\nIn this series of segments, we're gonna\nbe taking a look at the SSH protocol,\n\n5\n00:00:16.014 --> 00:00:19.496\nhow we can use it and some of the\ndifferent ways we can tweak and configure\n\n6\n00:00:19.496 --> 00:00:23.820\nit to ensure that we're connecting to our\nservers in the most secure of manners.\n\n7\n00:00:23.820 --> 00:00:26.290\nSSH is a really robust protocol.\n\n8\n00:00:26.290 --> 00:00:27.290\nA lot of people use it for\n\n9\n00:00:27.290 --> 00:00:30.730\na number of things, from the basic\nencrypted shell type connection,\n\n10\n00:00:30.730 --> 00:00:35.110\nto doing secure file transfers,\nto even tunneling, like a VPN tunnel.\n\n11\n00:00:35.110 --> 00:00:38.350\nYou can use it as a SSH for that,\ntoo,it's really, really powerful.\n\n12\n00:00:38.350 --> 00:00:42.670\nThere's a few basic configuration steps\nthat need to be done to enable it and\n\n13\n00:00:42.670 --> 00:00:46.420\nsome additional steps to make sure\nthat it's nice and secure and\n\n14\n00:00:46.420 --> 00:00:48.790\nthat you get the biggest\nbenefit out of it.\n\n15\n00:00:48.790 --> 00:00:52.720\nA lot of people are intimidated by SSH cuz\nthey don't wanna deal with encryption and\n\n16\n00:00:52.720 --> 00:00:54.020\nall the advanced settings.\n\n17\n00:00:54.020 --> 00:00:57.160\nBut at the end of the day,\nit's really not very difficult.\n\n18\n00:00:57.160 --> 00:01:00.836\nSo we've created this series of\nepisodes to help walk you through some\n\n19\n00:01:00.836 --> 00:01:05.072\nof the common things you need to do to get\nSSH deployed properly on your network and\n\n20\n00:01:05.072 --> 00:01:09.594\nget the most out of that protocol that you\ncan, to take advantage of what you've got.\n\n21\n00:01:09.594 --> 00:01:13.531\nSo stay tuned,\nwe've got more SSH coming up.\n\n22\n00:01:13.531 --> 00:01:19.569\n[SOUND]\n\n",
+          "url": "ssh-linux-instance1",
+          "vimeoId": "131436490"
+        },
+        {
+          "description": null,
+          "length": "378",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-1-1-enabling_ssh-060415.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-1-1-enabling_ssh-060415-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-1-1-enabling_ssh-060415-sm.jpg",
+          "title": "Enabling SSH",
+          "transcript": "",
+          "url": "enabling-ssh",
+          "vimeoId": "131436514"
+        },
+        {
+          "description": null,
+          "length": "873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-2-1-using_certificates_with_ssh-060415.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-2-1-using_certificates_with_ssh-060415-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-2-1-using_certificates_with_ssh-060415-sm.jpg",
+          "title": "Using Certificates with SSH",
+          "transcript": "",
+          "url": "using-cerfificates-ssh",
+          "vimeoId": "131436528"
+        },
+        {
+          "description": null,
+          "length": "666",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-3-1-hardening_ssh-060415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-3-1-hardening_ssh-060415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-ssh/techskills-ssh-3-1-hardening_ssh-060415-1-sm.jpg",
+          "title": "Hardening SSH",
+          "transcript": "",
+          "url": "hardening-ssh",
+          "vimeoId": "131436536"
+        }
+      ],
+      "title": "Working with SSH"
+    }
+  ],
+  "url": "ssh",
+  "vLab": false
+}

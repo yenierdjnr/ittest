@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const IconCoin = props => {
-  const { className='', fill='none' } = props;
+const IconCoin = (props) => {
+  const { className='' } = props;
 
   return (
     <svg className={ className } width="58" height="77" viewBox="0 0 58 77">

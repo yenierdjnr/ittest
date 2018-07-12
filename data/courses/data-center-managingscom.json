@@ -1,0 +1,530 @@
+{
+  "description": "This course will help you to acquire the skills required to deploy and configure System Center 2012 R2 Operations Manager for Cloud and Datacenter monitoring. Architecture of a SCOM Monitoring Group, upgrading and/or migrating to SCOM 2012 R2, Management Pack creation, importing, and customization are all discussed and demonstrated. In addition, how to configure end-to-end service monitoring, fabric and application monitoring, and Application Performance Monitoring (APM) for .NET and Java applications are all covered. If you are new to SCOM 2102 R2, or have been using prior versions and want to update your skills, then this course will show you how.",
+  "descriptionMD": "This course will help you to acquire the skills required to deploy and configure System Center 2012 R2 Operations Manager for Cloud and Datacenter monitoring. Architecture of a SCOM Monitoring Group, upgrading and/or migrating to SCOM 2012 R2, Management Pack creation, importing, and customization are all discussed and demonstrated. In addition, how to configure end-to-end service monitoring, fabric and application monitoring, and Application Performance Monitoring (APM) for .NET and Java applications are all covered. If you are new to SCOM 2102 R2, or have been using prior versions and want to update your skills, then this course will show you how.",
+  "length": "62889",
+  "name": "Data Center Managing with SCOM",
+  "practiceExam": false,
+  "subtitle": "Data Center Managing with SCOM",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course will help you to acquire the skills required to deploy and configure System Center 2012 R2 Operations Manager for Cloud and Datacenter monitoring. Architecture of a SCOM Monitoring Group, upgrading and/or migrating to SCOM 2012 R2, Management Pack creation, importing, and customization are all discussed and demonstrated. In addition, how to configure end-to-end service monitoring, fabric and application monitoring, and Application Performance Monitoring (APM) for .NET and Java applications are all covered. If you are new to SCOM 2102 R2, or have been using prior versions and want to update your skills, then this course will show you how.",
+          "length": "129",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-0-0-overview-032417-PGM.00_00_03_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-0-0-overview-032417-PGM.00_00_03_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-0-0-overview-032417-PGM.00_00_03_01.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.008 --> 00:00:05.044\n[NOISE] In this segment, we're gonna\ngive you a quick brief look at what to\n\n2\n00:00:05.044 --> 00:00:10.344\nexpect on our upcoming Data Center\nMonitoring with Microsoft SCOM series.\n\n3\n00:00:10.344 --> 00:00:14.780\nAnd, Adam, I was wondering if you could do\nus a good favor of giving us the idea of\n\n4\n00:00:14.780 --> 00:00:17.610\nwhat we can expect topic\nwise in this series.\n\n5\n00:00:17.610 --> 00:00:21.470\n&gt;&gt; Absolutely, so if you are a Scom\nadministrator today, in other words,\n\n6\n00:00:21.470 --> 00:00:23.250\nif you're using this product already.\n\n7\n00:00:23.250 --> 00:00:26.230\nIf you are a Scom 2007, 2007 R2 person,\n\n8\n00:00:26.230 --> 00:00:30.630\nif you have been using the product,\ndefinitely wanna take a look.\n\n9\n00:00:30.630 --> 00:00:34.340\nWe're gonna talk about how to upgrade,\nhow to migrate, how to do .net\n\n10\n00:00:34.340 --> 00:00:37.770\nbased application performance monitoring\ngonna take a look under the hood talk\n\n11\n00:00:37.770 --> 00:00:41.550\nabout all the bells and whistles and\nnew features available in 12 R2.\n\n12\n00:00:41.550 --> 00:00:45.304\nA lot of things have changed, if you're\nbrand new to the product you haven't\n\n13\n00:00:45.304 --> 00:00:48.825\nused it before, wanna get a leg up so\nto speak on the competition indoor,\n\n14\n00:00:48.825 --> 00:00:51.402\nyour boss at work is saying hey,\nDaniel guess what?\n\n15\n00:00:51.402 --> 00:00:52.446\nThat's you.\n\n16\n00:00:52.446 --> 00:00:54.010\n&gt;&gt; [LAUGH]\n&gt;&gt; Guess what?\n\n17\n00:00:54.010 --> 00:00:56.400\nWe got a job for\nyou which is good news right?\n\n18\n00:00:56.400 --> 00:00:59.770\nBut you're gonna start talking over\nmanagement of this whoever you are,\n\n19\n00:00:59.770 --> 00:01:01.100\nthis is the course for you.\n\n20\n00:01:01.100 --> 00:01:04.320\nYou wanna see how this product\ngets deployed, from the ground up.\n\n21\n00:01:04.320 --> 00:01:08.070\nWe're gonna talk about architecture,\noverview, how we do the deployment, what\n\n22\n00:01:08.070 --> 00:01:11.530\na management group is, what a resource\npool is, how we put it all together.\n\n23\n00:01:11.530 --> 00:01:15.380\nAnd not just SCOM, we're gonna take a look\nat the entire System Center ecosystem.\n\n24\n00:01:15.380 --> 00:01:17.270\nAll the products around this product.\n\n25\n00:01:17.270 --> 00:01:19.650\nShow you how to install and configure\nall of them, how to connect them,\n\n26\n00:01:19.650 --> 00:01:21.640\nhow to make sure they all work together.\n\n27\n00:01:21.640 --> 00:01:24.930\nAnd as if that's not enough\nwe're gonna also talk\n\n28\n00:01:24.930 --> 00:01:29.760\nto you about how to make sure that you\ncan do monitoring both of the fabrics.\n\n29\n00:01:29.760 --> 00:01:32.760\nWe're gonna take a look at\nVMM System Center Virtual Machine Manager,\n\n30\n00:01:32.760 --> 00:01:35.400\nwe're to take a look at\noutside in monitoring with\n\n31\n00:01:35.400 --> 00:01:38.630\nGlobal Service Monitoring we are talking\nabout application level monitoring.\n\n32\n00:01:38.630 --> 00:01:41.980\nAnd really see from top to bottom,\nside to side, up and down, and\n\n33\n00:01:41.980 --> 00:01:44.980\nevery which way you can imagine\nturning around how this product works.\n\n34\n00:01:44.980 --> 00:01:46.352\nHope you are going to come back and\njoin us for.\n\n35\n00:01:46.352 --> 00:01:49.440\nLook forward spending time with you,\nand with Daniel, and\n\n36\n00:01:49.440 --> 00:01:51.620\nanybody else who may pop in along the way.\n\n37\n00:01:51.620 --> 00:01:53.510\nCuz you never know we\nmay have some surprises.\n\n38\n00:01:53.510 --> 00:01:56.250\nI wanted to spend time talking about\nthis so please do come back, and\n\n39\n00:01:56.250 --> 00:01:57.390\njoin us right away.\n\n40\n00:01:57.390 --> 00:02:00.109\n&gt;&gt; Excellent stuff Adam,\nwe thank you for that explanation, and\n\n41\n00:02:00.109 --> 00:02:02.520\nif that sounds like something\nthat might interest you,\n\n42\n00:02:02.520 --> 00:02:04.848\nwe look forward to seeing\nyou in the upcoming series.\n\n43\n00:02:04.848 --> 00:02:09.244\n[NOISE]\n\n",
+          "url": "overview70768",
+          "vimeoId": "210443290"
+        },
+        {
+          "description": "In this episode, Daniel and Adam begin the series by giving you a quick overview of Microsoft System Center's main components which includes the App Controller, Config Manager, Endpoint Protection, Data Protection Manager, Ops Manager, Orchestrater, Service Manager, Virtual Machine Manager, and Advisor. They also compare/contrast System Center with Azure.",
+          "length": "1679",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-1-overview_and_architecture-032017-PGM.00_27_44_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-1-overview_and_architecture-032017-PGM.00_27_44_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-1-overview_and_architecture-032017-PGM.00_27_44_20.Still001-sm.jpg",
+          "title": "Overview and Architecture",
+          "transcript": "",
+          "url": "overviewarchitecture",
+          "vimeoId": "209434008"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their tour of Microsoft's System Center Operations Manager(SCOM). Here they look over the key features found in SCOM like Management Servers, Databases, Agents, Reporting, Management Packs, Operations/Web Consoles, and Gateway Servers.",
+          "length": "1807",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-2-overview_and_architecture_pt2-032017-PGM.00_29_52_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-2-overview_and_architecture_pt2-032017-PGM.00_29_52_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-2-overview_and_architecture_pt2-032017-PGM.00_29_52_05.Still001-sm.jpg",
+          "title": "Overview and Architecture Part 2",
+          "transcript": "",
+          "url": "overviewarchitecture2",
+          "vimeoId": "209435266"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their tour of Microsoft's System Center Operations Manager(SCOM). Here they round out their overview of SCOM with some odds and ends like how SCOM focuses on and maintains productivity as well as some documentation for setup.",
+          "length": "1395",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-3-overview_and_architecture_pt3-032017-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-3-overview_and_architecture_pt3-032017-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-1-1-3-overview_and_architecture_pt3-032017-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Overview and Architecture Part 3",
+          "transcript": "",
+          "url": "overviewarchitecture3",
+          "vimeoId": "209437682"
+        }
+      ],
+      "title": "Overview and Architecture"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam start looking at what it takes to get a new SCOM Management Group deployed. They start by exploring the necessary security account types as well as controlling access to the management groups. Then they move into design factors and working with connected management groups.",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-1-deploying_a_new_scom_mgmt_group-032017-PGM.00_32_41_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-1-deploying_a_new_scom_mgmt_group-032017-PGM.00_32_41_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-1-deploying_a_new_scom_mgmt_group-032017-PGM.00_32_41_01.Still001-sm.jpg",
+          "title": "Deploying a New SCOM Management Group",
+          "transcript": "",
+          "url": "deployingnew-scom-management",
+          "vimeoId": "209438837"
+        },
+        {
+          "description": "In this episode, Daniel and Adam move into looking at installation of a Distributed System Center 2012 R2 Operations Manager Management Group. They explain the specific order that installation should proceed in as well as going over the methods for confirming installation. Finally, they explore the Ops Manager's default configuration, manual Agent installation settings, and Automatic Alert resolution.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-2-deploying_a_new_scom_mgmt_group_pt2-032017-PGM.00_06_50_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-2-deploying_a_new_scom_mgmt_group_pt2-032017-PGM.00_06_50_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-2-deploying_a_new_scom_mgmt_group_pt2-032017-PGM.00_06_50_12.Still001-sm.jpg",
+          "title": "Deploying a New SCOM Management Group Part 2",
+          "transcript": "",
+          "url": "deployingnew-scom-managementpart-2",
+          "vimeoId": "209443814"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their demonstration of deploying a SCOM Management Group. Here they introduce you to the common deployment methods for the Agent, using the Console as well as PowerShell, or through manual installation. They also explore the Agent-less Exception Monitoring feature.",
+          "length": "2207",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-3-deploying_a_new_scom_mgmt_group_pt3-032117-PGM.00_37_11_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-3-deploying_a_new_scom_mgmt_group_pt3-032117-PGM.00_37_11_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-3-deploying_a_new_scom_mgmt_group_pt3-032117-PGM.00_37_11_02.Still001-sm.jpg",
+          "title": "Deploying a New SCOM Management Group Part 3",
+          "transcript": "",
+          "url": "deployingnew-scom-managementpart-3",
+          "vimeoId": "209588153"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their demonstrating their deployment of a new SCOM Management Group. They start by configuring the Audit Collection Service(ACS) which allows the collection of security events from remote systems and then a bit of administration using the AdtAdmin.exe tool and PowerShell.",
+          "length": "769",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-4-deploying_a_new_scom_mgmt_group_pt4-032117-PGM.00_12_31_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-4-deploying_a_new_scom_mgmt_group_pt4-032117-PGM.00_12_31_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-1-4-deploying_a_new_scom_mgmt_group_pt4-032117-PGM.00_12_31_27.Still001-sm.jpg",
+          "title": "Deploying a New SCOM Management Group Part 4",
+          "transcript": "",
+          "url": "deployingnew-scom-managementpart-4",
+          "vimeoId": "209588985"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the Virtual Machine Management Server. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "1280",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-2-install_virtual_machine_management_server-032017-PGM.00_21_04_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-2-install_virtual_machine_management_server-032017-PGM.00_21_04_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-2-install_virtual_machine_management_server-032017-PGM.00_21_04_23.Still001-sm.jpg",
+          "title": "Install Virtual Machine Management Server",
+          "transcript": "",
+          "url": "install-virtual-machine-management-server",
+          "vimeoId": "209445743"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the SCOM App Controller. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "1397",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-3-install_and_configure_app_controller_server-032117-PGM.00_23_00_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-3-install_and_configure_app_controller_server-032117-PGM.00_23_00_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-3-install_and_configure_app_controller_server-032117-PGM.00_23_00_04.Still001-sm.jpg",
+          "title": "Install and Configure App Controller Server",
+          "transcript": "",
+          "url": "installconfigure-app-controller-server",
+          "vimeoId": "209768699"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the Operations Manager on a single server. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "2355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117-PGM.00_50_50_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117-PGM.00_50_50_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117-PGM.00_50_50_15.Still001-sm.jpg",
+          "title": "Install Operations Manager on Single Server",
+          "transcript": "",
+          "url": "install-operations-managersingle-server",
+          "vimeoId": "209769530"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the System Center Data Protection Manager. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "1061",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-5-install_data_protection_manager-032117-PGM.00_17_26_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-5-install_data_protection_manager-032117-PGM.00_17_26_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-5-install_data_protection_manager-032117-PGM.00_17_26_00.Still001-sm.jpg",
+          "title": "Install Data Protection Manager",
+          "transcript": "",
+          "url": "install-data-protection-manager",
+          "vimeoId": "209770739"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the System Center Data Protection Manager. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "1646",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-6-install_orchestrator_on_single_server-032117-PGM.00_27_09_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-6-install_orchestrator_on_single_server-032117-PGM.00_27_09_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-6-install_orchestrator_on_single_server-032117-PGM.00_27_09_29.Still001-sm.jpg",
+          "title": "Install Orchestrator on Single Server",
+          "transcript": "",
+          "url": "install-orchestratorsingle-server",
+          "vimeoId": "209771362"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install the Service Manager on Single Server. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "810",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-7-install_service_manager_on_a_single_server-032117-PGM.00_13_15_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-7-install_service_manager_on_a_single_server-032117-PGM.00_13_15_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-2-7-install_service_manager_on_a_single_server-032117-PGM.00_13_15_28.Still001-sm.jpg",
+          "title": "Install Service Manger on a Single Server",
+          "transcript": "",
+          "url": "install-service-mangera-single-server",
+          "vimeoId": "209772492"
+        }
+      ],
+      "title": "Deploying System Center 2012 R2 Ops Management Group"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam show you the resources you'll need to successfully upgrade your Operations Manager Server. They begin by explaining the proper upgrade paths as well as making the distinction between upgrades and migrations. Then they point you toward documentation from Microsoft that guides each upgrade type.",
+          "length": "2133",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-3-1-upgrading_operations_manager-032217-PGM.00_35_16_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-3-1-upgrading_operations_manager-032217-PGM.00_35_16_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-3-1-upgrading_operations_manager-032217-PGM.00_35_16_02.Still001-sm.jpg",
+          "title": "Upgrading Operations Manager",
+          "transcript": "",
+          "url": "upgrading-operations-manager",
+          "vimeoId": "209779652"
+        }
+      ],
+      "title": "Upgrading Operations Manager"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore configuring Fabric and Application monitoring. They begin by talking about Management Packs; where to get them, how to import them, and setting up monitors.",
+          "length": "2114",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-1-fabric_and_application_monitoring-032417-PGM.00_34_57_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-1-fabric_and_application_monitoring-032417-PGM.00_34_57_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-1-fabric_and_application_monitoring-032417-PGM.00_34_57_12.Still001-sm.jpg",
+          "title": "Fabric and Application Monitoring",
+          "transcript": "",
+          "url": "fabricapplication-monitoring",
+          "vimeoId": "210438927"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their conversation about Fabric and Application monitoring. They pick up by talking about targeting your rules for specific outcomes. Then they take a look at the use of \"RunAs\" accounts. Finally, they explore Overrides and Agent/Console Tasks.",
+          "length": "2014",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-2-fabric_and_application_monitoring_pt2-032417-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-2-fabric_and_application_monitoring_pt2-032417-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-2-fabric_and_application_monitoring_pt2-032417-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Fabric and Application Monitoring Part 2",
+          "transcript": "",
+          "url": "fabricapplication-monitoring2",
+          "vimeoId": "210440134"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their conversation about Fabric and Application monitoring. They start with configuring network device monitoring then jump over to setting up Fabric monitoring.",
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-3-fabric_and_application_monitoring_pt3-032417-PGM.00_25_54_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-3-fabric_and_application_monitoring_pt3-032417-PGM.00_25_54_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-1-3-fabric_and_application_monitoring_pt3-032417-PGM.00_25_54_12.Still001-sm.jpg",
+          "title": "Fabric and Application Monitoring Part 3",
+          "transcript": "",
+          "url": "fabricapplication-monitoring3",
+          "vimeoId": "210441144"
+        },
+        {
+          "description": "In this episode, Daniel and Adam show you how to deploy SCOM Agent configuration and discovery. They will demonstrate installation of the Operations Manager Agent on a computer as well as discover network devices in the Operations Manager.",
+          "length": "1341",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-2-scom_agent_configuration_and_discovery-032417-PGM.00_22_05_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-2-scom_agent_configuration_and_discovery-032417-PGM.00_22_05_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-2-scom_agent_configuration_and_discovery-032417-PGM.00_22_05_21.Still001-sm.jpg",
+          "title": "SCOM Agent Configuration and Discovery",
+          "transcript": "",
+          "url": "scom-agent-configurationdiscovery",
+          "vimeoId": "210442130"
+        },
+        {
+          "description": "In this episode, Daniel and Adam show you how to import an Operations Manager Management Pack from the catalogue. They quickly walk you through the steps of finding an Management Pack, downloading, and importing with the Ops Manager.",
+          "length": "417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_06_42_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_06_42_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_06_42_15.Still001-sm.jpg",
+          "title": "Import Ops Manager Management Pack",
+          "transcript": "",
+          "url": "import-ops-manager-management-pack",
+          "vimeoId": "210441930"
+        },
+        {
+          "description": "In this episode, Daniel and Adam show you how to connect the Virtual Machine Manager(VMM) with the Ops Manager and enable Performance and Resource Optimization(PRO). They also demonstrate configuring SQL Server Analysis Service for VMM.",
+          "length": "1022",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-high-sm.jpg",
+          "title": "Linking VMM SCOM and PRO",
+          "transcript": "",
+          "url": "linking-vmm-scompro",
+          "vimeoId": "210442808"
+        }
+      ],
+      "title": "Configuring Fabric and Application Monitoring"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee discuss Application Performance Monitoring. Learn why and how to use APM to improve application performance.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001-sm.jpg",
+          "title": "Application Performance Monitoring",
+          "transcript": "",
+          "url": "application-performance-monitoring3",
+          "vimeoId": "210594856"
+        },
+        {
+          "description": "In this show, Cherokee and Adam thumb-wrestle to determine who will demonstrate how to use Application Performance Monitoring (APM) to monitor new applications.",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-2-use_apm_to_monitor_new_apps-032517.00_33_27_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-2-use_apm_to_monitor_new_apps-032517.00_33_27_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-2-use_apm_to_monitor_new_apps-032517.00_33_27_09.Still001-sm.jpg",
+          "title": "Use APM to Monitor New Apps",
+          "transcript": "",
+          "url": "apmmonitorapps",
+          "vimeoId": "210824478"
+        },
+        {
+          "description": "Watch Adam demonstrate how to create and configure notification accounts for receiving alerts.",
+          "length": "1062",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-3-configure_notification_accounts_for_alerts-032517.00_19_47_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-3-configure_notification_accounts_for_alerts-032517.00_19_47_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-3-configure_notification_accounts_for_alerts-032517.00_19_47_23.Still001-sm.jpg",
+          "title": "Configure Notification Accounts for Alerts",
+          "transcript": "",
+          "url": "configure-notification-accountsalerts",
+          "vimeoId": "210826038"
+        },
+        {
+          "description": "In this show, Adam explains step-by-step how to monitor web sites.",
+          "length": "1408",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-4-web_application_availability_monitoring-032517.00_23_37_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-4-web_application_availability_monitoring-032517.00_23_37_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-4-web_application_availability_monitoring-032517.00_23_37_08.Still001-sm.jpg",
+          "title": "Web Application Availability Monitoring",
+          "transcript": "",
+          "url": "synthetic-transaction-monitoring",
+          "vimeoId": "210979397"
+        },
+        {
+          "description": "In this show, watch Adam explain how to view distributed applications.",
+          "length": "1500",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-5-viewing_distributed_applications-032517.00_26_39_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-5-viewing_distributed_applications-032517.00_26_39_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-5-5-viewing_distributed_applications-032517.00_26_39_00.Still001-sm.jpg",
+          "title": "Viewing Distributed Applications",
+          "transcript": "",
+          "url": "viewing-distributed-applications",
+          "vimeoId": "210826686"
+        }
+      ],
+      "title": "Application Performance Monitoring"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Watch Adam and Cherokee discuss several Source Management Pack Templates. They review some of the concrpts covered in previous episodes such as distributed applications  and global service while previewing new concepts such as configuration overrides and synthetic transaction web monitoring. Lastly, toy will learn about real-time Visio Dashboards and the way they integrate many System Center features.",
+          "length": "1",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-1-end_to_end_service_monitoring-032517.00_28_34_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-1-end_to_end_service_monitoring-032517.00_28_34_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-1-end_to_end_service_monitoring-032517.00_28_34_09.Still001-sm.jpg",
+          "title": "End to End Service Monitoring",
+          "transcript": "",
+          "url": "toservice-monitoring",
+          "vimeoId": "210827480"
+        },
+        {
+          "description": "Cherokee and Adam break down a step-by-step demonstration to configure overrides. Tune in to learn how to use one of the many integrated overrides or create you own custom ones.",
+          "length": "1025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-2-configure_overrides-032517.00_17_48_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-2-configure_overrides-032517.00_17_48_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-2-configure_overrides-032517.00_17_48_05.Still001-sm.jpg",
+          "title": "Configure Overrides",
+          "transcript": "",
+          "url": "configure-overrides",
+          "vimeoId": "210828691"
+        },
+        {
+          "description": "SCOM  6-3 Synthetic Transaction Web Monitoring In this show, Adam walks through the steps ho use synthetic transaction monitoring to monitor a web site URL.",
+          "length": "1403",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_16.Still001-sm.jpg",
+          "title": "Synthetic Transaction Web Monitoring",
+          "transcript": "",
+          "url": "synthetic-transaction-web-monitoring",
+          "vimeoId": "210989860"
+        }
+      ],
+      "title": "End to End Service Monitoring"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam begin discussing and demonstrating Scorecards, Dashboards, and Reporting available in SCOM. They start by showing you the Reporting service. Here they show you how to configure reports, automate report generation, and setting up report delivery through methods like email and SMS.",
+          "length": "1847",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-1-scorecards_dashboards_and_reporting-032217-PGM.00_30_30_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-1-scorecards_dashboards_and_reporting-032217-PGM.00_30_30_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-1-scorecards_dashboards_and_reporting-032217-PGM.00_30_30_03.Still001-sm.jpg",
+          "title": "Scorecards Dashboards and Reporting",
+          "transcript": "",
+          "url": "scorecards-dashboardsreporting",
+          "vimeoId": "209773003"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue discussing and demonstrating Scorecards, Dashboards, and Reporting available in SCOM. They jump back in by looking at how to configure Service Level Tracking and then move on to using Dashboards.",
+          "length": "1764",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-2-scorecards_dashboards_and_reporting_pt2-032217-PGM.00_29_08_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-2-scorecards_dashboards_and_reporting_pt2-032217-PGM.00_29_08_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-2-scorecards_dashboards_and_reporting_pt2-032217-PGM.00_29_08_22.Still001-sm.jpg",
+          "title": "Scorecards Dashboards and Reporting Part 2",
+          "transcript": "",
+          "url": "scorecards-dashboardsreporting2",
+          "vimeoId": "209774113"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish discussing and demonstrating Scorecards, Dashboards, and Reporting available in SCOM. Here they show you how to create a completely customized Dashboard.",
+          "length": "2347",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-3-scorecards_dashboards_and_reporting_pt3-032217-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-3-scorecards_dashboards_and_reporting_pt3-032217-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-7-1-3-scorecards_dashboards_and_reporting_pt3-032217-high-sm.jpg",
+          "title": "Scorecards Dashboards and Reporting Part 3",
+          "transcript": "",
+          "url": "scorecards-dashboardsreporting3",
+          "vimeoId": "209775112"
+        }
+      ],
+      "title": "Scorecards, Dashboards and Reporting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam take you through configuring the Operations Manager Console. They begin by defining key terms and then create custom views and Alert Resolution States. They also discuss configuring Notification Subscriptions as well as creating Diagnostic and Recovery Tasks.",
+          "length": "2084",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-8-1-configuring_the_operations_console-032217-PGM.00_34_28_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-8-1-configuring_the_operations_console-032217-PGM.00_34_28_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-8-1-configuring_the_operations_console-032217-PGM.00_34_28_12.Still001-sm.jpg",
+          "title": "Configuring the Operations Console",
+          "transcript": "",
+          "url": "configuringoperations-console",
+          "vimeoId": "209776381"
+        }
+      ],
+      "title": "Configuring and Customizing the Console"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to author your own custom Management Pack for SCOM. They begin by exploring some of the basic concepts behind Management Pack authoring. Then they discuss authoring Management Packs by using the Operations Console. Finally, they look at authoring Management Packs by using the Visual Studio Authoring extensions.",
+          "length": "2590",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-9-1-managementt_pack_authoring-032217-PGM.00_42_54_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-9-1-managementt_pack_authoring-032217-PGM.00_42_54_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-9-1-managementt_pack_authoring-032217-PGM.00_42_54_16.Still001-sm.jpg",
+          "title": "Management Pack Authoring",
+          "transcript": "",
+          "url": "management-pack-authoring",
+          "vimeoId": "209777898"
+        }
+      ],
+      "title": "Management Pack Authoring"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore the concept of integrating the System Center Ops Manager with the other System Center products. Here they detail each of the different System Center components that the Operations Manager with integrate with as well as discuss the benefits.",
+          "length": "1768",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-1-system_center_integration-032317-PGM.00_00_12_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-1-system_center_integration-032317-PGM.00_00_12_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-1-system_center_integration-032317-PGM.00_00_12_00.Still001-sm.jpg",
+          "title": "System Center Integration",
+          "transcript": "",
+          "url": "system-center-integration",
+          "vimeoId": "210303826"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to create an Operations Manger alert connector. They start by looking at the prerequisites that are necessary for the connection. Then they take you step-by-step through the creation, explaining each of the options in detail.",
+          "length": "1278",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-2-create_an_ops_manager_alert_connector-032317-PGM.00_21_02_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-2-create_an_ops_manager_alert_connector-032317-PGM.00_21_02_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-2-create_an_ops_manager_alert_connector-032317-PGM.00_21_02_06.Still001-sm.jpg",
+          "title": "Create an Ops Manager Alert Connector",
+          "transcript": "",
+          "url": "createops-manager-alert-connector",
+          "vimeoId": "210304877"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to create an Operations Manger CI connector. They start by looking at the prerequisites that are necessary for the connection. Then they take you step-by-step through the creation, explaining each of the options in detail.",
+          "length": "916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-3-create_an_ops_manager_ci_connector-032317-PGM.00_14_59_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-3-create_an_ops_manager_ci_connector-032317-PGM.00_14_59_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-3-create_an_ops_manager_ci_connector-032317-PGM.00_14_59_03.Still001-sm.jpg",
+          "title": "Create an Ops Manager CI Connector",
+          "transcript": "",
+          "url": "createops-manager-ci-connector",
+          "vimeoId": "210305326"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to install Integration Packs for Orchestrator. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "773",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-4-installing_integration_packs_for_orchestrator-032317-PGM.00_12_37_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-4-installing_integration_packs_for_orchestrator-032317-PGM.00_12_37_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-4-installing_integration_packs_for_orchestrator-032317-PGM.00_12_37_19.Still001-sm.jpg",
+          "title": "Installing Integration Packs for Orchestrator",
+          "transcript": "",
+          "url": "installing-integration-packsorchestrator",
+          "vimeoId": "210305637"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to configure the AD Connector to import data into System Center Service Manager. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "381",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-5-configuring_the_ad_connector-032317-PGM.00_06_05_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-5-configuring_the_ad_connector-032317-PGM.00_06_05_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-5-configuring_the_ad_connector-032317-PGM.00_06_05_16.Still001-sm.jpg",
+          "title": "Configuring the AD Connector",
+          "transcript": "",
+          "url": "configuringad-connector",
+          "vimeoId": "210305889"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate how to configure the SharePoint Integration Pack connection. They start by looking at the prerequisites that are necessary for the installation. Then they take you step-by-step through the installation, explaining each of the options in detail.",
+          "length": "1315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-6-configuring_the_sharepoint_integration_pack_connection-032317-PGM.00_21_38_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-6-configuring_the_sharepoint_integration_pack_connection-032317-PGM.00_21_38_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-10-6-configuring_the_sharepoint_integration_pack_connection-032317-PGM.00_21_38_23.Still001-sm.jpg",
+          "title": "Configuring the SharePoint Integration Pack",
+          "transcript": "",
+          "url": "configuringsharepoint-integration-pack",
+          "vimeoId": "214164178"
+        }
+      ],
+      "title": "Integrating Operations Manager with Other System Center Components"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam discuss troubleshooting, tuning, and disaster recovery using SCOM. They look at log files and enabling debug trace logging for use with troubleshooting. They also dive into tuning Management Packs and configuring SQL AlwaysOn. Finally, they configure data retention in Ops Manager.",
+          "length": "2526",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-1-troubleshooting_tunning_and_bcdr-032317-PGM.00_41_50_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-1-troubleshooting_tunning_and_bcdr-032317-PGM.00_41_50_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-1-troubleshooting_tunning_and_bcdr-032317-PGM.00_41_50_04.Still001-sm.jpg",
+          "title": "Troubleshooting, Tunning and BCDR",
+          "transcript": "",
+          "url": "troubleshooting-tunningbcdr",
+          "vimeoId": "210306023"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discussion on troubleshooting, tuning, and disaster recovery with SCOM. Here they detail the process of BCDR with regards to the Management Server(s) as well as restoring the Operational and Data Warehouse databases.",
+          "length": "2124",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-2-troubleshooting_tuning_and_bcdr_pt2-032417-PGM.00_35_09_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-2-troubleshooting_tuning_and_bcdr_pt2-032417-PGM.00_35_09_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-scom10964c/microsoft-scom10964c-11-1-2-troubleshooting_tuning_and_bcdr_pt2-032417-PGM.00_35_09_05.Still001-sm.jpg",
+          "title": "Troubleshooting Tunning and BCDR Part 2",
+          "transcript": "",
+          "url": "troubleshooting-tunningbcdr2",
+          "vimeoId": "210436393"
+        }
+      ],
+      "title": "Troubleshooting, Tuning and Disaster Recovery"
+    }
+  ],
+  "url": "data-center-managingscom",
+  "vLab": false
+}

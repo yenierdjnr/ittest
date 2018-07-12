@@ -1,0 +1,505 @@
+{
+  "description": "Office 365 is a cloud based productivity suite for individuals, companies and even government agencies. It is designed to deliver software as service to any and every user regardless of location. The Office 365 solution is designed to relieve the technical challenge of software management and delivery, regardless of location from the local IT personnel. This allows the IT professional to focus in implementing, deploying and operating Office 365 services and administrating supporting technologies, like email, collaboration and storage. If you’re an IT professional who takes part in evaluating, planning, deploying, and operating the Office 365 services, including its dependencies, requirements, and supporting technologies this series will demonstrate and help you to see what is involved in setting up Office 365 for your organization.",
+  "descriptionMD": "Office 365 is a cloud based productivity suite for individuals, companies and even government agencies. It is designed to deliver software as service to any and every user regardless of location. The Office 365 solution is designed to relieve the technical challenge of software management and delivery, regardless of location from the local IT personnel. This allows the IT professional to focus in implementing, deploying and operating Office 365 services and administrating supporting technologies, like email, collaboration and storage. If you’re an IT professional who takes part in evaluating, planning, deploying, and operating the Office 365 services, including its dependencies, requirements, and supporting technologies this series will demonstrate and help you to see what is involved in setting up Office 365 for your organization.",
+  "length": "69589",
+  "name": "Microsoft Office 365 - 70-346 (2017)",
+  "practiceExam": true,
+  "subtitle": "Managing Office 365 Identities and Requirements",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "a",
+          "length": "494",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-0-0-0-overview-110817-PGM.00_00_03_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-0-0-0-overview-110817-PGM.00_00_03_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-0-0-0-overview-110817-PGM.00_00_03_06.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.081 --> 00:00:05.864\n[MUSIC]\n\n2\n00:00:05.864 --> 00:00:10.088\nWelcome to the Managing Office 365\nIdentities and Requirements show.\n\n3\n00:00:10.088 --> 00:00:15.134\nThis particular overview is actually meant\nto help you to not only get ready for\n\n4\n00:00:15.134 --> 00:00:19.568\nthe exam, but to also prepare you for\nimplementing Office 365 for\n\n5\n00:00:19.568 --> 00:00:23.105\na company or for\na customer that you may have, as well.\n\n6\n00:00:23.105 --> 00:00:24.315\nSo, let's go ahead and\n\n7\n00:00:24.315 --> 00:00:27.714\ntake a look at what you have to do\nto get through this exam, as well.\n\n8\n00:00:27.714 --> 00:00:29.282\nSome of the exam details.\n\n9\n00:00:29.282 --> 00:00:32.776\nI simply took a search engine that\nI launched up through my browser.\n\n10\n00:00:32.776 --> 00:00:35.981\nTyped in exam 70-346.\n\n11\n00:00:35.981 --> 00:00:38.581\nThat number is gonna be very helpful for\nyou.\n\n12\n00:00:38.581 --> 00:00:41.741\nAnd also take a note at\nthe exam title itself.\n\n13\n00:00:41.741 --> 00:00:45.559\nManage Office 365 Identities and\nRequirements.\n\n14\n00:00:45.559 --> 00:00:50.528\nBoth of those are going to be necessary\nas you register for the exam.\n\n15\n00:00:50.528 --> 00:00:53.731\nWhether it's through Pearson VUE\nonline portal itself, or\n\n16\n00:00:53.731 --> 00:00:57.685\nwhether you go to a Pearson VUE center and\nyou decide to register manually,\n\n17\n00:00:57.685 --> 00:01:00.602\nboth of those are actually\ngonna be used at some point.\n\n18\n00:01:00.602 --> 00:01:03.448\nThey're either gonna ask you for\nthe name of the exam, or\n\n19\n00:01:03.448 --> 00:01:05.939\nthey're gonna ask you to\nverify the exam number,\n\n20\n00:01:05.939 --> 00:01:10.058\nyou'll need to know both of them to make\nsure that you can get scheduled in, okay?\n\n21\n00:01:10.058 --> 00:01:14.417\nThis particular exam itself\nhas been around for a long,\n\n22\n00:01:14.417 --> 00:01:19.532\nI say a long time, a while,\nat least since February of 2014.\n\n23\n00:01:19.532 --> 00:01:24.825\nSo it is a relatively mature\nexam in terms of what we see.\n\n24\n00:01:24.825 --> 00:01:30.315\nNow that doesn't mean that this exam\nthough in what we've also prepared for\n\n25\n00:01:30.315 --> 00:01:32.989\nin the show is going to be old, okay?\n\n26\n00:01:32.989 --> 00:01:37.263\nAnd that is because, as of June 2017,\n\n27\n00:01:37.263 --> 00:01:40.719\nthe exam itself has been updated.\n\n28\n00:01:40.719 --> 00:01:44.457\nSo make sure you check this out, okay?\n\n29\n00:01:44.457 --> 00:01:49.991\nIf you're actually of course past June of\n2017, you're gonna need to download and\n\n30\n00:01:49.991 --> 00:01:54.806\nreview all of the changes that were\nmade to the exam objectives themselves.\n\n31\n00:01:54.806 --> 00:02:00.129\nThe exam objectives are actually broken\nout into six different domains divided\n\n32\n00:02:00.129 --> 00:02:05.464\nup by different percentages that you may\nactually end up seeing as well, okay?\n\n33\n00:02:05.464 --> 00:02:10.242\nSo those domains of course will divide up\ninto skills that you'll need to be aware\n\n34\n00:02:10.242 --> 00:02:10.746\nof too.\n\n35\n00:02:10.746 --> 00:02:15.424\nNow just when we talk about those\nskills and understanding them,\n\n36\n00:02:15.424 --> 00:02:19.861\nit doesn't mean that those\nare limited to those skills only.\n\n37\n00:02:19.861 --> 00:02:23.807\nIf I flip on over here,\nthis is where that link takes you.\n\n38\n00:02:23.807 --> 00:02:26.647\nHere is the latest exam\nobjectives according\n\n39\n00:02:26.647 --> 00:02:29.411\nto the site that they've changed here, and\n\n40\n00:02:29.411 --> 00:02:34.132\nyou can see where it says, document\nshows changes to scoping statements.\n\n41\n00:02:34.132 --> 00:02:38.196\nThese changes were\neffective as of June 2017.\n\n42\n00:02:38.196 --> 00:02:43.170\nYou wanna make sure that you are prepared\nfor this exam, not only by, of course,\n\n43\n00:02:43.170 --> 00:02:46.244\nunderstanding what\nthe skills measured are, but\n\n44\n00:02:46.244 --> 00:02:48.754\nnotice who should take the exam itself.\n\n45\n00:02:48.754 --> 00:02:49.912\nSo at this point,\n\n46\n00:02:49.912 --> 00:02:54.408\nyou have to actually be experienced\nin a couple of different things.\n\n47\n00:02:54.408 --> 00:02:57.148\nAnd this is what I want\nyou to focus in on.\n\n48\n00:02:57.148 --> 00:03:01.840\nCandidates should have experience\nwith Office 365 admin center, and\n\n49\n00:03:01.840 --> 00:03:06.231\nunderstanding of Microsoft Exchange\nOnline, Skype for Business,\n\n50\n00:03:06.231 --> 00:03:11.625\nSharePoint Online, Office 365 ProPlus,\nand Windows Azure Active Directory.\n\n51\n00:03:11.625 --> 00:03:14.875\nAnd it also includes experience\nin service descriptions,\n\n52\n00:03:14.875 --> 00:03:18.710\nconfiguration integration services,\nwith identity management and\n\n53\n00:03:18.710 --> 00:03:23.264\non premises infrastructure, to support\nsome of the business requirements here.\n\n54\n00:03:23.264 --> 00:03:28.110\nSo this is not meant for someone is just\nsaying, hey, I'm just jumping at this and\n\n55\n00:03:28.110 --> 00:03:30.792\nI should just jump right into Office 365.\n\n56\n00:03:30.792 --> 00:03:35.064\nNow it doesn't mean that can't do that,\nknow it means it's gonna be much more\n\n57\n00:03:35.064 --> 00:03:39.142\ndifficult for you if you don't have\nsome of those skills already set down,\n\n58\n00:03:39.142 --> 00:03:43.111\nor if you're not familiar with\nthe products that are listed right here.\n\n59\n00:03:43.111 --> 00:03:48.361\nSo my suggestions, of course,\nis that before you end up just taking even\n\n60\n00:03:48.361 --> 00:03:53.609\nthis first exam, make sure you also\ntake a look at the 70-347 skill\n\n61\n00:03:53.609 --> 00:03:58.687\nobjectives there as well to understand\nhow you enable the services and\n\n62\n00:03:58.687 --> 00:04:03.679\nmanage those services as well to get\nall those things up an running and\n\n63\n00:04:03.679 --> 00:04:06.636\nunderstand those products too, okay?\n\n64\n00:04:06.636 --> 00:04:10.541\nSo that way you'll be familiar with some\nof the requirements that they're talking\n\n65\n00:04:10.541 --> 00:04:11.498\nabout this way too.\n\n66\n00:04:11.498 --> 00:04:15.301\nSo once you have that in your mind and\nyou're ready to go,\n\n67\n00:04:15.301 --> 00:04:19.598\nhere are some of the episodes\nthat we should be covering, okay?\n\n68\n00:04:19.598 --> 00:04:24.196\nUnderneath the provisioning,\nwe talk about provisioning tenants, okay?\n\n69\n00:04:24.196 --> 00:04:25.366\nWhat does that actually mean?\n\n70\n00:04:25.366 --> 00:04:26.992\nAnd how do we begin to do it?\n\n71\n00:04:26.992 --> 00:04:28.953\nAnd what are the best practices for those?\n\n72\n00:04:28.953 --> 00:04:34.307\nWe also begin to add in and configure,\nof course, a custom domain.\n\n73\n00:04:34.307 --> 00:04:39.762\nAnd when we talk about, we'll also talk\nabout of course the use of DNS ownership.\n\n74\n00:04:39.762 --> 00:04:43.610\nWe'll also take a look at registering\nthose DNS records the way that we need\n\n75\n00:04:43.610 --> 00:04:44.230\nto as well.\n\n76\n00:04:44.230 --> 00:04:46.809\nAnd the updating and\nverifying domain settings.\n\n77\n00:04:46.809 --> 00:04:52.427\nThe ones that we see in red are of course,\nthe added end objectives that we had,\n\n78\n00:04:52.427 --> 00:04:57.560\nor a change objective that has been\nput in place since June of 2016.\n\n79\n00:04:57.560 --> 00:04:59.866\nWe also go through planning a pilot and\n\n80\n00:04:59.866 --> 00:05:02.686\nwe'll take a look at\ndelegating pilot users.\n\n81\n00:05:02.686 --> 00:05:07.191\nWe will also end up running some of these\ndifferent tests here that they talk about.\n\n82\n00:05:07.191 --> 00:05:12.043\nAs well as understanding the use\nof the fast track Office to\n\n83\n00:05:12.043 --> 00:05:15.516\nonboard Office 365 services as well.\n\n84\n00:05:15.516 --> 00:05:19.749\nWe'll also of course configure all\nof our DNS records that we need to,\n\n85\n00:05:19.749 --> 00:05:23.933\nwe'll take a look at that as well and\nmake sure that they are working.\n\n86\n00:05:23.933 --> 00:05:28.067\nClient connectivity, we will of\ncourse address client connectivity.\n\n87\n00:05:28.067 --> 00:05:32.877\nWe'll talk about the ability to protect\nall of our files and documents the way\n\n88\n00:05:32.877 --> 00:05:37.771\nthat we want to with the integration with\nthe Azure Rights Management as well.\n\n89\n00:05:37.771 --> 00:05:40.279\nAnd we'll see some of\nthe set up templates for\n\n90\n00:05:40.279 --> 00:05:42.926\nRights Management to\nhelp us to protect email.\n\n91\n00:05:42.926 --> 00:05:48.569\nWe'll manage the administrator\nroles that are there and available.\n\n92\n00:05:48.569 --> 00:05:51.844\nWe'll talk about those roles briefly,\nmake sure you\n\n93\n00:05:51.844 --> 00:05:56.666\nunderstand where you configure those for\nyour users inside of Office 365.\n\n94\n00:05:56.666 --> 00:05:59.797\nWe'll also take a look at\ncloud identity management,\n\n95\n00:05:59.797 --> 00:06:04.372\nwhere we configure password management,\nas well as user and security groups.\n\n96\n00:06:04.372 --> 00:06:08.226\nWe'll also of course,\nimplement the Azure AD Connect tool.\n\n97\n00:06:08.226 --> 00:06:11.285\nThis is probably the biggest update,\n\n98\n00:06:11.285 --> 00:06:15.785\nat least since the last domain\nwas updated here, okay?\n\n99\n00:06:15.785 --> 00:06:19.801\nNow it's not that they didn't call this\nout on a previous iteration of the exam.\n\n100\n00:06:19.801 --> 00:06:23.941\nIt's just that the tool may have been\navailable, but the tool may not have been\n\n101\n00:06:23.941 --> 00:06:27.023\navailable, because it was in\ntransition for a long time.\n\n102\n00:06:27.023 --> 00:06:30.379\nBut we'll actually get that\nimplemented when we prepare for\n\n103\n00:06:30.379 --> 00:06:33.424\nsingle sign on Active Directory for\nAzure AD Connect.\n\n104\n00:06:33.424 --> 00:06:36.049\nWe'll set up the Azure AD Connect\ntool itself and\n\n105\n00:06:36.049 --> 00:06:39.827\nthen we'll actually show you how to\nmanage Active Directory users and\n\n106\n00:06:39.827 --> 00:06:43.176\ngroups using the Connect tool\nwhile it's actually in place.\n\n107\n00:06:43.176 --> 00:06:46.600\nAnd we'll talk about the topology\nthat needs to be implemented as well.\n\n108\n00:06:46.600 --> 00:06:51.806\nThen probably the largest scope of\nwhat we'll deal with is the idea here\n\n109\n00:06:51.806 --> 00:06:57.622\nof using and implementing single sign-on\nbetween your on-premises domain,\n\n110\n00:06:57.622 --> 00:07:02.222\nas well as your Azure Active\nDirectory Federation Services and\n\n111\n00:07:02.222 --> 00:07:04.413\nyour domain up there as well.\n\n112\n00:07:04.413 --> 00:07:08.629\nSo we will, of course, plan out for\nActive Directory Federation Services.\n\n113\n00:07:08.629 --> 00:07:12.542\nWe'll install and manage the actual\nfederation server itself,\n\n114\n00:07:12.542 --> 00:07:17.174\nincluding the certificates, and\nwe'll also implement a proxy server too.\n\n115\n00:07:17.174 --> 00:07:20.797\nSo we'll see all that information that's\ngoing to be available there, too.\n\n116\n00:07:20.797 --> 00:07:25.632\nLastly, of course, we'll spend a little\nbit of time taking a look at reports.\n\n117\n00:07:25.632 --> 00:07:28.432\nWe'll talk about how we\ncan monitor to health,\n\n118\n00:07:28.432 --> 00:07:32.633\nand isolate service interruption\nusing the tools that are available.\n\n119\n00:07:32.633 --> 00:07:36.462\nIn this last section we also see some\nof these tools are deprecated and\n\n120\n00:07:36.462 --> 00:07:40.767\nwe'll mention some of the things that\nwe might have to be able to understand.\n\n121\n00:07:40.767 --> 00:07:44.412\nBut even though they're deprecated they're\nstill called out on the exam objectives.\n\n122\n00:07:44.412 --> 00:07:46.874\nSo make sure you pay attention there too.\n\n123\n00:07:46.874 --> 00:07:52.124\nBut overall though, if this seems like\nwhat you're heading your career towards,\n\n124\n00:07:52.124 --> 00:07:56.474\nor you're gonna be managing Office 365,\nthis is a great place for\n\n125\n00:07:56.474 --> 00:08:00.155\nyou to begin to understand how\nto get all that configured.\n\n126\n00:08:00.155 --> 00:08:04.544\nAnd you'll also be able to prepare for\nthis first exam and your MCSA.\n\n127\n00:08:04.544 --> 00:08:08.237\nSo, if you're ready to do that,\njoin us in the very next episode.\n\n128\n00:08:08.237 --> 00:08:14.379\n[MUSIC]\n\n",
+          "url": "overview-office365703462017",
+          "vimeoId": "242244662"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie introduce how to setup an Office 365 tenant. They introduce the basic tenant provision steps.  They review the best practices for tenant account provisioning.",
+          "length": "1740",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-1-provision_office365_tenants-101017.00_28_46_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-1-provision_office365_tenants-101017.00_28_46_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-1-provision_office365_tenants-101017.00_28_46_27.Still001-sm.jpg",
+          "title": "Provision Office365 Tenants",
+          "transcript": "",
+          "url": "provision-office365-tenants",
+          "vimeoId": "237741161"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie continue with the Office 365 setup.  They show the initial Global Administrator account and assign some subscription.  They add an additional user and make the user a different type of administrator for the tenant.  Lastly they show where the billing can be seen and talk about handling licensing issues.",
+          "length": "1593",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-2-provision_office365_tenants_pt2-101017.00_26_20_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-2-provision_office365_tenants_pt2-101017.00_26_20_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-1-2-provision_office365_tenants_pt2-101017.00_26_20_12.Still001-sm.jpg",
+          "title": "Provision Office365 Tenants Pt2",
+          "transcript": "",
+          "url": "provision-office365-tenants-pt2",
+          "vimeoId": "237740489"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie use the Office 365 Admin Center to configure the tenant for new features and updates.  They describe the use and show where to configure these settings for the tenant.  They remind us that this only affects software that has been downloaded with those settings not software setup with different settings.",
+          "length": "1770",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-2-1-configure_for_new_features_and_updates-101017.00_32_15_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-2-1-configure_for_new_features_and_updates-101017.00_32_15_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-2-1-configure_for_new_features_and_updates-101017.00_32_15_09.Still001-sm.jpg",
+          "title": "Configure for New Features",
+          "transcript": "",
+          "url": "configurenew-features",
+          "vimeoId": "237739586"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie explain some basic DNS concepts to help setup Office 365 to work with a Custom Domain Name. They describe how to add a custom domain name and work with DNS records to make it work with Office 365.",
+          "length": "1803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-1-add_and_configure_custom_domain-101017-PGM.00_29_46_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-1-add_and_configure_custom_domain-101017-PGM.00_29_46_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-1-add_and_configure_custom_domain-101017-PGM.00_29_46_22.Still001-sm.jpg",
+          "title": "Add and Configure Custom Domain",
+          "transcript": "",
+          "url": "addconfigure-custom-domain",
+          "vimeoId": "237980623"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie explain some basic DNS concepts to help setup Office 365 to work with a Custom Domain Name. They describe how to add a custom domain name and work with DNS records to make it work with Office 365.",
+          "length": "1184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-2-add_and_configure_custom_domain_pt2-101017-PGM.00_46_07_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-2-add_and_configure_custom_domain_pt2-101017-PGM.00_46_07_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-3-2-add_and_configure_custom_domain_pt2-101017-PGM.00_46_07_05.Still001-sm.jpg",
+          "title": "Add and Configure Custom Domain Part 2",
+          "transcript": "",
+          "url": "addconfigure-customdomain2",
+          "vimeoId": "237982065"
+        },
+        {
+          "description": "In this episode, Ronnie and Zach explore what it takes to plan a pilot.  They provide an overview of the steps to get a pilot started.  They discuss the types of users who should be included in it. Also, they talk about some of the workloads that do not need to be migrated.  Lastly, they demonstrate the use of a tool that tests the Health, Readiness and Connectivity.",
+          "length": "2215",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-4-1-pilot_users_and_workloads-101017-PGM.00_31_44_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-4-1-pilot_users_and_workloads-101017-PGM.00_31_44_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-4-1-pilot_users_and_workloads-101017-PGM.00_31_44_17.Still001-sm.jpg",
+          "title": "Pilot Users and Workloads",
+          "transcript": "",
+          "url": "pilot-usersworkloads",
+          "vimeoId": "237996292"
+        },
+        {
+          "description": "In this episode, Ronnie and Zach show the use of IdFix.  They discuss the reason to use IdFix and its importance if you have an on-premises AD and want to use directory sychronization.  Lastly, they also discuss creating a basic test plan",
+          "length": "2104",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-5-1-run_idfix-101217-PGM.00_37_37_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-5-1-run_idfix-101217-PGM.00_37_37_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-5-1-run_idfix-101217-PGM.00_37_37_08.Still001-sm.jpg",
+          "title": "Run Idfix",
+          "transcript": "",
+          "url": "run-idfix",
+          "vimeoId": "238056417"
+        },
+        {
+          "description": "In this episode, Ronnie and Zach demonstrate the steps to setting up email for Pilot Users. They show each step and  discuss what must be considered for a successful pilot to take place.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-6-1-setup_email_for_pilot_users-101217-PGM.00_28_26_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-6-1-setup_email_for_pilot_users-101217-PGM.00_28_26_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-6-1-setup_email_for_pilot_users-101217-PGM.00_28_26_17.Still001-sm.jpg",
+          "title": "Setup Email for Pilot User",
+          "transcript": "",
+          "url": "setup-emailpilot-user",
+          "vimeoId": "238054844"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to get the help of the FastTrack Center to onboard Office 365 services.",
+          "length": "1556",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-7-1-engage_fasttrack_center_for_office365-101217-PGM.00_29_29_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-7-1-engage_fasttrack_center_for_office365-101217-PGM.00_29_29_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-1-7-1-engage_fasttrack_center_for_office365-101217-PGM.00_29_29_14.Still001-sm.jpg",
+          "title": "Engage Fasttrack Center for Office",
+          "transcript": "",
+          "url": "engage-fasttrack-centeroffice",
+          "vimeoId": "238055243"
+        }
+      ],
+      "title": "Provision Office 365"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie discuss and show how to enable client connectivity to Office 365. They review the records that need to be added to the DNS registrar for email, communication and collaboration to work. Also they focus in on configurations on proxy and firewall to access Office 365 Keywords: dns,srv records, ns records, mx records, srv records, firewall settings, proxy settings.",
+          "length": "1989",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-1-1-enable_client_connectivity-101317.00_33_13_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-1-1-enable_client_connectivity-101317.00_33_13_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-1-1-enable_client_connectivity-101317.00_33_13_05.Still001-sm.jpg",
+          "title": "Enable Client Connectivity",
+          "transcript": "",
+          "url": "enable-client-connectivity-2017",
+          "vimeoId": "238421602"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to manage rights management through Azure. They demonstrate how to activate it and assign roles for rights management.",
+          "length": "1758",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-1-administer_azure_rights_management-101317.00_30_20_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-1-administer_azure_rights_management-101317.00_30_20_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-1-administer_azure_rights_management-101317.00_30_20_17.Still001-sm.jpg",
+          "title": "Administer Azure Rights Management",
+          "transcript": "",
+          "url": "administer-azure-rights-management",
+          "vimeoId": "238420955"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to manage rights management through Azure. They use powershell to begin some management configuration of admnistrators and super user too.",
+          "length": "1608",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-2-administer_azure_rights_management_pt2-101317.00_26_34_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-2-administer_azure_rights_management_pt2-101317.00_26_34_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-2-administer_azure_rights_management_pt2-101317.00_26_34_27.Still001-sm.jpg",
+          "title": "Administer Azure Rights Management Pt2",
+          "transcript": "",
+          "url": "administer-azure-rights-management-pt2",
+          "vimeoId": "238419810"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to manage rights management through Azure.  They use powershell to begin some management configuration of admnistrators and super user too.",
+          "length": "1412",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-3-administer_azure_rights_management_pt3-101617-PGM.00_12_39_08.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-3-administer_azure_rights_management_pt3-101617-PGM.00_12_39_08.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-2-3-administer_azure_rights_management_pt3-101617-PGM.00_12_39_08.Still002-sm.jpg",
+          "title": "Administer Azure Rights Management Pt3",
+          "transcript": "",
+          "url": "administer-azure-rights-management-pt3",
+          "vimeoId": "238767983"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie examine the different admin roles in Office 365. They also show configure those roles in the admin center and PowerShell.",
+          "length": "1819",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-3-1-manage_office365_administrator_roles-101617-PGM.00_32_46_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-3-1-manage_office365_administrator_roles-101617-PGM.00_32_46_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-2-3-1-manage_office365_administrator_roles-101617-PGM.00_32_46_19.Still001-sm.jpg",
+          "title": "Manage Office 365 Administrator Roles",
+          "transcript": "",
+          "url": "manage-office-365-administrator-roles",
+          "vimeoId": "238588910"
+        }
+      ],
+      "title": "Managing Users, Groups, and Licenses"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie show how to manage users and passwords. They configure the password management for the tenant. Also they discuss and demonstrate how to manage user groups and bulk add users too.",
+          "length": "1622",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-1-manage_passwords_and_users-101617-PGM.00_27_42_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-1-manage_passwords_and_users-101617-PGM.00_27_42_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-1-manage_passwords_and_users-101617-PGM.00_27_42_17.Still001-sm.jpg",
+          "title": "Manage Passwords and Users",
+          "transcript": "",
+          "url": "manage-passwordsusers",
+          "vimeoId": "238588676"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to manage users and passwords.  They configure the password management for the tenant.  Also they discuss and demonstrate how to manage user groups and bulk add users too.",
+          "length": "1832",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-2-manage_passwords_and_users_pt2-101617.00_34_32_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-2-manage_passwords_and_users_pt2-101617.00_34_32_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-2-manage_passwords_and_users_pt2-101617.00_34_32_00.Still001-sm.jpg",
+          "title": "Manage Passwords and Users Part 2",
+          "transcript": "",
+          "url": "manage-passwordsusers-pt-2",
+          "vimeoId": "238588396"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie help us to get started using MFA on our Office 365 accounts to better protect our authentication process.  They discuss the benefits and issues using MFA for authentication",
+          "length": "1232",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-3-manage_passwords_and_users_pt3-101617.00_20_19_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-3-manage_passwords_and_users_pt3-101617.00_20_19_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-1-3-manage_passwords_and_users_pt3-101617.00_20_19_12.Still001-sm.jpg",
+          "title": "Manage Passwords and Users Part 3",
+          "transcript": "",
+          "url": "manage-passwordsusers-pt3-test",
+          "vimeoId": "238773808"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie talk about managing identities with powershell.  They emphasize the use of powershell in configuring passwords, creating bulk user accounts with CSV files, user account management such as licensing management and deleting accounts one at a time or in bulk.",
+          "length": "2100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-2-1-cloud_identities_with_powershell-101617.00_44_16_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-2-1-cloud_identities_with_powershell-101617.00_44_16_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-2-1-cloud_identities_with_powershell-101617.00_44_16_07.Still001-sm.jpg",
+          "title": "Cloud Identities with PowerShell",
+          "transcript": "",
+          "url": "cloud-identitiespowershell",
+          "vimeoId": "238766762"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review some of the Azure AD cmdlets.  These commands require connecting to Office 365 and or Azure AD.  They review multiple cmdlets to help with user management, group management, service principal management, domain management and administrative unit management.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-1-azure_active_directory_cmdlets-101817-PGM.00_27_10_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-1-azure_active_directory_cmdlets-101817-PGM.00_27_10_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-1-azure_active_directory_cmdlets-101817-PGM.00_27_10_04.Still001-sm.jpg",
+          "title": "Azure Active Directory Cmdlets",
+          "transcript": "",
+          "url": "azure-active-directory-cmdlets",
+          "vimeoId": "239460136"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review some of the Azure AD cmdlets.  These commands require connecting to Office 365 and or Azure AD.  They review multiple cmdlets to help with user management, group management, service principal management, domain management and administrative unit management.",
+          "length": "1502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-2-azure_active_directory_cmdlets_pt2-101817-PGM.00_25_00_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-2-azure_active_directory_cmdlets_pt2-101817-PGM.00_25_00_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-3-2-azure_active_directory_cmdlets_pt2-101817-PGM.00_25_00_18.Still001-sm.jpg",
+          "title": "Azure Active Directory Cmdlets Part 2",
+          "transcript": "",
+          "url": "azure-active-directory-cmdlets2",
+          "vimeoId": "239459901"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to create security groups in Office 365.  They demonstrate creating, editing and deleting a security group using the admin center interface and using the powershell connection to do so.",
+          "length": "1884",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-4-1-create_security_groups-101817-PGM.00_33_57_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-4-1-create_security_groups-101817-PGM.00_33_57_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-3-4-1-create_security_groups-101817-PGM.00_33_57_28.Still001-sm.jpg",
+          "title": "Create Security Groups",
+          "transcript": "",
+          "url": "create-security",
+          "vimeoId": "239460379"
+        }
+      ],
+      "title": "Manage Cloud Identities"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie discuss integration of on-premises Active Directory and Azure Active Directory.",
+          "length": "1506",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-1-prepare_ad_sync_to_office365-101917-PGM.00_28_39_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-1-prepare_ad_sync_to_office365-101917-PGM.00_28_39_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-1-prepare_ad_sync_to_office365-101917-PGM.00_28_39_20.Still001-sm.jpg",
+          "title": "Prepare AD Synchronization to O365",
+          "transcript": "",
+          "url": "prepare-ad-synchronizationo365",
+          "vimeoId": "239459625"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss integration of on-premises Active Directory and Azure Active Directory.",
+          "length": "1644",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-2-prepare_ad_sync_to_office365_pt2-101917-PGM.00_27_14_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-2-prepare_ad_sync_to_office365_pt2-101917-PGM.00_27_14_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-1-2-prepare_ad_sync_to_office365_pt2-101917-PGM.00_27_14_02.Still001-sm.jpg",
+          "title": "Prepare AD Synchronization to O365 Part 2",
+          "transcript": "",
+          "url": "prepare-ad-synchronizationo3652",
+          "vimeoId": "239459350"
+        },
+        {
+          "description": "In this episode Ronnie and Zach take a look at fitering Active Directory. They cover various types of filtering such as group-based, domain-based, OU-based and attribute-based filtering.",
+          "length": "2091",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-1-plan_for_filtering_active_directory-102017-PGM.00_34_38_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-1-plan_for_filtering_active_directory-102017-PGM.00_34_38_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-1-plan_for_filtering_active_directory-102017-PGM.00_34_38_24.Still001-sm.jpg",
+          "title": "Plan for Filtering Active Directory",
+          "transcript": "",
+          "url": "planfiltering-active-directory",
+          "vimeoId": "239459052"
+        },
+        {
+          "description": "In this episode Ronnie and Zach take a look at fitering Active Directory. They cover various types of filtering such as group-based, domain-based, OU-based and attribute-based filtering.",
+          "length": "1707",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-2-plan_for_filtering_active_directory_pt2-102017-PGM.00_28_13_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-2-plan_for_filtering_active_directory_pt2-102017-PGM.00_28_13_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-2-plan_for_filtering_active_directory_pt2-102017-PGM.00_28_13_29.Still001-sm.jpg",
+          "title": "Plan for Filtering Active Directory Part 2",
+          "transcript": "",
+          "url": "planfiltering-active-directory2",
+          "vimeoId": "239458506"
+        },
+        {
+          "description": "In this episode Ronnie and Zach take a look at fitering Active Directory. They cover various types of filtering such as group-based, domain-based, OU-based and attribute-based filtering.",
+          "length": "1118",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-3-plan_for_filtering_active_directory_pt3-102017.00_35_34_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-3-plan_for_filtering_active_directory_pt3-102017.00_35_34_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-2-3-plan_for_filtering_active_directory_pt3-102017.00_35_34_20.Still001-sm.jpg",
+          "title": "Plan for Filtering Active Directory Part 3",
+          "transcript": "",
+          "url": "planfiltering-active-directory3",
+          "vimeoId": "239460684"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the best practices when setting up the Azure AD Connect Tool. They also review the prerequisites to make the AD Connect Tool work",
+          "length": "1880",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-1-set_up_azure_ad_connect_tool-103117-PGM.00_31_06_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-1-set_up_azure_ad_connect_tool-103117-PGM.00_31_06_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-1-set_up_azure_ad_connect_tool-103117-PGM.00_31_06_28.Still001-sm.jpg",
+          "title": "Set Up Azure AD Connect Tool",
+          "transcript": "",
+          "url": "setazure-ad-connect-tool",
+          "vimeoId": "240879215"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show the connection steps and discuss the setup for the Azure AD Connect Tool to work.  They show the synchronization and then show some of the different considerations after the AD Connect Tool is in place and ready to go",
+          "length": "1574",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-2-set_up_azure_ad_connect_tool_pt2-103117-PGM.00_26_00_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-2-set_up_azure_ad_connect_tool_pt2-103117-PGM.00_26_00_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-2-set_up_azure_ad_connect_tool_pt2-103117-PGM.00_26_00_18.Still001-sm.jpg",
+          "title": "Set Up Azure AD Connect Tool Part 2",
+          "transcript": "",
+          "url": "setazure-ad-connect-tool2",
+          "vimeoId": "240880042"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show the connection steps and discuss the setup for the Azure AD Connect Tool to work.  They show the synchronization and then show some of the different considerations after the AD Connect Tool is in place and ready to go",
+          "length": "1997",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-3-set_up_azure_ad_connect_tool_pt3-103117.00_36_08_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-3-set_up_azure_ad_connect_tool_pt3-103117.00_36_08_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-3-set_up_azure_ad_connect_tool_pt3-103117.00_36_08_27.Still001-sm.jpg",
+          "title": "Set Up Azure AD Connect Tool Part 3",
+          "transcript": "",
+          "url": "setazure-ad-connect-tool3",
+          "vimeoId": "240879696"
+        },
+        {
+          "description": "In this episode, Cherokee and Ronnie show the connection steps and discuss the setup for the Azure AD Connect Tool to work.  They show the synchronization and then show some of the different considerations after the AD Connect Tool is in place and ready to go",
+          "length": "2055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-4-set_up_azure_ad_connect_tool_pt4-110117-PGM.00_36_30_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-4-set_up_azure_ad_connect_tool_pt4-110117-PGM.00_36_30_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-4-3-4-set_up_azure_ad_connect_tool_pt4-110117-PGM.00_36_30_15.Still001-sm.jpg",
+          "title": "Set Up Azure AD Connect Tool Part 4",
+          "transcript": "",
+          "url": "setazure-ad-connect-tool4",
+          "vimeoId": "241168797"
+        }
+      ],
+      "title": "Manage Identities with Azure Active Directory Connect"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie discuss how to prepare and plan for implementation of ADFS for our connection to Office 365.  They describe what it does for us and why we need it.  Lastly, they also discuss what are some of the elements that we must have together before we begin implementing it for our Office 365 environment.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-1-1-plan_ad_fs_requirements-110117-PGM.00_29_38_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-1-1-plan_ad_fs_requirements-110117-PGM.00_29_38_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-1-1-plan_ad_fs_requirements-110117-PGM.00_29_38_24.Still001-sm.jpg",
+          "title": "Plan AD FS Requirements",
+          "transcript": "",
+          "url": "plan-ad-fs-requirements",
+          "vimeoId": "241169121"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie begin with the basic installation requirements and install the ADFS server for use.  After completing the installation and post-configuration, they use the Azure AD Connect tool to complete and verify ADFS is working correctly.",
+          "length": "2343",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-2-1-install_and_manage_ad_fs_server-110117-Part1.00_38_52_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-2-1-install_and_manage_ad_fs_server-110117-Part1.00_38_52_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-2-1-install_and_manage_ad_fs_server-110117-Part1.00_38_52_09.Still001-sm.jpg",
+          "title": "Install and Manage AD FS Server",
+          "transcript": "",
+          "url": "installmanage-ad-fs-server",
+          "vimeoId": "241246757"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the use and need of the Web Access Proxy Server for the SSO.  They talk about some of the additional prequisites to allow it work.  They also describer how users from outside of our domain will use the web access proxy.",
+          "length": "1742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-1-install_web_access_proxy-110617-PGM.00_29_28_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-1-install_web_access_proxy-110617-PGM.00_29_28_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-1-install_web_access_proxy-110617-PGM.00_29_28_11.Still001-sm.jpg",
+          "title": "Install Web Access Proxy",
+          "transcript": "",
+          "url": "install-web-access-proxy",
+          "vimeoId": "242243179"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie take a moment to install the Web Access Proxy role and configure it's certificate to work.",
+          "length": "641",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-2-install_web_access_proxy_pt2-110317.00_27_54_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-2-install_web_access_proxy_pt2-110317.00_27_54_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-3-2-install_web_access_proxy_pt2-110317.00_27_54_20.Still001-sm.jpg",
+          "title": "Install Web Access Proxy Part 2",
+          "transcript": "",
+          "url": "install-web-access-proxy2",
+          "vimeoId": "241889783"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie walk through the post-installation configuration for the proxy",
+          "length": "2003",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-4-1-configure_web_access_proxy-110617-PGM.00_35_24_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-4-1-configure_web_access_proxy-110617-PGM.00_35_24_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-4-1-configure_web_access_proxy-110617-PGM.00_35_24_21.Still001-sm.jpg",
+          "title": "Configure Web Access Proxy",
+          "transcript": "",
+          "url": "configure-web-access-proxy",
+          "vimeoId": "241891661"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to customize the ADFS Sign-In-Page. This allows O365 admins to customize the end-user experience for their needs, according to the team. They describe many options that can be changed and demonstrate how to change some of them using powershell.",
+          "length": "1251",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-5-1-customize_adfs_sign_in_page-110717-PGM.00_22_55_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-5-1-customize_adfs_sign_in_page-110717-PGM.00_22_55_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-5-5-1-customize_adfs_sign_in_page-110717-PGM.00_22_55_07.Still001-sm.jpg",
+          "title": "Customize ADFS Sign-in Page",
+          "transcript": "",
+          "url": "customize-adfs-signin-page",
+          "vimeoId": "241891263"
+        }
+      ],
+      "title": "Implement and Manage Federated Identities for SSO"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie demonstrate some of the different methods to get information about the past history and current health of the O365 tenant. They show where you can find reports within the 0365 portal and used the Service Health Dashboard.",
+          "length": "1410",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-1-1-analyze_reports_and_monitor_service_health-110717-PGM.00_23_18_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-1-1-analyze_reports_and_monitor_service_health-110717-PGM.00_23_18_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-1-1-analyze_reports_and_monitor_service_health-110717-PGM.00_23_18_14.Still001-sm.jpg",
+          "title": "Analyze Reports and Monitor Service Health",
+          "transcript": "",
+          "url": "analyze-reportsmonitor-service-health",
+          "vimeoId": "241890730"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show some of the different methods to isolate Service Interruption.  They show some of the different tools available for the admin monitoring the O365.",
+          "length": "1847",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-2-1-isolate_service_interruption-110817-PGM.00_00_11_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-2-1-isolate_service_interruption-110817-PGM.00_00_11_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-6-2-1-isolate_service_interruption-110817-PGM.00_00_11_24.Still001-sm.jpg",
+          "title": "Isolate Service Interruption",
+          "transcript": "",
+          "url": "isolate-service-interruption",
+          "vimeoId": "242245026"
+        },
+        {
+          "description": "n this episode, Zach and Ronnie demonstrate some of the steps necessary when you disable adfs and keep password synchonization running.",
+          "length": "1526",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-1-disabling_ad_federation-110917-PGM.00_25_15_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-1-disabling_ad_federation-110917-PGM.00_25_15_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-1-disabling_ad_federation-110917-PGM.00_25_15_15.Still001-sm.jpg",
+          "title": "Disabling AD Federation",
+          "transcript": "",
+          "url": "disabling-ad-federation",
+          "vimeoId": "242243698"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie demonstrate some of the steps necessary when you disable adfs and keep password synchonization running.",
+          "length": "1498",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-2-disabling_ad_federation_pt2-110917-PGM.00_34_12_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-2-disabling_ad_federation_pt2-110917-PGM.00_34_12_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-1-2-disabling_ad_federation_pt2-110917-PGM.00_34_12_21.Still001-sm.jpg",
+          "title": "Disabling AD Federation Part 2",
+          "transcript": "",
+          "url": "disabling-ad-federation2",
+          "vimeoId": "242246348"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss rights managements basics. They discuss the problems that companies face protecting email and documents.  Then, they discuss how Rights Managment provides a solution for protecting our data, regardless of who receives the data, where it resides and technology available.",
+          "length": "1617",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-2-1-document_and_email_protection-111017.00_26_46_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-2-1-document_and_email_protection-111017.00_26_46_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-office36570346/microsoft-office36570346-7-2-1-document_and_email_protection-111017.00_26_46_04.Still001-sm.jpg",
+          "title": "Document and Email Protection",
+          "transcript": "",
+          "url": "documentemail-protection",
+          "vimeoId": "242591365"
+        }
+      ],
+      "title": "Monitor and troubleshoot Office 365 availability and usage"
+    }
+  ],
+  "url": "office-365-2017",
+  "vLab": false
+}

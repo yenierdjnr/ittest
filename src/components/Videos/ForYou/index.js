@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Img from "gatsby-image";
 
 import Hx from 'Elements/Hx';
@@ -8,7 +8,7 @@ import styles from './styles.module.scss';
 
 
 const ForYouVideo = ({ className='', videoImg }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {
@@ -22,7 +22,7 @@ const ForYouVideo = ({ className='', videoImg }) => {
         <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
           <IconPlay className={ styles['play-button'] }/>
-          <Img outerWrapperClassName={ styles.img } sizes={ videoImg.sizes } alt="team video"/>
+          <Img outerWrapperClassName={ styles.img } fluid={ videoImg.fluid } alt="team video"/>
         </div>
         <div className={ styles.intro }>
           <Hx className={ styles.title } color={ styles.offBlack } size="2">Learn More &amp; Enjoy Watching</Hx>

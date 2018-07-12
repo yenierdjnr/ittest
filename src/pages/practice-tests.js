@@ -6,24 +6,22 @@ import TestContent from 'Components/TestContent';
 import styles from './practice-tests.module.scss';
 
 
-const PracticeTests = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles['practice-tests'] }>
+const PracticeTests = ({ location }) =>
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles['practice-tests'] }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.TestContent }>
-          <TestContent />
-        </section>
+      <section className={ styles.TestContent }>
+        <TestContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default PracticeTests;

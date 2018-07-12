@@ -5,7 +5,6 @@ import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';
 import BenefitList from './BenefitList';
 
-
 const Benefits = ({ className='' }) => {
   return (
     <section className={ styles.capsule }>
@@ -41,9 +40,8 @@ const Benefits = ({ className='' }) => {
           </div>
         </div>
       </div>
-    </section>
+  </section>
   );
 };
-
 
 export default Benefits;

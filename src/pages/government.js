@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import { Government as Hero } from 'Components/Hero';
@@ -11,53 +12,51 @@ import GsaCourses from 'Components/GsaCourses';
 import styles from './government.module.scss';
 
 
-const Government = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.government }>
+const Government = ({ data, location }) =>
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.government }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.GovIntro }>
-          <GovIntro />
-        </section>
+      <section className={ styles.GovIntro }>
+        <GovIntro />
+      </section>
 
-        <section className={ styles.GovernmentContent }>
-          <GovernmentContent />
-        </section>
+      <section className={ styles.GovernmentContent }>
+        <GovernmentContent />
+      </section>
 
-        <section className={ styles.GsaCourses }>
-          <GsaCourses />
-        </section>
+      <section className={ styles.GsaCourses }>
+        <GsaCourses />
+      </section>
 
-        <section className={ styles['Track-Results'] }>
-          <TrackResults videoImage={ data.videoImage }/>
-        </section>
+      <section className={ styles['Track-Results'] }>
+        <TrackResults videoImage={ data.videoImage }/>
+      </section>
 
-        <section className={ styles.GsaSchedule }>
-          <GsaSchedule />
-        </section>
+      <section className={ styles.GsaSchedule }>
+        <GsaSchedule />
+      </section>
 
-        <section className={ styles.GovBottomElement }>
-          <GovBottomElement />
-        </section>
+      <section className={ styles.GovBottomElement }>
+        <GovBottomElement />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default Government;
 
 export const query = graphql`
   query TeamVideo {
-    videoImage: imageSharp(id: { regex: "/forTeams_video@1x/"}) {
-      sizes(maxWidth: 669) {
-        ...GatsbyImageSharpSizes
+    videoImage: imageSharp(fluid: { originalName: { regex: "/forTeams_video@1x/"}}) {
+      fluid(maxWidth: 669) {
+        ...GatsbyImageSharpFluid
       }
     },
   }

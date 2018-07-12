@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import { VirtualLabsHero as Hero } from 'Components/Hero';
@@ -6,23 +7,21 @@ import Vlabs from 'Components/Vlabs';
 import styles from './courses.module.scss';
 
 
-const VirtualLabs = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.courses }>
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+const VirtualLabs = ({ data, location}) =>
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.courses }>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.Vlabs }>
-          <Vlabs vLabs={ data.vLabs.edges.map(edge => edge.node).filter(lab => lab.labs.length !== 0) } />
-        </section>
+      <section className={ styles.Vlabs }>
+        <Vlabs vLabs={ data.vLabs.edges.map((edge) => edge.node).filter((lab) => lab.labs.length !== 0) } />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default VirtualLabs;

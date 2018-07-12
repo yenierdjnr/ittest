@@ -69,7 +69,7 @@ class Plans extends Component {
     };
   }
 
-  handleClick = target => {
+  handleClick = (target) => {
     const { monthly, annual } = this.state;
     let currentPricing = {};
 
@@ -107,7 +107,7 @@ class Plans extends Component {
       </section>
     );
   }
-};
+}
 
 
 export default Plans;

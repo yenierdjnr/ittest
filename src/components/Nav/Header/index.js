@@ -10,11 +10,11 @@ class HeaderNav extends Component {
     super(props);
 
     this.state = {
-        previousPath: ''
+      previousPath: ''
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { previousPath } = this.state;
 
     if (previousPath) {
@@ -34,24 +34,24 @@ class HeaderNav extends Component {
 
     for (const link of links) {
       if (link.pathname === currentPath) {
-       link.parentElement.classList.add(styles.active);
-       this.setState({
-        previousPath: link
-       });
-       break;
+        link.parentElement.classList.add(styles.active);
+        this.setState({
+          previousPath: link
+        });
+        break;
       }
 
       if (regex.test(currentPath) && link.pathname === '/courses/') {
         link.parentElement.classList.add(styles.active);
-       this.setState({
-        previousPath: link
-       });
-       break;
+        this.setState({
+          previousPath: link
+        });
+        break;
       }
     }
   };
 
-  handleMenuClick = e => {
+  handleMenuClick = (e) => {
     const body = document.getElementsByTagName('body')[0];
     const overlay = document.getElementById('overlay');
 
@@ -59,7 +59,7 @@ class HeaderNav extends Component {
     overlay.style.display = 'block';
   };
 
-    render() {
+  render() {
 
     return (
       <Fragment>
@@ -82,7 +82,7 @@ class HeaderNav extends Component {
             </li>
 
             <li className={ styles['menu-item-diff'] }>
-            <a className={ styles['login-link'] } href={`${process.env.ITPROTV_URL}/login/`} >log in</a>
+              <a className={ styles['login-link'] } href={`${process.env.ITPROTV_URL}/login/`} >log in</a>
             </li>
             <li className={ styles['menu-item-diff'] }>
               <Link className={ styles['try-free'] } to="/plans/">try it free</Link>

@@ -2,7 +2,6 @@ import React, { Fragment, PureComponent } from 'react';
 
 import Menu from './Menu';
 import Display from './Display';
-import styles from './styles.module.scss';
 
 
 class CourseOptions extends PureComponent {
@@ -31,7 +30,7 @@ class CourseOptions extends PureComponent {
       <Fragment>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ tagCategories.map(tag => tag.tagcategoryname) }
+          categories={ tagCategories.map((tag) => tag.tagcategoryname) }
           onChange={ this.handleMenuChange }
         />
         <Display categories={ tagCategories[categoryIndex].tags } />

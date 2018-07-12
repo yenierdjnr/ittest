@@ -4,7 +4,7 @@ import Link from 'Elements/Link';
 import styles from './styles.module.scss';
 
 
-const Plans = props => {
+const Plans = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>
@@ -19,7 +19,7 @@ const Plans = props => {
       </div>
     </section>
   );
-};
+}
 
 
 export default Plans;

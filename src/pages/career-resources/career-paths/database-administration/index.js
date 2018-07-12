@@ -1,25 +1,24 @@
 import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { DatabaseAdministrationPath as Path } from 'Components/CareerPaths';
 
-const DatabaseAdministration = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.Career }>
+const DatabaseAdministration = ({ data, location }) =>
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.Career }>
 
-        <section className={ styles.Path }>
-          <Path
-              recommendedCourses={data.careerPath.recommended.courses}
-              additionalCourses={data.careerPath.additional.courses}/>
-        </section>
+      <section className={ styles.Path }>
+        <Path
+          recommendedCourses={data.careerPath.recommended.courses}
+          additionalCourses={data.careerPath.additional.courses}/>
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 export default DatabaseAdministration;
 

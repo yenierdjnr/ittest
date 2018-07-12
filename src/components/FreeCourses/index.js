@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Hx from'Elements/Hx';
-import TextLink from 'Elements/TextLink';
 import { Episode } from 'Elements/Flags';
 import styles from './styles.module.scss';
 
@@ -29,24 +28,20 @@ const episodes = [
   },
 ];
 
-const FreeCourses = props => {
-  return (
-    <section className={ styles.capsule }>
-      <div className={ styles.row }>
-        <div className={ styles.intro }>
-          <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
-        </div>
+const FreeCourses = () =>
+  <section className={ styles.capsule }>
+    <div className={ styles.row }>
+      <div className={ styles.intro }>
+        <Hx color={ styles.headingColor } className={ styles.title } size="2">Try These Courses for Free</Hx>
       </div>
-      <div className={ styles.row }>
-        {
-          episodes.map((epi, i) => {
-            return <Episode key={ i } title={ epi.title } linkName={ epi.linkName } url={ epi.url  } />
-          })
-        }
-      </div>
-    </section>
-  );
-};
+    </div>
+    <div className={ styles.row }>
+      {
+        episodes.map((epi, i) => <Episode key={ i } title={ epi.title } linkName={ epi.linkName } url={ epi.url  } />)
+      }
+    </div>
+  </section>
+  ;
 
 
 export default FreeCourses;

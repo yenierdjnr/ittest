@@ -1,0 +1,106 @@
+{
+  "description": "This course introduces basic concepts for building web pages using HTML which gives structure to the content such as defining paragraphs and images and CSS which defines the appearance of the content such as colors and fonts. It also introduces bootstrap which is a collection of tools and templates for use with HTML and CSS.",
+  "descriptionMD": "This course introduces basic concepts for building web pages using HTML which gives structure to the content such as defining paragraphs and images and CSS which defines the appearance of the content such as colors and fonts. It also introduces bootstrap which is a collection of tools and templates for use with HTML and CSS.",
+  "length": "12036",
+  "name": "HTML, CSS and Bootstrap",
+  "practiceExam": false,
+  "subtitle": "Responsive Web Design",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course introduces basic concepts for building web pages using HTML which gives structure to the content such as defining paragraphs and images and CSS which defines the appearance of the content such as colors and fonts. It also introduces bootstrap which is a collection of tools and templates for use with HTML and CSS.",
+          "length": "76",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-0-0-overview-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-0-0-overview-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-0-0-overview-071516-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:10.000\n[MUSIC]\n\n2\n00:00:13.583 --> 00:00:14.370\nHello.\n\n3\n00:00:14.370 --> 00:00:18.230\nIn this series of videos,\nwe're gonna be looking at HTML, CSS, and\n\n4\n00:00:18.230 --> 00:00:21.750\nBootstrap ,and here to tell us a little\nbit more about what we can expect,\n\n5\n00:00:21.750 --> 00:00:23.640\nhere's Mr. Victor Moreno.\n\n6\n00:00:23.640 --> 00:00:24.920\n>> Thank you, Mike.\n\n7\n00:00:24.920 --> 00:00:28.290\nBasically, the series is aimed for anybody\n\n8\n00:00:28.290 --> 00:00:32.240\nwho wants to understand a little bit about\nwhat HTML is and how to make websites.\n\n9\n00:00:32.240 --> 00:00:34.210\nWe talk about what websites even are.\n\n10\n00:00:34.210 --> 00:00:36.402\nWhat your browser really\ndoes behind the scenes.\n\n11\n00:00:36.402 --> 00:00:39.830\nHow to dig under the hood of your browser,\nhow to understand what's going on with\n\n12\n00:00:39.830 --> 00:00:44.550\nHTML, how to apply CSS, how to manage\nyour files in a professional way, and\n\n13\n00:00:44.550 --> 00:00:49.000\nhow to use third party tools that make\nyour development process a lot easier.\n\n14\n00:00:49.000 --> 00:00:52.890\nAnd if you look at my screen right now,\nwe can actually, by the end of the course,\n\n15\n00:00:52.890 --> 00:00:55.950\nover a couple of episodes,\nwe actually make this website right here\n\n16\n00:00:55.950 --> 00:01:00.810\nwith a slider, some nice pictures,\nsome icons, a contact form.\n\n17\n00:01:00.810 --> 00:01:04.500\nAnd we talk about how all of this works,\nand what all of it does.\n\n18\n00:01:04.500 --> 00:01:09.217\nSo, hopefully, you stay tuned, and\nhopefully you enjoy it and learn a lot.\n\n19\n00:01:09.217 --> 00:01:16.389\n[MUSIC]\n\n",
+          "url": "overview70754",
+          "vimeoId": "175395504"
+        },
+        {
+          "description": "In this episode, Victor and Mike explain the basics of HTML and CSS. They go over how a browser requests and interprets a web page and how to use the browser to look under the hood of a web page. They also talk about tools like Bootstrap and Atom.",
+          "length": "1613",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-1-introduction_to_html-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-1-introduction_to_html-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-1-introduction_to_html-071516-1-sm.jpg",
+          "title": "Introduction to HTML",
+          "transcript": "",
+          "url": "introductionhtml",
+          "vimeoId": "175395510"
+        },
+        {
+          "description": "In this episode, Victor and Mike start by looking at different elements that make up an HTML document. They look at inserting images, explaining relative and absolute paths. Then they begin their look at CSS, demonstrating how to link a style sheet.",
+          "length": "1923",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-1-css-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-1-css-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-1-css-071516-1-sm.jpg",
+          "title": "CSS",
+          "transcript": "",
+          "url": "css3",
+          "vimeoId": "175395512"
+        },
+        {
+          "description": "In this episode, Victor and Mike continue their discussion on CSS. They look at different ways to style an HTML element, using classes, IDs, and tags. They also explain the CSS box model.",
+          "length": "2121",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-2-css_pt.2-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-2-css_pt.2-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-2-2-css_pt.2-071516-1-sm.jpg",
+          "title": "CSS Part 2",
+          "transcript": "",
+          "url": "css2",
+          "vimeoId": "175395511"
+        },
+        {
+          "description": "In this episode, Victor and Mike explain the concept of responsive web design. They demonstrate using the Bootstrap framework to design a web page using a responsive grid layout. They also talk about the concept of using a content delivery network (CDN).",
+          "length": "1289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-3-responsive_web_design-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-3-responsive_web_design-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-3-responsive_web_design-071516-1-sm.jpg",
+          "title": "Responsive Web Design",
+          "transcript": "",
+          "url": "responsive-web-design2",
+          "vimeoId": "175395509"
+        },
+        {
+          "description": "In this episode, Victor and Mike put it all together and build a web page. They build a page with a navbar, a slider/carousel, a 3-column responsive section, a 2-column responsive section with a form, and a footer with social media icons.",
+          "length": "1619",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-4-building_a_bootstrap_page-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-4-building_a_bootstrap_page-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-4-building_a_bootstrap_page-071516-1-sm.jpg",
+          "title": "Building a Bootstrap Page",
+          "transcript": "",
+          "url": "buildingbootstrap-page",
+          "vimeoId": "175395507"
+        },
+        {
+          "description": "In this episode, Victor and Mike look at using forms in a web page. They demonstrate creating a form, explaining the different form elements. They also look at glyphs, and how to use them in your web design.",
+          "length": "1861",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-5-glyphs_and_forms-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-5-glyphs_and_forms-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-5-glyphs_and_forms-071516-1-sm.jpg",
+          "title": "Glyphs and Forms",
+          "transcript": "",
+          "url": "glyphsforms",
+          "vimeoId": "175395506"
+        },
+        {
+          "description": "In this episode, Victor and Mike talk about more advanced CSS selectors and how to use an icon library. They demonstrate creating compound CSS selectors and explain how they work. They also show how to link to an icon library, like FontAwesome, and insert icons into a web page.",
+          "length": "1534",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-6-fontawesome-071516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-6-fontawesome-071516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-htmlcssandbootstrap/htmlcssandbootstrap-1-6-fontawesome-071516-1-sm.jpg",
+          "title": "Font Awesome",
+          "transcript": "",
+          "url": "font-awesome",
+          "vimeoId": "175395505"
+        }
+      ],
+      "title": "HTML, CSS and Bootstrap"
+    }
+  ],
+  "url": "html-cssbootstrap",
+  "vLab": false
+}

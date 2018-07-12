@@ -1,0 +1,741 @@
+{
+  "description": "The CCNA Security show will build knowledge of network infrastructure security, increase understanding core security concepts, show how to configure and manage secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security using different security technologies.  Also demonstrates how install, troubleshoot, and monitor these technologies to achieve business defined security goals.",
+  "descriptionMD": "The CCNA Security show will build knowledge of network infrastructure security, increase understanding core security concepts, show how to configure and manage secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security using different security technologies.  Also demonstrates how install, troubleshoot, and monitor these technologies to achieve business defined security goals.",
+  "length": "113341",
+  "name": "CCNA Security (2018)",
+  "practiceExam": false,
+  "subtitle": "Cisco Certified Network Associate Security",
+  "tagUrl": "ccna",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCNA Security show will build knowledge of network infrastructure security, increase understanding core security concepts, show how to configure and manage secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security using different security technologies. Also demonstrates how install, troubleshoot, and monitor these technologies to achieve business defined security goals.",
+          "length": "700",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-0-0-0-overview-062718-PGM.00_08_31_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-0-0-0-overview-062718-PGM.00_08_31_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-0-0-0-overview-062718-PGM.00_08_31_13.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.792\n[MUSIC]\n\n2\n00:00:05.792 --> 00:00:08.787\nHello, and thank you for\nwatching ITPro.TV.\n\n3\n00:00:08.787 --> 00:00:12.371\nToday we're gonna be talking about\nCCNA security in preparation for\n\n4\n00:00:12.371 --> 00:00:17.127\nthat 210-260 exam, and the fellow who's\ngonna bring us all the information we need\n\n5\n00:00:17.127 --> 00:00:19.380\nto know in this course in Mr. Ronnie Wong.\n\n6\n00:00:19.380 --> 00:00:22.310\nAnd so Ronnie,\nthe first question I have to ask,\n\n7\n00:00:22.310 --> 00:00:25.480\nwho do you think should watch this show?\n&gt;&gt; Aubri,\n\n8\n00:00:25.480 --> 00:00:26.980\nthat's a very good question, right?\n\n9\n00:00:26.980 --> 00:00:31.922\nIf you're already taking a look at\nthe idea of going towards a security\n\n10\n00:00:31.922 --> 00:00:37.140\nfocus in your career, you wanna take\na look at earning the CCNA security.\n\n11\n00:00:37.140 --> 00:00:41.242\nBecause it covers some of the basic\ntechnologies that you have to be familiar\n\n12\n00:00:41.242 --> 00:00:44.750\nwith and how to secure them,\nsuch as switches and routers.\n\n13\n00:00:44.750 --> 00:00:48.870\nAnd of course, even other devices\nlike IPSs, as well as VPNs.\n\n14\n00:00:48.870 --> 00:00:50.990\nSo there's a lot of\ntechnology that's covered.\n\n15\n00:00:50.990 --> 00:00:53.720\nAnd if you're ready to pursue that,\nit means that you've already gotten\n\n16\n00:00:53.720 --> 00:00:58.390\nthe basic knowledge down of your\nCCNA routing and switching, and\n\n17\n00:00:58.390 --> 00:01:00.010\neverything that you actually need.\n\n18\n00:01:00.010 --> 00:01:01.980\nAnd that means you're ready to\npursue a little bit further and\n\n19\n00:01:01.980 --> 00:01:04.520\na little bit deeper knowledge\nin the security realm\n\n20\n00:01:04.520 --> 00:01:06.410\nof what we're taking a look at.\n&gt;&gt; So\n\n21\n00:01:06.410 --> 00:01:09.040\nit sounds like this is\na certification based exam.\n\n22\n00:01:09.040 --> 00:01:11.940\nIs that correct?\n&gt;&gt; It is a certification based exam.\n\n23\n00:01:11.940 --> 00:01:16.470\nAs we start to take a look the idea of\ncertifying, though, it has a requirement,\n\n24\n00:01:16.470 --> 00:01:21.990\nAubri, and that means that you either\nhave the Cisco CCENT, that entry\n\n25\n00:01:21.990 --> 00:01:27.550\nlevel certification, or you've already\nearned your CCNA in routing and switching.\n\n26\n00:01:27.550 --> 00:01:30.510\nAnd then you can take\nthe actual exam itself for\n\n27\n00:01:30.510 --> 00:01:34.910\nthe CCNA security And\nonce we do that, then you'll earn it.\n\n28\n00:01:34.910 --> 00:01:37.650\nBut if you take the CCNA\nsecurity by itself and\n\n29\n00:01:37.650 --> 00:01:41.680\nyou haven't got one of those other two\nprerequisites, you have taken the exam but\n\n30\n00:01:41.680 --> 00:01:44.050\nyou will not have earned\nthe certification.\n\n31\n00:01:44.050 --> 00:01:46.910\nSo that's something we wanna make\nsure that we're very careful about as\n\n32\n00:01:46.910 --> 00:01:48.650\nwe get started as well.\n\n33\n00:01:48.650 --> 00:01:50.360\nSo what are some things we're gonna cover\n\n34\n00:01:50.360 --> 00:01:52.090\nin this course?\n&gt;&gt; Well,\n\n35\n00:01:52.090 --> 00:01:55.570\nin this course as we start to\ncover some of the material,\n\n36\n00:01:55.570 --> 00:02:00.180\nlet's take a look at my machine and this\nwill help us out in what we're gonna do.\n\n37\n00:02:00.180 --> 00:02:02.370\nNow, for the exam as we get ready for\n\n38\n00:02:02.370 --> 00:02:06.600\nthis, right, you do want to make sure\nfirst and foremost that you go out and\n\n39\n00:02:06.600 --> 00:02:10.550\nyou get a copy of the exam\nobjectives directly from Cisco.\n\n40\n00:02:10.550 --> 00:02:18.088\nAnd the way that you do that is open your\nweb browser and type in Exam 210/260.\n\n41\n00:02:18.088 --> 00:02:22.992\nAnd usually one of the first two links\nwill end up bringing you to this\n\n42\n00:02:22.992 --> 00:02:28.010\nparticular web page here where\nit says 210/260 IINS, okay?\n\n43\n00:02:28.010 --> 00:02:31.540\nAnd the exam is implementing\nCisco Network Security.\n\n44\n00:02:31.540 --> 00:02:32.600\nNow once you do that, right,\n\n45\n00:02:32.600 --> 00:02:35.870\nyou'll actually notice some of\nthe details about the exam as well.\n\n46\n00:02:35.870 --> 00:02:39.118\n90 minutes,\n60 to 70 questions here that you'll do.\n\n47\n00:02:39.118 --> 00:02:45.010\nYou'll also have to go to a particular\nPearson Vue Center here to take the exam.\n\n48\n00:02:45.010 --> 00:02:48.033\nAnd you can register at vue.com,\nV-U-E.com, and\n\n49\n00:02:48.033 --> 00:02:51.070\nthey'll walk you through\nthe registration process.\n\n50\n00:02:51.070 --> 00:02:53.900\nYou'll pick the vendor,\nwhich going to be Cisco, and\n\n51\n00:02:53.900 --> 00:02:55.630\nthen the exam that you wanna take.\n\n52\n00:02:55.630 --> 00:02:57.420\nAnd you'll be able to\nregister through there.\n\n53\n00:02:57.420 --> 00:03:01.020\nBut make sure you check that\nout on the actual site itself\n\n54\n00:03:01.020 --> 00:03:03.890\nbecause that's gonna be\nvery important to do so.\n\n55\n00:03:03.890 --> 00:03:08.330\nNow the other thing you also want to know,\ntoo, is going to be the cost for\n\n56\n00:03:08.330 --> 00:03:09.490\nthis exam.\n\n57\n00:03:09.490 --> 00:03:12.400\nAs of the last time that\nit was checked it was\n\n58\n00:03:12.400 --> 00:03:16.400\nright about $300 to take\nthis exam in US dollars.\n\n59\n00:03:16.400 --> 00:03:20.730\nSo check your regional area\nwhen you go and do this and\n\n60\n00:03:20.730 --> 00:03:24.100\nwhen you go to Pearson Vue it will tell\nyou exactly how much the exam is gonna be.\n\n61\n00:03:24.100 --> 00:03:28.540\nYou have to pay the fee and then you'll\nbe registered for that exam too.\n\n62\n00:03:28.540 --> 00:03:31.282\nNow, the reason why that's important\nis you want to show up for\n\n63\n00:03:31.282 --> 00:03:32.905\nthat exam about 15 minutes early.\n\n64\n00:03:32.905 --> 00:03:37.690\nThey are going to need you to bring\na ID with you and you'll be ready to go.\n\n65\n00:03:37.690 --> 00:03:41.300\nAnd they'll tell you all the rules and\nregulations there, what you can bring in,\n\n66\n00:03:41.300 --> 00:03:43.194\nwhat you can't bring into the exam booth.\n\n67\n00:03:43.194 --> 00:03:46.910\nSo make sure you pay attention\nto some of those details.\n\n68\n00:03:46.910 --> 00:03:51.870\nNow in our show, right, for\nour CCNA security, we'll be covering all\n\n69\n00:03:51.870 --> 00:03:57.590\nthe technologies that you see listed right\nhere, okay, in this list that we see.\n\n70\n00:03:57.590 --> 00:04:01.603\nBut to ensure that we're covering\neverything else that we also need, too,\n\n71\n00:04:01.603 --> 00:04:06.440\nnotice that here's a link down here at the\nbottom that says Review the exam topics.\n\n72\n00:04:06.440 --> 00:04:13.951\nAnd if I select that link, that will, of\ncourse, bring me to the IINS exam topics.\n\n73\n00:04:13.951 --> 00:04:19.960\nAnd I'll see a collapsed list of\nthe overall topics that will be covered.\n\n74\n00:04:19.960 --> 00:04:24.620\nAnd notice that there are seven different\ndomains that you have to cover anywhere\n\n75\n00:04:24.620 --> 00:04:29.073\nranging between what looks like 10%\nall the way up to about 20%, okay,\n\n76\n00:04:29.073 --> 00:04:32.390\nsomewhere around there,\nin terms of the coverage.\n\n77\n00:04:32.390 --> 00:04:35.530\nAnd then if you wanna see what's gonna\nbe covered in terms of technology,\n\n78\n00:04:35.530 --> 00:04:38.570\nyou can expand out\nthe actual details here.\n\n79\n00:04:38.570 --> 00:04:42.390\nAnd we'll be covering each one of\nthese to make sure that we get you all\n\n80\n00:04:42.390 --> 00:04:45.220\nthe knowledge that you need to prepare for\nthe exam as well.\n\n81\n00:04:45.220 --> 00:04:49.000\nNow if you're saying, hey, I don't\nwanna spend all my time doing that,\n\n82\n00:04:49.000 --> 00:04:53.320\nyou have a link that says to download\nthe complete topics in a PDF format.\n\n83\n00:04:53.320 --> 00:04:57.170\nAnd when you do that,\nthen you will actually get a copy and\n\n84\n00:04:57.170 --> 00:04:59.910\nit will look pretty much like this, okay?\n\n85\n00:04:59.910 --> 00:05:03.660\nThis will tell you all of the exam\ndescriptions in the details here.\n\n86\n00:05:03.660 --> 00:05:06.710\nRemember it's a 90-minute exam,\n60, 70 questions.\n\n87\n00:05:06.710 --> 00:05:11.730\nThat gives you about a minute, maybe a\nminute and 15 seconds per question or so.\n\n88\n00:05:11.730 --> 00:05:14.910\nIt might not even give you that much,\nlet's say like a minute ten or so, okay,\n\n89\n00:05:14.910 --> 00:05:15.980\nper question.\n\n90\n00:05:15.980 --> 00:05:18.700\nYou'll need to take all your\ntime in doing this, and\n\n91\n00:05:18.700 --> 00:05:22.850\nyou'll take a look at all the concepts\nthat actually will be on the exam.\n\n92\n00:05:22.850 --> 00:05:24.730\nThey'll be listed right\nhere as well as other ones.\n\n93\n00:05:24.730 --> 00:05:27.910\nNow, when we take a look at this, okay,\n\n94\n00:05:27.910 --> 00:05:30.970\nthere's a second topic that\nyou've got to be aware of.\n\n95\n00:05:30.970 --> 00:05:35.080\nI wish I could tell you that the exam\nobjectives covered every single thing.\n\n96\n00:05:35.080 --> 00:05:38.590\nAnd I could cover everything that I try to\nactually think about when preparing for\n\n97\n00:05:38.590 --> 00:05:45.140\nthis show, but the very fact is it's kind\nof the strange last phrase here, okay?\n\n98\n00:05:45.140 --> 00:05:49.840\nThe guidelines may change\nwithout any notice at all, okay?\n\n99\n00:05:49.840 --> 00:05:51.780\nAnd that can be a little bit scary, but\n\n100\n00:05:51.780 --> 00:05:56.290\nif we cover the exam objectives that\nshould be more than sufficient for you.\n\n101\n00:05:56.290 --> 00:06:00.420\nAlso, of course, study and\nprepare for the exam.\n\n102\n00:06:00.420 --> 00:06:04.255\nSo don't think that you won't\nbe able to cover everything, but\n\n103\n00:06:04.255 --> 00:06:06.880\nyou'll at least be able to\ncover as much as we can do\n\n104\n00:06:06.880 --> 00:06:10.120\nas of what we've actually done for\nthis show at this point.\n\n105\n00:06:10.120 --> 00:06:14.380\nSo during our show, we'll end up seeing,\nof course, well, basic security concepts.\n\n106\n00:06:14.380 --> 00:06:17.420\nWe'll make sure that we go over these,\nthat you have a good understanding of\n\n107\n00:06:17.420 --> 00:06:22.980\nthe Cisco terminology on all the security\nconcepts that they want you to understand.\n\n108\n00:06:22.980 --> 00:06:25.640\nMake sure that we review those\nconcepts very well for you.\n\n109\n00:06:25.640 --> 00:06:29.150\nAnd we'll have some lab\nwork that we can also see.\n\n110\n00:06:29.150 --> 00:06:32.850\nAnd then, of course,\nwe begin to secure access, right?\n\n111\n00:06:32.850 --> 00:06:36.960\nMake sure that we understand how\ndo we secure management access.\n\n112\n00:06:36.960 --> 00:06:42.740\nHow do we actually implement authorization\nand accounting and authentication as well?\n\n113\n00:06:42.740 --> 00:06:47.117\nAnd introduce, of course,\nmutual authentication, 802.1x,\n\n114\n00:06:47.117 --> 00:06:52.325\nbeing able to set that up, as well as talk\nabout the security policies around BYOD.\n\n115\n00:06:52.325 --> 00:06:57.477\nWe'll spend a good deal of time\nin creating VPNs where we'll\n\n116\n00:06:57.477 --> 00:07:02.127\ncreate a site-to-site as\nwell as a site-to-client\n\n117\n00:07:02.127 --> 00:07:06.790\nVPN connection and\neven a client list VPN connection.\n\n118\n00:07:06.790 --> 00:07:09.910\nWe'll make sure you have\nthe details behind doing that.\n\n119\n00:07:09.910 --> 00:07:12.900\nWe'll show you how to secure,\nof course, routing and switching.\n\n120\n00:07:12.900 --> 00:07:17.360\nThis is why it's essential that you\nhave the basic knowledge of the CCENT or\n\n121\n00:07:17.360 --> 00:07:19.400\nthe CCNA routing and switching.\n\n122\n00:07:19.400 --> 00:07:20.620\nIf you don't know how those work,\n\n123\n00:07:20.620 --> 00:07:22.430\nyou're not gonna be able to\nsecure routing protocols.\n\n124\n00:07:22.430 --> 00:07:26.370\nYou're not gonna understand the idea\nof securing the switch itself\n\n125\n00:07:26.370 --> 00:07:29.560\nif you don't understand\nthe basics of actually how to\n\n126\n00:07:29.560 --> 00:07:34.700\nrun some of those configurations on\na switch or a router, too, okay?\n\n127\n00:07:34.700 --> 00:07:38.870\nAnd of course, we'll spend a good deal of\ntime in configuring the Cisco firewall.\n\n128\n00:07:38.870 --> 00:07:42.880\nNow traditionally this has been\nbased off of the Cisco iOS firewall,\n\n129\n00:07:42.880 --> 00:07:46.430\nwhich means it's in\nthe router itself on the iOS.\n\n130\n00:07:46.430 --> 00:07:51.050\nAnd we'll take a look at how we actually\nconfigure certain things there, too.\n\n131\n00:07:51.050 --> 00:07:53.960\nAnd of course, also the Cisco ASA.\n\n132\n00:07:53.960 --> 00:07:57.220\nSpend a good deal of\ntime in configuring that\n\n133\n00:07:57.220 --> 00:08:02.200\nas well as implementing a zone-based\nfirewall on a Cisco iOS device, too.\n\n134\n00:08:02.200 --> 00:08:06.370\nWe'll take a look at all the different\nsecurity features that we'll also find\n\n135\n00:08:06.370 --> 00:08:10.350\nin setting up a Cisco ASA for\nits first and initial use.\n\n136\n00:08:10.350 --> 00:08:15.434\nAnd we'll of course talk about the idea\nhere of the Modular Policy Framework.\n\n137\n00:08:15.434 --> 00:08:17.980\nIt's an important concept\nthat we'll introduce.\n\n138\n00:08:17.980 --> 00:08:22.190\nAnd make sure that you understand as we\ngo through the Cisco ASA configuration.\n\n139\n00:08:22.190 --> 00:08:27.740\nWe'll spend a brief bit of time\nhere in the domain 6 here on IPS.\n\n140\n00:08:27.740 --> 00:08:30.400\nNow, notice the verb changes\nto the word describe.\n\n141\n00:08:30.400 --> 00:08:32.680\nAnd that means a lot of\nthe concepts that we have here,\n\n142\n00:08:32.680 --> 00:08:35.700\nwell, just make sure that you have\na good descriptive knowledge.\n\n143\n00:08:35.700 --> 00:08:40.099\nWhen I say that, we're also gonna\nbe taking a look at the idea of\n\n144\n00:08:40.099 --> 00:08:44.678\nconfiguring a Cisco IPS by command\nline on a Cisco router itself.\n\n145\n00:08:44.678 --> 00:08:46.560\nSo don't think that we're\nskipping over that.\n\n146\n00:08:46.560 --> 00:08:49.230\nAnd the other technology that\nwe'll also be taking a look at,\n\n147\n00:08:49.230 --> 00:08:53.710\nof course, is configuring, well,\npolicies here or IPS policies\n\n148\n00:08:53.710 --> 00:08:58.470\non the actual Firepower Management Center\nfor our next generation IPS as well.\n\n149\n00:08:58.470 --> 00:09:01.000\nAnd we'll show you how to\nactually get through and\n\n150\n00:09:01.000 --> 00:09:02.760\nat least understand the concepts.\n\n151\n00:09:02.760 --> 00:09:05.540\nThat one, most home users\nare probably not gonna buy that\n\n152\n00:09:05.540 --> 00:09:07.660\nbecause that's a pretty expensive product.\n\n153\n00:09:07.660 --> 00:09:12.031\nBut at least you'll see a demonstration\non how that would end up working, too.\n\n154\n00:09:12.031 --> 00:09:15.320\nNow the last domain objective\nis relatively small.\n\n155\n00:09:15.320 --> 00:09:18.920\nAnd it's just reviewing\nbasic concepts of security\n\n156\n00:09:18.920 --> 00:09:21.960\nsuch as how do we secure against\nemail threats and web threats.\n\n157\n00:09:21.960 --> 00:09:25.630\nAnd of course, even point threats\nfrom the Cisco perspective.\n\n158\n00:09:25.630 --> 00:09:27.960\nNot everybody on the planet's prospective,\nbut\n\n159\n00:09:27.960 --> 00:09:32.230\nCisco's technology which only means not a\nlot more money coming out of your pocket.\n\n160\n00:09:32.230 --> 00:09:33.946\nBut we'll make sure that we show you, or\n\n161\n00:09:33.946 --> 00:09:37.174\nat least talk to you about the products\nthat are actually going to be there for\n\n162\n00:09:37.174 --> 00:09:40.690\nyou, and talk about when they're\nactually going to be used as well.\n\n163\n00:09:40.690 --> 00:09:44.160\nSo all that together will help us\nget a better understanding, and\n\n164\n00:09:44.160 --> 00:09:47.420\nto get prepared for\nthe actual exam itself.\n\n165\n00:09:47.420 --> 00:09:52.380\nAnd throughout our entire series, we'll\nbe doing a lot of lab work as we do so.\n\n166\n00:09:52.380 --> 00:09:56.040\nYou've got to actually have the lab\nwork in or some of the concepts that we\n\n167\n00:09:56.040 --> 00:09:58.840\nmentioned and how to configure it and\nwhat's going to be happening.\n\n168\n00:09:58.840 --> 00:10:00.490\nThey're not gonna make sense to you, nor\n\n169\n00:10:00.490 --> 00:10:02.199\nare you going to get prepared for\nthe exam.\n\n170\n00:10:02.199 --> 00:10:04.330\nAnd make sure you set\nup your own lab work.\n\n171\n00:10:04.330 --> 00:10:06.511\nIf you're an ITPro.TV subscriber,\n\n172\n00:10:06.511 --> 00:10:10.550\nyou have access to the exact same\nequipment that I use during our show.\n\n173\n00:10:10.550 --> 00:10:14.430\nThat means you can also get the same\nconfigurations on yours where it's\n\n174\n00:10:14.430 --> 00:10:15.460\napplicable.\n\n175\n00:10:15.460 --> 00:10:18.200\nSome things you won't be able\nto recreate on your own.\n\n176\n00:10:18.200 --> 00:10:20.552\nI wish I could say that we\ncould do everything, but\n\n177\n00:10:20.552 --> 00:10:23.360\nsome things I had to actually\ndo on my own as well.\n\n178\n00:10:23.360 --> 00:10:26.480\nThough you'll follow the best\nthat you can on those situations.\n\n179\n00:10:26.480 --> 00:10:28.930\nBut Aubri,\nwhen it comes down to the exam and\n\n180\n00:10:28.930 --> 00:10:33.000\nwhat we'll be actually covering at this\npoint, right, that will pretty much make\n\n181\n00:10:33.000 --> 00:10:36.690\nsure that we get a good coverage\nof all the exam objectives.\n\n182\n00:10:36.690 --> 00:10:41.760\nAnd that, along with your own personal\ntime that you put into studying,\n\n183\n00:10:41.760 --> 00:10:45.940\nwill help you to succeed as you\nget ready for that INS exam.\n\n184\n00:10:45.940 --> 00:10:49.398\nSo don't skimp,\ntake all the time you need.\n\n185\n00:10:49.398 --> 00:10:52.459\nBecause when it comes down to exam day,\nthat's the only way you're\n\n186\n00:10:52.459 --> 00:10:55.520\ngoing to get prepared for it,\nis to make sure you understand each and\n\n187\n00:10:55.520 --> 00:10:59.260\nevery one of these topics and the concepts\nbehind them before you move on.\n\n188\n00:10:59.260 --> 00:11:02.050\nSo my recommendation is,\nas you watch the show, make sure you don't\n\n189\n00:11:02.050 --> 00:11:06.510\nmove on to next topic until you fully\nunderstand that domain objective, and\n\n190\n00:11:06.510 --> 00:11:08.040\nmake sure that you actually have it down.\n\n191\n00:11:08.040 --> 00:11:11.170\nDon't skip as it actually\nbuilds upon each other as well.\n\n192\n00:11:11.170 --> 00:11:15.270\nSo be sure you take some time and\nlook over everything that we have.\n\n193\n00:11:15.270 --> 00:11:19.590\nAnd of course, watch every single episode\nthat we have right here on the ITPro.TV\n\n194\n00:11:19.590 --> 00:11:23.280\nlibrary as you get started as well.\n&gt;&gt; All right, thank you, Ronnie.\n\n195\n00:11:23.280 --> 00:11:29.590\nIf CCNA Security Exam 210-260 in\nour course library interests you,\n\n196\n00:11:29.590 --> 00:11:32.510\nbe sure to watch every single\nepisode like Ronnie said.\n\n197\n00:11:32.510 --> 00:11:33.645\nThanks for watching.\n\n198\n00:11:33.645 --> 00:11:34.145\n[MUSIC]\n\n",
+          "url": "overview-ccna-sec-2018",
+          "vimeoId": "277538828"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie discuss the cia triad and siem technology.  They describe the components and purpose of the CIA triad and provide examples for each component.  Also they take the time to describe SIEM technology and talk about what it does and should perform: aggregation, correlation and retention.",
+          "length": "1989",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-1-describe_cia_triad_and_siem_technology-050418-PGM.00_32_55_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-1-describe_cia_triad_and_siem_technology-050418-PGM.00_32_55_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-1-describe_cia_triad_and_siem_technology-050418-PGM.00_32_55_00.Still001-sm.jpg",
+          "title": "Describe CIA Triad and SIEM Technology",
+          "transcript": "",
+          "url": "describe-cia-triadsiem-technology",
+          "vimeoId": "268422599"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie discuss the cia triad and siem technology.  They describe the components and purpose of the CIA triad and provide examples for each component.  Also they take the time to describe SIEM technology and talk about what it does and should perform: aggregation, correlation and retention.",
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-2-describe_cia_triad_and_siem_technology-pt2-050418-PGM.00_38_06_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-2-describe_cia_triad_and_siem_technology-pt2-050418-PGM.00_38_06_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-1-2-describe_cia_triad_and_siem_technology-pt2-050418-PGM.00_38_06_06.Still001-sm.jpg",
+          "title": "Describe CIA Triad and SIEM Technology Pt2",
+          "transcript": "",
+          "url": "describe-cia-triadsiem-technology-pt2",
+          "vimeoId": "268423291"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie discuss common security terms which the security analyst should know for the exam but as foundational knowledge before the deeper dive into network security implementations.",
+          "length": "2535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-2-1-identify_common_security_terms-050418-PGM.00_42_01_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-2-1-identify_common_security_terms-050418-PGM.00_42_01_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-2-1-identify_common_security_terms-050418-PGM.00_42_01_27.Still001-sm.jpg",
+          "title": "Identify Common Security Terms",
+          "transcript": "",
+          "url": "identify-common-security-terms",
+          "vimeoId": "268640951"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie review reconnaissance attack methods.  They describe the use of this attack and some of the methods of attack. The team emphasizes the need for the IT security professional to be aware of these",
+          "length": "2036",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-1-describe_common_network_attacks-050718-PGM.00_33_42_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-1-describe_common_network_attacks-050718-PGM.00_33_42_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-1-describe_common_network_attacks-050718-PGM.00_33_42_01.Still001-sm.jpg",
+          "title": "Describe Common Network Attacks",
+          "transcript": "",
+          "url": "describe-common-network-attacks",
+          "vimeoId": "268615320"
+        },
+        {
+          "description": "Description: In this episode, Jo and Ronnie review some of most common network security attacks that a security analyst should be able to identify and understand their basic function.  The team help to define not only the categories of attacks but also some specific attacks that IT Security pros should be able to understand.",
+          "length": "1843",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-2-describe_common_network_attacks_pt2-050712.00_37_33_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-2-describe_common_network_attacks_pt2-050712.00_37_33_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-2-describe_common_network_attacks_pt2-050712.00_37_33_22.Still001-sm.jpg",
+          "title": "Describe Common Network Attacks Part 2",
+          "transcript": "",
+          "url": "describe-common-network-attacks2",
+          "vimeoId": "268614954"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie review some of most common network security attacks that a security analyst should be able to identify and understand their basic function.  The team help to define not only the categories of attacks but also some specific attacks that IT Security pros should be able to understand.",
+          "length": "2103",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-3-describe_common_network_attacks-pt3-050718-PGM.00_36_58_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-3-describe_common_network_attacks-pt3-050718-PGM.00_36_58_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-3-3-describe_common_network_attacks-pt3-050718-PGM.00_36_58_00.Still001-sm.jpg",
+          "title": "Describe Common Network Attacks Part 3",
+          "transcript": "",
+          "url": "describe-common-network-attacks3",
+          "vimeoId": "268615707"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie identify common malware types. The team discuss their basic working and some of the different examples of them.  They discuss the changes in how malware has been used in the past vs today.",
+          "length": "2446",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-4-1-identify_common_malware_types-050818.00_41_43_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-4-1-identify_common_malware_types-050818.00_41_43_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-4-1-identify_common_malware_types-050818.00_41_43_26.Still001-sm.jpg",
+          "title": "Identify Common Malware Types",
+          "transcript": "",
+          "url": "identify-common-malware-types",
+          "vimeoId": "268992998"
+        },
+        {
+          "description": "Description: In this episode, Jo and Ronnie take a look at different ways in which data can be removed from an organization.  They discuss the purpose of DLP.  How those policies are key for an organization today.",
+          "length": "1746",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-5-1-classify_data_loss_vectors-050818-PGM.00_28_52_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-5-1-classify_data_loss_vectors-050818-PGM.00_28_52_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-5-1-classify_data_loss_vectors-050818-PGM.00_28_52_16.Still001-sm.jpg",
+          "title": "Classify Data Loss Vectors",
+          "transcript": "",
+          "url": "classify-data-loss-vectors",
+          "vimeoId": "268803008"
+        },
+        {
+          "description": "Description: In this episode, Jo and Ronnie discuss encryption methods.  They review their purpose in security and the different types of encryptions used.  They discuss how they function and why they are used.",
+          "length": "1872",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_encryption_methods-050818.00_30_58_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_encryption_methods-050818.00_30_58_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_encryption_methods-050818.00_30_58_21.Still001-sm.jpg",
+          "title": "Describe Encryption Methods",
+          "transcript": "",
+          "url": "describe-encryption-methods",
+          "vimeoId": "268803563"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie discuss encryption methods.  They review their purpose in security and the different types of encryptions used.  They discuss how they function and why they are used.",
+          "length": "1488",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-6-2-describe_encryption_methods-050818-PGM.00_24_34_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-6-2-describe_encryption_methods-050818-PGM.00_24_34_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-6-2-describe_encryption_methods-050818-PGM.00_24_34_15.Still001-sm.jpg",
+          "title": "Describe Encryption Methods Part 2",
+          "transcript": "",
+          "url": "describe-encryption-methods2",
+          "vimeoId": "269003362"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie take a little bit of time to describe the process of crypto key exchange.  The discuss why it matters and how important it is to keep the keys private. They also describe how digitial signature are created and what protectiosn it affords as well as the issuance of certificates and the PKI.",
+          "length": "1983",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_crypto_key_exchange-050918-PGM.00_39_43_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_crypto_key_exchange-050918-PGM.00_39_43_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-1-describe_crypto_key_exchange-050918-PGM.00_39_43_16.Still001-sm.jpg",
+          "title": "Describe Crypto Key Exchange",
+          "transcript": "",
+          "url": "describe-crypto-key-exchange",
+          "vimeoId": "269002755"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie take a little bit of time to describe the process of crypto key exchange.  The discuss why it matters and how important it is to keep the keys private. They also describe how digitial signature are created and what protectiosn it affords as well as the issuance of certificates and the PKI.",
+          "length": "1687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-2-describe_crypto_key_exchange_pt2-050918-PGM.00_27_56_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-2-describe_crypto_key_exchange_pt2-050918-PGM.00_27_56_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-7-2-describe_crypto_key_exchange_pt2-050918-PGM.00_27_56_01.Still001-sm.jpg",
+          "title": "Describe Crypto Key Exchange Part 2",
+          "transcript": "",
+          "url": "describe-crypto-key-exchange2",
+          "vimeoId": "269003777"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie take the time to review some network topologies.  They discuss the need to understand the topology to help with the identifying the scope for the IT security professsional.  The describe each type and some of the details of each topology.",
+          "length": "2128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-1-describe_network_topologies-050918.00_38_14_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-1-describe_network_topologies-050918.00_38_14_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-1-describe_network_topologies-050918.00_38_14_01.Still001-sm.jpg",
+          "title": "Describe Network Topologies",
+          "transcript": "",
+          "url": "describe-network-topologies-ccnasecurity",
+          "vimeoId": "269266310"
+        },
+        {
+          "description": "In this episode, Jo and Ronnie pick up from where they left off in part 1. The team discuss the SOHO and Cloud topologies.  They review the security of virtual environments and discuss who is responsible for the security in these types of enivironments.",
+          "length": "2201",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-2-describe_network_topologies_pt2-051018.00_38_02_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-2-describe_network_topologies_pt2-051018.00_38_02_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-1-8-2-describe_network_topologies_pt2-051018.00_38_02_22.Still001-sm.jpg",
+          "title": "Describe Network Topologies Part 2",
+          "transcript": "",
+          "url": "describe-network-topologies2",
+          "vimeoId": "269213928"
+        }
+      ],
+      "title": "Security Concepts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Jo and Ronnie discuss the methods of managing networking equipment. The describe and compare both in-band and out-of-band management of devices. They take a look at both approaches and then also demonstrate what is normally meant by both.",
+          "length": "1813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-1-1-compare_in_band_and_out_of_band_mgnt-051018-PGM.00_30_00_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-1-1-compare_in_band_and_out_of_band_mgnt-051018-PGM.00_30_00_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-1-1-compare_in_band_and_out_of_band_mgnt-051018-PGM.00_30_00_11.Still001-sm.jpg",
+          "title": "Compare In-band and Out-of-band Mgmt",
+          "transcript": "",
+          "url": "compare-inbandoutofband-mgmt",
+          "vimeoId": "270102417"
+        },
+        {
+          "description": "In this epsiode, Zach and Ronnie discuss how to configure and verify secure management.  They demonstrate how to use the autosecure feature using `auto secure` and walk through the configuration setup",
+          "length": "2037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-1-configure_and_verify_secure_mgnt-051118-PGM.00_37_39_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-1-configure_and_verify_secure_mgnt-051118-PGM.00_37_39_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-1-configure_and_verify_secure_mgnt-051118-PGM.00_37_39_12.Still001-sm.jpg",
+          "title": "Configure and Verify Secure Mgmt",
+          "transcript": "",
+          "url": "configureverify-secure-mgmt",
+          "vimeoId": "269880535"
+        },
+        {
+          "description": "Description: In this epsiode, Zach and Ronnie discuss how to configure and verify secure management.  They demonstrate how to use the autosecure feature using `auto secure` and walk through the configuration setup.",
+          "length": "815",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-2-configure_and_verify_secure_mgnt_pt2-05141_pt2-PGM.00_13_33_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-2-configure_and_verify_secure_mgnt_pt2-05141_pt2-PGM.00_13_33_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-2-2-configure_and_verify_secure_mgnt_pt2-05141_pt2-PGM.00_13_33_20.Still001-sm.jpg",
+          "title": "Configure and Verify Secure Mgmt Part 2",
+          "transcript": "",
+          "url": "configureverify-secure-mgmt2",
+          "vimeoId": "269880347"
+        },
+        {
+          "description": "In this epsiode, Zach and Ronnie discuss how to secre access to the management plane.  They discuss the configuration and different ways this controls access to the management plane.  The team then configures a router for secure access and how to protect the router from deletion of the Cisco IOS.",
+          "length": "1806",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-1-secure_managemment_plane_access-05141-PGM.00_30_47_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-1-secure_managemment_plane_access-05141-PGM.00_30_47_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-1-secure_managemment_plane_access-05141-PGM.00_30_47_03.Still001-sm.jpg",
+          "title": "Secure Management Plane Access",
+          "transcript": "",
+          "url": "secure-management-plane-access",
+          "vimeoId": "269879961"
+        },
+        {
+          "description": "In this epsiode, Zach and Ronnie discuss how to secre access to the management plane.  They discuss the configuration and different ways this controls access to the management plane.  The team then configures a router for secure access and how to protect the router from deletion of the Cisco IOS.",
+          "length": "1465",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-2-secure_managemment_plane_access_pt2-05141-PGM.00_31_15_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-2-secure_managemment_plane_access_pt2-05141-PGM.00_31_15_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-3-2-secure_managemment_plane_access_pt2-05141-PGM.00_31_15_24.Still001-sm.jpg",
+          "title": "Secure Management Plane Access Part 2",
+          "transcript": "",
+          "url": "secure-management-plane-access2",
+          "vimeoId": "269881060"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review the SNMP versions briefly and discuss the advantages of SNMPv3 over the other versions. The team discuss briefly the SNMPv3 components. They configure SNMPv3 with an access control list to secure SNMP and verify its operation.",
+          "length": "2090",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-4-1-configure_and_verify_snmpv3-051518-PGM.01_04_04_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-4-1-configure_and_verify_snmpv3-051518-PGM.01_04_04_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-2-4-1-configure_and_verify_snmpv3-051518-PGM.01_04_04_20.Still001-sm.jpg",
+          "title": "Configure and Verify SNMPv3",
+          "transcript": "",
+          "url": "configureverify-snmpv3",
+          "vimeoId": "274084497"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie explain the importance of NTP.  The team also discuss some of the issues with NTP and how it works.  Lastly, they configure and verify how NTP can be configured with security.",
+          "length": "1650",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-1-configure-and-verify-ntp-security.00_27_16_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-1-configure-and-verify-ntp-security.00_27_16_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-1-configure-and-verify-ntp-security.00_27_16_08.Still001-sm.jpg",
+          "title": "Configure and Verify NTP Security",
+          "transcript": "",
+          "url": "configureverify-ntp-security",
+          "vimeoId": "270415442"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie explain the importance of NTP.  The team also discuss some of the issues with NTP and how it works.  Lastly, they configure and verify how NTP can be configured with security.",
+          "length": "1303",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-2-configure-and-verify-ntp-security-pt-2-051618-CLN.00_21_30_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-2-configure-and-verify-ntp-security-pt-2-051618-CLN.00_21_30_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/ciscoccnasec210260-2018-2-5-2-configure-and-verify-ntp-security-pt-2-051618-CLN.00_21_30_05.Still001-sm.jpg",
+          "title": "Configure and Verify NTP Security Part 2",
+          "transcript": "",
+          "url": "configureverify-ntp-security2",
+          "vimeoId": "270414274"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the AAA frame work used for securing access. The guys describe basic access, local security and aaa new-model.  They compare RADIUS and TACACS+ attributes.",
+          "length": "1920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-6-1-describe_aaa_technologies-051818-PGM.00_42_46_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-6-1-describe_aaa_technologies-051818-PGM.00_42_46_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-6-1-describe_aaa_technologies-051818-PGM.00_42_46_25.Still001-sm.jpg",
+          "title": "Describe AAA Technologies",
+          "transcript": "",
+          "url": "describe-aaa-technologies",
+          "vimeoId": "271101604"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the drawbacks of local authentication.  They show how to overcomes some of these drawbacks by using a remote authentication server like tacacs+.  They demonstrate how to configure the router to use TACACS+ with a TACACS+ server and verify it for authentication and authorization",
+          "length": "1963",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-1-configure-and-verify-access-using-TACACSplus-051718-PGM.00_34_15_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-1-configure-and-verify-access-using-TACACSplus-051718-PGM.00_34_15_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-1-configure-and-verify-access-using-TACACSplus-051718-PGM.00_34_15_17.Still001-sm.jpg",
+          "title": "Configure Access Using TACACSplus",
+          "transcript": "",
+          "url": "configure-access-using-tacacsplus",
+          "vimeoId": "270704542"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the drawbacks of local authentication.  They show how to overcomes some of these drawbacks by using a remote authentication server like tacacs+.  They demonstrate how to configure the router to use TACACS+ with a TACACS+ server and verify it for authentication and authorization",
+          "length": "1221",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-2-configure-and-verify-access-using-TACACSplus-pt-2-051718-PGM.00_20_08_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-2-configure-and-verify-access-using-TACACSplus-pt-2-051718-PGM.00_20_08_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-7-2-configure-and-verify-access-using-TACACSplus-pt-2-051718-PGM.00_20_08_27.Still001-sm.jpg",
+          "title": "Configure Access Using TACACSplus Part 2",
+          "transcript": "",
+          "url": "configure-access-using-tacacsplus2",
+          "vimeoId": "270705112"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie discuss the need to transfer files. They discuss the need to use more secure way to transfer files.  Using NYEDGE2, they configure NYEDGE2 as the SCP server and PLABCSCO01 as the SCP client and show how to transfer a file using SCP.",
+          "length": "1717",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-8-1-use-scp-for-file-transfer-051818.00_39_03_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-8-1-use-scp-for-file-transfer-051818.00_39_03_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-8-1-use-scp-for-file-transfer-051818.00_39_03_24.Still001-sm.jpg",
+          "title": "Use SCP For File Transfer",
+          "transcript": "",
+          "url": "scpfile-transfer",
+          "vimeoId": "271103357"
+        },
+        {
+          "description": "The CCNA Security show will build knowledge of network infrastructure security, increase understanding core security concepts, show how to configure and manage secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security using different security technologies.  Also demostrates how install, troubleshoot, and monitor these technologies to achieve business defined security goals.",
+          "length": "1873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-9-1-explain_ad_integration_with_aaa-051818-PGM.00_33_19_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-9-1-explain_ad_integration_with_aaa-051818-PGM.00_33_19_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-9-1-explain_ad_integration_with_aaa-051818-PGM.00_33_19_12.Still001-sm.jpg",
+          "title": "Explain AD Integration With AAA",
+          "transcript": "",
+          "url": "explain-ad-integrationaaa",
+          "vimeoId": "271100850"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie discuss the need and uses of ISE for Network Access Control.  The guys breakdown what it can do and how it works.  The team also point out the use of Cisco's ACS server by comparison and it's working. Also noted is that the ACS is at the end of life as a product for Cisco now.",
+          "length": "1842",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-10-1-describe_using_cisco_acs_and_ise-05182018-PGM.00_00_25_27.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-10-1-describe_using_cisco_acs_and_ise-05182018-PGM.00_00_25_27.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-10-1-describe_using_cisco_acs_and_ise-05182018-PGM.00_00_25_27.Still002-sm.jpg",
+          "title": "Describe Using Cisco ACS and ISE",
+          "transcript": "",
+          "url": "describe-using-cisco-acsise",
+          "vimeoId": "271102318"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie discuss 802.1x Port-Based Authentication.  They discuss how it restricts unauthorized clients from connecting through publicly accessible ports. The team show how to configure a router for 802.1x authentication.",
+          "length": "1934",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-11-1-identify_8021x_components_and_functions-051818-PGM.00_53_30_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-11-1-identify_8021x_components_and_functions-051818-PGM.00_53_30_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-11-1-identify_8021x_components_and_functions-051818-PGM.00_53_30_02.Still001-sm.jpg",
+          "title": "Identify 802.1x Components and Functions",
+          "transcript": "",
+          "url": "identify-8021x-componentsfunctions",
+          "vimeoId": "271102868"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie disucss the basics of BYOB.  They describe the need for it as well as the purpose of the Cisco BYOB Security Architecture.  Also, they talk about how mobile device management systems fit in the framework of BYOB.",
+          "length": "1592",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-12-1-describe-byod-framework-and-mdm-052118-PGM.00_30_26_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-12-1-describe-byod-framework-and-mdm-052118-PGM.00_30_26_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-12-1-describe-byod-framework-and-mdm-052118-PGM.00_30_26_16.Still001-sm.jpg",
+          "title": "Describe BYOD Framework and MDM",
+          "transcript": "",
+          "url": "describe-byod-frameworkmdm",
+          "vimeoId": "271354406"
+        }
+      ],
+      "title": "Secure Access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Description: In this episode, Zach and Ronnie describe use of IPsec as a framework.  They discuss that IPsec is comprised of matching hashing algorithm, authentication, DH group #, limited availability,and encryption.  They describe what is involved with Phase 1 (SA) and Phase 2 (encryption).",
+          "length": "1937",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-3-1-describe_ipsec_protocols_and_modes-052118-PGM.00_37_32_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-3-1-describe_ipsec_protocols_and_modes-052118-PGM.00_37_32_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-2-3-1-describe_ipsec_protocols_and_modes-052118-PGM.00_37_32_13.Still001-sm.jpg",
+          "title": "Describe IPsec Protocols and Modes",
+          "transcript": "",
+          "url": "describe-ipsec-protocolsmodes",
+          "vimeoId": "271354768"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie describe use of IPsec as a framework.  They discuss that IPsec is comprised of matching hashing algorithm, authentication, DH group #, limited availability,and encryption.  They describe what is involved with Phase 1 (SA) and Phase 2 (encryption).",
+          "length": "1521",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-2-1-describe-different-vpn-implementations-052118-PGM.00_54_16_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-2-1-describe-different-vpn-implementations-052118-PGM.00_54_16_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-2-1-describe-different-vpn-implementations-052118-PGM.00_54_16_14.Still001-sm.jpg",
+          "title": "Describe VPN Implementations",
+          "transcript": "",
+          "url": "describe-vpn-implementations",
+          "vimeoId": "271354089"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show how to implement a remote access VPN using a clientlesss SSL VPN on a Cisco ASA.  They configure this VPN throough the ASDM.  Also they verify that the VPN is in working condition.",
+          "length": "2319",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/vlcsnap-2018-06-20-14h52m44s686.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/vlcsnap-2018-06-20-14h52m44s686-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/vlcsnap-2018-06-20-14h52m44s686-sm.jpg",
+          "title": "Setup Clientless SSL VPN Using ASDM",
+          "transcript": "",
+          "url": "setup-clientless-ssl-vpn-using-asdm",
+          "vimeoId": "276084159"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie use the ASDM to configure Anyconnect VPN on a Cisco ASA firewall. They show how challenging this implementation can be and how to reconfigure it to work correctly.  Lastly, look at the use of the components of enpoint posture assessments.",
+          "length": "2080",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-1-setup_anyconnect_vpn_using_asdm-052218-PGM.00_34_29_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-1-setup_anyconnect_vpn_using_asdm-052218-PGM.00_34_29_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-1-setup_anyconnect_vpn_using_asdm-052218-PGM.00_34_29_21.Still001-sm.jpg",
+          "title": "Setup AnyConnect VPN Using ASDM",
+          "transcript": "",
+          "url": "setup-anyconnect-vpn-using-asdm",
+          "vimeoId": "271883139"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie verify  Anyconnect VPN configuration on a Cisco ASA firewall. They show how it use from the client side and connect to verify connection.  Lastly, look at the use of the components of enpoint posture assessments.",
+          "length": "2082",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-2-setup_anyconnect_vpn_using_asdm_pt_2-052418-PGM.00_39_11_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-2-setup_anyconnect_vpn_using_asdm_pt_2-052418-PGM.00_39_11_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-4-2-setup_anyconnect_vpn_using_asdm_pt_2-052418-PGM.00_39_11_13.Still001-sm.jpg",
+          "title": "Setup AnyConnect VPN Using ASDM Part 2",
+          "transcript": "",
+          "url": "setup-anyconnect-vpn-using-asdm2",
+          "vimeoId": "272387020"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the basics of creating a site to site vpn.  The team also discusses that site-to-site vpns will not always be between 2 routers as well.  They walk through configuring one side of a router configuration and explain the process too.",
+          "length": "1968",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-1-setup_ipsec_site_to_site_vpn_with_psk-052318-PGM.00_32_37_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-1-setup_ipsec_site_to_site_vpn_with_psk-052318-PGM.00_32_37_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-1-setup_ipsec_site_to_site_vpn_with_psk-052318-PGM.00_32_37_11.Still001-sm.jpg",
+          "title": "Setup IPsec Site-to-Site VPN with PSK",
+          "transcript": "",
+          "url": "setup-ipsec-sitetosite-vpnpsk",
+          "vimeoId": "271726185"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie show the mirror configuration of the site-to-site vpn.  The guys re-explain the process and provide guidance on gotchas and other elements that can cause the tunnel not to build.  They walk through configuring the other side of a router configuration.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-2-setup_ipsec_site_to_site_vpn_with_psk_pt_2-052318-PGM.00_31_06_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-2-setup_ipsec_site_to_site_vpn_with_psk_pt_2-052318-PGM.00_31_06_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-3-5-2-setup_ipsec_site_to_site_vpn_with_psk_pt_2-052318-PGM.00_31_06_00.Still001-sm.jpg",
+          "title": "Setup IPsec Site-to-Site VPN with PSK Part 2",
+          "transcript": "",
+          "url": "setup-ipsec-sitetosite-vpnpsk2",
+          "vimeoId": "271726653"
+        }
+      ],
+      "title": "VPN"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Jo and Ronnie review basic secure router access.  They show how to secure the CLI using multiple privilege levesl and configure role based access.  The team shows how to add users with different privilege levels for control and create a view for the role based congtrols.",
+          "length": "1988",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-1-1-secure_cli_access_and_ios-052418-PGM.00_35_13_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-1-1-secure_cli_access_and_ios-052418-PGM.00_35_13_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-1-1-secure_cli_access_and_ios-052418-PGM.00_35_13_01.Still001-sm.jpg",
+          "title": "Secure CLI Access and IOS",
+          "transcript": "",
+          "url": "secure-cli-accessios",
+          "vimeoId": "272386690"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie configure OSPF authentication using MD5.  The guys discuss the goals of configuring authentication and display how vulnerable the routing protocol can be. Lastly, they demonstration how to secure ospf.",
+          "length": "1956",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-2-1-setup_ospf_authentication_with_md5-052518-PGM.00_34_54_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-2-1-setup_ospf_authentication_with_md5-052518-PGM.00_34_54_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-2-1-setup_ospf_authentication_with_md5-052518-PGM.00_34_54_28.Still001-sm.jpg",
+          "title": "Setup OSPF Authentication with MD5",
+          "transcript": "",
+          "url": "setup-ospf-authenticationmd5",
+          "vimeoId": "272595663"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie describe the use of EIGRP authentication with MD5. They describe the prerequisites needed to setup authentication between routers. They also review the basic weakness without authentication.  They demonstrate how to configure and verify it between routers.",
+          "length": "1877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-3-1-setup_eigrp_authentication_with_md5-053018-PGM.00_31_03_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-3-1-setup_eigrp_authentication_with_md5-053018-PGM.00_31_03_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-3-1-setup_eigrp_authentication_with_md5-053018-PGM.00_31_03_09.Still001-sm.jpg",
+          "title": "Setup EIGRP Authentication with MD5",
+          "transcript": "",
+          "url": "setup-eigrp-authenticationmd5",
+          "vimeoId": "272943697"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review some fo the most common Layer 2 attacks.  They describe STP attacks, Layer 2 Spoofing and overflows at Layer 2 The team also discusses that a security professional must be able to identify and spot these types layer two attacks.",
+          "length": "1957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-1-setup_l2_attack_mitigation-053118-PGM.00_32_24_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-1-setup_l2_attack_mitigation-053118-PGM.00_32_24_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-1-setup_l2_attack_mitigation-053118-PGM.00_32_24_06.Still001-sm.jpg",
+          "title": "Setup L2 Attack Mitigation",
+          "transcript": "",
+          "url": "setup-l2-attack-mitigation",
+          "vimeoId": "272943454"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie review some fo the most common Layer 2 attacks.  They describe STP attacks, Layer 2 Spoofing, Overflows at Layer 2, CDP reconnaisance, VLAN Hopping and DHCP Spoofing. The team also discusses that a security professional must be able to identify and spot these types layer two attacks.",
+          "length": "1719",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-2-setup_l2_attack_mitigation_pt_2-053118-PGM.00_28_26_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-2-setup_l2_attack_mitigation_pt_2-053118-PGM.00_28_26_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-2-setup_l2_attack_mitigation_pt_2-053118-PGM.00_28_26_28.Still001-sm.jpg",
+          "title": "Setup L2 Attack Mitigation Part 2",
+          "transcript": "",
+          "url": "setup-l2-attack-mitigation2",
+          "vimeoId": "272943197"
+        },
+        {
+          "description": "Description: In this episode, Zach and Ronnie review some fo the most common Layer 2 attacks.  They describe CDP reconnaisance, VLAN Hopping and DHCP Spoofing. The team also discusses that a security professional must be able to identify and spot these types layer two attacks.",
+          "length": "1737",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-3-setup_l2_attack_mitigation_pt_3-053118.00_28_46_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-3-setup_l2_attack_mitigation_pt_3-053118.00_28_46_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-4-3-setup_l2_attack_mitigation_pt_3-053118.00_28_46_05.Still001-sm.jpg",
+          "title": "Setup L2 Attack Mitigation Part 3",
+          "transcript": "",
+          "url": "setup-l2-attack-mitigation3",
+          "vimeoId": "272943032"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie take just a moment to discuss the control plane policy. The team also tell us about the security risk without configuring CoPP. They setup CoPP on the router and verify that it's working too.",
+          "length": "1668",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-5-1explain_explain_contro_plane_policing-052918-PGM.00_27_35_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-5-1explain_explain_contro_plane_policing-052918-PGM.00_27_35_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-5-1explain_explain_contro_plane_policing-052918-PGM.00_27_35_15.Still001-sm.jpg",
+          "title": "Explain Control Plane Policing",
+          "transcript": "",
+          "url": "explain-control-plane-policing",
+          "vimeoId": "272638376"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the use of Private VLANs and show how to configure it.  The guys emphasize the terminology used when describing and configuring on a switch.  They then show how to configure and verify it working.",
+          "length": "2179",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-6-1-setup_pvlans_for_l2_security-053018-PGM.01_15_32_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-6-1-setup_pvlans_for_l2_security-053018-PGM.01_15_32_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-6-1-setup_pvlans_for_l2_security-053018-PGM.01_15_32_24.Still001-sm.jpg",
+          "title": "Setup PVLANs for L2 Security",
+          "transcript": "",
+          "url": "setup-pvlansl2-security",
+          "vimeoId": "272944187"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the native vlan security issues.  The team describe the confusion of using VLAN1. The guys also discuss the purpose of the native VLAN. Lastly, they demonstrate the default vlan and configuring the native vlan on a switch and what happens when switches have different vlans but connected by trunk ports.",
+          "length": "1611",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-7-1-describe_native_vlan_security_issues-053118-PGM.00_56_10_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-7-1-describe_native_vlan_security_issues-053118-PGM.00_56_10_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-4-7-1-describe_native_vlan_security_issues-053118-PGM.00_56_10_17.Still001-sm.jpg",
+          "title": "Describe Native VLAN Security Issues",
+          "transcript": "",
+          "url": "describe-native-vlan-security-issues",
+          "vimeoId": "272943954"
+        }
+      ],
+      "title": "Secure Routing and Switching"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The CCNA Security show will build knowledge of network infrastructure security, increase understanding core security concepts, show how to configure and manage secure access, VPN encryption, firewalls, intrusion prevention, web and email content security, and endpoint security using different security technologies.  Also demostrates how install, troubleshoot, and monitor these technologies to achieve business defined security goals.",
+          "length": "2203",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-1-1-describe_different_firewall_technologies-060118-PGM.00_40_54_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-1-1-describe_different_firewall_technologies-060118-PGM.00_40_54_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-1-1-describe_different_firewall_technologies-060118-PGM.00_40_54_19.Still001-sm.jpg",
+          "title": "Describe Different Firewall Technologies",
+          "transcript": "",
+          "url": "describefirewall-technologies",
+          "vimeoId": "273541135"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss the setting up Policy Based NAT on a Cisco ASA running version 9+.  They show of the configuration detail throught the ASDM.  Lastly, they demonstrate how to configure Policy NAT on the Cisco ASA.",
+          "length": "1973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-implement_nat_on_cisco_asa_9x-060118-PGM.00_37_35_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-implement_nat_on_cisco_asa_9x-060118-PGM.00_37_35_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-implement_nat_on_cisco_asa_9x-060118-PGM.00_37_35_06.Still001-sm.jpg",
+          "title": "Implement NAT on Cisco ASA 9.x",
+          "transcript": "",
+          "url": "implement-natcisco-asa-9x",
+          "vimeoId": "273540643"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie continue setting up Policy Based NAT on a Cisco ASA running version 9+.  Lastly, they verify the Policy NAT on the Cisco ASA. The team emphasizes that the CLI configuration is important for the exam but the viewer shouldn't ignore the fact that this can be configured in the ASDM",
+          "length": "1063",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-implement_nat_on_cisco_asa_9x_pt_2-060118-PGM.00_21_26_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-implement_nat_on_cisco_asa_9x_pt_2-060118-PGM.00_21_26_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-implement_nat_on_cisco_asa_9x_pt_2-060118-PGM.00_21_26_07.Still001-sm.jpg",
+          "title": "Implement NAT on Cisco ASA 9.x Part 2",
+          "transcript": "",
+          "url": "implement-natcisco-asa-9x2",
+          "vimeoId": "273541492"
+        },
+        {
+          "description": "In this episode, Aubri and Ronnie take a look at using ZBFW, Zone Base Firewall on a Cisco IOS router.  They discuss the reason to use zones.  The team also discusses the use of zone pairs.  Using a Zone to Zone pair, they demonstrate how to configure for a zone based firewall.",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-setup_zone_based_firewall_zone_to_zone-060718-PGM.00_33_05_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-setup_zone_based_firewall_zone_to_zone-060718-PGM.00_33_05_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-1-setup_zone_based_firewall_zone_to_zone-060718-PGM.00_33_05_17.Still001-sm.jpg",
+          "title": "Setup Zone Based Firewall: Zone to Zone",
+          "transcript": "",
+          "url": "setup-zone-based-firewall-zonezone",
+          "vimeoId": "274495831"
+        },
+        {
+          "description": "In this episode, Aubri and Ronnie take a look at using ZBFW, Zone Base Firewall on a Cisco IOS router. Using the zone configured router they show that a self zone exist and what it represents.  If the self zone is not configured in a zone-pair there will be no connection to the router. The team also discusses that the setup is still the same as zone-to-zone.  Using a self  to Zone pairing, they demonstrate how to configure it to control what the router can reach.",
+          "length": "1039",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-setup_zone_based_firewall_self_zone-060718-PGM.00_17_05_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-setup_zone_based_firewall_self_zone-060718-PGM.00_17_05_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec21060-2018-5-3-2-setup_zone_based_firewall_self_zone-060718-PGM.00_17_05_13.Still001-sm.jpg",
+          "title": "Setup Zone Based Firewall: Self Zone",
+          "transcript": "",
+          "url": "setup-zone-based-firewall-self-zone",
+          "vimeoId": "274495642"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie look into how to ocnfigure access management on a Cisco ASA with version 9.x.  The duo show how to configure access using telnet, ssh, https and setup ASDM.",
+          "length": "2071",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-1-configure-asa-access-management-061818.00_34_19_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-1-configure-asa-access-management-061818.00_34_19_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-1-configure-asa-access-management-061818.00_34_19_10.Still001-sm.jpg",
+          "title": "Configure ASA: Access Management",
+          "transcript": "",
+          "url": "configure-asa-access-management",
+          "vimeoId": "276085972"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie look into how to ocnfigure access management on a Cisco ASA with version 9.x.  The duo show how to configure dynamic nat and security access policies to allow for connections through the firewall allowing traffic to get access to a DMZ.",
+          "length": "1995",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-2-configure_asa_security_access_policies-061818-PGM.01_00_50_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-2-configure_asa_security_access_policies-061818-PGM.01_00_50_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-2-configure_asa_security_access_policies-061818-PGM.01_00_50_24.Still001-sm.jpg",
+          "title": "Configure ASA: Security Access Policies",
+          "transcript": "",
+          "url": "configure-asa-security-access-policies",
+          "vimeoId": "276085361"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie look into how to configure access management on a Cisco ASA with version 9.x.  The duo show how to configure access using telnet, ssh, https and setup ASDM.",
+          "length": "1041",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-3-configure_asa_modular_policy_framework-061818-PGM.00_23_19_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-3-configure_asa_modular_policy_framework-061818-PGM.00_23_19_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-5-4-3-configure_asa_modular_policy_framework-061818-PGM.00_23_19_15.Still001-sm.jpg",
+          "title": "Configure ASA: Modular Policy Framework",
+          "transcript": "",
+          "url": "configure-asa-modular-policy-framework",
+          "vimeoId": "276084884"
+        },
+        {
+          "description": "Description: in this episode, Aubri and Ronnie describe some of the different features that can be configured on a cisco firewall.  The team show how to navigate around the cisco ASA and show where configurable elements are found. They also describe its implementation mode, security context and availability.",
+          "length": "2051",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-5-5-1-describe_firewall_features-062118-PGM.00_38_17_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-5-5-1-describe_firewall_features-062118-PGM.00_38_17_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-5-5-1-describe_firewall_features-062118-PGM.00_38_17_26.Still001-sm.jpg",
+          "title": "Describe Firewall Features",
+          "transcript": "",
+          "url": "describe-firewall-features",
+          "vimeoId": "276446804"
+        }
+      ],
+      "title": "Cisco Firewall Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Ronnie give consideration to deploying an IPS.  The guys describe the purpose of the IPS and different types networking professionals see on corporate type of networks.  They also describe it's deployment placement and basic functions.  Lastly, they disucss the results that can be seen when using an IPS",
+          "length": "2476",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-6-1-1-describe-ips-deployment-considerations-061918-PGM.00_41_01_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-6-1-1-describe-ips-deployment-considerations-061918-PGM.00_41_01_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105-2018/cisco-ccnasec210260-2018-6-1-1-describe-ips-deployment-considerations-061918-PGM.00_41_01_21.Still001-sm.jpg",
+          "title": "Describe IPS Deployment Considerations",
+          "transcript": "",
+          "url": "describe-ips-deployment-considerations-ccna2018",
+          "vimeoId": "276086715"
+        },
+        {
+          "description": "In this episode, Aubri and Ronnie configure the Cisco IOS-IPS from the CLI interface. Though this can be done using the CCP--Cisco Configuration Professional, the team shows how to do via the CLI and use it describe all the IPS technologies involved configuring it.",
+          "length": "1709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-1-configure_cisco_ios_ips-062118-PGM.00_29_43_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-1-configure_cisco_ios_ips-062118-PGM.00_29_43_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-1-configure_cisco_ios_ips-062118-PGM.00_29_43_25.Still001-sm.jpg",
+          "title": "Configure Cisco IOS IPS",
+          "transcript": "",
+          "url": "configure-cisco-ios-ips",
+          "vimeoId": "276447132"
+        },
+        {
+          "description": "In this episode, Aubri and Ronnie configure the Cisco IOS-IPS from the CLI interface. Though this can be done using the CCP--Cisco Configuration Professional, the team shows how to do via the CLI and use it describe all the IPS technologies involved configuring it.",
+          "length": "1587",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-2-configure_cisco_ios_ips_pt2-062118-PGM.00_26_13_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-2-configure_cisco_ios_ips_pt2-062118-PGM.00_26_13_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-2-2-configure_cisco_ios_ips_pt2-062118-PGM.00_26_13_08.Still001-sm.jpg",
+          "title": "Configure Cisco IOS IPS Part 2",
+          "transcript": "",
+          "url": "configure-cisco-ios-ips2",
+          "vimeoId": "276446522"
+        },
+        {
+          "description": "In this episode, Aubri and Ronnie use the Cisco FMC (Firewpower Management Center) to show the configuration of an intrusion policy.",
+          "length": "1931",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-4-1-configure_ips_policy_on_cisco_fmc-062718-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-4-1-configure_ips_policy_on_cisco_fmc-062718-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-6-4-1-configure_ips_policy_on_cisco_fmc-062718-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Configure IPS Policy on Cisco FMC",
+          "transcript": "",
+          "url": "configure-ips-policycisco-fmc",
+          "vimeoId": "277538951"
+        }
+      ],
+      "title": "IPS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Zach and Ronnie describe and discuss the Cisco threat mitigation for email.  They describe the Cisco Email Cloud Security service for subscribers and the Cisco ESA.  These technologies can be combined to give a complete hybrid solutions.  They also discuss some of the details of the ESA and it's capabilities.",
+          "length": "1332",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-1-1-describe_threat_mitigation_for_email-062018-PGM.00_22_44_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-1-1-describe_threat_mitigation_for_email-062018-PGM.00_22_44_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-1-1-describe_threat_mitigation_for_email-062018-PGM.00_22_44_11.Still001-sm.jpg",
+          "title": "Describe Threat Mitigation for Email",
+          "transcript": "",
+          "url": "describe-threat-mitigationemail",
+          "vimeoId": "276256393"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie discuss different web threats and migitation technologies.  They describe the different Cisco technologies like Cisco Cloud Web Security and the Cisco WSA which is integrated with the Cisco AMP solutions.",
+          "length": "1826",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-2-1-describe_threat_mitigation_for_web-062218-PGM.00_32_43_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-2-1-describe_threat_mitigation_for_web-062218-PGM.00_32_43_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-2-1-describe_threat_mitigation_for_web-062218-PGM.00_32_43_05.Still001-sm.jpg",
+          "title": "Describe Threat Mitigation for Web",
+          "transcript": "",
+          "url": "describe-threat-mitigationweb",
+          "vimeoId": "277153103"
+        },
+        {
+          "description": "In this episode, Zach and Ronnie describe the common need for endpoint security.  Along with the need, they describe some of the different ways that endpoints can be secured and heavily focus on Cisco technologies like the Cisco ISE, Cisco AMP for Endpoints as well as describe what may be natively available with endpoint OSes like Windows 10.  Lastly, they describe encryption and compare hardware vs software based encryption.",
+          "length": "1394",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-3-1-describe_threat_mitigation_for_endpoints-062218-PGM.00_26_11_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-3-1-describe_threat_mitigation_for_endpoints-062218-PGM.00_26_11_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccnasec210260-2018/cisco-ccnasec210260-2018-7-3-1-describe_threat_mitigation_for_endpoints-062218-PGM.00_26_11_05.Still001-sm.jpg",
+          "title": "Describe Threat Mitigation for Endpoints",
+          "transcript": "",
+          "url": "describe-threat-mitigationendpoints",
+          "vimeoId": "277149474"
+        }
+      ],
+      "title": "Content and Endpoint Security"
+    }
+  ],
+  "url": "ccna-security-2018",
+  "vLab": false
+}

@@ -1,0 +1,260 @@
+{
+  "description": "React and Firebase are two technologies that are becoming more and more mainstream. You may have heard of both, but how do the pieces fit together? Join us in this series as we take React and build a chat application that leverages Firebase for all of the backend services. You will discover building React components, using Firebase observers to sync data to your front-end application, the difference between Stateful and Stateless Functional Components, and much more. If you are looking to level up your understanding of React and Firebase, then we will see you there!",
+  "descriptionMD": "React and Firebase are two technologies that are becoming more and more mainstream. You may have heard of both, but how do the pieces fit together? Join us in this series as we take React and build a chat application that leverages Firebase for all of the backend services. You will discover building React components, using Firebase observers to sync data to your front-end application, the difference between Stateful and Stateless Functional Components, and much more. If you are looking to level up your understanding of React and Firebase, then we will see you there!",
+  "length": "30650",
+  "name": "Chat App with React and Firebase",
+  "practiceExam": false,
+  "subtitle": "Real Time Data with React",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "React and Firebase are two technologies that are becoming more and more mainstream. You may have heard of both, but how do the pieces fit together? Join us in this series as we take React and build a chat application that leverages Firebase for all of the backend services. You will discover building React components, using Firebase observers to sync data to your front-end application, the difference between Stateful and Stateless Functional Components, and much more. If you are looking to level up your understanding of React and Firebase, then we will see you there!",
+          "length": "188",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-0-0-overview-082817-PGM.00_02_36_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-0-0-overview-082817-PGM.00_02_36_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-0-0-overview-082817-PGM.00_02_36_09.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.012 --> 00:00:02.040\n[SOUND]\n\n2\n00:00:02.040 --> 00:00:06.710\n[MUSIC]\n\n3\n00:00:06.710 --> 00:00:11.418\nHello and thank you for joining us with\nthis overview of Chat App with React and\n\n4\n00:00:11.418 --> 00:00:12.200\nFirebase.\n\n5\n00:00:12.200 --> 00:00:15.240\nAnd Justin Dennison is gonna be giving\nus all the information we need.\n\n6\n00:00:15.240 --> 00:00:18.010\nJustin tell us about Chat App\nwith React and Firebase.\n\n7\n00:00:18.010 --> 00:00:18.870\nWhat is that?\n\n8\n00:00:18.870 --> 00:00:22.860\n&gt;&gt; So ultimately I wanted to build\nsomething that brought together\n\n9\n00:00:22.860 --> 00:00:26.530\nsome of these new elements, but\nmaybe some old elements that helped people\n\n10\n00:00:26.530 --> 00:00:28.250\nunderstand how does\neverything come together.\n\n11\n00:00:28.250 --> 00:00:32.250\nSo ultimately our goal is to build\na React application that simulates\n\n12\n00:00:32.250 --> 00:00:37.200\na chat application with rooms, and\nmessages, and users, but instead of\n\n13\n00:00:37.200 --> 00:00:41.930\nbuilding our own authentication back end\nor having a different hosting service.\n\n14\n00:00:41.930 --> 00:00:45.790\nI decided to go with Firebase,\nwhich is a product from Google\n\n15\n00:00:45.790 --> 00:00:49.680\nthat allows authentication, database,\nreal-time database actually.\n\n16\n00:00:49.680 --> 00:00:53.700\nIt will tell you when things have changed,\nand you can put those out to all of\n\n17\n00:00:53.700 --> 00:00:58.160\nthe current users as well as a hosting\nservice for your particular project.\n\n18\n00:00:58.160 --> 00:01:01.080\nSo it's kind of a backend as a service,\nas it will.\n\n19\n00:01:01.080 --> 00:01:06.260\nNow our ultimate goal is to take that\nchat application and slowly weave in\n\n20\n00:01:06.260 --> 00:01:12.900\nFirebase as we go along and this is a more\ntraditional one using Create React App\n\n21\n00:01:12.900 --> 00:01:16.680\njust building a straight one,\nno state management nothing like that.\n\n22\n00:01:16.680 --> 00:01:22.035\nAnd then coming back deploying to Firebase\nand seeing how it all comes to fruition.\n\n23\n00:01:22.035 --> 00:01:24.185\n&gt;&gt; Now who's this show targeted towards?\n\n24\n00:01:24.185 --> 00:01:27.495\n&gt;&gt; So this show is someone who has\ndefinitely had at least a little bit of\n\n25\n00:01:27.495 --> 00:01:28.435\ninteraction with React.\n\n26\n00:01:28.435 --> 00:01:31.775\nYou don't have to be an expert, but you\nshould know a fair amount of JavaScript,\n\n27\n00:01:31.775 --> 00:01:33.985\nyou need to know about node and MPM.\n\n28\n00:01:33.985 --> 00:01:36.475\nYou should already have\na text editor set up.\n\n29\n00:01:36.475 --> 00:01:40.418\nThis is someone who has dabbled in web\ndevelopment, but wants to know a little\n\n30\n00:01:40.418 --> 00:01:44.555\nmore about these advanced features that\ncome along with the Firebase platform.\n\n31\n00:01:44.555 --> 00:01:48.771\nAnd they just really wanna level up so\nif you're brand new to HTML, CSS and\n\n32\n00:01:48.771 --> 00:01:53.599\nJavaScript there maybe a fair amount of\nconcepts where you're like I'm just having\n\n33\n00:01:53.599 --> 00:01:54.220\ntrouble.\n\n34\n00:01:54.220 --> 00:01:58.605\nSo definitely go check out some other\nthings come back after that and\n\n35\n00:01:58.605 --> 00:02:00.595\nhopefully you'll see how\nall of this comes together.\n\n36\n00:02:00.595 --> 00:02:03.655\n&gt;&gt; Now Justin is there\na certification available for this.\n\n37\n00:02:03.655 --> 00:02:06.445\n&gt;&gt; So, these course are typically\nnot certification driven.\n\n38\n00:02:06.445 --> 00:02:08.055\nThese are more of a I want to power up.\n\n39\n00:02:08.055 --> 00:02:08.955\nI want to learn more.\n\n40\n00:02:08.955 --> 00:02:10.346\nI want to see how these,\n\n41\n00:02:10.346 --> 00:02:14.670\nthese nuanced things come together\nto build a full fledged application.\n\n42\n00:02:14.670 --> 00:02:18.262\nAnd that's my ultimate goal here\nis not driven by certification but\n\n43\n00:02:18.262 --> 00:02:22.737\nit is something that essentially you gain\nknowledge that you wouldn't necessarily\n\n44\n00:02:22.737 --> 00:02:24.010\nsee in other contexts.\n\n45\n00:02:24.010 --> 00:02:26.840\nSo yeah, no certification, but\n\n46\n00:02:26.840 --> 00:02:29.590\na lot of information in order\nto be had in this course.\n\n47\n00:02:29.590 --> 00:02:30.690\n&gt;&gt; And well worth your time to watch it.\n\n48\n00:02:30.690 --> 00:02:32.440\nAnd what topics are covered in this show?\n\n49\n00:02:32.440 --> 00:02:36.395\n&gt;&gt; So we're gonna Firebase, React,\nCreate React App Build tools,\n\n50\n00:02:36.395 --> 00:02:41.501\nhow to manage your build server, how to\ndesign components, how to nest components.\n\n51\n00:02:41.501 --> 00:02:45.161\nAnd as well as deployment and\nusing the realtime database and\n\n52\n00:02:45.161 --> 00:02:48.300\nauthentication services within Firebase.\n\n53\n00:02:48.300 --> 00:02:49.470\n&gt;&gt; Thank you, Justin.\n\n54\n00:02:49.470 --> 00:02:52.760\nSo make sure you watch every\nsingle episode of Chat app\n\n55\n00:02:52.760 --> 00:02:54.110\nwith reactive Firebase.\n\n56\n00:02:54.110 --> 00:02:55.200\nYou'll be glad you did.\n\n57\n00:02:55.200 --> 00:02:57.284\nAnd thank you for watching DevProTV.\n\n58\n00:02:57.284 --> 00:03:02.443\n[MUSIC]\n\n",
+          "url": "overview-chat-app",
+          "vimeoId": "231536002"
+        },
+        {
+          "description": "In this episode, Justin and Peter talk about what goes in to creating a chat app with Reach and Firebase. Justin shows how to setup a new app in React and some of the tools that will be utilized from Firebase.",
+          "length": "1537",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-1-1-setting_up_a_react_app-081417-PGM.00_26_51_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-1-1-setting_up_a_react_app-081417-PGM.00_26_51_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-1-1-setting_up_a_react_app-081417-PGM.00_26_51_22.Still001-sm.jpg",
+          "title": "Setting Up a React App",
+          "transcript": "",
+          "url": "settinga-react-app",
+          "vimeoId": "229847092"
+        },
+        {
+          "description": "Now that the foundation is ready, Peter and Justin begin coding a chat app. The first step is to configure the signup component using the tools provided in Firebase. Justin will review the different options available and review the pros and cons of each.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-2-1-building_the_signup_component-081417-PGM.00_33_25_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-2-1-building_the_signup_component-081417-PGM.00_33_25_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-2-1-building_the_signup_component-081417-PGM.00_33_25_07.Still001-sm.jpg",
+          "title": "Building the Signup Component",
+          "transcript": "",
+          "url": "buildingsignup-component",
+          "vimeoId": "229846105"
+        },
+        {
+          "description": "Now that people can sign up, we need to let them login with their new credentials. In this episode Peter and Justin show you how to create that component and the key differences from the registration component that was previously created.",
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-3-1-building_the_login_component-081417-PGM.00_27_54_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-3-1-building_the_login_component-081417-PGM.00_27_54_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-3-1-building_the_login_component-081417-PGM.00_27_54_25.Still001-sm.jpg",
+          "title": "Building the Login Component",
+          "transcript": "",
+          "url": "buildinglogin-component",
+          "vimeoId": "229845443"
+        },
+        {
+          "description": "Now that the react app has started, we can start to pull elements from Firebase. In this episode, Justin and Peter show how to add and install the firebase service and give an overview of the features it provides.",
+          "length": "1682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-4-1-setting_up_firebase-081517-PGM.00_28_28_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-4-1-setting_up_firebase-081517-PGM.00_28_28_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-4-1-setting_up_firebase-081517-PGM.00_28_28_21.Still001-sm.jpg",
+          "title": "Setting Up Firebase",
+          "transcript": "",
+          "url": "settingfirebase",
+          "vimeoId": "229844656"
+        },
+        {
+          "description": "With firebase installed and setup, Peter and Justin show how to use it to create the sign up section of the chat app. Justin also shows the different authentication options preloaded in firebase and how to make customizations.",
+          "length": "1155",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-5-1-signing_up_with_firebase-081517-PGM.00_22_46_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-5-1-signing_up_with_firebase-081517-PGM.00_22_46_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-5-1-signing_up_with_firebase-081517-PGM.00_22_46_27.Still001-sm.jpg",
+          "title": "Signing Up with Firebase",
+          "transcript": "",
+          "url": "signingwith-firebase",
+          "vimeoId": "229847931"
+        },
+        {
+          "description": "With the sign up process complete, Justin and Peter use the log in functionality from firebase to authenticate users. Justin shows how to add that feature and test that it’s working with the sign up component.",
+          "length": "1432",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-6-1-logging_in_with_firebase-081517-PGM.00_28_17_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-6-1-logging_in_with_firebase-081517-PGM.00_28_17_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-6-1-logging_in_with_firebase-081517-PGM.00_28_17_09.Still001-sm.jpg",
+          "title": "Logging In with Firebase",
+          "transcript": "",
+          "url": "loggingwith-firebase",
+          "vimeoId": "229847624"
+        },
+        {
+          "description": "In this Episode, Peter and Justin take a break from coding the chat app to add in some styling elements. Justin shows how to leverage Bulma to easily add design elements with cascading style sheets (CSS).",
+          "length": "1485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-1-adding_some_style-081617-PGM.00_24_34_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-1-adding_some_style-081617-PGM.00_24_34_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-1-adding_some_style-081617-PGM.00_24_34_15.Still001-sm.jpg",
+          "title": "Adding Some Style",
+          "transcript": "",
+          "url": "addingstyle-chat-app",
+          "vimeoId": "230000358"
+        },
+        {
+          "description": "Adding in this much style isn’t easy, so Peter and Justin decided to do a second episode to finish. They continue to use the CSS provided by Bulma and show how to edit that file to create personalized elements within the app.",
+          "length": "1094",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-2-adding_some_style_pt2-081617-PGM.00_18_37_22.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-2-adding_some_style_pt2-081617-PGM.00_18_37_22.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-1-2-adding_some_style_pt2-081617-PGM.00_18_37_22.Still002-sm.jpg",
+          "title": "Adding Some Style Part 2",
+          "transcript": "",
+          "url": "addingstyle2",
+          "vimeoId": "229999170"
+        },
+        {
+          "description": "With the login feature complete, Peter and Justin move to creating the sidebar component. Justin shows why it’s important to break that feature in to its own component to make the code easier to manage.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-2-building_the_side_component-081618-PGM.00_24_16_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-2-building_the_side_component-081618-PGM.00_24_16_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-7-2-building_the_side_component-081618-PGM.00_24_16_09.Still001-sm.jpg",
+          "title": "Building the Sidebar Component",
+          "transcript": "",
+          "url": "buildingsidebar-component",
+          "vimeoId": "229999579"
+        },
+        {
+          "description": "In this episode, Justin and Peter begin developing the room list component in the app’s sidebar. They start by creating room names and adding them to the sidebar, giving users the ability to be able to see the room options.",
+          "length": "1731",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-1-building_the_roomlist_component-081717-PGM.00_29_32_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-1-building_the_roomlist_component-081717-PGM.00_29_32_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-1-building_the_roomlist_component-081717-PGM.00_29_32_04.Still001-sm.jpg",
+          "title": "Building the RoomList Component",
+          "transcript": "",
+          "url": "buildingroomlist-component",
+          "vimeoId": "230149656"
+        },
+        {
+          "description": "In this episode, Justin and Peter continue to code the room list component. Now that it is created, Justin shows how he cleans up the code to make it easier to follow.",
+          "length": "1194",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-2-building_the_roomlist_component_pt2-081717-PGM.00_20_49_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-2-building_the_roomlist_component_pt2-081717-PGM.00_20_49_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-2-building_the_roomlist_component_pt2-081717-PGM.00_20_49_01.Still001-sm.jpg",
+          "title": "Building the RoomList Component Part 2",
+          "transcript": "",
+          "url": "buildingroomlist-component2",
+          "vimeoId": "230149269"
+        },
+        {
+          "description": "With the code better organized, Justin and Peter are ready to complete the room list component. In this episode, Justin sets the sidebar so clicking on a room actually sets a unique state which will allow chats to stay specific to them room they were written in.",
+          "length": "1089",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-3-building_the_roomlist_component_pt3-081717-PGM.00_17_58_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-3-building_the_roomlist_component_pt3-081717-PGM.00_17_58_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-8-1-3-building_the_roomlist_component_pt3-081717-PGM.00_17_58_28.Still001-sm.jpg",
+          "title": "Building the RoomList Component Part 3",
+          "transcript": "",
+          "url": "buildingroomlist-component3",
+          "vimeoId": "230149912"
+        },
+        {
+          "description": "When the app was originally created, it was set to log users out each time the app refreshes. In this episode, Justin and Peter will show how to change this to have users logged in until they log out using the tools provided in firebase.",
+          "length": "1554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-9-1-persisting_the_login-081817-PGM.00_28_01_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-9-1-persisting_the_login-081817-PGM.00_28_01_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-9-1-persisting_the_login-081817-PGM.00_28_01_11.Still001-sm.jpg",
+          "title": "Persisting the Login",
+          "transcript": "",
+          "url": "persistinglogin",
+          "vimeoId": "230611217"
+        },
+        {
+          "description": "In this episode, Justin and Peter get started on the heart of the applications - the chat panel. They begin by creating a new functional stateless component then and start coding.",
+          "length": "1436",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-building_the_chat_panel-081717-PGM.00_24_47_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-building_the_chat_panel-081717-PGM.00_24_47_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-building_the_chat_panel-081717-PGM.00_24_47_05.Still001-sm.jpg",
+          "title": "Building the Chat Panel",
+          "transcript": "",
+          "url": "buildingchat-panel",
+          "vimeoId": "230618982"
+        },
+        {
+          "description": "Justin and Zach cover building the Chat Panel, Chatem, chat panel components, render message list, grid layout, UI implementation, UL, message list, and Moment js.",
+          "length": "1228",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-2-building_the_chat_panel_pt2-082317-PGM.00_20_16_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-2-building_the_chat_panel_pt2-082317-PGM.00_20_16_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-2-building_the_chat_panel_pt2-082317-PGM.00_20_16_27.Still001-sm.jpg",
+          "title": "Building the Chat Panel Part 2",
+          "transcript": "",
+          "url": "buildingchat-panel2",
+          "vimeoId": "230938727"
+        },
+        {
+          "description": "Justin and Zach conclude building the Chat Panel, sending a message to a room, App.js, React application, and Fire.js.",
+          "length": "1493",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-3-building_the_chat_panel_pt3-082317-PGM.00_24_42_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-3-building_the_chat_panel_pt3-082317-PGM.00_24_42_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-1-3-building_the_chat_panel_pt3-082317-PGM.00_24_42_07.Still001-sm.jpg",
+          "title": "Building the Chat Panel Part 3",
+          "transcript": "",
+          "url": "buildingchat-panel3",
+          "vimeoId": "230938339"
+        },
+        {
+          "description": "Justin and Zach cover how to set up toggling the signup & login components in the Chat Panel with React and Firebase.",
+          "length": "1287",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-2-toggling_the_startup_and_login_components-082317-PGM.00_21_48_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-2-toggling_the_startup_and_login_components-082317-PGM.00_21_48_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-10-2-toggling_the_startup_and_login_components-082317-PGM.00_21_48_01.Still001-sm.jpg",
+          "title": "Toggling the Startup and Login Components",
+          "transcript": "",
+          "url": "togglingstartuplogin-components",
+          "vimeoId": "231093717"
+        },
+        {
+          "description": "Justin and Zach cover how to add/modify a Room, keys issued by Firebase, Add-Room-Form component, Room-List component, maintain styling, refactoring, Build The Form, Placeholder = 'RoomName...', modify State, React Dev Tools, functional Sateless component, Rooms in the Firebase, and created date.",
+          "length": "1605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-1-add_a_room-082317.00_27_19_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-1-add_a_room-082317.00_27_19_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-1-add_a_room-082317.00_27_19_03.Still001-sm.jpg",
+          "title": "Add a Room",
+          "transcript": "",
+          "url": "addroom",
+          "vimeoId": "231091380"
+        },
+        {
+          "description": "Justin and Zach continue to add a Room, LoadData, roomRef, data snapshot, and persists on refresh.",
+          "length": "1318",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-2-add_a_room_pt2-082317.00_21_47_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-2-add_a_room_pt2-082317.00_21_47_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-2-add_a_room_pt2-082317.00_21_47_04.Still001-sm.jpg",
+          "title": "Add a Room Part 2",
+          "transcript": "",
+          "url": "addroom2",
+          "vimeoId": "231090979"
+        },
+        {
+          "description": "/Volumes/SHOWS-CURRENT/Encodes/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-3-add_a_room_pt3-082317/techskills-chatappwithreactandfirebase-12-1-3-add_a_room_pt3-082317-high.mp4",
+          "length": "1602",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-3-add_a_room_pt3-082317-PGM.00_26_30_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-3-add_a_room_pt3-082317-PGM.00_26_30_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-12-1-3-add_a_room_pt3-082317-PGM.00_26_30_15.Still001-sm.jpg",
+          "title": "Add a Room Part 3",
+          "transcript": "",
+          "url": "addroom3",
+          "vimeoId": "231091144"
+        },
+        {
+          "description": "Justin and Zach cover deploying the Chat App to firebase, CSV of users, choices of hosting, static assets, steps to deploy, login to Firebase, and Firebase CLI.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-13-1-deploying_to_firebase-082817-PGM.00_28_46_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-13-1-deploying_to_firebase-082817-PGM.00_28_46_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-chatappwithreactandfirebase/techskills-chatappwithreactandfirebase-13-1-deploying_to_firebase-082817-PGM.00_28_46_29.Still001-sm.jpg",
+          "title": "Deploying to Firebase",
+          "transcript": "",
+          "url": "deployingfirebase",
+          "vimeoId": "231535547"
+        }
+      ],
+      "title": "Chat App with React and Firebase"
+    }
+  ],
+  "url": "chat-appreactfirebase",
+  "vLab": false
+}

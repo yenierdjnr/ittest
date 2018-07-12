@@ -1,9 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconCamera = props => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconCamera = (props) => {
+  const { fill='#FFFFFF' } = props;
 
   return (
     <svg width="68" height="81" viewBox="0 0 68 81">

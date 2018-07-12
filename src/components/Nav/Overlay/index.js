@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
 import { IconX } from 'Elements/Icons';
@@ -14,7 +14,7 @@ class OverlayNav extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { previousPath } = this.state;
 
     if (previousPath) {
@@ -33,11 +33,11 @@ class OverlayNav extends Component {
 
     for (const link of links) {
       if (link.pathname === currentPath) {
-       link.parentElement.classList.add(styles.active);
-       this.setState({
-        previousPath: link
-       });
-       break;
+        link.parentElement.classList.add(styles.active);
+        this.setState({
+          previousPath: link
+        });
+        break;
       }
     }
   }

@@ -1,0 +1,344 @@
+{
+  "description": "The Google Apps for Work Certified Administrator certification is designed to cover the day-to-day skills required to manage Google Apps in a business environment. Testers are expected to be proficient in managing the cloud-based software suite via the centrally managed web-based portal. Topics covered include user and identity management, access control, data storage management and many others. The typical viewer would be anyone responsible for the deployment and maintenance of Google Apps for Work. ",
+  "descriptionMD": "",
+  "length": "21807",
+  "name": "Google Apps for Work",
+  "practiceExam": false,
+  "subtitle": "Certified Administrator",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1048",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/001-Intro-to-Google-Apps.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/001-Intro-to-Google-Apps-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/001-Intro-to-Google-Apps-sm.jpg",
+          "title": "Overview of Google for Work",
+          "transcript": "1\n00:00:00,000 --> 00:00:08,071\n[MUSIC]\n\n2\n00:00:08,071 --> 00:00:13,095\nFor many organizations setting up\ncollaboration software, document editing,\n\n3\n00:00:13,095 --> 00:00:18,950\nspreadsheet software, and online storage\nis a really very difficult undertaking.\n\n4\n00:00:18,950 --> 00:00:22,370\nAnd that's where organizations like Google\nhave stepped in to provide products like\n\n5\n00:00:22,370 --> 00:00:26,470\nGoogle Apps that make you not\nhave to reinvent the wheel.\n\n6\n00:00:26,470 --> 00:00:29,250\nGoogle Apps is a well-rounded\nsuite of software and\n\n7\n00:00:29,250 --> 00:00:33,550\nonline services that provides the needs\nfor most small and medium organizations.\n\n8\n00:00:33,550 --> 00:00:37,190\nI say, small and medium,\nreally large and enterprise too.\n\n9\n00:00:37,190 --> 00:00:41,190\nThere are enterprise customers with\nGoogle that have hundreds of thousands of\n\n10\n00:00:41,190 --> 00:00:46,510\nemployees all using solely Google Apps\naccounts, it's really impressive.\n\n11\n00:00:46,510 --> 00:00:50,090\nWith Google Apps,\nyou get a full office suite,\n\n12\n00:00:50,090 --> 00:00:54,390\nyou get the ability to do spreadsheets,\ndocuments,\n\n13\n00:00:54,390 --> 00:00:59,150\nslide presentations, all within an online\nhosted application environment,\n\n14\n00:00:59,150 --> 00:01:02,240\nwhich means no software needs\nto be installed on the client.\n\n15\n00:01:02,240 --> 00:01:05,393\nIn addition to that, you get shared\nstorage through Google Drive,\n\n16\n00:01:05,393 --> 00:01:09,449\nyou get group mailing lists, calendaring,\nall sorts of additional functionality.\n\n17\n00:01:09,449 --> 00:01:13,808\nAnd really the best part of it is that it\nis all hosted on Google state of the art\n\n18\n00:01:13,808 --> 00:01:18,713\ndata centers, so you don't have to back it\nup, you don't have to pay the power bill,\n\n19\n00:01:18,713 --> 00:01:21,890\nyou don't have to manage the resources for\nthat.\n\n20\n00:01:21,890 --> 00:01:27,370\nIt's all done for you at a per user\nlicense fee that you can adapt as\n\n21\n00:01:27,370 --> 00:01:31,910\nyour company shrinks and grows, so it is\na great solution for a lot of companies.\n\n22\n00:01:31,910 --> 00:01:35,460\nThe challenge though, is getting it\nset up, and getting your feet wet.\n\n23\n00:01:35,460 --> 00:01:37,540\nFor a lot of people this\nis a new way to think.\n\n24\n00:01:37,540 --> 00:01:40,570\nA lot of us are stuck in the old\nparadigm of you buy a desktop,\n\n25\n00:01:40,570 --> 00:01:43,160\nyou install your software right there,\nand you're done.\n\n26\n00:01:43,160 --> 00:01:46,680\nNow, we're transitioning it off, so\nthat the desktop doesn't matter anymore.\n\n27\n00:01:46,680 --> 00:01:50,590\nYou could be on your laptop, your cell\nphone, your desktop PC, your desktop Mac,\n\n28\n00:01:50,590 --> 00:01:54,690\na Linux machine, doesn't matter, and you\ncan access the same exact software, and\n\n29\n00:01:54,690 --> 00:01:57,280\nthe same exact resources\nwithout installing anything\n\n30\n00:01:57,280 --> 00:01:59,860\naside from a web browser\non your workstation.\n\n31\n00:01:59,860 --> 00:02:02,127\nSo, really handy, really neat technology,\n\n32\n00:02:02,127 --> 00:02:04,400\nand a lot of organizations\nare going that way.\n\n33\n00:02:04,400 --> 00:02:09,981\nITProTV, when we first started to form our\ncompany, Edutainment Live, we decided,\n\n34\n00:02:09,981 --> 00:02:14,723\nlet's go with Google Apps,\nbecause we don't need the infrastructure,\n\n35\n00:02:14,723 --> 00:02:20,730\nwe need to focus on creating shows, not\nfocus on managing our own document system.\n\n36\n00:02:20,730 --> 00:02:24,100\nSo, that's a great solution for\na lot of organizations, and\n\n37\n00:02:24,100 --> 00:02:26,470\nthat's what we're gonna\nbe covering in this show.\n\n38\n00:02:26,470 --> 00:02:29,650\nNow, when we set out to do this show,\nit was just gonna be a skills show.\n\n39\n00:02:29,650 --> 00:02:34,120\nA how to use Google Apps in your\norganization, but during the planning\n\n40\n00:02:34,120 --> 00:02:37,690\nprocess of our show, we were talking to\nsome of the guys that are at Google, and\n\n41\n00:02:37,690 --> 00:02:40,730\nthey informed us of a new\ncertification they were releasing.\n\n42\n00:02:40,730 --> 00:02:44,230\nWhich is the Google Apps\ncertified administrator, so\n\n43\n00:02:44,230 --> 00:02:48,560\nthey now have an administrator\ncertification that's available.\n\n44\n00:02:48,560 --> 00:02:51,605\nYou can go and show your knowledge\nof working with Google Apps,\n\n45\n00:02:51,605 --> 00:02:54,708\nit's supposed to be the equivalent\nof working, they say here,\n\n46\n00:02:54,708 --> 00:02:57,479\nsix months of experience managing 50,\nor more users.\n\n47\n00:02:57,479 --> 00:03:01,654\nIt's kind of a what the certification\nshows, and you can take their exam, and\n\n48\n00:03:01,654 --> 00:03:05,150\nwhen you pass, you're a Google Apps\ncertified administrator.\n\n49\n00:03:05,150 --> 00:03:07,960\nYou can show people that\nyou have that knowledge, so\n\n50\n00:03:07,960 --> 00:03:10,010\nit was really excellent timing.\n\n51\n00:03:10,010 --> 00:03:13,490\nWe got a chance to see the exam\nwhile it was in beta, and\n\n52\n00:03:13,490 --> 00:03:15,820\nnow we're gonna produce\nthe show built around it.\n\n53\n00:03:15,820 --> 00:03:19,510\nSo, our general skill show has\nactually become a certification show,\n\n54\n00:03:19,510 --> 00:03:22,800\nit's kinda neat that happened and\nall, it kinda just fell into place.\n\n55\n00:03:24,290 --> 00:03:27,560\nI'll post the link to this website with\nthe show notes, you get a chance to see\n\n56\n00:03:27,560 --> 00:03:30,560\nthose, but basically, what it is\nis a certification that just shows\n\n57\n00:03:30,560 --> 00:03:35,090\nyou have the know how to setup, and\noperate a Google Apps environment.\n\n58\n00:03:35,090 --> 00:03:38,420\nThe things that a company is going\nto need to know, things like\n\n59\n00:03:38,420 --> 00:03:42,390\nadding user accounts and removing\nuser accounts, managing Google Drive,\n\n60\n00:03:42,390 --> 00:03:46,090\nmanaging security, all the other\npieces inside of Google Apps.\n\n61\n00:03:46,090 --> 00:03:47,610\nIt's important stuff to know, and\n\n62\n00:03:47,610 --> 00:03:50,820\nif you've not worked with this environment\nbefore, it's a great way to learn.\n\n63\n00:03:51,900 --> 00:03:54,070\nNow, if you wanna get the certification,\nsome of you don't,\n\n64\n00:03:54,070 --> 00:03:57,270\nsome of you just wanna learn how to\nuse Google apps, and that's great.\n\n65\n00:03:57,270 --> 00:03:58,980\nBut if you wanna get the certification,\n\n66\n00:03:58,980 --> 00:04:02,910\nit's a pretty straight forward process,\nthe test itself costs $100.\n\n67\n00:04:02,910 --> 00:04:06,800\nSo, it's not as high priced as some of\nthe other exams that are out there, but\n\n68\n00:04:06,800 --> 00:04:11,150\nthe part that I like best is that\nit's not a multiple choice exam.\n\n69\n00:04:11,150 --> 00:04:15,414\nInstead, it's a hands on practical exam,\nwhen you sign up for this,\n\n70\n00:04:15,414 --> 00:04:19,625\nyou're gonna be logging into\na temporary Google Apps environment.\n\n71\n00:04:19,625 --> 00:04:23,773\nAn account they've set up just for\nyou, and they'll give you a series of\n\n72\n00:04:23,773 --> 00:04:28,669\nscenario-based statements, not questions,\nreally like config documentation,\n\n73\n00:04:28,669 --> 00:04:33,021\nsaying we need you to set up this\norganization and these sub organizations,\n\n74\n00:04:33,021 --> 00:04:37,610\nand make sure you set this password\npolicy for this organization.\n\n75\n00:04:37,610 --> 00:04:42,100\nSo, they're telling you what to do,\nand then you do it, you log in and\n\n76\n00:04:42,100 --> 00:04:43,280\nyou actually get in there and\n\n77\n00:04:43,280 --> 00:04:45,870\nwork with the software to put\nthe configuration in place.\n\n78\n00:04:45,870 --> 00:04:50,230\nNow, they don't care how you do it,\nwhen you're done, when you submit that\n\n79\n00:04:50,230 --> 00:04:55,240\nexam to be graded, they run some scripts\nto look at what's the final product.\n\n80\n00:04:55,240 --> 00:04:59,330\nThey don't care, which way you achieved\nyour goal, they just care about the goal.\n\n81\n00:04:59,330 --> 00:05:03,170\nIf they ask you to set a password policy,\nand you use the GUI to do it, wonderful,\n\n82\n00:05:03,170 --> 00:05:06,450\nif you used an API call to do it,\nwonderful, they don't care.\n\n83\n00:05:06,450 --> 00:05:09,639\nBut a check to make sure that the end\nresult is what was right, and\n\n84\n00:05:09,639 --> 00:05:11,308\nthen if it is, you pass the exam.\n\n85\n00:05:11,308 --> 00:05:15,470\nSo, I really enjoyed that, that was\na breath of fresh air compared to other\n\n86\n00:05:15,470 --> 00:05:19,780\nexams that are multiple choice, or\ndrag and drop, or fake user interfaces.\n\n87\n00:05:19,780 --> 00:05:23,130\nI hate those, when they give you some\nkind of like flash animation, and\n\n88\n00:05:23,130 --> 00:05:25,850\nyou pretend like you're in the UI.\n\n89\n00:05:25,850 --> 00:05:28,390\nHere it's the actual product, really cool.\n\n90\n00:05:28,390 --> 00:05:30,840\nA little bit more about the exam,\nI said it's $100, and\n\n91\n00:05:30,840 --> 00:05:35,900\nit's a practical exam, you can take\nit from anywhere in the world.\n\n92\n00:05:35,900 --> 00:05:39,150\nYou don't have to go to testing center to\ndo it, you can take it from your own desk.\n\n93\n00:05:39,150 --> 00:05:43,160\nYou'll log in to an actual Google Apps\nenvironment that they built custom,\n\n94\n00:05:43,160 --> 00:05:44,750\njust for you.\n\n95\n00:05:44,750 --> 00:05:47,790\nIt's a two hour exam, so\nwhen you start the exam,\n\n96\n00:05:47,790 --> 00:05:50,230\nyou've got two hours to get it completed.\n\n97\n00:05:50,230 --> 00:05:52,320\nAnd when you're exam timer starts,\n\n98\n00:05:52,320 --> 00:05:56,960\nwhen you hit that Start button,\nyou'll get access to a Google Drive share\n\n99\n00:05:56,960 --> 00:05:59,880\nthat has a couple of documents in\nit that are telling you what to do.\n\n100\n00:05:59,880 --> 00:06:02,695\nAll the different actions\nthat you need to perform, and\n\n101\n00:06:02,695 --> 00:06:04,990\nthey're broken up into sections.\n\n102\n00:06:04,990 --> 00:06:08,160\nThey start with activities that\nmight take a long time to implement\n\n103\n00:06:08,160 --> 00:06:11,380\nbecause you've only got two hours, and\nyou need to get started on those first.\n\n104\n00:06:11,380 --> 00:06:14,630\nAnd then they break it up by section for\nother one's, so if you get hung up on\n\n105\n00:06:14,630 --> 00:06:19,370\nsomething and you can't do it, you can\nskip past it and work on other things.\n\n106\n00:06:19,370 --> 00:06:23,490\nSome of them are interrelated, but most of\nthem aren't, that way if you're stuck at\n\n107\n00:06:23,490 --> 00:06:26,340\none point, you don't just have to\ngive up on the rest of the exam and\n\n108\n00:06:26,340 --> 00:06:30,720\nfail, you can skip over it, work on\nthe other things, and come back later, and\n\n109\n00:06:30,720 --> 00:06:32,800\ntry and\nfix that part that you were stuck on.\n\n110\n00:06:32,800 --> 00:06:36,170\nSo, that's kind of a nice thing too,\nbut you work on the environment and\n\n111\n00:06:36,170 --> 00:06:39,150\nwhen your two hours are up,\nyou lose access to your documents, and\n\n112\n00:06:39,150 --> 00:06:41,060\nyou lose access to the environment.\n\n113\n00:06:41,060 --> 00:06:44,050\nThey'll grade your exam right then,\nand you'll find out,\n\n114\n00:06:44,050 --> 00:06:47,350\nit's almost instantaneous that you'll\nfind out whether you passed or failed.\n\n115\n00:06:47,350 --> 00:06:50,089\nIt only takes a moment for\ntheir scripts to run to grade it.\n\n116\n00:06:50,089 --> 00:06:54,339\nNow, because the exam is done in\nan actual Google Apps environment,\n\n117\n00:06:54,339 --> 00:06:57,400\nit takes a little while\nto get that set up.\n\n118\n00:06:57,400 --> 00:07:00,750\nSo, when you register for\nthe exam, and you pay for it, and\n\n119\n00:07:00,750 --> 00:07:03,970\nyou schedule to take it,\nyou'll get a notice saying, hey,\n\n120\n00:07:03,970 --> 00:07:08,530\nit could take up to 48 hours to build\nthe environment, and get it ready for you.\n\n121\n00:07:08,530 --> 00:07:11,580\nSo, if you're planning on\ntaking the test tomorrow,\n\n122\n00:07:11,580 --> 00:07:14,270\nyou really should have signed up for\nit yesterday.\n\n123\n00:07:14,270 --> 00:07:17,600\nSo, don't expect to be able to take\nthe test the same day that you\n\n124\n00:07:17,600 --> 00:07:18,720\nregister for it.\n\n125\n00:07:18,720 --> 00:07:20,220\nIt could take up to 48 hours now,\n\n126\n00:07:20,220 --> 00:07:22,870\nI'll tell you from my experience,\nit's usually much less.\n\n127\n00:07:22,870 --> 00:07:26,280\nI think it took about four hours for\nme, so it was ready pretty quickly, but\n\n128\n00:07:26,280 --> 00:07:28,650\ndon't bank on that,\nit depends on how busy they are and\n\n129\n00:07:28,650 --> 00:07:30,590\nhow much activity is in the system.\n\n130\n00:07:30,590 --> 00:07:34,320\nSo, if you wanna take the exam on Monday,\nyou should probably register for\n\n131\n00:07:34,320 --> 00:07:36,690\nit on a Saturday,\nthat way you know it'll be ready.\n\n132\n00:07:36,690 --> 00:07:39,140\nNow, once it's ready,\nyou have a window of time,\n\n133\n00:07:39,140 --> 00:07:42,660\nI believe it's seven days or,\ndo I have that written down?\n\n134\n00:07:42,660 --> 00:07:44,930\nI don't.\nI believe it's seven days to actually take\n\n135\n00:07:44,930 --> 00:07:46,020\nthe exam, and\n\n136\n00:07:46,020 --> 00:07:51,140\nwhen you click the start button,\nthat's when your two hour window starts.\n\n137\n00:07:51,140 --> 00:07:53,980\nNow, you might get disconnected,\nduring my exam I actually did\n\n138\n00:07:53,980 --> 00:07:57,200\nget disconnected at one point,\nmy user credentials stopped working.\n\n139\n00:07:57,200 --> 00:08:00,910\nI had to just log out and log back in,\nand it remembers exactly where you were.\n\n140\n00:08:00,910 --> 00:08:01,940\nIt's Google Apps,\n\n141\n00:08:01,940 --> 00:08:04,800\nyou don't lose your settings just\nbecause you got disconnected.\n\n142\n00:08:04,800 --> 00:08:08,060\nSo, don't worry about that, but\nif you do get disconnected,\n\n143\n00:08:08,060 --> 00:08:10,300\nyou still have that two hour\nwindow that you're operating in.\n\n144\n00:08:10,300 --> 00:08:13,820\nSo, just because you got disconnected,\ndoesn't mean the timer has stopped\n\n145\n00:08:13,820 --> 00:08:18,395\nrunning, you need to get back in there as\nquickly as you can, and continue working.\n\n146\n00:08:19,905 --> 00:08:23,228\nNow, during the exam, you have all\nthe tools that you would normally have\n\n147\n00:08:23,228 --> 00:08:25,277\nat your disposal, you're in a web browser.\n\n148\n00:08:25,277 --> 00:08:28,749\nSo, if you forget how to do something\nyou can pull the documentation up, and\n\n149\n00:08:28,749 --> 00:08:29,410\nfind out how.\n\n150\n00:08:29,410 --> 00:08:32,971\nThat sounds great, the easiest exam ever,\nit's open book, but\n\n151\n00:08:32,971 --> 00:08:35,885\nthe amount of time you spend searching for\nan answer,\n\n152\n00:08:35,885 --> 00:08:39,420\ncould be the difference between\nyou passing in failing.\n\n153\n00:08:39,420 --> 00:08:43,010\nIf you know how to do something, you can\njump right to it, and answer it, and\n\n154\n00:08:43,010 --> 00:08:44,020\nyou're in business.\n\n155\n00:08:44,020 --> 00:08:45,920\nIf you're looking in\nthe help documentation,\n\n156\n00:08:45,920 --> 00:08:49,410\nyou'll likely run out of time, so\ndon't rely on that as a crutch,\n\n157\n00:08:49,410 --> 00:08:51,340\nyou wanna make sure you're ready for\nthe topics.\n\n158\n00:08:52,850 --> 00:08:56,620\nThe only real requirement for your PC,\nbecause you can be on a Mac, or\n\n159\n00:08:56,620 --> 00:09:00,850\na Windows machine, or whatever,\nthey do require you to have a web camera.\n\n160\n00:09:00,850 --> 00:09:02,940\nDuring the exam it'll take your picture,\n\n161\n00:09:02,940 --> 00:09:06,390\nright at the beginning of the exam,\nand throughout the exam it'll take\n\n162\n00:09:06,390 --> 00:09:10,620\nrandom pictures to ensure that\nyou're the person taking the test.\n\n163\n00:09:10,620 --> 00:09:12,320\nSo, you do need a web camera to take it,\n\n164\n00:09:12,320 --> 00:09:16,290\nbut other than that you just need a web\nbrowser, preferably Google Chrome, and\n\n165\n00:09:16,290 --> 00:09:18,720\nyou can log in, take the exam,\nand do everything that you need.\n\n166\n00:09:20,260 --> 00:09:24,101\nSo, that's a little bit about the exam,\nonce you've signed up and you take it,\n\n167\n00:09:24,101 --> 00:09:27,546\nyou pass, and you'll get certificates\nin the mail a few days later, but\n\n168\n00:09:27,546 --> 00:09:30,963\nyou get immediate notification that\nyou pass, so really nice to have.\n\n169\n00:09:30,963 --> 00:09:34,124\nIf for some reason you don't\npass on the first attempt,\n\n170\n00:09:34,124 --> 00:09:38,629\nthen you have to wait 14 days in between\nattempts, so basically, two weeks,\n\n171\n00:09:38,629 --> 00:09:42,690\nif you fail, you've got to wait two\nweeks to be able to repeat the exam.\n\n172\n00:09:44,530 --> 00:09:45,660\nThat's really about it for\n\n173\n00:09:45,660 --> 00:09:49,490\nrequirements on the exam,\nit does cover a wide breadth of topics.\n\n174\n00:09:49,490 --> 00:09:52,790\nYou'll see they have the Administrator\nExam FAQ right here, where they layout\n\n175\n00:09:52,790 --> 00:09:56,980\nsome basic information here, which is\nbasically what I was just talking about.\n\n176\n00:09:56,980 --> 00:10:01,030\nBut there's also\nthe Administrator Study Guide, and\n\n177\n00:10:01,030 --> 00:10:04,180\nthis shows you everything\nthat's on the exam.\n\n178\n00:10:04,180 --> 00:10:09,820\nIt starts out with managing user accounts,\nthat accounts for 23% of the exam.\n\n179\n00:10:09,820 --> 00:10:14,020\nYou'll see organizational units,\nwhich are only about 10% of the exam.\n\n180\n00:10:14,020 --> 00:10:16,960\nGoogle App service and\norganizational access,\n\n181\n00:10:16,960 --> 00:10:21,700\nso which services you allow to be\nused by your users, that's 14%.\n\n182\n00:10:21,700 --> 00:10:25,649\nMail delivery routing and filtering,\nyou'll learn about spam filtering, and\n\n183\n00:10:25,649 --> 00:10:28,504\ne-mail domain attachment,\nand so on, that's 18%.\n\n184\n00:10:28,504 --> 00:10:30,850\nCalendar setting are 7%.\n\n185\n00:10:30,850 --> 00:10:35,508\nMobile policies, that's getting to be\na real important thing for businesses,\n\n186\n00:10:35,508 --> 00:10:36,430\nthat's 8%.\n\n187\n00:10:36,430 --> 00:10:38,260\nAnd then lastly, sorry not lastly.\n\n188\n00:10:38,260 --> 00:10:41,390\nThen we've got security,\nwhich is 10% and groups.\n\n189\n00:10:41,390 --> 00:10:44,170\nI said lastly cuz I always think\nof groups as part of security.\n\n190\n00:10:44,170 --> 00:10:48,790\nBut security and groups are the remaining\n10% there, is what the exam covers.\n\n191\n00:10:48,790 --> 00:10:50,410\nThey are very open about this.\n\n192\n00:10:50,410 --> 00:10:53,890\nThis exam study guide is\nreally all you need to study.\n\n193\n00:10:53,890 --> 00:10:54,740\nEvery question,\n\n194\n00:10:54,740 --> 00:10:58,508\neverything that they ask you to do on\nthe exam is right here in the guide.\n\n195\n00:10:58,508 --> 00:11:01,840\nIf you wanna learn about deploying users,\nyou can come in, and pull this up, and\n\n196\n00:11:01,840 --> 00:11:04,570\nit will show all the different\nways that we can add users, and\n\n197\n00:11:04,570 --> 00:11:06,570\nyou can read through that documentation.\n\n198\n00:11:06,570 --> 00:11:10,270\nHere on the show what we're doing is that\nwe're turning that into a concise format,\n\n199\n00:11:10,270 --> 00:11:13,520\nso you can watch instead of having\nto read through page after page.\n\n200\n00:11:13,520 --> 00:11:17,310\nAnd so during the course of the show I'll\ndemonstrate how to do all these things.\n\n201\n00:11:17,310 --> 00:11:19,930\nI'll show you where to go in Google apps,\nand how to configure and\n\n202\n00:11:19,930 --> 00:11:21,280\nmodify these settings, and\n\n203\n00:11:21,280 --> 00:11:25,790\nhow to get them put in place in different\nscenarios, but it's all right here.\n\n204\n00:11:25,790 --> 00:11:31,510\nSo, this is really a nice certification in\nthat the material right here is available,\n\n205\n00:11:31,510 --> 00:11:34,860\nthey're very honest about what's gonna\nbe on the exam, it's all right here.\n\n206\n00:11:34,860 --> 00:11:37,784\nIt's pretty pleasant experience compared\nto some of the other vendors that\n\n207\n00:11:37,784 --> 00:11:38,385\nare out there.\n\n208\n00:11:38,385 --> 00:11:41,224\nNow, if you wanna practice\nto get ready for this exam,\n\n209\n00:11:41,224 --> 00:11:45,300\nyou know from the administrator guide\nthe topics that are gonna be on there, so\n\n210\n00:11:45,300 --> 00:11:47,870\nyou know the type of stuff\nyou need to be aware of.\n\n211\n00:11:47,870 --> 00:11:51,796\nThese maybe things that you're not used\nto, you haven't worked with before,\n\n212\n00:11:51,796 --> 00:11:55,898\nmaybe you haven't worked with Google Apps\nbefore, or maybe you have Google Apps in\n\n213\n00:11:55,898 --> 00:12:00,390\nyour company but you haven't used some\nof the features they're talking about.\n\n214\n00:12:00,390 --> 00:12:03,470\nWell, you don't want to mess with\nyour production environment,\n\n215\n00:12:03,470 --> 00:12:08,500\ndon't mess with your company's Google Apps\naccount, instead you can sign up for\n\n216\n00:12:08,500 --> 00:12:13,350\na demo account, Google does a 30\nday free trial of Google Apps.\n\n217\n00:12:13,350 --> 00:12:17,750\nYou can sign up for it, and you'll have 30\ndays access to a Google Apps environment,\n\n218\n00:12:17,750 --> 00:12:22,050\nto be able to jump in and work with,\nto experiment, and practice.\n\n219\n00:12:22,050 --> 00:12:24,886\nSo, if you want one, and I'll post\nthe link to this with the show also.\n\n220\n00:12:24,886 --> 00:12:28,889\nYou can go the Google Apps for Enterprise\nbusinesses, and you can go in there and\n\n221\n00:12:28,889 --> 00:12:32,592\nstart a free trial, that'll have\nthe 30 day free trial that you can do,\n\n222\n00:12:32,592 --> 00:12:36,458\nno commitment, you don't even have to\nput in payment information to do it.\n\n223\n00:12:36,458 --> 00:12:39,340\nSo, there's really no reason not\nto sign up for one of these.\n\n224\n00:12:39,340 --> 00:12:42,100\nThey give you a trial environment\nwhere you can experiment with all of\n\n225\n00:12:42,100 --> 00:12:44,100\nthe different things that\nmight be on the exam.\n\n226\n00:12:44,100 --> 00:12:47,100\nAll you have to do is click\nStart Free Trial, and\n\n227\n00:12:47,100 --> 00:12:50,680\nit'll ask you to punch in\nan existing email address.\n\n228\n00:12:50,680 --> 00:12:54,730\nAnd then you can specify what domain\nyou want to use, so for example,\n\n229\n00:12:54,730 --> 00:12:59,550\nhere with this one, it's asking me\nto put in first name, last name, and\n\n230\n00:12:59,550 --> 00:13:03,480\nI'm gonna put in Don Pezet,\nhere I'll be don@ITproTV,\n\n231\n00:13:03,480 --> 00:13:07,230\nand then it says,\nwhat your business organization is.\n\n232\n00:13:07,230 --> 00:13:09,550\nSo, maybe I'll call this the ITProTV Lab.\n\n233\n00:13:10,910 --> 00:13:15,015\nNumber of employees, I'll say two to nine,\nyou don't really need more.\n\n234\n00:13:15,015 --> 00:13:18,140\nYou do need to put a phone number in for\nthem to be able to contact you,\n\n235\n00:13:18,140 --> 00:13:19,970\nso I'll put in my office number.\n\n236\n00:13:19,970 --> 00:13:24,370\nThen it's gonna ask you whether\nwe're gonna use a domain address\n\n237\n00:13:24,370 --> 00:13:28,330\nthat we already have, or\none that we're gonna buy.\n\n238\n00:13:28,330 --> 00:13:32,070\nSince this is just a trial, you probably,\ndon't wanna buy a domain just for\n\n239\n00:13:32,070 --> 00:13:32,990\nyour trial.\n\n240\n00:13:32,990 --> 00:13:35,509\nSo, you may choose to use a domain\nname you've already got, and\n\n241\n00:13:35,509 --> 00:13:36,357\nyou punch it in here.\n\n242\n00:13:36,357 --> 00:13:38,924\nSo, I'm gonna say, lab.itpro.tv.\n\n243\n00:13:38,924 --> 00:13:42,593\nSo, that's gonna be the domain\nthat I use for this, and\n\n244\n00:13:42,593 --> 00:13:46,000\nyou can really put in\nwhatever you want there.\n\n245\n00:13:46,000 --> 00:13:48,950\nIf you put in some fake domain\nthat you don't own, that's okay,\n\n246\n00:13:48,950 --> 00:13:50,350\nyou just won't be able to activate.\n\n247\n00:13:50,350 --> 00:13:53,230\nYou won't actually be able to\nget email service in it, but for\n\n248\n00:13:53,230 --> 00:13:56,860\nexperimenting with the topics that\nare on the exam, that's fine, or\n\n249\n00:13:56,860 --> 00:14:01,130\nif you did pick a domain you actually own,\nthen you can attach that to it.\n\n250\n00:14:01,130 --> 00:14:04,930\nAnd you'll be able to do email flow, and\nactually use the Google Apps account,\n\n251\n00:14:04,930 --> 00:14:06,379\nthat's a nice thing to be able to do.\n\n252\n00:14:07,598 --> 00:14:10,990\nSo, it's gonna ask me for a user name,\nI'll just punch in, I'll do dpezet, and\n\n253\n00:14:10,990 --> 00:14:16,250\na password to use for the site,\nso I'll punch in a password,\n\n254\n00:14:17,960 --> 00:14:22,280\nand then I've gotto pass their CAPTCHA\nwhich I don't know if you guys this.\n\n255\n00:14:22,280 --> 00:14:25,611\nI'm not exactly quite sure what that\nfirst letter is, that might be an x,\n\n256\n00:14:25,611 --> 00:14:26,975\nlet's just give that a shot.\n\n257\n00:14:26,975 --> 00:14:31,316\nThis is gonna be the most challenging\npart here, is just passing that.\n\n258\n00:14:31,316 --> 00:14:35,477\nI'll go ahead, and accept their agreement.\n\n259\n00:14:35,477 --> 00:14:36,719\nI got the CAPTCHA wrong.\n\n260\n00:14:36,719 --> 00:14:38,484\nLet's try it again.\n\n261\n00:14:38,484 --> 00:14:43,304\nThis been the longest segment of the show,\nright here,\n\n262\n00:14:43,304 --> 00:14:47,006\njust trying to get pass\nin the little test.\n\n263\n00:14:47,006 --> 00:14:48,098\nGotta love these CAPTCHA things.\n\n264\n00:14:48,098 --> 00:14:48,899\nThere we go.\n\n265\n00:14:48,899 --> 00:14:50,500\nSo, it's gonna create that account.\n\n266\n00:14:50,500 --> 00:14:55,660\nNow, while you're in a trial,\nit can work if you attach your domain.\n\n267\n00:14:55,660 --> 00:14:57,719\nYeah, my accounts for the other shows,\nso I need to switch accounts, but\n\n268\n00:14:57,719 --> 00:14:59,661\nI guess [INAUDIBLE] from the other show,\nso I need the switch account.\n\n269\n00:14:59,661 --> 00:15:04,393\nSo, I'm gonna log in as that account,\nlab.itpro.tv, and\n\n270\n00:15:04,393 --> 00:15:06,760\nI'll punch in that password.\n\n271\n00:15:09,700 --> 00:15:14,470\nThere we go, and [LAUGH] we've detected\nunusual activity on your account,\n\n272\n00:15:14,470 --> 00:15:18,150\nand that's just because I have logged\nin multiple times on this machine.\n\n273\n00:15:18,150 --> 00:15:20,900\nBut normally, you'll get pass that, and it\nwill take you right into your Google Apps\n\n274\n00:15:20,900 --> 00:15:23,615\nconsole, and\nyou're now set up with a 30 day account.\n\n275\n00:15:23,615 --> 00:15:27,270\nSo, I could punch in my account, and\ndo an automated call and verify it.\n\n276\n00:15:27,270 --> 00:15:28,900\nI won't make you guys wait through that.\n\n277\n00:15:28,900 --> 00:15:32,830\nBut basically, once you're logged in,\nyou'll be at your Google Apps console, and\n\n278\n00:15:32,830 --> 00:15:33,700\nyou'll have 30 days.\n\n279\n00:15:34,830 --> 00:15:37,470\nAt the end of 30 days,\nyour account will be disabled and\n\n280\n00:15:37,470 --> 00:15:40,810\nshut off, unless you put payment\ninformation, and start paying.\n\n281\n00:15:40,810 --> 00:15:43,570\nYou convert to a pay account,\nbut for just practicing for\n\n282\n00:15:43,570 --> 00:15:46,420\nthe exam, you just use it for\n30 days, then it goes away.\n\n283\n00:15:46,420 --> 00:15:51,120\nThat's actually, the exact thing they're\ndoing for your exam, when you do the real\n\n284\n00:15:51,120 --> 00:15:53,800\nexam, and you're doing practical\nenvironment it's just a trial\n\n285\n00:15:53,800 --> 00:15:57,650\naccount basically, that's gonna run for\nthe few hours that your exam is active.\n\n286\n00:15:58,940 --> 00:16:03,030\nSo, easy to do, jump right in,\nget that set up with a trial, and\n\n287\n00:16:03,030 --> 00:16:05,590\nyou'll be ready to go for practicing.\n\n288\n00:16:05,590 --> 00:16:09,070\nIf your 30 days run up, you can\nalways set up another trial account.\n\n289\n00:16:09,070 --> 00:16:12,290\nI've already got one, actually,\nI think I've got two or three of them, so\n\n290\n00:16:12,290 --> 00:16:13,590\nthis would be a fourth one now,\n\n291\n00:16:13,590 --> 00:16:16,340\nwhich might be why it set off\nthe little phone number prompt there.\n\n292\n00:16:16,340 --> 00:16:19,960\nBut basically, you can get these set up,\nand go in and experiment.\n\n293\n00:16:19,960 --> 00:16:23,910\nIf you set up a bunch of them, they always\nworry about you maybe retransmitting spam\n\n294\n00:16:23,910 --> 00:16:26,630\nthrough them, which is why it'll start\nusing security measures like these.\n\n295\n00:16:28,780 --> 00:16:35,140\nBut that is basically, the Google\nAdministrator Processing, in a nutshell.\n\n296\n00:16:35,140 --> 00:16:36,460\nWhen it's done, you get certified.\n\n297\n00:16:36,460 --> 00:16:38,320\nYou're a Google Apps\nCertified Administrator.\n\n298\n00:16:38,320 --> 00:16:41,130\nYou can put that on your resume, and\nit shows people that you know how to\n\n299\n00:16:41,130 --> 00:16:44,450\nuse Google Apps, and that you've\ngot the knowledge to back it up,\n\n300\n00:16:44,450 --> 00:16:47,450\nthat you've been certified by Google,\nand you can do it.\n\n301\n00:16:47,450 --> 00:16:51,290\nIt's a great resource for small and\nmedium businesses, as well as enterprises.\n\n302\n00:16:51,290 --> 00:16:52,980\nIt really is neat software.\n\n303\n00:16:52,980 --> 00:16:56,570\nSomething that's\ndefinitely worth learning.\n\n304\n00:16:56,570 --> 00:16:58,140\nWell, that's about all I've got for\nour intro.\n\n305\n00:16:58,140 --> 00:17:00,940\nRemember if you ever have any questions,\nyou can ask.\n\n306\n00:17:00,940 --> 00:17:02,990\nLive during the show you\ncan go to ITPro.TV/Live and\n\n307\n00:17:02,990 --> 00:17:06,040\nthere's a chat box beneath the video.\n\n308\n00:17:06,040 --> 00:17:09,400\nIf you're watching this recorded, which I\nknow most of you do, you can use our Q and\n\n309\n00:17:09,400 --> 00:17:10,190\nA forums.\n\n310\n00:17:10,190 --> 00:17:12,410\nYou'll see a link that says Q and\nA at the top of every page.\n\n311\n00:17:12,410 --> 00:17:15,660\nIt'll take you to the forums and\nyou can post your questions there, and\n\n312\n00:17:15,660 --> 00:17:17,610\nwe'll get back to you from there.\n\n313\n00:17:17,610 --> 00:17:20,671\nBut yeah, if you have any questions,\nlet us know, otherwise,\n\n314\n00:17:20,671 --> 00:17:22,154\nI will see you during the show.\n\n315\n00:17:22,154 --> 00:17:27,299\n[MUSIC]\n\n",
+          "url": "overview-google",
+          "vimeoId": "108228111"
+        }
+      ],
+      "title": "Overview of Google for Work"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-1-Create-New-Users.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-1-Create-New-Users-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-1-Create-New-Users-sm.jpg",
+          "title": "Create New Users",
+          "transcript": "",
+          "url": "create-users",
+          "vimeoId": "108348067"
+        },
+        {
+          "description": "",
+          "length": "639",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-2-Modifying-Users.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-2-Modifying-Users-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-2-Modifying-Users-sm.jpg",
+          "title": "Modifying Users",
+          "transcript": "",
+          "url": "modifying-users",
+          "vimeoId": "108348070"
+        },
+        {
+          "description": "",
+          "length": "517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-3-Deleting-and-Restoring-Users.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-3-Deleting-and-Restoring-Users-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-3-Deleting-and-Restoring-Users-sm.jpg",
+          "title": "Deleting and Restoring Users",
+          "transcript": "",
+          "url": "deleting-restoring-users",
+          "vimeoId": "108348071"
+        },
+        {
+          "description": "",
+          "length": "517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-4-Using-System-Roles.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-4-Using-System-Roles-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-4-Using-System-Roles-sm.jpg",
+          "title": "Using System Roles",
+          "transcript": "",
+          "url": "using-system-roles",
+          "vimeoId": "108348072"
+        },
+        {
+          "description": "",
+          "length": "547",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-5-Managing-Passwords.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-5-Managing-Passwords-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/1-5-Managing-Passwords-sm.jpg",
+          "title": "Managing Passwords",
+          "transcript": "",
+          "url": "managing-passwords",
+          "vimeoId": "108348073"
+        }
+      ],
+      "title": "User creation, deletion, and administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "725",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-1-Managing-Organizational-Units.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-1-Managing-Organizational-Units-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-1-Managing-Organizational-Units-sm.jpg",
+          "title": "Managing Organizational Units",
+          "transcript": "",
+          "url": "managing-organizational-units",
+          "vimeoId": "108463881"
+        },
+        {
+          "description": "",
+          "length": "477",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-2-Managing-Services-by-OU.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-2-Managing-Services-by-OU-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/2-2-Managing-Services-by-OU-sm.jpg",
+          "title": "Managing Services by OU",
+          "transcript": "",
+          "url": "managing-services-ou",
+          "vimeoId": "108463882"
+        }
+      ],
+      "title": "Organizational units"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "521",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-3-Managing-Google-Apps-Services.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-3-Managing-Google-Apps-Services-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-3-Managing-Google-Apps-Services-sm.jpg",
+          "title": "Managing Google Apps Services",
+          "transcript": "",
+          "url": "managing-google-apps-services",
+          "vimeoId": "108464258"
+        },
+        {
+          "description": "",
+          "length": "743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-2-Chrome-Policies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-2-Chrome-Policies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-2-Chrome-Policies-sm.jpg",
+          "title": "Chrome Policies",
+          "transcript": "",
+          "url": "chrome-policies",
+          "vimeoId": "108464256"
+        },
+        {
+          "description": "",
+          "length": "722",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-1-Managing-Google-Drive-Storage.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-1-Managing-Google-Drive-Storage-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-1-Managing-Google-Drive-Storage-sm.jpg",
+          "title": "Managing Google Drive Storage",
+          "transcript": "",
+          "url": "managing-google-drive-storage",
+          "vimeoId": "108464259"
+        },
+        {
+          "description": "",
+          "length": "783",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-4-Using-Reports.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-4-Using-Reports-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/3-4-Using-Reports-sm.jpg",
+          "title": "Using Reports",
+          "transcript": "",
+          "url": "using-reports",
+          "vimeoId": "108464257"
+        }
+      ],
+      "title": "Google Apps services and organizational access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-1-Manage-Mail-Routing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-1-Manage-Mail-Routing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-1-Manage-Mail-Routing-sm.jpg",
+          "title": "Manage Mail Routing",
+          "transcript": "",
+          "url": "manage-mail-routing",
+          "vimeoId": "108464720"
+        },
+        {
+          "description": "",
+          "length": "1020",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-2-Manage-Whitelists-and-Blacklists.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-2-Manage-Whitelists-and-Blacklists-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-2-Manage-Whitelists-and-Blacklists-sm.jpg",
+          "title": "Manage Whitelists and Blacklists",
+          "transcript": "",
+          "url": "manage-whitelists-blacklists",
+          "vimeoId": "108465090"
+        },
+        {
+          "description": "",
+          "length": "579",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-3-Mail-Security-Best-Practices.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-3-Mail-Security-Best-Practices-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-3-Mail-Security-Best-Practices-sm.jpg",
+          "title": "Mail Security Best Practices",
+          "transcript": "",
+          "url": "mail-security-practices",
+          "vimeoId": "108786350"
+        },
+        {
+          "description": "",
+          "length": "999",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-4-Manage-Compliance-Settings.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-4-Manage-Compliance-Settings-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/4-4-Manage-Compliance-Settings-sm.jpg",
+          "title": "Manage Compliance Settings",
+          "transcript": "",
+          "url": "manage-compliance-settings",
+          "vimeoId": "108786746"
+        }
+      ],
+      "title": "Mail delivery, routing, and filtering"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-1-Creating-A-Shared-Calendar.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-1-Creating-A-Shared-Calendar-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-1-Creating-A-Shared-Calendar-sm.jpg",
+          "title": "Creating a Shared Calendar",
+          "transcript": "",
+          "url": "creating-shared-calendar",
+          "vimeoId": "108478759"
+        },
+        {
+          "description": "",
+          "length": "765",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-2-Manage-Calendar-Resources.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-2-Manage-Calendar-Resources-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/5-2-Manage-Calendar-Resources-sm.jpg",
+          "title": "Manage Calendar Resources",
+          "transcript": "",
+          "url": "manage-calendar-resources",
+          "vimeoId": "108478758"
+        }
+      ],
+      "title": "Calendar settings and resources"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-1-Google-Apps-Mobile-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-1-Google-Apps-Mobile-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-1-Google-Apps-Mobile-Management-sm.jpg",
+          "title": "Google Apps Mobile Management",
+          "transcript": "",
+          "url": "google-apps-mobile-management",
+          "vimeoId": "108786587"
+        },
+        {
+          "description": "",
+          "length": "580",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-2-Managing-Lost-Devices.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-2-Managing-Lost-Devices-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/6-2-Managing-Lost-Devices-sm.jpg",
+          "title": "Managing Lost Devices",
+          "transcript": "",
+          "url": "managing-lost-devices",
+          "vimeoId": "108788118"
+        }
+      ],
+      "title": "Mobile policies and device management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-1-Using-Groups-To-Manage-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-1-Using-Groups-To-Manage-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-1-Using-Groups-To-Manage-Security-sm.jpg",
+          "title": "Using Groups to Manage Security",
+          "transcript": "",
+          "url": "using-manage-security",
+          "vimeoId": "108786831"
+        },
+        {
+          "description": "",
+          "length": "1268",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-2-SSO-OAuth-and-2-step.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-2-SSO-OAuth-and-2-step-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/7-2-SSO-OAuth-and-2-step-sm.jpg",
+          "title": "SSO OAuth and 2-step",
+          "transcript": "",
+          "url": "sso-oauth-2step",
+          "vimeoId": "108787328"
+        }
+      ],
+      "title": "Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-1-Google-Groups-For-Business.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-1-Google-Groups-For-Business-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-1-Google-Groups-For-Business-sm.jpg",
+          "title": "Google Groups for Business",
+          "transcript": "",
+          "url": "google-business",
+          "vimeoId": "108787586"
+        },
+        {
+          "description": "",
+          "length": "1670",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-2-Managing-Groups.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-2-Managing-Groups-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-2-Managing-Groups-sm.jpg",
+          "title": "Managing Groups",
+          "transcript": "",
+          "url": "managing-active-directory-3",
+          "vimeoId": "108787681"
+        },
+        {
+          "description": "",
+          "length": "492",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-3-Sharing-Content-With-A-Group.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-3-Sharing-Content-With-A-Group-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-3-Sharing-Content-With-A-Group-sm.jpg",
+          "title": "Sharing Content with a Group",
+          "transcript": "",
+          "url": "sharing-content",
+          "vimeoId": "108787556"
+        },
+        {
+          "description": "",
+          "length": "801",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-4-Group-Permissions.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-4-Group-Permissions-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/googleapps/8-4-Group-Permissions-sm.jpg",
+          "title": "Group Permissions",
+          "transcript": "",
+          "url": "permissions",
+          "vimeoId": "108787747"
+        }
+      ],
+      "title": "Groups"
+    }
+  ],
+  "url": "google-apps",
+  "vLab": false
+}

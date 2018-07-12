@@ -1,0 +1,208 @@
+{
+  "description": "September 24, 2016 is the last day for this exam. CCNA Overview The Cisco Certified Network Associate (CCNA) is the most well known Cisco certification path. It takes the general networking theory from the CCENT certification and applies it in real world scenarios. It moves beyond configuring individual devices into more complex territory often requiring the configuration of numerous devices to create a robust and optimized network. While studying for this certification, you will revisit the routing and switching topics from the CCENT in more depth as you learn about and implement the advanced features of each technology.",
+  "descriptionMD": "",
+  "length": "71087",
+  "name": "CCNA Routing and Switching",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Network Associate",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "CCNA Overview The Cisco Certified Network Associate (CCNA) is the most well known Cisco certification path. It takes the general networking theory from the CCENT certification and applies it in real world scenarios. It moves beyond configuring individual devices into more complex territory often requiring the configuration of numerous devices to create a robust and optimized network. While studying for this certification, you will revisit the routing and switching topics from the CCENT in more depth as you learn about and implement the advanced features of each technology.",
+          "length": "567",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/ccna-0-0-overview-112514-sm.jpg",
+          "title": "Overview of CCNA Routing and Switching",
+          "transcript": "1\n00:00:00,000 --> 00:00:07,311\n[MUSIC]\n\n2\n00:00:07,311 --> 00:00:10,622\nThe Cisco Certified Network Associate,\nor CCNA,\n\n3\n00:00:10,622 --> 00:00:15,520\nis one of the most well-known\ncertifications in IT networking.\n\n4\n00:00:15,520 --> 00:00:20,060\nIt's designed to demonstrate that you\nhave a intermediate level of knowledge\n\n5\n00:00:20,060 --> 00:00:23,680\nwith Cisco equipment, particularly\ntheir routers, and their switches.\n\n6\n00:00:23,680 --> 00:00:27,550\nNow there are multiple versions\nof the CCNA, and for this\n\n7\n00:00:27,550 --> 00:00:32,400\nparticular ITProTV show, we're talking\nabout the CCNA routing and switching.\n\n8\n00:00:32,400 --> 00:00:34,030\nFocus is on routers and switches.\n\n9\n00:00:34,030 --> 00:00:37,880\nThere's also the CCNA security,\nwhich focuses on the ASA firewalls,\n\n10\n00:00:37,880 --> 00:00:41,670\nand several other variations that focus on\nother things, like wireless, and voice,\n\n11\n00:00:41,670 --> 00:00:43,770\nservice provider equipment and so on.\n\n12\n00:00:43,770 --> 00:00:45,180\nBut the CCNA routing and\n\n13\n00:00:45,180 --> 00:00:49,880\nswitching, that's the one most\npeople think of when they say, CCNA.\n\n14\n00:00:49,880 --> 00:00:53,620\nThe certification's designed to show\nthat you understand how to take Cisco\n\n15\n00:00:53,620 --> 00:00:58,330\nrouters and Cisco switches from\na factory default configuration, and\n\n16\n00:00:58,330 --> 00:01:00,950\nget them configured in\nsmall to medium networks.\n\n17\n00:01:00,950 --> 00:01:05,600\nWe're talking about networks that range\nin size from 10 to 100 routers or\n\n18\n00:01:05,600 --> 00:01:07,440\n10 to 100 switches.\n\n19\n00:01:07,440 --> 00:01:12,040\nIn mixed environments, a headquarters and\nbranch offices, that type of situation.\n\n20\n00:01:12,040 --> 00:01:16,460\nAnd there are various technologies we need\nto configure that go beyond just a basic\n\n21\n00:01:16,460 --> 00:01:20,210\nrouter configuration like what you might\nhave in a small office or home office.\n\n22\n00:01:20,210 --> 00:01:25,000\nThere's also some advanced functionality\nthe routers and switches can do that move\n\n23\n00:01:25,000 --> 00:01:30,040\nbeyond basic functionality, and start to\nget our switches acting more like routers,\n\n24\n00:01:30,040 --> 00:01:33,700\nor our routers performing functions\nthat traditional routers don't even do.\n\n25\n00:01:33,700 --> 00:01:36,380\nSo, really interesting\nstuff that's out there.\n\n26\n00:01:36,380 --> 00:01:39,620\nCCNA is one of the more rewarding\ncertifications I find in that you\n\n27\n00:01:39,620 --> 00:01:41,560\njust learn a lot of cool\nstuff that you can do.\n\n28\n00:01:41,560 --> 00:01:44,670\nSo it's a good time, and\nit's a fun certification to get.\n\n29\n00:01:44,670 --> 00:01:47,430\nIt's one of the favorite ones\nthat I've gotten over the years.\n\n30\n00:01:47,430 --> 00:01:51,320\nNow, if you want to pursue this CCNA,\nthere's a few things we need to remember.\n\n31\n00:01:51,320 --> 00:01:55,910\nFirst off, it is expected that\nyou already have the CCENT.\n\n32\n00:01:55,910 --> 00:01:59,200\nThe Cisco Certified Entry\nNetwork Technician.\n\n33\n00:01:59,200 --> 00:02:02,080\nSo if you're just getting\nstarted with Cisco,\n\n34\n00:02:02,080 --> 00:02:05,510\nyou should probably jump over to\nthe CCENT show and start there.\n\n35\n00:02:05,510 --> 00:02:08,780\nThat's designed for people that have not\nworked with Cisco equipment before and\n\n36\n00:02:08,780 --> 00:02:10,540\nare just getting started.\n\n37\n00:02:10,540 --> 00:02:13,650\nBut if you've already got some experience\nwith Cisco equipment, if you've set up\n\n38\n00:02:13,650 --> 00:02:17,005\na few routers and switches,\nyou've already got that basic knowledge.\n\n39\n00:02:17,005 --> 00:02:20,270\nAnd you'll find that the CCENT\nmight be a little boring or\n\n40\n00:02:20,270 --> 00:02:22,830\nbeneath your knowledge level,\nbecause you've already done it.\n\n41\n00:02:22,830 --> 00:02:26,480\nAnd for you,\nyou can start right here in the CCNA.\n\n42\n00:02:26,480 --> 00:02:31,250\nJust understand that Cisco will assume\nyou have the knowledge of the CCENT.\n\n43\n00:02:31,250 --> 00:02:34,370\nSo I encourage you just to read over the\noutline for that exam, and just make sure\n\n44\n00:02:34,370 --> 00:02:38,250\nyou don't see anything in there that\njumps out at you as new or unexpected.\n\n45\n00:02:38,250 --> 00:02:41,585\nIf you see anything, maybe you just watch\nthose particular episodes of the CCENT.\n\n46\n00:02:42,730 --> 00:02:46,520\nSo, there are two different ways\nto get the CCNA routing and\n\n47\n00:02:46,520 --> 00:02:48,020\nswitching certification.\n\n48\n00:02:48,020 --> 00:02:51,890\nAnd it all comes down to whether\nyou have that CCENT or not.\n\n49\n00:02:51,890 --> 00:02:52,420\nAlright.\n\n50\n00:02:52,420 --> 00:02:53,780\nLet me show you what I mean.\n\n51\n00:02:53,780 --> 00:02:56,700\nHere's the Cisco webpage for\nthe CCNA routing and switching.\n\n52\n00:02:56,700 --> 00:02:58,580\nAnd you'll see it's\na mid-tier certification.\n\n53\n00:02:58,580 --> 00:03:02,240\nIt's above the CCENT, but\nnot at the professional level of a CCENP.\n\n54\n00:03:02,240 --> 00:03:07,770\nAnd for the exams,\nthere's two different exam scenarios.\n\n55\n00:03:07,770 --> 00:03:11,600\nIf you already have\nthe CCENT certification,\n\n56\n00:03:11,600 --> 00:03:13,690\nthat's this exam right here, the 100-101.\n\n57\n00:03:13,690 --> 00:03:18,820\nSo if you've completed that certification,\nthen you just need to do\n\n58\n00:03:18,820 --> 00:03:23,880\nthe 200-101 exam, or the ICND2 exam,\nand that will get you your CCNA.\n\n59\n00:03:24,980 --> 00:03:30,000\nIf you don't have your CCENT,\nthen you'll do the 200-120 exam.\n\n60\n00:03:30,000 --> 00:03:31,920\nThis guy right here.\n\n61\n00:03:31,920 --> 00:03:36,500\nAnd it's made up of questions\ndrawn from both exams,\n\n62\n00:03:36,500 --> 00:03:40,310\ndrawn from the 100-101 and the 200-101.\n\n63\n00:03:40,310 --> 00:03:44,140\nSo it's called a composite exam,\nit just combines them together.\n\n64\n00:03:45,180 --> 00:03:50,630\nNow, the composite exam is the same\ncost as adding these two together.\n\n65\n00:03:50,630 --> 00:03:53,690\nSo you don't save money by doing that,\nyou just save time.\n\n66\n00:03:53,690 --> 00:03:55,790\nThe exam, well, it takes time.\n\n67\n00:03:55,790 --> 00:03:58,020\nIt takes you going down to\nthe testing center and taking it.\n\n68\n00:03:58,020 --> 00:03:59,960\nSo, two exams versus one exam.\n\n69\n00:03:59,960 --> 00:04:01,830\nIt's just all about how\nmuch time you have.\n\n70\n00:04:01,830 --> 00:04:05,610\nPersonally, I encourage people\nto complete the CCENT first.\n\n71\n00:04:05,610 --> 00:04:09,220\nBut, while I do encourage people\nto do that, I didn't do it myself.\n\n72\n00:04:09,220 --> 00:04:12,640\nThe CCENT wasn't when I\ngot certified originally.\n\n73\n00:04:12,640 --> 00:04:15,690\nBut even today, I've never gone\nback to do it because, well,\n\n74\n00:04:15,690 --> 00:04:18,620\nonce you have the advanced\ncertifications you don't really need it.\n\n75\n00:04:18,620 --> 00:04:21,740\nBut it is great if you're getting\nstarted out because it gives you a nice\n\n76\n00:04:21,740 --> 00:04:23,620\neasy entry point into the certification.\n\n77\n00:04:24,850 --> 00:04:28,110\nNow the exam itself covers\na wide range of topics.\n\n78\n00:04:28,110 --> 00:04:31,400\nIt covers everything in the CCENT outline,\nand\n\n79\n00:04:31,400 --> 00:04:34,030\nthen it goes beyond that with\nthe advanced functionality.\n\n80\n00:04:34,030 --> 00:04:38,010\nAnd you're really just getting to larger\nnetworks in the CCNA side, and so\n\n81\n00:04:38,010 --> 00:04:41,500\nit's really working with\nthe same stuff from CCENT,\n\n82\n00:04:41,500 --> 00:04:43,820\njust making it a little more complex.\n\n83\n00:04:43,820 --> 00:04:44,860\nLet's look at the actual exam.\n\n84\n00:04:46,020 --> 00:04:52,150\nThe exam is between 50 and 60 questions,\nand it is only 75 minutes long.\n\n85\n00:04:52,150 --> 00:04:55,530\nNow that sounds like you get\nabout a minute per question,\n\n86\n00:04:55,530 --> 00:05:00,030\nwhich is enough for\na multiple choice question I suppose.\n\n87\n00:05:00,030 --> 00:05:02,600\nBut, you don't really have\na lot of time to dally.\n\n88\n00:05:02,600 --> 00:05:04,300\nYou need to know the right answer.\n\n89\n00:05:04,300 --> 00:05:06,690\nYou read the question, and you answer it.\n\n90\n00:05:06,690 --> 00:05:09,310\nYou don't sit there and think,\nwell let me see, is it like this?\n\n91\n00:05:09,310 --> 00:05:10,240\nIs it like that?\n\n92\n00:05:10,240 --> 00:05:13,865\nThey don't give you enough time to try and\nextrapolate an answer on your own.\n\n93\n00:05:13,865 --> 00:05:16,030\nYou gotta know it and move on.\n\n94\n00:05:16,030 --> 00:05:19,160\nThe other thing that makes it more\nchallenging is they're not just multiple\n\n95\n00:05:19,160 --> 00:05:20,000\nchoice questions.\n\n96\n00:05:20,000 --> 00:05:24,290\nYou'll see drag and drop questions,\nand you'll see stimulation questions.\n\n97\n00:05:24,290 --> 00:05:26,830\nOnes where they give you\na simulated set of routers or\n\n98\n00:05:26,830 --> 00:05:28,430\na stimulated set of switches.\n\n99\n00:05:28,430 --> 00:05:30,210\nAnd you have to troubleshoot or\n\n100\n00:05:30,210 --> 00:05:32,780\nconfigure some functionality\nthat they've described to you.\n\n101\n00:05:32,780 --> 00:05:34,740\nSo you've actually got to get in there and\ndo some work.\n\n102\n00:05:34,740 --> 00:05:36,700\nThose questions take some time.\n\n103\n00:05:36,700 --> 00:05:39,270\nAnd if you spend too long doing those,\n\n104\n00:05:39,270 --> 00:05:42,120\nyou might not be able to get to\nall the questions on the exam.\n\n105\n00:05:42,120 --> 00:05:46,310\nSo it is very important that you study,\nthat you practice, and\n\n106\n00:05:46,310 --> 00:05:48,450\nthat you're ready when you go\ninto that testing booth so\n\n107\n00:05:48,450 --> 00:05:50,169\nyou know the content\nthey're going to be asking.\n\n108\n00:05:51,670 --> 00:05:55,400\nThe exam is proctored through Pearson VUE,\nwhich is an international company.\n\n109\n00:05:55,400 --> 00:05:58,650\nThey have testing centers\nlocated all around the world and\n\n110\n00:05:58,650 --> 00:06:00,650\nmore than likely have one near you.\n\n111\n00:06:00,650 --> 00:06:04,080\nYou can find out by going to\nwww.pearsonvue.com/cisco.\n\n112\n00:06:04,080 --> 00:06:08,860\nThat'll take you to\ntheir page where you can\n\n113\n00:06:10,030 --> 00:06:13,970\ncheck for\na testing center that's nearest to you.\n\n114\n00:06:13,970 --> 00:06:17,230\nYou can register for the exam,\npay for it, go and take the exam.\n\n115\n00:06:17,230 --> 00:06:20,480\nAnd then when you pass,\nyou'll receive you'r CCNA certification.\n\n116\n00:06:20,480 --> 00:06:23,410\nNow the exam topics themselves,\n\n117\n00:06:23,410 --> 00:06:27,350\nI'll just scroll down here a little bit,\nare divided up into five areas.\n\n118\n00:06:27,350 --> 00:06:28,610\nWe start with switching.\n\n119\n00:06:28,610 --> 00:06:33,130\nThere's a lot of switching technologies\nthat didn't get addressed in\n\n120\n00:06:33,130 --> 00:06:34,380\nthe CCENT certification.\n\n121\n00:06:34,380 --> 00:06:38,770\nSo in CCENT, for example, we talked about\nspanning tree protocol a little bit.\n\n122\n00:06:38,770 --> 00:06:42,350\nAnd so we'll see more advanced\nspanning tree protocol here.\n\n123\n00:06:42,350 --> 00:06:44,480\nAs well as VLAN trunking protocol and\n\n124\n00:06:44,480 --> 00:06:48,310\nother technologies related to\nmore advanced functionality.\n\n125\n00:06:48,310 --> 00:06:51,480\nYou'll also get your first\nintroduction to layer three switching,\n\n126\n00:06:51,480 --> 00:06:53,510\nwhich are switches that act like routers.\n\n127\n00:06:53,510 --> 00:06:55,390\nAnd that's pretty neat stuff\ncuz we're seeing more and\n\n128\n00:06:55,390 --> 00:06:57,660\nmore of those out in the real world.\n\n129\n00:06:57,660 --> 00:06:59,070\nThen we go into routing.\n\n130\n00:06:59,070 --> 00:07:03,510\nAnd notice the routing and switching\ncombined makes up almost 50% of the exam.\n\n131\n00:07:03,510 --> 00:07:06,880\nSo about half of the exam is made\nup of practical configurations.\n\n132\n00:07:06,880 --> 00:07:09,660\nAnd on the routing side we start moving\ninto advanced routing protocols.\n\n133\n00:07:09,660 --> 00:07:14,770\nThings like EIGRP and OSPF, and\ngetting a chance to see how they work,\n\n134\n00:07:14,770 --> 00:07:16,890\nand how they optimize your network and\nmake decisions.\n\n135\n00:07:18,100 --> 00:07:19,530\nThen, we get into IP services.\n\n136\n00:07:19,530 --> 00:07:23,440\nNow, IP services makes up a smaller\nportion of the exam because, well,\n\n137\n00:07:23,440 --> 00:07:25,580\na lot of it was covered in CCENT.\n\n138\n00:07:25,580 --> 00:07:30,190\nBut the other IP services have kind\nof been shifted off to the CCNA\n\n139\n00:07:30,190 --> 00:07:33,620\nsecurity certification or\nwireless service provider.\n\n140\n00:07:33,620 --> 00:07:36,590\nSo they've kind of been moved over\nto those other certifications.\n\n141\n00:07:36,590 --> 00:07:39,350\nSo here it's more of a informational,\nyou know, making sure we\n\n142\n00:07:39,350 --> 00:07:42,280\nunderstand what are some of the different\nIP services that are available.\n\n143\n00:07:43,320 --> 00:07:44,380\nThen we got troubleshooting,\n\n144\n00:07:44,380 --> 00:07:47,750\nand make troubleshooting makes\nup one-third of the exam.\n\n145\n00:07:47,750 --> 00:07:51,890\nA big chunk of the exam\non just how to figure out\n\n146\n00:07:51,890 --> 00:07:55,890\nwhy something isn't working the way\nthat it should, and how to correct it.\n\n147\n00:07:55,890 --> 00:07:59,320\nAnd then we wrap it talking about wide\narea network, or WAN technologies.\n\n148\n00:07:59,320 --> 00:08:04,560\nWe get a chance to see things like frame\nrelay, get a little introduction on MPLS.\n\n149\n00:08:04,560 --> 00:08:07,180\nAnd a couple of the other\ntechnologies you might see out there\n\n150\n00:08:07,180 --> 00:08:08,780\nas you get connected to the Internet, or\n\n151\n00:08:08,780 --> 00:08:11,830\nat least get long distance connections\nbetween different locations.\n\n152\n00:08:11,830 --> 00:08:15,180\nSo, good information, definitely\nthings that we want to know, and\n\n153\n00:08:15,180 --> 00:08:19,655\nit's all gearing us up to be able\nto configure medium size network.\n\n154\n00:08:19,655 --> 00:08:24,500\nNetworks with a headquarters, the branch\noffices, with 10 to a 100 devices,\n\n155\n00:08:24,500 --> 00:08:28,520\nrouters and switches that are out there,\nand a pretty good size network.\n\n156\n00:08:28,520 --> 00:08:31,120\nSo, it's a great certification to get.\n\n157\n00:08:31,120 --> 00:08:34,050\nThis is normally the certification\nthat people target\n\n158\n00:08:34,050 --> 00:08:38,200\nwhen they're ready to go out there and\nget their first network administrator job.\n\n159\n00:08:38,200 --> 00:08:41,310\nPrior to this a lot of people\nwill have more generic type jobs,\n\n160\n00:08:41,310 --> 00:08:44,790\njobs where you're part system admin,\npart network admin.\n\n161\n00:08:44,790 --> 00:08:46,840\nBut once we start going all network,\n\n162\n00:08:46,840 --> 00:08:49,220\nCCNA is usually the first\nstep that gets us there.\n\n163\n00:08:49,220 --> 00:08:53,800\nSo it is a great certification, and\none that I really enjoyed myself.\n\n164\n00:08:53,800 --> 00:08:56,900\nWell if that sounds like something you\nwanna do, then you're in the right place.\n\n165\n00:08:56,900 --> 00:09:01,080\nStay tuned, we've got our CCNA\nepisodes coming up in just a moment.\n\n166\n00:09:01,080 --> 00:09:03,770\nIf, on the other hand,\nyou aren't in the right place,\n\n167\n00:09:03,770 --> 00:09:07,200\nif you wanna go check out the CCENT first,\ndefinitely do so.\n\n168\n00:09:07,200 --> 00:09:09,580\nIt's all part of your\nITProTV subscription, so\n\n169\n00:09:09,580 --> 00:09:12,380\njust jump right over there and\nwatch it, right?\n\n170\n00:09:12,380 --> 00:09:16,250\nSo for those of you that need to do that,\ngo ahead, no hard feelings there.\n\n171\n00:09:16,250 --> 00:09:19,160\nBut for those of you that are sticking\nwith me, well, stay tuned.\n\n172\n00:09:19,160 --> 00:09:21,436\nWe've got episodes coming up next.\n\n173\n00:09:21,436 --> 00:09:27,679\n[MUSIC]\n\n",
+          "url": "overview-ccna-routing-switching",
+          "vimeoId": "112925840"
+        }
+      ],
+      "title": "Overview of CCNA Routing and Switching (200-101)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don describe loop prevention on Cisco switches. They describe how Spanning Tree Protocol (IEEE 802.1d), Per VLAN Spanning Tree Protocol, Rapid Spanning Tree Protocol (IEEE 802.1w) operate and how it makes its decisions for loop prevention. They also demonstrate configuration of each protocol.\r\n",
+          "length": "5730",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/001-Switching-Technologies-sm.jpg",
+          "title": "Switching Technologies",
+          "transcript": "",
+          "url": "switching-technologies1",
+          "vimeoId": "79782059"
+        },
+        {
+          "description": "In this episode Ronnie and Don conclude with configuring Spanning Tree Protocol by demonstrating the way to manually elect the Root Bridge. They also describe and configure the different methods of EtherChannel (LACP, PAgP).",
+          "length": "5021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/002-Switching-Technologies-Pt-2-sm.jpg",
+          "title": "Switching Technologies Part 2",
+          "transcript": "",
+          "url": "switching-technologies-2",
+          "vimeoId": "79820533"
+        }
+      ],
+      "title": "LAN Switching Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don take a look at the boot up process of Cisco equipment and demonstrate some of the options to control boot up behavior.",
+          "length": "4411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/003-Router-Management-sm.jpg",
+          "title": "Router Management",
+          "transcript": "",
+          "url": "router-management",
+          "vimeoId": "80301256"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at the recovery and upgrade process for Cisco routers and switches. They also take a look at the new licensing model introduced in IOS 15.",
+          "length": "4990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/004-Router-Management-Pt-2-sm.jpg",
+          "title": "Router Management Part 2",
+          "transcript": "",
+          "url": "router-management-2",
+          "vimeoId": "80368850"
+        },
+        {
+          "description": "In this episode Ronnie and Don re-examine dynamic routing protocols and build on to the topics covered in the CCENT show. They cover administrative distance and loop prevention mechanisms as well as other routing topics.",
+          "length": "5019",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/005-Routing-Protocols-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "url": "routing-protocols",
+          "vimeoId": "80908575"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss the basics of OSPF routing protocol. They show how to configure and verify OSPF. They discuss single and multi-area OSPF and talk about its benefits.",
+          "length": "4799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/006-OSPF-Pt-1-sm.jpg",
+          "title": "OSPF",
+          "transcript": "",
+          "url": "ospf",
+          "vimeoId": "80916140"
+        },
+        {
+          "description": "In this episode Ronnie and Don take a look at using dynamic routing protocols with IPv6. They start with OSPFv3 and then demonstrate EIGRP using IPv6 also.",
+          "length": "2211",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/009-IPv6-Routing-sm.jpg",
+          "title": "IPv6 Routing",
+          "transcript": "",
+          "url": "ipv6-routing",
+          "vimeoId": "83598267"
+        },
+        {
+          "description": "In this episode Ronnie and Don introduce Enhanced Interior Gateway Routing Protocol (EIGRP). They discuss configuring the protocol and demonstrate some of the advance features and functionality of EIGRP.",
+          "length": "6664",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/014-EIGRP-sm.jpg",
+          "title": "EIGRP",
+          "transcript": "",
+          "url": "eigrp",
+          "vimeoId": "100210014"
+        }
+      ],
+      "title": "IP Routing Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don examine several IP services on Cisco routers. They start by demonstrating first hop redundancy protocols and wrap up taking a look at syslog and SNMP.",
+          "length": "4249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/008-First-Hop-Redundancy-sm.jpg",
+          "title": "First Hop Redundancy",
+          "transcript": "",
+          "url": "hop-redundancy",
+          "vimeoId": "83027970"
+        }
+      ],
+      "title": "IP Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don discuss troubleshooting methodologies and demonstrate troubleshooting and correcting issues with OSPF.",
+          "length": "6865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/011-Troubleshooting-Pt-1-sm.jpg",
+          "title": "Troubleshooting Part 1",
+          "transcript": "",
+          "url": "troubleshooting-theory-6",
+          "vimeoId": "84148008"
+        },
+        {
+          "description": "In this episode Ronnie and Don discuss troubleshooting EIGRP and demonstrate configuring and using Netflow for troubleshooting and reporting on a live network.",
+          "length": "3899",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/012-Troubleshooting-Pt-2-sm.jpg",
+          "title": "Troubleshooting Part 2",
+          "transcript": "",
+          "url": "troubleshooting-theory-7",
+          "vimeoId": "84155926"
+        },
+        {
+          "description": "In this episode Ronnie and Don tackle the final chapter in the troubleshooting trilogy by demonstrating issues on switches and layer 2 networks. They examine spanning tree protocol (STP), EtherChannel, VLAN trunking and router-on-a-stick.",
+          "length": "5478",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/013-Troubleshooting-Pt-3-sm.jpg",
+          "title": "Troubleshooting Part 3",
+          "transcript": "",
+          "url": "troubleshooting-theory-5",
+          "vimeoId": "84235299"
+        },
+        {
+          "description": "In this episode Ronnie and Don explore and troubleshoot the EIGRP dynamic routing protocol. They demonstrate basic configuration and show how to troubleshoot EIGRP.",
+          "length": "4742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/007-EIGRP-Troubleshooting-sm.jpg",
+          "title": "EIGRP Troubleshooting",
+          "transcript": "",
+          "url": "eigrp-troubleshooting",
+          "vimeoId": "89110586"
+        }
+      ],
+      "title": "Troubleshooting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don explore wide area network (WAN) technologies. They describe the common technologies found in the real world and then demonstrate configuring PPP, PPPoE and frame-relay.",
+          "length": "6442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccna/010-WAN-Technologies-sm.jpg",
+          "title": "WAN Technologies",
+          "transcript": "",
+          "url": "wan-technologies",
+          "vimeoId": "83598432"
+        }
+      ],
+      "title": "WAN Technologies"
+    }
+  ],
+  "url": "ccna-routing-switching",
+  "vLab": false
+}

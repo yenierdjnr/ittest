@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconLabs = props => {
+const IconLabs = (props) => {
   const { className='', fill='#FFFFFF' } = props;
 
   return (

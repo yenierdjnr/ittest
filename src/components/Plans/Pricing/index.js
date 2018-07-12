@@ -4,7 +4,7 @@ import { Enterprise, Free, Premium, Standard } from 'Components/CardPlan';
 import styles from './styles.module.scss';
 
 
-const Pricing = props => {
+const Pricing = (props) => {
   const { info:currentPricing } = props;
 
   return (

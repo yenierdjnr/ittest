@@ -1,0 +1,190 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems [reference]. As a result, the Microsoft Certified Solutions Associate (MCSA) is one of the first steps for those seeking to start a technical career. The MCSA: Windows 7 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+  "descriptionMD": "",
+  "length": "62889",
+  "name": "MCSA Windows 7 - 70-680",
+  "practiceExam": true,
+  "subtitle": "Windows 7, Configuring",
+  "tagUrl": "help-desk",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate (MCSA) is one of the first steps for those seeking to start a technical career. The MCSA: Windows 7 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops in a corporate or enterprise environment. Most people know how to use Windows in a home environment. However, there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives in to those and gives the learner a whole new toolbox for ensuring their computing environment is functional and stable.",
+          "length": "589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/001-Introduction-to-Windows-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/001-Introduction-to-Windows-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/001-Introduction-to-Windows-7-sm.jpg",
+          "title": "Introduction to Windows 7",
+          "transcript": "1\n00:00:00,025 --> 00:00:05,409\n[NOISE] We want to take a moment to talk\n\n2\n00:00:05,409 --> 00:00:10,254\nabout the 70-680 exam and\n\n3\n00:00:10,254 --> 00:00:14,745\nwhat it means to you, right.\n\n4\n00:00:14,745 --> 00:00:16,102\nSo Windows 7 and you.\n\n5\n00:00:16,102 --> 00:00:16,614\n[LAUGH]\n>> [LAUGH]\n\n6\n00:00:16,614 --> 00:00:19,310\n>> For those of you that are seeking\n\n7\n00:00:19,310 --> 00:00:24,090\nthe knowledge and\nvalidation that shows that you're aware\n\n8\n00:00:24,090 --> 00:00:28,910\nof how to work with Windows 7, well, the\nMicrosoft 70-680 exam is the one for you.\n\n9\n00:00:28,910 --> 00:00:32,960\nThis exam covers a wide variety of\ntopics pertaining to Windows 7,\n\n10\n00:00:32,960 --> 00:00:37,510\nand not just Windows 7 in terms of\nhow to use it like end user style,\n\n11\n00:00:37,510 --> 00:00:39,360\nbut network administrator style.\n\n12\n00:00:39,360 --> 00:00:43,940\nSo how to install and deploy Windows 7,\nhow to manage and maintain Windows 7 and\n\n13\n00:00:43,940 --> 00:00:47,310\nhow to secure it and\nkeep it operational in your environment.\n\n14\n00:00:47,310 --> 00:00:52,730\nThis is valuable information that anybody\nis going to need to work in a corporate or\n\n15\n00:00:52,730 --> 00:00:55,344\nenterprise environment where you're\nsupporting Windows 7 workstations.\n\n16\n00:00:56,602 --> 00:00:58,840\nAll right, so\nto get an idea of what the exam is like,\n\n17\n00:00:58,840 --> 00:01:01,990\nlet's take a look at the official\nMicrosoft page for the exam.\n\n18\n00:01:01,990 --> 00:01:03,470\nSo I've got it pulled up right here,\n\n19\n00:01:03,470 --> 00:01:06,140\nand you'll see some basic\ninformation about it.\n\n20\n00:01:06,140 --> 00:01:09,210\nThe actual title for\nthe exam is Windows 7, Configuring.\n\n21\n00:01:10,610 --> 00:01:13,460\nWhy they reversed these\nthings is beyond me.\n\n22\n00:01:13,460 --> 00:01:19,860\nBut it's nice because it is one set of\nobjectives, one exam, one certification.\n\n23\n00:01:19,860 --> 00:01:23,010\nWhen you pass this exam,\nyou get the MCTS, or\n\n24\n00:01:23,010 --> 00:01:26,590\nMicrosoft Certified Technology Specialist,\nin Windows 7.\n\n25\n00:01:26,590 --> 00:01:32,420\nThe exam objectives cover a variety of\nthings, and they break it down here.\n\n26\n00:01:32,420 --> 00:01:34,950\nLet me just collapse all these so\nwe can get the overviews.\n\n27\n00:01:34,950 --> 00:01:39,730\nAnd what you'll see looking at the list,\nis we've got things,\n\n28\n00:01:39,730 --> 00:01:43,700\nvery basic, installing, upgrading and\nmigrating to Windows 7.\n\n29\n00:01:43,700 --> 00:01:46,670\nAll right, well,\ninstalling Windows 7 is not very hard.\n\n30\n00:01:46,670 --> 00:01:50,120\nBut we'll see there's a variety of\nways to do it, and a variety of\n\n31\n00:01:50,120 --> 00:01:53,700\nconcerns we have depending on what\noperating system we may be coming from.\n\n32\n00:01:53,700 --> 00:01:57,657\nIf we're coming from Windows XP or\nVista or wherever, right?\n\n33\n00:01:59,370 --> 00:02:02,610\nWe'll also see other things\nlike Deploying Windows 7.\n\n34\n00:02:02,610 --> 00:02:05,140\nThis is talking about\nimage-based deployment.\n\n35\n00:02:05,140 --> 00:02:09,220\nSo if you've got a thousand workstations\nyou need to install Windows 7 on,\n\n36\n00:02:09,220 --> 00:02:10,920\nhow can we do that.\n\n37\n00:02:10,920 --> 00:02:14,560\n>> We also have the idea\nof configuring hardware and\n\n38\n00:02:14,560 --> 00:02:16,340\nother compatibility issues for us too.\n\n39\n00:02:16,340 --> 00:02:20,000\nA lot of times when you are actually\na network administrator,\n\n40\n00:02:20,000 --> 00:02:24,580\nyou're moving from earlier operating\nsystems and earlier applications and\n\n41\n00:02:24,580 --> 00:02:27,650\nwe need to make sure that we can\nensure that they work with Windows 7.\n\n42\n00:02:27,650 --> 00:02:30,471\nAnd so it gives us some different ways\nto be able to troubleshoot them and\n\n43\n00:02:30,471 --> 00:02:31,270\nto evaluate them and\n\n44\n00:02:31,270 --> 00:02:34,430\nsee if they're actually gonna be\nappropriate for our Windows 7 environment.\n\n45\n00:02:36,253 --> 00:02:37,650\n>> Yep.\n\n46\n00:02:37,650 --> 00:02:40,385\nAs well as we continue to move on.\n\n47\n00:02:40,385 --> 00:02:41,340\n[CROSSTALK]\n>> Yep, sorry.\n\n48\n00:02:41,340 --> 00:02:42,830\n>> I have no idea what's happened here.\n\n49\n00:02:42,830 --> 00:02:44,390\nBut my mouse is no longer working.\n\n50\n00:02:44,390 --> 00:02:50,730\n[LAUGH] It's lighting up, but it's not-\n>> Oh, yeah, it's not letting you click.\n\n51\n00:02:50,730 --> 00:02:54,345\n>> Yeah, I don't understand what I've\ndone, and I can't scroll anymore.\n\n52\n00:02:54,345 --> 00:03:01,715\n>> [LAUGH]\n>> It's like that web page locked up.\n\n53\n00:03:01,715 --> 00:03:04,450\nCuz outside of the browser\nit's working just fine, but\n\n54\n00:03:04,450 --> 00:03:05,890\ninside of the browser it was dead.\n\n55\n00:03:07,630 --> 00:03:08,689\nYou know what I might do?\n\n56\n00:03:08,689 --> 00:03:11,013\nI could probably just pull up,\nwell, no those are our own notes.\n\n57\n00:03:11,013 --> 00:03:13,230\nAll right.\n\n58\n00:03:13,230 --> 00:03:14,495\n>> [LAUGH]\n\n59\n00:03:21,418 --> 00:03:24,184\n>> Okay, Jason.\n\n60\n00:03:26,920 --> 00:03:28,740\nWe were only what,\nlike a minute or two into that?\n\n61\n00:03:28,740 --> 00:03:29,770\nWhy don't we just restart?\n\n62\n00:03:29,770 --> 00:03:30,270\n>> All right.\n\n63\n00:03:36,051 --> 00:03:40,200\n[COUGH] [LAUGH]\n>> Do you have it sorted out, or\n\n64\n00:03:40,200 --> 00:03:41,093\nwere you gonna?\n\n65\n00:03:41,093 --> 00:03:43,438\n>> Well, yeah it's working now.\n\n66\n00:03:43,438 --> 00:03:45,615\nWe'll see if it [CROSSTALK]\n>> If not,\n\n67\n00:03:45,615 --> 00:03:47,815\nI've got mine up on the same page so.\n\n68\n00:03:47,815 --> 00:03:48,419\n>> Okay, all right.\n\n69\n00:03:48,419 --> 00:03:49,011\n>> Maybe we can.\n\n70\n00:03:49,011 --> 00:03:52,052\n>> So, if I do like a thumbs down or\nwhatever,\n\n71\n00:03:52,052 --> 00:03:55,942\nwe'll cut to Ronnie's,\nbut otherwise I've got it.\n\n72\n00:03:55,942 --> 00:03:57,022\nOkay.\n\n73\n00:03:57,022 --> 00:03:58,496\nTake two.\n\n74\n00:03:58,496 --> 00:04:06,819\n[MUSIC]\n\n75\n00:04:06,819 --> 00:04:11,574\nIn this video we're gonna take\na look at the Microsoft 70-680 exam,\n\n76\n00:04:11,574 --> 00:04:14,800\nwhich is the Windows 7 configuring exam.\n\n77\n00:04:14,800 --> 00:04:19,190\nI like to refer to this as the show\nthat almost wasn't, right?\n\n78\n00:04:19,190 --> 00:04:24,680\nWhen ITProTV launched,\nwe launched in October of 2013,\n\n79\n00:04:24,680 --> 00:04:29,510\nand Windows 8 had just come out, and\nwe launched our Windows 8 training, and\n\n80\n00:04:29,510 --> 00:04:31,980\nwe said, you know what,\nlet's not go backwards.\n\n81\n00:04:31,980 --> 00:04:34,620\nLet's not do older software, older shows.\n\n82\n00:04:34,620 --> 00:04:37,190\nLet's just focus on\nthe newer technologies.\n\n83\n00:04:37,190 --> 00:04:40,250\nBut we've gotten such a demand for\nWindows 7, there's so\n\n84\n00:04:40,250 --> 00:04:42,455\nmany people out there\nthat still use it and\n\n85\n00:04:42,455 --> 00:04:47,530\nit's their mainstream OS that we really\ndo need to go back and cover it.\n\n86\n00:04:47,530 --> 00:04:51,860\nAnd so to do that we've brought in this\nshow right here, the Windows 7 show.\n\n87\n00:04:51,860 --> 00:04:56,230\nWe're gonna be tackling the 70-680 exam,\nwhich is one of the nicer ones because\n\n88\n00:04:56,230 --> 00:05:01,600\nit's one set of objectives,\none exam, one certification.\n\n89\n00:05:01,600 --> 00:05:07,930\nWhen you pass the 70-680 exam,\nyou get the MCTS in Windows 7 configuring.\n\n90\n00:05:07,930 --> 00:05:11,300\nThat's the Microsoft Certified\nTechnology Specialist.\n\n91\n00:05:11,300 --> 00:05:12,840\nIt's a quick certification.\n\n92\n00:05:12,840 --> 00:05:14,740\nYou jump in, you pass it,\nyou get it on your resume.\n\n93\n00:05:14,740 --> 00:05:15,720\nIt's a real benefit.\n\n94\n00:05:15,720 --> 00:05:19,570\nAll right, so let's take a look\nat some of the objectives that\n\n95\n00:05:19,570 --> 00:05:22,460\nare on this exam that are things that\nwe're gonna be covering in this show.\n\n96\n00:05:23,630 --> 00:05:27,780\nWell, the exam itself starts out where\nyou would logically think it would,\n\n97\n00:05:27,780 --> 00:05:31,850\ninstalling and upgrading, well,\nand migrating, to Windows 7.\n\n98\n00:05:31,850 --> 00:05:35,280\nIf you've got Windows XP,\nWindows Vista and\n\n99\n00:05:35,280 --> 00:05:37,940\nyou want to get on Windows 7,\nhow do you do it?\n\n100\n00:05:37,940 --> 00:05:39,640\nHow do you install it, how do you upgrade?\n\n101\n00:05:39,640 --> 00:05:40,920\nAnd so\nthat's were we kind of begin the show.\n\n102\n00:05:42,300 --> 00:05:45,240\n>> The second objective that you\nactually talk about here is the idea of\n\n103\n00:05:45,240 --> 00:05:46,600\ndeploying Windows 7.\n\n104\n00:05:46,600 --> 00:05:49,960\nNow if you're a standalone user you may\nnot have heard this term before, but\n\n105\n00:05:49,960 --> 00:05:52,860\nif you've been working in\nthe IT industry at all\n\n106\n00:05:52,860 --> 00:05:55,600\nwe tend to actually do what we\ncall image-based deployment.\n\n107\n00:05:55,600 --> 00:05:59,470\nAnd so in here we actually show\nhow to actually create an image.\n\n108\n00:05:59,470 --> 00:06:01,870\nHow do we add in information\nto that image, and\n\n109\n00:06:01,870 --> 00:06:04,370\nhow do we actually end up\npushing it out to computers.\n\n110\n00:06:04,370 --> 00:06:04,970\n>> Yeah.\n\n111\n00:06:04,970 --> 00:06:06,820\nAnd you know, the first one,\nthe first module,\n\n112\n00:06:06,820 --> 00:06:09,850\nthat's really talking about one machine.\n\n113\n00:06:09,850 --> 00:06:13,510\nBut the second module, that is hundreds,\nthousands of machines, right?\n\n114\n00:06:13,510 --> 00:06:16,160\nYou may have a very,\nvery large environment.\n\n115\n00:06:16,160 --> 00:06:19,350\nThe third section is configuring\nhardware and applications.\n\n116\n00:06:19,350 --> 00:06:22,720\nSo you've got Windows 7 installed,\nwhat do you do now?\n\n117\n00:06:22,720 --> 00:06:26,820\nWell, you likely have unique hardware,\nno two computers, well that's\n\n118\n00:06:26,820 --> 00:06:29,910\nnot necessarily true, but most computers\nhave [LAUGH] various configurations.\n\n119\n00:06:29,910 --> 00:06:34,310\nBut you also have various applications\nthat you use as part of your business and\n\n120\n00:06:34,310 --> 00:06:35,700\nyour day to day operations.\n\n121\n00:06:35,700 --> 00:06:37,230\nSo how do we get those configured,\n\n122\n00:06:37,230 --> 00:06:39,330\nhow do we get them running,\nand how do we support them?\n\n123\n00:06:40,380 --> 00:06:44,180\n>> And the next session here on\nconfiguring network connectivity.\n\n124\n00:06:44,180 --> 00:06:49,040\nThis is basic networking to ensure that\nour Windows 7 environment will again run\n\n125\n00:06:49,040 --> 00:06:53,450\non top of our infrastructure, making sure\nthat we're familiar not only with the IPv4\n\n126\n00:06:53,450 --> 00:06:57,490\ntechnologies, but as well as getting\nintroduced to the IPv6 technologies as\n\n127\n00:06:57,490 --> 00:07:00,770\nwell since we're actually moving fast\ntoward that particular migration.\n\n128\n00:07:02,510 --> 00:07:05,600\n>> All right, the next section is\nconfiguring access to resources.\n\n129\n00:07:05,600 --> 00:07:07,910\nIf you have files on your computer and\n\n130\n00:07:07,910 --> 00:07:10,960\nyou wanna share them with other people,\nhow do you do it?\n\n131\n00:07:10,960 --> 00:07:12,170\nIf you have a printer and\n\n132\n00:07:12,170 --> 00:07:15,820\nyou wanna make that printer available to\nmore than one machine, how do you do that?\n\n133\n00:07:15,820 --> 00:07:19,393\nSo we take a look at Windows 7 in\na workgroup or domain environment,\n\n134\n00:07:19,393 --> 00:07:23,470\nwhere we're sharing resources between\nsystems, and whenever you do that,\n\n135\n00:07:23,470 --> 00:07:28,014\nyou need to control access, so how do you\nlimit people's access to those resources?\n\n136\n00:07:28,014 --> 00:07:29,935\n>> Our next bigger objective here,\n\n137\n00:07:29,935 --> 00:07:34,395\non configuring mobile computing really\ndives into the world of a couple of new\n\n138\n00:07:34,395 --> 00:07:38,729\ntechnologies that again introduced\nwith Windows 7 and Server 2008.\n\n139\n00:07:38,729 --> 00:07:42,550\nWe talk a little bit about a technology\nthat we call BitLocker and\n\n140\n00:07:42,550 --> 00:07:47,410\nBitLocker To Go, as well as the idea\nof actually using direct access too.\n\n141\n00:07:47,410 --> 00:07:51,061\nAnd so along with that,\nof course, is the fast moving and\n\n142\n00:07:51,061 --> 00:07:53,685\nfast diving world of Windows mobility.\n\n143\n00:07:53,685 --> 00:07:54,875\n[LAUGH]\n>> Yeah.\n\n144\n00:07:54,875 --> 00:07:58,460\nYeah, these are all topics that\nreally pertain to laptop users.\n\n145\n00:07:58,460 --> 00:08:02,190\nPeople who might not be at the office,\nthey might be at home or out in the field.\n\n146\n00:08:02,190 --> 00:08:05,400\nMore and more people have laptops\ninstead of desktops, and so\n\n147\n00:08:05,400 --> 00:08:09,520\nMicrosoft has a dedicated\nsection addressing that.\n\n148\n00:08:09,520 --> 00:08:13,230\nAll right, next is monitoring and\nmaintaining systems that run Windows 7.\n\n149\n00:08:13,230 --> 00:08:18,290\nOnce we get everything set up and\noperational, how do we keep it that way?\n\n150\n00:08:18,290 --> 00:08:20,740\nHow do we recognize when\nthere's problems on the system?\n\n151\n00:08:20,740 --> 00:08:23,770\nHow do we know if our system is\nrunning slower than it used to or\n\n152\n00:08:23,770 --> 00:08:26,040\nif we just feel like it's running slower?\n\n153\n00:08:26,040 --> 00:08:27,210\nSo how do we monitor that,\n\n154\n00:08:27,210 --> 00:08:31,330\nhow do we maintain, how do we keep\nthat system running in tip-top shape?\n\n155\n00:08:31,330 --> 00:08:32,130\n>> Yeah.\n\n156\n00:08:32,130 --> 00:08:35,760\nAnd lastly of course is actually\nrealizing that at some point sometime,\n\n157\n00:08:35,760 --> 00:08:39,300\nhardware may fail us,\nif not will fail us here.\n\n158\n00:08:39,300 --> 00:08:42,870\nAnd so here we talk about the idea of\nactually being able to take a look\n\n159\n00:08:42,870 --> 00:08:46,620\nat some of the recovery options that have\nalways again been inside of Windows, and\n\n160\n00:08:46,620 --> 00:08:49,950\nespecially focusing in on the idea\nof backing up our computers.\n\n161\n00:08:49,950 --> 00:08:51,970\n>> Yeah, probably one of\nthe most important topics, right?\n\n162\n00:08:51,970 --> 00:08:54,370\nBecause when things fail and\n\n163\n00:08:54,370 --> 00:08:57,920\nthings go south, how fast can you get\nthem back up and operational again?\n\n164\n00:08:57,920 --> 00:08:59,600\nThat's what we tackle right up there.\n\n165\n00:08:59,600 --> 00:09:00,240\nAll right?\n\n166\n00:09:00,240 --> 00:09:03,330\nSo that's kind of a highlight\nof the Windows 7 objectives, and\n\n167\n00:09:03,330 --> 00:09:06,520\nyou'll see that these are these\nare a lot more than just,\n\n168\n00:09:06,520 --> 00:09:09,530\nhow do you fire up Internet Explorer,\nhow do you do end user stuff?\n\n169\n00:09:09,530 --> 00:09:14,760\nThis is, how do we run Windows 7 in\na corporate or enterprise environment?\n\n170\n00:09:14,760 --> 00:09:18,720\nThis is valuable knowledge for anybody\nwho wants to be a network administrator,\n\n171\n00:09:18,720 --> 00:09:21,290\na desktop engineer, even help desk.\n\n172\n00:09:21,290 --> 00:09:23,750\nThis is really where you get\nyour foundational knowledge for\n\n173\n00:09:23,750 --> 00:09:25,100\nhelp desk operations.\n\n174\n00:09:25,100 --> 00:09:27,340\nSo really good information\nto be found here.\n\n175\n00:09:27,340 --> 00:09:30,820\nIt's a great certification and it does\ngive you that foundational knowledge you\n\n176\n00:09:30,820 --> 00:09:33,090\nneed to deploy Windows 7 in a business.\n\n177\n00:09:33,090 --> 00:09:33,873\n>> Right.\n\n178\n00:09:33,873 --> 00:09:37,865\n>> All right, well, if that sounds like\nsomething that you're interested in,\n\n179\n00:09:37,865 --> 00:09:40,464\nstay tuned because we've\ngot more shows coming for\n\n180\n00:09:40,464 --> 00:09:43,138\nWindows 7 as we jump through\nall of our objectives.\n\n181\n00:09:43,138 --> 00:09:44,522\n[MUSIC]\n\n",
+          "url": "introduction-windows-7",
+          "vimeoId": "95897118"
+        }
+      ],
+      "title": "Overview of MCSA Windows 7 (70-680)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don start the Windows 7 series by walking through the installation requirements and process. They also demonstrate dual-booting and migrating user profiles.",
+          "length": "5818",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/002-Installing-Windows-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/002-Installing-Windows-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/002-Installing-Windows-7-sm.jpg",
+          "title": "Installing Windows 7",
+          "transcript": "",
+          "url": "installing-windows-7",
+          "vimeoId": "96743067"
+        }
+      ],
+      "title": "Installing, upgrading, and migrating to Windows 7"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nathan and Don discuss and show the Windows 7 imaging process, this the most common process for deploying Windows 7 in a business process. They talk about and demonstrate the entire process including using VHDs (Virtual Hard Disks) in the deployment.",
+          "length": "5028",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/003-Deploying-Windows-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/003-Deploying-Windows-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/003-Deploying-Windows-7-sm.jpg",
+          "title": "Deploying Windows 7",
+          "transcript": "",
+          "url": "deploying-windows-7",
+          "vimeoId": "95965602"
+        }
+      ],
+      "title": "Deploying Windows 7"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don continue the Windows 7 series by talking about the hardware and application compatibility issues when moving to a Windows 7 environment. They show what happens during a failed driver installation and how to create shims for applications. They also dive into the local group policy editor (gpedit.msc) to configure software restriction policies and AppLocker.",
+          "length": "6343",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/004-Configuring-Hardware-and-Applications.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/004-Configuring-Hardware-and-Applications-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/004-Configuring-Hardware-and-Applications-sm.jpg",
+          "title": "Configuring Hardware and Apps",
+          "transcript": "",
+          "url": "configuring-hardware-apps",
+          "vimeoId": "95897121"
+        }
+      ],
+      "title": "Configuring hardware and applications"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don describe what is need to put a Windows 7 computer on a network and basic networking concepts. They discuss and show how to configure IPv4 and IPv6 addresses in Windows 7.",
+          "length": "5652",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/007-Network-Connectivity.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/007-Network-Connectivity-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/007-Network-Connectivity-sm.jpg",
+          "title": "Network Connectivity",
+          "transcript": "",
+          "url": "network-connectivity-3",
+          "vimeoId": "95970763"
+        },
+        {
+          "description": "In this episode, Nate and Ronnie finish up network connectivity by taking a look at configuring the wireless NIC settings, they show the use of the control panel view of windows firewall and the Windows Firewall with Advanced Settings. They talk about some of the different ways to remotely manage Windows.",
+          "length": "4084",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/012-Network-Connectivity-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/012-Network-Connectivity-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/012-Network-Connectivity-Pt-2-sm.jpg",
+          "title": "Network Connectivity Part 2",
+          "transcript": "",
+          "url": "network-connectivity-2",
+          "vimeoId": "96013217"
+        }
+      ],
+      "title": "Configuring network connectivity"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Don tackle the most common user management tasks within a Windows 7. They demonstrate and discuss how to configure shared resources such as printers and folders. They also protect data through encrypting files and using NTFS permissions. They discuss what happens with permissions when moving and copying files.",
+          "length": "6161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/005-Configure-Access-to-Resources.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/005-Configure-Access-to-Resources-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/005-Configure-Access-to-Resources-sm.jpg",
+          "title": "Configuring Access to Resources",
+          "transcript": "",
+          "url": "configuring-access-resources",
+          "vimeoId": "95897122"
+        },
+        {
+          "description": "In this episode, Mike and Nate show how Windows 7 uses the User Account Control and how to control its behavior. They discuss authentication and authorization methods available in Windows 7 and demonstrate using BranchCache.",
+          "length": "6041",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/008-Configure-Access-to-Resources-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/008-Configure-Access-to-Resources-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/008-Configure-Access-to-Resources-Pt-2-sm.jpg",
+          "title": "Configure Access to Resources Part 2",
+          "transcript": "",
+          "url": "configure-access-resources-2",
+          "vimeoId": "95970772"
+        }
+      ],
+      "title": "Configuring access to resources"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Ronnie show the technologies involved with keeping Windows 7 protected and connected to our network resources. They show the use of BitLocker and BitLocker To Go as well DirectAccess and VPN connections.",
+          "length": "8131",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/010-Configure-Mobile-Computing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/010-Configure-Mobile-Computing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/010-Configure-Mobile-Computing-sm.jpg",
+          "title": "Configure Mobile Computing",
+          "transcript": "",
+          "url": "configure-mobile-computing",
+          "vimeoId": "96106520"
+        }
+      ],
+      "title": "Configuring mobile computing"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Ronnie, discuss and show the basic tasks of keeping Windows 7 operating by taking a look at the options found in Windows 7. They also show how Window 7 can manage multiple hard drive disks.",
+          "length": "4888",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/006-Monitoring-and-Maintenance.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/006-Monitoring-and-Maintenance-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/006-Monitoring-and-Maintenance-sm.jpg",
+          "title": "Monitoring and Maintaining",
+          "transcript": "",
+          "url": "monitoring-maintaining-3",
+          "vimeoId": "95897123"
+        },
+        {
+          "description": "In this episode Nate and Wes take a look at monitoring Windows 7 through various tools included by default in a typical Windows installation. They demonstrate configuring event subscriptions and data collector sets as well as interpreting their output. They also discuss performance settings such as page files, hard drive cache and power plans.",
+          "length": "6297",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/009-Monitoring-and-Maintaining-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/009-Monitoring-and-Maintaining-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/009-Monitoring-and-Maintaining-Pt-2-sm.jpg",
+          "title": "Monitoring and Maintaining Part 2",
+          "transcript": "",
+          "url": "monitoring-maintaining-2",
+          "vimeoId": "96077343"
+        }
+      ],
+      "title": "Monitoring and maintaining systems that run Windows 7"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Nate and Ronnie talk about the importance of backups for Windows 7 and the built options available. They show the use of system restore points and restoring previous versions of files as well.",
+          "length": "3857",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/011-Backup-and-Recovery-Options.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/011-Backup-and-Recovery-Options-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70680/011-Backup-and-Recovery-Options-sm.jpg",
+          "title": "Backup and Recovery Options",
+          "transcript": "",
+          "url": "backup-recovery-options",
+          "vimeoId": "95970767"
+        }
+      ],
+      "title": "Configuring backup and recovery options"
+    }
+  ],
+  "url": "mcsa-windows-7",
+  "vLab": false
+}

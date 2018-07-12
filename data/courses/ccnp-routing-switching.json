@@ -1,0 +1,741 @@
+{
+  "description": "Those looking to complete the Cisco Certified Network Professional (CCNP) Routing and Switching certification will find in this course an overview of the process in achieving the certification and details about the 300-101 Route exam for implementing Cisco IP routing, which is one of three exams required to pass in order to receive the certification. The exam focuses on Cisco router implementation in medium and large environments and the exam objectives cover a wide range of topics including Layer 3 technologies, Infrastructure services and security, and others, which can also benefit those continuing to pursue the CCIE certification.",
+  "descriptionMD": "",
+  "length": "130340",
+  "name": "CCNP Routing and Switching - ROUTE",
+  "practiceExam": true,
+  "subtitle": "Implementing Cisco IP Routing",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCNP certification helps one when in the environment of working with hundreds of switches or routers and to achieve it, one will first need to have already achieved the CCENT and the CCNA certifications as a prerequisite. Viewers will hear an overview about the knowledge one needs to attain the CCNP certification, about the three exams one will need to take and the 300-101 Route exam objectives for implementing Cisco IP routing.",
+          "length": "847",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/001-Intro-To-CCNP-Route.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/001-Intro-To-CCNP-Route-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/001-Intro-To-CCNP-Route-sm.jpg",
+          "title": "Overview of CCNP Route",
+          "transcript": "1\n00:00:00,000 --> 00:00:08,175\n[MUSIC]\n\n2\n00:00:08,175 --> 00:00:09,388\nThe CCNP Routing and\n\n3\n00:00:09,388 --> 00:00:14,270\nSwitching certification is\nthe Cisco Certified Network Professional.\n\n4\n00:00:14,270 --> 00:00:17,790\nIt's the next step in most people's\ncareers after they achieve their CCNA,\n\n5\n00:00:17,790 --> 00:00:22,600\nthe Cisco Certified Network Associate,\nand possibly some of the specializations.\n\n6\n00:00:22,600 --> 00:00:23,740\nBut the CCNP Routing and\n\n7\n00:00:23,740 --> 00:00:27,990\nSwitching really builds off of the,\nwell, CCNA Routing and Switching.\n\n8\n00:00:27,990 --> 00:00:33,290\nAnd it basically takes our network\nknowledge from just a handful of devices\n\n9\n00:00:33,290 --> 00:00:34,880\nto something much larger.\n\n10\n00:00:34,880 --> 00:00:37,770\nRight Ronnie, so in CCNA, how many\ndevices are we really talking about?\n\n11\n00:00:37,770 --> 00:00:41,320\n>> We normally end up talking about\ntwo routers, or maybe three routers,\n\n12\n00:00:41,320 --> 00:00:45,530\nand a couple of switches, when we start\nworking with the devices themselves.\n\n13\n00:00:45,530 --> 00:00:48,270\nMaking sure first of all,\nthey can have basic connectivity, and\n\n14\n00:00:48,270 --> 00:00:50,700\nthat we can configure those devices.\n\n15\n00:00:50,700 --> 00:00:52,910\nOnce we start doing that,\nwe then connect them to routers.\n\n16\n00:00:52,910 --> 00:00:56,070\nAgain, multiple routers, making sure that\nthey can communicate with each other.\n\n17\n00:00:56,070 --> 00:01:00,340\nBut really building a small to medium\nsize network is what we normally hear\n\n18\n00:01:00,340 --> 00:01:02,010\nthe term being in CCNA.\n\n19\n00:01:02,010 --> 00:01:02,760\n>> For a lot of people,\n\n20\n00:01:02,760 --> 00:01:07,040\nthe knowledge you gain from CCNA gets\nyou ready to set up branch offices.\n\n21\n00:01:07,040 --> 00:01:08,650\nBut what if you're not\nworking in a branch office?\n\n22\n00:01:08,650 --> 00:01:10,820\nWhat if you're working in\nthe headquarters, the big node?\n\n23\n00:01:10,820 --> 00:01:13,290\nYou got hundreds of routers or\nhundreds of switches.\n\n24\n00:01:13,290 --> 00:01:16,120\nThat's where CCNP Routing and\nSwitching comes in.\n\n25\n00:01:16,120 --> 00:01:21,229\nAnd the exam that we're about to\nprepare for is the 300-101 route exam.\n\n26\n00:01:21,229 --> 00:01:24,670\nIt's got a very simple name,\nImplementing Cisco IP Routing.\n\n27\n00:01:24,670 --> 00:01:27,080\nAnd what it is does is it\nfocuses solely on routers.\n\n28\n00:01:27,080 --> 00:01:31,260\nThat's different than the CCNA,\nwhere we tackled them all kinda together.\n\n29\n00:01:31,260 --> 00:01:35,880\nUnder CCNP, we do routing,\nswitching, and troubleshooting.\n\n30\n00:01:35,880 --> 00:01:37,250\nIt's three separate exams,\n\n31\n00:01:37,250 --> 00:01:40,940\nthree separate areas, and\nthat let's us really drill down.\n\n32\n00:01:40,940 --> 00:01:44,592\nWe take all the same concepts that\nyou've already learned about in CCNA, or\n\n33\n00:01:44,592 --> 00:01:45,684\nthat you should have.\n\n34\n00:01:45,684 --> 00:01:48,190\nYou can't get your CCNP\nwithout a CCNA first.\n\n35\n00:01:48,190 --> 00:01:51,934\nWe take those same concepts, and then we\ngo much deeper, and look at the advanced\n\n36\n00:01:51,934 --> 00:01:55,570\nconsiderations we have when we\nhave large amounts of equipment.\n\n37\n00:01:55,570 --> 00:01:58,840\nThis gets you ready for the enterprise and\nhome office type model.\n\n38\n00:01:58,840 --> 00:02:00,590\nI shouldn't say home office.\n\n39\n00:02:00,590 --> 00:02:01,670\nThat makes me think of my home.\n\n40\n00:02:01,670 --> 00:02:03,070\nI mean like, headquarters.\n\n41\n00:02:04,320 --> 00:02:06,570\nLet's talk a little bit about this exam.\n\n42\n00:02:06,570 --> 00:02:09,450\nIf you go to Cisco's website,\nI've got it pulled up here.\n\n43\n00:02:09,450 --> 00:02:13,210\nThis is their CCNP Routing and\nSwitching page, and\n\n44\n00:02:13,210 --> 00:02:17,757\nthe way I get here is I just\ntype www.cisco.com/go/CCNP,\n\n45\n00:02:17,757 --> 00:02:22,830\n/go is their little alias folder and\n/CCNP sends you in here.\n\n46\n00:02:22,830 --> 00:02:26,133\nThey just kind of show that you\nshould already have your CCNA.\n\n47\n00:02:26,133 --> 00:02:29,021\nYou've got to have that to\nprogress to CCNP, and then for\n\n48\n00:02:29,021 --> 00:02:32,220\nmost people the next step is CCIE,\nthe high level.\n\n49\n00:02:32,220 --> 00:02:36,370\nBut in the CCNP, you've got three exams,\nroute, switch and t-shoot.\n\n50\n00:02:36,370 --> 00:02:38,120\nAnd we're about to cover route.\n\n51\n00:02:39,140 --> 00:02:44,030\nSo nice to be able to break that down and\nlook at just the routing piece.\n\n52\n00:02:44,030 --> 00:02:48,150\nThe exam itself is very similar to\nthe other Cisco exams you may have taken.\n\n53\n00:02:48,150 --> 00:02:48,790\nIt's 120 minutes.\n\n54\n00:02:48,790 --> 00:02:55,820\nYou get two hours, which is not a ton of\ntime, and then you get 45 to 65 questions.\n\n55\n00:02:55,820 --> 00:02:58,860\nThat's a huge gap right there,\n20 question gap.\n\n56\n00:02:58,860 --> 00:03:02,970\nThat means your exam could be up\nto a third shorter than somebody\n\n57\n00:03:02,970 --> 00:03:06,230\nsitting next to you,\nin terms of the number of questions.\n\n58\n00:03:06,230 --> 00:03:09,260\nBut they're all two hours,\nbecause of the labs.\n\n59\n00:03:09,260 --> 00:03:12,680\nSome of the interactive labs in the exam\nare more challenging than others, and\n\n60\n00:03:12,680 --> 00:03:13,930\nthey take more time.\n\n61\n00:03:13,930 --> 00:03:16,770\nYou may have more lab\nquestions than your neighbor.\n\n62\n00:03:16,770 --> 00:03:19,720\nYour neighbor might have less than you,\nor more multiple choice questions, so\n\n63\n00:03:19,720 --> 00:03:21,400\nthey kind of balance out.\n\n64\n00:03:21,400 --> 00:03:24,290\nThat's why there's such a variation\nin the number of exams.\n\n65\n00:03:26,100 --> 00:03:27,730\nExams are all proctored\nthrough Pearson VUE.\n\n66\n00:03:27,730 --> 00:03:29,158\nIf you wanna sign up for the exam,\n\n67\n00:03:29,158 --> 00:03:31,760\nyou've got to go to\nthe Pearson VUE website and do it.\n\n68\n00:03:31,760 --> 00:03:34,160\nCisco tests exclusively with Pearson VUE.\n\n69\n00:03:34,160 --> 00:03:36,300\nYou can't do it with\nlike Sylvan Prometric or\n\n70\n00:03:36,300 --> 00:03:39,660\nthe other testing vendors,\nyou've got to go to Pearson VUE.\n\n71\n00:03:39,660 --> 00:03:42,390\nFortunately, there's Pearson VUE\ncenters all over the world.\n\n72\n00:03:42,390 --> 00:03:44,794\nIt's not like you've got to\ngo to Cisco headquarters, or\n\n73\n00:03:44,794 --> 00:03:47,455\na Cisco authorized training provider,\nor anything like that.\n\n74\n00:03:47,455 --> 00:03:50,140\nYou can just go to your nearest\nVUE center and take the exam.\n\n75\n00:03:51,820 --> 00:03:54,920\nNow, the exam itself,\nbe aware of a couple of things.\n\n76\n00:03:54,920 --> 00:03:56,240\nFirst off, this is the 300-101.\n\n77\n00:03:56,240 --> 00:04:00,520\nWhen you’re out there getting ready for\nit, you’ll come across another number and,\n\n78\n00:04:00,520 --> 00:04:01,820\nin fact, did they list it back here?\n\n79\n00:04:01,820 --> 00:04:04,140\nI don’t think they did.\n\n80\n00:04:04,140 --> 00:04:05,905\nLet me go to that, oops.\n\n81\n00:04:05,905 --> 00:04:07,630\n>> [LAUGH]\n>> I don’t wanna go back too far.\n\n82\n00:04:07,630 --> 00:04:12,720\nWhat you’ll see is that the CCNP was\nrecently updated to version 2.0.\n\n83\n00:04:12,720 --> 00:04:18,200\nIt was version 1.1 before that, and really\n1.0 to 1.1, they didn't change the exams.\n\n84\n00:04:18,200 --> 00:04:22,930\nIt had the same exam for a long time,\nfor seems like four years.\n\n85\n00:04:22,930 --> 00:04:24,510\nIt was a long time.\n\n86\n00:04:24,510 --> 00:04:28,780\nAnd that means that there are a ton of\nbooks and training materials that are out\n\n87\n00:04:28,780 --> 00:04:32,800\nthere, that are built upon the 1.0 and\n1.1 curriculum, and not the 2.0.\n\n88\n00:04:32,800 --> 00:04:35,730\nWell, depending on when\nyou're watching this series,\n\n89\n00:04:35,730 --> 00:04:39,900\nif you're watching this live right now,\nthe 1.1 exam is still active.\n\n90\n00:04:39,900 --> 00:04:43,680\nWhen you go to sign up for it,\nyou can actually still sign up for\n\n91\n00:04:43,680 --> 00:04:45,730\nthe older exams.\n\n92\n00:04:45,730 --> 00:04:50,090\nLet me do a search for\nthe CCNP route class.\n\n93\n00:04:50,090 --> 00:04:52,000\nThe class that they do.\n\n94\n00:04:52,000 --> 00:04:54,370\nAnd well that's Global Knowledge,\nis not who I wanted.\n\n95\n00:04:54,370 --> 00:04:55,950\nI want Cisco.\n>> There we go.\n\n96\n00:04:55,950 --> 00:04:57,030\n>> If we go to Cisco's.\n\n97\n00:04:57,030 --> 00:04:58,741\nOh, that just took me right\nback to the same page.\n\n98\n00:04:58,741 --> 00:05:02,300\nOh, if I just scroll down,\nsee there we go.\n\n99\n00:05:02,300 --> 00:05:03,820\nNotice here, for the required exams for\n\n100\n00:05:03,820 --> 00:05:07,770\nthe CCNP, you've got to do route,\nswitch, and tshoot.\n\n101\n00:05:07,770 --> 00:05:09,650\nBut see how there's two exams.\n\n102\n00:05:09,650 --> 00:05:15,544\n642-902, that's the 1.0, 1.1 exam.\n\n103\n00:05:15,544 --> 00:05:19,363\nLast data test is January 29th, 2015.\n\n104\n00:05:19,363 --> 00:05:22,970\nWe're filming this in October of 2014,\nso that's three more months.\n\n105\n00:05:22,970 --> 00:05:24,680\nYou could still get in and do that.\n\n106\n00:05:24,680 --> 00:05:26,570\nIf you've got a bunch of materials\nthat are built off of the old\n\n107\n00:05:26,570 --> 00:05:28,370\ncontent, that's fine.\n\n108\n00:05:28,370 --> 00:05:31,290\nAnd if you watch our new content,\nyou'll actually get you ready for\n\n109\n00:05:31,290 --> 00:05:32,590\nthe old exam too, just as well,\n\n110\n00:05:32,590 --> 00:05:35,990\nwe just cover some additional things\nthat aren't on that exam yet.\n\n111\n00:05:35,990 --> 00:05:40,555\nBut, if you're moving forward,\nyou really need to do the new exam.\n\n112\n00:05:40,555 --> 00:05:45,140\nThey'll both give you the same CCNP,\nthey'll both expire in two years.\n\n113\n00:05:45,140 --> 00:05:48,460\nYou gotta do continuing education, so\nyou have to re-up every two years.\n\n114\n00:05:48,460 --> 00:05:50,780\nDoesn't matter whether you did\nthe old exam or the new exam.\n\n115\n00:05:50,780 --> 00:05:52,430\nCisco doesn't get particular like that.\n\n116\n00:05:53,610 --> 00:05:56,370\nBut, if you're just starting out,\ndefinitely do the new one,\n\n117\n00:05:56,370 --> 00:06:00,350\nbecause after January 29, 2015,\nyou can't take the old one anymore.\n\n118\n00:06:00,350 --> 00:06:04,890\nAnd so if you prepared for the older exam\nand now you missed that date, you've gotta\n\n119\n00:06:04,890 --> 00:06:08,240\nkind of start over and pick up all the\ndifferences to get to the new end date.\n\n120\n00:06:08,240 --> 00:06:09,740\nIt'll make life harder\non you than it should.\n\n121\n00:06:11,180 --> 00:06:14,244\nAnd you'll see all the exams\nhave been updated, switch and\n\n122\n00:06:14,244 --> 00:06:17,440\ntshoot, which we're not\ncovering in this series.\n\n123\n00:06:17,440 --> 00:06:20,574\nOn the round side,\nwe're really focused on that 300-101.\n\n124\n00:06:20,574 --> 00:06:26,680\nAnd the 300-101 objectives are focused\nspecifically on routing topics.\n\n125\n00:06:26,680 --> 00:06:29,710\nAnd you'll see that it\nstarts out really low level.\n\n126\n00:06:29,710 --> 00:06:32,510\nGeneral concepts that you should\nalready be familiar with.\n\n127\n00:06:33,850 --> 00:06:37,250\nThe thing is, you should already be\na CCNA, but when did you get it?\n\n128\n00:06:37,250 --> 00:06:39,280\nYou could have got it years ago, you know?\n\n129\n00:06:39,280 --> 00:06:40,450\nMaybe you don't use Cisco everyday.\n\n130\n00:06:40,450 --> 00:06:43,320\nThis information gets\nkind of out of your head.\n\n131\n00:06:43,320 --> 00:06:44,910\nWe covered that in\nthe beginning as a refresher.\n\n132\n00:06:46,830 --> 00:06:48,010\nAfter that we go into Layer 2.\n\n133\n00:06:48,010 --> 00:06:51,450\nNow you might be saying to yourself, wait\na minute Don, didn't you just say this was\n\n134\n00:06:51,450 --> 00:06:55,160\na route show, a route exam, why would\nwe talk about Layer 2 technologies?\n\n135\n00:06:55,160 --> 00:06:58,390\nWell, even though our\nrouter operates at Layer 3,\n\n136\n00:06:58,390 --> 00:07:01,100\nwhat's going on at Layer\n2 makes a difference.\n\n137\n00:07:01,100 --> 00:07:04,020\nAnd so you'll see inside of Layer 2\ntechnologies where it starts to break\n\n138\n00:07:04,020 --> 00:07:08,250\ndown things like PPP and Chap,\nwhich your router might need to\n\n139\n00:07:08,250 --> 00:07:12,880\nparticipate in as part of a WAN link,\nor frame relay, for example.\n\n140\n00:07:12,880 --> 00:07:16,050\nYou don't do frame relay to a switch,\nwhich is a Layer 2 device.\n\n141\n00:07:16,050 --> 00:07:19,530\nYou do frame, well I guess, if you\nhad frame relay switch you would, but\n\n142\n00:07:19,530 --> 00:07:21,510\na normal Ethernet switch you wouldn't.\n\n143\n00:07:21,510 --> 00:07:24,300\nBut you do terminate\nframe relay on a router.\n\n144\n00:07:24,300 --> 00:07:24,930\nAnd so\n\n145\n00:07:24,930 --> 00:07:29,010\nwe need to understand how that works in\nthose Layer 2 sides of that technology.\n\n146\n00:07:30,200 --> 00:07:33,240\nNow some of that, like frame relay,\nused to be covered in-depth in CCNA.\n\n147\n00:07:33,240 --> 00:07:36,620\nAnd they started to phase some of that\nout of there and move it up to CCNP,\n\n148\n00:07:36,620 --> 00:07:39,604\nbecause it's less likely that people\nin a branch are gonna encounter that.\n\n149\n00:07:39,604 --> 00:07:41,780\nThey've all switched to cable,\nDSL or whatever.\n\n150\n00:07:44,370 --> 00:07:46,110\nWe've got Layer 3 technologies\nwhat comes up next.\n\n151\n00:07:46,110 --> 00:07:49,566\nAnd on the Layer 3 notice\nthese exam percentages.\n\n152\n00:07:49,566 --> 00:07:50,834\n>> [LAUGH]\n>> 10%, 10%,\n\n153\n00:07:50,834 --> 00:07:53,750\n40% of the exam comes\nfrom this one section.\n\n154\n00:07:53,750 --> 00:07:56,155\nAlmost half the exam is right from here.\n\n155\n00:07:56,155 --> 00:07:57,083\nIt's routing right?\n\n156\n00:07:57,083 --> 00:07:58,511\nLayer 3.\n\n157\n00:07:58,511 --> 00:08:02,995\nAnd if you look at what's inside of there,\nit's stuff that well, that you'd expect.\n\n158\n00:08:02,995 --> 00:08:06,935\nWe can see things like understanding\nIP addressing, VOSM, ARP,\n\n159\n00:08:06,935 --> 00:08:08,765\nDHCP all that good stuff.\n\n160\n00:08:08,765 --> 00:08:10,345\nWe've got IPv6 addressing.\n\n161\n00:08:10,345 --> 00:08:14,105\nNotice the exam pretty much\ntreats them equally now.\n\n162\n00:08:14,105 --> 00:08:17,190\nYou used to get just a little\nbit of IPv6 on the exam.\n\n163\n00:08:17,190 --> 00:08:18,510\nNow you get a lot of it.\n\n164\n00:08:18,510 --> 00:08:19,990\nThat's the way that we're moving forward.\n\n165\n00:08:19,990 --> 00:08:21,740\nYou need to understand it.\n\n166\n00:08:21,740 --> 00:08:23,550\nAfter that we've got\nour routing protocols.\n\n167\n00:08:23,550 --> 00:08:27,370\nWe've got static routing,\ndefault routing, our different types,\n\n168\n00:08:27,370 --> 00:08:31,850\nand then we jump into EIGRP in OSPF and\nBGP.\n\n169\n00:08:33,280 --> 00:08:36,910\nNow EIGRP in OSPF,\nyou've already learned about in the CCNA.\n\n170\n00:08:36,910 --> 00:08:40,320\nWe go further and show some of\nthe more advanced configurations.\n\n171\n00:08:40,320 --> 00:08:42,350\nBGP-\n>> I haven't seen.\n\n172\n00:08:42,350 --> 00:08:44,655\n>> Actually,\ndo they cover that in the newest?\n\n173\n00:08:44,655 --> 00:08:45,380\n>> No.\n>> No, still no.\n\n174\n00:08:45,380 --> 00:08:48,470\nI knew they were flashing out the CCNA so\nyou never know.\n\n175\n00:08:48,470 --> 00:08:49,820\nBut yeah, for\n\n176\n00:08:49,820 --> 00:08:53,300\nBGP, for a lot of you, this might be\nthe first time you're exposed to it.\n\n177\n00:08:53,300 --> 00:08:56,170\nAnd the Border Gateway Protocol,\nboy that thing is important, so\n\n178\n00:08:56,170 --> 00:08:58,540\nwe'll get a chance to see that and\nstart to work with it.\n\n179\n00:08:58,540 --> 00:09:02,840\nThere's also some really cool\nstuff that I enjoy like VRF.\n\n180\n00:09:02,840 --> 00:09:07,120\nTaking one physical router and\ndividing it into multiple virtual routers.\n\n181\n00:09:07,120 --> 00:09:10,400\nThat used to be ISP level stuff,\nbut now we can do it\n\n182\n00:09:10,400 --> 00:09:14,790\nhere inside a CCNP at the regular\nenterprise level and it's the neat stuff!\n\n183\n00:09:14,790 --> 00:09:17,860\nYou can do some really cool things\nwith VRF, but if you're doing MPLS,\n\n184\n00:09:17,860 --> 00:09:20,380\nthat's where VRF really comes in handy.\n\n185\n00:09:20,380 --> 00:09:24,754\nBut you'll see all the different route\ntopics, and just look at that exam and\n\n186\n00:09:24,754 --> 00:09:28,340\nbe like, if it's huge, with all\nthe different things that get covered.\n\n187\n00:09:28,340 --> 00:09:30,970\nAnd really valuable stuff, so\nthat will be a huge section for this show.\n\n188\n00:09:33,620 --> 00:09:35,370\nAfter that, we've got VPN technologies.\n\n189\n00:09:35,370 --> 00:09:39,450\nNow Cisco really wants you\nto terminate VPNs on an ASA.\n\n190\n00:09:39,450 --> 00:09:41,410\nOn their firewall appliances.\n\n191\n00:09:41,410 --> 00:09:43,150\nBut your routers can build a VPN.\n\n192\n00:09:43,150 --> 00:09:47,340\nAnd so we'll take a look at things\nlike dynamic VPNs, the easy VPN, or\n\n193\n00:09:47,340 --> 00:09:52,030\neasy virtual networking is what it's\ncalled now, GRE tunnels, we'll get\n\n194\n00:09:52,030 --> 00:09:55,310\na chance to see those, how they work,\nand how we can use them on our routers.\n\n195\n00:09:55,310 --> 00:09:57,340\nYou may not use that in production, but\n\n196\n00:09:57,340 --> 00:09:59,240\nit's important to understand\nthat the feature is there and\n\n197\n00:09:59,240 --> 00:10:02,990\nunderstand how to use it, so that you know\nwhether or not it's the right fit for you.\n\n198\n00:10:05,270 --> 00:10:07,180\nAfter that,\nwe've got Infrastructure Security,\n\n199\n00:10:07,180 --> 00:10:10,620\nwhere we start to take a look\nat securing our devices.\n\n200\n00:10:10,620 --> 00:10:14,680\nIf you did the CCNA Security,\nyou already got a preview of some of this.\n\n201\n00:10:14,680 --> 00:10:17,300\nHow to use RADIUS to\nauthenticate on your routers.\n\n202\n00:10:17,300 --> 00:10:20,020\nHow to secure your VTYs, and so on.\n\n203\n00:10:20,020 --> 00:10:24,060\nBut if you didn't do CCNA Security,\nhere's your first exposure to it.\n\n204\n00:10:24,060 --> 00:10:27,500\nWe need to understand how to properly\nsecure our routers to prevent attacks.\n\n205\n00:10:28,980 --> 00:10:31,080\nAnd then lastly, Infrastructure Services.\n\n206\n00:10:31,080 --> 00:10:34,980\nThis is what I call the leftovers right.\n\n207\n00:10:34,980 --> 00:10:38,720\nAll the other cool junk you can do on\nyour router that they didn't include\n\n208\n00:10:38,720 --> 00:10:41,210\nin the other modules cuz\nthey just didn't quite fit.\n\n209\n00:10:41,210 --> 00:10:42,190\nAnd so, they throw it in here.\n\n210\n00:10:42,190 --> 00:10:43,630\nAnd that doesn't mean\nthis stuff is worthless.\n\n211\n00:10:43,630 --> 00:10:44,220\nIt's good stuff.\n\n212\n00:10:44,220 --> 00:10:45,790\nThis is my favorite section.\n\n213\n00:10:45,790 --> 00:10:49,970\nCuz you start getting into things\nlike using SCP to securely copy data,\n\n214\n00:10:49,970 --> 00:10:54,190\nand how to configure SNMP logging,\nnetwork time protocol,\n\n215\n00:10:54,190 --> 00:10:56,370\nall this other really good stuff.\n\n216\n00:10:56,370 --> 00:11:00,060\nIPSLAs, netflow, really fun stuff.\n\n217\n00:11:00,060 --> 00:11:01,940\nYou guys, you'll really enjoy\nthat section at the end,\n\n218\n00:11:01,940 --> 00:11:04,760\nbecause it's just cool technology\nafter cool technology.\n\n219\n00:11:04,760 --> 00:11:06,740\nThat's kind of how we wrap it up.\n\n220\n00:11:06,740 --> 00:11:10,300\nBut you'll see that all of this\nis being implemented on routers.\n\n221\n00:11:10,300 --> 00:11:13,110\nAt no point did we see a switch,\nnot even Layer 3 switching.\n\n222\n00:11:13,110 --> 00:11:15,720\nWe really don't even deal with\nLayer 3 switching in this one,\n\n223\n00:11:15,720 --> 00:11:21,680\nit's really just routing on routers.\n\n224\n00:11:21,680 --> 00:11:25,970\nFor most people, this will be the first\nexam you take on the way to your CCNP.\n\n225\n00:11:25,970 --> 00:11:27,540\nIt doesn't have to be.\n\n226\n00:11:27,540 --> 00:11:30,350\nCisco doesn't mandate that you\ntake these exams in order.\n\n227\n00:11:30,350 --> 00:11:32,530\nI know some people like\nto start out on switch,\n\n228\n00:11:32,530 --> 00:11:34,690\nbecause they feel it's\na little bit easier.\n\n229\n00:11:34,690 --> 00:11:37,340\nI think most people get more hands on\nexperience with a switch than they do on\n\n230\n00:11:37,340 --> 00:11:40,420\na router,\nbecause you change switches all the time.\n\n231\n00:11:40,420 --> 00:11:42,100\nIt doesn't really matter\nwhich one you start with,\n\n232\n00:11:42,100 --> 00:11:43,760\nyou're welcome to start\nwith the other one.\n\n233\n00:11:43,760 --> 00:11:46,790\nBut TSHOOT really does\nneed to be the last one.\n\n234\n00:11:46,790 --> 00:11:50,830\nAnd that's because TSHOOT\ndraws from switch and route.\n\n235\n00:11:50,830 --> 00:11:55,600\nAnd it says, okay, you learned how things\nwere gonna go when they work right.\n\n236\n00:11:55,600 --> 00:11:56,590\nWhat happens when they work wrong?\n\n237\n00:11:56,590 --> 00:12:00,150\nAnd they mix it together, and so,\nyou really need the switch and\n\n238\n00:12:00,150 --> 00:12:03,320\nroute knowledge before you take TSHOOT.\n\n239\n00:12:03,320 --> 00:12:07,340\nJust keep that in mind when you plan the\norder for taking these exams and studying.\n\n240\n00:12:07,340 --> 00:12:10,770\n>> When you're studying remember,\nthe fundamental concepts you learned about\n\n241\n00:12:10,770 --> 00:12:13,450\nin your CCNA studies\nare really gonna help.\n\n242\n00:12:13,450 --> 00:12:14,400\nDon't just overlook it.\n\n243\n00:12:14,400 --> 00:12:16,660\nIf you go, hey, I really wanted CCNP, but\n\n244\n00:12:16,660 --> 00:12:20,600\nyou just didn't want to spend time in\nthe CCNA studies, you've gotta go back.\n\n245\n00:12:20,600 --> 00:12:23,600\nFundamentals for\nthis exam are gonna be so important.\n\n246\n00:12:23,600 --> 00:12:27,170\nYou're not gonna realize it until you're\njust partway through and you're gonna say,\n\n247\n00:12:27,170 --> 00:12:28,840\nhey, I remember doing some of this.\n\n248\n00:12:28,840 --> 00:12:30,780\nBut it's gonna be really important\nwhen we get into the route,\n\n249\n00:12:30,780 --> 00:12:33,610\ninto the deeper stuff,\nfor the routing protocols,\n\n250\n00:12:33,610 --> 00:12:36,890\nabout how important it is that we\nknow just the basic operations.\n\n251\n00:12:36,890 --> 00:12:38,240\nAnd so the more that you review that,\n\n252\n00:12:38,240 --> 00:12:41,680\nthe more prepared you're gonna also\nbe as you head into this topic.\n\n253\n00:12:41,680 --> 00:12:42,940\n>> Yeah, absolutely yeah.\n\n254\n00:12:42,940 --> 00:12:44,450\nAnd you know this is a pretty fun one.\n\n255\n00:12:44,450 --> 00:12:47,630\nI know for me, when I was learning Cisco,\nand studying for\n\n256\n00:12:47,630 --> 00:12:52,580\na lot of this stuff, the CCNL, that was\ngreat but I kind of, by that point,\n\n257\n00:12:52,580 --> 00:12:56,040\nI already knew how to take a router\nout of the box and get it turned on.\n\n258\n00:12:56,040 --> 00:13:00,410\nI didn't learn anything shocking and\nnew when I was studying for CCNL.\n\n259\n00:13:00,410 --> 00:13:03,210\nThis was in 2000, so 14 years ago.\n\n260\n00:13:03,210 --> 00:13:08,400\nBut when I started studying for the CCNP,\nthat was when I learned really cool stuff.\n\n261\n00:13:08,400 --> 00:13:09,370\nAnd I learned stuff where I was,\n\n262\n00:13:09,370 --> 00:13:11,640\nman I can't wait until I\nget to the office tomorrow.\n\n263\n00:13:11,640 --> 00:13:12,600\nBecause I'm going to implement this.\n\n264\n00:13:12,600 --> 00:13:13,662\nWhich is a terrible idea, right?\n\n265\n00:13:13,662 --> 00:13:15,981\n>> [LAUGH]\n>> You don't want to rush right out and\n\n266\n00:13:15,981 --> 00:13:17,070\nimplement something.\n\n267\n00:13:17,070 --> 00:13:20,080\nDon, 14 years ago was a little more-\n>> Bearing.\n\n268\n00:13:20,080 --> 00:13:20,790\n>> Yeah.\n\n269\n00:13:20,790 --> 00:13:22,055\nRisk taking, I suppose.\n\n270\n00:13:22,055 --> 00:13:24,790\n>> [LAUGH]\n>> But you will learn cool stuff,\n\n271\n00:13:24,790 --> 00:13:28,690\nand you'll find that your routers are way\nmore powerful than you thought they were.\n\n272\n00:13:28,690 --> 00:13:30,120\nAnd that they can do\nsome really neat things,\n\n273\n00:13:30,120 --> 00:13:31,040\nif you just know how to turn it on.\n\n274\n00:13:31,040 --> 00:13:32,710\n>> Right.\n>> And that's what we're gonna see\n\n275\n00:13:32,710 --> 00:13:33,950\nhere in this show.\n\n276\n00:13:33,950 --> 00:13:35,170\n>> Right.\n\n277\n00:13:35,170 --> 00:13:37,410\n>> If that sounds like something\nyou guys want to learn about,\n\n278\n00:13:37,410 --> 00:13:39,080\nyou're in the right place.\n\n279\n00:13:39,080 --> 00:13:40,590\nIf you're just getting started with Cisco,\n\n280\n00:13:40,590 --> 00:13:45,450\nI do recommend you jump over to our\nCCNA show first, or CCENT and CCNA.\n\n281\n00:13:45,450 --> 00:13:48,794\nMake sure you get the basics under your\nunder your belt, and then after that,\n\n282\n00:13:48,794 --> 00:13:50,657\ncome back and\nsee us right here with route.\n\n283\n00:13:50,657 --> 00:13:54,836\nBut if you've already got that knowledge\nand you're excited, pumped up, well,\n\n284\n00:13:54,836 --> 00:13:55,445\nwe are too.\n\n285\n00:13:55,445 --> 00:13:56,375\nWe're ready to get into this.\n\n286\n00:13:56,375 --> 00:13:59,815\nRonnie and I both,\nwe're old time Cisco guys, and\n\n287\n00:13:59,815 --> 00:14:02,055\nreally enjoy working with equipment,\nit's a lot of fun.\n\n288\n00:14:02,055 --> 00:14:03,255\n>> Yeah, it is.\n\n289\n00:14:03,255 --> 00:14:05,865\n>> All right, well,\nhope to see you guys in the show.\n\n290\n00:14:05,865 --> 00:14:06,365\nTake it easy.\n\n",
+          "url": "overview-ccnp-route",
+          "vimeoId": "109692164"
+        }
+      ],
+      "title": "Overview of CCNP Route (300-101)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Cisco Express Forwarding (CEF) is a feature found inside Cisco routers which is a special way of handling data that moving through routers that can route packets at near wire speed. Viewers will hear about some basic networking principles and hear discussions on the Forwarding Information Base (FIB) and Adjacency Table used by Cisco Express Forwarding.",
+          "length": "882",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-1-Cisco-Network-Forwarding.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-1-Cisco-Network-Forwarding-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-1-Cisco-Network-Forwarding-sm.jpg",
+          "title": "Cisco Express Forwarding",
+          "transcript": "",
+          "url": "cisco-express-forwarding",
+          "vimeoId": "109692166"
+        },
+        {
+          "description": "In a small network environment, things work pretty easily, but in a large network, a few more problems start to arise and a possible solution could be to run a dynamic routing protocol. Viewers will hear about networking challenges including some of the challenges when sending data through multiple routers with redundant paths, some of the basic concepts of data moving through the network, as well as see demonstrations of the routing process as data moves through multiple routers.",
+          "length": "756",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-2-General-Network-Challenges.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-2-General-Network-Challenges-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-2-General-Network-Challenges-sm.jpg",
+          "title": "General Network Challenges",
+          "transcript": "",
+          "url": "network-challenges",
+          "vimeoId": "109692167"
+        },
+        {
+          "description": "When it comes to IP operations, it behaves one way for local communication and a different way for remote communications. Viewers will hear about IP operations, basic router functions when packets are too large or bounce around multiple routers and the process of breaking large data into segments for data delivery.",
+          "length": "1307",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt1-sm.jpg",
+          "title": "IP Operations Part 1",
+          "transcript": "",
+          "url": "ip-operations-1",
+          "vimeoId": "109692169"
+        },
+        {
+          "description": "ICMP is a protocol that is used to receive status messages back from devices to see if connections are valid and networks are working. Viewers will hear about ICMP unreachables and redirects, IPv6 and IPv4 fragmentation and time-to-live (TTL).",
+          "length": "1060",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-3-IP-Operations-Pt-2-sm.jpg",
+          "title": "IP Operations Part 2",
+          "transcript": "",
+          "url": "ip-operations-2",
+          "vimeoId": "109693247"
+        },
+        {
+          "description": "TCP is a very frequently used protocol that provides reliable delivery of communications across the network. Viewers will hear the difference between TCP and UDP traffic, the use of windowing for TCP traffic, as well as discussions on the MTU, MSS, Latency and other TCP operations.",
+          "length": "2739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-4-TCP-Operations.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-4-TCP-Operations-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-4-TCP-Operations-sm.jpg",
+          "title": "TCP Operations",
+          "transcript": "",
+          "url": "tcp-operations",
+          "vimeoId": "109693246"
+        },
+        {
+          "description": "UDP is designed for fast communications, but it does not provide reliable delivery of communication data. Viewers will hear about UDP operations and some of the major challenge that it can cause with TCP traffic called TCP starvation.",
+          "length": "1143",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-5-UDP-Operations.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-5-UDP-Operations-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-5-UDP-Operations-sm.jpg",
+          "title": "UDP Operations",
+          "transcript": "",
+          "url": "udp-operations",
+          "vimeoId": "109819618"
+        },
+        {
+          "description": "Even little changes to the configurable values inside a dynamic routing protocol can cause problems throughout the rest of the infrastructure. Viewers will hear about changes with the network including routing parameters of Administrative Distance and Metrics, migration to IPv6 addressing, using dual stacking technology and will also hear about the two different routing protocol migration strategies: changing AD and a moving wave change using Route Redistribution.",
+          "length": "2294",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-6-Proposed-Changes.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-6-Proposed-Changes-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/1-6-Proposed-Changes-sm.jpg",
+          "title": "Proposed Changes",
+          "transcript": "",
+          "url": "proposed-changes",
+          "vimeoId": "109806709"
+        }
+      ],
+      "title": "Network Principles"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Layer 2 technologies make up a relatively small portion of the Route exam, but are still important to understand. Viewers will hear discussions on the sub-objectives that will be covered including configuring PPP and explaining Frame Relay.",
+          "length": "199",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-0-Layer-2-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-0-Layer-2-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-0-Layer-2-Technologies-sm.jpg",
+          "title": "Layer 2 Technologies",
+          "transcript": "",
+          "url": "layer-2-technologies",
+          "vimeoId": "109806711"
+        },
+        {
+          "description": "Point to Point Protocol (PPP) is designed to work in serial based networks, which uses analog communications compared to most communications used today which are digital. Viewers will hear how to implement authentication to PPP and see the basic Layer 2 configuration of both PPP and PPPoE on routers.",
+          "length": "3065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-1-Configure-PPP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-1-Configure-PPP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-1-Configure-PPP-sm.jpg",
+          "title": "Configure PPP",
+          "transcript": "",
+          "url": "configure-ppp",
+          "vimeoId": "109806713"
+        },
+        {
+          "description": "Frame Relay is an older technology for connecting across a Service Provider's Network, which can be really easy to implement. Viewers will see the basic configuration of frame relay in a Point-to-Point configuration, Multipoint Configuration and Full Mesh using physical interfaces (point-to-point) and sub interfaces (multipoint and full-mesh) to show Frame relay’s versatility and use basic commands to verify configuration.",
+          "length": "6143",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-2-Frame-Relay.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-2-Frame-Relay-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/2-2-Frame-Relay-sm.jpg",
+          "title": "Frame Relay",
+          "transcript": "",
+          "url": "frame-relay",
+          "vimeoId": "109959114"
+        }
+      ],
+      "title": "Layer 2 Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "For the Route exam one will need to be able to identify, configure and verify IPv4 addressing and subnetting, which contains three different types of addressing: unicast, broadcast and multicast communications. Viewers will hear about some of the basic IPv4 addressing concepts, the difference between the different types of IPv4 addressing and how to assign IPv4 addressing using DHCP and DHCP relay, as well as hear about how ARP functions within a network and across a network.",
+          "length": "4251",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-1-ip_addressing-020215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-1-ip_addressing-020215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-1-ip_addressing-020215-sm.jpg",
+          "title": "IP Addressing",
+          "transcript": "",
+          "url": "ip-addressing",
+          "vimeoId": "118589024"
+        },
+        {
+          "description": "IPv6 is only recently seeing adoption because of the lack of IPv4 addresses and added features to IPv6, but the majority of environments still work with IPv4 because a lot of money has been invested into it and many ISPs don't even support IPv6 yet. Viewers will hear about IPv6 on Cisco routers including the various types of addressing available, when each type of address is typically used, automatic configuration and DHCP for IPv6.",
+          "length": "4365",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-2-ipv6_addressing-020315.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-2-ipv6_addressing-020315-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-2-ipv6_addressing-020315-sm.jpg",
+          "title": "IPv6 Addressing",
+          "transcript": "",
+          "url": "ipv6-addressing",
+          "vimeoId": "118718382"
+        },
+        {
+          "description": "Static routing is when one gives a command to a router to manually go somewhere, which overrides any other route preference. Viewers will hear about configuring static routing including the pros and cons of using static routing and hear demonstrations on how to configure it and use IP SLA to \"track\" the viability of the next hop.",
+          "length": "2854",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-3-static_routing-020415.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-3-static_routing-020415-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-3-static_routing-020415-sm.jpg",
+          "title": "Static Routing",
+          "transcript": "",
+          "url": "static-routing",
+          "vimeoId": "118805997"
+        },
+        {
+          "description": "A default route takes the packets that come into a router that don't match any entry on the routing table and forwards it to a particular interface or IP address. Viewers will hear about the use of default routing on Cisco routers, how to configure static default routes and how to redistribute a default route into OSPF and EIGRP.",
+          "length": "2266",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-4-default_routing-020415.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-4-default_routing-020415-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-4-default_routing-020415-sm.jpg",
+          "title": "Default Routing",
+          "transcript": "",
+          "url": "default-routing",
+          "vimeoId": "118805998"
+        },
+        {
+          "description": "Cisco wants to ensure those pursuing the CCNP certification know the difference between different dynamic routing protocols. Viewers will hear about the general types of dynamic routing protocols, which include: distance vector, link-state and path vector.",
+          "length": "3066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-5-routing_protocols-020515.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-5-routing_protocols-020515-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-5-routing_protocols-020515-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "url": "routing-protocols1",
+          "vimeoId": "118920349"
+        },
+        {
+          "description": "Administrative distance is something Cisco routers keeps track for different routes that might be considered the best possible route based on the protocol used. Viewers will hear about the use of Administrative Distance on Cisco routers and about changing the default administrative distances to give preference of one routing protocol over another even when the metrics are different.",
+          "length": "1320",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-6-administrative_distance-020515.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-6-administrative_distance-020515-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-6-administrative_distance-020515-sm.jpg",
+          "title": "Administrative Distance",
+          "transcript": "",
+          "url": "administrative-distance",
+          "vimeoId": "118920351"
+        },
+        {
+          "description": "Passive interfaces are a tool built into Cisco routers, which allows one to have a little more control over where a routing protocol runs. By default routing protocols advertise out of all interfaces configured in the routing protocol and passive interfaces can be used to prevent advertising specific protocols. Viewers will hear discussions about passive interfaces and the various behaviors when using EIGRP, OSPF and RIP.",
+          "length": "2449",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-7-passive_interfaces-020515-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-7-passive_interfaces-020515-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-7-passive_interfaces-020515-2-sm.jpg",
+          "title": "Passive Interfaces",
+          "transcript": "",
+          "url": "passive-interfaces",
+          "vimeoId": "118909234"
+        },
+        {
+          "description": "VPN Routing and Forwarding (VRF-lite) works by partitioning a routing table and is used at the ISP level to help separate traffic between customers using the same equipment. Viewers will hear about the functions of VRF-lite and see demonstrations on how to configure it.",
+          "length": "3238",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-8-vrf_lite-020615-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-8-vrf_lite-020615-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-8-vrf_lite-020615-2-sm.jpg",
+          "title": "VRF Lite",
+          "transcript": "",
+          "url": "vrf-lite",
+          "vimeoId": "119120514"
+        },
+        {
+          "description": "Eventually one's network grows to the point where one's needs are complex enough that just learning the routes isn't enough, but will need to manipulate routes on the routing table to filter out certain routes. Viewers will hear about methods used to filter routes while using any protocol and see and demonstrations of the use of prefix lists and distribute lists on routers using EIGRP, OSPF and BGP.",
+          "length": "5551",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-9-route_filtering-020915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-9-route_filtering-020915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-9-route_filtering-020915-sm.jpg",
+          "title": "Route Filtering",
+          "transcript": "",
+          "url": "route-filtering",
+          "vimeoId": "119247080"
+        },
+        {
+          "description": "Route redistribution is the exchanging of a route from one routing protocol to another. Viewers will hear about the use of route redistribution and about configuring and verifying redistribution between routing protocols.",
+          "length": "5752",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-10-route_redistribution-021015.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-10-route_redistribution-021015-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-10-route_redistribution-021015-sm.jpg",
+          "title": "Route Redistribution",
+          "transcript": "",
+          "url": "route-redistribution",
+          "vimeoId": "119368170"
+        },
+        {
+          "description": "Route summarization is when smaller routes are combined into one larger route to reduce the size of the routing table. Viewers will hear discussions on the importance of keeping a routing table as concise as possible, the basic theory of route summarization, the use of auto summarization and the importance of manual summarization of routes, as well as hear about configuring routers for manual summarization.",
+          "length": "5859",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-11-route_summarization-021115-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-11-route_summarization-021115-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-11-route_summarization-021115-2-sm.jpg",
+          "title": "Route Summarization",
+          "transcript": "",
+          "url": "route-summarization",
+          "vimeoId": "119441395"
+        },
+        {
+          "description": "Normal routing will only do destination routing, but policy based routing uses customized policies to take certain actions based on if traffic meets a specified criteria. Viewers will hear about policy based routing and the types of things it can be influenced by like source addresses, inbound interfaces, and protocols.",
+          "length": "3273",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-12-policy_based_routing-021215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-12-policy_based_routing-021215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-12-policy_based_routing-021215-sm.jpg",
+          "title": "Policy Based Routing",
+          "transcript": "",
+          "url": "policy-based-routing",
+          "vimeoId": "119752963"
+        },
+        {
+          "description": "Route maps are a powerful tool inside a Cisco router, which can be used for a lot of things including filtering BGP traffic and allows one to affect certain routes without influencing others. Viewers will hear about one of the most powerful ways to control and influence routing through the use of route maps.",
+          "length": "2721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-14-route_maps-021215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-14-route_maps-021215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-14-route_maps-021215-sm.jpg",
+          "title": "Route Maps",
+          "transcript": "",
+          "url": "route-maps",
+          "vimeoId": "119752964"
+        },
+        {
+          "description": "Routing loops are something that’s really important to be aware of, which EIGRP and RIP are especially susceptible to, so it is important that one implements loop prevention techniques to protect one’s network from those problems. Viewers will hear about implementing loop prevention techniques and the three technologies behind it: split horizon, poison reverse and route tags.",
+          "length": "4646",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-15-loop-_prevention-021315.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-15-loop-_prevention-021315-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute-3-15-loop-_prevention-021315-sm.jpg",
+          "title": "Loop Prevention",
+          "transcript": "",
+          "url": "loop-prevention",
+          "vimeoId": "119752960"
+        },
+        {
+          "description": "RIPv2 is a classless routing protocol, which can be easily configured and deployed. Viewers will hear about some of the fundamental concepts and configuration of using RIPv2, how to verify its functionality, how to better manage rip by using passive-interfaces and how to configure rip to distribute a default route.",
+          "length": "1608",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-16-configure_verify_ripv2-082415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-16-configure_verify_ripv2-082415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-16-configure_verify_ripv2-082415-1-sm.jpg",
+          "title": "Configure and Verify RIPv2",
+          "transcript": "",
+          "url": "configure-verify-ripv2",
+          "vimeoId": "137178877"
+        },
+        {
+          "description": "RIPng is a newer version of RIP that works with IPv6. Viewers will hear about configuring RIPng on routers and some of its similarities and differences with RIPv2.",
+          "length": "1329",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-17-describe_ripng-082415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-17-describe_ripng-082415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-17-describe_ripng-082415-1-sm.jpg",
+          "title": "Describe RIPng",
+          "transcript": "",
+          "url": "describe-ripng",
+          "vimeoId": "137177793"
+        },
+        {
+          "description": "There's about ten different packet types that get sent back and forth between EIGRP routers under certain conditions and it’s good to have an understanding all of the communication happening in the background and the different packet types for troubleshooting purposes. Viewers will hear about the main packet types that EIGRP routers use to establish neighboring adjacencies and to keep the routes up to date between them.",
+          "length": "1292",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-18-eigrp_packet_types-082415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-18-eigrp_packet_types-082415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-18-eigrp_packet_types-082415-1-sm.jpg",
+          "title": "EIGRP Packet Types",
+          "transcript": "",
+          "url": "eigrp-packet-types",
+          "vimeoId": "137177792"
+        },
+        {
+          "description": "Anytime one can see more neighbors, the better accurate representation of one’s network they are going to have. Viewers will hear about setting up EIGRP neighbor relationships and simply getting EIGRP to work, as well as how to get past some of the issues when working with frame relay or MPLS using the neighbor command.",
+          "length": "1209",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors-082515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors-082515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors-082515-1-sm.jpg",
+          "title": "EIGRP Neighbors",
+          "transcript": "",
+          "url": "eigrp-neighbors",
+          "vimeoId": "137284154"
+        },
+        {
+          "description": "It's a good idea to configure authentication between EIGRP routers to verify that the EIGRP neighbors are who they say they are and prevent the possibility of internal attacks. Viewers will hear about configuring basic authentication and even authentication by using multiple keys.",
+          "length": "1422",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors_pt2-082515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors_pt2-082515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-19-eigrp_neighbors_pt2-082515-1-sm.jpg",
+          "title": "EIGRP Neighbors Part 2",
+          "transcript": "",
+          "url": "eigrp-neighbors-2",
+          "vimeoId": "137284152"
+        },
+        {
+          "description": "Properly using EIGRP stubs can help to optimize performance on a network. Viewers will hear about configuring EIGRP stubs and the types of stubs one can set up to make things more efficient.",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-20-eigrp_stubs-082615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-20-eigrp_stubs-082615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-20-eigrp_stubs-082615-1-sm.jpg",
+          "title": "Configure EIGRP Stubs",
+          "transcript": "",
+          "url": "configure-eigrp-stubs",
+          "vimeoId": "137401122"
+        },
+        {
+          "description": "If a routing protocol finds more than one way to get to the same destination then load balancing could be an option, where computing resources are balanced between multiple paths to get to the same destination. Viewers will hear about load balancing especially with EIGRP, key metrics EIGRP looks at by default, and making sure it does equal cost load balancing.",
+          "length": "1806",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-21-eigrp_load_balancing-082615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-21-eigrp_load_balancing-082615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-21-eigrp_load_balancing-082615-1-sm.jpg",
+          "title": "EIGRP Load Balancing",
+          "transcript": "",
+          "url": "eigrp-load-balancing",
+          "vimeoId": "137401124"
+        },
+        {
+          "description": "When EIGRP makes a decision, it by default looks at two things, which are bandwidth and delay. Viewers will hear about the way EIGRP makes routing decisions based on the composite metric calculated by DUAL-FSM, the five metrics that EIGRP uses, and how to manipulate the K values to get different results.",
+          "length": "1387",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-22-eigrp_metrics-082615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-22-eigrp_metrics-082615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-22-eigrp_metrics-082615-1-sm.jpg",
+          "title": "EIGRP Metrics",
+          "transcript": "",
+          "url": "eigrp-metrics",
+          "vimeoId": "137401124"
+        },
+        {
+          "description": "EIGRP for IPv6 is a configuration that shouldn't be ignored when preparing for the ROUTE exam. When Cisco created EIGRP they didn’t create it to handle only a single protocol, but created it as a framework capable of routing any protocol. Viewers will hear how to configure EIGRP running on top of IPv6 and also how it compares to what is normally seen with EIGRP.",
+          "length": "1317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-23-eigrp_for_ipv6-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-23-eigrp_for_ipv6-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-23-eigrp_for_ipv6-082715-1-sm.jpg",
+          "title": "EIGRP for IPv6",
+          "transcript": "",
+          "url": "eigrp-ipv6",
+          "vimeoId": "137513494"
+        },
+        {
+          "description": "Packets are what are exchanged for OSPF adjacencies to be established in OSPF networks and understanding the different OSPF packet types is useful to know for understanding how OSPF works and also for the purposes of troubleshooting. Viewers will hear about the five primary OSPF packet types and see demonstrations on how to see the packets during the neighboring process.",
+          "length": "1354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-24-ospf_packet_types-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-24-ospf_packet_types-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-24-ospf_packet_types-082715-1-sm.jpg",
+          "title": "OSPF Packet Types",
+          "transcript": "",
+          "url": "ospf-packet-types",
+          "vimeoId": "137513495"
+        },
+        {
+          "description": "When two routers decide to exchange routes, neighbor relationships get built up. Viewers will hear about the forming of adjacencies and the eight OSPF neighbor states as the process happens, as well as how debugging the states can help in troubleshooting OSPF.",
+          "length": "1872",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors-082715-1-sm.jpg",
+          "title": "OSPF Neighbors",
+          "transcript": "",
+          "url": "ospf-neighbors",
+          "vimeoId": "137513493"
+        },
+        {
+          "description": "By default OSPF doesn't do any authentication, which one should try to implement especially if one is on a multi-access network to prevent building up OSPF adjacencies with rogue routers. Viewers will hear about using the authentication mechanism between neighboring OSPF routers, the two possible modes of OSPF authentication, and also see demonstrations of how to configure authentication on the interface.",
+          "length": "1093",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors_pt.2-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors_pt.2-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-25-ospf_neighbors_pt.2-082715-1-sm.jpg",
+          "title": "OSPF Neighbors Part 2",
+          "transcript": "",
+          "url": "ospf-neighbors-2",
+          "vimeoId": "137513492"
+        },
+        {
+          "description": "Areas are a special way to sub-divide an OSPF autonomous system and improve its performance, but inside an area, not every network is treated equally, so it's important to understand network types and see how they respond differently. Viewers will hear about the five different network types inside of OSPF and the situations in which each of them are used.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26a-ospf_network_types-082815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26a-ospf_network_types-082815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26a-ospf_network_types-082815-1-sm.jpg",
+          "title": "OSPF Network Types",
+          "transcript": "",
+          "url": "ospf-network-types",
+          "vimeoId": "137632158"
+        },
+        {
+          "description": "In OSPF, Link State Advertisements (LSAs) are the way in which routers exchange information between each other. Viewers will hear about routing information that is exchanged in OSPF and the 11 different types of LSAs one might see inside of OSPF.",
+          "length": "1697",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26b-ospf_lsa_types-082815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26b-ospf_lsa_types-082815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26b-ospf_lsa_types-082815-1-sm.jpg",
+          "title": "OSPF LSA Types",
+          "transcript": "",
+          "url": "ospf-lsa-types",
+          "vimeoId": "137632157"
+        },
+        {
+          "description": "There are four route types found in OSPF, but in a standard deployment one really just sees one regular OSPF route. Viewers will hear about the results of the LSA exchanges that occur between OSPF routers, the four different route types found in OSPF and how one can identify them and actually see how they are working.",
+          "length": "1596",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26c-ospf_route_types-082815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26c-ospf_route_types-082815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26c-ospf_route_types-082815-1-sm.jpg",
+          "title": "OSPF Route Types",
+          "transcript": "",
+          "url": "ospf-route-types",
+          "vimeoId": "137632159"
+        },
+        {
+          "description": "At the point where one's network gets bigger and has more traffic and communication on it, one will need to start dividing up their network into areas. Having deployment set up for just one area is easier from an administrative standpoint, but Cisco recommends splitting up into multiple areas when one’s network gets up to 50 routers. Viewers will hear about connecting to a multi and standard area OSPF and hear about the backbone area that acts as a transit network.",
+          "length": "1279",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types-083115-1-sm.jpg",
+          "title": "OSPF Area Types",
+          "transcript": "",
+          "url": "ospf-types",
+          "vimeoId": "137949896"
+        },
+        {
+          "description": "When one wants to start shrinking their routing table down, the best way to do that is by configuring an area called a stub, which is considered a dead end in OSPF. Viewers will hear discussions about the different area types, the areas used to optimize a multi-area OSPF network, as well as see the configuration and results of implementing different area types.",
+          "length": "1471",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types_pt2-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types_pt2-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26d-ospf_area_types_pt2-083115-1-sm.jpg",
+          "title": "OSPF Area Types Part 2",
+          "transcript": "",
+          "url": "ospf-types-2",
+          "vimeoId": "137949898"
+        },
+        {
+          "description": "Virtual links are a temporary solution used to get past network failure, which go against the rules of OSPF and work to get the user at least some connectivity. Viewers will hear about how virtual links work and the key to getting it configured.",
+          "length": "1358",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26e-ospf_virtual_links-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26e-ospf_virtual_links-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-26e-ospf_virtual_links-083115-1-sm.jpg",
+          "title": "OSPF Virtual Links",
+          "transcript": "",
+          "url": "ospf-virtual-links",
+          "vimeoId": "137949895"
+        },
+        {
+          "description": "OSPF path preference looks for the best line when multiple ways to get to a destination exist and chooses the one with the lowest cost. Viewers will hear about the way that OSPF chooses a path among multiple paths to a destination and hear about the ability to manipulate routes and the cost so that one can be preferred over another.",
+          "length": "1072",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-27-ospf_path_preference-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-27-ospf_path_preference-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-27-ospf_path_preference-083115-1-sm.jpg",
+          "title": "OSPF Path Preference",
+          "transcript": "",
+          "url": "ospf-path-preference",
+          "vimeoId": "137949897"
+        },
+        {
+          "description": "OSPF version 3 was made to support IPv6, unlike version 2 which was made only to support IPv4. Since they are built for different protocols they are completely incompatible, but their configuration is nearly identical. Viewers will hear about configuring IPv6 for OSPFv3 and also how to verify that it is operational.",
+          "length": "1778",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-29-ospf_for_ipv6-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-29-ospf_for_ipv6-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-29-ospf_for_ipv6-090115-1-sm.jpg",
+          "title": "OSPF for IPv6",
+          "transcript": "",
+          "url": "ospf-ipv6",
+          "vimeoId": "138001718"
+        },
+        {
+          "description": "The Border Gateway Protocol (BGP) is an exterior protocol, which was intended and configured to route the internet, and not necessarily an enterprise or home environment, which tries to provide a loop-free topology on a global level. Viewers will hear about why one would choose to use BGP and the basic BGP characteristics, theory and terminology necessary for understanding how it works.",
+          "length": "1778",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol-090115-1-sm.jpg",
+          "title": "Border Gateway Protocol",
+          "transcript": "",
+          "url": "border-gateway-protocol-1",
+          "vimeoId": "138001720"
+        },
+        {
+          "description": "Interior and exterior BGP have different functions, whereas IGPs are designed for companies and enterprises to handle dynamic routing on a network and have control over things like routers and route manipulation, external BGP relies on other routers to get to a destination, but it can't control them. Viewers will see how to setup a connection to a BGP network, basic BGP configurations, the differences in configuring internal BGP as opposed to external BGP and hear about some of the things one needs to be aware of when it comes to BGP and verifying if it is operating.",
+          "length": "1920",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt.2-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt.2-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt.2-090115-1-sm.jpg",
+          "title": "Border Gateway Protocol Part 2",
+          "transcript": "",
+          "url": "border-gateway-protocol-2",
+          "vimeoId": "138001719"
+        },
+        {
+          "description": "For BGP there is a lot of configuration to do, which security isn't a great concern in BGP, but one should employ at least a little bit of security. Viewers will hear about some more advanced features one can configure like security and authentication and see demonstrations on how to configure authentication between BGP peers and how to use BGP Peer Groups to quickly configure large quantities of BGP peers with similar configurations.",
+          "length": "1573",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt3-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt3-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt3-090215-1-sm.jpg",
+          "title": "Border Gateway Protocol Part 3",
+          "transcript": "",
+          "url": "border-gateway-protocol-3",
+          "vimeoId": "138123194"
+        },
+        {
+          "description": "BGP was written to route the internet, which as a whole is expansive and with IPv4 networks is also expansive, but BGP is also flexible enough to work with other protocols like IPv6. Viewers will hear discussions on how BGP Address Families can be used to allow BGP to route for protocols beyond the default of IPv4 and see demonstrations for various \"show\" commands that can be used to monitor and troubleshoot BGP.",
+          "length": "1355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt4-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt4-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-30-border_gateway_protocol_pt4-090215-1-sm.jpg",
+          "title": "Border Gateway Protocol Part 4",
+          "transcript": "",
+          "url": "border-gateway-protocol-4",
+          "vimeoId": "138123197"
+        },
+        {
+          "description": "BGP is a path vector protocol, which looks for the fewest number of autonomous systems it can pass through and uses several attributes to determine which route is preferred. Viewers will hear how BGP makes decisions, the different things that can influence the path BGP chooses and attributes that are a part of the BGP standard.",
+          "length": "1441",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes-090215-1-sm.jpg",
+          "title": "BGP Attributes",
+          "transcript": "",
+          "url": "bgp-attributes-3",
+          "vimeoId": "138123196"
+        },
+        {
+          "description": "BGP doesn't see a lot of the underlying infrastructure unlike EIGRP and OSPF, which have a really good view of the network, so one often might have a better understanding of the network to influence a route preference than the protocol itself. Viewers will see demonstrations of manipulating attributes to have some control over what route BGP picks and have influence over BGP performance, traffic coming into and out of an autonomous system.",
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes_pt2-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes_pt2-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-3-32-bgp_attributes_pt2-090315-1-sm.jpg",
+          "title": "BGP Attributes Part 2",
+          "transcript": "",
+          "url": "bgp-attributes-2",
+          "vimeoId": "138326562"
+        }
+      ],
+      "title": "Layer 3 Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "VPN technology can actually be useful for routing protocols in the case of building VPN tunnels between one router to another to create connectivity and reestablish a connection even over an untrusted network to avoid problems brought on by network failure or mask other complexities on the network. Viewers will hear about three different VPN tunnels one needs to be aware of, some of the uses of Generic Routing Encapsulation (GRE) on Cisco IOS routers and see demonstrations of how to configure a tunnel between two Cisco IOS routers.",
+          "length": "1386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies-090315-1-sm.jpg",
+          "title": "VPN Technologies",
+          "transcript": "",
+          "url": "vpn-technologies-3",
+          "vimeoId": "138326559"
+        },
+        {
+          "description": "Using a GRE tunnel over a private network is okay to do, but not the best idea if being sent through an ISP because of the lack of encryption. Viewers will hear about how IPSec, DM-VPNs and EasyVPN can be used to create encrypted tunnels between Cisco IOS routers and see a demonstration of applying IPSec to a GRE tunnel to create a secure connection between two routers.",
+          "length": "1104",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies_pt2-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies_pt2-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-4-0-vpn_technologies_pt2-090315-1-sm.jpg",
+          "title": "VPN Technologies Part 2",
+          "transcript": "",
+          "url": "vpn-technologies-2",
+          "vimeoId": "138326561"
+        }
+      ],
+      "title": "VPN Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Authentication, Authorization, and Accounting (AAA) are all facets that can be utilized in RADIUS and TACACS+ servers and can be used to improve login security on a Cisco IOS router, where RADIUS is great with accounting and authentication and TACACS+ is good with authentication and authorization. When it comes to the particular server utilization, one is usually running Cisco ACS, which runs both RADIUS and TACACS+. Viewers will see demonstrations on how to configure the IOS to use RADIUS, TACACS+ servers to authenticate users and see how to use AAA groups to provide redundancy for the login process.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-1-aaa-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-1-aaa-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-1-aaa-090415-1-sm.jpg",
+          "title": "AAA",
+          "transcript": "",
+          "url": "aaa3",
+          "vimeoId": "138776563"
+        },
+        {
+          "description": "A router is typically a border device, which makes it a target for attacks and for hackers to take control of, but one can utilize device access control and implement security tactics to secure a router and regulate who has access to the computing resources. Viewers will hear about some of the basic security best practices to protect a router, the AutoSecure script to help harden an IOS router, and see different settings and what each service does to increase/decrease the router's overall attack surface.",
+          "length": "1610",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-3-device_access_control-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-3-device_access_control-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-3-device_access_control-090415-1-sm.jpg",
+          "title": "Device Access Control",
+          "transcript": "",
+          "url": "device-access-control",
+          "vimeoId": "138776539"
+        },
+        {
+          "description": "Understanding how the different security features inside a router function, can help to properly and effectively implement them to protect a system. Viewers will hear about some of the security features inside a router including different access control lists that filter traffic passing through a router, reverse path verification and also Unicast Reverse Path Forwarding (URPF).",
+          "length": "1705",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-4-router_security_features-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-4-router_security_features-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-5-4-router_security_features-090415-1-sm.jpg",
+          "title": "Router Security Features",
+          "transcript": "",
+          "url": "router-security-features6",
+          "vimeoId": "138776553"
+        }
+      ],
+      "title": "Infrastructure Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The device management objective of the CCNP exam includes a long list of services that run on a Cisco router that one should be aware of as a network professional. Viewers will hear information on various small services available to manage Cisco equipment, which covers configuring and securing a Console, Telnet, SSH, and web access (HTTP and HTTPS) as well as some of the lesser known features for each.",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management-092215-1-sm.jpg",
+          "title": "Device Management",
+          "transcript": "",
+          "url": "device-management",
+          "vimeoId": "140174557"
+        },
+        {
+          "description": "One thing one will have to handle sooner or later with a Cisco router is getting files like iOS or configuration files copied to or from the router and being able to transmit data back and forth. Viewers will hear about ways to securely move files back and forth between systems, using a Cisco router as an FTP, TFTP and SCP client to upload and download files from the IOS CLI and see demonstrations on how to configure a Cisco router as a TFTP or SCP server to allow users to upload and download files to a router from their own workstations.",
+          "length": "1202",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt2-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt2-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt2-092215-1-sm.jpg",
+          "title": "Device Management Part 2",
+          "transcript": "",
+          "url": "device-management-2",
+          "vimeoId": "140174560"
+        },
+        {
+          "description": "Management protocols run in the background on a router and can be useful for monitoring the routers functionality and provide information about it. Viewers will hear about some of the management protocols available for monitoring routers and see demonstrations of configuring the Simple Network Management Protocol (SNMP) on a Cisco router to allow monitoring health and utilization information in the Cisco IOS and configuring Cisco IOS to transmit log information to a central SysLog server.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt3-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt3-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt3-092215-1-sm.jpg",
+          "title": "Device Management Part 3",
+          "transcript": "",
+          "url": "device-management-3",
+          "vimeoId": "140174558"
+        },
+        {
+          "description": "Having routers, firewalls and switches all over ones network opens the possibility to have each of the clocks to become unsynchronized. Having all the clocks synchronized on a system can help with doing things like tracking an attack vector and the best way to do that is through Network Time Protocol (NTP). Viewers will continue to hear about log messages and the importance of having synchronized clocks across all of your network equipment as well as see demonstrations on how to use the Network Time Protocol (NTP) to designate a centralized clock source and how to make an IOS device an NTP server.",
+          "length": "1696",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt4-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt4-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-1-device_management_pt4-092215-1-sm.jpg",
+          "title": "Device Management Part 4",
+          "transcript": "",
+          "url": "device-management-4",
+          "vimeoId": "140174562"
+        },
+        {
+          "description": "The Dynamic Host Configuration Protocol (DHCP) in IPv4 allows one to learn the network they are on, run a default gateway and learn the DNS and domain server to use. With IPv6, built into the protocol one can learn what network they are on and automatically have an address assigned to them. Viewers will hear about how to configure a Cisco IOS device as a DHCP server, the steps required to configure an IPv4 DHCP server and also about configuring DHCP for an IPv6 network.",
+          "length": "1284",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-5-dhcp-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-5-dhcp-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-5-dhcp-090315-1-sm.jpg",
+          "title": "DHCP",
+          "transcript": "",
+          "url": "dhcp1",
+          "vimeoId": "138326558"
+        },
+        {
+          "description": "One will probably use Network Address Translation (NAT) for many different scenarios with IPv4, but not very many with IPv6, but should still know the concepts and differences between NPT and NAT64. Viewers will hear about the different forms of NAT, configuring NAT for IPv4 and how NAT64 and NPTv6 can be used to provide address translation under IPv6.",
+          "length": "1546",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-6-network_address_translation-092215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-6-network_address_translation-092215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-6-network_address_translation-092215-1-sm.jpg",
+          "title": "Network Address Translation",
+          "transcript": "",
+          "url": "network-address-translation1",
+          "vimeoId": "140174559"
+        },
+        {
+          "description": "A Service Level Agreement (SLA) is essentially an agreement or guarantee that a level of service is being met. Viewers will hear about what SLAs are, how one can set them up for monitoring and some of the weaknesses in Cisco's self-healing network design as well as see demonstrations on how one can use IP SLAs and Tracking Objects to overcome those limitations and ensure one’s network re-routes properly during a network outage and how to use IP SLAs to report on network performance.",
+          "length": "1932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-8-ip_slas-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-8-ip_slas-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ccnproute/cisco-ccnproute300101-6-8-ip_slas-090415-1-sm.jpg",
+          "title": "IP SLAs",
+          "transcript": "",
+          "url": "ip-slas3",
+          "vimeoId": "138776528"
+        }
+      ],
+      "title": "Infrastructure Services"
+    }
+  ],
+  "url": "ccnp-routing-switching",
+  "vLab": false
+}

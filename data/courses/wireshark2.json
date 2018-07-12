@@ -1,0 +1,128 @@
+{
+  "description": "Wireshark 2.2.4  is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer.  I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network.  It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems.  It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it.  This show helps the network professional get started with Wireshark!",
+  "descriptionMD": "Wireshark 2.2.4  is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer.  I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network.  It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems.  It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it.  This show helps the network professional get started with Wireshark!",
+  "length": "14206",
+  "name": "Wireshark 2.2.4",
+  "practiceExam": false,
+  "subtitle": "Network protocol analyzer",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Wireshark 2.2.4 is a free and open source network packet sniffer and protocol analyzer developed as a first response tool. It is the most widely-used network protocol analyzer. I can be used to examine all network traffic because it’s a mini swiss army knife to network administrators who needs detailed visibility into the traffic on their network. It displays the raw data obtained by the sniffer and turns it into readable and meaningful data so that the user will be able to spot issues as well as correct network problems. It’s power lies in the ability to help an analyst find the proverbial “needle in a haystack” when the user is up to speed on what to look for and how to do it. This show helps the network professional get started with Wireshark!",
+          "length": "281",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-0-0-overview-022417-PGM.00_07_48_05.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:03.074\n[MUSIC]\n\n2\n00:00:03.074 --> 00:00:04.235\nWelcome.\n\n3\n00:00:04.235 --> 00:00:07.821\nIf you've ever wondered what Wireshark is,\nhow to use it, and\n\n4\n00:00:07.821 --> 00:00:12.220\nperhaps what kind of network protocol\nanalyzers are available to us, well,\n\n5\n00:00:12.220 --> 00:00:14.430\nthen you're in the right spot.\n\n6\n00:00:14.430 --> 00:00:19.020\nWe really are gonna be taking a look at\nhow to use this utility to benefit you in\n\n7\n00:00:19.020 --> 00:00:24.200\nyour network to analyze the different\ntypes of traffic depending on where\n\n8\n00:00:24.200 --> 00:00:26.020\nyou place this within your network, and\n\n9\n00:00:26.020 --> 00:00:29.980\nwhat machine do you really wanna focus\nit on or in fact, your entire network.\n\n10\n00:00:29.980 --> 00:00:33.874\nSo, let's go ahead and hand this off to\nRonnie Wong because he's gonna really\n\n11\n00:00:33.874 --> 00:00:36.654\nexplain what we'll be looking\nat within these series.\n\n12\n00:00:36.654 --> 00:00:41.209\n&gt;&gt; All right, as we get started and taking\nlook at using Wireshark, we, of course,\n\n13\n00:00:41.209 --> 00:00:45.236\nwanna make sure that you understand\nthe very basics of how to get set up and\n\n14\n00:00:45.236 --> 00:00:47.613\nhave, not only the knowledge, but also,\n\n15\n00:00:47.613 --> 00:00:51.927\nof course, a few of the skills that you\nneed to get started in capturing data.\n\n16\n00:00:51.927 --> 00:00:54.700\nAnd, of course,\nseeing what you really need.\n\n17\n00:00:54.700 --> 00:00:56.570\nSo, what we're gonna begin with,\nof course,\n\n18\n00:00:56.570 --> 00:00:59.600\nis just a simple installation\nof Wireshark as well.\n\n19\n00:00:59.600 --> 00:01:02.410\nWe're gonna talk about what Wireshark is,\nbut then, of course,\n\n20\n00:01:02.410 --> 00:01:03.520\nwe'll install Wireshark.\n\n21\n00:01:03.520 --> 00:01:05.070\nI'm gonna show you how to install it,\n\n22\n00:01:05.070 --> 00:01:09.330\nnot only in Windows which is by far\nthe most popular way to install it.\n\n23\n00:01:09.330 --> 00:01:11.329\nWe'll also do it on the MacBook 2 and\n\n24\n00:01:11.329 --> 00:01:15.400\nthen, we'll also show you how you can\ninstall it in a Linux distro as well.\n\n25\n00:01:15.400 --> 00:01:20.759\nFrom that point, we would jump in to\njust showing you how to do a basic\n\n26\n00:01:20.759 --> 00:01:27.530\ntype of packet capturing, which is just\ngetting all the data onto your machine.\n\n27\n00:01:27.530 --> 00:01:32.790\nFrom that point, you can use it to analyze\nthe amount of data that you have captured.\n\n28\n00:01:32.790 --> 00:01:36.910\nSo we're gonna perform a simple type\nof data capture available for us.\n\n29\n00:01:36.910 --> 00:01:40.090\nThen, of course, now that you know\nhow to do those basic things,\n\n30\n00:01:40.090 --> 00:01:43.670\nit's the interface that can be really\nconfusing at times because there are so\n\n31\n00:01:43.670 --> 00:01:45.060\nmany different options.\n\n32\n00:01:45.060 --> 00:01:48.960\nWe're gonna walk you through\nthe most basic of the interface so\n\n33\n00:01:48.960 --> 00:01:52.340\nthat you understand what you're seeing and\nwhat the layout is, and of course,\n\n34\n00:01:52.340 --> 00:01:54.830\nhow you can get access\nto some of the tools.\n\n35\n00:01:54.830 --> 00:01:58.220\nAnd the beginning area is making sure,\nof course, that we can start and\n\n36\n00:01:58.220 --> 00:02:00.500\nstop the capture as we need to.\n\n37\n00:02:01.540 --> 00:02:05.690\nOf course, with all the data\non our machines at this point,\n\n38\n00:02:05.690 --> 00:02:10.750\nthe problem that we have is simple,\nis now we have a gigantic virtual haystack\n\n39\n00:02:10.750 --> 00:02:14.200\nof all of these different\nsleevers of data that we have.\n\n40\n00:02:14.200 --> 00:02:16.400\nHow is it that we begin to pinpoint or\n\n41\n00:02:16.400 --> 00:02:19.280\nfind that one needle in\na haystack that we need?\n\n42\n00:02:19.280 --> 00:02:23.860\nWe'll talk a bit about using different\nfilters that will help us to begin to\n\n43\n00:02:23.860 --> 00:02:27.970\nwhittle down that haystack to\nreally isolate and focus down\n\n44\n00:02:27.970 --> 00:02:33.350\non the packets that we're really trying\nto take a look at as well, okay?\n\n45\n00:02:33.350 --> 00:02:36.460\nNow, even though you think we\nshould be done at that point, well,\n\n46\n00:02:36.460 --> 00:02:40.130\nthere are advanced features that we can\nalso talk about too, which of course,\n\n47\n00:02:40.130 --> 00:02:47.400\nis being able to capture the conversation\nof the data between two machines, right?\n\n48\n00:02:47.400 --> 00:02:49.840\nSo not only seeing one side of a capture,\nbut\n\n49\n00:02:49.840 --> 00:02:54.660\nactually being able to see if the data can\nflow on both sides of the capture as well.\n\n50\n00:02:54.660 --> 00:02:58.660\nWe'll take a look at doing that, as well\nas, of course, using some of the expert\n\n51\n00:02:58.660 --> 00:03:03.330\ninformation tools that we'll see, that are\nalso built into Wireshark to help us to\n\n52\n00:03:03.330 --> 00:03:07.040\nkind of pinpoint in the unusual\ntraffic that we're analyzing.\n\n53\n00:03:07.040 --> 00:03:11.039\nEspecially for errors and for warnings\nthat are going on in our systems or for\n\n54\n00:03:11.039 --> 00:03:14.554\nproblems, we'll also be able to\nuse that to help us to focus them.\n\n55\n00:03:14.554 --> 00:03:18.618\nAnd then, of course,\nlastly we'll start setting it up here for\n\n56\n00:03:18.618 --> 00:03:23.320\ntaking a look at the statistical\ninformation that we can also find out.\n\n57\n00:03:23.320 --> 00:03:26.550\nWe'll take a look at the most\ngeneral types of statistics and\n\n58\n00:03:26.550 --> 00:03:29.770\nthen we'll move into the realm\nof protocols specific types of\n\n59\n00:03:30.950 --> 00:03:33.730\nstatistics that we can\nalso take advantage of.\n\n60\n00:03:33.730 --> 00:03:38.100\nBut, if you say, hey, I haven't\nreally worked with Wireshark before,\n\n61\n00:03:38.100 --> 00:03:40.510\nthis is a great place for you to begin.\n\n62\n00:03:40.510 --> 00:03:44.360\nIf you need a refresher,\nthis is a great place for you to begin.\n\n63\n00:03:44.360 --> 00:03:49.420\nAs this series is really about\nthe foundation of learning about it,\n\n64\n00:03:49.420 --> 00:03:53.220\nwe think that this will really help you,\nespecially if you're getting started in\n\n65\n00:03:53.220 --> 00:03:56.580\nit, to begin to use it, and\nto feel more comfortable with it.\n\n66\n00:03:56.580 --> 00:03:58.960\nThis series has the potential,\nof course, of going on and\n\n67\n00:03:58.960 --> 00:04:03.920\nactually developing later content\nwhich will add on to the end of this\n\n68\n00:04:03.920 --> 00:04:09.880\nparticular short series of shows to\nprobably do more scenario types of\n\n69\n00:04:09.880 --> 00:04:13.550\nexamination of data as it goes\nacross our interfaces too.\n\n70\n00:04:13.550 --> 00:04:17.770\nSo, check back every once in a while as\nyou're watching through these series, and\n\n71\n00:04:17.770 --> 00:04:19.320\nyou might see one, two,\n\n72\n00:04:19.320 --> 00:04:22.620\nor maybe even three or four different\nepisodes start adding in and\n\n73\n00:04:22.620 --> 00:04:27.000\nfilling out Wireshark to help us to make\nit the best possible show that we can.\n\n74\n00:04:27.000 --> 00:04:30.096\nBut at least this will get you\na great start and a beginning.\n\n75\n00:04:30.096 --> 00:04:34.046\nSo, if you are ready to actually start\ntaking that journey, get ready for\n\n76\n00:04:34.046 --> 00:04:37.501\nthat very first episode, and\nCherokee and I will see you there.\n\n77\n00:04:37.501 --> 00:04:41.194\n[MUSIC]\n\n",
+          "url": "overview-wireshark",
+          "vimeoId": "214167143"
+        },
+        {
+          "description": "In this episode Ronnie and Cherokee introduce the protocol analyzing tool  Wireshark. Ronnie explains the differences between the terms packet capture, packet analyzer and protocol analyzer. You will also lean a brief history and description in addition to system requirements.",
+          "length": "1610",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-1-1-what_is_wireshark-022217-PGM.00_27_50_08.Still001-sm.jpg",
+          "title": "What is Wireshark",
+          "transcript": "",
+          "url": "wireshark2",
+          "vimeoId": "205892612"
+        },
+        {
+          "description": "In this show Ronnie and Cherokee explain how to install Wireshark on different platforms. First, Ronnie walks through a Windows install followed by Mac OS X and Linux installations.",
+          "length": "1656",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-2-1-install_wireshark-022217-PGM.00_27_40_04.Still001-sm.jpg",
+          "title": "Install Wireshark",
+          "transcript": "",
+          "url": "install-wireshark",
+          "vimeoId": "205893039"
+        },
+        {
+          "description": "Watch Cherokee and Ronnie cover different options to configure a custom capture. Wireshark offers several features such as abilities to generate predetermined file sizes, limit the number of packets captured and specify file extensions to name a few.",
+          "length": "1815",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-3-1-prform_data_capture-022217-PGM.00_30_09_15.Still001-sm.jpg",
+          "title": "Perform Data Capture",
+          "transcript": "",
+          "url": "perform-data-capture",
+          "vimeoId": "205893318"
+        },
+        {
+          "description": "Navigating the Wireshark interface may be a little intimidating but Ronnie and Cherokee lessen that sting and demonstrate several settings to ease your experience. First, Ronnie breaks down the basic layout of the default profile then proceeds to demonstrate how to create custom profiles.",
+          "length": "1692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-4-1-use_wireshark_interface-022317.00_27_56_06.Still001-sm.jpg",
+          "title": "Use Wireshark Interface",
+          "transcript": "",
+          "url": "wireshark-interface",
+          "vimeoId": "205893628"
+        },
+        {
+          "description": "Packet capturing can be overwhelming. Ronnie and Cherokee explain how to find the proverbial needle in the haystack. Ronnie explains and demonstrates the differences of capture versus display filters.",
+          "length": "1759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-5-1-use_filters-022317.00_29_06_23.Still001-sm.jpg",
+          "title": "Use Filters",
+          "transcript": "",
+          "url": "filters",
+          "vimeoId": "205893963"
+        },
+        {
+          "description": "Knowing where to logically place your sniffing tool depends on what type of data you are trying to collect or what type of problem you are trying. Ronnie explains methods such  to capture individual conversations or unicast transmissions.",
+          "length": "1547",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-6-1-capture_unicast_data-022317.00_25_32_12.Still001-sm.jpg",
+          "title": "Capture Unicast Data",
+          "transcript": "",
+          "url": "capture-unicast-data",
+          "vimeoId": "205894273"
+        },
+        {
+          "description": "After exploring several features Cherokee and Ronnie take you further down the rabbit hole. By examining the TCP of a captured packet one may visually see the conversation happening. First, you will analyze Telnet packets followed by the secure alternative of SSH communications.",
+          "length": "1624",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-1-use_advanced_features-022417-PGM.00_26_51_02.Still001-sm.jpg",
+          "title": "Use Advanced Features",
+          "transcript": "",
+          "url": "advanced-features",
+          "vimeoId": "206073884"
+        },
+        {
+          "description": "This is a continuation where Cherokee and Ronnie examine expert information to help narrow the scope of search results. Define these specific searches with parameters such as checksums, sequence info, response codes, request codes, undecoded packets, reassembled packets, malformed packets, protocol types and debug options.",
+          "length": "1038",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-7-1-2-use_advanced_features_pt2-022417-PGM.00_17_05_06.Still001-sm.jpg",
+          "title": "Use Advanced Features Part 2",
+          "transcript": "",
+          "url": "advanced-features2",
+          "vimeoId": "206074506"
+        },
+        {
+          "description": "Ronnie and Cherokee look at ways to help understand output. Ronnie explains and demonstrates how General statistics provide granular information in text or graphical representation.",
+          "length": "1184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-wireshark224/techskills-wireshark224-8-1-use_stats_and_reporting-022417-PGM.00_21_52_20.Still001-sm.jpg",
+          "title": "Use Stats and Reporting",
+          "transcript": "",
+          "url": "statsreporting",
+          "vimeoId": "206250947"
+        }
+      ],
+      "title": "Wireshark 2.2.4"
+    }
+  ],
+  "url": "wireshark2",
+  "vLab": false
+}

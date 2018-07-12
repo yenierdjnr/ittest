@@ -1,0 +1,461 @@
+{
+  "description": "The Certified Cloud Security Professional (CCSP) is a credential that is going to be relevant especially for people who want to focus on the knowledge areas of architectural concepts and design requirements, cloud data security, cloud platform and infrastructure security, cloud application security, and compliance concerns in a traditional standard enterprise environment. As powerful as cloud computing is for the organization, understanding its information security risks and mitigation strategies are critical. Legacy approaches are inadequate, and organizations need competent, experienced professionals equipped with the right cloud security knowledge and skills to be successful. The CCSP certification is for IT professionals with a minimum of five years of cumulative IT experience with backgrounds and exposure to cloud related services.",
+  "descriptionMD": "",
+  "length": "81559",
+  "name": "Certified Cloud Security Professional (UPDATED 2016)",
+  "practiceExam": false,
+  "subtitle": "CCSP",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam give a general overview on the CCSP exam and what to expect in this series. Covers topics such as architectural concepts and design elements, cloud data security, cloud platform and infrastructure security, cloud application security, operational aspects of the cloud--physically and logically, and legal and compliance concerns.",
+          "length": "328",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-0-0-overview-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-0-0-overview-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-0-0-overview-041516-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.187 --> 00:00:08.818\n[MUSIC]\n\n2\n00:00:08.818 --> 00:00:12.951\nIn this segment, we're going to give you\na brief overview of our upcoming series on\n\n3\n00:00:12.951 --> 00:00:15.266\nthe Certified Cloud Security Professional.\n\n4\n00:00:15.266 --> 00:00:18.969\nNow, and joining me in the studio today to\nhelp us out with that is our good friend,\n\n5\n00:00:18.969 --> 00:00:21.330\nAdam, who will be joining\nus in the series.\n\n6\n00:00:21.330 --> 00:00:23.840\nAdam, can you give us a quick overview of\n\n7\n00:00:23.840 --> 00:00:26.030\nwhat we should expect\nfrom our upcoming series.\n\n8\n00:00:26.030 --> 00:00:26.550\n>> Absolutely.\n\n9\n00:00:26.550 --> 00:00:30.740\nSo the CCSP is going to be\na credential that is going to be\n\n10\n00:00:30.740 --> 00:00:33.620\nrelevant to lots of people\nin the organization, or\n\n11\n00:00:33.620 --> 00:00:36.680\nin a traditional standard\nenterprise organization today.\n\n12\n00:00:36.680 --> 00:00:40.350\nBut especially for people that wanna focus\non the following domains and knowledge.\n\n13\n00:00:40.350 --> 00:00:44.150\nLet's probably first talk about makes up\nthe CCSP from a knowledge perspective.\n\n14\n00:00:44.150 --> 00:00:45.020\nAnd then we'll talk for\n\n15\n00:00:45.020 --> 00:00:48.020\njust a minute about the relevant\nexperience that somebody may need.\n\n16\n00:00:48.020 --> 00:00:51.030\nSo we're gonna look at six domains,\nor six areas of knowledge over all.\n\n17\n00:00:51.030 --> 00:00:53.200\nWe're going to be talking about\narchitectural concepts and\n\n18\n00:00:53.200 --> 00:00:54.120\ndesign requirements.\n\n19\n00:00:54.120 --> 00:00:56.580\nSo what does it take to really\nunderstand how to build and\n\n20\n00:00:56.580 --> 00:00:59.370\narchitect the cloud both logically and\nphysically?\n\n21\n00:00:59.370 --> 00:01:00.730\nCloud data security.\n\n22\n00:01:00.730 --> 00:01:02.920\nHow do we secure the data\nthat's in the cloud?\n\n23\n00:01:02.920 --> 00:01:05.060\nCloud platform and\ninfrastructure security.\n\n24\n00:01:05.060 --> 00:01:08.040\nHow do we secure the underlying\ninfrastructure that makes the cloud\n\n25\n00:01:08.040 --> 00:01:08.610\npossible?\n\n26\n00:01:08.610 --> 00:01:12.860\nThe hosts and the infrastructure that\nwe're going to run the cloud through,\n\n27\n00:01:12.860 --> 00:01:15.650\nthe networks, the storage,\nall of that kind of stuff.\n\n28\n00:01:15.650 --> 00:01:18.520\nCloud applications security,\nhow do we secure the application so\n\n29\n00:01:18.520 --> 00:01:21.860\nthe workloads that run on top\nof the host infrastructure?\n\n30\n00:01:21.860 --> 00:01:24.490\nHow do we deal with operational\naspects of the Cloud, so\n\n31\n00:01:24.490 --> 00:01:27.330\nwhat does it mean to physically and\nlogically design the Cloud?\n\n32\n00:01:27.330 --> 00:01:30.760\nHow do we physically and logically\nimplement cloud infrastructure, and\n\n33\n00:01:30.760 --> 00:01:32.982\nhow do we manage it from\na security standpoint?\n\n34\n00:01:32.982 --> 00:01:36.631\nAnd ultimately, of course, no complete\nconversation there at all around those\n\n35\n00:01:36.631 --> 00:01:40.857\nfive things unless we wrap all that with\nthe idea of legal and compliance concerns.\n\n36\n00:01:40.857 --> 00:01:44.287\nHow do we operate effectively in\ndifferent jurisdictional areas?\n\n37\n00:01:44.287 --> 00:01:48.877\nHow as CCSPs are we aware of the rules,\nin other words, we must align with\n\n38\n00:01:48.877 --> 00:01:52.877\nfrom the GRC, a Governance Risk Compliance\nperspective, with regards to the Cloud?\n\n39\n00:01:53.880 --> 00:01:57.150\nNow, Adam who is the intended audience for\nthis specific series?\n\n40\n00:01:57.150 --> 00:01:59.100\n>> So when we think, hello [LAUGH].\n\n41\n00:01:59.100 --> 00:02:03.300\nWhen we think about the intended audience\nfor the cloud, we think about an IT\n\n42\n00:02:03.300 --> 00:02:06.810\nprofessional first and foremost,\nas we often start out talking about.\n\n43\n00:02:06.810 --> 00:02:10.070\nIn this case, an IT professional that\nhas some background, some experience,\n\n44\n00:02:10.070 --> 00:02:13.390\nsome exposure to cloud and\ncloud related activities.\n\n45\n00:02:13.390 --> 00:02:16.400\nThey may work for a CSP,\na cloud service provider.\n\n46\n00:02:16.400 --> 00:02:19.830\nThey may work for an organization that\nwants to go into the cloud business on\n\n47\n00:02:19.830 --> 00:02:24.150\ntheir own running on prem private\ncloud within the organization.\n\n48\n00:02:24.150 --> 00:02:27.550\nIT in other words becomes the cloud\nprovider to the business, but\n\n49\n00:02:27.550 --> 00:02:29.030\nit's all done internally.\n\n50\n00:02:29.030 --> 00:02:33.040\nWe may work for an organization that\nis pondering a move to the cloud.\n\n51\n00:02:33.040 --> 00:02:36.460\nOr we may be a consultant that is going\nto be asked to consult and work for\n\n52\n00:02:36.460 --> 00:02:39.260\nvarious organizations that\nare going to be in the cloud\n\n53\n00:02:39.260 --> 00:02:41.880\nat various stages of their development and\ntheir use of the cloud.\n\n54\n00:02:41.880 --> 00:02:45.580\nIn order to be successful, according to\n(ISC) squared, the CCSP candidate must\n\n55\n00:02:45.580 --> 00:02:50.990\nhave a minimum of five years of cumulative\npaid full time IT experience over all,\n\n56\n00:02:50.990 --> 00:02:54.140\nwhich most people will be\nable to certainly provide and\n\n57\n00:02:54.140 --> 00:02:57.100\nto offer evidence of these days.\n\n58\n00:02:57.100 --> 00:03:01.575\nAnd of that five years, three years\nmust be in information security overall,\n\n59\n00:03:01.575 --> 00:03:04.985\none year or one focal year overall,\n\n60\n00:03:04.985 --> 00:03:07.815\nin other words one sixth of the,\nI'm sorry not one sixth, one fifth.\n\n61\n00:03:07.815 --> 00:03:09.345\nLet me do the math correctly,\n\n62\n00:03:09.345 --> 00:03:12.830\none fifth of the overall amount of time we\nneed should be in a cloud focused domain.\n\n63\n00:03:12.830 --> 00:03:17.067\nSo one of the of the six domains that\ni just mentioned to you, architecture,\n\n64\n00:03:17.067 --> 00:03:23.174\ncompliance, oversight in regards to cloud\nmanagement, operationally, architecture,\n\n65\n00:03:23.174 --> 00:03:26.782\net cetera, have one year of provable\nexperience in one of those domains.\n\n66\n00:03:26.782 --> 00:03:30.322\nAnd then you're able to essentially\nqualify to sit for the exam.\n\n67\n00:03:30.322 --> 00:03:30.842\n>> Awesome.\nWell,\n\n68\n00:03:30.842 --> 00:03:35.082\nyou talk about an exam, obviously there's\na certification that goes along with this.\n\n69\n00:03:35.082 --> 00:03:37.610\nAdam, can you tell us a little\nbit about that itself?\n\n70\n00:03:37.610 --> 00:03:41.070\n>> So the certification itself, like many\nof the exams that (ISC) squared has in\n\n71\n00:03:41.070 --> 00:03:44.330\nmarket, all of them these days,\nwill be delivered computerized.\n\n72\n00:03:44.330 --> 00:03:46.330\nSo you'll be able to go out\nto a testing center and\n\n73\n00:03:46.330 --> 00:03:48.650\ntake that exam when you've studied for\nit and are ready.\n\n74\n00:03:48.650 --> 00:03:49.765\nThe exam will be timed.\n\n75\n00:03:49.765 --> 00:03:50.880\nYou'll have a certain amount of time.\n\n76\n00:03:50.880 --> 00:03:53.830\nThere will be a certain number of\nquestions associated with the exam,\n\n77\n00:03:53.830 --> 00:03:55.810\na pretty standard format in that respect.\n\n78\n00:03:55.810 --> 00:03:59.530\nMultiple choice exam format\nstandardized today, so\n\n79\n00:03:59.530 --> 00:04:01.970\nthere may be test questions\nthat will be scenario based.\n\n80\n00:04:01.970 --> 00:04:04.485\nThey may be questions that will\nbe traditional multiple choice.\n\n81\n00:04:04.485 --> 00:04:07.625\nThere will be questions that may\nbe mix and match, drag and drop.\n\n82\n00:04:07.625 --> 00:04:11.275\nPretty standard exam format that we're\nused to seeing in multiple vendor\n\n83\n00:04:11.275 --> 00:04:14.095\narenas today with regard to\nhow they will offer testing.\n\n84\n00:04:14.095 --> 00:04:18.147\nThe one thing that's interesting here,\nis that (ISC) squared has partnered with\n\n85\n00:04:18.147 --> 00:04:22.987\nthe CSA, the Cloud Security Alliance,\nwhich is an international trade group\n\n86\n00:04:22.987 --> 00:04:27.267\nthat is formed from some of the big\nvendors in the cloud industry along with\n\n87\n00:04:27.267 --> 00:04:31.417\na lot of other players in the cloud\nindustry, focused on information security.\n\n88\n00:04:31.417 --> 00:04:34.967\nAnd they are going to be able to,\nbecause of this partnership,\n\n89\n00:04:34.967 --> 00:04:37.910\naccess the knowledge base the cloud\nsecurity alliance has developed.\n\n90\n00:04:37.910 --> 00:04:40.420\nWe'll talk about this in upcoming\nepisodes when you come in and\n\n91\n00:04:40.420 --> 00:04:42.150\nstart watching our material.\n\n92\n00:04:42.150 --> 00:04:45.140\nBut the interesting part here with regards\nto the exam is that the Cloud Security\n\n93\n00:04:45.140 --> 00:04:49.210\nAlliance has their own certification\non the market, the CCSK certificate.\n\n94\n00:04:49.210 --> 00:04:50.415\nIf you study for and\n\n95\n00:04:50.415 --> 00:04:55.005\nachieve the CCSK Certificate from the CSA,\nthat actually is able\n\n96\n00:04:55.005 --> 00:04:59.315\nto act as the one year of experience in\nthe cloud that (ISC) squared requires and\n\n97\n00:04:59.315 --> 00:05:02.815\nyou don't have to provide that one year of\ndocumented experience through your resume.\n\n98\n00:05:02.815 --> 00:05:06.865\nYou simply can show that you\nhave that CCSK certification and\n\n99\n00:05:06.865 --> 00:05:08.920\nthen you're able to qualify for\nand sit for the exam.\n\n100\n00:05:08.920 --> 00:05:10.055\nI can do that as well.\n\n101\n00:05:10.055 --> 00:05:11.465\n>> Excellent information Adam.\n\n102\n00:05:11.465 --> 00:05:14.020\nWe thank you for\nexplaining these things to us.\n\n103\n00:05:14.020 --> 00:05:17.806\nAnd if it sounds like something that might\nbe interesting or necessary for you,\n\n104\n00:05:17.806 --> 00:05:20.476\nwe look forward to seeing you\nin the upcoming episodes.\n\n105\n00:05:20.476 --> 00:05:26.274\n[MUSIC]\n\n",
+          "url": "overview70723",
+          "vimeoId": "163691830"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take you through the foundational concepts for cloud computing. Here they will take you through some common cloud vernacular and definitions. Also they describe the consequences of implementing a cloud solution from a security perspective.",
+          "length": "2285",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-1-1-cloud_computing_concepts-041116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-1-1-cloud_computing_concepts-041116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-1-1-cloud_computing_concepts-041116-1-sm.jpg",
+          "title": "Cloud Computing Concepts",
+          "transcript": "",
+          "url": "cloud-computing-concepts",
+          "vimeoId": "162678556"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue building the foundation knowledge and concepts for cloud computing. Here they dive into defining the service models such as IaaS, SaaS, and PaaS. They also describe the different deployment models like Private Cloud, Public Cloud, Hybrid Cloud, and Community Cloud.",
+          "length": "2396",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-1-describe_cloud_reference_architecture-041116-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-1-describe_cloud_reference_architecture-041116-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-1-describe_cloud_reference_architecture-041116-high-sm.jpg",
+          "title": "Describe Cloud Reference Architecture",
+          "transcript": "",
+          "url": "cloud-computing-concepts-2",
+          "vimeoId": "162681251"
+        },
+        {
+          "description": "In this episode, Daniel and Adam move forward with their exposition on fundamental cloud services concepts and definitions. Here they take a look at the many roles that cloud admins and architects. This includes cloud customer, cloud administrator, cloud developer, and cloud service managers etc.",
+          "length": "2315",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-2-describe_cloud_reference_architecture_pt2-041116-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-2-describe_cloud_reference_architecture_pt2-041116-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-2-2-describe_cloud_reference_architecture_pt2-041116-high-sm.jpg",
+          "title": "Describe Cloud Reference Architecture Part 2",
+          "transcript": "",
+          "url": "cloud-computing-concepts-3",
+          "vimeoId": "162682253"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take you through the TCI Reference Architecture matrix which will show the ways and areas that we need to address as an entity that is considering or utilizing cloud services and how we can secure them.",
+          "length": "2478",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-1-cloud_security_concepts-041116-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-1-cloud_security_concepts-041116-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-1-cloud_security_concepts-041116-high-sm.jpg",
+          "title": "Cloud Security Concepts",
+          "transcript": "",
+          "url": "cloud-computing-concepts-4",
+          "vimeoId": "162684045"
+        },
+        {
+          "description": "In this episode, Daniel and Adam talk about the common risks inherent to cloud environments. They walk you through areas of risk pertaining to the hypervisors, both type-I and type-II, as well as risks that are present with IaaS, Saas, and PaaS. They also discuss the importance of physical security.",
+          "length": "2090",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-2-cloud_security_concepts_pt2-041116-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-2-cloud_security_concepts_pt2-041116-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-3-2-cloud_security_concepts_pt2-041116-high-sm.jpg",
+          "title": "Cloud Security Concepts Part 2",
+          "transcript": "",
+          "url": "cloud-computing-concepts-5",
+          "vimeoId": "163707554"
+        },
+        {
+          "description": "In this episode, Daniel and Adam spend time taking a look at the top 10 Application security risks; describing them one by one. They also explain the Cloud Data Security Life Cycle which helps us understand the phases that our data abides in at any given time. Finally they discuss Service Level Agreements(SLA) from a security and risk perspective, which is basically our contract of service with our cloud provider.",
+          "length": "2344",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-4-secure_cloud_design_principles-041116-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-4-secure_cloud_design_principles-041116-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-1-4-secure_cloud_design_principles-041116-high-sm.jpg",
+          "title": "Secure Cloud Design Principles",
+          "transcript": "",
+          "url": "cloud-computing-concepts-6",
+          "vimeoId": "162686535"
+        }
+      ],
+      "title": "Architectural Concepts and Design Requirements"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam take a closer look at the Cloud Security Data Life Cycle phases. They explain what it takes to keep data secure at each one of these phases from securely storing to making sure that destroyed data is unrecoverable. They also talk about the idea of how secure a cloud solution is.",
+          "length": "2326",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-1-cloud_data_security-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-1-cloud_data_security-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-1-cloud_data_security-041216-1-sm.jpg",
+          "title": "Cloud Data Security",
+          "transcript": "",
+          "url": "cloud-data-security",
+          "vimeoId": "162846030"
+        },
+        {
+          "description": "In this episode, Daniel and Adam explain some considerations that need to be addressed when designing and implementing Cloud data storage architectures. They start by looking at storage locations and access mechanisms like mandatory and discretionary access controls. Finally they discuss the differences between object and block/volume storage.",
+          "length": "2286",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-2-cloud_data_storage_architectures-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-2-cloud_data_storage_architectures-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-2-cloud_data_storage_architectures-041216-1-sm.jpg",
+          "title": "Cloud Data Storage Architectures",
+          "transcript": "",
+          "url": "cloud-data-storage-architectures",
+          "vimeoId": "162840405"
+        },
+        {
+          "description": "In this episode, Daniel and Adam begin looking at designing and applying cloud data security strategies. They start by exploring the many threats to data that can be encountered like, DDOS, unauthorized access, data corruption, and internal malfeasance. Then they go over the available technologies to help mitigate those threats, specifically exploring encryption.",
+          "length": "2209",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-1-cloud_data_security_strategies-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-1-cloud_data_security_strategies-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-1-cloud_data_security_strategies-041216-1-sm.jpg",
+          "title": "Cloud Data Security Strategies",
+          "transcript": "",
+          "url": "cloud-data-security-strategies",
+          "vimeoId": "162843995"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their discussion on cloud data security strategies, jumping right back in with more about encryption implementations. Next they explore the different systems of encryption key management; describing the benefits of each. They discuss where keys should be stored and the importance of backups in case of key loss.",
+          "length": "2267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-2-cloud_data_security_strategies_pt2-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-2-cloud_data_security_strategies_pt2-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-2-cloud_data_security_strategies_pt2-041216-1-sm.jpg",
+          "title": "Cloud Data Security Strategies Part 2",
+          "transcript": "",
+          "url": "cloud-data-security-strategies-2",
+          "vimeoId": "162843989"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their discussion on cloud data security strategies, jumping right back in with more about encryption implementations. Here, they take you through a myriad of security technologies like masking and obfuscation. They also explain the process of Tokenization. Finally they look at emerging technologies like bit splitting and homomorphic encryption.",
+          "length": "1883",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-3-cloud_data_security_strategies_pt3-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-3-cloud_data_security_strategies_pt3-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-3-3-cloud_data_security_strategies_pt3-041216-1-sm.jpg",
+          "title": "Cloud Data Security Strategies Part 3",
+          "transcript": "",
+          "url": "cloud-data-security-strategies-3",
+          "vimeoId": "162840244"
+        },
+        {
+          "description": "In this episode, Daniel and Adam help you understand and implement Data Discovery and Classification techniques. They begin by explaining what Data Discovery is and how it is done through data labeling and content analysis. Then they tackle Data Classification to prioritize by sensitivity and the challenges of adding protections and even re-evaluation and re-classification.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-4-cloud_data_discovery_and_classification-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-4-cloud_data_discovery_and_classification-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-4-cloud_data_discovery_and_classification-041216-1-sm.jpg",
+          "title": "Cloud Data Discovery and Classification",
+          "transcript": "",
+          "url": "cloud-data-discovery-classification",
+          "vimeoId": "162836807"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take you through designing and implementing relevant jurisdictional data protections for personally identifiable information. They begin by defining common privacy terms like Data Subject, Controller, and Processor. They also examine the idea of legal constraints and considerations that must be accounted for when working with personal data. Finally they explore the discovery, classification, and control of personal data.",
+          "length": "2345",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-5-designing_appropriate_data_protection-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-5-designing_appropriate_data_protection-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-5-designing_appropriate_data_protection-041216-1-sm.jpg",
+          "title": "Designing Appropriate Data Protection",
+          "transcript": "",
+          "url": "designing-appropriate-data-protection",
+          "vimeoId": "162837134"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take a look at more data management concepts and practices. They start by exploring data rights management, then segueing into data retention, deletion, and archiving policies. Then they discuss auditability, traceability, and accountability of data events.",
+          "length": "2272",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-6-data_rights_mgmt_retention_and_data_events-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-6-data_rights_mgmt_retention_and_data_events-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-2-6-data_rights_mgmt_retention_and_data_events-041216-1-sm.jpg",
+          "title": "Data Rights Mgmt Retention and Data Events",
+          "transcript": "",
+          "url": "data-rights-mgmt-retention-data-events",
+          "vimeoId": "162834135"
+        }
+      ],
+      "title": "Cloud Data Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam walk you through the common cloud infrastructure components to help you better understand each from a cloud security perspective. They discuss the physical environment, the management plane, network components, and virtualization all the while giving insight on how to implement security to each.",
+          "length": "2342",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-1-cloud_infrastructure_components-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-1-cloud_infrastructure_components-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-1-cloud_infrastructure_components-041316-1-sm.jpg",
+          "title": "Cloud Infrastructure Components",
+          "transcript": "",
+          "url": "cloud-infrastructure-components",
+          "vimeoId": "162833889"
+        },
+        {
+          "description": "In this episode, Daniel and Adam describe the importance of risk assessment with regards to Cloud infrastructure. They look at what risks could potentially impact a cloud infrastructure as well as virtualization specific risks. They then describe counter measures and mitigation strategies to protect our cloud infrastructure environments.",
+          "length": "2433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-2-cloud_infrastructure_risks-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-2-cloud_infrastructure_risks-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-2-cloud_infrastructure_risks-041316-1-sm.jpg",
+          "title": "Cloud Infrastructure Risks",
+          "transcript": "",
+          "url": "cloud-infrastructure-risks",
+          "vimeoId": "162830959"
+        },
+        {
+          "description": "In this episode, Daniel and Adam discuss the designing and planning of security controls. They start by looking at controlling the physical environment, including the building, support structures, and the physical devices themselves. Then they move on to looking at security control measures for the virtualization and communications systems.",
+          "length": "2276",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-1-design_and_plan_security_controls-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-1-design_and_plan_security_controls-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-1-design_and_plan_security_controls-041316-1-sm.jpg",
+          "title": "Design and Plan Security Controls",
+          "transcript": "",
+          "url": "design-plan-security-controls",
+          "vimeoId": "162830474"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue discussing possible security controls for your cloud infrastructure. They pick up by looking at controlling access through Identity, Authentication, and Authorization systems. Then they talk about Auditing as security which helps us verify that our security measures are being effective. This also includes the cloud-specific considerations that will need to be addressed.",
+          "length": "2873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-2-design_and_plan_security_controls_pt2-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-2-design_and_plan_security_controls_pt2-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-3-2-design_and_plan_security_controls_pt2-041316-1-sm.jpg",
+          "title": "Design and Plan Security Controls Part 2",
+          "transcript": "",
+          "url": "design-plan-security-controls-2",
+          "vimeoId": "163742922"
+        },
+        {
+          "description": "In this episode, Daniel and Adam being their discussion of Disaster Recovery(DR) and Business Continuity management. They begin by pointedly defining what exactly DR and Business Continuity are so that we can effectively plan and implement them. They they look at the risks that could lead to implementing BCDR plans. They also cover the 3 ways that a Cloud solution can be leveraged for BCDR.",
+          "length": "2397",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-1-disaster_recovery_business_continuity-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-1-disaster_recovery_business_continuity-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-1-disaster_recovery_business_continuity-041216-1-sm.jpg",
+          "title": "Disaster, Recovery, and Business Continuity",
+          "transcript": "",
+          "url": "disaster-recovery-business-continuity",
+          "vimeoId": "162989906"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their dissertation on Disaster Recovery and Business Continuity. Here they pick back up by exploring the strategies that can be implemented toward forming a BCDR plan. Then they discuss the importance of testing the plan to discover possible issues and verify that the BCDR plan will actually work when needed.",
+          "length": "1986",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-2-disaster_recovery_business_continuity_pt2-041216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-2-disaster_recovery_business_continuity_pt2-041216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-3-4-2-disaster_recovery_business_continuity_pt2-041216-1-sm.jpg",
+          "title": "Disaster, Recovery and Business Continuity Part 2",
+          "transcript": "",
+          "url": "disaster-recovery-business-continuity2",
+          "vimeoId": "162990585"
+        }
+      ],
+      "title": "Cloud Platform and Infrastructure Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore the necessity of building secure applications. They begin the discussion by looking at cloud development of both RESTful and SOAP apps and common pitfalls to avoid. They also discuss the SDLC or Software Development Life-Cycle. Finally they cover common API vulnerabilities, cloud-specific risks, and threat modeling.",
+          "length": "2435",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-1-cloud_application_security_and_the_SDLC-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-1-cloud_application_security_and_the_SDLC-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-1-cloud_application_security_and_the_SDLC-041316-1-sm.jpg",
+          "title": "Cloud Application Security and the SDLC",
+          "transcript": "",
+          "url": "cloud-application-security-sdlc",
+          "vimeoId": "163013075"
+        },
+        {
+          "description": "In this episode, Daniel and Adam discuss the necessity of using software that has been verified as secure and then look at Identity and Access Management(IAM) solutions. They explain secure software by way of looking at approved APIs, supply-chain management, and open-source/community software. They describe IAM design by discussing Federated IDs, ID providers, Single Sign-On(SSO), and the use of multi-factor authentication.",
+          "length": "2052",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-2-identity_and_access_management_solutions-041316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-2-identity_and_access_management_solutions-041316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-2-identity_and_access_management_solutions-041316-1-sm.jpg",
+          "title": "Identity and Access Management Solutions",
+          "transcript": "",
+          "url": "identity-access-management-solutions",
+          "vimeoId": "163155887"
+        },
+        {
+          "description": "In this episode, Daniel and Adam explain the specifics of Cloud based software assurance and validation as well as cloud application architectures. They begin by looking at supplemental security devices and cryptographic systems that developers will need to pass through and comply with. They discuss securing apps through sandboxing and app virtualization. Finally, they begin looking at security verification of the apps through testing.",
+          "length": "2308",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-1-cloud_software_assurance_and_validation-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-1-cloud_software_assurance_and_validation-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-1-cloud_software_assurance_and_validation-041416-1-sm.jpg",
+          "title": "Cloud Software Assurance and Validation",
+          "transcript": "",
+          "url": "cloud-software-assurance-validation",
+          "vimeoId": "163012989"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their talk on cloud software assurance and validation; picking back up with app security testing practices. Here they take you through some of the common testing procedures like DAST, SAST, and Pen Testing. They also look at the OWASP testing guide and ISO",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-2-cloud_software_assurance_and_validation_pt2-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-2-cloud_software_assurance_and_validation_pt2-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-4-3-2-cloud_software_assurance_and_validation_pt2-041416-1-sm.jpg",
+          "title": "Cloud Software Assurance and Validation Part 2",
+          "transcript": "",
+          "url": "cloud-software-assurance-validation-2",
+          "vimeoId": "163155996"
+        }
+      ],
+      "title": "Cloud Application Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam discuss the ways in which we can implement security from the onset of implementation of our physical infrastructure. They start by exploring the secure-by-design physical components that can/should be used in the build, including TPM, secure storage controllers, and network controllers. Finally they go over some of the baked-in security features of the virtualization management tools.",
+          "length": "2405",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-2-implement_and_build_physical_intrastructure-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-2-implement_and_build_physical_intrastructure-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-2-implement_and_build_physical_intrastructure-041516-1-sm.jpg",
+          "title": "Implement and Build Physical Infrastructure",
+          "transcript": "",
+          "url": "implement-build-physical-infrastructure",
+          "vimeoId": "163704341"
+        },
+        {
+          "description": "In this episode, Daniel and Adam talk about what it takes to run your physical infrastructure securely. They go over physical access security measures like secure KVMs. They also talk more about secure network configurations by using VLANs, TLS, DNS Sec, and firewalls. Finally they discuss physical segregation for stand-alone hosts and the availability of clustered hosts through DRS, Dynamic Optimization, and High Availability.",
+          "length": "2466",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-3-running_physical_infrastructure-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-3-running_physical_infrastructure-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-3-running_physical_infrastructure-041516-1-sm.jpg",
+          "title": "Running Physical Infrastructure",
+          "transcript": "",
+          "url": "running-physical-infrastructure",
+          "vimeoId": "163700722"
+        },
+        {
+          "description": "In this episode, Daniel and Adam jump into the topic of managing a physical infrastructure. Here they begin by managing and monitoring access, patches/updates, and performance through logs and monitoring interfaces. Then they look at the implementation of network security controls like firewalls, IDS/IPS, and honeypots. Finally they look at log aggregation software for ease of management.",
+          "length": "2361",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-4-managing_physical_infrastructure-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-4-managing_physical_infrastructure-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-4-managing_physical_infrastructure-041516-1-sm.jpg",
+          "title": "Managing Physical Infrastructure",
+          "transcript": "",
+          "url": "managing-physical-infrastructure",
+          "vimeoId": "163704216"
+        },
+        {
+          "description": "In this episode, Daniel and Adam begin their discussion on ensuring compliance to the policies for your systems. They start by discussing the CCSP's role as the voice for security implementation throughout the systems. Then they talk about the necessity for Configuration Management and Change Management to keep the systems running at the prescribed benchmarks and any deviation is documented and approved.",
+          "length": "1835",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-1-ensure_compliance-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-1-ensure_compliance-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-1-ensure_compliance-041516-1-sm.jpg",
+          "title": "Ensure Compliance",
+          "transcript": "",
+          "url": "ensure-compliance",
+          "vimeoId": "163696581"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their conversation on ensuring Compliance using regulations/controls through different management systems. Here they cover the concepts and need for incident/problem management, release management and deployment management. They also cover Service Level management, availability management, and Capacity Management.",
+          "length": "2173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-2-ensure_compliance_pt2-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-2-ensure_compliance_pt2-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-2-ensure_compliance_pt2-041516-1-sm.jpg",
+          "title": "Ensure Compliance Part 2",
+          "transcript": "",
+          "url": "ensure-compliance-2",
+          "vimeoId": "163696815"
+        },
+        {
+          "description": "In this episode, Daniel and Adam explore the planning process for data center design. They start by looking at figuring out what factors will effect the build of our data-centers. They then dive into the logical design which will affect our physical design as well as other physical design considerations such as cooling and cable management.",
+          "length": "2371",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-palnning_data_center_design-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-palnning_data_center_design-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-5-palnning_data_center_design-041516-1-sm.jpg",
+          "title": "Planning Data Center Design",
+          "transcript": "",
+          "url": "planning-data-center-design",
+          "vimeoId": "163707666"
+        },
+        {
+          "description": "In this episode, Daniel and Adam discuss the process and concepts of Risk Assessment. They start by defining risk which leads them to looking at defined ways of framing risk. They then move into risk assessment by explaining qualitative vs. quantitative risk, as well as cost benefit analysis which will help determine your which strategy will be taken, be that Acceptance, Avoidance, Transference, and/or Mitigation.",
+          "length": "1333",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-6-risk_assessment-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-6-risk_assessment-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-6-risk_assessment-041516-1-sm.jpg",
+          "title": "Risk Assessment",
+          "transcript": "",
+          "url": "risk-assessment2",
+          "vimeoId": "163693972"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take you through the process of collecting and preserving of evidence in the case of a data breach incident. They explain the proper methods of collecting data and then detail the proper way that evidence should be handled. They also explore the different parties and stakeholders that need to be notified and informed during this time.",
+          "length": "1547",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-7-collection_and_preservation_of_digital_evidence-041516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-7-collection_and_preservation_of_digital_evidence-041516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-5-7-collection_and_preservation_of_digital_evidence-041516-1-sm.jpg",
+          "title": "Collection and Preservation of Digital Evidence",
+          "transcript": "",
+          "url": "collection-preservation-digital-evidence",
+          "vimeoId": "163693698"
+        }
+      ],
+      "title": "Operations"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam begin their discussion on legal compliance, specifically looking at legal requirements and considerations unique to Cloud environments. They look at international legislation conflicts and legal controls that may apply to your cloud systems. They also talk about eDiscovery and forensic requirements that can apply if investigation is engaged.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-1-legal_requirements_and_privacy-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-1-legal_requirements_and_privacy-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-1-legal_requirements_and_privacy-041416-1-sm.jpg",
+          "title": "Legal Requirements and Privacy",
+          "transcript": "",
+          "url": "legal-requirements-privacy",
+          "vimeoId": "163156022"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their talk on legal requirements and privacy. Here they begin by examining Personal Identity information and privacy concerns with regards to that. They define key terms that will help PII be properly managed. Finally they look at jurisdictional issues that may arise due to the global nature of much of cloud-based data.",
+          "length": "1980",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-2-legal_requirements_and_privacy_pt2-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-2-legal_requirements_and_privacy_pt2-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-1-2-legal_requirements_and_privacy_pt2-041416-1-sm.jpg",
+          "title": "Legal Requirements and Privacy Part 2",
+          "transcript": "",
+          "url": "legal-requirements-privacy-2",
+          "vimeoId": "163156050"
+        },
+        {
+          "description": "In this episode, Daniel and Adam examine the audit process for cloud-based systems. They start by differentiating between internal and external audits. Then they talk about assurance challenges of Cloud systems. Finally, they walk you through the different types of audit reports, restrictions, and gap analysis.",
+          "length": "2406",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-1-cloud_audit_processes-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-1-cloud_audit_processes-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-1-cloud_audit_processes-041416-1-sm.jpg",
+          "title": "Cloud Audit Processes",
+          "transcript": "",
+          "url": "cloud-audit-processes",
+          "vimeoId": "163156084"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue their examination of audit processes in cloud-based systems. Here they start by going through what it takes to develop an audit plan using standards as a guide. They also discuss Policies that will be used to make sure that compliance standards are stated and met. They also look at the impact of the distributed IT model.",
+          "length": "1644",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-2-cloud_audit_processes_pt2-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-2-cloud_audit_processes_pt2-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-2-2-cloud_audit_processes_pt2-041416-1-sm.jpg",
+          "title": "Cloud Audit Processes Part 2",
+          "transcript": "",
+          "url": "cloud-audit-processes-2",
+          "vimeoId": "163156109"
+        },
+        {
+          "description": "In this episode, Daniel and Adam contemplate the implications of Risk Management with regards to the Cloud. They assess the provider's risk and risk management as well as risk mitigation techniques. Then they go over many risk frameworks and metrics. Finally they discuss outsourcing and contract understanding/management.",
+          "length": "2190",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-3-risk_management_and_outsourcing-041416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-3-risk_management_and_outsourcing-041416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/ccsp-6-3-risk_management_and_outsourcing-041416-1-sm.jpg",
+          "title": "Risk Management and Outsourcing",
+          "transcript": "",
+          "url": "risk-management-outsourcing",
+          "vimeoId": "163155949"
+        }
+      ],
+      "title": "Legal and Compliance"
+    }
+  ],
+  "url": "certified-cloud-security-professional-2016",
+  "vLab": false
+}

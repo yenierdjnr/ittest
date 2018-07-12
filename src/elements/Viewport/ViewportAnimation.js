@@ -1,9 +1,6 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import CSSTransition from 'react-transition-group/CSSTransition';
-
-import ViewportAction from './ViewportAction';
-
+import TrackVisibility from 'react-on-screen';
 
 class ViewportAnimation extends PureComponent {
   constructor(props) {
@@ -11,7 +8,7 @@ class ViewportAnimation extends PureComponent {
 
     this.state = {
       visible: false
-    }
+    };
   }
 
   setVisible = () => this.setState({ visible: true })
@@ -20,8 +17,9 @@ class ViewportAnimation extends PureComponent {
     const { children } = this.props;
     const { visible } = this.state;
 
-    return (
-      <ViewportAction threshold={ 0 } onChange={ this.setVisible }>
+      return (
+              <TrackVisibility once>
+
         <CSSTransition
           timeout={ 2000 }
           in={ visible }
@@ -29,7 +27,8 @@ class ViewportAnimation extends PureComponent {
         >
           { children }
         </CSSTransition>
-      </ViewportAction>
+
+          </TrackVisibility>
     );
   }
 }

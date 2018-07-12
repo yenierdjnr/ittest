@@ -1,0 +1,322 @@
+{
+  "description": "A member of the Microsoft System Center suite of management solutions, System Center 2012 R2 Configuration Manager increases IT productivity and efficiency by reducing manual tasks and letting you focus on high-value projects, maximize hardware and software investments, and empower end-user productivity by providing the right software at the right time. Configuration Manager helps you deliver more effective IT services by enabling secure and scalable software deployment, compliance settings management, and comprehensive asset management of servers, desktops, laptops, and mobile devices. In addition, Configuration Manager can integrate with Windows Server Update Services (WSUS), Network Access Protection (NAP), Certificate Services, Exchange Server and Exchange Online, Group Policy, the DNS Server role, Windows Automated Installation Kit (Windows AIK) and the User State Migration Tool (USMT), Windows Deployment Services (WDS), and Remote Desktop and Remote Assistance.",
+  "descriptionMD": "",
+  "length": "74115",
+  "name": "System Center 2012 Configuration Manager - 70-243",
+  "practiceExam": false,
+  "subtitle": "SCCM",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "A member of the Microsoft System Center suite of management solutions, System Center 2012 R2 Configuration Manager increases IT productivity and efficiency by reducing manual tasks and letting you focus on high-value projects, maximize hardware and software investments, and empower end-user productivity by providing the right software at the right time. Configuration Manager helps you deliver more effective IT services by enabling secure and scalable software deployment, compliance settings management, and comprehensive asset management of servers, desktops, laptops, and mobile devices.",
+          "length": "425",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-0-0-overview-010816-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.061\n[MUSIC]\n\n2\n00:00:07.847 --> 00:00:08.630\nHello.\n\n3\n00:00:08.630 --> 00:00:10.248\nIn these series of episodes,\n\n4\n00:00:10.248 --> 00:00:14.533\nwe're gonna be covering system\ncenter configuration manager 2012R2.\n\n5\n00:00:14.533 --> 00:00:17.839\nAnd here to talk to us a little bit\nmore about what we can expect is Mr.\n\n6\n00:00:17.839 --> 00:00:18.550\nAdam Gordan.\n\n7\n00:00:18.550 --> 00:00:19.420\nHow's it going Adam?\n\n8\n00:00:19.420 --> 00:00:20.640\n>> Going well, going well.\n\n9\n00:00:20.640 --> 00:00:21.530\nThank you so much.\n\n10\n00:00:21.530 --> 00:00:23.550\nPleasure to be with all of you.\n\n11\n00:00:23.550 --> 00:00:26.723\nSo we're gonna be talking\nabout system center 2012 R2.\n\n12\n00:00:26.723 --> 00:00:31.503\nThe exam associated with this\nset of episodes is 70-243.\n\n13\n00:00:31.503 --> 00:00:35.015\nMaybe we could quickly just throw up a,\nthe machine that we have that we're gonna\n\n14\n00:00:35.015 --> 00:00:37.805\njust demo, a little bit of\nthe information, maybe relevant for\n\n15\n00:00:37.805 --> 00:00:40.594\nyou with regards to what to expect,\nyou could see on the screen in\n\n16\n00:00:40.594 --> 00:00:43.670\nfront of you there,\nthat we do have the exam information.\n\n17\n00:00:43.670 --> 00:00:47.470\nThe current price of the exam, at least\nat the time we're talking to you anyway.\n\n18\n00:00:47.470 --> 00:00:50.870\nKeep in mind when you view this\nperhaps 6 to 9 months from now, and\n\n19\n00:00:50.870 --> 00:00:52.560\nthat price has hopefully gone down.\n\n20\n00:00:52.560 --> 00:00:54.100\nAnd then you'll thank us, and\n\n21\n00:00:54.100 --> 00:00:56.240\nif it has gone up well you\nshould have viewed it sooner.\n\n22\n00:00:56.240 --> 00:00:57.496\nWhat can I tell you?\n\n23\n00:00:57.496 --> 00:00:58.840\n>> [LAUGH]\n>> But currently $150,\n\n24\n00:00:58.840 --> 00:01:03.330\nthat is the standard going rate by the way\nfor Microsoft exams in the United States.\n\n25\n00:01:03.330 --> 00:01:06.210\nThat is in USD, United States Dollars.\n\n26\n00:01:06.210 --> 00:01:09.170\nSo, if you're viewing this from outside\nthe United States, you obviously will get\n\n27\n00:01:09.170 --> 00:01:13.520\na different localized price for\nexams internationally, by country or by\n\n28\n00:01:13.520 --> 00:01:17.920\ngeography when you go to the appropriate\nMicrosoft website for your region.\n\n29\n00:01:17.920 --> 00:01:18.800\nAnd, do understand that.\n\n30\n00:01:18.800 --> 00:01:21.510\nAnd that is an important,\nsubtle but important point for\n\n31\n00:01:21.510 --> 00:01:23.540\nthose of you from outside the U.S.\n\n32\n00:01:23.540 --> 00:01:27.540\nExam pricing may very well be different\nacross the globe, and indeed it is.\n\n33\n00:01:27.540 --> 00:01:29.958\nAnd it is localized, so\njust make sure you're aware of that.\n\n34\n00:01:29.958 --> 00:01:33.920\nHowever, having said that,\nthe exam objectives are not gonna change.\n\n35\n00:01:33.920 --> 00:01:37.480\nWhenever you take the exam anywhere, they\nare gonna be the same, luckily for you.\n\n36\n00:01:37.480 --> 00:01:40.270\nWhich means that going through\nall these episodes with us,\n\n37\n00:01:40.270 --> 00:01:42.070\nyou will learn what you need to learn.\n\n38\n00:01:42.070 --> 00:01:45.100\nAnd, regardless of where you are,\nyou will be well prepared.\n\n39\n00:01:45.100 --> 00:01:49.298\nBut let me warn you know, and please heed\nmy warning, study hard and study long.\n\n40\n00:01:49.298 --> 00:01:52.800\nThis is an exam that requires\na great deal of attention to detail.\n\n41\n00:01:52.800 --> 00:01:56.868\nAnd when I talk about detail, if we could\nzoom down just a little bit down there to\n\n42\n00:01:56.868 --> 00:02:00.452\nwhere all those very, very small\nplus signs and blue writing are, and\n\n43\n00:02:00.452 --> 00:02:03.410\nwe're going to zoom in just\na little bit as I'm talking.\n\n44\n00:02:03.410 --> 00:02:07.682\nAnd what we will see Is that we\ncan see the exam objectives and\n\n45\n00:02:07.682 --> 00:02:11.536\nthe percentage of coverage\non the exam by objective.\n\n46\n00:02:11.536 --> 00:02:15.717\nAnd so you can see we have design and\nplan System Center Config Manager\n\n47\n00:02:15.717 --> 00:02:19.046\ninfrastructure, roughly\n10 to 15% of the exam.\n\n48\n00:02:19.046 --> 00:02:23.032\nThis is gonna be focusing on things\nlike how do we, from a best practice\n\n49\n00:02:23.032 --> 00:02:28.580\nperspective, understand how to plan for a\nsingle site versus a multi-site hierarchy?\n\n50\n00:02:28.580 --> 00:02:32.660\nWe talk a lot about this in our\nepisodes on design and implementation.\n\n51\n00:02:32.660 --> 00:02:35.100\nWhat is a single-site hierarchy,\nyou may ask.\n\n52\n00:02:35.100 --> 00:02:39.095\nWell, come and join me for all the class\nepisodes, and we'll be happy to show you!\n\n53\n00:02:39.095 --> 00:02:41.783\nIf we wanna talk about\nmulti-site hierarchies,\n\n54\n00:02:41.783 --> 00:02:44.983\nwe're talking about central admin sites,\nprimary site or\n\n55\n00:02:44.983 --> 00:02:49.140\nsites and/or secondary sites or\nchild sites that are linked to them.\n\n56\n00:02:49.140 --> 00:02:52.968\nBut to find out more, and to see\nthe fabulous drawings that we have for\n\n57\n00:02:52.968 --> 00:02:55.813\nyou that would represent\nall of this information.\n\n58\n00:02:55.813 --> 00:02:58.890\nYou have to actually come and\nparticipate in all of these episodes, so\n\n59\n00:02:58.890 --> 00:03:00.980\nwe encourage you to certainly do that.\n\n60\n00:03:00.980 --> 00:03:04.473\nYou´ll see managing operating system\ndeployments, what´s known as the OSD,\n\n61\n00:03:04.473 --> 00:03:05.097\nfeature set.\n\n62\n00:03:05.097 --> 00:03:09.725\nAgain roughly 10 to 15%, we walk\nthrough and do a live demonstration of\n\n63\n00:03:09.725 --> 00:03:14.066\nmultiple technology areas in every\none of these exam objective areas,\n\n64\n00:03:14.066 --> 00:03:19.090\nto make sure that you are gonna be able\nto understand what is expected of you.\n\n65\n00:03:19.090 --> 00:03:21.930\nHow to use the technology\nin the real world.\n\n66\n00:03:21.930 --> 00:03:24.270\nMake sure you understand\nthe best practices.\n\n67\n00:03:24.270 --> 00:03:28.090\nAnd the do's and don'ts from the\nperspective of, hey we've done this a lot.\n\n68\n00:03:28.090 --> 00:03:29.643\nLet us share our knowledge with you.\n\n69\n00:03:29.643 --> 00:03:33.739\nMake sure you know what to do, but also\nwhat to avoid, and as well as all that\n\n70\n00:03:33.739 --> 00:03:37.254\nhelp you to then understand how to\npractice the skills hands on so\n\n71\n00:03:37.254 --> 00:03:40.400\nthat you understand how to prepare for\nthis exam.\n\n72\n00:03:40.400 --> 00:03:43.539\nSo managing the operating\nsystem deployment feature set,\n\n73\n00:03:43.539 --> 00:03:48.058\nwe're gonna take a look at how to do at\nWindows 8.1 enterprise endpoint deployment\n\n74\n00:03:48.058 --> 00:03:49.392\nto a bare metal install.\n\n75\n00:03:49.392 --> 00:03:53.600\nGonna actually use a set of hosted labs\ndirectly from Microsoft for that one.\n\n76\n00:03:53.600 --> 00:03:57.480\nWe demo on the hands-on lab\ntechnology platform on Technet\n\n77\n00:03:57.480 --> 00:03:59.510\nusing Microsoft's own technology.\n\n78\n00:03:59.510 --> 00:04:02.348\nAnd their own hosted labs that\nare freely available to you.\n\n79\n00:04:02.348 --> 00:04:05.180\nAnd we will tell you where to find these,\nif you're not familiar with them.\n\n80\n00:04:05.180 --> 00:04:09.490\nAnd we walk you through step-by-step how\nto do that entire deployment sequence and\n\n81\n00:04:09.490 --> 00:04:10.790\nshow it to you live.\n\n82\n00:04:10.790 --> 00:04:12.450\nInside that episode.\n\n83\n00:04:12.450 --> 00:04:17.190\nDeploying applications and software\nupdates, roughly 10 to 15% of the exam.\n\n84\n00:04:17.190 --> 00:04:20.870\nWe spend a great deal of time walking\nyou through how to do application and\n\n85\n00:04:20.870 --> 00:04:22.280\npackage based deployments.\n\n86\n00:04:22.280 --> 00:04:24.190\nWe show you how to do both of those live.\n\n87\n00:04:24.190 --> 00:04:27.107\nAnd we actually walk through,\nand explain to you how and\n\n88\n00:04:27.107 --> 00:04:31.079\nwhat the best practices are behind the\nscenes in terms of how to configure and\n\n89\n00:04:31.079 --> 00:04:33.953\nset up and\nthen ultimately manage these deployments.\n\n90\n00:04:33.953 --> 00:04:38.020\nManaging compliance settings, we'll\ntake a look at baseline compliance and\n\n91\n00:04:38.020 --> 00:04:41.780\ntalk about configuration items and\nhow to set up and manage compliance,\n\n92\n00:04:41.780 --> 00:04:45.725\nwe'll actually also import an external\nconfiguration management pack and\n\n93\n00:04:45.725 --> 00:04:49.916\nbring in external configuration items and\nconfiguration baselines from a third\n\n94\n00:04:49.916 --> 00:04:53.583\nparty vendor and show you how to\nimplement those and use those as well.\n\n95\n00:04:53.583 --> 00:04:56.424\nManaging sites,\nwe'll be talking about as we did and\n\n96\n00:04:56.424 --> 00:04:59.391\nwe talked a little bit about\nup top with design and plan,\n\n97\n00:04:59.391 --> 00:05:03.938\nwhat the individual specifics are of site\nmanagement, whether it is a primary site,\n\n98\n00:05:03.938 --> 00:05:07.158\nwhether it is a child site that\nis linked to the primary site,\n\n99\n00:05:07.158 --> 00:05:11.115\nwhether it is a central admin site\nthat the primary site is linked to.\n\n100\n00:05:11.115 --> 00:05:15.108\nWe'll talk about those different sites\nas well as the individual site roles.\n\n101\n00:05:15.108 --> 00:05:19.023\nWhether it is the software update point,\nwhether it is going to be the ability\n\n102\n00:05:19.023 --> 00:05:23.330\nto have a distribution point, a management\npoint, a fall back status point.\n\n103\n00:05:23.330 --> 00:05:25.470\nA certificate enrollment point,\nwhatever it may be,\n\n104\n00:05:25.470 --> 00:05:28.720\nwe'll talk about the majority of these\ncertainly can configure many of them,\n\n105\n00:05:28.720 --> 00:05:32.380\nand show you how to get in under\nthe hood and work with them.\n\n106\n00:05:32.380 --> 00:05:34.480\nHave the nuts and\nbolts at the granular level.\n\n107\n00:05:34.480 --> 00:05:38.381\nAnd you'll be joining for those episodes\nhopefully along with all these others, and\n\n108\n00:05:38.381 --> 00:05:39.367\nsee how that is done.\n\n109\n00:05:39.367 --> 00:05:43.600\nWe'll focus on managing clients,\nwe'll focus on managing inventory.\n\n110\n00:05:43.600 --> 00:05:48.136\nAnd managing reports and queries, we'll do\na whole episode on how to set up queries,\n\n111\n00:05:48.136 --> 00:05:51.917\nand use them to populate not only\ncollections, but also how to set up and\n\n112\n00:05:51.917 --> 00:05:54.958\ninstall a sequel services,\nrecording services point.\n\n113\n00:05:54.958 --> 00:05:58.753\nAnd then we will then actually generate\nand show you how to set up those reports.\n\n114\n00:05:58.753 --> 00:06:02.100\nWe'll also take a look at how\nto use queries generically.\n\n115\n00:06:02.100 --> 00:06:05.300\nThe WQL, the W my query language.\n\n116\n00:06:05.300 --> 00:06:07.290\nTo be able to go in and\nactually drive queries.\n\n117\n00:06:07.290 --> 00:06:10.109\nAnd queries are so valuable,\nso important to what we do in\n\n118\n00:06:10.109 --> 00:06:13.872\nSystem Center Config Manager because\nthey underlie our ability to be able to\n\n119\n00:06:13.872 --> 00:06:17.931\nunderstand how to identify, manage, and\nultimately manipulate information to\n\n120\n00:06:17.931 --> 00:06:21.140\ncreate collections to populate\nthem with dynamic membership.\n\n121\n00:06:21.140 --> 00:06:25.048\nAnd to then be able to use that in\naddition to be able to then create and\n\n122\n00:06:25.048 --> 00:06:29.919\ndrive reporting, so we'll be examine these\nand a lot of other little hidden nooks,\n\n123\n00:06:29.919 --> 00:06:35.200\ncranny's, gems, and valuable insights that\nboth myself and our co host mister Mike.\n\n124\n00:06:35.200 --> 00:06:38.110\nWho was the one just introduced\nthis whole episode to you.\n\n125\n00:06:38.110 --> 00:06:39.670\nIs gonna go ahead.\n\n126\n00:06:39.670 --> 00:06:41.660\nOr are gonna go ahead and share with you.\n\n127\n00:06:41.660 --> 00:06:43.178\nAs you join us for this and for\n\n128\n00:06:43.178 --> 00:06:47.619\nall episodes associated with system\ncenter configuration manager 2012 R2.\n\n129\n00:06:47.619 --> 00:06:49.260\nLook forward to seeing you there.\n\n130\n00:06:49.260 --> 00:06:52.378\nHopefully you'll be able to come in and\nspend some time with us,\n\n131\n00:06:52.378 --> 00:06:55.612\nlearn about all the really cool and\nvaluable things you can do, and\n\n132\n00:06:55.612 --> 00:06:58.699\nbecome successful at taking and\npassing the 7-243 exam.\n\n133\n00:06:58.699 --> 00:07:05.039\n[MUSIC]\n\n",
+          "url": "overview70710",
+          "vimeoId": "151932673"
+        },
+        {
+          "description": "In this episode, Adam and Mike take a tour of the System Center Configuration Manager console. They do a high level overview of the different nodes in the console. They also talk about how SCCM fits into an enterprise environment.",
+          "length": "1758",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-1-sccm_2012r2_introduction-010515-1-sm.jpg",
+          "title": "SCCM 2012R2 Introduction",
+          "transcript": "",
+          "url": "sccm-2012r2-introduction",
+          "vimeoId": "151073362"
+        },
+        {
+          "description": "In this episode, Adam and Mike discuss the architecture of a SCCM deployment. They look at primary sites and secondary sites, and describe their purpose and functionality. They also look at the SCCM roles that are installed on the servers in the deployment.",
+          "length": "2310",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-1-architecture_overview-010515-1-sm.jpg",
+          "title": "Architecture Overview",
+          "transcript": "",
+          "url": "architecture-overview",
+          "vimeoId": "151073366"
+        },
+        {
+          "description": "In this episode, Adam and Mike continue their look at the architecture of a SCCM deployment. They talk about the new features available in SCCM 2012 R2. They also look at some typical deployments for different size organizations.",
+          "length": "2368",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-2-2-architecture_overview_pt2-010515-1-sm.jpg",
+          "title": "Architecture Overview Part 2",
+          "transcript": "",
+          "url": "architecture-overview-2",
+          "vimeoId": "151073363"
+        },
+        {
+          "description": "In this episode, Adam and Mike demonstrate the installation process for SCCM 2012 R2. They configure a server with all of the prerequisites for installing SCCM 2012 R2, including installing IIS, the Windows ADK, and extending the schema. Then they complete the SCCM 2012 R2 installation wizard.",
+          "length": "4632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-3-installing_sccm_2012r2-010515-1-sm.jpg",
+          "title": "Installing SCCM 2012R2",
+          "transcript": "",
+          "url": "installing-sccm-2012r2",
+          "vimeoId": "151073361"
+        },
+        {
+          "description": "In this episode, Adam and Mike cover post-installation tasks. They talk about ways to verify the SCCM 2012 R2 installation succeeded, and everything is working properly. They verify the proper directories were created, check log files, and open the SCCM console. They also use powershell to verify installation results.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-4-post_intallation-010515-1-sm.jpg",
+          "title": "Post Installation",
+          "transcript": "",
+          "url": "post-installation",
+          "vimeoId": "151073364"
+        },
+        {
+          "description": "In this episode, Adam and Mike demonstrate creating a secondary site in SCCM 2012 R2. They walk through the wizard to add a secondary site to the existing SCCM infrastructure created in a previous episode. They also look at configuring the communications between the two sites.",
+          "length": "1869",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-1-5-create_a-secondary_site-010616-1-sm.jpg",
+          "title": "Create a Secondary Site",
+          "transcript": "",
+          "url": "create-secondary-site",
+          "vimeoId": "151073365"
+        }
+      ],
+      "title": "Design and plan System Center Configuration Manager infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate deploying an operating system image using SCCM. They capture an image of a Windows 8.1 client, prepare the image for deployment, and then deploy the image to a bare metal machine.",
+          "length": "5761",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-2-os-deployment-010816-1-sm.jpg",
+          "title": "OS Deployment",
+          "transcript": "",
+          "url": "os-deployment",
+          "vimeoId": "151511008"
+        }
+      ],
+      "title": "Manage operating system deployment (OSD)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate how to configure SCCM to deploy software, applications, and packages. They configure a distribution point and a distribution point group. Then they create and deploy a software package.",
+          "length": "5242",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-1-managing_software-010716-1-sm.jpg",
+          "title": "Managing Software",
+          "transcript": "",
+          "url": "managing-software",
+          "vimeoId": "151382782"
+        },
+        {
+          "description": "In this episode, Adam and Mike do a review on managing applications, and talk about some of the do's and don'ts of deploying packages and applications. Then they demonstrate setting up the application catalog. They also show how to make it available to users via the intranet and the internet.",
+          "length": "2569",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-5-2-application_catalog-010716-1-sm.jpg",
+          "title": "Application Catalog",
+          "transcript": "",
+          "url": "application-catalog",
+          "vimeoId": "151382783"
+        },
+        {
+          "description": "In this episode, Adam and Mike talk about integrating WSUS and the patch management functionality into SCCM 2012 R2. They configure WSUS and the SCCM environment to support deploying updates. Then they configure update synchronization with Microsoft.",
+          "length": "3803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-1-software_updates-010816-1-sm.jpg",
+          "title": "Software Updates",
+          "transcript": "",
+          "url": "software-updates",
+          "vimeoId": "151511006"
+        },
+        {
+          "description": "In this episode, Adam and Mike continue to look at integrating WSUS and SCCM 2012 R2. They go through the process of packaging an update for deployment. They also demonstrate how to create an automatic deployment rule.",
+          "length": "5090",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-7-1-2-software_updates-010816-1-sm.jpg",
+          "title": "Software Updates Part 2",
+          "transcript": "",
+          "url": "software-updates-2",
+          "vimeoId": "151554778"
+        }
+      ],
+      "title": "Deploy applications and software updates"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike talk about using SCCM 2012 R2 to managing compliance. They look at creating and importing configuration items. Then they create and apply a configuration baseline. They also talk about the remediation process.",
+          "length": "1715",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-2-managing_compliance-010816-1-sm.jpg",
+          "title": "Managing Compliance",
+          "transcript": "",
+          "url": "managing-compliance",
+          "vimeoId": "151403933"
+        }
+      ],
+      "title": "Manage compliance settings"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike demonstrate setting up site boundaries and boundary groups. They create a site boundary based on an Active Directory site, and then link that boundary to a boundary group. Then they list the different discovery methods for finding and adding SCCM clients.",
+          "length": "2404",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-1-boundary_groups-010616-1-sm.jpg",
+          "title": "Boundary Groups",
+          "transcript": "",
+          "url": "boundary",
+          "vimeoId": "151073369"
+        },
+        {
+          "description": "In this episode, Adam and Mike take a closer look at the discovery process. They look at heartbeat discovery, the four Active Directory discovery methods and network discovery. They demonstrate configuring options for Active Directory discovery.Then they look at log files associated with discovery.",
+          "length": "2611",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-2-discovery_methods-010616-1-sm.jpg",
+          "title": "Discovery Methods",
+          "transcript": "",
+          "url": "discovery-methods",
+          "vimeoId": "151140101"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at how collections are used in SCCM 2012 R2 to gather and manage similar resources. They create limiting collections and membership rules to filter the collection membership. They look at default roles used to manage permissions in SCCM, as well as creating custom roles.",
+          "length": "2577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-2-3-collection_and_roles-010616-1-sm.jpg",
+          "title": "Collections and Roles",
+          "transcript": "",
+          "url": "collections-roles",
+          "vimeoId": "151140115"
+        }
+      ],
+      "title": "Manage sites"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike discuss ways to deploy the SCCM 2012 R2 client agent. They look at deploying the client agent using group policy. They also look at doing a manual install of the client agent, and push the client agent from the SCCM console.",
+          "length": "2701",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-1-deploy_the_client_agent-010616-1-sm.jpg",
+          "title": "Deploy the Client Agent",
+          "transcript": "",
+          "url": "deploy-client-agent",
+          "vimeoId": "151157927"
+        },
+        {
+          "description": "In this episode, Adam and Mike discuss device requirements for installing the SCCM 2012 R2 client agent. They also talk about supporting internet based clients. Then they take a look at configuring custom SCCM 2012 R2 client agent settings.",
+          "length": "3175",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-3-2-manage_the_client_agent-010616-1-sm.jpg",
+          "title": "Manage the Client Agent",
+          "transcript": "",
+          "url": "manage-client-agent",
+          "vimeoId": "151157913"
+        }
+      ],
+      "title": "Manage clients"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike look at setting up inventory collections in SCCM 2012 R2. They create hardware inventories and software inventories. They look at doing software metering. Then they talk about the reporting capabilities of SCCM 2012 R2.",
+          "length": "2554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-1-inventory_collection-010616-1-sm.jpg",
+          "title": "Inventory Collection",
+          "transcript": "",
+          "url": "inventory-collection",
+          "vimeoId": "151382785"
+        }
+      ],
+      "title": "Manage inventory"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Adam and Mike discuss writing queries and generating reports. They talk about the Windows Query Language and the information that can be queried. Then they look at reporting services and how to generate reports.",
+          "length": "4965",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-4-2-queries_and_reports-010716-1-sm.jpg",
+          "title": "Queries and Reports",
+          "transcript": "",
+          "url": "queries-reports",
+          "vimeoId": "151382786"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at Endpoint Protection. They demonstrate how to integrate Endpoint Protection into SCCM 2012 R2, to allow for centralized management. They show how we can use endpoint Protection to manage antimalware settings as well as firewall settings.",
+          "length": "3338",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-8-1-endpoint_protection-010816-1-sm.jpg",
+          "title": "Endpoint Protection",
+          "transcript": "",
+          "url": "endpoint-protection",
+          "vimeoId": "151403845"
+        },
+        {
+          "description": "In this episode, Adam and Mike look at some lesser used features and capabilities of SCCM 2012 R2. They start with the remote tool set, which allows for remotely managing a machine via the agent. They also look at using Windows Intune to manage mobile devices.",
+          "length": "2345",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-6-1-sccm_odds_and_ends-010716-1-sm.jpg",
+          "title": "SCCM Odds and Ends",
+          "transcript": "",
+          "url": "sccm-odds",
+          "vimeoId": "151382784"
+        }
+      ],
+      "title": "Manage reports and queries"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Adam explore extending SCCM support to Linux client machines. They demonstrate setting up the Linux machine by installing the client packages and Universal Agent within the Linux operating system.",
+          "length": "1959",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-1-confiuring_linux_client_support-041616-1-sm.jpg",
+          "title": "Configuring Linux Client Support",
+          "transcript": "",
+          "url": "configuring-linux-client-support",
+          "vimeoId": "164252993"
+        },
+        {
+          "description": "In this episode, Wes and Adam discuss the process of migrating from a SCCM 2007 infrastructure to SCCM 2012R2. They explore the migration process and the components needed to perform a successful migration. They also will demonstrate how to clean up residual data left behind after the migration has been performed.",
+          "length": "6366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-sccm70243/microsoft-sccm70243-9-2-sccm_2007_to_2012R2_migration-041616-1-sm.jpg",
+          "title": "SCCM 2007 to 2012R2 Migration",
+          "transcript": "",
+          "url": "sccm-2007-2012r2-migration",
+          "vimeoId": "164253570"
+        }
+      ],
+      "title": "Additional Information"
+    }
+  ],
+  "url": "system-center-configuration-manager",
+  "vLab": false
+}

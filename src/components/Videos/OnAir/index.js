@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 
 const OnAir = ({ className='', bkImage }) => {
-  const handlePlay = e => {
+  const handlePlay = (e) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {
@@ -18,7 +18,7 @@ const OnAir = ({ className='', bkImage }) => {
     <div id="background-video" className={ `${styles['capsule']} ${className}` } onClick={ handlePlay }>
       <div id="vidwrap" className={ styles.vidwrap }></div>
       <IconPlay className={ styles['play-button'] }/>
-      <Img sizes={ bkImage.sizes } alt="on air video"/>
+      <Img fluid={ bkImage.fluid } alt="on air video"/>
     </div>
   );
 };

@@ -6,24 +6,22 @@ import BlogContent from 'Components/BlogContent';
 import styles from './blog.module.scss';
 
 
-const Blog = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>,
-      <main className={ styles.blog }>
+const Blog = ({ location }) =>
+  <Fragment>
+    <Head location={ location }/>,
+    <main className={ styles.blog }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.BlogContent }>
-          <BlogContent />
-        </section>
+      <section className={ styles.BlogContent }>
+        <BlogContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default Blog;

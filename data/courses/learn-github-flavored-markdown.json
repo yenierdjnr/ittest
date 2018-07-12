@@ -1,0 +1,235 @@
+{
+  "description": "Markdown is a alternative to other markup languages such as HTML. There is a version that is a little more 'fancy' called GitHub Flavored Markdown. In this series, you will find out what GitHub-Flavored Markdown is as well as how to accomplish quick format tasks that simplify creating structure and some styling.",
+  "descriptionMD": "Markdown is a alternative to other markup languages such as HTML. There is a version that is a little more 'fancy' called GitHub Flavored Markdown. In this series, you will find out what GitHub-Flavored Markdown is as well as how to accomplish quick format tasks that simplify creating structure and some styling.",
+  "length": "10183",
+  "name": "Learn GitHub Flavored Markdown",
+  "practiceExam": false,
+  "subtitle": "Easy Document Formatting",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Markdown is a alternative to other markup languages such as HTML. There is a version that is a little more 'fancy' called GitHub Flavored Markdown. In this series, you will find out what GitHub-Flavored Markdown is as well as how to accomplish quick format tasks that simplify creating structure and some styling.",
+          "length": "128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-0-0-0-overview-021618-PGM.00_00_08_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-0-0-0-overview-021618-PGM.00_00_08_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-0-0-0-overview-021618-PGM.00_00_08_23.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:06.170\n[MUSIC]\n\n2\n00:00:06.170 --> 00:00:09.460\nWelcome, everyone, to your\nLearn GitHub-Flavored Markdown series.\n\n3\n00:00:09.460 --> 00:00:10.920\nI'm your host, Cherokee Boose.\n\n4\n00:00:10.920 --> 00:00:13.341\nToday, I'd like to introduce Mr.\nJustin Dennison.\n\n5\n00:00:13.341 --> 00:00:15.590\nHe's gonna be the one guiding\nyou through this topic.\n\n6\n00:00:15.590 --> 00:00:19.370\nSo Justin, I've gotta ask,\nwhat should I expect from this series?\n\n7\n00:00:19.370 --> 00:00:21.400\n&gt;&gt; So\nthis series is fairly entry level and\n\n8\n00:00:21.400 --> 00:00:26.090\nis meant to give you a working proficiency\nof writing in GitHub-Flavored Markdown.\n\n9\n00:00:26.090 --> 00:00:29.420\nSome of the things that you'll learn\nhow to do are creating headings,\n\n10\n00:00:29.420 --> 00:00:33.260\nadding images, adding links,\nadding tables.\n\n11\n00:00:33.260 --> 00:00:38.650\nWell, in addition to that, further,\nmore specific, like adding code blocks,\n\n12\n00:00:38.650 --> 00:00:43.460\nadding little code snippets, and,\nwell, adding to-do lists to your\n\n13\n00:00:43.460 --> 00:00:48.770\nmarkdown documents to further organize and\nhelp you get the look that you hope for.\n\n14\n00:00:48.770 --> 00:00:52.320\n&gt;&gt; Okay, so who has really\nbeen the target audience, or\n\n15\n00:00:52.320 --> 00:00:55.080\nwhat should we expect as far as\nhow this show has been tailored?\n\n16\n00:00:55.080 --> 00:00:56.370\nLike what are we looking at here?\n\n17\n00:00:56.370 --> 00:00:57.850\n&gt;&gt; This is very introductory.\n\n18\n00:00:57.850 --> 00:01:00.050\nIt is meant for kind of a grab bag, right?\n\n19\n00:01:00.050 --> 00:01:01.360\nYou can just pick and choose.\n\n20\n00:01:01.360 --> 00:01:02.900\nI need to know how to create headings.\n\n21\n00:01:02.900 --> 00:01:05.170\nI need to know how to create links.\n\n22\n00:01:05.170 --> 00:01:07.030\nHow do I make a table of contents?\n\n23\n00:01:07.030 --> 00:01:12.100\nWell, those are also probably links, so\nyou just can grab those individual pieces.\n\n24\n00:01:12.100 --> 00:01:15.510\nThere are a few shows that\nare tailored toward developers or\n\n25\n00:01:15.510 --> 00:01:17.440\npeople who are working with code snippets.\n\n26\n00:01:17.440 --> 00:01:21.360\nBut, by and large, whether you're a\nwriter, whether you're someone technical,\n\n27\n00:01:21.360 --> 00:01:25.780\nor not, this has something for you if\nyou're writing documents in Markdown.\n\n28\n00:01:25.780 --> 00:01:28.670\n&gt;&gt; Should I expect to get some kind of\ncertification from this traning, or\n\n29\n00:01:28.670 --> 00:01:31.140\nare we really looking at skill set based?\n\n30\n00:01:31.140 --> 00:01:33.910\n&gt;&gt; This is definitely\na skill set based training.\n\n31\n00:01:33.910 --> 00:01:38.780\nIt is, as I said, meant to be\na reference material for you where\n\n32\n00:01:38.780 --> 00:01:43.050\nmaybe you don't watch it from beginning\nto end every time, or even at all.\n\n33\n00:01:43.050 --> 00:01:45.020\nYou go,\nI need to know how to make headings,\n\n34\n00:01:45.020 --> 00:01:46.930\nI need to know how to make a table.\n\n35\n00:01:46.930 --> 00:01:50.780\nYou go and watch that particular episode\nto accomplish the tasks that you need to\n\n36\n00:01:50.780 --> 00:01:53.840\naccomplish with your\nrespective Markdown documents.\n\n37\n00:01:53.840 --> 00:01:54.870\n&gt;&gt; Great, that sounds awesome.\n\n38\n00:01:54.870 --> 00:01:58.065\nAnd if you agree, then stay tuned.\n\n39\n00:01:58.065 --> 00:02:02.881\n[MUSIC]\n\n",
+          "url": "overview-github",
+          "vimeoId": "256131974"
+        },
+        {
+          "description": "In this episode, Justin and Wes demonstrate getting set up to write markdown files. This setup is going to make getting immediate rendering feedback a breeze.",
+          "length": "803",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-1-1-1-writing_markdown_RESHOOT-021318-PGM.01_07_23_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-1-1-1-writing_markdown_RESHOOT-021318-PGM.01_07_23_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-1-1-1-writing_markdown_RESHOOT-021318-PGM.01_07_23_14.Still001-sm.jpg",
+          "title": "Writing Markdown",
+          "transcript": "",
+          "url": "writing-markdown",
+          "vimeoId": "255751173"
+        }
+      ],
+      "title": "Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Wes demonstrates how you can use GitHub-flavored markdown to italicize text in your writing.",
+          "length": "526",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-1-1-italicizing_text-021218-PGM.00_14_06_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-1-1-italicizing_text-021218-PGM.00_14_06_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-1-1-italicizing_text-021218-PGM.00_14_06_08.Still001-sm.jpg",
+          "title": "Italicizing Text",
+          "transcript": "",
+          "url": "italicizing-text",
+          "vimeoId": "255558066"
+        },
+        {
+          "description": "In this episode, Justin and Wes demonstrates how you can use GitHub-flavored markdown to emphasize text in your writing.",
+          "length": "605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-2-1-bolding_text-021218-PGM.00_11_23_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-2-1-bolding_text-021218-PGM.00_11_23_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-2-1-bolding_text-021218-PGM.00_11_23_22.Still001-sm.jpg",
+          "title": "Bolding Text",
+          "transcript": "",
+          "url": "bolding-text",
+          "vimeoId": "255558161"
+        },
+        {
+          "description": "In this episode, Justin demonstrates how you can use GitHub-flavored markdown to strikethrough text in your writing.",
+          "length": "692",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-3-1-striking_through_text-021218-PGM.00_13_54_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-3-1-striking_through_text-021218-PGM.00_13_54_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-3-1-striking_through_text-021218-PGM.00_13_54_18.Still001-sm.jpg",
+          "title": "Striking Through Text",
+          "transcript": "",
+          "url": "strikingtext",
+          "vimeoId": "255558278"
+        },
+        {
+          "description": "In this episode, Justin and Wes demonstrate creating a link to an external site.",
+          "length": "771",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-4-1-adding_an_external_link-021318-PGM.00_17_46_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-4-1-adding_an_external_link-021318-PGM.00_17_46_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-4-1-adding_an_external_link-021318-PGM.00_17_46_21.Still001-sm.jpg",
+          "title": "Adding an External Link",
+          "transcript": "",
+          "url": "addingexternal-link",
+          "vimeoId": "255751508"
+        },
+        {
+          "description": "In this episode, Justin and Wes demonstrate how to create different sized of headings within a Markdown document.",
+          "length": "554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-5-1-creating_headings-021518-PGM.00_09_06_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-5-1-creating_headings-021518-PGM.00_09_06_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-5-1-creating_headings-021518-PGM.00_09_06_03.Still001-sm.jpg",
+          "title": "Creating Headings",
+          "transcript": "",
+          "url": "creating-headings",
+          "vimeoId": "256079086"
+        },
+        {
+          "description": "In this episode, Justin and Wes explore creating a blockquote using Markdown syntax.",
+          "length": "550",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-6-1-creating_a_blockquote-021518-PGM.00_09_02_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-6-1-creating_a_blockquote-021518-PGM.00_09_02_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-6-1-creating_a_blockquote-021518-PGM.00_09_02_03.Still001-sm.jpg",
+          "title": "Creating a Blockquote",
+          "transcript": "",
+          "url": "creatingblockquote",
+          "vimeoId": "256078275"
+        },
+        {
+          "description": "In this episode, Justin and Wes explore how to add an underline to a heading in a file.",
+          "length": "543",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-7-1-creating_a_heading_with_underline-021518-PGM.00_08_56_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-7-1-creating_a_heading_with_underline-021518-PGM.00_08_56_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-7-1-creating_a_heading_with_underline-021518-PGM.00_08_56_06.Still001-sm.jpg",
+          "title": "Creating a Heading with Underline",
+          "transcript": "",
+          "url": "creatingheadingunderline",
+          "vimeoId": "256078509"
+        },
+        {
+          "description": "In this episode, Justin and Wes demonstrate creating a link to another document contained in the project.",
+          "length": "788",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-8-1-adding_an_internal_link-021518-PGM.00_13_01_11.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-8-1-adding_an_internal_link-021518-PGM.00_13_01_11.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-2-8-1-adding_an_internal_link-021518-PGM.00_13_01_11.Still002-sm.jpg",
+          "title": "Adding an Internal Link",
+          "transcript": "",
+          "url": "addinginternal-link",
+          "vimeoId": "256078756"
+        }
+      ],
+      "title": "Text"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Cherokee demonstrate creating a lists in markdown.",
+          "length": "590",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-3-1-1-creating_lists-021618-PGM.00_09_42_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-3-1-1-creating_lists-021618-PGM.00_09_42_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-3-1-1-creating_lists-021618-PGM.00_09_42_12.Still001-sm.jpg",
+          "title": "Creating Lists",
+          "transcript": "",
+          "url": "creating-lists",
+          "vimeoId": "256134236"
+        }
+      ],
+      "title": "Lists"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Cherokee add an image to a markdown document.",
+          "length": "509",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-1-1-adding_an_image-021618-PGM.00_08_21_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-1-1-adding_an_image-021618-PGM.00_08_21_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-1-1-adding_an_image-021618-PGM.00_08_21_09.Still001-sm.jpg",
+          "title": "Adding an Image",
+          "transcript": "",
+          "url": "addingimage",
+          "vimeoId": "256134410"
+        },
+        {
+          "description": "In this episode, Justin and Cherokee create an image that is also a link.",
+          "length": "478",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-2-1-creating_an_image_with_a_link-021618-PGM.00_07_49_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-2-1-creating_an_image_with_a_link-021618-PGM.00_07_49_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-4-2-1-creating_an_image_with_a_link-021618-PGM.00_07_49_15.Still001-sm.jpg",
+          "title": "Creating an Image with a Link",
+          "transcript": "",
+          "url": "creatingimagea-link",
+          "vimeoId": "256134540"
+        }
+      ],
+      "title": "Images"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Cherokee leverage the GitHub flavor to arrange information in a table.",
+          "length": "867",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-5-1-1-creating_a_table-021618-PGM.00_14_18_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-5-1-1-creating_a_table-021618-PGM.00_14_18_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-5-1-1-creating_a_table-021618-PGM.00_14_18_09.Still001-sm.jpg",
+          "title": "Creating a Table",
+          "transcript": "",
+          "url": "creatingtable",
+          "vimeoId": "256134633"
+        }
+      ],
+      "title": "Tables"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Cherokee take a cue from developer's to demonstrate inlining code in the Markdown file.",
+          "length": "604",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-1-1-inlining_code-021618-PGM.00_09_56_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-1-1-inlining_code-021618-PGM.00_09_56_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-1-1-inlining_code-021618-PGM.00_09_56_01.Still001-sm.jpg",
+          "title": "Inlining Code",
+          "transcript": "",
+          "url": "inlining-code",
+          "vimeoId": "256134822"
+        },
+        {
+          "description": "In this episode, Justin and Cherokee take additional cues from the developers of the world and demonstrate adding more code than a single line to the Markdown document.",
+          "length": "485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-2-1-creating_a_code_block-021618-PGM.00_07_57_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-2-1-creating_a_code_block-021618-PGM.00_07_57_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-6-2-1-creating_a_code_block-021618-PGM.00_07_57_01.Still001-sm.jpg",
+          "title": "Creating a Code Block",
+          "transcript": "",
+          "url": "creatingcode-block",
+          "vimeoId": "256134951"
+        }
+      ],
+      "title": "Code"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Cherokee demonstrate some of the more powerful portions of GitHub Markdown to create a task list that can be used to keep track of all of the things to get done.",
+          "length": "690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-7-1-1-creating_a_task_list-021618-PGM.00_11_22_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-7-1-1-creating_a_task_list-021618-PGM.00_11_22_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-learngithubflavoredmarkdown/techskills-learngithubflavoredmarkdown-7-1-1-creating_a_task_list-021618-PGM.00_11_22_16.Still001-sm.jpg",
+          "title": "Creating a Task List",
+          "transcript": "",
+          "url": "creatingtask-list",
+          "vimeoId": "256135056"
+        }
+      ],
+      "title": "Above and Beyond"
+    }
+  ],
+  "url": "learn-github-flavored-markdown",
+  "vLab": false
+}

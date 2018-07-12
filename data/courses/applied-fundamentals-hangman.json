@@ -1,0 +1,138 @@
+{
+  "description": "Learning a the fundamentals of programming is very empowering, but the next question is how can I use it? We are going to use some of the skills and knowledge that you have acquired to build a childhood game, Hangman, on in the command line environment. Let's get started!",
+  "descriptionMD": "Learning the fundamentals of programming is very empowering, but the next question is how can I use it? We are going to use some of the skills and knowledge that you have acquired to build a childhood game, Hangman, on in the command line environment. Let's get started!",
+  "length": "12892",
+  "name": "Applied Fundamentals: Hangman",
+  "practiceExam": false,
+  "subtitle": "Programming Projects to Cement our Understanding",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Learning a the fundamentals of programming is very empowering, but the next question is how can I use it? We are going to use some of the skills and knowledge that you have acquired to build a childhood game, Hangman, on in the command line environment. Let's get started!",
+          "length": "156",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-0-0-0-overview-030918-PGM.00_00_09_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-0-0-0-overview-030918-PGM.00_00_09_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-0-0-0-overview-030918-PGM.00_00_09_19.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:01.941\n[MUSIC]\n\n2\n00:00:04.918 --> 00:00:08.220\nHello everyone, and\nwelcome to this course overview for\n\n3\n00:00:08.220 --> 00:00:10.360\nApplied Fundamentals at DevProTV.\n\n4\n00:00:10.360 --> 00:00:13.840\nAnd here to help us is Mr.\nJustin Dennison.\n\n5\n00:00:13.840 --> 00:00:16.410\nSo Justin, tell me what are we\ngonna be learning in this\n\n6\n00:00:16.410 --> 00:00:17.180\nseries?\n&gt;&gt; Well,\n\n7\n00:00:17.180 --> 00:00:19.900\nthis series is actually\na culmination of some of these\n\n8\n00:00:19.900 --> 00:00:23.420\nintroductory skills that we've been\nlearning over the last few courses.\n\n9\n00:00:23.420 --> 00:00:26.990\nSo if you're here, there's an assumption\nyou've learned some Python,\n\n10\n00:00:26.990 --> 00:00:29.960\nyou've learned some\nconcepts about programming.\n\n11\n00:00:29.960 --> 00:00:31.910\nAnd now, we're here to flex those muscles.\n\n12\n00:00:31.910 --> 00:00:33.180\nAnd in order to do that,\n\n13\n00:00:33.180 --> 00:00:37.240\nwe're gonna apply the problem solving\nskills that we also learned about.\n\n14\n00:00:37.240 --> 00:00:39.780\nTo plan our project, draw pictures,\n\n15\n00:00:39.780 --> 00:00:43.850\nmake sure that we understand the dynamics\nof what we're trying to build.\n\n16\n00:00:43.850 --> 00:00:45.980\nAnd then,\nutilize the programming concepts.\n\n17\n00:00:45.980 --> 00:00:51.110\nLike functions, and strings, and\nmethods, and also loops, in order to\n\n18\n00:00:51.110 --> 00:00:56.681\nactually build the Hangman game, which\nI find is always a a childhood classic.\n\n19\n00:00:56.681 --> 00:01:00.200\nBut sometimes it's a little macabre,\nso maybe we'll have to change that\n\n20\n00:01:00.200 --> 00:01:02.790\nin of itself.\n&gt;&gt; All right, well you mentioned\n\n21\n00:01:02.790 --> 00:01:05.950\nyou might have watched a few episodes,\nyou have a kind of base knowledge.\n\n22\n00:01:05.950 --> 00:01:08.620\nBut who's the intended audience?\n\n23\n00:01:08.620 --> 00:01:12.150\nDo we need to have these prerequisites\nthat you maybe have mentioned\n\n24\n00:01:12.150 --> 00:01:14.690\nto watch this series?\n&gt;&gt; I think having the prerequisites,\n\n25\n00:01:14.690 --> 00:01:17.310\nwatching the courses\nabout problem-solving,\n\n26\n00:01:17.310 --> 00:01:21.470\nabout introduction to programming, about\ngetting comfortable with the terminal,\n\n27\n00:01:21.470 --> 00:01:25.090\nas well how to define and\nthink about functions.\n\n28\n00:01:25.090 --> 00:01:28.910\nThose, you might get away\nwith not knowing those.\n\n29\n00:01:28.910 --> 00:01:32.640\nBut it's going to make a lot\nmore sense and also help cement\n\n30\n00:01:32.640 --> 00:01:36.150\nwhat you've learned in those previous\ncourses as you build this project.\n\n31\n00:01:36.150 --> 00:01:38.250\nSo it's highly recommended.\n\n32\n00:01:38.250 --> 00:01:41.693\nYou might get away with not having them,\nbut for me,\n\n33\n00:01:41.693 --> 00:01:46.041\nI would recommend them strongly.\n&gt;&gt; Okay, is this series directed towards\n\n34\n00:01:46.041 --> 00:01:50.370\nany type of specific certification, or is\nthis more of just a general knowledge to\n\n35\n00:01:50.370 --> 00:01:54.130\nhelp us better coders?\n&gt;&gt; This is an application of\n\n36\n00:01:54.130 --> 00:01:57.410\nsome of the beginning things that you\nlearn when you start programming, right?\n\n37\n00:01:57.410 --> 00:02:00.480\nSo what is an a list, and how do I use it?\n\n38\n00:02:00.480 --> 00:02:02.376\nWhat is a string, and how do I use it?\n\n39\n00:02:02.376 --> 00:02:04.450\nWhat is a function, how do I use it?\n\n40\n00:02:04.450 --> 00:02:07.454\nWhat are the patterns of thought\nthat I need to employ in order to\n\n41\n00:02:07.454 --> 00:02:08.370\nbuild something?\n\n42\n00:02:08.370 --> 00:02:12.110\nBecause they're kind of odd\nto put all those together.\n\n43\n00:02:12.110 --> 00:02:15.790\nNow, that is not a certification,\nthat'd be really hard to certify in.\n\n44\n00:02:15.790 --> 00:02:20.390\nSo this is about leveling up your skills\nand making sure that you understand\n\n45\n00:02:20.390 --> 00:02:24.200\nthe fundamentals of, well,\nof programing in and of itself.\n\n46\n00:02:24.200 --> 00:02:26.995\nSo if that sounds like something that\nyou're excited about, I hope you are,\n\n47\n00:02:26.995 --> 00:02:27.989\nthen we'll see you there.\n\n48\n00:02:27.989 --> 00:02:35.663\n[SOUND]\n\n",
+          "url": "overview-hangman",
+          "vimeoId": "259966580"
+        },
+        {
+          "description": "In this episode, Justin and Vonne think through creating our first project, Hangman. Justin spends some time to demonstrate the thought processes when planning a project.",
+          "length": "1491",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-1-1-plan-the-project-030218-PGM.00_36_50_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-1-1-plan-the-project-030218-PGM.00_36_50_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-1-1-plan-the-project-030218-PGM.00_36_50_02.Still001-sm.jpg",
+          "title": "Plan The Project",
+          "transcript": "",
+          "url": "planproject",
+          "vimeoId": "258837716"
+        },
+        {
+          "description": "In this episode, Justin and Vonne spend some time getting the project structure created. Additionally, they discuss the reason for the decisions that are made and what are some alternatives.",
+          "length": "906",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-2-1-set-up-the-project-030218-PGM.00_19_18_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-2-1-set-up-the-project-030218-PGM.00_19_18_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-2-1-set-up-the-project-030218-PGM.00_19_18_17.Still001-sm.jpg",
+          "title": "Set Up The Project",
+          "transcript": "",
+          "url": "setthe-project",
+          "vimeoId": "258837523"
+        },
+        {
+          "description": "In this episode, Justin and Vonne start creating the Hangman application. First step, allow the player to enter guesses on a continuous basis.",
+          "length": "1185",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-3-1-take_guesses-030518-PGM.00_23_05_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-3-1-take_guesses-030518-PGM.00_23_05_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-3-1-take_guesses-030518-PGM.00_23_05_10.Still001-sm.jpg",
+          "title": "Take Guesses",
+          "transcript": "",
+          "url": "guesses",
+          "vimeoId": "258838430"
+        },
+        {
+          "description": "In this episode, Justin and Vonne further expand on the game to determine if the user's guess is correct or not.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-4-1-determine_guesses-030518-PGM.00_35_46_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-4-1-determine_guesses-030518-PGM.00_35_46_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-4-1-determine_guesses-030518-PGM.00_35_46_14.Still001-sm.jpg",
+          "title": "Determine Correct Guesses",
+          "transcript": "",
+          "url": "determine-correct-guesses",
+          "vimeoId": "258838021"
+        },
+        {
+          "description": "In this episode, Justin and Vonne explore had to provide a nicer interface to the game. Justin provides a look at the thought process about the organization of the game as well as how he decided what the user interface should look like.",
+          "length": "1619",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-5-1-add_presentation-030718.00_26_53_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-5-1-add_presentation-030718.00_26_53_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-1-5-1-add_presentation-030718.00_26_53_20.Still001-sm.jpg",
+          "title": "Add Presentation",
+          "transcript": "",
+          "url": "add-presentation",
+          "vimeoId": "260237348"
+        }
+      ],
+      "title": "Hangman v1"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Vonne explore a little bit of clean up. The first step of building the game was getting it to work, which is finished. However, the project is a little messy and before moving forward with more features, Justin shows how to extract portions into functions to improve readability.",
+          "length": "1645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-2-1-1-refactor_to_functions-030718-PGM.00_27_17_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-2-1-1-refactor_to_functions-030718-PGM.00_27_17_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-2-1-1-refactor_to_functions-030718-PGM.00_27_17_13.Still001-sm.jpg",
+          "title": "Refactor to Functions",
+          "transcript": "",
+          "url": "refactorfunctions",
+          "vimeoId": "260236388"
+        }
+      ],
+      "title": "Refactor to Functions"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Vonne explore how to add a scoreboard to keep track of the number of incorrect guesses.",
+          "length": "1386",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-1-1-add_a_scoreboard-030818.00_22_59_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-1-1-add_a_scoreboard-030818.00_22_59_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-1-1-add_a_scoreboard-030818.00_22_59_24.Still001-sm.jpg",
+          "title": "Add a Scoreboard",
+          "transcript": "",
+          "url": "addscoreboard",
+          "vimeoId": "259369279"
+        },
+        {
+          "description": "In this episode, Justin and Vonne alter the logic of the game to now have a win or lose condition instead of an automatic win.",
+          "length": "1403",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-2-1-determine_win_or_lose-030818.00_23_16_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-2-1-determine_win_or_lose-030818.00_23_16_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-2-1-determine_win_or_lose-030818.00_23_16_28.Still001-sm.jpg",
+          "title": "Determine Win or Lose",
+          "transcript": "",
+          "url": "determine-winlose",
+          "vimeoId": "259369513"
+        },
+        {
+          "description": "In this episode, Justin and Vonne add more dramatic portions to the interface when a player loses or wins.",
+          "length": "1249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-3-1-print_banners-030918-PGM.00_20_42_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-3-1-print_banners-030918-PGM.00_20_42_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalshangman/techskills-applied-fundamentals-hangman-3-3-1-print_banners-030918-PGM.00_20_42_12.Still001-sm.jpg",
+          "title": "Print Banners",
+          "transcript": "",
+          "url": "print-banners",
+          "vimeoId": "259966615"
+        }
+      ],
+      "title": "Hangman v3"
+    }
+  ],
+  "url": "applied-fundamentals-hangman",
+  "vLab": false
+}

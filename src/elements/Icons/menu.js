@@ -2,7 +2,7 @@ import React from 'react';
 import { darkBlue } from './styles.module.scss';
 
 
-const IconMenu = props => {
+const IconMenu = (props) => {
   const { className='', fill=darkBlue, onClick='' } = props;
 
   return (

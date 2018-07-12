@@ -23,9 +23,9 @@ class Stats extends Component {
     window.clearInterval(this.state.intervalId);
   }
 
-  isInViewport = element => {
-    let rect = element.getBoundingClientRect();
-    let html = document.documentElement;
+  isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    const html = document.documentElement;
 
     return (
       rect.top >= 0 &&
@@ -35,7 +35,7 @@ class Stats extends Component {
     );
   };
 
-  handleScroll = e => {
+  handleScroll = (e) => {
     const content = document.getElementsByClassName('content')[0];
 
     if (content && !this.state.hasAnimated) {
@@ -51,22 +51,20 @@ class Stats extends Component {
     }
   };
 
-  triggerInterval = () => {
-    return setInterval(function() {
-      const comm = document.getElementsByClassName('comm')[0];
+  triggerInterval = () => setInterval(function() {
+    const comm = document.getElementsByClassName('comm')[0];
 
-      if (comm && this.isInViewport(comm)) {
-        let num = comm.innerHTML.replace(',', '');
-        let countUp = parseInt(num) + 1;
+    if (comm && this.isInViewport(comm)) {
+      const num = comm.innerHTML.replace(',', '');
+      const countUp = parseInt(num) + 1;
 
-        const len = `${countUp}`.length;
-        const front = `${countUp}`.substring(0, 3);
-        const back = `${countUp}`.substring(3, len);
+      const len = `${countUp}`.length;
+      const front = `${countUp}`.substring(0, 3);
+      const back = `${countUp}`.substring(3, len);
 
-        comm.innerHTML = `${front},${back}`;
-      }
-    }.bind(this), 5000);
-  }
+      comm.innerHTML = `${front},${back}`;
+    }
+  }.bind(this), 5000)
 
   onComplete = () => {
     const _id = this.triggerInterval();
@@ -89,7 +87,7 @@ class Stats extends Component {
               useEasing={true}
               useGrouping={true}
               separator=","
-             />
+            />
             <p className={ styles.summary}>hours of content with new content added daily</p>
           </div>
           <div className={ styles.center }>
@@ -102,7 +100,7 @@ class Stats extends Component {
               useEasing={true}
               useGrouping={true}
               separator=","
-             />
+            />
             <p className={ styles.summary}>combined certifications held by ITProTV Edutainers</p>
           </div>
           <div className={ styles.right }>
@@ -116,14 +114,14 @@ class Stats extends Component {
               useGrouping={true}
               separator=","
               onComplete={this.onComplete}
-             />
+            />
             <p className={ styles.summary}>members of the ITProTV learning community</p>
           </div>
         </div>
       </div>
     );
   }
-};
+}
 
 
 export default Stats;

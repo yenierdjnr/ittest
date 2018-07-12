@@ -1,0 +1,367 @@
+{
+  "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 is designed to be a mid-tier certification for someone who has been working in the field for several years and has had exposure to large and enterprise size deployments of Microsoft Windows and covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA 70-411 Administering Windows Server 2012 exam covers administering Windows services, keeping them operational, advanced functionality and other areas that will help in your pursuit of the MCSA and also help in an after pursuit of the MCSE certification.",
+  "descriptionMD": "",
+  "length": "80394",
+  "name": "MCSA Windows Server 2012 - 70-411",
+  "practiceExam": true,
+  "subtitle": "Administering Windows Server 2012",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "MCSA Windows Server 2012 (70-411) Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The MCSA: Windows Server 2012 covers topics that are “must know” for anyone responsible for deploying, maintaining and supporting Windows Server 2012 servers in a corporate or enterprise environment. Server systems often form a critical piece of the day-to-day operations for any business. The MCSA covers topics that will help the learner ensure their computing environment is functional and stable.",
+          "length": "533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70410/microsoftserver2012-0-0-overview-112414-sm.jpg",
+          "title": "Overview of Windows Server 2012 R2",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:08.758\n[MUSIC]\n\n2\n00:00:08.758 --> 00:00:12.563\nThe MCSA or Microsoft Certified\nSolutions Associate is one of\n\n3\n00:00:12.563 --> 00:00:16.210\nthe more popular\ncertifications from Microsoft.\n\n4\n00:00:16.210 --> 00:00:19.160\nIt's designed to be\na mid-tier certification.\n\n5\n00:00:20.200 --> 00:00:23.530\nGreater knowledge than somebody who's\njust getting started in IT, but\n\n6\n00:00:23.530 --> 00:00:25.450\nnot expert lever, level knowledge.\n\n7\n00:00:25.450 --> 00:00:28.330\nThis is somebody who's been working\nin the field for several years and\n\n8\n00:00:28.330 --> 00:00:33.700\nhas had exposure to large and enterprise\nsize deployments of Microsoft Windows.\n\n9\n00:00:33.700 --> 00:00:37.860\nThe MCSA for\nWindows Server 2012 is probably the most\n\n10\n00:00:37.860 --> 00:00:40.900\ncommonly sought-after\ncertification with Microsoft.\n\n11\n00:00:40.900 --> 00:00:44.190\nThese are for technicians who are not\ngoing to be just working with desktops,\n\n12\n00:00:44.190 --> 00:00:46.450\nbut deploying Windows servers.\n\n13\n00:00:46.450 --> 00:00:50.130\nThese might be email servers,\nfile servers, print servers.\n\n14\n00:00:50.130 --> 00:00:52.040\nThey might be authentication servers.\n\n15\n00:00:52.040 --> 00:00:55.210\nThere's all sorts of different types\nof servers you might deploy, and\n\n16\n00:00:55.210 --> 00:00:58.640\nthe MCSA for Windows Server 2012\ncovers the majority of them.\n\n17\n00:00:58.640 --> 00:01:01.780\nIt shows typical deployment scenarios for\na server.\n\n18\n00:01:01.780 --> 00:01:05.290\nHow to deploy the software successfully,\nhow to secure the software and\n\n19\n00:01:05.290 --> 00:01:09.000\nensure things are working nice and\nsmooth, and how to troubleshoot and\n\n20\n00:01:09.000 --> 00:01:11.680\nisolate and correct issues when they\naren't running nice and smooth,\n\n21\n00:01:11.680 --> 00:01:14.080\nand that makes this really valuable.\n\n22\n00:01:14.080 --> 00:01:18.570\nIf you're working in IT and you're sitting\nat a help desk right now, or you're doing\n\n23\n00:01:18.570 --> 00:01:22.060\nfield repairs on computers and you're\nlooking to move to that next step in your\n\n24\n00:01:22.060 --> 00:01:26.560\ncareer, the MCSA for Windows Server\n2012 is normally that next step, right.\n\n25\n00:01:26.560 --> 00:01:30.090\nThis is what gets you out of the field and\nback at the data center.\n\n26\n00:01:30.090 --> 00:01:32.470\nGets you into the server room,\nworking in equipment there.\n\n27\n00:01:32.470 --> 00:01:35.360\nWhich is usually a little more\nexciting than supporting a desktop.\n\n28\n00:01:35.360 --> 00:01:37.850\nWhich can,\ncan over time become a bit monotonous.\n\n29\n00:01:37.850 --> 00:01:39.360\nI think we've all been there.\n\n30\n00:01:39.360 --> 00:01:41.210\nSo, let's take a look at\nthis certification and\n\n31\n00:01:41.210 --> 00:01:42.720\nget a better idea of what it entails.\n\n32\n00:01:42.720 --> 00:01:46.226\nAll right, the MCSA has been around for\nquite a while now.\n\n33\n00:01:46.226 --> 00:01:49.227\nI don't think it's actually\nreached ten years yet but it's,\n\n34\n00:01:49.227 --> 00:01:51.090\nit's a good seven years at least.\n\n35\n00:01:51.090 --> 00:01:54.410\nAnd it's designed to be the,\nwell that mid-tier certification.\n\n36\n00:01:54.410 --> 00:01:56.500\nThe name has changed a little\nbit over the years, but\n\n37\n00:01:56.500 --> 00:01:59.560\nnow it's just the Microsoft\nCertified Solutions Associate.\n\n38\n00:01:59.560 --> 00:02:02.500\nAnd Microsoft actually has\nseveral different ones.\n\n39\n00:02:02.500 --> 00:02:05.570\nThe one we're about to cover is\nthe one for Windows Server 2012.\n\n40\n00:02:05.570 --> 00:02:10.130\nIf your position within the company is\none that allows you to work on servers,\n\n41\n00:02:10.130 --> 00:02:11.900\nthat's what this is designed for.\n\n42\n00:02:11.900 --> 00:02:15.940\nIf you're still at the desktop level but\nyou want to move into the server world,\n\n43\n00:02:15.940 --> 00:02:18.390\nagain, this is the place\nthat you wanna go.\n\n44\n00:02:18.390 --> 00:02:21.600\nBut, if you're looking to\ndo desktop support, well,\n\n45\n00:02:21.600 --> 00:02:23.840\nthe server technologies,\nthey can be helpful.\n\n46\n00:02:23.840 --> 00:02:26.230\nThey help you to understand what's\ngoing on on the server side.\n\n47\n00:02:26.230 --> 00:02:28.440\nBut it's not necessarily\nthe right place for you to start.\n\n48\n00:02:28.440 --> 00:02:32.840\nYou typically want to go to the MCSA for\nWindows 8 or MCSA for Windows 7.\n\n49\n00:02:32.840 --> 00:02:35.250\nNow, if you're just\ngetting started in IT so\n\n50\n00:02:35.250 --> 00:02:40.250\nyou've got a resume full of other jobs and\nyou're looking to launch an IT career.\n\n51\n00:02:40.250 --> 00:02:44.460\nWell again the MCSA for Windows servers\nis not really a great starting point.\n\n52\n00:02:44.460 --> 00:02:46.120\nIn order to set up a server,\n\n53\n00:02:46.120 --> 00:02:49.590\nthere's a lot of foundational\nknowledge that you need to have.\n\n54\n00:02:49.590 --> 00:02:52.750\nSo if you're just starting out,\nI recommend you jump over to\n\n55\n00:02:52.750 --> 00:02:56.440\nlike the CompTIA A+ and\nCompTIA Network Plus certifications.\n\n56\n00:02:56.440 --> 00:02:59.940\nThose are great starting points for\nlaunching an IT career.\n\n57\n00:02:59.940 --> 00:03:02.470\nIf you're just getting started\nin technology altogether you\n\n58\n00:03:02.470 --> 00:03:07.440\nprobably wanna go to either\nthe CompTIA IT Fundamentals or the MTA,\n\n59\n00:03:07.440 --> 00:03:09.570\nthe Microsoft Technology Associate.\n\n60\n00:03:09.570 --> 00:03:13.410\nThat's designed for people that are just\ngetting their feet wet in the IT world.\n\n61\n00:03:13.410 --> 00:03:15.270\nYou'll learn about basic\noperating systems.\n\n62\n00:03:15.270 --> 00:03:18.740\nNow, that's foundational knowledge\nthat you're expected to already\n\n63\n00:03:18.740 --> 00:03:21.050\nhave by the time you get\nto the server level.\n\n64\n00:03:21.050 --> 00:03:22.400\nSo if you don't possess it,\n\n65\n00:03:22.400 --> 00:03:25.360\nthere's things that we'll cover in there\nthat might be a little over your head.\n\n66\n00:03:25.360 --> 00:03:26.940\nThat if you've missed\nthe foundational knowledge,\n\n67\n00:03:26.940 --> 00:03:28.600\nyou won't be able to build on top of it.\n\n68\n00:03:28.600 --> 00:03:31.120\nSo, definitely check out those\nother certifications if you\n\n69\n00:03:31.120 --> 00:03:32.560\nhaven't done those yet.\n\n70\n00:03:32.560 --> 00:03:33.770\nBut, if you're ready for\n\n71\n00:03:33.770 --> 00:03:37.650\nWindows Server, then the MCSA\n2012 is where you want to go.\n\n72\n00:03:37.650 --> 00:03:42.620\nNow, the MCSA 2012 is actually\nbuilt on three different exams,\n\n73\n00:03:42.620 --> 00:03:46.080\nand each one kind of divides\nthe topic up a little bit.\n\n74\n00:03:46.080 --> 00:03:48.350\nSo, here we can see the three\ndifferent exams, and\n\n75\n00:03:48.350 --> 00:03:51.410\nwe divide it here on ITPROTV\ninto three separate shows.\n\n76\n00:03:51.410 --> 00:03:53.840\nThere's the 70-410, 411 and 412 shows.\n\n77\n00:03:55.830 --> 00:03:58.940\nThe first one is installing and\nconfiguring Windows Server 2012.\n\n78\n00:03:58.940 --> 00:04:01.010\nIf this is the first time you've used it,\n\n79\n00:04:01.010 --> 00:04:03.140\nwe'll cover how to install\nWindows Server 2012.\n\n80\n00:04:03.140 --> 00:04:06.920\nHow to get it in place, and\nhow to add roles to it so\n\n81\n00:04:06.920 --> 00:04:09.670\nyour server can actually\nperform customized functions.\n\n82\n00:04:09.670 --> 00:04:11.540\nWe'll talk about\nthe Microsoft Active Directory,\n\n83\n00:04:11.540 --> 00:04:14.970\nwhich is a critical technology\nthroughout your server infrastructure.\n\n84\n00:04:14.970 --> 00:04:18.840\nWe'll talk about other security concepts,\nand just some of the neat bells and\n\n85\n00:04:18.840 --> 00:04:23.020\nwhistles that are included\nin Windows server.\n\n86\n00:04:23.020 --> 00:04:25.680\nThen, in 411, we go into\nAdministering Windows Server 2012.\n\n87\n00:04:25.680 --> 00:04:30.440\nOnce you've brought up these services,\nnow you need to administer them,\n\n88\n00:04:30.440 --> 00:04:31.280\nyou need to run them.\n\n89\n00:04:31.280 --> 00:04:35.100\nYou need to allow it to scale up\nto thousands, tens of thousands,\n\n90\n00:04:35.100 --> 00:04:36.680\nhundreds of thousands of users.\n\n91\n00:04:36.680 --> 00:04:41.000\nYou need to keep it operational and you\nneed to do some advanced functionality.\n\n92\n00:04:41.000 --> 00:04:44.540\nAnd what, that's what we cover in the\nAdministering Windows Server 2012 show.\n\n93\n00:04:45.780 --> 00:04:48.830\nAnd then the end of it is the 70-412\n\n94\n00:04:48.830 --> 00:04:52.930\nwhich is Configuring Advanced\nWindows Server 2012 Services.\n\n95\n00:04:52.930 --> 00:04:56.890\nWe actually revisit some of the services\nfrom the first two shows, and\n\n96\n00:04:56.890 --> 00:05:00.310\ngo more in depth,\nshowing some advanced configurations, and\n\n97\n00:05:00.310 --> 00:05:04.550\nthen we phase in some new technologies\nlike Active Directory Federated Services\n\n98\n00:05:04.550 --> 00:05:08.040\nthat are extremely complex and\nchallenging.\n\n99\n00:05:08.040 --> 00:05:10.780\nNot useful at all for\nsmall and medium businesses.\n\n100\n00:05:10.780 --> 00:05:13.990\nBut for large and\nenterprise businesses can revolutionize\n\n101\n00:05:13.990 --> 00:05:15.630\nthe way that you offer\nservices on the web.\n\n102\n00:05:15.630 --> 00:05:19.740\nSo, definitely stuff that you want\nto be aware of, and get exposed to.\n\n103\n00:05:19.740 --> 00:05:25.580\nNow these exams are designed to be taken\nin order, so you should start with 70 410.\n\n104\n00:05:25.580 --> 00:05:28.420\nAnd then go on to 411 and\nthen wrap it up with 412.\n\n105\n00:05:28.420 --> 00:05:31.170\nIf you take them out of order,\n\n106\n00:05:31.170 --> 00:05:35.270\neach exam assumes you already have\nthe knowledge from the prior exams.\n\n107\n00:05:35.270 --> 00:05:37.490\nSo for example if you start out on 412,\n\n108\n00:05:37.490 --> 00:05:40.680\nit assumes you already\nhave a passing knowledge.\n\n109\n00:05:40.680 --> 00:05:43.720\nLike you passed the exam,\nnot just in passing.\n\n110\n00:05:43.720 --> 00:05:46.540\nOf 410 and 411.\nIf you don't do that, you'll,\n\n111\n00:05:46.540 --> 00:05:49.340\nyou'll get over your head pretty quick and\nthen you get frustrated and\n\n112\n00:05:49.340 --> 00:05:51.470\nit's hard to be successful\nwhen you're frustrated.\n\n113\n00:05:51.470 --> 00:05:54.470\nSo you do wanna pursue those in order.\n\n114\n00:05:54.470 --> 00:05:59.220\nNow for me, I always recommend that\npeople go ahead and do all three.\n\n115\n00:05:59.220 --> 00:06:01.310\nJust watch all three in order.\n\n116\n00:06:01.310 --> 00:06:04.030\nEven before taking that 410 exam.\n\n117\n00:06:04.030 --> 00:06:08.890\nAnd the reason I say that is, each one\nbuilds on the one from before it so\n\n118\n00:06:08.890 --> 00:06:10.200\nthere's some overlap.\n\n119\n00:06:10.200 --> 00:06:13.560\nAnd that means you're seeing the same\ntechnologies multiple times and\n\n120\n00:06:13.560 --> 00:06:15.030\nyou learn more about it.\n\n121\n00:06:15.030 --> 00:06:18.860\nIf you were to watch all three of\nthese shows, 410, 411, and 412,\n\n122\n00:06:18.860 --> 00:06:23.690\nyou'll be much more likely to pass that\n410 exam the first time you go in there\n\n123\n00:06:23.690 --> 00:06:25.990\ncuz you've seen the technology so\nmany times.\n\n124\n00:06:25.990 --> 00:06:26.620\nAll right?\n\n125\n00:06:26.620 --> 00:06:29.120\nSo how you choose to watch\nthem is ultimately up to you,\n\n126\n00:06:29.120 --> 00:06:32.360\nbut at a minimum,\nyou do want to watch them in order.\n\n127\n00:06:32.360 --> 00:06:35.550\nStart with 410, and\nthen move through each.\n\n128\n00:06:35.550 --> 00:06:38.800\nWhen you're ready to take the exam,\nthe exams are administered through\n\n129\n00:06:38.800 --> 00:06:42.540\nPearson VUE, so\nyou'll just jump over to their website.\n\n130\n00:06:42.540 --> 00:06:45.930\nYou can go straight to it at\nwww.pearsonvue.com/Microsoft.\n\n131\n00:06:45.930 --> 00:06:48.770\nThat'll take you to Microsoft's page.\n\n132\n00:06:48.770 --> 00:06:53.957\nAnd remember VUE is spelled V U E and\nso it's pearsonvue.com/microsoft.\n\n133\n00:06:53.957 --> 00:06:59.200\nThe exams are $150 a piece and\nyou gotta take three of them so\n\n134\n00:06:59.200 --> 00:07:02.510\nunfortunately there is a little bit\nof a shock to the wallet on this one.\n\n135\n00:07:02.510 --> 00:07:07.500\nAssuming you pass on the first time it'll\nbe about $450 to take the three exams.\n\n136\n00:07:07.500 --> 00:07:11.420\nOnce you pass,\nyou get your MCSA Window's Server 2012.\n\n137\n00:07:11.420 --> 00:07:17.830\nNow the MCSA Windows Server 2012 is also\nthe first step in obtaining the MCSE.\n\n138\n00:07:17.830 --> 00:07:21.120\nSo once you've completed this\ncertification the next step is that\n\n139\n00:07:21.120 --> 00:07:22.840\nMCSE that you hear a lot\nof people talk about.\n\n140\n00:07:22.840 --> 00:07:26.310\nRight, that's the, the certification\nMicrosoft has that's the most famous.\n\n141\n00:07:26.310 --> 00:07:28.720\nEverybody's heard of the MCSE.\n\n142\n00:07:28.720 --> 00:07:30.500\nAnd that's a lot of people's goal.\n\n143\n00:07:30.500 --> 00:07:34.490\nBut, the MCSE is not designed for\nsomebody getting started.\n\n144\n00:07:34.490 --> 00:07:38.140\nIt's for somebody who's already\ngot a wealth of experience.\n\n145\n00:07:38.140 --> 00:07:40.430\nAlready has their MCSA, and\n\n146\n00:07:40.430 --> 00:07:45.450\nis moving into that larger\nconsultant type design environment.\n\n147\n00:07:45.450 --> 00:07:49.380\nAnd that's a lot different than the person\nwho's doing the day to day work.\n\n148\n00:07:49.380 --> 00:07:51.710\nThe MCSA is for the doer.\n\n149\n00:07:51.710 --> 00:07:52.810\nThe person who's in the field.\n\n150\n00:07:52.810 --> 00:07:54.600\nThe grunt who's actually\nmaking things happen.\n\n151\n00:07:54.600 --> 00:07:56.750\nRight?\nYou're the one bringing up servers and\n\n152\n00:07:56.750 --> 00:07:57.310\ntroubleshooting.\n\n153\n00:07:57.310 --> 00:07:58.160\nReplacing hard drives.\n\n154\n00:07:58.160 --> 00:08:00.260\nYou're the one who's\nactually making things work.\n\n155\n00:08:00.260 --> 00:08:04.220\nSo in a lot of ways, the knowledge we\ncover in the MCSA certification is more\n\n156\n00:08:04.220 --> 00:08:09.140\nvaluable than what we learn in the MCSE\nand the MCSA is a lot more entertaining in\n\n157\n00:08:09.140 --> 00:08:12.770\nmy opinion because you know, you get\nto use a lot of these technologies.\n\n158\n00:08:12.770 --> 00:08:14.280\nSo keep that in mind as you go through and\n\n159\n00:08:14.280 --> 00:08:18.570\nstudy that the MCSA is a great place to\nstart if you're already somebody who has\n\n160\n00:08:18.570 --> 00:08:22.110\nthat experience and you're looking to get\nthat documented, get it on your resume and\n\n161\n00:08:22.110 --> 00:08:26.200\nlearn all the different things\nthat Windows Server 2012 can do.\n\n162\n00:08:26.200 --> 00:08:29.070\nAll right, well, if that's what you're\nlooking for, you're in the right place.\n\n163\n00:08:29.070 --> 00:08:31.200\nStay tuned, our episodes are coming up.\n\n164\n00:08:31.200 --> 00:08:34.510\nIf not, keep in mind all the other\ncertifications that I mentioned.\n\n165\n00:08:34.510 --> 00:08:36.590\nThere's an appropriate one for\nyou in there somewhere.\n\n166\n00:08:36.590 --> 00:08:39.720\nYou just gotta look to find it and\nthen pursue your goal.\n\n167\n00:08:39.720 --> 00:08:42.890\nRegardless of which route you go,\nI wish you the best of luck on your exam.\n\n168\n00:08:42.890 --> 00:08:44.320\nAnd for those of you sticking with me,\n\n169\n00:08:44.320 --> 00:08:46.272\nI'll see you in the episodes\nhere in just a moment.\n\n170\n00:08:46.272 --> 00:08:53.079\n[SOUND]\n\n",
+          "url": "overview-windows-server-2012-r3",
+          "vimeoId": "112924633"
+        }
+      ],
+      "title": "Overview of MCSA Windows Server 2012 R2 (70-411)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Nate and Mike take a look at Windows Deployment Services. They demonstrate installing the WDS role and configuring install and boot images. They also take a look at discover and capture images as well as demonstrate capturing a syspreped reference machine.",
+          "length": "6411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/001-Manage-and-Deploy-WDS.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/001-Manage-and-Deploy-WDS-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/001-Manage-and-Deploy-WDS-sm.jpg",
+          "title": "Deploy and Manage WDS",
+          "transcript": "",
+          "url": "deploy-manage-wds",
+          "vimeoId": "82389484"
+        },
+        {
+          "description": "After or about the 40 minute mark. A command was missing to enable the feature: `DISM /Image:c:\\mount /Enable-Feature /FeatureName:TelnetClient`  \nThis should be run before you check it with: `DISM /Image:c:\\mount /Get-Feature /FeatureName:TelnetClient`\n\nIn this episode Mike and Nate wrap up WDS by demonstrating image maintenance procedures such as adding system updates and building driver packages. They also show how to add features to an offline image.",
+          "length": "2588",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/002-Deploy-and-Manage-WS-Pt2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/002-Deploy-and-Manage-WS-Pt2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/002-Deploy-and-Manage-WS-Pt2-sm.jpg",
+          "title": "Windows Deployment Services Part 2",
+          "transcript": "",
+          "url": "windows-deployment-services-2",
+          "vimeoId": "83597849"
+        },
+        {
+          "description": "In this episode, Mike and Daniel explain some of the features and functionality of Microsoft's patch management system, Windows Server Update Service(WSUS). Here specifically, they talk all about installing and configuring the WSUS role. They show you how to add the role and then configure the service based on best practices so that only updates you need are getting downloaded and installed to your clients. They also talk about the different modes (Autonomous/Replica) for implementing multiple WSUS servers.",
+          "length": "1605",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-090115-1-sm.jpg",
+          "title": "Configuring WSUS",
+          "transcript": "",
+          "url": "configuring-wsus1",
+          "vimeoId": "138078714"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on configuring patch management using WSUS from Microsoft. This time they move on to configuring group policy for the purposes of configuring automatic updates on the client systems and other update settings. Other topics discussed include client-side targeting, WSUS synchronization, WSUS groups, and patch management in a mixed environment.",
+          "length": "1754",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-pt.2-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-pt.2-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-2-1-configuring_wsus-pt.2-090115-1-sm.jpg",
+          "title": "Configuring WSUS Part 2",
+          "transcript": "",
+          "url": "configuring-wsus-part-2",
+          "vimeoId": "138078712"
+        },
+        {
+          "description": "In this episode Mike and Don discuss remotely managing Windows servers. They demonstrate how to aggregate event logs as well as utilize other monitoring tools for troubleshooting and monitoring purposes.",
+          "length": "6161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/004-Monitoring-Servers.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/004-Monitoring-Servers-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/004-Monitoring-Servers-sm.jpg",
+          "title": "Monitoring Servers",
+          "transcript": "",
+          "url": "monitoring-servers",
+          "vimeoId": "84792117"
+        },
+        {
+          "description": "In this episode Don demonstrates how to upload driver packages into Windows Deployment Services (WDS). He also shows how to use groups and filters to restrict what drivers apply to what hardware.",
+          "length": "1189",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/008-Driver-Groups-and-Packages.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/008-Driver-Groups-and-Packages-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/008-Driver-Groups-and-Packages-sm.jpg",
+          "title": "Driver Groups and Packages",
+          "transcript": "",
+          "url": "driver-packages",
+          "vimeoId": "87676379"
+        },
+        {
+          "description": "In this episode Don demonstrates using Windows Server Update Services (WSUS) to manage updates in an environment where multiple operating systems are in use.",
+          "length": "490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/009-Patch-Management-in-Mixed-Environments.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/009-Patch-Management-in-Mixed-Environments-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/009-Patch-Management-in-Mixed-Environments-sm.jpg",
+          "title": "Patch Management in Mixed Environments",
+          "transcript": "",
+          "url": "patch-management-mixed-environments",
+          "vimeoId": "87676483"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore the Performance Monitor system built into the Windows Server 2012R2 operating system. They show you how to configure Data Collector Sets as well as Alerts. They also show you how to perform real-time monitoring of performance, as well as monitoring virtual machines and system events. Also covered is network monitoring and scheduling performance monitoring.",
+          "length": "1886",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-3-1-performance_monitor-090115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-3-1-performance_monitor-090115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-3-1-performance_monitor-090115-1-sm.jpg",
+          "title": "Performance Monitor",
+          "transcript": "",
+          "url": "performance-monitor2",
+          "vimeoId": "138078713"
+        }
+      ],
+      "title": "Deploy, manage, and maintain servers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Don demonstrate how to install and configure Distributed File System (DFS). They highlight some of the advanced functionality as well as show how DFS can improve redundancy and reliability for corporate file servers.",
+          "length": "5668",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/005-Distributed-File-System.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/005-Distributed-File-System-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/005-Distributed-File-System-sm.jpg",
+          "title": "Distributed File System",
+          "transcript": "",
+          "url": "distributed-file-system",
+          "vimeoId": "85921170"
+        },
+        {
+          "description": "In this episode, Mike and Daniel begin to explain and configure the File Server Resource Manager(FSRM) in Windows Server 2012R2. They start by overviewing the FSRM role and then move into one of the features that FSRM provides, which is quota management. This allows you to set disk quotas, giving you a system for making sure that disk space is being protected from over utilization.",
+          "length": "1766",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager-083115-1-sm.jpg",
+          "title": "File Server Resource Manager",
+          "transcript": "",
+          "url": "file-server-resource-manager1",
+          "vimeoId": "138861930"
+        },
+        {
+          "description": "In this episode, Mike and Daniel finish their overview of the File Server Resource Manager, this time covering File Screen Management and Storage Reports. First they take a look at the File Screen Management system witch allows you to specify what types of files are allowed or disallowed. Finally they show you how to configure the Storage Reports to generate reports based off of your specified criteria.",
+          "length": "1620",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager_pt2-083115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager_pt2-083115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-5-1-file_server_resource_manager_pt2-083115-1-sm.jpg",
+          "title": "File Server Resource Manager Part 2",
+          "transcript": "",
+          "url": "file-server-resource-manager-part-2",
+          "vimeoId": "138861936"
+        },
+        {
+          "description": "In this episode Don describes file encryption types in Windows Server 2012 and management concerns in an enterprise environment. He also demonstrates how to configure BitLocker on a Windows Server and shows off the new BitLocker Network Unlock feature.",
+          "length": "3456",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/012-File-and-Disk-Encryption.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/012-File-and-Disk-Encryption-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/012-File-and-Disk-Encryption-sm.jpg",
+          "title": "File and Disk Encryption",
+          "transcript": "",
+          "url": "file-disk-encryption",
+          "vimeoId": "88361240"
+        },
+        {
+          "description": "In this episode Mike and Don discuss backing up a certificate private key and setting up a data recovery agent in a domain environment. They explore audit policies and several different methods for configuring them such as local policy, AuditPol.exe and domain-based group policy. ",
+          "length": "5184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/013-EFS-and-Audit-Policies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/013-EFS-and-Audit-Policies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/013-EFS-and-Audit-Policies-sm.jpg",
+          "title": "EFS and Audit Policies",
+          "transcript": "",
+          "url": "efs-audit-policies",
+          "vimeoId": "88878703"
+        }
+      ],
+      "title": "Configure file and print services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Mike and Daniel take a look at DNS zones inside a Microsoft Active Directory Domain. They start by explaining how to configure the traditional Primary and Secondary zones and how they work. Then they cover the advantages of using an Active Directory Integrated zone and the security features found therein. Also covered are DNS Stub zones.",
+          "length": "1866",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-8-1-configure_dns_zones-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-8-1-configure_dns_zones-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-8-1-configure_dns_zones-082715-1-sm.jpg",
+          "title": "Configure DNS Zones",
+          "transcript": "",
+          "url": "configure-dns-zones",
+          "vimeoId": "137598725"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explain how to configure the different resource records in DNS on a Windows Server 2012 server. They begin by explaining the common DNS resource records like A and AAAA records, as well as CNAME, PTR, and SOA. Other topics discussed SRV records, zone scavenging, and setting the record Time-to-Live for the client cache.",
+          "length": "2101",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-9-1-configure_dns_records-082715.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-9-1-configure_dns_records-082715-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-9-1-configure_dns_records-082715-sm.jpg",
+          "title": "Configure DNS Records",
+          "transcript": "",
+          "url": "configure-dns-records1",
+          "vimeoId": "137598724"
+        },
+        {
+          "description": "In this episode Mike and Don take a look at installing and configuring the Remote Access role in Windows Server 2012 R2. They demonstrate how to implement basic routing, Network Address Translation (NAT) and how to allow and deny remote users from connecting to the VPN. ",
+          "length": "5444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/014-Configure-VPN-and-Routing.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/014-Configure-VPN-and-Routing-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/014-Configure-VPN-and-Routing-sm.jpg",
+          "title": "Configure VPN and Routing",
+          "transcript": "",
+          "url": "configure-vpn-routing",
+          "vimeoId": "89508639"
+        },
+        {
+          "description": "In this episode Ronnie and Mike take a look at the roles and components required for implementing DirectAccess and demonstrate its use. They also demonstrate configuring DNS and certificates as well as testing the settings by connecting a remote client machine.",
+          "length": "5016",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/015-Configure-DirectAccess.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/015-Configure-DirectAccess-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/015-Configure-DirectAccess-sm.jpg",
+          "title": "Configuring DirectAccess",
+          "transcript": "",
+          "url": "configuring-directaccess",
+          "vimeoId": "89548901"
+        }
+      ],
+      "title": "Configure network services and access"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Ronnie and Don discuss two methods for preventing undesired machines from accessing your network. They start at looking at Network Policy Server (NPS) and describe how it can be used to filter incoming dial-up and VPN connections. Then they go on to extend NPS by adding Network Access Protection (NAP) to further secure the network by ensuring clients meet a predetermined list of requirements.",
+          "length": "8138",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/019-NPS-and-NAP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/019-NPS-and-NAP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/mcsa70411/019-NPS-and-NAP-sm.jpg",
+          "title": "NPS and NAP",
+          "transcript": "",
+          "url": "nps-nap",
+          "vimeoId": "93413476"
+        }
+      ],
+      "title": "Configure a Network Policy Server infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike describe the Operation Master Roles available to a Windows Server 2012R2 server in an Active Directory Domain. These roles include Schema Master, Domain Naming Master, Relative Identifier(RID) Master, Primary Domain Controller(PDC) Emulator and Infrastructure Master. They cover each Operation Master role and describe the when, where, and why you would employ each in your domain.",
+          "length": "2066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-1-operation_master_roles-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-1-operation_master_roles-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-1-operation_master_roles-090415-1-sm.jpg",
+          "title": "Operation Master Roles",
+          "transcript": "",
+          "url": "operation-master-roles1",
+          "vimeoId": "138871725"
+        },
+        {
+          "description": "In this episode, Mike and Daniel show you how to install and configure a Read-Only Domain Controller(RDOC) in a Microsoft Active Directory Domain. RDOCs help address come of the challenges that an enterprise infrastructure can encounter at the branch office and/or perimeter networks that might not be as physically secure as a main datacenter.",
+          "length": "2008",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-2-read_only_domain_controllers-090415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-2-read_only_domain_controllers-090415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-16-2-read_only_domain_controllers-090415-1-sm.jpg",
+          "title": "Read Only Domain Controllers",
+          "transcript": "",
+          "url": "read-domain-controllers1",
+          "vimeoId": "138871737"
+        },
+        {
+          "description": "In this episode, Daniel and Mike go over configuring account policies in Active Directory Users and Computers. They kick things off by demonstrating how to configure both domain and local user password policy settings. This includes things like minimum/maximum password age, history, and complexity requirements. They then move into delegating password management and configuring lockout policies. Finally they look into kerberos policy settings.",
+          "length": "2041",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-18-1-configure_account_policies-082715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-18-1-configure_account_policies-082715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-18-1-configure_account_policies-082715-1-sm.jpg",
+          "title": "Configure Account Policies",
+          "transcript": "",
+          "url": "configure-account-policies2",
+          "vimeoId": "137598726"
+        }
+      ],
+      "title": "Configure and manage Active Directory"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Mike and Daniel describe the Group Policy Processing order and precedences which will help you figure out how to properly configure and deploy your group policies. They also explain and configure inheritance blocking and policy enforcement.",
+          "length": "1762",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing-090315-1-sm.jpg",
+          "title": "Group Policy Processing",
+          "transcript": "",
+          "url": "policy-processing1",
+          "vimeoId": "138326560"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue describing Group Policy Processing and this time they are looking at configuring security filtering and Windows Management Instrumentation(WMI) filtering. First they cover security filtering, which is a way of refining which users and computers will receive and apply the settings in a GPO. Then they go over WMI filtering which allows you to dynamically determine the scope of GPOs based on attributes of the target PC.",
+          "length": "1433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt2-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt2-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt2-090315-1-sm.jpg",
+          "title": "Group Policy Processing Part 2",
+          "transcript": "",
+          "url": "policy-processing-2",
+          "vimeoId": "138326557"
+        },
+        {
+          "description": "In this episode, Mike and Daniel finish exploring Group Policy Processing, covering a myriad of topics such as configuring loopback processing, configuring and managing slow-link processing and Group Policy caching, configuring client-side extension(CSE) behavior, and forcing Group Policy updates.",
+          "length": "2066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt3-090315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt3-090315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-19-1-group-policy_processing_pt3-090315-1-sm.jpg",
+          "title": "Group Policy Processing Part 3",
+          "transcript": "",
+          "url": "policies-3",
+          "vimeoId": "138326556"
+        },
+        {
+          "description": "In this episode, Mike and Daniel begin explaining how to configure Group Policy in Windows Server 2012R2. Here they start by showing you how to access the Group Policy Management Editor and from there they show you how to configure Group Policy Object(GPO) settings. This includes settings that affect software installation, folder redirection, scripts, and administrative template settings.",
+          "length": "1958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings-090215-1-sm.jpg",
+          "title": "Group Policy Settings",
+          "transcript": "",
+          "url": "policy-settings1",
+          "vimeoId": "138861964"
+        },
+        {
+          "description": "In this episode, Mike and Daniel continue configuring Group Policy Object settings in Windows Server 2012R2. Here they pick up by showing you how to create and import security templates as well as custom administrative template files. They also show you how to configure property filters for administrative templates.",
+          "length": "917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings_pt.2-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings_pt.2-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-20-1-group_policy_settings_pt.2-090215-1-sm.jpg",
+          "title": "Group Policy Settings Part 2",
+          "transcript": "",
+          "url": "policy-settings-part-2",
+          "vimeoId": "138861960"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explore management and best practices concerning Group Policy Objects. They explain the importance of and show you how to perform administrative tasks like backing up, importing, copying, and restoring GPOs. They then show you how to create and configure a Migration table and resetting default GPOs. Finally they cover delegating management of Group Policy to share the administrative load with other trusted users.",
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-21-1-group_policy_objects-090215-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-21-1-group_policy_objects-090215-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-21-1-group_policy_objects-090215-2-sm.jpg",
+          "title": "Group Policy Objects",
+          "transcript": "",
+          "url": "policy-objects3",
+          "vimeoId": "138861988"
+        },
+        {
+          "description": "In this episode, Daniel and Mike explain and configure Group Policy Preferences. They start by explaining what the difference between Group Policy Objects, Group Policies, and Group Policy Preferences are. Then they move into how you can use Group Policy Preferences to configure settings for printers, network drives, power options, Internet Explorer, and others. They also cover item-level targeting to change the scope of individual preference items.",
+          "length": "1608",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-22-1-group_policy_preferences-090215-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-22-1-group_policy_preferences-090215-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-server70411/microsoft-server70411-22-1-group_policy_preferences-090215-1-sm.jpg",
+          "title": "Group Policy Preferences",
+          "transcript": "",
+          "url": "policy-preferences2",
+          "vimeoId": "138862033"
+        }
+      ],
+      "title": "Configure and manage Group Policy"
+    }
+  ],
+  "url": "mcsa-windows-server-2013",
+  "vLab": true
+}

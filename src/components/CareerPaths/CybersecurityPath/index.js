@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
@@ -9,7 +8,7 @@ import { IconArrowRight } from 'Elements/Icons';
 import TextLinkExternal from 'Elements/TextLinkExternal';
 import styles from './styles.module.scss';
 
-const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, supportingCourses,  ...rest }) => (
+const CybersecurityPath = ({ recommendedCourses, additionalCourses, supportingCourses }) =>
 
   <main className={ styles.Path }>
 
@@ -36,7 +35,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
             <Hx color={ styles.headingColor } size="5">Recommended Training for Certification</Hx>
           </div>
           <ul className={ styles.list }>
-            {recommendedCourses.map(course => (
+            {recommendedCourses.map((course) =>
               <CareerPathCourses
                 key={ course.url }
                 url={ `/courses/${course.tagUrl}/${course.url}/` }
@@ -44,7 +43,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
                 description={ course.subtitle }
                 level={ course.level }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>
@@ -55,7 +54,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
             <Hx color={ styles.headingColor } size="5">Supporting Certifications</Hx>
           </div>
           <ul className={ styles.list }>
-            {supportingCourses.map(course => (
+            {supportingCourses.map((course) =>
               <CareerPathCourses
                 key={ course.url }
                 url={ `/courses/${course.tagUrl}/${course.url}/` }
@@ -63,7 +62,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
                 description={ course.subtitle }
                 level={ course.level }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>
@@ -74,7 +73,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
             <Hx color={ styles.headingColor } size="5">Additional Training</Hx>
           </div>
           <ul className={ styles.list }>
-            {additionalCourses.map(course => (
+            {additionalCourses.map((course) =>
               <CareerPathCourses
                 key={ course.url }
                 url={ `/courses/${course.tagUrl}/${course.url}/` }
@@ -82,7 +81,7 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
                 description={ course.subtitle }
                 level={ course.level }
               />
-            ))}
+            )}
           </ul>
         </div>
       </section>
@@ -106,6 +105,6 @@ const CybersecurityPath = ({ data, recommendedCourses, additionalCourses, suppor
     </section>
 
   </main>
-);
+;
 
 export default CybersecurityPath;

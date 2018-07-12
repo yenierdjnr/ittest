@@ -7,18 +7,17 @@ import styles from '../styles.module.scss';
 
 
 const Enterprise = ({ className='' }) => {
-    let capsule = `${styles.capsulePlans} ${className}`;
-    let description = styles.description;
-    let perks = styles.perks;
-    let price = styles.price;
+  let capsule = `${styles.capsulePlans} ${className}`;
+  let description = styles.description;
+  let perks = styles.perks;
+  let price = styles.price;
 
-    if (className === 'pricing') {
-      capsule = `${capsule} ${styles.plans}`;
-      description = `${description} ${styles.plans}`;
-      perks = `${perks} ${styles.plans}`;
-      price = `${price} ${styles.plans}`;
-    }
-
+  if (className === 'pricing') {
+    capsule = `${capsule} ${styles.plans}`;
+    description = `${description} ${styles.plans}`;
+    perks = `${perks} ${styles.plans}`;
+    price = `${price} ${styles.plans}`;
+  }
     return (
       <div className={ capsule }>
         <div className={ styles.planWrap }>

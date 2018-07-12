@@ -4,8 +4,7 @@ import Hx from 'Elements/Hx';
 import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
-
-const ForTeams = props => {
+const ForTeams = (props) => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>
@@ -19,6 +18,5 @@ const ForTeams = props => {
     </section>
   );
 };
-
 
 export default ForTeams;

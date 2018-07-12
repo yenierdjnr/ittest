@@ -1,9 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconGear = props => {
-  const { className='', fill='#FFFFFF' } = props;
+const IconGear = (props) => {
+  const { className='' } = props;
 
   return (
     <svg className={ className } width="59" height="80" viewBox="0 0 59 80">

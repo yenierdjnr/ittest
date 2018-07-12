@@ -6,24 +6,22 @@ import PageNotFoundContent from 'Components/PageNotFoundContent';
 import styles from './404.module.scss';
 
 
-const PageNotFound = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles['page-not-found'] }>
+const PageNotFound = ({ location }) =>
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles['page-not-found'] }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.PageNotFoundContent }>
-          <PageNotFoundContent />
-        </section>
+      <section className={ styles.PageNotFoundContent }>
+        <PageNotFoundContent />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default PageNotFound;

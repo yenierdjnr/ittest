@@ -1,0 +1,304 @@
+{
+  "description": "HTML5 Canvas elements bring art and animation to the browser. In this series, we explore the capabilities of the HTML5 Canvas element in conjunction with JavaScript. This includes simple \"pen\" drawings, image displaying, image manipulation, and animations. Knowing HTML5 Canvas provides a great way to start with in-browser games as well as expressing those artistic desires. Hope to see you there!",
+  "descriptionMD": "HTML5 Canvas elements bring art and animation to the browser. In this series, we explore the capabilities of the HTML5 Canvas element in conjunction with JavaScript. This includes simple \"pen\" drawings, image displaying, image manipulation, and animations. Knowing HTML5 Canvas provides a great way to start with in-browser games as well as expressing those artistic desires. Hope to see you there!",
+  "length": "38907",
+  "name": "HTML5 Canvas Graphics and Animations",
+  "practiceExam": false,
+  "subtitle": "Your very own digital canvas!",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "HTML5 Canvas elements bring art and animation to the browser. In this series, we explore the capabilities of the HTML5 Canvas element in conjunction with JavaScript. This includes simple \"pen\" drawings, image displaying, image manipulation, and animations. Knowing HTML5 Canvas provides a great way to start with in-browser games as well as expressing those artistic desires. Hope to see you there!",
+          "length": "181",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-0-0-0-overview-092017-PGM.00_00_55_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-0-0-0-overview-092017-PGM.00_00_55_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-0-0-0-overview-092017-PGM.00_00_55_02.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "",
+          "url": "overview-html5canvasgraphics",
+          "vimeoId": "242622277"
+        },
+        {
+          "description": "Justin and Zach begin the discussion about HTML5 Canvas Graphics & Animations, what is the Canvas Element, pixels default to 150, using MDN (Mozilla Developer Network), Canvas API, atom.io, using Atom, creating the Canvas element, CSS Grid Display Type, ES 2015, and setting width & height.",
+          "length": "1980",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-1-1-introduction_to_the_canvas_element-083117-PGM.00_32_48_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-1-1-introduction_to_the_canvas_element-083117-PGM.00_32_48_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-1-1-introduction_to_the_canvas_element-083117-PGM.00_32_48_12.Still001-sm.jpg",
+          "title": "Introduction to the Canvas Element",
+          "transcript": "",
+          "url": "introductionthe-canvas-element",
+          "vimeoId": "232049593"
+        },
+        {
+          "description": "Justin and Zach look at drawing lines & rectangles, coordinate system, 400px X 600px for rectangle inside Canvas, down & across to the right for positive numbers in rectangle, and positioning the rectangle.",
+          "length": "1278",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-1-drawing_lines_and_rectangles-083117-PGM.00_21_46_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-1-drawing_lines_and_rectangles-083117-PGM.00_21_46_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-1-drawing_lines_and_rectangles-083117-PGM.00_21_46_18.Still001-sm.jpg",
+          "title": "Drawing Lines and Rectangles",
+          "transcript": "",
+          "url": "drawing-linesrectangles",
+          "vimeoId": "232048036"
+        },
+        {
+          "description": "Justin and zach continue the discussion regarding drawing lines & rectangles, CTX.StrokeRect, ClearRect, FillRect, and getRectCenter, and the the basic build and positioning of our rectangle concluded.",
+          "length": "1302",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-2-drawing_lines_and_rectangles_pt2-083117-PGM.00_31_48_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-2-drawing_lines_and_rectangles_pt2-083117-PGM.00_31_48_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-2-1-2-drawing_lines_and_rectangles_pt2-083117-PGM.00_31_48_09.Still001-sm.jpg",
+          "title": "Drawing Lines and Rectangles Part 2",
+          "transcript": "",
+          "url": "drawing-linesrectangles2",
+          "vimeoId": "232049355"
+        },
+        {
+          "description": "Justin and Zach discuss using curves and arcs in canvas graphics & animations, what a Bezier Curve is, what a Quadratic Curve is, 2D graphics rendering Context, App.JS File, 'BezierCurve'To function, Bezier Curves allow us to stroke & fill, Bezier Curves have 6 Arguments, and the importance of Close Path command.",
+          "length": "1342",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-1-drawing_curves_and_arcs-090117-PGM.00_22_11_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-1-drawing_curves_and_arcs-090117-PGM.00_22_11_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-1-drawing_curves_and_arcs-090117-PGM.00_22_11_28.Still001-sm.jpg",
+          "title": "Drawing Curves and Arcs",
+          "transcript": "",
+          "url": "drawing-curvesarcs",
+          "vimeoId": "232476831"
+        },
+        {
+          "description": "Justin and Zach cover Quadratic Curves, how Bezier Curves & Quadratic Curves are paths, the QuadraticCurveTo method, control points, and how the Quadratic Curve has one control point.",
+          "length": "1184",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-2-drawing_curves_and_arcs_pt2-090117-PGM.00_19_34_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-2-drawing_curves_and_arcs_pt2-090117-PGM.00_19_34_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-2-drawing_curves_and_arcs_pt2-090117-PGM.00_19_34_00.Still001-sm.jpg",
+          "title": "Drawing Curves and Arcs Part 2",
+          "transcript": "",
+          "url": "drawing-curvesarcs2",
+          "vimeoId": "232476260"
+        },
+        {
+          "description": "Justin and Zach go over general info about Arcs, Arc as a method, ArcTo, Arc has 5 arguments, Arcs can be stroked or filled, the degrees to radiants.function, and how Arcs are good for circular shapes.",
+          "length": "1786",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-3-drawing_curves_and_arcs_pt3-090117-PGM.00_32_20_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-3-drawing_curves_and_arcs_pt3-090117-PGM.00_32_20_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-3-1-3-drawing_curves_and_arcs_pt3-090117-PGM.00_32_20_00.Still001-sm.jpg",
+          "title": "Drawing Curves and Arcs Part 3",
+          "transcript": "",
+          "url": "drawing-curvesarcs3",
+          "vimeoId": "232477242"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore the creation of more advances shapes using drawing primitives (lines!) from the previous episodes. Justin demonstrates the thought process and implementation of triangle drawing function.",
+          "length": "1468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-1-creating_other_shapes-090517-PGM.00_24_19_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-1-creating_other_shapes-090517-PGM.00_24_19_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-1-creating_other_shapes-090517-PGM.00_24_19_04.Still001-sm.jpg",
+          "title": "Creating Other Shapes",
+          "transcript": "",
+          "url": "creatingshapes",
+          "vimeoId": "232662752"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore the creation of more advances shapes using drawing primitives (lines!) from the previous episodes. Justin demonstrates the thought process and implementation of hexagon drawing function.",
+          "length": "1614",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-2-creating_other_shapes_pt2-090517.00_26_45_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-2-creating_other_shapes_pt2-090517.00_26_45_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-4-1-2-creating_other_shapes_pt2-090517.00_26_45_06.Still001-sm.jpg",
+          "title": "Creating Other Shapes Part 2",
+          "transcript": "",
+          "url": "creatingshapes2",
+          "vimeoId": "232662296"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore changing some of the styles and colors of elements drawn in the HTML5 Canvas. In particular, Justin demonstrates changing the color of lines, altering the cap and joins of lines, as well as how to change the line dashing property.",
+          "length": "1911",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-1-drawing_styles_and_colors-090617-PGM.00_32_27_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-1-drawing_styles_and_colors-090617-PGM.00_32_27_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-1-drawing_styles_and_colors-090617-PGM.00_32_27_04.Still001-sm.jpg",
+          "title": "Drawing Styles and Colors",
+          "transcript": "",
+          "url": "drawing-stylescolors",
+          "vimeoId": "232987899"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore changing some of the styles and colors of elements drawn in the HTML5 Canvas. In particular, Justin demonstrates changing the fill color including transparencies of filled figures as well as demonstrating some \"gotchas\" when using stroke and fill styles together.",
+          "length": "900",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-2-drawing_styles_and_colors_pt2-090617-PGM.00_21_51_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-2-drawing_styles_and_colors_pt2-090617-PGM.00_21_51_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-5-1-2-drawing_styles_and_colors_pt2-090617-PGM.00_21_51_17.Still001-sm.jpg",
+          "title": "Drawing Styles and Colors Part 2",
+          "transcript": "",
+          "url": "drawing-stylescolors2",
+          "vimeoId": "232988572"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore the drawing of text on the canvas element.  Additionally, Justin demonstrates the changing of attributes of the context object to draw text with varying placements and styles.",
+          "length": "1914",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-6-1-drawing_text-090817-PGM.00_31_45_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-6-1-drawing_text-090817-PGM.00_31_45_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-6-1-drawing_text-090817-PGM.00_31_45_01.Still001-sm.jpg",
+          "title": "Drawing Text",
+          "transcript": "",
+          "url": "drawing-text",
+          "vimeoId": "233500140"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore the drawing of gradiens on the canvas element. Justin demonstrates the creation and usage of linear gradient objects.",
+          "length": "1563",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-1-drawing_gradients-090817-PGM.00_25_54_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-1-drawing_gradients-090817-PGM.00_25_54_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-1-drawing_gradients-090817-PGM.00_25_54_00.Still001-sm.jpg",
+          "title": "Drawing Gradients",
+          "transcript": "",
+          "url": "drawing-gradients",
+          "vimeoId": "233500781"
+        },
+        {
+          "description": "In this episode, Vonne and Justin explore the drawing of text on the canvas element. Justin demonstrates the creation and usage of radial gradient objects.",
+          "length": "996",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-2-drawing_gradients_pt2-090817-PGM.00_16_26_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-2-drawing_gradients_pt2-090817-PGM.00_16_26_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-7-1-2-drawing_gradients_pt2-090817-PGM.00_16_26_22.Still001-sm.jpg",
+          "title": "Drawing Gradients Part 2",
+          "transcript": "",
+          "url": "drawing-gradients2",
+          "vimeoId": "233500619"
+        },
+        {
+          "description": "Justin and Zach discuss 'Usingimages,' scalable Vector Graphics, input/output operation, add Event Listener, fire On-Load Event/register On Load Event, rendering Context/Syntax, Aspect ratio, width over height, and small-medium-large image creation.",
+          "length": "1576",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-1-using_images-091317.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-1-using_images-091317.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-1-using_images-091317.Still001-sm.jpg",
+          "title": "Using Images",
+          "transcript": "",
+          "url": "using-images",
+          "vimeoId": "234547459"
+        },
+        {
+          "description": "Justin and Zach conclude the discussion about Usingimages, getReactCenter, center-dims, modify the HTML, utility class-'hidden,' asynchronus nature, DOMCenterLoaded, frame rate, and flip book like effect.",
+          "length": "1512",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-2-using_images_pt2-091317-PGM.00_25_01_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-2-using_images_pt2-091317-PGM.00_25_01_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-1-2-using_images_pt2-091317-PGM.00_25_01_01.Still001-sm.jpg",
+          "title": "Using Images Part 2",
+          "transcript": "",
+          "url": "using-images2",
+          "vimeoId": "233884743"
+        },
+        {
+          "description": "Justin and Zach look at PNG image (logo.png), const createCanvasFromImage, Canvas objects, gctx=grayscale.getContext, using Python server, local host:8080, RBGA, and algorithm for gray scaling.",
+          "length": "1447",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-2-using_images_grayscale_filter-091317-PGM.00_27_05_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-2-using_images_grayscale_filter-091317-PGM.00_27_05_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-8-2-using_images_grayscale_filter-091317-PGM.00_27_05_06.Still001-sm.jpg",
+          "title": "Using Images: Grayscale Filter",
+          "transcript": "",
+          "url": "using-images-grayscale-filter",
+          "vimeoId": "233686659"
+        },
+        {
+          "description": "Justin and Zach discuss using Transformations, what are Transformations, expose-explore, canvas, getcontext, restore, stroke & fill, center of drawing canvas, Ctx.translate (100,100), translate & reflect, CanvasRenderingContext2D.rotate, Set trans form, rotate, radians, an change the origin.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-1-using_transformations-091417-PGM.00_30_20_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-1-using_transformations-091417-PGM.00_30_20_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-1-using_transformations-091417-PGM.00_30_20_26.Still001-sm.jpg",
+          "title": "Using Transformations",
+          "transcript": "",
+          "url": "using-transformations",
+          "vimeoId": "233884414"
+        },
+        {
+          "description": "Justin and Zach cover scale, scale-x & y perimeter, scaling, dilation & contraction, reflections/vertical reflections, GROK, and CanvasRenderingContext2D.transfer",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-2-using_transformations_pt2-091417-PGM.00_25_16_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-2-using_transformations_pt2-091417-PGM.00_25_16_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-9-1-2-using_transformations_pt2-091417-PGM.00_25_16_28.Still001-sm.jpg",
+          "title": "Using Transformations Part 2",
+          "transcript": "",
+          "url": "using-transformations2",
+          "vimeoId": "233883791"
+        },
+        {
+          "description": "Justin and Zach discuss clipping & composites, what clipping is, what composites are, clipping mask, PNG image, draw image, clipping circle, fill canvas, frame rate, and x + ticks.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-1-clipping_and_composites-091417-PGM.00_30_09_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-1-clipping_and_composites-091417-PGM.00_30_09_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-1-clipping_and_composites-091417-PGM.00_30_09_15.Still001-sm.jpg",
+          "title": "Clipping and Composites",
+          "transcript": "",
+          "url": "clippingcomposites",
+          "vimeoId": "233884093"
+        },
+        {
+          "description": "Justin and Zach discuss Composites, what are Composites, using graphic image editor, graphics image editor is a blending tool, source & destination, opaque & transparent, const figure, what XOR does, global composite operation, 'drawn in the order called,' composite type, source-over/source-out, and 'difference.'",
+          "length": "1364",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-2-clipping_and_composites_pt2-091517-PGM.00_23_12_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-2-clipping_and_composites_pt2-091517-PGM.00_23_12_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-10-1-2-clipping_and_composites_pt2-091517-PGM.00_23_12_10.Still001-sm.jpg",
+          "title": "Clipping and Composites Part 2",
+          "transcript": "",
+          "url": "clippingcomposites2",
+          "vimeoId": "234507058"
+        },
+        {
+          "description": "Justin and Zach cover more about animations, frame rage 25X per second, 'Request Animation Frame' vs. set interval/set time-out, velocity or speed (DX), positive to right & down/negative to left & up, callback parameter, dx:1 & dy:1, const main, and Request Animation Frame.",
+          "length": "1632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-1-more_about_animations-091517-PGM.00_27_02_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-1-more_about_animations-091517-PGM.00_27_02_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-1-more_about_animations-091517-PGM.00_27_02_00.Still001-sm.jpg",
+          "title": "More About Animations",
+          "transcript": "",
+          "url": "animations",
+          "vimeoId": "234506673"
+        },
+        {
+          "description": "Justin and Zach cover more about animations part 2, ctx.fillStyle, render ctx, not painted-hidden, const logo, cancel animation frame, bit map graphic, and increased height & width for zoom.",
+          "length": "1636",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-2-more_about_animations_pt2-091517-PGM.00_27_29_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-2-more_about_animations_pt2-091517-PGM.00_27_29_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-11-1-2-more_about_animations_pt2-091517-PGM.00_27_29_25.Still001-sm.jpg",
+          "title": "More About Animations Part 2",
+          "transcript": "",
+          "url": "animations2",
+          "vimeoId": "234506479"
+        },
+        {
+          "description": "Justin and Zach discuss what is a 'Particle,' X-Y options, color:options, options.radius, fat arrow functions, main function, particle.update, particle.render, requestAnimationFrame (main), 'helpers' functions, why we have to call 'fill' to draw to the screen, and (left-right) position.",
+          "length": "1804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-1-lets_build_it_particles_everywhere-091917-PGM.00_30_09_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-1-lets_build_it_particles_everywhere-091917-PGM.00_30_09_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-1-lets_build_it_particles_everywhere-091917-PGM.00_30_09_21.Still001-sm.jpg",
+          "title": "Lets Build It: Particles Everwhere",
+          "transcript": "",
+          "url": "build-it-particles-everwhere",
+          "vimeoId": "234673214"
+        },
+        {
+          "description": "Justin and Zach continue the discussion about creating & using particles in the canvas graphic, why every particle has its own update function, prototype chains, const createParticles, random number, grab object, factory function, explicit return, choice of colors, and how adding 1,000 particles on the canvas graphic simulates contained gas.",
+          "length": "2005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-2-lets_build_it_particles_everywhere_pt2-091917-PGM.00_35_35_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-2-lets_build_it_particles_everywhere_pt2-091917-PGM.00_35_35_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-12-1-2-lets_build_it_particles_everywhere_pt2-091917-PGM.00_35_35_22.Still001-sm.jpg",
+          "title": "Lets Build It: Particles Everywhere Part 2",
+          "transcript": "",
+          "url": "build-it-particlespart-2",
+          "vimeoId": "234673708"
+        },
+        {
+          "description": "Justin and Zach cover Event Listener, user interactions, using mouse & keys to interact with function, how to utilize Dom events, attaching an Event Listener to the canvas element, a circle as a javascript data function, and the key code for color.",
+          "length": "1443",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-13-1-1-responding_to_events-091917-PGM.00_25_42_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-13-1-1-responding_to_events-091917-PGM.00_25_42_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-html5canvasgraphicsandanimation/techskills-html5canvasgraphicsandanimations-13-1-1-responding_to_events-091917-PGM.00_25_42_25.Still001-sm.jpg",
+          "title": "Responding to Events",
+          "transcript": "",
+          "url": "respondingevents",
+          "vimeoId": "234673505"
+        }
+      ],
+      "title": "HTML5 Canvas Graphics and Animations"
+    }
+  ],
+  "url": "html5-canvas-graphicsanimations",
+  "vLab": false
+}

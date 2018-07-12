@@ -1,0 +1,172 @@
+{
+  "description": "Python is a great language for learning, writing web applications, and manipulating data. However, Python can be used for security testing as well. In this series, we will explore the use of Python in such concepts as brute force password cracking, making SSH connections programmatically, creating socket connections and port scanner a particular host, banner grabbing from open ports, and more. If that sounds interesting to you, then please join us!",
+  "descriptionMD": "Python is a great language for learning, writing web applications, and manipulating data. However, Python can be used for security testing as well. In this series, we will explore the use of Python in such concepts as brute force password cracking, making SSH connections programmatically, creating socket connections and port scanner a particular host, banner grabbing from open ports, and more. If that sounds interesting to you, then please join us!",
+  "length": "20666",
+  "name": "Python for Security",
+  "practiceExam": false,
+  "subtitle": "Being Sneaky with Python",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Python is a great language for learning, writing web applications, and manipulating data. However, Python can be used for security testing as well. In this series, we will explore the use of Python in such concepts as brute force password cracking, making SSH connections programmatically, creating socket connections and port scanner a particular host, banner grabbing from open ports, and more. If that sounds interesting to you, then please join us!",
+          "length": "128",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-0-0-overview-081017-PGM.00_05_39_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-0-0-overview-081017-PGM.00_05_39_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-0-0-overview-081017-PGM.00_05_39_22.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.536\n[MUSIC]\n\n2\n00:00:05.536 --> 00:00:09.001\nIn this segment we're gonna give you\na quick look at what you can expect from\n\n3\n00:00:09.001 --> 00:00:10.985\nour upcoming Python for Security series.\n\n4\n00:00:10.985 --> 00:00:14.855\nJustin, could you do us the immense favor\nof giving us some of the topics that we're\n\n5\n00:00:14.855 --> 00:00:17.010\ngonna encounter as refers to the series?\n\n6\n00:00:17.010 --> 00:00:19.580\n&gt;&gt; So there's a few things\nthat we're going to encounter.\n\n7\n00:00:19.580 --> 00:00:22.180\nMost of what we're going to\nbe doing is network related,\n\n8\n00:00:22.180 --> 00:00:26.220\nbecause Python already has some\nbuilt in network related modules.\n\n9\n00:00:26.220 --> 00:00:30.840\nThe socket library, create a server,\ncreate a client, two set server.\n\n10\n00:00:30.840 --> 00:00:33.260\nAlso, maybe a little\nbit of packet sniffing.\n\n11\n00:00:33.260 --> 00:00:38.950\nMoreover, we're gonna be looking at some\nattacks to like various ports on your\n\n12\n00:00:38.950 --> 00:00:43.910\nmachine, various services, particularly\nyour brute force attack to the SSH client.\n\n13\n00:00:43.910 --> 00:00:45.233\n&gt;&gt; Very cool.\n\n14\n00:00:45.233 --> 00:00:51.040\nWe have a lot of different times that\nwe're doing certification based training.\n\n15\n00:00:51.040 --> 00:00:54.420\nWe also do technical skills\nbased training as well.\n\n16\n00:00:54.420 --> 00:00:57.310\nWhich one of those categories\nwould this series fall under?\n\n17\n00:00:57.310 --> 00:00:58.760\n&gt;&gt; This is most definitely a tech skill.\n\n18\n00:00:58.760 --> 00:01:00.840\nThis is something where\na little bit of Python.\n\n19\n00:01:00.840 --> 00:01:02.470\nI'm interested in security.\n\n20\n00:01:02.470 --> 00:01:04.360\nHow do those two come together?\n\n21\n00:01:04.360 --> 00:01:06.430\nThis is not certification based.\n\n22\n00:01:06.430 --> 00:01:08.530\nIt's more about, hey, I have this idea.\n\n23\n00:01:08.530 --> 00:01:11.650\nLet me kind of make it come to\nfruition in the context of security.\n\n24\n00:01:11.650 --> 00:01:12.810\n&gt;&gt; And Justin, I always like to ask,\n\n25\n00:01:12.810 --> 00:01:15.720\nwho is the intended audience for\nthis series, as well?\n\n26\n00:01:15.720 --> 00:01:19.710\n&gt;&gt; So the intended audience is, you should\nprobably have some experience with Python,\n\n27\n00:01:19.710 --> 00:01:22.710\ncuz that's kind of\nassumed from the outset.\n\n28\n00:01:22.710 --> 00:01:26.850\nOtherwise, you're gonna be like,\nI don't know what all of this is, right?\n\n29\n00:01:26.850 --> 00:01:29.020\nSo, some programming experience in Python,\n\n30\n00:01:29.020 --> 00:01:33.390\nI'm not saying you have to be\nan expert but you should have\n\n31\n00:01:33.390 --> 00:01:37.530\na basic understanding of variables,\nlists, classes, so on and so forth.\n\n32\n00:01:37.530 --> 00:01:42.300\nMoreover, you should have some basic\nunderstanding of security principles, or\n\n33\n00:01:42.300 --> 00:01:49.280\nat least attacks that can be employed\nagainst a particular node or individual.\n\n34\n00:01:49.280 --> 00:01:52.100\n&gt;&gt; All right, well Justin, that sounds\nfantastic, and I know I'm looking\n\n35\n00:01:52.100 --> 00:01:55.350\nforward to it and it sounds like\nthat you might be interested in.\n\n36\n00:01:55.350 --> 00:01:58.278\n&gt;&gt; Well, we look forward to seeing\nyou in the upcoming series.\n\n37\n00:01:58.278 --> 00:02:03.219\n[MUSIC]\n\n",
+          "url": "overview-python-security",
+          "vimeoId": "229281645"
+        },
+        {
+          "description": "In this episode, Daniel and Justin show you how to build a standard TCP socket connection using Python. Here they walk you through the Python documentation looking at necessary pieces to make up a socket that will connect to a given host address and port number, after which it will verify the connection by displaying a code to the screen.",
+          "length": "1486",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-1-1-create_a_socket_connection-080117-PGM.00_24_35_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-1-1-create_a_socket_connection-080117-PGM.00_24_35_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-1-1-create_a_socket_connection-080117-PGM.00_24_35_02.Still001-sm.jpg",
+          "title": "Create a Socket Connection",
+          "transcript": "",
+          "url": "createsocket-connection",
+          "vimeoId": "228213883"
+        },
+        {
+          "description": "In this episode, Daniel and Justin demonstrate using Python to create a simple port scanner. Here they will build upon their socket connection to query a machine on specified ports. They also look at debugging errors.",
+          "length": "1817",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-2-1-create_a_port_scanner-080117-PGM.00_30_32_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-2-1-create_a_port_scanner-080117-PGM.00_30_32_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-2-1-create_a_port_scanner-080117-PGM.00_30_32_28.Still001-sm.jpg",
+          "title": "Create a Port Scanner",
+          "transcript": "",
+          "url": "createport-scanner",
+          "vimeoId": "228213312"
+        },
+        {
+          "description": "In this episode, Daniel and Justin create a Python program that will make a socket connection to an open port and then grab banner info for enumeration purposes. They also bundle this banner grabbing feature with the port scanner from the previous episode so that you can scan and banner grab the discovered open ports in one fell swoop.",
+          "length": "2021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-3-1-banner_reading_from_open_ports-080217-PGM.00_35_37_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-3-1-banner_reading_from_open_ports-080217-PGM.00_35_37_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-3-1-banner_reading_from_open_ports-080217-PGM.00_35_37_13.Still001-sm.jpg",
+          "title": "Banner Reading from Open Ports",
+          "transcript": "",
+          "url": "banner-readingopen-ports",
+          "vimeoId": "228408069"
+        },
+        {
+          "description": "In this episode, Daniel and Justin use the power of Python to build a brute-force program that attacks SSH for the purpose of testing weak passwords. Here they spend the majority of the time programming the SSH connection portion with a little help from Paramiko.",
+          "length": "1434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-1-brute_forcing_an_ssh_connection-080217-PGM.00_23_44_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-1-brute_forcing_an_ssh_connection-080217-PGM.00_23_44_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-1-brute_forcing_an_ssh_connection-080217-PGM.00_23_44_18.Still001-sm.jpg",
+          "title": "Brute Forcing an SSH Connection",
+          "transcript": "",
+          "url": "brute-forcingssh",
+          "vimeoId": "228407744"
+        },
+        {
+          "description": "In this episode, Daniel and Justin continue building their SSH brute-force program. Here they build the brute-force portion of the program, puts it together with the SSH connect program, and then attacks an SSH server to test for weak passwords.",
+          "length": "2311",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-2-brute_forcing_an_ssh_connection_pt2_ending-080217-PGM.00_38_50_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-2-brute_forcing_an_ssh_connection_pt2_ending-080217-PGM.00_38_50_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-4-1-2-brute_forcing_an_ssh_connection_pt2_ending-080217-PGM.00_38_50_19.Still001-sm.jpg",
+          "title": "Brute Forcing an SSH Connection Part 2",
+          "transcript": "",
+          "url": "brute-forcingssh-connection2",
+          "vimeoId": "228654816"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build a TCP packet sniffer with Python. Here they will show you how to make the correct socket connection, explain the security permissions surrounding packet capture, create an infinite loop to capture more than one packet, discuss capture output, and look at doing this in Python 2 vs 3.",
+          "length": "1423",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-1-1-packet_sniffing_with_python-080717-PGM.00_23_33_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-1-1-packet_sniffing_with_python-080717-PGM.00_23_33_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-1-1-packet_sniffing_with_python-080717-PGM.00_23_33_01.Still001-sm.jpg",
+          "title": "Packet Sniffing with Python",
+          "transcript": "",
+          "url": "packet-sniffingpython",
+          "vimeoId": "228813747"
+        },
+        {
+          "description": "In this episode, Daniel and Justin start a new project that will use Python to help us format our RAW packet data into a readable .pcap file. Here you'll see how to format the data and then send that data to a .pcap file which you can then view using a standard tool like Wireshark or TCPdump.",
+          "length": "1597",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-2-packet_capture_output-080817-PGM.00_29_18_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-2-packet_capture_output-080817-PGM.00_29_18_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-2-packet_capture_output-080817-PGM.00_29_18_02.Still001-sm.jpg",
+          "title": "Packet Capture Output",
+          "transcript": "",
+          "url": "packet-capture-output",
+          "vimeoId": "228971157"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build a new project that connects with their sniffer program to unpack the TCP packet and extract the Ethernet Frames. They will then take that extracted Frame, grab the MAC address, and print it to the screen in real time.",
+          "length": "1381",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-3-ethernet_frames_from_raw_packets-080817-PGM.00_24_36_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-3-ethernet_frames_from_raw_packets-080817-PGM.00_24_36_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-3-ethernet_frames_from_raw_packets-080817-PGM.00_24_36_12.Still001-sm.jpg",
+          "title": "Ethernet Frames from RAW Packets",
+          "transcript": "",
+          "url": "ethernet-framesraw-packets",
+          "vimeoId": "228971873"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build a new project that connects with their MAC grabbing program to unpack the IP Headers from the Ethernet Frames. They will then take those IP headers and print them to the screen in real time.",
+          "length": "1366",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-4-ip_headers_from_ethernet_frames-080817-PGM.00_22_56_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-4-ip_headers_from_ethernet_frames-080817-PGM.00_22_56_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-4-ip_headers_from_ethernet_frames-080817-PGM.00_22_56_01.Still001-sm.jpg",
+          "title": "IP Headers from Ethernet Frames",
+          "transcript": "",
+          "url": "ip-headersethernet-frames",
+          "vimeoId": "228971562"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build upon their Sniffer program to make it extract only TCP segments from the RAW TCP data and then have that printed to the screen.",
+          "length": "1882",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-5-tcp_segments-080917-PGM.00_56_52_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-5-tcp_segments-080917-PGM.00_56_52_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-5-tcp_segments-080917-PGM.00_56_52_20.Still001-sm.jpg",
+          "title": "TCP Segments",
+          "transcript": "",
+          "url": "tcp-segments",
+          "vimeoId": "229624563"
+        },
+        {
+          "description": "In this episode, Daniel and Justin build upon their Sniffer program to make it extract only UDP segments from the RAW data and then have that printed to the screen.",
+          "length": "1096",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-6-udp_segments-080917-PGM.00_19_50_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-6-udp_segments-080917-PGM.00_19_50_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-5-6-udp_segments-080917-PGM.00_19_50_25.Still001-sm.jpg",
+          "title": "UDP Segments",
+          "transcript": "",
+          "url": "udp-segments",
+          "vimeoId": "229136095"
+        },
+        {
+          "description": "In this episode, Daniel and Justin employ Python to create a rudimentary, single connection server. Here you'll see how to build the server module which will open a port and accept incoming client connections and receive data from said client.",
+          "length": "1234",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-6-1-creating_a_tcp_server-080917-PGM.00_21_25_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-6-1-creating_a_tcp_server-080917-PGM.00_21_25_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-6-1-creating_a_tcp_server-080917-PGM.00_21_25_08.Still001-sm.jpg",
+          "title": "Creating a TCP Server",
+          "transcript": "",
+          "url": "creatingtcp-server",
+          "vimeoId": "229136448"
+        },
+        {
+          "description": "In this episode, Daniel and Justin take many of the projects that they've been building and throw them all together into an amalgamation they call the Forwarding Packet Sniffer.",
+          "length": "1490",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-7-1-forwarding_packet_sniffer-081017-PGM.00_25_34_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-7-1-forwarding_packet_sniffer-081017-PGM.00_25_34_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-pythonforsecurity/techskills-pythonforsecurity-7-1-forwarding_packet_sniffer-081017-PGM.00_25_34_05.Still001-sm.jpg",
+          "title": "Forwarding Packet Sniffer",
+          "transcript": "",
+          "url": "forwarding-packet-sniffer",
+          "vimeoId": "229281721"
+        }
+      ],
+      "title": "Python for Security"
+    }
+  ],
+  "url": "pythonsecurity",
+  "vLab": false
+}

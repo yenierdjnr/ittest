@@ -1,0 +1,471 @@
+{
+  "description": "Apple Certified Support Professional (ACSP) certification confirms the candidate's understanding of OS X's core functionality as well as having the ability to configure key services, perform basic troubleshooting, and support multiple users  with essential OS X capabilities. Candidates for this course may be in a role of help desk professional, technical coordinator, or power user who supports OS X users, manages networks, or provides technical support for the Mac.",
+  "descriptionMD": "",
+  "length": "72604",
+  "name": "Certified Support Professional 10.11",
+  "practiceExam": false,
+  "subtitle": "OS X Support Essentials 10.11",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don walks us through the Apple Certified Support Professional certification. He takes a look at the topics covered, as well as basic information on how to take the exam.",
+          "length": "769",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-0-0-overview-040816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-0-0-overview-040816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-0-0-overview-040816-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:04.333\n[SOUND]\n\n2\n00:00:04.333 --> 00:00:09.531\n[MUSIC]\n\n3\n00:00:09.531 --> 00:00:13.412\nIn this video, we're gonna take a look at\nthe Apple Certified Support Professional\n\n4\n00:00:13.412 --> 00:00:15.920\ncertification show, here on ITPROTV.\n\n5\n00:00:15.920 --> 00:00:18.970\nNow the ACSP's been around for awhile,\nwe've actually filmed it a few times.\n\n6\n00:00:18.970 --> 00:00:22.990\nThis time we're doing an update to\nthe El Capitan operating system release.\n\n7\n00:00:22.990 --> 00:00:26.870\nWith each new version of Mac OS,\nwe get changes, changes to the UI,\n\n8\n00:00:26.870 --> 00:00:28.160\nchanges to the software.\n\n9\n00:00:28.160 --> 00:00:31.860\nAnd we update to refresh and reflect\nthat in our certification training.\n\n10\n00:00:31.860 --> 00:00:33.457\nSo that's what we're doing right here.\n\n11\n00:00:33.457 --> 00:00:37.497\nIf you want to learn all about supporting\nEl Capitan out there in the real world,\n\n12\n00:00:37.497 --> 00:00:41.008\nif you're trying to support OS 10.11,\nthis is where it's at.\n\n13\n00:00:41.008 --> 00:00:43.320\nNow, there's a lot of overlap\nwith previous versions.\n\n14\n00:00:43.320 --> 00:00:45.080\nIf you're already certified\nin a previous version,\n\n15\n00:00:45.080 --> 00:00:47.250\nyou'll find that this is mostly the same.\n\n16\n00:00:47.250 --> 00:00:50.760\nJust a handful of utilities have changed,\nand things that you may encounter.\n\n17\n00:00:50.760 --> 00:00:55.950\nBut on a bigger side, we have some new\nsecurity features in OS 10.11 that\n\n18\n00:00:55.950 --> 00:00:57.890\ncan impact how we deploy applications and\n\n19\n00:00:57.890 --> 00:00:59.830\nsupport the machines out\nthere in the real world.\n\n20\n00:00:59.830 --> 00:01:04.740\nWell, before I get ahead of myself,\nlet's start with what is the ACSP?\n\n21\n00:01:04.740 --> 00:01:09.400\nThe Apple Certified Support Professional\nis a certification designed for anybody\n\n22\n00:01:09.400 --> 00:01:13.630\nwho's out there supporting Macintosh\ncomputers in a business environment.\n\n23\n00:01:13.630 --> 00:01:14.770\nWe're not talking about home users.\n\n24\n00:01:14.770 --> 00:01:18.320\nYou might have one, two,\neven five Macs at home, and\n\n25\n00:01:18.320 --> 00:01:20.660\nthose you really just\nmanage them individually.\n\n26\n00:01:20.660 --> 00:01:26.420\nBut when you have a 100 Macs, a 1,000,\nwhen you've got MacBook laptops,\n\n27\n00:01:26.420 --> 00:01:29.860\nand Mac Pro desktops, and iPads, and\niPhones, and you've got all these\n\n28\n00:01:29.860 --> 00:01:33.910\ndifferent Apple devices, it sure would be\nnice if we had some kind of way to manage\n\n29\n00:01:33.910 --> 00:01:37.680\nthem in a network where they all play\ntogether and, well, perform nicely.\n\n30\n00:01:37.680 --> 00:01:40.730\nAnd then when you had problems,\nthat you knew the steps to go\n\n31\n00:01:40.730 --> 00:01:43.920\nthrough to troubleshoot and\nresolve those issues without having\n\n32\n00:01:43.920 --> 00:01:46.700\nto rush right out to the Apple Store and\nget them to fix it for you.\n\n33\n00:01:46.700 --> 00:01:48.620\nThat's what the ACSP is all about.\n\n34\n00:01:48.620 --> 00:01:51.700\nIf you're one of those people that's\nout there having to support Macs\n\n35\n00:01:51.700 --> 00:01:54.210\nin your environment,\nthis is the show for you.\n\n36\n00:01:54.210 --> 00:01:56.850\nNow, you might have Windows\nmachines in your environment.\n\n37\n00:01:56.850 --> 00:01:58.420\nYou might have just a handful of Macs, but\n\n38\n00:01:58.420 --> 00:02:00.590\nthere's still a lot you need to\nknow just to keep them up and\n\n39\n00:02:00.590 --> 00:02:04.480\nrunning and healthy, and\nthat's all stuff that we see right here.\n\n40\n00:02:04.480 --> 00:02:07.432\nAll right, now the ACSP,\nit covers a lot of different topics.\n\n41\n00:02:07.432 --> 00:02:10.428\nIt's a bit all over the place.\n\n42\n00:02:10.428 --> 00:02:13.910\nAnd the reason is it's part of the whole\ncertification track from Apple.\n\n43\n00:02:13.910 --> 00:02:16.440\nSo let me bring up Apples's Training and\nCertification page here.\n\n44\n00:02:16.440 --> 00:02:19.610\nAnd what you'll see is that they\nhave a number of certifications.\n\n45\n00:02:19.610 --> 00:02:23.350\nAnd at the time of this filming, some of\nthem have been updated to El Capitan,\n\n46\n00:02:23.350 --> 00:02:24.910\nsome them are still at Yosemite, so\n\n47\n00:02:24.910 --> 00:02:27.080\nyou'll see several down here\nlisted here under Yosemite.\n\n48\n00:02:27.080 --> 00:02:28.820\nBut on the El Capitan side,\n\n49\n00:02:28.820 --> 00:02:31.470\nwe've got the Apple Certified\nSupport Professional right there.\n\n50\n00:02:31.470 --> 00:02:32.790\nThat's the name of the certification.\n\n51\n00:02:32.790 --> 00:02:36.130\nWhen you pass the exam you get your ACSP.\n\n52\n00:02:36.130 --> 00:02:37.770\nThe required exam, though,\n\n53\n00:02:37.770 --> 00:02:43.239\nis actually called\nthe OS X Support Essentials 10.11 exam.\n\n54\n00:02:43.239 --> 00:02:46.500\nAnd that exam gets updated\nwith each release of Mac OS.\n\n55\n00:02:46.500 --> 00:02:48.730\nThey have to update to\nreflect the new changes.\n\n56\n00:02:48.730 --> 00:02:53.160\nSo, if you take this one exam,\nyou get this one certification, the ACSP.\n\n57\n00:02:53.160 --> 00:02:56.190\nNow, the ACSP is one certification map.\n\n58\n00:02:56.190 --> 00:02:57.800\nWell, there's actually two others.\n\n59\n00:02:57.800 --> 00:03:02.760\nThe ACA, or Apple Certified Associate,\nthat's considered the entry point.\n\n60\n00:03:02.760 --> 00:03:05.659\nSo if you're just getting started\nwith Apple certifications,\n\n61\n00:03:05.659 --> 00:03:08.676\nit's better to start with the ACA\nthan to jump right into the ACSP.\n\n62\n00:03:08.676 --> 00:03:12.951\nNow, they don't show it here cuz it hasn't\nbeen updated yet, but there's actually two\n\n63\n00:03:12.951 --> 00:03:16.790\nACAs right here, Mac Management Basics and\nMac Integration Basics.\n\n64\n00:03:16.790 --> 00:03:21.430\nOne of them focuses just on Macs,\nMac Management Basics.\n\n65\n00:03:21.430 --> 00:03:23.430\nThat one has a lot of\noverlap with the ACSP,\n\n66\n00:03:23.430 --> 00:03:27.720\nso that's a great place to start\nbefore going into the ACSP.\n\n67\n00:03:27.720 --> 00:03:29.240\nMac Integration Basics, on the other hand,\n\n68\n00:03:29.240 --> 00:03:32.610\nfocuses more on getting Windows\nto play nice with Mac OS.\n\n69\n00:03:32.610 --> 00:03:35.270\nIt's not necessarily tied\nin to what we do in ACSP.\n\n70\n00:03:35.270 --> 00:03:39.044\nSo if you're just starting out, I do\nrecommend doing the Mac Management Basics\n\n71\n00:03:39.044 --> 00:03:42.500\ncertification first, and\nwe've already filmed that here at ITProTV.\n\n72\n00:03:42.500 --> 00:03:45.340\nIt's in our course library,\nyou can jump right over and watch it.\n\n73\n00:03:45.340 --> 00:03:48.747\nAnd even though Apple hasn't updated\nit for 10.11 yet, we already have.\n\n74\n00:03:48.747 --> 00:03:49.627\nSo it's in there in 10.11.\n\n75\n00:03:49.627 --> 00:03:53.674\nI mean, you can go back and watch our 10.9\ncontent, or whatever, if you want, but\n\n76\n00:03:53.674 --> 00:03:56.460\nwe've already updated it for El Capitan.\n\n77\n00:03:56.460 --> 00:04:01.070\nNow, once you get your ACSP, you are now\nan Apple Certified Support Professional.\n\n78\n00:04:01.070 --> 00:04:04.250\nYou've shown that you're able\nto support Macs in a network.\n\n79\n00:04:04.250 --> 00:04:06.440\nAnd if you wanna go the next step up,\n\n80\n00:04:06.440 --> 00:04:10.170\nthe next step up is\nthe Apple Certified Technical Coordinator.\n\n81\n00:04:10.170 --> 00:04:14.180\nAnd this is designed not for somebody\nwho's just supporting Macs in the field,\n\n82\n00:04:14.180 --> 00:04:16.290\nbut somebody who's running\nthe IT department.\n\n83\n00:04:16.290 --> 00:04:20.720\nYou might not be the person that's\nactually out there doing the grunt work,\n\n84\n00:04:20.720 --> 00:04:22.900\nbut you're the one calling\nthe shots on the bigger picture.\n\n85\n00:04:22.900 --> 00:04:26.410\nSo, designing that overall infrastructure,\nwhat solutions do I deploy?\n\n86\n00:04:26.410 --> 00:04:27.930\nThat's the ACTC.\n\n87\n00:04:27.930 --> 00:04:32.043\nAnd if you want to get your ACTC,\nyou have to have the ACSP first.\n\n88\n00:04:32.043 --> 00:04:36.171\nYou've gotta pass the ACSP, and\nyou've gotta pass the ACTC exam.\n\n89\n00:04:36.171 --> 00:04:41.140\nAnd once you pass both of them, then you\nget your ACTC, so you've gotta have both.\n\n90\n00:04:41.140 --> 00:04:44.427\nYou can actually skip the ACA if you want,\nyou don't have to do those.\n\n91\n00:04:44.427 --> 00:04:48.028\nIf you have been working with Macs for\nyears and you're really comfortable with\n\n92\n00:04:48.028 --> 00:04:50.943\nthem, you can start right off with\nthe ACSP and jump right in it.\n\n93\n00:04:50.943 --> 00:04:55.351\nBut if you have no experience, you\nwanna start at the ACA level first, and\n\n94\n00:04:55.351 --> 00:04:56.640\nthen jump up to ACSP.\n\n95\n00:04:56.640 --> 00:05:00.860\nAll right, so that's where this falls\nin the Apple certification scheme,\n\n96\n00:05:00.860 --> 00:05:03.140\nlet's talk about what's on the exam.\n\n97\n00:05:03.140 --> 00:05:04.770\nIt covers a lot of great content,\n\n98\n00:05:04.770 --> 00:05:08.626\nwhich are topics that are things that\nwe're gonna deal with in the real world.\n\n99\n00:05:08.626 --> 00:05:11.440\nAnd I've kind of made a quick list here of\nthe topics that we cover in the show, so\n\n100\n00:05:11.440 --> 00:05:12.750\nlet's bring that up.\n\n101\n00:05:12.750 --> 00:05:14.810\nWe start with Installation and\nConfiguration.\n\n102\n00:05:14.810 --> 00:05:16.590\nHow do you get Mac OS installed?\n\n103\n00:05:16.590 --> 00:05:18.730\nIf you've only worked with\nthis in a home environment,\n\n104\n00:05:18.730 --> 00:05:21.860\nyou know that when you buy a Mac\nit's already got Mac OS on it.\n\n105\n00:05:21.860 --> 00:05:24.460\nBut there's many times where you\nmight want to deploy it yourself.\n\n106\n00:05:24.460 --> 00:05:26.360\nYou might have 1,000 Macs that\nare out there already and\n\n107\n00:05:26.360 --> 00:05:30.720\nthey're all running Mavericks, and you\nneed to get them upgraded to El Capitan.\n\n108\n00:05:30.720 --> 00:05:32.650\nOr you might want to\nbuild a standard image so\n\n109\n00:05:32.650 --> 00:05:35.780\nthat all your machines already have\nsoftware installed when you deploy them.\n\n110\n00:05:35.780 --> 00:05:37.130\nWe talk about that.\n\n111\n00:05:37.130 --> 00:05:38.580\nThen we talk about User Accounts.\n\n112\n00:05:38.580 --> 00:05:42.160\nHaving individual user accounts on\neverybody's computer is fine, but when\n\n113\n00:05:42.160 --> 00:05:46.030\nyou've got 1,000 computers, it's tough to\nmaintain that, it's tough to manage it.\n\n114\n00:05:46.030 --> 00:05:49.960\nSo having centralized user accounts and\nspecial network type authentication\n\n115\n00:05:49.960 --> 00:05:52.960\nis a really valuable thing to have,\nso we talk about those.\n\n116\n00:05:52.960 --> 00:05:54.370\nWe talk about File Systems.\n\n117\n00:05:54.370 --> 00:05:58.140\nWhen it comes to storage on a Mac,\nit supports a number of different things.\n\n118\n00:05:58.140 --> 00:06:05.900\nInternal and external storage, we have\nour Apple OS X Extended Journal format.\n\n119\n00:06:05.900 --> 00:06:06.760\nIt's a big name.\n\n120\n00:06:06.760 --> 00:06:10.920\nWe have Microsoft's NTFS and FAT32 and\nall these different file systems.\n\n121\n00:06:10.920 --> 00:06:13.530\nAnd we talk about how they function inside\nof the Mac, and how you can use them and\n\n122\n00:06:13.530 --> 00:06:15.810\nsome of the little caveats involved there.\n\n123\n00:06:15.810 --> 00:06:18.910\nWe talk about Data Management,\njust backing up our systems,\n\n124\n00:06:18.910 --> 00:06:22.070\nkeeping them healthy, keeping our\ndata safe, where to store data,\n\n125\n00:06:22.070 --> 00:06:25.220\nhow permissions work on our data\nwhen it's on those file systems.\n\n126\n00:06:25.220 --> 00:06:28.150\nThen we talked about Applications and\nProcesses.\n\n127\n00:06:28.150 --> 00:06:32.170\nMac OS is great, it's really easy to use,\nbut out of the box it doesn't have a ton\n\n128\n00:06:32.170 --> 00:06:34.670\nof software in it, it's got all\nthe Apple software and that's about it.\n\n129\n00:06:34.670 --> 00:06:37.730\nSo you're likely going to have to\nsupport third party applications, and\n\n130\n00:06:37.730 --> 00:06:38.670\nwe talk about that.\n\n131\n00:06:38.670 --> 00:06:42.060\nHow to get the applications loaded, how to\nmanage them, how to troubleshoot them when\n\n132\n00:06:42.060 --> 00:06:46.300\nthey start eating up too much CPU or too\nmuch memory, we cover all that content.\n\n133\n00:06:46.300 --> 00:06:48.050\nThen we jump into the networking world.\n\n134\n00:06:48.050 --> 00:06:51.220\nHow to get our system setup to\ncommunicate on the network.\n\n135\n00:06:51.220 --> 00:06:54.130\nAnd on the networking side,\nwe start off really with just IP networks.\n\n136\n00:06:54.130 --> 00:06:57.150\nSo how do you get two Macs to where\nthey can even see each other?\n\n137\n00:06:57.150 --> 00:06:59.290\nAnd once they can see each\nother on the network,\n\n138\n00:06:59.290 --> 00:07:00.650\nthen we move into Network Services.\n\n139\n00:07:00.650 --> 00:07:03.495\nAll right, great, your two computers\nsee each other, what do you do now?\n\n140\n00:07:03.495 --> 00:07:06.399\nHow can you share files,\nhow can you share folders,\n\n141\n00:07:06.399 --> 00:07:08.650\nor printers, or even CD and DVD drives?\n\n142\n00:07:08.650 --> 00:07:11.840\nHow do you share any of those\nresources when two computers see each\n\n143\n00:07:11.840 --> 00:07:12.690\nother on the network?\n\n144\n00:07:12.690 --> 00:07:13.820\nWe cover all of that.\n\n145\n00:07:13.820 --> 00:07:17.090\nAnd then we wrap up the show just\ntalking about System Management,\n\n146\n00:07:17.090 --> 00:07:20.950\nand a better name for that section\nwould really be troubleshooting.\n\n147\n00:07:20.950 --> 00:07:24.270\nWhat do you do when the Mac is not\nbehaving the way it's supposed to?\n\n148\n00:07:24.270 --> 00:07:27.900\nWe know it has all these great features\nthat are supposed to work like magic, but\n\n149\n00:07:27.900 --> 00:07:31.800\nsometimes it just doesn't work out that\nway and we've got to troubleshoot it.\n\n150\n00:07:31.800 --> 00:07:35.454\nSo I spend a lot of time in that\nsection covering all the really amazing\n\n151\n00:07:35.454 --> 00:07:39.935\ntroubleshooting tools that are built into\nMac OS and built into the Apple hardware.\n\n152\n00:07:39.935 --> 00:07:42.848\nAnd it's part of what makes that\necosystem so valuable to us.\n\n153\n00:07:42.848 --> 00:07:45.670\nSo those are the topics that we're gonna\nbe covering throughout this series.\n\n154\n00:07:45.670 --> 00:07:48.478\nIt's all broken up into 30 minute\nepisodes that are nice and\n\n155\n00:07:48.478 --> 00:07:50.120\neasy to consume and watch.\n\n156\n00:07:50.120 --> 00:07:52.630\nWe cover it all,\nit's a great certification.\n\n157\n00:07:52.630 --> 00:07:55.860\nI really like this one because\nit covers real world skills.\n\n158\n00:07:55.860 --> 00:07:58.850\nEvery one of these technologies are ones\nthat I've used in the real world.\n\n159\n00:07:58.850 --> 00:08:01.410\nSometime you get these certifications\nwhere they cover technologies and\n\n160\n00:08:01.410 --> 00:08:02.130\nyou look at it and you're like, wow,\n\n161\n00:08:02.130 --> 00:08:06.130\nthis is more like a marketing slide,\nI'm never gonna us this is real life.\n\n162\n00:08:06.130 --> 00:08:07.170\nBut this is stuff you will.\n\n163\n00:08:07.170 --> 00:08:10.000\nEverything in here are things you'll\nencounter on a regular basis, and\n\n164\n00:08:10.000 --> 00:08:11.880\nit's excellent knowledge to know.\n\n165\n00:08:11.880 --> 00:08:14.453\nSo I encourage anybody who\nsupports Macs in a school or\n\n166\n00:08:14.453 --> 00:08:18.170\nbusiness environment, anywhere where\nyou have more than, say, ten Macs,\n\n167\n00:08:18.170 --> 00:08:22.390\nit's really valuable to do\nthe certification, it's a great one to do.\n\n168\n00:08:22.390 --> 00:08:25.660\nAll right, so let's say you watched the\nshow, you learn all the great information,\n\n169\n00:08:25.660 --> 00:08:27.970\nyou're ready to take the test,\nyou wanna get certified.\n\n170\n00:08:27.970 --> 00:08:31.570\nWell, the ACSP is a little\nbit different than the ACA.\n\n171\n00:08:31.570 --> 00:08:34.070\nThe ACA exams,\nthe Mac Management Basics and\n\n172\n00:08:34.070 --> 00:08:37.780\nMac Integration Basics, you can take those\nonline from the comfort of your own home.\n\n173\n00:08:37.780 --> 00:08:40.770\nYou sign up right on Apple's website and\nthat's it.\n\n174\n00:08:40.770 --> 00:08:42.910\nBut with ACSP and ACTC,\n\n175\n00:08:42.910 --> 00:08:47.606\nyou can only take them at Apple\nAuthorized Training Centers, or AATCs.\n\n176\n00:08:47.606 --> 00:08:49.640\nNow, there are AATCs all over the world,\nso\n\n177\n00:08:49.640 --> 00:08:51.630\nyou just need to find one that's near you.\n\n178\n00:08:51.630 --> 00:08:54.550\nAnd if you go to Apple's website,\nif you go to training.apple.com,\n\n179\n00:08:54.550 --> 00:08:56.390\nthey've actually got a lot of\nthem located right on there.\n\n180\n00:08:56.390 --> 00:08:58.580\nYou can search and find them and\nregister for the exam.\n\n181\n00:08:58.580 --> 00:09:00.890\nBut the point is you've gotta\ndrive there to take it.\n\n182\n00:09:00.890 --> 00:09:03.620\nSo you've gotta go somewhere and\nactually take this exam.\n\n183\n00:09:03.620 --> 00:09:06.050\nThe exam is two hours long,\nso it's a long exam,\n\n184\n00:09:06.050 --> 00:09:07.940\nyou're gonna be in that\ntesting booth a while.\n\n185\n00:09:07.940 --> 00:09:12.080\nIt's got 80 questions, so it's about\na minute and a half per question.\n\n186\n00:09:12.080 --> 00:09:15.400\nAs long as you stick to that, you'll\ncome in on time and finish the exam.\n\n187\n00:09:15.400 --> 00:09:18.433\nIf you take more then a minute and a half\non a question then you might run out of\n\n188\n00:09:18.433 --> 00:09:21.142\ntime, right, so you've gotta stay\nfocused and move through it.\n\n189\n00:09:21.142 --> 00:09:24.260\nOf the 80 questions,\nthere's 5 that aren't scored.\n\n190\n00:09:24.260 --> 00:09:27.378\nThey're kind of like demographic\nsurvey-type questions where they're just\n\n191\n00:09:27.378 --> 00:09:30.100\ntesting out something, and\nso they don't count those.\n\n192\n00:09:30.100 --> 00:09:31.470\nBut you don't know which five they are.\n\n193\n00:09:31.470 --> 00:09:33.670\nSo it really doesn't matter\nthat five of them are unscored,\n\n194\n00:09:33.670 --> 00:09:36.020\nyou need to do well on all of them.\n\n195\n00:09:36.020 --> 00:09:37.760\nThe questions are mostly multiple choice.\n\n196\n00:09:37.760 --> 00:09:39.760\nYou'll find that almost every\none is multiple choice.\n\n197\n00:09:39.760 --> 00:09:44.220\nSome will be true and false, and\nothers might be a media experience,\n\n198\n00:09:44.220 --> 00:09:47.360\nwhere it shows you a picture of\nthe system preferences screen.\n\n199\n00:09:47.360 --> 00:09:50.980\nAnd it says click on the system\npreference that does xyz task, and\n\n200\n00:09:50.980 --> 00:09:51.740\nyou've got to click on the one.\n\n201\n00:09:51.740 --> 00:09:54.920\nSo, its a graphical element\ninvolved in the question.\n\n202\n00:09:54.920 --> 00:09:57.860\nBut the bulk of them are just multiple\nchoice and so you can use process of\n\n203\n00:09:57.860 --> 00:10:01.290\nelimination and the other things we've\nhoned through years of public schooling,\n\n204\n00:10:01.290 --> 00:10:03.320\nright, to figure out what\nthat right answer is.\n\n205\n00:10:03.320 --> 00:10:06.180\nAnd I'll be honest with you guys,\nthis exam is really straightforward,\n\n206\n00:10:06.180 --> 00:10:09.070\nthere's no trick questions on there,\neverything is really practical.\n\n207\n00:10:09.070 --> 00:10:12.830\nIt really is a great certification,\nI've always been pleased with this one.\n\n208\n00:10:12.830 --> 00:10:14.430\nIt's a neat one.\n\n209\n00:10:14.430 --> 00:10:18.400\nNow, the exam cost, I can't really\ntell you that because it varies based\n\n210\n00:10:18.400 --> 00:10:19.940\non region, whichever country you're in.\n\n211\n00:10:19.940 --> 00:10:23.610\nThey have different pricing,\nand so it can vary.\n\n212\n00:10:23.610 --> 00:10:25.980\nBut it's not a terribly expensive exam.\n\n213\n00:10:25.980 --> 00:10:32.000\nThe only hard part is having to go to\nan AATC to take it, so just remember that.\n\n214\n00:10:32.000 --> 00:10:35.080\nBut, otherwise,\nthat's basically it for the exam.\n\n215\n00:10:35.080 --> 00:10:39.330\nSo I've talked about the ACSP\ncertification is, I've talked about what\n\n216\n00:10:39.330 --> 00:10:42.370\nwe're gonna cover on the show, all those\ndifferent topics that we need to know,\n\n217\n00:10:42.370 --> 00:10:45.670\nI also talked about where\nwe can take the exam.\n\n218\n00:10:45.670 --> 00:10:49.730\nThe only other thing that I wannna mention\nis that Apple has a really good study\n\n219\n00:10:49.730 --> 00:10:51.070\nguide for the ACSP.\n\n220\n00:10:51.070 --> 00:10:54.040\nLet me get back to their\nwebsite real quick, and\n\n221\n00:10:54.040 --> 00:10:58.450\non the page that I was showing you,\nthis is me at training.apple.com.\n\n222\n00:10:58.450 --> 00:11:03.690\nSo if you go to training.apple.com, you\ncan find the OS X Certifications section.\n\n223\n00:11:03.690 --> 00:11:08.180\nAnd under OS X Certifications, you'll\nfind where it tells you about that exam.\n\n224\n00:11:08.180 --> 00:11:12.230\nAnd over here to the side, you'll\nsee where it tells you to get ready,\n\n225\n00:11:12.230 --> 00:11:14.800\nthere's an El Capitan 101 Course.\n\n226\n00:11:14.800 --> 00:11:18.180\nThat's an official course you can\ntake at the AATCs if you want.\n\n227\n00:11:18.180 --> 00:11:20.590\nAnd there's an Exam Preparation Guide.\n\n228\n00:11:20.590 --> 00:11:23.440\nDownload that guide, it's free,\nit doesn't cost you a dime.\n\n229\n00:11:23.440 --> 00:11:24.230\nYou can download it.\n\n230\n00:11:24.230 --> 00:11:28.510\nIt is, I can't remember exactly how\nlong it is, about 75 pages, I think.\n\n231\n00:11:28.510 --> 00:11:31.860\nAnd it tells you a little bit\nabout the exam and what to expect,\n\n232\n00:11:31.860 --> 00:11:34.500\nsome of the different things that\nyou can kind of expect to see.\n\n233\n00:11:34.500 --> 00:11:36.010\nAnd that helps you to get ready.\n\n234\n00:11:36.010 --> 00:11:39.750\nAnd between that and\nthe content that we cover in the show,\n\n235\n00:11:39.750 --> 00:11:41.560\nyou'll see the bulk of what's\ngonna be on that exam.\n\n236\n00:11:41.560 --> 00:11:43.610\nYou'll be all prepared,\nready to go in there, and\n\n237\n00:11:43.610 --> 00:11:46.480\nready to pass and get your certification.\n\n238\n00:11:46.480 --> 00:11:48.720\nSo that's about it for the ACSP.\n\n239\n00:11:48.720 --> 00:11:52.040\nIf that sounds exciting to you,\nsomething you wanna jump in and pursue,\n\n240\n00:11:52.040 --> 00:11:53.370\nthen you are in the right place.\n\n241\n00:11:53.370 --> 00:11:55.640\nStay tuned cuz our episodes are coming up.\n\n242\n00:11:55.640 --> 00:11:59.350\nIf it's not the right place for you, well,\nif you're just getting started with Apple,\n\n243\n00:11:59.350 --> 00:12:01.260\ndefinitely check out our ACA content.\n\n244\n00:12:01.260 --> 00:12:04.320\nThat Mac Management Basics is\na great show to start with.\n\n245\n00:12:04.320 --> 00:12:07.490\nYou can have never used an Apple\na single day in your life,\n\n246\n00:12:07.490 --> 00:12:09.740\njump right into Mac Management Basics,\nand you'll fit right in.\n\n247\n00:12:09.740 --> 00:12:13.630\nGet through that, and then come over\nhere to ACSP, it'll be a great fit.\n\n248\n00:12:13.630 --> 00:12:16.970\nIt's all part of the ITProTV library so\nyou have access to it.\n\n249\n00:12:16.970 --> 00:12:19.370\nJust jump over there and\ntackle it, it's great content.\n\n250\n00:12:19.370 --> 00:12:22.280\nIf Apple's not your cup of tea,\nif this doesn't sound right for you,\n\n251\n00:12:22.280 --> 00:12:24.060\nthen be sure to check out\nthe rest of our library.\n\n252\n00:12:24.060 --> 00:12:27.860\nWe've got all sorts of training\ncontent for all different areas of IT.\n\n253\n00:12:27.860 --> 00:12:31.260\nNot just Apple, but also Microsoft, Linux,\nand other vendors that are out there,\n\n254\n00:12:31.260 --> 00:12:33.160\ndefinitely things that\nyou'll wanna check out.\n\n255\n00:12:33.160 --> 00:12:37.814\nBut for those of you that sticking with me\nfor the ACSP, I think I've rattled on long\n\n256\n00:12:37.814 --> 00:12:41.485\nenough, so stay tuned,\nour episodes are kicking up after this.\n\n257\n00:12:41.485 --> 00:12:49.209\n[MUSIC]\n\n",
+          "url": "overview70721",
+          "vimeoId": "162534559"
+        },
+        {
+          "description": "In this episode Wes and Don cover the steps a user should take prior to installing OS X El Capitan on their system. They cover downloading the El Capitan installer, creating a USB installable media, and other required steps.",
+          "length": "2190",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-1-getting_prepared-032116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-1-getting_prepared-032116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-1-getting_prepared-032116-1-sm.jpg",
+          "title": "Getting Prepared",
+          "transcript": "",
+          "url": "getting-prepared2",
+          "vimeoId": "160260105"
+        },
+        {
+          "description": "In this episode Wes and Don walk through installing OS X El Capitan on a machine. They also discuss various disk partitioning options to support data separation and boot camp.",
+          "length": "1889",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-2-installing_el_capitan-032216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-2-installing_el_capitan-032216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-2-installing_el_capitan-032216-1-sm.jpg",
+          "title": "Installing El Capitan",
+          "transcript": "",
+          "url": "installing-el-capitan",
+          "vimeoId": "160246117"
+        },
+        {
+          "description": "In this episode Wes and Don take a look at what to do when your Mac doesn't \"just work.\" They demonstrate how to use the built-in recovery partition found on most Macs, as well as some alternatives for Macs not featuring a recovery partition.",
+          "length": "1617",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-3-os_recovery-032216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-3-os_recovery-032216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-3-os_recovery-032216-1-sm.jpg",
+          "title": "OS Recovery",
+          "transcript": "",
+          "url": "os-recovery2",
+          "vimeoId": "160238181"
+        },
+        {
+          "description": "In this episode Wes and Don cover the configuration items that most users will take immediately after installing Mac OS X. They cover how to migrate user data from a previous installation whether it be a Windows PC or another machine running Mac.",
+          "length": "1767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-1-inital_configuration-032216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-1-inital_configuration-032216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-1-inital_configuration-032216-1-sm.jpg",
+          "title": "Initial Configuration",
+          "transcript": "",
+          "url": "initial-configuration4",
+          "vimeoId": "160238104"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on the configuration items that most users will take immediately after installing Mac OS X. They demonstrate the steps to get a freshly installed Mac OS X operating system connected to the network. They look at the different steps to get wired and wireless network connection configured.",
+          "length": "1883",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-2-inital_configuration_pt2-032316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-2-inital_configuration_pt2-032316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-2-inital_configuration_pt2-032316-1-sm.jpg",
+          "title": "Initial Configuration Part 2",
+          "transcript": "",
+          "url": "initial-configuration-4",
+          "vimeoId": "160384115"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on the configuration items that most users will take immediately after installing Mac OS X. They demonstrate using the Setup Assistant to easily configure the intial settings needed to get started with Mac OS X. They will look configuration profiles and managing updates through the App Store.",
+          "length": "1813",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-3-inital_configuration_pt3-032316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-3-inital_configuration_pt3-032316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-1-4-3-inital_configuration_pt3-032316-1-sm.jpg",
+          "title": "Initial Configuration Part 3",
+          "transcript": "",
+          "url": "initial-configuration-5",
+          "vimeoId": "160380626"
+        }
+      ],
+      "title": "Installation and Configuration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don discuss how user accounts function in Mac OS X. They talk about the types of user accounts that are inside of 10.11 and demonstrate how to create a user account. They also take a look at the System Preferences user interface.",
+          "length": "1801",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-1-managing_user_accounts-032316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-1-managing_user_accounts-032316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-1-managing_user_accounts-032316-1-sm.jpg",
+          "title": "Managing User Accounts",
+          "transcript": "",
+          "url": "managing-user-accounts2",
+          "vimeoId": "160389039"
+        },
+        {
+          "description": "In this episode Wes and Don continue their discussion on how user accounts function in Mac OS X. They take a look at a user's home folder including the content such as Desktop, Documents, Downloads, Library and more. They will demonstrate how to delete a user account as well as restoring a deleted user account.",
+          "length": "1755",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-2-managing_user_accounts_pt2-032416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-2-managing_user_accounts_pt2-032416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-1-2-managing_user_accounts_pt2-032416-1-sm.jpg",
+          "title": "Managing User Accounts Part 2",
+          "transcript": "",
+          "url": "managing-user-accounts-2",
+          "vimeoId": "160400242"
+        },
+        {
+          "description": "In this episode Wes and Don highlight the differences between using a Mac with a single user account, versus sharing a system with multiple users. They demonstrate how to quickly move between users with Fast User Switching and ends the show discussion some of the security concerns that come along with sharing your machine.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-2-multiple_user_accounts-032416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-2-multiple_user_accounts-032416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-2-multiple_user_accounts-032416-1-sm.jpg",
+          "title": "Multiple User Accounts",
+          "transcript": "",
+          "url": "multiple-user-accounts",
+          "vimeoId": "160654190"
+        },
+        {
+          "description": "In this episode Wes and Don tackle additional security options available for user accounts under Mac OS X El Capitan. They cover firmware passwords, iCloud accounts, secure password storage, using keychain, and FileVault drive encryption.",
+          "length": "1909",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-3-user_account_security-032416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-3-user_account_security-032416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-2-3-user_account_security-032416-1-sm.jpg",
+          "title": "User Account Security",
+          "transcript": "",
+          "url": "user-account-security2",
+          "vimeoId": "160654131"
+        }
+      ],
+      "title": "User Accounts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes and Don introduce us to the ways Mac OS handles disks and their associated data. They discuss the types of media options when supporting OS X including internal and external as well as removeable media types.",
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-1-file_storage-032516-PGM.00_32_17_06.1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-1-file_storage-032516-PGM.00_32_17_06.1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-1-file_storage-032516-PGM.00_32_17_06.1-sm.jpg",
+          "title": "File Storage",
+          "transcript": "",
+          "url": "file-storage2",
+          "vimeoId": "160654059"
+        },
+        {
+          "description": "In this episode Wes and Don introduce us to the ways Mac OS handles disks and their associated data. They detail the various file systems supported by El Capitan and demonstrating how to prepare adrive for use and walks us through some troubleshooting procedure should the need arise.",
+          "length": "2062",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-2-file_storage_pt2-032516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-2-file_storage_pt2-032516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-1-2-file_storage_pt2-032516-1-sm.jpg",
+          "title": "File Storage Part 2",
+          "transcript": "",
+          "url": "file-storage-2",
+          "vimeoId": "160653970"
+        },
+        {
+          "description": "In this episode Wes and Don demonstrate encrypting disks using FileVault v2. They also explain how to upgrade from the original FileVault. They end the episode by discussing how to securely erase files from the hard drive.",
+          "length": "1736",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-2-securing_data-032516-PGM.00_28_46_29.1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-2-securing_data-032516-PGM.00_28_46_29.1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-2-securing_data-032516-PGM.00_28_46_29.1-sm.jpg",
+          "title": "Securing Data",
+          "transcript": "",
+          "url": "securing-data",
+          "vimeoId": "160654012"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain file permissions in concept and practice in Mac OS 10.11. They start by explaining the types of objects that will be affected by permissions, specifically being the User/Owner, Groups, and Other users. Then they look at what permissions can be set and define them. All this is shown in both the Graphical Interface and the Command Line.",
+          "length": "2034",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-1-file_permissions-032816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-1-file_permissions-032816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-1-file_permissions-032816-1-sm.jpg",
+          "title": "File Permissions",
+          "transcript": "",
+          "url": "file-permissions3",
+          "vimeoId": "160751014"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their look at file permissions in Mac OS 10.11, here picking up with how to set and change permissions using the GUI and the command line option of \"chmod\". They also show you how to change the owner of a file by using the \"chown\" command. Finally they set extended permissions using Access Control List, working both from the CLI and GUI.",
+          "length": "1867",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-2-file_permissions_pt2-032816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-2-file_permissions_pt2-032816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-2-file_permissions_pt2-032816-1-sm.jpg",
+          "title": "File Permissions Part 2",
+          "transcript": "",
+          "url": "file-permissions-4",
+          "vimeoId": "160750157"
+        },
+        {
+          "description": "In this episode, Daniel and Don complete their coverage of file permissions by diving into the Home folder structure and default permissions. They look at default folders in the Home directory, like the Public folder which is used for sharing data with other users. They also look at the Shared folder which performs similarly to the Public folder. They also show you how to retain file permissions and protect against deletion by setting the \"sticky bit\". And finally they show you how to repair permissions that have be damaged as well as working with the file systems on removable media.",
+          "length": "1594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-3-file_permissions_pt3-032816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-3-file_permissions_pt3-032816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-3-3-3-file_permissions_pt3-032816-1-sm.jpg",
+          "title": "File Permissions Part 3",
+          "transcript": "",
+          "url": "file-permissions-3",
+          "vimeoId": "160747463"
+        }
+      ],
+      "title": "File Systems"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore the magical world of managing files in Mac OS 10.11. They begin the journey by discussing Aliases and Links. Both are magical ways to access a file or folder from a different location; each having its pros and cons. They also look at application files called Bundles and system packages.",
+          "length": "2163",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-1-managing_files-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-1-managing_files-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-1-managing_files-032916-1-sm.jpg",
+          "title": "Managing Files",
+          "transcript": "",
+          "url": "managing-files",
+          "vimeoId": "160911152"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue looking at file management in Mac OS 10.11. Here they explain how to work with and create hidden system files and folders. They also show you the 4 file domains which includes the User, Local, Network, and System domains. Finally they guide you through some important system resources like extensions, fonts, frameworks, logs, preferences, and Startup items.",
+          "length": "2252",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-2-managing_files_pt2-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-2-managing_files_pt2-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-1-2-managing_files_pt2-032916-1-sm.jpg",
+          "title": "Managing Files Part 2",
+          "transcript": "",
+          "url": "managing-files-2",
+          "vimeoId": "161063076"
+        },
+        {
+          "description": "In this episode, Daniel and Don show you how to utilize the built-in file archiving and disk imaging systems. These systems will allow you to bundle files together into one file, as well as provide options like compression, encryption, and compatibility with other systems.",
+          "length": "1372",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-2-archives_and_images-032916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-2-archives_and_images-032916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-2-archives_and_images-032916-1-sm.jpg",
+          "title": "Archives and Images",
+          "transcript": "",
+          "url": "archives-images",
+          "vimeoId": "161072469"
+        },
+        {
+          "description": "In this episode, Daniel and Don show you how to backup your data using the Mac OS 10.11 utility, Time Machine. Here they show you how to setup Time Machine on an external hard drive and walk you through it's use.",
+          "length": "2100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-3-time_machine-033016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-3-time_machine-033016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-4-3-time_machine-033016-1-sm.jpg",
+          "title": "Time Machine",
+          "transcript": "",
+          "url": "time-machine3",
+          "vimeoId": "161089070"
+        }
+      ],
+      "title": "Data Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don show you how to install applications on a Mac OS 10.11 system through the App Store or Side-Loading. They explain the pros and cons of installing apps through both methods and explain the steps you'll encounter in the process. They also show you how to enable or disable dashboard widgets.",
+          "length": "2021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-1-managing_applications-033016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-1-managing_applications-033016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-1-managing_applications-033016-1-sm.jpg",
+          "title": "Managing Applicaitons",
+          "transcript": "",
+          "url": "managing-applicaitons",
+          "vimeoId": "161087221"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the topic of application data in Mac OS 10.11. They begin by showing you where application preferences are stored, which are saved as .plist files. They also show you how to protect files by locking them. Finally, they show you how Mac OS X knows what program to use to open the different file types.",
+          "length": "2041",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-1-application_data-033116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-1-application_data-033116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-1-application_data-033116-1-sm.jpg",
+          "title": "Application Data",
+          "transcript": "",
+          "url": "application-data2",
+          "vimeoId": "161678241"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their look at application data in Mac OS 10.11, picking up with a handy feature called quick look which allows you to preview a file before opening. Finally, they demonstrate the auto-save feature, showing you how to enable/disable and resume which takes the user back to the previous state when app was last closed.",
+          "length": "1628",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-2-application_data_pt2-033116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-2-application_data_pt2-033116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-2-2-application_data_pt2-033116-1-sm.jpg",
+          "title": "Application Data Part 2",
+          "transcript": "",
+          "url": "application-data-2",
+          "vimeoId": "161681052"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain some of the applications you might need to support in Mac OS 10.11. They begin by taking a look at Java. They show you how to install Java and describe when/why you may need a Java environment on your system. They they move on to iCloud; showing you how to get iCloud setup and working with other applications.",
+          "length": "1845",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-application_support-040116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-application_support-040116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-application_support-040116-1-sm.jpg",
+          "title": "Application Support",
+          "transcript": "",
+          "url": "application-support2",
+          "vimeoId": "161675231"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue discussing Application Support in Mac OS. The pick up here by looking at Voice and Accessibility options, specifically VoiceOver and Dictation&Speech. They show you how to enable and configure VoiceOver to perform Text-to-Speech functions. Then they show you how to enable and configure Dictation which takes input from the user's verbal commands.",
+          "length": "1891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-2-application_support_pt2-040116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-2-application_support_pt2-040116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-2-application_support_pt2-040116-1-sm.jpg",
+          "title": "Application Support Part 2",
+          "transcript": "",
+          "url": "application-support-2",
+          "vimeoId": "161710069"
+        },
+        {
+          "description": "In this episode, Daniel and Don finish their exposition on Application Support in Mac OS 10.11 and here they begin with looking at the Mac OS itself. They talk about the benefits of El Capitan when working with Apps. They also talk more about Application Sandboxing. Finally, they go over monitoring by discussing the Activity Monitor, System Information, and Diagnostic Reporting.",
+          "length": "2013",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-3-application_support_pt3-040116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-3-application_support_pt3-040116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-5-3-3-application_support_pt3-040116-1-sm.jpg",
+          "title": "Application Support Part 3",
+          "transcript": "",
+          "url": "application-support-3",
+          "vimeoId": "161710058"
+        }
+      ],
+      "title": "Applications and Processes"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don demonstrate and explain networking concepts and practices in El Capitan. They begin by laying out the foundational knowledge of how networking works. They detail the language or \"Protocols\" that network devices speak which is typically TCP/IP and the addressing schemes that are utilized by IP version 4(IPv4) and IPv6. They also talk about the physical components of a network.",
+          "length": "2606",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-1-network_configuration-040416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-1-network_configuration-040416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-1-network_configuration-040416-1-sm.jpg",
+          "title": "Network Configuration",
+          "transcript": "",
+          "url": "network-configuration2",
+          "vimeoId": "161710238"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their discussion of networking in a Mac OS X environment. Here they pick back up with explaining how network client machines get their IP information using the Dynamic Host Configuration Protocol (DHCP) as well as setting IP info manually. They also explain some of the other protocols being utilized like Domain Name System(DNS) and Address Resolution Protocol(ARP).",
+          "length": "2006",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-2-network_configuration_pt2-040416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-2-network_configuration_pt2-040416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-2-network_configuration_pt2-040416-1-sm.jpg",
+          "title": "Network Configuration Part 2",
+          "transcript": "",
+          "url": "network-configuration-2",
+          "vimeoId": "161761617"
+        },
+        {
+          "description": "In this episode, Don describes the various network settings involved in configuring a Mac to communicate on a wireless network. He begins by discussing authentication and then moves on to common settings and basic troubleshooting.",
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-3-network_configuration_pt3-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-3-network_configuration_pt3-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-3-network_configuration_pt3-040516-1-sm.jpg",
+          "title": "Network Configuration Part 3",
+          "transcript": "",
+          "url": "network-configuration-3",
+          "vimeoId": "161923214"
+        },
+        {
+          "description": "In this episode, Don concludes the network configuration section of the ACSP. This episode focuses on troubleshooting methodology and tools for use when a network connection is not functioning. He demonstrates configuring network locations, VPN connections and using the Network Utility to troubleshoot networks.",
+          "length": "2091",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-4-network_configuration_pt4-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-4-network_configuration_pt4-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-6-1-4-network_configuration_pt4-040516-1-sm.jpg",
+          "title": "Network Configuration Part 4",
+          "transcript": "",
+          "url": "network-configuration-4",
+          "vimeoId": "161923232"
+        }
+      ],
+      "title": "Network Configuration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don demonstrates using the iCloud services in OS X. He starts the show with basic configuration and authentication. He then moves on to cover Back to My Mac and the iCloud KeyChain, spending extra time to explain the security concerns with each.",
+          "length": "2029",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-1-using_icloud-040516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-1-using_icloud-040516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-1-using_icloud-040516-1-sm.jpg",
+          "title": "Using iCloud",
+          "transcript": "",
+          "url": "using-icloud",
+          "vimeoId": "162071499"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the multiple ways in which OS X can share resources on a network. He demonstrates screen sharing and the multiple protocols available for file sharing.",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-1-sharing_resources-040616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-1-sharing_resources-040616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-1-sharing_resources-040616-1-sm.jpg",
+          "title": "Sharing Resources",
+          "transcript": "",
+          "url": "sharing-resources",
+          "vimeoId": "162072939"
+        },
+        {
+          "description": "In this episode, Don continues covering shared resources in OS X. He demonstrates using Apple Remote Desktop to remotely manage and update OS X client on the network. He also shows how ARD can be used to replace screen sharing for centralized management. Finally, he describes troubleshooting shared resources.",
+          "length": "1824",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-2-sharing_resources_pt2-040616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-2-sharing_resources_pt2-040616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-7-2-2-sharing_resources_pt2-040616-1-sm.jpg",
+          "title": "Sharing Resources Part 2",
+          "transcript": "",
+          "url": "sharing-resources-2",
+          "vimeoId": "162072283"
+        }
+      ],
+      "title": "Network Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don describes the various peripheral devices supported by OS X 10.11 El Capitan. He shows how to determine what devices are connected, and how to verify hardware and software functionality. He also demonstrates how OS X uses system integrity protection to ensure unsigned drivers are not installed.",
+          "length": "2328",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-1-peripheral_devices-040616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-1-peripheral_devices-040616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-1-peripheral_devices-040616-1-sm.jpg",
+          "title": "Peripheral Devices",
+          "transcript": "",
+          "url": "peripheral-devices3",
+          "vimeoId": "162072278"
+        },
+        {
+          "description": "In this episode, Don walks the viewers through configuring printers on a Mac. He demonstrates using local and network enabled printers. He wraps up the show demonstrating trouble shooting procedures.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-2-supporting_printers-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-2-supporting_printers-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-2-supporting_printers-040716-1-sm.jpg",
+          "title": "Supporting Printers",
+          "transcript": "",
+          "url": "supporting-printers",
+          "vimeoId": "162071444"
+        },
+        {
+          "description": "In this episode, Don discusses the boot process for OS X. He explains each step and highlights some of the problems that can arise as the boot process continues. He demonstrates the Safe Mode, Safe Boot, Single User Mode, Verbose Mode trouble shooting tools.",
+          "length": "2203",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-1-system_troubleshooting-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-1-system_troubleshooting-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-1-system_troubleshooting-040716-1-sm.jpg",
+          "title": "System Troubleshooting",
+          "transcript": "",
+          "url": "system-troubleshooting2",
+          "vimeoId": "162070923"
+        },
+        {
+          "description": "In this episode, Don continues discussing the boot process for OS X. He explains each step and highlights some of the problems that can arise as the boot process continues. He demonstrates the Safe Mode, Safe Boot, Single User Mode, Verbose Mode trouble shooting tools.",
+          "length": "1770",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-2-system_troubleshooting_pt2-040716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-2-system_troubleshooting_pt2-040716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-acsp1011/apple-acsp1011-8-3-2-system_troubleshooting_pt2-040716-1-sm.jpg",
+          "title": "System Troubleshooting Part 2",
+          "transcript": "",
+          "url": "system-troubleshooting-2",
+          "vimeoId": "162070823"
+        }
+      ],
+      "title": "System Management"
+    }
+  ],
+  "url": "certified-support-professional-1011",
+  "vLab": false
+}

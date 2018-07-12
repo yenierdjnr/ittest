@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 
 import { CoursePageHero as Hero } from 'Components/Hero';
-import { CourseTopic } from 'Elements/Flags';
-import { CourseExtras } from 'Elements/Flags';
+import { CourseExtras, CourseTopic } from 'Elements/Flags';
 import { CourseVideo } from 'Components/Videos';
 import EpisodeDetails from 'Components/EpisodeDetails';
 import EpisodeExtras from 'Components/EpisodeExtras';
 import { IconCaret } from 'Elements/Icons';
-import Para from 'Elements/Para';
 import Hx from 'Elements/Hx';
 import styles from './styles.module.scss';
 
@@ -44,8 +42,8 @@ class CoursePage extends Component {
   }
 
   render() {
-    const { data, ...rest } = this.props;
-    const { topicIndex, episodeIndex, episodes } = this.state;
+    const { data } = this.props;
+    const { topicIndex, episodeIndex } = this.state;
     return (
       <main className={ styles.coursePage }>
 
@@ -59,7 +57,6 @@ class CoursePage extends Component {
         <section className={ styles.Hero }>
           <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
         </section>
-
         <section className={ styles.details }>
           <div className={ styles.row }>
             <div className={ styles.courseDetails }>
@@ -71,7 +68,7 @@ class CoursePage extends Component {
                 </div>
                 <div className={ styles.colXS12 }>
                   <ul className={ `${this.state.showEpisodes ? '' : styles['mobileEpisodeList']} ${styles.list}` }>
-                    {data.course.topics.map((topic, index) => (
+                    {data.course.topics.map((topic, index) =>
                       <CourseTopic
                         key={ topic.title }
                         title={ topic.title }
@@ -79,7 +76,7 @@ class CoursePage extends Component {
                         onEpisodeChange={ this.handleEpisodeChange }
                         topicIndex={ index }
                       />
-                    ))}
+                    )}
                   </ul>
                 </div>
               </div>
@@ -99,7 +96,7 @@ class CoursePage extends Component {
                 overview={ data.course.topics[0].episodes[0] }
               />
               <EpisodeExtras
-               transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
+                transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
               />
             </div>
           </div>
@@ -113,8 +110,8 @@ class CoursePage extends Component {
 export default CoursePage;
 
 export const pageQuery = graphql`
-  query CourseByPath($courseUrl: String) {
-    course: coursesJson(url: {eq: $courseUrl}) {
+  query CourseByPath {
+    course: coursesJson {
       url
       name
       subtitle

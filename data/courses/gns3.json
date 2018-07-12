@@ -1,0 +1,128 @@
+{
+  "description": "GNS3 is a free graphical network simulator capable of emulating a number of network devices. This makes it possible for anyone to quickly and easily spin up network hardware for testing and educational purposes without the heavy expense of physical hardware. Supported devices include Cisco routers and firewalls, Juniper routers, and frame-relay switches. ",
+  "descriptionMD": "",
+  "length": "7236",
+  "name": "GNS3",
+  "practiceExam": false,
+  "subtitle": "Router emulation software",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "",
+          "length": "598",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-1-sm.jpg",
+          "title": "What is GNS3?",
+          "transcript": "1\n00:00:00,025 --> 00:00:05,374\n[NOISE] We get a lot of questions at\n\n2\n00:00:05,374 --> 00:00:11,119\nITProTV about how best to study for\n\n3\n00:00:11,119 --> 00:00:14,099\nthe Cisco exams.\n\n4\n00:00:14,099 --> 00:00:19,291\nIf you're working on your CCNA, CCNP,\neven your CCIE, those certifications,\n\n5\n00:00:19,291 --> 00:00:23,375\nthey really require hands on\nexperience with Cisco equipment.\n\n6\n00:00:23,375 --> 00:00:25,240\nWhat if you don't have\nthat available though?\n\n7\n00:00:25,240 --> 00:00:29,032\nWell there's a really neat product\nout there that can help with that and\n\n8\n00:00:29,032 --> 00:00:30,178\nit's called GNS3.\n\n9\n00:00:30,178 --> 00:00:32,980\nOne of the nice thing about\nGNS3 is it is completely free.\n\n10\n00:00:32,980 --> 00:00:35,920\nIt doesn't cost you any money,\nso why not use it?\n\n11\n00:00:35,920 --> 00:00:38,532\nSo this series of videos\nthat we're going to film,\n\n12\n00:00:38,532 --> 00:00:42,537\nthey're gonna show you what GNS3 is,\nhow it works, how to use it and be able to\n\n13\n00:00:42,537 --> 00:00:46,760\nbuild up a lab environment to study and\npractice to get ready for your exams.\n\n14\n00:00:46,760 --> 00:00:49,821\nIt's really neat stuff and\nit's really not that hard to get set up.\n\n15\n00:00:50,890 --> 00:00:53,800\nLet's start off real high level though,\nwhat is GNS3?\n\n16\n00:00:54,870 --> 00:00:59,420\nDeep down inside of it at its heart,\nGNS3 is really just a graphically user\n\n17\n00:00:59,420 --> 00:01:03,625\ninterface for\nanother product called Dynamips.\n\n18\n00:01:03,625 --> 00:01:07,100\nDynamips is the actual heart and\nsoul of this product.\n\n19\n00:01:07,100 --> 00:01:11,707\nWhat it is, is years ago, it's a long\ntime, a good eight to ten years ago,\n\n20\n00:01:11,707 --> 00:01:16,650\nsomeone sat down and they wrote\na hardware emulator for Cisco equipment.\n\n21\n00:01:16,650 --> 00:01:20,050\nIf you crack open your average Cisco\nrouter, you'll find that they have\n\n22\n00:01:20,050 --> 00:01:25,308\nIntel processors and RAM and standard\ncomponents like what you'd find in a PC.\n\n23\n00:01:25,308 --> 00:01:27,470\nGranted it's a proprietary motherboard but\n\n24\n00:01:27,470 --> 00:01:30,950\nthe majority of the components\nare just standard components.\n\n25\n00:01:30,950 --> 00:01:34,830\nSo, they wrote this emulator to\nemulate that set of hardware so\n\n26\n00:01:34,830 --> 00:01:40,180\nyou could run the actual Cisco IOS,\non this emulated platform.\n\n27\n00:01:40,180 --> 00:01:43,980\nWell, Dynamips did a pretty good job,\nbut it was command line only,\n\n28\n00:01:43,980 --> 00:01:45,850\nso it wasn't very user-friendly.\n\n29\n00:01:45,850 --> 00:01:50,711\nSo the GNS3 project was started to\ncreate a graphical user interface for\n\n30\n00:01:50,711 --> 00:01:52,313\nthe Dynamips utility.\n\n31\n00:01:52,313 --> 00:01:54,754\nAnd it's still Dynamips is under the hood,\nbut\n\n32\n00:01:54,754 --> 00:01:57,696\nthe graphical user interface\nkind of covers all that up.\n\n33\n00:01:57,696 --> 00:02:00,755\nAnd so a lot of people look at GNS3\nas being a full total product, and\n\n34\n00:02:00,755 --> 00:02:04,310\nit's actually made up of\nseveral different components.\n\n35\n00:02:04,310 --> 00:02:06,160\nBut, you don't have to worry about that.\n\n36\n00:02:06,160 --> 00:02:09,990\nWe can download and install GNS3,\nhave it up and running, and\n\n37\n00:02:09,990 --> 00:02:12,670\nstart emulating Cisco hardware.\n\n38\n00:02:12,670 --> 00:02:15,890\nNow, notice I'm saying emulate,\nnot simulate.\n\n39\n00:02:15,890 --> 00:02:19,340\nThere's a lot of companies out there that\ndo simulators, like the Boson NetiSm.\n\n40\n00:02:19,340 --> 00:02:20,770\nAnd they're perfectly good products.\n\n41\n00:02:20,770 --> 00:02:24,458\nBut on those, you're not actually\nworking with the Cisco IOS.\n\n42\n00:02:24,458 --> 00:02:27,620\nYou're usually interacting with\nsomething like a Java application.\n\n43\n00:02:27,620 --> 00:02:30,180\nYou type a command,\nit parses your command, and\n\n44\n00:02:30,180 --> 00:02:33,230\nit gives you canned output\nthat reflects what you typed.\n\n45\n00:02:33,230 --> 00:02:36,950\nSo when you type show version, it's not\nactually checking what IOS version you're\n\n46\n00:02:36,950 --> 00:02:38,000\nrunning and displaying that.\n\n47\n00:02:38,000 --> 00:02:40,680\nInstead it's got this canned\noutput that it feeds you.\n\n48\n00:02:40,680 --> 00:02:42,470\nThe problem with simulators,\n\n49\n00:02:42,470 --> 00:02:45,860\nthey only support the commands\nthat the developers put in there.\n\n50\n00:02:45,860 --> 00:02:49,270\nSo if you wanna run a command that's\noutside of the scope of the CCNA course,\n\n51\n00:02:49,270 --> 00:02:51,160\nfor example, it's not gonna work.\n\n52\n00:02:51,160 --> 00:02:52,790\nRight?\nNow I say that's the problem.\n\n53\n00:02:52,790 --> 00:02:53,720\nIt's not really a problem.\n\n54\n00:02:53,720 --> 00:02:56,460\nIf you're studying for the exam,\nthose simulators are great.\n\n55\n00:02:56,460 --> 00:03:00,420\nThey usually come prepackaged with labs,\nand they're a really valuable resource.\n\n56\n00:03:00,420 --> 00:03:01,849\nI've used the Boson NetSim myself.\n\n57\n00:03:01,849 --> 00:03:03,276\nI really like the product.\n\n58\n00:03:03,276 --> 00:03:08,589\nBut an emulator, with an emulator,\nyou run the actual Cisco IOS.\n\n59\n00:03:08,589 --> 00:03:09,910\nEvery command works.\n\n60\n00:03:09,910 --> 00:03:13,130\nDoesn't matter if it's on the exam or\nnot, all the commands work.\n\n61\n00:03:13,130 --> 00:03:16,382\nAnd it's the real IOS so\nit's not like you're running a command and\n\n62\n00:03:16,382 --> 00:03:17,533\nyou get canned output.\n\n63\n00:03:17,533 --> 00:03:21,970\nYou get output that's reflecting what's\ngoing on in that router at that time.\n\n64\n00:03:21,970 --> 00:03:24,723\nSo, there's the real value of an emulator.\n\n65\n00:03:24,723 --> 00:03:28,584\nYou can use GNS3 to study to get ready for\nthe exams, you can use it to mock up\n\n66\n00:03:28,584 --> 00:03:32,240\nnetworks to get ready for\nsome kind of deployment in production.\n\n67\n00:03:32,240 --> 00:03:34,456\nYou can do all sorts of\nreally cool things in it.\n\n68\n00:03:34,456 --> 00:03:35,453\nIt's a neat product, and\n\n69\n00:03:35,453 --> 00:03:37,640\nthe fact that it's free is\nreally just icing on the cake.\n\n70\n00:03:37,640 --> 00:03:40,018\nAll right,\nif you've never heard of it before,\n\n71\n00:03:40,018 --> 00:03:41,824\nthe website is really easy to get to.\n\n72\n00:03:41,824 --> 00:03:47,524\nIt's GNS3.net, and so\nthat's where I'm at right now is GNS3.net.\n\n73\n00:03:47,524 --> 00:03:49,365\nTheir web page is fairly Spartan.\n\n74\n00:03:49,365 --> 00:03:51,087\nNot a whole lot of stuff on here, and\n\n75\n00:03:51,087 --> 00:03:54,010\nit really centers around\ngetting you that software.\n\n76\n00:03:54,010 --> 00:03:57,223\nThey give a description here and\nthey tell you it's an intuitive\n\n77\n00:03:57,223 --> 00:04:00,628\ngraphical user interface and\nit runs on top of multiple emulators.\n\n78\n00:04:00,628 --> 00:04:02,200\nDynamips is the main one.\n\n79\n00:04:02,200 --> 00:04:04,360\nThat's the Cisco IOS emulator.\n\n80\n00:04:04,360 --> 00:04:05,292\nBut it does more.\n\n81\n00:04:05,292 --> 00:04:09,759\nYou'll see there's a VirtualBox and\na QEMU emulator too.\n\n82\n00:04:09,759 --> 00:04:11,176\nWhy do we need those?\n\n83\n00:04:11,176 --> 00:04:15,339\nWell, you'll see that it adds Cisco ASA\nand Pix support, so if you want to\n\n84\n00:04:15,339 --> 00:04:19,930\ndo Cisco firewalls, it also allows\nyou to do things like Juniper, Junos.\n\n85\n00:04:19,930 --> 00:04:22,582\nIf you wanna learn Juniper routers,\nyou can bring those up.\n\n86\n00:04:22,582 --> 00:04:26,029\nBut they run on different types of\nhardware than what Cisco routers do, so\n\n87\n00:04:26,029 --> 00:04:27,590\nthey don't use Dynamips.\n\n88\n00:04:27,590 --> 00:04:31,470\nThey use VirtualBox and QEMU to\nemulate the hardware needed for them.\n\n89\n00:04:31,470 --> 00:04:32,248\nIt's a little bit different.\n\n90\n00:04:32,248 --> 00:04:33,940\nNow you can do it all at once though.\n\n91\n00:04:33,940 --> 00:04:38,493\nSo you could have Cisco IOS routers\nrunning by the Cisco ASA, running right by\n\n92\n00:04:38,493 --> 00:04:43,627\na Junos router, you know you can have that\nflexibility, it's really, really cool.\n\n93\n00:04:43,627 --> 00:04:48,280\nNow, one of the main questions that you'll\nsee asked on the Internet on these various\n\n94\n00:04:48,280 --> 00:04:49,910\nquestions is.\n\n95\n00:04:49,910 --> 00:04:51,773\nIs this legal?\n\n96\n00:04:51,773 --> 00:04:56,830\nWell, you know, as like many of these\nthings there's kind of a grey area here.\n\n97\n00:04:56,830 --> 00:05:00,686\nThe true honest answer at the end of\nthe day is that yes, it is legal.\n\n98\n00:05:00,686 --> 00:05:03,800\nThe emulator itself is legal,\nthe software is legal.\n\n99\n00:05:03,800 --> 00:05:07,292\nWhere we start to get into\na problem is with the IOS, right.\n\n100\n00:05:07,292 --> 00:05:10,270\nCisco routers run the Internetwork\nOperating System, the IOS.\n\n101\n00:05:10,270 --> 00:05:12,525\nAnd when you buy a Cisco router.\n\n102\n00:05:12,525 --> 00:05:19,140\nYou're also buying a license to run\nthe IOS on that router hardware.\n\n103\n00:05:19,140 --> 00:05:21,430\nThat means, you've licensed the IOS but\n\n104\n00:05:21,430 --> 00:05:24,188\nyou've only licensed it\nto run on that hardware.\n\n105\n00:05:24,188 --> 00:05:26,742\nYou're not licensed to\nrun it somewhere else.\n\n106\n00:05:26,742 --> 00:05:29,547\nCisco doesn't sell just licenses for\nthe IOS.\n\n107\n00:05:29,547 --> 00:05:33,220\nThey only sell licenses for\nthe IOS tied to hardware.\n\n108\n00:05:33,220 --> 00:05:37,160\nSo when we fire up something like GNS3\nit's gonna need the operating system,\n\n109\n00:05:37,160 --> 00:05:38,390\nit's gonna need the IOS.\n\n110\n00:05:38,390 --> 00:05:40,300\nThey don't give us that cuz\nthey're not allowed to.\n\n111\n00:05:40,300 --> 00:05:41,980\nThat would be illegal.\n\n112\n00:05:41,980 --> 00:05:45,660\nBut if you have a copy of the IOS\nfrom your own production routers,\n\n113\n00:05:45,660 --> 00:05:48,770\nyou can throw it on here and\nit'll run just fine.\n\n114\n00:05:48,770 --> 00:05:50,930\nBut technically you're\nviolating your license,\n\n115\n00:05:50,930 --> 00:05:53,551\ncuz your license said you were\nlicensed to run that software.\n\n116\n00:05:53,551 --> 00:05:58,032\nOn top of the Cisco hardware, not on\ntop of GNS3 or Dynamips or whatever,\n\n117\n00:05:58,032 --> 00:05:59,270\nall right.\n\n118\n00:05:59,270 --> 00:06:01,039\nSo is it legal?\n\n119\n00:06:01,039 --> 00:06:03,419\nWell the software is.\n\n120\n00:06:03,419 --> 00:06:06,838\nUsing it though requires you to pull\na Cisco license the wrong way which is\n\n121\n00:06:06,838 --> 00:06:08,420\ntechnically not legal, right.\n\n122\n00:06:08,420 --> 00:06:10,979\nYou're violating the terms\nof service from Cisco.\n\n123\n00:06:10,979 --> 00:06:15,160\nThat being said,\neven Cisco uses GNS3 internally.\n\n124\n00:06:15,160 --> 00:06:17,846\nSo it's a very common, popular program.\n\n125\n00:06:17,846 --> 00:06:22,298\nThere's a lot of companies out there that\ndo Cisco training and they use GNS3.\n\n126\n00:06:22,298 --> 00:06:25,001\nSo, it's something that's\ndefinitely known by Cisco and\n\n127\n00:06:25,001 --> 00:06:27,120\nthey've chosen not to\nenforce that license.\n\n128\n00:06:27,120 --> 00:06:30,349\nNow, one day they may change their mind,\nbut as of right now,\n\n129\n00:06:30,349 --> 00:06:32,417\nthey haven't enforced that license.\n\n130\n00:06:32,417 --> 00:06:35,842\nAnd so many, many people,\nincluding myself make use of the product.\n\n131\n00:06:35,842 --> 00:06:38,315\nSo it is a really neat one.\n\n132\n00:06:38,315 --> 00:06:42,492\nWell if you want to see just kind of\na quick guided tour of it before we get it\n\n133\n00:06:42,492 --> 00:06:46,970\ninstalled, they've got some nice\nscreenshots here on the website.\n\n134\n00:06:46,970 --> 00:06:50,747\nAnd what it does is it gives you\nthis graphical user interface,\n\n135\n00:06:50,747 --> 00:06:52,042\nthis guy right here.\n\n136\n00:06:52,042 --> 00:06:55,854\nThe way it works is basically you have\nall of these routers, firewalls, Juniper\n\n137\n00:06:55,854 --> 00:07:00,540\nrouters, all of these things over her on\nthe left; this is your network equipment.\n\n138\n00:07:00,540 --> 00:07:04,570\nYou just drag and drop it out here and\nyou link it together.\n\n139\n00:07:04,570 --> 00:07:08,350\nYou can link it together with\nethernet cables or serial cables,\n\n140\n00:07:08,350 --> 00:07:09,780\nthat's what these red\nlightning bolts are here.\n\n141\n00:07:09,780 --> 00:07:10,965\nThese are serial cables.\n\n142\n00:07:10,965 --> 00:07:15,830\nThey're doing simulated T1 lines or\nISDN, or something like that.\n\n143\n00:07:15,830 --> 00:07:19,830\nYou can emulate technology that would be\nincredibly expensive to set up in your own\n\n144\n00:07:19,830 --> 00:07:23,570\nlab, and you can bring out\nas many routers as you want.\n\n145\n00:07:23,570 --> 00:07:27,435\nSo instead of having to go to eBay and buy\na bunch of physical used routers that may\n\n146\n00:07:27,435 --> 00:07:30,339\nor may not work right, here,\nyou just bring them right up.\n\n147\n00:07:30,339 --> 00:07:34,516\nAnd you'll see the routers that they\nsupport, the 1700s, those are pretty\n\n148\n00:07:34,516 --> 00:07:38,600\nlow-end, pretty old routers, but\nthey go up all the way to the 7200s.\n\n149\n00:07:38,600 --> 00:07:43,438\nAnd the Cisco 7200, that's a beefy\nrouter that can perform every\n\n150\n00:07:43,438 --> 00:07:47,298\nsingle activity from the CCNA,\nCCNP, and CCIE exams.\n\n151\n00:07:47,298 --> 00:07:50,435\nIt's a really,\nreally powerful router framework, so\n\n152\n00:07:50,435 --> 00:07:53,020\nyou really get that full feature set.\n\n153\n00:07:53,020 --> 00:07:55,008\nAnd they don't show it\nhere in this screen shot,\n\n154\n00:07:55,008 --> 00:07:56,668\nlet me see if they have one that shows it.\n\n155\n00:07:56,668 --> 00:08:00,640\nWhen you add a router in, you can pull\nup the properties of that router and\n\n156\n00:08:00,640 --> 00:08:02,660\nstart to manipulate its settings.\n\n157\n00:08:02,660 --> 00:08:04,473\nAnd, yeah they don't really show it here.\n\n158\n00:08:04,473 --> 00:08:07,571\nBut you can manipulate the settings\nas far as inserting different WICs,\n\n159\n00:08:07,571 --> 00:08:08,700\nthe WAN interface cards.\n\n160\n00:08:08,700 --> 00:08:11,102\nYou can choose which cards you want in it,\n\n161\n00:08:11,102 --> 00:08:14,409\nto make that router unique for\nthat particular purpose.\n\n162\n00:08:14,409 --> 00:08:16,790\nYou know like these routers here.\n\n163\n00:08:16,790 --> 00:08:19,758\nCisco routers don't typically come\nwith serial ports by default.\n\n164\n00:08:19,758 --> 00:08:23,019\nSo somebody's added cards into these\nrouters to be able to have that\n\n165\n00:08:23,019 --> 00:08:24,450\nconnectivity.\n\n166\n00:08:24,450 --> 00:08:25,446\nYou get link lights and\n\n167\n00:08:25,446 --> 00:08:28,395\ninformation as far as whether\nthe connections are up and working.\n\n168\n00:08:28,395 --> 00:08:30,530\nAnd you can start and stop the routers.\n\n169\n00:08:30,530 --> 00:08:34,363\nYou can back up their configurations and\nbuild some really cool labs.\n\n170\n00:08:34,363 --> 00:08:36,880\nThey even have some labs available for\ndownload on their site.\n\n171\n00:08:36,880 --> 00:08:39,010\nIf you look up here,\nwe've got this labs tab and\n\n172\n00:08:39,010 --> 00:08:42,336\nyou'll see here some, it looks like\nthey just have the Juniper ones now.\n\n173\n00:08:42,336 --> 00:08:43,760\nBut they're working on Cisco ones.\n\n174\n00:08:43,760 --> 00:08:46,028\nI know those are coming out soon.\n\n175\n00:08:46,028 --> 00:08:48,960\nBut, actually that's what\nthey're saying right here.\n\n176\n00:08:48,960 --> 00:08:51,245\nLabs will come very soon for Cisco.\n\n177\n00:08:51,245 --> 00:08:53,750\nBut basically it's a very\nvaluable resource, and\n\n178\n00:08:53,750 --> 00:08:57,370\nit's a great alternative to going out and\nbuying the physical hardware.\n\n179\n00:08:57,370 --> 00:08:59,292\nNow, can you buy the physical hardware?\n\n180\n00:08:59,292 --> 00:08:59,906\nAbsolutely.\n\n181\n00:08:59,906 --> 00:09:01,277\nThat's what I did when I got started.\n\n182\n00:09:01,277 --> 00:09:02,840\nI went out and ordered eight routers.\n\n183\n00:09:02,840 --> 00:09:05,755\nIt cost me a ton of money,\nand they were super loud and\n\n184\n00:09:05,755 --> 00:09:08,021\nate up a lot of electricity at the house.\n\n185\n00:09:08,021 --> 00:09:10,130\nBut that's how I learned,\nover ten years ago.\n\n186\n00:09:10,130 --> 00:09:10,660\nRight.\n\n187\n00:09:10,660 --> 00:09:12,093\nBecause we didn't have things like this.\n\n188\n00:09:12,093 --> 00:09:15,400\nIf I had to do it again today, I never\nwould've bought all that equipment, right.\n\n189\n00:09:15,400 --> 00:09:17,443\nIt was a lot of money\nkinda down the drain.\n\n190\n00:09:17,443 --> 00:09:21,293\nVersus this, where I could whip up\nwhatever environment I wanted and when I\n\n191\n00:09:21,293 --> 00:09:25,344\nwas done I could just shut it down and\nit's not consuming extra power and so on.\n\n192\n00:09:25,344 --> 00:09:29,204\nThe other thing is it's really efficient,\nwe'll see this a little bit later, how it\n\n193\n00:09:29,204 --> 00:09:32,890\nmanages CPU and how it manages memory,\nit does a really good job on those things.\n\n194\n00:09:32,890 --> 00:09:38,449\nSo GS3, very powerful software package,\ndoes a lot of great things.\n\n195\n00:09:38,449 --> 00:09:39,925\nWonderful for your studies.\n\n196\n00:09:39,925 --> 00:09:43,452\nAll right,\nthat's enough of an introduction for GNS3.\n\n197\n00:09:43,452 --> 00:09:46,746\nNow we're going to move into our next set\nof videos, where we'll start to show how\n\n198\n00:09:46,746 --> 00:09:48,916\nto get it installed and\nhow to actually make use of it.\n\n199\n00:09:48,916 --> 00:09:50,354\nSo, stay tuned.\n\n200\n00:09:50,354 --> 00:09:52,375\nWe'll be back with more.\n\n201\n00:09:52,375 --> 00:09:58,049\n[MUSIC]\n\n",
+          "url": "gns3",
+          "vimeoId": "106823474"
+        },
+        {
+          "description": "",
+          "length": "594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-2-sm.jpg",
+          "title": "Installing GNS3",
+          "transcript": "",
+          "url": "installing-gns3",
+          "vimeoId": "106823478"
+        },
+        {
+          "description": "",
+          "length": "857",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-3-sm.jpg",
+          "title": "GNS3 Initial Setup",
+          "transcript": "",
+          "url": "gns3-initial-setup",
+          "vimeoId": "106823481"
+        },
+        {
+          "description": "",
+          "length": "1277",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-4.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-4-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-4-sm.jpg",
+          "title": "Launching Your First Router",
+          "transcript": "",
+          "url": "launching-router",
+          "vimeoId": "106823482"
+        },
+        {
+          "description": "",
+          "length": "514",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-5.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-5-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-5-sm.jpg",
+          "title": "Virtual Switches",
+          "transcript": "",
+          "url": "virtual-switches",
+          "vimeoId": "106823484"
+        },
+        {
+          "description": "",
+          "length": "481",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-6.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-6-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-6-sm.jpg",
+          "title": "Cabling Your Equipment",
+          "transcript": "",
+          "url": "cabling-equipment",
+          "vimeoId": "106824261"
+        },
+        {
+          "description": "",
+          "length": "1419",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-7.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-7-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-7-sm.jpg",
+          "title": "Connecting To Your Routers",
+          "transcript": "",
+          "url": "connecting-routers",
+          "vimeoId": "106824262"
+        },
+        {
+          "description": "",
+          "length": "506",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-8.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-8-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-8-sm.jpg",
+          "title": "Capturing Traffic In GNS3",
+          "transcript": "",
+          "url": "capturing-traffic-gns3",
+          "vimeoId": "106824263"
+        },
+        {
+          "description": "",
+          "length": "455",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-9.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-9-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-9-sm.jpg",
+          "title": "Documenting Your Network",
+          "transcript": "",
+          "url": "documenting-network",
+          "vimeoId": "106824264"
+        },
+        {
+          "description": "",
+          "length": "535",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-10.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-10-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/gns3/GNS3-10-sm.jpg",
+          "title": "Saving Your Configuration",
+          "transcript": "",
+          "url": "saving-configuration",
+          "vimeoId": "106824267"
+        }
+      ],
+      "title": "Configure GNS3"
+    }
+  ],
+  "url": "gns3",
+  "vLab": false
+}

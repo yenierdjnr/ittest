@@ -1,0 +1,601 @@
+{
+  "description": "This course describes how to monitor and operate a cloud with Microsoft System Center 2012 R2. It focuses on how to manage and administer a cloud environment, and it describes how you can monitor key infrastructure elements and applications that run within a cloud. This course will help you to acquire the skills required to deploy and configure System Center 2012 R2 for Cloud and Datacenter monitoring. In addition, how to use System Center Virtual Machine Manager, Service Manager, and Operations Manager to coordinate end-to-end service monitoring, and fabric and application monitoring is covered. If you are new to operating a private cloud, or have been managing one and want to update your skills, then this course will show you how.",
+  "descriptionMD": "This course describes how to monitor and operate a cloud with Microsoft System Center 2012 R2. It focuses on how to manage and administer a cloud environment, and it describes how you can monitor key infrastructure elements and applications that run within a cloud. This course will help you to acquire the skills required to deploy and configure System Center 2012 R2 for Cloud and Datacenter monitoring. In addition, how to use System Center Virtual Machine Manager, Service Manager, and Operations Manager to coordinate end-to-end service monitoring, and fabric and application monitoring is covered. If you are new to operating a private cloud, or have been managing one and want to update your skills, then this course will show you how.",
+  "length": "81508",
+  "name": "MCSE Private Cloud - 70-246",
+  "practiceExam": false,
+  "subtitle": "Monitoring and Operating a Private Cloud",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam give a general overview of what to expect in the upcoming 70-246, Monitoring and Operating a Private Cloud series. They cover topics like who is the intended audience, what the scope of the series will cover, and what are some specific topics that will be addressed.",
+          "length": "96",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-0-0-overview-041117-PGM.00_00_09_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-0-0-overview-041117-PGM.00_00_09_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-0-0-overview-041117-PGM.00_00_09_03.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.016 --> 00:00:05.734\n[NOISE] In this segment we gonna take\na quick look at what can expect from our\n\n2\n00:00:05.734 --> 00:00:11.856\nupcoming 70-246, monitoring and\noperating a private cloud series.\n\n3\n00:00:11.856 --> 00:00:15.985\nAdam, if you could do us an immense favor\nof giving us a general overview of what we\n\n4\n00:00:15.985 --> 00:00:17.140\ncan expect.\n\n5\n00:00:17.140 --> 00:00:18.798\n&gt;&gt; Expounding as we talk.\n\n6\n00:00:18.798 --> 00:00:22.950\nSo, we're gonna talk about how to monitor\nand how to maintain the private cloud.\n\n7\n00:00:22.950 --> 00:00:27.050\nThe idea here, using system center 2012R2,\nwe're gonna look at all the different\n\n8\n00:00:27.050 --> 00:00:31.240\ncomponents, we'll talked about Service\nManager, System Center Ops Manager,\n\n9\n00:00:31.240 --> 00:00:35.310\nwe'll talk about Virtual Machine Manager,\nOrchestrator, we'll take a look at,\n\n10\n00:00:35.310 --> 00:00:37.930\nat least briefly anyway,\nConfiguration Manager.\n\n11\n00:00:37.930 --> 00:00:41.909\nWe'll bring all the major parts and\nplayers together, integrate them,\n\n12\n00:00:41.909 --> 00:00:45.247\nuse connectors to show how\ninformation flows back and forth,\n\n13\n00:00:45.247 --> 00:00:47.644\nset up Run As accounts, service accounts.\n\n14\n00:00:47.644 --> 00:00:51.273\nWe'll talk about reporting,\nwe'll integrate SQL services, so\n\n15\n00:00:51.273 --> 00:00:54.050\nthat we can do data analytics with OLAP.\n\n16\n00:00:54.050 --> 00:00:55.700\nWe can do integration services.\n\n17\n00:00:55.700 --> 00:00:57.720\nWe want to bring in external data flows.\n\n18\n00:00:57.720 --> 00:00:59.600\nWe'll talk about all of\nthe moving parts and\n\n19\n00:00:59.600 --> 00:01:03.550\npieces about how to structure your\ncloud journey start to finish.\n\n20\n00:01:03.550 --> 00:01:07.490\nFrom installing, from configuring,\nfrom maintaining monitoring,\n\n21\n00:01:07.490 --> 00:01:10.550\noptimizing, and of course,\nreporting on and\n\n22\n00:01:10.550 --> 00:01:13.350\nunderstanding the value of all the data\nthat we created as a result of all that.\n\n23\n00:01:13.350 --> 00:01:16.580\nSo, I encourage you to come back,\ntake a look and join us for that journey.\n\n24\n00:01:16.580 --> 00:01:18.726\nDaniel and I, and\nI think Cherokee along the way as well,\n\n25\n00:01:18.726 --> 00:01:21.633\nwe're gonna include her in this, are gonna\nhave a lot to tell you about that,\n\n26\n00:01:21.633 --> 00:01:23.360\nso we look forward to\nspending time with you.\n\n27\n00:01:23.360 --> 00:01:23.870\n&gt;&gt; Excellent Adam.\n\n28\n00:01:23.870 --> 00:01:24.750\nThank you so much.\n\n29\n00:01:24.750 --> 00:01:28.161\nAnd we, hopefully that sounds\nsomething that's interesting to you.\n\n30\n00:01:28.161 --> 00:01:32.438\nAnd if it is, we do look forward to\nseeing you in those upcoming episodes.\n\n31\n00:01:32.438 --> 00:01:35.734\n[NOISE]\n\n",
+          "url": "overview-private-cloud",
+          "vimeoId": "213518099"
+        },
+        {
+          "description": "In this episode, Cherokee and Adam begin discussing the cloud computing computing model. First, Adam explains several System Center components. Next, they begin exploring different deployment methods including private, public or even hybrid solutions. Tune in to learn how System Center Roles support your infrastructure.",
+          "length": "2662",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-1-introduction_to_the_cloud_model-032617-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-1-introduction_to_the_cloud_model-032617-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-1-introduction_to_the_cloud_model-032617-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Introduction to the Cloud Model",
+          "transcript": "",
+          "url": "introductioncloud-model",
+          "vimeoId": "210591433"
+        },
+        {
+          "description": "In this show, Cherokee and Adam explain the importance of monitoring. Adam suggests monitoring the components that will logically benefit your organization by choosing your KPIs strategically. They also discuss support packs available with Microsoft Azure Integration.",
+          "length": "1533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-2-introduction_to_the_cloud_model_pt2-032617-PGM.00_00_11_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-2-introduction_to_the_cloud_model_pt2-032617-PGM.00_00_11_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-1-1-2-introduction_to_the_cloud_model_pt2-032617-PGM.00_00_11_23.Still001-sm.jpg",
+          "title": "Introduction to the Cloud Model Part 2",
+          "transcript": "",
+          "url": "introductionthe-cloud-model2",
+          "vimeoId": "210592856"
+        }
+      ],
+      "title": "Introduction to the Cloud Model"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee look at using System Center Virtual Machine Manager. They show how to create custom run as accounts and user roles.",
+          "length": "2248",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-1-configuring_a_private_cloud_enviroment-032617-PGM.00_37_13_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-1-configuring_a_private_cloud_enviroment-032617-PGM.00_37_13_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-1-configuring_a_private_cloud_enviroment-032617-PGM.00_37_13_00.Still001-sm.jpg",
+          "title": "Configuring a Private Cloud Environment",
+          "transcript": "",
+          "url": "configuringprivate-cloud-environment",
+          "vimeoId": "210594001"
+        },
+        {
+          "description": "In this show, Cherokee and Adam explain how to manage the virtual environment with Virtual Machine Manager.  Adam explains the three fabric resource nodes that need to be configured. They also discuss the importance of Library Servers and Library Shares. Lastly, they explain additional configurations options including VM hardware options.",
+          "length": "2066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-2-configuring_a_private_cloud_enviroment_pt2-032617-PGM.00_34_10_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-2-configuring_a_private_cloud_enviroment_pt2-032617-PGM.00_34_10_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-1-2-configuring_a_private_cloud_enviroment_pt2-032617-PGM.00_34_10_09.Still001-sm.jpg",
+          "title": "Configuring a Private Cloud Environment Part 2",
+          "transcript": "",
+          "url": "configuringprivate-cloud-environment2",
+          "vimeoId": "210593306"
+        },
+        {
+          "description": "This show is a demonstration of configuring the Storage Fabric.",
+          "length": "1835",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-2-configure_the_storage_fabric-032617-PGM.00_30_20_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-2-configure_the_storage_fabric-032617-PGM.00_30_20_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-2-configure_the_storage_fabric-032617-PGM.00_30_20_27.Still001-sm.jpg",
+          "title": "Configure the Storage Fabric",
+          "transcript": "",
+          "url": "configurestorage-fabric",
+          "vimeoId": "210831807"
+        },
+        {
+          "description": "This show is a demonstration of creating networks & profiles.",
+          "length": "1069",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-create_networks_and_profiles-032617-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-create_networks_and_profiles-032617-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-create_networks_and_profiles-032617-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Creating Networks and Profiles",
+          "transcript": "",
+          "url": "creating-poolsvip-templates",
+          "vimeoId": "210952526"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss the process to install and configure Operations Manager",
+          "length": "2354",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117.00_38_57_26.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117.00_38_57_26.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-2-4-install_operations_manager_on_single_server-032117.00_38_57_26.Still002-sm.jpg",
+          "title": "Install Operations Manager on Single Server",
+          "transcript": "",
+          "url": "install-operations-managersingle-server-ab",
+          "vimeoId": "212152089"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss installing and configuring App Controller.",
+          "length": "1396",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-install_and_configure_app_controller_server-032117.00_22_59_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-install_and_configure_app_controller_server-032117.00_22_59_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-3-install_and_configure_app_controller_server-032117.00_22_59_06.Still001-sm.jpg",
+          "title": "Install and Configure App Controller Server",
+          "transcript": "",
+          "url": "installconfigure-app-controller",
+          "vimeoId": "211305309"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss installing Orchestrator",
+          "length": "1645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-6-install_orchestrator_on_single_server-032117.00_27_09_27.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-6-install_orchestrator_on_single_server-032117.00_27_09_27.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-6-install_orchestrator_on_single_server-032117.00_27_09_27.Still002-sm.jpg",
+          "title": "Install Orchestrator on Single Server",
+          "transcript": "",
+          "url": "install-orchestratorsingle-server-abc",
+          "vimeoId": "212154256"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss installing Data Protection Manager",
+          "length": "1058",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-5-install_data_protection_manager-032117.00_17_22_25.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-5-install_data_protection_manager-032117.00_17_22_25.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-5-install_data_protection_manager-032117.00_17_22_25.Still002-sm.jpg",
+          "title": "Install Data Protection Manager",
+          "transcript": "",
+          "url": "install-data-protection-manager-ab",
+          "vimeoId": "212153552"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss installing Service Manager",
+          "length": "811",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-7-install_service_manager_on_a_single_server-032117.00_13_16_29.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-7-install_service_manager_on_a_single_server-032117.00_13_16_29.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-2-7-install_service_manager_on_a_single_server-032117.00_13_16_29.Still002-sm.jpg",
+          "title": "Install Service Manager on a Single Server",
+          "transcript": "",
+          "url": "install-service-managera-single-server-abc",
+          "vimeoId": "212155454"
+        }
+      ],
+      "title": "Configuring a Private Cloud Environment"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee explain Service Templates. Adam relates them to a blank canvas or a Lego plate to build custom settings in a modular way. Tune in now to watch the process demonstrated as they discuss different options.",
+          "length": "2503",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-1-deploying_cloud_services-032717-PGM.00_41_26_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-1-deploying_cloud_services-032717-PGM.00_41_26_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-1-deploying_cloud_services-032717-PGM.00_41_26_29.Still001-sm.jpg",
+          "title": "Deploying Cloud Services",
+          "transcript": "",
+          "url": "deploying-cloud-services",
+          "vimeoId": "210834052"
+        },
+        {
+          "description": "Cherokee and Adam continue their discussion on Service Templates. They also speak about application profiles and Data-Tier Applications (DACs).",
+          "length": "2444",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-2-deploying_cloud_services_pt2-032717-PGM.00_40_26_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-2-deploying_cloud_services_pt2-032717-PGM.00_40_26_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-1-2-deploying_cloud_services_pt2-032717-PGM.00_40_26_18.Still001-sm.jpg",
+          "title": "Deploying Cloud Services Part 2",
+          "transcript": "",
+          "url": "deploying-cloud-services2",
+          "vimeoId": "210943406"
+        },
+        {
+          "description": "In this show, Adam demonstrates a step by step tutorial on how to use Server App-V.",
+          "length": "1607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-2-sever_app_v-PGM.00_26_31_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-2-sever_app_v-PGM.00_26_31_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-2-sever_app_v-PGM.00_26_31_16.Still001-sm.jpg",
+          "title": "Server App-V",
+          "transcript": "",
+          "url": "server-appv",
+          "vimeoId": "210944389"
+        },
+        {
+          "description": "In this show, Adam demonstrates a step by step tutorial on how to create, import,  and export Service Templates. You will also get a chance to see how to modify the properties of a virtual machine template.",
+          "length": "2073",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-3-service_templates-032717-PGM.00_34_15_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-3-service_templates-032717-PGM.00_34_15_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-3-service_templates-032717-PGM.00_34_15_26.Still001-sm.jpg",
+          "title": "Service and VM Templates",
+          "transcript": "",
+          "url": "service-templates",
+          "vimeoId": "210953230"
+        },
+        {
+          "description": "In this show, Adam demonstrates a step by step tutorial on how to create and use Application Profiles.",
+          "length": "791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-4-application_profiles-032717-PGM.00_12_55_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-4-application_profiles-032717-PGM.00_12_55_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-3-4-application_profiles-032717-PGM.00_12_55_15.Still001-sm.jpg",
+          "title": "Application Profiles",
+          "transcript": "",
+          "url": "application-profiles",
+          "vimeoId": "210945139"
+        }
+      ],
+      "title": "Deploying Cloud Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee introduce System Center 2012 R2. Adam explains the core components and key features. Tune in now to get started.",
+          "length": "1982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-1-monitoring_cloud_based_applications-032817-PGM.00_32_46_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-1-monitoring_cloud_based_applications-032817-PGM.00_32_46_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-1-monitoring_cloud_based_applications-032817-PGM.00_32_46_12.Still001-sm.jpg",
+          "title": "Monitoring Cloud Based Applications",
+          "transcript": "",
+          "url": "monitoring-cloud-based-applications",
+          "vimeoId": "210945572"
+        },
+        {
+          "description": "In this show, Adam and Cherokee first discuss how utilizing the RMS emulator role enables backwards compatibility for connectors or previous Management Packs. They also revisit some vocabulary terms, explain built-in profile types and explain Management Packs.",
+          "length": "2745",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-2-monitoring_cloud_based_applications_pt2-032817-PGM.00_45_27_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-2-monitoring_cloud_based_applications_pt2-032817-PGM.00_45_27_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-2-monitoring_cloud_based_applications_pt2-032817-PGM.00_45_27_24.Still001-sm.jpg",
+          "title": "Monitoring Cloud Based Applications Part 2",
+          "transcript": "",
+          "url": "monitoring-cloud-based-applications2",
+          "vimeoId": "210947990"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explain how to use Management Pack rules, object discovery, and various monitors to define the monitoring scope of your environment. Adam demonstrates how to monitor the health state of an object. He also shows how to use unit monitors to create alert thresholds. Tune in now to see what else can be achieved through monitors.",
+          "length": "2236",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-3-monitoring_cloud_based_applications_pt3-032817-PGM.00_36_59_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-3-monitoring_cloud_based_applications_pt3-032817-PGM.00_36_59_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-3-monitoring_cloud_based_applications_pt3-032817-PGM.00_36_59_25.Still001-sm.jpg",
+          "title": "Monitoring Cloud Based Applications Part 3",
+          "transcript": "",
+          "url": "monitoring-cloud-based-applications3",
+          "vimeoId": "210949721"
+        },
+        {
+          "description": "In this show, Adam and Cherokee explain several Run As accounts to allow one the ability to run different rules, tasks, monitors, or discoveries under different credentials on different computers. They also cover Overrides and explain how useful they can be to customize Management Packs to tailor your environment.",
+          "length": "1858",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-4-monitoring_cloud_based_applications_pt4-032817-PGM.00_30_41_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-4-monitoring_cloud_based_applications_pt4-032817-PGM.00_30_41_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-4-monitoring_cloud_based_applications_pt4-032817-PGM.00_30_41_22.Still001-sm.jpg",
+          "title": "Monitoring Cloud Based Applications Part 4",
+          "transcript": "",
+          "url": "monitoring-cloud-based-applications4",
+          "vimeoId": "210951187"
+        },
+        {
+          "description": "In this show, Adam and Cherokee show how to configure Fabric Monitoring. Adam first covers the prerequisites needed then navigates through the VMM  Fabric dashboard. He also covers configuring the System Center Management Pack for Windows Azure. Next they discuss the integration between Operations Manager and System Center Adviser. Lastly, learn about Global Service Monitor and Real-Time Visio Dashboards.",
+          "length": "2529",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-5-monitoring_cloud_based_applications_pt5-032817-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-5-monitoring_cloud_based_applications_pt5-032817-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-1-5-monitoring_cloud_based_applications_pt5-032817-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Monitoring Cloud Based Applications Part 5",
+          "transcript": "",
+          "url": "monitoring-cloud-based-applications5",
+          "vimeoId": "211303565"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss the SCOM Agent",
+          "length": "1336",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-2-scom_agent_configuration_and_discovery-032417.00_22_01_06.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-2-scom_agent_configuration_and_discovery-032417.00_22_01_06.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-4-2-scom_agent_configuration_and_discovery-032417.00_22_01_06.Still002-sm.jpg",
+          "title": "SCOM Agent Configuration and Discovery",
+          "transcript": "",
+          "url": "scom-agent-configurationdiscovery-abc",
+          "vimeoId": "212155965"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss the Import Ops Manager",
+          "length": "417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_00_11_25.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_00_11_25.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-3-import_ops_manager_management_pack-032417-PGM.00_00_11_25.Still002-sm.jpg",
+          "title": "Import Ops Manager Management Pack",
+          "transcript": "",
+          "url": "import-ops-manager-management-pack-abc",
+          "vimeoId": "212156655"
+        },
+        {
+          "description": "In this episode Adam and Daniel discuss linking VMM SCOM and PRO",
+          "length": "1022",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-PGM.00_00_11_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-PGM.00_00_11_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-scom10964c-4-4-linking_vmm_scom_and_pro-032417-PGM.00_00_11_22.Still001-sm.jpg",
+          "title": "Linking VMM SCOM and PRO",
+          "transcript": "",
+          "url": "linking-vmm-scompro-abc",
+          "vimeoId": "212156869"
+        }
+      ],
+      "title": "Monitoring Cloud Based Applications"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Adam and Cherokee really focus in on Application Performance Monitoring (APM). Tune in now to understand the guidelines, learn about integrating features and get to know how detailed configurations can help customize your enviroment.",
+          "length": "1810",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-1-1-application_performance_monitoring-032817-PGM.00_28_58_00.Still001-sm.jpg",
+          "title": "Application Performance Monitoring",
+          "transcript": "",
+          "url": "application-performance-monitoring2",
+          "vimeoId": "210954629"
+        },
+        {
+          "description": "In this show, Cherokee and Adam thumb-wrestle to determine who will demonstrate how to use Application Performance Monitoring (APM) to monitor new applications.",
+          "length": "2019",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-2-use_apm_to_monitor_new_apps-032517-050417.00_33_23_24.Still003.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-2-use_apm_to_monitor_new_apps-032517-050417.00_33_23_24.Still003-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-2-use_apm_to_monitor_new_apps-032517-050417.00_33_23_24.Still003-sm.jpg",
+          "title": "Use APM to Monitor New Apps",
+          "transcript": "",
+          "url": "apmmonitorapps-70246",
+          "vimeoId": "217670461"
+        },
+        {
+          "description": "Watch Adam demonstrate how to create and configure notification accounts for receiving alerts.",
+          "length": "1062",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-3-configure_notification_accounts_for_alerts-032517.00_17_28_03.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-3-configure_notification_accounts_for_alerts-032517.00_17_28_03.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-3-configure_notification_accounts_for_alerts-032517.00_17_28_03.Still002-sm.jpg",
+          "title": "Configure Notification Accounts for Alerts",
+          "transcript": "",
+          "url": "configure-notification-accountsalerts-abc",
+          "vimeoId": "212157469"
+        },
+        {
+          "description": "In this show, Adam explains step-by-step how to monitor web sites.",
+          "length": "1437",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-4-web_application_availability_monitoring-032517.00_23_42_01.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-4-web_application_availability_monitoring-032517.00_23_42_01.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-4-web_application_availability_monitoring-032517.00_23_42_01.Still002-sm.jpg",
+          "title": "Web Application Availability Monitoring",
+          "transcript": "",
+          "url": "web-application-availability-monitoring-add",
+          "vimeoId": "212160166"
+        },
+        {
+          "description": "In this show, watch Adam explain how to view distributed applications.",
+          "length": "1500",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-5-viewing_distributed_applications-032517.00_24_44_28.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-5-viewing_distributed_applications-032517.00_24_44_28.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-5-5-viewing_distributed_applications-032517.00_24_44_28.Still002-sm.jpg",
+          "title": "Viewing Distributed Applications",
+          "transcript": "",
+          "url": "viewing-distributed-applications-add",
+          "vimeoId": "212158087"
+        }
+      ],
+      "title": "Configuring Application Performance Monitoring"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam finish their exploration of the Service Manager by looking at Queues, Groups, and Lists. They start by walking you through the creation of a Queue. Then they create a custom Role which can then leverage the newly created Queue. Finally they configure Service Offerings for a Cloud using the Service Manager Self-Service Portal.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-1-service_management_in_a_private_cloud-041017-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-1-service_management_in_a_private_cloud-041017-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-1-service_management_in_a_private_cloud-041017-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Service Management in a Private Cloud",
+          "transcript": "",
+          "url": "service-managementa-private-cloud",
+          "vimeoId": "212906521"
+        },
+        {
+          "description": "In this episode, Daniel and Adam dive a bit deeper into the System Center Service Manager components including Activity Management, Workflows, and Change Management. They also look at the Service Catalog with its Request and Service Offerings.",
+          "length": "2291",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-2-service_management_in_a_private_cloud_pt2-041017-PGM.00_37_55_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-2-service_management_in_a_private_cloud_pt2-041017-PGM.00_37_55_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-2-service_management_in_a_private_cloud_pt2-041017-PGM.00_37_55_05.Still001-sm.jpg",
+          "title": "Service Management in a Private Cloud Part 2",
+          "transcript": "",
+          "url": "service-managementa-private-cloud2",
+          "vimeoId": "212907593"
+        },
+        {
+          "description": "In this episode, Daniel and Adam take a closer look at creating a Change Request. They take you from start to finish, looking at each of the available options, creating a Change Request. Then they look at working with a Change Request in the Change Management console. Finally, they do the same with Incident Management.",
+          "length": "2331",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-3-service_management_in_a_private_cloud_pt3-041017-PGM.00_38_34_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-3-service_management_in_a_private_cloud_pt3-041017-PGM.00_38_34_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-3-service_management_in_a_private_cloud_pt3-041017-PGM.00_38_34_26.Still001-sm.jpg",
+          "title": "Service Management in a Private Cloud Part 3",
+          "transcript": "",
+          "url": "service-managementa-private-cloud3",
+          "vimeoId": "212908521"
+        },
+        {
+          "description": "In this episode, Daniel and Adam finish their exploration of the Service Manager by looking at Queues, Groups, and Lists. They start by walking you through the creation of a Queue. Then they create a custom Role which can then leverage the newly created Queue. Finally they configure Service Offerings for a Cloud using the Service Manager Self-Service Portal.",
+          "length": "1459",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-4-service_management_in_a_private_cloud_pt4-041017-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-4-service_management_in_a_private_cloud_pt4-041017-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-1-4-service_management_in_a_private_cloud_pt4-041017-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Service Management in a Private Cloud Part 4",
+          "transcript": "",
+          "url": "service-managementa-private-cloud4",
+          "vimeoId": "212909815"
+        },
+        {
+          "description": "Cherokee and Adam break down a step-by-step demonstration to configure overrides. Tune in to learn how to use one of the many integrated overrides or create you own custom ones.",
+          "length": "1007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-2-configure_overrides-032517.00_16_32_09.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-2-configure_overrides-032517.00_16_32_09.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-2-configure_overrides-032517.00_16_32_09.Still002-sm.jpg",
+          "title": "Configure Overrides",
+          "transcript": "",
+          "url": "configure-overrides-add",
+          "vimeoId": "212158912"
+        },
+        {
+          "description": "In this show, Adam walks through the steps ho use synthetic transaction monitoring to monitor a web site URL.",
+          "length": "1399",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_03.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_03.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-6-3-synthetic_transaction_web_monitoring-032517.00_23_04_03.Still002-sm.jpg",
+          "title": "Synthetic Transaction Web Monitoring",
+          "transcript": "",
+          "url": "synthetic-transaction-web-monitoring-add",
+          "vimeoId": "212159496"
+        }
+      ],
+      "title": "Operating and Extending Service Mgmt. in the Private Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore automating Incident creation, remediation, and change requests. They show you how to import Integration Packs and then connect them to the Runbook Server and/or Designer. Then they take you through integrating the Orchestrator with the Service Manager.",
+          "length": "1434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-7-1-automating_incidents-041017-PGM.00_23_37_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-7-1-automating_incidents-041017-PGM.00_23_37_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-7-1-automating_incidents-041017-PGM.00_23_37_17.Still001-sm.jpg",
+          "title": "Automating Incidents",
+          "transcript": "",
+          "url": "automating-incidents",
+          "vimeoId": "213515982"
+        }
+      ],
+      "title": "Automating Incident Creation, Remediation, and Change Requests"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explain the Problem Management system in System Center. They start by defining the difference between an Incident and a Problem. Then they look at a Problem Management Process Flow Chart which guides us through the problem management process. Finally they walk through creating a Problem Report(PR), linking an Incident Report(IR) to a PR, and generating a Change Request.",
+          "length": "1598",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-8-1-problem_management-PGM.00_00_11_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-8-1-problem_management-PGM.00_00_11_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-8-1-problem_management-PGM.00_00_11_27.Still001-sm.jpg",
+          "title": "Problem Management",
+          "transcript": "",
+          "url": "management-abs",
+          "vimeoId": "213516216"
+        }
+      ],
+      "title": "Problem Management in the Private Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explain the function and use of the Windows Azure Pack. Here they will be defining what the Azure Pack is as well as some of its commonly used features and plugins and giving an overview of many powerful integrations that can be done.",
+          "length": "2035",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-9-1-windows_azure_pack-041117-PGM.00_33_38_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-9-1-windows_azure_pack-041117-PGM.00_33_38_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-9-1-windows_azure_pack-041117-PGM.00_33_38_21.Still001-sm.jpg",
+          "title": "Windows Azure Pack",
+          "transcript": "",
+          "url": "windows-azure-pack",
+          "vimeoId": "213516512"
+        }
+      ],
+      "title": "Operating a Self Service, Multi-Tenant Cloud with Windows Azure Pack"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore maintaining high availability, protection, and recovery using Microsoft System Center and Azure. They discuss at length the necessity of SQL Always-On, Hyper-V Replica, and Azure Site Recovery.",
+          "length": "1893",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-1-high_availablity_for_the_cloud-041117-PGM.00_31_16_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-1-high_availablity_for_the_cloud-041117-PGM.00_31_16_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-1-high_availablity_for_the_cloud-041117-PGM.00_31_16_08.Still001-sm.jpg",
+          "title": "High Availability for the Cloud",
+          "transcript": "",
+          "url": "availabilitythe-cloud",
+          "vimeoId": "213516946"
+        },
+        {
+          "description": "In this episode, Daniel and Adam walk you through configuring the Data Protection Manager(DPM) in System Center. Here they will show you how to view disk allocation information to review Storage Pool data as well as create Protection Group and add members client computers to that group.",
+          "length": "2123",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-2-configure_the_data_protection_manager-032917-PGM.00_35_05_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-2-configure_the_data_protection_manager-032917-PGM.00_35_05_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-2-configure_the_data_protection_manager-032917-PGM.00_35_05_13.Still001-sm.jpg",
+          "title": "Configure the Data Protection Manager",
+          "transcript": "",
+          "url": "configuredata-protection-manager",
+          "vimeoId": "211302445"
+        },
+        {
+          "description": "In this episode, Daniel and Adam demonstrate implementing a Hyper-V replica. Here they show you how to prepare your system for the replica, manage the replication, and also look at understanding failover to the replica.",
+          "length": "1402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-3-implementing_hyper-v_replica-041217-PGM.00_00_12_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-3-implementing_hyper-v_replica-041217-PGM.00_00_12_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-10-3-implementing_hyper-v_replica-041217-PGM.00_00_12_02.Still001-sm.jpg",
+          "title": "Implementing Hyper-V Replica",
+          "transcript": "",
+          "url": "implementing-hyperv-replica",
+          "vimeoId": "213518168"
+        }
+      ],
+      "title": "High Availability, Protection, and Recovery for the Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam walk you through installing and configuring Windows Server Update Service(WSUS). They will take you from start to finish, explaining each step in detail along the way as well as helping you avoid any common stumbling blocks.",
+          "length": "2485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-1-1-optimizing_your_cloud_infrastructure-032917-PGM.00_41_08_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-1-1-optimizing_your_cloud_infrastructure-032917-PGM.00_41_08_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-1-1-optimizing_your_cloud_infrastructure-032917-PGM.00_41_08_07.Still001-sm.jpg",
+          "title": "Optimizing Your Cloud Infrastructure",
+          "transcript": "",
+          "url": "optimizingcloud-infrastructure",
+          "vimeoId": "210955771"
+        },
+        {
+          "description": "In this episode, Daniel and Adam walk you through installing and configuring Windows Server Update Service(WSUS). They will take you from start to finish, explaining each step in detail along the way as well as helping you avoid any common stumbling blocks.",
+          "length": "1300",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-1-intsall_and_configure_wsus-032917-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-1-intsall_and_configure_wsus-032917-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-1-intsall_and_configure_wsus-032917-high-sm.jpg",
+          "title": "Install and Configure WSUS",
+          "transcript": "",
+          "url": "installconfigure-wsus",
+          "vimeoId": "215009106"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue to walk you through installing and configuring Windows Server Update Service(WSUS). Here they are focusing more on post-configuration. This will cover creating WSUS computer groups, update approval, and connecting WSUS to System Center.",
+          "length": "1916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-2-intsall_and_configure_wsus_pt2-032917-PGM.00_31_40_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-2-intsall_and_configure_wsus_pt2-032917-PGM.00_31_40_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-2-intsall_and_configure_wsus_pt2-032917-PGM.00_31_40_29.Still001-sm.jpg",
+          "title": "Install and Configure WSUS Part 2",
+          "transcript": "",
+          "url": "installconfigure-wsus2",
+          "vimeoId": "211301142"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue to walk you through installing and configuring Windows Server Update Service(WSUS). Here they are focusing on more post-installation configuration, specifically synchronizing WSUS with System Center as well as connecting WSUS with the System Center Virtual Machine Manager.",
+          "length": "882",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-3-intsall_and_configure_wsus_pt3-032917-PGM.00_14_26_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-3-intsall_and_configure_wsus_pt3-032917-PGM.00_14_26_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-11-2-3-intsall_and_configure_wsus_pt3-032917-PGM.00_14_26_22.Still001-sm.jpg",
+          "title": "Install and Configure WSUS Part 3",
+          "transcript": "",
+          "url": "installconfigure-wsus3",
+          "vimeoId": "211301890"
+        }
+      ],
+      "title": "Optimizing Your Cloud Infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Adam explore configuring SLAs, Widgets, and Dashboards. They begin by creating a calendar item, SLA metrics, and SLOs. They also show you defining an SLO against an application and running a Service Level tracking report.",
+          "length": "1916",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-1-slas_widgets_and_dashboards-041117-PGM.00_31_40_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-1-slas_widgets_and_dashboards-041117-PGM.00_31_40_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-1-slas_widgets_and_dashboards-041117-PGM.00_31_40_13.Still001-sm.jpg",
+          "title": "SLAs, Widgets and Dashboards",
+          "transcript": "",
+          "url": "slas-widgetsdashboards",
+          "vimeoId": "213517307"
+        },
+        {
+          "description": "In this episode, Daniel and Adam continue discussing and demonstrating SLAs, Widgets, and Dashboards. Here they show creating custom dashboards and widgets as well as  publishing to Visio, Sharepoint, and System Center analytics. Finally, they explain installing and configuring Service Reporting.",
+          "length": "2108",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-2-slas_widgets_and_dashboards_pt2-041117-PGM.00_34_52_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-2-slas_widgets_and_dashboards_pt2-041117-PGM.00_34_52_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-privatecloud70246/microsoft-mcse-privatecloud70246-12-1-2-slas_widgets_and_dashboards_pt2-041117-PGM.00_34_52_07.Still001-sm.jpg",
+          "title": "SLAs, Widgets and Dashboards Part 2",
+          "transcript": "",
+          "url": "slas-widgetsdashboards2",
+          "vimeoId": "213517691"
+        }
+      ],
+      "title": "Configuring SLAs, Dashboards, and Widgets"
+    }
+  ],
+  "url": "mcse-private-cloud-70246",
+  "vLab": false
+}

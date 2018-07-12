@@ -12,7 +12,7 @@ class ButtonSwitch extends Component {
     };
   }
 
-  handleClick = e => {
+  handleClick = (e) => {
     const { handleSwitch } = this.props;
     const { isActive } = this.state;
     const target = e.target.innerHTML;

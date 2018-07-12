@@ -1,0 +1,150 @@
+{
+  "description": "In this series, Vonne and Justin explore the intricate world of Object-Oriented Programming(OOP), particularly in the context of the Python programming language. Starting with the basics of OOP, Justin demonstrates the creation of classes and associated objects from those classes. Moreover, Justin demonstrates the use of Inheritance of classes to reduce code repetitiveness in an effort to adhere to the Don't Repeat Yourself (DRY) principle. Lastly, Justin builds a simple OOP centric text-based adventure. If you are ready to get into Object-Oriented Python, then join us!",
+  "descriptionMD": "In this series, Vonne and Justin explore the intricate world of Object-Oriented Programming(OOP), particularly in the context of the Python programming language. Starting with the basics of OOP, Justin demonstrates the creation of classes and associated objects from those classes. Moreover, Justin demonstrates the use of Inheritance of classes to reduce code repetitiveness in an effort to adhere to the Don't Repeat Yourself (DRY) principle. Lastly, Justin builds a simple OOP centric text-based adventure. If you are ready to get into Object-Oriented Python, then join us!",
+  "length": "16403",
+  "name": "Object Oriented Python",
+  "practiceExam": false,
+  "subtitle": "Coding the way the cool kids do",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, Vonne and Justin explore the intricate world of Object-Oriented Programming(OOP), particularly in the context of the Python programming language. Starting with the basics of OOP, Justin demonstrates the creation of classes and associated objects from those classes. Moreover, Justin demonstrates the use of Inheritance of classes to reduce code repetitiveness in an effort to adhere to the Don't Repeat Yourself (DRY) principle. Lastly, Justin builds a simple OOP centric text-based adventure. If you are ready to get into Object-Oriented Python, then join us!",
+          "length": "169",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-0-0-overview-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-0-0-overview-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-0-0-overview-031517-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.433\n[SOUND] In this series, we're going to\nbe covering object-oriented Python.\n\n2\n00:00:07.433 --> 00:00:10.091\nSo Justin, what exactly is\nobject-oriented Python, and\n\n3\n00:00:10.091 --> 00:00:12.060\nwhat are are we gonna be covering?\n\n4\n00:00:12.060 --> 00:00:12.576\n&gt;&gt; So Yvonne,\n\n5\n00:00:12.576 --> 00:00:16.206\nobject-oriented Python is a particular\ntake on object-oriented programming.\n\n6\n00:00:16.206 --> 00:00:20.074\nSo we're gonna start by looking at\nobject-oriented programming from a very\n\n7\n00:00:20.074 --> 00:00:23.645\nhigh level, like abstraction,\nencapsulation, polymorphism, and\n\n8\n00:00:23.645 --> 00:00:24.730\ninheritance.\n\n9\n00:00:24.730 --> 00:00:27.240\nBut then we're gonna take\na look at how those ideas\n\n10\n00:00:27.240 --> 00:00:29.560\nplay into the Python language themselves.\n\n11\n00:00:29.560 --> 00:00:33.060\nAnd particularly, look at classes,\nmultiple inheritance,\n\n12\n00:00:33.060 --> 00:00:38.040\nsingle inheritance, how to use those\nclasses, and then what that all entails.\n\n13\n00:00:38.040 --> 00:00:40.670\n&gt;&gt; Okay, so that's a good big\npicture that we're going with.\n\n14\n00:00:40.670 --> 00:00:41.650\nWhat about the specifics?\n\n15\n00:00:41.650 --> 00:00:43.310\nWhat are we really gonna be diving into?\n\n16\n00:00:43.310 --> 00:00:47.350\n&gt;&gt; So as far as specifics for Python,\nafter we cover the object-oriented\n\n17\n00:00:47.350 --> 00:00:49.880\nprogramming principles,\nwe're gonna take a look at Python.\n\n18\n00:00:49.880 --> 00:00:51.860\nHow do I create a class, right?\n\n19\n00:00:51.860 --> 00:00:52.810\nHow do I start?\n\n20\n00:00:52.810 --> 00:00:53.690\nWhat are methods?\n\n21\n00:00:53.690 --> 00:00:55.780\nHow do I add methods to classes?\n\n22\n00:00:55.780 --> 00:00:59.470\nIn particular, we're gonna pay\nclose attention on being Pythonic.\n\n23\n00:00:59.470 --> 00:01:03.420\nSo if we give our class to someone else\nthat writes Python, they'll go, yeah,\n\n24\n00:01:03.420 --> 00:01:06.360\nthis is Python code,\nand it looks Pythonic.\n\n25\n00:01:06.360 --> 00:01:10.394\nAnd then we're gonna illustrate the\nnuanced differences between the difference\n\n26\n00:01:10.394 --> 00:01:12.391\ninheritance models of Python, right?\n\n27\n00:01:12.391 --> 00:01:14.043\nWhat about single inheritance,\n\n28\n00:01:14.043 --> 00:01:17.660\nwhich is available in a great deal\nof object-oriented languages?\n\n29\n00:01:17.660 --> 00:01:20.143\nBut also,\nPython provides multiple inheritance.\n\n30\n00:01:20.143 --> 00:01:25.112\nAnd as kind of a juxtaposition to that,\nhow can we not use multiple inheritance,\n\n31\n00:01:25.112 --> 00:01:29.200\ncuz it does have its issues,\nand use composition instead?\n\n32\n00:01:29.200 --> 00:01:32.620\nAnd in the grand finale,\nwe're gonna start building\n\n33\n00:01:32.620 --> 00:01:36.960\na text-based adventure game employing\nthese object-oriented principles.\n\n34\n00:01:36.960 --> 00:01:41.730\nAnd building these Python classes to,\nwell, play a game and\n\n35\n00:01:41.730 --> 00:01:43.800\nsee how that kind of burgeons forth.\n\n36\n00:01:43.800 --> 00:01:47.370\n&gt;&gt; All right, so what should we\nknow before starting this series?\n\n37\n00:01:47.370 --> 00:01:51.490\nWhat do you assume people out there\nshould know before watching anything?\n\n38\n00:01:51.490 --> 00:01:53.460\nAnd what's our ultimate goal?\n\n39\n00:01:53.460 --> 00:01:57.630\n&gt;&gt; So Yvonne, as far as who's this course,\nthis series concerned, right?\n\n40\n00:01:57.630 --> 00:01:59.790\nWho's actually going to benefit most?\n\n41\n00:01:59.790 --> 00:02:01.500\nIf you've been programming\nin Python before,\n\n42\n00:02:01.500 --> 00:02:03.380\nyou know a little bit about the language.\n\n43\n00:02:03.380 --> 00:02:05.800\nYou know how a for loop and\na while loop works.\n\n44\n00:02:05.800 --> 00:02:11.270\nYou know how to construct integers and\nfloats and various object strings.\n\n45\n00:02:11.270 --> 00:02:14.490\nThis is probably gonna be a good\nway to level up your skills.\n\n46\n00:02:14.490 --> 00:02:19.830\nHowever, if you've never programmed in\nPython before, or maybe you've touched on\n\n47\n00:02:19.830 --> 00:02:24.320\nit, you've seen it, this may be a little\nbeyond what you're comfortable with.\n\n48\n00:02:24.320 --> 00:02:27.170\nWith that said,\nit never hurts to check things out.\n\n49\n00:02:27.170 --> 00:02:31.500\nSo the ultimate goal is to\nlevel up your Python skills.\n\n50\n00:02:31.500 --> 00:02:33.810\nBut unfortunately,\nthere is not a certification at the end,\n\n51\n00:02:33.810 --> 00:02:37.860\nas some of our other\ntechnology avenues take us.\n\n52\n00:02:37.860 --> 00:02:39.500\nIt's just about getting better.\n\n53\n00:02:39.500 --> 00:02:43.403\nSo if that sounds like something you're\ninterested in, definitely check this out,\n\n54\n00:02:43.403 --> 00:02:44.607\nand we'll see you there.\n\n55\n00:02:46.171 --> 00:02:48.610\n[SOUND]\n\n",
+          "url": "overview70765",
+          "vimeoId": "208844363"
+        },
+        {
+          "description": "In this episode, Vonne and Justin cover the basics of getting started in Object-Oriented Python. They cover topics such as the current version of Python, types of text editors and IDEs to edit code, and testing in the REPL.",
+          "length": "1545",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-1-1-installation_and_setup-030817-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-1-1-installation_and_setup-030817-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-1-1-installation_and_setup-030817-1-sm.jpg",
+          "title": "Installation and Setup",
+          "transcript": "",
+          "url": "installationsetup",
+          "vimeoId": "208132275"
+        },
+        {
+          "description": "In this episode, Vonne and Justin review the basic principles of Object-Oriented Programming: encapsulation, abstraction, inheritance, and polymorphism.  These principles will be demonstrated and referred to throughout the series.",
+          "length": "936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-2-1-what_is_object_oriented_programmin-030817-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-2-1-what_is_object_oriented_programmin-030817-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-2-1-what_is_object_oriented_programmin-030817-high-sm.jpg",
+          "title": "What is Object Oriented Programming",
+          "transcript": "",
+          "url": "object-oriented-programming",
+          "vimeoId": "208132567"
+        },
+        {
+          "description": "In this episode, Vonne and Justin discuss creating classes and objects. In addition, they cover adding methods to those objects as well as things to consider when using these features in Object-Oriented Python.",
+          "length": "1897",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-3-1-creating_classes_and_objects_in_python-030917-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-3-1-creating_classes_and_objects_in_python-030917-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-3-1-creating_classes_and_objects_in_python-030917-1-sm.jpg",
+          "title": "Creating Classes and Objects in Python",
+          "transcript": "",
+          "url": "creating-classesobjectspython",
+          "vimeoId": "208838008"
+        },
+        {
+          "description": "In this episode, Vonne and Justin discuss extending classes and demonstrate both single and multiple inheritance.",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-4-1-1-extending_classes-030917-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-4-1-1-extending_classes-030917-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-4-1-1-extending_classes-030917-1-sm.jpg",
+          "title": "Extending Classes",
+          "transcript": "",
+          "url": "extending-classes",
+          "vimeoId": "208838657"
+        },
+        {
+          "description": "In this episode, Vonne and Justin continue extending classes and multiple inheritance.  They also cover the topic of composition - demonstrating why this principle is favored as best practice.",
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/object-oriented-python-4-1-2-extending_classes_pt2-031017-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/object-oriented-python-4-1-2-extending_classes_pt2-031017-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/object-oriented-python-4-1-2-extending_classes_pt2-031017-high-sm.jpg",
+          "title": "Extending Classes Part 2",
+          "transcript": "",
+          "url": "extending-classes2",
+          "vimeoId": "208839105"
+        },
+        {
+          "description": "In this episode, Vonne and Justin build a simple text based game called MonsterSlash using Object-Oriented Python. They cover the game design and establish the actors in the game – the player and the enemy.",
+          "length": "1329",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-lets_build_it_monterslash_v.1-031017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-lets_build_it_monterslash_v.1-031017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-lets_build_it_monterslash_v.1-031017-1-sm.jpg",
+          "title": "Lets Build It MonsterSlash v.1",
+          "transcript": "",
+          "url": "buildmonsterslash-v1",
+          "vimeoId": "208839682"
+        },
+        {
+          "description": "In this episode, Vonne and Justin jump back in to building their MonsterSlash game using Object-Oriented Python. They cover how the player can engage the enemy and win!",
+          "length": "1775",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-2-lets_build_it_monster_slash_v1-031317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-2-lets_build_it_monster_slash_v1-031317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-5-1-2-lets_build_it_monster_slash_v1-031317-1-sm.jpg",
+          "title": "Lets Build It MonsterSlash v.1 Part 2",
+          "transcript": "",
+          "url": "buildmonsterslash-v12",
+          "vimeoId": "208840899"
+        },
+        {
+          "description": "In this episode, Vonne and Justin refine the game code in the MonsterSlash game using Object-Oriented Python. They cover making the code cleaner and more efficient as well as extending some of the aspects of the game.",
+          "length": "1081",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-6-1-monster_slash_v1_game_refactor-031317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-6-1-monster_slash_v1_game_refactor-031317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-6-1-monster_slash_v1_game_refactor-031317-1-sm.jpg",
+          "title": "MonsterSlash v.1 Game Refactor",
+          "transcript": "",
+          "url": "monsterslash-v1-game-refactor",
+          "vimeoId": "208841733"
+        },
+        {
+          "description": "In this episode, Vonne and Justin refine the actor code in the MonsterSlash game using Object-Oriented Python. They cover making the code cleaner and more efficient as well as extending some of the aspects of the player and the enemy.",
+          "length": "1587",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-7-1-monter_slash_v1_actor_refactor-031317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-7-1-monter_slash_v1_actor_refactor-031317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-7-1-monter_slash_v1_actor_refactor-031317-1-sm.jpg",
+          "title": "MonsterSlash v.1 Actor Refactor",
+          "transcript": "",
+          "url": "monsterslash-v1-actor-refactor",
+          "vimeoId": "208842202"
+        },
+        {
+          "description": "In this episode, Vonne and Justin are back with version 2 of the MonsterSlash game using Object-Oriented Python by expanding the characteristics of the actors and the game.",
+          "length": "1497",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-1-monsterslaash_v.2_enemies_attack-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-1-monsterslaash_v.2_enemies_attack-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-1-monsterslaash_v.2_enemies_attack-031517-1-sm.jpg",
+          "title": "MonsterSlash v.2 Enemies Attack",
+          "transcript": "",
+          "url": "monsterslash-v2-enemies-attack",
+          "vimeoId": "208843338"
+        },
+        {
+          "description": "In this episode, Vonne and Justin finish up with some final touches of version 2 of the MonsterSlash game using Object-Oriented Python.",
+          "length": "1319",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-2-monsterslaash_v.2_enemies_attack_pt._2-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-2-monsterslaash_v.2_enemies_attack_pt._2-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-objectorientedpython/techskills-objectorientedpython-8-1-2-monsterslaash_v.2_enemies_attack_pt._2-031517-1-sm.jpg",
+          "title": "MonsterSlash v.2 Enemies Attack Part 2",
+          "transcript": "",
+          "url": "monsterslash-v2-enemies-attack2",
+          "vimeoId": "208843848"
+        }
+      ],
+      "title": "Object Oriented Python"
+    }
+  ],
+  "url": "object-oriented-python",
+  "vLab": false
+}

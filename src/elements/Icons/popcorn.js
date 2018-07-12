@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const IconPopcorn = props => {
+const IconPopcorn = (props) => {
   const { className='', fill='none' } = props;
 
   return (

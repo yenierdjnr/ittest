@@ -1,0 +1,490 @@
+{
+  "description": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
+  "descriptionMD": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS\nSelecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
+  "length": "58982",
+  "name": "AWS Certified Solutions Architect - Associate",
+  "practiceExam": false,
+  "subtitle": "Designing distributed applications on AWS platform",
+  "tagUrl": "aws",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "AWS Certified Solutions Architect Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform. Exam concepts you should understand for this exam include designing and deploying scalable systems on AWS, lift and shift of an existing on-premises application to AWS, ingress and egress of data to and from AWS Selecting the appropriate AWS service based on data, compute, database, or security requirements, identifying appropriate use of AWS architectural best practices and estimating AWS costs and identifying cost control mechanisms.",
+          "length": "388",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-0-0-overview-032817.00_00_03_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-0-0-overview-032817.00_00_03_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-0-0-overview-032817.00_00_03_10.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.050 --> 00:00:03.629\n[SOUND] In this video\nwe're gonna take a look at\n\n2\n00:00:03.629 --> 00:00:07.774\nthe AWS Certified Solutions\nArchitect: Associate\n\n3\n00:00:07.774 --> 00:00:11.275\ncertification content here on ITPro.TV.\n\n4\n00:00:11.275 --> 00:00:15.435\nNow for those of you that are looking to\nget certified in AWS or just learn about\n\n5\n00:00:15.435 --> 00:00:19.870\nAmazon Web Services in general,\nthe ACSA is the starting point for you.\n\n6\n00:00:19.870 --> 00:00:23.130\nIn this certification we run\nthough basically an overview of\n\n7\n00:00:23.130 --> 00:00:26.650\nall of the different\nsolutions that make up AWS.\n\n8\n00:00:26.650 --> 00:00:29.250\nAmazon Web Services is actually\na really massive product,\n\n9\n00:00:29.250 --> 00:00:31.860\na collection of a number of\ndifferent utilities and services\n\n10\n00:00:31.860 --> 00:00:35.670\nthat when you put them all together create\nan amazing solutions infrastructure.\n\n11\n00:00:35.670 --> 00:00:37.420\nNow, who is this targeted towards?\n\n12\n00:00:37.420 --> 00:00:40.970\nWell, really anybody who wants\nto learn more about AWS and\n\n13\n00:00:40.970 --> 00:00:44.740\ncloud infrastructure, this is a great\nstarting point to jump in and get working.\n\n14\n00:00:44.740 --> 00:00:49.130\nBut it's really targeted toward SysOps and\nDevOps, people who are responsible for\n\n15\n00:00:49.130 --> 00:00:52.560\nmaintaining systems, and are looking\nto deploy them in the cloud, and\n\n16\n00:00:52.560 --> 00:00:54.730\nare entertaining using\nAWS as that solution.\n\n17\n00:00:54.730 --> 00:00:58.560\nSo, if you fit that mold,\nthis is the certification for you.\n\n18\n00:00:58.560 --> 00:01:02.250\nBut why is it that it targets\nthat kind of audience so well?\n\n19\n00:01:02.250 --> 00:01:04.670\nAnd the reason is, this certification's\na little bit different than some of\n\n20\n00:01:04.670 --> 00:01:05.490\nthe other ones that we do.\n\n21\n00:01:05.490 --> 00:01:09.190\nA lot of times we focus\nreally on the how to side.\n\n22\n00:01:09.190 --> 00:01:10.800\nHow to perform a certain activity.\n\n23\n00:01:10.800 --> 00:01:13.440\nHow to perform some certain job, or\n\n24\n00:01:13.440 --> 00:01:15.910\naction that needs to be\ndone to provide a service.\n\n25\n00:01:15.910 --> 00:01:20.680\nBut in this certification,\nit's more of a higher level overview of\n\n26\n00:01:20.680 --> 00:01:22.890\nhere's what this product is and\nwhat it does.\n\n27\n00:01:22.890 --> 00:01:24.990\nHere's what this other product is,\nand what it does.\n\n28\n00:01:24.990 --> 00:01:28.660\nAnd it gives you kind of the run of the\nwhole show, and that's really important.\n\n29\n00:01:28.660 --> 00:01:32.820\nBecause when you design a solution,\nwhen you architect a solution that's gonna\n\n30\n00:01:32.820 --> 00:01:36.750\nbe running up in AWS, you need to\nunderstand what all your options are, and\n\n31\n00:01:36.750 --> 00:01:39.670\nhow to make sure that you\npick the best option.\n\n32\n00:01:39.670 --> 00:01:43.660\nHow do you know that your design is\nrunning as efficiently as it could?\n\n33\n00:01:43.660 --> 00:01:46.700\nMeanwhile there might be other services\navailable inside of the AWS suite that you\n\n34\n00:01:46.700 --> 00:01:50.510\ncan be leveraging to make your web server\nor database or whatever your solution is,\n\n35\n00:01:50.510 --> 00:01:53.390\nyour web application,\ncould be running that much faster.\n\n36\n00:01:53.390 --> 00:01:56.306\nThat's where the certified\nsolutions architect comes in.\n\n37\n00:01:56.306 --> 00:01:58.310\nLet me show you some of\nthe things that are on the exam.\n\n38\n00:01:59.320 --> 00:02:02.560\nI've got the web page pulled up here so\nwe can take a look at it.\n\n39\n00:02:02.560 --> 00:02:04.823\nAnd if you haven't been to this website,\nit's actually very valuable.\n\n40\n00:02:04.823 --> 00:02:06.520\nIt's right on Amazon's web page.\n\n41\n00:02:06.520 --> 00:02:08.390\nThey've got everything dialed down for\nyou.\n\n42\n00:02:08.390 --> 00:02:11.600\nBut they've got a little link over on\nthe side to download the exam guide.\n\n43\n00:02:11.600 --> 00:02:15.650\nAnd in the exam guide, they give\nyou a rundown of what prerequisite\n\n44\n00:02:15.650 --> 00:02:20.510\nknowledge is expected for you to have,\nas well as what is covered on the exam.\n\n45\n00:02:20.510 --> 00:02:22.330\nAnd that's really what I\nwanna highlight right here,\n\n46\n00:02:22.330 --> 00:02:24.500\nis what to expect on the exam itself.\n\n47\n00:02:24.500 --> 00:02:28.310\nAnd what you'll see is that the exam\nis divided up into four domains.\n\n48\n00:02:28.310 --> 00:02:32.730\nWe've got designing a highly available,\ncost-efficient, fault-tolerant,\n\n49\n00:02:32.730 --> 00:02:34.270\nscalable system.\n\n50\n00:02:34.270 --> 00:02:37.450\nNow that is a lot, right?\n\n51\n00:02:37.450 --> 00:02:41.510\nWe're not just saying hey, I wanna run\nWordPress in the cloud, that's not it.\n\n52\n00:02:41.510 --> 00:02:46.230\nI wanna run WordPress, but I want it\nto be fast, I want it to scale large,\n\n53\n00:02:46.230 --> 00:02:48.210\nI want it to be redundant and\nfault-tolerant.\n\n54\n00:02:48.210 --> 00:02:49.930\nI want all these other pieces.\n\n55\n00:02:49.930 --> 00:02:53.900\nAnd so, we take a look at all the\ndifferent resources in AWS that can make\n\n56\n00:02:53.900 --> 00:02:54.840\nthat happen.\n\n57\n00:02:54.840 --> 00:02:58.610\nAnd you'll notice that\nthat 60% of the exam,\n\n58\n00:02:58.610 --> 00:03:02.420\nover half the exam is right\nthere in that one domain.\n\n59\n00:03:02.420 --> 00:03:07.200\nThat's the main part, the main focus\nof this exam is not how to do it but\n\n60\n00:03:07.200 --> 00:03:08.550\nwhy to do it, right?\n\n61\n00:03:08.550 --> 00:03:09.490\nWhat do I choose?\n\n62\n00:03:09.490 --> 00:03:11.860\nHow do I create that design?\n\n63\n00:03:11.860 --> 00:03:15.675\nAnd then in the follow up certifications\nin these sys ops administrator, or\n\n64\n00:03:15.675 --> 00:03:17.810\nthe dev ops administrator exams.\n\n65\n00:03:17.810 --> 00:03:19.700\nThose focus on the actually how to do it,\nright?\n\n66\n00:03:19.700 --> 00:03:23.580\nHere's how we go in and\nwe set up multi AZ replication.\n\n67\n00:03:23.580 --> 00:03:26.880\nHere, we learn that we should\nset up multi AZ replication,\n\n68\n00:03:26.880 --> 00:03:28.310\nwhat benefit that provides us, right?\n\n69\n00:03:28.310 --> 00:03:31.477\nSo this is kind of the why\nthat leads to the how.\n\n70\n00:03:31.477 --> 00:03:35.155\nThe other three domains are important also\nthough, so we shouldn't neglect those.\n\n71\n00:03:35.155 --> 00:03:38.925\nThe second one is implementing deployment\nright, or implementing and applying.\n\n72\n00:03:38.925 --> 00:03:41.965\nSo actually putting our\npractices into action.\n\n73\n00:03:41.965 --> 00:03:45.020\nAnd you'll see that's\nonly 10% of the exam.\n\n74\n00:03:45.020 --> 00:03:46.480\nData security is next.\n\n75\n00:03:46.480 --> 00:03:47.880\nSecurity is very important.\n\n76\n00:03:47.880 --> 00:03:49.810\nWe need to make sure that our\nsolutions are protected, and\n\n77\n00:03:49.810 --> 00:03:54.280\nthat we don't have an unexpected release\nof customer information to the public.\n\n78\n00:03:54.280 --> 00:03:56.020\nThat's not something we wanna have happen.\n\n79\n00:03:56.020 --> 00:03:57.729\nAnd that makes up 20% of the exam.\n\n80\n00:03:57.729 --> 00:03:59.765\nAnd then lastly, we have troubleshooting.\n\n81\n00:03:59.765 --> 00:04:02.815\nSometimes things don't go quite\nthe way we hoped they should go.\n\n82\n00:04:02.815 --> 00:04:05.265\nAnd we need to be able to identify and\nresolve that.\n\n83\n00:04:05.265 --> 00:04:07.575\nAnd that makes up another 10% of the exam.\n\n84\n00:04:07.575 --> 00:04:10.425\nSo, you'll notice that those last\nthree domains really account for\n\n85\n00:04:10.425 --> 00:04:13.565\nless than half of what we're\ngonna be learning about.\n\n86\n00:04:13.565 --> 00:04:17.775\nAnd it shows how big of a stress this exam\nis putting on actually creating a design.\n\n87\n00:04:17.775 --> 00:04:20.930\nUnderstanding why you would use\ncertain solutions versus others\n\n88\n00:04:20.930 --> 00:04:23.940\nto meet the needs of a customer or\nmeet the needs of your company.\n\n89\n00:04:23.940 --> 00:04:26.703\nSo that's all kind of critical\ninformation to be thinking about.\n\n90\n00:04:26.703 --> 00:04:29.898\nIf you have a chance to look at this guide\nthough, it does break down even further\n\n91\n00:04:29.898 --> 00:04:33.049\ninto the domains and talk about the\nindividual components you're expected to\n\n92\n00:04:33.049 --> 00:04:36.520\nknow, and what you really should\nhave kind of going into the exam.\n\n93\n00:04:36.520 --> 00:04:38.170\nNow let's talk about\nthat exam a little bit.\n\n94\n00:04:38.170 --> 00:04:41.240\nThe exam itself,\nthey post the information right here.\n\n95\n00:04:41.240 --> 00:04:43.510\nIt's 80 minutes so\nit's not a terribly long exam,\n\n96\n00:04:43.510 --> 00:04:45.020\njust under an a hour and a half.\n\n97\n00:04:45.020 --> 00:04:47.890\nAnd basically you can jump in and\ntake it, it is computer based.\n\n98\n00:04:47.890 --> 00:04:49.770\nThere's a few places you\ncan take it in person but\n\n99\n00:04:49.770 --> 00:04:52.840\nmost of us are gonna take it online\nthrough the Web Assessor system.\n\n100\n00:04:52.840 --> 00:04:59.460\nIt’s $150 and once you sign up, you use\nthe, there’s a link over here that says,\n\n101\n00:04:59.460 --> 00:05:02.560\nschedule an exam and\nthat will take you to Web Assessor.\n\n102\n00:05:02.560 --> 00:05:05.810\nAnd from here, you can create a free\naccount and then you sign up for\n\n103\n00:05:05.810 --> 00:05:07.300\nthe exam which is a $150.\n\n104\n00:05:07.300 --> 00:05:10.980\nThe free account allows you to track all\nof your certifications that you do through\n\n105\n00:05:10.980 --> 00:05:11.760\nWeb Assessor.\n\n106\n00:05:11.760 --> 00:05:14.530\nSo as you continue on through\nAmazon’s other certifications,\n\n107\n00:05:14.530 --> 00:05:17.810\nyou’ll be able to track their completion,\n\n108\n00:05:17.810 --> 00:05:21.220\nemployer certificate, and other\ninformation all right from one place.\n\n109\n00:05:21.220 --> 00:05:22.010\nYou sign up from here,\n\n110\n00:05:22.010 --> 00:05:25.210\nand then you're able to take the exam\nfrom the comfort of your own home.\n\n111\n00:05:25.210 --> 00:05:27.000\nYou can take it from the office,\nor wherever.\n\n112\n00:05:27.000 --> 00:05:29.660\nAnd you'll be able to get certified, and\n\n113\n00:05:29.660 --> 00:05:32.660\nthen jump out there and\nput everything you learned into practice.\n\n114\n00:05:32.660 --> 00:05:36.700\nAnd hopefully continue on with the other\nAWS certifications that are available.\n\n115\n00:05:37.800 --> 00:05:40.190\nAll right well that's a pretty good\nrun down of what's on the exam.\n\n116\n00:05:40.190 --> 00:05:42.120\nI hope it all sounded interesting to you.\n\n117\n00:05:42.120 --> 00:05:46.040\nIf it's what you're excited to learn about\nthen stay tuned because we've got episodes\n\n118\n00:05:46.040 --> 00:05:50.370\nof AWS Certified Solutions\nArchitect Associate coming up next.\n\n119\n00:05:50.370 --> 00:05:53.030\nNow if that didn't sound\nquite exciting for you or\n\n120\n00:05:53.030 --> 00:05:56.470\nyou're worried about not knowing enough\nabout cloud infrastructure before diving\n\n121\n00:05:56.470 --> 00:05:59.600\nin, be sure to check out a lot of the\nother certifications we have on IT Pro TV.\n\n122\n00:05:59.600 --> 00:06:04.370\nThere's some certifications like Network+\nthat are really beneficial to have already\n\n123\n00:06:04.370 --> 00:06:06.640\ngotten under your belt before\njumping into cloud technology.\n\n124\n00:06:06.640 --> 00:06:08.520\nCuz networking is so important.\n\n125\n00:06:08.520 --> 00:06:10.830\nThat's base knowledge that\nyou're really expected to have.\n\n126\n00:06:10.830 --> 00:06:14.460\nSo if you find yourself struggling\nwith the ACSA just jump over and\n\n127\n00:06:14.460 --> 00:06:17.250\ncheck out Network+ for a little while,\nand then come back when you're ready.\n\n128\n00:06:17.250 --> 00:06:20.054\nAll of that's available as part\nof your ITPro.TV subscription.\n\n129\n00:06:20.054 --> 00:06:23.505\nAll right, I hope you guys enjoyed it and\nI'll see you in the episodes.\n\n130\n00:06:23.505 --> 00:06:27.934\n[SOUND]\n\n",
+          "url": "overview70762",
+          "vimeoId": "212967935"
+        },
+        {
+          "description": "In this episode, Justin and Don explore the motivation for using a cloud infrastructure over an on-premises solution. They begin by exploring what cloud computing is, dive into the how and why Amazon Web Services are used, and end with models of deployment for AWS.",
+          "length": "1833",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-1-introduction_to_aws-022817.00_30_15_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-1-introduction_to_aws-022817.00_30_15_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-1-introduction_to_aws-022817.00_30_15_17.Still001-sm.jpg",
+          "title": "Introduction to AWS",
+          "transcript": "",
+          "url": "introductionaws",
+          "vimeoId": "206254572"
+        },
+        {
+          "description": "In this episode, Justin and Don take a look at the global infrastructure that is provide by Amazon and discuss the ramifications of that infrastructure such as security and compliance concerns. They wrap up with a quick overview of the services that are available with a tour through the Amazon console.",
+          "length": "1871",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-2-introduction_to_aws_pt2-022817.00_30_55_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-2-introduction_to_aws_pt2-022817.00_30_55_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-1-1-2-introduction_to_aws_pt2-022817.00_30_55_16.Still001-sm.jpg",
+          "title": "Introduction to AWS Part 2",
+          "transcript": "",
+          "url": "introductionaws2",
+          "vimeoId": "206256484"
+        }
+      ],
+      "title": "Introduction to AWS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Don focus on the Simple Storage Solution service, also known as S3. They take a look at the difference between standard file storage and the object storage of S3 including creating buckets and objects. As the show comes to a close, Don and Justin explore the redundancy and availability policies for S3 object storage.",
+          "length": "1925",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-amazon_s3_basics-022817.00_31_48_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-amazon_s3_basics-022817.00_31_48_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-amazon_s3_basics-022817.00_31_48_28.Still001-sm.jpg",
+          "title": "Amazon S3 Basics",
+          "transcript": "",
+          "url": "amazon-s3-basics",
+          "vimeoId": "206257642"
+        },
+        {
+          "description": "In this episode, Justin and Don continue the exploration of the S3 service provided by Amazon. They explore the differences among the data consistency models that are guaranteed by S3. Moreover, they explore how to modify access to S3 buckets and files contained within using access control list, bucket policies, and IAM policies. The show wraps up with a quick dive into static web hosting using the S3 service.",
+          "length": "1578",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-2-amazon_s3_basics_pt2-030117.00_26_02_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-2-amazon_s3_basics_pt2-030117.00_26_02_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-1-2-amazon_s3_basics_pt2-030117.00_26_02_23.Still001-sm.jpg",
+          "title": "Amazon S3 Basics Part 2",
+          "transcript": "",
+          "url": "amazon-s3-basics2",
+          "vimeoId": "207132110"
+        },
+        {
+          "description": "In this episode, Justin and Don start with a quick review of naming and storage classes  in S3. Don discusses the usage of the storage classes with object lifecycle management as well as provides a glimpse into methods that can be employed to ensure data security including encryption, versioning, multi-factor authentication policies, and pre-signed urls.",
+          "length": "1550",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-1-amazon_s3_advanced-030117.00_25_33_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-1-amazon_s3_advanced-030117.00_25_33_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-1-amazon_s3_advanced-030117.00_25_33_29.Still001-sm.jpg",
+          "title": "Amazon S3 Advanced Features",
+          "transcript": "",
+          "url": "amazon-s3-advanced",
+          "vimeoId": "207133026"
+        },
+        {
+          "description": "In this episode, Justin and Don finish up with the more advanced features that are available in S3 such as multi-part uploads, range gets, and cross region replication strategies while highlighting details to consider when employing these features. They continued discussing how to monitor and log activity as well as respond to that activity. Finally, Don highlights best practices, patterns of design, and performance consideration when employing S3.",
+          "length": "1344",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-2-amazon_s3_advanced_pt2-030117.00_22_20_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-2-amazon_s3_advanced_pt2-030117.00_22_20_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-2-2-amazon_s3_advanced_pt2-030117.00_22_20_16.Still001-sm.jpg",
+          "title": "Amazon S3 Advanced Part 2",
+          "transcript": "",
+          "url": "amazon-s3-advanced2",
+          "vimeoId": "207291608"
+        },
+        {
+          "description": "In this episode, Justin and Don explore the AWS service Glacier as a backup solution of on and off premises data. They cover the difference between Glacier and other AWS storage solutions as well as the points that you must consideration when designing a system that uses Glacier for archival system.",
+          "length": "1499",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-3-amazon_glacier-030217.00_24_47_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-3-amazon_glacier-030217.00_24_47_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-2-3-amazon_glacier-030217.00_24_47_25.Still001-sm.jpg",
+          "title": "Amazon Glacier",
+          "transcript": "",
+          "url": "amazon-glacier",
+          "vimeoId": "207292536"
+        }
+      ],
+      "title": "Amazon S3 and Glacier Storage"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Justin and Don start by exploring what EC2 is and what value this provides from AWS. They differentiate among the different type of instances that are available  from Amazon with additional consideration to the operating systems that can be configure with the EC2 instance.",
+          "length": "1831",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-1-amazon_ec2_basics-030217.00_30_19_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-1-amazon_ec2_basics-030217.00_30_19_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-1-amazon_ec2_basics-030217.00_30_19_21.Still001-sm.jpg",
+          "title": "Amazon EC2 Basics",
+          "transcript": "",
+          "url": "amazon-ec2-basics",
+          "vimeoId": "207293060"
+        },
+        {
+          "description": "In this episode, Justin and Don take a look at what is next after deploying an EC2. They configure IP addresses and use services such as SSH/RDP to explore a deployed machine. With security in mind, Don demonstrates the management of a security for accessing the instance. Lastly, they review the tools available for managing the lifecycle of the instance as well as monitoring for issues.",
+          "length": "1987",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-2-amazon_ec2_basics_pt2-030217.00_34_10_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-2-amazon_ec2_basics_pt2-030217.00_34_10_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-2-amazon_ec2_basics_pt2-030217.00_34_10_15.Still001-sm.jpg",
+          "title": "Amazon EC2 Basics Part 2",
+          "transcript": "",
+          "url": "amazon-ec2-basics2",
+          "vimeoId": "207293605"
+        },
+        {
+          "description": "In this episode, Justin and Don discuss pricing of EC2 instances. Additionally, they discuss the tenancy types of EC2 such as shared or dedicated as well as the use of placement groups for deployment groups.",
+          "length": "1882",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-3-amazon_ec2_basics_pt3-030317.00_32_22_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-3-amazon_ec2_basics_pt3-030317.00_32_22_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-3-amazon_ec2_basics_pt3-030317.00_32_22_23.Still001-sm.jpg",
+          "title": "Amazon EC2 Basics Part 3",
+          "transcript": "",
+          "url": "amazon-ec2-basics3",
+          "vimeoId": "207294187"
+        },
+        {
+          "description": "In this episode, Justin and Don discuss storage options, ephemeral versus Elastic Block Storage(EBS), for EC2 and the impact these options make when planning the system. They also discuss managing the types of EBS, EBS can be backed or recovered, as well as encryption options for those EBS solutions.",
+          "length": "1483",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-4-amazon_ec2_basics_pt4-030317.00_28_16_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-4-amazon_ec2_basics_pt4-030317.00_28_16_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-3-1-4-amazon_ec2_basics_pt4-030317.00_28_16_01.Still001-sm.jpg",
+          "title": "Amazon EC2 Basics Part 4",
+          "transcript": "",
+          "url": "amazon-ec2-basics4",
+          "vimeoId": "208135722"
+        }
+      ],
+      "title": "Amazon EC2 and EBS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don take a look at Virtual Private Clouds(VPCs) in Amazon Web Services. They start with VPC basics, (what is it and where is it used), and then move into more specific topics like Subnets, Route Tables, Elastic IPs, Endpoints and Peering.",
+          "length": "1472",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-virtual_private_cloud-030617.00_24_17_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-virtual_private_cloud-030617.00_24_17_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-virtual_private_cloud-030617.00_24_17_29.Still001-sm.jpg",
+          "title": "Virtual Private Cloud",
+          "transcript": "",
+          "url": "virtual-private-cloud3",
+          "vimeoId": "208149819"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue diving into Virtual Private Clouds, here looking more into VPC security through things like Security Groups(SG), Network Access Control Lists(ACLs), Network Address Translation(NAT), and Virtual Private Networks(VPNs).",
+          "length": "1695",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-2-virtual_private_cloud_pt2-030617-PGM.00_28_00_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-2-virtual_private_cloud_pt2-030617-PGM.00_28_00_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-4-1-2-virtual_private_cloud_pt2-030617-PGM.00_28_00_29.Still001-sm.jpg",
+          "title": "Virtual Private Cloud Part 2",
+          "transcript": "",
+          "url": "virtual-private-cloud2",
+          "vimeoId": "208325121"
+        }
+      ],
+      "title": "Amazon Virtual Private Cloud"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don discuss Elastic Load Balancing(ELB) and Auto Scaling. They begin by looking at ELB as a way to distribute traffic across multiple instances, going over ELB types, configuration, listeners, and more advanced configuration like connection draining, proxy protocol, sticky sessions, and health check. Finally they dive into Auto Scaling plans, limits, and groups.",
+          "length": "1713",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-5-1-elb_and_auto_scaling-030617.00_35_55_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-5-1-elb_and_auto_scaling-030617.00_35_55_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-5-1-elb_and_auto_scaling-030617.00_35_55_11.Still001-sm.jpg",
+          "title": "ELB and Auto Scaling",
+          "transcript": "",
+          "url": "elbauto-scaling",
+          "vimeoId": "207813172"
+        }
+      ],
+      "title": "ELB, CloudWatch and Auto Scaling"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore Amazon's Identity and Access Management(IAM) feature. They start by explaining what IAM is and how it's used. Next they discuss the different types of users and groups, demonstrating how to create and modify them. Lastly, they begin looking at authenticating into AWS with the created users.",
+          "length": "1705",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-identity_and_access_management-030717.00_30_09_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-identity_and_access_management-030717.00_30_09_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-identity_and_access_management-030717.00_30_09_08.Still001-sm.jpg",
+          "title": "Identity and Access Management",
+          "transcript": "",
+          "url": "identityaccess-management",
+          "vimeoId": "207814811"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their discussion and demonstration of IAM, specifically they pick back up with Authorization through the creation and use of Policies. They walk you through creating Policies through both manual configuration as well as using the AWS provided wizard.",
+          "length": "1348",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-2-identity_and_access_management_pt2-030717.00_22_24_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-2-identity_and_access_management_pt2-030717.00_22_24_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-6-1-2-identity_and_access_management_pt2-030717.00_22_24_16.Still001-sm.jpg",
+          "title": "Identity and Access Management Part 2",
+          "transcript": "",
+          "url": "identityaccess-management2",
+          "vimeoId": "207815511"
+        }
+      ],
+      "title": "AWS Identity and Access Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don dive into Amazon's Relational Database Service. Here they explain what Relational Databases are and a bit of how they differ from NoSQL type databases. They then compare and contrast each of the supported relational databases like PostgreSQL, MySQL, and Oracle; finishing the show with RDS licensing models.",
+          "length": "1674",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-amazon_relational_database_service-030717.00_27_44_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-amazon_relational_database_service-030717.00_27_44_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-amazon_relational_database_service-030717.00_27_44_17.Still001-sm.jpg",
+          "title": "Amazon Relational Database Service",
+          "transcript": "",
+          "url": "amazon-relational-database-service",
+          "vimeoId": "207816212"
+        },
+        {
+          "description": "In this episode, Daniel and Don jump back into their discussion about Amazon Relational Database Services. They pick up by exploring the RDS storage options and backup and recovery features. Next they describe deploying RDS in a Multi-AZ environment. Finally they cover scaling, both up and out, and security options.",
+          "length": "1472",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-2-amazon_relational_database_service_pt2-030817.00_27_58_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-2-amazon_relational_database_service_pt2-030817.00_27_58_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-1-2-amazon_relational_database_service_pt2-030817.00_27_58_16.Still001-sm.jpg",
+          "title": "Amazon Relational Database Service Part 2",
+          "transcript": "",
+          "url": "amazon-relational-database-service2",
+          "vimeoId": "208325943"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore and demonstrate Amazon Redshift. They start by defining Redshift's role and contrasting it with other relational databases. Then they discuss Redshift Cluster's components including Nodes and Keys. Finally they look at recovery using Snapshots and security like IAM.",
+          "length": "1540",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-2-amazon_redshift-030817.00_26_37_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-2-amazon_redshift-030817.00_26_37_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-2-amazon_redshift-030817.00_26_37_25.Still001-sm.jpg",
+          "title": "Amazon Redshift",
+          "transcript": "",
+          "url": "amazon-redshift",
+          "vimeoId": "207817132"
+        },
+        {
+          "description": "In this episode, Daniel and Don take a look at DynamoDB, Amazon's high performance NoSQL database. They begin by explaining the basics of DynamoDB and NoSQL. Then they jump tackle the focus of DynamoDB. Also covered includes Scaling and Partitioning, Security, and Streams.",
+          "length": "1688",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-3-amazon_dynamodb-030817.00_31_46_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-3-amazon_dynamodb-030817.00_31_46_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-7-3-amazon_dynamodb-030817.00_31_46_13.Still001-sm.jpg",
+          "title": "Amazon Dynamodb",
+          "transcript": "",
+          "url": "amazon-dynamodb",
+          "vimeoId": "207817752"
+        }
+      ],
+      "title": "Databases and AWS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore the Amazon Simple Queue Service in AWS. They begin by defining SQS, what it is and where it's used. Then they dive into the specifics like the Message Lifecycle, Visibility Timeouts, Delay Queues, Identities, Messages, and Advanced Features.",
+          "length": "1614",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-1-amazon_simple_queue_service-030917.00_26_39_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-1-amazon_simple_queue_service-030917.00_26_39_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-1-amazon_simple_queue_service-030917.00_26_39_16.Still001-sm.jpg",
+          "title": "Amazon Simple Queue Service",
+          "transcript": "",
+          "url": "amazon-simple-queue-service",
+          "vimeoId": "207818492"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the Amazon Simple Workflow Service in AWS. They start by defining SWS, what it is and where it's used. Next, they walk you through the specifics such as Workflows, Actors, and Tasks. Finally, they look at advanced functions like Task Lists, Long Polling, and Closure.",
+          "length": "1340",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-2-amazon_simple_workflow_service-030917.00_24_40_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-2-amazon_simple_workflow_service-030917.00_24_40_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-2-amazon_simple_workflow_service-030917.00_24_40_17.Still001-sm.jpg",
+          "title": "Amazon Simple Workflow Service",
+          "transcript": "",
+          "url": "amazon-simple-workflow-service",
+          "vimeoId": "208135343"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore the Amazon Simple Notification Service in AWS. They start by defining SNS, what it is and where it's used. Then they go over the specifics like Clients, Topics, and possible scenarios where SNS may be deployed. Finally, they cover the advanced features like Fanout, ASW System Alerts, Push services.",
+          "length": "966",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-3-amazon_simple_notification_service-030917.00_15_49_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-3-amazon_simple_notification_service-030917.00_15_49_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-8-3-amazon_simple_notification_service-030917.00_15_49_13.Still001-sm.jpg",
+          "title": "Amazon Simple Notification Service",
+          "transcript": "",
+          "url": "amazon-simple-notification-service",
+          "vimeoId": "208136234"
+        }
+      ],
+      "title": "SQS, SWF, and SNS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don explore the basics of the Domain Name System and it’s implementation inside of AWS’s Route 53. They talk about basic DNS components, the name resolution process and record types. They will demonstrate the Route 53 interface.",
+          "length": "1991",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-9-1-dns_and_route_53-031517-PGM.00_37_57_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-9-1-dns_and_route_53-031517-PGM.00_37_57_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-9-1-dns_and_route_53-031517-PGM.00_37_57_25.Still001-sm.jpg",
+          "title": "DNS and Route 53",
+          "transcript": "",
+          "url": "dnsroute-53",
+          "vimeoId": "209554477"
+        }
+      ],
+      "title": "DNS and Amazon Route 53"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don take a look at AWS’s Amazon ElasticaCache. They will look at design considerations through availability zones (AZ), uses Multi-AZ replication, Memcached,  Redis, scalability and access control through IAM.",
+          "length": "1293",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-10-1-amazon_elasticache-031517-PGM.00_21_18_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-10-1-amazon_elasticache-031517-PGM.00_21_18_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-10-1-amazon_elasticache-031517-PGM.00_21_18_01.Still001-sm.jpg",
+          "title": "Amazon ElastiCache",
+          "transcript": "",
+          "url": "amazon-elasticache",
+          "vimeoId": "209555470"
+        }
+      ],
+      "title": "Amazon ElastiCache"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don explore more of the key services within AWS such as storage services. They will talk about Amazon CloudFront including the basics of the services, configuration, distributions, origins and cache control. They will also look at Amazon Storage Gateway including the basics, gateway-cached volumes, gateway-stored volumes and gateway-virtual tape library. They will explain the benefits of these services and specifications.",
+          "length": "1708",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-1-storage_services-031517-PGM.00_29_16_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-1-storage_services-031517-PGM.00_29_16_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-1-storage_services-031517-PGM.00_29_16_23.Still001-sm.jpg",
+          "title": "Storage Services",
+          "transcript": "",
+          "url": "storage-services",
+          "vimeoId": "209556076"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into additional services provided through AWS, focusing in on security services. They talk about AWS Directory services, AWS Key Management Services and Cloud HSM. They will also look at AWS CloudTrail.",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-2-security_services-031617-PGM.00_23_36_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-2-security_services-031617-PGM.00_23_36_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-2-security_services-031617-PGM.00_23_36_01.Still001-sm.jpg",
+          "title": "Security Services",
+          "transcript": "",
+          "url": "security-services",
+          "vimeoId": "209558986"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into additional services provided through AWS, focusing in on analytical services. They discuss Amazon Kinesis,  Amazon Elastic MapReduce (EMR), AWS Pipeline, AWS Snowball and AWS Import/Export.",
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-3-analytics_services-031617-PGM.00_25_25_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-3-analytics_services-031617-PGM.00_25_25_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-3-analytics_services-031617-PGM.00_25_25_26.Still001-sm.jpg",
+          "title": "Analytics Services",
+          "transcript": "",
+          "url": "analytics-services",
+          "vimeoId": "209559419"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into additional services provided through AWS, focusing in on DevOps services. They will talk about AWS OpsWorks, AWS CloudFormation, AWS Elasticstalk, AWS Trusted Advisor and AWS Config.",
+          "length": "1651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-4-devops_services-031617-PGM.00_27_17_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-4-devops_services-031617-PGM.00_27_17_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-11-4-devops_services-031617-PGM.00_27_17_01.Still001-sm.jpg",
+          "title": "DevOps Services",
+          "transcript": "",
+          "url": "devops-services",
+          "vimeoId": "209483515"
+        }
+      ],
+      "title": "Additional Key Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don dive into security inside of AWS. They talk about physical security and look at the point responsibility of AWS as well as the responsibility of the customer. They also look at network security, discussing various topics like tenant isolation, hypervisors, data transmission security and network monitoring.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-1-security_on_aws-031717-PGM.00_30_37_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-1-security_on_aws-031717-PGM.00_30_37_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-1-security_on_aws-031717-PGM.00_30_37_08.Still001-sm.jpg",
+          "title": "Security on AWS",
+          "transcript": "",
+          "url": "securityaws",
+          "vimeoId": "209557009"
+        },
+        {
+          "description": "In this episode Wes and Don dive into security inside of AWS. They will discuss account security, concepts like root account, password character length, password policies and multi-factor authentication. They will look at access keys, key pairs and X.509 certificates. Finally, they will explore the auditing services provided by AWS CloudTrail.",
+          "length": "1574",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-2-account_secuirty-031717-PGM.00_25_57_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-2-account_secuirty-031717-PGM.00_25_57_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-2-account_secuirty-031717-PGM.00_25_57_19.Still001-sm.jpg",
+          "title": "Account Security",
+          "transcript": "",
+          "url": "account-security",
+          "vimeoId": "209557633"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into security inside of AWS. They will focus in on could service-specific security, specifically taking a look at security in AWS’s compute service EC2. They will explore instance isolation, host OS and guest OS security, securing API access and EBS security.",
+          "length": "1542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-1-cloud_service_specific_security-031717-PGM.00_25_28_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-1-cloud_service_specific_security-031717-PGM.00_25_28_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-1-cloud_service_specific_security-031717-PGM.00_25_28_10.Still001-sm.jpg",
+          "title": "Cloud Service Specific Security",
+          "transcript": "",
+          "url": "cloud-service-specific-security",
+          "vimeoId": "209558291"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into security inside of AWS. They will discuss cloud service-specific security, specifically looking at the networking side of AWS security. They will talk about Elastic Load Balancing (ELB) security as well as Virtual Private Cloud Security.",
+          "length": "1594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-2-cloud_service-specific_security_pt2-032017.00_28_12_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-2-cloud_service-specific_security_pt2-032017.00_28_12_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-2-cloud_service-specific_security_pt2-032017.00_28_12_20.Still001-sm.jpg",
+          "title": "Cloud Service Specific Security Part 2",
+          "transcript": "",
+          "url": "cloud-service-specific-security2",
+          "vimeoId": "209483238"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into security inside of AWS. They will discuss cloud service-specific security, looking at securing various AWS services like S3, database security, Amazon SQS, Amazon SNS and Amazon Analytic security. They will also explore IAM, Mobile Services and Amazon WorkSpaces security.",
+          "length": "1688",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-3-cloud_service-specific_security_pt3-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-3-cloud_service-specific_security_pt3-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-12-3-3-cloud_service-specific_security_pt3-032017-1-sm.jpg",
+          "title": "Cloud Service Specific Security Part 3",
+          "transcript": "",
+          "url": "cloud-service-specific-security3",
+          "vimeoId": "209560820"
+        }
+      ],
+      "title": "Security on AWS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don explore risk and compliance in AWS. They explain a shared responsibility model and governance concepts, while looking at Amazon recommendations. They talk about the evaluation and integration of AWS controls as well as discussing the core areas of the AWS Risk and Compliance program.",
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-13-1-aws_risk_and_compliance-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-13-1-aws_risk_and_compliance-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-13-1-aws_risk_and_compliance-032017-1-sm.jpg",
+          "title": "AWS Risk and Compliance",
+          "transcript": "",
+          "url": "aws-riskcompliance",
+          "vimeoId": "209560353"
+        }
+      ],
+      "title": "AWS Risk and Compliance"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don finalize the AWS Certified Solutions Architect: Associates certification by bringing together all the technologies with design and implementation through architecture best practices.",
+          "length": "2223",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-14-1-architecture_best_practices-032117-PGM.00_37_11_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-14-1-architecture_best_practices-032117-PGM.00_37_11_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/amazon-acsaa/amazon-acsaa-14-1-architecture_best_practices-032117-PGM.00_37_11_20.Still001-sm.jpg",
+          "title": "Architecture Best Practices",
+          "transcript": "",
+          "url": "architecturepractices",
+          "vimeoId": "209767154"
+        }
+      ],
+      "title": "Architecture Best Practices"
+    }
+  ],
+  "url": "aws-certified-solutions-architect-associate",
+  "vLab": false
+}

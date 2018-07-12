@@ -1,0 +1,194 @@
+{
+  "description": "In this series, Mike and Justin are going to the explore the beginning of JavaScript in the browser. This is going to lay the foundation for the additional work to come in JavaScript. There will be a focus on the ECMAScript 5 features that are found in the browser. If you want to create interactive websites, are new to programming, or just want to know more about JavaScript, then you have come to the right place. They cover topics such a deep dive on the data types found in JavaScript, operating on the data types,  iteration(loops), control flow (decision making), creating  functions for code reuse, and touching on the beginning of object oriented programming.",
+  "descriptionMD": "In this series, Mike and Justin are going to the explore the beginning of JavaScript in the browser. This is going to lay the foundation for the additional work to come in JavaScript. There will be a focus on the ECMAScript 5 features that are found in the browser. If you want to create interactive websites, are new to programming, or just want to know more about JavaScript, then you have come to the right place. They cover topics such a deep dive on the data types found in JavaScript, operating on the data types,  iteration(loops), control flow (decision making), creating  functions for code reuse, and touching on the beginning of object oriented programming.",
+  "length": "22320",
+  "name": "Intro to JavaScript",
+  "practiceExam": false,
+  "subtitle": "Getting Started",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, Mike and Justin are going to the explore the beginning of JavaScript in the browser. This is going to lay the foundation for the additional work to come in JavaScript. There will be a focus on the ECMAScript 5 features that are found in the browser. If you want to create interactive websites, are new to programming, or just want to know more about JavaScript, then you have come to the right place. They cover topics such a deep dive on the data types found in JavaScript, operating on the data types, iteration(loops), control flow (decision making), creating functions for code reuse, and touching on the beginning of object oriented programming.",
+          "length": "40",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskill-introductiontojavascript-0-0-overiew-020617-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskill-introductiontojavascript-0-0-overiew-020617-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskill-introductiontojavascript-0-0-overiew-020617-high-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:04.953\n[SOUND] Hello, I'm excited to\nannounce we've got a new series\n\n2\n00:00:04.953 --> 00:00:10.273\ncoming your way here at ITPRO.TV,\nIntroduction to JavaScript.\n\n3\n00:00:10.273 --> 00:00:13.840\nHere to tell us all about it and\nwhat we can expect, Mr. Justin Dennison.\n\n4\n00:00:13.840 --> 00:00:18.013\n&gt;&gt; Thanks Mike, JavaScript, that tiny\ninterpretive language that makes all those\n\n5\n00:00:18.013 --> 00:00:20.442\nwebpages have those\nwonderful interactions.\n\n6\n00:00:20.442 --> 00:00:23.108\nDuring this series we're gonna\ncover how to create a function.\n\n7\n00:00:23.108 --> 00:00:25.187\nHow to create loops,\nhow to make decisions.\n\n8\n00:00:25.187 --> 00:00:29.670\nAs well as working with those\nfundamental data types, arrays,\n\n9\n00:00:29.670 --> 00:00:32.001\nobjects, strings, and dates.\n\n10\n00:00:32.001 --> 00:00:36.360\nSo if that's something you're interested\nin, I can't wait to see you there.\n\n11\n00:00:36.360 --> 00:00:39.280\n[SOUND]\n\n",
+          "url": "overview70757",
+          "vimeoId": "203162783"
+        },
+        {
+          "description": "In this episode, Justin and Mike begin their exploration into the world of JavaScript. They talk about the origins and historyo f JavaScript. They also look at setting up an environment to develop with JavaScript.",
+          "length": "1100",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-1-getting_started_and_history-013017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-1-getting_started_and_history-013017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-1-getting_started_and_history-013017-1-sm.jpg",
+          "title": "Getting Started and History",
+          "transcript": "",
+          "url": "getting-startedhistory",
+          "vimeoId": "202075366"
+        },
+        {
+          "description": "In this episode, Justin and Mike discuss values and operators. They demonstrate using single and multi-line comments within JavaScript. They also look at binary, unary, comparison and logical operators.",
+          "length": "1891",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-2-values_and_operators-013017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-2-values_and_operators-013017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-1-2-values_and_operators-013017-1-sm.jpg",
+          "title": "Values and Operators",
+          "transcript": "",
+          "url": "valuesoperators",
+          "vimeoId": "202074158"
+        },
+        {
+          "description": "In this episode, Justin and Mike cover the fundamental data types in JavaScript. They use the typeof command to verify data types and look at explicit and implicit type conversion.",
+          "length": "1461",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/introjavascript-3-1-types_of_data-013117-PGM.00_24_07_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/introjavascript-3-1-types_of_data-013117-PGM.00_24_07_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/introjavascript-3-1-types_of_data-013117-PGM.00_24_07_09.Still001-sm.jpg",
+          "title": "Types of Data",
+          "transcript": "",
+          "url": "typesdata",
+          "vimeoId": "202076610"
+        },
+        {
+          "description": "In this episode, Justin and Mike cover the fundamental data types in JavaScript. They use the console.log to show various types of data output such as Date, Error, RegExp and others.",
+          "length": "767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-3-1-2-types_of_data_pt2-013117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-3-1-2-types_of_data_pt2-013117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-3-1-2-types_of_data_pt2-013117-1-sm.jpg",
+          "title": "Types of Data Part 2",
+          "transcript": "",
+          "url": "typesdata2",
+          "vimeoId": "202075746"
+        },
+        {
+          "description": "In this episode, Justin and Mike look at working with strings in JavaScript. They demonstrate creating strings using string literals and built-in functions. They also explore string properties and methods.",
+          "length": "1453",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-working_with_string-013117-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-working_with_string-013117-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-working_with_string-013117-high-sm.jpg",
+          "title": "Working with Strings",
+          "transcript": "",
+          "url": "string",
+          "vimeoId": "202076065"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue their look into strings. They demonstrate several functions used to manipulate strings. They also look at using operators with strings.",
+          "length": "1451",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-2-types_of_data_pt_2-020117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-2-types_of_data_pt_2-020117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-4-1-2-types_of_data_pt_2-020117-1-sm.jpg",
+          "title": "Working with Strings Part 2",
+          "transcript": "",
+          "url": "strings2",
+          "vimeoId": "202774602"
+        },
+        {
+          "description": "In this episode, Justin and Mike work with arrays. They demonstrate creating arrays and working with an arrays properties. They also demonstrate various methods used to manipulate arrays.",
+          "length": "1627",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-5-1-working_with_arrays-020117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-5-1-working_with_arrays-020117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-5-1-working_with_arrays-020117-1-sm.jpg",
+          "title": "Working with Arrays",
+          "transcript": "",
+          "url": "arrays",
+          "vimeoId": "202775240"
+        },
+        {
+          "description": "In this episode, Justin and Mike discuss objects. They define what an object is and look at it's properties and methods. They also demonstrate creating and working with an object.",
+          "length": "1512",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-6-1-_working_with_objects-020117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-6-1-_working_with_objects-020117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-6-1-_working_with_objects-020117-1-sm.jpg",
+          "title": "Working with Objects",
+          "transcript": "",
+          "url": "objects2",
+          "vimeoId": "202775680"
+        },
+        {
+          "description": "In this episode, Justin and Mike look at adding decision making capabilities to JavaScript. They look at if, else, and else if statements. They also demonstrate using a switch block.",
+          "length": "1852",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-6-1-making_decisions_ifs_elsesand_switches-020217-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-6-1-making_decisions_ifs_elsesand_switches-020217-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-6-1-making_decisions_ifs_elsesand_switches-020217-1-sm.jpg",
+          "title": "Decisions IF Else and Switches",
+          "transcript": "",
+          "url": "decisionselseswitches",
+          "vimeoId": "202377677"
+        },
+        {
+          "description": "In this episode, Justin and Mike demonstrate working with loops. They look at for loops, used when you know how many iterations you need. They also look at while loops, that loop until something happens.",
+          "length": "1804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-7-1-working_with_loops-020217-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-7-1-working_with_loops-020217-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-7-1-working_with_loops-020217-1-sm.jpg",
+          "title": "Working with Loops",
+          "transcript": "",
+          "url": "loops",
+          "vimeoId": "202377885"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue their look into loops. This time they look at do while loops that always run once. They also look at for in loops, used to cycle through a collection.",
+          "length": "885",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-8-1-2-_working_with_loops_pt2-020217-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-8-1-2-_working_with_loops_pt2-020217-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-8-1-2-_working_with_loops_pt2-020217-1-sm.jpg",
+          "title": "Working with Loops Part 2",
+          "transcript": "",
+          "url": "loops2",
+          "vimeoId": "203132208"
+        },
+        {
+          "description": "In this episode, Justin and Mike begin their look into functions in JavaScript. They discuss what a function is and why we use them. They also talk about function scope.",
+          "length": "1617",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-9-1-1-working_with_functions-020317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-9-1-1-working_with_functions-020317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-9-1-1-working_with_functions-020317-1-sm.jpg",
+          "title": "Working with Functions",
+          "transcript": "",
+          "url": "functions6",
+          "vimeoId": "203162840"
+        },
+        {
+          "description": "In this episode, Justin and Mike continue their look into functions in JavaScript. They demonstrate defining named and unnamed functions. They also describe hoisting functions and closure.",
+          "length": "1686",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-9-1-2-working_with_function_pt2-020317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-9-1-2-working_with_function_pt2-020317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/techskills-introductiontojavascript-9-1-2-working_with_function_pt2-020317-1-sm.jpg",
+          "title": "Working with Functions Part 2",
+          "transcript": "",
+          "url": "functions2",
+          "vimeoId": "203161801"
+        },
+        {
+          "description": "In this episode, Justin and Mike look at object-oriented programming in JavaScript. They demonstrate using a factory function to create new objects. They also use a constructor function to add methods to an object.",
+          "length": "1642",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-10-1-intro_to_object_oriented_javascript-020317-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-10-1-intro_to_object_oriented_javascript-020317-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-10-1-intro_to_object_oriented_javascript-020317-1-sm.jpg",
+          "title": "Intro to Object-Oriented JavaScript",
+          "transcript": "",
+          "url": "introobjectoriented-javascript",
+          "vimeoId": "203162167"
+        },
+        {
+          "description": "In this episode, Justin and Mike demonstrate working with dates in JavaScript. They compare and contrast the built-in date functions. They also look at several date methods.",
+          "length": "1532",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-11-1-working_with_dates-020617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-11-1-working_with_dates-020617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-introtojavascript/teckskills-introductiontojavascript-11-1-working_with_dates-020617-1-sm.jpg",
+          "title": "Working with Dates",
+          "transcript": "",
+          "url": "dates",
+          "vimeoId": "203162506"
+        }
+      ],
+      "title": "Intro to JavaScript"
+    }
+  ],
+  "url": "introjavascript",
+  "vLab": false
+}

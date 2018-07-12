@@ -1,0 +1,978 @@
+{
+  "description": "In this course, the viewer will learn the following, design and implement functional networks as well as configuring, managing, and maintaining essential network devices. They will also look at various network devices such as routers and switches, also well as identifying  benefits and drawbacks of existing network configurations. They will also look at common network security, standards, and protocols and well as troubleshooting common network issues.",
+  "descriptionMD": "In this course, the viewer will learn the following, design and implement functional networks as well as configuring, managing, and maintaining essential network devices. They will also look at various network devices such as routers and switches, also well as identifying  benefits and drawbacks of existing network configurations. They will also look at common network security, standards, and protocols and well as troubleshooting common network issues.",
+  "length": "145404",
+  "name": "CompTIA Network+ (N10-007)",
+  "practiceExam": false,
+  "subtitle": "Vendor-neutral networking",
+  "tagUrl": "network-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Network+ certification was introduced by CompTIA in 1999 and was designed to do for Network Technicians what the A+ certification did for Computer Technicians. Obtaining Network+ certification shows that the holder possess the same knowledge and skills of someone who has worked for nine months as a Network Technician. The Network+ exam covers topics ranging from theory (terminology, topology and design) to hardware (routers, switches and cabling) and provides users with a broad, vendor neutral perspective on the topics required to work in the field of Network Administration.",
+          "length": "318",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-0-0-0-overview-120817-PGM.00_00_03_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-0-0-0-overview-120817-PGM.00_00_03_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-0-0-0-overview-120817-PGM.00_00_03_00.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:02.794\n[MUSIC]\n\n2\n00:00:02.794 --> 00:00:03.736\nWelcome to ITProTV.\nIn this series,\n\n3\n00:00:03.736 --> 00:00:06.487\nwe're gonna be looking\nat CompTIA's Net+ exam.\n\n4\n00:00:06.487 --> 00:00:09.817\nWe'll be looking at,\nwell, what is Network+?\n\n5\n00:00:09.817 --> 00:00:14.936\nWho is this course for, what will be\ncovered, and what are some of the exam\n\n6\n00:00:14.936 --> 00:00:19.990\ndetails, should you decide to sit For\nyour certification exam.\n\n7\n00:00:19.990 --> 00:00:24.810\nLet's go ahead and let's dive right in and\ntalk about well, what is CompTIA's Net+?\n\n8\n00:00:24.810 --> 00:00:29.230\nWell, it's actually a benchmark for\nentry level network technicians.\n\n9\n00:00:29.230 --> 00:00:33.569\nIt's also accredited as\na 17024 certification by your\n\n10\n00:00:33.569 --> 00:00:37.323\nInternational Organization\nof Standardization.\n\n11\n00:00:37.323 --> 00:00:42.169\nIt's also FISMA compliant as well and\nit is a worldwide accreditation.\n\n12\n00:00:42.169 --> 00:00:46.312\nMeaning that it doesn't matter if\nyou're here where we are at ITPro.TV in\n\n13\n00:00:46.312 --> 00:00:47.440\nthe United States.\n\n14\n00:00:47.440 --> 00:00:50.883\nIf you get certified here, your\ncertification is recognized, well, let's\n\n15\n00:00:50.883 --> 00:00:54.500\nsay in Barcelona, Spain or if you're maybe\nin the UK and you get certified there.\n\n16\n00:00:54.500 --> 00:00:55.596\nWell, guess what?\n\n17\n00:00:55.596 --> 00:00:58.243\nIf you move or\ntravel over here to the states,\n\n18\n00:00:58.243 --> 00:01:00.690\nyour certification will be valid there.\n\n19\n00:01:00.690 --> 00:01:03.980\nSo it's worldwide recognization,\nif you will.\n\n20\n00:01:03.980 --> 00:01:05.940\nWorldwide recognized.\n\n21\n00:01:05.940 --> 00:01:09.478\nNow, the next part is well,\nwho is this course for.\n\n22\n00:01:09.478 --> 00:01:12.290\nWell, candidates that\nrequire certification.\n\n23\n00:01:12.290 --> 00:01:14.866\nWe're gonna go heavy into\nthe exam objectives and\n\n24\n00:01:14.866 --> 00:01:18.620\nfollowing by those exam objectives,\nwe will be covering those topics.\n\n25\n00:01:18.620 --> 00:01:24.353\nCandidates that need to understand\nthe basic concepts of setting up and\n\n26\n00:01:24.353 --> 00:01:29.706\nmaintaining network communications or\ncandidates that are going\n\n27\n00:01:29.706 --> 00:01:36.420\nto take the exam that is based on\nCompTIA's Net+ N10-007 exam objectives.\n\n28\n00:01:36.420 --> 00:01:37.874\nSo what will be covered here?\n\n29\n00:01:37.874 --> 00:01:42.020\nLike we said, the objectives for\nspecifically exam code N10007.\n\n30\n00:01:42.020 --> 00:01:46.590\nWe'll be looking at things like\nthe fundamental networking concepts.\n\n31\n00:01:47.610 --> 00:01:50.937\nThe knowledge that you need to establish,\nmaintain and\n\n32\n00:01:50.937 --> 00:01:53.643\nto troubleshoot your network connections.\n\n33\n00:01:53.643 --> 00:01:58.335\nWe'll also be looking at establishing\na basic understanding of enterprise level\n\n34\n00:01:58.335 --> 00:02:02.007\ntechnologies and that conclude\nanything from small networks,\n\n35\n00:02:02.007 --> 00:02:06.020\nlarge networks to cloud and\nvirtualization technologies likewise.\n\n36\n00:02:06.020 --> 00:02:11.150\nWe'll also be looking at the basis for\nnetwork security and access control.\n\n37\n00:02:11.150 --> 00:02:16.030\nLikewise, you're gonna learn an\nunderstanding of the common communication\n\n38\n00:02:16.030 --> 00:02:19.560\nprotocols and the network connection\nmodels and standardizations and\n\n39\n00:02:19.560 --> 00:02:24.530\nspecifications that we need when\nsetting up and understanding networks.\n\n40\n00:02:26.680 --> 00:02:28.000\nSo what are some of the exam details?\n\n41\n00:02:28.000 --> 00:02:33.377\nWell, when you do decide to\nsit the CompTIA Net+ 007 exam,\n\n42\n00:02:33.377 --> 00:02:39.120\nyou're gonna have 90 questions and\nright around 90 minutes.\n\n43\n00:02:39.120 --> 00:02:42.202\nThis is gonna be a multiple choice or\nperformance and\n\n44\n00:02:42.202 --> 00:02:44.242\nperformance-based questions.\n\n45\n00:02:44.242 --> 00:02:45.770\nWe say, multiple choice.\n\n46\n00:02:45.770 --> 00:02:48.204\nThat means you can choose\none of the answers.\n\n47\n00:02:48.204 --> 00:02:50.970\nIt'll also have multiple answer questions.\n\n48\n00:02:50.970 --> 00:02:54.351\nIn the performance-based questions,\nyou might see where it says, choose two.\n\n49\n00:02:54.351 --> 00:02:56.481\nEach of these two answers represents or\n\n50\n00:02:56.481 --> 00:02:59.650\neach of these two answers\nrepresent a complete solution.\n\n51\n00:02:59.650 --> 00:03:04.506\nPerformance-based questions can also be\nthings like simulations where they ask\n\n52\n00:03:04.506 --> 00:03:09.360\nyou to perform some kind of functionality\nin order to get the answer right.\n\n53\n00:03:09.360 --> 00:03:13.018\nIt could be things like drag and\ndrops where they give you a list of items\n\n54\n00:03:13.018 --> 00:03:17.431\nthat you can drag from one column, and put\nthem in the right order in another column.\n\n55\n00:03:17.431 --> 00:03:22.047\nYou could see things like even diagrams\nthat ask you to solve a networking\n\n56\n00:03:22.047 --> 00:03:23.160\nquestion.\n\n57\n00:03:23.160 --> 00:03:27.467\nSo keep that in mind that it is not\njust going to be multiple choice.\n\n58\n00:03:27.467 --> 00:03:32.290\nWhen you sit this exam,\nthe exams that CompTIA offers\n\n59\n00:03:32.290 --> 00:03:36.051\nhave a scoring range of 100 to 900.\n\n60\n00:03:36.051 --> 00:03:38.825\nAnd for the Net+ exam or Network+ exam,\n\n61\n00:03:38.825 --> 00:03:44.280\nyou're gonna have to achieve a 720 or\nhigher in order to pass this exam.\n\n62\n00:03:44.280 --> 00:03:49.020\nAt the time of this recording,\nthe exam price was $294.\n\n63\n00:03:49.020 --> 00:03:53.432\nAlways keep in mind, check out CompTIA's\nwebsite to ensure that you have\n\n64\n00:03:53.432 --> 00:03:56.075\nthe latest update at pricing information.\n\n65\n00:03:56.075 --> 00:04:01.623\nNow it is recommended, but not required\nthat you have A+ certification and\n\n66\n00:04:01.623 --> 00:04:06.510\nsomewhere between 9 to 12 months\nof IT networking experience.\n\n67\n00:04:06.510 --> 00:04:09.752\nLet's go ahead and\ntake this a little further and\n\n68\n00:04:09.752 --> 00:04:14.905\nlook at how the domains break up for\nour Net+ exam, and here are our domains.\n\n69\n00:04:14.905 --> 00:04:17.670\nAs you can see,\nwe have five domains total.\n\n70\n00:04:17.670 --> 00:04:21.385\nYou can see that we have networking\nconcepts comprised 23% of\n\n71\n00:04:21.385 --> 00:04:22.497\nthe overall exam.\n\n72\n00:04:22.497 --> 00:04:27.323\nWe will be looking at things like\ninfrastructure as well at 18% of the exam.\n\n73\n00:04:27.323 --> 00:04:30.360\nLikewise, you'll see that\nthere are network operations.\n\n74\n00:04:30.360 --> 00:04:35.077\nDomain 3.0 comprised of\n17% of your overall exam.\n\n75\n00:04:35.077 --> 00:04:36.730\nWe also have network security.\n\n76\n00:04:36.730 --> 00:04:38.551\nIt's gonna be important to\nkeep those networks secure.\n\n77\n00:04:38.551 --> 00:04:41.950\nThat comprises over 20%\nof your overall exam.\n\n78\n00:04:41.950 --> 00:04:44.421\nAnd then last, but certainly not least,\n\n79\n00:04:44.421 --> 00:04:49.717\nwhat's always on everybody's mind when the\nnetwork is the network troubleshooting and\n\n80\n00:04:49.717 --> 00:04:52.542\nthe tools that help assist\ntroubleshooting and\n\n81\n00:04:52.542 --> 00:04:56.721\nthat is going to be 22% of your\noverall exam for a total of 100%.\n\n82\n00:04:56.721 --> 00:05:02.330\nSo these are some of the domains\nthat you could see on your exam.\n\n83\n00:05:02.330 --> 00:05:06.212\nIf this interests you and\nyou are looking to sit a pass and\n\n84\n00:05:06.212 --> 00:05:10.435\ntake that Netwrok+,\nN10007 exam, then stay tuned.\n\n85\n00:05:10.435 --> 00:05:14.110\nCuz we got a lot more\nCompTIA Network+ coming up.\n\n86\n00:05:14.110 --> 00:05:17.574\n[MUSIC]\n\n",
+          "url": "overview-n10007",
+          "vimeoId": "246847409"
+        },
+        {
+          "description": "In this episode Zach and Wes explore different ports and protocols used for communication in modern computer networks. They look at protocols like SSH, DNS, FTP.....etc and their associated ports.",
+          "length": "1667",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-1-ports_and_protocols-103017.00_27_35_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-1-ports_and_protocols-103017.00_27_35_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-1-ports_and_protocols-103017.00_27_35_08.Still001-sm.jpg",
+          "title": "Ports and Protocols",
+          "transcript": "",
+          "url": "portsprotocols-n10007",
+          "vimeoId": "240720672"
+        },
+        {
+          "description": "In this episode Zach and Wes explore different ports and protocols used for communication in modern computer networks. They look at protocols like SSH, DNS, FTP.....etc and their associated ports.",
+          "length": "1979",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-2-ports_and_protocols_pt2-103017-PGM.00_09_31_14.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-2-ports_and_protocols_pt2-103017-PGM.00_09_31_14.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-1-2-ports_and_protocols_pt2-103017-PGM.00_09_31_14.Still002-sm.jpg",
+          "title": "Ports and Protocols Part 2",
+          "transcript": "",
+          "url": "portsprotocols2-n10007",
+          "vimeoId": "240721388"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the Open Systems Interconnection model \\(OSI model\\). They look at some of the applications, devices and protocols that operated within the different layers of the OSI model.",
+          "length": "1224",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-1-osi_model-103117-PGM.00_21_50_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-1-osi_model-103117-PGM.00_21_50_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-1-osi_model-103117-PGM.00_21_50_02.Still001-sm.jpg",
+          "title": "OSI Model",
+          "transcript": "",
+          "url": "osi-model-n10007",
+          "vimeoId": "240887998"
+        },
+        {
+          "description": "",
+          "length": "998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-2-osi_model_pt2-103117.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-2-osi_model_pt2-103117-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-2-2-osi_model_pt2-103117-sm.jpg",
+          "title": "OSI Model Part 2",
+          "transcript": "",
+          "url": "osi-model2-n10007",
+          "vimeoId": "240882957"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the various characteristics and attributes of network communications. They look at concepts like unicast, multicast, broadcast domains and more.",
+          "length": "1594",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-1-network_traffic_properties-113017-PGM.00_30_44_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-1-network_traffic_properties-113017-PGM.00_30_44_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-1-network_traffic_properties-113017-PGM.00_30_44_27.Still001-sm.jpg",
+          "title": "Network Traffic Properties",
+          "transcript": "",
+          "url": "network-traffic-properties",
+          "vimeoId": "245437313"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the various characteristics and attributes of network communications. They look at concepts like CSMA/CD and CSMA/CA as well as MTUs and PDUs.",
+          "length": "1825",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-2-network_traffic_properties_pt2-113017-PGM.00_30_12_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-2-network_traffic_properties_pt2-113017-PGM.00_30_12_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-3-2-network_traffic_properties_pt2-113017-PGM.00_30_12_10.Still001-sm.jpg",
+          "title": "Network Traffic Properties Part 2",
+          "transcript": "",
+          "url": "network-traffic-properties2",
+          "vimeoId": "245437555"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the various characteristics and attributes of switching technologies. They look at concepts like unicast, multicast, broadcast domains and more.",
+          "length": "2373",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-4-1-switching_technologies-120117-PGM.00_40_18_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-4-1-switching_technologies-120117-PGM.00_40_18_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-4-1-switching_technologies-120117-PGM.00_40_18_00.Still001-sm.jpg",
+          "title": "Switching Technologies",
+          "transcript": "",
+          "url": "switching-technologies-n10007",
+          "vimeoId": "245956073"
+        },
+        {
+          "description": "In this episode Zach Wes dive into the various characteristics and attributes of routing technologies. They will look routing protocols like difference between interior gateway routing protocols and exterior gateway routing protocols. They will talk about a distance-vector routing protocol known as RIP and RIPv2.",
+          "length": "1576",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-routing_technologies-120117-PGM.00_26_04_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-routing_technologies-120117-PGM.00_26_04_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-routing_technologies-120117-PGM.00_26_04_27.Still001-sm.jpg",
+          "title": "Routing Technologies",
+          "transcript": "",
+          "url": "routing-technologies",
+          "vimeoId": "258117466"
+        },
+        {
+          "description": "In this episode Zach Wes dive into the various characteristics and attributes of routing technologies. They look at distance-vector protocols like EIGRP, a link-state routing protocol called OSPF as well as a path-vector routing protocol called BGP. They will look at other concepts like NAT and PAT, routing types and port forwarding",
+          "length": "1799",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-routing_technologies_pt2-120117-PGM.00_29_47_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-routing_technologies_pt2-120117-PGM.00_29_47_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-routing_technologies_pt2-120117-PGM.00_29_47_13.Still001-sm.jpg",
+          "title": "Routing Technologies Part 2",
+          "transcript": "",
+          "url": "routing-technologies2",
+          "vimeoId": "245957027"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the concepts surrounding performance of the network. They look at some of the ways networks can grant specific types of traffic more or less of the network resources to ensure quality-of-service.",
+          "length": "1520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-network_performance_concepts-120417-PGM.00_25_06_18.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-network_performance_concepts-120417-PGM.00_25_06_18.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-network_performance_concepts-120417-PGM.00_25_06_18.Still002-sm.jpg",
+          "title": "Network Performance Concepts",
+          "transcript": "",
+          "url": "network-performance-concepts",
+          "vimeoId": "245955723"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the basic concepts of IP addressing. They look an IP address format and how to convert IP addresses from decimal format to binary format as well as base10 and base2 numbering systems.",
+          "length": "1794",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-ip_addressing-120517.00_29_42_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-ip_addressing-120517.00_29_42_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-ip_addressing-120517.00_29_42_27.Still001-sm.jpg",
+          "title": "IP Addressing",
+          "transcript": "",
+          "url": "ip-addressing-n10007",
+          "vimeoId": "246272423"
+        },
+        {
+          "description": "In this episode Ronnie and Wes explore the basic concepts of IP addressing. They continue their look at subnet masks and decimal to binary conversion. They explain subnet masks.",
+          "length": "1540",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-2-ip_addressing_pt2-120617-PGM.00_25_26_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-2-ip_addressing_pt2-120617-PGM.00_25_26_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-2-ip_addressing_pt2-120617-PGM.00_25_26_11.Still001-sm.jpg",
+          "title": "IP Addressing Part 2",
+          "transcript": "",
+          "url": "ip-addressing2-n10007",
+          "vimeoId": "246329095"
+        },
+        {
+          "description": "In this episode Ronnie and Wes explore the basic concepts of IP addressing. They explain in more detail how subnet masks apply to ip addresses, as well as how to identify the network versus node portions of an IP address.",
+          "length": "1613",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-3-ip_addressing_pt3-120617.00_26_40_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-3-ip_addressing_pt3-120617.00_26_40_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-3-ip_addressing_pt3-120617.00_26_40_23.Still001-sm.jpg",
+          "title": "IP Addressing Part 3",
+          "transcript": "",
+          "url": "ip-addressing3-n10007",
+          "vimeoId": "246329311"
+        },
+        {
+          "description": "In this episode -- and Wes explore the basic concepts of IP addressing. They look at topics like classful vs. classless addressing, subnet masks, subnetting and IP address assignments.",
+          "length": "1811",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-4-ip_addressing_pt4-120617-PGM.00_33_04_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-4-ip_addressing_pt4-120617-PGM.00_33_04_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-4-ip_addressing_pt4-120617-PGM.00_33_04_06.Still001-sm.jpg",
+          "title": "IP Addressing Part 4",
+          "transcript": "",
+          "url": "ip-addressing4",
+          "vimeoId": "246328845"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the basic concepts of IP addressing. They look at classless subnet masks and the valid subnet mask ranges as well as some tips for the exam.",
+          "length": "1739",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-classless_ipv4_addressing-120717-PGM.00_28_48_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-classless_ipv4_addressing-120717-PGM.00_28_48_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-classless_ipv4_addressing-120717-PGM.00_28_48_12.Still001-sm.jpg",
+          "title": "Classless IPv4 Addressing",
+          "transcript": "",
+          "url": "classless-ipv4-addressing",
+          "vimeoId": "246461054"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the basic concepts of IP addressing. They look at classless subnet masks and the valid subnet mask ranges as well as some tips for the exam.",
+          "length": "2290",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2-classless_ipv4_addressing_pt2-120717-PGM.00_37_58_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2-classless_ipv4_addressing_pt2-120717-PGM.00_37_58_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2-classless_ipv4_addressing_pt2-120717-PGM.00_37_58_27.Still001-sm.jpg",
+          "title": "Classless IPv4 Addressing Part 2",
+          "transcript": "",
+          "url": "classless-ipv4-addressing2",
+          "vimeoId": "246461389"
+        },
+        {
+          "description": "In this episode Zach and Wes continue their exploration on  the basic concepts of subnetting. They look applying classless subnet masks to networks to create smaller networks. They demonstate the concepts with examples.",
+          "length": "2159",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-classless_ipv4_addressing_pt3-120717-PGM.00_35_47_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-classless_ipv4_addressing_pt3-120717-PGM.00_35_47_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-classless_ipv4_addressing_pt3-120717-PGM.00_35_47_05.Still001-sm.jpg",
+          "title": "Classless IPv4 Addressing Part 3",
+          "transcript": "",
+          "url": "classless-ipv4-addressing3",
+          "vimeoId": "246460637"
+        },
+        {
+          "description": "n this episode Zach and Wes continue their exploration on the basic concepts of subnetting. They look applying classless subnet masks to a larger network to create smaller networks. They continue their demonstatation of the concepts with additional examples inluding VLSM",
+          "length": "2430",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-4-classless_ipv4_addressing_pt4-120817.00_40_18_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-4-classless_ipv4_addressing_pt4-120817.00_40_18_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-4-classless_ipv4_addressing_pt4-120817.00_40_18_19.Still001-sm.jpg",
+          "title": "Classless IPv4 Addressing Part 4",
+          "transcript": "",
+          "url": "classless-ipv4-addressing4",
+          "vimeoId": "246847470"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into how IP addresses are configured on nodes inside of modern networks. The look at concepts like DHCP, static assignments, EUI-64 and more",
+          "length": "2158",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-9-1-ip_address_assignments-120817.00_42_33_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-9-1-ip_address_assignments-120817.00_42_33_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-9-1-ip_address_assignments-120817.00_42_33_05.Still001-sm.jpg",
+          "title": "IP Address Assignments",
+          "transcript": "",
+          "url": "ip-address-assignments",
+          "vimeoId": "246848544"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the basic concepts of IPv6 addressing. They look at topics like tunneling, dual stack, router advertisements and neighbor discovery",
+          "length": "1723",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-1-ipv6_addressing-121117-PGM.00_28_31_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-1-ipv6_addressing-121117-PGM.00_28_31_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-1-ipv6_addressing-121117-PGM.00_28_31_19.Still001-sm.jpg",
+          "title": "IPv6 Addressing",
+          "transcript": "",
+          "url": "ipv6-addressing-n10007",
+          "vimeoId": "247019847"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the basic concepts of IPv6 addressing. They look at topics like tunneling, dual stack, router advertisements and neighbor discovery",
+          "length": "1469",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-2-ipv6_addressing_pt2-121117-PGM.00_24_17_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-2-ipv6_addressing_pt2-121117-PGM.00_24_17_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-10-2-ipv6_addressing_pt2-121117-PGM.00_24_17_21.Still001-sm.jpg",
+          "title": "IPv6 Addressing Part 2",
+          "transcript": "",
+          "url": "ipv6-addressing2-n10007",
+          "vimeoId": "247019470"
+        },
+        {
+          "description": "In this episode Zach and Wes discuss different network topologies. They will look at the different network types like LANs, WANs and WLANs. They will also look at various concepts surrounding Internet of Things or IoT",
+          "length": "1586",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-network_topologies-103117-PGM.00_29_41_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-network_topologies-103117-PGM.00_29_41_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-1-network_topologies-103117-PGM.00_29_41_12.Still001-sm.jpg",
+          "title": "Network Topologies",
+          "transcript": "",
+          "url": "network-topologies-n10007",
+          "vimeoId": "240888431"
+        },
+        {
+          "description": "In this episode Justin and Wes discuss different network topologies. They will look at the different network types like LANs, WANs and WLANs. They will also look at various concepts surrounding Internet of Things or IoT",
+          "length": "1985",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-network_topologies_pt2-110117.00_36_08_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-network_topologies_pt2-110117.00_36_08_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-5-2-network_topologies_pt2-110117.00_36_08_17.Still001-sm.jpg",
+          "title": "Network Topologies Part 2",
+          "transcript": "",
+          "url": "network-topologies2-netplus007",
+          "vimeoId": "241169776"
+        },
+        {
+          "description": "In this episode Zach and Wes explore various wireless networking technologies like 802.11 standards, frequencies, speeds and distances. They will also look at some different cellular technologies such as GSM, TMDA and CDMA.",
+          "length": "1829",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-wireless_technologies-103017-PGM.00_58_20_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-wireless_technologies-103017-PGM.00_58_20_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-6-1-wireless_technologies-103017-PGM.00_58_20_17.Still001-sm.jpg",
+          "title": "Wireless Technologies",
+          "transcript": "",
+          "url": "wireless-technologies-n10007",
+          "vimeoId": "240721025"
+        },
+        {
+          "description": "In this episode Justin and Wes explore technologies that help to support the cloud. They look at the different services offered by cloud providers such as SaaS, PaaS and IaaS as well as the delivery models.",
+          "length": "1401",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-cloud_concepts-110117.00_23_08_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-cloud_concepts-110117.00_23_08_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-7-1-cloud_concepts-110117.00_23_08_06.Still001-sm.jpg",
+          "title": "Cloud Concepts",
+          "transcript": "",
+          "url": "cloud-concepts-netplus007",
+          "vimeoId": "241169576"
+        },
+        {
+          "description": "In this episode Zach and Wes take a look into various network services functions. THey will look at characteristics of the domain name system \\(DNS\\)and the dynamic host configuration protocol \\(DHCP\\).",
+          "length": "1653",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-network_service_functions-110717-PGM.00_27_21_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-network_service_functions-110717-PGM.00_27_21_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-1-network_service_functions-110717-PGM.00_27_21_24.Still001-sm.jpg",
+          "title": "Network Service Functions",
+          "transcript": "",
+          "url": "network-service-functions",
+          "vimeoId": "241892366"
+        },
+        {
+          "description": "In this episode -- and Wes take a look into various network services functions. THey will look at characteristics of the domain name system \\(DNS\\)and the dynamic host configuration protocol \\(DHCP\\).",
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-2-sm.jpg",
+          "title": "Network Service Functions Part 2",
+          "transcript": "",
+          "url": "network-service-functions2",
+          "vimeoId": "241893655"
+        },
+        {
+          "description": "In this episode -- and Wes take a look into various network services functions. THey will look at characteristics of the domain name system \\(DNS\\)and the dynamic host configuration protocol \\(DHCP\\).",
+          "length": "2433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-network_service_functions_pt3-110717-PGM.00_40_19_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-network_service_functions_pt3-110717-PGM.00_40_19_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-8-3-network_service_functions_pt3-110717-PGM.00_40_19_19.Still001-sm.jpg",
+          "title": "Network Service Functions Part 3",
+          "transcript": "",
+          "url": "network-service-functions3",
+          "vimeoId": "241892897"
+        },
+        {
+          "description": "",
+          "length": "1648",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-1-tcp_ip_model-012418-PGM.00_27_17_01.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-1-tcp_ip_model-012418-PGM.00_27_17_01.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-1-tcp_ip_model-012418-PGM.00_27_17_01.Still002-sm.jpg",
+          "title": "TCP/IP Model",
+          "transcript": "",
+          "url": "tcpip-model-007",
+          "vimeoId": "252912804"
+        },
+        {
+          "description": "",
+          "length": "1026",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-2-tcp_ip_model_pt2-012418-PGM.00_18_45_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-2-tcp_ip_model_pt2-012418-PGM.00_18_45_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-1-15-2-tcp_ip_model_pt2-012418-PGM.00_18_45_22.Still001-sm.jpg",
+          "title": "TCP/IP Model Part 2",
+          "transcript": "",
+          "url": "tcpip-model2-007",
+          "vimeoId": "252912589"
+        }
+      ],
+      "title": "Networking Concepts"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode -- and Wes dive into different cabling solutions avaiable in today's modern networks. They will talk about copper-based media as well as the various connectors associated with these cable types.",
+          "length": "1735",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-1-cabling_solutions_copper-110317-PGM.00_28_44_02.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-1-cabling_solutions_copper-110317-PGM.00_28_44_02.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-1-cabling_solutions_copper-110317-PGM.00_28_44_02.Still002-sm.jpg",
+          "title": "Cabling Solutions-Copper",
+          "transcript": "",
+          "url": "cabling-solutionscopper",
+          "vimeoId": "241881007"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into different cabling solutions avaiable in today's modern networks. They will talk about copper-based media as well as the various connectors associated with these cable types.",
+          "length": "1780",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-2-cabling_solutions_copper_pt2-110317-PGM.00_30_00_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-2-cabling_solutions_copper_pt2-110317-PGM.00_30_00_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-2-cabling_solutions_copper_pt2-110317-PGM.00_30_00_10.Still001-sm.jpg",
+          "title": "Cabling Solutions-Copper Part 2",
+          "transcript": "",
+          "url": "cabling-solutionscopper2",
+          "vimeoId": "241878747"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into different cabling solutions avaiable in today's modern networks. They will talk about copper-based media as well as the various connectors associated with these cable types.",
+          "length": "2055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-3-cabling_solutions_copper_pt3-110317.00_34_03_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-3-cabling_solutions_copper_pt3-110317.00_34_03_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-1-3-cabling_solutions_copper_pt3-110317.00_34_03_23.Still001-sm.jpg",
+          "title": "Cabling Solutions-Copper Part 3",
+          "transcript": "",
+          "url": "cabling-solutionscopper3",
+          "vimeoId": "241880396"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into different cabling solutions available in today's modern networks. They will talk about fiber optics and the various connectors associated with these cable types.",
+          "length": "1539",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-cabling_solutions_fiber-110617-PGM.00_36_23_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-cabling_solutions_fiber-110617-PGM.00_36_23_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-cabling_solutions_fiber-110617-PGM.00_36_23_14.Still001-sm.jpg",
+          "title": "Cabling Solutions-Fiber",
+          "transcript": "",
+          "url": "cabling-solutionsfiber",
+          "vimeoId": "241882561"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into different cabling solutions available in today's modern networks. They will talk about fiber optics and the various connectors associated with these cable types.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-2-cabling_solutions_fiber_pt2-110617-PGM.00_32_34_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-2-cabling_solutions_fiber_pt2-110617-PGM.00_32_34_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-2-cabling_solutions_fiber_pt2-110617-PGM.00_32_34_29.Still001-sm.jpg",
+          "title": "Cabling Solutions-Fiber Part 2",
+          "transcript": "",
+          "url": "cabling-solutionsfiber2",
+          "vimeoId": "241881836"
+        },
+        {
+          "description": "In this episode Justin and Wes explore the different devices inside of modern networks such as firewall, routers, switches.....etc.",
+          "length": "1910",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-network_devices-110117.00_31_37_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-network_devices-110117.00_31_37_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-2-1-network_devices-110117.00_31_37_27.Still001-sm.jpg",
+          "title": "Network Devices",
+          "transcript": "",
+          "url": "network-devices-netplus007",
+          "vimeoId": "241173503"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the different advanced devices inside of modern networks such as  NGFW firewalls, load balancers, multilayer switches, IPSs and IDSs, UTM appliances.....etc.",
+          "length": "1711",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-1-advanced_networking_devices-110817-PGM.00_28_34_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-1-advanced_networking_devices-110817-PGM.00_28_34_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-1-advanced_networking_devices-110817-PGM.00_28_34_26.Still001-sm.jpg",
+          "title": "Advanced Networking Devices",
+          "transcript": "",
+          "url": "advanced-networking-devices",
+          "vimeoId": "242250439"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the different advanced devices inside of modern networks such as load balancers, IPSs and IDSs, UTM appliances and more.",
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-2-advanced_networking_devices_pt2-110817-PGM.00_30_27_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-2-advanced_networking_devices_pt2-110817-PGM.00_30_27_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-4-2-advanced_networking_devices_pt2-110817-PGM.00_30_27_10.Still001-sm.jpg",
+          "title": "Advanced Networking Devices Part 2",
+          "transcript": "",
+          "url": "advanced-networking-devices2",
+          "vimeoId": "242250708"
+        },
+        {
+          "description": "In this episode -- and Wes dive into virutalization technologies like hypervisors, virtual switches and virtual firewalls.",
+          "length": "11804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-1-virtualization_and_network_storage-110917-PGM.00_29_51_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-1-virtualization_and_network_storage-110917-PGM.00_29_51_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-1-virtualization_and_network_storage-110917-PGM.00_29_51_29.Still001-sm.jpg",
+          "title": "Virtualization and Network Storage",
+          "transcript": "",
+          "url": "virtualizationnetwork-storage",
+          "vimeoId": "242597264"
+        },
+        {
+          "description": "In this episode -- and Wes dive into virutalization technologies like virtual routers, NAS and SANs devices as well as connection types associated with them.",
+          "length": "1728",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-2-virtualization_and_network_storage-110917_pt2-PGM.00_28_37_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-2-virtualization_and_network_storage-110917_pt2-PGM.00_28_37_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-5-2-virtualization_and_network_storage-110917_pt2-PGM.00_28_37_05.Still001-sm.jpg",
+          "title": "Virtualization and Network Storage Part 2",
+          "transcript": "",
+          "url": "virtualizationnetwork-storage2",
+          "vimeoId": "242595750"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the many characteristics of wide area networks and associated technologies. They will look at services types, transmission mediums and termination",
+          "length": "1537",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-1-wan_technologies-111417-PGM.00_26_37_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-1-wan_technologies-111417-PGM.00_26_37_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-1-wan_technologies-111417-PGM.00_26_37_23.Still001-sm.jpg",
+          "title": "WAN Technologies",
+          "transcript": "",
+          "url": "wan-technologies-n10007",
+          "vimeoId": "242969026"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the many characteristics of wide area networks and associated technologies. They will look at services types, transmission mediums and termination",
+          "length": "1816",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-2-wan_technologies_pt2-111417-PGM.00_31_00_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-2-wan_technologies_pt2-111417-PGM.00_31_00_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-2-wan_technologies_pt2-111417-PGM.00_31_00_26.Still001-sm.jpg",
+          "title": "WAN Technologies Part 2",
+          "transcript": "",
+          "url": "wan-technologies2-n10007",
+          "vimeoId": "242964453"
+        },
+        {
+          "description": "",
+          "length": "1459",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-3-wan_technologies_pt3-111417-PGM.00_26_42_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-3-wan_technologies_pt3-111417-PGM.00_26_42_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-2-6-3-wan_technologies_pt3-111417-PGM.00_26_42_23.Still001-sm.jpg",
+          "title": "WAN Technologies Part 3",
+          "transcript": "",
+          "url": "wan-technologies3-n10007",
+          "vimeoId": "242969399"
+        }
+      ],
+      "title": "Infrastructure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Zach and Wes take a look at diagrams and different pieces of documentation. They dive into diagrams, change and inventory management documentation, labeling and more.",
+          "length": "1684",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-1-1-network_diagrams_and_documentation-121117-PGM.00_27_52_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-1-1-network_diagrams_and_documentation-121117-PGM.00_27_52_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-1-1-network_diagrams_and_documentation-121117-PGM.00_27_52_27.Still001-sm.jpg",
+          "title": "Network Diagrams and Documentation",
+          "transcript": "",
+          "url": "network-diagramsdocumentation",
+          "vimeoId": "247020139"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the realm of business continuity. They explore high availability, fault tolerance, battery backups as well as site types",
+          "length": "1773",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-1-business_continuity_and_disaster_recovery-111517-PGM.00_30_59_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-1-business_continuity_and_disaster_recovery-111517-PGM.00_30_59_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-1-business_continuity_and_disaster_recovery-111517-PGM.00_30_59_25.Still001-sm.jpg",
+          "title": "Business Continuity and Disaster Recovery",
+          "transcript": "",
+          "url": "business-continuitydisaster-recovery",
+          "vimeoId": "243367919"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into the realm of business continuity. They explore high availability, fault tolerance, battery backups as well as site types",
+          "length": "2274",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-2-business_continuity_and_disaster_recovery_pt2-111717-PGM.00_37_41_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-2-business_continuity_and_disaster_recovery_pt2-111717-PGM.00_37_41_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-2-2-business_continuity_and_disaster_recovery_pt2-111717-PGM.00_37_41_12.Still001-sm.jpg",
+          "title": "Business Continuity and Disaster Recovery Part 2",
+          "transcript": "",
+          "url": "business-continuitydisaster-recovery2",
+          "vimeoId": "243684516"
+        },
+        {
+          "description": "In this episode Zach and Wes look at the concepts surrounding scanning, monitoring and patching systems.",
+          "length": "2556",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-3-1-scanning_monitoring_and_patching-121217.00_43_09_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-3-1-scanning_monitoring_and_patching-121217.00_43_09_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-3-1-scanning_monitoring_and_patching-121217.00_43_09_14.Still001-sm.jpg",
+          "title": "Scanning, Monitoring and Patching",
+          "transcript": "",
+          "url": "scanning-monitoringpatching",
+          "vimeoId": "247152670"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the technologies that allow users and administrators make connections across public networks into business networks via  remote access methods.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-1-remote_access_methods-121917-PGM.00_26_44_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-1-remote_access_methods-121917-PGM.00_26_44_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-1-remote_access_methods-121917-PGM.00_26_44_17.Still001-sm.jpg",
+          "title": "Remote Access Methods",
+          "transcript": "",
+          "url": "remote-access-methods",
+          "vimeoId": "248198564"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the technologies that allow users and administrators make connections across public networks into business networks via  remote access methods.",
+          "length": "1584",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-2-remote_access_methods_pt2-121917-PGM.00_26_36_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-2-remote_access_methods_pt2-121917-PGM.00_26_36_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-2-remote_access_methods_pt2-121917-PGM.00_26_36_20.Still001-sm.jpg",
+          "title": "Remote Access Methods Part 2",
+          "transcript": "",
+          "url": "remote-access-methods2",
+          "vimeoId": "248197789"
+        },
+        {
+          "description": "In this episode Zach and Wes explore the technologies that allow users and administrators make connections across public networks into business networks via  remote access methods.",
+          "length": "1785",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-3-remote_access_methods_pt3-010418-PGM.00_29_32_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-3-remote_access_methods_pt3-010418-PGM.00_29_32_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-4-3-remote_access_methods_pt3-010418-PGM.00_29_32_07.Still001-sm.jpg",
+          "title": "Remote Access Methods Part 3",
+          "transcript": "",
+          "url": "remote-access-methods3",
+          "vimeoId": "249818828"
+        },
+        {
+          "description": "In this episode Zach and Wes discuss various policy types such as NDAs, AUPs safety procedures, password policies....etc. They will also look at basic best practices.",
+          "length": "1618",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-1-policies_and_best_practices-120517.00_26_46_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-1-policies_and_best_practices-120517.00_26_46_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-1-policies_and_best_practices-120517.00_26_46_16.Still001-sm.jpg",
+          "title": "Policies and Best Practices",
+          "transcript": "",
+          "url": "policiesbest-practices",
+          "vimeoId": "246272242"
+        },
+        {
+          "description": "In this episode Zach and Wes discuss various policy types such as NDAs, AUPs safety procedures, password policies....etc. They will also look at basic best practices.",
+          "length": "1455",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-2-policies_and_best_practices_pt2-120517-PGM.00_24_03_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-2-policies_and_best_practices_pt2-120517-PGM.00_24_03_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-3-5-2-policies_and_best_practices_pt2-120517-PGM.00_24_03_18.Still001-sm.jpg",
+          "title": "Policies and Best Practices Part 2",
+          "transcript": "",
+          "url": "policiesbest-practices2",
+          "vimeoId": "246272063"
+        }
+      ],
+      "title": "Network Operations"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Zach and Wes discuss various physical security devices. They look at devices that are implemented for detection as well as for prevention.",
+          "length": "1930",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-physical_security_devices-110817-PGM.00_31_58_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-physical_security_devices-110617-PGM.00_34_29_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-physical_security_devices-110617-PGM.00_34_29_05.Still001-sm.jpg",
+          "title": "Physical Security Devices",
+          "transcript": "",
+          "url": "physical-security-devices",
+          "vimeoId": "242251041"
+        },
+        {
+          "description": "In this episode Zach and Wes explore various authentication technologies like RADIUS, SSO, LDAP, certificates.....etc. They will also look at different access control mechanisms such as RADIUS, TACACS+ and Kerberos.",
+          "length": "1534",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-1-authentication_and_access_control-120417-PGM.00_25_20_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-1-authentication_and_access_control-120417-PGM.00_25_20_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-1-authentication_and_access_control-120417-PGM.00_25_20_18.Still001-sm.jpg",
+          "title": "Authentication and Access Control",
+          "transcript": "",
+          "url": "authenticationaccess-control",
+          "vimeoId": "245956647"
+        },
+        {
+          "description": "In this episode Zach and Wes explore various authentication technologies like RADIUS, SSO, LDAP, certificates.....etc. They will also look at different access control mechanisms such as NAC, 802.1X, port security and more.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-2-authentication_and_access_control_pt2-120417-PGM.00_32_57_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-2-authentication_and_access_control_pt2-120417-PGM.00_32_57_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-2-2-authentication_and_access_control_pt2-120417-PGM.00_32_57_06.Still001-sm.jpg",
+          "title": "Authentication and Access Control Part 2",
+          "transcript": "",
+          "url": "authenticationaccess-control2",
+          "vimeoId": "245955170"
+        },
+        {
+          "description": "In this episode -- and Wes explore ways in which to secure basic wireless networks. They will look at topics like WPA, WPA2, TKIP, CCMP.....etc.",
+          "length": "1949",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-3-1-basic_wireless_network_security-111317-PGM.00_32_30_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-3-1-basic_wireless_network_security-111317-PGM.00_32_30_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-3-1-basic_wireless_network_security-111317-PGM.00_32_30_14.Still001-sm.jpg",
+          "title": "Basic Wireless Network Security",
+          "transcript": "",
+          "url": "basic-wireless-network-security-n10007",
+          "vimeoId": "242964897"
+        },
+        {
+          "description": "In this episode Zach and Wes look at some of the common networking attacks that administrators need to protect against. They will discuss attacks like various denial-of-service attacks, phishing, social engineering, evil twin attacks, spoofing and more.",
+          "length": "1494",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-common-networking-attacks-110917-PGM.00_24_42_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-common-networking-attacks-110917-PGM.00_24_42_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-1-1-common-networking-attacks-110917-PGM.00_24_42_27.Still001-sm.jpg",
+          "title": "Common Networking Attacks",
+          "transcript": "",
+          "url": "common-networking-attacks",
+          "vimeoId": "242598992"
+        },
+        {
+          "description": "In this episode Zach and Wes look at some of the common networking attacks that administrators need to protect against. They will discuss attacks like various denial-of-service attacks, phishing, social engineering, evil twin attacks, spoofing and more.",
+          "length": "2047",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-4-2-common-networking-attacks_pt2-111317.00_33_54_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-4-2-common-networking-attacks_pt2-111317.00_33_54_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-4-2-common-networking-attacks_pt2-111317.00_33_54_28.Still001-sm.jpg",
+          "title": "Common Networking Attacks Part 2",
+          "transcript": "",
+          "url": "common-networking-attacks2-n10007",
+          "vimeoId": "242965330"
+        },
+        {
+          "description": "In this episode Zach and Wes look at some of the common ways in which to harden network devices from attacks. They discuss modifying default settings, avoiding common passwords, using secure protocols and more.",
+          "length": "1724",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-1-network_device_hardening-111517-PGM.00_28_33_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-1-network_device_hardening-111517-PGM.00_28_33_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-1-network_device_hardening-111517-PGM.00_28_33_01.Still001-sm.jpg",
+          "title": "Network Device Hardening",
+          "transcript": "",
+          "url": "network-device-hardening",
+          "vimeoId": "243367639"
+        },
+        {
+          "description": "",
+          "length": "1527",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-2-network_device_hardening_pt2-111517-PGM.00_25_13_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-2-network_device_hardening_pt2-111517-PGM.00_25_13_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-5-2-network_device_hardening_pt2-111517-PGM.00_25_13_02.Still001-sm.jpg",
+          "title": "Network Device Hardening Part 2",
+          "transcript": "",
+          "url": "network-device-hardening2",
+          "vimeoId": "243368218"
+        },
+        {
+          "description": "In this episode Wes and Don explore different types of migation techniques, to reduce the risk of successful attacks against switches within modern networks",
+          "length": "1758",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-1-common_mitigation_techniques-010518.00_29_05_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-1-common_mitigation_techniques-010518.00_29_05_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-1-common_mitigation_techniques-010518.00_29_05_20.Still001-sm.jpg",
+          "title": "Common Mitigation Techniques",
+          "transcript": "",
+          "url": "common-mitigatoin-techniques",
+          "vimeoId": "250124367"
+        },
+        {
+          "description": "In this episode Wes and Don explore different types of migation techniques, to reduce the risk of successful attacks against switches within modern networks",
+          "length": "1922",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-2-common_mitigation_techniques_pt2-010518-PGM.00_31_47_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-2-common_mitigation_techniques_pt2-010518-PGM.00_31_47_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-2-common_mitigation_techniques_pt2-010518-PGM.00_31_47_26.Still001-sm.jpg",
+          "title": "Common Mitigation Techniques Part 2",
+          "transcript": "",
+          "url": "common-mitigation-techniques2",
+          "vimeoId": "250125303"
+        },
+        {
+          "description": "In this episode Zach and Wes explore different types of migation techniques, to reduce the risk of successful attacks against information systems.",
+          "length": "1713",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-3-common_mitigation_techniques_pt3-010518-PGM.00_28_54_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-3-common_mitigation_techniques_pt3-010518-PGM.00_28_54_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-4-6-3-common_mitigation_techniques_pt3-010518-PGM.00_28_54_05.Still001-sm.jpg",
+          "title": "Common Mitigation Techniques Part 3",
+          "transcript": "",
+          "url": "common-mitigation-techniques3",
+          "vimeoId": "250167390"
+        }
+      ],
+      "title": "Network Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode -- and Wes discuss the CompTIA network troubleshooting methodology. They explore the seven step process that will be covered on the Network+ exam.",
+          "length": "1542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-1-1-network_troubleshooting_method-112817-PGM.00_26_20_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-1-1-network_troubleshooting_method-112817-PGM.00_26_20_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-1-1-network_troubleshooting_method-112817-PGM.00_26_20_25.Still001-sm.jpg",
+          "title": "Network Troubleshooting Method",
+          "transcript": "",
+          "url": "network-troubleshooting-method-n10007",
+          "vimeoId": "245018716"
+        },
+        {
+          "description": "In this episode -- and Wes take a look at the tools used to troubleshooting, diagnose and repair common networking issues.",
+          "length": "1676",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-1-network_troubleshooting_tools-112717-PGM.00_30_24_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-1-network_troubleshooting_tools-112717-PGM.00_30_24_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-1-network_troubleshooting_tools-112717-PGM.00_30_24_20.Still001-sm.jpg",
+          "title": "Network Troubleshooting Tools",
+          "transcript": "",
+          "url": "network-troubleshooting-tools-n1007",
+          "vimeoId": "244866601"
+        },
+        {
+          "description": "In this episode Zach and Wes take a look at the tools used to troubleshooting, diagnose and repair common networking issues.",
+          "length": "1404",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-2-network_troubleshooting_tools_pt2-112717-PGM.00_23_11_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-2-network_troubleshooting_tools_pt2-112717-PGM.00_23_11_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-2-network_troubleshooting_tools_pt2-112717-PGM.00_23_11_12.Still001-sm.jpg",
+          "title": "Network Troubleshooting  Tools Part 2",
+          "transcript": "",
+          "url": "network-troubleshooting-tools2-n1007",
+          "vimeoId": "244867106"
+        },
+        {
+          "description": "In this episode Zach and Wes take a look at the tools used to troubleshooting, diagnose and repair common networking issues.",
+          "length": "2066",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-3-network_troubleshooting_tools_pt3-112717-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-3-network_troubleshooting_tools_pt3-112717-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-3-network_troubleshooting_tools_pt3-112717-high-sm.jpg",
+          "title": "Network Troubleshooting Tools Part 3",
+          "transcript": "",
+          "url": "network-troubleshooting-tools3-n10007",
+          "vimeoId": "244866224"
+        },
+        {
+          "description": "In this episode Dan and Wes take a look at the tools used to troubleshooting, diagnose and repair common networking issues.",
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-4-networking_troubleshooting_tools_pt4-112817-PGM.00_28_19_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-4-networking_troubleshooting_tools_pt4-112817-PGM.00_28_19_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-4-networking_troubleshooting_tools_pt4-112817-PGM.00_28_19_00.Still001-sm.jpg",
+          "title": "Network Troubleshooting Tools Part 4",
+          "transcript": "",
+          "url": "network-troubleshooting-tools4",
+          "vimeoId": "245019312"
+        },
+        {
+          "description": "In this episode Dan and Wes take a look at the tools used to troubleshooting, diagnose and repair common networking issues.",
+          "length": "1991",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-5-networking_troubleshooting_tools_pt5-112817-PGM.00_33_40_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-5-networking_troubleshooting_tools_pt5-112817-PGM.00_33_40_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-2-5-networking_troubleshooting_tools_pt5-112817-PGM.00_33_40_08.Still001-sm.jpg",
+          "title": "Network Troubleshooting Tools Part 5",
+          "transcript": "",
+          "url": "network-troubleshooting-tools5-n10007",
+          "vimeoId": "245018990"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into some common issues facing wireless networks today. They will discuss topics like reflection, interference, overcapacity, absorption and more.",
+          "length": "1949",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-3-1-common_wired_network_issues-111717-PGM.00_41_07_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-3-1-common_wired_network_issues-111717-PGM.00_41_07_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-3-1-common_wired_network_issues-111717-PGM.00_41_07_14.Still001-sm.jpg",
+          "title": "Common Wired Network Issues",
+          "transcript": "",
+          "url": "common-wired-network-issues-netplus007",
+          "vimeoId": "243684203"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into some common issues facing wireless networks today. They will discuss topics like reflection, interference, overcapacity, absorption and more.",
+          "length": "1720",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-4-1-common_wireless_network_issues-111717-PGM.00_28_26_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-4-1-common_wireless_network_issues-111717-PGM.00_28_26_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-4-1-common_wireless_network_issues-111717-PGM.00_28_26_03.Still001-sm.jpg",
+          "title": "Common Wireless Network Issues",
+          "transcript": "",
+          "url": "common-wireless-network-issues-netplus007",
+          "vimeoId": "243684868"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into some common issues facing wireless networks today. They will discuss topics like reflection, interference, overcapacity, absorption and more.",
+          "length": "1270",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-1-common_network_service_issues-010418-PGM.00_28_13_01.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-1-common_network_service_issues-010418-PGM.00_28_13_01.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-1-common_network_service_issues-010418-PGM.00_28_13_01.Still002-sm.jpg",
+          "title": "Common Network Service Issues",
+          "transcript": "",
+          "url": "common-network-service-issues",
+          "vimeoId": "250125004"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into some common issues facing wireless networks today. They will discuss topics like reflection, interference, overcapacity, absorption and more.",
+          "length": "1602",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-2-common_network_service_issues_pt2-010418.00_26_30_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-2-common_network_service_issues_pt2-010418.00_26_30_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-2-common_network_service_issues_pt2-010418.00_26_30_03.Still001-sm.jpg",
+          "title": "Common Network Service Issues Part 2",
+          "transcript": "",
+          "url": "common-network-service-issues2",
+          "vimeoId": "249818598"
+        },
+        {
+          "description": "In this episode Zach and Wes dive into some common issues facing wireless networks today. They will discuss topics like reflection, interference, overcapacity, absorption and more.",
+          "length": "1866",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-3-common_network_service_issues_pt3-010418-PGM.00_33_50_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-3-common_network_service_issues_pt3-010418-PGM.00_33_50_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-5-5-3-common_network_service_issues_pt3-010418-PGM.00_33_50_06.Still001-sm.jpg",
+          "title": "Common Network Service Issues Part 3",
+          "transcript": "",
+          "url": "common-network-service-issues3",
+          "vimeoId": "250125533"
+        }
+      ],
+      "title": "Network Troubleshooting and Tools"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "1101",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-1-1-subnetting_step_by_step_1-121317-PGM.00_00_03_09.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-1-1-subnetting_step_by_step_1-121317-PGM.00_00_03_09.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-1-1-subnetting_step_by_step_1-121317-PGM.00_00_03_09.Still002-sm.jpg",
+          "title": "Subnetting Step-by-Step",
+          "transcript": "",
+          "url": "subnetting-stepbystep",
+          "vimeoId": "247803260"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "390",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-2-1-subnetting_step_by_step_2-121317-PGM.00_06_23_14.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-2-1-subnetting_step_by_step_2-121317-PGM.00_06_23_14.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-2-1-subnetting_step_by_step_2-121317-PGM.00_06_23_14.Still002-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 2",
+          "transcript": "",
+          "url": "subnetting-stepbystep2",
+          "vimeoId": "247803214"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "1011",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-3-1-subnetting_step_by_step_3-121317-PGM.00_00_02_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-3-1-subnetting_step_by_step_3-121317-PGM.00_00_02_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-3-1-subnetting_step_by_step_3-121317-PGM.00_00_02_24.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 3",
+          "transcript": "",
+          "url": "subnetting-stepbystep3",
+          "vimeoId": "247802828"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through step-by-step procedures.",
+          "length": "433",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-4-1-subnetting_step_by_step_4-121517-PGM.00_00_02_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-4-1-subnetting_step_by_step_4-121517-PGM.00_00_02_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-4-1-subnetting_step_by_step_4-121517-PGM.00_00_02_26.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 4",
+          "transcript": "",
+          "url": "subnetting-stepbystep4",
+          "vimeoId": "247802535"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "463",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-5-1-subnetting_step_by_step_5-121517-PGM.00_00_02_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-5-1-subnetting_step_by_step_5-121517-PGM.00_00_02_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-5-1-subnetting_step_by_step_5-121517-PGM.00_00_02_28.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 5",
+          "transcript": "",
+          "url": "subnetting-stepbystep5",
+          "vimeoId": "247802194"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "322",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-6-1-subnetting_step_by_step_6-121517.00_05_15_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-6-1-subnetting_step_by_step_6-121517.00_05_15_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-6-1-subnetting_step_by_step_6-121517.00_05_15_14.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 6",
+          "transcript": "",
+          "url": "subnetting-stepbystep6",
+          "vimeoId": "247801883"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "249",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-7-1-subnetting_step_by_step_7-121517-PGM.00_00_05_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-7-1-subnetting_step_by_step_7-121517-PGM.00_00_05_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-7-1-subnetting_step_by_step_7-121517-PGM.00_00_05_09.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 7",
+          "transcript": "",
+          "url": "subnetting-stepbystep7",
+          "vimeoId": "247802044"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "299",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-8-1-subnetting_step_by_step_8-121517.00_00_05_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-8-1-subnetting_step_by_step_8-121517.00_00_05_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-8-1-subnetting_step_by_step_8-121517.00_00_05_16.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 8",
+          "transcript": "",
+          "url": "subnetting-stepbystep8",
+          "vimeoId": "247801680"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "293",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-9-1-subnetting_step_by_step_9-121517.00_00_17_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-9-1-subnetting_step_by_step_9-121517.00_00_17_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-9-1-subnetting_step_by_step_9-121517.00_00_17_10.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 9",
+          "transcript": "",
+          "url": "subnetting-stepbystep9",
+          "vimeoId": "247801570"
+        },
+        {
+          "description": "In this episode Wes reviews the basics of subnetting through practice questions and examples",
+          "length": "260",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-10-1-subnetting_step_by_step_10-121517.00_00_18_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-10-1-subnetting_step_by_step_10-121517.00_00_18_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-netplus007/comptia-netplus007-6-10-1-subnetting_step_by_step_10-121517.00_00_18_20.Still001-sm.jpg",
+          "title": "Subnetting Step-by-Step Part 10",
+          "transcript": "",
+          "url": "subnetting-stepbystep10",
+          "vimeoId": "247803409"
+        }
+      ],
+      "title": "Subnetting"
+    }
+  ],
+  "url": "network-n10007",
+  "vLab": false
+}

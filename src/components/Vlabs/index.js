@@ -2,7 +2,6 @@ import React, { Fragment, PureComponent } from 'react';
 
 import Menu from './Menu';
 import Display from './Display';
-import styles from './styles.module.scss';
 
 
 class Vlabs extends PureComponent {
@@ -31,10 +30,10 @@ class Vlabs extends PureComponent {
       <Fragment>
         <Menu
           activeCategory={ categoryIndex }
-          categories={ vLabs.map(lab => lab.vlabcategory) }
+          categories={ vLabs.map((lab) => lab.vlabcategory) }
           onChange={ this.handleMenuChange }
         />
-      <Display labs={ vLabs[categoryIndex].labs } />
+        <Display labs={ vLabs[categoryIndex].labs } />
       </Fragment>
     )
   }

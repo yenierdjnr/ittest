@@ -1,0 +1,373 @@
+{
+  "description": "As powerful as cloud computing is for the organization, understanding its information security risks and mitigation strategies is critical. Legacy approaches are inadequate, and organizations need competent, experienced professionals equipped with the right cloud security knowledge and skills to be successful. They need CCSPs.",
+  "descriptionMD": "",
+  "length": "43246",
+  "name": "Certified Cloud Security Professional",
+  "practiceExam": false,
+  "subtitle": "CCSP",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "As powerful as cloud computing is for the organization, understanding its information security risks and mitigation strategies is critical. Legacy approaches are inadequate, and organizations need competent, experienced professionals equipped with the right cloud security knowledge and skills to be successful. They need CCSPs.",
+          "length": "327",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-0-0-ccsp_overview-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-0-0-ccsp_overview-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-0-0-ccsp_overview-090815-1-sm.jpg",
+          "title": "CCSP Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:10.752\n[MUSIC]\n\n2\n00:00:10.752 --> 00:00:12.470\nHello, and welcome to ITProTv.\n\n3\n00:00:12.470 --> 00:00:16.220\nI'm your host Mike Roderick and\nwith me today is Mr. Sean Oriyano.\n\n4\n00:00:16.220 --> 00:00:19.930\nAnd in these upcoming episodes\nwe're gonna be covering the CCSP or\n\n5\n00:00:19.930 --> 00:00:23.920\nthe Certified Cloud Security Professional,\n\n6\n00:00:23.920 --> 00:00:30.230\nput on by ISC squared and the CSA or\nthe Cloud Security Alliance.\n\n7\n00:00:30.230 --> 00:00:31.800\nSo we're gonna be covering these courses.\n\n8\n00:00:31.800 --> 00:00:35.300\nAnd Sean,\nyou know this is obviously a new cert,\n\n9\n00:00:35.300 --> 00:00:37.080\na relatively new\ncertifications that are out.\n\n10\n00:00:37.080 --> 00:00:40.680\nSo tell us a little bit about who might\nbe interested in taking these videos.\n\n11\n00:00:41.860 --> 00:00:42.960\n>> Well, it, the.\n\n12\n00:00:44.040 --> 00:00:48.190\nWhen you talk about the cloud security\nprofessional, this is actually\n\n13\n00:00:48.190 --> 00:00:52.610\na certification that would be\ngeared towards someone that is both\n\n14\n00:00:52.610 --> 00:00:56.470\nan IT professional, someone that really\nknows their stuff as far as IT goes,\n\n15\n00:00:56.470 --> 00:01:01.920\nthe more advanced user, as well as someone\nthat would be around the level of a CCSP.\n\n16\n00:01:01.920 --> 00:01:06.320\nAnd that's an important little detail\nthere as a matter of fact is someone that\n\n17\n00:01:06.320 --> 00:01:11.360\nholds a CCSP credential would be pretty\nmuch be qualified to set the CCSP.\n\n18\n00:01:11.360 --> 00:01:15.090\nYou're just gonna need to unload the\nmaterial, of course, but you've already\n\n19\n00:01:15.090 --> 00:01:19.820\nmet the core requirements for the most\npart if you already have the CCSP.\n\n20\n00:01:19.820 --> 00:01:24.170\nSo, if you look at what the CCSP is and\nwho that type of person is,\n\n21\n00:01:24.170 --> 00:01:26.250\nwhich is a high-level\nsecurity professional.\n\n22\n00:01:26.250 --> 00:01:28.840\nI should say mid-to-high\nlevel security professional.\n\n23\n00:01:28.840 --> 00:01:32.480\nThat's kind of what we're looking at\nas far as theory and all that goes.\n\n24\n00:01:32.480 --> 00:01:35.310\nIn practice, yeah,\nyou should be an IT person.\n\n25\n00:01:35.310 --> 00:01:40.110\nYou should have some experience with\napplications, databases would be great but\n\n26\n00:01:40.110 --> 00:01:45.330\nnot necessary to have but\nyou should know your IT stuff so\n\n27\n00:01:45.330 --> 00:01:48.640\nyou understand some of the issues and\nthings that go on with that.\n\n28\n00:01:48.640 --> 00:01:49.510\nAnd of course, like I said,\n\n29\n00:01:49.510 --> 00:01:52.300\nthe CSSP is gonna give you\nthe security side of things.\n\n30\n00:01:52.300 --> 00:01:57.100\n>> So this is really geared towards those\npeople that might be responsible for\n\n31\n00:01:57.100 --> 00:02:01.730\nmigrating their resources up to\nthe cloud in an organization.\n\n32\n00:02:01.730 --> 00:02:03.540\nOr if you are already in\nthe cloud managing and\n\n33\n00:02:03.540 --> 00:02:05.320\nmaintaining your cloud service.\n\n34\n00:02:05.320 --> 00:02:08.020\nBecause really when it comes down to it,\nsecurity in the cloud\n\n35\n00:02:08.020 --> 00:02:11.350\nis a lot different than what we're used to\ndealing with our internal infrastructure.\n\n36\n00:02:11.350 --> 00:02:15.310\nRight there is a whole new set of things\nthat we got to worry about some of our\n\n37\n00:02:16.840 --> 00:02:19.370\nprocedures that we use now\nare not gonna be the same, or\n\n38\n00:02:19.370 --> 00:02:21.410\nnot work the same up in the cloud, huh?\n\n39\n00:02:21.410 --> 00:02:24.110\n>> Yeah,\nthings are not gonna be the same old,\n\n40\n00:02:24.110 --> 00:02:26.110\nsame old stuff as you move to the cloud.\n\n41\n00:02:26.110 --> 00:02:29.190\nThat's something that could very\neasily get you into trouble.\n\n42\n00:02:29.190 --> 00:02:34.550\nAnd so, what the CCSP tries to teach you\nis it tries to teach you how to plan\n\n43\n00:02:34.550 --> 00:02:36.080\neither that migration or\n\n44\n00:02:36.080 --> 00:02:40.530\nthe integration of cloud technologies\ninto what you already have.\n\n45\n00:02:40.530 --> 00:02:43.860\nSo whatever you currently have,\nif you're hosted in house or\n\n46\n00:02:43.860 --> 00:02:46.680\nyou're working with an external provider,\nand remember an external\n\n47\n00:02:46.680 --> 00:02:51.380\nprovider doesn't have to mean you're\nworking with a cloud provider already,\n\n48\n00:02:51.380 --> 00:02:54.600\nyou could be using something\nentirely different than that.\n\n49\n00:02:54.600 --> 00:02:57.300\nIt's talking about how to\nbring what you have now, and\n\n50\n00:02:57.300 --> 00:02:59.510\nsomehow, put the cloud into that mix.\n\n51\n00:02:59.510 --> 00:03:03.010\nAnd do it safely and securely,\ninstead of just saying, well, hey,\n\n52\n00:03:03.010 --> 00:03:06.550\nsnap my fingers, put the cloud in there\nand everything's all said and done.\n\n53\n00:03:06.550 --> 00:03:08.130\nYou definitely wanna avoid that.\n\n54\n00:03:08.130 --> 00:03:11.950\nI mean, cuz that's happen a lot of times\nin the past with new technology as,\n\n55\n00:03:11.950 --> 00:03:12.670\nhey that's great.\n\n56\n00:03:12.670 --> 00:03:14.080\nLet's, it sounds great.\n\n57\n00:03:14.080 --> 00:03:19.180\nLet's all the benefits and all that or\njust look awesome on paper.\n\n58\n00:03:19.180 --> 00:03:20.210\nLet's bring that in.\n\n59\n00:03:20.210 --> 00:03:24.145\nBut it's how do you get there\nfrom where you are right now.\n\n60\n00:03:24.145 --> 00:03:25.625\nThe CCSP is designed to do that.\n\n61\n00:03:25.625 --> 00:03:29.455\nIt's designed to help you plan and\naddress certain issues and\n\n62\n00:03:29.455 --> 00:03:32.445\ndecide which model of deployment\nis really best for you.\n\n63\n00:03:32.445 --> 00:03:35.534\nIt's not just a case of either\nyou have the cloud or you don't,\n\n64\n00:03:35.534 --> 00:03:37.472\nit's how much of the cloud do you have.\n\n65\n00:03:37.472 --> 00:03:40.492\nAnd you could almost say there's\nas many different models of clouds\n\n66\n00:03:40.492 --> 00:03:43.114\nas there are clouds in the sky,\nyou really could.\n\n67\n00:03:43.114 --> 00:03:47.272\nYou kinda gotta be aware of those to\nsee which one's the best fit for you.\n\n68\n00:03:47.272 --> 00:03:51.042\n>> Right, because we're gonna have those C\nlevel executives coming to us, and they've\n\n69\n00:03:51.042 --> 00:03:54.302\nheard the buzzwords, they know some of\nthe power that we can get from the cloud.\n\n70\n00:03:54.302 --> 00:03:57.242\nAnd then they come to us and say well,\nlet's get our stuff out there.\n\n71\n00:03:57.242 --> 00:03:59.160\nWe want to be in the cloud as well.\n\n72\n00:03:59.160 --> 00:04:00.290\nBut it's not quite that easy.\n\n73\n00:04:00.290 --> 00:04:02.890\nYou can't just push a button and\nmake everything go up there.\n\n74\n00:04:02.890 --> 00:04:04.440\nLots of things are managed differently.\n\n75\n00:04:04.440 --> 00:04:07.480\nSecurity is managed differently,\nforensics is managed differently.\n\n76\n00:04:07.480 --> 00:04:08.110\n>> Oh yeah.\n\n77\n00:04:08.110 --> 00:04:10.140\n>> It's a big game changer.\n\n78\n00:04:10.140 --> 00:04:13.470\nThat's what this certification is\nreally geared towards, is teaching us,\n\n79\n00:04:13.470 --> 00:04:19.210\nmaking sure that we can implement what\nthose C level executives want out of us.\n\n80\n00:04:19.210 --> 00:04:21.720\nI've got the ISC webpage pulled up again.\n\n81\n00:04:21.720 --> 00:04:26.100\nThis is one of the providers,\nit was a partnership between the ISC and\n\n82\n00:04:26.100 --> 00:04:28.320\nthe Cloud Security Alliance or the CSA.\n\n83\n00:04:28.320 --> 00:04:30.700\nAnd I'll make sure we throw\nthis in the show notes.\n\n84\n00:04:30.700 --> 00:04:35.760\nBut if we look, this particular\nexam is gonna be four hours,\n\n85\n00:04:35.760 --> 00:04:39.610\nabout 125 questions on that exam,\nmultiple choice.\n\n86\n00:04:39.610 --> 00:04:44.380\nYou need about a 700 out of\n1000 to pass that exam, and\n\n87\n00:04:44.380 --> 00:04:46.480\nthe pricing is a little\nsteep on this one Sean.\n\n88\n00:04:46.480 --> 00:04:48.300\nIt is right up there with the CISSP.\n\n89\n00:04:48.300 --> 00:04:53.980\nWe're looking at the CCSP\nexam $549 to take that,\n\n90\n00:04:53.980 --> 00:04:57.555\nand we can take that, let me just\ndouble check that, through prometric.\n\n91\n00:04:57.555 --> 00:05:01.815\nThrough Pearson Vue, sorry, Pearson Vue\nis gonna be the exam provider for that.\n\n92\n00:05:01.815 --> 00:05:06.405\nSo that's the idea, if you're getting\nready to migrate your infrastructure out\n\n93\n00:05:06.405 --> 00:05:11.070\nto the cloud, or integrate cloud services\ninto your existing infrastructure,\n\n94\n00:05:11.070 --> 00:05:13.280\nthese are gonna be the episodes for you.\n\n95\n00:05:13.280 --> 00:05:17.080\nStay tuned as Sean and\nI progress through the CCSP, or\n\n96\n00:05:17.080 --> 00:05:21.227\nthe Certified Cloud Security\nProfessional Objectives.\n\n97\n00:05:21.227 --> 00:05:27.079\n[MUSIC]\n\n",
+          "url": "ccsp-overview",
+          "vimeoId": "138905476"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss cloud basics. They define some basic cloud terminology. They discuss different service models and deployment models. They also talk about multi-tenancy issues.",
+          "length": "2072",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-1-cloud_architecture-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-1-cloud_architecture-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-1-cloud_architecture-090815-1-sm.jpg",
+          "title": "Cloud Architecture",
+          "transcript": "",
+          "url": "cloud-architecture",
+          "vimeoId": "138905477"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss two different cloud architecture models. They talk about the CSA Cloud Reference Model and the Jerico Cloud Cube Model.",
+          "length": "1519",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-2-architecture_planning_models-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-2-architecture_planning_models-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-2-architecture_planning_models-090815-1-sm.jpg",
+          "title": "Architecture Planning Models",
+          "transcript": "",
+          "url": "architecture-planning-models",
+          "vimeoId": "138969973"
+        },
+        {
+          "description": "In this episode, Sean and Mike begin the discussion of cloud security. They talk about security issues that need to be considered when moving to the cloud. They also discuss some legal issues that must be considered when considering moving to the cloud.",
+          "length": "1865",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-3-security_planning_model-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-3-security_planning_model-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-3-security_planning_model-090815-1-sm.jpg",
+          "title": "Security Planning Models",
+          "transcript": "",
+          "url": "security-planning-models",
+          "vimeoId": "138905475"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about selecting a service provider. They cover some potential hosting issues that need to be considered, and questions that should be asked. They also discuss private vs. public solutions, and service level agreements.",
+          "length": "1557",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-4-hosting_provider_considerations-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-4-hosting_provider_considerations-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-4-hosting_provider_considerations-090815-1-sm.jpg",
+          "title": "Hosting Provider Considerations",
+          "transcript": "",
+          "url": "hosting-provider-considerations",
+          "vimeoId": "138905478"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss some security requirements to consider when choosing an ISP. They talk about risk to consider, and potential solutions to security problems. They also talk about contractual security requirements.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-5-security_and_csp_requirements-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-5-security_and_csp_requirements-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-5-security_and_csp_requirements-090815-1-sm.jpg",
+          "title": "Security and CSP Requirements",
+          "transcript": "",
+          "url": "security-csp-requirements",
+          "vimeoId": "138905474"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about risk management and how it translates to the cloud.",
+          "length": "1436",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-6-risk_management_and_the_cloud-090815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-6-risk_management_and_the_cloud-090815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-6-risk_management_and_the_cloud-090815-1-sm.jpg",
+          "title": "Risk Management and the Cloud",
+          "transcript": "",
+          "url": "risk-management-cloud",
+          "vimeoId": "138969997"
+        },
+        {
+          "description": "In this episode, Sean and Mike explore some of the current offerings from various cloud service providers. They talk about considerations when deciding on a CSP.",
+          "length": "1005",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-7-cloud_deployment_examples-090815-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-7-cloud_deployment_examples-090815-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-1-7-cloud_deployment_examples-090815-high-sm.jpg",
+          "title": "Cloud Deployment Examples",
+          "transcript": "",
+          "url": "cloud-deployment-examples",
+          "vimeoId": "138969995"
+        }
+      ],
+      "title": "Architectural Concepts and Design Requirements"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike talk about some of the legal aspects of moving to the cloud.",
+          "length": "2117",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-1-legal_issues_with_the_cloud-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-1-legal_issues_with_the_cloud-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-1-legal_issues_with_the_cloud-090915-1-sm.jpg",
+          "title": "Legal Issues with the Cloud",
+          "transcript": "",
+          "url": "legal-issues-cloud",
+          "vimeoId": "138969994"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss dealing with investigations. They talk about how moving to the cloud changes how investigations can be done. They also talk about litigation hold.",
+          "length": "1545",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-2-dealing_with_investigations-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-2-dealing_with_investigations-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-2-dealing_with_investigations-090915-1-sm.jpg",
+          "title": "Dealing with Investigations",
+          "transcript": "",
+          "url": "dealing-investigations",
+          "vimeoId": "138969990"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss how compliance and auditing are affected by the cloud. They talk about audit policies and the right to audit. They also talk about compliance analysis and auditor requirements.",
+          "length": "1520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-3-compliance_and_audits-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-3-compliance_and_audits-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-3-compliance_and_audits-090915-1-sm.jpg",
+          "title": "Compliance and Audits",
+          "transcript": "",
+          "url": "compliance-audits",
+          "vimeoId": "138969992"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss the six phases of the data security lifecycle. They talk about how the lifecycle changes as data is moved to the cloud.",
+          "length": "1417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-4-data_security_lifecycle-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-4-data_security_lifecycle-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-4-data_security_lifecycle-090915-1-sm.jpg",
+          "title": "Data Security Lifecycle",
+          "transcript": "",
+          "url": "data-security-lifecycle",
+          "vimeoId": "138969991"
+        },
+        {
+          "description": "In this episode, Sean and Mike take a look at storage options. They discuss volume storage as well as object storage. They also talk about logical vs. physical data location.",
+          "length": "1072",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-5-storage_locations_and_issues-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-5-storage_locations_and_issues-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-5-storage_locations_and_issues-090915-1-sm.jpg",
+          "title": "Storage Locations and Issues",
+          "transcript": "",
+          "url": "storage-locations-issues",
+          "vimeoId": "138970019"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss different ways to protect against data loss in the cloud. They talk about backup, replication and offsite storage. They also look at the data loss prevention process.",
+          "length": "1520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-6-data_loss_prevention_issues-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-6-data_loss_prevention_issues-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-6-data_loss_prevention_issues-090915-1-sm.jpg",
+          "title": "Data Loss Prevention Issues",
+          "transcript": "",
+          "url": "data-loss-prevention-issues",
+          "vimeoId": "138970017"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about migrating data to the cloud. They discuss migrating data to the cloud and different encryption options. They also talk about database and file activity monitoring.",
+          "length": "1359",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-7-protecting_data_within_the_cloud-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-7-protecting_data_within_the_cloud-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-7-protecting_data_within_the_cloud-090915-1-sm.jpg",
+          "title": "Protecting Data within the Cloud",
+          "transcript": "",
+          "url": "protecting-data-cloud",
+          "vimeoId": "138970016"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about storing data in the cloud. They discuss data backup strategies, as it pertains to the cloud. Then they talk about data dispersion, sharding data and data fragmentation.",
+          "length": "820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-8-data_storage_with_the_cloud-090915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-8-data_storage_with_the_cloud-090915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-2-8-data_storage_with_the_cloud-090915-1-sm.jpg",
+          "title": "Data Storage within the Cloud",
+          "transcript": "",
+          "url": "data-storage-cloud",
+          "vimeoId": "138970015"
+        },
+        {
+          "description": "In this episode, Sean and Mike define the concepts of protability and interoperability in the cloud. They talk about how virtualization can impact these areas. They also discuss SAML and WS-Security.",
+          "length": "1606",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-1-portability_and_interoperability-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-1-portability_and_interoperability-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-1-portability_and_interoperability-091015-1-sm.jpg",
+          "title": "Portability and Interoperability",
+          "transcript": "",
+          "url": "portability-interoperability",
+          "vimeoId": "138970013"
+        }
+      ],
+      "title": "Cloud Data Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike discuss storage concerns when moving to the cloud. They talk about the concept of lock-in at the different delivery models, Iaas,Paas and SaaS. They also talk about mitigating hardware compatibility issues.",
+          "length": "1570",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-2-csp_and_data_security-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-2-csp_and_data_security-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-2-csp_and_data_security-091015-1-sm.jpg",
+          "title": "CSP and Data Security",
+          "transcript": "",
+          "url": "csp-data-security",
+          "vimeoId": "138970014"
+        },
+        {
+          "description": "In this episode, Sean and Mike talk about how incident handling changes once you move to the cloud. They talk about verifying physical security of CSP data centers.",
+          "length": "1567",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-incident_handling-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-incident_handling-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-incident_handling-091015-1-sm.jpg",
+          "title": "Incident Handling",
+          "transcript": "",
+          "url": "incident-handling",
+          "vimeoId": "138970012"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss how moving to the cloud could impact your BCM, BCP and DRM.",
+          "length": "1372",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-bcm_bcp_and_drm-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-bcm_bcp_and_drm-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-3-bcm_bcp_and_drm-091015-1-sm.jpg",
+          "title": "BCM, BCP and DRM",
+          "transcript": "",
+          "url": "bcm-bcp-drm",
+          "vimeoId": "139267130"
+        },
+        {
+          "description": "In this episode, Sean and Mike look at data hosting in relation to the Cloud Controls Matrix. They discuss integration and cross organization issues in data centers. They also talk about logging and reporting in multi-site clouds.",
+          "length": "1677",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-5-data_center_issues-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-5-data_center_issues-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-5-data_center_issues-091015-1-sm.jpg",
+          "title": "Data Center Issues",
+          "transcript": "",
+          "url": "data-center-issues",
+          "vimeoId": "139267143"
+        },
+        {
+          "description": "In this episode, Sean and Mike review the concept of of incident response and issues with the cloud. They talk about the value of incident response and compare traditional incidents with cloud incidents.",
+          "length": "1233",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-6-incident_response_review-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-6-incident_response_review-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-6-incident_response_review-091015-1-sm.jpg",
+          "title": "Incident Response Review",
+          "transcript": "",
+          "url": "incident-response-review",
+          "vimeoId": "139267147"
+        },
+        {
+          "description": "In this episode Sean and Mike discuss factors allowing more efficient and effective containment and recovery in a cloud. They talk about detection and analysis, and containing an incident in an IaaS.",
+          "length": "1347",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response-091015-1-sm.jpg",
+          "title": "Cloud Incident Response",
+          "transcript": "",
+          "url": "cloud-incident-response",
+          "vimeoId": "139267160"
+        },
+        {
+          "description": "In this episode Sean and Mike talk about reducing the occurrence of application level incidents. They discuss the frequency of incident response testing and offline analysis of potential incidents.",
+          "length": "847",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response_pt2-091015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response_pt2-091015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-3-7-cloud_incident_response_pt2-091015-1-sm.jpg",
+          "title": "Cloud Incident Response Part 2",
+          "transcript": "",
+          "url": "cloud-incident-response-2",
+          "vimeoId": "139267156"
+        }
+      ],
+      "title": "Cloud Platform and Infrastructure Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike talk about Identity, Entitlement and Access Management (IdEA). Then they review the software development lifecycle (SDLC). They discuss how these processes are used to prepare to move applications to the cloud.",
+          "length": "1573",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-1-application_security_idea-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-1-application_security_idea-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-1-application_security_idea-091115-1-sm.jpg",
+          "title": "Application Security and IdEA",
+          "transcript": "",
+          "url": "application-security-idea",
+          "vimeoId": "139462044"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss additional considerations for supporting applications hosted in the cloud. They talk about what changes in the pen-testing process, performance monitoring and auditing.",
+          "length": "1369",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-2-additional_application_issues-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-2-additional_application_issues-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-2-additional_application_issues-091115-1-sm.jpg",
+          "title": "Additional Application Issues",
+          "transcript": "",
+          "url": "additional-application-issues",
+          "vimeoId": "139462067"
+        }
+      ],
+      "title": "Cloud Application Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike talk about concerns with encryption as we move to the cloud. They also discuss how multi-national cloud deployments can complicate a cloud deployment.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-3-encryption_issues-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-3-encryption_issues-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-3-encryption_issues-091115-1-sm.jpg",
+          "title": "Encryption Issues",
+          "transcript": "",
+          "url": "encryption-issues",
+          "vimeoId": "139464048"
+        },
+        {
+          "description": "In this episode, Sean and Mike cover the concept of Identity, Entitlement and Access Management (IdEA). They talk about the relationship between identities and attributes, and identity federation. They cover the concepts of Policy Decision Point (PDP) and Policy Enforcement Point (PEP).",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-4-idea-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-4-idea-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-4-idea-091115-1-sm.jpg",
+          "title": "IdEA",
+          "transcript": "",
+          "url": "idea",
+          "vimeoId": "139464087"
+        }
+      ],
+      "title": "Operations"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Sean and Mike discuss security concerns with hypervisors. They talk about VM guest hardening, VM sprawl, and data commingling. They also talk about characteristics that can create complexity in auditing.",
+          "length": "1515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-5-virtualization-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-5-virtualization-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-5-virtualization-091115-1-sm.jpg",
+          "title": "Virtualization",
+          "transcript": "",
+          "url": "virtualization-features2",
+          "vimeoId": "139465587"
+        },
+        {
+          "description": "In this episode, Sean and Mike discuss Security as a Service (SECaaS). They talk about some of the obstacles and concerns with SECaaS. They also cover using SECaaS in a regulated industry.",
+          "length": "1274",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-6-outsourcing_security_to_the_cloud-091115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-6-outsourcing_security_to_the_cloud-091115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/ics2-ccsp/isc2-ccsp-4-6-outsourcing_security_to_the_cloud-091115-1-sm.jpg",
+          "title": "Outsourcing Security to the Cloud",
+          "transcript": "",
+          "url": "outsourcing-security-cloud",
+          "vimeoId": "139575786"
+        }
+      ],
+      "title": "Legal and Compliance"
+    }
+  ],
+  "url": "certified-cloud-security-professional",
+  "vLab": false
+}

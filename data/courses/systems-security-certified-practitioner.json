@@ -1,0 +1,218 @@
+{
+  "description": "The Systems Security Certified Practitioner (SSCP) certification is one of the leading certifications from (ISC)2. This is a certification for hands on practitioners with the responsibility of making sure IT security concerns are addressed in an enterprise environment and is designed for IT security professionals with one or more years of field experience who are seeking to advance their career by validating their knowledge and experience. If IT security is your preferred career path, then the SSCP is a great starting point for you.",
+  "descriptionMD": "",
+  "length": "76874",
+  "name": "Systems Security Certified Practitioner",
+  "practiceExam": true,
+  "subtitle": "SSCP",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Don introduce the viewers to the (ISC)2 SSCP certification. They discuss the requirements to becoming SSCP certified as well as the general topic areas covered by the certification. ",
+          "length": "870",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/001-Introduction-to-SSCP.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/001-Introduction-to-SSCP-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/001-Introduction-to-SSCP-sm.jpg",
+          "title": "Overview of SSCP",
+          "transcript": "1\n00:00:08,295 --> 00:00:10,078\n[SOUND] Welcome back to ITProTV.\n\n2\n00:00:10,078 --> 00:00:11,053\nI'm Don Pezet.\n\n3\n00:00:11,053 --> 00:00:14,190\nToday, our guest speaker\nwith us is Mr Adam Gordon.\n\n4\n00:00:14,190 --> 00:00:14,987\nHow are you doing this morning Adam?\n\n5\n00:00:14,987 --> 00:00:16,484\n>> Good.\nGood morning everybody.\n\n6\n00:00:16,484 --> 00:00:17,007\nVery good.\n\n7\n00:00:17,007 --> 00:00:20,402\n>> And what we wanna do is\nwe want to take a minute to\n\n8\n00:00:20,402 --> 00:00:25,104\nbasically christen our new show\nthat we're launching on SSCP,\n\n9\n00:00:25,104 --> 00:00:30,262\nthe latest in the entry of many\nsecurity certifications that we have.\n\n10\n00:00:30,262 --> 00:00:34,835\nAnd we wanna take a few minutes just\nto kind of describe what the SSCP is.\n\n11\n00:00:34,835 --> 00:00:37,965\nWho it's a good fit for, and\nhow you go about obtaining it\n\n12\n00:00:37,965 --> 00:00:42,405\nbefore we dive into all of our shows that\ngive you the information that we need.\n\n13\n00:00:42,405 --> 00:00:43,185\n>> Very good.\n\n14\n00:00:43,185 --> 00:00:44,895\n>> So Adam, why don't you get us started,\n\n15\n00:00:44,895 --> 00:00:49,100\njust kind of give us a little overview of\nthe SSCP, and what the certification is.\n\n16\n00:00:49,100 --> 00:00:53,350\n>> Absolutely, so the ideas behind\nthe SSCP, the system security certified\n\n17\n00:00:53,350 --> 00:00:58,350\npractitioner by the way, that's what SSCP\nstands for, an (ISC)2 certification.\n\n18\n00:00:58,350 --> 00:01:01,050\nA certification for\na hands on practitioner, so\n\n19\n00:01:01,050 --> 00:01:05,540\nmuch more so than somebody who is\ngoing to be a more senior manager.\n\n20\n00:01:05,540 --> 00:01:09,729\nThis is a person who is gonna have hands\non day to day responsibility for making\n\n21\n00:01:09,729 --> 00:01:14,314\nsure that IT, specifically IT security\nconcerns in the enterprise are addressed.\n\n22\n00:01:14,314 --> 00:01:18,337\nSo, they'll be the people that will be\nin the trenches dealing with firewalls,\n\n23\n00:01:18,337 --> 00:01:22,954\ndealing with networks, setting up wireless\nsecurity, setting up virtualized security,\n\n24\n00:01:22,954 --> 00:01:24,687\nand doing that on a regular basis.\n\n25\n00:01:24,687 --> 00:01:28,221\nAnd so, we typically see somebody\nwith a year of experience going\n\n26\n00:01:28,221 --> 00:01:30,460\nthrough certification like this.\n\n27\n00:01:30,460 --> 00:01:35,560\nSome hands on real world experience along\nwith some theory behind some of the areas\n\n28\n00:01:35,560 --> 00:01:38,940\nthat are gonna be covered in the common\nbody of knowledge, what we call the CBK.\n\n29\n00:01:38,940 --> 00:01:40,129\nWhich is the reference point for this.\n\n30\n00:01:40,129 --> 00:01:44,350\nAnd you really got to be, if you're out\nthere thinking about becoming an SSCP,\n\n31\n00:01:44,350 --> 00:01:47,690\nbe looking to market your skills\nto your potential employers.\n\n32\n00:01:47,690 --> 00:01:52,185\nBy saying this is a credential that\nvalidates me being able to do these things\n\n33\n00:01:52,185 --> 00:01:54,990\nreal-time as I go into the environment.\n\n34\n00:01:54,990 --> 00:01:57,198\nAnd I'm gonna be able to\nhelp you setup your network,\n\n35\n00:01:57,198 --> 00:02:00,740\nwill be able to help you secure it,\nhelp you monitor it, but\n\n36\n00:02:00,740 --> 00:02:03,930\nalso help you to understand\nwhat goes on in a day to day.\n\n37\n00:02:03,930 --> 00:02:05,410\n>> Yeah, and that's a really good point.\n\n38\n00:02:05,410 --> 00:02:10,700\nThe SSCP, you'll hear it described a lot\nof times in conjunction with this CISSP,\n\n39\n00:02:10,700 --> 00:02:12,960\nwhich is another\ncertification from (ISC)2.\n\n40\n00:02:12,960 --> 00:02:17,050\nThe CISSP very highly\nregarded certification, but\n\n41\n00:02:17,050 --> 00:02:20,002\nit is focused more around\nthat security manager.\n\n42\n00:02:20,002 --> 00:02:23,300\nThat high-level knowledge, that\na person who's been in the trenches for\n\n43\n00:02:23,300 --> 00:02:24,960\na long time.\n\n44\n00:02:24,960 --> 00:02:27,410\nThe SSCP, that's more of the doer,\n\n45\n00:02:27,410 --> 00:02:29,830\nthe person who's actually\ngetting their hands dirty.\n\n46\n00:02:29,830 --> 00:02:32,640\nGetting these systems put in place,\nprotecting the network, so\n\n47\n00:02:32,640 --> 00:02:33,470\nit's really cool.\n\n48\n00:02:33,470 --> 00:02:35,650\nIt covers a lot of neat technologies.\n\n49\n00:02:35,650 --> 00:02:38,370\nAdam, what are some of the things\nthat we cover in SSCP?\n\n50\n00:02:38,370 --> 00:02:41,891\n>> So, the criteria that we're gonna look\nat are what we call the common body of\n\n51\n00:02:41,891 --> 00:02:42,782\nknowledge areas.\n\n52\n00:02:42,782 --> 00:02:45,448\nThere are seven of them,\nare gonna be access control.\n\n53\n00:02:45,448 --> 00:02:48,720\nSo we're gonna be talking about all\nthe things associated with how we control\n\n54\n00:02:48,720 --> 00:02:49,560\naccess.\n\n55\n00:02:49,560 --> 00:02:53,030\nThe policies, the standards, the\nimplementation models, things like that.\n\n56\n00:02:53,030 --> 00:02:55,990\nWe'll take a look at security operations,\nand administration.\n\n57\n00:02:55,990 --> 00:02:58,828\nSo we'll be talking about what\na security administrator does,\n\n58\n00:02:58,828 --> 00:03:01,506\nwhat are the kind of things that\nadd to management policies,\n\n59\n00:03:01,506 --> 00:03:03,780\nthings of that nature that\nyou might be looking at.\n\n60\n00:03:03,780 --> 00:03:06,195\nWe'll take a look at monitoring,\nand analysis.\n\n61\n00:03:06,195 --> 00:03:11,670\nAnd talk about continuous monitoring,\nhow we monitor, how we look at results.\n\n62\n00:03:11,670 --> 00:03:16,460\nThings such as firewall logs,\nintrusion protection, and defense systems,\n\n63\n00:03:16,460 --> 00:03:17,610\nthings of that nature.\n\n64\n00:03:17,610 --> 00:03:20,690\nWe'll be taking a look at risk response,\nand recovery.\n\n65\n00:03:20,690 --> 00:03:22,280\nSo, what is risk management?\n\n66\n00:03:22,280 --> 00:03:24,310\nHow important is risk,\nthreat, vulnerability?\n\n67\n00:03:24,310 --> 00:03:25,340\nHow do we address those?\n\n68\n00:03:25,340 --> 00:03:26,580\nHow do we define them?\n\n69\n00:03:26,580 --> 00:03:28,800\nWhat is business continuity?\n\n70\n00:03:28,800 --> 00:03:30,290\nWhat is disaster recovery?\n\n71\n00:03:30,290 --> 00:03:34,080\nHow do we plan for those events that may,\nor may not be on the horizon for\n\n72\n00:03:34,080 --> 00:03:37,340\nus initially as we open\nup our minds to security.\n\n73\n00:03:37,340 --> 00:03:41,290\nBut ultimately as we know, when we\nare security management professionals, and\n\n74\n00:03:41,290 --> 00:03:44,240\nsecurity practitioners,\nwe have to address risk every day.\n\n75\n00:03:44,240 --> 00:03:45,610\nAnd so, how do we do that?\n\n76\n00:03:45,610 --> 00:03:49,069\nCryptography, and the use of cryptography\nin networks to provide security.\n\n77\n00:03:49,069 --> 00:03:52,530\n[INAUDIBLE] Have been a lot of talk\nover the last couple of years about what\n\n78\n00:03:52,530 --> 00:03:56,565\nsecurity is, and is not, based on being\nable to look at people's email, or listen\n\n79\n00:03:56,565 --> 00:04:00,339\nto their phone calls, all sorts of things\nthat we may, or may not be aware of.\n\n80\n00:04:00,339 --> 00:04:01,064\n>> [LAUGH]\n>> So,\n\n81\n00:04:01,064 --> 00:04:03,691\nthe security practitioner\ntakes a look at that, and\n\n82\n00:04:03,691 --> 00:04:06,737\nfrom the practitioner perspective\nwould say to a business,\n\n83\n00:04:06,737 --> 00:04:10,310\nthis is what we need to do in order\nto implement a secure solution.\n\n84\n00:04:10,310 --> 00:04:12,210\nThese are the kind of\nalgorithms we may use, and\n\n85\n00:04:12,210 --> 00:04:15,900\nthese are the kind of cryptographic\nsolutions we may wanna put in place.\n\n86\n00:04:15,900 --> 00:04:18,950\nThese are the secure protocols\nthat we want to use.\n\n87\n00:04:18,950 --> 00:04:22,990\nFor networks, and communication,\nwe take a look at the bread, and\n\n88\n00:04:22,990 --> 00:04:25,660\nbutter of what a security\npractitioner does everyday.\n\n89\n00:04:25,660 --> 00:04:29,260\nWe think about the networks,\nthe telecommunications solutions that they\n\n90\n00:04:29,260 --> 00:04:31,720\ndeploy, whether they're wireless,\nor wired.\n\n91\n00:04:31,720 --> 00:04:35,297\nWhether they are looking at remote access,\nor people that work in an office,\n\n92\n00:04:35,297 --> 00:04:39,041\nthey're going to look at firewalls,\nwireless technology, all the things that\n\n93\n00:04:39,041 --> 00:04:42,804\nare associated with network access,\nreally top to bottom, across that stack.\n\n94\n00:04:42,804 --> 00:04:47,499\nAnd then we finish up with malicious code,\nand activity, one of my most\n\n95\n00:04:47,499 --> 00:04:52,290\nfavorite sections in the sense that I\ndo a lot of work around these areas.\n\n96\n00:04:52,290 --> 00:04:55,975\nIs to spend time talking about the things\nthat can go wrong in a system, And\n\n97\n00:04:55,975 --> 00:04:58,870\nunderstand how to identify them,\nand be aware of them.\n\n98\n00:04:58,870 --> 00:05:03,260\nSo that way we are able to zero in on the\nissues we have, and as a result hopefully,\n\n99\n00:05:03,260 --> 00:05:08,210\nidentify the problems with malware,\ntrojans, worms, anything that could go\n\n100\n00:05:08,210 --> 00:05:12,690\non with, not only transmissions of those,\nbut countermeasures associated with them.\n\n101\n00:05:12,690 --> 00:05:14,250\n>> So, those are our seven domains.\n\n102\n00:05:14,250 --> 00:05:16,500\nThese are the knowledge areas\nthat we need to focus in,\n\n103\n00:05:16,500 --> 00:05:20,028\nif we plan on getting\nthe SSCP certification.\n\n104\n00:05:20,028 --> 00:05:23,090\nSo Adam, and let's say that I look at\nthat list, and I say, you know what,\n\n105\n00:05:23,090 --> 00:05:24,320\nI'm an expert on all of that stuff.\n\n106\n00:05:24,320 --> 00:05:25,760\nI'm ready to take the exam today.\n\n107\n00:05:25,760 --> 00:05:28,030\nSo, what do I need to know about the exam?\n\n108\n00:05:28,030 --> 00:05:30,940\n>> So\nthe exam is gonna be computer-based today.\n\n109\n00:05:30,940 --> 00:05:35,631\nYears ago, if you were sitting for an exam\nfrom (ISC)2, they were paper-based exams.\n\n110\n00:05:35,631 --> 00:05:38,760\nThey were going to use a scantron bubble,\nand answer sheet, and\n\n111\n00:05:38,760 --> 00:05:42,190\nyou would sit for four hours for this,\nor three hours for this exam rather.\n\n112\n00:05:42,190 --> 00:05:45,850\nAnd it would have been 125 questions, and\nyou would have had to go through, and\n\n113\n00:05:45,850 --> 00:05:47,310\nwrite out all the answers by hand.\n\n114\n00:05:47,310 --> 00:05:48,850\nToday, they're computerized.\n\n115\n00:05:48,850 --> 00:05:52,085\nYou can go into a secure testing center,\nand you can take the exam.\n\n116\n00:05:52,085 --> 00:05:56,612\nIt is still 125 questions, you need to\nscore 700, or better in order to pass.\n\n117\n00:05:56,612 --> 00:06:00,737\nAnd you will need to make sure you have\nat least one year of proven experience in\n\n118\n00:06:00,737 --> 00:06:04,555\nthe field in one, or more of the seven\nareas we just identified for you.\n\n119\n00:06:04,555 --> 00:06:08,813\nThat you can document on your application,\nand then you're able to validate that\n\n120\n00:06:08,813 --> 00:06:13,005\nexperience through the application\nprocess after you take the exam.\n\n121\n00:06:13,005 --> 00:06:15,975\nAnd so, what happens is,\nyou go, and sit for the exam.\n\n122\n00:06:15,975 --> 00:06:17,185\nPass the exam.\n\n123\n00:06:17,185 --> 00:06:20,115\nThen you go through an application\nprocess through (ISC)2,\n\n124\n00:06:20,115 --> 00:06:21,607\nwhere you submit an application.\n\n125\n00:06:21,607 --> 00:06:26,200\nValidate your three-year resume, and your\ncredentials that you have the experience.\n\n126\n00:06:26,200 --> 00:06:27,350\nAnd then you're able to,\n\n127\n00:06:27,350 --> 00:06:31,070\nalong with the fee that you pay to apply,\nsend all that paperwork into (ISC)2.\n\n128\n00:06:31,070 --> 00:06:34,470\nThere's a small delay,\nwhile they go through the application.\n\n129\n00:06:34,470 --> 00:06:37,350\nYou may randomly,\nbe chosen to have an application audited.\n\n130\n00:06:37,350 --> 00:06:40,470\nIf you are, you may be asked some\nfollow up questions about 10%\n\n131\n00:06:40,470 --> 00:06:43,040\nof people on average get audited randomly.\n\n132\n00:06:43,040 --> 00:06:46,320\nBut more often than not, you simply\ngo through the application process.\n\n133\n00:06:46,320 --> 00:06:49,260\nWithin about a week, give, or\ntake depending on the time of the year,\n\n134\n00:06:49,260 --> 00:06:53,280\nyou hear back that you've been accepted\nas long as your credentials hold up, and\n\n135\n00:06:53,280 --> 00:06:55,170\neverything is validated on your resume.\n\n136\n00:06:55,170 --> 00:06:58,310\nAnd your granted in this\ncase the SSCP credential.\n\n137\n00:06:58,310 --> 00:07:00,030\nOnce your granted that credential,\n\n138\n00:07:00,030 --> 00:07:03,530\nyou will have a three-year cycle where\nyou are expected as a professional\n\n139\n00:07:03,530 --> 00:07:07,890\nin the field practicing your\ncraft to accrue CPE credits.\n\n140\n00:07:07,890 --> 00:07:11,720\nYou must do 40 credits a year in order to\nbe able to maintain your certification,\n\n141\n00:07:11,720 --> 00:07:14,430\n120 credits over a three-year cycle.\n\n142\n00:07:14,430 --> 00:07:17,970\nYou are then able to provide\ndocumentation about those credits through\n\n143\n00:07:17,970 --> 00:07:19,890\nan online portal, through the web.\n\n144\n00:07:19,890 --> 00:07:22,610\nYou submit them, and\nthen you pay your membership fees, and\n\n145\n00:07:22,610 --> 00:07:26,720\nrenew your certification on\na three-year cycle based on those fees.\n\n146\n00:07:26,720 --> 00:07:31,340\nAssuming you stay active, and you get\nyour CPEs, there is no re-certification\n\n147\n00:07:31,340 --> 00:07:35,390\nprocess at this point,\nmeaning you don't have to re-sir the exam.\n\n148\n00:07:35,390 --> 00:07:39,160\nHowever, if you let your certification\nlapse, if you don't stay active, you will\n\n149\n00:07:39,160 --> 00:07:42,570\nneed to re-sit the exam, so it's really\na question of what you choose to do.\n\n150\n00:07:42,570 --> 00:07:45,950\nBut there are professionals out there that\njust simply want to re-certify every three\n\n151\n00:07:45,950 --> 00:07:48,605\nyears, because they wanna prove they're\nstaying current on the technology,\n\n152\n00:07:48,605 --> 00:07:50,015\nand up to date with the knowledge.\n\n153\n00:07:50,015 --> 00:07:52,275\nSo, truly up to you at the end of the day.\n\n154\n00:07:52,275 --> 00:07:54,284\n>> Yeah, one thing I like to\nhighlight about this, (ISC)2,\n\n155\n00:07:54,284 --> 00:07:57,135\nthat they really stress having experience.\n\n156\n00:07:57,135 --> 00:07:59,415\nAnd Adam said it for the SSCP,\n\n157\n00:07:59,415 --> 00:08:05,145\nyou're really supposed to have the either\none-year of actual in field experience.\n\n158\n00:08:05,145 --> 00:08:07,900\nOr sometimes you hear\npeople say the equivalency.\n\n159\n00:08:07,900 --> 00:08:11,510\nWell, when you submit your\npaperwork to the (ISC)2,\n\n160\n00:08:11,510 --> 00:08:14,300\nyou show that you have to have\ndocumented one-year of experience.\n\n161\n00:08:14,300 --> 00:08:16,210\nIts not like CompTIA, or\nwhere it can be equivalent.\n\n162\n00:08:16,210 --> 00:08:18,580\nYou actually need to have that experience.\n\n163\n00:08:18,580 --> 00:08:20,140\nSo, this is a certification\nthat is designed for\n\n164\n00:08:20,140 --> 00:08:23,240\npeople that are already working\nin the security field, or\n\n165\n00:08:23,240 --> 00:08:27,200\nat least working with security\nrelated infrastructure, and equipment.\n\n166\n00:08:27,200 --> 00:08:27,930\nWhat if you don't?\n\n167\n00:08:27,930 --> 00:08:29,590\nIf you're one of those\npeople that doesn't?\n\n168\n00:08:29,590 --> 00:08:33,520\nIf you're just getting started, and you've\ndecided that security is the way to go,\n\n169\n00:08:33,520 --> 00:08:37,020\nthen SSCP is probably not\nthe certification for you right now.\n\n170\n00:08:37,020 --> 00:08:41,170\nInstead you should be looking to\nthings like CompTIA Security Plus.\n\n171\n00:08:41,170 --> 00:08:44,480\nWith Security Plus you get the base\nknowledge, it's actually a very similar,\n\n172\n00:08:44,480 --> 00:08:48,540\nnot as in depth, but\nvery similar to what we see here in SSCP.\n\n173\n00:08:48,540 --> 00:08:50,550\nBut it is designed for\npeople who maybe just starting out,\n\n174\n00:08:50,550 --> 00:08:53,520\nwho may not have any field experience.\n\n175\n00:08:53,520 --> 00:08:55,800\nBut if you're already working the field,\nand you're looking for\n\n176\n00:08:55,800 --> 00:08:59,910\na way to validate that knowledge\nSSCP is the certification to use.\n\n177\n00:08:59,910 --> 00:09:02,000\nThat's one thing I've\nalways like about (ISC)2,\n\n178\n00:09:02,000 --> 00:09:04,370\nlet's pull up these requirements again.\n\n179\n00:09:04,370 --> 00:09:09,280\nIt is you'll notice how they say,\nobtain the required experience, and\n\n180\n00:09:09,280 --> 00:09:13,990\nthen in your study for exam used\nthese optional educational tools.\n\n181\n00:09:13,990 --> 00:09:17,770\nIn other words, if you have all the field\nexperience, you don't need study tools.\n\n182\n00:09:17,770 --> 00:09:19,080\nYou can just go, and take the exam.\n\n183\n00:09:19,080 --> 00:09:21,680\nGo ahead, and have it.\n\n184\n00:09:21,680 --> 00:09:24,640\nBut if you work in it, but\nnot in all the areas, and you wanna\n\n185\n00:09:24,640 --> 00:09:28,215\nround off that information, that's where\nthings like our show come in handy.\n\n186\n00:09:28,215 --> 00:09:32,395\nThe official training, the textbooks,\nthe self-paced stuff that's out there.\n\n187\n00:09:32,395 --> 00:09:35,605\nAll those different things help to make\nsure you've got that base of knowledge to\n\n188\n00:09:35,605 --> 00:09:38,275\nbe ready, for what's on the exam.\n\n189\n00:09:38,275 --> 00:09:40,025\n>> One other thing we wanna\nmake sure you're aware of,\n\n190\n00:09:40,025 --> 00:09:42,900\nas well when you go through\nthe endorsement process,\n\n191\n00:09:42,900 --> 00:09:47,300\nthis idea of after you actually pass\nthe exam, the application process.\n\n192\n00:09:47,300 --> 00:09:49,520\nWe call it formally,\nthe endorsement process.\n\n193\n00:09:49,520 --> 00:09:52,150\nYou have a nine-month window,\n(ISC)2 gives you time,\n\n194\n00:09:52,150 --> 00:09:55,330\nin other words, after you pass the exam,\nin order to apply.\n\n195\n00:09:55,330 --> 00:09:57,458\nSo, while you wanna do\nit as soon as possible,\n\n196\n00:09:57,458 --> 00:10:00,680\nwe understand that there are needs\nto be a window where things happen,\n\n197\n00:10:00,680 --> 00:10:02,940\nyou're busy with work, or whatever.\n\n198\n00:10:02,940 --> 00:10:05,638\nAnd so, you're given a window where\nyou then, those scores are good.\n\n199\n00:10:05,638 --> 00:10:07,895\nBut they're good for\nup to nine months for you to apply.\n\n200\n00:10:07,895 --> 00:10:10,383\nYou don't wanna wait too long,\nbut you can go out, and\n\n201\n00:10:10,383 --> 00:10:13,525\nget your paperwork in order to get\nsomebody to formally endorse you,\n\n202\n00:10:13,525 --> 00:10:16,420\nmake sure you have the credential\ninformation in your resume.\n\n203\n00:10:16,420 --> 00:10:19,480\nYou need to validate your experience,\nthings of that nature.\n\n204\n00:10:19,480 --> 00:10:20,630\nSo, there is a window.\n\n205\n00:10:20,630 --> 00:10:24,050\nIt's not an immediate requirement,\nbut it is one you wanna be aware of.\n\n206\n00:10:24,050 --> 00:10:28,630\nAnd you do have the ability,\ntry get somebody in your business, or\n\n207\n00:10:28,630 --> 00:10:31,560\na peer, or colleague that you know,\nto do an endorsement for you.\n\n208\n00:10:31,560 --> 00:10:35,190\nIf they can speak to your experience,\nor if there's a sitting SSCP in good\n\n209\n00:10:35,190 --> 00:10:38,690\nstanding, meaning somebody who's already\ncertified, they can vouch for you,\n\n210\n00:10:38,690 --> 00:10:39,530\non your application.\n\n211\n00:10:39,530 --> 00:10:42,509\nIn effect, they do what's called an\nendorsement, and they can simply sign off\n\n212\n00:10:42,509 --> 00:10:45,543\non the application saying they've known\nyou, they know the kind of work you do.\n\n213\n00:10:45,543 --> 00:10:48,665\nAnd they are familiar with you,\nand are willing to stand up for\n\n214\n00:10:48,665 --> 00:10:52,100\nyou if asked, to validate that you\nshould be able to become an SSCP.\n\n215\n00:10:52,100 --> 00:10:56,439\nAnd by doing that, you then are able to\nvalidate the requirements we have listed\n\n216\n00:10:56,439 --> 00:11:01,100\nfor you rather, in terms of making sure\nthat you can validate your experience.\n\n217\n00:11:01,100 --> 00:11:04,510\nYou also will be required to subscribe\nto the (ISC)2 Code of Ethics.\n\n218\n00:11:04,510 --> 00:11:08,096\nMeaning, during your application process,\nyou have to agree to follow the Code\n\n219\n00:11:08,096 --> 00:11:10,693\nof Ethics that (ISC)2 has\npublished on their website.\n\n220\n00:11:10,693 --> 00:11:13,398\nYou may wanna go look at that website,\nat some point.\n\n221\n00:11:13,398 --> 00:11:16,278\nIt's, www.isc2.org,\n\n222\n00:11:16,278 --> 00:11:22,090\nI think Don's gonna bring\nit up while we're talking.\n\n223\n00:11:22,090 --> 00:11:25,675\nAnd so, making sure you're familiar\nwith what's on the website at all\n\n224\n00:11:25,675 --> 00:11:29,135\ntimes to get the most up to date\ncertification, information,\n\n225\n00:11:29,135 --> 00:11:31,965\nas well as understanding what's there for\nthe code of ethics,\n\n226\n00:11:31,965 --> 00:11:36,147\nis part of the requirement for being\nan SSCP, or any certified professional.\n\n227\n00:11:36,147 --> 00:11:39,187\nYou as a certified professional\nin any area, wanna\n\n228\n00:11:39,187 --> 00:11:42,447\ndo your due diligence generically, and\nunderstand the requirements of your field,\n\n229\n00:11:42,447 --> 00:11:45,097\nand make sure you're up to date\non the most recent information.\n\n230\n00:11:45,097 --> 00:11:47,963\nSo, do take a look at the website, you can\nsee it up on the screen as we're talking.\n\n231\n00:11:47,963 --> 00:11:49,637\nIt is gonna be important for you, and\n\n232\n00:11:49,637 --> 00:11:51,585\nthere is a link there\nto the code of ethics.\n\n233\n00:11:51,585 --> 00:11:54,420\nAnd you'll be able to follow it in order\nto be able to find out what is there,\n\n234\n00:11:54,420 --> 00:11:57,033\nand to make sure you understand\nthe requirements of being a certified\n\n235\n00:11:57,033 --> 00:11:57,676\nprofessional.\n\n236\n00:11:57,676 --> 00:12:01,209\n>> Yeah, and in fact, the little document\nthat I've brought up on the screen a few\n\n237\n00:12:01,209 --> 00:12:04,798\ntimes, this guy right here with\nthe overview, and all that information.\n\n238\n00:12:04,798 --> 00:12:06,947\nThat's right from (ISC)2's website,\n\n239\n00:12:06,947 --> 00:12:10,170\nif you goto credentials you'll\nsee the SSCP right there.\n\n240\n00:12:10,170 --> 00:12:15,120\nAnd if you go to about the SSCP, that\nit's right here, that you can come in,\n\n241\n00:12:15,120 --> 00:12:16,270\nand pull up the brochure.\n\n242\n00:12:16,270 --> 00:12:17,025\nWhere is it?\n\n243\n00:12:17,025 --> 00:12:19,224\n>> Right there- [CROSSTALK]\n>> Oh right there, scroll down.\n\n244\n00:12:19,224 --> 00:12:21,980\nSo you can find the SSCP\nbrochure right there.\n\n245\n00:12:21,980 --> 00:12:24,440\nYou can also get more\ndetailed information,\n\n246\n00:12:24,440 --> 00:12:26,920\nwhich we're gonna see as we go\nthrough the shows on the website.\n\n247\n00:12:26,920 --> 00:12:29,540\nTons of good information\nto be found there.\n\n248\n00:12:30,700 --> 00:12:33,240\nSo Adam, I think that pretty much\ncovers all the general stuff.\n\n249\n00:12:33,240 --> 00:12:36,567\nDo you have any other little bits that\nwe wantna throw out, before we wrap up?\n\n250\n00:12:36,567 --> 00:12:39,144\n>> Probably just to think about the fact,\nthat because this is\n\n251\n00:12:39,144 --> 00:12:42,560\na credential that is designed from\npractitioners, people that are hands on.\n\n252\n00:12:42,560 --> 00:12:46,032\nIf you're not comfortable with some of\nthe things we may be speaking about,\n\n253\n00:12:46,032 --> 00:12:49,420\nin terms of experience, and\nsome of the technology we've talked about.\n\n254\n00:12:49,420 --> 00:12:52,200\nThere are other course programs\nthat you can take a look at, so\n\n255\n00:12:52,200 --> 00:12:54,500\nyou wanna make sure you're thinking\nabout things like Security Plus.\n\n256\n00:12:54,500 --> 00:12:55,850\nYou've heard Don mention that.\n\n257\n00:12:55,850 --> 00:12:59,940\nMaybe some of the other A+, or\nNetwork Plus CompTIA content that will\n\n258\n00:12:59,940 --> 00:13:02,830\nhelp you with some of the background\ninformation, just to make sure you go\n\n259\n00:13:02,830 --> 00:13:06,550\nthrough a refresher, take a look at\nthat content, be familiar with it.\n\n260\n00:13:06,550 --> 00:13:09,830\nYeah, we all do a lot of this stuff\neveryday in our security practices,\n\n261\n00:13:09,830 --> 00:13:12,910\nif this is what you do for a living,\nbut it may have been a while since you\n\n262\n00:13:12,910 --> 00:13:15,620\ntouched the firewall,\nif that's not what you do everyday.\n\n263\n00:13:15,620 --> 00:13:18,752\nAnd so, just going back, and reviewing\nsome of the content to make sure you're\n\n264\n00:13:18,752 --> 00:13:21,157\ncomfortable with it,\nis really gonna be the key to success.\n\n265\n00:13:21,157 --> 00:13:22,970\nAnd we look forward to having\nthose conversations with you.\n\n266\n00:13:22,970 --> 00:13:23,537\n>> Yep.\n\n267\n00:13:23,537 --> 00:13:28,245\nAnd remember as an ITProTV subscriber,\nyou're not charged per class.\n\n268\n00:13:28,245 --> 00:13:29,005\nYou get it all.\n\n269\n00:13:29,005 --> 00:13:32,795\nSo, for the hands on experience, if you\nneed to brush up on that definitely,\n\n270\n00:13:32,795 --> 00:13:37,480\ncheck out some of the other shows like\nthe CCNA Security show for Cisco Security.\n\n271\n00:13:37,480 --> 00:13:40,360\nWe also have the Microsoft\n70-410 show that covers\n\n272\n00:13:40,360 --> 00:13:43,100\na little bit of security\nfunctions inside of Windows.\n\n273\n00:13:43,100 --> 00:13:46,480\nAnd there's a few other ones like Security\nPlus, that are security related too.\n\n274\n00:13:46,480 --> 00:13:48,250\nLot's of good information to\nbe found in all of those, and\n\n275\n00:13:48,250 --> 00:13:50,120\nyou can always just browse through, and\n\n276\n00:13:50,120 --> 00:13:53,920\nwatch individual episodes to find specific\ntopics that you're looking to brush up on.\n\n277\n00:13:54,990 --> 00:13:57,800\nWell, also keep in mind if you\never have any questions on this,\n\n278\n00:13:57,800 --> 00:14:00,732\nif you have a questions about\nthe SSCP certification in general.\n\n279\n00:14:00,732 --> 00:14:04,792\nYou're always welcome to use our Q&A\nsystem at the top of every ITProTV\n\n280\n00:14:04,792 --> 00:14:07,374\nwebpage, you'll see a link that says Q&A.\n\n281\n00:14:07,374 --> 00:14:08,280\nYou can click there.\n\n282\n00:14:08,280 --> 00:14:09,830\nGo, and post your questions.\n\n283\n00:14:09,830 --> 00:14:12,350\nWe monitor, and answer, we'll make\nsure you get the information you need.\n\n284\n00:14:13,370 --> 00:14:16,300\nWell, we're really looking forward\nto kicking off the SSCP, and\n\n285\n00:14:16,300 --> 00:14:18,680\nin fact we're gonna start shooting\nthose right after this one wraps.\n\n286\n00:14:18,680 --> 00:14:20,500\nSo, we'll stop here.\n\n287\n00:14:20,500 --> 00:14:21,304\nI'm Don Pezet.\n\n288\n00:14:21,304 --> 00:14:22,419\n>> Im Adam Gordon.\n\n289\n00:14:22,419 --> 00:14:23,801\n>> And we'll see you then.\n\n290\n00:14:23,801 --> 00:14:30,859\n[SOUND]\n\n",
+          "url": "overview-sscp",
+          "vimeoId": "90418699"
+        }
+      ],
+      "title": "Overview of SSCP"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Don examine the various access controls that can be implemented by security professionals to increase confidentiality in a modern network. ",
+          "length": "6877",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/002-Access-Controls.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/002-Access-Controls-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/002-Access-Controls-sm.jpg",
+          "title": "Access Controls",
+          "transcript": "",
+          "url": "access-controls",
+          "vimeoId": "90418697"
+        }
+      ],
+      "title": "Access Controls"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Don take a look at the bureaucratic side of IT security. They discuss the differences policies, procedures, guidelines and baselines as well as recommend several third parties vendors that provide templates.",
+          "length": "2606",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/003-Security-Ops-and-Administration.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/003-Security-Ops-and-Administration-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/003-Security-Ops-and-Administration-sm.jpg",
+          "title": "Security Ops and Administration",
+          "transcript": "",
+          "url": "security-ops-administration",
+          "vimeoId": "90418698"
+        },
+        {
+          "description": "In this episode Adam and Don examine project management techniques that can be used to assist implementing security standards. They also take a look at the common criteria specification and some of the history behind modern security infrastructure.",
+          "length": "6647",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/004-Security-Ops-and-Administration-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/004-Security-Ops-and-Administration-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/004-Security-Ops-and-Administration-Pt-2-sm.jpg",
+          "title": "Security Ops and Administration Part 2",
+          "transcript": "",
+          "url": "security-ops-administration-2",
+          "vimeoId": "90538574"
+        }
+      ],
+      "title": "Security Operations and Administration"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Don describe the various components of a security audit and highlight the target areas that a security professional should focus on while monitoring for security.",
+          "length": "5841",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/007-Monitoring-and-Analysis.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/007-Monitoring-and-Analysis-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/007-Monitoring-and-Analysis-sm.jpg",
+          "title": "Monitoring and Analysis",
+          "transcript": "",
+          "url": "monitoring-analysis",
+          "vimeoId": "90691671"
+        },
+        {
+          "description": "In this episode Adam and Mike cover patch management, firewall generations. They also discuss goals of security testing as well as the five phases of penetration testing.",
+          "length": "5021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/008-Monitoring-and-Analysis-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/008-Monitoring-and-Analysis-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/008-Monitoring-and-Analysis-Pt-2-sm.jpg",
+          "title": "Monitoring and Analysis Part 2",
+          "transcript": "",
+          "url": "monitoring-analysis-2",
+          "vimeoId": "90691670"
+        }
+      ],
+      "title": "Monitoring and Analysis"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Mike discuss risk response and recovery. They define some of the basic concepts involved in risk management as well as cover controls, countermeasures and the basic risk management process.",
+          "length": "7958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/005-Risk-Response-and-Recovery.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/005-Risk-Response-and-Recovery-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/005-Risk-Response-and-Recovery-sm.jpg",
+          "title": "Risk Response and Recovery",
+          "transcript": "",
+          "url": "risk-response-recovery",
+          "vimeoId": "90538573"
+        },
+        {
+          "description": "In this episode Adam and Mike continue risk management by covering policies, incident handling, forensic and recovery alternatives. They conclude with a rundown of disaster recovery planning.",
+          "length": "4919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/006-Risk-and-Recovery-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/006-Risk-and-Recovery-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/006-Risk-and-Recovery-Pt-2-sm.jpg",
+          "title": "Risk Response and Recovery Part 2",
+          "transcript": "",
+          "url": "risk-response-recovery-2",
+          "vimeoId": "90538572"
+        }
+      ],
+      "title": "Risk, Response and Recovery"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Mike cover the basics of cryptography. They define some of the terminology necessary to understand cryptography.",
+          "length": "4690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/009-Cryptography-Pt-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/009-Cryptography-Pt-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/009-Cryptography-Pt-1-sm.jpg",
+          "title": "Cryptography",
+          "transcript": "",
+          "url": "cryptography1",
+          "vimeoId": "90747789"
+        },
+        {
+          "description": "In this episode Adam and Don explain the difference between symmetric, asymmetric and hybrid encryption systems. They also describe and demonstrate the function of hashing algorithms. ",
+          "length": "2127",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/010-Cryptography-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/010-Cryptography-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/010-Cryptography-Pt-2-sm.jpg",
+          "title": "Cryptography Part 2",
+          "transcript": "",
+          "url": "cryptography-2",
+          "vimeoId": "90747790"
+        },
+        {
+          "description": "In this episode Adam and Mike cover the various components of a Public Key Infrastructure (PKI). They discuss several types of attacks against cryptography such as brute force attacks and attacks against symmetric block ciphers.",
+          "length": "4227",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/011-Cryptography-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/011-Cryptography-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/011-Cryptography-Pt-3-sm.jpg",
+          "title": "Cryptography Part 3",
+          "transcript": "",
+          "url": "cryptography-3",
+          "vimeoId": "90747791"
+        }
+      ],
+      "title": "Cryptography"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Mike take a look at basic network components. They discuss different network topologies such as LAN and WAN topologies. They discuss how we can implement these components and topologies in a secure fashion.",
+          "length": "6218",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/013-Networking.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/013-Networking-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/013-Networking-sm.jpg",
+          "title": "Networking",
+          "transcript": "",
+          "url": "networking-overview3",
+          "vimeoId": "90747794"
+        },
+        {
+          "description": "In this episode Adam and Don examine wide area network technologies. They break down the most common technologies most commonly seen in the field and examine the differences between them. They wrap up the episode discussing security appliances like firewalls and NAC.",
+          "length": "5531",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/014-Networking-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/014-Networking-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/014-Networking-Pt-2-sm.jpg",
+          "title": "Networking Part 2",
+          "transcript": "",
+          "url": "networking-overview4",
+          "vimeoId": "90901163"
+        },
+        {
+          "description": "In this episode Adam and Mike discuss several protocols and port numbers. They break down several network protocols, routing protocols and security protocols. They also cover wireless standards and wireless best practices.  ",
+          "length": "7482",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/015-Networking-Pt-3.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/015-Networking-Pt-3-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/015-Networking-Pt-3-sm.jpg",
+          "title": "Networking Part 3",
+          "transcript": "",
+          "url": "networking-overview2",
+          "vimeoId": "90901164"
+        }
+      ],
+      "title": "Networks and Communications"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Adam and Don list and describe the many categories of malicious software. They also take a look at social engineering and wrap up the episode discussing the five steps in the hacking process.",
+          "length": "5860",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/012-Malicious-Code.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/012-Malicious-Code-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/sscp/012-Malicious-Code-sm.jpg",
+          "title": "Malicious Code",
+          "transcript": "",
+          "url": "malicious-code",
+          "vimeoId": "90747792"
+        }
+      ],
+      "title": "Malicious Code and Activity"
+    }
+  ],
+  "url": "systems-security-certified-practitioner",
+  "vLab": false
+}

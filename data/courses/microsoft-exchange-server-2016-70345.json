@@ -1,0 +1,395 @@
+{
+  "description": "The Microsoft Exchange 2016 Exam 70-345 show will help the experienced Exchange Admin who is already familiar with Microsoft Exchange but need to plan, deploy, manage and troubleshoot different components of Microsoft Exchange 2016.  You’ll see powershell and Exchange Admin Center commands that will help to maintain and manage Mailbox Databases, Client Access Services, Transport services, Coexistence and Migration scenarios.  Exchange Expert Brian Svidergol takes each topic in detail and focuses in on the skills measured to give clear understanding of each domain objective called out Microsoft for Exam 70-345",
+  "descriptionMD": "The Microsoft Exchange 2016 Exam 70-345 show will help the experienced Exchange Admin who is already familiar with Microsoft Exchange but need to plan, deploy, manage and troubleshoot different components of Microsoft Exchange 2016.  You’ll see powershell and Exchange Admin Center commands that will help to maintain and manage Mailbox Databases, Client Access Services, Transport services, Coexistence and Migration scenarios.  Exchange Expert Brian Svidergol takes each topic in detail and focuses in on the skills measured to give clear understanding of each domain objective called out Microsoft for Exam 70-345",
+  "length": "43960",
+  "name": "Microsoft Exchange Server 2016 - 70-345",
+  "practiceExam": false,
+  "subtitle": "Designing and Deploying Microsoft Exchange Server 2016",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Microsoft Exchange 2016 Exam 70-345 show will help the experienced Exchange Admin who is already familiar with Microsoft Exchange but need to plan, deploy, manage and troubleshoot different components of Microsoft Exchange 2016. You’ll see powershell and Exchange Admin Center commands that will help to maintain and manage Mailbox Databases, Client Access Services, Transport services, Coexistence and Migration scenarios. Exchange Expert Brian Svidergol takes each topic in detail and focuses in on the skills measured to give clear understanding of each domain objective called out Microsoft for Exam 70-345",
+          "length": "601",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-0-0-overview-031717-PGM.mp4.00_00_00_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-0-0-overview-031717-PGM.mp4.00_00_00_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-0-0-overview-031717-PGM.mp4.00_00_00_00.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:04.893\n[SOUND] Hello,\nwe're about to begin a show on\n\n2\n00:00:04.893 --> 00:00:10.954\nMicrosoft Exchange 2016 for Exam 70-345.\n\n3\n00:00:10.954 --> 00:00:13.870\nYou want to make sure that you're\nactually ready to take the exam, so\n\n4\n00:00:13.870 --> 00:00:16.520\nwe're actually have an entire\nshow based on that.\n\n5\n00:00:16.520 --> 00:00:19.130\nBefore we get started let's talk\na little bit about getting ready for\n\n6\n00:00:19.130 --> 00:00:20.590\nthat exam as well.\n\n7\n00:00:20.590 --> 00:00:24.690\nOnce you're fully prepared, make sure that\nyou go to your Pearson Vue testing center,\n\n8\n00:00:24.690 --> 00:00:27.550\nand get registered,\nyou can do that online as well.\n\n9\n00:00:27.550 --> 00:00:29.230\nBut wherever you are in the world,\n\n10\n00:00:29.230 --> 00:00:31.520\nmake sure you also know that\nyou're gonna have to pay a fee for\n\n11\n00:00:31.520 --> 00:00:36.290\nthe exam as well, currently, right now\nin the United States, it's about $165.\n\n12\n00:00:36.290 --> 00:00:38.480\nMake sure you check your local rates, and\n\n13\n00:00:38.480 --> 00:00:41.030\nyou actually find out what\nthe price is going to be.\n\n14\n00:00:41.030 --> 00:00:43.990\nOnce you're registered, you'll go\nthere on the day of the exam, sit for\n\n15\n00:00:43.990 --> 00:00:47.790\nthe exam and then, of course hopefully,\npass the exam as well.\n\n16\n00:00:47.790 --> 00:00:52.070\nBut to ensure that you are ready and\nprepared for that, in our show we're gonna\n\n17\n00:00:52.070 --> 00:00:55.760\nhave Mr. Brian as being our subject\nmatter expert to help us out.\n\n18\n00:00:55.760 --> 00:00:58.570\nSo Brian, what are we gonna\nbe covering during our show?\n\n19\n00:00:59.720 --> 00:01:05.500\n&gt;&gt; Thanks Ronnie, so we've actually got,\nthis exam has six primary topics, and\n\n20\n00:01:05.500 --> 00:01:10.550\neach of the six topics represents\nabout 15 or 20% of the exam.\n\n21\n00:01:10.550 --> 00:01:14.830\nSo, the bad news is,\nyou can't focus on one topic because\n\n22\n00:01:14.830 --> 00:01:17.600\nthey're all evenly spread throughout,\nyou're gonna need to know a little bit\n\n23\n00:01:17.600 --> 00:01:19.532\nabout all these things to get ready for\nthe exam.\n\n24\n00:01:19.532 --> 00:01:23.100\nWhile we walk you through some of\nthe topics, we're gonna start at the top,\n\n25\n00:01:23.100 --> 00:01:29.310\nthe first one is plan deploy, manage,\nand troubleshoot mailbox databases.\n\n26\n00:01:29.310 --> 00:01:32.060\nSo this is all about the database side,\n\n27\n00:01:32.060 --> 00:01:35.660\nit starts off with a lot\nof sizing components.\n\n28\n00:01:35.660 --> 00:01:38.590\nHow many databases do you need,\nhow much storage do you need?\n\n29\n00:01:38.590 --> 00:01:44.050\nSo one of things you want to focus on,\nis how to size an environment if you're\n\n30\n00:01:44.050 --> 00:01:47.486\ngiven a certain set of circumstances, like\nmaybe you have a couple of thousand users,\n\n31\n00:01:47.486 --> 00:01:51.290\nthey each have a two gig mailbox,\nthey send 100 messages a day.\n\n32\n00:01:51.290 --> 00:01:54.370\nThe tool that you want to take a look at,\nmake sure you're familiar with,\n\n33\n00:01:54.370 --> 00:01:57.130\nis Exchange Server sizing calculator.\n\n34\n00:01:57.130 --> 00:02:00.850\nThat's that spreadsheet that will help\nyou calculate out the environment,\n\n35\n00:02:00.850 --> 00:02:01.510\nthe storage,\n\n36\n00:02:01.510 --> 00:02:05.750\neven the bandwidth if you decide to\ngo with database availability groups.\n\n37\n00:02:05.750 --> 00:02:10.450\nSo on the database side, there's a ton\nof topics, you're also gonna dive into\n\n38\n00:02:10.450 --> 00:02:14.970\ncreating databases, managing databases,\nmounting and dismounting,\n\n39\n00:02:14.970 --> 00:02:19.900\nmaybe get into a little bit of that\nstuff too, so that's topic number one.\n\n40\n00:02:19.900 --> 00:02:26.090\nFor topic number two plan, deploy, manage,\nand troubleshoot Client Access services.\n\n41\n00:02:26.090 --> 00:02:32.510\nSo, what we're talking about here is\nthe client population like your end users,\n\n42\n00:02:32.510 --> 00:02:35.970\nand how they get to all the services\nthat exchange has to offer.\n\n43\n00:02:35.970 --> 00:02:39.750\nSo, we're talking about everything\nfrom Outlook connectivity,\n\n44\n00:02:39.750 --> 00:02:43.960\nto Outlook on the web, to mobile devices,\n\n45\n00:02:43.960 --> 00:02:47.910\nanyway that anybody can get in and\nconsume the Exchange Services.\n\n46\n00:02:47.910 --> 00:02:50.460\nThere's a whole bunch of\ntopics to cover down here,\n\n47\n00:02:50.460 --> 00:02:53.760\nI wanna point out a couple of them.\n\n48\n00:02:53.760 --> 00:02:59.200\nWe have a little bit on authentication,\nknowing about form-based authentication,\n\n49\n00:02:59.200 --> 00:03:05.130\nkerberos based authentication, how to set\nthat stuff, we get into client namespaces,\n\n50\n00:03:05.130 --> 00:03:07.990\nall the names that people use,\nand have to remember.\n\n51\n00:03:07.990 --> 00:03:13.460\nYou think about mail.yourdomain.com, can\nyou use that across the whole environment,\n\n52\n00:03:13.460 --> 00:03:18.360\nwhere do you set that stuff up, and\ndoes it need to be different internally,\n\n53\n00:03:18.360 --> 00:03:19.450\nexternally?\n\n54\n00:03:19.450 --> 00:03:20.013\nAll right,\n\n55\n00:03:20.013 --> 00:03:24.130\na lot of planning considerations\naround the Client Access pieces.\n\n56\n00:03:24.130 --> 00:03:28.900\nAnd then also in there, we talk about\nsome of the networking pieces, too,\n\n57\n00:03:28.900 --> 00:03:31.510\nlike load balancing, and\n\n58\n00:03:33.010 --> 00:03:37.170\neven some site resiliency when it comes\nto getting the clients connected.\n\n59\n00:03:37.170 --> 00:03:40.778\nSo that's high level topic number two.\n\n60\n00:03:40.778 --> 00:03:45.125\nThe third one is the exchange,\ninfrastructure, recipients and\n\n61\n00:03:45.125 --> 00:03:49.330\nsecurity, planning,\ndeploying, and managing.\n\n62\n00:03:49.330 --> 00:03:52.825\nWhat you'll find in there is a lot\nof stuff on Active Directory,\n\n63\n00:03:52.825 --> 00:03:55.960\npreparing Active Directory\nto have exchange.\n\n64\n00:03:55.960 --> 00:03:59.740\nWe're talking about schema updates,\ndomain preparation, and\n\n65\n00:04:01.160 --> 00:04:07.115\nthe other pieces are around security,\nmail unable to object permissions.\n\n66\n00:04:07.115 --> 00:04:09.800\nThese is a very tough area,\n\n67\n00:04:09.800 --> 00:04:13.650\nall the permission stuff, we have\na lot of role based access control, so\n\n68\n00:04:13.650 --> 00:04:17.580\na couple of things I wanna point out here,\nhow do we give our administrators\n\n69\n00:04:17.580 --> 00:04:21.480\naccess to the environment,\nwithout giving them more than they need?\n\n70\n00:04:21.480 --> 00:04:24.110\nSo it's all about the principle\nof least privilege right?\n\n71\n00:04:24.110 --> 00:04:26.270\nYour gonna need to know\nthe built in roles,\n\n72\n00:04:26.270 --> 00:04:28.850\nyour gonna need to know\nhow to customize them.\n\n73\n00:04:28.850 --> 00:04:34.060\nOn the permission side, we're gonna dive\ninto anything from mailbox permissions,\n\n74\n00:04:34.060 --> 00:04:36.220\nto public folder permission.\n\n75\n00:04:36.220 --> 00:04:39.590\nHow do you give other people\naccess to somebody's mailbox?\n\n76\n00:04:39.590 --> 00:04:41.410\nThink about shared mailboxes, and\n\n77\n00:04:41.410 --> 00:04:44.410\nwhat if you just wanted to\ngive them access to a folder?\n\n78\n00:04:44.410 --> 00:04:46.689\nYou've got a lot of granularity there, and\n\n79\n00:04:46.689 --> 00:04:49.902\nthese are the details you're\ngonna need to know for the exam.\n\n80\n00:04:49.902 --> 00:04:52.110\nAll right,\nlet's talk about the next topic.\n\n81\n00:04:54.450 --> 00:04:59.270\nPlan, deploy, manage compliance,\narchiving, eDiscovery, and auditing.\n\n82\n00:04:59.270 --> 00:05:00.950\nSo this is an interesting one,\n\n83\n00:05:00.950 --> 00:05:06.600\nvery closely related to security,\nthere is a turnout detail here.\n\n84\n00:05:06.600 --> 00:05:10.150\nWhen we talk about compliance and\narchiving,\n\n85\n00:05:10.150 --> 00:05:14.907\nwhat we are talking about is, do we need\nto maintain data at the organisation, and\n\n86\n00:05:14.907 --> 00:05:18.720\nif so how long, and\nif we do, how do we do that?\n\n87\n00:05:18.720 --> 00:05:22.800\nWe can go with archiving as one example,\nwhen we thing of archiving,\n\n88\n00:05:22.800 --> 00:05:26.920\nthat's taking your mail data,\nand keeping it for the long term.\n\n89\n00:05:26.920 --> 00:05:30.350\nThere's a lot of choices and planning\nconsiderations, for example, do you wanna\n\n90\n00:05:30.350 --> 00:05:34.130\nkeep that archiving data on premises,\nor do you wanna move it up to the Cloud,\n\n91\n00:05:34.130 --> 00:05:36.280\nwhat are the different things\nyou need to think about there?\n\n92\n00:05:36.280 --> 00:05:42.630\nWhen we talk about eDiscovery, we're\ntalking about the ability for the security\n\n93\n00:05:42.630 --> 00:05:46.890\nteam to take a look at all of the mail\ndata throughout the whole environment,\n\n94\n00:05:46.890 --> 00:05:50.640\nlooking for something maybe to do with\na legal case or something similar.\n\n95\n00:05:50.640 --> 00:05:54.435\nFor the exam, you're gonna need to know\nhow to set up eDiscovery, how to run\n\n96\n00:05:54.435 --> 00:05:58.730\neDiscovery, and what permissions at\nyou're gonna need in order to do that.\n\n97\n00:05:58.730 --> 00:06:03.170\nAnd then finally, auditing for\nthis particular topic.\n\n98\n00:06:03.170 --> 00:06:07.270\nAuditing is capturing all of\nthe actions that were performed\n\n99\n00:06:07.270 --> 00:06:10.580\ntypically by an administrator\nwhile they're doing their job.\n\n100\n00:06:10.580 --> 00:06:13.833\nWhich commandlets did they run,\nwhich parameters, who ran it,\n\n101\n00:06:13.833 --> 00:06:15.940\nwhat did they run, what did they change?\n\n102\n00:06:15.940 --> 00:06:17.920\nYou're gonna need that stuff\nwhen you wanna go back and\n\n103\n00:06:17.920 --> 00:06:23.185\nfigure out what caused maybe an outage or\nsome kind of bad configuration change.\n\n104\n00:06:23.185 --> 00:06:25.435\nIn addition to\nthe administrative side though,\n\n105\n00:06:25.435 --> 00:06:29.095\nyou can also do auditing on\nthe mailboxes themselves.\n\n106\n00:06:29.095 --> 00:06:31.435\nSo if you're ever in a trouble shooting\nsituation and you wanna figure out,\n\n107\n00:06:31.435 --> 00:06:35.745\nwhat's going on with the user's mailbox,\nyou can turn on auditing on the mailbox\n\n108\n00:06:35.745 --> 00:06:39.895\nfor specific actions, whether they're\ncreates, or deletes, or removes, and\n\n109\n00:06:39.895 --> 00:06:42.685\nin troubleshooting scenarios,\nyou can dig that data up.\n\n110\n00:06:42.685 --> 00:06:45.810\nSo you're definitely gonna\nneed to know about that.\n\n111\n00:06:45.810 --> 00:06:50.180\nAnd then our final topic is implement and\nmanage coexistence,\n\n112\n00:06:50.180 --> 00:06:54.460\nhybrid scenarios,\nmigration, and federation.\n\n113\n00:06:54.460 --> 00:06:59.000\nThis is a whole flurry of topics,\nand their big ones too.\n\n114\n00:06:59.000 --> 00:07:04.000\nThis is where we'll get into\na little bit of Office 365,\n\n115\n00:07:04.000 --> 00:07:06.810\nwhen you think about taking your\non premises environment, and\n\n116\n00:07:06.810 --> 00:07:11.020\nconfiguring it to be a hybrid\nenvironment with Office 365.\n\n117\n00:07:11.020 --> 00:07:15.110\nMaybe you're gonna have some mailboxes\non-premises, maybe you're gonna have some\n\n118\n00:07:15.110 --> 00:07:18.471\nin the Cloud, maybe you're gonna\nmove everything into the Cloud, but\n\n119\n00:07:18.471 --> 00:07:20.712\nyou're gonna need that\nco-existence time for\n\n120\n00:07:20.712 --> 00:07:22.866\na little while where you\nhave to manage both.\n\n121\n00:07:22.866 --> 00:07:26.560\nYou're gonna need to know the details\naround that set-up process,\n\n122\n00:07:26.560 --> 00:07:29.553\nwhat are the requirement,\nhow do users authenticate,\n\n123\n00:07:29.553 --> 00:07:32.620\ndo we need to do any sinking\nup to Azure Active Directory?\n\n124\n00:07:34.400 --> 00:07:39.630\nBeyond that we get into migration and\ncoexistence from earlier version,\n\n125\n00:07:39.630 --> 00:07:45.609\nso think about Exchange 2010 or 2013, you\nwanna bring 2016 into your environment,\n\n126\n00:07:46.620 --> 00:07:51.350\nhow do you do that, what are you gonna\nneed to know, what do you do once it's in?\n\n127\n00:07:51.350 --> 00:07:54.140\nAnd then how do you get\nrid of the old stuff, so\n\n128\n00:07:54.140 --> 00:07:55.570\nthere's a bunch of topics around that.\n\n129\n00:07:55.570 --> 00:07:59.580\nEverything from moving mailboxes\nwhether individually or\n\n130\n00:07:59.580 --> 00:08:02.340\nin batches, moving the public folders.\n\n131\n00:08:02.340 --> 00:08:06.000\nAnd then the last little piece you\nneed to move before you can start\n\n132\n00:08:06.000 --> 00:08:09.080\nthe decommissioning process, and\nthere's a lot of details even\n\n133\n00:08:09.080 --> 00:08:13.510\naround the decommissioning process, and\nI think that are covered here on the exam.\n\n134\n00:08:13.510 --> 00:08:19.130\nSo, that's quite a bit of stuff here,\nI do have one more that I left off,\n\n135\n00:08:19.130 --> 00:08:24.740\nand that's the plan, deploy, manage and\ntroubleshoot transport services.\n\n136\n00:08:24.740 --> 00:08:28.540\nSo, transport services\nare the backend services that\n\n137\n00:08:28.540 --> 00:08:33.850\nhandle the flow of email data, when you\nsend an email from one person to another,\n\n138\n00:08:33.850 --> 00:08:38.330\nwhether it's inside the company,\nor maybe out to the internet.\n\n139\n00:08:38.330 --> 00:08:42.710\nThere's a whole transport pipeline\narchitecture, some of which is new to\n\n140\n00:08:42.710 --> 00:08:46.250\nExchange 2016, that you're gonna\nneed to know the details about.\n\n141\n00:08:46.250 --> 00:08:49.660\nYou wanna really know, how does\nan email get from one place to another,\n\n142\n00:08:49.660 --> 00:08:53.730\nhow does it choose which route to go down,\nwhat are the infrastructure\n\n143\n00:08:53.730 --> 00:08:58.750\nconsiderations to change that routing,\nmaybe enhance a little bit?\n\n144\n00:08:58.750 --> 00:09:00.820\nWe're gonna dive into\nthose details in the show,\n\n145\n00:09:00.820 --> 00:09:03.390\nso that you're comfortable as you\nget those topics on your exam.\n\n146\n00:09:04.870 --> 00:09:09.760\nSo, that is a breakdown of high level of\neverything we want to cover on this show.\n\n147\n00:09:09.760 --> 00:09:14.900\nWe're gonna dive into when we talk\nacross the topic a lot of PowerShell.\n\n148\n00:09:14.900 --> 00:09:19.470\nSo, most everything today, from an\nadministrative prospective, you can do it\n\n149\n00:09:19.470 --> 00:09:24.260\nfrom the GUI components, like Exchange\nadmin center or from PowerShell.\n\n150\n00:09:24.260 --> 00:09:27.960\nFor exam preparation,\nI like to focus on the PowerShell pieces,\n\n151\n00:09:27.960 --> 00:09:30.350\nbecause those are the most testable.\n\n152\n00:09:30.350 --> 00:09:33.680\nSo, you'll see, we're gonna cover\na lot of the command line, but\n\n153\n00:09:33.680 --> 00:09:36.500\nwhen it's appropriate,\nwe're also gonna go into the Gooey,\n\n154\n00:09:36.500 --> 00:09:40.510\nbecause sometimes it shows you\na good end user experience and\n\n155\n00:09:40.510 --> 00:09:43.560\nwhat the impacts and\neffects of some of these changes are.\n\n156\n00:09:43.560 --> 00:09:47.580\nSo, be prepared for a lot of PowerShell,\nand let's get ready.\n\n157\n00:09:48.610 --> 00:09:53.790\nIf you think that you're gonna be\ntaking the exam 70-345, then we have\n\n158\n00:09:53.790 --> 00:09:58.596\nall this information coming\nup in the show, stay tuned.\n\n159\n00:09:58.596 --> 00:10:01.459\n[SOUND]\n\n",
+          "url": "overview70767",
+          "vimeoId": "209627629"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie discuss and examine the concepts of planning for Mailbox Database in Exchange 2016.  They discuss the use of the planning calculator, storage capacity and storage architecture considerations.  Also covered are planning uses such as auto reseed and basic virtualization requirements too.",
+          "length": "1744",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-plan_deploy_and_manage_mailbox_dbs-031317-PGM.00_31_31_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-plan_deploy_and_manage_mailbox_dbs-031317-PGM.00_31_31_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-plan_deploy_and_manage_mailbox_dbs-031317-PGM.00_31_31_07.Still001-sm.jpg",
+          "title": "Plan Deploy and Manage Mailbox DBs",
+          "transcript": "",
+          "url": "plan-deploymanage-mailbox-dbs",
+          "vimeoId": "208723287"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a look at creating and managing task for validating and creating the mailbox databases. Brian shows how to setup the JetStress, create and configure the mailbox database using powershell and manage the created mailbox database using the GUI.  The last topic he emphasizes is the configuring the transaction log and how to move them.",
+          "length": "1356",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-2-plan_deploy_and_manage_mailbox_dbs_pt2-031317-PGM.00_24_03_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-2-plan_deploy_and_manage_mailbox_dbs_pt2-031317-PGM.00_24_03_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-1-2-plan_deploy_and_manage_mailbox_dbs_pt2-031317-PGM.00_24_03_27.Still001-sm.jpg",
+          "title": "Plan Deploy and Manage Mailbox DBs Part 2",
+          "transcript": "",
+          "url": "plan-deploymanage-mailbox-dbs2",
+          "vimeoId": "208721840"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie begin with planning, deploying and managing the high-availability solutions for mailbox databases.  They identify failure domains, discuss solutions that meet SLA requirements, plan out software updates and maintenance. Brian also describes a change management.  Brian also demonstrates how to setup a DAG and add elements to make it work!",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-1-ha_solutions_for_mailbox_dbs-031317-PGM.00_35_10_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-1-ha_solutions_for_mailbox_dbs-031317-PGM.00_35_10_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-1-ha_solutions_for_mailbox_dbs-031317-PGM.00_35_10_22.Still001-sm.jpg",
+          "title": "HA Solutions for Mailbox DBs",
+          "transcript": "",
+          "url": "ha-solutionsmailbox-dbs",
+          "vimeoId": "208724612"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie discuss the need for setting up a File Share Witness (FSW).  The discuss the need and take a look at configuring it in Azure as well ask discuss hosting a DAG in the cloud.",
+          "length": "602",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-2-ha_solutions_for_mailbox_dbs_pt2-031317-PGM.00_09_47_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-2-ha_solutions_for_mailbox_dbs_pt2-031317-PGM.00_09_47_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-2-2-ha_solutions_for_mailbox_dbs_pt2-031317-PGM.00_09_47_16.Still001-sm.jpg",
+          "title": "HA Solutions for Mailbox DBs Part 2",
+          "transcript": "",
+          "url": "ha-solutionsmailbox-dbs2",
+          "vimeoId": "208724028"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie dive into the concepts of site-resilient DAGs.  Brian describes the considerations of placing the FSW for a given scenario.  They discuss the idea of cross-site DAGs.  He shows how to configure for the DAC—Dataceter Activation Coordination and they mention the used of an alternate fileshare witness.",
+          "length": "991",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-3-site_resilient_dag-031317-PGM.00_21_17_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-3-site_resilient_dag-031317-PGM.00_21_17_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-3-site_resilient_dag-031317-PGM.00_21_17_22.Still001-sm.jpg",
+          "title": "Site-Resilient Database Availability Group",
+          "transcript": "",
+          "url": "siteresilient-database-availability",
+          "vimeoId": "208724266"
+        },
+        {
+          "description": "In this episode Ronnie and Brian begin guiding viewers through the aspects troubleshooting mailbox DBs.  They run commands to help to test the replication health and look at performance issues. Also They demonstration how to troubleshoot the DB copy activation and failures.  Brian describes issues surrounding quorum issues that may arise and help us to understand the concept of data center activation.",
+          "length": "1291",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-4-monitor_and_troubleshoot_mailbox_dbs-031317-PGM.00_24_08_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-4-monitor_and_troubleshoot_mailbox_dbs-031317-PGM.00_24_08_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-4-monitor_and_troubleshoot_mailbox_dbs-031317-PGM.00_24_08_19.Still001-sm.jpg",
+          "title": "Monitor and Troubleshoot Mailbox DBs",
+          "transcript": "",
+          "url": "monitortroubleshoot-mailbox-dbs",
+          "vimeoId": "208720790"
+        },
+        {
+          "description": "In this episode, Ronnie and Brian examine the of the backup and recovery solutions for the mailbox databases.  The mention RTO and RPO requirements, lagged mailboxes, failures, public folders and the dial tone restore!",
+          "length": "1237",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-5-backup_and_recover_mailbox_dbs-031317-PGM.00_20_22_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-5-backup_and_recover_mailbox_dbs-031317-PGM.00_20_22_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-1-5-backup_and_recover_mailbox_dbs-031317-PGM.00_20_22_09.Still001-sm.jpg",
+          "title": "Backup and Recover Mailbox DBs",
+          "transcript": "",
+          "url": "backuprecover-mailbox-dbs",
+          "vimeoId": "208725208"
+        }
+      ],
+      "title": "Plan, deploy, manage, and troubleshoot mailbox databases"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Brian discuss Client Access Services requirements and considerations.  They discuss name space considerations for CAS.  Brian then describes the differences between proxying and redirection.  He shows how to deploy the certificates to the exchange components and some additional service setups.",
+          "length": "1460",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-1-client_access_services-031417-PGM.00_24_20_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-1-client_access_services-031417-PGM.00_24_20_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-1-client_access_services-031417-PGM.00_24_20_10.Still001-sm.jpg",
+          "title": "Client Access Services",
+          "transcript": "",
+          "url": "client-access-services",
+          "vimeoId": "208725644"
+        },
+        {
+          "description": "{Description}In this episode, Brian and Ronnie introduce us to the authentication components, as well as the Offline Address Book, the Hierarchical Address List and Address Book Policies.  The emphasize how to configure and when to use those services.  Each of these services, according to Brian help end user experience.",
+          "length": "1046",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-2-client_access_services_pt2-031417-PGM.00_30_51_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-2-client_access_services_pt2-031417-PGM.00_30_51_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-1-2-client_access_services_pt2-031417-PGM.00_30_51_02.Still001-sm.jpg",
+          "title": "Client Access Services Part 2",
+          "transcript": "",
+          "url": "client-access-services2",
+          "vimeoId": "209628657"
+        },
+        {
+          "description": "In this episode, Ronnie and Brian discuss the topics of mobility and loadbalancing.  Brian introduces a guest expert, Elias Mereb to help configure OWA for devices, to demonstrate how to configure Allow Block Quarantine and configuring for Office Apps.  Brian and Ronnie also discuss briefly the issues configuring namespace load balancing and affinity.  As well as cover the topics of layer 4 and layer 7 load balancing methods.",
+          "length": "1336",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-2-mobility_and_load_balancing_solutions-031417-PGM.00_30_30_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-2-mobility_and_load_balancing_solutions-031417-PGM.00_30_30_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-2-mobility_and_load_balancing_solutions-031417-PGM.00_30_30_20.Still001-sm.jpg",
+          "title": "Mobility and Load Balancing",
+          "transcript": "",
+          "url": "mobilityload-balancing-solutions",
+          "vimeoId": "209209360"
+        },
+        {
+          "description": "In this episode, Ronnie and Brian take a look into troubleshooting some of the common items in Exchange such as Outlook Anywhere, Outlook MAPI over HTTP, Exchange Web Services and Outlook on the Web.  They demonstrate the commands and utilities that will help you get the bottom of your connectivity issues with Exchange 2016",
+          "length": "1335",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-1-troubleshoot_client_connectivity-031417-PGM.00_22_00_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-1-troubleshoot_client_connectivity-031417-PGM.00_22_00_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-1-troubleshoot_client_connectivity-031417-PGM.00_22_00_29.Still001-sm.jpg",
+          "title": "Troubleshoot Client Connectivity",
+          "transcript": "",
+          "url": "troubleshoot-client-connectivity",
+          "vimeoId": "209209802"
+        },
+        {
+          "description": "In the episode, Ronnie and Brian continue with troubleshooting pop and map, authentication, autodiscover, ActiveSync and redirection and proxy.  Brian discusses and demonstrates the tools available in each case of when and where to use them for the best results in troubleshooting Exchange 2016 connectivity issues.",
+          "length": "1204",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-2-troubleshoot_client_connectivity_pt2-031417-PGM.00_19_55_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-2-troubleshoot_client_connectivity_pt2-031417-PGM.00_19_55_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-3-2-troubleshoot_client_connectivity_pt2-031417-PGM.00_19_55_17.Still001-sm.jpg",
+          "title": "Troubleshoot Client Connectivity Part 2",
+          "transcript": "",
+          "url": "troubleshoot-client-connectivity2",
+          "vimeoId": "209205996"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a look at some familiar topics from site-resiliency perspective.  They review namespaces and describe the different models involved.  They discuss the basics of site failover and switchover by distinguishing them and reminding us of the importance of the witness server, they review the reduced requirements of certificate and expected client behaviors during failover and switchover",
+          "length": "1157",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-4-site_resilient_client_access_services-031417-PGM.00_19_02_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-4-site_resilient_client_access_services-031417-PGM.00_19_02_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-2-4-site_resilient_client_access_services-031417-PGM.00_19_02_23.Still001-sm.jpg",
+          "title": "Site Resilient Client Access Services",
+          "transcript": "",
+          "url": "site-resilient-client-access-services",
+          "vimeoId": "209209024"
+        }
+      ],
+      "title": "Plan, deploy, manage, and troubleshoot client access services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Brian and Ronnie begin with planning transport services.  The discuss the implications of making sure that the Transport Service meets the SLA requirements listed.  Along with this, they plan for both inter-site mail flow and inter-org mail flow and redundant intra-site scenarios.  Another consideration is also planning the use of SafetyNet and Shadow Redundancy.  Lastly they take look at planning for multiple services that must be considered for the transport services to be ready to go.",
+          "length": "1784",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-1-plan_deploy_and_manage_transport-031417-PGM.00_31_14_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-1-plan_deploy_and_manage_transport-031417-PGM.00_31_14_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-1-plan_deploy_and_manage_transport-031417-PGM.00_31_14_03.Still001-sm.jpg",
+          "title": "Plan Deploy and Manage Transport",
+          "transcript": "",
+          "url": "plan-deploymanage-transport",
+          "vimeoId": "209207946"
+        },
+        {
+          "description": "In this episode Brian and Ronnie dive into troubleshooting the exchange 2016 transport services.  They take a look at the exchange logs and emphasize using powershell to help format tranport logs for readabiiity.  Brian also helps to identify issues for using a shared namespace and SMTP mail flow. They take a look at mail flow issues and TLS issues and take a look at new issues dealing with the Transport Architecture.",
+          "length": "1628",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-2-troubleshoot_and_monitor_transport_services-031417-PGM.00_26_54_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-2-troubleshoot_and_monitor_transport_services-031417-PGM.00_26_54_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-2-troubleshoot_and_monitor_transport_services-031417-PGM.00_26_54_13.Still001-sm.jpg",
+          "title": "Troubleshoot and Monitor Transport Services",
+          "transcript": "",
+          "url": "troubleshootmonitor-transport-services",
+          "vimeoId": "209208505"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie examine common topics already covered previously with a focus on the transport services.  They discuss and show the use of the preference values for MX records for failover.  Brian describes the resubmission and rerouting queues that need managing and show their default settings.  Along with these topics, Brian and Ronnie take a look at send/receive connectors for site resiliency and describe consideration for transport failover and switchover.",
+          "length": "1953",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-3-message_hygiene-031517-PGM.00_32_19_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-3-message_hygiene-031517-PGM.00_32_19_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-3-message_hygiene-031517-PGM.00_32_19_16.Still001-sm.jpg",
+          "title": "Message Hygiene",
+          "transcript": "",
+          "url": "message-hygiene",
+          "vimeoId": "209206467"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie examine common topics already covered previously with a focus on the transport services.  They discuss and show the use of the preference values for MX records for failover.  Brian describes the resubmission and rerouting queues that need managing and show their default settings.  Along with these topics, Brian and Ronnie take a look at send/receive connectors for site resiliency and describe consideration for transport failover and switchover.",
+          "length": "998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-4-site-resilient_transport_services-031517-PGM.00_28_23_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-4-site-resilient_transport_services-031517-PGM.00_28_23_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-3-4-site-resilient_transport_services-031517-PGM.00_28_23_17.Still001-sm.jpg",
+          "title": "Site Resilient Transport Services",
+          "transcript": "",
+          "url": "site-resilient-transport-services",
+          "vimeoId": "209205572"
+        }
+      ],
+      "title": "Plan, deploy, manage, and troubleshoot transport services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Brian and Ronnie take a look at the preparing AD DS for exchange installation.  They describe some of the planning considerations for the number of DCs and GCS.  They also discuss DNS changes that may be required for Exchange.  Brian then demonstrates Extending the Active Directory Schema through powershell as well as preparing all the domains in the forest.  The guys briefly describe site topology considerations.  Brian takes the times to configure a throttling policy to minimize the impact of big volume users of Exchange.",
+          "length": "1586",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-1-active_directory_ds_for_exchange-031517-PGM.00_45_49_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-1-active_directory_ds_for_exchange-031517-PGM.00_45_49_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-1-active_directory_ds_for_exchange-031517-PGM.00_45_49_11.Still001-sm.jpg",
+          "title": "Active Directory DS for Exchange",
+          "transcript": "",
+          "url": "active-directory-dsexchange",
+          "vimeoId": "209204892"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie begin with creating and configuring mail-enable_objects.  They demonstrate how to create an existingAD user’s  mailbox as well as how to create the AD user and Mailbox with a single command. They also create resource and room mailboxes for scheduling and configure users and contacts.  Brian configures a distribution list and emphasizes its usage along with linked mailboxes so users can share the same source address and he sets up public folders for the exchange environment.",
+          "length": "1342",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-2-mail_enabled_objects-031517-PGM.00_22_06_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-2-mail_enabled_objects-031517-PGM.00_22_06_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-2-mail_enabled_objects-031517-PGM.00_22_06_18.Still001-sm.jpg",
+          "title": "Mail Enabled Objects",
+          "transcript": "",
+          "url": "mail-enabled-objects",
+          "vimeoId": "209204438"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a look at mail-enabled object permission.  This is view that affects and is noticed by the end-users of exchange.  They describe the difference between “Send As” and “Send-On_Behalf”.  They also describe the effects of using mailbox folder permissions and mailbox permissions.  Brian shows setting up the room mailbox delegates to work and configuring auto-mapping and lastly, he configures the public folder permissions.",
+          "length": "1330",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-3-mail_enabled_object_permissions-031517-PGM.00_21_55_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-3-mail_enabled_object_permissions-031517-PGM.00_21_55_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-3-mail_enabled_object_permissions-031517-PGM.00_21_55_10.Still001-sm.jpg",
+          "title": "Mail Enabled Object Permissions",
+          "transcript": "",
+          "url": "mail-enabled-object-permissions",
+          "vimeoId": "209202999"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a dive into the RBAC used by Exchange 2016.  They discuss the use of built in groups and cmdlets.  They demonstrate how to configure custom-scoped groups and used unscoped roles too.  Brian give a brief overview for an delegated setup for exchange and what is involved.  He also demonstrates some of the most common poweshell commands used in troubleshooting and describes the use of user assignment policies",
+          "length": "1229",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-4-rbac-031517-PGM.00_20_14_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-4-rbac-031517-PGM.00_20_14_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-4-rbac-031517-PGM.00_20_14_02.Still001-sm.jpg",
+          "title": "Role Based Access Control (RBAC)",
+          "transcript": "",
+          "url": "rbac",
+          "vimeoId": "209201286"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a look at using Bitlocker and S/MIME as part of planning an exchange security strategy.  Brian demonstrates enabling the Bitlocker Encryption and shows how we can verify its configuration.  They discuss some of the performance issues and options that are available during its setup.  Brian also discusses S/MIME to secure messages between users.  Brian demonstrate how it’s enabled and what requirements there are for using it.",
+          "length": "1290",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-5-plan_a_security_strategy-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-5-plan_a_security_strategy-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-5-plan_a_security_strategy-031517-1-sm.jpg",
+          "title": "Plan a Security Strategy",
+          "transcript": "",
+          "url": "plansecurity-strategy",
+          "vimeoId": "208893996"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie introduce the topic of Information Rights Management and the implementation using AD Rights Management and Azure RMS.  Brian also describes the difference between these two implementation. Next Brian takes us through using RMS Templates as the basis for setting up Rights Management in the Exchange Admin Center. He demonstrates Transport Protection Rules and describes how this used to protect our email after it’s sent outbound. The guys contrast that withOutlook Protection rules which protects messages before the arrive in the mailbox.  Brian also reviews  journal report decryption, eDiscovery, pre-licensing.  They end episode reviewing the troubleshooting tools and where to begin.",
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-6-irm_with_ad_rights_mgmt_and_azure_rms-031517-PGM.00_27_24_11.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-6-irm_with_ad_rights_mgmt_and_azure_rms-031517-PGM.00_27_24_11.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-4-6-irm_with_ad_rights_mgmt_and_azure_rms-031517-PGM.00_27_24_11.Still002-sm.jpg",
+          "title": "IRM with AD Rights Mgmt and Azure RMS",
+          "transcript": "",
+          "url": "irmad-rights-mgmtazure-rms",
+          "vimeoId": "209203814"
+        }
+      ],
+      "title": "Plan, deploy, and manage an Exchange infrastructure, recipients, and security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Brian and Ronnie take a look at implementing the DLP according to a business need.  They describe the concept and the use of templates as a starting point.  They show the default templates and how to implement them.  Also described by the guys is the ability to customize rules and set policies for the DLP.  Brian then also demonstrates how to create a blank template that has to be manually configured too.  Lastly, they complete the topic by demonstrating Exchange DLP thumbprinting for the company data that is not part of the normal of the PII information covered.",
+          "length": "1150",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-1-data_loss_prevention-dlp-031517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-1-data_loss_prevention-dlp-031517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-1-data_loss_prevention-dlp-031517-1-sm.jpg",
+          "title": "Data Loss Prevention DLP",
+          "transcript": "",
+          "url": "data-loss-prevention-dlp",
+          "vimeoId": "208722878"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie discuss and demonstrate Exchange 2016 archiving and MRM.  They show how to configure retention polices and create custom tag, then associate them together to be applied to users.  Brian demonstrates how the policies are applied by the Managed Folder Assistant and how to remove and delete tags.  The guys discuss the idea of using online archiving such as Office 365, mentioning the perquisites and considerations.  Lastly they create archive policies and configure in-place archiving.",
+          "length": "1499",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-2-archiving_and_mrm-031617-PGM.00_24_44_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-2-archiving_and_mrm-031617-PGM.00_24_44_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-2-archiving_and_mrm-031617-PGM.00_24_44_03.Still001-sm.jpg",
+          "title": "Archiving and MRM",
+          "transcript": "",
+          "url": "archivingmrm",
+          "vimeoId": "208893554"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie cover using eDiscovery.  They emphasize the need of using the RBAC role for eDiscovery.  They configure a litigation hold on a mailbox to show how it can be used, these hold can take up to 60 minutes to be enabled or disabled.  Brian performs a query-based InPlace hold on a single mailbox and then multiple-mailbox discovery.  Last topic the guys cover is working with Microsoft Sharepoint’s Discovery to do a federated search.",
+          "length": "1348",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-3-plan_configure_and_perform_ediscovery-031617-PGM.00_22_13_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-3-plan_configure_and_perform_ediscovery-031617-PGM.00_22_13_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-3-plan_configure_and_perform_ediscovery-031617-PGM.00_22_13_22.Still001-sm.jpg",
+          "title": "Plan Configure and Perform eDiscovery",
+          "transcript": "",
+          "url": "plan-configureperform-ediscovery",
+          "vimeoId": "208895407"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie breakdown compliance tasks for Exchange 2016.  They configure MailTips and Message Classifications to help users with compliance.  Brian sets up the transport rules to limit the sending of messages and he takes a look at configuring journaling for compliance. Lastly, Brian addresses and demonstrates how to enable auditing for the mailbox owner and the exchange administrator.",
+          "length": "1944",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-4-plan_configure_and_manage_compliance-031617-PGM.00_32_57_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-4-plan_configure_and_manage_compliance-031617-PGM.00_32_57_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-5-4-plan_configure_and_manage_compliance-031617-PGM.00_32_57_15.Still001-sm.jpg",
+          "title": "Plan Configure and Manage Compliance",
+          "transcript": "",
+          "url": "plan-configuremanage-compliance",
+          "vimeoId": "208889720"
+        }
+      ],
+      "title": "Plan, deploy, and manage compliance, archiving, eDiscovery, and auditing"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Brian and Ronnie help us to get started with an hybrid coexistence with Exchange Online.  They briefly mention the prerequisites for making it work and then run through the Hybrid Configuration Wizard to help show the setup.  The guys also emphasize the use of OAuth for authentication in hybrid deployments and the technologies dependent on it.  Brian describes the certificate and firewall issues that may also cause issues with the hybrid deployment.  They end the episode by troubleshooting transport and client access issues with Exchange online and Directory Synchronization.",
+          "length": "1895",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-1-coexistence_with_office_365_-031617-PGM.00_31_19_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-1-coexistence_with_office_365_-031617-PGM.00_31_19_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-1-coexistence_with_office_365_-031617-PGM.00_31_19_17.Still001-sm.jpg",
+          "title": "Coexistence with Office 365",
+          "transcript": "",
+          "url": "coexistenceoffice-365",
+          "vimeoId": "208889089"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie cover the Exchange Federation concepts.  They describe the connecting to the Azure AD Authentication System.  They also take a look at managing the sharing policies and organizational relationship.  Brian also reminds us that we must be concerned with certificates and firewall ports.  They close out the show with troubleshooting the Federation Trusts, Organizational Relationship and Cross-Forest Availability.",
+          "length": "1069",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-2-exchange_federation-031617-PGM.00_17_35_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-2-exchange_federation-031617-PGM.00_17_35_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-2-exchange_federation-031617-PGM.00_17_35_11.Still001-sm.jpg",
+          "title": "Exchange Federation",
+          "transcript": "",
+          "url": "exchange-federation",
+          "vimeoId": "208888417"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie discuss some of the considerations when working in a environment with Exchange 2016 and earlier versions of Exchange.  They take a look at planning for names spaces for coexistence, show the planning of proxy redirection, mail flow, mailbox migrations, transport services and client access.",
+          "length": "1441",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-3-coexistence_with_earlier_exchange_versions-031617-PGM.00_23_45_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-3-coexistence_with_earlier_exchange_versions-031617-PGM.00_23_45_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-3-coexistence_with_earlier_exchange_versions-031617-PGM.00_23_45_22.Still001-sm.jpg",
+          "title": "Coexistence with Earlier Exchange Versions",
+          "transcript": "",
+          "url": "coexistenceearlier-exchange-versions",
+          "vimeoId": "208887518"
+        },
+        {
+          "description": "In this episode, Brian and Ronnie take a look at migrating from earlier versions of Exchange to Exchange 2016.  They describe and distinguished different migration paths depending on the scenario.  Also, the guys take a look at migrating mailboxes, migrating to modern public folders.  Brian also helps us to consider planning for features found in earlier versions of Exchange that are de-emphasized or discontinued in Exchange 2016.  With his experience, Brian brings up considerations for transitioning and decommissioning servers before final steps of getting rid of earlier Exchange servers and takes a look at troubleshooting the Mailbox Replication Services.",
+          "length": "1591",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-4-migrate_from_earlier_exchange_versions-031717.00_26_15_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-4-migrate_from_earlier_exchange_versions-031717.00_26_15_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-exchange70345/microsoft-exchange70345-6-4-migrate_from_earlier_exchange_versions-031717.00_26_15_00.Still001-sm.jpg",
+          "title": "Migrate from Earlier Exchange Versions",
+          "transcript": "",
+          "url": "migrateearlier-exchange-versions",
+          "vimeoId": "209627910"
+        }
+      ],
+      "title": "Implement and manage coexistence, hybrid scenarios, migration, and federation"
+    }
+  ],
+  "url": "microsoft-exchange-server-2016-70345",
+  "vLab": false
+}

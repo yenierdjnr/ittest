@@ -3,11 +3,11 @@ import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby-link';
 
 const notFoundMetaData = {
-    page: '404',
-    path: '/404',
-    title: '404 - Page Not Found',
-    description: '',
-    canonical: `${process.env.SELF_URL}/404`
+  page: '404',
+  path: '/404',
+  title: '404 - Page Not Found',
+  description: '',
+  canonical: `${process.env.SELF_URL}/404`
 };
 
 const metaData = {
@@ -232,11 +232,11 @@ const metaData = {
 };
 
 const getRenderMetaData = (locationPathName) => {
-    if (metaData[locationPathName]) {
-      return metaData[locationPathName];
-    } else {
-      return notFoundMetaData;
-    }
+  if (metaData[locationPathName]) {
+    return metaData[locationPathName];
+  } else {
+    return notFoundMetaData;
+  }
 }
 
 class Head extends Component {

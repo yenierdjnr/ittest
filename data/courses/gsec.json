@@ -1,0 +1,569 @@
+{
+  "description": "GIAC is a registered trademark of the Escal Institute of Advanced Technologies, Inc.  SANS is not affiliated with these courses. GIAC has been an industry leader in information security certifications for years. The GIAC Security Essentials (GSEC) is designed for Security Professionals who want to demonstrate that they are qualified for IT systems hands-on roles with respect to security tasks. GSEC is one of the DoD Approved 8570 Baseline Certifications for IAT Level II.",
+  "descriptionMD": "",
+  "length": "85213",
+  "name": "GIAC Security Essentials",
+  "practiceExam": true,
+  "subtitle": "GSEC",
+  "tagUrl": "giac",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explore the fundamentals of networking. They discuss the various network types such as local area networks, wide area networks, metropolitan area networks and personal area networks. They will also look at the different types of network topologies such as bus, ring, star, mesh and hybrid networks.",
+          "length": "1663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-1-networking_fundamentals-120516-PGM.00_27_29_17.Still001-sm.jpg",
+          "title": "Networking Fundamentals",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:08.549\nWelcome to ITProTV, I'm your host,\nDon Pezet. [CROSSTALK]\n\n2\n00:00:08.549 --> 00:00:11.700\n&gt;&gt; You're watching ITProTV.\n\n3\n00:00:11.700 --> 00:00:14.620\n&gt;&gt; Welcome to another exciting\nepisode here at ITProTV.\n\n4\n00:00:14.620 --> 00:00:15.880\nI'm your host, Wes Bryan.\n\n5\n00:00:15.880 --> 00:00:21.972\nAnd today, we are continuing through our\nepisode on GIA Security Fundamentals.\n\n6\n00:00:21.972 --> 00:00:22.745\nYeah, GIA, and\n\n7\n00:00:22.745 --> 00:00:26.620\nI don't even know if I'm gonna get this\nright ever through the whole entire thing.\n\n8\n00:00:26.620 --> 00:00:30.090\nIt's GSAC, and\nthat's the GIAC Security Fundamentals.\n\n9\n00:00:30.090 --> 00:00:33.140\nAnd before I ruin that acronym anymore,\nlet's go ahead and\n\n10\n00:00:33.140 --> 00:00:34.260\nbring Mike Roderick up here.\n\n11\n00:00:34.260 --> 00:00:35.260\nMike, how you doing, sir?\n\n12\n00:00:35.260 --> 00:00:36.550\n&gt;&gt; Doing great, it is a mouthful.\n\n13\n00:00:36.550 --> 00:00:37.980\nIt's a lot to say.\n\n14\n00:00:37.980 --> 00:00:44.161\nBut this is the GIAC, the Global\nInformation Assurance Certification, GIAC.\n\n15\n00:00:44.161 --> 00:00:46.786\nAnd then one of the certifications,\n\n16\n00:00:46.786 --> 00:00:52.390\nthat's basically the overall governing\nbody, if you will, the GIAC.\n\n17\n00:00:52.390 --> 00:00:55.850\nAnd then they've created their\ncertifications, one of them being GSEC,\n\n18\n00:00:55.850 --> 00:01:00.200\nor Security Essentials,\nGIAC Security Essentials, or GSEC.\n\n19\n00:01:00.200 --> 00:01:01.930\nThat's what we're doing today.\n\n20\n00:01:01.930 --> 00:01:03.100\nAnd in this particular one,\n\n21\n00:01:03.100 --> 00:01:06.710\nwhere we're basically starting\nwith our network fundamentals.\n\n22\n00:01:06.710 --> 00:01:09.506\nSo we're gonna start at the beginning and\nkinda work our way through.\n\n23\n00:01:09.506 --> 00:01:14.430\nThis is cuz of a different class and the\nfact that we do a broad range of stuff.\n\n24\n00:01:14.430 --> 00:01:18.115\nWhen we're studying for GSEC, we have\nto be familiar with everything from\n\n25\n00:01:18.115 --> 00:01:20.930\nthe fundamentals up to some\nof the more advanced topics.\n\n26\n00:01:20.930 --> 00:01:24.348\nAnd so as we go through this, you might\nthink, wow, that's really simple,\n\n27\n00:01:24.348 --> 00:01:25.250\nwhat class is this?\n\n28\n00:01:25.250 --> 00:01:27.020\nOr that's really advanced.\n\n29\n00:01:27.020 --> 00:01:29.220\nKeep in mind that this\nkind of covers a lot,\n\n30\n00:01:29.220 --> 00:01:33.230\nit's got a broad base of knowledge for\nthis exam, if you will.\n\n31\n00:01:33.230 --> 00:01:35.425\nSo, we're gonna start in the beginning,\nand\n\n32\n00:01:35.425 --> 00:01:37.519\nwe're gonna do our network fundamentals.\n\n33\n00:01:37.519 --> 00:01:40.096\nSome terminology that we\nneed to be familiar with and\n\n34\n00:01:40.096 --> 00:01:44.138\njust some basic network and concepts that\nwithout, you can't secure a network,\n\n35\n00:01:44.138 --> 00:01:45.677\nyou cannot secure your nodes.\n\n36\n00:01:45.677 --> 00:01:48.635\nYou can't secure your enterprise\nif you don't understand\n\n37\n00:01:48.635 --> 00:01:50.180\nthe basic fundamentals of it.\n\n38\n00:01:50.180 --> 00:01:54.100\nYou can't communicate efficiently with\nother people when you're talking about\n\n39\n00:01:54.100 --> 00:01:57.420\nproblems or issues or\nideas if you don't have that terminology.\n\n40\n00:01:57.420 --> 00:02:01.230\nSo always important to start with\nthat foundational knowledge,\n\n41\n00:02:01.230 --> 00:02:05.190\nand we're gonna start with\nbasically network types, right?\n\n42\n00:02:05.190 --> 00:02:08.200\nWe need to be familiar when we’re talking\nabout our network, and somebody says,\n\n43\n00:02:08.200 --> 00:02:10.000\nwell, are you talking about your LAN?\n\n44\n00:02:10.000 --> 00:02:11.790\nOr are you talking about your WAN?\n\n45\n00:02:11.790 --> 00:02:13.990\nWhat the heck are they talking about?\n\n46\n00:02:13.990 --> 00:02:17.250\nSo those are some acronyms that I just\nthrew out at you, and let’s define them.\n\n47\n00:02:17.250 --> 00:02:21.782\nWe’re gonna start with LAN,\nL-A-N, or local area network.\n\n48\n00:02:21.782 --> 00:02:25.089\nAnd if we take a look at my screen here,\nI’ve got a little drawing that kinda\n\n49\n00:02:25.089 --> 00:02:28.420\nrepresents, or supposed to represent,\na local area network.\n\n50\n00:02:28.420 --> 00:02:32.140\nAnd Wes, I know when I define a local area\nnetwork, it's basically everything that's\n\n51\n00:02:32.140 --> 00:02:36.290\nin my little geographical region,\nlike my building here.\n\n52\n00:02:36.290 --> 00:02:39.900\nAnd you can see in this drawing\nI've got a router, some switches.\n\n53\n00:02:39.900 --> 00:02:41.752\nI got a client subnet over here.\n\n54\n00:02:41.752 --> 00:02:46.380\nI've got maybe a server backbone,\na wireless access point, wireless clients.\n\n55\n00:02:46.380 --> 00:02:48.750\nBut those are all here in this building.\n\n56\n00:02:48.750 --> 00:02:52.450\nThis building might be a single-floor,\nit might be multiple floors.\n\n57\n00:02:52.450 --> 00:02:55.710\nRight, but it's one geographic location.\n\n58\n00:02:55.710 --> 00:02:58.282\nRight, and that's typically how I\ndefine a local area network, right?\n\n59\n00:02:58.282 --> 00:02:59.760\n&gt;&gt; Yeah, absolutely.\n\n60\n00:02:59.760 --> 00:03:05.020\nI think about that geographic location in\na privately owned, self-contained network.\n\n61\n00:03:05.020 --> 00:03:07.009\nAnd what I mean by that is both Mike and\nI,\n\n62\n00:03:07.009 --> 00:03:09.190\nwell, we have our own local area networks.\n\n63\n00:03:09.190 --> 00:03:12.495\nHe's got one at his house, and I've been\non it before, whether he knows it or not.\n\n64\n00:03:12.495 --> 00:03:14.155\n&gt;&gt; [LAUGH]\n&gt;&gt; And I've got one at my house, but\n\n65\n00:03:14.155 --> 00:03:16.620\nthey're self contained, and\nthey are private entities.\n\n66\n00:03:16.620 --> 00:03:19.340\nWhich means he's gonna manage\nhis local area network,\n\n67\n00:03:19.340 --> 00:03:21.070\njust like I'm gonna manage mine.\n\n68\n00:03:21.070 --> 00:03:22.715\nIt doesn't have to be a home\nnetwork either, right?\n\n69\n00:03:22.715 --> 00:03:24.390\nThis could also,\nwhere we're going with this,\n\n70\n00:03:24.390 --> 00:03:26.810\nis that this could also be in\na business environment as well.\n\n71\n00:03:26.810 --> 00:03:29.490\n&gt;&gt; Absolutely, so\nwe've got our local area network,\n\n72\n00:03:29.490 --> 00:03:34.650\neverything that's kinda, like you said,\nunder one management, all tied together.\n\n73\n00:03:34.650 --> 00:03:39.676\nAnd the big key here is using LAN\nprotocols, which we haven't come to yet.\n\n74\n00:03:39.676 --> 00:03:41.520\nWe're gonna talk about\nthose in just a minute.\n\n75\n00:03:41.520 --> 00:03:46.438\nBut there's a set of protocols that\nwe'll use on our local area network.\n\n76\n00:03:46.438 --> 00:03:50.060\nAll right, now your local area network\ncan take some different forms, right?\n\n77\n00:03:50.060 --> 00:03:52.769\nI've got this part back\nhere labeled intranet,\n\n78\n00:03:52.769 --> 00:03:55.160\nyou can see it's kinda behind a firewall.\n\n79\n00:03:55.160 --> 00:03:58.590\nThis is a very typical\nsmall business environment,\n\n80\n00:03:58.590 --> 00:04:01.950\nwe've got a firewall protecting\nyourself from the outside.\n\n81\n00:04:01.950 --> 00:04:05.360\nHelping me control that traffic that's\ncoming into my local area network.\n\n82\n00:04:05.360 --> 00:04:07.570\nCuz we're attached to the outside world,\nright?\n\n83\n00:04:07.570 --> 00:04:11.952\nVery few networks are not attached to\nthe world wide web, to the Internet.\n\n84\n00:04:11.952 --> 00:04:15.060\nSo I can get out there and\ngain access to other resources.\n\n85\n00:04:15.060 --> 00:04:18.040\nBut behind that firewall,\nthat's my local area network.\n\n86\n00:04:18.040 --> 00:04:22.020\nEverything back there is under one\nset of administrative control.\n\n87\n00:04:22.020 --> 00:04:24.960\nNow your local area network\nmight include some other parts.\n\n88\n00:04:24.960 --> 00:04:29.620\nYou might have a second firewall\nin between you and the Internet.\n\n89\n00:04:29.620 --> 00:04:33.650\nAnd between those firewalls, there's\na little space, I've got two, right?\n\n90\n00:04:33.650 --> 00:04:35.901\nI've got one back here, I've got one here,\n\n91\n00:04:35.901 --> 00:04:38.470\nthe Internet would be\nout here to the right.\n\n92\n00:04:38.470 --> 00:04:41.588\nSo as traffic comes in,\nit goes through this first firewall, and\n\n93\n00:04:41.588 --> 00:04:43.640\nit kind of gets to this intermediate area.\n\n94\n00:04:43.640 --> 00:04:44.858\nAnd then if allowed,\n\n95\n00:04:44.858 --> 00:04:49.230\nit might go through that second\nfirewall back to my corporate network.\n\n96\n00:04:49.230 --> 00:04:51.660\nAnd same thing for\ntraffic that's leaving my network.\n\n97\n00:04:51.660 --> 00:04:55.510\nThey're gonna go through that first\nfirewall, through this little area here,\n\n98\n00:04:55.510 --> 00:04:58.480\nand out through that second\nfirewall to the Internet.\n\n99\n00:04:58.480 --> 00:04:59.190\n&gt;&gt; And Mike,\n\n100\n00:04:59.190 --> 00:05:02.060\nhelp me out here because you already\nhelped us with the one acronym there.\n\n101\n00:05:02.060 --> 00:05:04.460\nI see LAN, and\nit is defined as local area network.\n\n102\n00:05:04.460 --> 00:05:08.230\nI also see three sets of letters\nup there as well called a DMZ.\n\n103\n00:05:08.230 --> 00:05:09.340\nYou wanna help me out with that one?\n\n104\n00:05:09.340 --> 00:05:11.787\n&gt;&gt; I have no idea, I just type those out.\n\n105\n00:05:11.787 --> 00:05:16.590\nNo, a DMZ is the name I'm gonna give\nthat area between those two firewalls.\n\n106\n00:05:16.590 --> 00:05:18.910\nIt's known as a demilitarized zone.\n\n107\n00:05:18.910 --> 00:05:20.910\nIt has other names,\ndepending on who you're talking to or\n\n108\n00:05:20.910 --> 00:05:22.240\nwhat book you're reading.\n\n109\n00:05:22.240 --> 00:05:26.270\nYou might see it referenced as\na screened subnet, right, so\n\n110\n00:05:26.270 --> 00:05:28.600\na subnet between those two firewalls.\n\n111\n00:05:28.600 --> 00:05:31.900\nYou also might see it referenced\nas a perimeter network,\n\n112\n00:05:31.900 --> 00:05:34.790\nbecause it is on the perimeter\nof your network.\n\n113\n00:05:34.790 --> 00:05:39.000\nAnd just like a demilitarized zone\nin the physical world, right,\n\n114\n00:05:39.000 --> 00:05:41.380\nit's like a buffer space there.\n\n115\n00:05:41.380 --> 00:05:45.430\nThis is an area of my network that I'm\ngonna allow certain things to happen\n\n116\n00:05:45.430 --> 00:05:50.620\nthat I would not allow on my Internet,\nback here behind this second firewall.\n\n117\n00:05:50.620 --> 00:05:53.330\nFor example, I've got a website.\n\n118\n00:05:53.330 --> 00:05:57.250\nPeople come to my website to buy\nmy product, so I can make money.\n\n119\n00:05:57.250 --> 00:06:01.160\nSo I need to allow public,\nanonymous access to that website.\n\n120\n00:06:01.160 --> 00:06:04.130\nWell, I can't allow\npublic anonymous access\n\n121\n00:06:04.130 --> 00:06:07.330\nto my internal network on\nmy corporate LAN, right?\n\n122\n00:06:07.330 --> 00:06:09.100\nSo there,\nyou start to see some of the differences.\n\n123\n00:06:09.100 --> 00:06:13.660\nOn this front firewall, it's not\ngonna be configured quite as strict.\n\n124\n00:06:13.660 --> 00:06:15.510\nIt's gonna allow certain things through,\n\n125\n00:06:15.510 --> 00:06:19.430\nlike that public anonymous\naccess to that web front-end.\n\n126\n00:06:19.430 --> 00:06:22.890\nThis back firewall is gonna be\nconfigured a lot more stringent.\n\n127\n00:06:22.890 --> 00:06:25.140\nIt's not gonna allow that\nkind of thing through.\n\n128\n00:06:25.140 --> 00:06:30.330\nOnly certain machines or certain traffic\nis gonna be allowed to actually penetrate\n\n129\n00:06:30.330 --> 00:06:35.600\ninto the corporate network back here,\nthat private part, my intranet.\n\n130\n00:06:35.600 --> 00:06:38.960\nSo whatever you call it, DMZ,\nscreened subnet, perimeter network,\n\n131\n00:06:38.960 --> 00:06:42.320\nit acts as a little bit of buffer\nbetween you and the outside world.\n\n132\n00:06:42.320 --> 00:06:47.100\nIt's also where we put our\nresources that need public access.\n\n133\n00:06:47.100 --> 00:06:51.530\nOr another one you might see is\nwhat's called an extranet, right?\n\n134\n00:06:51.530 --> 00:06:54.280\nVery similar to what I've\ngot drawn here with the DMZ.\n\n135\n00:06:54.280 --> 00:06:56.770\nI might have a partner organization.\n\n136\n00:06:56.770 --> 00:07:00.340\nAnd maybe I'm a supplier of raw materials,\nand\n\n137\n00:07:00.340 --> 00:07:03.350\nthey're a manufacturer and\nthey need to purchase this stuff.\n\n138\n00:07:03.350 --> 00:07:08.630\nAnd so I set up an area of my network\nwhere their employees can come in and\n\n139\n00:07:08.630 --> 00:07:12.880\nsee how much raw materials we have,\nplace orders, and look at ship dates and\n\n140\n00:07:12.880 --> 00:07:14.182\nthings like that.\n\n141\n00:07:14.182 --> 00:07:18.930\nI wanna provide that to them, but I don't\nwant that company's employees coming into\n\n142\n00:07:18.930 --> 00:07:23.950\nmy local area network back into\nmy intranet, don't need that.\n\n143\n00:07:23.950 --> 00:07:28.960\nSo I make it part of my network,\nnot quite publicly available.\n\n144\n00:07:28.960 --> 00:07:33.920\nIt's like the screen subnet or a DMZ\nmight be available to anonymous access.\n\n145\n00:07:33.920 --> 00:07:38.560\nMy extranet is only available\nto Company XYZ from the outside.\n\n146\n00:07:38.560 --> 00:07:41.880\nOr I probably have several\npeople that I sell to.\n\n147\n00:07:41.880 --> 00:07:46.530\nSo my entire list of companies\nthat I provide raw materials to,\n\n148\n00:07:46.530 --> 00:07:48.820\nthey might have access to my extranet.\n\n149\n00:07:48.820 --> 00:07:51.321\nThe public's not allowed\ninto the extranet, right?\n\n150\n00:07:51.321 --> 00:07:56.471\nSo it's a part of my network that I can\nmake available to the outside basically.\n\n151\n00:07:56.471 --> 00:07:59.996\n&gt;&gt; Mike, now that local area network that\nyou've got in your diagram there, or\n\n152\n00:07:59.996 --> 00:08:03.865\nthe intranet as you've been talking about,\nI notice you got a few devices in there.\n\n153\n00:08:03.865 --> 00:08:08.441\nAnd does it matter whether I'm\na A small home environment.\n\n154\n00:08:08.441 --> 00:08:11.440\nWe're not talking business here or\na corporate environment.\n\n155\n00:08:11.440 --> 00:08:12.980\nLAN generally is not restricted,\n\n156\n00:08:12.980 --> 00:08:16.040\nor is it, to the amount of\ndevices you have on that network.\n\n157\n00:08:16.040 --> 00:08:16.800\n&gt;&gt; It's not.\n\n158\n00:08:16.800 --> 00:08:21.010\nIt can be just a single node\nback there with no firewall.\n\n159\n00:08:21.010 --> 00:08:24.960\nMaybe you've got a router that you\npicked up from your cable provider or\n\n160\n00:08:24.960 --> 00:08:28.940\nyour Internet service provider and\nthen you plug straight into that.\n\n161\n00:08:28.940 --> 00:08:29.780\nHopefully not.\n\n162\n00:08:29.780 --> 00:08:31.690\nHopefully you know better than that.\n\n163\n00:08:31.690 --> 00:08:35.690\nBut then you've got at least some kind of\nrouter and or switch sitting back there.\n\n164\n00:08:35.690 --> 00:08:39.170\nBut absolutely,\na single node would still be an intranet.\n\n165\n00:08:39.170 --> 00:08:43.410\nIt would still be using LAN-based\nprotocols to communicate with, well,\n\n166\n00:08:43.410 --> 00:08:44.060\nnobody else.\n\n167\n00:08:44.060 --> 00:08:45.740\nBut let's say you added a second node,\nright?\n\n168\n00:08:45.740 --> 00:08:48.480\nAnd now your LAN is\na little more functional.\n\n169\n00:08:48.480 --> 00:08:51.000\nBut even with a single node you\nwould still be considered a LAN.\n\n170\n00:08:51.000 --> 00:08:55.800\nSo it's really all about the fact that\nit's under my administrative control and\n\n171\n00:08:55.800 --> 00:09:00.730\nthat it's geographically in one spot,\nI guess.\n\n172\n00:09:00.730 --> 00:09:03.750\n&gt;&gt; So if I'm watching this for the very\nfirst time, I don't have to worry about\n\n173\n00:09:03.750 --> 00:09:08.260\nbeing confused if this is a LAN because\nit has XYZ devices versus this is\n\n174\n00:09:08.260 --> 00:09:11.210\na LAN because it's got three floors and\nit's a corporate owned entity.\n\n175\n00:09:11.210 --> 00:09:13.610\nIt's just like you said,\ngeographical location and\n\n176\n00:09:13.610 --> 00:09:17.090\njust being under the administrative\ncontrol of or whoever runs the network.\n\n177\n00:09:17.090 --> 00:09:18.520\n&gt;&gt; Exactly right.\n\n178\n00:09:18.520 --> 00:09:23.210\nAll right so now let's take a step up\nfrom LAN and we're gonna go to WAN.\n\n179\n00:09:23.210 --> 00:09:26.420\nSo LAN was local area network.\n\n180\n00:09:26.420 --> 00:09:29.850\nWe talk about a WAN,\nwe're talking about a wide area network.\n\n181\n00:09:29.850 --> 00:09:33.340\nAnd the names, if you start to pick up\non the names kind of gives you a hint,\n\n182\n00:09:33.340 --> 00:09:35.210\nright, wide area.\n\n183\n00:09:35.210 --> 00:09:40.280\nThat tells me it's probably gonna be\na little more geographically dispersed.\n\n184\n00:09:40.280 --> 00:09:44.410\nAnd so what I've got on my screen\nnow is our business has grown.\n\n185\n00:09:44.410 --> 00:09:46.480\nWe've got an office in New York.\n\n186\n00:09:46.480 --> 00:09:48.010\nWe've got another office in London.\n\n187\n00:09:48.010 --> 00:09:50.560\nAnd we've got another office in Sydney.\n\n188\n00:09:50.560 --> 00:09:56.310\nNow what you'll notice, or should notice\nhere I can get my mouse to play along.\n\n189\n00:09:56.310 --> 00:09:59.400\nIs, let's take just this New York for\na second.\n\n190\n00:09:59.400 --> 00:10:03.900\nNotice it looks very similar, right,\nto what we were just looking at for a LAN?\n\n191\n00:10:03.900 --> 00:10:06.310\nBecause I've basically copied and\npaste my drawing.\n\n192\n00:10:06.310 --> 00:10:11.310\nBecause it is, New York is a LAN,\nthat is a local area network there.\n\n193\n00:10:11.310 --> 00:10:14.540\nBut my organization has three of those.\n\n194\n00:10:14.540 --> 00:10:18.440\nHas one over here in London and\nanother one in Sydney.\n\n195\n00:10:18.440 --> 00:10:19.300\nAnd I apologize.\n\n196\n00:10:19.300 --> 00:10:21.110\nI hope I'm not making you sick there.\n\n197\n00:10:21.110 --> 00:10:23.360\nWe'll stop with the zooming around.\n\n198\n00:10:23.360 --> 00:10:26.220\nSo I've got basically\nthree local area networks.\n\n199\n00:10:26.220 --> 00:10:28.670\nOne in London, one in New York,\nAnd one in Sydney.\n\n200\n00:10:29.740 --> 00:10:33.360\nNow I need to tie these guys together,\nbecause people in London need to access\n\n201\n00:10:33.360 --> 00:10:36.620\nresources in New York and\nSydney and vise versa.\n\n202\n00:10:36.620 --> 00:10:38.630\nSo when we start bringing\nthese office together,\n\n203\n00:10:38.630 --> 00:10:44.230\nstart connecting them, now we're talking\nabout our wide area network, all right?\n\n204\n00:10:44.230 --> 00:10:48.185\nWide area networks or\nWANs travel across or\n\n205\n00:10:48.185 --> 00:10:54.160\ndesigned to connect geographically\ndispersed locations, all right.\n\n206\n00:10:54.160 --> 00:10:58.160\nThey do use a different set of protocols\nwhich will come too here in just a minute.\n\n207\n00:10:58.160 --> 00:11:00.448\nI wanna make sure we get\nthe concept down first.\n\n208\n00:11:00.448 --> 00:11:04.260\nSo wide area network is really\nnothing more than an collection of\n\n209\n00:11:04.260 --> 00:11:08.970\nlocal area networks kinda connected\ntogether cuz we have enterprise admins.\n\n210\n00:11:08.970 --> 00:11:10.630\nSo New York is under my control.\n\n211\n00:11:10.630 --> 00:11:12.460\nLondon is also under my control.\n\n212\n00:11:12.460 --> 00:11:14.410\nSydney is also under my control.\n\n213\n00:11:14.410 --> 00:11:17.500\nAnd by our definition of LAN,\nwe said if it was a network under a single\n\n214\n00:11:17.500 --> 00:11:19.010\nadministrative control,\nit should be a LAN.\n\n215\n00:11:19.010 --> 00:11:22.750\nIt was the second part of that LAN\ndefinition that's getting us, right?\n\n216\n00:11:22.750 --> 00:11:25.740\nIt's not in a geographic or\nsingle geographic location.\n\n217\n00:11:25.740 --> 00:11:27.920\nNow we're talking about\nthree different locations.\n\n218\n00:11:27.920 --> 00:11:32.610\nSo still under one administrative control\nbut now I'm geographically dispersed.\n\n219\n00:11:32.610 --> 00:11:35.160\nNow were talking about\nthe wide area network.\n\n220\n00:11:35.160 --> 00:11:38.964\nAnd we do have to be a little bit\ncareful with this because really when\n\n221\n00:11:38.964 --> 00:11:42.903\nwe talk about the wide area network,\nwe're talking about this part,\n\n222\n00:11:42.903 --> 00:11:45.440\nthe stuff that's in\nfront of this firewall,\n\n223\n00:11:45.440 --> 00:11:50.229\nits all of the things that are connecting\nthese three local area networks together.\n\n224\n00:11:50.229 --> 00:11:55.500\nThis is still my LAN back here,\nthis is another LAN, this is another LAN.\n\n225\n00:11:55.500 --> 00:11:59.850\nIt's a separate set of technologies\nthat's connecting those LANs and\n\n226\n00:11:59.850 --> 00:12:03.220\ncreating my WAN, or my wide area network.\n\n227\n00:12:03.220 --> 00:12:05.880\nWe have separate administrators and\nin a larger environment,\n\n228\n00:12:05.880 --> 00:12:09.570\nI know a lot of us are in the smaller\nshops and we wear all the hats.\n\n229\n00:12:09.570 --> 00:12:11.020\nBut in some organizations,\n\n230\n00:12:11.020 --> 00:12:15.850\nyou have LAN administrators that deal with\nLAN protocols and LAN troubleshooting.\n\n231\n00:12:15.850 --> 00:12:19.460\nYou also have WAN administrators that\ndeal with the WAN side of things.\n\n232\n00:12:19.460 --> 00:12:22.610\nAnd when they're troubleshooting,\nthey look at this demarcation point here,\n\n233\n00:12:22.610 --> 00:12:24.630\nthis firewall, and that's how they decide.\n\n234\n00:12:24.630 --> 00:12:28.520\nIf it's on one side of the firewall,\nhey LAN admins, it's your problem,\n\n235\n00:12:28.520 --> 00:12:29.160\nyou deal with it.\n\n236\n00:12:29.160 --> 00:12:31.970\nIf it's on the other side of the firewall,\nhey WAN admins,\n\n237\n00:12:31.970 --> 00:12:34.730\nit's your problem,\nyou deal with it, right?\n\n238\n00:12:34.730 --> 00:12:37.650\nSo the WAN is that wide area network\nthat's tieing those local area\n\n239\n00:12:37.650 --> 00:12:38.640\nnetworks together.\n\n240\n00:12:38.640 --> 00:12:39.720\n&gt;&gt; And you mentioned the connections.\n\n241\n00:12:39.720 --> 00:12:42.800\nSo, Mike, when you say that, hey, it's\non your side, you take care of it, hey,\n\n242\n00:12:42.800 --> 00:12:44.530\nit's on your side, you take care of it,\n\n243\n00:12:44.530 --> 00:12:47.490\nyou're not really necessarily talking\nabout just the point of responsibility.\n\n244\n00:12:47.490 --> 00:12:50.530\nBut you've already mentioned that these\ncommunication types are completely\n\n245\n00:12:50.530 --> 00:12:54.120\ndifferent, so one set of\ncommunication protocols is gonna be\n\n246\n00:12:54.120 --> 00:12:56.740\nhandled by one set of administrators\nversus somebody else.\n\n247\n00:12:56.740 --> 00:12:59.410\nI did have another question,\nbecause you and I both have LANs, right?\n\n248\n00:12:59.410 --> 00:13:00.060\n&gt;&gt; Right.\n\n249\n00:13:00.060 --> 00:13:02.500\nWhy is, would that be considered a WAN?\n\n250\n00:13:02.500 --> 00:13:04.200\nOr would that not be considered a WAN?\n\n251\n00:13:04.200 --> 00:13:06.360\nYou have your home network,\nI have my home network.\n\n252\n00:13:06.360 --> 00:13:09.560\n&gt;&gt; Well we won't tell him, but\nwhen his network's under my control,\n\n253\n00:13:09.560 --> 00:13:12.445\nwhich is after midnight typically,\nthen it's a WAN.\n\n254\n00:13:12.445 --> 00:13:14.090\n[LAUGH] Very good question.\n\n255\n00:13:14.090 --> 00:13:14.650\nAnd no,\n\n256\n00:13:14.650 --> 00:13:17.830\nit's not a WAN because it's not under\nthe same administrative control, right.\n\n257\n00:13:17.830 --> 00:13:21.020\nYou could consider Wes and\nI, separate organizations.\n\n258\n00:13:21.020 --> 00:13:22.570\nWe both have LANs and\n\n259\n00:13:22.570 --> 00:13:27.010\nwe're both tied to the same Internet but\nwe're not sharing resources.\n\n260\n00:13:27.010 --> 00:13:29.520\nWe're not under the same\nadministrative control so\n\n261\n00:13:29.520 --> 00:13:31.090\nwe would not be considered a WAN.\n\n262\n00:13:31.090 --> 00:13:36.780\nWe are going across a WAN because\nreally the Internet is a WAN, right?\n\n263\n00:13:36.780 --> 00:13:38.990\nBut that wouldn't in itself\nwould be considered a WAN.\n\n264\n00:13:38.990 --> 00:13:39.960\nGreat question.\n\n265\n00:13:39.960 --> 00:13:42.910\nNow there's some others that I didn't draw\nup that we should probably be familiar\n\n266\n00:13:42.910 --> 00:13:44.970\nwith just in case they ask us.\n\n267\n00:13:44.970 --> 00:13:49.620\nAnd so we can sound intelligent if\nsomebody else uses these crazy terms.\n\n268\n00:13:49.620 --> 00:13:51.200\nI think people just sit up at night and\n\n269\n00:13:51.200 --> 00:13:54.670\ndream of ways to expand\nthese acronym bases.\n\n270\n00:13:54.670 --> 00:13:59.700\nBut there's something called\na MAN a metropolitan area network\n\n271\n00:13:59.700 --> 00:14:03.070\na WAN covers a wide geographical space.\n\n272\n00:14:03.070 --> 00:14:06.430\nWhat if I took this offices,\nlet's say this was in New York, but\n\n273\n00:14:06.430 --> 00:14:09.940\nthis was actually East New York and\n\n274\n00:14:09.940 --> 00:14:14.600\nthis was West New York and\nthis was South New York, all right?\n\n275\n00:14:14.600 --> 00:14:17.730\nAnd said of being New York,\nSydney, and London.\n\n276\n00:14:17.730 --> 00:14:18.330\nAll right?\n\n277\n00:14:18.330 --> 00:14:22.520\nIf they're all three local area networks,\nthree different buildings, three different\n\n278\n00:14:22.520 --> 00:14:26.910\ngeographical locations tied together\nwith WAN technologies, but in the same\n\n279\n00:14:26.910 --> 00:14:32.450\nmetropolitan area, it would be considered\na MAN, a metropolitan area network.\n\n280\n00:14:32.450 --> 00:14:36.620\nNow If we get that specific or not,\nI don't think it's all that big of a deal.\n\n281\n00:14:36.620 --> 00:14:39.520\nBut it's still using WAN technologies.\n\n282\n00:14:39.520 --> 00:14:43.170\nIt's just that we can define the\ngeographic distribution a little better.\n\n283\n00:14:43.170 --> 00:14:47.330\nWe can say it's all contained\nwithin this one metropolitan area.\n\n284\n00:14:47.330 --> 00:14:48.790\nBut it's still WAN technology.\n\n285\n00:14:48.790 --> 00:14:52.690\nSo really a MAN is just a subset of a WAN.\n\n286\n00:14:52.690 --> 00:14:55.860\nIt's a different classification\nof a WAN or wide area network.\n\n287\n00:14:55.860 --> 00:15:00.210\nSame thing we're talking about a CAN or\na campus area network.\n\n288\n00:15:00.210 --> 00:15:03.170\nIf I own a lot of property\nlike a university.\n\n289\n00:15:03.170 --> 00:15:06.360\nI might have separate LANs at\neach one of my buildings, right?\n\n290\n00:15:06.360 --> 00:15:08.590\nFood Science building has its own LAN.\n\n291\n00:15:08.590 --> 00:15:10.630\nI'm trying to think of some of the others.\n\n292\n00:15:10.630 --> 00:15:12.620\nI didn't go to college, no.\n\n293\n00:15:12.620 --> 00:15:15.560\nSome of the others,\nyou got Financing over in one building.\n\n294\n00:15:15.560 --> 00:15:17.420\nEach one of those can be different LANs.\n\n295\n00:15:17.420 --> 00:15:22.650\nTie those together using WAN technologies,\nand now I've got a campus area network.\n\n296\n00:15:22.650 --> 00:15:25.680\nAnd really that's why we differentiate.\n\n297\n00:15:25.680 --> 00:15:28.780\nWell, because in a metropolitan area\nnetwork, if I'm connecting LANs.\n\n298\n00:15:28.780 --> 00:15:31.020\nDifferent buildings in\na metropolitan area,\n\n299\n00:15:31.020 --> 00:15:37.130\nI most likely don't own the links between\nthe two buildings in that downtown area.\n\n300\n00:15:37.130 --> 00:15:39.465\nOr between downtown east and\ndowntown downtown west.\n\n301\n00:15:39.465 --> 00:15:43.815\nI can't just go and get a ditch digger and\ncut a cable or cut a trench and\n\n302\n00:15:43.815 --> 00:15:48.616\nrun a line between my two buildings,\nright, I've got to go and rent lines or\n\n303\n00:15:48.616 --> 00:15:52.765\nlease lines from somebody with\nthat metropolitan area network.\n\n304\n00:15:52.765 --> 00:15:58.167\nIf it's a university campus or a large\nindustrial park and I own all the land\n\n305\n00:15:58.167 --> 00:16:02.995\nI can now dig a tunnel and not a tunnel\nbut trench and lay down cable.\n\n306\n00:16:02.995 --> 00:16:07.388\nAnd even though I'm using WAN technologies\nto connect those two buildings It's under\n\n307\n00:16:07.388 --> 00:16:08.057\nmy control.\n\n308\n00:16:08.057 --> 00:16:12.278\nSo that's where we would say it's a campus\narea network not a metropolitan area\n\n309\n00:16:12.278 --> 00:16:13.750\nnetwork, all right.\n\n310\n00:16:13.750 --> 00:16:17.050\nEven though technically I guess your\ncampus could be a little more dispersed\n\n311\n00:16:17.050 --> 00:16:17.980\nthan a metropolitan.\n\n312\n00:16:17.980 --> 00:16:21.919\nSo it's really about who owns the lines\nthat are linking those lands at\n\n313\n00:16:21.919 --> 00:16:22.669\nthat point.\n\n314\n00:16:22.669 --> 00:16:23.880\nAnd then there's another one.\n\n315\n00:16:23.880 --> 00:16:25.730\nI know, Wes,\nyou're familiar with this one.\n\n316\n00:16:25.730 --> 00:16:28.680\nThe whole PAN,\nyou know what that one stands for?\n\n317\n00:16:28.680 --> 00:16:29.290\n&gt;&gt; Absolutely.\n\n318\n00:16:29.290 --> 00:16:32.933\nThat is a little young kid that\nflies around with pixie dust.\n\n319\n00:16:32.933 --> 00:16:33.780\n&gt;&gt; [LAUGH]\n&gt;&gt; Just kidding, guys.\n\n320\n00:16:33.780 --> 00:16:35.390\nPAN, personal area network.\n\n321\n00:16:35.390 --> 00:16:38.359\nAnd I believe we do see this in the realm\nof things like Bluetooth communications,\n\n322\n00:16:38.359 --> 00:16:39.530\nthat's one that comes to mind?\n\n323\n00:16:39.530 --> 00:16:41.031\n&gt;&gt; Yeah, absolutely, right?\n\n324\n00:16:41.031 --> 00:16:44.660\nA lot of us have these now, even though\nwe've probably never heard that term.\n\n325\n00:16:44.660 --> 00:16:47.450\nBut a personal area network\nwould be your phone,\n\n326\n00:16:47.450 --> 00:16:50.309\ntalking to your headset,\ntalking to your watch,\n\n327\n00:16:50.309 --> 00:16:54.480\nthat also talks to your sneakers to\nkeep track of how far you've walked.\n\n328\n00:16:54.480 --> 00:16:58.815\nAll of that is networked together\nusing a radio frequency, Bluetooth,\n\n329\n00:16:58.815 --> 00:17:02.166\nshort wave radio,\nto network those devices together.\n\n330\n00:17:02.166 --> 00:17:03.150\nAnd they don't communicate.\n\n331\n00:17:03.150 --> 00:17:05.023\nWell hopefully if we keep things secure,\n\n332\n00:17:05.023 --> 00:17:08.083\nthey're not communicating with\nWes's phone or Wes's sneakers.\n\n333\n00:17:08.083 --> 00:17:11.383\nRight, that's my own\npersonal area network.\n\n334\n00:17:11.383 --> 00:17:13.704\n&gt;&gt; I've gotta love it when you say my\nsneakers have a network connection.\n\n335\n00:17:13.704 --> 00:17:14.910\nThat's interesting.\n\n336\n00:17:14.910 --> 00:17:18.582\nNow I see where you've gone\nhere with the land technology,\n\n337\n00:17:18.582 --> 00:17:20.645\nsingle geographical location.\n\n338\n00:17:20.645 --> 00:17:24.624\nThe WAN technology multiple\ngeographical locations.\n\n339\n00:17:24.624 --> 00:17:29.304\nMAN, maybe a whole entire\ncity campus owned by a single\n\n340\n00:17:29.304 --> 00:17:32.410\nacademic entity, if you will.\n\n341\n00:17:32.410 --> 00:17:33.738\nLet me guess, pan.\n\n342\n00:17:33.738 --> 00:17:36.287\nIts gonna be your personal\ngeographical location.\n\n343\n00:17:36.287 --> 00:17:40.325\n&gt;&gt; That's right, wherever you are,\nIts the network that you take with you.\n\n344\n00:17:40.325 --> 00:17:42.477\n[LAUGH]\n&gt;&gt; Some of our pan's are larger than\n\n345\n00:17:42.477 --> 00:17:45.170\nothers, I say, you just have to\nlook at my gut and you can tell.\n\n346\n00:17:45.170 --> 00:17:47.357\n[LAUGH]\n&gt;&gt; Well I was gonna say,\n\n347\n00:17:47.357 --> 00:17:51.102\nbeing six something there six, two,\nhe's got a different frequency that he\n\n348\n00:17:51.102 --> 00:17:53.531\nuses to get from his tennis\nshoes up to his earbud.\n\n349\n00:17:53.531 --> 00:17:55.231\n&gt;&gt; [LAUGH]\n&gt;&gt; That's a little bit longer, so.\n\n350\n00:17:55.231 --> 00:17:56.203\n[LAUGH] All right, so\n\n351\n00:17:56.203 --> 00:17:59.475\nthose are some of the network types\nthat we need to be familiar with.\n\n352\n00:17:59.475 --> 00:18:01.804\nAgain, make yourself flash cards,\ndo what you gotta do.\n\n353\n00:18:01.804 --> 00:18:06.786\nFor LAN, WAN, CAN, MAN, and PAN are the\nfive acronyms that I want you to be\n\n354\n00:18:06.786 --> 00:18:11.140\nfamiliar with as you're preparing for\nthis exam.\n\n355\n00:18:11.140 --> 00:18:12.510\nAnd just in general.\n\n356\n00:18:12.510 --> 00:18:16.970\nAll right, next thing we want to talk\nabout Wes is gonna be network topologies.\n\n357\n00:18:16.970 --> 00:18:19.210\nSo within that network,\n\n358\n00:18:19.210 --> 00:18:24.710\nwe're going to define how these devices,\nlet's get back over to LAN here.\n\n359\n00:18:24.710 --> 00:18:27.810\nHow are these devices connected?\n\n360\n00:18:27.810 --> 00:18:31.470\nHow they're laid out that's what\nwe call our network topology.\n\n361\n00:18:31.470 --> 00:18:34.060\nAnd those are some important\ndecisions that we've gotta make\n\n362\n00:18:34.060 --> 00:18:36.010\nif we're setting up a network.\n\n363\n00:18:36.010 --> 00:18:39.780\nIt's also important to understand what\nwe're currently using when it's time to\n\n364\n00:18:39.780 --> 00:18:40.440\ntroubleshoot.\n\n365\n00:18:40.440 --> 00:18:43.020\nWhen we're trying to\nfigure out what is wrong.\n\n366\n00:18:43.020 --> 00:18:45.120\nOr when we're trying to\nprotect that network.\n\n367\n00:18:45.120 --> 00:18:47.380\nWe need to know that topology.\n\n368\n00:18:47.380 --> 00:18:53.570\nHow those packets are being transmitted\nback and forth between these devices.\n\n369\n00:18:53.570 --> 00:18:55.970\nWhat interconnectivity devices are there.\n\n370\n00:18:55.970 --> 00:18:59.030\nWhat they're allowing, what they're\nnot allowing, and things like that.\n\n371\n00:18:59.030 --> 00:19:00.476\nSo let's take a look.\n\n372\n00:19:00.476 --> 00:19:04.456\nI have another handy dandy drawing.\n\n373\n00:19:04.456 --> 00:19:06.469\nAnd we don't wanna save any of those.\n\n374\n00:19:07.520 --> 00:19:09.560\nFor our topologies.\n\n375\n00:19:09.560 --> 00:19:12.440\nAnd this first one, Wes,\nwhat do you call that one?\n\n376\n00:19:12.440 --> 00:19:13.620\n&gt;&gt; That one looks like,\n\n377\n00:19:13.620 --> 00:19:18.440\nwith the linear format, I'm gonna say\nthat's probably what's known as a bus.\n\n378\n00:19:18.440 --> 00:19:21.210\n&gt;&gt; That is correct, sir,\nyou get a gold star for the day.\n\n379\n00:19:21.210 --> 00:19:24.190\nThat's gonna be what\nwe call a bus network.\n\n380\n00:19:24.190 --> 00:19:26.670\nAnd this is one of the oldest forms, or\n\n381\n00:19:26.670 --> 00:19:30.660\none of the oldest topologies we\nhave when it comes to networking.\n\n382\n00:19:30.660 --> 00:19:35.950\nWas it ThickNet, I guess, was using, was\na big one with this way back in the day?\n\n383\n00:19:35.950 --> 00:19:39.280\nBack when I first started getting\ninto computers and networks.\n\n384\n00:19:40.380 --> 00:19:43.360\nWe use something called Thicknet\nthat ran behind the desk.\n\n385\n00:19:43.360 --> 00:19:46.629\nSomething we're probably don't\nneed to worry about nowadays.\n\n386\n00:19:46.629 --> 00:19:48.279\n&gt;&gt; [LAUGH] No, unless you're in a museum,\n\n387\n00:19:48.279 --> 00:19:51.886\nI highly doubt you're gonna see anything\non the old Thinnet and Thicknet, for sure.\n\n388\n00:19:51.886 --> 00:19:57.300\nAnd Mike, now, I'm pretty familiar with\nthe fact that these had some problems.\n\n389\n00:19:57.300 --> 00:20:00.720\nIn the terms of scalability,\nwere these type of networks scalable to,\n\n390\n00:20:00.720 --> 00:20:03.460\nsay if I had a massively\nlarge organization?\n\n391\n00:20:03.460 --> 00:20:06.140\n&gt;&gt; Well, it kinda depends on what\nwe're talking about I guess.\n\n392\n00:20:06.140 --> 00:20:09.274\nLet's talk about some of\nthe good things about this bus,\n\n393\n00:20:09.274 --> 00:20:11.506\nand we'll see how it scales up, right?\n\n394\n00:20:11.506 --> 00:20:16.040\nOne nice thing about a bus network like\nthis is you have less cables, right?\n\n395\n00:20:16.040 --> 00:20:19.380\nI take this one long cable here,\nand I can run\n\n396\n00:20:19.380 --> 00:20:23.972\nit around through each one of the offices,\nbehind a row cubicles, or whatever.\n\n397\n00:20:23.972 --> 00:20:27.760\nAnd then when I add a node, I simply\ntake a short cable, run it from the node\n\n398\n00:20:27.760 --> 00:20:31.118\nto that cable that's already laying,\nprobably right behind my cubicle there.\n\n399\n00:20:31.118 --> 00:20:33.930\nI just tap it down,\nmaybe old vampire tabs or\n\n400\n00:20:33.930 --> 00:20:37.840\na T connector of some kind,\nto connect those together so.\n\n401\n00:20:37.840 --> 00:20:42.560\nIn one respect it was kinda nice because\nI had fewer cables to deal with,\n\n402\n00:20:44.640 --> 00:20:48.000\nbut the downside of the bus technology or\n\n403\n00:20:48.000 --> 00:20:52.260\nthe bus topology I should say,\nis a couple of things.\n\n404\n00:20:52.260 --> 00:20:54.290\nOne, they're all connected.\n\n405\n00:20:54.290 --> 00:20:57.800\nSo, if we ever have a break in the cable,\n\n406\n00:20:57.800 --> 00:21:02.171\nnow let's see if I can draw a break,\nlet's say I break it right here.\n\n407\n00:21:02.171 --> 00:21:03.685\nThat's not very good.\n\n408\n00:21:03.685 --> 00:21:07.250\nLet's make it a little bit bigger so\nwe can see this guy.\n\n409\n00:21:07.250 --> 00:21:14.310\nLet's say we grab a, kinda like that, and\nwe get a break in the cable there right?\n\n410\n00:21:15.450 --> 00:21:18.604\nWes, what's gonna happen to all\nthe communication between these devices?\n\n411\n00:21:18.604 --> 00:21:22.841\n&gt;&gt; I want to say one cable, one break,\nmeans the whole entire network disappears,\n\n412\n00:21:22.841 --> 00:21:24.035\ncommunication wise.\n\n413\n00:21:24.035 --> 00:21:25.180\n&gt;&gt; Exactly right.\n\n414\n00:21:25.180 --> 00:21:28.890\nIf that cable breaks,\neverybody loses communication.\n\n415\n00:21:28.890 --> 00:21:30.108\nNow, think about this.\n\n416\n00:21:30.108 --> 00:21:33.630\nWes was saying,\ndoes this scale up to a large network?\n\n417\n00:21:33.630 --> 00:21:35.230\nSure, I can take that cable and\n\n418\n00:21:35.230 --> 00:21:38.600\nI can run it around behind\neverybody's desk in the building.\n\n419\n00:21:38.600 --> 00:21:41.010\nAnd there are some limitations\nto the distance we can go.\n\n420\n00:21:41.010 --> 00:21:45.148\nBut let's say theoretically, that we run\nthis cable behind every little office in\n\n421\n00:21:45.148 --> 00:21:48.174\nour entire building and\neverybody's patched down to that.\n\n422\n00:21:48.174 --> 00:21:50.077\nOne little cable break,\n\n423\n00:21:50.077 --> 00:21:54.981\nsomebody rolls over that with\na heavy cart or cable gets kinked.\n\n424\n00:21:54.981 --> 00:21:58.740\nNow, everybody in the entire\nbuilding has lost communication.\n\n425\n00:21:58.740 --> 00:22:01.460\nThe entire network is down, right?\n\n426\n00:22:01.460 --> 00:22:06.980\nThat was a big problem\nwith these bus networks,\n\n427\n00:22:06.980 --> 00:22:08.620\nas I get rid of our little stripe.\n\n428\n00:22:08.620 --> 00:22:11.626\nThe other issue that we had run into,\nor we had to deal with,\n\n429\n00:22:11.626 --> 00:22:13.504\nwas these guys needed terminators.\n\n430\n00:22:13.504 --> 00:22:17.443\nWhen we dealt with buses we had to\nterminate the ends now this would actually\n\n431\n00:22:17.443 --> 00:22:19.644\nplug in to something in my server closet.\n\n432\n00:22:19.644 --> 00:22:23.800\nBut we had to make sure we terminated\nthe ends because we would give what was\n\n433\n00:22:23.800 --> 00:22:25.956\ncalled, what is the technical term?\n\n434\n00:22:25.956 --> 00:22:27.070\n&gt;&gt; Signal reflection.\n\n435\n00:22:27.070 --> 00:22:29.010\n&gt;&gt; Signal reflection, all right?\n\n436\n00:22:29.010 --> 00:22:30.290\nWhen if I speak,\n\n437\n00:22:30.290 --> 00:22:34.640\nlet's say this computer sends out some\ndata, that travels both directions.\n\n438\n00:22:34.640 --> 00:22:37.250\nDown this line, everybody hears it.\n\n439\n00:22:37.250 --> 00:22:42.350\nIf it gets to here and\nthere's no terminator, well it gets\n\n440\n00:22:42.350 --> 00:22:47.380\nto the end of this raw line, the signal\nactually starts coming back, and imagine\n\n441\n00:22:47.380 --> 00:22:50.650\nyou ever drop something you take a bucket\nof water and you drop something in there.\n\n442\n00:22:50.650 --> 00:22:53.120\nYou got these nice neat\nripples going out but\n\n443\n00:22:53.120 --> 00:22:57.200\nas soon as those ripples hit the wall of\nthe bucket, they start reflecting back in.\n\n444\n00:22:57.200 --> 00:22:59.330\nNow I've got some ripples\nstill making their way out.\n\n445\n00:22:59.330 --> 00:23:03.141\nI've got some ripples coming back in,\nand the ripples start crossing and\n\n446\n00:23:03.141 --> 00:23:05.365\nit gets kinda this weird pattern on there.\n\n447\n00:23:05.365 --> 00:23:07.770\nIt's the exact same thing\nthat's gonna happen here.\n\n448\n00:23:07.770 --> 00:23:11.681\nThe problem with our communications,\nwith electronic communications is,\n\n449\n00:23:11.681 --> 00:23:15.713\nthose crossing of the ripples like that\nIt's basically scrambling the data and\n\n450\n00:23:15.713 --> 00:23:18.861\nI'm not going to be able to make\nsense out of what's going on.\n\n451\n00:23:18.861 --> 00:23:23.810\nI'll lose that, what's a good word for\nit, you just can't interpret it.\n\n452\n00:23:23.810 --> 00:23:25.630\nSo you can't read the data.\n\n453\n00:23:25.630 --> 00:23:27.620\nSo basically nobody can communicate again.\n\n454\n00:23:27.620 --> 00:23:30.890\n&gt;&gt; You know I make the joke here that\nyou're probably only going to see them in\n\n455\n00:23:30.890 --> 00:23:34.318\na museum, but I was watching some of\nthe earlier days when this was the network\n\n456\n00:23:34.318 --> 00:23:35.819\ntechnology on some kind of show.\n\n457\n00:23:35.819 --> 00:23:39.786\nAnd one of the earlier inventors,\ninventors of this product said, you can\n\n458\n00:23:39.786 --> 00:23:43.421\nalways tell when somebody wanted a break\ncuz all they have to do is reach down and\n\n459\n00:23:43.421 --> 00:23:45.484\npull one of those\nterminators off the line.\n\n460\n00:23:45.484 --> 00:23:49.389\nAnd then everybody's faces would slowly\ncome up from their cubes wondering why's\n\n461\n00:23:49.389 --> 00:23:50.310\nthe network down.\n\n462\n00:23:50.310 --> 00:23:53.993\nSo I can see this would be a fun time at\nthe office when this network didn't work.\n\n463\n00:23:53.993 --> 00:23:55.232\n&gt;&gt; And the scary thing was Wes,\n\n464\n00:23:55.232 --> 00:23:57.977\nwhat if I broke this cable here\ndoes that bother my network too?\n\n465\n00:23:57.977 --> 00:23:59.926\n&gt;&gt; It brings the whole network\nto still a single cable.\n\n466\n00:23:59.926 --> 00:24:02.292\n&gt;&gt; That's right cuz this\nwhole thing you can imagine,\n\n467\n00:24:02.292 --> 00:24:04.622\nis the signal going out\nacross all of these cables.\n\n468\n00:24:04.622 --> 00:24:07.931\nSo It's not just a break in the main line.\n\n469\n00:24:07.931 --> 00:24:12.248\nIf Wes wanted that break, [LAUGH]\nliterally, and breaks the cable there,\n\n470\n00:24:12.248 --> 00:24:13.860\nyeah, everybody is down.\n\n471\n00:24:13.860 --> 00:24:18.070\nSo buses had their place in history.\n\n472\n00:24:18.070 --> 00:24:20.180\nYou don't see them that often anymore.\n\n473\n00:24:20.180 --> 00:24:24.820\nLet's move onto a little more modern\nlayout, a little modern topology.\n\n474\n00:24:24.820 --> 00:24:26.990\nAnd that's gonna be our star.\n\n475\n00:24:26.990 --> 00:24:27.920\nAnd you can see,\n\n476\n00:24:27.920 --> 00:24:32.990\nit gets the name from the pattern that it\nmakes when we kinda draw it out like this.\n\n477\n00:24:32.990 --> 00:24:34.640\nBut the big difference between a bus and\n\n478\n00:24:34.640 --> 00:24:39.180\na star is I now have a central\nconnectivity device.\n\n479\n00:24:39.180 --> 00:24:42.430\nI have something tying all\nof these things together.\n\n480\n00:24:42.430 --> 00:24:44.650\nSo instead of there\nbeing that backbone and\n\n481\n00:24:44.650 --> 00:24:48.690\neverybody T-ing into\nthis backbone down here.\n\n482\n00:24:48.690 --> 00:24:53.392\nWe've got this one device in the middle,\nand everything plugs into that one device.\n\n483\n00:24:53.392 --> 00:24:56.287\nAnd this is what we would\ncall a star topology.\n\n484\n00:24:56.287 --> 00:24:59.047\nNow that device in\nthe middle could be a hub,\n\n485\n00:24:59.047 --> 00:25:01.965\ncould be a switch,\ncould be a bridge, right?\n\n486\n00:25:01.965 --> 00:25:05.170\nWe'll talk about these\ndevices as we go along.\n\n487\n00:25:05.170 --> 00:25:09.540\nAdvantages to this layout, well, is\ngoing to be the fact that, what happens,\n\n488\n00:25:09.540 --> 00:25:11.440\nWes, if this cable breaks here?\n\n489\n00:25:11.440 --> 00:25:14.340\n&gt;&gt; Well, with a connectivity device,\nI think it isolates just that one\n\n490\n00:25:14.340 --> 00:25:17.330\nnode that's connected to the device\nfrom the rest of the network.\n\n491\n00:25:17.330 --> 00:25:18.360\n&gt;&gt; That's exactly right.\n\n492\n00:25:18.360 --> 00:25:20.250\nSo that one node would be down.\n\n493\n00:25:20.250 --> 00:25:22.180\nNobody could communicate with this node.\n\n494\n00:25:22.180 --> 00:25:25.060\nThis node could communicate with\nnobody else, but that's it.\n\n495\n00:25:25.060 --> 00:25:28.440\nThe other three nodes on this network\nare still communicating just fine.\n\n496\n00:25:28.440 --> 00:25:32.260\nSo it ends up creating this point-to-point\nconnection between the node and\n\n497\n00:25:32.260 --> 00:25:34.070\nthat central connectivity device.\n\n498\n00:25:34.070 --> 00:25:37.240\nWhich eliminates my need for\none, for terminators.\n\n499\n00:25:37.240 --> 00:25:41.910\nAnd two, the single cable break\nbrings down the entire network.\n\n500\n00:25:41.910 --> 00:25:42.610\nFlexibility.\n\n501\n00:25:42.610 --> 00:25:46.350\nWhen I need to plug in a new node, as long\nas there's an extra port on this guy,\n\n502\n00:25:46.350 --> 00:25:48.180\nI can just pop a new node out here.\n\n503\n00:25:48.180 --> 00:25:51.180\nAnd connect it up, and\nwe're good to go, all right?\n\n504\n00:25:51.180 --> 00:25:56.428\nDownside is to connect that node,\nI had to make a home run.\n\n505\n00:25:56.428 --> 00:25:58.850\nAnd I'm not talking about hitting\nit out of the park, right?\n\n506\n00:25:58.850 --> 00:26:03.200\nI've gotta run a wire from that person's\noffice, that new computer he just got,\n\n507\n00:26:03.200 --> 00:26:04.820\nup the wall, over the attic, down in.\n\n508\n00:26:04.820 --> 00:26:07.410\nWherever that central\nconnectivity device is,\n\n509\n00:26:07.410 --> 00:26:10.310\nI've gotta connect that\nmachine to it somehow, right?\n\n510\n00:26:10.310 --> 00:26:15.950\nSo a lot more cable involved when we\ndeal with setting up star topologies.\n\n511\n00:26:15.950 --> 00:26:19.009\n&gt;&gt; Now it's interesting, and\nI think you did this on purpose here.\n\n512\n00:26:19.009 --> 00:26:21.100\n&gt;&gt; [LAUGH]\n&gt;&gt; Now you showed us the first one which\n\n513\n00:26:21.100 --> 00:26:24.179\nwas probably one that we will\nnever really see anymore.\n\n514\n00:26:24.179 --> 00:26:25.690\nBecause it's just not utilize anymore.\n\n515\n00:26:25.690 --> 00:26:27.587\nNow this almost is the polar reverse.\n\n516\n00:26:27.587 --> 00:26:30.733\nHow common is this type of\nnetwork in today's day and age?\n\n517\n00:26:30.733 --> 00:26:32.010\n&gt;&gt; This is just about everywhere.\n\n518\n00:26:32.010 --> 00:26:34.862\nJust about every network you\nrun into is gonna be switched,\n\n519\n00:26:34.862 --> 00:26:36.905\nwhat they call switched Ethernet.\n\n520\n00:26:36.905 --> 00:26:41.369\nMeaning that we're running star topologies\nwith a central connectivity device.\n\n521\n00:26:41.369 --> 00:26:42.885\nAlmost always a switch.\n\n522\n00:26:42.885 --> 00:26:46.455\nHubs, which we're gonna talk about later,\nyou rarely see those anymore.\n\n523\n00:26:46.455 --> 00:26:49.970\nBridges you really don't see\nthose much anymore except for\n\n524\n00:26:49.970 --> 00:26:51.802\nin special needs situations.\n\n525\n00:26:51.802 --> 00:26:56.752\nBut to Wes's point, yeah, just about every\nsingle network is gonna be laid out in\n\n526\n00:26:56.752 --> 00:27:00.000\na star using a central\nconnectivity device.\n\n527\n00:27:00.000 --> 00:27:02.760\nWell, Mike,\nI know we got a lot more to go.\n\n528\n00:27:02.760 --> 00:27:06.610\nYou guys out there that are sharp probably\nseen that we've got a lot more of those\n\n529\n00:27:06.610 --> 00:27:07.580\ndiagrams there.\n\n530\n00:27:07.580 --> 00:27:08.760\nYou can see all the little tabs.\n\n531\n00:27:08.760 --> 00:27:11.750\nBut I'll tell you what we\ndon't have time for right now.\n\n532\n00:27:11.750 --> 00:27:12.920\nAnd that's the time on that clock.\n\n533\n00:27:12.920 --> 00:27:15.567\nSo Mike, were you gonna go ahead and\nwrap this up?\n\n534\n00:27:15.567 --> 00:27:16.670\nAnd come back in a part two, and\n\n535\n00:27:16.670 --> 00:27:18.650\nwe'll continue along in\nour network fundamentals?\n\n536\n00:27:18.650 --> 00:27:19.570\n&gt;&gt; Sounds like a plan.\n\n537\n00:27:19.570 --> 00:27:22.170\n&gt;&gt; All right, very good, well,\nthat's a perfect place to stop.\n\n538\n00:27:22.170 --> 00:27:23.320\nThank you, Mike, for being here.\n\n539\n00:27:23.320 --> 00:27:25.832\nWe'll see you guys, hopefully,\nsee you in the next episode.\n\n540\n00:27:25.832 --> 00:27:28.895\nSigning out for ITProTV,\nI have been your host, Wes Bryan.\n\n541\n00:27:28.895 --> 00:27:29.590\n&gt;&gt; And I'm Mike Rodrick.\n\n542\n00:27:29.590 --> 00:27:30.908\n&gt;&gt; And we'll see you next time.\n\n543\n00:27:30.908 --> 00:27:37.993\n[MUSIC]\n\n544\n00:27:37.993 --> 00:27:41.195\n&gt;&gt; Thank you for watching ITProTV.\n\n",
+          "url": "networking-fundamentals",
+          "vimeoId": "195981412"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of network fundamentals. They continue with network topologies then move into network devices such as hubs, bridges, routers and switches.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-2-networking_fundamentals_pt2-120516-PGM.00_30_14_20.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 2",
+          "transcript": "",
+          "url": "networking-fundamentals2",
+          "vimeoId": "196006032"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They discuss IP addressing basics like decimal and binary notation as well as hexadecimal notation. They will also look at converting between the different notations.",
+          "length": "1978",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-3-networking_fundamentals_pt3-120616-PGM.00_32_44_25.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 3",
+          "transcript": "",
+          "url": "networking-fundamentals3",
+          "vimeoId": "195993559"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They continue with IP address basics such as subnet masks as well as public and private IP addresses.",
+          "length": "1434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-4-networking_fundamentals_pt4-120616-PGM.00_23_40_29.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 4",
+          "transcript": "",
+          "url": "networking-fundamentals4",
+          "vimeoId": "195994126"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their journey through networking fundamentals. They continue with IP address basics such as subnetting as well as introducing IPv6 the next generation addressing protocol.",
+          "length": "1646",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-5-networking_fundamentals_pt5-120616-PGM.00_27_12_22.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 5",
+          "transcript": "",
+          "url": "networking-fundamentals5",
+          "vimeoId": "196596074"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of network fundamentals. They continue their look into IPv6 the next generation addressing protocol",
+          "length": "1603",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-1-networking_fundamentals_pt6-120716-PGM.00_26_29_01.Still001-sm.jpg",
+          "title": "Networking Fundamentals Part 6",
+          "transcript": "",
+          "url": "networking-fundamentals6",
+          "vimeoId": "196591245"
+        },
+        {
+          "description": "In this episode, Wes and Mike dive into one of the most important services in networking known as the domain naming system or DNS. They look at the architecture, service, records as well as explaining the process of name resolution within networks today.",
+          "length": "2009",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-2-understanding_dns-120716-PGM.00_33_15_07.Still001-sm.jpg",
+          "title": "Understanding DNS",
+          "transcript": "",
+          "url": "understanding-dns2",
+          "vimeoId": "198356817"
+        },
+        {
+          "description": "In this episode Wes and Mike dive into the world of protocols and packets. They take a look at the basic structure of protocol as well as looking at TCP and UDP header formats. They cover some of the basics of the Open Systems Interconnection (OSI) model as well as the TCP/IP protocol stack.",
+          "length": "1987",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-1-protocols_and_packets-121516-PGM.00_32_52_29.Still001-sm.jpg",
+          "title": "Protocols and Packets",
+          "transcript": "",
+          "url": "protocolspackets",
+          "vimeoId": "196609540"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their exploration into the world of protocols and packets. They continue a looking at the basic structure of TCP and UDP header formats, as well as looking and the ICMP header. They will also demonstrate capturing TCP/IP packets on a network and how to interpret the data. They will introduce TCP/IP sockets, ports and port ranges.",
+          "length": "1936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-1-3-2-protocols_and_packets_pt2-121516-PGM.00_32_02_12.Still001-sm.jpg",
+          "title": "Protocols and Packets Part 2",
+          "transcript": "",
+          "url": "protocolspackets2",
+          "vimeoId": "196610707"
+        }
+      ],
+      "title": "Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this show, Mike and Cherokee begin disusing network perimeter security by describing the functions of different types of firewalls. They also discuss where and how to implement a firewall. Lastly, they explain the role of a proxy.",
+          "length": "1663",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-1-network_security-032017-1-sm.jpg",
+          "title": "Network Security",
+          "transcript": "",
+          "url": "network-security5",
+          "vimeoId": "209447154"
+        },
+        {
+          "description": "In this show, Cherokee and Mike begin discussing  Virtual Private Networks (VPNs). Mike explains why and how they may be utilized. They also discuss the associated tunneling and encryption protocols. Several other topics such as web application security, active content, attacks, defenses, wireless security and misconceptions.",
+          "length": "2589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-1-2-network_security_pt2-032017-1-sm.jpg",
+          "title": "Network Security Part 2",
+          "transcript": "",
+          "url": "network-security6",
+          "vimeoId": "209448002"
+        },
+        {
+          "description": "Mike and Cherokee discuss vulnerability scanning  in this show. They begin by examining different approaches and remediation methods. Mike gives a couple of demonstrations including Nessus and Nmap.",
+          "length": "1743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-2-vulnerability_scanning-032017-1-sm.jpg",
+          "title": "Vulnerability Scanning",
+          "transcript": "",
+          "url": "vulnerability-scanning4",
+          "vimeoId": "209449283"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike compare and contrast Intrusion Detection and Prevention systems (IDSs and IPSs). They not only share the pros and cons  of each, they also discuss how to logically place them within a network to suite your needs.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-1-ids_and_ips-032117-1-sm.jpg",
+          "title": "IDS and IPS",
+          "transcript": "",
+          "url": "idsips",
+          "vimeoId": "209918237"
+        },
+        {
+          "description": "Cherokee and Mike continue the previous discussion focusing on IPSs and IDSs. First, Mike shows us some examples of these systems followed by a demonstration of Snort. They round out the conversation explaining the purpose of honeypots and honeynets.",
+          "length": "1839",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-2-3-2-ids_and_ips_pt2-032117-1-sm.jpg",
+          "title": "IDS and IPS Part 2",
+          "transcript": "",
+          "url": "idsips2",
+          "vimeoId": "209919046"
+        }
+      ],
+      "title": "Network Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Cherokee and Mike begin this discussion by explaining authentication and password management. They explain the difference between the AAAs (authentication, authorization, and accountability. They also discuss the CIA (confidentiality, integrity, and availability) as well as a couple of access control methods.",
+          "length": "2025",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-1-access_control-032117-1-sm.jpg",
+          "title": "Access Control",
+          "transcript": "",
+          "url": "access-control",
+          "vimeoId": "209920891"
+        },
+        {
+          "description": "In this episode Mike and Cherokee talk about different methods one may use to crack a password. They first explain the difference between a dictionary, brute force and hybrid attack. Next, Mike demonstrates how to use Cain and Abel to crack a password.",
+          "length": "1917",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-2-access_control_pt2-032317-PGM.00_31_40_28.Still001-sm.jpg",
+          "title": "Access Control Part 2",
+          "transcript": "",
+          "url": "access-control2",
+          "vimeoId": "210961113"
+        },
+        {
+          "description": "In this show Mike and Cherokee discuss authentication methods such as multi-factor using bio-metrics or tokens. Mike then shows a list of security recommendations published by the Center for Internet Security. Lastly, they talk about Security  Information and Event Management systems (SIEM).",
+          "length": "1919",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-3-1-3-access_control_pt3-032317.00_31_43_09.Still001-sm.jpg",
+          "title": "Access Control Part 3",
+          "transcript": "",
+          "url": "access-control3",
+          "vimeoId": "210300142"
+        }
+      ],
+      "title": "Authentication and Access Control"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on Risk Management, jumping back in by explaining both qualitative and quantitative risk assessment methodologies. They also show you common methods for calculating risk and approaches for dealing with risk (transfer, accept, avoid, or mitigate).",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-1-risk_management-032817-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Risk Management",
+          "transcript": "",
+          "url": "risk-management-abc",
+          "vimeoId": "210967656"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue their discussion on Risk Management, jumping back in by explaining both qualitative and quantitative risk assessment methodologies. They also show you common methods for calculating risk and approaches for dealing with risk (transfer, accept, avoid, or mitigate).",
+          "length": "1645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-4-1-2-risk_management-032817-PGM.00_00_12_07.Still001-sm.jpg",
+          "title": "Risk Management Part 2",
+          "transcript": "",
+          "url": "risk-management2-giac",
+          "vimeoId": "214171796"
+        }
+      ],
+      "title": "Risk Management"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike take the time to explore common malware types and attacks. They start by looking at attack methods like phishing, SQL injection, cross-site scripting(XSS), and Denial of Service(DoS). Then they look into network mapping/scanning techniques and defining viruses/malicious code.",
+          "length": "1721",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-1-attacks_and_malware-032717-PGM.00_28_51_23.Still001-sm.jpg",
+          "title": "Attacks and Malware",
+          "transcript": "",
+          "url": "attacksmalware",
+          "vimeoId": "210963673"
+        },
+        {
+          "description": "In this episode, Daniel and Mike return to their conversation about common network attacks and malware. They pick back up by exploring more malicious programs like Trojan Horses, spyware, and rootkits. They also describe the types of Information Warfare, including Advanced Persistent Threats(APT), Asymmetric Warfare, and offensive defense.",
+          "length": "1787",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-5-1-2-attacks_and_malware_pt2-032717-032717-PGM.00_29_33_02.Still001-sm.jpg",
+          "title": "Attacks and Malware Part 2",
+          "transcript": "",
+          "url": "attacksmalware2",
+          "vimeoId": "210965744"
+        }
+      ],
+      "title": "Attacks and Malware"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike explore the fundamentals of Incident Handling. They begin by explaining how to prepare for an incident through policies and training. Then they tackle incident identification, containment, eradication, and recovery. They finish by exploring investigation techniques and legal considerations.",
+          "length": "1262",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-6-1-incident_response-032717-PGM.00_24_20_04.Still001-sm.jpg",
+          "title": "Incident Response",
+          "transcript": "",
+          "url": "incident-response-aa",
+          "vimeoId": "210962670"
+        }
+      ],
+      "title": "Incident Response"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explore the concepts of cryptography fundamentals. They look at a encryption in it’s basic form as well as discussing a couple different cipher types like transposition and substitution ciphers. They explain the difference between Caesar and Vigenere ciphers and talk about mono-alphabetic and poly-alphabetic ciphers.",
+          "length": "1390",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-1-1-cryptography_fundamentals-121216-PGM.00_22_56_25.Still001-sm.jpg",
+          "title": "Cryptography Fundamentals",
+          "transcript": "",
+          "url": "cryptography-fundamentals",
+          "vimeoId": "196611762"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of the concepts of cryptography fundamentals. They look stream ciphers and block ciphers as well as the benefits and drawbacks of both. They will also examine different algorithms such as symmetric, asymmetric encryption and hashing.",
+          "length": "2418",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-2-cryptography_fundamentals_pt2-121216-PGM.00_40_04_00.Still001-sm.jpg",
+          "title": "Cryptography Fundamentals Part 2",
+          "transcript": "",
+          "url": "cryptography-fundamentals2",
+          "vimeoId": "196612459"
+        },
+        {
+          "description": "In this episode, Wes and Mike tackle the world of public key infrastructure (PKI) and dive more into asymmetric key encryption, the infrastructure, and components such as certificates, certificate issuance, certificate validation, smart cards and certificate-based authentication. They will also look at certificate authorities (CAs), root CAs and the hierarchical infrastructure.",
+          "length": "1982",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-1-pki_and_steganography-121316-1-sm.jpg",
+          "title": "PKI and Steganography",
+          "transcript": "",
+          "url": "pkisteganography",
+          "vimeoId": "196603863"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of public key infrastructure (PKI) with a demonstration on certificates on SSL-Based websites as well as discussing purchasing a certificates through external certificate authorities. They look at Active Directory Certificate Services inside of Windows Server as well as talking about certificate maintenance.",
+          "length": "2113",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-7-2-2-pki_and_steganography_pt.2-121316-1-sm.jpg",
+          "title": "PKI and Steganography Part 2",
+          "transcript": "",
+          "url": "pkisteganography2",
+          "vimeoId": "195994491"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their exploration of public key infrastructure (PKI) and a cryptographic process called steganography. They look at the basics of cryptographic attacks such as ciphertext-only, known plaintext, chosen plaintext and chosen ciphertext attacks. They will also talk about cryptanalysis concepts like differential, linear, side channels  cryptanalysis and more. Finally, they will introduce the basics in a cryptographic technique called steganography.",
+          "length": "957",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-7-2-3-pki_and_steganography_pt3-121316-1-sm.jpg",
+          "title": "PKI and Steganography Part 3",
+          "transcript": "",
+          "url": "pkisteganography3",
+          "vimeoId": "196606300"
+        }
+      ],
+      "title": "Encryption"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Mike explain Microsoft Windows workgroups and Active Directory domains. They look at the decentralized nature of Windows workgroups and compare that to the centralized environment of Active Directory domains. They explore the authentication mechanisms used to log users on in workgroups and domains.",
+          "length": "2247",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-1-workgroups_and_domains-120816-120816-PGM.00_37_14_05.Still001-sm.jpg",
+          "title": "Workgroups and Domains",
+          "transcript": "",
+          "url": "workgroupsdomains",
+          "vimeoId": "196597756"
+        },
+        {
+          "description": "In this episode, Wes and Mike demonstrate controlling access to resource within a Windows environment through permissions. They look at NTFS and shared permissions as well as discussing the two permission set’s interaction with each other. They will also look at printer permissions that can be applied to shared printers within a network.",
+          "length": "2219",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-1-windows_permissions-120816-PGM.00_36_45_05.Still001-sm.jpg",
+          "title": "Windows Permissions",
+          "transcript": "",
+          "url": "windows-permissions",
+          "vimeoId": "196593175"
+        },
+        {
+          "description": "In this episode, Wes and Mike continue their demonstration on controlling access to resource within a Windows environment through permissions. They look at protecting access to the Windows Registry by setting permissions as well as looking at permission in Active Directory. They talk about Active Directory permission delegation and domain security through Kerberos and smart cards.",
+          "length": "2167",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-2-2-windows_permissions_pt2-120816-PGM.00_35_53_16.Still001-sm.jpg",
+          "title": "Windows Permissions Part 2",
+          "transcript": "",
+          "url": "windows-permissions2",
+          "vimeoId": "196599406"
+        },
+        {
+          "description": "In this episode, Wes and Mike discuss concepts related to patch management of Windows-based systems through updates. They dive into the different components of updates such as service packs, hot fixes, automatic updates and the Windows Server Update Service also known as WSUS.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-3-windows_updates-120916-PGM.00_30_14_17.Still001-sm.jpg",
+          "title": "Windows Updates",
+          "transcript": "",
+          "url": "windows-updates",
+          "vimeoId": "196606862"
+        },
+        {
+          "description": "In this episode Wes and Mike look at the various concepts surrounding maintaining Windows systems . They explain the overall backup process as well as demonstrate that process through the Windows Server Backup tool. They explore the importance of system state information and backup types.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-1-windows_backup_and_restore-121416-PGM.00_32_42_20.Still001-sm.jpg",
+          "title": "Windows Backup and Restore",
+          "transcript": "",
+          "url": "windows-backuprestore3",
+          "vimeoId": "196607818"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their discussion on various concepts surrounding maintaining Windows systems . They explain the restore process as well as demonstrate the restoration process through the Windows Server Backup tool. They also will look at driver rollback and Windows Update basics.",
+          "length": "1204",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-4-2-windows_backup_and_restore_pt2-121416-PGM.00_19_50_06.Still001-sm.jpg",
+          "title": "Windows Backup and Restore Part 2",
+          "transcript": "",
+          "url": "windows-backuprestore4",
+          "vimeoId": "196608863"
+        },
+        {
+          "description": "In this episode Wes and Mike discuss the importance and utilization of Security Templates in a Windows environment as well as controlling settings through Group Policy in Windows domains. They explore password policies, lockout policies, software restriction policies and AppLocker.",
+          "length": "1733",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-1-templates_and_grroup_policy-120916-PGM.00_42_21_17.Still001-sm.jpg",
+          "title": "Templates and Group Policy",
+          "transcript": "",
+          "url": "templatesgroup-policy",
+          "vimeoId": "196600853"
+        },
+        {
+          "description": "In this episode Wes and Mike continue their discussion on security templates in a Windows environment as well as controlling settings through Group Policy in Windows domains. They focus on the Group Policy side of the Windows environment. They explore password policies, lockout policies, software restriction policies and AppLocker.",
+          "length": "1783",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-5-2-templates_and_grroup_policy_pt2-120916-PGM.00_29_29_09.Still001-sm.jpg",
+          "title": "Templates and Group Policy Part 2",
+          "transcript": "",
+          "url": "templatesgroup-policy2",
+          "vimeoId": "196602761"
+        },
+        {
+          "description": "In this show Cherokee and Mike begin explaining Windows security starting with Microsoft Firewall. Watch Mike demonstrate how to create and implement custom rules.",
+          "length": "1651",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-1-windows_network_security-032417-PGM.00_27_17_12.Still001-sm.jpg",
+          "title": "Windows Network Security",
+          "transcript": "",
+          "url": "windows-network-security",
+          "vimeoId": "210957270"
+        },
+        {
+          "description": "This is a continuation where Cherokee and Mike speak on IPSec. Mike demonstrates how to create IPSec policies in a Windows environment.",
+          "length": "2467",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-2-windows_network_security_pt2-032417-PGM.00_40_53_02.Still001-sm.jpg",
+          "title": "Windows Network Security Part 2",
+          "transcript": "",
+          "url": "windows-network-security2",
+          "vimeoId": "210958323"
+        },
+        {
+          "description": "Learn the difference between several types of counts as Mike and Cherokee cover them individually. Mike explains Built-in Local System Accounts, Built-in Local Service Accounts, Built-in Network Services Accounts and Created Service Accounts. Lastly, they discuss some common best practices to follow.",
+          "length": "1767",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-8-6-3-windows_network_security_pt3-032417-PGM.00_29_12_12.Still001-sm.jpg",
+          "title": "Windows Network Security Part 3",
+          "transcript": "",
+          "url": "windows-network-security3",
+          "vimeoId": "210959928"
+        }
+      ],
+      "title": "Windows"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Never worked with Linux before? Have no fear Daniel and Cherokee take you back to the basics. This episode provides a good foundation and breakdown of the different Linux distributions, where they originated and what they are used for.",
+          "length": "1718",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-ssec-9-1-linux_overview-010317-PGM.1-sm.jpg",
+          "title": "Linux Overview",
+          "transcript": "",
+          "url": "linux-overview",
+          "vimeoId": "198346021"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue to cover some Linux foundational knowledge. In particular, they focus on TCP/IP configuration. They demonstrate how to configure a Linux system as a DHCP client as well as how to statically map an IP address, subnet mask, default gateway and DNS server.",
+          "length": "1637",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-2-linux_overview_pt2-010517-1-sm.jpg",
+          "title": "Linux Overview Part 2",
+          "transcript": "",
+          "url": "linux-overview2",
+          "vimeoId": "198718362"
+        },
+        {
+          "description": "In this episode, Daniel and Mike continue to cover some Linux foundational knowledge. This time they focus on processes and the tools we can use to work with them. They start with TOP, as well as PS commands. Then they demonstrate examining background processes using Jobs, and how to kill a process.",
+          "length": "1593",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-3-linux_overview_pt3-010517-1-sm.jpg",
+          "title": "Linux Overview Part 3",
+          "transcript": "",
+          "url": "linux-overview3",
+          "vimeoId": "198718787"
+        },
+        {
+          "description": null,
+          "length": "2485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-1-4-linux_overview_pt4-010617-1-sm.jpg",
+          "title": "Linux Overview Part 4",
+          "transcript": "",
+          "url": "linux-overview4",
+          "vimeoId": "198834035"
+        },
+        {
+          "description": "In this episode, Daniel and Mike begin their exploration into configuring a Linux system, particularly in a multi-user environment. They look at creating a non-administrative account that can be used for everyday computing, and how to escalate privileges when necessary. They also demonstrate creating additional users and controlling their access.",
+          "length": "1998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-linux_configuration_fundamentals-010617-1-sm.jpg",
+          "title": "Linux Configuration Fundamentals",
+          "transcript": "",
+          "url": "linux-configuration-fundamentals",
+          "vimeoId": "199049681"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the explorations of the basics of Linux configurations. They talk about setting password controls, including the pluggable authentication module or PAM and extending the capabilities by the installation of additional modules. They also look at basic strong password configurations and checking password through cracklib and pwquality.",
+          "length": "2173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-9-2-2-linux_configuration_fundamentals_pt2-011617.00_35_58_23.Still001-sm.jpg",
+          "title": "Linux Configuration Fundamentals Part 2",
+          "transcript": "",
+          "url": "linux-configuration-fundamentals2",
+          "vimeoId": "200716670"
+        },
+        {
+          "description": "In this episode, Wes and Don continue the explorations of the basics of Linux configurations. They look at permissions, the available permissions, numeric vs. symbolic permission representation, setting sticky bits, GUIDs, SUIDs, patching, updates and backups.",
+          "length": "2468",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/grace-sec-9-2-3-linux_onfiguration_fundamentals_pt3-011617.00_43_36_07.Still001-sm.jpg",
+          "title": "Linux Configuration Fundamentals Part 3",
+          "transcript": "",
+          "url": "linux-configuration-fundamentals3",
+          "vimeoId": "202082412"
+        }
+      ],
+      "title": "Linux"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Mike explore Virtualization as it pertains to maintaining a secure environment. They give you a good overview of what makes up a virtual environment as well as common concepts like Type1 vs Type2 hypervisors, use cases, and security procedures like hardening, auditing, and management systems.",
+          "length": "1678",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/giac-gsec/giac-gsec-10-1-virtualization-032817-PGM.00_27_43_22.Still001-sm.jpg",
+          "title": "Virtualization",
+          "transcript": "",
+          "url": "virtualization-abc",
+          "vimeoId": "210969503"
+        }
+      ],
+      "title": "Virtualization"
+    }
+  ],
+  "url": "gsec",
+  "vLab": false
+}

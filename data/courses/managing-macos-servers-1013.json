@@ -1,0 +1,275 @@
+{
+  "description": "The Managing macOS Servers series is designed to demonstrate how to use and deploy the macOS server app in a production environment. It covers installation, configuration and maintenance of the various services that make up the macOS server app. In addition, the series covers alternate services that can be used as replacements to services that are no longer supported natively by Apple.",
+  "descriptionMD": "The Managing macOS Servers series is designed to demonstrate how to use and deploy the macOS server app in a production environment. It covers installation, configuration and maintenance of the various services that make up the macOS server app. In addition, the series covers alternate services that can be used as replacements to services that are no longer supported natively by Apple.",
+  "length": "40135",
+  "name": "Managing macOS Servers 10.13",
+  "practiceExam": false,
+  "subtitle": "macOS Server",
+  "tagUrl": "apple",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Managing macOS Servers series is designed to demonstrate how to use and deploy the macOS server app in a production environment. It covers installation, configuration and maintenance of the various services that make up the macOS server app. In addition, the series covers alternate services that can be used as replacements to services that are no longer supported natively by Apple.",
+          "length": "482",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-0-0-0-overview-042418-PGM.00_02_26_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-0-0-0-overview-042418-PGM.00_02_26_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-0-0-0-overview-042418-PGM.00_02_26_14.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:04.028\n[MUSIC]\n\n2\n00:00:06.135 --> 00:00:07.260\nHello, thank you for watching ITPro.TV.\n\n3\n00:00:07.260 --> 00:00:12.055\nWe're talking about managing macOS Server\n10.13, a new course with Don Pezet.\n\n4\n00:00:12.055 --> 00:00:15.285\nDon, can you tell us\nwhat the course is about?\n\n5\n00:00:15.285 --> 00:00:16.098\n&gt;&gt; Absolutely,\n\n6\n00:00:16.098 --> 00:00:19.889\nmost of us know macOS as a desktop\noperating system that we can run on\n\n7\n00:00:19.889 --> 00:00:23.290\nlaptops, and iMacs, Mac Minis,\nand all that good stuff.\n\n8\n00:00:23.290 --> 00:00:29.100\nBut macOS is built on top of BSD Unix,\nwhich is a very powerful server platform.\n\n9\n00:00:29.100 --> 00:00:32.080\nSo we can actually leverage\nmacOS as a server.\n\n10\n00:00:32.080 --> 00:00:36.330\nAnd in fact, Apple has the macOS server\napp available in the App Store that has\n\n11\n00:00:36.330 --> 00:00:38.890\na number of different\nfunctions inside of it.\n\n12\n00:00:38.890 --> 00:00:43.000\nAnd we've done this series over the years\nfor other platforms like El Capitan,\n\n13\n00:00:43.000 --> 00:00:47.630\nand Mavericks, and even Sierra but\nin High Sierra, macOS 10.13,\n\n14\n00:00:47.630 --> 00:00:52.640\nthere are significant changes coming\ndown from Apple on the server app.\n\n15\n00:00:52.640 --> 00:00:55.960\nA lot of services are going away.\n\n16\n00:00:55.960 --> 00:00:58.030\nSome services are staying,\nsome are going away,\n\n17\n00:00:58.030 --> 00:00:59.890\nsome are being replaced\nby other functions.\n\n18\n00:00:59.890 --> 00:01:05.200\nIt's the biggest change to the macOS\nserver app in almost a decade.\n\n19\n00:01:05.200 --> 00:01:06.080\nReally a long time.\n\n20\n00:01:06.080 --> 00:01:08.500\nThis is a really significant\namount of change.\n\n21\n00:01:08.500 --> 00:01:11.501\nSo in this series we're gonna be\ntaking a look at macOS server,\n\n22\n00:01:11.501 --> 00:01:15.410\nhow we can use our Mac as a server, how we\ncan leverage the services that Apple still\n\n23\n00:01:15.410 --> 00:01:19.206\nprovides in macOS server app, but also\ntake a look at some of the other functions\n\n24\n00:01:19.206 --> 00:01:22.292\nthat we can bring in to replace\nthe functionality that's gone.\n\n25\n00:01:22.292 --> 00:01:24.813\nIf you depend on the service\nthat's no longer supported,\n\n26\n00:01:24.813 --> 00:01:26.310\nwe need some kind of alternative.\n\n27\n00:01:26.310 --> 00:01:27.600\nSo, we're gonna be looking at that.\n\n28\n00:01:27.600 --> 00:01:32.130\nSo, if you've never used macOS server,\nthis series is gonna be a great place for\n\n29\n00:01:32.130 --> 00:01:34.350\nyou to jump and\nget a chance to learn about it.\n\n30\n00:01:34.350 --> 00:01:37.104\nIf you are already neck deep in it and\nyou need to support it and\n\n31\n00:01:37.104 --> 00:01:40.290\nnow you're trying to figure out what\nto do about services going away,\n\n32\n00:01:40.290 --> 00:01:42.460\nwe're gonna get a chance to tackle that,\ntoo.\n\n33\n00:01:42.460 --> 00:01:45.496\nSo, we'll cover a lot of really\ngood stuff throughout this series.\n\n34\n00:01:45.496 --> 00:01:46.487\n&gt;&gt; Important information and\n\n35\n00:01:46.487 --> 00:01:47.780\nyou've already touched on this but\n\n36\n00:01:47.780 --> 00:01:49.950\nwho's this show targeted towards?\n&gt;&gt; Well,\n\n37\n00:01:49.950 --> 00:01:52.310\nit's really targeted towards\nsystem administrators.\n\n38\n00:01:52.310 --> 00:01:57.100\nIf you work in a business environment and\nyou're supporting macOS servers, this\n\n39\n00:01:57.100 --> 00:02:01.100\nseries is for you, because you need to be\nsure to know what the future road map is.\n\n40\n00:02:01.100 --> 00:02:04.790\nHow to adapt your servers to support\nApple's future support model.\n\n41\n00:02:04.790 --> 00:02:08.220\nYou don't want to run software that's\nnot supported by Apple anymore.\n\n42\n00:02:08.220 --> 00:02:11.160\nThat's basically gonna leave you\nup to all types of security risks.\n\n43\n00:02:11.160 --> 00:02:14.830\nSo if you're working in a business\nsupporting macOS servers,\n\n44\n00:02:14.830 --> 00:02:16.060\nthis course is for you.\n\n45\n00:02:16.060 --> 00:02:19.720\nIf you're not, but maybe that's what\nyou want to do, maybe you work in\n\n46\n00:02:19.720 --> 00:02:24.113\nan environment where maybe you already\nsupport Windows Servers, or Linux servers,\n\n47\n00:02:24.113 --> 00:02:27.529\nand you just wanna entertain the idea\nof using macOS as a server, or\n\n48\n00:02:27.529 --> 00:02:29.929\nmaybe you're just\na regular macOS home user.\n\n49\n00:02:29.929 --> 00:02:33.041\nAnd you're thinking, boy, I'd like to set\nup a little server here in my house, or\n\n50\n00:02:33.041 --> 00:02:34.140\njust learn about it.\n\n51\n00:02:34.140 --> 00:02:35.370\nWell, we're gonna cover that too.\n\n52\n00:02:35.370 --> 00:02:38.430\nWe're gonna start off from the very basics\nand work up to the more advanced so\n\n53\n00:02:38.430 --> 00:02:40.670\nit covers a lot of ground.\n\n54\n00:02:40.670 --> 00:02:44.260\nNow I will tell you many\npeople are saying, hey,\n\n55\n00:02:44.260 --> 00:02:48.650\nif Apple is shrinking down macOS\nservices as far as being a server,\n\n56\n00:02:48.650 --> 00:02:52.070\nwe need to move the services\nover to Linux servers.\n\n57\n00:02:52.070 --> 00:02:55.620\nIf you want to do that,\nthis course is not exactly right for you.\n\n58\n00:02:55.620 --> 00:02:59.420\nInstead, you should jump over and\ncheck out our Linux Plus series.\n\n59\n00:02:59.420 --> 00:03:03.010\nWe cover how to set up Linux as a server,\nget services loaded on it and\n\n60\n00:03:03.010 --> 00:03:04.420\nget everything up and running there.\n\n61\n00:03:04.420 --> 00:03:06.980\nBut it's a different operating\nsystem under the hood.\n\n62\n00:03:06.980 --> 00:03:10.580\nI mentioned on macOS is running\nBSD Unix under the hood.\n\n63\n00:03:10.580 --> 00:03:12.410\nThat is not the same as Linux.\n\n64\n00:03:12.410 --> 00:03:13.800\nThe commands are not all the same.\n\n65\n00:03:13.800 --> 00:03:14.910\nThe software is not the same.\n\n66\n00:03:14.910 --> 00:03:16.420\nIt is a different world.\n\n67\n00:03:16.420 --> 00:03:18.980\nSo if you're interested in\nusing Linux as your server,\n\n68\n00:03:18.980 --> 00:03:20.400\nbe sure to jump over to that show.\n\n69\n00:03:20.400 --> 00:03:23.100\nBut if you're interested in\nlearning about macOS as a server\n\n70\n00:03:23.100 --> 00:03:24.340\nthis is the right place to be.\n&gt;&gt; So\n\n71\n00:03:24.340 --> 00:03:29.240\nis there a certification involved?\n&gt;&gt; There used to be, there isn't anymore.\n\n72\n00:03:29.240 --> 00:03:32.600\nSo Apple used to have the Apple\nCertified Technical Coordinator, or\n\n73\n00:03:32.600 --> 00:03:35.920\nACTC certification,\nwhich they've ended that certification.\n\n74\n00:03:35.920 --> 00:03:38.520\nIt's no longer available,\nyou can't take the test.\n\n75\n00:03:38.520 --> 00:03:42.000\nAnd there used to be a course\ncalled macOS Server Essentials,\n\n76\n00:03:42.000 --> 00:03:44.420\noriginally it was called\nOS X Server Essentials.\n\n77\n00:03:44.420 --> 00:03:48.170\nWell, since they have effectively gutted\nthe server app, there's no need for\n\n78\n00:03:48.170 --> 00:03:51.570\nthat server essential course anymore,\nand so they've eliminated that one too.\n\n79\n00:03:51.570 --> 00:03:54.040\nSo there's no course,\nthere's no certification.\n\n80\n00:03:54.040 --> 00:03:55.310\nIt's all just gone.\n\n81\n00:03:55.310 --> 00:03:58.690\nWell, the problem there is what happens\nto all the people who have macOS\n\n82\n00:03:58.690 --> 00:04:00.040\nservers out there?\n\n83\n00:04:00.040 --> 00:04:01.880\nKind of left to their own devices.\n\n84\n00:04:01.880 --> 00:04:02.910\nWell, what do they do?\n\n85\n00:04:02.910 --> 00:04:07.150\nAnd if you're in an all-Mac environment,\nwouldn't it be nice to stand up a server\n\n86\n00:04:07.150 --> 00:04:10.400\nand not have to bring in some other\noperating system you're not familiar with?\n\n87\n00:04:10.400 --> 00:04:14.370\nWell, you still can, there is still a\nsupported path that we can follow here to\n\n88\n00:04:14.370 --> 00:04:17.010\nbuild up these servers, and\nthat's why this knowledge is relevant.\n\n89\n00:04:17.010 --> 00:04:19.180\nSo there's not a certification,\n\n90\n00:04:19.180 --> 00:04:22.340\nbut there is a real world need for\nthe skills that we're going to learn right\n\n91\n00:04:22.340 --> 00:04:25.015\nhere in this series.\n&gt;&gt; So what topics are covered management\n\n92\n00:04:25.015 --> 00:04:27.907\nmac OS servers 10.13?\n&gt;&gt; All right we're going to cover a wide\n\n93\n00:04:27.907 --> 00:04:30.690\nrange of things, we're going to\nstart off with the super basics,\n\n94\n00:04:30.690 --> 00:04:33.050\nwe're going to see how to\ninstall the macOS server app.\n\n95\n00:04:33.050 --> 00:04:35.478\nNow, there's only a couple of\nservices left in it, right?\n\n96\n00:04:35.478 --> 00:04:37.104\nBut we still need to\nknow how to install it.\n\n97\n00:04:37.104 --> 00:04:40.030\nAnd then we'll take a look at those\nservices that are still built in.\n\n98\n00:04:40.030 --> 00:04:43.476\nIt's really just two,\nopen directory and profile manager.\n\n99\n00:04:43.476 --> 00:04:46.974\nSo we'll take a look at those\ntwo services, how they work, and\n\n100\n00:04:46.974 --> 00:04:49.551\nhow we can use those, and\nsee what they can do.\n\n101\n00:04:49.551 --> 00:04:54.047\nThen we're gonna take a look at\nsome of the services that have been\n\n102\n00:04:54.047 --> 00:04:57.850\nremoved from the server app\nthat are now part of macOS.\n\n103\n00:04:57.850 --> 00:04:59.468\nSo, for example,\nsetting up a time machine server.\n\n104\n00:04:59.468 --> 00:05:01.380\nYou don't need the server app for\nthat anymore.\n\n105\n00:05:01.380 --> 00:05:02.828\nIt's just built into macOS.\n\n106\n00:05:02.828 --> 00:05:06.160\nYou can turn any Mac into\na Time Machine server.\n\n107\n00:05:06.160 --> 00:05:07.840\nA cacheing server, same thing.\n\n108\n00:05:07.840 --> 00:05:09.470\nA file server, same thing.\n\n109\n00:05:09.470 --> 00:05:10.930\nThat's all built in to the base OS.\n\n110\n00:05:10.930 --> 00:05:13.910\nSo, we'll take a look at those\nfunctions and what those roles are.\n\n111\n00:05:13.910 --> 00:05:18.093\nNow that's five different services right\nthere that are still fully supported by\n\n112\n00:05:18.093 --> 00:05:22.217\nApple, and still available right now and\nfor the forseeable future they've not\n\n113\n00:05:22.217 --> 00:05:24.597\nannounced end of life on any of those,\nright?\n\n114\n00:05:24.597 --> 00:05:27.686\nBut then we're going to\nlook at all the others.\n\n115\n00:05:27.686 --> 00:05:31.500\nThere's a solid 10 other services that\nhave all been pruned off by Apple and\n\n116\n00:05:31.500 --> 00:05:33.740\nthese aren't services nobody cares about.\n\n117\n00:05:33.740 --> 00:05:35.110\nWell, some of them are, right?\n\n118\n00:05:35.110 --> 00:05:36.590\nLike there was a Wiki service.\n\n119\n00:05:36.590 --> 00:05:37.470\nNobody used that thing.\n\n120\n00:05:37.470 --> 00:05:38.810\nIt was just a web server.\n\n121\n00:05:38.810 --> 00:05:41.270\nThere's really no point in\nhaving a service for it.\n\n122\n00:05:41.270 --> 00:05:43.020\nNow it's gone.\n\n123\n00:05:43.020 --> 00:05:44.135\nThe VPN service.\n\n124\n00:05:44.135 --> 00:05:48.110\nMacOS was never made a good VPN server so\npeople used firewalls for that.\n\n125\n00:05:48.110 --> 00:05:49.310\nThey use other options.\n\n126\n00:05:49.310 --> 00:05:51.170\nSo that makes sense those would go away.\n\n127\n00:05:51.170 --> 00:05:58.000\nBut their service is like DNS, DHCP,\nfile services though FTP or SFTP.\n\n128\n00:05:58.000 --> 00:06:02.820\nThose are services that people use\nevery single day that are important.\n\n129\n00:06:02.820 --> 00:06:03.590\nNet install.\n\n130\n00:06:03.590 --> 00:06:04.550\nNet boot.\n\n131\n00:06:04.550 --> 00:06:06.050\nThose are really important.\n\n132\n00:06:06.050 --> 00:06:09.530\nIf you're supporting a thousand Macs and\nyou need to pull an image out,\n\n133\n00:06:09.530 --> 00:06:10.632\nthose are important.\n\n134\n00:06:10.632 --> 00:06:13.999\nOr those are all gone from macOS server,\nright?\n\n135\n00:06:13.999 --> 00:06:18.159\nBut what a lot of people don't realize is\nwhile Apple has removed the macOS server,\n\n136\n00:06:18.159 --> 00:06:20.966\nthey haven't completely\nkilled our support for them.\n\n137\n00:06:20.966 --> 00:06:24.700\nThat a lot of these are really just\nUnix services in the background.\n\n138\n00:06:24.700 --> 00:06:26.760\nAnd those unique services\nare still there and\n\n139\n00:06:26.760 --> 00:06:30.210\nstill supported by Apple with\nno end of life announced.\n\n140\n00:06:30.210 --> 00:06:33.910\nWhich means we're losing the graphical\nuser interface, the GUI, it's going away.\n\n141\n00:06:33.910 --> 00:06:37.600\nBut we still have the command line tools\nin the background to be able to fire these\n\n142\n00:06:37.600 --> 00:06:41.730\nservices up, run them reliably and\ncontinue doing it for years to come.\n\n143\n00:06:41.730 --> 00:06:43.040\nThat functionality is there.\n\n144\n00:06:43.040 --> 00:06:46.013\nSo, we're gonna take a look\nthe services that are still there, but\n\n145\n00:06:46.013 --> 00:06:48.952\nfrom a command line perspective,\nand see how it can manage those.\n\n146\n00:06:48.952 --> 00:06:51.577\nAnd then for the one or\ntwo that are totally gone,\n\n147\n00:06:51.577 --> 00:06:55.530\nthat are gone from the server app and\ngone from the command line.\n\n148\n00:06:55.530 --> 00:06:57.580\nWell, Apple has recommended replacements.\n\n149\n00:06:57.580 --> 00:07:00.033\nThey've said, here's an alternate\nsoftware you can use or\n\n150\n00:07:00.033 --> 00:07:02.644\nan alternate solution you can use\nto provide that same service.\n\n151\n00:07:02.644 --> 00:07:06.171\nWe're gonna take a look at those alternate\nsolutions and see what it takes to get\n\n152\n00:07:06.171 --> 00:07:09.310\nthat deployed, get it put in place,\nand have it up and running.\n\n153\n00:07:09.310 --> 00:07:11.560\nA great example of that is DNS.\n\n154\n00:07:11.560 --> 00:07:15.550\nWith DNS, macOS used to use\nthe bind service in the background.\n\n155\n00:07:15.550 --> 00:07:17.350\nThat's what was built\nin to the server app.\n\n156\n00:07:17.350 --> 00:07:18.850\nWell, Apple didn't make bind.\n\n157\n00:07:18.850 --> 00:07:22.520\nBind is made by a different organization,\nISE.\n\n158\n00:07:22.520 --> 00:07:26.702\nAnd so, in that case, you can just go and\nget bind from ISE and\n\n159\n00:07:26.702 --> 00:07:31.136\nload it onto your server and\nrun it, and it works great, right?\n\n160\n00:07:31.136 --> 00:07:32.424\nAnd it's still supported and\n\n161\n00:07:32.424 --> 00:07:35.268\nit's actually several versions\nahead of what Apple is running.\n\n162\n00:07:35.268 --> 00:07:38.660\nSo in those cases we just need to know\nwho is the replacement, how do I get that\n\n163\n00:07:38.660 --> 00:07:41.897\nloaded, how do I get it up and running and\nnow I've got the same service.\n\n164\n00:07:41.897 --> 00:07:44.853\nThat's all stuff that we're gonna be\nlooking at right here in the series.\n\n165\n00:07:44.853 --> 00:07:45.810\n&gt;&gt; Well, thanks Don.\n\n166\n00:07:45.810 --> 00:07:49.549\nAnd if managing macOS servers 10.13 sounds\nlike something you'd be interested in, and\n\n167\n00:07:49.549 --> 00:07:50.174\nyou should be.\n\n168\n00:07:50.174 --> 00:07:53.115\nMake sure to watch all the episodes\nin our course library.\n\n169\n00:07:53.115 --> 00:08:00.364\nThanks for\nwatching the binge-worth ITPro.TV.\n\n170\n00:08:00.364 --> 00:08:02.439\n[MUSIC]\n\n",
+          "url": "overview-macosserver1013",
+          "vimeoId": "266752733"
+        },
+        {
+          "description": "In this episode, Don highlights the new features found in the macOS Server App v5.6. He discusses the services that are scheduled to be remove, and explains several options to replace any removed service.",
+          "length": "1619",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-1-1-whats_new_in_macos_server_5_6-051418-PGM.00_16_32_09.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-1-1-whats_new_in_macos_server_5_6-051418-PGM.00_16_32_09.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-1-1-whats_new_in_macos_server_5_6-051418-PGM.00_16_32_09.Still002-sm.jpg",
+          "title": "What's New in macOS Server 5.6",
+          "transcript": "",
+          "url": "whatsin-macos-server-56",
+          "vimeoId": "269876544"
+        },
+        {
+          "description": "In this episode, Don walks us through how to install the macOS Server App and provides a quick introduction to the various features inside the app. He also discusses the pre-requisites for installing as well as concerns when upgrading to a new version.",
+          "length": "1806",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-2-1-installing_macos_server-042418-PGM.00_32_29_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-2-1-installing_macos_server-042418-PGM.00_32_29_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-2-1-installing_macos_server-042418-PGM.00_32_29_19.Still001-sm.jpg",
+          "title": "Installing macOS Server",
+          "transcript": "",
+          "url": "installing-macos-server-macosserver1013",
+          "vimeoId": "266752243"
+        },
+        {
+          "description": "In this episode Don demonstrates the various ways that you can remotely manage a machine running the macOS Server App. He demonstrates SSH, screen sharing and remotely executing the Server App itself.",
+          "length": "1976",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-3-1-remote_managment-042518-PGM.00_32_53_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-3-1-remote_managment-042518-PGM.00_32_53_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-3-1-remote_managment-042518-PGM.00_32_53_02.Still001-sm.jpg",
+          "title": "Remote Management",
+          "transcript": "",
+          "url": "remote-management-macosserver1013",
+          "vimeoId": "266751448"
+        },
+        {
+          "description": "In this episode, Don describes the three primary methods for monitoring a macOS Server to ensure it is on-line and healthy. He covers logging for past monitoring, statistics for real-time monitoring, and alerts for future monitoring.",
+          "length": "1621",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-4-1-monitoring_performance-042518-PGM.00_28_39_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-4-1-monitoring_performance-042518-PGM.00_28_39_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-4-1-monitoring_performance-042518-PGM.00_28_39_08.Still001-sm.jpg",
+          "title": "Monitoring Performance",
+          "transcript": "",
+          "url": "monitoring-performance-macosserver1013",
+          "vimeoId": "266752851"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the Brew (Homebrew) package manager. He explains how the package manager functions, where the software comes from and how it functions. He also demonstrates how to install and update applications using Brew.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-1-managing_software_with_brew-043018-PGM.00_34_09_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-1-managing_software_with_brew-043018-PGM.00_34_09_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-1-managing_software_with_brew-043018-PGM.00_34_09_04.Still001-sm.jpg",
+          "title": "Managing Software with Brew",
+          "transcript": "",
+          "url": "managing-softwarebrew",
+          "vimeoId": "267835038"
+        },
+        {
+          "description": "In this episode, Don introduces the viewers to the Brew (Homebrew) package manager. He explains how the package manager functions, where the software comes from and how it functions. He also demonstrates how to install and update applications using Brew.",
+          "length": "1554",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-2-managing_software_with_brew_pt2-043018-PGM.00_29_11_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-2-managing_software_with_brew_pt2-043018-PGM.00_29_11_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-1-5-2-managing_software_with_brew_pt2-043018-PGM.00_29_11_14.Still001-sm.jpg",
+          "title": "Managing Software with Brew Part 2",
+          "transcript": "",
+          "url": "managing-softwarebrew2",
+          "vimeoId": "267457051"
+        }
+      ],
+      "title": "Introduction"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don discusses how the Apple OpenDirectory authentication server functions. He then demonstrates how to install OpenDirectory and configure user accounts in preparation for binding clients.",
+          "length": "1696",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-1-1-opendirectory-042418-PGM.00_28_03_02.Still004.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-1-1-opendirectory-042418-PGM.00_28_03_02.Still004-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-1-1-opendirectory-042418-PGM.00_28_03_02.Still004-sm.jpg",
+          "title": "Open Directory",
+          "transcript": "",
+          "url": "directory-macosserver1013",
+          "vimeoId": "266751976"
+        },
+        {
+          "description": "In this episode Don demonstrates how to configure the Profile Manager to deploy configuration profiles to end user machines. He also shows some of the settings that can be configured.",
+          "length": "2039",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-1-profile_manager-042718-PGM.00_39_55_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-1-profile_manager-042718-PGM.00_39_55_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-1-profile_manager-042718-PGM.00_39_55_26.Still001-sm.jpg",
+          "title": "Profile Manager",
+          "transcript": "",
+          "url": "profile-manager-macosserver-1013",
+          "vimeoId": "267307315"
+        },
+        {
+          "description": "In this episode Don demonstrates how to configure the Profile Manager to deploy configuration profiles to end user machines. He also shows some of the settings that can be configured.",
+          "length": "2146",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-2-profile_manager_pt_2-042718.00_38_37_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-2-profile_manager_pt_2-042718.00_38_37_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-2-profile_manager_pt_2-042718.00_38_37_27.Still001-sm.jpg",
+          "title": "Profile Manager Part 2",
+          "transcript": "",
+          "url": "profile-manager2-macosserver-1013",
+          "vimeoId": "267306834"
+        },
+        {
+          "description": "In this episode Don demonstrates how to configure the Profile Manager to deploy configuration profiles to end user machines. He also shows some of the settings that can be configured.",
+          "length": "1903",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-3-profile_manager_pt3-043018-PGM.00_37_44_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-3-profile_manager_pt3-043018-PGM.00_37_44_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-2-2-3-profile_manager_pt3-043018-PGM.00_37_44_08.Still001-sm.jpg",
+          "title": "Profile Manager Part 3",
+          "transcript": "",
+          "url": "profile-manager3-macosserver-1013",
+          "vimeoId": "267307738"
+        }
+      ],
+      "title": "Services That Stayed"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don explains the function and benefits of using a file server on your network. He then demonstrates how to configure the File Server role in macOS, which has moved out of the Server App and into the base operating system.",
+          "length": "1539",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-1-1-file_server-050218-PGM.00_26_08_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-1-1-file_server-050218-PGM.00_26_08_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-1-1-file_server-050218-PGM.00_26_08_27.Still001-sm.jpg",
+          "title": "File Server",
+          "transcript": "",
+          "url": "file-server",
+          "vimeoId": "267834694"
+        },
+        {
+          "description": "In this episode Don explains the function and benefits of using a Time Machine server on your network. He then demonstrates how to configure the Time Machine Server role in macOS, which has moved out of the Server App and into the base operating system.",
+          "length": "1905",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-2-1-time_machine_server-050218-PGM.00_32_43_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-2-1-time_machine_server-050218-PGM.00_32_43_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-2-1-time_machine_server-050218-PGM.00_32_43_12.Still001-sm.jpg",
+          "title": "Time Machine Server",
+          "transcript": "",
+          "url": "time-machine-server",
+          "vimeoId": "267834097"
+        },
+        {
+          "description": "In this episode Don explains the function and benefits of using a caching server on your network. He then demonstrates how to configure the Caching Server role in macOS, which has moved out of the Server App and into the base operating system.",
+          "length": "1589",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-3-1-caching_server-050218-PGM.00_27_18_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-3-1-caching_server-050218-PGM.00_27_18_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-3-3-1-caching_server-050218-PGM.00_27_18_00.Still001-sm.jpg",
+          "title": "Caching Server",
+          "transcript": "",
+          "url": "caching-server-macosserver",
+          "vimeoId": "267835616"
+        }
+      ],
+      "title": "Services That Moved"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Don explains what options are available now that Apple has end-of-lifed their DNS server. He then demonstrates how to disable Apple's DNS server and install ISC BIND. Fially, he demonstrates how to migrate zone files from Apple's DNS server into ISC BIND.",
+          "length": "2317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_dns_with_isc_bind-050318-PGM.00_40_12_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_dns_with_isc_bind-050318-PGM.00_40_12_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_dns_with_isc_bind-050318-PGM.00_40_12_16.Still001-sm.jpg",
+          "title": "Replacing DNS with ISC-BIND",
+          "transcript": "",
+          "url": "replacing-dnsiscbind",
+          "vimeoId": "268407037"
+        },
+        {
+          "description": "In this episode, Don explains how to configure new DNS zones in ISC BIND. He explains the format needed for DNS zone files and demonstrates how to use the named-checkzone utility to verify your file syntax and minimize downtime.",
+          "length": "2194",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-2-replacing_dns_with_isc_bind_pt2-050318-PGM.00_36_55_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-2-replacing_dns_with_isc_bind_pt2-050318-PGM.00_36_55_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-2-replacing_dns_with_isc_bind_pt2-050318-PGM.00_36_55_02.Still001-sm.jpg",
+          "title": "Replacing DNS with ISC-BIND Part 2",
+          "transcript": "",
+          "url": "replacing-dnsiscbind2",
+          "vimeoId": "268405070"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apples DHCP server which has been discontinued. He explains why the ISC DHCP service is an ideal replacement as oppossed to bootpd. Finally, he demonstrates installing and configuring ISC DHCP.",
+          "length": "2236",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-2-1-replacing_dhcp_with_isc_dhcp-050318-PGM.00_43_42_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-2-1-replacing_dhcp_with_isc_dhcp-050318-PGM.00_43_42_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-2-1-replacing_dhcp_with_isc_dhcp-050318-PGM.00_43_42_13.Still001-sm.jpg",
+          "title": "Replacing DHCP with ISC-DHCP",
+          "transcript": "",
+          "url": "replacing-dhcpiscdhcp",
+          "vimeoId": "268406585"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apple's Websites server which has been discontinued. He explains why the Apache webserver is an ideal replacement as oppossed to other options. Finally, he demonstrates installing and configuring Apache.",
+          "length": "2055",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-1-replacing_websites_with_apache-051418-PGM.00_35_59_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-1-replacing_websites_with_apache-051418-PGM.00_35_59_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-1-replacing_websites_with_apache-051418-PGM.00_35_59_12.Still001-sm.jpg",
+          "title": "Replacing Websites with Apache",
+          "transcript": "",
+          "url": "replacing-websitesapache",
+          "vimeoId": "269874697"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apple's Websites server which has been discontinued. He explains why the Apache webserver is an ideal replacement as oppossed to other options. Finally, he demonstrates installing and configuring Apache.",
+          "length": "1630",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-2-replacing_websites_with_apache_pt2-052318-PGM.00_29_41_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-2-replacing_websites_with_apache_pt2-052318-PGM.00_29_41_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-2-replacing_websites_with_apache_pt2-052318-PGM.00_29_41_12.Still001-sm.jpg",
+          "title": "Replacing Websites with Apache Part 2",
+          "transcript": "",
+          "url": "replacing-websitesapache2",
+          "vimeoId": "271679939"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apple's Websites server which has been discontinued. He explains why the Apache webserver is an ideal replacement as opposed to other options. Finally, he demonstrates installing and configuring Apache.",
+          "length": "2291",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-3-replacing_websites_with_apache_pt3-052418-PGM.00_41_11_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-3-replacing_websites_with_apache_pt3-052418-PGM.00_41_11_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-3-replacing_websites_with_apache_pt3-052418-PGM.00_41_11_19.Still001-sm.jpg",
+          "title": "Replacing Websites with Apache Part 3",
+          "transcript": "",
+          "url": "replacing-websitesapache3",
+          "vimeoId": "271882720"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apple's Websites server which has been discontinued. He explains why the Apache webserver is an ideal replacement as opposed to other options. Finally, he demonstrates installing and configuring Apache.",
+          "length": "1943",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-4-replacing_websites_with_apache_pt4-052518-PGM.00_32_09_18.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-4-replacing_websites_with_apache_pt4-052518-PGM.00_32_09_18.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-3-4-replacing_websites_with_apache_pt4-052518-PGM.00_32_09_18.Still002-sm.jpg",
+          "title": "Replacing Websites with Apache Part 4",
+          "transcript": "",
+          "url": "replacing-websitesapache4",
+          "vimeoId": "272384066"
+        },
+        {
+          "description": "In this episode, Don explains the options available to replace Apple's Mail server which has been discontinued. He explains some of the options available to migrate the mail, contacts and calendar services.",
+          "length": "1730",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_mail_server-052518-PGM.00_31_11_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_mail_server-052518-PGM.00_31_11_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/apple-macosserver1013/apple-macosserver1013-4-4-1-replacing_mail_server-052518-PGM.00_31_11_12.Still001-sm.jpg",
+          "title": "Replacing Mail Server",
+          "transcript": "",
+          "url": "replacing-mail-server",
+          "vimeoId": "272384960"
+        }
+      ],
+      "title": "Services That Are Gone"
+    }
+  ],
+  "url": "managing-macos-servers-1013",
+  "vLab": false
+}

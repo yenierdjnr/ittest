@@ -1,0 +1,195 @@
+{
+  "description": "Those looking to complete the Cisco Certified Network Associate (CCNA) Security certification will find in this course an overview of the process in achieving the certification and details about the Implementing Cisco IOS Network Security (IINS) exam required to pass in order to receive the certification. CCNA Security addresses how to properly secure Cisco devices and security on Cisco routers and switches and is designed not just for IT professionals, but also for any kind of network administrator that supports Cisco equipment. The exam objectives cover a wide range of topics including common security threats, iOS ACLs, Cisco firewall technologies and others, which can provide foundational knowledge for achieving further related certifications like the CCNP.",
+  "descriptionMD": "",
+  "length": "60986",
+  "name": "CCNA Security 640-554",
+  "practiceExam": false,
+  "subtitle": "Cisco Certified Network Associate Security",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The CCNA certification addresses security when it comes to dealing with Cisco devices and networks and to achieve it, one will first need to have already achieved the CCENT certification as a prerequisite. Viewers will hear an overview about the knowledge one needs to attain the CCNA certification, the Implementing Cisco IOS Network Security (IINS) exam that covers in-depth technical concepts and hear about the exam objectives for implementing Cisco IOS network security.",
+          "length": "672",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/ccnasecurity-0-0-overview-sm.jpg",
+          "title": "Overview of CCNA Security",
+          "transcript": "1\n00:00:00,000 --> 00:00:08,082\n[MUSIC]\n\n2\n00:00:08,082 --> 00:00:11,878\nThe CCNA Security certification\nis one of the specializations for\n\n3\n00:00:11,878 --> 00:00:15,220\nthe Cisco certified network associate.\n\n4\n00:00:15,220 --> 00:00:19,010\nThe CCA security specifically\naddresses well, security.\n\n5\n00:00:19,010 --> 00:00:22,220\nHow improperly secure our Cisco device is.\n\n6\n00:00:22,220 --> 00:00:25,730\nAnd it doesn't just focus on\nsecurity only devices right.\n\n7\n00:00:25,730 --> 00:00:27,100\nWhen we think of security,\n\n8\n00:00:27,100 --> 00:00:30,900\nin my mind I immediately think of\nCisco's adaptive security appliances.\n\n9\n00:00:30,900 --> 00:00:33,140\nThey're ASA firewalls, right?\n\n10\n00:00:33,140 --> 00:00:36,750\nAnd those are covered right\nhere on the CCNA Security, but\n\n11\n00:00:36,750 --> 00:00:41,240\nwe also take a look at security\non Cisco routers and switches.\n\n12\n00:00:41,240 --> 00:00:44,790\nYou've got to understand, that security\nis not applied at just one place.\n\n13\n00:00:44,790 --> 00:00:48,590\nCisco always recommends what's called\nthe defense in depth security procedure,\n\n14\n00:00:48,590 --> 00:00:52,730\nand that means that we've got a security\nimplemented all throughout our network.\n\n15\n00:00:52,730 --> 00:00:55,260\nYour routers and your switches\nactually make very attractive\n\n16\n00:00:55,260 --> 00:00:58,600\ntargets to attackers trying to\ncompromise your systems and so\n\n17\n00:00:58,600 --> 00:01:00,860\nwe've got to take proper\nsecurity measures there.\n\n18\n00:01:00,860 --> 00:01:03,570\nSo while there certainly is\na lot of work on firewalls,\n\n19\n00:01:03,570 --> 00:01:05,960\nthere's also work on routers and\nswitches too.\n\n20\n00:01:05,960 --> 00:01:10,140\nThe CCNA Security does a great\njob of addressing all of that.\n\n21\n00:01:10,140 --> 00:01:13,880\nNow, the CCNA Security is one of those\ncertifications that I think is pretty neat\n\n22\n00:01:13,880 --> 00:01:19,160\nbecause it's not catered to\njust IT security professionals.\n\n23\n00:01:19,160 --> 00:01:22,870\nIf you are any kind of network\nadministrator that supports Cisco\n\n24\n00:01:22,870 --> 00:01:27,500\nequipment, I think the CCNA Security\ncertification is a great one to pursue\n\n25\n00:01:27,500 --> 00:01:31,150\nbecause security is something\nthat everyone performs,\n\n26\n00:01:31,150 --> 00:01:33,070\nnot just the security IT officers.\n\n27\n00:01:33,070 --> 00:01:35,060\nIt's really something that everybody does.\n\n28\n00:01:35,060 --> 00:01:38,690\nSo we all play our part in having a basic\nunderstanding of what's available\n\n29\n00:01:38,690 --> 00:01:40,090\nis really important.\n\n30\n00:01:40,090 --> 00:01:44,150\nOne of the neat things that I usually hear\nfrom viewers that have watched the show\n\n31\n00:01:44,150 --> 00:01:48,390\nis they'll say, man, I never knew some\nof these features were there, and\n\n32\n00:01:48,390 --> 00:01:50,610\nthat's the sad part of all this.\n\n33\n00:01:50,610 --> 00:01:55,120\nCisco equipment has so many powerful\nsecurity features built into it, but\n\n34\n00:01:55,120 --> 00:01:59,550\nthey turn them off by default because\nthey don't know if people need them or\n\n35\n00:01:59,550 --> 00:02:00,960\nknow how to use them.\n\n36\n00:02:00,960 --> 00:02:03,850\nIf you improperly deploy some of the\nsecurity measures it can cause all sorts\n\n37\n00:02:03,850 --> 00:02:04,770\nof problems.\n\n38\n00:02:04,770 --> 00:02:09,240\nSo, these features are turned off when\nyou get a router out of the box or\n\n39\n00:02:09,240 --> 00:02:12,490\nget a firewall out of the box, and\nall you have to do is turn them on and\n\n40\n00:02:12,490 --> 00:02:16,040\nyou can increase the security on your\nnetwork very, very, very greatly and\n\n41\n00:02:16,040 --> 00:02:20,600\nyou can completely eliminate some of the\nvery common threats that are out there.\n\n42\n00:02:20,600 --> 00:02:23,190\nAnd things that companies\nstill fall victim to today.\n\n43\n00:02:23,190 --> 00:02:27,472\nSo, it's a great certification,\ncovers a lot of wonderful knowledge.\n\n44\n00:02:27,472 --> 00:02:31,630\nAll right, let's talk a little bit about\nthe exam, and what we need to understand.\n\n45\n00:02:31,630 --> 00:02:36,680\nThe CCNA itself is a mid tier\ncertification, it's above the CCENT,\n\n46\n00:02:36,680 --> 00:02:41,960\nbut not at the level of the Cisco\nCertified Network Professional, the CCNP.\n\n47\n00:02:41,960 --> 00:02:44,095\nBut, it is a specialization.\n\n48\n00:02:44,095 --> 00:02:48,070\nThere's the CCNA routing and switching\nthat a lot of people pursue that focuses\n\n49\n00:02:48,070 --> 00:02:50,850\non routers and switches,\nbut this one is security.\n\n50\n00:02:50,850 --> 00:02:54,185\nIt covers routers and switches also,\nbut not from the routing perspective.\n\n51\n00:02:54,185 --> 00:02:55,725\nFrom the security perspective.\n\n52\n00:02:56,835 --> 00:02:59,485\nThe certification does just have one exam.\n\n53\n00:02:59,485 --> 00:03:01,305\nBut that's a little bit misleading,\n\n54\n00:03:01,305 --> 00:03:06,865\nbecause you actually have to have\nthe CCENT certification first.\n\n55\n00:03:06,865 --> 00:03:10,085\nYou need to have the CCENT\nbefore you can move on and\n\n56\n00:03:10,085 --> 00:03:12,830\nget the CCNA security certification.\n\n57\n00:03:12,830 --> 00:03:17,020\nSo first you'll have to do\n100-101 exam to get your CCENT.\n\n58\n00:03:17,020 --> 00:03:23,340\nThen you can do the 640-554 IINS exam.\n\n59\n00:03:23,340 --> 00:03:28,040\nIINS somewhat cryptically stands for\nImplementing Cisco IOS Network Security.\n\n60\n00:03:28,040 --> 00:03:31,810\nAnd in the earlier days in some of\nthe older versions of the certification,\n\n61\n00:03:31,810 --> 00:03:37,840\nit focused just on the IOS, so\nyou had Cisco routers and switches.\n\n62\n00:03:37,840 --> 00:03:42,440\nBut in the newer versions like\nthe 640-554, it goes beyond IOS and\n\n63\n00:03:42,440 --> 00:03:44,550\ncovers the ASA's also.\n\n64\n00:03:44,550 --> 00:03:47,370\nSo you do have Cisco firewall\nconfigurations to be found in there too.\n\n65\n00:03:48,500 --> 00:03:50,500\nIt's all great knowledge to have, and\n\n66\n00:03:50,500 --> 00:03:54,920\ndefinitely something useful for really\nanybody who works for Cisco equipment.\n\n67\n00:03:56,000 --> 00:03:58,250\nNow the exam itself, it's 90 minutes, so\n\n68\n00:03:58,250 --> 00:04:02,150\nyou have a little bit more time\nthan most of the Cisco exams.\n\n69\n00:04:02,150 --> 00:04:04,265\nAnd it's 55 to 65 questions.\n\n70\n00:04:04,265 --> 00:04:06,680\nThat's about three minutes per question.\n\n71\n00:04:06,680 --> 00:04:08,150\nSorry, it's about two\nminutes per question.\n\n72\n00:04:08,150 --> 00:04:08,920\nThere we go.\n\n73\n00:04:08,920 --> 00:04:11,190\nWhich is a decent amount of time.\n\n74\n00:04:11,190 --> 00:04:15,230\nThere are some simulation questions on\nthe exam, but it's not as heavy as some of\n\n75\n00:04:15,230 --> 00:04:19,110\nthe others and you'll have some\ngraphical simulation questions because\n\n76\n00:04:19,110 --> 00:04:23,150\nthe Cisco ASA's are administered\nwith a Graphical User Interface.\n\n77\n00:04:23,150 --> 00:04:24,910\nThey can be done with a command line.\n\n78\n00:04:24,910 --> 00:04:27,100\nBut Cisco doesn't expect you\nto use that on the exam.\n\n79\n00:04:28,240 --> 00:04:30,270\nThe exam is proctored through Pierson Vue.\n\n80\n00:04:30,270 --> 00:04:33,630\nSo when you're ready to take it,\nyou go to the Pierson Vue website.\n\n81\n00:04:33,630 --> 00:04:36,800\nIt's www.piersonvue.com, and\n\n82\n00:04:36,800 --> 00:04:42,199\nremember Vue is spelled Vue,\nso piersonvue.com/cisco.\n\n83\n00:04:42,199 --> 00:04:45,920\nOn that page, you'll be able to\nfind a testing center near you, so\n\n84\n00:04:45,920 --> 00:04:48,200\nit's usually a convenient location nearby.\n\n85\n00:04:48,200 --> 00:04:51,500\nThey have offices all over the world, so\nit doesn't even matter what country you're\n\n86\n00:04:51,500 --> 00:04:54,300\nin, you can usually find one within\na reasonable driving distance.\n\n87\n00:04:55,360 --> 00:04:58,620\nYou can schedule you're exam with them,\npay them to take the exam.\n\n88\n00:04:58,620 --> 00:04:59,890\nAnd then you go and take it.\n\n89\n00:04:59,890 --> 00:05:04,160\nAnd when you pass you'll receive\nyour CCNA Security Designation.\n\n90\n00:05:04,160 --> 00:05:07,330\nNow, you'll find out immediately\nupon completing the exam whether you\n\n91\n00:05:07,330 --> 00:05:08,560\npass or fail.\n\n92\n00:05:08,560 --> 00:05:11,170\nIf you pass, great,\nyou get your certification.\n\n93\n00:05:11,170 --> 00:05:14,200\nYou'll get a certificate in\nthe mail a few weeks later.\n\n94\n00:05:14,200 --> 00:05:17,280\nIf you don't pass the first time,\nyou can retake it.\n\n95\n00:05:17,280 --> 00:05:19,550\nIt's not just a one shot attempt thing.\n\n96\n00:05:19,550 --> 00:05:20,780\nYou can always retake it again.\n\n97\n00:05:20,780 --> 00:05:23,970\nThey just ask that you wait five\ncalendar days before taking it again.\n\n98\n00:05:23,970 --> 00:05:26,460\nSo they create a bit of\na delay between retakes.\n\n99\n00:05:26,460 --> 00:05:31,650\nAll right, the exam objectives\ncover a wide range of topics.\n\n100\n00:05:31,650 --> 00:05:35,310\nAnd if you've compared these to\nother certification exams from Cisco\n\n101\n00:05:35,310 --> 00:05:36,990\nthere's a lot more areas here.\n\n102\n00:05:36,990 --> 00:05:40,530\nSo, it really is a smorgasboard of topics\n\n103\n00:05:40,530 --> 00:05:42,590\nkind of spread across all\nthe different equipment.\n\n104\n00:05:42,590 --> 00:05:43,670\nLet's look at those objectives here.\n\n105\n00:05:45,210 --> 00:05:48,960\nAll right, so\nwe start off with common security threats.\n\n106\n00:05:48,960 --> 00:05:50,670\nThis isn't really unique to Cisco,\n\n107\n00:05:50,670 --> 00:05:53,910\nthese are just the primary security\nthreats that are out there.\n\n108\n00:05:53,910 --> 00:05:55,540\nIf you're gonna protect your network,\n\n109\n00:05:55,540 --> 00:05:57,570\nyou'd need to know what\nyou're protecting it from.\n\n110\n00:05:57,570 --> 00:06:00,110\nAnd so we'll talk about some of the\ndifferent things that are out there that\n\n111\n00:06:00,110 --> 00:06:02,370\npeople can use to try and\ngain access to your systems.\n\n112\n00:06:03,390 --> 00:06:06,070\nThen we'll start looking\nat how to fix that.\n\n113\n00:06:06,070 --> 00:06:09,150\nSo the first section is really\nkind of like a scare section,\n\n114\n00:06:09,150 --> 00:06:11,000\nget you all worried\nabout what's out there.\n\n115\n00:06:11,000 --> 00:06:14,370\nAnd then all of the other modules\ntalk about how we can prevent that\n\n116\n00:06:14,370 --> 00:06:15,550\nfrom happening.\n\n117\n00:06:15,550 --> 00:06:17,990\nIn 2.0 we look at Cisco routers.\n\n118\n00:06:17,990 --> 00:06:21,520\nYour Cisco iOS routers have a lot of\nsecurity functionality in there that you\n\n119\n00:06:21,520 --> 00:06:23,790\ncan configure and\nenable to protect your network.\n\n120\n00:06:23,790 --> 00:06:25,800\nSo we'll see what they can do.\n\n121\n00:06:25,800 --> 00:06:26,630\nTriple A.\n\n122\n00:06:26,630 --> 00:06:30,210\nThat's authentication,\nauthorization, and accounting.\n\n123\n00:06:30,210 --> 00:06:33,980\nThat's how we can provide user\nauthentication on our routers, switches,\n\n124\n00:06:33,980 --> 00:06:36,590\nfirewalls, VPN for remote access.\n\n125\n00:06:36,590 --> 00:06:39,360\nSo that everybody can have their\nown individual user accounts,\n\n126\n00:06:39,360 --> 00:06:40,750\ninstead of sharing them.\n\n127\n00:06:40,750 --> 00:06:42,180\nWe authenticate them.\n\n128\n00:06:42,180 --> 00:06:44,670\nWe authorize them,\nfigure out what they're allowed to do.\n\n129\n00:06:44,670 --> 00:06:47,420\nAnd then we do accounting we\nrecord what they've done.\n\n130\n00:06:47,420 --> 00:06:48,250\nWe keep a record.\n\n131\n00:06:49,420 --> 00:06:52,500\nThen we move into access control lists or\nACLs.\n\n132\n00:06:52,500 --> 00:06:55,060\nNow if you've already got\nyour CCNA routing and\n\n133\n00:06:55,060 --> 00:06:58,240\nswitching certification you probably\nlearned ACL's for routers already, so\n\n134\n00:06:58,240 --> 00:07:03,040\nthere's some overlap there, but\nwe also focus on ACLs on Cisco ASAs.\n\n135\n00:07:03,040 --> 00:07:07,000\nAnd the access control lists are a little\nbit different on the ASAs because they're\n\n136\n00:07:07,000 --> 00:07:10,260\nstateful firewalls, they behave\na little different than routers, so\n\n137\n00:07:10,260 --> 00:07:12,650\nit's a good chance to see how they work,\nand how to configure them.\n\n138\n00:07:13,790 --> 00:07:17,580\nThen we go into secure network\nmanagement and reporting.\n\n139\n00:07:17,580 --> 00:07:20,540\nWe need to be able to\nevaluate our systems and\n\n140\n00:07:20,540 --> 00:07:23,560\ndetermine when a compromise has\nhappened or determine when there's\n\n141\n00:07:23,560 --> 00:07:26,600\nunauthorized activity on the network so\nyou can take action to prevent it.\n\n142\n00:07:28,140 --> 00:07:31,730\nNow up here we looked at common security\nthreats to the network as a whole, but\n\n143\n00:07:31,730 --> 00:07:36,090\nin objective six we look at take a look\nat layer two attacks specifically.\n\n144\n00:07:36,090 --> 00:07:39,000\nA lot of people neglect\nto secure their switches.\n\n145\n00:07:39,000 --> 00:07:42,600\nAnd switches can be very vulnerable\nto certain types of attacks, and\n\n146\n00:07:42,600 --> 00:07:44,370\nare pretty easy to pull off.\n\n147\n00:07:44,370 --> 00:07:47,820\nCisco switches have built in\nmechanisms that protect from those, but\n\n148\n00:07:47,820 --> 00:07:50,380\nthe majority of them are turned\noff out of the box, so\n\n149\n00:07:50,380 --> 00:07:52,460\nwe've got to get those configured and\nenabled.\n\n150\n00:07:52,460 --> 00:07:55,860\nBut we need to understand how they\nwork before we turn them on, and\n\n151\n00:07:55,860 --> 00:07:57,420\nthat's what that section is all about.\n\n152\n00:07:58,490 --> 00:08:01,110\nModule seven is all about\nCisco Firewall Technologies.\n\n153\n00:08:01,110 --> 00:08:04,290\nThe Cisco adaptive security appliances or\nASAs.\n\n154\n00:08:04,290 --> 00:08:07,920\nIf you've never worked with an ASA,\nthis will be your introduction.\n\n155\n00:08:07,920 --> 00:08:10,740\nYou'll get a chance to see what an ASA is,\nthe different models,\n\n156\n00:08:10,740 --> 00:08:13,860\nhow they work,\nthe user interface for the ASAs and\n\n157\n00:08:13,860 --> 00:08:16,990\nthat introduction to\ndeploying them on a network.\n\n158\n00:08:16,990 --> 00:08:20,240\nNow it is a fairly simple\nASA configuration here.\n\n159\n00:08:20,240 --> 00:08:23,900\nFor those of you that go on to do\nthe CCNP security, the higher level,\n\n160\n00:08:23,900 --> 00:08:28,210\nthere is a dedicated certification\nexam just to the ASA's,\n\n161\n00:08:28,210 --> 00:08:29,870\nvery focused and goes very in depth.\n\n162\n00:08:31,020 --> 00:08:34,900\nThe same thing goes for CISCO IPS or\nIntrusion Prevention Systems.\n\n163\n00:08:34,900 --> 00:08:38,530\nWith Cisco IPS we learn about some of the\ndifferent ways that they're available as\n\n164\n00:08:38,530 --> 00:08:43,620\ndedicated appliances like the 4200 Series\nand we look at the embedded appliances,\n\n165\n00:08:43,620 --> 00:08:47,200\nthe ones that go inside of the big\nCisco switches or inside of the ASAs.\n\n166\n00:08:47,200 --> 00:08:49,150\nWe get a chance to see how they work, but\n\n167\n00:08:49,150 --> 00:08:53,020\njust like the ASAs up here,\nit is a fairly cursory overview.\n\n168\n00:08:53,020 --> 00:08:54,940\nWe get a chance to see\nhow the IPSs work and\n\n169\n00:08:54,940 --> 00:08:59,370\nwhat they do, But for those of you\nthat go onto the CCNP security level,\n\n170\n00:08:59,370 --> 00:09:02,050\nthere's a dedicated exam just for\nthe IPS's.\n\n171\n00:09:02,050 --> 00:09:04,230\nIt goes very in depth and very thorough.\n\n172\n00:09:05,750 --> 00:09:10,040\nAnd then lastly in module nine\nwe tackle VPN technologies.\n\n173\n00:09:10,040 --> 00:09:14,530\nIn that final objective we're looking\nat the different types of virtual\n\n174\n00:09:14,530 --> 00:09:18,380\nprivate networks that we can build,\nthe security ramifications for each,\n\n175\n00:09:18,380 --> 00:09:20,260\nwhich ones are better in which scenarios.\n\n176\n00:09:20,260 --> 00:09:24,100\nAnd how to configure them,\neither between Cisco IOS routers or\n\n177\n00:09:24,100 --> 00:09:28,810\nbetween Cisco ASAs, and how we choose\nwhich of those is even appropriate.\n\n178\n00:09:28,810 --> 00:09:30,760\nSo we get a good primer on that.\n\n179\n00:09:30,760 --> 00:09:34,465\nI know we talk about VPNs in some of\nthe other certifications, but in the Cisco\n\n180\n00:09:34,465 --> 00:09:38,341\nkind of certification path, this is really\nthe first time that we get in there and\n\n181\n00:09:38,341 --> 00:09:41,970\nconfigure them and\nactually work with the VPN tunnels.\n\n182\n00:09:41,970 --> 00:09:45,070\nNow, all of this is great\nknowledge to have for\n\n183\n00:09:45,070 --> 00:09:47,280\nanybody who works with Cisco equipment.\n\n184\n00:09:47,280 --> 00:09:50,050\nRegardless of whether you're\na security tech or not.\n\n185\n00:09:50,050 --> 00:09:53,190\nI find this as a really\nrewarding certification.\n\n186\n00:09:53,190 --> 00:09:58,110\nAnd the exam Is actually not that bad,\ncompared to some of the other Cisco exams.\n\n187\n00:09:58,110 --> 00:10:00,610\nI don't wanna say it's easy,\ncuz none of them are easy.\n\n188\n00:10:00,610 --> 00:10:03,270\nBut this one's a little bit\nless challenging because\n\n189\n00:10:03,270 --> 00:10:06,770\nthe topics have a bit of\noverlap with the CCNA,\n\n190\n00:10:06,770 --> 00:10:09,010\nif you've already done the routing and\nswitching side.\n\n191\n00:10:09,010 --> 00:10:10,980\nAnd some of it's common sense.\n\n192\n00:10:10,980 --> 00:10:12,490\nSo you just need to know the technologies,\n\n193\n00:10:12,490 --> 00:10:14,380\nand you're able to deploy\nthem pretty straightforward.\n\n194\n00:10:14,380 --> 00:10:18,300\nSo it's a good examination, and\none that a lot of people do enjoy.\n\n195\n00:10:19,542 --> 00:10:23,680\nAll right, so, that's basically\nwhat the CCNA security is,\n\n196\n00:10:23,680 --> 00:10:25,750\nand that's pretty much that.\n\n197\n00:10:25,750 --> 00:10:29,880\nSo, if that sounds like something you\nwant to learn, those are the topics that\n\n198\n00:10:29,880 --> 00:10:31,890\nyou're interested in,\nthen you're in the right place.\n\n199\n00:10:31,890 --> 00:10:34,500\nStay tuned,\nwe're going to be jumping into that next.\n\n200\n00:10:34,500 --> 00:10:36,740\nIf that doesn't sound right for\nyou, if you were looking for\n\n201\n00:10:36,740 --> 00:10:39,770\nsomething specifically for ASAs or IPSs or\n\n202\n00:10:39,770 --> 00:10:43,420\nwhatever then you may need to check\nout some of the other certifications.\n\n203\n00:10:43,420 --> 00:10:45,360\nCheck the ITProTV library, right?\n\n204\n00:10:45,360 --> 00:10:48,090\nAll the certifications we cover\nare part of your subscription.\n\n205\n00:10:48,090 --> 00:10:49,440\nWe don't charge per cert.\n\n206\n00:10:49,440 --> 00:10:52,530\nSo you can jump over and\ncheck those out if we have them.\n\n207\n00:10:52,530 --> 00:10:54,570\nIf we don't,\nyou might be needing to look for\n\n208\n00:10:54,570 --> 00:10:57,720\nsome of the more official training\nthat's out there from Cisco.\n\n209\n00:10:57,720 --> 00:10:59,210\nTake advantage of whatever's\navailable to you.\n\n210\n00:10:59,210 --> 00:11:02,207\nThere's a ton of opportunities out there,\nbut for\n\n211\n00:11:02,207 --> 00:11:06,332\nthose of you looking to do CCNA security,\nwell, let's get started.\n\n212\n00:11:06,332 --> 00:11:12,474\n[MUSIC]\n\n",
+          "url": "overview-ccna-security",
+          "vimeoId": "112933597"
+        }
+      ],
+      "title": "Overview of CCNA Security (640-554)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "The area of security, especially in networking is a huge area and is always in demand. Viewers will hear a breakdown of the Cisco IINS exam objectives and cover common security threats for networks.",
+          "length": "5520",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/001-Common-Security-Threats-sm.jpg",
+          "title": "Common Security Threats",
+          "transcript": "",
+          "url": "common-security-threats1",
+          "vimeoId": "84674810"
+        }
+      ],
+      "title": "Common Security Threats"
+    },
+    {
+      "episodes": [
+        {
+          "description": "One of the primary goals of the IINS exam is to apply security on Cisco routers, which there are a ton of security options that require a ton of command, but can also be configured through the graphical user interface or the CCP. Viewers will see demonstrations of configuring basic router security using the Cisco Configuration Professional (CCP) and basic Cisco command line features for implementing router security.",
+          "length": "4820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/002-Initial-Router-Security-sm.jpg",
+          "title": "Initial Router Security",
+          "transcript": "",
+          "url": "initial-router-security",
+          "vimeoId": "84674559"
+        },
+        {
+          "description": "When it comes to securing a router itself, one has to do more than just secure the interfaces, but secure the traffic going to the router, going through the router and leaving the router. Viewers will hear about some advanced router security topics like the different types of traffic going to the router and securing data, management and control planes as well as security concerns when implementing IPv6.",
+          "length": "4133",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/003-Advanced-Router-Security-sm.jpg",
+          "title": "Advanced Router Security",
+          "transcript": "",
+          "url": "advanced-router-security1",
+          "vimeoId": "85761707"
+        }
+      ],
+      "title": "Security and Cisco Routers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Setting up Authentication Authorization and Accounting (AAA) is good for central management and managing credentials in a larger enterprise environment. Viewers will see demonstrations of implementing authentication authorization and accounting (AAA) on a Cisco router using the command-line interface and the Cisco Configuration Professional, as well as configuring a Cisco ASA to use RADIUS.",
+          "length": "3791",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/004-Implementing-AAA-sm.jpg",
+          "title": "Implementing AAA",
+          "transcript": "",
+          "url": "implementing-aaa",
+          "vimeoId": "85761708"
+        }
+      ],
+      "title": "AAA on Cisco Devices"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Access control lists are the cornerstone of security in Cisco devices and is usually one of the first things one learns about in terms of security and controlling traffic going in and out of routers and switches. Viewers will see demonstrations of writing standard and extended access control lists as well as several optimization techniques.",
+          "length": "7241",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/005-IOS-Access-Control-Lists-sm.jpg",
+          "title": "IOS Access Control Lists",
+          "transcript": "",
+          "url": "ios-access-control-lists",
+          "vimeoId": "85925382"
+        },
+        {
+          "description": "ACLs are one of the more challenging parts of the IINS exam, but the more one practices working with them, the more the commands start to become second nature. Viewers will hear about further functionality of access control lists including the different things one needs to troubleshoot with ACLs and hear discussions on named ACLs, troubleshooting ACLs and other uses of ACLs to secure a router.",
+          "length": "4502",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/006-IOS-Access-Control-Lists-Pt-2-sm.jpg",
+          "title": "IOS Access Control Lists Part 2",
+          "transcript": "",
+          "url": "ios-access-control-lists-2",
+          "vimeoId": "85925381"
+        }
+      ],
+      "title": "IOS ACLs"
+    },
+    {
+      "episodes": [
+        {
+          "description": "There are many ways one can manage and secure their system and it is important one protects access to their routers, makes sure all management traffic is protected and the reports that come out as well are protected. Viewers will hear discussions on techniques and protocols used for managing Cisco routers, differences between the secure and non-secure protocols and draw attention to best practices for network management.",
+          "length": "5559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/007-Network-Management-and-Reporting-sm.jpg",
+          "title": "Network Management and Reporting",
+          "transcript": "",
+          "url": "network-management-reporting",
+          "vimeoId": "86350826"
+        }
+      ],
+      "title": "Secure Network Management and Reporting"
+    },
+    {
+      "episodes": [
+        {
+          "description": "A handful of high end Cisco switches include different Layer 2 security features, but are by default turned off. Viewers will hear about several Layer 2 exploits and then hear discussions the IOS features used to protect against them.",
+          "length": "6479",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/008-Implementing-Layer-Two-Security-sm.jpg",
+          "title": "Implementing Layer Two Security",
+          "transcript": "",
+          "url": "implementing-layer-security",
+          "vimeoId": "86417319"
+        }
+      ],
+      "title": "Common Layer 2 Attacks"
+    },
+    {
+      "episodes": [
+        {
+          "description": "As one striving to achieve the CCNA Security certification, it is important one at least has a basic understanding of how to configure firewalls and Cisco ASA as well as knows the operational strengths and weaknesses of the different firewall technologies. Viewers will hear about different Cisco firewall technologies including different types of firewalls and see the implementation of the Cisco IOS firewall as well as the basic configuration of Cisco ASA.",
+          "length": "6552",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/009-Firewall-Technologies-sm.jpg",
+          "title": "Firewall Technologies",
+          "transcript": "",
+          "url": "firewall-technologies",
+          "vimeoId": "86988768"
+        }
+      ],
+      "title": "Cisco Firewall Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "An intrusion prevention system is a device that monitors traffic, looks at the traffic patterns and analyzes it to determine whether or not an attack is happening. Viewers will hear discussions of the use of Cisco Intrusion Prevention Systems (IPS) as a security implementation in the network, the most common implementations as well as configuring the Cisco IOS IPS using the CCP.",
+          "length": "5445",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/010-Intrusion-Prevention-Systems-sm.jpg",
+          "title": "Intrusion Prevention Systems",
+          "transcript": "",
+          "url": "intrusion-prevention-systems",
+          "vimeoId": "87500180"
+        }
+      ],
+      "title": "Cisco IPS"
+    },
+    {
+      "episodes": [
+        {
+          "description": "A Virtual Private Network (VPN) is a tool that helps secure traffic passing across untrusted networks. Viewers will hear about encryption methodologies and the basic concepts of remote access and site-to-site virtual private networks (VPN) as well as see implementations of an IPSec VPN tunnel on Cisco routers and the configuring of an SSL VPN on a Cisco ASA.",
+          "length": "6272",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/iins/011-Virtual-Private-Networks-sm.jpg",
+          "title": "Virtual Private Networks",
+          "transcript": "",
+          "url": "virtual-private-networks",
+          "vimeoId": "87568648"
+        }
+      ],
+      "title": "VPN Technologies"
+    }
+  ],
+  "url": "ccna-security",
+  "vLab": false
+}

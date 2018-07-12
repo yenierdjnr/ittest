@@ -1,0 +1,172 @@
+{
+  "description": "Cisco ASA Express Security refers to the firewall product line that comes from Cisco. This course prepares the viewers for the Cisco ASA Express Security exam (500-260), which covers basic firewall configuration as well as the new features found in Cisco FirePOWER (formerly FireSIGHT) and is commonly required for Cisco Channel Partners that are selling and promoting Cisco Adaptive Security Appliances (ASA). One should attain the knowledge to at least be able to take an ASA out of the box, configure it to a network, get it filtering traffic and successfully get FirePOWER enabled and running. The knowledge one can attain in the CCENT and CCNA can serve as a great foundation base when learning about Cisco ASA.",
+  "descriptionMD": "",
+  "length": "21749",
+  "name": "Cisco ASA Express Security",
+  "practiceExam": false,
+  "subtitle": "Next Generation Firewall",
+  "tagUrl": "cisco",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "This course prepares the viewers for the Cisco ASA Express Security exam (500-260). The exam covers basic firewall configuration as well as the new features found in Cisco FirePOWER (formerly FireSIGHT). This exam is commonly required for Cisco Channel Partners that are selling and promoting Cisco Adaptive Security Appliances (ASA).",
+          "length": "515",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-0-0-overview-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-0-0-overview-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-0-0-overview-012516-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:09.038\n[MUSIC]\n\n2\n00:00:09.038 --> 00:00:09.844\nIn this video,\n\n3\n00:00:09.844 --> 00:00:14.130\nwe're gonna take a look at the Cisco ASA\nExpress Security course here on ITProTV.\n\n4\n00:00:14.130 --> 00:00:17.120\nNow if you're not familiar with\nASA Express Security, well,\n\n5\n00:00:17.120 --> 00:00:20.490\nit's really referring to the firewall\nproduct line that comes from Cisco.\n\n6\n00:00:20.490 --> 00:00:23.570\nAnd they don't like to call them firewalls\nanymore, they call them adaptive security\n\n7\n00:00:23.570 --> 00:00:27.096\nappliances because they can do so\nmany different things.\n\n8\n00:00:27.096 --> 00:00:30.140\nAnd the ASA Express Security course is\na great one because it gives you a high\n\n9\n00:00:30.140 --> 00:00:33.810\nlevel view of all the crazy features\nthat are available inside of ASAs and\n\n10\n00:00:33.810 --> 00:00:35.320\nsome of the different things\nthat we can do with it.\n\n11\n00:00:35.320 --> 00:00:36.730\nIt's a really neat course.\n\n12\n00:00:36.730 --> 00:00:39.680\nI know I'm excited about it, not just\nbecause it's a good course, but because\n\n13\n00:00:39.680 --> 00:00:42.520\nI've got a very special friend here in\nthe studio to help us go through and\n\n14\n00:00:42.520 --> 00:00:43.450\nlearn about all this.\n\n15\n00:00:43.450 --> 00:00:48.040\nWe've got Cisco book author and all around\nknowledgable Cisco guy, Todd Lindley,\n\n16\n00:00:48.040 --> 00:00:49.090\nhere in the studios with us.\n\n17\n00:00:49.090 --> 00:00:50.120\nTodd, thanks for being here.\n\n18\n00:00:50.120 --> 00:00:51.560\n>> It's great to be here.\n\n19\n00:00:51.560 --> 00:00:55.130\nSo, what made me wanna come back to\nthe studio, cuz we had just done FirePOWER\n\n20\n00:00:55.130 --> 00:00:57.290\nbased on when my book came out,\nright, the FirePOWER.\n\n21\n00:00:57.290 --> 00:00:58.380\nSo we're gonna cover that.\n\n22\n00:00:58.380 --> 00:01:02.320\nBut we already have a course on that and\na full, detailed course.\n\n23\n00:01:02.320 --> 00:01:04.770\nBut I got a lot of calls from\nCisco partners and reps.\n\n24\n00:01:04.770 --> 00:01:10.160\nAnd they were saying, hey, we've got\nto get certified on a certain test,\n\n25\n00:01:10.160 --> 00:01:14.420\nthe Cisco ASA Express Security 500-260,\nto be able to sell with the FirePOWER.\n\n26\n00:01:14.420 --> 00:01:17.470\nSo not a lot of people were\nable to teach FirePOWER today.\n\n27\n00:01:17.470 --> 00:01:21.660\nSo getting the pods and the curriculum and\nall of that, so I've got that capability.\n\n28\n00:01:21.660 --> 00:01:26.380\nSo I've been doing a lot with that and I\nthought I need to add this as a supplement\n\n29\n00:01:26.380 --> 00:01:31.630\nto the course ware and to the book and\nto our existing course.\n\n30\n00:01:31.630 --> 00:01:34.970\nLet's, because on that course we did\nthere, Don, it was a very great course.\n\n31\n00:01:34.970 --> 00:01:40.020\nExtreme detail of FirePOWER, best video\ncourse in the world, I think, right?\n\n32\n00:01:40.020 --> 00:01:41.502\n>> It was very technical too.\n\n33\n00:01:41.502 --> 00:01:43.330\nIt's like if you hadn't worked with ASAs,\nand\n\n34\n00:01:43.330 --> 00:01:47.310\nyou went right into that FirePOWER course,\nyou'd get over your head pretty quickly,\n\n35\n00:01:47.310 --> 00:01:52.460\nso it's pretty obvious that we needed\nsome kind of middle ground in between,\n\n36\n00:01:52.460 --> 00:01:54.840\nwhat would consider like a-\n>> Stepping stone approach.\n\n37\n00:01:54.840 --> 00:01:56.530\nSo we can take a stepping\nstone approach and\n\n38\n00:01:56.530 --> 00:01:59.500\nconfigure the ASAs,\nstart at the beginning.\n\n39\n00:01:59.500 --> 00:02:02.120\nAnd we're gonna act like you've\nnever seen an ASA before, right,\n\n40\n00:02:02.120 --> 00:02:04.940\nwe're gonna talk about naming\nan interface cuz we gotta name it.\n\n41\n00:02:04.940 --> 00:02:08.420\nWe're gonna create objects, the access\nlist, but one of the things you and\n\n42\n00:02:08.420 --> 00:02:10.370\nI were having a conversation about.\n\n43\n00:02:10.370 --> 00:02:14.600\nYeah, we're starting at the beginning with\nthe ASA, but we have some pre-requisite\n\n44\n00:02:14.600 --> 00:02:18.890\nknowledge base that we think you should\nhave, and I'll let you go into that.\n\n45\n00:02:18.890 --> 00:02:20.350\n>> Sure, yeah.\n\n46\n00:02:20.350 --> 00:02:24.100\nIf you've worked with firewalls a lot,\nthen you may not even need this.\n\n47\n00:02:24.100 --> 00:02:25.640\nYou may be able to jump\nright into FirePOWER, but\n\n48\n00:02:25.640 --> 00:02:28.220\nif you've never worked with them, you've\ngotta get into that initial configuration.\n\n49\n00:02:28.220 --> 00:02:29.393\nAnd that's where we kick things off,\nright?\n\n50\n00:02:29.393 --> 00:02:31.700\nWe're just getting things\nset up like that, but\n\n51\n00:02:31.700 --> 00:02:34.851\nwe're not gonna spend a lot of\ntime on fundamentals and theories,\n\n52\n00:02:34.851 --> 00:02:37.570\nthings like IP subnetting or\nbasic routing principles.\n\n53\n00:02:37.570 --> 00:02:39.880\nAnd those are things that they would\nkind of expect you to already have.\n\n54\n00:02:39.880 --> 00:02:42.340\nSo a lot of the people that are gonna\nwatch this course are people that have\n\n55\n00:02:42.340 --> 00:02:45.300\nalready been through like a CCENT or\n\n56\n00:02:45.300 --> 00:02:48.310\na CCNA that at least have that\nbasic knowledge in place.\n\n57\n00:02:48.310 --> 00:02:49.930\nTo then be able to take it and\n\n58\n00:02:49.930 --> 00:02:52.990\napply it to the firewalls because a lot\nof these concepts aren't new, right?\n\n59\n00:02:52.990 --> 00:02:55.080\nAccess control list,\nthat's not a new concept,\n\n60\n00:02:55.080 --> 00:02:56.550\nyou've probably seen it in routers.\n\n61\n00:02:56.550 --> 00:02:57.680\nNow we're gonna see it in firewalls.\n\n62\n00:02:57.680 --> 00:03:00.210\nAnd it's really just\na different set of commands.\n\n63\n00:03:00.210 --> 00:03:01.890\n>> Right, so\nwe're gonna see in the new code and\n\n64\n00:03:01.890 --> 00:03:04.850\nhow we do access control lists,\nwe're not gonna go into it.\n\n65\n00:03:04.850 --> 00:03:08.000\nYou're gonna understand that hey,\nat the end of this access control list,\n\n66\n00:03:08.000 --> 00:03:11.700\nthere is a permit IP, or\ndeny IP any any, right?\n\n67\n00:03:11.700 --> 00:03:14.410\nSo, we're not gonna mention that,\nwe're gonna assume things like that.\n\n68\n00:03:14.410 --> 00:03:16.420\nWe're not gonna go into\nany routing protocols.\n\n69\n00:03:16.420 --> 00:03:21.800\nI'll do some static routing on the ASAs\njust for my little network here, but\n\n70\n00:03:21.800 --> 00:03:28.710\nalso NAT, I think, and VPNs,\nright, something outside the CCNA.\n\n71\n00:03:28.710 --> 00:03:34.040\nSo we're still gonna assume you have\na CCNA level access or knowledge of NAT.\n\n72\n00:03:34.040 --> 00:03:37.714\nAnd we're gonna talk about how it's done\non the new code, it's called Object now or\n\n73\n00:03:37.714 --> 00:03:39.800\nObNAT, very cool, very cool stuff.\n\n74\n00:03:39.800 --> 00:03:42.300\n>> All right, well, we've talked about\nthe knowledge we expect them to have.\n\n75\n00:03:42.300 --> 00:03:44.483\nLet's talk a little about the knowledge\nthat we're gonna give them, right?\n\n76\n00:03:44.483 --> 00:03:45.360\n>> Yeah.\n>> So,\n\n77\n00:03:45.360 --> 00:03:47.800\nlet's take a look at that outline and\nsee some of the things we're gonna cover.\n\n78\n00:03:47.800 --> 00:03:48.435\n>> All right.\n\n79\n00:03:48.435 --> 00:03:52.765\nSo, again, so\nwe got the Express Security 500-260.\n\n80\n00:03:52.765 --> 00:03:55.285\nAnd we're gonna kind of focus\non those objectives, and\n\n81\n00:03:55.285 --> 00:03:58.565\nwe're going to get into here's an ASA,\nlet's start at the beginning.\n\n82\n00:03:58.565 --> 00:04:01.655\nCuz we're talking about security levels\non the interface, stuff like that.\n\n83\n00:04:01.655 --> 00:04:05.805\nAnd so it's the 500-260 exam,\nis the objectives that we're covering.\n\n84\n00:04:05.805 --> 00:04:11.370\nAnd we're gonna also talk about FirePOWER,\nbut we're not gonna go in as much detail\n\n85\n00:04:11.370 --> 00:04:15.650\nas we did in the actual FirePOWER class,\ncuz we don't need to for these objectives.\n\n86\n00:04:15.650 --> 00:04:19.330\nHowever, by the end of this course,\nyou'll take an ASA out of the box,\n\n87\n00:04:19.330 --> 00:04:23.080\nconfigure it for your network,\ninstall FirePOWER, put policies on, and\n\n88\n00:04:23.080 --> 00:04:24.590\nput it into production network.\n\n89\n00:04:24.590 --> 00:04:28.680\nThat's our goal by the end of this course.\n\n90\n00:04:28.680 --> 00:04:31.350\nSo we have an introduction ASA,\nwhat they are, talk about the products and\n\n91\n00:04:31.350 --> 00:04:34.180\nthe licensing and\nhigh availability, and so on.\n\n92\n00:04:34.180 --> 00:04:38.340\nInitial configuration is when we get\ninto the IP interfaces, the naming\n\n93\n00:04:39.960 --> 00:04:45.090\nand security levels, and\nthen we talk about ACLs,\n\n94\n00:04:45.090 --> 00:04:48.470\nand how they're a little bit simpler,\nI think, than an iOS, actually.\n\n95\n00:04:48.470 --> 00:04:54.360\nAnd then the nuggets is the same as NAT,\nbut we talk about how we create objects.\n\n96\n00:04:54.360 --> 00:04:58.130\nWe'll demonstrate creating objects and\nhow those are used within a NAT statement.\n\n97\n00:04:58.130 --> 00:04:59.500\nIt's also refered to auto-NAT.\n\n98\n00:04:59.500 --> 00:05:02.670\nAll right now, one of the things\nis as we go through this,\n\n99\n00:05:02.670 --> 00:05:04.910\nwe're gonna go through quite\na few episodes before.\n\n100\n00:05:04.910 --> 00:05:06.222\nYou know on the Command Line and\n\n101\n00:05:06.222 --> 00:05:10.160\nthen we're gonna get into something called\nASDM, which is the GUI that we use today.\n\n102\n00:05:10.160 --> 00:05:11.720\nThat's certainly changing this year,\n\n103\n00:05:11.720 --> 00:05:15.880\nwe're gonna get a new GUI to configure\nthe ASA and FirePOWER all in one, right?\n\n104\n00:05:15.880 --> 00:05:18.320\nSo we're gonna see that\ncoming out shortly.\n\n105\n00:05:18.320 --> 00:05:21.000\nBut this is going to cover the ASDM.\n\n106\n00:05:21.000 --> 00:05:23.980\nAnd we're gonna see that,\nwe're gonna kinda walk through that.\n\n107\n00:05:23.980 --> 00:05:25.500\nI don't use it very much,\n\n108\n00:05:25.500 --> 00:05:29.270\nso I'm gonna probably be looking around\na little bit as we're going through there.\n\n109\n00:05:29.270 --> 00:05:31.810\nBut the section after that is the VPNs,\nand\n\n110\n00:05:31.810 --> 00:05:36.270\nthat's where I do a lot of ASTM because\nit does all this work for you in there.\n\n111\n00:05:36.270 --> 00:05:38.510\nAnd VPNs can be extremely detailed.\n\n112\n00:05:38.510 --> 00:05:40.816\nSo that's when we use ASDM,\nbut before that,\n\n113\n00:05:40.816 --> 00:05:43.700\npretty much everything\nelse is done from the CLI.\n\n114\n00:05:43.700 --> 00:05:46.600\nAfter that, we're gonna get into\nthe FirePOWER and talk about what,\n\n115\n00:05:46.600 --> 00:05:49.930\nwhen you get an ASA, how do I make\nthe FirePOWER module come up and\n\n116\n00:05:49.930 --> 00:05:52.720\nhow do I create policies and\nwe'll go through the different policies,\n\n117\n00:05:52.720 --> 00:05:56.530\nthe file policy, IPS store policy,\nand the access control policy.\n\n118\n00:05:56.530 --> 00:05:58.850\nAnd that's kind of our\ngoal with this course,\n\n119\n00:05:58.850 --> 00:06:00.644\nto follow along with the exam objectives.\n\n120\n00:06:00.644 --> 00:06:05.180\n>> Yeah, so key thing to remember here\nis that we're gonna spend some good time\n\n121\n00:06:05.180 --> 00:06:08.750\ntalking about FirePOWER, it's a very\npowerful, very advanced feature.\n\n122\n00:06:08.750 --> 00:06:10.450\nAnd if you're just starting\nout with this show,\n\n123\n00:06:10.450 --> 00:06:12.650\nthen you're gonna get a chance\nto see what it can do.\n\n124\n00:06:12.650 --> 00:06:15.885\nBut if you really wanna dig into\nthe nitty gritty details and\n\n125\n00:06:15.885 --> 00:06:19.075\nsee all the things that source fire\ncan do, remember that we've already\n\n126\n00:06:19.075 --> 00:06:22.355\nfilmed a Sourcefire series and\nyou can jump right over and watch that.\n\n127\n00:06:22.355 --> 00:06:24.195\nIf you've never worked\nwith a firewall before,\n\n128\n00:06:24.195 --> 00:06:26.940\nI don't recommend you jumping\nright into that other course.\n\n129\n00:06:26.940 --> 00:06:28.450\nWatch this one first, and\nthen you'll be set up and\n\n130\n00:06:28.450 --> 00:06:29.901\nready to jump into the other one and\nbe a success.\n\n131\n00:06:29.901 --> 00:06:33.494\n>> Right, cuz we're gonna introduce the\nFirePOWER module and we do it there, but\n\n132\n00:06:33.494 --> 00:06:36.710\nI'm still gonna do more of a high\nlevel overview on this one.\n\n133\n00:06:36.710 --> 00:06:38.344\nBut we're gonna stop using\nthe word Sourcefire.\n\n134\n00:06:38.344 --> 00:06:39.800\n[LAUGH], all right, so.\n\n135\n00:06:39.800 --> 00:06:41.080\n>> You gotta say FirePOWER.\n\n136\n00:06:41.080 --> 00:06:42.890\n>> The name, yeah,\nby the time you're watching this,\n\n137\n00:06:42.890 --> 00:06:46.510\nwhenever you're watching this, Cisco's\njust renaming this thing FirePOWER, right,\n\n138\n00:06:46.510 --> 00:06:47.830\nso it's just FirePOWER.\n\n139\n00:06:47.830 --> 00:06:50.250\nAnd so Sourcefire's gone,\nthat was the company they bought.\n\n140\n00:06:50.250 --> 00:06:54.258\nSo we'll talk about that in a bit\nwhen we get to that episode.\n\n141\n00:06:54.258 --> 00:06:56.888\n>> All right, so once we've moved\nthrough FirePOWER, we get, I mean,\n\n142\n00:06:56.888 --> 00:06:58.011\nno, I got it right this time.\n\n143\n00:06:58.011 --> 00:06:59.693\nShoot, I got [CROSSTALK]\n>> You did!\n\n144\n00:06:59.693 --> 00:07:03.420\n>> So once we get through FirePOWER,\nit's been Sourcefire for so long.\n\n145\n00:07:03.420 --> 00:07:06.790\nOnce we get through that,\nwe get a high level view of what it does,\n\n146\n00:07:06.790 --> 00:07:08.880\nwe move through that,\nwe see it, we're successful.\n\n147\n00:07:08.880 --> 00:07:12.690\nWe're ready to basically go back into\nour organization, and at a minimum,\n\n148\n00:07:12.690 --> 00:07:17.050\nbe able to take an ASA out of the box,\nturn it on, get it filtering traffic, and\n\n149\n00:07:17.050 --> 00:07:19.270\nget FirePOWER enabled and up and running.\n\n150\n00:07:19.270 --> 00:07:22.120\n>> Yeah and one of the approaches that I\nwanna take here is obviously, I had so\n\n151\n00:07:22.120 --> 00:07:24.440\nmany calls about this exam that\nI wanted to focus on that.\n\n152\n00:07:24.440 --> 00:07:26.570\nSo I called this guy and say,\nhey, I'm doing all these classes.\n\n153\n00:07:26.570 --> 00:07:31.020\nLet me come down there and film this as\na supplement for those courses, and again,\n\n154\n00:07:31.020 --> 00:07:33.918\nyou're gonna use the other\nFirePOWER training for\n\n155\n00:07:33.918 --> 00:07:36.590\nif you're in production\nas a supplement for that.\n\n156\n00:07:36.590 --> 00:07:39.870\nIn this case here, we remember that\nthe very beginning, if you've already\n\n157\n00:07:39.870 --> 00:07:43.660\nconfigured ASAs for many years, then this\ncourse, the beginning of it isn't for you.\n\n158\n00:07:43.660 --> 00:07:45.400\nYou just go over to the FirePOWER course.\n\n159\n00:07:45.400 --> 00:07:48.300\nThis is geared toward someone I\nhaven't really seen in ASA course.\n\n160\n00:07:48.300 --> 00:07:52.740\nI don't see a lot of ASAs where they start\nat the beginning like we're gonna start.\n\n161\n00:07:52.740 --> 00:07:55.190\nAnd then configure it all\nthe way through to FirePOWER and\n\n162\n00:07:55.190 --> 00:07:56.500\nputting it into production.\n\n163\n00:07:56.500 --> 00:07:59.350\nSo that's what we're gonna do,\nstep by step by step by step.\n\n164\n00:07:59.350 --> 00:08:02.340\n>> All right well,\nif all that sounds interesting to you,\n\n165\n00:08:02.340 --> 00:08:04.520\nI know it sounds interesting to me,\nyou're in the right place.\n\n166\n00:08:04.520 --> 00:08:06.550\nStay tuned, those episodes are coming up.\n\n167\n00:08:06.550 --> 00:08:07.910\nIf it doesn't sound interesting to you,\n\n168\n00:08:07.910 --> 00:08:09.770\nif it sounds like it's a little\nover your head, don't worry.\n\n169\n00:08:09.770 --> 00:08:11.180\nWe've got the CCENT,\n\n170\n00:08:11.180 --> 00:08:14.090\nCCNA training that kinda serves as\nthat foundation available on the site.\n\n171\n00:08:14.090 --> 00:08:15.640\nYou can jump right over and\nstart to watch that,\n\n172\n00:08:15.640 --> 00:08:18.010\nand then jump back over\nhere when you're ready.\n\n173\n00:08:18.010 --> 00:08:22.943\nBut for those of you who are sticking\nwith us, stay tuned because we've got\n\n174\n00:08:22.943 --> 00:08:26.872\nour Cisco ASA Express Security\nshows coming up after this.\n\n175\n00:08:26.872 --> 00:08:34.854\n[SOUND]\n\n",
+          "url": "overview70711",
+          "vimeoId": "153123615"
+        },
+        {
+          "description": "In this episode Todd and Don introduce the viewers to the Cisco Adaptive Security Appliance product line. Afterwards, Todd demonstrates the initial configuration of an ASA to get it up and running.",
+          "length": "1851",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-1-introduction_to_asa-012416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-1-introduction_to_asa-012416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-1-introduction_to_asa-012416-1-sm.jpg",
+          "title": "Introduction to ASA",
+          "transcript": "",
+          "url": "introduction-asa",
+          "vimeoId": "153005353"
+        },
+        {
+          "description": "In this episode, Todd and Don walk through the initial steps to configure an ASA for production deployment. Todd starts by manually performing the basic configuration from the first episode. He then demonstrates the firewall actively blocking traffic.",
+          "length": "1832",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-1-initial_configuration_pt1-012416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-1-initial_configuration_pt1-012416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-1-initial_configuration_pt1-012416-1-sm.jpg",
+          "title": "Initial Configuration",
+          "transcript": "",
+          "url": "initial-configuration3",
+          "vimeoId": "153005351"
+        },
+        {
+          "description": "In this episode, Todd and Don continue with the initial ASA configuration. Todd demonstrates the final steps of an initial configuration and then explains how to configure protocol inspection to allow Ping and Traceroute to function.",
+          "length": "1559",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-2-initial_configuration_pt2-012416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-2-initial_configuration_pt2-012416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-2-initial_configuration_pt2-012416-1-sm.jpg",
+          "title": "Initial Configuration Part 2",
+          "transcript": "",
+          "url": "initial-configuration-2",
+          "vimeoId": "153005352"
+        },
+        {
+          "description": "In this episode, Todd and Don complete the initial configuration of a Cisco ASA firewall. Todd demonstrates how to allow traffic through the firewall using access lists. He then completes the configuration by configuring network address translation.",
+          "length": "1841",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-3-initial_configuration_pt3-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-3-initial_configuration_pt3-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-1-2-3-initial_configuration_pt3-012516-1-sm.jpg",
+          "title": "Initial Configuration Part 3",
+          "transcript": "",
+          "url": "initial-configuration-3",
+          "vimeoId": "153123629"
+        },
+        {
+          "description": "In this episode, Todd and Don demonstrate using the Cisco Adaptive Security Device Manager (ASDM) to perform the initial configuration of an ASA. Todd shows each of the steps from the previous episodes inside of the GUI.",
+          "length": "1442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-2-1-asdm-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-2-1-asdm-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-2-1-asdm-012516-1-sm.jpg",
+          "title": "ASDM",
+          "transcript": "",
+          "url": "asdm",
+          "vimeoId": "153123640"
+        },
+        {
+          "description": "In this episode, Todd and Don explore using virtual private networks (VPN) to secure network traffic. Todd starts with Clientless SSL VPNs and finishes up with Cisco AnyConnect VPNs.",
+          "length": "2344",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-3-1-vpns-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-3-1-vpns-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-3-1-vpns-012516-1-sm.jpg",
+          "title": "VPNs",
+          "transcript": "",
+          "url": "vpns",
+          "vimeoId": "153123648"
+        },
+        {
+          "description": "In this episode, Todd demonstrates how to perform the initial configuration of a SourceFIRE FirePOWER module. He explains how service policies are used to direct traffic to the SourceFIRE model, and introduces the users to the FirePOWER web based user interface.",
+          "length": "1662",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-1-firepower_configuration-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-1-firepower_configuration-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-1-firepower_configuration-012516-1-sm.jpg",
+          "title": "FirePower Configuration",
+          "transcript": "",
+          "url": "firepower-configuration",
+          "vimeoId": "153403870"
+        },
+        {
+          "description": "In this episode, Todd introduces users to the initial policies required for FirePOWER to begin functioning. He demonstrates creating System and Health Policies as well as how to apply them to managed devices.",
+          "length": "1730",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-2-system_and_health_policies-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-2-system_and_health_policies-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-2-system_and_health_policies-012516-1-sm.jpg",
+          "title": "System and Health Policies",
+          "transcript": "",
+          "url": "system-health-policies2",
+          "vimeoId": "153266919"
+        },
+        {
+          "description": "In this episode, Todd demonstrates how to implement and configure file policies. File policies allow the end users to filter what files are denied or allowed to pass through the FirePOWER module.",
+          "length": "1267",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-3-file_policies-012516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-3-file_policies-012516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-3-file_policies-012516-1-sm.jpg",
+          "title": "File Policies",
+          "transcript": "",
+          "url": "file-policies2",
+          "vimeoId": "153403880"
+        },
+        {
+          "description": "In this episode, Todd and Don cover Intrusion Prevention System (IPS) policies in Cisco FirePOWER. Todd explains the default policy and how it is used by FirePOWER. Next, Todd demonstrates how to customize the policy to eliminate false positives on your network.",
+          "length": "1620",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-4-ips_policies-012616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-4-ips_policies-012616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-4-ips_policies-012616-1-sm.jpg",
+          "title": "IPS Policies",
+          "transcript": "",
+          "url": "ips-policies2",
+          "vimeoId": "153425034"
+        },
+        {
+          "description": "In this episode, Todd introduces the viewers to Access Control Policies in Cisco FirePOWER. He demonstrates creating a custom access control policy and then walks the viewers through each of the customization options available.",
+          "length": "1683",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-1-access_control_policies_pt1-012616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-1-access_control_policies_pt1-012616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-1-access_control_policies_pt1-012616-1-sm.jpg",
+          "title": "Access Control Policies",
+          "transcript": "",
+          "url": "access-control-policies3",
+          "vimeoId": "153377708"
+        },
+        {
+          "description": "In this episode, Todd continues demonstrating Access Control Policies in Cisco FirePOWER. He explains how rules are defined in an ACP and then demonstrates creating and configuring a rule set to match a customer's needs.",
+          "length": "1308",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-2-access_control_policies_pt2-012616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-2-access_control_policies_pt2-012616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-5-2-access_control_policies_pt2-012616-1-sm.jpg",
+          "title": "Access Control Policies Part 2",
+          "transcript": "",
+          "url": "access-control-policies-2",
+          "vimeoId": "153377722"
+        },
+        {
+          "description": "In this episode, Todd wraps up the FirePOWER section with a few final configuration settings. He starts by explaining device discovery in the FireSIGHT Management Center. He ends the episode by demonstrating how to schedule maintenance tasks within the FSM.",
+          "length": "1095",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-6-discovery_and_scheduling-012616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-6-discovery_and_scheduling-012616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-saexs500260/cisco-saexs500260-4-6-discovery_and_scheduling-012616-1-sm.jpg",
+          "title": "Discovery and Scheduling",
+          "transcript": "",
+          "url": "discovery-scheduling",
+          "vimeoId": "153280279"
+        }
+      ],
+      "title": "Cisco ASA Express Security"
+    }
+  ],
+  "url": "cisco-asa-express-security",
+  "vLab": false
+}

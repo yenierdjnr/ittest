@@ -9,36 +9,34 @@ import Values from 'Components/Values';
 import styles from './about.module.scss';
 
 
-const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location }/>
-      <main className={ styles.about }>
+const About = ({ location }) =>
+  <Fragment>
+    <Head location={ location }/>
+    <main className={ styles.about }>
 
-        <section className={ styles.Hero }>
-          <Hero />
-        </section>
+      <section className={ styles.Hero }>
+        <Hero />
+      </section>
 
-        <section className={ styles.AboutContent }>
-          <AboutContent />
-        </section>
+      <section className={ styles.AboutContent }>
+        <AboutContent />
+      </section>
 
-        <section className={ styles.AboutStory }>
-          <AboutStory />
-        </section>
+      <section className={ styles.AboutStory }>
+        <AboutStory />
+      </section>
 
-        <section className={ styles.TrustedBy }>
-          <TrustedBy />
-        </section>
+      <section className={ styles.TrustedBy }>
+        <TrustedBy />
+      </section>
 
-        <section className={ styles.Values }>
-          <Values />
-        </section>
+      <section className={ styles.Values }>
+        <Values />
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 
 export default About;

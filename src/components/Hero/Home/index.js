@@ -6,7 +6,7 @@ import Para from 'Elements/Para';
 import styles from './styles.module.scss';
 
 
-const HomeHero = ({ className='' }) => {
+const HomeHero = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>

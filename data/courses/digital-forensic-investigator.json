@@ -1,0 +1,298 @@
+{
+  "description": "Digital Forensic Investigator guides you through the process of performing a forensic investigation and is for someone who is going to be doing corporate or criminal investigations that may include collecting, preserving and analyzing evidence and getting it ready to be presented in court. Viewers will learn the steps involved in performing an investigation, from securing the crime scene, to collecting and processing the evidence, and reporting the findings and hear about some of the certifications one can achieve to prove their knowledge in this area, which is important knowledge for all IT security personnel, giving you the knowledge needed to respond properly in the event of a security incident.",
+  "descriptionMD": "",
+  "length": "107180",
+  "name": "Digital Forensic Investigator",
+  "practiceExam": false,
+  "subtitle": "Information retrieval and protection",
+  "tagUrl": "security-admin",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-0-0-overview-042715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-0-0-overview-042715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-0-0-overview-042715-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "1\n00:00:00,000 --> 00:00:05,072\n[SOUND] Welcome everybody to our\n\n2\n00:00:05,072 --> 00:00:11,906\ndigital forensic investigator series.\n\n3\n00:00:11,906 --> 00:00:13,901\nI'm Mike Rodrick and with me today is Mr.\n\n4\n00:00:13,901 --> 00:00:17,606\nSean Oriyano, and we wanna give you\na heads up on what we're gonna be covering\n\n5\n00:00:17,606 --> 00:00:20,230\nin our digital forensic\ninvestigator series.\n\n6\n00:00:20,230 --> 00:00:23,330\nAnd probably, Sean, the first thing we\nneed to talk about is who the heck is\n\n7\n00:00:23,330 --> 00:00:24,762\na digital forensic investigator?\n\n8\n00:00:24,762 --> 00:00:28,622\nWho's gonna be interested in taking or\nwatching these episodes?\n\n9\n00:00:28,622 --> 00:00:29,493\n>> That's a great question.\n\n10\n00:00:29,493 --> 00:00:32,043\nBecause we wanna really kinda\npin down who the audience is and\n\n11\n00:00:32,043 --> 00:00:34,240\ntalk about what a forensic\ninvestigator is.\n\n12\n00:00:34,240 --> 00:00:38,110\nSo, briefly, a forensic investigator is\ngonna be someone who's doing corporate or\n\n13\n00:00:38,110 --> 00:00:42,360\ncriminal investigations, collecting,\npreserving and analyzing evidence, and\n\n14\n00:00:42,360 --> 00:00:46,650\ngetting it ready to be presented in court,\nif need be.\n\n15\n00:00:46,650 --> 00:00:51,600\nThey may be presenting it or someone\nelse may be presenting it, who will\n\n16\n00:00:51,600 --> 00:00:56,690\nserve as the expert witness, but either\nway, it's gonna kind of address that.\n\n17\n00:00:56,690 --> 00:01:00,210\nYou are gonna be running processes,\nprocedures for one of those two areas.\n\n18\n00:01:00,210 --> 00:01:02,635\n>> So, we're gonna be like\nCSI in the digital world,\n\n19\n00:01:02,635 --> 00:01:03,310\nthat's what you're telling me.\n\n20\n00:01:03,310 --> 00:01:06,755\nWe're gonna be going out there and\ninvestigating these crime scenes, where\n\n21\n00:01:06,755 --> 00:01:10,359\npeople have used computers to make some\nkind of attack against other computers or\n\n22\n00:01:10,359 --> 00:01:12,320\nto forge something or something like that.\n\n23\n00:01:12,320 --> 00:01:16,189\nAnd it's gonna be up to us, the digital\nforensic investigator to capture that\n\n24\n00:01:16,189 --> 00:01:20,055\ninformation, find all that evidence\nthey've done so much to try to hide, and\n\n25\n00:01:20,055 --> 00:01:22,714\nthen bring it into court and\nprosecute those people.\n\n26\n00:01:22,714 --> 00:01:26,172\n>> Yeah, once we get into the real\nmeat of this whole thing,\n\n27\n00:01:26,172 --> 00:01:31,210\nyou'll see how varied the crime is that\nyou could be expected to investigate.\n\n28\n00:01:31,210 --> 00:01:34,820\nIt could be denial of service type stuff,\nit could actually be terrorism,\n\n29\n00:01:34,820 --> 00:01:36,850\nit could be something as mundane, maybe,\n\n30\n00:01:36,850 --> 00:01:40,820\nas violating corporate policy,\nit could be someone creating malware.\n\n31\n00:01:40,820 --> 00:01:42,060\nForensics, for example,\n\n32\n00:01:42,060 --> 00:01:45,890\nplayed a big role in catching the author\nof the Melissa virus years ago.\n\n33\n00:01:45,890 --> 00:01:49,653\nThat was a big part of that, so there's\nsome big cases that have this has played\n\n34\n00:01:49,653 --> 00:01:53,204\na big role in, and there's a whole\nbunch of other ones behind the scenes.\n\n35\n00:01:53,204 --> 00:01:57,120\nBut, this is a really exciting and\ndeveloping field, kind of being able to\n\n36\n00:01:57,120 --> 00:02:01,015\nlift the lid and peek in, and\nsee what's hidden underneath the surface.\n\n37\n00:02:01,015 --> 00:02:01,650\n>> Heck, yeah.\n\n38\n00:02:01,650 --> 00:02:04,000\nThis is the cool part of security.\n\n39\n00:02:04,000 --> 00:02:08,300\nSo, in our course, we're going\nto cover a gamut of information.\n\n40\n00:02:08,300 --> 00:02:12,520\nAll the way from going to the crime scene,\ncollecting the evidence,\n\n41\n00:02:12,520 --> 00:02:15,480\npreserving the evidence,\nprocessing that evidence.\n\n42\n00:02:15,480 --> 00:02:19,090\nAnd then, turn it into some kind of\ndeliverable, that we can take in the end,\n\n43\n00:02:19,090 --> 00:02:21,655\neither us or whoever has to go to court.\n\n44\n00:02:21,655 --> 00:02:25,117\nSo, what kind of information are we\ngonna learn watching these episodes?\n\n45\n00:02:25,117 --> 00:02:28,145\n>> We've got tons for you in this course.\n\n46\n00:02:28,145 --> 00:02:30,535\nWe'll be learning technical information,\n\n47\n00:02:30,535 --> 00:02:33,570\nprobably deeper technical\ninformation than you've had before.\n\n48\n00:02:33,570 --> 00:02:36,800\nWe'll be doing some things that you\nprobably didn't think were possible,\n\n49\n00:02:36,800 --> 00:02:38,320\njust to recover evidence.\n\n50\n00:02:38,320 --> 00:02:39,980\nWe'll figure those ones out.\n\n51\n00:02:39,980 --> 00:02:42,520\nWe'll be doing that in the hardware,\nwe'll be doing that in software.\n\n52\n00:02:42,520 --> 00:02:45,280\nThen, we'll be figuring out,\nonce we learn those procedures,\n\n53\n00:02:45,280 --> 00:02:47,820\nalso be talking about\nhow you can collect it.\n\n54\n00:02:47,820 --> 00:02:51,650\nCuz you just can't go through and scoop\nsomething up and say here, it's evidence.\n\n55\n00:02:51,650 --> 00:02:53,470\nIt has to be collected a certain way.\n\n56\n00:02:53,470 --> 00:02:55,620\nAnd has to be documented a certain way.\n\n57\n00:02:55,620 --> 00:02:58,610\nAnd then,\nwhen we put that on the table and\n\n58\n00:02:58,610 --> 00:03:01,760\nwe sprinkle some other stuff on\ntop of it which has to go there,\n\n59\n00:03:01,760 --> 00:03:05,590\nthat's the legal procedures which may not\nbe the most exciting things, granted.\n\n60\n00:03:05,590 --> 00:03:08,210\nBut it's something that you\ndo have to also address.\n\n61\n00:03:08,210 --> 00:03:11,710\nSomething like federal rules of evidence,\nand local and\n\n62\n00:03:11,710 --> 00:03:13,598\nstate laws wherever possible.\n\n63\n00:03:13,598 --> 00:03:15,180\n>> [LAUGH]\n>> Don't worry we're not going to turn you\n\n64\n00:03:15,180 --> 00:03:15,772\ninto a lawyer.\n\n65\n00:03:15,772 --> 00:03:18,606\nBut there's gonna be a lot of\nneat stuff here to cover and\n\n66\n00:03:18,606 --> 00:03:20,850\nsome stuff that you'll find interesting.\n\n67\n00:03:20,850 --> 00:03:22,011\nWarrants, stuff like that.\n\n68\n00:03:22,011 --> 00:03:23,830\n>> It really is fascinating.\n\n69\n00:03:23,830 --> 00:03:25,290\nAnd it's extremely important.\n\n70\n00:03:25,290 --> 00:03:30,080\nBecause when we talk about cyber crimes,\nor if somebody is doing something illegal\n\n71\n00:03:30,080 --> 00:03:33,860\nusing computers, as you said, we wanna\nbe able to prosecute them in the end.\n\n72\n00:03:33,860 --> 00:03:35,160\nThat's the whole goal.\n\n73\n00:03:35,160 --> 00:03:38,120\nAnd I can't just go in there blindly,\nlike you said, and go, oh,\n\n74\n00:03:38,120 --> 00:03:38,950\nhere's their computer.\n\n75\n00:03:38,950 --> 00:03:40,960\nAnd I'm gonna start opening up Windows and\n\n76\n00:03:40,960 --> 00:03:44,780\nlooking at log files and searching their\nhard drive for files and things like that.\n\n77\n00:03:44,780 --> 00:03:47,125\nAnd at that point,\nI have pretty much ruined everything, and\n\n78\n00:03:47,125 --> 00:03:49,530\nwe're probably never gonna be\nable to prosecute that person.\n\n79\n00:03:49,530 --> 00:03:55,100\n>> Here, let me just kind of build on\nsomething he said here and kinda show you.\n\n80\n00:03:55,100 --> 00:03:59,803\nOne of the things that, it's not to\npick on you or anything about it.\n\n81\n00:03:59,803 --> 00:04:00,870\n>> It's okay, you can pick on me.\n\n82\n00:04:00,870 --> 00:04:01,438\n>> I'm going to pick on him.\n\n83\n00:04:01,438 --> 00:04:04,310\n>> [LAUGH]\n>> And we got two weeks of that.\n\n84\n00:04:04,310 --> 00:04:05,580\n>> It's a good thing I\ngot thick skin [LAUGH].\n\n85\n00:04:05,580 --> 00:04:07,200\n>> So,\nwe're just going to work up from here.\n\n86\n00:04:08,310 --> 00:04:13,730\nBut one of the things that is a common\nthing to think about forensics\n\n87\n00:04:13,730 --> 00:04:17,130\nwhich we're gonna learn differently is\nyou may not take it to actual court,\n\n88\n00:04:17,130 --> 00:04:19,200\nyou may not be prosecuting someone.\n\n89\n00:04:19,200 --> 00:04:24,020\nYou may actually be working\ninside a corporation that may be\n\n90\n00:04:24,020 --> 00:04:28,000\ncollecting evidence because they need to\nsay, hey, this person violated policy,\n\n91\n00:04:28,000 --> 00:04:31,510\nwe've got the paperwork to back it up and\nyou're outta here.\n\n92\n00:04:31,510 --> 00:04:36,290\nAnd maybe, just for that, but\nit doesn't mean because you're\n\n93\n00:04:36,290 --> 00:04:39,520\njust letting someone go out of a company\ndoesn't mean there's a lesser standard.\n\n94\n00:04:39,520 --> 00:04:43,210\nThat person that you let go could say,\nwell, heck with you, I didn't do that,\n\n95\n00:04:43,210 --> 00:04:44,240\nI'm gonna sue you.\n\n96\n00:04:44,240 --> 00:04:45,280\nNow, you're going to court.\n\n97\n00:04:45,280 --> 00:04:48,660\nSo, you still have to collect it,\nand along the same lines but\n\n98\n00:04:48,660 --> 00:04:50,510\nyou may not be prosecuting it.\n\n99\n00:04:50,510 --> 00:04:53,040\n>> Gotcha.\n>> Just to kind of give you a peek of some\n\n100\n00:04:53,040 --> 00:04:56,090\nof the things that might actually\nchange your way of thinking.\n\n101\n00:04:56,090 --> 00:04:58,555\n>> And\nthat's why we've got the expert here.\n\n102\n00:04:58,555 --> 00:04:59,483\n[LAUGH]\n>> Bam!\n\n103\n00:04:59,483 --> 00:05:00,640\n[LAUGH]\n>> So,\n\n104\n00:05:00,640 --> 00:05:02,539\nSean we've got a bunch\nof great information,\n\n105\n00:05:02,539 --> 00:05:04,870\nwe're gonna be going\nover in these episodes.\n\n106\n00:05:04,870 --> 00:05:07,910\nIn the end,\nwe might wanna get certified as well.\n\n107\n00:05:07,910 --> 00:05:11,730\nWe might wanna be able to prove what we\nknow so that we can go out and get a job,\n\n108\n00:05:11,730 --> 00:05:13,350\nif we're not already employed.\n\n109\n00:05:13,350 --> 00:05:15,720\nMaybe, we wanna go get a job or\nmaybe you wanna change fields and\n\n110\n00:05:15,720 --> 00:05:19,705\nget into this really exciting forensic\ninvestigator's type lifestyle.\n\n111\n00:05:19,705 --> 00:05:23,165\nSo, there's a couple certifications\nwe might be able to obtain with\n\n112\n00:05:23,165 --> 00:05:25,825\na little setting and\nwatching these episodes.\n\n113\n00:05:25,825 --> 00:05:28,475\n>> Yes, there are a couple of\ncertifications that really just kind of\n\n114\n00:05:28,475 --> 00:05:29,865\njump out at you,\n\n115\n00:05:29,865 --> 00:05:33,530\nbecause there's a whole kind of a sea\nof forensic certifications really.\n\n116\n00:05:33,530 --> 00:05:35,955\nThere are different specialties and\nall it in there.\n\n117\n00:05:35,955 --> 00:05:39,940\nBut the two that come to mind for\ntaking this particular course\n\n118\n00:05:39,940 --> 00:05:44,510\nare EC-Council Computer Hacking\nForensic Investigator and then,\n\n119\n00:05:44,510 --> 00:05:48,070\nthere's also ISC squared,\nthe people that do the CISSP.\n\n120\n00:05:48,070 --> 00:05:52,464\nThey also have one called CCFP, which\nis some alphabet soup which stands for,\n\n121\n00:05:52,464 --> 00:05:54,137\nputting Mike on the spot now.\n\n122\n00:05:54,137 --> 00:05:56,996\n>> Certified Cyber Forensic Professional.\n\n123\n00:05:56,996 --> 00:05:59,480\nCertified Cyber Forensic Professional.\n\n124\n00:05:59,480 --> 00:06:01,310\nIf I can say that one word.\n\n125\n00:06:01,310 --> 00:06:02,680\nSo, yeah,\na couple of great certifications.\n\n126\n00:06:02,680 --> 00:06:04,520\nThink that,\nyou can watch these episodes and\n\n127\n00:06:04,520 --> 00:06:06,520\nyou could walk out of here\nwith two certifications.\n\n128\n00:06:06,520 --> 00:06:09,060\nMany letters to put behind your name.\n\n129\n00:06:09,060 --> 00:06:11,940\nI've got some information pulled up here\non my screen, if we wanna look at it.\n\n130\n00:06:11,940 --> 00:06:18,425\nThe EC Council, again, puts on the\nComputer Hacking Forensic Investigator.\n\n131\n00:06:18,425 --> 00:06:22,722\n>> [LAUGH]\n>> And that's their exam number, 312-49.\n\n132\n00:06:22,722 --> 00:06:25,393\nThey're currently on\nversion 8 of that exam.\n\n133\n00:06:25,393 --> 00:06:29,900\nAnd you can see here on my screen, it's\ngonna be a test of about 150 questions.\n\n134\n00:06:29,900 --> 00:06:33,310\nIt's primarily multiple choice and\nyou're gonna need to get a 70% or\n\n135\n00:06:33,310 --> 00:06:36,672\ngreater to pass that exam and\nget that certification.\n\n136\n00:06:36,672 --> 00:06:38,970\nThey're gonna give you four\nhours to take that exam.\n\n137\n00:06:38,970 --> 00:06:40,702\nSo, plenty of time to get through there.\n\n138\n00:06:40,702 --> 00:06:44,240\nAnd there's several different vendors\nyou can go through to take that exam.\n\n139\n00:06:44,240 --> 00:06:47,380\nYou've got Prometric Prime,\nwhich is there online.\n\n140\n00:06:47,380 --> 00:06:51,420\nSo, if I don't have an authorized testing\ncenter, I might be able to take it through\n\n141\n00:06:51,420 --> 00:06:54,930\nPrometric Prime, where I've got just,\nwhat do you call it, proctor.\n\n142\n00:06:54,930 --> 00:06:58,370\nSomebody that's gonna proctor the exam,\nand I can take it on any computer.\n\n143\n00:06:58,370 --> 00:07:01,720\nThey also offer it, of course,\nthrough their authorized test centers.\n\n144\n00:07:01,720 --> 00:07:05,630\nWith the Prometric test\ncenters as well as VUE, so\n\n145\n00:07:05,630 --> 00:07:09,650\nif the test center in your area is Pearson\nVUE, you can take it through there.\n\n146\n00:07:09,650 --> 00:07:11,530\nThe cost for the exam is a little steep.\n\n147\n00:07:11,530 --> 00:07:13,996\nIt's gonna be $500 for that exam,\n\n148\n00:07:13,996 --> 00:07:18,080\nplus you're gonna have to\npay a $100 application fee.\n\n149\n00:07:18,080 --> 00:07:20,360\nSo, once you're ready, you've studied,\n\n150\n00:07:20,360 --> 00:07:23,760\nyou've got the information you need,\nyou go to EC Council's website,\n\n151\n00:07:23,760 --> 00:07:26,859\nyou fill out an application,\nyou send them in 100 bucks,\n\n152\n00:07:26,859 --> 00:07:32,060\nthey're gonna send you back a voucher that\nyou can then go use and take that exam.\n\n153\n00:07:32,060 --> 00:07:33,240\nSo, that's the EC council,\n\n154\n00:07:33,240 --> 00:07:36,710\nthat's the computer hacking forensic\ninvestigator certification.\n\n155\n00:07:36,710 --> 00:07:40,700\nAlso, you might be interested\nin taking the ISC squared exam\n\n156\n00:07:40,700 --> 00:07:44,550\nwhich is their brand new one,\nthe Certified Cyber Forensic Professional.\n\n157\n00:07:44,550 --> 00:07:47,390\nVery similar,\nas far as the test breakdown goes.\n\n158\n00:07:47,390 --> 00:07:52,400\nAnother four hours for that exam,\nabout 125 questions on this one.\n\n159\n00:07:52,400 --> 00:07:55,060\nAgain, multiple choice type questions.\n\n160\n00:07:55,060 --> 00:08:00,220\nYou need to get a 700 or a 70% out\nof 1000 points to pass that exam.\n\n161\n00:08:00,220 --> 00:08:01,140\nAnd what else?\n\n162\n00:08:01,140 --> 00:08:04,612\nOh, the cost for that one is $549.\n\n163\n00:08:04,612 --> 00:08:06,438\nSo, you can see, there pretty comparable.\n\n164\n00:08:06,438 --> 00:08:08,900\n>> Imagine, two four hour exams.\n\n165\n00:08:08,900 --> 00:08:10,020\n>> I know, you can spend all day.\n\n166\n00:08:10,020 --> 00:08:11,360\n>> Get the kids a baby sitter.\n\n167\n00:08:11,360 --> 00:08:11,912\nYou're gonna be busy.\n\n168\n00:08:11,912 --> 00:08:15,020\n>> [LAUGH] You can definitely\nspend all day in that booth, so\n\n169\n00:08:15,020 --> 00:08:18,150\nyou might wanna break that up to\nseparate days if you're gonna do it.\n\n170\n00:08:18,150 --> 00:08:20,180\nOr heck, go all for it.\n\n171\n00:08:20,180 --> 00:08:21,590\nGet in there and take them both.\n\n172\n00:08:21,590 --> 00:08:22,230\n>> No, don't do that.\n\n173\n00:08:22,230 --> 00:08:24,350\n>> Don't do that,\nI'm just kidding with you.\n\n174\n00:08:24,350 --> 00:08:27,430\nSo, ladies and gentlemen,\nI hope you guys are as excited as we are.\n\n175\n00:08:27,430 --> 00:08:31,635\nStay tuned, we've got our digital forensic\ninvestigator series coming your way.\n\n176\n00:08:31,635 --> 00:08:37,334\n[SOUND]\n\n",
+          "url": "overview-mcsa-windows-81-70690",
+          "vimeoId": "126366921"
+        },
+        {
+          "description": null,
+          "length": "3932",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-1-0-modern_computer_forensics-042715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-1-0-modern_computer_forensics-042715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-1-0-modern_computer_forensics-042715-1-sm.jpg",
+          "title": "Modern Computer Forensics",
+          "transcript": "",
+          "url": "modern-computer-forensics",
+          "vimeoId": "126366923"
+        },
+        {
+          "description": null,
+          "length": "5349",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-2-0-digital_evidence-042715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-2-0-digital_evidence-042715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-2-0-digital_evidence-042715-1-sm.jpg",
+          "title": "Digital Evidence",
+          "transcript": "",
+          "url": "digital-evidence",
+          "vimeoId": "126366924"
+        },
+        {
+          "description": null,
+          "length": "7196",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-3-0-forensic_investigation_process-042815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-3-0-forensic_investigation_process-042815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-3-0-forensic_investigation_process-042815-1-sm.jpg",
+          "title": "Forensic Investigation Process",
+          "transcript": "",
+          "url": "forensic-investigation-process",
+          "vimeoId": "126366927"
+        },
+        {
+          "description": null,
+          "length": "4339",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-4-0-first_responder_procedures-042815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-4-0-first_responder_procedures-042815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-4-0-first_responder_procedures-042815-1-sm.jpg",
+          "title": "First Responder Procedures",
+          "transcript": "",
+          "url": "responder-procedures",
+          "vimeoId": "126366928"
+        },
+        {
+          "description": null,
+          "length": "6024",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab-042915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab-042915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab-042915-sm.jpg",
+          "title": "Computer Forensics Lab",
+          "transcript": "",
+          "url": "computer-forensics-lab-3",
+          "vimeoId": "126505471"
+        },
+        {
+          "description": null,
+          "length": "5645",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab_pt2-042915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab_pt2-042915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-5-0-computer_forensics_lab_pt2-042915-1-sm.jpg",
+          "title": "Computer Forensics Lab Part 2",
+          "transcript": "",
+          "url": "computer-forensics-lab-2",
+          "vimeoId": "126505472"
+        },
+        {
+          "description": null,
+          "length": "4482",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-6-0-search_and_seizure-043015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-6-0-search_and_seizure-043015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-6-0-search_and_seizure-043015-1-sm.jpg",
+          "title": "Search and Seizure",
+          "transcript": "",
+          "url": "search-seizure",
+          "vimeoId": "126592309"
+        },
+        {
+          "description": null,
+          "length": "1640",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-7-0-disks_and_file_systems-043015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-7-0-disks_and_file_systems-043015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-7-0-disks_and_file_systems-043015-1-sm.jpg",
+          "title": "Disks and File Systems",
+          "transcript": "",
+          "url": "disks-file-systems",
+          "vimeoId": "126592310"
+        },
+        {
+          "description": null,
+          "length": "5120",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-8-0-data_acquisition_and_duplication-050115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-8-0-data_acquisition_and_duplication-050115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-8-0-data_acquisition_and_duplication-050115-1-sm.jpg",
+          "title": "Data Acquisition and Duplication",
+          "transcript": "",
+          "url": "data-acquisition-duplication",
+          "vimeoId": "126794608"
+        },
+        {
+          "description": null,
+          "length": "4774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-9-0-windows_forensics-050115-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-9-0-windows_forensics-050115-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-9-0-windows_forensics-050115-1-sm.jpg",
+          "title": "Windows Forensics",
+          "transcript": "",
+          "url": "windows-forensics",
+          "vimeoId": "126795595"
+        },
+        {
+          "description": null,
+          "length": "5279",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-10-0-log_correlation-050415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-10-0-log_correlation-050415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-10-0-log_correlation-050415-1-sm.jpg",
+          "title": "Log and Event Correlation",
+          "transcript": "",
+          "url": "log-event-correlation",
+          "vimeoId": "126906922"
+        },
+        {
+          "description": null,
+          "length": "3372",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-11-0-network_forensics-050415-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-11-0-network_forensics-050415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-11-0-network_forensics-050415-1-sm.jpg",
+          "title": "Network Forensics",
+          "transcript": "",
+          "url": "network-forensics",
+          "vimeoId": "126906923"
+        },
+        {
+          "description": null,
+          "length": "6236",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-12-0-investigating_wireless_attacks-050515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-12-0-investigating_wireless_attacks-050515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-12-0-investigating_wireless_attacks-050515-1-sm.jpg",
+          "title": "Investigating Wireless Attacks",
+          "transcript": "",
+          "url": "investigating-wireless-attacks",
+          "vimeoId": "127026083"
+        },
+        {
+          "description": null,
+          "length": "6026",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-13-0-analyzing_web_applications-050515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-13-0-analyzing_web_applications-050515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-13-0-analyzing_web_applications-050515-1-sm.jpg",
+          "title": "Analyzing Web Applications",
+          "transcript": "",
+          "url": "analyzing-web-applications",
+          "vimeoId": "127026084"
+        },
+        {
+          "description": null,
+          "length": "6225",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-14-0-investigating_email_crimes-050615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-14-0-investigating_email_crimes-050615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-14-0-investigating_email_crimes-050615-1-sm.jpg",
+          "title": "Investigating Email Crimes",
+          "transcript": "",
+          "url": "investigating-email-crimes",
+          "vimeoId": "127145067"
+        },
+        {
+          "description": null,
+          "length": "3487",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-15-0-deleted_files_and_partitions-050615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-15-0-deleted_files_and_partitions-050615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-15-0-deleted_files_and_partitions-050615-1-sm.jpg",
+          "title": "Deleted Files and Partitions",
+          "transcript": "",
+          "url": "deleted-files-partitions",
+          "vimeoId": "127145066"
+        },
+        {
+          "description": null,
+          "length": "5632",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-16-0-image_file_forensics-050715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-16-0-image_file_forensics-050715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-16-0-image_file_forensics-050715-1-sm.jpg",
+          "title": "Image File Forensics",
+          "transcript": "",
+          "url": "image-file-forensics",
+          "vimeoId": "127253162"
+        },
+        {
+          "description": null,
+          "length": "5874",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics-050715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics-050715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics-050715-1-sm.jpg",
+          "title": "Mobile Forensics",
+          "transcript": "",
+          "url": "mobile-forensics-3",
+          "vimeoId": "127253163"
+        },
+        {
+          "description": null,
+          "length": "3689",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics_pt2-050815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics_pt2-050815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-17-0-mobile_forensics_pt2-050815-1-sm.jpg",
+          "title": "Mobile Forensics Part 2",
+          "transcript": "",
+          "url": "mobile-forensics-2",
+          "vimeoId": "127289076"
+        },
+        {
+          "description": null,
+          "length": "3775",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-18-0-investigative_reports-050815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-18-0-investigative_reports-050815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-18-0-investigative_reports-050815-1-sm.jpg",
+          "title": "Investigative Reports",
+          "transcript": "",
+          "url": "investigative-reports",
+          "vimeoId": "127490978"
+        },
+        {
+          "description": null,
+          "length": "4057",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-19-0-expert_witness-050815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-19-0-expert_witness-050815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-19-0-expert_witness-050815-1-sm.jpg",
+          "title": "Expert Witness",
+          "transcript": "",
+          "url": "expert-witness",
+          "vimeoId": "127490979"
+        }
+      ],
+      "title": "Digital Forensic Investigator"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1160",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-2-cloud-considerations-043015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-2-cloud-considerations-043015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-2-cloud-considerations-043015-1-sm.jpg",
+          "title": "Cloud Considerations",
+          "transcript": "",
+          "url": "cloud-considerations",
+          "vimeoId": "126595274"
+        },
+        {
+          "description": null,
+          "length": "1958",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-1-forensic_mishaps-043015-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-1-forensic_mishaps-043015-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-1-forensic_mishaps-043015-1-sm.jpg",
+          "title": "Forensics Mishaps",
+          "transcript": "",
+          "url": "forensics-mishaps",
+          "vimeoId": "126595273"
+        },
+        {
+          "description": null,
+          "length": "1392",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-3-social_media_and_forensics-050615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-3-social_media_and_forensics-050615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/dfi/skills-dfi-99-3-social_media_and_forensics-050615-1-sm.jpg",
+          "title": "Social Media and Forensics",
+          "transcript": "",
+          "url": "social-media-forensics",
+          "vimeoId": "127145065"
+        }
+      ],
+      "title": "Extras"
+    }
+  ],
+  "url": "digital-forensic-investigator",
+  "vLab": false
+}

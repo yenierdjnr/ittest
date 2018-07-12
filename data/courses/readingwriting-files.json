@@ -1,0 +1,106 @@
+{
+  "description": "A staple of programming is manipulating data, particularly data saved in files. In this series, we will explore the facilities that Python provides for reading and writing files. If you want to get going with file-based fun, then we will see you there.",
+  "descriptionMD": "A staple of programming is manipulating data, particularly data saved in files. In this series, we will explore the facilities that Python provides for reading and writing files. If you want to get going with file-based fun, then we will see you there.",
+  "length": "10840",
+  "name": "Reading and Writing Files",
+  "practiceExam": false,
+  "subtitle": "Input and Output for the Win",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "A staple of programming is manipulating data, particularly data saved in files. In this series, we will explore the facilities that Python provides for reading and writing files. If you want to get going with file-based fun, then we will see you there.",
+          "length": "212",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-0-0-0-overview-062018-PGM-.00_00_08_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-0-0-0-overview-062018-PGM-.00_00_08_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-0-0-0-overview-062018-PGM-.00_00_08_25.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.330 --> 00:00:05.459\n[MUSIC]\n\n2\n00:00:05.459 --> 00:00:07.621\n&gt;&gt; Hello and thank you for\nwatching DevPro.TV.\n\n3\n00:00:07.621 --> 00:00:09.744\nWe're gonna be talking about reading and\n\n4\n00:00:09.744 --> 00:00:12.400\nwriting files in Python\nwith Justin Dennison.\n\n5\n00:00:12.400 --> 00:00:15.150\nNow Justin, can you tell us\nabout what this course offers or\n\n6\n00:00:15.150 --> 00:00:18.618\nwhat it will offer to people?\n&gt;&gt; So this course is meant to take this\n\n7\n00:00:18.618 --> 00:00:21.940\nPython knowledge that we've\nbeen slowly gathering.\n\n8\n00:00:21.940 --> 00:00:25.291\nBut right now, we don't really have\nany way to do anything other than type\n\n9\n00:00:25.291 --> 00:00:26.653\ndirectly inside of the code.\n\n10\n00:00:26.653 --> 00:00:28.640\nWell, that's not a sustainable process.\n\n11\n00:00:28.640 --> 00:00:34.108\nSo the ultimate goal of this course is to\nexplore how we can open and close files.\n\n12\n00:00:34.108 --> 00:00:37.050\nRead from them, write to them.\n\n13\n00:00:37.050 --> 00:00:40.247\nAnd well, use that to solve\nsome interesting problems.\n\n14\n00:00:40.247 --> 00:00:44.546\nBut I will highlight kind of these\nedge cases like don't forget to close\n\n15\n00:00:44.546 --> 00:00:45.470\nyour file.\n\n16\n00:00:45.470 --> 00:00:48.208\nDon't forget to open it\nin the right mode and\n\n17\n00:00:48.208 --> 00:00:50.563\nthat is also a focus of this course.\n&gt;&gt; So\n\n18\n00:00:50.563 --> 00:00:52.707\nwho is this show targeted towards?\n&gt;&gt; So\n\n19\n00:00:52.707 --> 00:00:56.799\nthis is someone who's just getting\nstarted in Python or even programming.\n\n20\n00:00:56.799 --> 00:01:00.363\nMaybe you've programmed a little bit or\nyou never have before,\n\n21\n00:01:00.363 --> 00:01:01.720\na little bit of Python.\n\n22\n00:01:01.720 --> 00:01:03.722\nYou can probably pick this up fairly easy.\n\n23\n00:01:03.722 --> 00:01:07.033\nI would recommend looking\nat some of our previous,\n\n24\n00:01:07.033 --> 00:01:12.630\ngetting up to speed in Python courses\nthat'll make this course a little easier.\n\n25\n00:01:12.630 --> 00:01:16.268\nBut anybody can jump in just if you have\na very particular problem that you want to\n\n26\n00:01:16.268 --> 00:01:18.839\nsolve and you're like well,\nI'll try it with Python.\n\n27\n00:01:18.839 --> 00:01:21.510\nLet's see how it works,\ndefinitely come on in.\n\n28\n00:01:21.510 --> 00:01:24.923\nNow if you've had programming experience,\n\n29\n00:01:24.923 --> 00:01:28.528\nyou may be better served\nmoving forward along.\n\n30\n00:01:28.528 --> 00:01:32.560\nSo this is meant to help those who\nare just getting started kind of keep\n\n31\n00:01:32.560 --> 00:01:35.423\nmoving forward.\n&gt;&gt; Is this is a certification based\n\n32\n00:01:35.423 --> 00:01:37.920\nprogram?\n&gt;&gt; This is not certification based.\n\n33\n00:01:37.920 --> 00:01:41.290\nA lot of times in programming languages,\nit's hard to certify.\n\n34\n00:01:41.290 --> 00:01:45.382\nBecause the language or\nwhat is acceptable by the community, or\n\n35\n00:01:45.382 --> 00:01:51.320\nhow things work can change very rapidly in\ncomparison to hardware based technologies.\n\n36\n00:01:51.320 --> 00:01:54.398\nSo certification doesn't exist for\nthis particular thing.\n\n37\n00:01:54.398 --> 00:01:58.020\nThis is more of a let's power\nup our skills and of course,\n\n38\n00:01:58.020 --> 00:02:02.241\nin conjunction with other courses.\n&gt;&gt; Could you tell us a little bit more on\n\n39\n00:02:02.241 --> 00:02:04.467\nwhat topics are gonna be covered\nin reading and writing files?\n\n40\n00:02:04.467 --> 00:02:05.153\n&gt;&gt; So reading and\n\n41\n00:02:05.153 --> 00:02:06.760\nwriting files, specifically.\n\n42\n00:02:06.760 --> 00:02:08.149\nWe're going to lean how to open a file.\n\n43\n00:02:08.149 --> 00:02:11.683\nWe're gonna learn how to close a file and\nwhat the implications of,\n\n44\n00:02:11.683 --> 00:02:13.550\nif I open a file and don't close it.\n\n45\n00:02:14.720 --> 00:02:17.053\nI'm also going to learn\nhow to read from a file.\n\n46\n00:02:17.053 --> 00:02:19.970\nBut not only,\nyou're like you just read from a file.\n\n47\n00:02:19.970 --> 00:02:20.763\nYou open it up.\nWell,\n\n48\n00:02:20.763 --> 00:02:24.070\nwe actually cover that we can\nread in a variety of manners.\n\n49\n00:02:24.070 --> 00:02:24.830\nWe can read line by line.\n\n50\n00:02:24.830 --> 00:02:26.781\nWe can read all the lines.\n\n51\n00:02:26.781 --> 00:02:30.060\nWe can read everything in as a string.\n\n52\n00:02:30.060 --> 00:02:33.482\nCorrespondingly, we can write to a file.\n\n53\n00:02:33.482 --> 00:02:38.279\nBut writing has some other edge cases\nlike well, if I write to a file,\n\n54\n00:02:38.279 --> 00:02:40.860\ndo I get to keep the stuff in the file?\n\n55\n00:02:40.860 --> 00:02:41.576\nWell, it actually depends.\n\n56\n00:02:41.576 --> 00:02:44.720\nSo we're gonna cover the mode of writing.\n\n57\n00:02:44.720 --> 00:02:46.835\nDo I append or do I write over?\n\n58\n00:02:46.835 --> 00:02:49.510\nCan I read if a file is write?\n\n59\n00:02:49.510 --> 00:02:50.568\nWell, you have to be careful.\n\n60\n00:02:50.568 --> 00:02:52.650\nSo we're gonna cover that, as well.\n\n61\n00:02:52.650 --> 00:02:57.745\nAnd then furthermore,\nwe're going to start bringing in another\n\n62\n00:02:57.745 --> 00:03:03.209\npart of the Python standard library\nto see how to read multiple files or\n\n63\n00:03:03.209 --> 00:03:06.840\nto some extent how to\nmake a reusable utility.\n\n64\n00:03:06.840 --> 00:03:11.420\nSo I think that gives a pretty good\noverview of all of our topics.\n\n65\n00:03:11.420 --> 00:03:12.534\n&gt;&gt; Thank you, Justin.\n\n66\n00:03:12.534 --> 00:03:16.554\nIf reading and writing files seems like\nsomething you're interested in and\n\n67\n00:03:16.554 --> 00:03:20.694\nyou wanna become one step closer to being\na Python pro, then be sure to check out\n\n68\n00:03:20.694 --> 00:03:24.800\nall the episodes that Justin to offer\nin this course, in our course library.\n\n69\n00:03:24.800 --> 00:03:31.579\nThanks for watching.\n[MUSIC]\n\n",
+          "url": "overview-readingwriting-files",
+          "vimeoId": "277146478"
+        },
+        {
+          "description": "In this episode, Justin and Aubri explore how to open and close a file using Python. Justin discusses the different modes that are available for opening a file in Python as well as the methods available on a file.",
+          "length": "1417",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-1-1-1-open_and_close_a_file-061918-PGM.00_23_28_24.Still002.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-1-1-1-open_and_close_a_file-061918-PGM.00_23_28_24.Still002-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-1-1-1-open_and_close_a_file-061918-PGM.00_23_28_24.Still002-sm.jpg",
+          "title": "Open and Close a File",
+          "transcript": "",
+          "url": "closefile",
+          "vimeoId": "276090310"
+        },
+        {
+          "description": "In this episode, Justin and Aubri build upon the opening of a file and explore how to read the information from a file. Justin discusses the implications of reading data from a file in different ways.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-2-1-1-read_a_file-061918-PGM.00_27_07_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-2-1-1-read_a_file-061918-PGM.00_27_07_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-2-1-1-read_a_file-061918-PGM.00_27_07_25.Still001-sm.jpg",
+          "title": "Read a File",
+          "transcript": "",
+          "url": "readfile",
+          "vimeoId": "276089985"
+        },
+        {
+          "description": "In this episode, Justin and Aubri write data to a file. Justin illustrates and explains the writing of single lines as well as multiple lines to a file. Additionally, Justin highlights \"gotchas\" that can arise when writing to a file.",
+          "length": "1768",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-3-1-1-write_a_file-061918-PGM.00_00_12_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-3-1-1-write_a_file-061918-PGM.00_00_12_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-3-1-1-write_a_file-061918-PGM.00_00_12_17.Still001-sm.jpg",
+          "title": "Write a File",
+          "transcript": "",
+          "url": "writefile",
+          "vimeoId": "276090647"
+        },
+        {
+          "description": "In this episode, Justin and Aubri explore the use of the context manage to automatically manage the opening and closing of files.",
+          "length": "1353",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-4-1-1-use_a_context_manager-062018.00_22_27_13.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-4-1-1-use_a_context_manager-062018.00_22_27_13.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-4-1-1-use_a_context_manager-062018.00_22_27_13.Still001-sm.jpg",
+          "title": "Use a Context Manager",
+          "transcript": "",
+          "url": "context-manager",
+          "vimeoId": "276255158"
+        },
+        {
+          "description": "In this episode, Justin and Aubri discuss why you would need to run loop through multiple files. Justin demonstrates how one would go about looping through the lines of multiple files. Hope that you are ready, because there are loops everywhere!",
+          "length": "1149",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-5-1-1-loop_through_multiple_files-062018-PGM.00_19_02_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-5-1-1-loop_through_multiple_files-062018-PGM.00_19_02_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-5-1-1-loop_through_multiple_files-062018-PGM.00_19_02_24.Still001-sm.jpg",
+          "title": "Loop Through Multiple Files",
+          "transcript": "",
+          "url": "loopmultiple-files",
+          "vimeoId": "276254804"
+        },
+        {
+          "description": "In this episode, Justin and Aubri look at the alternative to opening a file to loop through the lines of a file. Justin demonstrates utilizing another part of Python's standard library to make things a little bit easier.",
+          "length": "1504",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-6-1-1-loop_through_a_file_fileinput-062018-PGM.00_24_57_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-6-1-1-loop_through_a_file_fileinput-062018-PGM.00_24_57_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-6-1-1-loop_through_a_file_fileinput-062018-PGM.00_24_57_28.Still001-sm.jpg",
+          "title": "Loop Through a File: fileinput",
+          "transcript": "",
+          "url": "loopa-file-fileinput",
+          "vimeoId": "276255627"
+        },
+        {
+          "description": "In this episode, Justin and Aubri expand on using the fileinput module to loop through the lines of multiple files. Justin compares and contrasts this functionality to a previous implementation that used the `open` function.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-7-1-1-loop_through_multiple_files_fileinput-062018-PGM.00_29_55_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-7-1-1-loop_through_multiple_files_fileinput-062018-PGM.00_29_55_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-readingandwritingfiles/techskills-readingandwritingfiles-7-1-1-loop_through_multiple_files_fileinput-062018-PGM.00_29_55_23.Still001-sm.jpg",
+          "title": "Loop Through Multiple Files: fileinput",
+          "transcript": "",
+          "url": "loopmultiple-files-fileinput",
+          "vimeoId": "277146577"
+        }
+      ],
+      "title": "Reading and Writing Files"
+    }
+  ],
+  "url": "readingwriting-files",
+  "vLab": false
+}

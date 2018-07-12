@@ -1,0 +1,434 @@
+{
+  "description": "The Cisco Certified Network Associate (CCNA) is the most well known Cisco certification path. It takes the general networking theory from the CCENT certification and applies it in real world scenarios. It moves beyond configuring individual devices into more complex territory often requiring the configuration of numerous devices to create a robust and optimized network. While studying for this certification, you will revisit the routing and switching topics from the CCENT in more depth as you learn about and implement the advanced features of each technology.",
+  "descriptionMD": "",
+  "length": "70965",
+  "name": "CCNA Routing and Switching",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Network Associate",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-overview-110916.00_08_49_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-overview-110916.00_08_49_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-overview-110916.00_08_49_04.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.050 --> 00:00:06.781\n[SOUND] In this video, we're gonna take\na look at the Cisco CCNA Routing and\n\n2\n00:00:06.781 --> 00:00:11.681\nSwitching 200-105 exam content on ITProTV.\n\n3\n00:00:11.681 --> 00:00:15.516\nNow, the CCNA Routing and Switching is a\ncertification that covers entry level tops\n\n4\n00:00:15.516 --> 00:00:18.060\nfor people who are getting\ninto the networking field.\n\n5\n00:00:18.060 --> 00:00:22.016\nPeople who wanna learn how to configure\nCisco routers, Cisco switches and\n\n6\n00:00:22.016 --> 00:00:26.052\nother basic Cisco concepts as well as\nnetworking fundamentals and theory.\n\n7\n00:00:26.052 --> 00:00:28.060\nThat makes this a great certification for\n\n8\n00:00:28.060 --> 00:00:32.220\nsomebody to pursue when they're just\nstarting out in the networking world.\n\n9\n00:00:32.220 --> 00:00:36.170\nNow CCNA is a part of a larger\ncertification scheme from Cisco that\n\n10\n00:00:36.170 --> 00:00:42.180\nactually begins with the CCENT, the Cisco\nCertified Entry Network Technician.\n\n11\n00:00:42.180 --> 00:00:43.370\nAnd as a result,\n\n12\n00:00:43.370 --> 00:00:47.280\nthey expect you to have that certification\nbefore moving into the CCNA.\n\n13\n00:00:47.280 --> 00:00:50.872\nThis is the next step in your\ncertification career with Cisco.\n\n14\n00:00:50.872 --> 00:00:54.242\nAfter that, yo u move into more advanced\nthings like CCNP and CCIU, which are for\n\n15\n00:00:54.242 --> 00:00:56.835\npeople who are already established\nin the networking field.\n\n16\n00:00:56.835 --> 00:00:58.161\nBut let's take a look at CCNA,\n\n17\n00:00:58.161 --> 00:01:01.304\nbecause that's what this\ncourse is gonna be based on.\n\n18\n00:01:01.304 --> 00:01:03.361\nNow that the CCNA itself or\nthe CCNA Routing and\n\n19\n00:01:03.361 --> 00:01:06.125\nSwitching is the one that focuses\non routers, and switches.\n\n20\n00:01:06.125 --> 00:01:09.864\nThere are other CCNA's that are out\nthere that focus on security or\n\n21\n00:01:09.864 --> 00:01:14.400\nservice provider storage,\nother types of technologies like that.\n\n22\n00:01:14.400 --> 00:01:17.205\nNow, the CCNA certification is\nactually made up of two exams.\n\n23\n00:01:17.205 --> 00:01:20.919\nAnd the first exam,\nwhat Cisco calls the ICND1 or\n\n24\n00:01:20.919 --> 00:01:25.260\nInterconnecting Cisco Networking Devices\nexam.\n\n25\n00:01:25.260 --> 00:01:29.611\nThat one is what gets you the CCENT\ncertification and then you've got\n\n26\n00:01:29.611 --> 00:01:35.325\nthe ICND2 exam, which is what the 200-105\ncontent is that you're about to view.\n\n27\n00:01:35.325 --> 00:01:40.390\nNow, you can't just take the 200-105 exam.\n\n28\n00:01:40.390 --> 00:01:43.460\nIf you do,\nthat's only half the certification.\n\n29\n00:01:43.460 --> 00:01:46.410\nSo what you need to do to\nachieve the CCNA Routing and\n\n30\n00:01:46.410 --> 00:01:49.230\nSwitching certification\nis one of two things.\n\n31\n00:01:49.230 --> 00:01:51.955\nMost people opt to do the two exams.\n\n32\n00:01:51.955 --> 00:01:59.211\nThe 100-105 ICND1 exam that can do\nthe CCNT followed by the 200-105 exam,\n\n33\n00:01:59.211 --> 00:02:03.900\nwhich would then combined with\nthe CCNT get you your CCNA.\n\n34\n00:02:05.080 --> 00:02:07.470\nNow if you're already familiar\nwith Cisco equipment and\n\n35\n00:02:07.470 --> 00:02:12.200\nyou've been working with it awhile, you\ncan choose to take the consolidated exam,\n\n36\n00:02:12.200 --> 00:02:14.410\nwhat they call CCNA composite.\n\n37\n00:02:14.410 --> 00:02:17.781\nIt's one exam, the 200-125 and\n\n38\n00:02:17.781 --> 00:02:23.047\nit contains test material from\nboth the ICND1 and the ICND2.\n\n39\n00:02:23.047 --> 00:02:25.161\nSo, it's basically just\ncombining it into one big test.\n\n40\n00:02:25.161 --> 00:02:28.054\nIt makes it where you\njust take a shorter test,\n\n41\n00:02:28.054 --> 00:02:30.510\nas opposed to having to take two tests.\n\n42\n00:02:30.510 --> 00:02:33.102\nSo that's kinda nice, but price-wise,\nit doesn't save you any money.\n\n43\n00:02:33.102 --> 00:02:36.988\nThe composite exam actually costs as much\nas the other two exams combined together.\n\n44\n00:02:36.988 --> 00:02:40.961\nSo it's not a money saving thing,\nit's really just a time saving thing.\n\n45\n00:02:40.961 --> 00:02:44.301\nI usually encourage people to do\nthe separate exams, cuz it allows you to\n\n46\n00:02:44.301 --> 00:02:48.030\ndivide up your study material and\nit makes life a little easier on you.\n\n47\n00:02:48.030 --> 00:02:52.150\nFor the ICND1 exam, you only need to\nknow the content from our CCNT show.\n\n48\n00:02:52.150 --> 00:02:56.041\nAnd for the 200-105, you just need\nthe content from our CCNA show,\n\n49\n00:02:56.041 --> 00:02:58.220\nthis one that's about to follow.\n\n50\n00:02:58.220 --> 00:03:01.360\nSo, that does kind of shrink things down\nto make it a little more manageable as\n\n51\n00:03:01.360 --> 00:03:03.680\nfar as all of your study materials.\n\n52\n00:03:03.680 --> 00:03:05.740\nNow as far as what's on the exam itself,\n\n53\n00:03:05.740 --> 00:03:09.390\nwell, the exam is made up\nof five different domains.\n\n54\n00:03:09.390 --> 00:03:14.094\nIt starts of at LAN Switching Technologies\nthat makes up a quarter of the exam, 26%.\n\n55\n00:03:14.094 --> 00:03:17.128\nSo, that focuses entirely\non Cisco switches.\n\n56\n00:03:17.128 --> 00:03:22.008\nAfter that, we get Routing Technologies\nwhich is well, obviously, going to be\n\n57\n00:03:22.008 --> 00:03:27.060\nrouters and that compiles about 29% of\nthe exam, then we got WAN Technologies.\n\n58\n00:03:27.060 --> 00:03:29.749\nNow WAN that's Wide Area Networking.\n\n59\n00:03:29.749 --> 00:03:35.401\nWAN connections are on routers, so this is\nreally an extension of a router module.\n\n60\n00:03:35.401 --> 00:03:37.889\nSo, we have a little bit more in routing.\n\n61\n00:03:37.889 --> 00:03:40.998\nAfter that, we move into some really\nneat things, Infrastructure Services and\n\n62\n00:03:40.998 --> 00:03:42.650\nInfrastructure Maintenance.\n\n63\n00:03:42.650 --> 00:03:46.689\nInfrastructure Services is where we\ntake those routers and switches, and\n\n64\n00:03:46.689 --> 00:03:49.713\nwe see what they can do beyond routing,\nand switching.\n\n65\n00:03:49.713 --> 00:03:54.247\nYou'll find where a lot of routers can\nactually be VPN servers or they can\n\n66\n00:03:54.247 --> 00:03:59.480\ndo other things in addition to just being\na router and switches are the same way.\n\n67\n00:03:59.480 --> 00:04:03.226\nSome switches can actually act like\nrouters, they can be layer three switches.\n\n68\n00:04:03.226 --> 00:04:06.439\nWe have switches that can perform quality\nof service, all sorts of really neat\n\n69\n00:04:06.439 --> 00:04:09.370\nfeatures and that's what we start\nto see in infrastructure services.\n\n70\n00:04:10.460 --> 00:04:13.973\nNow one of the big pitfalls we see out in\nproduction is that a lot of people learn\n\n71\n00:04:13.973 --> 00:04:17.811\nhow to set things up, but they don't learn\nhow to keep them running over long periods\n\n72\n00:04:17.811 --> 00:04:20.918\nof time and that's what\nInfrastructure Maintenance is all about.\n\n73\n00:04:20.918 --> 00:04:24.854\nOnce your deployment is done, how do\nyou keep everything running nice and\n\n74\n00:04:24.854 --> 00:04:26.610\nsmooth and moving along?\n\n75\n00:04:26.610 --> 00:04:29.681\nAnd so that's kinda last piece\nthat we cover when we jump into\n\n76\n00:04:29.681 --> 00:04:33.902\nInfrastructure Maintenance and notice how\nthis start to get a little bit smaller,\n\n77\n00:04:33.902 --> 00:04:35.426\n16%, 14% and 15%.\n\n78\n00:04:35.426 --> 00:04:39.275\nThese are topics that are important in and\nof themselves, but\n\n79\n00:04:39.275 --> 00:04:43.800\nnot as important as getting actually\nwith the switches and the routers.\n\n80\n00:04:43.800 --> 00:04:45.634\nAnd when you take a look\nat the technologies,\n\n81\n00:04:45.634 --> 00:04:49.109\nif you've already done you CCENT, you'll\nsee some of these topics are familiar that\n\n82\n00:04:49.109 --> 00:04:51.301\nyou've already learned about VLANs,\nfor example.\n\n83\n00:04:51.301 --> 00:04:52.913\nWell, here we go a bit further.\n\n84\n00:04:52.913 --> 00:04:55.522\nWe learn more about VLANs,\nas an advanced functionality.\n\n85\n00:04:55.522 --> 00:04:58.574\nWe learn about spanning tree protocol and\nloop protection.\n\n86\n00:04:58.574 --> 00:05:02.156\nThese are features that are built-in to\nevery Cisco switch that you just need to\n\n87\n00:05:02.156 --> 00:05:06.430\nknow how to take advantage of them,\nhow to actually use and implement them.\n\n88\n00:05:06.430 --> 00:05:11.390\nOn the routing side, under CCENT,\nyou learned about the RIP protocol.\n\n89\n00:05:11.390 --> 00:05:14.559\nHere, we learn about EIGRP and OSPF.\n\n90\n00:05:14.559 --> 00:05:16.369\nWe also cover some IPv6 routing.\n\n91\n00:05:16.369 --> 00:05:17.008\nSo again,\n\n92\n00:05:17.008 --> 00:05:21.340\nmore advanced functionality based on\nwhat we learned in the CCENT show.\n\n93\n00:05:21.340 --> 00:05:24.760\nAnother reason why you really wanna make\nsure you completed your CCENT before\n\n94\n00:05:24.760 --> 00:05:27.875\ndiving into this, so that you have\nall your foundational knowledge.\n\n95\n00:05:27.875 --> 00:05:31.165\nSo that's an example of what's\non the exam and I already said,\n\n96\n00:05:31.165 --> 00:05:32.970\nwho it was really targeted to?\n\n97\n00:05:32.970 --> 00:05:36.328\nIt's targeted to that person who's wanting\nto get started in a networking career.\n\n98\n00:05:36.328 --> 00:05:39.296\nSo maybe you've been working\nwith systems admin up until now,\n\n99\n00:05:39.296 --> 00:05:42.658\ndoing different software support and\nyou wanna move into networking or\n\n100\n00:05:42.658 --> 00:05:44.674\nmaybe you're just getting started in IT,\n\n101\n00:05:44.674 --> 00:05:48.010\nbut you've decided that this is your\npassion that you wanna get into.\n\n102\n00:05:48.010 --> 00:05:49.515\nThis is a great certification for that.\n\n103\n00:05:49.515 --> 00:05:53.559\nNow if you watch our series and you study\nthe materials, you go through the labs,\n\n104\n00:05:53.559 --> 00:05:57.850\nyou practice, you get ready and you\nfeel like you're ready to take the exam.\n\n105\n00:05:57.850 --> 00:05:59.545\nThe next step is to go and to do it.\n\n106\n00:05:59.545 --> 00:06:02.579\nAll Cisco exams are proctored\nthrough Pearson VUE.\n\n107\n00:06:02.579 --> 00:06:05.758\nPearson VUE is a company that has\ntesting centers all over the world.\n\n108\n00:06:05.758 --> 00:06:10.972\nSo when you're ready to take that exam,\njust go to vue.com.\n\n109\n00:06:10.972 --> 00:06:12.388\nThat's the Pearson VUE website.\n\n110\n00:06:12.388 --> 00:06:15.694\nAnd when you go to vue.com,\nyou'll see that this guy right here and\n\n111\n00:06:15.694 --> 00:06:17.608\nyou'll go up here to for test takers and\n\n112\n00:06:17.608 --> 00:06:20.810\nyou'll tell it that you need\nto go to the test taker home.\n\n113\n00:06:20.810 --> 00:06:21.403\nAnd on that page,\n\n114\n00:06:21.403 --> 00:06:23.670\nyou'll be able to tell it what type\nof exam you're wanting to take.\n\n115\n00:06:23.670 --> 00:06:27.636\nI'm just gonna type Cisco, so\nit finds Cisco Systems right there.\n\n116\n00:06:27.636 --> 00:06:33.582\nAnd now, I can jump in and I can find\nthe exam types that are available.\n\n117\n00:06:33.582 --> 00:06:36.348\nI can find test preparation and\nother news, but\n\n118\n00:06:36.348 --> 00:06:39.270\nI can also find a test center near me.\n\n119\n00:06:39.270 --> 00:06:42.100\nOnce you find your test center,\nyou can schedule the exam.\n\n120\n00:06:42.100 --> 00:06:45.084\nIt's nice that you can do it right there\nin your own neighborhood instead of having\n\n121\n00:06:45.084 --> 00:06:46.394\nto go somewhere else crazy to do it.\n\n122\n00:06:46.394 --> 00:06:49.230\nYou find one right nearby,\njump over there.\n\n123\n00:06:49.230 --> 00:06:52.340\nTake the exam, pass it and\nthen move into the world of networking.\n\n124\n00:06:53.660 --> 00:06:54.834\nSo, that's about it for the CCNA.\n\n125\n00:06:54.834 --> 00:06:59.525\nLet me just kinda reiterate the important\nparts here is that you cannot get your\n\n126\n00:06:59.525 --> 00:07:03.861\nCCNA certification, unless you complete\nboth the CCENT and the CCNA and\n\n127\n00:07:03.861 --> 00:07:07.131\nit's up to you whether you\nwanna do those one at a time or\n\n128\n00:07:07.131 --> 00:07:11.150\nyou wanna do them at the same\ntime in the composite exam.\n\n129\n00:07:11.150 --> 00:07:13.330\nSo, that is an important one.\n\n130\n00:07:13.330 --> 00:07:15.435\nOur shows are based around\nthe individual exam,\n\n131\n00:07:15.435 --> 00:07:17.346\ncuz that's what make sense to most people.\n\n132\n00:07:17.346 --> 00:07:22.350\nThey do the CCENT exam first and\nthen they do the CCNA exam separate.\n\n133\n00:07:22.350 --> 00:07:25.786\nIf you do the composite, you need\nto study material from both shows.\n\n134\n00:07:25.786 --> 00:07:28.560\nJust combine them together and that's\nwhat's gonna be on the composite exam.\n\n135\n00:07:28.560 --> 00:07:31.595\nIt's a large body of knowledge and\nthat can be a little challenging for\n\n136\n00:07:31.595 --> 00:07:32.220\nsome people.\n\n137\n00:07:32.220 --> 00:07:35.720\nAfter that, go and\ntake that exam and your in business.\n\n138\n00:07:35.720 --> 00:07:39.375\nSo if this sounds like the right thing for\nyou, then you're in the right place.\n\n139\n00:07:39.375 --> 00:07:41.653\nStay tuned,\ncuz we've got that content coming up.\n\n140\n00:07:41.653 --> 00:07:44.023\nBut if you haven't done your CCENT,\njump over.\n\n141\n00:07:44.023 --> 00:07:46.426\nThe ITProTV library's got\nall sorts of certifications.\n\n142\n00:07:46.426 --> 00:07:50.177\nJump over to the CCENT show,\ncatch that content.\n\n143\n00:07:50.177 --> 00:07:52.165\nThat's the real place to start out.\n\n144\n00:07:52.165 --> 00:07:55.788\nIf you're just not sure about Cisco,\nmaybe you wanna learn networking,\n\n145\n00:07:55.788 --> 00:07:59.119\nbut you're not really ready to get\nmarried to a particular vendor,\n\n146\n00:07:59.119 --> 00:08:02.300\nyou could also check out\nthe CompTIA Network+ certification.\n\n147\n00:08:02.300 --> 00:08:03.678\nNetwork+ is vendor neutral.\n\n148\n00:08:03.678 --> 00:08:05.580\nIt covers a lot of fundamentals in theory.\n\n149\n00:08:05.580 --> 00:08:08.899\nIt's really about half the content\nthat's right here in the CCNA.\n\n150\n00:08:08.899 --> 00:08:11.194\nThere's a good bit of\noverlap between the two.\n\n151\n00:08:11.194 --> 00:08:13.348\nBut with Network+, it's vendor neutral.\n\n152\n00:08:13.348 --> 00:08:15.596\nSo, you don't have to worry\nabout being tied just to Cisco.\n\n153\n00:08:15.596 --> 00:08:19.161\nMaybe you work with Juniper equipment or\nHP, 3Com, whoever.\n\n154\n00:08:19.161 --> 00:08:22.136\nThat gives you a little bit\nmore of a broader basis.\n\n155\n00:08:22.136 --> 00:08:26.281\nOn the Cisco side though, you're learning\nthe Cisco way of doing things and\n\n156\n00:08:26.281 --> 00:08:31.100\nthey are the network leader when it comes\nto networking devices and technologies.\n\n157\n00:08:31.100 --> 00:08:33.060\nSo, it is a great company to learn from.\n\n158\n00:08:33.060 --> 00:08:35.926\nMost of the other companies out\nthere emulate what Cisco does, so\n\n159\n00:08:35.926 --> 00:08:37.917\nthat they all kind of\noperate about the same.\n\n160\n00:08:37.917 --> 00:08:40.833\nSo if this is the right spot for\nyou, stay tuned.\n\n161\n00:08:40.833 --> 00:08:41.956\nWe got episodes coming up.\n\n162\n00:08:41.956 --> 00:08:43.459\nIf it's not the right one,\ndefinitely check out the library.\n\n163\n00:08:43.459 --> 00:08:46.026\nWe got tons of content there\nthat are available for you.\n\n164\n00:08:46.026 --> 00:08:49.997\nI look forward to seeing you\nguys in the CCNA training.\n\n165\n00:08:49.997 --> 00:08:53.244\n[SOUND]\n\n",
+          "url": "overview70739",
+          "vimeoId": "193760477"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review creating and managing multiple vlans on a single switch.  They talk about the purpose of vlans and configuring vlans too.  They remind us that vlans are kept not in the startup-config but in the vlan database called vlan.dat in flash.  Also they discuss using uplinks when connecting multiple switches together.",
+          "length": "2051",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-1-understanding_vlans-080416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-1-understanding_vlans-080416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-1-understanding_vlans-080416-1-sm.jpg",
+          "title": "Understanding VLANs",
+          "transcript": "",
+          "url": "understanding-vlans",
+          "vimeoId": "178067881"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show the use of DTP to create trunks between switches automatically.  They also discuss and show some of the peculiarities of DTP modes.  They demonstrate how to configure trunking for using 802.1q.  Also, the guys show how to prune the vlans that do not need to go over a particular trunk interface.",
+          "length": "2261",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-2-trunking_and_dtp-080416-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-2-trunking_and_dtp-080416-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-2-trunking_and_dtp-080416-1-sm.jpg",
+          "title": "Trunking and DTP",
+          "transcript": "",
+          "url": "trunking-dtp",
+          "vimeoId": "178067882"
+        },
+        {
+          "description": "In this episode, Ronnie and Don help us to understand the basics of STP—Spanning Tree Protocol.  They explain that when configuring links between switches, we may inadvertently cause switching loops.  They also demonstrate that STP is running by default on cisco switches.  They discuss the important concept of the root bridge election and decision making process.",
+          "length": "2098",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-1-spanning_tree_protocol-080516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-1-spanning_tree_protocol-080516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-1-spanning_tree_protocol-080516-1-sm.jpg",
+          "title": "Spanning Tree Protocol",
+          "transcript": "",
+          "url": "spanning-tree-protocol",
+          "vimeoId": "178067880"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with the STP process after the root bridge election.   They demonstrate how the non-root bridges receive and forward BPDUs and how they decided on blocking ports.  Using the “show spanning-tree”, the guys show STP role, states and costs and explain how those values help determine blocking and forwarding through those ports.",
+          "length": "2033",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-2-spanning_tree_protocol_pt.2-080516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-2-spanning_tree_protocol_pt.2-080516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-2-spanning_tree_protocol_pt.2-080516-1-sm.jpg",
+          "title": "Spanning Tree Protocol Part 2",
+          "transcript": "",
+          "url": "spanning-tree-protocol-2",
+          "vimeoId": "178071073"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take an opportunity to show 802.1w —rapid spanning tree protocol.  They discuss the discarding, learning and forwarding state in contrast with the 802.1d process.  The guys explain that the best practice is to implement the same spanning-tree protocol across all the switches.  They remind us that the port states name that are different between 802.1w and 802.1d.",
+          "length": "1533",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-3-spanning_tree_protocol_pt.3-080516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-3-spanning_tree_protocol_pt.3-080516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-3-3-spanning_tree_protocol_pt.3-080516-1-sm.jpg",
+          "title": "Spanning Tree Protocol Part 3",
+          "transcript": "",
+          "url": "spanning-tree-protocol-3",
+          "vimeoId": "178071072"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look at additional optional features that can be configured for STP.  They explain the use of portfast and bpduguard to make STP work more efficiently.  They show using portfast allows the switch to change port states immediately to forwarding.  This is efficient for end user devices, servers  and other devices that only need access and only provide for loop protection on the port, according to the guys. Enabling bpduguard sends a port into err-disabled state if a single bpdu is detected, Don explains.  They also explain to how enable this globally for every port and then how to disable it for the ports needed.",
+          "length": "1747",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-4-spanning_tree_protocol_optional_features-080816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-4-spanning_tree_protocol_optional_features-080816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-4-spanning_tree_protocol_optional_features-080816-1-sm.jpg",
+          "title": "Spanning Tree Protocol Optional Features",
+          "transcript": "",
+          "url": "spanning-tree-protocol-optional-features",
+          "vimeoId": "178196072"
+        },
+        {
+          "description": "In this episode, Ronnie and Don discuss of the Layer 2 attacks and how to use switch functionality to mitigate them.  They start with describing two very common attacks on DHCP:  DHCP Starvation and Rogue DHCP servers.  Using `ip dhcp snooping`, they show how to limit the number of the offers a port can have as well as how to implement a trusted port to mitigate this type of layer 2 attack.",
+          "length": "1908",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-1-layer_2_threat_mitigation-081016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-1-layer_2_threat_mitigation-081016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-1-layer_2_threat_mitigation-081016-1-sm.jpg",
+          "title": "Layer 2 Threat Mitigation",
+          "transcript": "",
+          "url": "layer-2-threat-mitigation",
+          "vimeoId": "178376836"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue to take a look at additional Layer 2 threats.  They zero in on two threat mitigation techniques:  changing native vlan and implementing 802.1X authentication.  They explain why leaving the native vlan in the default configuration is a threat.  The guys discuss the how to prevent any unauthorized device from connecting to our network using 802.1X.",
+          "length": "1905",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-2-layer_2_threat_mitigation_pt.2-081016-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-2-layer_2_threat_mitigation_pt.2-081016-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-5-2-layer_2_threat_mitigation_pt.2-081016-high-sm.jpg",
+          "title": "Layer 2 Threat Mitigation Part 2",
+          "transcript": "",
+          "url": "layer-2-threat-mitigation2",
+          "vimeoId": "178605270"
+        },
+        {
+          "description": "In this episode, Ronnie and Don describe the use of port aggregation for increasing bandwidth between switches and providing fault tolerance against port failures.  According to the guys, we have 3 options:  if we want to statically configure it   using static Etherchannel or dynamically configure it—there are two options for dynamic configurations: LACP and PAgP.  They emphasize the configuration commands associated with each option and the show commands too.",
+          "length": "2393",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-6-port_aggregation-080816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-6-port_aggregation-080816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-1-6-port_aggregation-080816-1-sm.jpg",
+          "title": "Port Aggregation",
+          "transcript": "",
+          "url": "port-aggregation",
+          "vimeoId": "178196091"
+        }
+      ],
+      "title": "LAN Switching Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don review a CCENT concept of Inter-VLAN Routing.  They demonstrate the Router On a Stick configuration and discuss why it’s only used in a lab environment instead of production.  The guys do show the use of a Layer 3 switches to configure the inter-VLAN  routing too.   They demonstrate how to configure a switch to enable Layer 3 functionality as well as configuring it for inter-VLAN routing by creating Switched Virtual Interfaces (SVIs). They remind us that the SVIs essentially becomes the default gateways for each of the vlans they serve.",
+          "length": "1924",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-2-1-inter-vlan_routing-081016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-2-1-inter-vlan_routing-081016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna-200105-2-1-inter-vlan_routing-081016-1-sm.jpg",
+          "title": "Inter-VLAN Routing",
+          "transcript": "",
+          "url": "intervlan-routing",
+          "vimeoId": "178518287"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review general routing protocol concepts as preparation for routing protocol configurations.  They describe the scope of routing protocols into IGP and EGP.   They take the time to also break down the IGP into two classifications as well:  Distance vector and Link State protocols.   Both IGP determine routes with an autonomous system (AS) based on different metrics:  Distance Vector uses hop count and Link-State uses bandwidth.  They even mention Advanced DV that uses a composite of bandwidth and delay.   The guys also introduce the EGP routing protocol Border Gateway Protocol (BGP).  They describe it’s functionality and context.",
+          "length": "2011",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-2-routing_protocols-082216-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-2-routing_protocols-082216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-2-routing_protocols-082216-1-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "url": "routing-protocols4",
+          "vimeoId": "180048191"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take a look at the basic specifications when working with OSPF as our IGP.  They discuss it’s popularity and usage.  They show how ospf works with multiple areas and even describe how it calculates its metric to make routing decisions.  They demonstrate how the spf algorithm functions to determine the cost.",
+          "length": "1845",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-3-ospf-082216-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-3-ospf-082216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-3-ospf-082216-1-sm.jpg",
+          "title": "OSPF",
+          "transcript": "",
+          "url": "ospf9",
+          "vimeoId": "180048207"
+        },
+        {
+          "description": "In this episode, Ronnie and Don start configuring ospf on multiple routers.  They demonstrate 2 ways for the OSPF configuration on the routers.  With OSPF configured on three routers, Don discusses the different connection states and role types users are likely to see when using the “show ip ospf neighbor” command.  The guys also take a look at the adjacency requirements for OSPF routers.",
+          "length": "2208",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-1-implementing_ospfv2-082216-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-1-implementing_ospfv2-082216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-1-implementing_ospfv2-082216-1-sm.jpg",
+          "title": "Implementing OSPFv2",
+          "transcript": "",
+          "url": "implementing-ospfv2",
+          "vimeoId": "180048230"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with the OSPF configuration.  They dive into how and why to configure multi-area OSPF.  The show how to configure a single area router into an ABR, area border router and discuss how it functions in both areas.  They also show the results of configuring multi-area ospf routers and the effect it has within a single are through the routing table.  Lastly, they describe and use some of the different commands to help with configuring ospf: “show ip ospf neighbor,” “show running-config | section ospf,” “debug ip ospf packets,” and “debug ip ospf adj.”",
+          "length": "2277",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-2-implementing_ospfv2_pt2-082316-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-2-implementing_ospfv2_pt2-082316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-4-2-implementing_ospfv2_pt2-082316-1-sm.jpg",
+          "title": "Implementing OSPFv2 Part 2",
+          "transcript": "",
+          "url": "implementing-ospfv22",
+          "vimeoId": "180173711"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce us to OSPFv3, the IPv6 version of OSPF.  They discuss some of the concerns that most ccna candidates will have and show how to overcome them.  They begin with configuring the router to support IPv6 routing by using the “IPv6 Unicast-Routing” command.  They also explain and show how to configure the router-id and also that ospfv3 is configured on a per interface basis rather than a subnet basis as well.",
+          "length": "1828",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-5-implementing_ospfv3-082316-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-5-implementing_ospfv3-082316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-5-implementing_ospfv3-082316-1-sm.jpg",
+          "title": "Implementing OSPFv3",
+          "transcript": "",
+          "url": "implementing-ospfv3",
+          "vimeoId": "181120722"
+        },
+        {
+          "description": "In this episode, Daniel and Don introduce you the the Enhanced Interior Gateway Routing Protocol(EIGRP). Here they will discuss what sets EIGRP apart from the other dynamic routing protocols. They look at how EIGRP calculates its metric, its auto route summarization, and route selection.",
+          "length": "2023",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-6-eigrp-082516-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-6-eigrp-082516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-6-eigrp-082516-1-sm.jpg",
+          "title": "Enhanced Interior Gateway Routing Protocol",
+          "transcript": "",
+          "url": "eigrp8",
+          "vimeoId": "181120721"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate how you implement the the Enhanced Interior Gateway Routing Protocol(EIGRP) in an IPv4 environment. They show you all the necessary commands, step-by-step, to get EIGRP enabled when using IPv4. They also show you how to verify that EIGRP is working properly.",
+          "length": "2224",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-7-implementing_eigrp_ipv4-082516-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-7-implementing_eigrp_ipv4-082516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-7-implementing_eigrp_ipv4-082516-1-sm.jpg",
+          "title": "Implementing EIGRP for IPv4",
+          "transcript": "",
+          "url": "implementing-eigrp-ipv4",
+          "vimeoId": "181120720"
+        },
+        {
+          "description": "In this episode, Daniel and Don demonstrate how you implement the the Enhanced Interior Gateway Routing Protocol(EIGRP) in an IPv6 environment. They show you all the necessary commands, step-by-step, to get EIGRP enabled when using IPv6. They also show you how to verify that EIGRP is working properly.",
+          "length": "1442",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-8-implementing_eigrp_ipv6-082516-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-8-implementing_eigrp_ipv6-082516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-2-8-implementing_eigrp_ipv6-082516-1-sm.jpg",
+          "title": "Implementing EIGRP for IPv6",
+          "transcript": "",
+          "url": "implementing-eigrp-ipv6",
+          "vimeoId": "181120719"
+        }
+      ],
+      "title": "Routing Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Don explore the venerable Point-to-Point Protocol or PPP as a simple WAN protocol solution. They begin by giving the history and use of PPP and then jump right into demonstrating what it takes to get PPP configured for a single link from the CLI.",
+          "length": "2158",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-1-ppp-082616-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-1-ppp-082616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-1-ppp-082616-1-sm.jpg",
+          "title": "Point-to-Point Protocol (PPP)",
+          "transcript": "",
+          "url": "ppp",
+          "vimeoId": "181122651"
+        },
+        {
+          "description": "In this episode, Daniel and Don continue their discussion of the Point-to-Point Protocol, this time taking you step-by-step through setting up PPP for a multilink environment. This will allow you to aggregate the bandwidth of multiple connections in real-time.",
+          "length": "2007",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-2-ppp_pt2-082616-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-2-ppp_pt2-082616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-1-2-ppp_pt2-082616-1-sm.jpg",
+          "title": "Point-to-Point Protocol (PPP) Part 2",
+          "transcript": "",
+          "url": "ppp2",
+          "vimeoId": "181122648"
+        },
+        {
+          "description": "In this episode, Daniel and Don introduce you to a handy little protocol known \nas Generic Routing Encapsulation(GRE). They show you some of the ways the GRE can be useful; ways like masking network complexity, link failure detection, easy redundant link configuration, and easy firewall configuration.",
+          "length": "2341",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-2-gre_tunnels-083116-1.jpg",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-2-gre_tunnels-083116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-2-gre_tunnels-083116-1-sm.jpg",
+          "title": "Generic Routing Encapsulation (GRE)",
+          "transcript": "",
+          "url": "gre-tunnels",
+          "vimeoId": "181122650"
+        },
+        {
+          "description": "In this episode, Wes and Don discuss various WAN technologies that the viewer should be aware of for the CCNA Routing and Switching exam. They take a look at the changes in the connectivity types such as company resources moving from internal locations to the cloud and what that means in terms of the connections types. They talk about the topologies, tunnels, VPNs and the common technologies used in these concepts.",
+          "length": "2023",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-3-wan_connectivity-110716-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-3-wan_connectivity-110716-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-3-wan_connectivity-110716-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "WAN Connectivity",
+          "transcript": "",
+          "url": "wan-connectivity",
+          "vimeoId": "191164746"
+        },
+        {
+          "description": "In this episode, Wes and Don explain the concepts surrounding the external border gateway protocol (EBGP). They look at the purpose for EBGP as well as to how it applies to autonomous systems. Finally, they will demonstrate how to configure EBGP.",
+          "length": "2063",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-4-external_border_gateway_protocol-110816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-4-external_border_gateway_protocol-110816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-3-4-external_border_gateway_protocol-110816-1-sm.jpg",
+          "title": "External Border Gateway Protocol",
+          "transcript": "",
+          "url": "external-border-gateway-protocol",
+          "vimeoId": "191051634"
+        }
+      ],
+      "title": "WAN Technologies"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don take a look at Hot Standby Router Protocol or HSRP. They explain virtual IP addresses when using HSRP as well as the states that a router can be  go through like initial, listen, speak…etc. They also explore priorities",
+          "length": "1977",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-101716-PGM.00_32_43_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-101716-PGM.00_32_43_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-101716-PGM.00_32_43_18.Still001-sm.jpg",
+          "title": "Hot Standby Router Protocol (HSRP)",
+          "transcript": "",
+          "url": "hot-standby-router-protocol-hsrp",
+          "vimeoId": "188021655"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on  Hot Standby Router Protocol or HSRP. They look at the router roles when utilizing the protocol",
+          "length": "1690",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-2-hsrp_pt2-101716-PGM.00_30_47_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-2-hsrp_pt2-101716-PGM.00_30_47_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-1-2-hsrp_pt2-101716-PGM.00_30_47_28.Still001-sm.jpg",
+          "title": "Hot Standby Router Protocol (HSRP) Part 2",
+          "transcript": "",
+          "url": "hot-standby-router-protocol-hsrp2",
+          "vimeoId": "188021726"
+        },
+        {
+          "description": "In this episode, Wes and Don discuss access control lists (ACLs). They take a look at standard ACLs while explaining the benefits and drawbacks of using this type of ACL. Finally they will introduce extended ACLs.",
+          "length": "1965",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-1-access_control_lists-101816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-1-access_control_lists-101816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-1-access_control_lists-101816-1-sm.jpg",
+          "title": "Access Control Lists",
+          "transcript": "",
+          "url": "access-control-lists4",
+          "vimeoId": "188024253"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on access control lists (ACLs). They dive more into extended ACLs showing more of the options that are available.",
+          "length": "2021",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-2-access_control_lists_pt2-101816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-2-access_control_lists_pt2-101816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-2-access_control_lists_pt2-101816-1-sm.jpg",
+          "title": "Access Control Lists Part 2",
+          "transcript": "",
+          "url": "access-control-lists5",
+          "vimeoId": "188662825"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on access control lists (ACLs). They finish explaining extended ACLs and demonstrate named ACLs.",
+          "length": "2243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-3-access_control_lists_pt3-101816-PGM.00_37_09_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-3-access_control_lists_pt3-101816-PGM.00_37_09_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-2-3-access_control_lists_pt3-101816-PGM.00_37_09_09.Still001-sm.jpg",
+          "title": "Access Control Lists Part 3",
+          "transcript": "",
+          "url": "access-control-lists6",
+          "vimeoId": "188021654"
+        },
+        {
+          "description": "In this episode, Wes and Don dive into the Application Policy Infrastructure Controller- Enterprise Module. They describe the benefits of APIC-EM like allowing for visibility of ACL behavior prior to deployment as well as using APIC-EM for online sandbox testing.",
+          "length": "1855",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-3-using_the_apic_em-102016.00_30_41_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-3-using_the_apic_em-102016.00_30_41_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-3-using_the_apic_em-102016.00_30_41_14.Still001-sm.jpg",
+          "title": "Using APIC-EM",
+          "transcript": "",
+          "url": "using-apicem",
+          "vimeoId": "188994782"
+        },
+        {
+          "description": "In this episode, Wes and Don take a look at the concepts surrounding Quality of Service commonly known as QoS. They explain the purpose for QoS as well as technologies such as marking, device trusts, marking, prioritization, shaping and traffic policing. They will also demonstrate setting up auto QoS.",
+          "length": "2065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-1-quality_of_service-110816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-1-quality_of_service-110816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-1-quality_of_service-110816-1-sm.jpg",
+          "title": "Quality of Service",
+          "transcript": "",
+          "url": "qualityservice",
+          "vimeoId": "193879829"
+        },
+        {
+          "description": "In this episode, Wes and Don continue their discussion on the concepts surrounding Quality of Service. They explain concepts like congestion management and random market detection or RED. They will finally demonstrate how to configure a network for QoS.",
+          "length": "1827",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-2-quality_of_service_pt2-110816-110816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-2-quality_of_service_pt2-110816-110816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-4-4-2-quality_of_service_pt2-110816-110816-1-sm.jpg",
+          "title": "Quality of Service Part 2",
+          "transcript": "",
+          "url": "qualityservice2",
+          "vimeoId": "190928839"
+        }
+      ],
+      "title": "Infrastructure Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Wes and Don explore the simple network management  protocol or SNMP. They talk about the differences between the versions of SNMP, i.e. versions 1,2 and 3 as well as the benefits and drawbacks of the different versions including configuration and security. They will demonstrate how to set up the SNMP protocols within a network.",
+          "length": "2142",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-1-snmp-102016.00_35_26_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-1-snmp-102016.00_35_26_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-1-snmp-102016.00_35_26_10.Still001-sm.jpg",
+          "title": "Simple Network Management Protocol",
+          "transcript": "",
+          "url": "simple-network-management-protocol",
+          "vimeoId": "188994780"
+        },
+        {
+          "description": "In this episode, Wes and Don explore IP service level agreements (SLAs) and tracking objects. They explain what types of things can be monitored with SLAs and demonstrate configuring them.",
+          "length": "2264",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-2-ip_slas_and_tracking-102116.00_37_27_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-2-ip_slas_and_tracking-102116.00_37_27_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-2-ip_slas_and_tracking-102116.00_37_27_01.Still001-sm.jpg",
+          "title": "IP SLA's and Tracking Objects",
+          "transcript": "",
+          "url": "ip-slastracking-objects",
+          "vimeoId": "188994781"
+        },
+        {
+          "description": "In this episode, Wes and Don introduce the Switch Port Analyzer also known as SPAN. They look at SPAN’s ability to mirror traffic, transmit or receive, the usefulness in IDS and IPS deployments. Finally they will demonstrate setting up, configuring and using SPAN.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-3-switch_port_analyzer-102116-PGM.00_31_33_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-3-switch_port_analyzer-102116-PGM.00_31_33_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-3-switch_port_analyzer-102116-PGM.00_31_33_20.Still001-sm.jpg",
+          "title": "Switch Port Analyzer (SPAN)",
+          "transcript": "",
+          "url": "spam",
+          "vimeoId": "195023238"
+        },
+        {
+          "description": "In this episode, Wes and Don external services and how is relates to enterprise network architecture. They discuss a couple of models, the first being a legacy model with the inclusion of services such as RADIUS and TACACS+. They also dive into a newer model known as software defined networks or SDN, explaining the differences between these models as well as the benefits of SDN.",
+          "length": "2173",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-4-external_services-110916-high.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-4-external_services-110916-high-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccna200105/cisco-ccna200105-5-4-external_services-110916-high-sm.jpg",
+          "title": "External Services",
+          "transcript": "",
+          "url": "external-services",
+          "vimeoId": "204535639"
+        }
+      ],
+      "title": "Infrastructure Maintenance"
+    }
+  ],
+  "url": "ccna-routing-switching4",
+  "vLab": false
+}

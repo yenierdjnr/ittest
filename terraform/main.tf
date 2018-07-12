@@ -69,7 +69,7 @@ module "staging" {
   region = "us-east-1"
   cluster_name = "${data.terraform_remote_state.genesis.main_cluster_name}"
   image_tag = "commit-${var.staging["tag"]}"
-  proxy_url = "new-staging.itpro.tv"
+  proxy_url = "http://new-staging.itpro.tv.s3-website-us-east-1.amazonaws.com"
 }
 
 module "production" {

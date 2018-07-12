@@ -5,14 +5,12 @@ import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 
 
-const AboutContent = props => {
-  return (
-    <section className={ styles.capsule }>
-      <div className={ styles.row }>
-        <div className={ styles.col }>
-          <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>About ITProTV</Hx>
-          <Para className={ styles.content } color={ styles.greyDark }>ITProTV takes the best aspects of in-person training and delivers it online and on-demand. Attractive studios, engaging hosts, and effective content make ITProTV the choice of IT professionals globally.</Para>
-        </div>
+const AboutContent = () =>
+  <section className={ styles.capsule }>
+    <div className={ styles.row }>
+      <div className={ styles.col }>
+        <Hx size="1" className={ styles.subtitle } color={ styles.offBlack }>About ITProTV</Hx>
+        <Para className={ styles.content } color={ styles.greyDark }>ITProTV takes the best aspects of in-person training and delivers it online and on-demand. Attractive studios, engaging hosts, and effective content make ITProTV the choice of IT professionals globally.</Para>
       </div>
       <div className={ styles.row }>
         <div className={ styles.col }>
@@ -24,9 +22,9 @@ const AboutContent = props => {
           <Para className={ styles.tourContent } color={ styles.greyDark }>In Gainesville? Let us know you're coming by for a tour: <a className={ styles['email'] } href="mailto:support@itpro.tv">support@itpro.tv</a>.</Para>
         </div>
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+  ;
 
 
 export default AboutContent;

@@ -70,8 +70,9 @@ class Plans extends Component {
     };
   }
 
-  handleClick = target => {
-    const { monthly, annual } = this.state;
+  handleClick = (target) => {
+    const { annual, monthly } = this.state;
+
     let currentPricing = {};
 
     if (target === 'annual') {
@@ -86,7 +87,7 @@ class Plans extends Component {
   };
 
   render () {
-    const { data, history, location, match, page, pageResources, pageContext, staticContext } = this.props;
+    const { location } = this.props;
     const { currentPricing } = this.state;
 
     return (
@@ -103,12 +104,12 @@ class Plans extends Component {
 
           <section className={ styles.Benefits }>
             <Benefits />
-         </section>
+          </section>
         </main>
       </Fragment>
     );
   }
-};
+}
 
 
 export default Plans;

@@ -1,0 +1,613 @@
+{
+  "description": "CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-103 and LX0-104) are awarded with not one, but three certifications: the CompTIA Linux+ certification, the LPI LPIC-1 certification and SUSE Certified Linux Administrator (CLA). That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+  "descriptionMD": "CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-103 and LX0-104) are awarded with not one, but three certifications: the CompTIA Linux+ certification, the LPI LPIC-1 certification and SUSE Certified Linux Administrator (CLA). That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume. __[Click here](https://itpro.tv/comptia-partnership) to get an exam voucher discount.__",
+  "length": "82687",
+  "name": "CompTIA Linux+",
+  "practiceExam": true,
+  "subtitle": "Powered by LPI",
+  "tagUrl": "comptia",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "CompTIA and the Linux Professional Institute (LPI) have worked in conjunction to create the CompTIA Linux+ certification. The certification covers the basic knowledge required of a junior level Linux administrator. Candidates are expected to be able to work competently across a wide array of environments and skill sets. Unlike many certifications, candidates who complete the Linux+ exams (LX0-103 and LX0-104) are awarded with not one, but three certifications: the CompTIA Linux+ certification, the LPI LPIC-1 certification and SUSE Certified Linux Administrator (CLA). That makes this an excellent starting point for people interested in working with Linux as you gain essential base knowledge as well as fill out your resume.",
+          "length": "573",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-0-0-overview-012916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-0-0-overview-012916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-0-0-overview-012916-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:07.665\n[MUSIC]\n\n2\n00:00:07.665 --> 00:00:08.925\n>> In this segment,\n\n3\n00:00:08.925 --> 00:00:14.899\nwe're gonna give you a brief overview\nof the Linux+ LXO-103 and 104 exams.\n\n4\n00:00:14.899 --> 00:00:15.407\n>> [LAUGH]\n>> Yes,\n\n5\n00:00:15.407 --> 00:00:17.804\nthere are two of them\navailable from CompTIA.\n\n6\n00:00:17.804 --> 00:00:19.368\nAnd joining me today is Don.\n\n7\n00:00:19.368 --> 00:00:23.291\nHe's gonna give us a help here and give us\na good overview of what we can expect and\n\n8\n00:00:23.291 --> 00:00:24.711\nsee in the upcoming series.\n\n9\n00:00:24.711 --> 00:00:26.256\nSo Don, take it away.\n\n10\n00:00:26.256 --> 00:00:28.187\nWhat can we expect from this series?\n\n11\n00:00:28.187 --> 00:00:31.568\n>> Well, the CompTIA Linux+ certification\nis a great certification for\n\n12\n00:00:31.568 --> 00:00:33.549\npeople just getting started with Linux.\n\n13\n00:00:33.549 --> 00:00:35.953\nYou don't have to know one\nsingle bit about Linux, and\n\n14\n00:00:35.953 --> 00:00:38.356\nwe start with running through\nhow to get it installed,\n\n15\n00:00:38.356 --> 00:00:40.721\nsome of the different\ndistributions to choose from.\n\n16\n00:00:40.721 --> 00:00:43.221\nAnd then once it's installed,\nhow to support and operate it.\n\n17\n00:00:43.221 --> 00:00:47.043\nThe goal of the CompTIA Linux+\ncertification is to prove that you have\n\n18\n00:00:47.043 --> 00:00:49.701\nthe knowledge to support\nLinux workstations and\n\n19\n00:00:49.701 --> 00:00:51.734\nservers in a business environment.\n\n20\n00:00:51.734 --> 00:00:56.195\nAnd that's a pretty important thing to be\nable to do these days as Linux usage is\n\n21\n00:00:56.195 --> 00:00:57.423\nraising every year.\n\n22\n00:00:57.423 --> 00:00:59.310\nSeeing more and\nmore server deployments and\n\n23\n00:00:59.310 --> 00:01:01.709\neven a few more desktop\ndeployments that are out there.\n\n24\n00:01:01.709 --> 00:01:04.331\nNow, a couple of neat things\nabout the certification.\n\n25\n00:01:04.331 --> 00:01:06.889\nIt is two exams, like Daniel mentioned.\n\n26\n00:01:06.889 --> 00:01:08.963\nSo it divides the topics in\nhalf which is kind of nice.\n\n27\n00:01:08.963 --> 00:01:12.513\nMakes it where you have a smaller set\nof data to deal with for each exam, but\n\n28\n00:01:12.513 --> 00:01:16.237\nthe other thing is CompTIA developed\nthis in partnership with the LPI, and so\n\n29\n00:01:16.237 --> 00:01:18.207\nyou'll see like on their website here.\n\n30\n00:01:18.207 --> 00:01:24.728\nLet me pull up CompTIA's website where\nit's the CompTIA Linux+ powered by LPI.\n\n31\n00:01:24.728 --> 00:01:28.100\nNow LPI, they're an organization\nthat makes Linux certifications.\n\n32\n00:01:28.100 --> 00:01:30.749\nAnd when you get your CompTIA Linux+,\n\n33\n00:01:30.749 --> 00:01:35.089\nyou actually get your LPIC-1\ncertification at the same time.\n\n34\n00:01:35.089 --> 00:01:39.498\nYou get two certifications at once, and\nso that's a neat little benefit here.\n\n35\n00:01:39.498 --> 00:01:42.689\nIt's the same set of exams, and\nyou kind of get double certifications.\n\n36\n00:01:42.689 --> 00:01:47.638\nNow, the exams themselves are the LX-103\nand 104, and those divide up the content\n\n37\n00:01:47.638 --> 00:01:50.650\nlike I said, and\nthey divide it up in a pretty neat way.\n\n38\n00:01:50.650 --> 00:01:52.703\nLet me bring up the objectives here.\n\n39\n00:01:52.703 --> 00:01:55.710\nSo here's the exam objectives for\nthe LX0-103.\n\n40\n00:01:55.710 --> 00:01:58.844\nIt's the first part that\nwe cover in the series, and\n\n41\n00:01:58.844 --> 00:02:01.561\nit focuses on introducing\nyou guys to Linux.\n\n42\n00:02:01.561 --> 00:02:04.135\nSo if you've never worked\nwith Linux before,\n\n43\n00:02:04.135 --> 00:02:06.254\nit starts with system architecture.\n\n44\n00:02:06.254 --> 00:02:07.372\nWhat is Linux?\n\n45\n00:02:07.372 --> 00:02:08.205\nHow does it work?\n\n46\n00:02:08.205 --> 00:02:09.485\nWhat's going on under the hood?\n\n47\n00:02:09.485 --> 00:02:10.906\nHow does this thing even function?\n\n48\n00:02:10.906 --> 00:02:13.893\nWhat is it that makes Linux Linux?\n\n49\n00:02:13.893 --> 00:02:17.043\nAnd then it moves on to installation and\npackage management.\n\n50\n00:02:17.043 --> 00:02:21.533\nHow do I install the operating system,\nand how do I add software on top of that?\n\n51\n00:02:21.533 --> 00:02:25.109\nBecause it's not gonna be terribly useful\nunless I have some good software on there.\n\n52\n00:02:25.109 --> 00:02:28.217\nThen we learn about our standard GNU and\nUnix commands.\n\n53\n00:02:28.217 --> 00:02:29.939\nSo as we work with\nthe command line utilities,\n\n54\n00:02:29.939 --> 00:02:32.423\nwe've got a ton of programs we need\nto know, we learn about those.\n\n55\n00:02:32.423 --> 00:02:36.791\nAnd lastly, we talk about our hardware,\nour file systems, devices, the hierarchy,\n\n56\n00:02:36.791 --> 00:02:39.046\nhow it kind of arranges\nthings in the system.\n\n57\n00:02:39.046 --> 00:02:41.223\nSo this is a fairly low level course,\n\n58\n00:02:41.223 --> 00:02:45.440\nreally focusing on the operating\nsystem itself, getting it running on\n\n59\n00:02:45.440 --> 00:02:49.814\nyour computer and all the different\nways it interacts with the computer.\n\n60\n00:02:49.814 --> 00:02:52.772\nEverything you need to know\nto get started with Linux,\n\n61\n00:02:52.772 --> 00:02:56.903\nthat's the focus of the 103 exam,\nand it's all divided fairly evenly.\n\n62\n00:02:56.903 --> 00:03:00.384\nThe command line is really where\nthe majority of the exam is based, and\n\n63\n00:03:00.384 --> 00:03:01.446\nthat's important,\n\n64\n00:03:01.446 --> 00:03:05.295\ncuz we need that for the second exam where\nwe start to use all these utilities.\n\n65\n00:03:05.295 --> 00:03:10.049\nNow, the second exam is the 104 and\nlet me just pull that up real quick.\n\n66\n00:03:10.049 --> 00:03:13.824\nHere's the 104, and the exam\nobjectives are a little different here.\n\n67\n00:03:13.824 --> 00:03:16.993\nNow, it shifts from how does Linux work?\n\n68\n00:03:16.993 --> 00:03:19.920\nHow do I get Linux running\nto how do I use it?\n\n69\n00:03:19.920 --> 00:03:22.459\nNow that I got it up and\nrunning, what do I do with it?\n\n70\n00:03:22.459 --> 00:03:24.024\nSo how do we use the shell?\n\n71\n00:03:24.024 --> 00:03:26.359\nHow do we write scripts\nto automate things?\n\n72\n00:03:26.359 --> 00:03:28.006\nHow do we manage our data?\n\n73\n00:03:28.006 --> 00:03:30.810\nWhat kind of user interfaces and\ndesktops are available?\n\n74\n00:03:30.810 --> 00:03:33.165\nWhat are my end users going to see?\n\n75\n00:03:33.165 --> 00:03:37.665\nWhat are standard administrative tasks I\nneed to do keep Linux running smoothly and\n\n76\n00:03:37.665 --> 00:03:38.509\nefficiently?\n\n77\n00:03:38.509 --> 00:03:41.598\nThat's where we make our money\nby supporting these systems.\n\n78\n00:03:41.598 --> 00:03:44.685\nThen essential system services,\nthis is where it deviates.\n\n79\n00:03:44.685 --> 00:03:46.839\nIt stops talking about Linux and\n\n80\n00:03:46.839 --> 00:03:50.680\nstarts talking about the services\nwe run on top of Linux.\n\n81\n00:03:50.680 --> 00:03:52.121\nDo you want to run a web server?\n\n82\n00:03:52.121 --> 00:03:52.934\nWe talk about that.\n\n83\n00:03:52.934 --> 00:03:53.971\nWant to run a mail server?\n\n84\n00:03:53.971 --> 00:03:55.007\nA file server?\n\n85\n00:03:55.007 --> 00:03:56.895\nWe hit each of those kind of critical,\n\n86\n00:03:56.895 --> 00:03:59.496\nessential services that\na company is going to need.\n\n87\n00:03:59.496 --> 00:04:00.980\nThen we do networking.\n\n88\n00:04:00.980 --> 00:04:04.292\nIf you're deploying Linux, it is a network\noperating system under the hood.\n\n89\n00:04:04.292 --> 00:04:07.264\nSo we need to understand how to get\nthose systems to talk to each other, so\n\n90\n00:04:07.264 --> 00:04:08.355\nwe spend some time there.\n\n91\n00:04:08.355 --> 00:04:12.927\nAnd then lastly, what's probably\nthe most important section is security.\n\n92\n00:04:12.927 --> 00:04:15.262\nHow do we make sure that our\nLinux installs are safe?\n\n93\n00:04:15.262 --> 00:04:19.774\nThe desktops are always pretty safe, but\nthe servers, those are big attack targets.\n\n94\n00:04:19.774 --> 00:04:22.170\nThere's hackers out there that\nwant to get into your system.\n\n95\n00:04:22.170 --> 00:04:23.897\nSo how do we make sure\nthat doesn't happen?\n\n96\n00:04:23.897 --> 00:04:27.630\nAnd we talk about how to secure the files\nand the networking on our systems and\n\n97\n00:04:27.630 --> 00:04:28.632\nget those secured.\n\n98\n00:04:28.632 --> 00:04:34.330\nSo the second exam, the 104, is much more\nabout using Linux than the 103 exam is,\n\n99\n00:04:34.330 --> 00:04:37.570\nwhich is more about getting Linux up and\nrunning.\n\n100\n00:04:37.570 --> 00:04:40.545\nBut by dividing it in half like this,\nit makes it easier for\n\n101\n00:04:40.545 --> 00:04:42.568\nyou to focus in on one particular area.\n\n102\n00:04:42.568 --> 00:04:43.990\nTake that exam and pass it and\n\n103\n00:04:43.990 --> 00:04:48.035\nthen change your focus without having to\nbe distracted by too many crazy things.\n\n104\n00:04:48.035 --> 00:04:51.245\nNow if you pass one exam,\nyou do not get a certification.\n\n105\n00:04:51.245 --> 00:04:54.962\nYou have to pass both exams to\nget the Linux+ certification.\n\n106\n00:04:54.962 --> 00:04:58.477\nAnd when you pass them both,\nyou also get the LPIC-1 certification.\n\n107\n00:04:58.477 --> 00:05:01.567\nSo you do have to pass both,\ndon't think you can just do one.\n\n108\n00:05:01.567 --> 00:05:04.564\nThey really are a pair, and\nthat's why here on ITProTV,\n\n109\n00:05:04.564 --> 00:05:08.008\nyou'll notice that our show is both,\nthe 103 and the 104.\n\n110\n00:05:08.008 --> 00:05:09.023\nNow, we cover them in that order.\n\n111\n00:05:09.023 --> 00:05:12.070\nWe do divide it in half, but\nwe know you're gonna watch both.\n\n112\n00:05:12.070 --> 00:05:13.956\nSo we grouped them together,\nyou'll see them,\n\n113\n00:05:13.956 --> 00:05:16.397\nyou kind of move through them all and\nthen go and pass that exam.\n\n114\n00:05:16.397 --> 00:05:16.966\n>> Awesome stuff.\n\n115\n00:05:16.966 --> 00:05:19.614\nNow when you are ready to\ntake the exam should I say,\n\n116\n00:05:19.614 --> 00:05:23.938\nyou covered all the material, you watched\nour videos, you think, you know what?\n\n117\n00:05:23.938 --> 00:05:25.339\nI think I got this guy down.\n\n118\n00:05:25.339 --> 00:05:28.753\nDon, what do we got to do to get signed\nup for that exam so we can take it?\n\n119\n00:05:28.753 --> 00:05:32.653\n>> Well, CompTIA uses Pearson VUE for\ntheir testing exclusively.\n\n120\n00:05:32.653 --> 00:05:35.213\nSo you need to go to a Pearson VUE\ncenter to be able to take that.\n\n121\n00:05:35.213 --> 00:05:37.834\nFortunately, they've got\ncenters all over the world.\n\n122\n00:05:37.834 --> 00:05:43.259\nIf you wanna find one, the website to\ngo to is vue.com, and it's V-U-E.com.\n\n123\n00:05:43.259 --> 00:05:45.392\nAnd so I've got their\nwebsite pulled up right here.\n\n124\n00:05:45.392 --> 00:05:48.460\nSo this is Pearson Vue's website,\nV-U-E.com.\n\n125\n00:05:48.460 --> 00:05:50.857\nIt actually redirects to pearsonvue.com.\n\n126\n00:05:50.857 --> 00:05:55.733\nBut once you're here, you can see this\nlink here that says, For test takers.\n\n127\n00:05:55.733 --> 00:06:00.027\nAnd so you can go to the test taker web\npage, and on the test taker web page,\n\n128\n00:06:00.027 --> 00:06:04.809\nthey've got where you can come in and pick\nthe program that you're looking for and\n\n129\n00:06:04.809 --> 00:06:06.908\nthen find a location to take a test.\n\n130\n00:06:06.908 --> 00:06:10.894\nSo if I come in and say that I'm\nlooking for a CompTIA exam, and\n\n131\n00:06:10.894 --> 00:06:15.428\nit takes me to the official CompTIA\npage and starts to tell me about it.\n\n132\n00:06:15.428 --> 00:06:17.967\nAnd over here,\nit gives me the chance to sign in and\n\n133\n00:06:17.967 --> 00:06:20.873\ncreate a free account to then go and\nsign up for the exams.\n\n134\n00:06:20.873 --> 00:06:22.009\nNow, the exams are not free.\n\n135\n00:06:22.009 --> 00:06:24.697\nWhen you login, it will tell you how\nmuch they cost, cuz it's different for\n\n136\n00:06:24.697 --> 00:06:27.354\ndifferent countries, but the most\nimportant part is this guy right here.\n\n137\n00:06:27.354 --> 00:06:28.978\nFind a test center.\n\n138\n00:06:28.978 --> 00:06:33.591\nYou can choose that and find\na Pearson Vue testing center near you.\n\n139\n00:06:33.591 --> 00:06:36.659\nSo let's think of a city.\n\n140\n00:06:36.659 --> 00:06:37.451\n>> Cincinnati.\n\n141\n00:06:37.451 --> 00:06:38.832\n>> Cincinnati, you had to pick\none I don't know how to spell.\n\n142\n00:06:38.832 --> 00:06:42.164\n>> [LAUGH]\n>> Cincinnati, that's what Ohio?\n\n143\n00:06:42.164 --> 00:06:42.835\n>> Yep.\n\n144\n00:06:42.835 --> 00:06:43.851\n>> Cincinnati, Ohio.\n\n145\n00:06:43.851 --> 00:06:46.330\nSo we'll go ahead and search for\nthat, which I'm sure I spelled wrong.\n\n146\n00:06:46.330 --> 00:06:47.671\nThere we go.\n\n147\n00:06:47.671 --> 00:06:50.100\nSo here it pulled up Cincinnati, Ohio, and\n\n148\n00:06:50.100 --> 00:06:54.050\nthere's five Pearson Vue testing\ncenters right there in Cincinnati.\n\n149\n00:06:54.050 --> 00:06:57.053\nAnd you can even pick small towns like\nwe're here in Gainesville, Florida, and\n\n150\n00:06:57.053 --> 00:06:58.743\nGainesville, Florida is a very small town.\n\n151\n00:06:58.743 --> 00:07:01.585\nAnd so if I do a search for\nGainesville, Florida,\n\n152\n00:07:01.585 --> 00:07:05.935\nyou'll see that there's actually more\nthan one testing center here also.\n\n153\n00:07:05.935 --> 00:07:07.419\nAnd so that's convenient.\n\n154\n00:07:07.419 --> 00:07:09.390\nActually, there's four\ntesting centers here.\n\n155\n00:07:09.390 --> 00:07:12.866\nYou'll find that a lot of\ncommunity colleges and\n\n156\n00:07:12.866 --> 00:07:18.898\neven just private training companies will\nhave testing centers available for you.\n\n157\n00:07:18.898 --> 00:07:22.046\nSo there's just a lot of opportunity to\nfind one that's nearby, you can go and\n\n158\n00:07:22.046 --> 00:07:22.677\ntake the test.\n\n159\n00:07:22.677 --> 00:07:25.988\nYou don't sign up for\nthe test at the testing center.\n\n160\n00:07:25.988 --> 00:07:28.142\nDon't go to the testing\ncenter expecting to sign up.\n\n161\n00:07:28.142 --> 00:07:31.260\nMake sure you go to the VUE website and\nsign up there and\n\n162\n00:07:31.260 --> 00:07:34.114\nthen pick your testing center and\ngo and take it.\n\n163\n00:07:34.114 --> 00:07:39.104\nAnd when you pass the exam, the testing\ncenter sends those results up to CompTIA,\n\n164\n00:07:39.104 --> 00:07:44.110\nand then CompTIA gets you a certificate\nthat shows you are now Linux+ certified.\n\n165\n00:07:44.110 --> 00:07:48.234\nNow keep in mind that there are continuing\neducation requirements for Linux+ that you\n\n166\n00:07:48.234 --> 00:07:52.258\nneed to recertify every two years, or you\nneed to do continuing education credits.\n\n167\n00:07:52.258 --> 00:07:54.221\nYou continue to watch shows and\n\n168\n00:07:54.221 --> 00:07:59.064\nattend other courses to get CE credits\nto keep your certification current.\n\n169\n00:07:59.064 --> 00:08:02.031\nYou can't just take it once and forget\nabout it, you do need to maintain it.\n\n170\n00:08:02.031 --> 00:08:02.877\n>> Awesome.\nNow Don,\n\n171\n00:08:02.877 --> 00:08:06.284\nis there anything else that we need to\nknow about the Linux+ certification exams\n\n172\n00:08:06.284 --> 00:08:09.609\nspecifically, or our series coming up\nthat you'd like to tell the audience?\n\n173\n00:08:09.609 --> 00:08:12.567\n>> So the series, we cover all\nthe objectives for the 103 and\n\n174\n00:08:12.567 --> 00:08:14.018\nthe 104 certifications.\n\n175\n00:08:14.018 --> 00:08:15.053\nSo we knock them all out.\n\n176\n00:08:15.053 --> 00:08:17.736\nWe cover everything you need to know\nto get in there and pass that exam.\n\n177\n00:08:17.736 --> 00:08:20.511\nYou may choose to supplement your\nstudies with a book if you want,\n\n178\n00:08:20.511 --> 00:08:22.285\nthere's plenty of great ones out there.\n\n179\n00:08:22.285 --> 00:08:25.970\nSybex has a wonderful Linux+ book you\ncan use, really good content there, but\n\n180\n00:08:25.970 --> 00:08:29.435\nour video is designed to be pretty\nall-inclusive to cover all those topics\n\n181\n00:08:29.435 --> 00:08:31.143\nand to make sure that you're ready.\n\n182\n00:08:31.143 --> 00:08:34.927\nWe do have practice exams\navailable on the website,\n\n183\n00:08:34.927 --> 00:08:38.376\nso we do practice exams\nthrough Transcenders.\n\n184\n00:08:38.376 --> 00:08:39.311\nThere we go, I almost forgot.\n\n185\n00:08:39.311 --> 00:08:42.209\nSo you can get practice exams to make\nsure that you're ready for it, but\n\n186\n00:08:42.209 --> 00:08:43.821\nit's a pretty straightforward exam.\n\n187\n00:08:43.821 --> 00:08:45.284\nThere's no trick questions on this one.\n\n188\n00:08:45.284 --> 00:08:46.808\nYou either know the commands,\nor you don't.\n\n189\n00:08:46.808 --> 00:08:47.680\nYou learn the content.\n\n190\n00:08:47.680 --> 00:08:48.899\nYou get in there and pass it.\n\n191\n00:08:48.899 --> 00:08:49.915\nDefinitely a great one.\n\n192\n00:08:49.915 --> 00:08:54.211\nOnce you're Linux+ certified,\nif you wanna move beyond Linux+,\n\n193\n00:08:54.211 --> 00:08:57.109\nit's a good idea to check\nout the LPI website.\n\n194\n00:08:57.109 --> 00:08:59.525\nThe LPI guys, they have a ton\nof other certifications too.\n\n195\n00:08:59.525 --> 00:09:03.975\nCompTIA just has the Linux+ which again,\nyou really don't have any prerequisites.\n\n196\n00:09:03.975 --> 00:09:06.215\nYou don't need to have any\nprior experience with Linux,\n\n197\n00:09:06.215 --> 00:09:07.942\nyou can just jump right in and\nget started and\n\n198\n00:09:07.942 --> 00:09:10.010\nlearn everything that you\nneed to know to deploy it.\n\n199\n00:09:10.010 --> 00:09:11.310\nIt's really good stuff.\n\n200\n00:09:11.310 --> 00:09:12.082\n>> Excellent, Don.\n\n201\n00:09:12.082 --> 00:09:13.646\nWell, thank you so much for that synopsis.\n\n202\n00:09:13.646 --> 00:09:15.170\nHopefully, that worked out for you.\n\n203\n00:09:15.170 --> 00:09:19.237\nAnd if Linux+ sounds like something\nthat's exciting, and it's entertaining or\n\n204\n00:09:19.237 --> 00:09:21.094\nsomething you need to do, well then,\n\n205\n00:09:21.094 --> 00:09:23.723\nwe look forward to seeing\nyou in our upcoming series.\n\n206\n00:09:23.723 --> 00:09:31.840\n[MUSIC]\n\n",
+          "url": "overview70712",
+          "vimeoId": "153772103"
+        },
+        {
+          "description": "In this episode, Don and Daniel explain the basics of the Linux command-line interface (CLI) and some of the built-in CLI commands. They explain what a shell is and even give you some tips for maneuvering around your command history. Also discussed is the Linux manual pages (man pages) which are a set of basic help documents for CLI programs.",
+          "length": "1894",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linux103-1-1-command_line_basics-051915.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linux103-1-1-command_line_basics-051915-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linux103-1-1-command_line_basics-051915-sm.jpg",
+          "title": "Command-line Basics",
+          "transcript": "",
+          "url": "commandline-basics",
+          "vimeoId": "128405453"
+        },
+        {
+          "description": null,
+          "length": "1695",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-2-streams_redirection_pipes-052115.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-2-streams_redirection_pipes-052115-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-2-streams_redirection_pipes-052115-sm.jpg",
+          "title": "Streams, Redirection and Pipes",
+          "transcript": "",
+          "url": "streams-redirection-pipes",
+          "vimeoId": "128989506"
+        },
+        {
+          "description": null,
+          "length": "1859",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-3-processing_text-052015.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-3-processing_text-052015-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-3-processing_text-052015-sm.jpg",
+          "title": "Processing Text",
+          "transcript": "",
+          "url": "processing-text",
+          "vimeoId": "128493263"
+        },
+        {
+          "description": "In this episode, Daniel and Don guide you through understanding and utilizing regular expression in Linux. They start by explaining the concept of regular expression; defining what it is and how it's used. Next they show you the particulars of the syntax for RegEx in conjunction with programs like the Bash environment, grep, egrep, fgrep, and sed.",
+          "length": "2561",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-4-using_regular_expressions-012716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-4-using_regular_expressions-052015-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-1-4-using_regular_expressions-052015-sm.jpg",
+          "title": "Using Regular Expressions",
+          "transcript": "",
+          "url": "using-regular-expressions",
+          "vimeoId": "153380642"
+        },
+        {
+          "description": null,
+          "length": "1703",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-editing_files_with_vi-061515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-editing_files_with_vi-061515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-editing_files_with_vi-061515-1-sm.jpg",
+          "title": "Editing Files with vi",
+          "transcript": "",
+          "url": "editing-files-vi",
+          "vimeoId": "130988955"
+        },
+        {
+          "description": "In this episode, Don and Daniel continue with their showcase of the vi(m) text editor in Linux. They pick back up by exploring some other common commands and features intrinsic to the vi(m) editor. This includes things like searching and navigating text, appending and deleting, and saving changes.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-2-editing_files_with_vi_pt2-012816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-2-editing_files_with_vi_pt2-012816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-1-5-2-editing_files_with_vi_pt2-012816-1-sm.jpg",
+          "title": "Editing Files with vi Part 2",
+          "transcript": "",
+          "url": "editing-files-vi-2",
+          "vimeoId": "153507238"
+        }
+      ],
+      "title": "(LX0-103) Exploring Linux Command-Line Tools"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1823",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-1-using_rpm-052215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-1-using_rpm-052215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-1-using_rpm-052215-sm.jpg",
+          "title": "Using RPM",
+          "transcript": "",
+          "url": "using-rpm",
+          "vimeoId": "128989513"
+        },
+        {
+          "description": "In this episode, Daniel and Don explain package management when using Debian Linux distributions. They describe the different Debian package management systems like dpkg, apt-get, dselect, and aptitude; how to use them to install, configure, and remove software from your Linux system.",
+          "length": "1624",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-2-using_debian_packages-052215.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-2-using_debian_packages-052215-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-2-2-using_debian_packages-052215-sm.jpg",
+          "title": "Using Debian Packages",
+          "transcript": "",
+          "url": "using-debian-packages",
+          "vimeoId": "128989508"
+        },
+        {
+          "description": null,
+          "length": "1567",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-3-managing_shared_libraries-061515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-3-managing_shared_libraries-061515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-3-managing_shared_libraries-061515-1-sm.jpg",
+          "title": "Managing Shared Libraries",
+          "transcript": "",
+          "url": "managing-shared-libraries",
+          "vimeoId": "130988937"
+        },
+        {
+          "description": null,
+          "length": "1778",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-4-managing_processes-061515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-4-managing_processes-061515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-2-4-managing_processes-061515-1-sm.jpg",
+          "title": "Managing Processes",
+          "transcript": "",
+          "url": "managing-processes",
+          "vimeoId": "130988918"
+        }
+      ],
+      "title": "(LX0-103) Managing Software"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "2034",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware-061615-1-sm.jpg",
+          "title": "Configuring Hardware",
+          "transcript": "",
+          "url": "configuring-hardware-apps1",
+          "vimeoId": "131435031"
+        },
+        {
+          "description": null,
+          "length": "1165",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware_pt2-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware_pt2-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-1-configuring_hardware_pt2-061615-1-sm.jpg",
+          "title": "Configuring Hardware Part 2",
+          "transcript": "",
+          "url": "configuring-hardware-apps2",
+          "vimeoId": "131435032"
+        },
+        {
+          "description": null,
+          "length": "1743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-2-configuring_hard_disks-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-2-configuring_hard_disks-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-2-configuring_hard_disks-061615-1-sm.jpg",
+          "title": "Configuring Hard Disks",
+          "transcript": "",
+          "url": "configuring-hard-disks",
+          "vimeoId": "130988906"
+        },
+        {
+          "description": "Errata: At the end of the episode, Don mentioned installing the LVM during an install allowed all partitions to participate in LVM. He specifically mentioned the \"boot volume\" when he should have said \"root volume\". For the system to boot, the EFI partition and /boot cannot be a part of LVM as the service is not loaded until after the kernel fires.",
+          "length": "1447",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-3-lvm-061615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-3-lvm-061615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-3-lvm-061615-1-sm.jpg",
+          "title": "Logical Volume Manager",
+          "transcript": "",
+          "url": "logical-volume-manager",
+          "vimeoId": "130988856"
+        },
+        {
+          "description": null,
+          "length": "1842",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health-061715-1-sm.jpg",
+          "title": "Filesystem Health",
+          "transcript": "",
+          "url": "filesystem-health-3",
+          "vimeoId": "131129587"
+        },
+        {
+          "description": null,
+          "length": "1590",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health_pt2-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health_pt2-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-3-4-filesystem_health_pt2-061715-1-sm.jpg",
+          "title": "Filesystem Health Part 2",
+          "transcript": "",
+          "url": "filesystem-health-2",
+          "vimeoId": "131129584"
+        }
+      ],
+      "title": "(LX0-103) Configuring Hardware"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1577",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands-061715-1-sm.jpg",
+          "title": "File Management Commands",
+          "transcript": "",
+          "url": "file-management-commands-3",
+          "vimeoId": "131129581"
+        },
+        {
+          "description": null,
+          "length": "1498",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands_pt2-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands_pt2-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-1-file_managent_commands_pt2-061715-1-sm.jpg",
+          "title": "File Management Commands Part 2",
+          "transcript": "",
+          "url": "file-management-commands-2",
+          "vimeoId": "131129582"
+        },
+        {
+          "description": null,
+          "length": "1817",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-2-ownership_permissions-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-2-ownership_permissions-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-2-ownership_permissions-061715-1-sm.jpg",
+          "title": "Ownership and Permissions",
+          "transcript": "",
+          "url": "ownership-permissions",
+          "vimeoId": "131129580"
+        },
+        {
+          "description": null,
+          "length": "1548",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-3-disk_quotas-061715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-3-disk_quotas-061715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-3-disk_quotas-061715-1-sm.jpg",
+          "title": "Disk Quotas",
+          "transcript": "",
+          "url": "disk-quotas",
+          "vimeoId": "131200932"
+        },
+        {
+          "description": null,
+          "length": "1868",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-5-locating_files-062215-2.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-5-locating_files-062215-2-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxlx0103-4-5-locating_files-062215-2-sm.jpg",
+          "title": "Locating Files",
+          "transcript": "",
+          "url": "locating-files",
+          "vimeoId": "131535515"
+        }
+      ],
+      "title": "(LX0-103) Managing Files"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1822",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders-061915-1-sm.jpg",
+          "title": "Installing Bootloaders",
+          "transcript": "",
+          "url": "installing-bootloaders-3",
+          "vimeoId": "131435030"
+        },
+        {
+          "description": null,
+          "length": "1078",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders_pt2-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders_pt2-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-1-installing_bootloaders_pt2-061915-1-sm.jpg",
+          "title": "Installing Bootloaders Part 2",
+          "transcript": "",
+          "url": "installing-bootloaders-2",
+          "vimeoId": "131434928"
+        },
+        {
+          "description": null,
+          "length": "1719",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-2-sysv_initialization_process-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-2-sysv_initialization_process-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-2-sysv_initialization_process-061915-1-sm.jpg",
+          "title": "SysV Initialization Process",
+          "transcript": "",
+          "url": "sysv-initialization-process",
+          "vimeoId": "131434926"
+        },
+        {
+          "description": null,
+          "length": "1548",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-3-systemd_initialization_process-061915-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-3-systemd_initialization_process-061915-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxplus103/comptia-linuxpluslx0103-5-3-systemd_initialization_process-061915-1-sm.jpg",
+          "title": "systemd Initialization Process",
+          "transcript": "",
+          "url": "systemd-initialization-process",
+          "vimeoId": "131535414"
+        }
+      ],
+      "title": "(LX0-103) Booting Linux and Editing Files"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1933",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows-070815-1-sm.jpg",
+          "title": "Configuring X Windows",
+          "transcript": "",
+          "url": "configuring-windows-firewall1",
+          "vimeoId": "133030649"
+        },
+        {
+          "description": null,
+          "length": "1659",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows_pt2-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows_pt2-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-1-configuring_x_windows_pt2-070815-1-sm.jpg",
+          "title": "Configuring X Windows Part 2",
+          "transcript": "",
+          "url": "configuring-windows-firewall2",
+          "vimeoId": "133030650"
+        },
+        {
+          "description": null,
+          "length": "1607",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-2-remote_access_to_x-070815-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-2-remote_access_to_x-070815-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-2-remote_access_to_x-070815-1-sm.jpg",
+          "title": "Remote Access to X",
+          "transcript": "",
+          "url": "remote-access",
+          "vimeoId": "133030651"
+        },
+        {
+          "description": null,
+          "length": "1058",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-3-x_accessability-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-3-x_accessability-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-3-x_accessability-070715-1-sm.jpg",
+          "title": "X Accessibility",
+          "transcript": "",
+          "url": "accessibility",
+          "vimeoId": "133069134"
+        },
+        {
+          "description": "In this episode, Daniel and Don explore localization in Linux operating systems. They begin by explaining the concept of localization, which is the regional settings for your system; including language, numbering, and symbol characters. Then they show you how to see what your system's localization is set to and the file encoding being employed. Finally they show you how to make changes to your system's localization settings from the terminal.",
+          "length": "2224",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-4-localization-012916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-4-localization-012916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-6-4-localization-012916-1-sm.jpg",
+          "title": "Localization",
+          "transcript": "",
+          "url": "localization",
+          "vimeoId": "153919136"
+        }
+      ],
+      "title": "(LX0-104) Configuring the X Window System, Localization and Printing"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1947",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-1-managing_users_and_groups-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-1-managing_users_and_groups-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-1-managing_users_and_groups-062315-1-sm.jpg",
+          "title": "Managing Users and Groups",
+          "transcript": "",
+          "url": "managing-users",
+          "vimeoId": "131576409"
+        },
+        {
+          "description": null,
+          "length": "1720",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-2-sytem_logging-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-2-sytem_logging-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-2-sytem_logging-062315-1-sm.jpg",
+          "title": "System Logging",
+          "transcript": "",
+          "url": "system-logging",
+          "vimeoId": "131576408"
+        },
+        {
+          "description": null,
+          "length": "1585",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-3-system_time-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-3-system_time-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-3-system_time-062315-1-sm.jpg",
+          "title": "System Time",
+          "transcript": "",
+          "url": "system-time",
+          "vimeoId": "131576410"
+        },
+        {
+          "description": null,
+          "length": "1522",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-4-scheduling_jobs-062315-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-4-scheduling_jobs-062315-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-7-4-scheduling_jobs-062315-1-sm.jpg",
+          "title": "Scheduling Jobs",
+          "transcript": "",
+          "url": "scheduling-jobs",
+          "vimeoId": "131576411"
+        }
+      ],
+      "title": "(LX0-104) Administering the System"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1722",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-1-understanding_tcpip-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-1-understanding_tcpip-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-1-understanding_tcpip-062515-1-sm.jpg",
+          "title": "Understanding TCP/IP",
+          "transcript": "",
+          "url": "understanding-tcpip",
+          "vimeoId": "131871104"
+        },
+        {
+          "description": "TCP/IP Networking Part 2 is the updated episode to the original Understanding TCP/IP Part 2. In this episode, Daniel and Don continue looking at TCP/IP networking in Linux. They begin by explaining the Transmission Control Protocol and how it is used to deliver data over the network. Then they show you how to use some of the built-in systems, like netstat, to see these connections. Finally they talk about the concepts and uses of TCP/UDP ports; giving you a list of common ports that you'll need to know for the exam.",
+          "length": "1756",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-1-8-2-tcpip_networking_pt2-012716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-1-understanding-tcpip_pt2-062415-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-1-understanding-tcpip_pt2-062415-1-sm.jpg",
+          "title": "Understanding TCP/IP Part 2",
+          "transcript": "",
+          "url": "understanding-tcpip-2",
+          "vimeoId": "153380751"
+        },
+        {
+          "description": null,
+          "length": "1668",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-2-configuring_networking-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-2-configuring_networking-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-2-configuring_networking-062515-1-sm.jpg",
+          "title": "Configuring Networking",
+          "transcript": "",
+          "url": "configuring-networking2",
+          "vimeoId": "131871102"
+        },
+        {
+          "description": null,
+          "length": "1854",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-diagnosing_networking-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-diagnosing_networking-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-diagnosing_networking-062515-1-sm.jpg",
+          "title": "Diagnosing Networking",
+          "transcript": "",
+          "url": "diagnosing-networking",
+          "vimeoId": "131871449"
+        },
+        {
+          "description": "In this episode, Daniel and Don round out network troubleshooting for Linux+, starting with a quick review of some common troubleshooting tools like ifconfig and ip. Then they take a look at some of the newer versions of older standard tools which includes ping6, traceroute6, and tracepath6; to prepare you for IPv6 networks. Also covered is the netcat tool, as well as network configuration files that are helpful when troubleshooting.",
+          "length": "1732",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-2-diagnosing_networking_pt2-012816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-2-diagnosing_networking_pt2-012816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-8-3-2-diagnosing_networking_pt2-012816-1-sm.jpg",
+          "title": "Diagnosing Networking Part 2",
+          "transcript": "",
+          "url": "diagnosing-networking-2",
+          "vimeoId": "153507153"
+        }
+      ],
+      "title": "(LX0-104) Configuring Basic Networking"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1289",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-1-managing_the_shell-062515-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-1-managing_the_shell-062515-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-1-managing_the_shell-062515-1-sm.jpg",
+          "title": "Managing the Shell",
+          "transcript": "",
+          "url": "managing-shell",
+          "vimeoId": "131871105"
+        },
+        {
+          "description": null,
+          "length": "1723",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-2-writing_scripts-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-2-writing_scripts-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-2-writing_scripts-062615-1-sm.jpg",
+          "title": "Writing Scripts",
+          "transcript": "",
+          "url": "writing-scripts",
+          "vimeoId": "131900936"
+        },
+        {
+          "description": null,
+          "length": "1738",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-3-managing_email-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-3-managing_email-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-3-managing_email-062615-1-sm.jpg",
+          "title": "Managing Email",
+          "transcript": "",
+          "url": "managing-email",
+          "vimeoId": "131900935"
+        },
+        {
+          "description": null,
+          "length": "1850",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-4-managing_data_with_sql-062615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-4-managing_data_with_sql-062615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-4-managing_data_with_sql-062615-1-sm.jpg",
+          "title": "Managing Data with SQL",
+          "transcript": "",
+          "url": "managing-data-sql",
+          "vimeoId": "131900934"
+        },
+        {
+          "description": null,
+          "length": "1349",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-5-printers_and_printing-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-5-printers_and_printing-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-9-5-printers_and_printing-070615-1-sm.jpg",
+          "title": "Printers and Printing",
+          "transcript": "",
+          "url": "printers-printing",
+          "vimeoId": "132763275"
+        }
+      ],
+      "title": "(LX0-104) Writing Scripts, Configuring Email and Using Databases"
+    },
+    {
+      "episodes": [
+        {
+          "description": null,
+          "length": "1571",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration-070615-1-sm.jpg",
+          "title": "Security Administration",
+          "transcript": "",
+          "url": "security-administration1",
+          "vimeoId": "132763274"
+        },
+        {
+          "description": null,
+          "length": "1548",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration_pt2-070615-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration_pt2-070615-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-1-security_administration_pt2-070615-1-sm.jpg",
+          "title": "Security Administration Part 2",
+          "transcript": "",
+          "url": "security-administration-2",
+          "vimeoId": "132866008"
+        },
+        {
+          "description": null,
+          "length": "1537",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_gpg-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_gpg-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_gpg-070715-1-sm.jpg",
+          "title": "Securing Data with GPG",
+          "transcript": "",
+          "url": "securing-data-gpg",
+          "vimeoId": "133069111"
+        },
+        {
+          "description": null,
+          "length": "2045",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh-070715-1-sm.jpg",
+          "title": "Securing Data with SSH",
+          "transcript": "",
+          "url": "securing-data-ssh-3",
+          "vimeoId": "133069131"
+        },
+        {
+          "description": null,
+          "length": "1022",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh_pt2-070715-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh_pt2-070715-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/comptia-linuxlx0104/comptia-linuxlx0104-10-2-securing_data_with_ssh_pt2-070715-1-sm.jpg",
+          "title": "Securing Data with SSH Part 2",
+          "transcript": "",
+          "url": "securing-data-ssh-2",
+          "vimeoId": "133069133"
+        }
+      ],
+      "title": "(LX0-104) Securing Your System"
+    }
+  ],
+  "url": "linux1",
+  "vLab": true
+}

@@ -6,7 +6,7 @@ import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
 
-const NewContent = props => {
+const NewContent = (props) => {
   const { className='' } = props;
 
   return (

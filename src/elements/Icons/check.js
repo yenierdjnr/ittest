@@ -1,9 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 
-const IconCheck = props => {
-  const { className='', fill='#FFFFFFF' } = props;
+const IconCheck = (props) => {
+  const { fill='#FFFFFFF' } = props;
 
   return (
     <svg width="21" height="19" viewBox="0 0 21 19">

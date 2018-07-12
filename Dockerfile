@@ -1,5 +1,6 @@
-FROM node:8.11.2
+FROM node:10.6.0-alpine
 
 WORKDIR /work
 
-RUN apt-get update && apt-get install -y awscli jq && cd /work && yarn install
+# aws-cli is only in edge currently :/ python is needed by something during gatsby build
+RUN apk update && apk add -X http://dl-3.alpinelinux.org/alpine/edge/testing aws-cli vips-dev fftw-dev && apk add --no-cache --update make gcc g++ libc-dev libpng-dev automake autoconf libtool jq python && cd /work && yarn install

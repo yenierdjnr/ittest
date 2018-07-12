@@ -1,0 +1,106 @@
+{
+  "description": "If you still are working on honing your programming skills, then building something simple can help that skill development along. In this series, we are going to build another simple game that allow you to flex your programming muscles. See you there!",
+  "descriptionMD": "If you still are working on honing your programming skills, then building something simple can help that skill development along. In this series, we are going to build another simple game that allow you to flex your programming muscles. See you there!",
+  "length": "9682",
+  "name": "Applied Fundamentals: Guess the Number",
+  "practiceExam": false,
+  "subtitle": "Simple Yet Effective Programming",
+  "tagUrl": "developer",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "If you still are working on honing your programming skills, then building something simple can help that skill development along. In this series, we are going to build another simple game that allow you to flex your programming muscles. See you there!",
+          "length": "163",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-0-0-0-overview-040618-PGM.00_00_05_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-0-0-0-overview-040618-PGM.00_00_05_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-0-0-0-overview-040618-PGM.00_00_05_16.Still001-sm.jpg",
+          "title": "Overview guessthenumber",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:05.157\n[MUSIC]\n\n2\n00:00:05.157 --> 00:00:06.625\nHello and thank you for watching DevProTV.\n\n3\n00:00:06.625 --> 00:00:09.553\nWe're talking with Justin Dennison\nabout this course,\n\n4\n00:00:09.553 --> 00:00:11.840\napplied fundamentals, guess the number.\n\n5\n00:00:11.840 --> 00:00:13.690\nJustin, can you tell us what\nthe course is all about?\n\n6\n00:00:13.690 --> 00:00:17.265\n&gt;&gt; So the course is actually to take some\nof our Python knowledge that we've built\n\n7\n00:00:17.265 --> 00:00:18.957\nup in the previous courses thus far.\n\n8\n00:00:18.957 --> 00:00:23.980\nAnd kind of apply those, applied\nfundamentals, who would have thought?\n\n9\n00:00:23.980 --> 00:00:28.208\nTo create, guess the number,\na very simple game where the object is,\n\n10\n00:00:28.208 --> 00:00:30.588\nthe computer selects a random number.\n\n11\n00:00:30.588 --> 00:00:33.176\nAnd then you go, is it that,\nis it that, is it that?\n\n12\n00:00:33.176 --> 00:00:37.645\nNow, I know it doesn't, hey, listen,\nit's not Halo, it's not Fallout,\n\n13\n00:00:37.645 --> 00:00:38.748\nyou're correct.\n\n14\n00:00:38.748 --> 00:00:43.562\nBut it does encapsulate a great deal of\nthings that we have learnt up until this\n\n15\n00:00:43.562 --> 00:00:44.460\npoint.\n\n16\n00:00:44.460 --> 00:00:46.678\nAnd so\nthat's the ultimate goal of this course.\n\n17\n00:00:46.678 --> 00:00:48.313\n&gt;&gt; Awesome, now,\nwho's the show targeted towards?\n\n18\n00:00:48.313 --> 00:00:50.856\n&gt;&gt; This show is targeted to someone who,\nhey,\n\n19\n00:00:50.856 --> 00:00:53.483\nyou've come through our previous courses.\n\n20\n00:00:53.483 --> 00:00:57.252\nIntroduction to Python, programming\nfundamentals, those type of courses,\n\n21\n00:00:57.252 --> 00:00:59.068\nwhere you're just getting started.\n\n22\n00:00:59.068 --> 00:01:01.150\nLike, all right, I have all of this\nknowledge, I have this piece and\n\n23\n00:01:01.150 --> 00:01:02.670\nthis piece and this piece.\n\n24\n00:01:02.670 --> 00:01:06.060\nHow do I put these pieces together and\nactually build something that maybe you\n\n25\n00:01:06.060 --> 00:01:11.180\ncan hand off to someone else, they can\nplay it, and see your programming skills.\n\n26\n00:01:11.180 --> 00:01:16.060\nSo it's a very kind of introductory,\nmaybe an essential type thing,\n\n27\n00:01:16.060 --> 00:01:18.190\na rite of passage, if you will.\n\n28\n00:01:18.190 --> 00:01:22.850\nI take all of these Mega Blok bricks and\nthen put them together into,\n\n29\n00:01:22.850 --> 00:01:24.810\nwell, a guess the number game.\n\n30\n00:01:24.810 --> 00:01:27.070\n&gt;&gt; Is there a certification available for\nthe course?\n\n31\n00:01:27.070 --> 00:01:29.602\n&gt;&gt; This is not certification based,\nand the reason being,\n\n32\n00:01:29.602 --> 00:01:32.252\nit would be hard,\nI don't even know you'd get certified.\n\n33\n00:01:32.252 --> 00:01:35.034\nIt'd be like, you are a certified\nguess the number builder,\n\n34\n00:01:35.034 --> 00:01:36.866\n[LAUGH] I don't know how that would work.\n\n35\n00:01:36.866 --> 00:01:41.400\nBut, in the long term, this is setting you\nup to see how the pieces of a programming\n\n36\n00:01:41.400 --> 00:01:46.410\nlanguage, how your thought process kind of\ncomes together to build an application.\n\n37\n00:01:46.410 --> 00:01:49.807\nWhich, maybe that does lead to\ncertifications in the future, so\n\n38\n00:01:49.807 --> 00:01:53.657\nthink of this as a stepping stone to\ngetting a little better at your craft.\n\n39\n00:01:53.657 --> 00:01:56.508\n&gt;&gt; And you already kind of touched on it,\nbut what topics are covered in the show?\n\n40\n00:01:56.508 --> 00:02:01.351\n&gt;&gt; So this topic is actually gonna\nlook at conditions, functions, loops,\n\n41\n00:02:01.351 --> 00:02:03.625\nto some extent, how a game works.\n\n42\n00:02:03.625 --> 00:02:10.030\nAnd things like, okay, I'm printing\nto the screen, I'm taking user input.\n\n43\n00:02:10.030 --> 00:02:14.490\nSo there's a lot of these basic\nelements that you may need for\n\n44\n00:02:14.490 --> 00:02:17.390\nvery simple applications that\nare all rolled into one.\n\n45\n00:02:17.390 --> 00:02:19.950\nIt is a pick and choose,\n\n46\n00:02:19.950 --> 00:02:25.080\nessentially, of a lot of the topics\nthat we've seen in previous courses.\n\n47\n00:02:25.080 --> 00:02:28.343\n&gt;&gt; Thanks, Justin, so if applied\nfundamentals guess the number sounds like\n\n48\n00:02:28.343 --> 00:02:30.568\na course you'd be interested in,\nand you should,\n\n49\n00:02:30.568 --> 00:02:33.338\nmake sure to see all the episodes\ninside of our course library.\n\n50\n00:02:33.338 --> 00:02:36.848\nAnd thank you for watching DevProTV,\na good dev pro is always learning.\n\n51\n00:02:36.848 --> 00:02:43.328\n[MUSIC]\n\n",
+          "url": "overview-guessthenumber",
+          "vimeoId": "264069981"
+        },
+        {
+          "description": "In this episode, Justin and Vonne plan a simple game where a user will guess a randomly selected number. Justin thinks through the interactions, design, and considerations for creating the the game.",
+          "length": "1446",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-1-1-plan_the_project-041318-PGM.00_25_57_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-1-1-plan_the_project-041318-PGM.00_25_57_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-1-1-plan_the_project-041318-PGM.00_25_57_23.Still001-sm.jpg",
+          "title": "Plan the Project",
+          "transcript": "",
+          "url": "planproject-guessthenumber",
+          "vimeoId": "265176306"
+        },
+        {
+          "description": "In this episode, Justin and Zach set up the project structure to get started with the guess the number game.",
+          "length": "804",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-2-1-set_up_the_project-040318.00_13_17_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-2-1-set_up_the_project-040318.00_13_17_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-2-1-set_up_the_project-040318.00_13_17_06.Still001-sm.jpg",
+          "title": "Set Up the Project",
+          "transcript": "",
+          "url": "setthe-project-guessthenumber",
+          "vimeoId": "263168922"
+        },
+        {
+          "description": "In this episode, Justin and Zach add the ability to take a guess from the user.",
+          "length": "1546",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-3-1-take_a_guess-040318.00_25_39_26.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-3-1-take_a_guess-040318.00_25_39_26.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-3-1-take_a_guess-040318.00_25_39_26.Still001-sm.jpg",
+          "title": "Take a Guess",
+          "transcript": "",
+          "url": "guess",
+          "vimeoId": "263382061"
+        },
+        {
+          "description": "In this episode, Justin and Zach discuss that the game is not clear about the goal. Justin takes some time to adding some user instructions for playing the game.",
+          "length": "1332",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-4-1-add_user_instructions-040318.00_22_06_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-4-1-add_user_instructions-040318.00_22_06_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-1-4-1-add_user_instructions-040318.00_22_06_00.Still001-sm.jpg",
+          "title": "Add User Instructions",
+          "transcript": "",
+          "url": "add-user-instructions",
+          "vimeoId": "263168334"
+        },
+        {
+          "description": "In this episode, Justin and Zach explore that the source code organization and how the source could be reorganized. Justin takes some time to extract portions of the program to functions to increase readability.",
+          "length": "1329",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-2-1-1-refactor_to_functions-040418.00_22_02_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-2-1-1-refactor_to_functions-040418.00_22_02_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-2-1-1-refactor_to_functions-040418.00_22_02_10.Still001-sm.jpg",
+          "title": "Refactor to Functions",
+          "transcript": "",
+          "url": "refactorfunctions-guessnumber",
+          "vimeoId": "264258400"
+        },
+        {
+          "description": "In this episode, Justin and Zach demonstrate how to limit the number of guesses that user has in order to have a losing state for the game.",
+          "length": "1635",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-1-1-limit_the_guesses-040418-PGM.00_27_05_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-1-1-limit_the_guesses-040418-PGM.00_27_05_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-1-1-limit_the_guesses-040418-PGM.00_27_05_29.Still001-sm.jpg",
+          "title": "Limit the Guesses",
+          "transcript": "",
+          "url": "limitguesses",
+          "vimeoId": "263381308"
+        },
+        {
+          "description": "In this episode, Justin and Zach utilize the limitations to guesses to determine whether a user wins or loses. Justin also adds some user feedback about whether they won or lost.",
+          "length": "1427",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-2-1-determine_win_or_lose-040418-PGM.00_23_41_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-2-1-determine_win_or_lose-040418-PGM.00_23_41_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-appliedfundamentalsguessthenumber/techskills-applied-fundamentals_guess-the-number-3-2-1-determine_win_or_lose-040418-PGM.00_23_41_08.Still001-sm.jpg",
+          "title": "Determine Win or Lose",
+          "transcript": "",
+          "url": "determine-winlose-guessthenumber",
+          "vimeoId": "263382883"
+        }
+      ],
+      "title": "Guess the Number"
+    }
+  ],
+  "url": "applied-fundamentals-guessnumber",
+  "vLab": false
+}

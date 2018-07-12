@@ -13,7 +13,7 @@ class HomeVideo extends Component {
     };
   }
 
-  handlePlay = e => {
+  handlePlay = (e) => {
     if (this.state.showOpacity) {
       return;
     }
@@ -42,7 +42,7 @@ class HomeVideo extends Component {
       </div>
     );
   }
-};
+}
 
 
 export default HomeVideo;

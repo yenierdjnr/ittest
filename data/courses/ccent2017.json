@@ -1,0 +1,467 @@
+{
+  "description": "The Cisco Certified Entry Networking Technician (CCENT) certification is targeted towards IT workers interested in becoming Network Administrators. The certification covers foundational networking topics required of anyone working with IPv4 and IPv6 networks. The series also covers configuring and maintaining Cisco routers and switches in small to medium sized networks. Topics covered in this series include routing protocols, VLANs, device security and more.",
+  "descriptionMD": "",
+  "length": "77640",
+  "name": "CCENT",
+  "practiceExam": true,
+  "subtitle": "Cisco Certified Entry Networking Technician",
+  "tagUrl": "legacy",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Cisco Certified Entry Networking Technician (CCENT) certification is targeted towards IT workers interested in becoming Network Administrators. The certification covers foundational networking topics required of anyone working with IPv4 and IPv6 networks. The series also covers configuring and maintaining Cisco routers and switches in small to medium sized networks. Topics covered in this series include routing protocols, VLANs, device security and more.",
+          "length": "407",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-0-0-overview-080316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-0-0-overview-080316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-0-0-overview-080316-1-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.025 --> 00:00:08.763\n[SOUND].\n\n2\n00:00:08.763 --> 00:00:12.547\nIn this video we're gonna take a look\nat the Cisco certified entry network\n\n3\n00:00:12.547 --> 00:00:16.330\ntechnician certification\nshow right here on ITPro.TV.\n\n4\n00:00:16.330 --> 00:00:18.860\nFirst off, let's talk a little\nbit about the certification.\n\n5\n00:00:18.860 --> 00:00:21.760\nThe CCENT is designed\nto be your first step\n\n6\n00:00:21.760 --> 00:00:25.640\non the path to becoming a Cisco\ncertified network administrator.\n\n7\n00:00:25.640 --> 00:00:30.130\nThat this is designed for people who had\nno work with Cisco who came up before.\n\n8\n00:00:30.130 --> 00:00:33.770\nYou may have never touched\na Cisco router or switch.\n\n9\n00:00:33.770 --> 00:00:35.890\nMaybe you never even seen them.\n\n10\n00:00:35.890 --> 00:00:39.820\nWe start from the very basics and walk you\nthrough, getting that first device set up.\n\n11\n00:00:39.820 --> 00:00:42.780\nHow do you get it out of the box, get\nit turned on, and get it doing its job?\n\n12\n00:00:42.780 --> 00:00:45.590\nAnd then what are some of\nthe advanced features?\n\n13\n00:00:45.590 --> 00:00:48.405\nCCENT is absolutely\nstarting with the basics.\n\n14\n00:00:48.405 --> 00:00:52.765\nWe focus on one router, or one switch,\nversus things like the CCNA,\n\n15\n00:00:52.765 --> 00:00:54.885\nthat's more like ten routers and\nten switches.\n\n16\n00:00:54.885 --> 00:00:58.385\nOr the CCNP where it's hundreds of\nrouters or hundreds of switches.\n\n17\n00:00:58.385 --> 00:01:00.815\nIt gets progressively more complex.\n\n18\n00:01:00.815 --> 00:01:03.760\nSo, CCENT is that beginning part.\n\n19\n00:01:03.760 --> 00:01:05.045\nThis certification is designed for\n\n20\n00:01:05.045 --> 00:01:09.485\npeople who are, maybe you want to\nbecome a network administrator, right?\n\n21\n00:01:09.485 --> 00:01:13.880\nCisco is the most Common network\nmanufacturer out there in the enterprise\n\n22\n00:01:13.880 --> 00:01:16.720\nmarketplace, you're gonna see\nit in a lot of job requirements.\n\n23\n00:01:16.720 --> 00:01:19.450\nSo if you're wanting to get started,\nmaybe you're already an IT and\n\n24\n00:01:19.450 --> 00:01:22.960\nyou're supporting servers and you wanna\nstart moving over to the network side.\n\n25\n00:01:22.960 --> 00:01:24.902\nOr maybe you're one of those\njack of all trades and\n\n26\n00:01:24.902 --> 00:01:27.725\nyou've been tasked with supporting\nservers and switches and routers,\n\n27\n00:01:27.725 --> 00:01:29.402\nyou've got the whole thing on your plate.\n\n28\n00:01:29.402 --> 00:01:31.740\nWell, Cisco's a great one to learn.\n\n29\n00:01:31.740 --> 00:01:35.040\nThere's other vendors that are out\nthere like HP and Juniper and\n\n30\n00:01:35.040 --> 00:01:38.970\nthey make great equipment but Cisco\nreally is the market leader in this area.\n\n31\n00:01:38.970 --> 00:01:40.538\nSo if you learn their equipment,\n\n32\n00:01:40.538 --> 00:01:43.344\nthe odds are you'll be able\nto support most environments.\n\n33\n00:01:43.344 --> 00:01:47.355\nAnd the technologies are really kind of\ncommon between a lot of the vendors so\n\n34\n00:01:47.355 --> 00:01:48.502\nwe see that here too.\n\n35\n00:01:48.502 --> 00:01:51.891\nNow CCENT does overlap a bit\nwith CompTIA's Network+, so\n\n36\n00:01:51.891 --> 00:01:54.547\nif you've already done that certification.\n\n37\n00:01:54.547 --> 00:01:58.240\nSome of it will be overlapped because we\ndo cover some fundamentals in theories.\n\n38\n00:01:58.240 --> 00:02:00.900\nLet's take a look at\nthe exam itself real quick.\n\n39\n00:02:00.900 --> 00:02:05.131\nSo like I mentioned, CCNT is that\nstarting point on your Cisco Careers.\n\n40\n00:02:05.131 --> 00:02:09.046\nSo CCNA being the next step, that's\nthe Cisco Certified Network Associate and\n\n41\n00:02:09.046 --> 00:02:12.530\nthen Cisco Certified Network Professional\nbeyond that.\n\n42\n00:02:12.530 --> 00:02:16.819\nThe exam itself, it is one exam and\none certification.\n\n43\n00:02:16.819 --> 00:02:22.736\nSo you'll take the 100-105 which\nis the version 3.0 of the CCENT.\n\n44\n00:02:22.736 --> 00:02:25.525\nThe exam itself is actually\ncalled the interconnecting\n\n45\n00:02:25.525 --> 00:02:27.312\nCisco Network Devices Part I exam.\n\n46\n00:02:27.312 --> 00:02:31.320\nThe CCNA exam is the interconnecting\nCisco Network Devices Part 2 exam.\n\n47\n00:02:31.320 --> 00:02:34.380\nYou have to pass both to get your CCNA.\n\n48\n00:02:34.380 --> 00:02:37.194\nYou just to have pass this\none to get your CCENT.\n\n49\n00:02:37.194 --> 00:02:41.220\nThe exam itself covers\nnetwork fundamentals.\n\n50\n00:02:41.220 --> 00:02:42.970\nRight, that's that overlap with Network+.\n\n51\n00:02:42.970 --> 00:02:46.610\nWe're gonna talk about IP addressing,\nand Ethernet networks, and\n\n52\n00:02:46.610 --> 00:02:49.270\nwireless networks, and\nhow these networks function.\n\n53\n00:02:49.270 --> 00:02:51.380\nThen we get into LAN\nswitching fundamentals,\n\n54\n00:02:51.380 --> 00:02:53.330\nwhich is really Cisco switches.\n\n55\n00:02:53.330 --> 00:02:54.820\nSo how does Cisco switches work?\n\n56\n00:02:54.820 --> 00:02:55.810\nHow do we configure them?\n\n57\n00:02:55.810 --> 00:02:58.050\nHow do we use technologies like VLANs?\n\n58\n00:02:58.050 --> 00:02:59.700\nHow do we implement them?\n\n59\n00:02:59.700 --> 00:03:01.150\nThen we get into routing fundamentals.\n\n60\n00:03:01.150 --> 00:03:02.010\nHow do routers work?\n\n61\n00:03:02.010 --> 00:03:03.580\nHow do you set up a router, initially?\n\n62\n00:03:03.580 --> 00:03:07.060\nHow do you use dynamic routing protocols,\nand static routing protocols.\n\n63\n00:03:07.060 --> 00:03:09.350\nHow do they make the decisions they make?\n\n64\n00:03:09.350 --> 00:03:10.710\nThen we get into infrastructure service.\n\n65\n00:03:10.710 --> 00:03:12.700\nThis is probably the one\nI have the most fun with.\n\n66\n00:03:12.700 --> 00:03:17.990\nBecause Cisco routers and switches can\ndo way more than just route and switch.\n\n67\n00:03:17.990 --> 00:03:20.490\nAnd so we look at the advanced\nfunctionality that's built into them.\n\n68\n00:03:20.490 --> 00:03:22.410\nThe stuff that's turned off by default.\n\n69\n00:03:22.410 --> 00:03:23.565\nAnd we learn how to turn it on and\n\n70\n00:03:23.565 --> 00:03:26.332\nactually make use of all that hardware\nthat we just paid so much money for.\n\n71\n00:03:26.332 --> 00:03:29.080\nAnd then lastly we talked about\ninfrastructure maintenance.\n\n72\n00:03:29.080 --> 00:03:30.780\nOnce you've got your routers and\nswitches configured,\n\n73\n00:03:30.780 --> 00:03:32.140\nyou can't just forget about them.\n\n74\n00:03:32.140 --> 00:03:34.850\nThere's routine maintenance that we need\nto do to keep them up and running and\n\n75\n00:03:34.850 --> 00:03:37.500\nhealthy, make sure they're patched for\nsecurity purposes and\n\n76\n00:03:37.500 --> 00:03:39.050\ntroubleshoot any issues that come up.\n\n77\n00:03:39.050 --> 00:03:41.970\nThat's all covered right there in the end.\n\n78\n00:03:41.970 --> 00:03:45.995\nNow, one of the really cool parts\nabout the CCENT is, it is a great\n\n79\n00:03:45.995 --> 00:03:50.650\nstepping-stone, it's that first step to\ngetting into Cisco Certification Network.\n\n80\n00:03:50.650 --> 00:03:53.330\nAnd, it's also a multi-purpose cert.\n\n81\n00:03:53.330 --> 00:03:58.288\nIt used to be that CCENT matched up\nwith the CCNA for routing and switching,\n\n82\n00:03:58.288 --> 00:04:02.947\nbut now CCENT is actually a requirement\nfor several different CCNAs.\n\n83\n00:04:02.947 --> 00:04:05.590\nYou might continue on with\nCCNA routing and switching.\n\n84\n00:04:05.590 --> 00:04:09.440\nOr you might do CCNA security or\nCCNA wireless.\n\n85\n00:04:09.440 --> 00:04:12.700\nThe CCENT exam is the same for\nall of them.\n\n86\n00:04:12.700 --> 00:04:16.202\nSo, once you've passed your CCNA,\nyou're ready to move into any.\n\n87\n00:04:16.202 --> 00:04:18.450\nI'm sorry, once you've passed your CCENT,\n\n88\n00:04:18.450 --> 00:04:21.970\nyou are ready to move into any of\nthe CCNA's that are out there.\n\n89\n00:04:21.970 --> 00:04:25.880\nAnd you'll see there's CCNA Cloud,\nCollaboration, Cyber Ops, Data Center,\n\n90\n00:04:25.880 --> 00:04:30.630\nIndustrial, Routing and Switching,\nSecurity, Wireless, Service Provider.\n\n91\n00:04:30.630 --> 00:04:33.310\nAll these different ones,\nCCENT is a requirement for them.\n\n92\n00:04:33.310 --> 00:04:37.640\nSo definitely a great place to get\nstarted on your certification career.\n\n93\n00:04:37.640 --> 00:04:39.180\nNow when you're ready to take the exam,\n\n94\n00:04:39.180 --> 00:04:41.140\nthe exam is actually administered\nthrough Pearson Vue.\n\n95\n00:04:41.140 --> 00:04:42.550\nYou can go to the website,\n\n96\n00:04:42.550 --> 00:04:46.570\nit's vue.com and\nyou can locate a testing center near you.\n\n97\n00:04:46.570 --> 00:04:48.790\nThey're located all over the world.\n\n98\n00:04:48.790 --> 00:04:52.930\nAnd so you can sign up through Vue,\ngo and take the exam, pass it and\n\n99\n00:04:52.930 --> 00:04:55.190\nget your CCENT certification.\n\n100\n00:04:55.190 --> 00:04:58.060\nNow throughout our series, we're gonna\nbe covering all the exam objectives for\n\n101\n00:04:58.060 --> 00:04:59.240\nthat exam.\n\n102\n00:04:59.240 --> 00:05:02.750\nOnce you get in there, you start working\nwith the system, you get used to it.\n\n103\n00:05:02.750 --> 00:05:05.560\nYou jump in, you pass the test,\nyou get the certification and\n\n104\n00:05:05.560 --> 00:05:09.390\nit's on your resume and you just started\nyour journey in the networking world.\n\n105\n00:05:09.390 --> 00:05:12.878\nAnother thing that I wanna mention here\nreal quick in the overview is that\n\n106\n00:05:12.878 --> 00:05:16.776\nif you're just getting started, you might\nnot have access to Cisco equipment.\n\n107\n00:05:16.776 --> 00:05:18.600\nI'm gonna show you all sorts\nof things in this show.\n\n108\n00:05:18.600 --> 00:05:20.440\nWe'll see how to configure,\nhow the commands work,\n\n109\n00:05:20.440 --> 00:05:24.752\nbut there's no substitute for actually\ngetting exposure to real equipment.\n\n110\n00:05:24.752 --> 00:05:27.760\nWell, on the ITPro.TV website,\nif you take a look,\n\n111\n00:05:27.760 --> 00:05:29.850\nwe have what are called our advanced labs.\n\n112\n00:05:29.850 --> 00:05:30.950\nThey're not our regular labs.\n\n113\n00:05:30.950 --> 00:05:32.210\nThey are advanced labs.\n\n114\n00:05:32.210 --> 00:05:34.880\nInstead of having a virtual\nenvironment like our normal labs,\n\n115\n00:05:34.880 --> 00:05:38.090\nour advanced labs give you access\nto real physical equipment.\n\n116\n00:05:38.090 --> 00:05:41.630\nWe have a data center that's over in\nLondon, you'll be able to connect in and\n\n117\n00:05:41.630 --> 00:05:44.450\nremotely access those devices.\n\n118\n00:05:44.450 --> 00:05:47.220\nIt's priced at, I believe,\nsomewhere around $50 a year, so\n\n119\n00:05:47.220 --> 00:05:48.850\nit's extremely inexpensive.\n\n120\n00:05:48.850 --> 00:05:52.440\nAnd that gives you access to multiple\nrouters and multiple switches,\n\n121\n00:05:52.440 --> 00:05:56.530\nnot simulated ones, actual real\nrouters that you can work with any\n\n122\n00:05:56.530 --> 00:06:00.670\ntime you want throughout the day, 7 days\na week, 365 days a year, it's available.\n\n123\n00:06:00.670 --> 00:06:04.740\nThere's step by step labs you can go\nthrough to try the technologies out and\n\n124\n00:06:04.740 --> 00:06:06.720\nlearn, and really see that.\n\n125\n00:06:06.720 --> 00:06:09.200\nAs you watch the show, you'll see\nwhere even I use the advanced labs.\n\n126\n00:06:09.200 --> 00:06:11.930\nIn some of the episodes,\nI use real equipment too.\n\n127\n00:06:11.930 --> 00:06:15.640\nReal equipment is nice to just go on\neBay and buy some used equipment, and\n\n128\n00:06:15.640 --> 00:06:17.588\nyou can test and experiment and use it.\n\n129\n00:06:17.588 --> 00:06:19.430\nYou wouldn't wanna use it in production,\nbut for\n\n130\n00:06:19.430 --> 00:06:21.370\na home lab you can really learn\neverything you need to know.\n\n131\n00:06:21.370 --> 00:06:24.030\nSo definitely get some hands on exposure.\n\n132\n00:06:24.030 --> 00:06:25.820\nWatch our shows,\nwe cover the technologies there.\n\n133\n00:06:25.820 --> 00:06:27.660\nAnd when you do both, you're ready.\n\n134\n00:06:27.660 --> 00:06:31.560\nYou're gonna pass the exam, get that\nCCENT, and launch your certification.\n\n135\n00:06:31.560 --> 00:06:33.770\nSo if that sounds exciting to you,\nyou're definitely in the right place.\n\n136\n00:06:33.770 --> 00:06:37.670\nStay tuned,\nwe got CCENT episodes coming up.\n\n137\n00:06:37.670 --> 00:06:46.649\n[MUSIC]\n\n",
+          "url": "overview70734",
+          "vimeoId": "177713877"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review the basic concepts of the 7 layer OSI networking model.  They briefly talk about it’s origins and then describe each of the 7 layers and how they function in networking.  Also, they describe the process of encapsulation and decapsulation and remind us that data is named differently at the Transport, Network, Data Link and Physical layers.",
+          "length": "2090",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-1-osi_model-0701516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-1-osi_model-0701516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-1-osi_model-0701516-1-sm.jpg",
+          "title": "The OSI Model",
+          "transcript": "",
+          "url": "osi-model4",
+          "vimeoId": "173658700"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review the TCP/IP protocol stack and its model.  They take the time to differentiate between TCP and UDP connections.  These difference are normally described as “guaranteed delivery” and “best effort, respectively, according to the guys.  They take a moment to also describe windowing and MTUs.",
+          "length": "2243",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-2-tcp_ip-070516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-2-tcp_ip-070516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-2-tcp_ip-070516-1-sm.jpg",
+          "title": "TCP/IP",
+          "transcript": "",
+          "url": "tcpip3",
+          "vimeoId": "173658699"
+        },
+        {
+          "description": null,
+          "length": "1873",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-3-network_topologies-070516-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-3-network_topologies-070516-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-3-network_topologies-070516-1-sm.jpg",
+          "title": "Network Topologies",
+          "transcript": "",
+          "url": "network-topologies",
+          "vimeoId": "173658701"
+        },
+        {
+          "description": "In this episode, Ronnie and Don provide a refresher on IPv4 addressing.  They introduce the concepts of an IP address and it’s purpose.  They also show the breakdown of the address into the network and host portions of the address to indicate how devices are recognized as being on the same network or different networks. The guys also do a run down of the glassful addressing scheme, demonstrating how it has changed by using subnet masks too.",
+          "length": "2028",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-1-understanding_ipv4-070616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-1-understanding_ipv4-070616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-1-understanding_ipv4-070616-1-sm.jpg",
+          "title": "Understanding IPv4",
+          "transcript": "",
+          "url": "understanding-ipv7",
+          "vimeoId": "173779143"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue to help us to understand how IP addresses are used in delivering data.  They show the data delivery process using IP addresses and MAC addresses.  They guys take the time to review how to identify ip addresses that are on the same network too.   At the end they mention that Private IP addresses and their ranges that are used internally and not on the internet to help provide the number of IP addresses that companies may use without having to register the addresses with the IANA.",
+          "length": "2411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-2-understanding_ipv4_pt.2-070616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-2-understanding_ipv4_pt.2-070616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-4-2-understanding_ipv4_pt.2-070616-1-sm.jpg",
+          "title": "Understanding IPv4 Part 2",
+          "transcript": "",
+          "url": "understanding-ipv4-part2-ccent",
+          "vimeoId": "173781111"
+        },
+        {
+          "description": "In this episode, Ronnie and Don review the IPv6 concepts found in CCENT exam objectives.  They explain the fundamental improvements included in IPv6 include IPSec, QoS and even other protocols that currently require an addition to IPv4.  But the major improvements deals with the address space size and IP Mobility are key features for most networks, according to the guys.  Don then reviews the most common format of IPv6 addresses and the different types of IPv6 addresses you will encounter in IPv6 networks.",
+          "length": "1998",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-5-understanding_ipv6-070616-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-5-understanding_ipv6-070616-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-5-understanding_ipv6-070616-1-sm.jpg",
+          "title": "Understanding IPv6",
+          "transcript": "",
+          "url": "understanding-ipv8",
+          "vimeoId": "173781171"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce the major products that a CEENT will likely encounter in production.  They mainly focus in on Routers and Switches and mention the Cisco ASA (Firewall Appliance).  This introduction they give includes describing what a technician is expecting to see and know and introduces the basic hardware setup.  Every certified professional should be familiar with most of the concept introduced in this episode.",
+          "length": "1806",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware-070716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware-070716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware-070716-1-sm.jpg",
+          "title": "Introduction to Cisco Hardware",
+          "transcript": "",
+          "url": "introduction-cisco-hardware",
+          "vimeoId": "174201502"
+        },
+        {
+          "description": "In this episode, Ronnie and continue with the hardware introduction but now focusing on on the interfaces and how they are named.  They describe some of the network modules, WICS, HWICS and EHWICS.  With that basic introduction to the hardware done, the guys show how to start a basic configuration on a cisco router.  Don shows us what happens and describes the information displayed when a router or switch is powered on.  They list the basic software and additional equipment needed to connect to the router.",
+          "length": "2031",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware_pt.2-070716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware_pt.2-070716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-6-introduction_to_cisco_hardware_pt.2-070716-1-sm.jpg",
+          "title": "Introduction to Cisco Hardware Part 2",
+          "transcript": "",
+          "url": "introduction-cisco-hardware-2",
+          "vimeoId": "174201503"
+        },
+        {
+          "description": "In this episode, Ronnie and Don begin working with the command line interface (CLI) to the Cisco Internetwork Operating System (IOS).  They introduce the interface and demonstrate how to navigate through the commands and demonstrate several of the commands.  The guys emphasize a working familiarity and comfort for the CCENT candidate with the CLI they will be expected to have before sitting for the exam.  Practice is key!",
+          "length": "2318",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-7-introduction_to_the_ios_cli-070716-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-7-introduction_to_the_ios_cli-070716-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-7-introduction_to_the_ios_cli-070716-1-sm.jpg",
+          "title": "Introduction to the IOS CLI",
+          "transcript": "",
+          "url": "introduction-ios-cli",
+          "vimeoId": "174201504"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to get Cisco device ready for a production network.  Using the CLI, they show basic configuration for access passwords and setting the clock on a device.  They discuss how important it is to set and how to configure passwords.  They also demonstrate the way to protect these passwords through the CLI.  The guys also take a look and show how to set the clock on a Cisco device to the proper time and timezone.  This time configuration is important for synchronizing logs across multiple devices within your management domain.",
+          "length": "2203",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-1-inital_device_configuration-071316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-1-inital_device_configuration-071316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-1-inital_device_configuration-071316-1-sm.jpg",
+          "title": "Initial Device Configuration",
+          "transcript": "",
+          "url": "initial-device-configuration2",
+          "vimeoId": "174813942"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with the initial device configuration using the CLI.  They demonstrate how to setup a cisco device for management not only from the console but also for remote access as well.  The guys demonstrate the access connection using password protection and telnet access.  This is configuration that is necessary for management access from across multiple networks.",
+          "length": "1990",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-2-inital_device_configuration_pt.2-071816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-2-inital_device_configuration_pt.2-071816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-2-inital_device_configuration_pt.2-071816-1-sm.jpg",
+          "title": "Initial Device Configuration Part 2",
+          "transcript": "",
+          "url": "initial-device-configuration-2",
+          "vimeoId": "175535449"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with configuring stronger security access.  They demonstrate configuring SSH and AAA new-model (local database) for a stronger security than just password security.  Don also shows how to generate a new digital certificate for security use.",
+          "length": "1802",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-3-inital_device_configuration_pt.3-071816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-3-inital_device_configuration_pt.3-071816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-1-8-3-inital_device_configuration_pt.3-071816-1-sm.jpg",
+          "title": "Initial Device Configuration Part 3",
+          "transcript": "",
+          "url": "initial-device-configuration-3",
+          "vimeoId": "175535448"
+        }
+      ],
+      "title": "Network Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don introduce LAN Switching.  They discuss the basics of layer 2 switching concepts: the basic differences between a hub (layer 1) and switch (layer 2).  The way switches build the mac address table and how switches forward unicasts and broadcasts.  Using a switch, Don demonstrates how the switch builds mac address table and the show commands that reveal that table.",
+          "length": "1973",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-1-lan_switching-070816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-1-lan_switching-070816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-1-lan_switching-070816-1-sm.jpg",
+          "title": "LAN Switching",
+          "transcript": "",
+          "url": "lan-switching",
+          "vimeoId": "174809882"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to create and work with VLANs.  The guys talk about how to segment a switch using VLANs.  They demonstrate how to create VLANs and assign ports into VLANs.  On a switch, you can create data VLANsand voice VLANs.  Even though a single port cannot be part of 2 data VLANs; a single port can be in a data VLAN and a voice VLAN at the same time, Don shows us.",
+          "length": "1848",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-1-vlans-070816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-1-vlans-070816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-1-vlans-070816-1-sm.jpg",
+          "title": "VLANs",
+          "transcript": "",
+          "url": "vlans",
+          "vimeoId": "174809881"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to create a consistent layer 2 environment with multiple switches by using layer 2 trunking.  They demonstrate how to configure both ISL and 802.1q trunking and how to verify trunking is working.  They also emphasize the need and use of trunks to allow for multiple VLANs to communicate across multiple switches.",
+          "length": "2201",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-2-vlans_pt.2-070816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-2-vlans_pt.2-070816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-2-vlans_pt.2-070816-1-sm.jpg",
+          "title": "VLANs Part 2",
+          "transcript": "",
+          "url": "vlans-2",
+          "vimeoId": "174809880"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with some advanced VLANs management using VTP (VLAN Trunking Protocol).  They discuss the purpose and show how to configure VTP across multiple switches.  Using VTP they show how VLAN configuration propagate across multiple switches.  The guys demonstrate not only enabling VTP but the different VTP modes: Server, Client and Transparent.",
+          "length": "2161",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-3-vlans_pt.3-071116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-3-vlans_pt.3-071116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-3-vlans_pt.3-071116-1-sm.jpg",
+          "title": "VLANs Part 3",
+          "transcript": "",
+          "url": "vlans-3",
+          "vimeoId": "174809879"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue to show how to work with multiple switches and multiple VLANs efficiently.  They introduce the idea of VTP pruning.  They show how this prevents sending VLAN traffic to switches that do not have any active ports in those VLANs.  The guys take  a moment to explain how this optimizes bandwidth usage across trunk links.",
+          "length": "1716",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-4-vlans_pt.4-071116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-4-vlans_pt.4-071116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-2-4-vlans_pt.4-071116-1-sm.jpg",
+          "title": "VLANs Part 4",
+          "transcript": "",
+          "url": "vlans-4",
+          "vimeoId": "174813946"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to use Layer 2 discovery protocols.  CDP and LLDP are two protocols used.   They configure and discuss the usage of both protocols.  CDP is Cisco proprietary and LLDP is open standard and works with non Cisco equipment.  These discovery protocols work with devices that support either or both of these protocols.  The guys also show how to discover machines connected to Cisco switches by using the ARP and mac address table.",
+          "length": "1709",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-3-layer_2_discovery_protocols-071116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-3-layer_2_discovery_protocols-071116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-3-layer_2_discovery_protocols-071116-1-sm.jpg",
+          "title": "Layer 2 Discovery Protocols",
+          "transcript": "",
+          "url": "layer-2-discovery-protocols",
+          "vimeoId": "174813945"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce layer 2 security concepts.  They talk about the need for it and how to configure it.  Even though there are other more complex methods (802.1x), the guys start with the basics and configuration of port security.  They talk about how to put a limit on the number of mac addresses each port will allow to connect.  Don and Ronnie show the default settings of port configuration and show how to manipulate and change the default settings to get port security working exactly how you may need to work.",
+          "length": "2682",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-4-port_security-071216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-4-port_security-071216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-2-4-port_security-071216-1-sm.jpg",
+          "title": "Port Security",
+          "transcript": "",
+          "url": "port-security",
+          "vimeoId": "175690281"
+        }
+      ],
+      "title": "LAN Switching Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don review the basic routing concepts.  They review the routing basics.  The guys discuss how a router builds its routing table through directly connected routes, static assignments and routing protocols.  Routing protocols are the preferred method when you have multiple routers and there are many advantages to using them, they explain.   Don and Ronnie also take a few moments to describe the difference between Distance Vector and Link State Protocols too.   Lastly, they mention how a cisco router deals with the possibility of multiple routes to the same destination from multiple protocols by using Administrative Distance—the trustworthiness of a route protocol and the load balancing that can occur if  multiple routes have the same metric.",
+          "length": "2305",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-1-routing_protocols-071216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-1-routing_protocols-071216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-1-routing_protocols-071216-1-sm.jpg",
+          "title": "Routing Protocols",
+          "transcript": "",
+          "url": "routing-protocols3",
+          "vimeoId": "174813943"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show basic routing between connected networks and interfaces on a router.  They explain that routing normally requires  moving traffic between 2 networks on different interfaces.  To route traffic to different networks residing off the same interfaces requires configuring sub interfaces and trunks.  This is used when we need Inter-VLAN Routing.  They show how to configure the switch and the router to do the inter-VLAN routing.",
+          "length": "2149",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-2-router_on_a_stick-071816-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-2-router_on_a_stick-071816-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-2-router_on_a_stick-071816-1-sm.jpg",
+          "title": "Router on a Stick",
+          "transcript": "",
+          "url": "router-stick",
+          "vimeoId": "175535447"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to manually configure routes that are not directly connected.  They show this configuration is great for controlling the routing table but it also drawbacks too.  These include poor scalability and unidirectional routing according according to guys.  Don also configure how to prefer one static route over another by implementing a higher administrative distance.",
+          "length": "1759",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-1-static_routes-071916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-1-static_routes-071916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-1-static_routes-071916-1-sm.jpg",
+          "title": "Static Routes",
+          "transcript": "",
+          "url": "static-routes",
+          "vimeoId": "175692000"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to configure default routes and floating static routes.  The guys show the need to configure a default route.  This is a route in our routing table for any route that doesn’t match any other route in the table that can be configured.  They also show configuring a back up static route in the possibility that a dynamic route may fail.  This is called a floating static route.  This allows you maintain a static route without it overwriting the current dynamic route unless that dynamic route fails.",
+          "length": "1344",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-2-static_routes_pt.2-071916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-2-static_routes_pt.2-071916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-3-2-static_routes_pt.2-071916-1-sm.jpg",
+          "title": "Static Routes Part 2",
+          "transcript": "",
+          "url": "static-routes-2",
+          "vimeoId": "175691632"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce the distance vector protocol of RIP, routing information protocol.  This protocol is a good protocol to start learning how dynamic protocols work.  They discuss metric of hop count and the pitfall of distance vector routing, routing loops.  The guys introduce max hop count, split horizon and poison reverse as technology that can prevent routing loops.",
+          "length": "2144",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-1-routing_information_protocol-071916-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-1-routing_information_protocol-071916-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-1-routing_information_protocol-071916-1-sm.jpg",
+          "title": "Routing Information Protocol",
+          "transcript": "",
+          "url": "routing-information-protocol",
+          "vimeoId": "175691088"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to configure and verify implementing RIP.  They show configuring both RIP and RIPv2 and discuss the differences.  They also show how to verify not only RIP operations and routing but debugging and timers as well.",
+          "length": "2508",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-2-routing_information_protocol_pt.2-072016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-2-routing_information_protocol_pt.2-072016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-3-4-2-routing_information_protocol_pt.2-072016-1-sm.jpg",
+          "title": "Routing Information Protocol Part 2",
+          "transcript": "",
+          "url": "routing-information-protocol-2",
+          "vimeoId": "175691276"
+        }
+      ],
+      "title": "Routing Fundamentals"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don show how to configure DHCP as a service running on the router.  They discuss briefly the DHCP process and demonstrate how to configure a DHCP server on the router along with options.  The guys also show how to configure a router interface to get an address from cisco dhcp server and how to setup options—additional information that can be handed out with dhcp",
+          "length": "2124",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-1-dynamic_host_configuration_protocol-072016-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-1-dynamic_host_configuration_protocol-072016-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-1-dynamic_host_configuration_protocol-072016-1-sm.jpg",
+          "title": "Dynamic Host Configuration Protocol",
+          "transcript": "",
+          "url": "dynamic-host-configuration-protocol",
+          "vimeoId": "175690280"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show how to configure a Cisco router as a NTP server and NTP client.  They discuss the importance of NTP for networking devices.  The guys show the commands to configure a Cisco router as a NTP master and client.  They also show how to verify the configuration.",
+          "length": "1317",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-2-network_time_protocol-072116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-2-network_time_protocol-072116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-2-network_time_protocol-072116-1-sm.jpg",
+          "title": "Network Time Protocol",
+          "transcript": "",
+          "url": "network-time-protocol",
+          "vimeoId": "175826992"
+        },
+        {
+          "description": "In this episode, Ronnie and Don introduce Standard Access Control Lists (ACL).  They show it’s configuration and discuss it’s usage.  The guys discuss how to configure them logically first to help us to understand how they work.  They also emphasize that we can create standard numbered ACLs or named ACLs.  With the numbered ACLs, it is not easy to edit a misconfiguration—entire list must be removed, then recreated and applied, according to the guys.  With the named ACLs, it allows you to edit the ACLs entries easily.  The demonstrate the syntax on configuring it on the router.",
+          "length": "2295",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-1-access_control_lists-072216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-1-access_control_lists-072216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-1-access_control_lists-072216-1-sm.jpg",
+          "title": "Access Control Lists",
+          "transcript": "",
+          "url": "access-control-lists3",
+          "vimeoId": "175876441"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with Access Control Lists (ACL).  They move behind talking about the theory of the configuration to configuring it on a router and verifying it working too.  They also take the time to discuss some of the configuration pitfalls. The guys remind us to check the configuration and several details you need to master before CCENT.",
+          "length": "2037",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-2-access_control_lists_pt.2-072216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-2-access_control_lists_pt.2-072216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-3-2-access_control_lists_pt.2-072216-1-sm.jpg",
+          "title": "Access Control Lists Part 2",
+          "transcript": "",
+          "url": "access-control-lists-2",
+          "vimeoId": "176163170"
+        },
+        {
+          "description": "In this episode, Ronnie and Don explain a fairly universal technology called Network Address Translation.  This technology has help slow down the consumption of the IPv4 address space on the internet by translating one address into another ip address.  There are 3 methods:  Static NAT, Dynamic NAT and Port Address Translation (PAT) also called NAT Overload, according to the guys.  They describe how NAT works and then show the configuration of Static NAT, a one to one translation.",
+          "length": "2227",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-1-network_address_translation-072116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-1-network_address_translation-072116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-1-network_address_translation-072116-1-sm.jpg",
+          "title": "Network Address Translation",
+          "transcript": "",
+          "url": "network-address-translation3",
+          "vimeoId": "175827681"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with configuring NAT.  They show how to configure Dynamic NAT and PAT (or NAT Overload). They discuss the use case scenario of both configurations, how to configure it and  how to verify it’s operation on a router.  The guys show why PAT is the most often used in networks.",
+          "length": "2068",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-2-network_address_translation_pt.2-072216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-2-network_address_translation_pt.2-072216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-4-4-2-network_address_translation_pt.2-072216-1-sm.jpg",
+          "title": "Network Address Translation Part 2",
+          "transcript": "",
+          "url": "network-address-translation-2",
+          "vimeoId": "175876435"
+        }
+      ],
+      "title": "Infrastructure Services"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Ronnie and Don show us some of the maintenance task that a Cisco Profession must understand and configure, specifically setting up a remote syslog server. They talk about reason to configure it and demonstrates the it’s configuration and then show the output.  This, the guys point out, is essential to provide solid information for troubleshooting and maintaining multiple Cisco devices.",
+          "length": "1991",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-1-device_management-080116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-1-device_management-080116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-1-device_management-080116-1-sm.jpg",
+          "title": "Device Management",
+          "transcript": "",
+          "url": "device-management5",
+          "vimeoId": "177230172"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with additional maintenance task of backing up routing configurations to a remote server.  This primary task, they demonstrate, helps to insure that the configuration is saved in the event of equipment failure or misconfigurations. They also show some of the pitfalls of configuration restorations that can occur if not careful.",
+          "length": "1714",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-2-device_management_pt.2-080116-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-2-device_management_pt.2-080116-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-1-2-device_management_pt.2-080116-1-sm.jpg",
+          "title": "Device Management Part 2",
+          "transcript": "",
+          "url": "device-management-5",
+          "vimeoId": "177230181"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show us the basic device security that every cisco technician should know how to configure: using passwords, limiting access to ssh and using access-list to control access to the router.  The use of passwords is just the first step to implementing basic security, the guys tell us. They also talk about setting up username/password to provide authentication and password protection.  Don and Ronnie also discuss the importance of limiting access using SSH only and using an access-list to control access by source ip address.  They also mention that when applying the standard ACL to the VTY line you must use access-class apply.",
+          "length": "2260",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-2-device_security-080216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-2-device_security-080216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-2-device_security-080216-1-sm.jpg",
+          "title": "Device Security",
+          "transcript": "",
+          "url": "device-security3",
+          "vimeoId": "177450840"
+        },
+        {
+          "description": "In this episode, Ronnie and Don show some of details about working with the CiscoIOS.  They show how to know about CiscoIOS updates and how to best use that information.  Don and Ronnie also show how to update the router IOS.  They also take a look at some commands to see the amount of RAM and storage available for the CiscoIOS.  These basic maintenance duties are part of every Cisco technician’s skill set.",
+          "length": "2134",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-1-device_maintenance-080216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-1-device_maintenance-080216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-1-device_maintenance-080216-1-sm.jpg",
+          "title": "Device Maintenance",
+          "transcript": "",
+          "url": "device-maintenance",
+          "vimeoId": "177450839"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with device maintenance duties by show the completion of the IOS update.  Before completing the updates process, they guys also discuss not only updating the IOS to the router but also verifying the integrity of the file uploaded and setting the new IOS os the boot system image.  Along with this updating, they also demonstrate how to do a password recovery with setting the configuration register to do so.",
+          "length": "1985",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-2-device_maintenance_pt.2-080216-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-2-device_maintenance_pt.2-080216-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-3-2-device_maintenance_pt.2-080216-1-sm.jpg",
+          "title": "Device Maintenance Part 2",
+          "transcript": "",
+          "url": "device-maintenance-2",
+          "vimeoId": "177450838"
+        },
+        {
+          "description": "In this episode, Ronnie and Don take us through the Cisco Troubleshooting Model that every CCENT candidate need to understand before the exam and also show an additional methodology using the OSI model to help isolate and resolve networking issues.  They also show the use of traceroute and pings when troubleshooting connectivity issues.",
+          "length": "1875",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-1-troubleshooting_tools-080316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-1-troubleshooting_tools-080316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-1-troubleshooting_tools-080316-1-sm.jpg",
+          "title": "Troubleshooting Tools",
+          "transcript": "",
+          "url": "troubleshooting-tools6",
+          "vimeoId": "177713879"
+        },
+        {
+          "description": "In this episode, Ronnie and Don continue with some additional troubleshooting using advanced pings and demonstrate the use of debugs.  They show a couple of different examples of how to change the pings to make it more useful in troubleshooting.  They also remind us about the importance of using the undebug all commands.",
+          "length": "1914",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-2-troubleshooting_tools_pt.2-080316-1.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-2-troubleshooting_tools_pt.2-080316-1-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/cisco-ccent100105/cisco-ccent100105-5-4-2-troubleshooting_tools_pt.2-080316-1-sm.jpg",
+          "title": "Troubleshooting Tools Part 2",
+          "transcript": "",
+          "url": "troubleshooting-tools-6",
+          "vimeoId": "177713878"
+        }
+      ],
+      "title": "Infrastructure Maintenance"
+    }
+  ],
+  "url": "ccent2017",
+  "vLab": false
+}

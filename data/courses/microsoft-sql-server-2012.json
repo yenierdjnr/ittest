@@ -1,0 +1,158 @@
+{
+  "description": "The Administering Microsoft SQL Server 2012 Databases exam is designed to be the entry point for Systems Administrators into the world of databases. The course focuses on areas that are required knowledge for anyone responsible for the creation and maintenance of Windows servers running Microsoft SQL 2012. The topics covered range from installing SQL Server to backing up and restoring databases.",
+  "descriptionMD": "",
+  "length": "52740",
+  "name": "Microsoft SQL Server 2012 - 70-462",
+  "practiceExam": true,
+  "subtitle": "Administering Microsoft SQL Server 2012 Databases",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "The Administering Microsoft SQL Server 2012 Databases exam is designed to be the entry point for Systems Administrators into the world of databases. The course focuses on areas that are required knowledge for anyone responsible for the creation and maintenance of Windows servers running Microsoft SQL 2012. The topics covered range from installing SQL Server to backing up and restoring databases.",
+          "length": "508",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/001-Intro-to-Microsoft-SQL-sm.jpg",
+          "title": "Intro to Microsoft SQL",
+          "transcript": "1\n00:00:00,025 --> 00:00:08,034\n[SOUND].\n\n2\n00:00:08,034 --> 00:00:11,585\nThis ITProTV series is designed\nto introduce the viewer to\n\n3\n00:00:11,585 --> 00:00:13,620\nMicrosoft SQL Server 2012.\n\n4\n00:00:13,620 --> 00:00:18,320\nMore importantly, it's designed to\nintroduce a system admin, to SQL Server.\n\n5\n00:00:18,320 --> 00:00:20,870\nNow a lot of people are familiar\nwith Microsoft SQL.\n\n6\n00:00:20,870 --> 00:00:23,280\nIt's one of the most common\ndatabase servers in the world,\n\n7\n00:00:23,280 --> 00:00:26,540\nyou see it very frequently used\nin a lot of organizations.\n\n8\n00:00:26,540 --> 00:00:30,860\nBut, as a Systems Administrator,\nyou're not a database administrator.\n\n9\n00:00:30,860 --> 00:00:34,150\nYou don't necessarily know\nthe inner workings of a database.\n\n10\n00:00:34,150 --> 00:00:37,080\nBut you might be tasked with\nthe responsibilities of maintaining, or\n\n11\n00:00:37,080 --> 00:00:39,590\neven installing and\ncreating that database server.\n\n12\n00:00:39,590 --> 00:00:41,980\nIt's a very common thing to fall into.\n\n13\n00:00:41,980 --> 00:00:45,600\nAs a result, Microsoft created\nan exam that was centered around,\n\n14\n00:00:45,600 --> 00:00:50,120\nnot the programming side of Microsoft SQL,\nbut the supporting side of it.\n\n15\n00:00:50,120 --> 00:00:52,430\nAnd that's what this show\nis going to be covering.\n\n16\n00:00:52,430 --> 00:00:55,510\nThe exam is the 70-462 exam and\n\n17\n00:00:55,510 --> 00:00:59,320\nthe official title is Administering\nMicrosoft SQL Server 2012 Databases.\n\n18\n00:00:59,320 --> 00:01:03,300\nNow there is a sister course associated\nwith this one that does get a little\n\n19\n00:01:03,300 --> 00:01:06,860\nmore onto the, I don't wanna call it the\ndeveloper side cuz you're not programming,\n\n20\n00:01:06,860 --> 00:01:10,920\nbut dealing with the SQL queries and\nall that other stuff.\n\n21\n00:01:10,920 --> 00:01:13,230\nSo there is one that gets\na little more heavier into that.\n\n22\n00:01:13,230 --> 00:01:16,930\nBut this one,\nis specifically focused to systems admins,\n\n23\n00:01:16,930 --> 00:01:21,120\nthe people who are supporting Windows\nServer, who are putting the hardware\n\n24\n00:01:21,120 --> 00:01:24,130\nservers in the rack and\ngetting this infrastructure built up.\n\n25\n00:01:24,130 --> 00:01:26,880\nThey may need to bring up\ndatabase servers also.\n\n26\n00:01:26,880 --> 00:01:30,102\nNow you may have an entire staff of\nprogrammers who are ready to jump in there\n\n27\n00:01:30,102 --> 00:01:31,599\nand start using those databases.\n\n28\n00:01:31,599 --> 00:01:35,059\nBut they don't understand how to\nbackup and restore the database or\n\n29\n00:01:35,059 --> 00:01:39,060\nhow to do performance tuning of\nthe database, things like that.\n\n30\n00:01:39,060 --> 00:01:41,070\nThey deal on the development side.\n\n31\n00:01:41,070 --> 00:01:43,580\nWe as System Admins,\ndeal on the server side.\n\n32\n00:01:43,580 --> 00:01:46,585\nAnd so that's what we tackle for\nthis certification.\n\n33\n00:01:46,585 --> 00:01:49,895\nNow, if you look at the requirements,\nI'll just kinda scroll down here a bit.\n\n34\n00:01:49,895 --> 00:01:52,525\nYou'll see it starts out real basic\nwith things like installing and\n\n35\n00:01:52,525 --> 00:01:53,765\nconfiguring, right?\n\n36\n00:01:53,765 --> 00:01:55,904\nWe need to get a SQL Server up and\nrunning so\n\n37\n00:01:55,904 --> 00:01:58,855\nwe can start to create databases on it and\nwork with data.\n\n38\n00:01:58,855 --> 00:02:02,540\nSo that's exactly where it begins,\njust the initial configuration.\n\n39\n00:02:02,540 --> 00:02:05,370\nThen, actually creating the databases.\n\n40\n00:02:05,370 --> 00:02:06,510\nSomebody's gotta make it.\n\n41\n00:02:06,510 --> 00:02:10,610\nAnd maybe you're getting a specific spec\nsheet from your development team saying\n\n42\n00:02:10,610 --> 00:02:11,750\nhere's what we need.\n\n43\n00:02:11,750 --> 00:02:12,990\nBut often times you don't get that.\n\n44\n00:02:12,990 --> 00:02:15,095\nThey just say, hey,\nwe need a database server.\n\n45\n00:02:15,095 --> 00:02:19,505\nSo, we bring one up, we create the initial\ndatabases, and we get the system up.\n\n46\n00:02:19,505 --> 00:02:21,921\nNow we'll also take a look at clustering,\ntoo.\n\n47\n00:02:21,921 --> 00:02:24,879\nIf this is a database that needs\nto be up as often as possible,\n\n48\n00:02:24,879 --> 00:02:29,171\nlike high availability, well, we're gonna\nneed to take some extra precautions and so\n\n49\n00:02:29,171 --> 00:02:30,805\nwe'll see that in maintaining.\n\n50\n00:02:32,240 --> 00:02:34,030\nIt then goes on optimizing, right?\n\n51\n00:02:34,030 --> 00:02:36,540\nHow do you make the database run better?\n\n52\n00:02:36,540 --> 00:02:41,910\nAnybody can bring up a database server,\nbut the more that database begins to grow,\n\n53\n00:02:41,910 --> 00:02:44,880\nthe slower and\nslower the system is going to become.\n\n54\n00:02:44,880 --> 00:02:46,670\nAnd everybody's data is\na little bit different.\n\n55\n00:02:46,670 --> 00:02:48,540\nSo we take a look at some of the tools and\n\n56\n00:02:48,540 --> 00:02:51,540\ntechniques that are available\nto tweak that data,\n\n57\n00:02:51,540 --> 00:02:55,510\nto change the way that SQL Server\nperforms and get it running a lot faster.\n\n58\n00:02:55,510 --> 00:02:57,600\nAnd I've got some stories\nI'll tell in those episodes.\n\n59\n00:02:57,600 --> 00:03:01,540\nYou can really make a big difference\nwith just a few mouse clicks, so\n\n60\n00:03:01,540 --> 00:03:03,400\nit's some really neat\nstuff that's in there.\n\n61\n00:03:04,880 --> 00:03:07,020\nOnce the server's up and\nrunning, we're done right?\n\n62\n00:03:07,020 --> 00:03:08,030\nWe get to walk away?\n\n63\n00:03:08,030 --> 00:03:09,510\nWell, not quite.\n\n64\n00:03:09,510 --> 00:03:11,340\nA lot of times we need\nto manage the data and\n\n65\n00:03:11,340 --> 00:03:13,240\nthat's what the next section jumps into.\n\n66\n00:03:13,240 --> 00:03:17,125\nEspecially from the standpoint\nof backup and restore, right?\n\n67\n00:03:17,125 --> 00:03:22,110\nIt's very, very easy to accidentally wipe\nall of the data out of a database, right?\n\n68\n00:03:22,110 --> 00:03:24,198\nIf you give somebody the access\nto write to the database they\n\n69\n00:03:24,198 --> 00:03:25,600\ncouldn't really do that.\n\n70\n00:03:25,600 --> 00:03:28,950\nSo we need to make sure that we've\ngot backups, reliable backups, right?\n\n71\n00:03:28,950 --> 00:03:32,740\nIt's easy for us to restore and\nget our systems backup and going.\n\n72\n00:03:32,740 --> 00:03:36,930\nAnd then this little section right here\nis probably the most important one in\n\n73\n00:03:36,930 --> 00:03:40,740\nthe entire exam objective set.\n\n74\n00:03:40,740 --> 00:03:43,910\nManaging or implementing and\nmaintaining indexes, all right?\n\n75\n00:03:43,910 --> 00:03:47,400\nIndexes will change the performance\nprofile of your server.\n\n76\n00:03:47,400 --> 00:03:50,860\nThey will make your server\nconsiderably faster.\n\n77\n00:03:50,860 --> 00:03:54,941\nBut, indexes are completely built around\nthe types of queries people are running.\n\n78\n00:03:54,941 --> 00:03:57,402\nSo we have to understand\nthe queries people are running, and\n\n79\n00:03:57,402 --> 00:03:59,050\nthen build the indexes appropriately.\n\n80\n00:03:59,050 --> 00:04:02,790\nThere is no one-size-fits-all\nindex solution out there.\n\n81\n00:04:02,790 --> 00:04:06,820\nSo we'll take a look at how to analyze\nyour database, see how it's being used,\n\n82\n00:04:06,820 --> 00:04:09,370\nand build the appropriate index\nsystem to make it run faster.\n\n83\n00:04:11,450 --> 00:04:12,830\nAfter that, we've got security, right?\n\n84\n00:04:12,830 --> 00:04:14,600\nWe don't wanna forget about that.\n\n85\n00:04:14,600 --> 00:04:17,810\nSome of the biggest visibility attacks\nthat have happened in the last ten\n\n86\n00:04:17,810 --> 00:04:20,420\nyears have all been focused on SQL.\n\n87\n00:04:20,420 --> 00:04:22,830\nWell, I shouldn't say it that way, right?\n\n88\n00:04:22,830 --> 00:04:25,640\nWhen we say SQL, that means Microsoft SQL.\n\n89\n00:04:25,640 --> 00:04:29,870\nWhen we say S-Q-L, well that's the\nstandard query language that's used across\n\n90\n00:04:29,870 --> 00:04:33,304\nnumerous products like Oracle,\nMySQL, and so on.\n\n91\n00:04:33,304 --> 00:04:35,960\nAnd, SQL injection attacks\n\n92\n00:04:35,960 --> 00:04:38,870\nare some of the biggest ones that have\nhappened over the last ten years.\n\n93\n00:04:38,870 --> 00:04:40,832\nMany of which went against\nMicrosoft servers, but\n\n94\n00:04:40,832 --> 00:04:43,570\nmany of which went against the Oracle and\nthe other guys too.\n\n95\n00:04:43,570 --> 00:04:47,240\nSo, how do we secure our system to\nhelp prevent from things like that?\n\n96\n00:04:47,240 --> 00:04:49,863\nWell, a lot of that is prevented\non the developer's side,\n\n97\n00:04:49,863 --> 00:04:51,234\nthey can take care of it there.\n\n98\n00:04:51,234 --> 00:04:54,475\nBut there are things we can do on\nthe back end with databases permissions,\n\n99\n00:04:54,475 --> 00:04:55,321\nlog ins and roles.\n\n100\n00:04:55,321 --> 00:04:59,902\nAnd other things to eliminate that\naccidental activity where people start to\n\n101\n00:04:59,902 --> 00:05:03,931\ninject commands and to do things\nthat we don't want to have happen.\n\n102\n00:05:03,931 --> 00:05:04,840\nAll right.\nAnd\n\n103\n00:05:04,840 --> 00:05:08,620\nthen the last part of the exam objectives\nis implementing high availability.\n\n104\n00:05:08,620 --> 00:05:13,110\nWe talk about it a little bit in\nthe maintaining databases section.\n\n105\n00:05:13,110 --> 00:05:15,966\nBut then we get into it down here\nas far as setting up a mirror,\n\n106\n00:05:15,966 --> 00:05:20,120\ngetting Always On configured, setting up\nfailover, and getting that put into place.\n\n107\n00:05:20,120 --> 00:05:22,870\nSo really good stuff to\nkeep the system online.\n\n108\n00:05:22,870 --> 00:05:26,620\nThese are the tasks right here\nthat an average system admin that\n\n109\n00:05:26,620 --> 00:05:30,280\nsupports a network that involves SQL\nservers are going to be expected to know.\n\n110\n00:05:30,280 --> 00:05:32,180\nSo it's a great set of knowledge.\n\n111\n00:05:32,180 --> 00:05:36,380\nFor a Microsoft exam this is one of\nthe few ones where I look at it and\n\n112\n00:05:36,380 --> 00:05:39,467\nI'm like man,\nthis is all stuff will actually use.\n\n113\n00:05:39,467 --> 00:05:43,040\nA lot of times there's at least one\nmodule in there where they put some fluff\n\n114\n00:05:43,040 --> 00:05:46,400\ncloud service or whatever,\nthat's more of a marketing module.\n\n115\n00:05:46,400 --> 00:05:50,118\nBut in this one, it's really\nskills that you'll use, all right.\n\n116\n00:05:50,118 --> 00:05:53,580\nNow, if you're looking to go a little\nmore onto the development side,\n\n117\n00:05:53,580 --> 00:05:55,613\nif you're looking to write SQL queries.\n\n118\n00:05:55,613 --> 00:06:00,074\nIf you wanna learn how to create\ntables and set up foreign keys and\n\n119\n00:06:00,074 --> 00:06:05,385\nrelationships like that, well,\nthe 70-462 doesn't do it.\n\n120\n00:06:05,385 --> 00:06:06,505\nBut if you're looking to work for\n\n121\n00:06:06,505 --> 00:06:10,675\nyour MCSA SQL Server,\nthere's other exams involved.\n\n122\n00:06:10,675 --> 00:06:14,840\nThe 462 is just one of them,\nthat's the one that really is designed for\n\n123\n00:06:14,840 --> 00:06:15,811\nsystem administrators.\n\n124\n00:06:15,811 --> 00:06:21,171\nBut notice there's the 461, Querying\nMicrosoft SQL Server 2012, all right.\n\n125\n00:06:21,171 --> 00:06:23,380\nThat is writing query statements.\n\n126\n00:06:23,380 --> 00:06:25,680\nYou actually start to learn\nthe standard query language,\n\n127\n00:06:25,680 --> 00:06:28,160\nhow to interact with\nthe data on the server.\n\n128\n00:06:28,160 --> 00:06:31,590\nHow to put data in the database,\nhow to get data out of the database.\n\n129\n00:06:31,590 --> 00:06:34,921\nA regular system admin doesn't really\nneed to know how to do that, but\n\n130\n00:06:34,921 --> 00:06:38,560\nsomebody who's actually DBA,\nDatabase Administrator, would.\n\n131\n00:06:39,880 --> 00:06:44,310\nAnd then, implementing a data warehouse\nwith Microsoft SQL Server 2012.\n\n132\n00:06:44,310 --> 00:06:47,540\nThat's where you start learning\nabout how to design your tables,\n\n133\n00:06:47,540 --> 00:06:50,590\nhow to work with the data\ninside of the database,\n\n134\n00:06:50,590 --> 00:06:54,590\nhow to create views and reports,\nhow to deal with integration services.\n\n135\n00:06:54,590 --> 00:06:58,020\nAll these extra things that a normal\nsystem admin is not going to work with,\n\n136\n00:06:58,020 --> 00:07:00,830\nbut instead, a DBA would, all right.\n\n137\n00:07:00,830 --> 00:07:05,490\nSo the full certification, the MCSA\nSQL Server, is really designed for\n\n138\n00:07:05,490 --> 00:07:10,800\nsomebody who's operating in that DBA role,\nwho is a database administrator.\n\n139\n00:07:10,800 --> 00:07:15,750\nBut this one that we're doing right here,\n70-462, works really for\n\n140\n00:07:15,750 --> 00:07:19,375\nanybody who has the responsibility\nof supporting a server running SQL.\n\n141\n00:07:19,375 --> 00:07:23,850\nSo I think this is one of the greater\nexams, one of the greatest set of topics.\n\n142\n00:07:23,850 --> 00:07:25,490\nEven if you don't take the exam,\n\n143\n00:07:25,490 --> 00:07:28,310\nthe stuff we talk about on\nthis show is really useful.\n\n144\n00:07:28,310 --> 00:07:30,690\nIt will help you operate\nyour database environment.\n\n145\n00:07:30,690 --> 00:07:35,190\nAnd those databases, for a lot of people,\nif you have a database server,\n\n146\n00:07:35,190 --> 00:07:40,710\nit's usually the core of your business,\nand so losing that, right, is a big deal.\n\n147\n00:07:40,710 --> 00:07:43,460\nIt could take your business offline for\nhours,\n\n148\n00:07:43,460 --> 00:07:46,390\ndays, who knows how long to\nget a system back online.\n\n149\n00:07:46,390 --> 00:07:48,570\nSo having it set up right\nfrom the beginning and\n\n150\n00:07:48,570 --> 00:07:52,130\nhaving a good backup strategy are two key\npieces we wanna make sure we have covered.\n\n151\n00:07:53,710 --> 00:07:56,530\nAll right, now our show content\nwill match up with the 70-462 exam,\n\n152\n00:07:56,530 --> 00:07:59,680\nso we're gonna cover all the stuff\nthat's on there like we normally do,\n\n153\n00:07:59,680 --> 00:08:01,584\nyou'll be prepared for that.\n\n154\n00:08:01,584 --> 00:08:03,670\nIf you wanna go on to do the other ones,\n\n155\n00:08:03,670 --> 00:08:06,660\nwe don't have plans in our schedule\nright now to tackle those.\n\n156\n00:08:06,660 --> 00:08:10,000\nBut things change over time, so\nby the time you're watching this, well,\n\n157\n00:08:10,000 --> 00:08:11,740\nnot if you're watching it live I guess,\nbut\n\n158\n00:08:11,740 --> 00:08:15,170\nif you're watching this down the road, we\nmay have already recorded the other ones.\n\n159\n00:08:15,170 --> 00:08:19,424\nSo check out the library and\nsee if they're there.\n\n160\n00:08:19,424 --> 00:08:26,650\nAll right, well that's pretty\nmuch my overview of this one.\n\n161\n00:08:26,650 --> 00:08:27,525\nI'll see you in the show.\n\n162\n00:08:27,525 --> 00:08:28,444\n[SOUND]\n\n",
+          "url": "intro-microsoft-sql",
+          "vimeoId": "105279754"
+        }
+      ],
+      "title": "Overview of Microsoft SQL Server 2012 (70-462)"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don discusses the minimum requirements for installing SQL. Then he walks through the process of installing SQL while examining each of the installation examples. Finally he shows some of the basic options that will be configured for most new deployments.",
+          "length": "5461",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/002-Install-and-Configure-SQL-sm.jpg",
+          "title": "Install and Configure SQL",
+          "transcript": "",
+          "url": "install-configure-sql",
+          "vimeoId": "105279755"
+        }
+      ],
+      "title": "Install and configure"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to create databases in Microsoft SQL. He then discusses how important the underlying file system is in terms of SQL performance.",
+          "length": "6195",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/003-Manage-and-Configure-Databases-sm.jpg",
+          "title": "Manage and Configure Databases",
+          "transcript": "",
+          "url": "manage-configure-databases",
+          "vimeoId": "105279756"
+        },
+        {
+          "description": "In this episode Don discusses using file groups to improve performance within a table. NOTE: After the credits is a special segment discussing indexes and partition tables. You should watch the Indexing episode to better understand the special segment.",
+          "length": "4531",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/004-Optimizing-Database-Files-sm.jpg",
+          "title": "Optimizing Database Files",
+          "transcript": "",
+          "url": "optimizing-database-files",
+          "vimeoId": "105340720"
+        }
+      ],
+      "title": "Maintain instances and databases"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to configure and activate the SQL Server Agent. He then shows how to schedule and automate various tasks using the SQL Agent.",
+          "length": "5616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/005-SQL-Server-Agent-sm.jpg",
+          "title": "SQL Server Agent",
+          "transcript": "",
+          "url": "sql-server-agent",
+          "vimeoId": "105779290"
+        }
+      ],
+      "title": "Optimize and troubleshoot"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don walks you through the process of backing up and restoring databases in Microsoft SQL. He explains the difference between full, differential and transaction log backups and describes when to use each.",
+          "length": "5477",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/006-Backup-and-Restore-Databases-sm.jpg",
+          "title": "Backup and Restore Databases",
+          "transcript": "",
+          "url": "backup-restore-databases",
+          "vimeoId": "105865973"
+        },
+        {
+          "description": "In this episode Don shows various methods for getting data into and out of SQL. He wraps up by showing how to use indexes with your data to significantly improve performance.",
+          "length": "7303",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/007-Import-Export-and-Indexing-Data-sm.jpg",
+          "title": "Import, Export, and Indexing Data",
+          "transcript": "",
+          "url": "import-export-indexing-data",
+          "vimeoId": "105971650"
+        }
+      ],
+      "title": "Manage data"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don demonstrates how to use user accounts and assign permissions inside of SQL Server. He also describes the various built-in roles included with every SQL server installation.",
+          "length": "5254",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/008-Implementing-Security-sm.jpg",
+          "title": "Implementing Security",
+          "transcript": "",
+          "url": "implementing-security",
+          "vimeoId": "106171019"
+        }
+      ],
+      "title": "Implement security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode Don shows how to increase high availability on your SQL server by using Microsoft Failover Clustering. He then shows other methods of increasing redundancy without the need of a full cluster environment.",
+          "length": "6330",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/009-Clustering-and-Redundancy-sm.jpg",
+          "title": "Clustering and Redundancy",
+          "transcript": "",
+          "url": "clustering-redundancy",
+          "vimeoId": "106382514"
+        },
+        {
+          "description": "In this episode Don demonstrates assorted tools and techniques for monitoring your SQL server to ensure health and peak performance.",
+          "length": "6065",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoftsql/010-Monitoring-SQL-Server-sm.jpg",
+          "title": "Monitoring SQL Server",
+          "transcript": "",
+          "url": "monitoring-sql-server",
+          "vimeoId": "106382513"
+        }
+      ],
+      "title": "Implement high availability"
+    }
+  ],
+  "url": "microsoft-sql-server-2012",
+  "vLab": false
+}

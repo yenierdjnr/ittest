@@ -1,26 +1,25 @@
 import React, { Fragment } from 'react';
+import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import styles from '../careerPaths.module.scss';
 import { CybersecurityPath as Path } from 'Components/CareerPaths';
 
-const Cybersecurity = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
-  return (
-    <Fragment>
-      <Head location={ location } />
-      <main className={ styles.Career }>
+const Cybersecurity = ({ data, location }) =>
+  <Fragment>
+    <Head location={ location } />
+    <main className={ styles.Career }>
 
-        <section className={ styles.Path }>
-          <Path
-              recommendedCourses={data.careerPath.recommended.courses}
-              supportingCourses={data.careerPath.supporting.courses}
-              additionalCourses={data.careerPath.additional.courses}/>
-        </section>
+      <section className={ styles.Path }>
+        <Path
+          recommendedCourses={data.careerPath.recommended.courses}
+          supportingCourses={data.careerPath.supporting.courses}
+          additionalCourses={data.careerPath.additional.courses}/>
+      </section>
 
-      </main>
-    </Fragment>
-  );
-}
+    </main>
+  </Fragment>
+
 
 export default Cybersecurity;
 

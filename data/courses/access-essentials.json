@@ -1,0 +1,346 @@
+{
+  "description": "Access is the database application within the Microsoft Office suite.  Many businesses, large and small, use Access to store large amounts of information. Just like building a strong house, you must have a solid foundation. We start from the very beginning discussing how to plan a database, introducing basic terminology and key concepts of relational database design, and exploring the Access Interface. Then we dive more in depth into each object in an Access databases - tables, queries, forms, and reports.  This series is targeted for users who want to get started in Access or users that want a refresher on Access essentials.  Access is a Windows only product and only available as a local installation.",
+  "descriptionMD": "Access is the database application within the Microsoft Office suite.  Many businesses, large and small, use Access to store large amounts of information. Just like building a strong house, you must have a solid foundation. We start from the very beginning discussing how to plan a database, introducing basic terminology and key concepts of relational database design, and exploring the Access Interface. Then we dive more in depth into each object in an Access databases - tables, queries, forms, and reports.  This series is targeted for users who want to get started in Access or users that want a refresher on Access essentials.  Access is a Windows only product and only available as a local installation.",
+  "length": "46464",
+  "name": "Access 2016 Essentials",
+  "practiceExam": false,
+  "subtitle": "Database application",
+  "tagUrl": "officeprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Access is the database application within the Microsoft Office suite. Many businesses, large and small, use Access to store large amounts of information. Just like building a strong house, you must have a solid foundation. We start from the very beginning discussing how to plan a database, introducing basic terminology and key concepts of relational database design, and exploring the Access Interface. Then we dive more in depth into each object in an Access databases - tables, queries, forms, and reports. This series is targeted for users who want to get started in Access or users that want a refresher on Access essentials. Access is a Windows only product and only available as a local installation.",
+          "length": "630",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/overview.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/overview-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/overview-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:08.832\n[MUSIC]\n\n2\n00:00:08.832 --> 00:00:14.512\nHello and welcome to OfficeProTV.\n\n3\n00:00:14.512 --> 00:00:16.745\nI'm your host, Vonne Smith, and\n\n4\n00:00:16.745 --> 00:00:20.518\nthis is the Access 2016\nEssentials Course overview.\n\n5\n00:00:20.518 --> 00:00:24.469\nAnd in this episode we're going to be\nreviewing well exactly what is this\n\n6\n00:00:24.469 --> 00:00:26.400\nshow going to be covering.\n\n7\n00:00:26.400 --> 00:00:28.270\nWho is this show for?\n\n8\n00:00:28.270 --> 00:00:30.460\nDo I need to know anything\nbefore I get started?\n\n9\n00:00:30.460 --> 00:00:33.970\nAnd any extra tit bits along the way.\n\n10\n00:00:33.970 --> 00:00:38.573\nSo let's talk about topics that we are\ngoing to be covering this is an essential\n\n11\n00:00:38.573 --> 00:00:43.038\nshow, we started at very beginning of\nintroducing different topics within\n\n12\n00:00:43.038 --> 00:00:45.082\nAccess, like what is a database?\n\n13\n00:00:45.082 --> 00:00:47.470\nWhat does it mean to have a select query?\n\n14\n00:00:47.470 --> 00:00:50.166\nHow do I get around\nthe interface of Access?\n\n15\n00:00:50.166 --> 00:00:53.854\nWell, that's all covered in\nthis introduction topic, or\n\n16\n00:00:53.854 --> 00:00:56.004\nsection of this particular show.\n\n17\n00:00:56.004 --> 00:00:59.348\nThen we're gonna go ahead and\nget into creating tables,\n\n18\n00:00:59.348 --> 00:01:03.758\nwhere all of your data is actually\nstored within your Access database.\n\n19\n00:01:03.758 --> 00:01:07.701\nSo we're gonna learn how to create tables,\nhow to import information,\n\n20\n00:01:07.701 --> 00:01:09.910\nwhether from an Excel file or a CSV file.\n\n21\n00:01:09.910 --> 00:01:14.330\nAnd we're also gonna be talking about\nthe relationships that we have between\n\n22\n00:01:14.330 --> 00:01:15.080\nour tables.\n\n23\n00:01:15.080 --> 00:01:19.800\nVery important key concepts\nabout designing a database.\n\n24\n00:01:19.800 --> 00:01:23.857\nThen we're gonna move into creating\nqueries or questions that we're\n\n25\n00:01:23.857 --> 00:01:27.992\ngoing to be asking of our data,\nto be able to pull out that information.\n\n26\n00:01:27.992 --> 00:01:32.507\nAnd within this particular topic,\nwe're also gonna talk about some of\n\n27\n00:01:32.507 --> 00:01:37.323\nthe flaws that we have encountered or\ncreated, some little mistakes that we\n\n28\n00:01:37.323 --> 00:01:41.784\nmade in our database as we were\ndesigning this out and working with it.\n\n29\n00:01:41.784 --> 00:01:45.469\nAnd be able to show you guys some\nof the mistakes we've made so\n\n30\n00:01:45.469 --> 00:01:49.590\nyou can learn from our mistakes,\nand be able to really solidify that\n\n31\n00:01:49.590 --> 00:01:53.650\nfoundational knowledge of\nproper database design.\n\n32\n00:01:53.650 --> 00:01:57.225\nThen we move into making forms,\nthis is where we could go ahead and\n\n33\n00:01:57.225 --> 00:02:01.710\ninput the information into our database,\ninto our tables, how to create forms.\n\n34\n00:02:01.710 --> 00:02:04.502\nWhere we'll talk about controls and\nfields and\n\n35\n00:02:04.502 --> 00:02:07.025\nhow that maps out to our different tables.\n\n36\n00:02:07.025 --> 00:02:10.347\nAnd then we'll get into reporting\nthe data, generating reports,\n\n37\n00:02:10.347 --> 00:02:13.493\nbecause everybody knows that they\nhave that one boss that says,\n\n38\n00:02:13.493 --> 00:02:17.350\ncan you go ahead and give me that\nreport by Friday, that would be great.\n\n39\n00:02:17.350 --> 00:02:20.595\nSo we're gonna go ahead and\nshow you how to do that.\n\n40\n00:02:20.595 --> 00:02:26.051\nNow this particular show is designated for\na beginner user in Access,\n\n41\n00:02:26.051 --> 00:02:30.674\nor maybe you have no prior\nknowledge of Access at any level,\n\n42\n00:02:30.674 --> 00:02:33.340\nthen this is the show for you.\n\n43\n00:02:33.340 --> 00:02:39.170\nAnd I say all Officer users with\na capital O, meaning the Office Suite.\n\n44\n00:02:39.170 --> 00:02:43.530\nNot necessarily that you work in an office\nor not, like a physical location, but\n\n45\n00:02:43.530 --> 00:02:46.430\nyou are using the Office 365 Suite.\n\n46\n00:02:46.430 --> 00:02:51.258\nNow a little caveat on this\nparticular product here is that,\n\n47\n00:02:51.258 --> 00:02:54.010\nAccess is a Windows only product.\n\n48\n00:02:54.010 --> 00:02:59.120\nThey do not make Office or Access for\nMac, so you will have to do that.\n\n49\n00:02:59.120 --> 00:03:01.879\nSo if you're on a Mac,\nyou might wanna go look\n\n50\n00:03:01.879 --> 00:03:05.946\nat something else on different shows\non how you might wanna use it,\n\n51\n00:03:05.946 --> 00:03:09.744\ncuz there is no equivalent there\nin this particular product.\n\n52\n00:03:09.744 --> 00:03:11.468\nNow the prerequisites like I just said,\n\n53\n00:03:11.468 --> 00:03:13.809\nyou don't have to have any\nprior knowledge of Access.\n\n54\n00:03:13.809 --> 00:03:16.775\nIf you have some familiarity we say Excel.\n\n55\n00:03:16.775 --> 00:03:20.754\nYou're looking to maybe kinda go from\nExcel to Access then we would have\n\n56\n00:03:20.754 --> 00:03:24.420\nsome familiarity with that\nparticular product which will help.\n\n57\n00:03:24.420 --> 00:03:29.335\nAnd I actually use a lot of\ncorrelations between this product and\n\n58\n00:03:29.335 --> 00:03:32.790\nExcel because I'm more of an Excel user.\n\n59\n00:03:32.790 --> 00:03:35.718\nAnd then Ronnie, who's going to be\nthe person we'll be seeing a lot of,\n\n60\n00:03:35.718 --> 00:03:37.400\nand hearing him tell us all about Access.\n\n61\n00:03:37.400 --> 00:03:40.020\nI'll try to make some of\nthose correlations for you.\n\n62\n00:03:40.020 --> 00:03:44.758\nBut also having a basic understanding of\nthe Windows environment will be helpful,\n\n63\n00:03:44.758 --> 00:03:48.221\nso you know where the start button is,\nand things like that.\n\n64\n00:03:48.221 --> 00:03:51.580\nExtra information,\nthere's always other options.\n\n65\n00:03:51.580 --> 00:03:53.440\nIf we're right clicking on something,\n\n66\n00:03:53.440 --> 00:03:57.100\nyou could also probably double click\nsomewhere else, or there's a button,\n\n67\n00:03:57.100 --> 00:04:01.750\nthere's multiple ways to get to the same\nplace, in all of your Office products.\n\n68\n00:04:01.750 --> 00:04:05.560\nSo just keep that in mind, and you might\ndevelop one way that you like to go\n\n69\n00:04:05.560 --> 00:04:07.880\nto get something rather than\nthe way that we're showing you.\n\n70\n00:04:07.880 --> 00:04:10.190\nSo there's always different options,\nand we might not cover them all,\n\n71\n00:04:10.190 --> 00:04:11.380\ncuz there's so many of them.\n\n72\n00:04:12.400 --> 00:04:16.590\nUpdates happen,\nyes this is a subscription based product,\n\n73\n00:04:16.590 --> 00:04:18.220\nif you are using a subscription base.\n\n74\n00:04:18.220 --> 00:04:21.090\nOf course, you could have a single,\nstand alone product as well.\n\n75\n00:04:21.090 --> 00:04:25.700\nBut if you are on that Office 365\nsubscription, you will have updates.\n\n76\n00:04:25.700 --> 00:04:29.992\nAnd by the time that you're watching this\nprogram, you might have some updates on\n\n77\n00:04:29.992 --> 00:04:33.614\nyour application that we didn't\nhave at the time of this recording.\n\n78\n00:04:33.614 --> 00:04:37.720\nThere might be a few things that\nare different here and there.\n\n79\n00:04:37.720 --> 00:04:41.398\nSearching for answers, yep there's\ngood old Oracle of the internet,\n\n80\n00:04:41.398 --> 00:04:44.891\nyou can go ahead and search for\nyour answers either through Google or\n\n81\n00:04:44.891 --> 00:04:47.420\nBing, whatever search\nengine that you prefer.\n\n82\n00:04:47.420 --> 00:04:52.267\nAlso the Microsoft Office help files,\nthey're actually very, very helpful, so\n\n83\n00:04:52.267 --> 00:04:54.720\ndefinitely check that out.\n\n84\n00:04:54.720 --> 00:04:58.461\nEverybody uses products differently,\nand that goes the same for Access.\n\n85\n00:04:58.461 --> 00:05:03.034\nSo how we're demonstrating the concept\nof Access with our particular database,\n\n86\n00:05:03.034 --> 00:05:07.500\nmight not be the exact database, or\nthe reasons why you need to use Access.\n\n87\n00:05:07.500 --> 00:05:11.028\nBut we do try to take this from\na very foundational level,\n\n88\n00:05:11.028 --> 00:05:14.852\nof being able to explain the core\nconcepts of this project, or\n\n89\n00:05:14.852 --> 00:05:19.060\nthis product, I should say, and\nthat you can be able to translate.\n\n90\n00:05:19.060 --> 00:05:22.720\nAnd as always, I always try to tell\nyou all, have some fun with this, or\n\n91\n00:05:22.720 --> 00:05:24.740\nat least have fun learning about this.\n\n92\n00:05:24.740 --> 00:05:28.770\nWe like to have fun,\nwe like to keep it light, make some jokes.\n\n93\n00:05:28.770 --> 00:05:30.920\nMe and\nRonnie have a pretty good rapport there.\n\n94\n00:05:30.920 --> 00:05:32.746\nWe've known each other for a long time, so\n\n95\n00:05:32.746 --> 00:05:35.065\nwe like to kinda poke fun at\neach other here and there.\n\n96\n00:05:35.065 --> 00:05:39.549\nSoI hope you have a good time while\nyou're watching these episodes and\n\n97\n00:05:39.549 --> 00:05:43.580\nhopefully, you can have a lot\nof fun with Access for yourself.\n\n98\n00:05:43.580 --> 00:05:48.445\nSo I'd like to talk to you guys little bit\nabout how the exercise files are arranged\n\n99\n00:05:48.445 --> 00:05:50.400\nin this particular show.\n\n100\n00:05:50.400 --> 00:05:54.712\nIt is slightly different from some of our\nother shows if you've seen like Artcell or\n\n101\n00:05:54.712 --> 00:05:56.573\nWord, it's slightly different.\n\n102\n00:05:56.573 --> 00:06:00.625\nWe do have files that are associated\nwith all of the episodes and\n\n103\n00:06:00.625 --> 00:06:02.850\nlessons that we go through.\n\n104\n00:06:02.850 --> 00:06:08.543\nHowever, we don't have the files\nindividually for download on each episode.\n\n105\n00:06:08.543 --> 00:06:14.090\nWe put all of the files for the entire\nshow in this particular course overview.\n\n106\n00:06:14.090 --> 00:06:18.090\nSo make sure you go ahead and\ndownload the episode files\n\n107\n00:06:18.090 --> 00:06:21.820\nfrom this particular screen that you're\nlooking at and be able to see them.\n\n108\n00:06:21.820 --> 00:06:25.300\nSo let me go head and show you and give\nyou a little roadmap of where we're going.\n\n109\n00:06:25.300 --> 00:06:29.209\nSo once you download them, they will\nbe a zipped file that you can unzip and\n\n110\n00:06:29.209 --> 00:06:30.660\nI have a folder right here,\n\n111\n00:06:30.660 --> 00:06:34.152\nthat just has all of the files\nthat we're going to be addressing.\n\n112\n00:06:34.152 --> 00:06:38.518\nSome PDFs, some Access files,\nour database files, some Excel files, and\n\n113\n00:06:38.518 --> 00:06:41.877\nI'm like gosh,\nI don't know which ones go with which.\n\n114\n00:06:41.877 --> 00:06:43.650\nWell, just consult the guide.\n\n115\n00:06:43.650 --> 00:06:48.782\nAnd I have made this into a PDF,\nand an Excel file.\n\n116\n00:06:48.782 --> 00:06:54.555\nI'm gonna go ahead and open the PDF called\nAccess 2016 Essentials Files Guide.\n\n117\n00:06:54.555 --> 00:07:02.090\nAnd this goes ahead and maps out every\nsingle episode name that we have.\n\n118\n00:07:02.090 --> 00:07:05.230\nYou don't really don't have to worry\nabout the numbers this is more for us and\n\n119\n00:07:05.230 --> 00:07:07.210\nour internal numbering system.\n\n120\n00:07:07.210 --> 00:07:12.720\nBut take the name of the episode, and then\nthe files that are associated with it.\n\n121\n00:07:12.720 --> 00:07:17.820\nSo you can see that\nthe Database Terminology pt 2 is\n\n122\n00:07:17.820 --> 00:07:22.370\nassociated with the Database Terminology\nwith Notes.pdf, and I have another one\n\n123\n00:07:22.370 --> 00:07:27.210\nover here to the side, that will give you\njust a couple of extra notes in there.\n\n124\n00:07:27.210 --> 00:07:31.427\nAnd as you can see, this kinda goes\ndown through each one of our episodes.\n\n125\n00:07:31.427 --> 00:07:36.397\nAnd then gives you which files that you\nneed to look for within that folder, and\n\n126\n00:07:36.397 --> 00:07:40.180\nhow they're associated with each other and\nalong the way.\n\n127\n00:07:40.180 --> 00:07:43.652\nThere are a few little things I wanted\nto point out that we do have some kinda\n\n128\n00:07:43.652 --> 00:07:46.160\nstopping point, or some kinda checkpoints.\n\n129\n00:07:46.160 --> 00:07:51.190\nBecause this is a show that we intend\nto have you watch as a sequence.\n\n130\n00:07:51.190 --> 00:07:56.290\nSo it goes from show one all the way down,\nor episode one down through.\n\n131\n00:07:56.290 --> 00:08:00.320\nIf you're picking up on one\nparticular episode individually,\n\n132\n00:08:00.320 --> 00:08:02.100\nthat's totally fine too.\n\n133\n00:08:02.100 --> 00:08:07.750\nJust take notice that some of the episodes\nkind of build off of each other.\n\n134\n00:08:07.750 --> 00:08:12.450\nSo somethings that might be\ncovered in the table relationships\n\n135\n00:08:12.450 --> 00:08:17.360\nare piggybacking off of our creating\ntables, importing external data.\n\n136\n00:08:17.360 --> 00:08:18.685\nSo we do kind of use this,\n\n137\n00:08:18.685 --> 00:08:22.361\nwe talk about them being many\ntheories within this particular show.\n\n138\n00:08:22.361 --> 00:08:28.937\nSo they are meant to be washed within\nlike a whole topic from beginning to end.\n\n139\n00:08:28.937 --> 00:08:33.057\nDo notice that some of the file names\nmight be a little different from one\n\n140\n00:08:33.057 --> 00:08:33.890\nto the other.\n\n141\n00:08:33.890 --> 00:08:38.430\nFor example, I have some ones\nthat I have a starting file right\n\n142\n00:08:38.430 --> 00:08:41.470\nhere in the external data\nof the import and a pen.\n\n143\n00:08:41.470 --> 00:08:43.310\nCuz I created that after the episode, so\n\n144\n00:08:43.310 --> 00:08:45.214\nyou would have a file\nto follow up on with.\n\n145\n00:08:45.214 --> 00:08:51.230\nBut the file name in the episode,\nmight not match that, and that's okay.\n\n146\n00:08:51.230 --> 00:08:54.890\nAnd so you can see that we have to this\npoint, this is where the file ends,\n\n147\n00:08:54.890 --> 00:08:56.270\nthen you get into queries.\n\n148\n00:08:56.270 --> 00:08:58.790\nAnd then we have kind\nof some extra files and\n\n149\n00:08:58.790 --> 00:09:02.990\nup to this point that's where this\nfile will be, and so on and so forth.\n\n150\n00:09:02.990 --> 00:09:06.090\nSo, just consult this particular\nguide to go ahead and\n\n151\n00:09:06.090 --> 00:09:11.230\nmatch up the different exercise\nfiles to the episodes.\n\n152\n00:09:11.230 --> 00:09:16.143\nAnd then just as little note down here\nthat I have for you guys is that,\n\n153\n00:09:16.143 --> 00:09:20.650\nwe did try very hard to make sure\nthat the files do match, okay?\n\n154\n00:09:20.650 --> 00:09:24.745\nBut, and sometimes there might have\nlike a couple extra things in there so\n\n155\n00:09:24.745 --> 00:09:28.048\nyou could see there has extra\ndifferent objects compared to\n\n156\n00:09:28.048 --> 00:09:31.570\nthe episode files in the recordings,\nand they should be fine.\n\n157\n00:09:31.570 --> 00:09:35.747\nYou could see that between filming\nepisodes, we do modify our files here and\n\n158\n00:09:35.747 --> 00:09:38.370\nthere to make sure that\neverything is working.\n\n159\n00:09:38.370 --> 00:09:43.157\nAnd then we readjust them to be able\nto have you guys have a starting\n\n160\n00:09:43.157 --> 00:09:45.520\npoint of where to follow along.\n\n161\n00:09:45.520 --> 00:09:49.389\nBut just keep in mind that\nthe findings might be different and,\n\n162\n00:09:49.389 --> 00:09:53.185\nsome of the episodes like I said\nbefore they do work off each and\n\n163\n00:09:53.185 --> 00:09:55.457\nI do try to notate in those episodes.\n\n164\n00:09:55.457 --> 00:10:00.512\nFor example right here in our reports\nthat, the reports part four is\n\n165\n00:10:00.512 --> 00:10:05.790\ncontinuing the same example that\nwe started in the part three file.\n\n166\n00:10:05.790 --> 00:10:09.525\nSo, just wanted to make a note of that and\nso you all are very aware of that.\n\n167\n00:10:09.525 --> 00:10:13.279\nI've made this guide for you guys so\ngo ahead and download those episodes.\n\n168\n00:10:13.279 --> 00:10:17.142\nBut that goes ahead and\nwraps up my overview of the course, and\n\n169\n00:10:17.142 --> 00:10:19.460\nthe overview of the exercise files.\n\n170\n00:10:19.460 --> 00:10:23.085\nSo I hope to see you very soon,\nand let's have some fun in Access.\n\n171\n00:10:23.085 --> 00:10:29.559\n[MUSIC].\n\n",
+          "url": "overview-access2017",
+          "vimeoId": "236995052"
+        },
+        {
+          "description": "The dynamic dou of Vonne and Ronnie are back together to bring you Access 2016. In this episode, they review the basic question of what is Access, where it belongs in the Office suite, and other introductory topics.",
+          "length": "1655",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-1-introduction_to_access-091317-PGM.00_27_25_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-1-introduction_to_access-091317-PGM.00_27_25_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-1-introduction_to_access-091317-PGM.00_27_25_20.Still001-sm.jpg",
+          "title": "Introduction to Access",
+          "transcript": "",
+          "url": "introductionaccess",
+          "vimeoId": "233881684"
+        },
+        {
+          "description": "In this episode, Ronnie and Vonne introduce the concept of a database with a great analogy - laundry! They discuss the importance of organizing data and how the data relates to one another. They also discuss how Excel and Access differ in how they interact with data. They then take a trip down memory lane with examples of analog databases.",
+          "length": "1936",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-2-what_is_a_database-091317-PGM.00_36_06_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-2-what_is_a_database-091317-PGM.00_36_06_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-2-what_is_a_database-091317-PGM.00_36_06_15.Still001-sm.jpg",
+          "title": "What is a Database",
+          "transcript": "",
+          "url": "database",
+          "vimeoId": "233881320"
+        },
+        {
+          "description": "Ronnie and Vonne define and explain key terms in general databases and Access.",
+          "length": "1966",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-database_terminology-091317-PGM.00_32_37_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-database_terminology-091317-PGM.00_32_37_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-database_terminology-091317-PGM.00_32_37_02.Still001-sm.jpg",
+          "title": "Database Terminology",
+          "transcript": "",
+          "url": "database-terminology",
+          "vimeoId": "233880887"
+        },
+        {
+          "description": "Ronnie and Vonne had so much fun defining terms, they had to make a part 2! They continue to explain key terms in general databases and Access.",
+          "length": "1841",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-2-database_terminology_pt2-091417-PGM.00_30_30_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-2-database_terminology_pt2-091417-PGM.00_30_30_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-3-2-database_terminology_pt2-091417-PGM.00_30_30_29.Still001-sm.jpg",
+          "title": "Database Terminology Part 2",
+          "transcript": "",
+          "url": "database-terminology2",
+          "vimeoId": "233880610"
+        },
+        {
+          "description": "Don't know where to begin in building a database in Access? Luckily, Access has templates to get you going.  Ronnie and Vonne explore creating a template database and indentify what Acccess creates for us.",
+          "length": "1455",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-4-getting_started_in_access-091417-PGM.00_24_04_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-4-getting_started_in_access-091417-PGM.00_24_04_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-4-getting_started_in_access-091417-PGM.00_24_04_17.Still001-sm.jpg",
+          "title": "Getting Started in Access",
+          "transcript": "",
+          "url": "getting-startedaccess",
+          "vimeoId": "233882055"
+        },
+        {
+          "description": "Vonne and Ronnie explore the Access interface. They identify the title bar, quick access toolbar, ribbon, status bar, and navigation pane.",
+          "length": "1687",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-5-access_interface_navigation-091417.00_27_58_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-5-access_interface_navigation-091417.00_27_58_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-5-access_interface_navigation-091417.00_27_58_23.Still001-sm.jpg",
+          "title": "Access Interface and Navigation",
+          "transcript": "",
+          "url": "access-interfacenavigation",
+          "vimeoId": "233882335"
+        },
+        {
+          "description": "Prior proper planning prevents poor performance. Vonne and Ronnie talk about the importance of planning out a database and review basic concepts of relational database design.",
+          "length": "1542",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-1-planning_and_database_design-091517-PGM.00_30_22_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-1-planning_and_database_design-091517-PGM.00_30_22_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-1-planning_and_database_design-091517-PGM.00_30_22_16.Still001-sm.jpg",
+          "title": "Planning and Database Design",
+          "transcript": "",
+          "url": "planningdatabase-design",
+          "vimeoId": "234505705"
+        },
+        {
+          "description": "Vonne and Ronnie continue their discussion about planning a database.  Specifically, they review how they determined the fields needed in their tables for the show's database. They also touch upon the concept of data normalization.",
+          "length": "1815",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-2-planning_and_database_design_pt2-091517-PGM.00_30_27_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-2-planning_and_database_design_pt2-091517-PGM.00_30_27_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-1-6-2-planning_and_database_design_pt2-091517-PGM.00_30_27_17.Still001-sm.jpg",
+          "title": "Planning and Database Design Part 2",
+          "transcript": "",
+          "url": "planningdatabase-design2",
+          "vimeoId": "234505936"
+        }
+      ],
+      "title": "Introduction"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Vonne and Ronnie create their first table in a new database. They create fields and determine data types in the design view. They also review the field properties. Lastly, they enter in records in the datasheet view.",
+          "length": "1844",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-1-creating_tables_manual_data_entry-091517.00_33_16_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-1-creating_tables_manual_data_entry-091517.00_33_16_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-1-creating_tables_manual_data_entry-091517.00_33_16_27.Still001-sm.jpg",
+          "title": "Creating Tables: Manual Data Entry",
+          "transcript": "",
+          "url": "creating-tables-manual-data-entry",
+          "vimeoId": "234506219"
+        },
+        {
+          "description": "In this episode, Vonne and Ronnie continue to create tables in Access 2016.  They discuss the reason to import data and show how Access tools can help us quickly build our tables to get them ready for use.",
+          "length": "1866",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-1-creating_tables_importing_external_data-091917.00_30_57_20.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-1-creating_tables_importing_external_data-091917.00_30_57_20.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-1-creating_tables_importing_external_data-091917.00_30_57_20.Still001-sm.jpg",
+          "title": "Creating Tables: Importing External Data",
+          "transcript": "",
+          "url": "creating-tables-importing-external-data",
+          "vimeoId": "234672531"
+        },
+        {
+          "description": "In this episode, Vonne and Ronnie continue to create tables in Access 2016.  They discuss the reason to import data and show how Access tools can help us quickly build our tables to get them ready for use.",
+          "length": "1774",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-2-creating_tables_importing_external_data_pt2-091917-PGM.00_34_33_04.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-2-creating_tables_importing_external_data_pt2-091917-PGM.00_34_33_04.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-2-2-creating_tables_importing_external_data_pt2-091917-PGM.00_34_33_04.Still001-sm.jpg",
+          "title": "Creating Tables: Importing External Data Part 2",
+          "transcript": "",
+          "url": "creating-tables-importing-external-data2",
+          "vimeoId": "234673005"
+        },
+        {
+          "description": "In this episode, Vonne and Ronnie help you to understand relationships between tables.  They discuss the most common types of table relationships. Using Access, they show how to make those relationships work.",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-1-creating_table_relationships-091917.00_29_30_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-1-creating_table_relationships-091917.00_29_30_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-1-creating_table_relationships-091917.00_29_30_08.Still001-sm.jpg",
+          "title": "Creating Table Relationships",
+          "transcript": "",
+          "url": "creating-table-relationships",
+          "vimeoId": "234671961"
+        },
+        {
+          "description": "After reviewing the concepts of relationships in the previous episode, Vonne and Ronnie are back to demonstrate how to create table relationships in Access.",
+          "length": "1872",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-2-creating_table_relationships_pt2-092017-PGM.00_31_01_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-2-creating_table_relationships_pt2-092017-PGM.00_31_01_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-2-3-2-creating_table_relationships_pt2-092017-PGM.00_31_01_19.Still001-sm.jpg",
+          "title": "Creating Table Relationships Part 2",
+          "transcript": "",
+          "url": "creating-table-relationships2",
+          "vimeoId": "234905752"
+        }
+      ],
+      "title": "Creating Access Tables"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Vonne and Ronnie introduce queries in Access. They review the different types of queries available and run a simple select query through the query wizard.",
+          "length": "1864",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-1-creating_queries_for_testing_design-092117-PGM.00_30_53_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-1-creating_queries_for_testing_design-092117-PGM.00_30_53_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-1-creating_queries_for_testing_design-092117-PGM.00_30_53_25.Still001-sm.jpg",
+          "title": "Creating Queries for Testing Desgin",
+          "transcript": "",
+          "url": "creating-queriestesting-desgin",
+          "vimeoId": "234905515"
+        },
+        {
+          "description": "Vonne and Ronnie are back with more on queries. In this episode, they create queries in the design view and even show how to write a very simple SQL query.",
+          "length": "1846",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-2-creating_queries_for_testing_design_pt2-092117-PGM.00_31_06_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-2-creating_queries_for_testing_design_pt2-092117-PGM.00_31_06_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-2-creating_queries_for_testing_design_pt2-092117-PGM.00_31_06_16.Still001-sm.jpg",
+          "title": "Creating Queries for Testing Design Part 2",
+          "transcript": "",
+          "url": "creating-queriestesting-design2",
+          "vimeoId": "234905273"
+        },
+        {
+          "description": "Ronnie and Vonne share some of the issues they discovered in their database from running queries. In this episode, they show problems with mismatched entered data as well as mismatched data types.",
+          "length": "1239",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-3-creating_queries_for_testing_design_pt3-092117.00_20_32_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-3-creating_queries_for_testing_design_pt3-092117.00_20_32_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-3-creating_queries_for_testing_design_pt3-092117.00_20_32_08.Still001-sm.jpg",
+          "title": "Creating Queries for Testing Design Part 3",
+          "transcript": "",
+          "url": "creating-queriestesting-design3",
+          "vimeoId": "235069974"
+        },
+        {
+          "description": "Ronnie and Vonne continue to share some of the issues they discovered in their database from running queries. In this episode, they reveal issues with the relationships between tables and demonstrate how to fix them.",
+          "length": "1387",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-4-creating_queries_for_testing_design_pt4-092217.00_22_59_06.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-4-creating_queries_for_testing_design_pt4-092217.00_22_59_06.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-4-creating_queries_for_testing_design_pt4-092217.00_22_59_06.Still001-sm.jpg",
+          "title": "Creating Queries for Testing Design Part 4",
+          "transcript": "",
+          "url": "creating-queriestesting-design4",
+          "vimeoId": "235069775"
+        },
+        {
+          "description": "In the final episode of the query mini-series, Vonne and Ronnie discuss some of the final issues they discovered in their database design.  They reestablish some more table relationships and add fields to correct some logic issues with the data.",
+          "length": "1352",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-5-creating_queries_for_testing_design_pt5-092217.00_22_24_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-5-creating_queries_for_testing_design_pt5-092217.00_22_24_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-3-1-5-creating_queries_for_testing_design_pt5-092217.00_22_24_08.Still001-sm.jpg",
+          "title": "Creating Queries for Testing Design Part 5",
+          "transcript": "",
+          "url": "creating-queriestesting-design5",
+          "vimeoId": "235069582"
+        }
+      ],
+      "title": "Creating Queries for Testing Design"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Vonne and Ronnie discuss the importance of forms in Access. They show how to create a form using the form button and introduce the concept of a subform. They end the episode with a brief introduction to the form wizard.",
+          "length": "1601",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-1-creating_basic_forms-092517.00_26_33_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-1-creating_basic_forms-092517.00_26_33_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-1-creating_basic_forms-092517.00_26_33_10.Still001-sm.jpg",
+          "title": "Creating Basic Forms",
+          "transcript": "",
+          "url": "creating-basic-forms",
+          "vimeoId": "235608477"
+        },
+        {
+          "description": "Vonne and Ronnie are back with more on forms in Access. They continue with the form wizard, demonstrating the different layouts that are available. They also create a basic form from the blank form button.",
+          "length": "1517",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-2-creating_basic_forms_pt2-092517.00_25_09_22.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-2-creating_basic_forms_pt2-092517.00_25_09_22.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-2-creating_basic_forms_pt2-092517.00_25_09_22.Still001-sm.jpg",
+          "title": "Creating Basic Forms Part 2",
+          "transcript": "",
+          "url": "creating-basic-forms2",
+          "vimeoId": "235607843"
+        },
+        {
+          "description": "In this episode, Vonne and Ronnie create a form in design view. They demonstrate how to add label controls and how to manipulate their placement in the form.",
+          "length": "1782",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-3-creating_basic_forms_pt3-092517.00_29_34_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-3-creating_basic_forms_pt3-092517.00_29_34_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-3-creating_basic_forms_pt3-092517.00_29_34_15.Still001-sm.jpg",
+          "title": "Creating Basic Forms Part 3",
+          "transcript": "",
+          "url": "creating-basic-forms3",
+          "vimeoId": "235608145"
+        },
+        {
+          "description": "Vonne and Ronnie wrap up the Access forms miniseries by demonstrating some key layout and design formatting.  They show how to align and distribute form elements, explore the layout view, and add a combo box control.",
+          "length": "1884",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-4-creating_basic_forms_pt4-092617-PGM.00_35_02_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-4-creating_basic_forms_pt4-092617-PGM.00_35_02_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-4-1-4-creating_basic_forms_pt4-092617-PGM.00_35_02_03.Still001-sm.jpg",
+          "title": "Creating Basic Forms Part 4",
+          "transcript": "",
+          "url": "creating-basic-forms4",
+          "vimeoId": "235791288"
+        }
+      ],
+      "title": "Creating Basic Forms"
+    },
+    {
+      "episodes": [
+        {
+          "description": "Ronnie and Vonne introduce us to reports in Access. They discuss the importance of good reports to summarize and display the information in your database.",
+          "length": "1367",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-1-creating_basic_reports-092617-PGM.00_32_25_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-1-creating_basic_reports-092617-PGM.00_32_25_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-1-creating_basic_reports-092617-PGM.00_32_25_11.Still001-sm.jpg",
+          "title": "Creating Basic Reports",
+          "transcript": "",
+          "url": "creating-basic-reports",
+          "vimeoId": "235790569"
+        },
+        {
+          "description": "In this episode, Vonne and Ronnie show how to create reports. They create mailing labels, use the report button, start from a blank report, and walk through the report wizard. They also show how to modify report layouts in the layout view.",
+          "length": "1907",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-2-creating_basic_reports_pt2-092617-PGM.00_31_36_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-2-creating_basic_reports_pt2-092617-PGM.00_31_36_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-2-creating_basic_reports_pt2-092617-PGM.00_31_36_28.Still001-sm.jpg",
+          "title": "Creating Basic Reports Part 2",
+          "transcript": "",
+          "url": "creating-basic-reports2",
+          "vimeoId": "235792605"
+        },
+        {
+          "description": "Vonne and Ronnie are back with more reports in Access. In this episode, they explore creating a report in the design view (banded report writer). They explain the different sections of the banded report writer and how to summarize data with the group and sort command.",
+          "length": "1776",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-3-creating_basic_reports_pt3-092717-PGM.00_29_35_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-3-creating_basic_reports_pt3-092717-PGM.00_29_35_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-3-creating_basic_reports_pt3-092717-PGM.00_29_35_15.Still001-sm.jpg",
+          "title": "Creating Basic Reports Part 3",
+          "transcript": "",
+          "url": "creating-basic-reports3",
+          "vimeoId": "236080216"
+        },
+        {
+          "description": "In this episode, Ronnie and Vonne dive deeper into building reports in design view. They demonstrate what happens when you add a field into a report that does not have a relationship established to the current report.  They show how to create a calculated field with expression builder as well as summarize data in the section footer. Finally, they begin to build a query as an alternative way to create a report.",
+          "length": "1781",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-4-creating_basic_reports_pt4-092717-PGM.00_00_11_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-4-creating_basic_reports_pt4-092717-PGM.00_00_11_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-4-creating_basic_reports_pt4-092717-PGM.00_00_11_16.Still001-sm.jpg",
+          "title": "Creating Basic Reports Part 4",
+          "transcript": "",
+          "url": "creating-basic-reports4",
+          "vimeoId": "235791963"
+        },
+        {
+          "description": "In this final episode, Ronnie and Vonne create a report from a table created from a query. They show us how to create a concatenated field in the query to ultimately create a section header in the report. They also review how to align and format fields as well as change background colors of the different sections.",
+          "length": "1501",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-5-creating_basic_reports_pt5-092717-PGM.00_25_27_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-5-creating_basic_reports_pt5-092717-PGM.00_25_27_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-officeaccess2016essentials/microsoft-office-access-2016-essentials-5-1-5-creating_basic_reports_pt5-092717-PGM.00_25_27_08.Still001-sm.jpg",
+          "title": "Creating Basic Reports Part 5",
+          "transcript": "",
+          "url": "creating-basic-reports5",
+          "vimeoId": "236079290"
+        }
+      ],
+      "title": "Reporting Data"
+    }
+  ],
+  "url": "access-essentials",
+  "vLab": false
+}
