@@ -9,6 +9,16 @@ module.exports = {
     siteUrl: `${process.env.SELF_URL}`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        test: /\.js$|\.jsx$/,
+        exclude: /(node_modules|cache|public)/,
+        options: {
+          emitWarning: true
+        }
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
     {
@@ -96,7 +106,8 @@ module.exports = {
     //     }
     //   }
     // },
-      'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-eslint'
   ]
 
 };

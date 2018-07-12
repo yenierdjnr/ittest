@@ -61,8 +61,8 @@ const ForYouSummary = (props) => {
             </div>
           </div>
         </div>
-    </ViewportAnimation>
-  </section>
+      </ViewportAnimation>
+    </section>
   );
 };
 
