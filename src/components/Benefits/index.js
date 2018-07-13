@@ -16,14 +16,14 @@ const Benefits = () => {
               <div className={ styles.plan }>
                 <TextLink color={ styles.purple } hideArrow='true' disabled>premium</TextLink>
                 <div className={ styles.pricing }>
-                  <span className={ styles.price }>$857/year or                   </span>
+                  <span className={ styles.price }>$857/year or</span>
                   <span className={ styles.price }>$85.70/month</span>
                 </div>
               </div>
               <div className={ styles.plan }>
                 <TextLink color={ styles.darkBlue } hideArrow='true' disabled>standard</TextLink>
                 <div className={ styles.pricing }>
-                  <span className={ styles.price }>$570/year or                   </span>
+                  <span className={ styles.price }>$570/year or</span>
                   <span className={ styles.price }>$57/month</span>
                 </div>
               </div>

@@ -9,8 +9,8 @@ const lengthToString = (length) => {
   const h = Math.floor(length / 3600);
   const m = Math.floor(length % 3600 / 60);
 
-  const hDisplay = h > 0 ? h + (h == 1 ? " H" : " H") : "";
-  const mDisplay = m > 0 ? m + (m == 1 ? " M" : " M") : "";
+  const hDisplay = h > 0 ? h + (h === 1 ? " H" : " H") : "";
+  const mDisplay = m > 0 ? m + (m === 1 ? " M" : " M") : "";
   return [hDisplay, mDisplay ];
 }
 

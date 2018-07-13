@@ -41,7 +41,7 @@ class Display extends Component {
               </a>
             </div>
           </div>
-      
+
         </div>
       </section>
     );

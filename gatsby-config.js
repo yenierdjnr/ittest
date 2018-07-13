@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: `${process.env.SELF_URL}`,
   },
   plugins: [
-
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
     {
@@ -72,7 +71,26 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/assets/images/favicon.png',
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: true,
+          favicons: true,
+          firefox: true,
+          twitter: true,
+          yandex: true,
+          windows: true
+        }
+      }
+    },
+    'gatsby-plugin-react-helmet'
+    // 'gatsby-plugin-eslint'
   ]
 
 };

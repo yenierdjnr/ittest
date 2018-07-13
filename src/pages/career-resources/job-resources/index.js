@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react';
-import { graphql } from 'gatsby';
 
 import Head from 'Components/Head';
 import { ITResourcesHero as Hero } from 'Components/Hero';
-import ITResources from 'Components/ITResources';
 import styles from './itResources.module.scss';
 
 const JobResources = ({ data, location }) =>

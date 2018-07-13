@@ -23,52 +23,52 @@ const TeamContent = () =>
     <div className={ styles.colXS12 }>
       <div className={ styles.listcapsule }>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Tim } alt="Tim Broom photo" />
+          <img className={ styles.headshot } src={ Tim } alt="Tim Broom" />
           <Para className={ styles.name } color={ styles.offBlack }>Tim Broom</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CEO &amp; Co-Founder</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Don } alt="Don Pezet photo" />
+          <img className={ styles.headshot } src={ Don } alt="Don Pezet" />
           <Para className={ styles.name } color={ styles.offBlack }>Don Pezet</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CIO &amp; Co-Founder</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Barry } alt="Barry Pruett photo" />
+          <img className={ styles.headshot } src={ Barry } alt="Barry Pruett" />
           <Para className={ styles.name } color={ styles.offBlack }>Barry Pruett</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CCO</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Phillip } alt="Phillip Ford photo" />
+          <img className={ styles.headshot } src={ Phillip } alt="Phillip Ford" />
           <Para className={ styles.name } color={ styles.offBlack }>Phillip Ford</Para>
           <Para className={ styles.title } color={ styles.offBlack }>VP of People and Culture</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Denise } alt="Denise Broom photo" />
+          <img className={ styles.headshot } src={ Denise } alt="Denise Broom" />
           <Para className={ styles.name } color={ styles.offBlack }>Denise Broom</Para>
           <Para className={ styles.title } color={ styles.offBlack }>CFO</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Vivian } alt="Vivian Pezet photo" />
+          <img className={ styles.headshot } src={ Vivian } alt="Vivian Pezet" />
           <Para className={ styles.name } color={ styles.offBlack }>Vivian Pezet</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Member Services</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Angie } alt="Angie Byers photo" />
+          <img className={ styles.headshot } src={ Angie } alt="Angie Byers" />
           <Para className={ styles.name } color={ styles.offBlack }>Angie Byers</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Relationship Strategist</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Valerie } alt="Valerie Riley photo" />
+          <img className={ styles.headshot } src={ Valerie } alt="Valerie Riley" />
           <Para className={ styles.name } color={ styles.offBlack }>Valerie Riley</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Marketing</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Brad } alt="Brad Noblitt photo" />
+          <img className={ styles.headshot } src={ Brad } alt="Brad Noblitt" />
           <Para className={ styles.name } color={ styles.offBlack }>Brad Noblitt</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Production</Para>
         </div>
         <div className={ styles.item }>
-          <img className={ styles.headshot } src={ Pete } alt="Pete Briggs photo" />
+          <img className={ styles.headshot } src={ Pete } alt="Pete Briggs" />
           <Para className={ styles.name } color={ styles.offBlack }>Pete Briggs</Para>
           <Para className={ styles.title } color={ styles.offBlack }>Director of Sales and Success</Para>
         </div>

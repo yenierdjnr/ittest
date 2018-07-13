@@ -6,9 +6,6 @@ import Hx from 'Elements/Hx';
 
 
 class CourseVideo extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   handlePlay = (e) => {
 
@@ -42,9 +39,9 @@ class CourseVideo extends Component {
 
     return (
       <div id="background-video" className={ styles['course-capsule'] } onClick={ this.handlePlay }>
-        <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" />
-        <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" />
-        <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" />
+        <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" alt="" />
+        <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" alt="" />
+        <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" alt="" />
         <div id="vidwrap" className={styles.courseVidwrap}></div>
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
         { this.props.episode === this.props.overview && <IconPlay className={ styles['play-button'] } />}

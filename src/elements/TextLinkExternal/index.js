@@ -26,7 +26,7 @@ const TextLinkExternal = ({ children='TextLinkExternal', className='', color=`${
   }
 
   return (
-    <a className={ `${linkStyle} ${className}` } href={ to } target="_blank">
+    <a className={ `${linkStyle} ${className}` } href={ to } target="_blank" rel="noopener noreferrer">
       <span style={{ fontSize: `${size}rem`, fontWeight: weight, letterSpacing: `${ltrSpc}` }} className={ styles.title }>{ children }</span>
       <IconArrowRight className={ icon } fill={ color } />
     </a>
