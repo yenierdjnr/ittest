@@ -1,0 +1,35 @@
+@import '~Styles/main';
+
+$breakpoints: (
+  'lower-tablet': $lower-tablet,
+  'lower-phone': $lower-phone
+);
+
+
+.capsule {
+  @extend .row;
+}
+
+.intro {
+  @extend .col-12;
+  @extend .d-flex;
+  @extend .justify-content-center;
+
+  color: $color-white;
+  text-align: center;
+}
+
+.title {
+  max-width: 81.9rem;
+  margin-bottom: 2rem;
+}
+
+@include media('retina2x', '>lower-phone') {
+  .title {
+    max-width: 52rem;
+
+    font-size: 3rem;
+    line-height: 3.7rem;
+    margin-bottom: 1.6rem;
+  }
+}
