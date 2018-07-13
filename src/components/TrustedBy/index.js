@@ -15,31 +15,31 @@ const TrustedBy = () =>
       <div className={ styles.colXS12 }>
         <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
       </div>
-    </div>
-    <div className={ styles.listcapsule }>
-      <div className={ `${styles['item']} ${styles.one}` }>
-        <div className={ `${styles['logo']} ${styles.paths}` }>
-          <img src={ logoBDP } alt="" />
+      <div className={ styles.listcapsule }>
+        <div className={ `${styles['item']} ${styles.one}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoBDP } alt="BDP International" />
+          </div>
         </div>
-      </div>
-      <div className={ `${styles['item']} ${styles.two}` }>
-        <div className={ `${styles['logo']} ${styles.paths}` }>
-          <img src={ logoFiserv } alt="" />
+        <div className={ `${styles['item']} ${styles.two}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoFiserv } alt="Fiserv" />
+          </div>
         </div>
-      </div>
-      <div className={ `${styles['item']} ${styles.three}` }>
-        <div className={ `${styles['logo']} ${styles.paths}` }>
-          <img src={ logoKinex } alt="" />
+        <div className={ `${styles['item']} ${styles.three}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoKinex } alt="Kinex" />
+          </div>
         </div>
-      </div>
-      <div className={ `${styles['item']} ${styles.four}` }>
-        <div className={ `${styles['logo']} ${styles.paths}` }>
-          <img src={ logoMytech } alt="" />
+        <div className={ `${styles['item']} ${styles.four}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoMytech } alt="My Tech Partners" />
+          </div>
         </div>
-      </div>
-      <div className={ `${styles['item']} ${styles.five}` }>
-        <div className={ `${styles['logo']} ${styles.paths}` }>
-          <img src={ logoOasis } alt="" />
+        <div className={ `${styles['item']} ${styles.five}` }>
+          <div className={ `${styles['logo']} ${styles.paths}` }>
+            <img src={ logoOasis } alt="Oasis Community Learning" />
+          </div>
         </div>
       </div>
     </div>

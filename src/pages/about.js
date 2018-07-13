@@ -6,37 +6,44 @@ import AboutContent from 'Components/AboutContent';
 import AboutStory from 'Components/AboutStory';
 import TrustedBy from 'Components/TrustedBy';
 import Values from 'Components/Values';
+import Charity from 'Components/Charity';
 import styles from './about.module.scss';
 
 
-const About = ({ location }) =>
-  <Fragment>
-    <Head location={ location }/>
-    <main className={ styles.about }>
+const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+  return (
+    <Fragment>
+      <Head location={ location }/>
+      <main className={ styles.about }>
 
-      <section className={ styles.Hero }>
-        <Hero />
-      </section>
+        <section className={ styles.Hero }>
+          <Hero />
+        </section>
 
-      <section className={ styles.AboutContent }>
-        <AboutContent />
-      </section>
+        <section className={ styles.AboutContent }>
+          <AboutContent />
+        </section>
 
-      <section className={ styles.AboutStory }>
-        <AboutStory />
-      </section>
+        <section className={ styles.AboutStory }>
+          <AboutStory />
+        </section>
 
-      <section className={ styles.TrustedBy }>
-        <TrustedBy />
-      </section>
+        <section className={ styles.TrustedBy }>
+          <TrustedBy />
+        </section>
 
-      <section className={ styles.Values }>
-        <Values />
-      </section>
+        <section className={ styles.Values }>
+          <Values />
+        </section>
 
-    </main>
-  </Fragment>
+        <section className={ styles.Charity }>
+          <Charity />
+        </section>
 
+      </main>
+    </Fragment>
+  );
+}
 
 
 export default About;
