@@ -24,7 +24,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Adam } alt="Adam Gordon photo" />
+        <img className={ styles.headshot } src={ Adam } alt="Adam Gordon" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Adam Gordon</Para>
@@ -34,7 +34,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Cherokee } alt="Cherokee Boose photo" />
+        <img className={ styles.headshot } src={ Cherokee } alt="Cherokee Boose" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Cherokee Boose</Para>
@@ -44,7 +44,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Daniel } alt="Daniel Lowrie photo" />
+        <img className={ styles.headshot } src={ Daniel } alt="Daniel Lowrie" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Daniel Lowrie</Para>
@@ -54,7 +54,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Don } alt="Don Pezet photo" />
+        <img className={ styles.headshot } src={ Don } alt="Don Pezet" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Don Pezet</Para>
@@ -64,7 +64,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Jo } alt="Jo Peacock photo" />
+        <img className={ styles.headshot } src={ Jo } alt="Jo Peacock" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Jo Peacock</Para>
@@ -74,7 +74,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Justin } alt="Justin Dennison photo" />
+        <img className={ styles.headshot } src={ Justin } alt="Justin Dennison" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Justin Dennison</Para>
@@ -84,7 +84,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Mike } alt="Mike Rodrick photo" />
+        <img className={ styles.headshot } src={ Mike } alt="Mike Rodrick" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Mike Rodrick</Para>
@@ -94,7 +94,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Ronnie } alt="Ronnie Wong photo" />
+        <img className={ styles.headshot } src={ Ronnie } alt="Ronnie Wong" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Ronnie Wong</Para>
@@ -104,7 +104,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Vonne } alt="Vonne Smith photo" />
+        <img className={ styles.headshot } src={ Vonne } alt="Vonne Smith" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Vonne Smith</Para>
@@ -114,7 +114,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Wes } alt="Wes Bryan photo" />
+        <img className={ styles.headshot } src={ Wes } alt="Wes Bryan" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Wes Bryan</Para>
@@ -124,7 +124,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Zach } alt="Zach Memos photo" />
+        <img className={ styles.headshot } src={ Zach } alt="Zach Memos" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Zach Memos</Para>
@@ -133,7 +133,7 @@ const EdutainersContent = () =>
     </div>
     <div className={ styles.wrapper }>
       <div className={ styles.imageWrapper }>
-        <img className={ styles.headshot } src={ Aubri } alt="Aubri Spurgin-Kabinu photo" />
+        <img className={ styles.headshot } src={ Aubri } alt="Aubri Spurgin-Kabinu" />
       </div>
       <div className={ styles.content }>
         <Para className={ styles.name } color={ styles.offBlack }>Aurbianna Spurgin-Kabinu</Para>

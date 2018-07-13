@@ -17,8 +17,8 @@ class ViewportAnimation extends PureComponent {
     const { children } = this.props;
     const { visible } = this.state;
 
-      return (
-              <TrackVisibility once>
+    return (
+      <TrackVisibility once>
 
         <CSSTransition
           timeout={ 2000 }
@@ -28,7 +28,7 @@ class ViewportAnimation extends PureComponent {
           { children }
         </CSSTransition>
 
-          </TrackVisibility>
+      </TrackVisibility>
     );
   }
 }

@@ -10,8 +10,8 @@ const courseLengthToString = (length) => {
   const h = Math.floor(length / 3600);
   const m = Math.floor(length % 3600 / 60);
 
-  const hDisplay = h > 0 ? h + (h == 1 ? " hour" : " hours") : "";
-  const mDisplay = m > 0 ? m + (m == 1 ? " minute" : " minutes") : "";
+  const hDisplay = h > 0 ? h + (h === 1 ? " hour" : " hours") : "";
+  const mDisplay = m > 0 ? m + (m === 1 ? " minute" : " minutes") : "";
   return [hDisplay, mDisplay ];
 }
 
