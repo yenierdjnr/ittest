@@ -1,0 +1,58 @@
+#!/bin/sh
+
+set -e
+
+if [ $# -lt 1 ]; then
+  echo "usage: ./tasks/wait_for_stable <environment>"
+  exit 92
+fi;
+
+ENVIRONMENT=$1
+
+#
+# aws ecs wait has its own timeout, but it is an unconfigurable value set to
+# 10 minutes. We want faster feedback than that since we only expect it about
+# 4 minutes to stabilize. We'll start with an aggressive 6 minute timeout and
+# see how that goes.
+#
+TIMEOUT=$((60 * 6))
+
+ecs_wait_for_stable_for_marketing () {
+  aws ecs wait services-stable \
+    --cluster main \
+    --services "$ENVIRONMENT"-yxorp
+}
+
+is_finished () {
+  pid=$1
+  ! (kill -0 "$pid" 2> /dev/null);
+}
+
+spin_wait_for_stable_check () {
+  pid=$1
+  time_left=$2
+
+  if [ "$time_left" -lt 0 ]; then
+    echo ""
+    echo "It has taken too long. Probably something went wrong with the deployment."
+    echo "You should check the AWS console and take a look at $ENVIRONMENT to see how things are."
+
+    kill "$pid"
+    exit 255
+
+  elif is_finished "$pid"; then
+    echo ""
+    wait "$pid"
+    echo "The deployment stabilized in time. $ENVIRONMENT has been deployed! :D"
+
+  else
+    echo "."
+    sleep 1
+    spin_wait_for_stable_check "$pid" $((time_left - 1))
+
+  fi;
+}
+
+echo "Waiting for up to $TIMEOUT seconds for marketing to stabilize"
+ecs_wait_for_stable_for_marketing &
+spin_wait_for_stable_check $! $TIMEOUT

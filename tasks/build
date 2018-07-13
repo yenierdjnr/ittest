@@ -1,0 +1,50 @@
+#!/bin/sh
+
+set -e
+set -x
+
+build_image() {
+  latest=$1
+  image=$2
+  echo "== Pulling latest: $latest"
+  docker pull "$latest" || true
+
+  echo "== Building image: $image"
+  docker build --cache-from "$latest" -t "$image" yxorp
+}
+
+get_repository_uri() {
+  repo_name=$1
+  aws --region="$REGION" \
+    ecr describe-repositories \
+    --repository-names "$repo_name" \
+    --query "repositories[0].repositoryUri" \
+    --output text
+}
+
+build_and_push() {
+  repository_name=$1
+  image_tag=$2
+  repository_uri=$(get_repository_uri "$repository_name")
+
+  image="$repository_uri:$image_tag"
+  latest="$repository_uri:latest"
+
+  build_image "$latest" "$image"
+
+  echo "== Pushing images to $repository_name"
+  docker push "$image"
+  docker tag "$image" "$latest"
+  docker push "$latest"
+
+}
+
+if [ "$#" -ne 1 ]; then
+  echo "Usage: ./tasks/build <git_sha>"
+  exit 1
+fi
+
+REGION=us-east-1
+GIT_SHA="$1"
+IMAGE_TAG="commit-$GIT_SHA"
+build_and_push "itprotv-marketing" "$IMAGE_TAG"
