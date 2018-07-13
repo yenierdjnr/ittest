@@ -30,9 +30,7 @@ const Values = props => {
             <Para className={ styles.value } color={ styles.offBlack }>Exuding <span className={ styles.orange }>P</span>assion, personality, and perseverance.</Para>
         </div>
       </div>
-    </div>
   </section>
-  ;
 
 
 export default Values;
