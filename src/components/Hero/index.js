@@ -23,8 +23,5 @@ export { default as VirtualLabsHero } from './VirtualLabs';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as Blog } from './Blog';
 export { default as PageNotFoundHero } from './404';
-<<<<<<< HEAD
 export { default as PodcastHero } from './Podcasts';
-=======
 export { default as WebinarHero } from './Webinar';
->>>>>>> acheng742/ch10156/webinar-page
