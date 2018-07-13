@@ -37,3 +37,4 @@ export { default as IconBubbles} from './bubbles';
 export { default as IconPracticeExam} from './practice-exam';
 export { default as IconVirtualLab} from './virtual-lab';
 export { default as IconCaret} from './caret';
+export { default as ICHOMP} from './ichomp';

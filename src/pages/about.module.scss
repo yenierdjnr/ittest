@@ -1,5 +1,9 @@
 @import '~Styles/main';
 
+$breakpoints: (
+  'lower-tablet': $lower-tablet
+);
+
 
 .about {
   @extend .col;
@@ -37,4 +41,11 @@
 
 .Charity {
   display: block;
+}
+
+@include media('<lower-tablet') {
+  .Hero {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+  }
 }
