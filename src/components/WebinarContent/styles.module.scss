@@ -1,0 +1,91 @@
+@import '~Styles/main';
+
+:export {
+  offBlack: $color-offblack;
+  darkGrey: $color-grey-dark;
+  orangePrimary: $color-orange-primary;
+}
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
+a {
+  color: $color-offblack;
+}
+
+.container {
+  @extend .container;
+  margin-bottom: 1rem;
+}
+
+.colorContainer {
+  background-color: #f4f3f8;
+}
+
+.wrapper {
+  @extend .container;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: -1rem;
+}
+
+.logo {
+  @extend .col-12;
+  @extend .col-md-4;
+}
+
+.subtext {
+  @extend .col-12;
+  @extend .col-md-8;
+  @extend .align-self-center;
+}
+
+.header {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.row {
+  @extend .row;
+}
+
+.cols {
+  margin: 3rem 0;
+  @extend .col-12;
+  @extend .col-lg-5;
+}
+
+.sideCol {
+  @extend .col-lg-1;
+}
+
+.content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img {
+  max-width: 200px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.summary {
+  max-width: 50rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.more {
+  padding-bottom: 2.4rem;
+  padding-top: .5rem;
+}
+
+@include media('<tablet') {
+  .cols {
+    margin-bottom: 3rem;
+  }
+}

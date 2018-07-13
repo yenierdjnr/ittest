@@ -1,0 +1,52 @@
+@import '~Styles/main';
+
+:export {
+  offBlack: $color-offblack;
+}
+
+$breakpoints: (
+  'tablet': $tablet
+);
+
+.container {
+  @extend .container;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  @extend .col-12;
+  @extend .col-md-5;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  @extend .col-12;
+  @extend .col-md-7;
+  @extend .align-self-center;
+}
+
+.imgLogo {
+  max-width: 400px;
+  @extend .justify-content-center;
+}
+
+.row {
+  @extend .row;
+}
+
+@include media('<tablet') {
+  .title {
+    font-size: 5rem;
+    line-height: 4.8rem;
+  }
+  .imgLogo {
+    max-width: 350px;
+    margin-top: 3rem;
+  }
+  .container {
+    margin-bottom: 0;
+  }
+}
