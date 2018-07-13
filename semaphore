@@ -36,14 +36,14 @@ case "$TASK" in
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           ./tasks/deploy staging "$REVISION"
           aws --region="$REGION" \
-              s3 sync public s3://new-staging.itpro.tv --delete
+              s3 sync public s3://new-staging.itpro.tv --exclude ./*.map --delete
           ;;
 
       "production")
           docker network create itprotv_bridge
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           aws --region="$REGION" \
-              s3 sync public s3://new-production.itpro.tv --delete
+              s3 sync public s3://new-production.itpro.tv --exclude ./*.map --delete
           ;;
 
 
