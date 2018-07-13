@@ -32,11 +32,11 @@ const Charity = props => {
           </div>
         </div>
       </div>
-      <div className={ styles.row }>
+    {/*  <div className={ styles.row }>
         <div className={ styles.colXS12 }>
           <Para className={ styles.supportsContent } color={ styles.greyDark }>A portion of the proceeds from swag purchases from the <a href="https://itprotv.myshopify.com/" target="_blank">(IT)ProShop</a> go toward funding the above charities, U.S. veterans education discounts, and expanding student education programs at ITProTV.</Para>
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 };
