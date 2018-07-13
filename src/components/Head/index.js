@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { withPrefix } from 'gatsby-link';
 
 const notFoundMetaData = {
   page: '404',

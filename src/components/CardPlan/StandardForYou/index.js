@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';

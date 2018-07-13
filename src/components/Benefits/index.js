@@ -5,7 +5,7 @@ import Hx from 'Elements/Hx';
 import TextLink from 'Elements/TextLink';
 import BenefitList from './BenefitList';
 
-const Benefits = ({ className='' }) => {
+const Benefits = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.content }>

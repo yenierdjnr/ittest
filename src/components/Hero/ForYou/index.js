@@ -5,7 +5,7 @@ import Para from 'Elements/Para';
 import ButtonLink from 'Elements/ButtonLink';
 import styles from './styles.module.scss';
 
-const ForYouHero = ({ className='' }) => {
+const ForYouHero = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>

@@ -7,7 +7,7 @@ import Para from 'Elements/Para';
 import TextLink from 'Elements/TextLink';
 import { ViewportAnimation } from 'Elements/Viewport';
 
-const ForYouSummary = (props) => {
+const ForYouSummary = () => {
   return (
     <section className={ styles.capsule }>
       <ViewportAnimation>
