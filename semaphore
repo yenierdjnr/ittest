@@ -34,6 +34,8 @@ case "$TASK" in
       "master")
           docker network create itprotv_bridge
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
+          echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           ./tasks/deploy staging "$REVISION"
           aws --region="$REGION" \
               s3 sync public s3://new-staging.itpro.tv --exclude ./*.map --delete
@@ -42,6 +44,8 @@ case "$TASK" in
       "production")
           docker network create itprotv_bridge
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
+          echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           aws --region="$REGION" \
               s3 sync public s3://new-production.itpro.tv --exclude ./*.map --delete
           ;;
