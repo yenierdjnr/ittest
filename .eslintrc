@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-a11y/anchor-is-valid":"off",
+    "react/prop-types":"off",
+    "react/no-string-refs":"off",
+    "react/no-unescaped-entities":"off",
+
+    "no-unused-vars":["error", {"argsIgnorePattern": "^(e|nextProps)$"}],
+    "no-use-before-define":"error",
+    "no-duplicate-imports":"error",
+    "default-case":"error",
+    "no-shadow":"error",
+    "no-shadow-restricted-names":"error",
+
+    "no-useless-return":"error",
+    "indent":["error", 2],
+    "no-undef-init":"error",
+    "no-var":"error",
+    "prefer-const":"warn",
+
+    },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
