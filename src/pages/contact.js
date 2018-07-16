@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Contact as Hero } from 'Components/Hero';
@@ -9,7 +10,7 @@ import styles from './contact.module.scss';
 
 
 const Contact = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.contact }>
 
@@ -30,7 +31,7 @@ const Contact = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

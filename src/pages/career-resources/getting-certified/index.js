@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { GettingCertifiedHero as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import GettingCertified from 'Components/GettingCertified';
 import styles from './gettingCertified.module.scss';
 
 const gettingCertifiedPage = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.Career }>
       <section className={ styles.Hero }>
@@ -19,7 +20,7 @@ const gettingCertifiedPage = ({ data, location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 export default gettingCertifiedPage;

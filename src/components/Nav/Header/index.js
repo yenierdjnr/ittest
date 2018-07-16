@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 import { IconMenu } from 'Elements/Icons';
 import styles from './styles.module.scss';

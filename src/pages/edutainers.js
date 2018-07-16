@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Edutainers as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './edutainers.module.scss';
 
 
 const Edutainers = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.edutainers }>
 
@@ -20,7 +21,7 @@ const Edutainers = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

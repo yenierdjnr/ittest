@@ -1,11 +1,13 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { ITResourcesHero as Hero } from 'Components/Hero';
 import styles from './itResources.module.scss';
 
 const JobResources = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.Career }>
       <section className={ styles.Hero }>
@@ -16,26 +18,26 @@ const JobResources = ({ data, location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 export default JobResources;
 
-// export const query = graphql`
-//   query ITResourcesQuery {
-//       itResources: allItResourcesJson {
-//         edges {
-//           node {
-//             itresourcecategory,
-//             url,
-//             resources {
-//               title,
-//               description,
-//               img,
-//               url
-//             }
-//           }
-//         }
-//       }
-//     }
-// `;
+export const query = graphql`
+  query ITResourcesQuery {
+      itResources: allItResourcesJson {
+        edges {
+          node {
+            itresourcecategory,
+            url,
+            resources {
+              title,
+              description,
+              img,
+              url
+            }
+          }
+        }
+      }
+    }
+`;

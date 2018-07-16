@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { footerContent, mainContent, mainLayout, mainRows, overlay } from './styles.module.scss';
+import { footerContent, mainContent, mainLayout, mainRows, overlay } from './layout.scss';
 
 import Footer from 'Components/Footer';
 import Header from 'Components/Header';
 import Overlay from 'Components/Overlay';
 
-import 'Styles/globals.css';
-import 'Styles/normalizer.css';
+import 'Styles/globals.scss';
+import 'Styles/normalizer.scss';
 
 
 class Index extends Component {
@@ -35,7 +35,7 @@ class Index extends Component {
           <Header pathname={ location.pathname }/>
         </div>
         <div id={ mainContent } className={ mainRows }>
-          { children() }
+          { children }
         </div>
         <div id={ footerContent} className={ mainRows }>
           <Footer />

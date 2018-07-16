@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { CareerPathsHero as Hero } from 'Components/Hero';
@@ -6,7 +7,7 @@ import { CareerPathsMain as Paths } from 'Components/CareerPaths';
 import styles from './careerPaths.module.scss';
 
 const CareerPathsPage = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.CareerPaths }>
       <section className={ styles.Hero }>
@@ -18,7 +19,7 @@ const CareerPathsPage = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 export default CareerPathsPage;

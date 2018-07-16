@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { PageNotFoundHero as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './404.module.scss';
 
 
 const PageNotFound = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles['page-not-found'] }>
 
@@ -20,7 +21,7 @@ const PageNotFound = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

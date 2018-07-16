@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 
@@ -7,7 +8,7 @@ import styles from '../careerPaths.module.scss';
 import { DesktopSupportPath as Path } from 'Components/CareerPaths';
 
 const DesktopSupport = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.Career }>
 
@@ -18,7 +19,7 @@ const DesktopSupport = ({ data, location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 export default DesktopSupport;
