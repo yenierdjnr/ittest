@@ -142,8 +142,8 @@ export default class Carousel extends PureComponent {
           {children.map((child, index) =>
             <button
               key={index}
-              className={ `${button} ${(page - 1) % pages == index ? active: ''}` }
-                        onClick={ () => this.gotoPage(index + 1)}
+              className={ `${button} ${(page - 1) % pages === index ? active: ''}` }
+              onClick={ () => this.gotoPage(index + 1)}
             >
               <span className={ dot } />
             </button>

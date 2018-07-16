@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import ButtonSwitch from 'Elements/ButtonSwitch';
 
-const Plans = ({ className='', handleSwitch }) => {
+const Plans = ({ handleSwitch }) => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import { withPrefix } from 'gatsby-link';
 
 const notFoundMetaData = {
   page: '404',
@@ -254,9 +253,6 @@ const getRenderMetaData = (locationPathName) => {
 }
 
 class Head extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     const { location } = this.props;

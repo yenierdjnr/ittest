@@ -2,35 +2,35 @@ const path = require('path');
 
 exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
 
-    let config = getConfig();
-    actions.setWebpackConfig({
-        resolve: {
-            alias: {
-                Components: path.resolve(config.context, 'src', 'components'),
-                Elements: path.resolve(config.context, 'src', 'elements'),
-                Images: path.resolve(config.context, 'src', 'assets', 'images'),
-                Styles: path.resolve(config.context, 'src', 'assets', 'styles')
+  const config = getConfig();
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        Components: path.resolve(config.context, 'src', 'components'),
+        Elements: path.resolve(config.context, 'src', 'elements'),
+        Images: path.resolve(config.context, 'src', 'assets', 'images'),
+        Styles: path.resolve(config.context, 'src', 'assets', 'styles')
+      }
+    },
+    module: {
+      rules: [
+        {
+          test: /\.css$/,
+          use: [
+            {
+              loader: 'style-loader'
+            },
+            {
+              loader: 'css-loader'
+            },
+            {
+              loader: 'sass-loader'
             }
-        },
-        module: {
-            rules: [
-                {
-                    test: /\.css$/,
-                    use: [
-                        {
-                            loader: 'style-loader'
-                        },
-                        {
-                            loader: 'css-loader'
-                        },
-                        {
-                            loader: 'sass-loader'
-                        }
-                    ]
-                }
-            ]
+          ]
         }
-    });
+      ]
+    }
+  });
 
 };
 

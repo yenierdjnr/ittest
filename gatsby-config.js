@@ -15,14 +15,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: `${process.env.GOOGLE_TAG_MGR_ID}`,
-
-        // Include GTM in development.
-        // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: true,
-
-      // Specify optional GTM environment details.
-      // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING",
-      // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME",
       },
     },
     {
@@ -78,25 +71,26 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    // {
-    //   resolve: 'gatsby-plugin-favicon',
-    //   options: {
-    //     logo: './src/assets/images/favicon.png',
-    //     injectHTML: true,
-    //     icons: {
-    //       android: true,
-    //       appleIcon: true,
-    //       appleStartup: true,
-    //       coast: true,
-    //       favicons: true,
-    //       firefox: true,
-    //       twitter: true,
-    //       yandex: true,
-    //       windows: true
-    //     }
-    //   }
-    // },
-      'gatsby-plugin-react-helmet'
+    {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './src/assets/images/favicon.png',
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: true,
+          favicons: true,
+          firefox: true,
+          twitter: true,
+          yandex: true,
+          windows: true
+        }
+      }
+    },
+    'gatsby-plugin-react-helmet'
+    // 'gatsby-plugin-eslint'
   ]
 
 };
