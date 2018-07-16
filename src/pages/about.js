@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { About as Hero } from 'Components/Hero';
@@ -12,7 +13,7 @@ import styles from './about.module.scss';
 
 const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
-    <Fragment>
+    <Layout location={ location }>
       <Head location={ location }/>
       <main className={ styles.about }>
 
@@ -41,7 +42,7 @@ const About = ({ data, history, location, match, page, pageResources, pageContex
         </section>
 
       </main>
-    </Fragment>
+    </Layout>
   );
 }
 

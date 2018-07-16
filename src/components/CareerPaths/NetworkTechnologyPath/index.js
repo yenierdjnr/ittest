@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';

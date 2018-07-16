@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 
 import { IconX } from 'Elements/Icons';
 import styles from './styles.module.scss';

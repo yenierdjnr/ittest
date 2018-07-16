@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Accessibility as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './accessibility.module.scss';
 
 
 const Accessibility = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.accessibility }>
 
@@ -20,7 +21,7 @@ const Accessibility = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { CareerResourcesHero as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import CareerCoach from 'Components/CareerCoach';
 import styles from './careerResources.module.scss';
 
 const CareerResources = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.Career }>
       <section className={ styles.Hero }>
@@ -23,7 +24,7 @@ const CareerResources = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 export default CareerResources;

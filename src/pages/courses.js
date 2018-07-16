@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { CoursesHero as Hero } from 'Components/Hero';
@@ -10,7 +11,7 @@ import styles from './courses.module.scss';
 
 
 const CourseLibrary = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.courses }>
       <section className={ styles.Hero }>
@@ -29,7 +30,7 @@ const CourseLibrary = ({ data, location }) =>
         <FreeCourses />
       </section>
     </main>
-  </Fragment>
+  </Layout>
 
 
 
