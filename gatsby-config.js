@@ -11,6 +11,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
+    'gatsby-plugin-no-sourcemaps',
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
