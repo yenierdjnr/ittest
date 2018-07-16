@@ -19,7 +19,7 @@ start_deployment () {
   ./tf apply \
     -auto-approve \
     -target="module.$ENVIRONMENT" \
-    -var "${ENVIRONMENT}={git_sha=\"$GIT_SHA\"}"
+    -var "${ENVIRONMENT}={image_tag=\"$GIT_SHA\"}"
   cd ..
 }
 
