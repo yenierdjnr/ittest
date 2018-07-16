@@ -1,4 +1,5 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Plans as Hero } from 'Components/Hero';
@@ -91,7 +92,7 @@ class Plans extends Component {
     const { currentPricing } = this.state;
 
     return (
-      <Fragment>
+      <Layout location={ location }>
         <Head location={ location }/>
         <main className={ styles['plans'] }>
           <section className={ styles.Hero }>
@@ -106,7 +107,7 @@ class Plans extends Component {
             <Benefits />
           </section>
         </main>
-      </Fragment>
+      </Layout>
     );
   }
 }

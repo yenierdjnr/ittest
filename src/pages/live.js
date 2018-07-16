@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { OnAir as Hero } from 'Components/Hero';
@@ -8,7 +9,7 @@ import styles from './onAir.module.scss';
 
 
 const OnAir = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.onAir }>
 
@@ -20,7 +21,7 @@ const OnAir = ({ data, location }) =>
         <ChannelGuide videoImage={ data.videoImg }/>
       </section>
     </main>
-  </Fragment>
+  </Layout>
 
 export default OnAir;
 

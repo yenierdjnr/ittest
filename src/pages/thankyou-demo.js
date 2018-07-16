@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { ThankYou as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './thankyouDemo.module.scss';
 
 
 const ThankYouDemo = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.thankyouDemo }>
 
@@ -20,7 +21,7 @@ const ThankYouDemo = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

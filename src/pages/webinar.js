@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { WebinarHero as Hero } from 'Components/Hero';
@@ -8,7 +9,7 @@ import styles from './webinar.module.scss';
 
 const Webinar = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
-    <Fragment>
+    <Layout location={ location }>
       <Head location={ location }/>
       <main className={ styles.webinar }>
 
@@ -21,7 +22,7 @@ const Webinar = ({ data, history, location, match, page, pageResources, pageCont
         </section>
 
       </main>
-    </Fragment>
+    </Layout>
   );
 }
 
