@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const ICHOMP = props => {
-  const { className='', fill='none' } = props;
+  const { className='' } = props;
 
   return (
     <svg className={ className } viewBox="0 0 223.02 47.6" width="223" height="47">

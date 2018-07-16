@@ -8,7 +8,7 @@ import technadoLogo from 'Images/technado_logo.png';
 import askSmeLogo from 'Images/ask_sme_logo.png';
 
 
-const PodcastContent = props => {
+const PodcastContent = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.colLeft }>

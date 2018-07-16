@@ -7,7 +7,7 @@ import PodcastContent from 'Components/PodcastContent';
 import styles from './podcasts.module.scss';
 
 
-const Podcasts = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const Podcasts = ({ location }) => {
   return (
     <Layout location={ location }>
       <Head location={ location }/>
