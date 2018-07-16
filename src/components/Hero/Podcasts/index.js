@@ -8,9 +8,9 @@ import {
 } from './styles.module.scss';
 
 
-const PodcastHero = ({ className='' }) => {
+const PodcastHero = () => {
   return (
-    
+
     <section className={ capsule }>
       <div className={ intro }>
         <Hx size="1" className={ title }>IT Podcasts</Hx>

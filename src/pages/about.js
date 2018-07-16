@@ -10,7 +10,7 @@ import Charity from 'Components/Charity';
 import styles from './about.module.scss';
 
 
-const About = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const About = ({ location }) => {
   return (
     <Fragment>
       <Head location={ location }/>
