@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Team as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './team.module.scss';
 
 
 const Team = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.team }>
 
@@ -20,7 +21,7 @@ const Team = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

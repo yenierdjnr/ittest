@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { ForYouHero as Hero } from 'Components/Hero';
@@ -13,7 +14,7 @@ import styles from './forYou.module.scss';
 
 
 const ForYou = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles['for-you'] }>
       <section className={ styles.Hero }>
@@ -48,7 +49,7 @@ const ForYou = ({ data, location }) =>
         <ForTeams />
       </section>
     </main>
-  </Fragment>
+  </Layout>
 
 
 
