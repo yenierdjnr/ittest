@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ ! -f settings.env ]; then
   echo "No settings.env file exists. You need to configure these settings for terraform to work"
@@ -19,7 +19,7 @@ fi
 
 set -e
 
-if [ $1 == "--latest-shas" ]; then
+if [ "$1" == "--latest-shas" ]; then
   shift
 
   STAGING_SHA=$(git show-ref --verify -s refs/remotes/origin/master)
@@ -36,11 +36,11 @@ if [ $1 == "--latest-shas" ]; then
   echo ""
 fi;
 
-staging="{tag=\"$STAGING_SHA\"}"
-prod="{tag=\"$PROD_SHA\"}"
+staging="{git_sha=\"$STAGING_SHA\"}"
+prod="{git_sha=\"$PROD_SHA\"}"
 
 docker-compose \
   run --rm \
   -e TF_VAR_staging="$staging" \
   -e TF_VAR_production="$prod" \
-  terraform $@
+  terraform "$@"
