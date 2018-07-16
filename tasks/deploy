@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+if [ $# -lt 2 ]; then
+  echo "usage: ./tasks/deploy <environment> <git_sha>"
+  exit 92
+fi;
+
+ENVIRONMENT=$1
+GIT_SHA=$2
+
+start_deployment () {
+  cd terraform
+  ./init init
+
+  ./tf get
+
+  ./tf apply \
+    -auto-approve \
+    -target="module.$ENVIRONMENT" \
+    -var "${ENVIRONMENT}={git_sha=\"$GIT_SHA\"}"
+  cd ..
+}
+
+start_deployment
+./tasks/wait_for_stable "$ENVIRONMENT"
