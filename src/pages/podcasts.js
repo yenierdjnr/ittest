@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { PodcastHero as Hero } from 'Components/Hero';
@@ -8,7 +9,7 @@ import styles from './podcasts.module.scss';
 
 const Podcasts = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
-    <Fragment>
+    <Layout location={ location }>
       <Head location={ location }/>
       <main className={ styles.podcasts }>
 
@@ -21,7 +22,7 @@ const Podcasts = ({ data, history, location, match, page, pageResources, pageCon
         </section>
 
       </main>
-    </Fragment>
+    </Layout>
   );
 }
 

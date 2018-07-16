@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { HomeHero as Hero } from 'Components/Hero';
@@ -14,48 +15,47 @@ import Pamphlet from 'Components/Pamphlet';
 import styles from './homePage.module.scss';
 
 const HomePage = ({ data, location }) =>
-  <Fragment>
-    <Head location={ location }/>
-    <main className={ styles.home }>
+    <Layout location={ location }>
+      <Head location={ location }/>
+      <main className={ styles.home }>
 
-      <section className={ styles.Hero }>
-        <Hero />
-      </section>
+        <section className={ styles.Hero }>
+          <Hero />
+        </section>
 
-      <section className={ styles.For }>
-        <ForTeamsYou />
-      </section>
+        <section className={ styles.For }>
+          <ForTeamsYou />
+        </section>
 
-      <section className={ styles.Engagements }>
-        <Engagements />
-      </section>
+        <section className={ styles.Engagements }>
+          <Engagements />
+        </section>
 
-      <section className={ styles.Stats }>
-        <Stats />
-      </section>
+        <section className={ styles.Stats }>
+          <Stats />
+        </section>
 
-      <section className={ styles.Video }>
-        <HomeVideo />
-      </section>
+        <section className={ styles.Video }>
+          <HomeVideo />
+        </section>
 
-      <section className={ styles.Testimonials }>
-        <Testimonials />
-      </section>
+        <section className={ styles.Testimonials }>
+          <Testimonials />
+        </section>
 
-      <section className={ styles.Vendors }>
-        <VendorList />
-      </section>
+        <section className={ styles.Vendors }>
+          <VendorList />
+        </section>
 
-      <section className={ styles.Plans }>
-        <Plans />
-      </section>
+        <section className={ styles.Plans }>
+          <Plans />
+        </section>
 
-      <section className={ styles.Pamphlet }>
-        <Pamphlet videoImg={ data.videoImg }/>
-      </section>
-    </main>
-  </Fragment>
-
+        <section className={ styles.Pamphlet }>
+          <Pamphlet videoImg={ data.videoImg }/>
+        </section>
+      </main>
+    </Layout>
 
 
 export default HomePage;
