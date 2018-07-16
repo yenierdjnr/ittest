@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { Government as Hero } from 'Components/Hero';
@@ -13,7 +14,7 @@ import styles from './government.module.scss';
 
 
 const Government = ({ data, location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles.government }>
 
@@ -46,7 +47,7 @@ const Government = ({ data, location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

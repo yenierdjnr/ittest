@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { VirtualLabsHero as Hero } from 'Components/Hero';
@@ -8,7 +9,7 @@ import styles from './courses.module.scss';
 
 
 const VirtualLabs = ({ data, location}) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location } />
     <main className={ styles.courses }>
       <section className={ styles.Hero }>
@@ -20,7 +21,7 @@ const VirtualLabs = ({ data, location}) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 

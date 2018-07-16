@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Layout from 'Components/layout';
 
 import Head from 'Components/Head';
 import { PracticeTests as Hero } from 'Components/Hero';
@@ -7,7 +8,7 @@ import styles from './practice-tests.module.scss';
 
 
 const PracticeTests = ({ location }) =>
-  <Fragment>
+  <Layout location={ location }>
     <Head location={ location }/>
     <main className={ styles['practice-tests'] }>
 
@@ -20,7 +21,7 @@ const PracticeTests = ({ location }) =>
       </section>
 
     </main>
-  </Fragment>
+  </Layout>
 
 
 
