@@ -237,8 +237,8 @@ const metaData = {
   '/webinars/': {
     page: 'webinars',
     path: '/webinars/',
-    title: 'Webinars | ITProTV',
-    description: '',
+    title: 'IT Webinars – IT Pro in the Know | ITProTV',
+    description: 'IT webinars for IT professionals. Stay up to date on pertinent IT topics with free webinars from ITProTV.',
     canonical: `${process.env.SELF_URL}/webinars/`
   },
   '/404': notFoundMetaData
