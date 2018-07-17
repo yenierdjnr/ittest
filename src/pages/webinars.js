@@ -4,14 +4,14 @@ import Layout from 'Components/layout';
 import Head from 'Components/Head';
 import { WebinarHero as Hero } from 'Components/Hero';
 import WebinarContent from 'Components/WebinarContent';
-import styles from './webinar.module.scss';
+import styles from './webinars.module.scss';
 
 
-const Webinar = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const Webinars = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
   return (
     <Layout location={ location }>
       <Head location={ location }/>
-      <main className={ styles.webinar }>
+      <main className={ styles.webinars }>
 
         <section className={ styles.Hero }>
           <Hero />
@@ -27,4 +27,4 @@ const Webinar = ({ data, history, location, match, page, pageResources, pageCont
 }
 
 
-export default Webinar;
+export default Webinars;

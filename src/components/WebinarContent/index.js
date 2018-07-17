@@ -11,7 +11,7 @@ import Hybrid from 'Images/hybridcloud.png';
 import Ddos from 'Images/ddos.png';
 
 
-const WebinarContent = ({ className='', title, description, url, imgSrc='' }) => {
+const WebinarContent = ({ className='' }) => {
 
   return (
     <section>
@@ -22,20 +22,20 @@ const WebinarContent = ({ className='', title, description, url, imgSrc='' }) =>
           <div className={ styles.sideCol }>
           </div>
           <div className={ styles.cols }>
-            <Hx size="6"><a href="https://go.itpro.tv/hybrid-cloud-recording" color={ styles.title } target="_blank">Winning with The Hybrid Cloud</a></Hx>
+            <Hx size="6"><a href="https://go.itpro.tv/hybrid-cloud-recording" color={ styles.title } target="_blank" rel="noopener noreferrer">Winning with The Hybrid Cloud</a></Hx>
             <div className={ styles.content }>
-              <img src={ Hybrid } className={ styles.img } />
+              <img src={ Hybrid } className={ styles.img } alt="Hybrid webinar" />
               <Para color={ styles.darkGrey } className={ styles.summary }>What IT pros need to know</Para>
             </div>
             <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/hybrid-cloud-recording">Register</TextLinkExternal>
           </div>
           <div className={ styles.cols }>
-            <Hx size="6"><a href={ `${url}` } color={ styles.title } target="_blank">Surviving a DDOS Attack: A Case Study</a></Hx>
+            <Hx size="6"><a href="" color={ styles.title } target="_blank" rel="noopener noreferrer">Surviving a DDOS Attack: A Case Study</a></Hx>
             <div className={ styles.content }>
-              <img src={ Ddos } className={ styles.img } />
+              <img src={ Ddos } className={ styles.img } alt="DDOS webinar" />
               <Para color={ styles.darkGrey } className={ styles.summary }>What happened and how we got through it</Para>
             </div>
-            <TextLinkExternal className={ styles.more } to={url}>Register</TextLinkExternal>
+            <TextLinkExternal className={ styles.more } to="">Register</TextLinkExternal>
           </div>
           <div className={ styles.sideCol }>
           </div>
@@ -49,17 +49,17 @@ const WebinarContent = ({ className='', title, description, url, imgSrc='' }) =>
             <div className={ styles.sideCol }>
             </div>
             <div className={ styles.cols }>
-              <Hx size="6"><a href="https://go.itpro.tv/gdpr_webinar_recording" color={ styles.title } target="_blank">GDPR: What IT Pros Need to Know</a></Hx>
+              <Hx size="6"><a href="https://go.itpro.tv/gdpr_webinar_recording" color={ styles.title } target="_blank" rel="noopener noreferrer">GDPR: What IT Pros Need to Know</a></Hx>
               <div className={ styles.content }>
-                <img src={ Gdpr } className={ styles.img } />
+                <img src={ Gdpr } className={ styles.img } alt="GDPR webinar" />
                 <Para color={ styles.darkGrey } className={ styles.summary }>Tips to minimize your risk</Para>
               </div>
               <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/gdpr_webinar_recording">Watch Here</TextLinkExternal>
             </div>
             <div className={ styles.cols }>
-              <Hx size="6"><a href="https://go.itpro.tv/pen_test_recording" color={ styles.title } target="_blank">Pen Testing: What IT Pros Need to Know</a></Hx>
+              <Hx size="6"><a href="https://go.itpro.tv/pen_test_recording" color={ styles.title } target="_blank" rel="noopener noreferrer">Pen Testing: What IT Pros Need to Know</a></Hx>
               <div className={ styles.content }>
-                <img src={ Pentest } className={ styles.img } />
+                <img src={ Pentest } className={ styles.img } alt="PenTesting webinar" />
                 <Para color={ styles.darkGrey } className={ styles.summary }>Types of pen tests, tools, and ways to minimize your risk</Para>
               </div>
               <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/pen_test_recording">Watch Here</TextLinkExternal>
@@ -72,9 +72,9 @@ const WebinarContent = ({ className='', title, description, url, imgSrc='' }) =>
             <div className={ styles.sideCol }>
             </div>
             <div className={ styles.cols }>
-              <Hx size="6"><a href="https://go.itpro.tv/minimize-risk" color={ styles.title } target="_blank">5 Things Every Company Should Be Doing to Protect Its Network</a></Hx>
+              <Hx size="6"><a href="https://go.itpro.tv/minimize-risk" color={ styles.title } target="_blank" rel="noopener noreferrer">5 Things Every Company Should Be Doing to Protect Its Network</a></Hx>
               <div className={ styles.content }>
-                <img src={ Network } className={ styles.img } />
+                <img src={ Network } className={ styles.img } alt="Network webinar" />
                 <Para color={ styles.darkGrey } className={ styles.summary }>The checklist for IT pros</Para>
               </div>
               <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/minimize-risk">Watch Here</TextLinkExternal>

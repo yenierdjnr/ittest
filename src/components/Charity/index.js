@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
-import Para from 'Elements/Para';
+// import Para from 'Elements/Para';
 import habitatForHumanity from 'Images/habitat_for_humanity.png'
 import foodForKids from 'Images/food_for_kids.png'
 import ronaldMcDonaldHouse from 'Images/ronald_mcdonald_house.png'

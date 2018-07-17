@@ -2,10 +2,8 @@ import React, { Fragment, PureComponent } from 'react';
 
 import Menu from './Menu';
 import Display from './Display';
-import styles from './styles.module.scss';
 
-
-class ITResources extends PureComponent {
+class ITResourcesContent extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -28,7 +26,7 @@ class ITResources extends PureComponent {
     const { categoryIndex } = this.state;
 
     return (
-      <Fragment className={ styles.capsule }>
+      <Fragment>
         <Menu
           activeCategory={ categoryIndex }
           categories={ itResources.map((itresource) => itresource.itresourcecategory) }
@@ -40,4 +38,4 @@ class ITResources extends PureComponent {
   }
 }
 
-export default ITResources;
+export default ITResourcesContent;

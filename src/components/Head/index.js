@@ -234,12 +234,12 @@ const metaData = {
     description: 'IT podcasts for IT professionals. Stay up to date on tech news and get answers to your IT questions from IT professionals who are experts.',
     canonical: `${process.env.SELF_URL}/podcasts/`
   },
-  '/webinar/': {
-    page: 'webinar',
-    path: '/webinar/',
+  '/webinars/': {
+    page: 'webinars',
+    path: '/webinars/',
     title: 'Webinars | ITProTV',
     description: '',
-    canonical: `${process.env.SELF_URL}/webinar/`
+    canonical: `${process.env.SELF_URL}/webinars/`
   },
   '/404': notFoundMetaData
 };

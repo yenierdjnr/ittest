@@ -46,10 +46,10 @@ const FooterMenu = () =>
                     <a href="/accessibility/">accessibility</a>
                   </li>
                   <li className={ styles['page-footer__menu-item'] }>
-                    <a href="https://help.itpro.tv/" target="_blank">FAQ</a>
+                    <a href="https://help.itpro.tv/" target="_blank" rel="noopener noreferrer">FAQ</a>
                   </li>
                   <li className={ styles['page-footer__menu-item'] }>
-                    <a href="https://forums.itpro.tv/" target="_blank">Q&A</a>
+                    <a href="https://forums.itpro.tv/" target="_blank" rel="noopener noreferrer">Q&A</a>
                   </li>
                   {/*}<li className={ styles['page-footer__menu-item'] }>
                     <a href="#">blog</a>
