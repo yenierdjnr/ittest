@@ -764,8 +764,8 @@
     "@types/react-router" "*"
 
 "@types/react-router@*":
-  version "4.0.28"
-  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.28.tgz#b0445fc38613c81e92ca9ec0e08ab36697d51003"
+  version "4.0.29"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.29.tgz#1a906dd99abf21297a5b7cf003d1fd36e7a92069"
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
@@ -4677,6 +4677,10 @@ gatsby-plugin-google-tagmanager@2.0.0-beta.2:
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
 
+gatsby-plugin-no-sourcemaps@^2.0.0-beta.2:
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-2.0.0-beta.2.tgz#d911ec8c9b161640b3b998984e432ab3e5c6269e"
+
 gatsby-plugin-page-creator@^2.0.0-beta.4:
   version "2.0.0-beta.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.0.0-beta.4.tgz#0c6029eace4cf3afce9d19d048821e0fedfcc1e1"
@@ -4771,8 +4775,8 @@ gatsby-transformer-sharp@2.1.1-beta.3:
     probe-image-size "^4.0.0"
 
 gatsby@^2.0.0-beta.20:
-  version "2.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-beta.38.tgz#a6327bfbcb5cecf60d31ae1efc07aaaf8ce6ba87"
+  version "2.0.0-beta.39"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.0-beta.39.tgz#8e941a8dd557b15efc632bb526b4b2152d5fbe5a"
   dependencies:
     "@babel/code-frame" "7.0.0-beta.51"
     "@babel/core" "7.0.0-beta.51"
