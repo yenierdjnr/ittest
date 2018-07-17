@@ -27,6 +27,15 @@ exports.onCreateWebpackConfig = ({ actions, getConfig }) => {
               loader: 'sass-loader'
             }
           ]
+        },
+        {
+          test: /\.js$|\.jsx$/,
+          exclude: /(node_modules|cache|public)/,
+          use: [
+            {
+              loader: 'eslint-loader'
+            }
+          ]
         }
       ]
     }

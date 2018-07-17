@@ -7,7 +7,7 @@ import WebinarLogo from 'Images/webinar-logo.png';
 import styles from './styles.module.scss';
 
 
-const WebinarHero = ({ className='' }) => {
+const WebinarHero = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.container }>

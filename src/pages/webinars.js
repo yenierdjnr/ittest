@@ -7,7 +7,7 @@ import WebinarContent from 'Components/WebinarContent';
 import styles from './webinars.module.scss';
 
 
-const Webinars = ({ data, history, location, match, page, pageResources, pageContext, staticContext }) => {
+const Webinars = ({ location }) => {
   return (
     <Layout location={ location }>
       <Head location={ location }/>

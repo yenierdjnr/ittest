@@ -2,12 +2,11 @@ import React from 'react';
 
 import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
-// import Para from 'Elements/Para';
 import habitatForHumanity from 'Images/habitat_for_humanity.png'
 import foodForKids from 'Images/food_for_kids.png'
 import ronaldMcDonaldHouse from 'Images/ronald_mcdonald_house.png'
 
-const Charity = props => {
+const Charity = () => {
   return (
     <section className={ styles.capsule }>
       <div className={ styles.row }>
@@ -32,7 +31,7 @@ const Charity = props => {
           </div>
         </div>
       </div>
-    {/*  <div className={ styles.row }>
+      {/*  <div className={ styles.row }>
         <div className={ styles.colXS12 }>
           <Para className={ styles.supportsContent } color={ styles.greyDark }>A portion of the proceeds from swag purchases from the <a href="https://itprotv.myshopify.com/" target="_blank">(IT)ProShop</a> go toward funding the above charities, U.S. veterans education discounts, and expanding student education programs at ITProTV.</Para>
         </div>

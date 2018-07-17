@@ -11,7 +11,7 @@ import Hybrid from 'Images/hybridcloud.png';
 import Ddos from 'Images/ddos.png';
 
 
-const WebinarContent = ({ className='' }) => {
+const WebinarContent = () => {
 
   return (
     <section>

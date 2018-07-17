@@ -68,7 +68,7 @@ module "staging" {
   itprotv_marketing_repo = "${aws_ecr_repository.itprotv_marketing_repo.repository_url}"
   region = "us-east-1"
   cluster_name = "${data.terraform_remote_state.genesis.main_cluster_name}"
-  image_tag = "commit-${var.staging["tag"]}"
+  image_tag = "commit-${var.staging["git_sha"]}"
   proxy_url = "http://new-staging.itpro.tv.s3-website-us-east-1.amazonaws.com"
 }
 
