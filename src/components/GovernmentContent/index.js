@@ -9,8 +9,8 @@ import { IconCertificate, IconExams, IconLabs } from 'Elements/Icons';
 const GovernmentContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.item }>
-      <div className={ styles['icon-box'] }>
-        <IconCertificate className={ styles['cert-icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconCertificate className={ styles.certIcon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">One Source For All Training</Hx>
@@ -19,8 +19,8 @@ const GovernmentContent = () =>
       </div>
     </div>
     <div className={ styles.item }>
-      <div className={ styles['icon-box'] }>
-        <IconLabs className={ styles['lab-icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconLabs className={ styles.labIcon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">Hands-on with Virtual Labs</Hx>
@@ -28,8 +28,8 @@ const GovernmentContent = () =>
       </div>
     </div>
     <div className={ `${styles.item} ${styles.binge}` }>
-      <div className={ styles['icon-box'] }>
-        <IconExams className={ styles['exam-icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconExams className={ styles.examIcon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">Access Practice Tests</Hx>

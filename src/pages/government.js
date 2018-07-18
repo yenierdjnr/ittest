@@ -34,7 +34,7 @@ const Government = ({ data, location }) =>
         <GsaCourses />
       </section>
 
-      <section className={ styles['Track-Results'] }>
+      <section className={ styles.TrackResults }>
         <TrackResults videoImage={ data.videoImage }/>
       </section>
 

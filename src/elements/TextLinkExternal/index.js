@@ -13,7 +13,7 @@ const TextLinkExternal = ({ children='TextLinkExternal', className='', color=`${
   }
 
   if (color === `${styles.primaryOrange}`) {
-    linkStyle = `${styles['text-link-orange']}`;
+    linkStyle = `${styles.textLinkOrange}`;
   }
 
   if (disabled) {
