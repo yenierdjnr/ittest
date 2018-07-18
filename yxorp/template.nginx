@@ -15,6 +15,10 @@ server {
 
   }
 
+  location /health-check {
+    return 200 "Hit the health check"
+  }
+
   # blog redirects
   rewrite ^/10-hottest-tech-skills-for-2016-to-skyrocket-your-it-career/?$ /blog/ redirect;
   rewrite ^/2016-small-business-technology-trends-highlight-the-need-for-training/?$ /blog/ redirect;
