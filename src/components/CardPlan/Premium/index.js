@@ -34,7 +34,7 @@ const Premium = ({ className='', info }) => {
             <span className={ styles.billing }>{ premium.billing1 }</span>
             <TextLink className={ styles.link } color={ styles.purple } size="1.6" disabled>sign up</TextLink>
           </div>
-          <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.purple }}></div>
+          <div className={ styles.bottomBar } style={{ 'backgroundColor': styles.purple }}></div>
         </a>
       </div>
     </div>

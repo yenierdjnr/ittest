@@ -94,7 +94,7 @@ class Plans extends Component {
     return (
       <Layout location={ location }>
         <Head location={ location }/>
-        <main className={ styles['plans'] }>
+        <main className={ styles.plans }>
           <section className={ styles.Hero }>
             <Hero handleSwitch={ this.handleClick }/>
           </section>
