@@ -14,9 +14,9 @@ const ForYouSummary = () => {
         <div className={ styles.list }>
           <div className={ styles.item }>
             <div className={ styles.row }>
-              <div className={ styles['col-12'] }>
-                <div className={ styles['icon-box'] }>
-                  <IconLaptop className={ styles['laptop-icon'] }/>
+              <div className={ styles.col12 }>
+                <div className={ styles.iconBox }>
+                  <IconLaptop className={ styles.laptopIcon }/>
                 </div>
               </div>
             </div>
@@ -24,15 +24,15 @@ const ForYouSummary = () => {
               <div className={ styles.summary }>
                 <Hx color={ styles.offblack } className={ styles.title } size="4">engaging courses</Hx>
                 <Para color={ styles.greyDark } className={ styles.subtitle }>A talk-show style format keeps you interested and excited to learn.<br />New content is added every day.</Para>
-                <TextLink className={ styles['text-link']} to="/courses/">view courses</TextLink>
+                <TextLink className={ styles.textLink} to="/courses/">view courses</TextLink>
               </div>
             </div>
           </div>
           <div className={ styles.item }>
             <div className={ styles.row }>
-              <div className={ styles['col-12'] }>
-                <div className={ styles['icon-box'] }>
-                  <IconGear className={ styles['gear-icon'] }/>
+              <div className={ styles.col12 }>
+                <div className={ styles.iconBox }>
+                  <IconGear className={ styles.gearIcon }/>
                 </div>
               </div>
             </div>
@@ -40,15 +40,15 @@ const ForYouSummary = () => {
               <div className={ styles.summary }>
                 <Hx color={ styles.offblack } className={ styles.title } size="4">build your career</Hx>
                 <Para color={ styles.greyDark } className={ styles.subtitle }>Train to pass your certs and start or advance in IT. CompTIA, Cisco, Microsoft, AWS, cloud, security, and more.</Para>
-                <TextLink className={ styles['text-link']} to="/plans/">view plans &amp; pricing</TextLink>
+                <TextLink className={ styles.textLink} to="/plans/">view plans &amp; pricing</TextLink>
               </div>
             </div>
           </div>
           <div className={ `${styles.item} ${styles.binge}` }>
             <div className={ styles.row }>
-              <div className={ styles['col-12'] }>
-                <div className={ styles['icon-box'] }>
-                  <IconPopcorn className={ styles['popcorn-icon'] }/>
+              <div className={ styles.col12 }>
+                <div className={ styles.iconBox }>
+                  <IconPopcorn className={ styles.popcornIcon }/>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const ForYouSummary = () => {
               <div className={ styles.summary }>
                 <Hx color={ styles.offblack } className={ styles.title } size="4">binge-worthy learning&trade;</Hx>
                 <Para color={ styles.greyDark } className={ styles.subtitle }>Engaging content in a talk show format. Watch on a desktop, mobile device, Apple TV, Roku, or Fire TV.</Para>
-                <TextLink className={ styles['text-link']} to="/plans/">start free trial</TextLink>
+                <TextLink className={ styles.textLink} to="/plans/">start free trial</TextLink>
               </div>
             </div>
           </div>

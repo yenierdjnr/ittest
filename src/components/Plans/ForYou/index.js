@@ -98,7 +98,7 @@ class Plans extends Component {
           </div>
         </div>
         <div className={ styles.cardContainer }>
-          <div className={ styles['card-plans'] }>
+          <div className={ styles.cardPlans }>
             <PremiumForYou info={ currentPricing } className={ styles.plan }/>
             <StandardForYou info={ currentPricing } className={ styles.plan }/>
             <FreeForYou info={ currentPricing } className={ styles.plan }/>

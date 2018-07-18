@@ -12,7 +12,7 @@ const ForTeams = () => {
           <Hx className={ styles.title } color={ styles.offBlack }size="2">Training a whole team?<br/>Ask about corporate membership.</Hx>
         </div>
         <div className={ styles.btn }>
-          <ButtonLink to="/for-teams/" className={ styles['button'] }>training for teams</ButtonLink>
+          <ButtonLink to="/for-teams/" className={ styles.button }>training for teams</ButtonLink>
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ import styles from './forYou.module.scss';
 const ForYou = ({ data, location }) =>
   <Layout location={ location }>
     <Head location={ location }/>
-    <main className={ styles['for-you'] }>
+    <main className={ styles.forYou }>
       <section className={ styles.Hero }>
         <Hero />
       </section>
@@ -25,7 +25,7 @@ const ForYou = ({ data, location }) =>
         <Summary />
       </section>
 
-      <section className={ styles['Learn-More'] }>
+      <section className={ styles.LearnMore }>
         <LearnMore videoImg={ data.videoImg }/>
       </section>
 
@@ -45,7 +45,7 @@ const ForYou = ({ data, location }) =>
         <Plan />
       </section>
 
-      <section className={ styles['For-Teams'] }>
+      <section className={ styles.ForTeams }>
         <ForTeams />
       </section>
     </main>
