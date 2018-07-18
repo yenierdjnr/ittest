@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 
 import { IconMenu } from 'Elements/Icons';
 import styles from './styles.module.scss';
-window.styles = styles
 
 class HeaderNav extends Component {
   constructor(props) {
