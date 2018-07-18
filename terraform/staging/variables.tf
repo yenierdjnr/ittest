@@ -17,3 +17,11 @@ variable "proxy_url" {
 variable "region" {
   type = "string"
 }
+
+variable "ecs_service_role_arn" {
+  type = "string"
+}
+
+variable "target_group_arn" {
+  type = "string"
+}

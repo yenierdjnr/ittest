@@ -70,6 +70,8 @@ module "staging" {
   cluster_name = "${data.terraform_remote_state.genesis.main_cluster_name}"
   image_tag = "commit-${var.staging["git_sha"]}"
   proxy_url = "http://new-staging.itpro.tv.s3-website-us-east-1.amazonaws.com"
+  target_group_arn = "${data.terraform_remote_state.genesis.staging_marketing_target_group_arn}"
+  ecs_service_role_arn = "${data.terraform_remote_state.genesis.service_role_arn}"
 }
 
 module "production" {
