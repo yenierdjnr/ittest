@@ -16,28 +16,28 @@ const TrustedBy = () =>
         <Hx className={ styles.subtitle } color={ styles.offBlack }>ITProTV is trusted by</Hx>
       </div>
       <div className={ styles.listcapsule }>
-        <div className={ `${styles['item']} ${styles.one}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ styles.item }>
+          <div className={ styles.logo }>
             <img src={ logoBDP } alt="BDP International" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.two}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ styles.item }>
+          <div className={ styles.logo }>
             <img src={ logoFiserv } alt="Fiserv" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.three}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ styles.item }>
+          <div className={ styles.logo }>
             <img src={ logoKinex } alt="Kinex" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.four}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ styles.item }>
+          <div className={ styles.logo }>
             <img src={ logoMytech } alt="My Tech Partners" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.five}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ styles.item }>
+          <div className={ styles.logo }>
             <img src={ logoOasis } alt="Oasis Community Learning" />
           </div>
         </div>
