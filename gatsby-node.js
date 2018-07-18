@@ -91,10 +91,10 @@ exports.createPages = ({ actions: { createPage }, graphql}) => {
       	}
       }
       `)).then((result) => {
-      const processedCourses = new Set();
+      // const processedCourses = new Set();
       return result.data.allTagsJson.edges.forEach((edge) => edge.node.courses.map((course) => {
-        if (! processedCourses.has(course.url)) {
-          processedCourses.add(course.url);
+        // if (! processedCourses.has(course.url)) {
+          // processedCourses.add(course.url);
           return createPage({
             path: `courses/${edge.node.url}/${course.url}`,
             component: courseComponent,
@@ -102,7 +102,7 @@ exports.createPages = ({ actions: { createPage }, graphql}) => {
               courseUrl: course.url
             }
           });
-        }
+        // }
       }));
     });
 }
