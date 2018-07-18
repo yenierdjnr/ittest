@@ -13,14 +13,14 @@ class Exams extends PureComponent {
 
     return (
       <div className={ `${className} ${styles.capsule}` }>
-        <div className={ styles['img-cols'] }>
-          <div className={ styles['img-box'] }>
-            <img className={ styles['img-exams'] } src={ imageExams } alt="exams" />
+        <div className={ styles.imgCols }>
+          <div className={ styles.imgBox }>
+            <img className={ styles.imgExams } src={ imageExams } alt="exams" />
           </div>
         </div>
-        <div className={ styles['info-cols'] }>
+        <div className={ styles.infoCols }>
           <div className={ styles.info }>
-            <span className={ styles['sequence-num'] }>_03</span>
+            <span className={ styles.sequenceNum }>_03</span>
             <Hx className={ styles.title } color={ styles.offBlack }>Access Virtual Labs and Practice Tests</Hx>
             <Para className={ `${styles.summary} ${styles.labs}` } color={ styles.darkGrey }>Test your skills risk-free in real-world lab environments. Take and re-take Kaplan IT Training&reg; practice tests until you're confident that you are ready to pass.</Para>
             <TextLink to="/vlabs/" className={ styles.link } color={ styles.orangePrimary }>view virtual labs</TextLink>

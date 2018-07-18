@@ -19,15 +19,15 @@ class HomeVideo extends Component {
     }
 
     const vidWrap = document.getElementById('vidwrap');
-    const playButton = document.getElementsByClassName(styles['play-button'])[0];
-    const homeiFrame = styles['home-iframe'];
+    const playButton = document.getElementsByClassName(styles.playButton)[0];
+    const homeiFrame = styles.homeIframe;
 
     if (vidWrap) {
       vidWrap.innerHTML = `<iframe class="${homeiFrame}" src="https://www.youtube.com/embed/FngYJxFmmnw?rel=0&amp;modestbranding=1&amp;autoplay=1&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>`;
       playButton.style.display = 'none';
 
       this.setState({
-        showOpacity: styles['vidwrap-opacity']
+        showOpacity: styles.vidwrapOpacity
       });
     }
   };
@@ -36,9 +36,9 @@ class HomeVideo extends Component {
     const { showOpacity } = this.state;
 
     return (
-      <div id="background-video" className={ styles['home-capsule'] } onClick={ this.handlePlay }>
+      <div id="background-video" className={ styles.homeCapsule } onClick={ this.handlePlay }>
         <div id="vidwrap" className={ `${styles.vidwrap} ${showOpacity}` }></div>
-        <IconPlay className={ styles['play-button'] } />
+        <IconPlay className={ styles.playButton } />
       </div>
     );
   }
