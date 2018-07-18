@@ -11,7 +11,7 @@ import 'Styles/normalizer.scss';
 
 class Index extends Component {
   UNSAFE_componentWillReceiveProps(nextProps) {
-    if (this.refs.overlay.style.display === 'block') {
+    if (this.refs.overlay.style.display === 'block' || this.refs.overlay.style.display === '') {
       this.handleCloseClick();
     }
   }

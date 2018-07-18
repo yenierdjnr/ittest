@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 const PageFooterBar = () =>
   <footer>
-    <div className={ styles['page-footer__social'] }>
+    <div className={ styles.pageFooter__social }>
       <a href="https://twitter.com/itprotv" target="_blank" rel="noopener noreferrer">
         <IconTW />
       </a>
@@ -23,8 +23,8 @@ const PageFooterBar = () =>
         <IconInsta />
       </a>
     </div>
-    <div className={ styles['page-footer__copyright'] }>
-      <span className={ styles['copyright'] }>© ITProTV 2018</span>
+    <div className={ styles.pageFooter__copyright }>
+      <span className={ styles.copyright }>© ITProTV 2018</span>
     </div>
   </footer>
 

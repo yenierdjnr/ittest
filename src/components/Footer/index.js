@@ -7,10 +7,10 @@ import styles from './styles.module.scss';
 
 
 const Footer = () =>
-  <footer className={ styles['page-footer'] }>
-    <FooterMenu className={ styles['page-footer__menu'] }/>
+  <footer className={ styles.pageFooter }>
+    <FooterMenu className={ styles.pageFooter__menu }/>
     <HrRow/>
-    <PageFooterBar className={ styles['page-footer__bar'] }/>
+    <PageFooterBar className={ styles.pageFooter__bar }/>
   </footer>
 
 
