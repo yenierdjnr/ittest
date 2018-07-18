@@ -15,18 +15,18 @@ const ForTeamsSummary = () => {
         <ul className={ styles.list }>
           <ViewportAnimation>
             <li className={ styles.item }>
-              <div className={ styles['icon-box'] }>
+              <div className={ styles.iconBox }>
                 <IconLaptop className={ styles.laptop }/>
               </div>
               <div className={ styles.summary }>
                 <Hx color={ styles.offblack } className={ styles.title } size="4">full course library</Hx>
-                <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud, &amp; more. Virtual labs and practice exams included. <TextLink to="/courses/" size="1.6" weight="400" ltrSpc="unset" className={ styles['text-link'] }>view courses</TextLink></Para>
+                <Para color={ styles.greyDark } className={ styles.subtitle }>Full course library for all IT needs - CompTIA, Cisco, Microsoft, Security, Cloud, &amp; more. Virtual labs and practice exams included. <TextLink to="/courses/" size="1.6" weight="400" ltrSpc="unset" className={ styles.textLink }>view courses</TextLink></Para>
               </div>
             </li>
           </ViewportAnimation>
           <ViewportAnimation>
             <li className={ `${styles.item} ${styles.binge}` }>
-              <div className={ styles['icon-box'] }>
+              <div className={ styles.iconBox }>
                 <IconPopcorn className={ styles.popcorn }/>
               </div>
               <div className={ styles.summary }>
@@ -37,7 +37,7 @@ const ForTeamsSummary = () => {
           </ViewportAnimation>
           <ViewportAnimation>
             <li className={ styles.item }>
-              <div className={ styles['icon-box'] }>
+              <div className={ styles.iconBox }>
                 <IconCoin className={ styles.coin }/>
               </div>
               <div className={ styles.summary }>

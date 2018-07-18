@@ -16,7 +16,7 @@ import styles from './forTeams.module.scss';
 const ForTeams = ({ data, location }) =>
   <Layout location={ location }>
     <Head location={ location }/>
-    <main className={ styles['for-teams'] }>
+    <main className={ styles.forTeams }>
       <section className={ styles.Hero }>
         <Hero />
       </section>
@@ -25,11 +25,11 @@ const ForTeams = ({ data, location }) =>
         <Summary />
       </section>
 
-      <section className={ styles['Track-Results'] }>
+      <section className={ styles.TrackResults }>
         <TrackResults videoImage={ data.videoImage }/>
       </section>
 
-      <section className={ styles['Team-Needs']}>
+      <section className={ styles.TeamNeeds}>
         <TeamNeeds />
       </section>
 
@@ -37,7 +37,7 @@ const ForTeams = ({ data, location }) =>
         <Enhancements />
       </section>
 
-      <section className={ styles['Team-Certs'] }>
+      <section className={ styles.TeamCerts }>
         <TeamCerts testimonials={ data.testimonials }/>
       </section>
 

@@ -13,7 +13,6 @@ const Header = ({ pathname }) =>
       <div className={ styles.navOutter }>
         <div className={ styles.navWrap }>
           <Logo className={ styles.logoBox }/>
-
           <div className={ styles.nav }>
             <Nav location={ pathname }/>
           </div>

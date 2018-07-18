@@ -17,7 +17,7 @@ const OnAir = ({ data, location }) =>
         <Hero />
       </section>
 
-      <section className={ styles['Channel-Guide'] }>
+      <section className={ styles.ChannelGuide }>
         <ChannelGuide videoImage={ data.videoImg }/>
       </section>
     </main>

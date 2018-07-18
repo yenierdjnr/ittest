@@ -10,6 +10,7 @@ import FreeCourses from 'Components/FreeCourses';
 import styles from './courses.module.scss';
 
 
+
 const CourseLibrary = ({ data, location }) =>
   <Layout location={ location }>
     <Head location={ location } />
@@ -22,17 +23,15 @@ const CourseLibrary = ({ data, location }) =>
         <CourseOptions tagCategories={ data.tagCategories.edges.map((edge) => edge.node) } />
       </section>
 
-      <section className={ styles['New-Content'] }>
+      <section className={ styles.NewContent }>
         <NewContent />
       </section>
 
-      <section className={ styles['Free-Courses'] }>
+      <section className={ styles.FreeCourses }>
         <FreeCourses />
       </section>
     </main>
   </Layout>
-
-
 
 export default CourseLibrary;
 

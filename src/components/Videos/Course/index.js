@@ -12,8 +12,8 @@ class CourseVideo extends Component {
     const overview = this.props.overview;
     const episode = this.props.episode;
     const vidWrap = document.getElementById('vidwrap');
-    const playButton = document.getElementsByClassName(styles['play-button'])[0];
-    const courseiFrame = styles['course-iframe'];
+    const playButton = document.getElementsByClassName(styles.playButton)[0];
+    const courseiFrame = styles.courseIframe;
 
     if (vidWrap && episode === overview) {
       vidWrap.innerHTML = `<iframe class="${courseiFrame}" src="https://player.vimeo.com/video/${this.props.vimeoId}?autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>`;
@@ -38,13 +38,13 @@ class CourseVideo extends Component {
   render() {
 
     return (
-      <div id="background-video" className={ styles['course-capsule'] } onClick={ this.handlePlay }>
+      <div id="background-video" className={ styles.courseCapsule } onClick={ this.handlePlay }>
         <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" alt="" />
         <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" alt="" />
         <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" alt="" />
         <div id="vidwrap" className={styles.courseVidwrap}></div>
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
-        { this.props.episode === this.props.overview && <IconPlay className={ styles['play-button'] } />}
+        { this.props.episode === this.props.overview && <IconPlay className={ styles.playButton } />}
       </div>
     );
   }

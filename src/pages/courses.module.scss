@@ -9,6 +9,7 @@ $breakpoints: (
 .courses {
   @extend .col;
   padding: 0;
+  position: relative;
 }
 
 .Hero {

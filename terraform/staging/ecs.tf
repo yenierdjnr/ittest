@@ -34,8 +34,17 @@ EOF
 }
 
 resource "aws_ecs_service" "service" {
-  name = "staging-yxorp"
+  name = "staging-marketing"
   task_definition = "${aws_ecs_task_definition.task_def.arn}"
   cluster = "${var.cluster_name}"
   desired_count = 1
+  iam_role = "${var.ecs_service_role_arn}"
+  deployment_minimum_healthy_percent = 50
+
+  load_balancer {
+    target_group_arn = "${var.target_group_arn}"
+    container_name = "itprotv-marketing-yxorp"
+    container_port = 80
+  }
+
 }

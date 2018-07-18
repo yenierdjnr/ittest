@@ -9,17 +9,17 @@ import { IconBooks, IconLgBuilding, IconSmBuilding } from 'Elements/Icons';
 const GovernmentContent = () =>
   <section className={ styles.capsule }>
     <div className={ styles.item }>
-      <div className={ styles['icon-box'] }>
-        <IconLgBuilding className={ styles['icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconLgBuilding className={ styles.icon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">Federal Agencies</Hx>
-        <Para color={ styles.greyDark } className={ styles.subtitle }>Meet 8140 (formerly 8570) information assurance baseline and continuing education learning requirements with ITProTV. <a className={ styles['link'] } href="https://iase.disa.mil/iawip/Pages/iabaseline.aspx" target="_blank" rel="noopener noreferrer">Learn more about 8140 information assurance requirements.</a></Para>
+        <Para color={ styles.greyDark } className={ styles.subtitle }>Meet 8140 (formerly 8570) information assurance baseline and continuing education learning requirements with ITProTV. <a className={ styles.link } href="https://iase.disa.mil/iawip/Pages/iabaseline.aspx" target="_blank" rel="noopener noreferrer">Learn more about 8140 information assurance requirements.</a></Para>
       </div>
     </div>
     <div className={ styles.item }>
-      <div className={ styles['icon-box'] }>
-        <IconSmBuilding className={ styles['icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconSmBuilding className={ styles.icon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">State and Local Agencies</Hx>
@@ -27,8 +27,8 @@ const GovernmentContent = () =>
       </div>
     </div>
     <div className={ styles.item }>
-      <div className={ styles['icon-box'] }>
-        <IconBooks className={ styles['icon'] }/>
+      <div className={ styles.iconBox }>
+        <IconBooks className={ styles.icon }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="5">Education</Hx>

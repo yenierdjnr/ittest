@@ -12,16 +12,16 @@ const ForYouVideo = ({ className='', videoImg }) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {
-      vidWrap.innerHTML = `<iframe class="${styles['for-you-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/inmvz4upUMU?rel=0&amp;modestbranding=1&amp;controls=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${styles.forYouIframe}" width="560" height="315" src="https://www.youtube.com/embed/inmvz4upUMU?rel=0&amp;modestbranding=1&amp;controls=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
     }
   };
 
   return (
     <section className={ styles.capsule }>
       <div className={ styles.content }>
-        <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
+        <div id="background-video" className={ `${styles.videoCapsule} ${className}` } onClick={ handlePlay }>
           <div id="vidwrap" className={ styles.vidwrap }></div>
-          <IconPlay className={ styles['play-button'] }/>
+          <IconPlay className={ styles.playButton }/>
           <Img outerWrapperClassName={ styles.img } fluid={ videoImg.fluid } alt="team video"/>
         </div>
         <div className={ styles.intro }>

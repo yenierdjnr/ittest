@@ -10,21 +10,21 @@ const TeamNeeds = () =>
   <section className={ styles.capsule }>
     <ul className={ styles.content }>
       <li className={ styles.item }>
-        <div className={ `${styles['icon-box']} ${styles.camera}` }>
+        <div className={ `${styles.iconBox} ${styles.camera}` }>
           <IconCamera />
         </div>
         <Hx className={ styles.title } size="4">New Content Added Every Day</Hx>
         <Para className={ styles.summary }>IT changes all the time. We're live every day and content goes studio-to-web in 24 hours.</Para>
       </li>
       <li className={ styles.item }>
-        <div className={ `${styles['icon-box']} ${styles.bars}` }>
+        <div className={ `${styles.iconBox} ${styles.bars}` }>
           <IconBars />
         </div>
         <Hx className={ styles.title } size="4">Everything Your IT Team Needs</Hx>
         <Para className={ styles.summary }>Get all of your training in one convenient place. All of the major vendors and subjects are taught by experienced IT experts.</Para>
       </li>
       <li className={ styles.item }>
-        <div className={ `${styles['icon-box']} ${styles.mobile}` }>
+        <div className={ `${styles.iconBox} ${styles.mobile}` }>
           <IconMobile />
         </div>
         <Hx className={ styles.title } size="4">Flexible Training for Teams On-the-Go</Hx>

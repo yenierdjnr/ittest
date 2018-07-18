@@ -38,7 +38,7 @@ case "$TASK" in
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           ./tasks/deploy staging "$REVISION"
           aws --region="$REGION" \
-              s3 sync public s3://new-staging.itpro.tv --exclude ./*.map --delete
+              s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
           ;;
 
       "production")
