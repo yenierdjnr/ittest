@@ -16,7 +16,7 @@ server {
   }
 
   location /health-check {
-    return 200 "Hit the health check"
+    return 200 "Hit the health check";
   }
 
   # blog redirects
