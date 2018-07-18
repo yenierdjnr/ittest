@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import { IconMenu } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
+
 class HeaderNav extends Component {
   constructor(props) {
     super(props);

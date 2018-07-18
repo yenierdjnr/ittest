@@ -33,7 +33,7 @@ const Enterprise = ({ className='' }) => {
             <Hx className={ price } color={ styles.orange } size="3.2">Quoted on team size</Hx>
             <TextLink className={ styles.link } color={ styles.orange } size="1.6" disabled>let's talk</TextLink>
           </div>
-          <div className={ styles['bottom-bar'] } style={{ 'backgroundColor': styles.orange }}></div>
+          <div className={ styles.bottomBar } style={{ 'backgroundColor': styles.orange }}></div>
         </Link>
       </div>
     </div>

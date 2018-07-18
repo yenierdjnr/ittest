@@ -9,10 +9,10 @@ const Pricing = (props) => {
 
   return (
     <div className={ styles.capsule }>
-      <Enterprise className="pricing" />
-      <Premium className="pricing" info={ currentPricing } />
-      <Standard className="pricing" info={ currentPricing } />
-      <Free className="pricing" info={ currentPricing } />
+      <Enterprise className={ styles.pricing } />
+      <Premium className={ styles.pricing } info={ currentPricing } />
+      <Standard className={ styles.pricing } info={ currentPricing } />
+      <Free className={ styles.pricing } info={ currentPricing } />
     </div>
   );
 };
