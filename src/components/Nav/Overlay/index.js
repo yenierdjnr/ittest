@@ -4,7 +4,6 @@ import { Link } from "gatsby";
 import { IconX } from 'Elements/Icons';
 import styles from './styles.module.scss';
 
-
 class OverlayNav extends Component {
   constructor(props) {
     super(props);
@@ -65,10 +64,10 @@ class OverlayNav extends Component {
             <li className={ `${styles.menuItem} plans` }>
               <Link to="/plans/">pricing</Link>
             </li>
-            <li className={ `${styles.menuItem} for-teams` }>
+            <li className={ `${styles.menuItem} forTeams` }>
               <Link to="/for-teams/">for teams</Link>
             </li>
-            <li className={ `${styles.menuItem} for-you` }>
+            <li className={ `${styles.menuItem} forYou` }>
               <Link to="/for-you/">for you</Link>
             </li>
             <li className={ styles.menuItem }>

@@ -6,7 +6,7 @@ import styles from './styles.module.scss';
 
 const Category = (props) => {
   const { className='', showMore, title, url } = props;
-  const categoryStyles = !showMore ? styles.cols : `${styles.cols} ${styles['show-more']}`;
+  const categoryStyles = !showMore ? styles.cols : `${styles.cols} ${styles.showMore}`;
 
   return (
     <div className={ categoryStyles }>

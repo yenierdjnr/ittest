@@ -81,7 +81,7 @@ class HeaderNav extends Component {
             </li>
 
             <li className={ styles.menuItemDiff }>
-              <a className={ styles.loginLink } href={`${process.env.ITPROTV_URL}/login/`} >log in</a>
+              <a className={ styles.loginLink } href={`${process.env.ITPROTV_URL}/login/`}>log in</a>
             </li>
             <li className={ styles.menuItemDiff }>
               <Link className={ styles.tryFree } to="/plans/">try it free</Link>

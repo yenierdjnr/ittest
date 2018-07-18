@@ -25,7 +25,7 @@ class Display extends Component {
   render() {
     const { categories, className='' } = this.props;
     const { showMore } = this.state;
-    const seeMoreStyles = showMore ? `${styles['see-more']} ${styles['show-more']}` : styles['see-more'];
+    const seeMoreStyles = showMore ? `${styles.seeMore} ${styles.showMore}` : styles.seeMore;
 
     return (
       <section className={ `${className} ${styles.capsule}` }>
@@ -37,7 +37,7 @@ class Display extends Component {
             }
             <div className={ seeMoreStyles } onClick={ this.handeClick }>
               <a href="#">
-                <Hx className={ styles['see-more-text'] } size="6" color={ styles.orange }>see more</Hx>
+                <Hx className={ styles.seeMoreText } size="6" color={ styles.orange }>see more</Hx>
               </a>
             </div>
           </div>
