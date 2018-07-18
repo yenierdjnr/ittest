@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "marketing_staging_bucket" {
-  bucket = "new-staging.itpro.tv"
+resource "aws_s3_bucket" "staging_bucket" {
+  bucket = "marketing-staging"
   region = "us-east-1"
   acl = "public-read"
 }
