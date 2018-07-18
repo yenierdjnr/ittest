@@ -34,7 +34,7 @@ EOF
 }
 
 resource "aws_ecs_service" "service" {
-  name = "staging-yxorp"
+  name = "staging-marketing"
   task_definition = "${aws_ecs_task_definition.task_def.arn}"
   cluster = "${var.cluster_name}"
   desired_count = 1
