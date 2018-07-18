@@ -13,7 +13,7 @@ const Breadcrumb = ({ children='Breadcrumb', className='', color=`${styles.prima
   }
 
   if (color === `${styles.primaryOrange}`) {
-    linkStyle = `${styles['text-link-orange']}`;
+    linkStyle = `${styles.textLinkOrange}`;
   }
 
   if (disabled) {
