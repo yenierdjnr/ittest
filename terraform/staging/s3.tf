@@ -1,11 +1,11 @@
-resource "aws_s3_bucket" "staging_bucket" {
+resource "aws_s3_bucket" "marketing_staging_bucket" {
   bucket = "new-staging.itpro.tv"
   region = "us-east-1"
   acl = "public-read"
 }
 
 resource "aws_s3_bucket_policy" "marketing-staging-policy" {
-  bucket = "${aws_s3_bucket.staging_bucket.id}"
+  bucket = "${aws_s3_bucket.marketing_staging_bucket.id}"
   policy =<<POLICY
 {
   "Version": "2012-10-17",
