@@ -24,7 +24,7 @@ $breakpoints: (
   margin-bottom: 2rem;
 }
 
-@include media('retina2x', '>lower-phone') {
+@include media('retina2x', '<lower-phone') {
   .title {
     max-width: 52rem;
 
