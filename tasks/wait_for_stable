@@ -20,7 +20,7 @@ TIMEOUT=$((60 * 6))
 ecs_wait_for_stable_for_marketing () {
   aws ecs wait services-stable \
     --cluster main \
-    --services "$ENVIRONMENT"-yxorp
+    --services "$ENVIRONMENT"-marketing
 }
 
 is_finished () {
