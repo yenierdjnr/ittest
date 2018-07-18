@@ -49,10 +49,10 @@ class RequestForm extends Component {
 
     return (
       <section className={ `${styles.capsule} ${className}` }>
-        <Hx color={ styles.offBlack } size="3" className={ styles['form-title'] }>Need pricing, demo, or trial? Get in touch!</Hx>
+        <Hx color={ styles.offBlack } size="3" className={ styles.formTitle }>Need pricing, demo, or trial? Get in touch!</Hx>
 
         <form action="https://go.itpro.tv/l/425902/2018-06-13/8dybyw" method="post">
-          <div className={ styles['about-you']}>
+          <div className={ styles.aboutYou}>
             <input
               className={ styles.item }
               type="text"
@@ -114,10 +114,10 @@ class RequestForm extends Component {
             </select>
           </div>
 
-          <div className={ styles['your-needs']}>
-            <div className={ styles['question-box']}>
+          <div className={ styles.yourNeeds}>
+            <div className={ styles.questionBox}>
               <span className={ styles.question }>Would you like a live demo of ITProTV?*</span>
-              <div className={ styles['radio-list']}>
+              <div className={ styles.radioList}>
                 <input id="r1" className={ styles.radio } type="radio" name="pardot_demo" value="yes" checked={ pardot_demo === 'yes' } onChange={ this.handleInput } disabled={ submitting } />
                 <label className={ styles.label } htmlFor="r1">Yes</label>
                 <input id="r2" className={ styles.radio } type="radio" name="pardot_demo" value="no" checked={ pardot_demo === 'no' } onChange={ this.handleInput } disabled={ submitting } />

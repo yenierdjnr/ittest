@@ -13,7 +13,7 @@ const TextLink = ({ children='TextLink', className='', color=`${styles.primaryOr
   }
 
   if (color === `${styles.primaryOrange}`) {
-    linkStyle = `${styles['text-link-orange']}`;
+    linkStyle = `${styles.textLinkOrange}`;
   }
 
   if (disabled) {
@@ -35,6 +35,3 @@ const TextLink = ({ children='TextLink', className='', color=`${styles.primaryOr
 
 
 export default TextLink;
-
-
-

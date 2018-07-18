@@ -18,7 +18,7 @@ $breakpoints: (
   margin-bottom: 5rem;
 }
 
-.leftColumn {
+.left-column {
   @extend .col-12;
   @extend .col-lg-6;
 }
@@ -45,10 +45,10 @@ $breakpoints: (
   width: 12rem;
   height: 12rem;
 
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  @extend .flex-nowrap;
 
   border-radius: 6rem;
   background-color: $color-white-light;
@@ -69,7 +69,7 @@ $breakpoints: (
   line-height: 2.4rem;
 }
 
-.RequestForm {
+.Request-Form {
   @extend .col-12;
   @extend .col-lg-6;
   margin-top: -8rem;
@@ -83,12 +83,12 @@ $breakpoints: (
 }
 
 @include media('<=upper-tablet') {
-  .leftColumn {
+  .left-column {
     order: 2;
     margin: 2rem auto;
   }
 
-  .RequestForm {
+  .Request-Form {
     margin: -8rem auto 0;
     padding: 4rem;
   }
@@ -131,15 +131,15 @@ $breakpoints: (
     margin-bottom: 4rem;
     border-radius: 5rem;
 
-    & .laptop {
+    &.laptop {
       width: 6.5rem;
       height: 7.5rem;
     }
-    & .popcorn {
+    &.popcorn {
       width: 5.2rem;
       height: 6.9rem;
     }
-    & .coin {
+    &.coin {
       width: 4.9rem;
       height: 6.5rem;
     }

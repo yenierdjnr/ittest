@@ -12,7 +12,7 @@ const TeamCerts = ({ className='', testimonials }) => {
     const vidWrap = document.getElementById('vidwrap-team-certs');
 
     if (vidWrap) {
-      vidWrap.innerHTML = `<iframe class="${styles['for-teams-2-iframe']}" width="560"height="315" src="https://www.youtube.com/embed/EAUbTXrvUfk?rel=0&amp;controls=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media"allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${styles.forTeams2Iframe}" width="560"height="315" src="https://www.youtube.com/embed/EAUbTXrvUfk?rel=0&amp;controls=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media"allowfullscreen></iframe>`;
     }
   };
 
@@ -22,14 +22,14 @@ const TeamCerts = ({ className='', testimonials }) => {
         <Hx color={ styles.offBlack } size="2" className={ styles.intro }>Team Earns 40 Certifications in 12 Months</Hx>
 
         <div className={ styles.info }>
-          <div id="background-video" className={ `${styles['video-capsule']} ${className}` } onClick={ handlePlay }>
+          <div id="background-video" className={ `${styles.videoCapsule} ${className}` } onClick={ handlePlay }>
             <div id="vidwrap-team-certs" className={ styles.vidwrap }></div>
-            <IconPlay className={ styles['play-button'] }/>
+            <IconPlay className={ styles.playButton }/>
             <Img outerWrapperClassName={ styles.imgWrapper } fluid={ testimonials.fluid } alt="team video"/>
           </div>
 
           <div className={ styles.testimonial }>
-            <span className={ styles['quote-symbol']} >“</span>
+            <span className={ styles.quoteSymbol} >“</span>
             <div>
               <Para className={ styles.quote } color={ styles.offBlack } size="2.4">I had 110 engineers in the field, and we had dozens of ITProTV accounts. Last year alone, they passed over 40 certs.</Para>
               <span className={ styles.author }>James Packer, Kirk ISS</span>

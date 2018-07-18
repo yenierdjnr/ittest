@@ -10,14 +10,14 @@ const OnAir = ({ className='', bkImage }) => {
     const vidWrap = document.getElementById('vidwrap');
 
     if (vidWrap) {
-      vidWrap.innerHTML = `<iframe class="${styles['on-air-iframe']}" width="560" height="315" src="https://www.youtube.com/embed/OJWewWysGcA?rel=0&amp;modestbranding=1&amp;autoplay=1&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+      vidWrap.innerHTML = `<iframe class="${styles.onAirIframe}" width="560" height="315" src="https://www.youtube.com/embed/OJWewWysGcA?rel=0&amp;modestbranding=1&amp;autoplay=1&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
     }
   };
 
   return (
-    <div id="background-video" className={ `${styles['capsule']} ${className}` } onClick={ handlePlay }>
+    <div id="background-video" className={ `${styles.capsule} ${className}` } onClick={ handlePlay }>
       <div id="vidwrap" className={ styles.vidwrap }></div>
-      <IconPlay className={ styles['play-button'] }/>
+      <IconPlay className={ styles.playButton }/>
       <Img fluid={ bkImage.fluid } alt="on air video"/>
     </div>
   );
