@@ -22,20 +22,14 @@ const WebinarContent = () => {
           <div className={ styles.sideCol }>
           </div>
           <div className={ styles.cols }>
-            <Hx size="6"><a href="https://go.itpro.tv/hybrid-cloud-recording" color={ styles.title } target="_blank" rel="noopener noreferrer">Winning with The Hybrid Cloud</a></Hx>
-            <div className={ styles.content }>
-              <img src={ Hybrid } className={ styles.img } alt="Hybrid webinar" />
-              <Para color={ styles.darkGrey } className={ styles.summary }>What IT pros need to know</Para>
-            </div>
-            <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/hybrid-cloud-recording">Register</TextLinkExternal>
-          </div>
-          <div className={ styles.cols }>
             <Hx size="6"><a href="" color={ styles.title } target="_blank" rel="noopener noreferrer">Surviving a DDOS Attack: A Case Study</a></Hx>
             <div className={ styles.content }>
               <img src={ Ddos } className={ styles.img } alt="DDOS webinar" />
               <Para color={ styles.darkGrey } className={ styles.summary }>What happened and how we got through it</Para>
             </div>
             <TextLinkExternal className={ styles.more } to="">Register</TextLinkExternal>
+          </div>
+          <div className={ styles.cols }>
           </div>
           <div className={ styles.sideCol }>
           </div>
@@ -49,12 +43,12 @@ const WebinarContent = () => {
             <div className={ styles.sideCol }>
             </div>
             <div className={ styles.cols }>
-              <Hx size="6"><a href="https://go.itpro.tv/gdpr_webinar_recording" color={ styles.title } target="_blank" rel="noopener noreferrer">GDPR: What IT Pros Need to Know</a></Hx>
+              <Hx size="6"><a href="https://go.itpro.tv/hybrid-cloud-recording" color={ styles.title } target="_blank" rel="noopener noreferrer">Winning with The Hybrid Cloud</a></Hx>
               <div className={ styles.content }>
-                <img src={ Gdpr } className={ styles.img } alt="GDPR webinar" />
-                <Para color={ styles.darkGrey } className={ styles.summary }>Tips to minimize your risk</Para>
+                <img src={ Hybrid } className={ styles.img } alt="Hybrid webinar" />
+                <Para color={ styles.darkGrey } className={ styles.summary }>What IT pros need to know</Para>
               </div>
-              <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/gdpr_webinar_recording">Watch Here</TextLinkExternal>
+              <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/hybrid-cloud-recording">Watch Here</TextLinkExternal>
             </div>
             <div className={ styles.cols }>
               <Hx size="6"><a href="https://go.itpro.tv/pen_test_recording" color={ styles.title } target="_blank" rel="noopener noreferrer">Pen Testing: What IT Pros Need to Know</a></Hx>
@@ -79,9 +73,13 @@ const WebinarContent = () => {
               </div>
               <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/minimize-risk">Watch Here</TextLinkExternal>
             </div>
-            <div className={ styles.centerCol }>
-            </div>
             <div className={ styles.cols }>
+              <Hx size="6"><a href="https://go.itpro.tv/gdpr_webinar_recording" color={ styles.title } target="_blank" rel="noopener noreferrer">GDPR: What IT Pros Need to Know</a></Hx>
+              <div className={ styles.content }>
+                <img src={ Gdpr } className={ styles.img } alt="GDPR webinar" />
+                <Para color={ styles.darkGrey } className={ styles.summary }>Tips to minimize your risk</Para>
+              </div>
+              <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/gdpr_webinar_recording">Watch Here</TextLinkExternal>
             </div>
             <div className={ styles.sideCol }>
             </div>
