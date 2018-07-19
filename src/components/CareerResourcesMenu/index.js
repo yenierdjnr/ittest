@@ -5,7 +5,6 @@ import imagePaths from 'Images/career-path.svg';
 import imageCertification from 'Images/certification.svg';
 import imageResources from 'Images/resources.svg';
 import TextLink from 'Elements/TextLink';
-window.styles = styles;
 
 const CareerResourcesMenu = () =>
   <section className={ styles.capsule }>

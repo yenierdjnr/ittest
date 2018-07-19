@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { footerContent, mainContent, mainLayout, mainRows, overlay } from './layout.scss';
+import { mainLayout, mainRows, overlay } from './layout.scss';
 
 import Footer from 'Components/Footer';
 import Header from 'Components/Header';
@@ -34,10 +34,10 @@ class Index extends Component {
         <div id="headerContent" className={ mainRows }>
           <Header pathname={ location.pathname }/>
         </div>
-        <div id={ mainContent } className={ mainRows }>
+        <div id="mainContent" className={ mainRows }>
           { children }
         </div>
-        <div id={ footerContent} className={ mainRows }>
+        <div id="footerContent" className={ mainRows }>
           <Footer />
         </div>
       </div>
