@@ -50,7 +50,7 @@ class CoursePage extends Component {
         <Helmet>
           <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
           <title>{ data.course.name }</title>
-          <meta name="description" content={ data.course.descriptionMD } />
+          <meta name="description" content={ data.course.description } />
           <link rel="canonical" href={ `${process.env.SELF_URL}/courses/${data.course.tagUrl}/${data.course.url}` } />
         </Helmet>
 
@@ -117,7 +117,6 @@ export const pageQuery = graphql`
       name
       subtitle
       description
-      descriptionMD
       length
       tagUrl
       vLab
