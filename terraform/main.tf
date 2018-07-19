@@ -79,7 +79,7 @@ module "production" {
   itprotv_marketing_repo = "${aws_ecr_repository.itprotv_marketing_repo.repository_url}"
   region = "us-east-1"
   cluster_name = "${data.terraform_remote_state.genesis.main_cluster_name}"
-  image_tag = "commit-${var.staging["git_sha"]}"
+  image_tag = "commit-${var.production["git_sha"]}"
   proxy_url = "http://itprotv-marketing-production.s3-website-us-east-1.amazonaws.com"
   target_group_arn = "${data.terraform_remote_state.genesis.production_marketing_target_group_arn}"
   ecs_service_role_arn = "${data.terraform_remote_state.genesis.service_role_arn}"

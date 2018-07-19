@@ -46,8 +46,9 @@ case "$TASK" in
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
+          ./tasks/deploy production "$REVISION"
           aws --region="$REGION" \
-              s3 sync public s3://new-production.itpro.tv --exclude ./*.map --delete
+              s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
           ;;
 
 
