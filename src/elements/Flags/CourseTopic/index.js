@@ -8,7 +8,7 @@ const CourseTopic = ({ className='', title='Topic Title', episodes=[], topicInde
     { title }
     <ul className={ styles.episodes }>
       { episodes.map((episode, episodeIndex) =>
-        <li key={ episode.id } className={ styles.episode } onClick={ () => onEpisodeChange(topicIndex, episodeIndex) } >
+        <li key={ episode.title } className={ styles.episode } onClick={ () => onEpisodeChange(topicIndex, episodeIndex) } >
           { episode.title }
         </li>
       ) }

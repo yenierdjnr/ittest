@@ -51,6 +51,7 @@ class CoursePage extends Component {
           <link rel="stylesheet" type="text/css" href="https://use.typekit.net/lju1geg.css" />
           <title>{ data.course.name }</title>
           <meta name="description" content={ data.course.descriptionMD } />
+          <link rel="canonical" href={ `${process.env.SELF_URL}/courses/${data.course.tagUrl}/${data.course.url}` } />
         </Helmet>
 
 
@@ -110,8 +111,8 @@ class CoursePage extends Component {
 export default CoursePage;
 
 export const pageQuery = graphql`
-  query CourseByPath {
-    course: coursesJson {
+  query CourseByPath($courseUrl: String) {
+    course: coursesJson(url: {eq: $courseUrl}) {
       url
       name
       subtitle
