@@ -12,7 +12,7 @@ class Display extends Component {
 
         <div className={ styles.article }>
           {
-            labs.map((i) => <Labs key={ i } name={ labs.name } />)
+            labs.map((lab, i) => <Labs key={ i } name={ lab.name } />)
           }
         </div>
       </section>
