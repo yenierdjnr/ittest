@@ -31,7 +31,7 @@ class CourseVideo extends Component {
     if (episode === overview) {
       return <Hx size="6" className={ styles.bannerText }>Free Preview</Hx>
     } else {
-      return <Hx size="6" className={ styles.bannerText }><a href="https://itpro.tv/plans/">Join now to access this course <IconArrowRight className={ styles.arrow } /></a></Hx>
+      return <Hx size="6" className={ styles.bannerText }><a href={ `${process.env.SELF_URL}/plans/` }>Join now to access this course <IconArrowRight className={ styles.arrow } /></a></Hx>
     }
   };
 
