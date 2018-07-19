@@ -10,29 +10,35 @@ import 'Styles/normalizer.scss';
 
 
 class Index extends Component {
-  UNSAFE_componentWillReceiveProps(nextProps) {
-    if (this.refs.overlay.style.display === 'block' || this.refs.overlay.style.display === '') {
-      this.handleCloseClick();
+  constructor(props){
+    super(props);
+    this.state = {
+      overlayVisible: false
     }
   }
-
-  handleCloseClick = (e) => {
-    const body = document.getElementsByTagName('body')[0];
-
-    body.style.overflow = '';
-    this.refs.overlay.style.display = 'none';
+  handleCloseClick = () => {
+    this.setState({
+      overlayVisible: false
+    })
   };
+
+  handleOpenClick = () => {
+    this.setState({
+      overlayVisible: true
+    })
+  }
 
   render() {
     const { children, location } = this.props;
+    const { overlayVisible } = this.state;
 
     return (
       <div className={ mainLayout }>
-        <div id="overlay" className={ overlay } ref="overlay">
+        <div id="overlay" className={ `${overlay} ${ !overlayVisible ? 'hidden' : '' }` }  >
           <Overlay pathname={ location.pathname } callback={ this.handleCloseClick }/>
         </div>
         <div id="headerContent" className={ mainRows }>
-          <Header pathname={ location.pathname }/>
+          <Header pathname={ location.pathname } onMenuClick={this.handleOpenClick}/>
         </div>
         <div id="mainContent" className={ mainRows }>
           { children }
