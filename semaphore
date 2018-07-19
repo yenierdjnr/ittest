@@ -21,10 +21,18 @@ case "$TASK" in
       case "$BRANCH_NAME" in
       "production")
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
+          ./tasks/build "$REVISION"
+          ;;
+      "master")
+          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+           aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
+          ./tasks/build "$REVISION"
           ;;
       *)
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
-          ./tasks/build "$REVISION"
           ;;
       esac;
     ;;
@@ -32,24 +40,16 @@ case "$TASK" in
   "deploy")
     case "$BRANCH_NAME" in
       "master")
-          docker network create itprotv_bridge
-          MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           ./tasks/deploy staging "$REVISION"
-          aws --region="$REGION" \
-              s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
           ;;
 
       "production")
-          docker network create itprotv_bridge
-          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
-          aws --region="$REGION" \
-              s3 sync public s3://new-production.itpro.tv --exclude ./*.map --delete
+          ./tasks/deploy production "$REVISION"
           ;;
-
 
       *) echo "Not a deployable branch, therefore not syncing."
         ;;
