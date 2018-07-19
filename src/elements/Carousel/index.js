@@ -52,6 +52,10 @@ export default class Carousel extends PureComponent {
     this.isDragging = false
   }
 
+  gotoPage = (page) => () => this.setState({ page }, this.stop);
+
+  stop = () => clearInterval(this.timer);
+
   stopAndNext = () => {
     this.stop();
     this.nextPage();
@@ -142,8 +146,8 @@ export default class Carousel extends PureComponent {
           {children.map((child, index) =>
             <button
               key={index}
-              className={ `${button} ${(page - 1) % pages === index ? active: ''}` }
-              onClick={ () => this.gotoPage(index + 1)}
+              className={ `${button} ${(page - 1) % pages == index ? active: ''}` }
+              onClick={this.gotoPage(index + 1)}
             >
               <span className={ dot } />
             </button>

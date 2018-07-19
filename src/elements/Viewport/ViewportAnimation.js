@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import CSSTransition from 'react-transition-group/CSSTransition';
-import TrackVisibility from 'react-on-screen';
+import ViewportAction from './ViewportAction';
 
 class ViewportAnimation extends PureComponent {
   constructor(props) {
@@ -18,7 +18,7 @@ class ViewportAnimation extends PureComponent {
     const { visible } = this.state;
 
     return (
-      <TrackVisibility once>
+      <ViewportAction threshold={ 0 } onChange={ this.setVisible }>
 
         <CSSTransition
           timeout={ 2000 }
@@ -28,7 +28,7 @@ class ViewportAnimation extends PureComponent {
           { children }
         </CSSTransition>
 
-      </TrackVisibility>
+      </ViewportAction>
     );
   }
 }

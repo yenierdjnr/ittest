@@ -33,7 +33,9 @@ class Vlabs extends PureComponent {
           categories={ vLabs.map((lab) => lab.vlabcategory) }
           onChange={ this.handleMenuChange }
         />
-        <Display labs={ vLabs[categoryIndex].labs } />
+        <Display
+          labs={ vLabs[categoryIndex].labs }
+        />
       </Fragment>
     )
   }
