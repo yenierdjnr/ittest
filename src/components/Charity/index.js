@@ -15,18 +15,18 @@ const Charity = () => {
         </div>
       </div>
       <div className={ styles.listcapsule }>
-        <div className={ `${styles['item']} ${styles.one}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ `${styles.item} ${styles.one}` }>
+          <div className={ `${styles.logo} ${styles.paths}` }>
             <img src={ habitatForHumanity } alt="Habitat for Humanity" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.two}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ `${styles.item} ${styles.two}` }>
+          <div className={ `${styles.logo} ${styles.paths}` }>
             <img src={ foodForKids } alt="Food for Kids" />
           </div>
         </div>
-        <div className={ `${styles['item']} ${styles.three}` }>
-          <div className={ `${styles['logo']} ${styles.paths}` }>
+        <div className={ `${styles.item} ${styles.three}` }>
+          <div className={ `${styles.logo} ${styles.paths}` }>
             <img src={ ronaldMcDonaldHouse } alt="Ronald McDonald House" />
           </div>
         </div>
