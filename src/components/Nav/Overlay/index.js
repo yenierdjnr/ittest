@@ -71,7 +71,7 @@ class OverlayNav extends Component {
               <Link to="/for-you/">for you</Link>
             </li>
             <li className={ styles.menuItem }>
-              <a href={`${process.env.SELF_URL}/login/`}>log in</a>
+              <a href={`${process.env.ITPROTV_URL}/login/`}>log in</a>
             </li>
           </ul>
         </nav>
