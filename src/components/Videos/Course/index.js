@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import styles from '../styles.module.scss';
+import DefaultThumbLg from 'Images/default-thumbnail-lg.jpg';
+import DefaultThumbMed from 'Images/default-thumbnail-med.jpg';
+import DefaultThumbSm from 'Images/default-thumbnail-sm.jpg';
 
 import { IconArrowRight, IconPlay } from 'Elements/Icons';
 import Hx from 'Elements/Hx';
@@ -39,9 +42,9 @@ class CourseVideo extends Component {
 
     return (
       <div id="background-video" className={ styles.courseCapsule } onClick={ this.handlePlay }>
-        <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" alt="" />
-        <img className={ styles.thumbnailMed } src={ this.props.thumbnailMed } width="100%" alt="" />
-        <img className={ styles.thumbnailSm } src={ this.props.thumbnailSm } width="100%" alt="" />
+        { !this.props.thumbnail ? <img className={ styles.thumbnail } src={ DefaultThumbLg } width="100%" alt="" /> : <img className={ styles.thumbnail } src={ this.props.thumbnail } width="100%" alt="" /> }
+        { !this.props.thumbnailMed ? <img className={ styles.thumbnailMed } src={ DefaultThumbMed } width="100%" alt="" /> : <img className={ styles.thumbnailMed } src={ this.props.thumbnail } width="100%" alt="" /> }
+        { !this.props.thumbnailSm ? <img className={ styles.thumbnailSm } src={ DefaultThumbSm } width="100%" alt="" /> : <img className={ styles.thumbnailSm } src={ this.props.thumbnail } width="100%" alt="" /> }
         <div id="vidwrap" className={styles.courseVidwrap}></div>
         <div id="banner" className={ styles.banner }>{this.showBanner()}</div>
         { this.props.episode === this.props.overview && <IconPlay className={ styles.playButton } />}

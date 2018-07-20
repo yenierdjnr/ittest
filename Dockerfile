@@ -1,6 +1,10 @@
-FROM node:10.6.0-alpine
+FROM node:10.6.0-slim
 
 WORKDIR /work
 
-# aws-cli is only in edge currently :/
-RUN apk update && apk add -X http://dl-3.alpinelinux.org/alpine/edge/testing aws-cli vips-dev fftw-dev && apk add --no-cache --update make gcc g++ libc-dev libpng-dev automake autoconf libtool jq python && cd /work && yarn install
+RUN apt-get update && apt-get install --assume-yes \
+  awscli \
+  bzip2 \
+  jq \
+  libpng-dev \
+  libvips-dev

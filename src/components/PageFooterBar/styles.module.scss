@@ -17,7 +17,7 @@
 .page-footer__copyright {
   @extend .d-flex;
   @extend .justify-content-center;
-    margin-bottom: 31px;
+  padding-bottom: 31px;
 }
 .copyright {
   color: $color-grey-dark;

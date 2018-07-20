@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
+import Layout from 'Components/layout';
 import { graphql } from 'gatsby';
 
 import { CoursePageHero as Hero } from 'Components/Hero';
@@ -55,53 +56,55 @@ class CoursePage extends Component {
         </Helmet>
 
 
-        <section className={ styles.Hero }>
-          <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
-        </section>
-        <section className={ styles.details }>
-          <div className={ styles.row }>
-            <div className={ styles.courseDetails }>
-              <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
-              <div className={ styles.episodes }>
-                <div className={ styles.colXS12 }>
-                  <Hx className={ `${styles.desktopEpisodes} ${styles.title}` } size="5" color={ styles.offBlack }>Episodes</Hx>
-                  <Hx className={ `${styles.mobileEpisodes} ${styles.title}` } size="5" color={ styles.offBlack }><span onClick={ () => this.handleEpisodeToggle() }>Episodes <IconCaret className={ this.state.showEpisodes ? styles.caret : '' } /></span></Hx>
-                </div>
-                <div className={ styles.colXS12 }>
-                  <ul className={ `${this.state.showEpisodes ? '' : styles.mobileEpisodeList} ${styles.list}` }>
-                    {data.course.topics.map((topic, index) =>
-                      <CourseTopic
-                        key={ topic.title }
-                        title={ topic.title }
-                        episodes={ topic.episodes }
-                        onEpisodeChange={ this.handleEpisodeChange }
-                        topicIndex={ index }
-                      />
-                    )}
-                  </ul>
+        <Layout location={ location }>
+          <section className={ styles.Hero }>
+            <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
+          </section>
+          <section className={ styles.details }>
+            <div className={ styles.row }>
+              <div className={ styles.courseDetails }>
+                <CourseExtras vLab={ data.course.vLab } exam={ data.course.practiceExam } className={ styles.extras } />
+                <div className={ styles.episodes }>
+                  <div className={ styles.colXS12 }>
+                    <Hx className={ `${styles.desktopEpisodes} ${styles.title}` } size="5" color={ styles.offBlack }>Episodes</Hx>
+                    <Hx className={ `${styles.mobileEpisodes} ${styles.title}` } size="5" color={ styles.offBlack }><span onClick={ () => this.handleEpisodeToggle() }>Episodes <IconCaret className={ this.state.showEpisodes ? styles.caret : '' } /></span></Hx>
+                  </div>
+                  <div className={ styles.colXS12 }>
+                    <ul className={ `${this.state.showEpisodes ? '' : styles.mobileEpisodeList} ${styles.list}` }>
+                      {data.course.topics.map((topic, index) =>
+                        <CourseTopic
+                          key={ topic.title }
+                          title={ topic.title }
+                          episodes={ topic.episodes }
+                          onEpisodeChange={ this.handleEpisodeChange }
+                          topicIndex={ index }
+                        />
+                      )}
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <div className={ styles.episodeView }>
+                <EpisodeDetails
+                  title={ data.course.topics[topicIndex].episodes[episodeIndex].title }
+                  length={ data.course.topics[topicIndex].episodes[episodeIndex].length }
+                  description={ data.course.topics[topicIndex].episodes[episodeIndex].description }
+                />
+                <CourseVideo
+                  vimeoId={ data.course.topics[0].episodes[0].vimeoId }
+                  thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }
+                  thumbnailMed={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailMed }
+                  thumbnailSm={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailSm }
+                  episode={ data.course.topics[topicIndex].episodes[episodeIndex] }
+                  overview={ data.course.topics[0].episodes[0] }
+                />
+                <EpisodeExtras
+                  transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
+                />
+              </div>
             </div>
-            <div className={ styles.episodeView }>
-              <EpisodeDetails
-                title={ data.course.topics[topicIndex].episodes[episodeIndex].title }
-                length={ data.course.topics[topicIndex].episodes[episodeIndex].length }
-                description={ data.course.topics[topicIndex].episodes[episodeIndex].description }
-              />
-              <CourseVideo
-                vimeoId={ data.course.topics[0].episodes[0].vimeoId }
-                thumbnail={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnail }
-                thumbnailMed={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailMed }
-                thumbnailSm={ data.course.topics[topicIndex].episodes[episodeIndex].thumbnailSm }
-                episode={ data.course.topics[topicIndex].episodes[episodeIndex] }
-                overview={ data.course.topics[0].episodes[0] }
-              />
-              <EpisodeExtras
-                transcript={ data.course.topics[topicIndex].episodes[episodeIndex].transcript }
-              />
-            </div>
-          </div>
-        </section>
+          </section>
+        </Layout>
 
       </main>
     );
