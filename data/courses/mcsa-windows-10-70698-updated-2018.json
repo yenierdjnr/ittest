@@ -1,11 +1,11 @@
 {
   "description": "In this series we will dive into the second exam that is required for a viewer to achieve an MCSA in Windows 10. The topics will range from installation of Windows 10, post-installation configurations, applying images, various deployment tools as well as monitoring and servicing Windows 10 and more. Exam candidates are encouraged to watch both Windows 10 series for the MCSA exams.",
   "descriptionMD": "_This show is still in production.  We are updating the recording to reflect new features and interface.  The previously recorded one will be moved to Legacy when this updated version is complete._ In this series we will dive into the second exam that is required for a viewer to achieve an MCSA in Windows 10. The topics will range from installation of Windows 10, post-installation configurations, applying images, various deployment tools as well as monitoring and servicing Windows 10 and more. Exam candidates are encouraged to watch both Windows 10 series for the MCSA exams.",
-  "length": "120510",
+  "length": "129538",
   "name": "MCSA Windows 10 - 70-698 (UPDATED 2018)",
   "practiceExam": true,
   "subtitle": "Installing and Configuring Windows 10",
-  "tagUrl": "help-desk",
+  "tagUrl": "microsoft",
   "topics": [
     {
       "episodes": [
@@ -283,6 +283,28 @@
           "transcript": "",
           "url": "enterprise-implementations2",
           "vimeoId": "278505362"
+        },
+        {
+          "description": "In this show, Cherokee and Mike explain different activation channels such as retail, OEM and volume licensing. They really focus on different options when it comes to volume licensing. Specifically, Cherokee demonstrates how to install the Volume Activation role on a server as well as the Volume Activation Manager Tool (VAMT). Tune in to learn the difference between KMS and MAK keys and so much more!",
+          "length": "1731",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-1-activation_problems-071718-PGM.00_28_39_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-1-activation_problems-071718-PGM.00_28_39_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-1-activation_problems-071718-PGM.00_28_39_24.Still001-sm.jpg",
+          "title": "Activation Options",
+          "transcript": "",
+          "url": "activation-options-70698",
+          "vimeoId": "280614069"
+        },
+        {
+          "description": "In this show, Cherokee and Mike continue to explore volume activation options. Specifically, they focus on Software Licensing Manager (Slmgr.vbs) Cherokee explains different switch options associates with the script such as /rearm. Also, she demos how to perform a telephone activation.",
+          "length": "1606",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-2-activation_problems_pt2-071718-CLN.00_34_51_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-2-activation_problems_pt2-071718-CLN.00_34_51_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-1-10-2-activation_problems_pt2-071718-CLN.00_34_51_08.Still001-sm.jpg",
+          "title": "Activation Options Part 2",
+          "transcript": "",
+          "url": "activation-options2",
+          "vimeoId": "280614405"
         }
       ],
       "title": "Implement Windows"
@@ -354,6 +376,28 @@
           "transcript": "",
           "url": "configure-networking6",
           "vimeoId": "279322221"
+        },
+        {
+          "description": "In this show, Cherokee and Mike introduce Direct Access. They explain how Direct Access provides domain users a seamless experience for reaching network resources when not connected the network. Cherokee shares a deployment guide and walks through the steps to get the infrastructure set up.",
+          "length": "2014",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-7-configure_networking_pt7-071218-PGM.00_58_12_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-7-configure_networking_pt7-071218-PGM.00_58_12_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-7-configure_networking_pt7-071218-PGM.00_58_12_23.Still001-sm.jpg",
+          "title": "Configure Networking Part 7",
+          "transcript": "",
+          "url": "configure-networking7",
+          "vimeoId": "279918795"
+        },
+        {
+          "description": "In this show, Cherokee and Ronnie begin discussing Wi-Fi direct. Cherokee demonstrates how to verify hardware support for this wireless technology. She also shows how one would create and enable a hosted network. Next, they discuss IPsec. She shows how to create connection security rules and how the impact connectivity.",
+          "length": "1429",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-8-configure_networking_pt8-071318-PGM.00_58_19_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-8-configure_networking_pt8-071318-PGM.00_58_19_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-2-1-8-configure_networking_pt8-071318-PGM.00_58_19_24.Still001-sm.jpg",
+          "title": "Configure Networking Part 8",
+          "transcript": "",
+          "url": "configure-networking8",
+          "vimeoId": "280580856"
         },
         {
           "description": "In this show, Cherokee and Mike set the stage and explain disk and volume fundamentals. First, they discuss the differences and similarities between partioning schemes Master Boot Record (MBR) and GUID Partition Table (GPT). Next, they look at basic and Dynamics and the details of each.",
@@ -768,6 +812,17 @@
           "vimeoId": "276509070"
         },
         {
+          "description": "In this episode, Cherokee and Ronnie spend time explaining types of accounts. First, they look at different types accounts, such as local; domain and system. Next, Cherokee demonstrates how to link a Microsoft account to the operating system for a seamless experience across multiple Windows devices. Lastly, they look at the User Account Control setting options.",
+          "length": "1755",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-12-1-accounts_and_uac-062018-PGM.00_29_11_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-12-1-accounts_and_uac-062018-PGM.00_29_11_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-12-1-accounts_and_uac-062018-PGM.00_29_11_08.Still001-sm.jpg",
+          "title": "Accounts and UAC",
+          "transcript": "",
+          "url": "accountsuac",
+          "vimeoId": "276294205"
+        },
+        {
           "description": "In this episode, Cherokee and Aubri cover various authentication methods. The ladies compare and explain Microsoft Passport and Windows Hello. They also look at other biometric authentication options as well as dynamic lock.",
           "length": "1398",
           "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-13-1-passport_and_hello-062118-PGM.00_00_11_21.Still001.png",
@@ -777,6 +832,28 @@
           "transcript": "",
           "url": "passporthello",
           "vimeoId": "276509590"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike begin discussing Credential Manager. Cherokee shows where to access the cached credential info for both web and Windows accounts. Next, she spends time explaining how to leverage virtual based security. First, she explains Virtual Secure Mode (VSM) and the associated trustlets. Lastly, they look at how VSM relates to Credential Guard as well as how to deploy it.",
+          "length": "1355",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-1-credential_and_device_guard-071018-PGM.00_34_37_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-1-credential_and_device_guard-071018-PGM.00_34_37_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-1-credential_and_device_guard-071018-PGM.00_34_37_25.Still001-sm.jpg",
+          "title": "Credential and Device Guard",
+          "transcript": "",
+          "url": "credentialdevice-guard",
+          "vimeoId": "279731355"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike continue to discuss virtual based security. They spend time explain the underpinning components of Device Guard. Tune in to see how to harden your device.",
+          "length": "893",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-2-credential_aand_device_guard_pt2-071018-PGM.00_19_05_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-2-credential_aand_device_guard_pt2-071018-PGM.00_19_05_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70698-2018/microsoft-windows70698-3-14-2-credential_aand_device_guard_pt2-071018-PGM.00_19_05_05.Still001-sm.jpg",
+          "title": "Credential and Device Guard Part 2",
+          "transcript": "",
+          "url": "credentialdevice-guard2",
+          "vimeoId": "279731992"
         },
         {
           "description": "In this episode, Cherokee and Justin spend time in both the GUI and PowerShell looking at ways to configure services. Next, they explore Device Manager follwed up with Task Scheduler.",

@@ -1,0 +1,308 @@
+{
+  "description": "Welcome to the Microsoft MTA Security Fundamentals series. This series is intended to explore the topics necessary to prepare for the 98-367 exam. Here we cover many computer security related concepts such as exploring their best practices and practical application. This includes important topics like security layers, operating system security, network security, and security software.",
+  "descriptionMD": "Welcome to the Microsoft MTA Security Fundamentals series. This series is intended to explore the topics necessary to prepare for the 98-367 exam. Here we cover many computer security related concepts such as exploring their best practices and practical application. This includes important topics like security layers, operating system security, network security, and security software.",
+  "length": "39383",
+  "name": "MTA - Security Fundamentals  - 98-367 (2018)",
+  "practiceExam": false,
+  "subtitle": "Security Fundamentals",
+  "tagUrl": "microsoft",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "Welcome to the Microsoft MTA Security Fundamentals series. This series is intended to explore the topics necessary to prepare for the 98-367 exam. Here we cover many computer security related concepts such as exploring their best practices and practical application. This includes important topics like security layers, operating system security, network security, and security software.",
+          "length": "257",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-0-0-0-overview-071318-PGM.00_01_27_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-0-0-0-overview-071318-PGM.00_01_27_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-0-0-0-overview-071318-PGM.00_01_27_18.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.000 --> 00:00:05.598\n[MUSIC]\n\n2\n00:00:05.598 --> 00:00:07.220\nHello, and thank you for watching ITProTV.\n\n3\n00:00:07.220 --> 00:00:10.475\nI'm with Daniel Lowry, we're talking\nabout MTA security fundamentals.\n\n4\n00:00:10.475 --> 00:00:13.286\nDaniel, nice to see you, can you tell\nus what the course is all about?\n\n5\n00:00:13.286 --> 00:00:18.081\n&gt;&gt; Yeah, sure, not a problem, the MTA\nsecurity fundamentals is all about, well,\n\n6\n00:00:18.081 --> 00:00:18.786\nsecurity.\n\n7\n00:00:18.786 --> 00:00:22.884\nHoping you get that start in that\nsecurity road down that field, so\n\n8\n00:00:22.884 --> 00:00:25.883\nthat you can start to\nunderstand the concepts and\n\n9\n00:00:25.883 --> 00:00:30.220\npractices inside of a Windows\nenvironment when it comes to security.\n\n10\n00:00:30.220 --> 00:00:32.243\nThat's what they're trying to do,\nthey're trying to build that foundation.\n\n11\n00:00:32.243 --> 00:00:35.674\nSo that as you become more and\nmore of a security practitioner,\n\n12\n00:00:35.674 --> 00:00:38.328\nyou have a solid set of skills,\nunderstanding,\n\n13\n00:00:38.328 --> 00:00:42.234\nand precepts to continue your\nconversation with regards to security.\n\n14\n00:00:42.234 --> 00:00:44.604\n&gt;&gt; So in a broader view,\nwho is the show targeted towards?\n\n15\n00:00:44.604 --> 00:00:49.206\n&gt;&gt; That's a great question as well, it's\ntargeted toward people that wish to have,\n\n16\n00:00:49.206 --> 00:00:54.005\nA, a really good foundational knowledge of\nsecurity practices in a Windows operating\n\n17\n00:00:54.005 --> 00:00:55.580\nsystem environments.\n\n18\n00:00:55.580 --> 00:00:58.750\nSo this will be Windows desktops,\nas well as Windows servers.\n\n19\n00:00:58.750 --> 00:01:02.369\nAs well as the person that says,\nyou know what,\n\n20\n00:01:02.369 --> 00:01:08.210\nI want to not only be an IT worker, but\nI would like to focus in on security.\n\n21\n00:01:08.210 --> 00:01:10.338\nThis will help you move\nin towards your MCSA,\n\n22\n00:01:10.338 --> 00:01:12.303\nif you intend to go\ndown that trek as well.\n\n23\n00:01:12.303 --> 00:01:15.407\n&gt;&gt; Is there a certification\ninvolved in this course?\n\n24\n00:01:15.407 --> 00:01:17.710\n&gt;&gt; Yes, this is a certification course.\n\n25\n00:01:17.710 --> 00:01:22.731\nWe do have tech skill courses, but\nthis is one of our certification areas.\n\n26\n00:01:22.731 --> 00:01:26.887\nWhere you will, if you take the exam and\nare able to successfully pass it,\n\n27\n00:01:26.887 --> 00:01:30.778\nwill receive a certification from\nMicrosoft that labels you an MTA,\n\n28\n00:01:30.778 --> 00:01:33.770\nand says that you have\nsome security knowledge.\n\n29\n00:01:33.770 --> 00:01:38.171\nThat way, you are able to show an employer\nor any other person that wishes to ask,\n\n30\n00:01:38.171 --> 00:01:42.702\nto be honest with you, about your security\nknowledge, you can say, check it out,\n\n31\n00:01:42.702 --> 00:01:44.260\nI'm MTA certified.\n\n32\n00:01:44.260 --> 00:01:49.100\nAnd we do need to understand some of\nthe minutiae when it comes to the exam.\n\n33\n00:01:49.100 --> 00:01:51.640\nSo let's jump on to my\ncomputer very quickly, and\n\n34\n00:01:51.640 --> 00:01:55.560\nlet's take a look at Microsoft page\nthey gave us about the MTA exam.\n\n35\n00:01:55.560 --> 00:01:59.050\nSo here it is,\nthe exam number is the 98-367, so\n\n36\n00:01:59.050 --> 00:02:02.560\nif you want to look it up by that,\nthat's totally fine.\n\n37\n00:02:02.560 --> 00:02:05.710\nIt tells you when it was published, and\nthe languages that they offer it in.\n\n38\n00:02:05.710 --> 00:02:09.692\nThe audience, it's telling you, is a bit\nacademic, but hey, it's no problem for\n\n39\n00:02:09.692 --> 00:02:10.800\nus, right?\n\n40\n00:02:10.800 --> 00:02:14.260\nTechnologies will be Windows 10,\neven though it says Windows Server here.\n\n41\n00:02:14.260 --> 00:02:19.090\nI will tell you, you will need to know\na bit about both, heavily on Windows 10,\n\n42\n00:02:19.090 --> 00:02:22.290\nthough, and\nthe Windows desktop environment, I'll say.\n\n43\n00:02:22.290 --> 00:02:24.377\n&gt;&gt; And Daniel, what topics are covered\nin MTA security fundamentals?\n\n44\n00:02:24.377 --> 00:02:26.113\n&gt;&gt; That is a great question as well,\n\n45\n00:02:26.113 --> 00:02:30.210\nI do wanna point out that you'll\nnotice that this does cost you money.\n\n46\n00:02:30.210 --> 00:02:34.670\nIt's right here, $127 US as of\nthe filming of this little overview for\n\n47\n00:02:34.670 --> 00:02:35.450\nyou good folks.\n\n48\n00:02:35.450 --> 00:02:38.220\nSo if you're there, and\nyou can schedule with Certiport or\n\n49\n00:02:38.220 --> 00:02:41.680\nPearson VUE if you wanna go ahead and\ntake the exam, if you're ready for it.\n\n50\n00:02:41.680 --> 00:02:45.000\nBut the topics that are covered, tells\nyou right here, skills that are measured.\n\n51\n00:02:45.000 --> 00:02:48.590\nYou can read through that, but the\nobjectives that they give you will give\n\n52\n00:02:48.590 --> 00:02:52.270\nyou a really good understanding of\nwhat's gonna be on the exam itself.\n\n53\n00:02:52.270 --> 00:02:56.260\nAnd how much of the exam focuses\non each one of those domains.\n\n54\n00:02:56.260 --> 00:02:59.685\nYou have understand course security\nprinciples, understand physical security,\n\n55\n00:02:59.685 --> 00:03:01.912\nunderstand Internet security,\nwireless security.\n\n56\n00:03:01.912 --> 00:03:03.967\nAnd then it gives you some resources, and\n\n57\n00:03:03.967 --> 00:03:06.266\neach one of these domains\nwill do that as well.\n\n58\n00:03:06.266 --> 00:03:10.688\nUnderstand user authentication,\npermissions, password policies,\n\n59\n00:03:10.688 --> 00:03:12.660\naudit policies, encryption.\n\n60\n00:03:12.660 --> 00:03:15.421\nMalware, we're gonna cover all\nthis stuff in this series.\n\n61\n00:03:15.421 --> 00:03:18.655\nEvery one of these domains,\nwe will cover from stem to stern,\n\n62\n00:03:18.655 --> 00:03:19.976\nno stone left unturned.\n\n63\n00:03:19.976 --> 00:03:24.251\nOthers that we have is network security,\nso dedicated firewalls,\n\n64\n00:03:24.251 --> 00:03:26.952\nnetwork isolation, protocol security.\n\n65\n00:03:26.952 --> 00:03:29.832\nAnd last but not least,\nwe have security software,\n\n66\n00:03:29.832 --> 00:03:34.280\nwhich is client protection,\nemail protection, and server protection.\n\n67\n00:03:34.280 --> 00:03:37.220\nThose are the main bullet points that\nwe're gonna cover, and you can see,\n\n68\n00:03:37.220 --> 00:03:39.510\nthere are subpoints underneath that.\n\n69\n00:03:39.510 --> 00:03:41.224\nSo look through this list,\n\n70\n00:03:41.224 --> 00:03:44.656\nthere is the URL right here\nto help you get to this page.\n\n71\n00:03:44.656 --> 00:03:48.076\nOr you can just search it on your\nfavorite search engine and look this up,\n\n72\n00:03:48.076 --> 00:03:51.518\ngo to this page right here, check it\nout and make yourself a copy of this.\n\n73\n00:03:51.518 --> 00:03:55.897\nIt'll help you in your endeavor of making\nsure you're on track when you're studying.\n\n74\n00:03:55.897 --> 00:03:59.139\n&gt;&gt; Thanks Daniel, now, if MTA security\nfundamentals sounds like something you\n\n75\n00:03:59.139 --> 00:04:01.018\nshould be interested in,\nand you should be.\n\n76\n00:04:01.018 --> 00:04:05.069\nThen make sure you see every single\nepisode inside of the course library, and\n\n77\n00:04:05.069 --> 00:04:06.825\nthank you for watching ITProTV.\n\n78\n00:04:06.825 --> 00:04:12.974\n[MUSIC]\n\n",
+          "url": "overview-mta98367-2018",
+          "vimeoId": "280205954"
+        },
+        {
+          "description": "In this episode, Daniel and Zach discuss the core security principles you'll need to be familiar with for the 98-367 exam. Here you will learn the basics about the CIA Triad, Threats, Risk, Vulnerabilities, Principle of Least Privilege, Social Engineering, Attack Surface Analysis, and Threat Modeling.",
+          "length": "2083",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-1-1-core_security_principles-070218-PGM.00_35_03_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-1-1-core_security_principles-070218-PGM.00_35_03_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-1-1-core_security_principles-070218-PGM.00_35_03_14.Still001-sm.jpg",
+          "title": "Core Security Principles",
+          "transcript": "",
+          "url": "core-security-principles-mta-2018",
+          "vimeoId": "278503397"
+        },
+        {
+          "description": "In this episode, Daniel and Zach take the time to explain common physical security concepts and practices. Here you will learn about Access Controls, Multifactor Authentication, Site Security, Mobile Device security, and removable drive/device security.",
+          "length": "1938",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-2-1-physical_security-070218-PGMmicrosoft-mta98367-2018-1-2-1-physical_security-070218-PGM.00_46_59_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-2-1-physical_security-070218-PGMmicrosoft-mta98367-2018-1-2-1-physical_security-070218-PGM.00_46_59_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-2-1-physical_security-070218-PGMmicrosoft-mta98367-2018-1-2-1-physical_security-070218-PGM.00_46_59_25.Still001-sm.jpg",
+          "title": "Physical Security",
+          "transcript": "",
+          "url": "physical-security-mta-2018",
+          "vimeoId": "278504842"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore internet browser security, looking specifically at the Internet Explorer and Edge browsers. Here they will take you on a tour of security features such as Security Zones, Browsing History, Pop-up blockers, Certificates, and Advanced settings.",
+          "length": "1742",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-1-internet_browser_security-070218-PGM.00_29_47_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-1-internet_browser_security-070218-PGM.00_29_47_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-1-internet_browser_security-070218-PGM.00_29_47_09.Still001-sm.jpg",
+          "title": "Internet Browser Security",
+          "transcript": "",
+          "url": "internet-browser-security",
+          "vimeoId": "278504197"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore internet browser security, looking specifically at the Internet Explorer and Edge browsers. Here they will take you on a tour of security features such as Security Zones, Browsing History, Pop-up blockers, Certificates, and Advanced settings.",
+          "length": "1689",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-2-internet_browser_security_pt2-070518-PGM.00_28_13_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-2-internet_browser_security_pt2-070518-PGM.00_28_13_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-3-2-internet_browser_security_pt2-070518-PGM.00_28_13_17.Still001-sm.jpg",
+          "title": "Internet Browser Security Part 2",
+          "transcript": "",
+          "url": "internet-browser-security2",
+          "vimeoId": "279134117"
+        },
+        {
+          "description": "In this episode, Daniel and Zach delve into Wireless security practices. They will explain the basics of wireless security and discuss the different types of wireless encryptions (WEP/WPA/WPA2) along with other security practices like disabling SSID broadcasts and MAC address filtering.",
+          "length": "1820",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-1-wireless_security-070518-PGM.00_30_08_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-1-wireless_security-070518-PGM.00_30_08_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-1-wireless_security-070518-PGM.00_30_08_15.Still001-sm.jpg",
+          "title": "Wireless Security",
+          "transcript": "",
+          "url": "wireless-security-mta98367",
+          "vimeoId": "279134615"
+        },
+        {
+          "description": "In this episode, Daniel and Zach delve into Wireless security practices. They will explain the basics of wireless security and discuss the different types of wireless encryptions (WEP/WPA/WPA2) along with other security practices like disabling SSID broadcasts and MAC address filtering.",
+          "length": "1851",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-2-wireless_security_pt2-070618-PGM.00_31_12_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-2-wireless_security_pt2-070618-PGM.00_31_12_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-1-4-2-wireless_security_pt2-070618-PGM.00_31_12_01.Still001-sm.jpg",
+          "title": "Wireless Security Part 2",
+          "transcript": "",
+          "url": "wireless-security2",
+          "vimeoId": "279133734"
+        }
+      ],
+      "title": "Understand Security Layers"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Zach explore user authentication concepts and mechanisms. Here you will learn about how user authentication is accomplished using Kerberos, NTLM, and Single Sign-On(SSO).",
+          "length": "1629",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-1-user_authentication-070918-PGM.00_28_53_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-1-user_authentication-070918-PGM.00_28_53_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-1-user_authentication-070918-PGM.00_28_53_29.Still001-sm.jpg",
+          "title": "User Authentication",
+          "transcript": "",
+          "url": "user-authentication-mta98367",
+          "vimeoId": "279318975"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore user authentication concepts and mechanisms. Here you will learn about RADIUS, Multifactor authentication, physical and virutal smart cards, Biometrics, and the Run-As function.",
+          "length": "1402",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-2-user_authentication_pt2-070918-PGM.00_26_50_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-2-user_authentication_pt2-070918-PGM.00_26_50_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-1-2-user_authentication_pt2-070918-PGM.00_26_50_12.Still001-sm.jpg",
+          "title": "User Authentication Part 2",
+          "transcript": "",
+          "url": "user-authentication2-mta98367",
+          "vimeoId": "279319417"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore securing your Windows filesystems and network shared objects by applying permissions. Here you will learn about the NTFS filesystem basic and advanced permissions. You will also learn about permission Inheritance and object Ownership.",
+          "length": "1736",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-1-permissions-070618-PGM.00_28_46_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-1-permissions-070618-PGM.00_28_46_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-1-permissions-070618-PGM.00_28_46_16.Still001-sm.jpg",
+          "title": "Permissions",
+          "transcript": "",
+          "url": "permissions-mta98367",
+          "vimeoId": "279135559"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore securing your Windows filesystems and network shared objects by applying permissions. Here you will learn about Delegation of control, behavior of permissions when copying vs moving an object, and what happens when permissions overlap.",
+          "length": "1616",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-2-permissions_pt2-070618-PGM.00_28_12_15.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-2-permissions_pt2-070618-PGM.00_28_12_15.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-2-permissions_pt2-070618-PGM.00_28_12_15.Still001-sm.jpg",
+          "title": "Permissions Part 2",
+          "transcript": "",
+          "url": "permissions2-mta98367",
+          "vimeoId": "279135142"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore securing your Windows filesystems and network shared objects by applying permissions. Here you will learn about Delegation of control, behavior of permissions when copying vs moving an object, and what happens when permissions overlap.",
+          "length": "1461",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-3-permissions_pt3-070918-PGM.00_42_43_02.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-3-permissions_pt3-070918-PGM.00_42_43_02.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-2-3-permissions_pt3-070918-PGM.00_42_43_02.Still001-sm.jpg",
+          "title": "Permissions Part 3",
+          "transcript": "",
+          "url": "permissions3-mta98367",
+          "vimeoId": "279319174"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explain the best practices with regards to Password Policies. Here you will learn about the different types of password attacks like Brute-Force and Dictionary. You will also learn how to use complexity and length to strengthen your passwords. Finally, you will learn about procedures like Lockouts, Resets, History, Age, and Auditing which will bolster your password security.",
+          "length": "1777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-3-1-password_policies-071018-PGM.00_30_36_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-3-1-password_policies-071018-PGM.00_30_36_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-3-1-password_policies-071018-PGM.00_30_36_05.Still001-sm.jpg",
+          "title": "Password Policies",
+          "transcript": "",
+          "url": "password-policies-mta98367",
+          "vimeoId": "279545288"
+        },
+        {
+          "description": "In this episode, Daniel and Zach help you how to understand Auditing in a Windows environment. Her you will learn about what can be audited, how to enable auditing, viewing Event logs, backing up audit information, and keeping audit logs secure.",
+          "length": "1453",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-4-1-audit_policies-071018-PGM.00_26_45_28.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-4-1-audit_policies-071018-PGM.00_26_45_28.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-4-1-audit_policies-071018-PGM.00_26_45_28.Still001-sm.jpg",
+          "title": "Audit Policies",
+          "transcript": "",
+          "url": "audit-policies-mta98367",
+          "vimeoId": "279545922"
+        },
+        {
+          "description": "In this episode, Daniel and Zach discuss Encryption. Here they will explain the encryption process as well as the differences between Private Key or Symmetric encryption vs Public Key or Asymmetric encryption. They also explain how Digital Signatures work.",
+          "length": "1363",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-1-encryption-071018-PGM.00_22_30_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-1-encryption-071018-PGM.00_22_30_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-1-encryption-071018-PGM.00_22_30_05.Still001-sm.jpg",
+          "title": "Encryption",
+          "transcript": "",
+          "url": "encryption-mta98367",
+          "vimeoId": "279545667"
+        },
+        {
+          "description": "In this episode, Daniel and Zach continue their conversation on encryption. Here they explore some of the ways we see encryption applied, ways like the Encrypting File System(EFS), BitLocker, PGP/GPG, Email, and IPSec VPNs.",
+          "length": "1593",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-2-encryption_pt2-071118-PGM.00_27_42_03.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-2-encryption_pt2-071118-PGM.00_27_42_03.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-5-2-encryption_pt2-071118-PGM.00_27_42_03.Still001-sm.jpg",
+          "title": "Encryption Part 2",
+          "transcript": "",
+          "url": "encryption2-mta98367",
+          "vimeoId": "279914631"
+        },
+        {
+          "description": "In this episode, Daniel and Zach take a look at the basics of Digital Certificates. Here you will learn about the make-up of a Digital Cert, commonly used Certs along with where Certs are used, and how to create/acquire a Digital Certificate.",
+          "length": "1485",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-6-1-digital_certificates-071118-PGM.00_25_01_21.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-6-1-digital_certificates-071118-PGM.00_25_01_21.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-6-1-digital_certificates-071118-PGM.00_25_01_21.Still001-sm.jpg",
+          "title": "Digital Certificates",
+          "transcript": "",
+          "url": "digital-certificates-mta98367",
+          "vimeoId": "279914093"
+        },
+        {
+          "description": "In this episode, Daniel and Zach walk you through the exciting world of Malware. Here they will explore the different types of Malware that you may encounter as a security professional, including Viruses and Worms. They also explain the concept and implementation of a Buffer Overflow attack.",
+          "length": "1411",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-1-malware-071118-PGM.00_00_11_25.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-1-malware-071118-PGM.00_00_11_25.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-1-malware-071118-PGM.00_00_11_25.Still001-sm.jpg",
+          "title": "Malware",
+          "transcript": "",
+          "url": "malware-mta98367",
+          "vimeoId": "279913232"
+        },
+        {
+          "description": "In this episode, Daniel and Zach walk you through the exciting world of Malware. Here they will explore the different types of Malware that you may encounter as a security professional, including Trojan Horses, Spyware, Ransomware, Adware, Backdoors, and Zero-Day attacks.",
+          "length": "1019",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-2-malware_pt2-071118-PGM.00_16_46_27.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-2-malware_pt2-071118-PGM.00_16_46_27.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-2-7-2-malware_pt2-071118-PGM.00_16_46_27.Still001-sm.jpg",
+          "title": "Malware Part 2",
+          "transcript": "",
+          "url": "malware2-mta98367",
+          "vimeoId": "279914415"
+        }
+      ],
+      "title": "Understand Operating system Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Zach explain the concept and use of\nDedicated Firewalls. Here they will explore the different types of firewalls, both host-based and hardware-based. They also discuss other firewall classifications such as packet filtering, Circuit-level, Application-level, UTM, Stateful, and Stateless. Lastly, they discuss Microsoft's Security Compliance Manager(SCM).",
+          "length": "1790",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-1-1-dedicated_firewalls-071218-PGM.00_31_53_00.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-1-1-dedicated_firewalls-071218-PGM.00_31_53_00.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-1-1-dedicated_firewalls-071218-PGM.00_31_53_00.Still001-sm.jpg",
+          "title": "Dedicated Firewalls",
+          "transcript": "",
+          "url": "dedicated-firewalls-mta98367",
+          "vimeoId": "279914990"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explain the use of Network Isolation as a security technique. Here they will go over the What and Why of isolation techniques like Routing, Perimeter networks, Network Address Translation, VPNs, Honeypots, and Microsoft's Domain Isolation Policy.",
+          "length": "1233",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-2-1-network_isolation-071218-PGM.00_20_22_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-2-1-network_isolation-071218-PGM.00_20_22_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-2-1-network_isolation-071218-PGM.00_20_22_11.Still001-sm.jpg",
+          "title": "Network Isolation",
+          "transcript": "",
+          "url": "network-isolation-mta98367",
+          "vimeoId": "279912117"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore common protocol based attacks and protocol security. Here they will look at attack methods such as Man-in-the-Middle, ARP/DNS/IP Spoofing, Replays, SQL Injections, and Cross-Site Scripting(XSS). They also look at mitigation tactics like the use of Tunneling protocols and DNSsec.",
+          "length": "2049",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-3-1-protocol_security-071218-PGM.00_34_04_07.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-3-1-protocol_security-071218-PGM.00_34_04_07.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-3-3-1-protocol_security-071218-PGM.00_34_04_07.Still001-sm.jpg",
+          "title": "Protocol Security",
+          "transcript": "",
+          "url": "protocol-security-mta98367",
+          "vimeoId": "279910189"
+        }
+      ],
+      "title": "Understand Network Security"
+    },
+    {
+      "episodes": [
+        {
+          "description": "In this episode, Daniel and Zach look at a few ways in which we can better protect our client operating systems using both 3rd-party and built-in Windows features. Here they will discuss Antivirus/Antimalware, removing unwanted applications/software, SmartScreen, User Account Control(UAC), and software updates.",
+          "length": "1726",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-1-1-client_protection-071318-PGM.00_29_12_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-1-1-client_protection-071318-PGM.00_29_12_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-1-1-client_protection-071318-PGM.00_29_12_18.Still001-sm.jpg",
+          "title": "Client Protection",
+          "transcript": "",
+          "url": "client-protection-mta98367",
+          "vimeoId": "280206051"
+        },
+        {
+          "description": "In this episode, Daniel and Zach discuss email protection. Here they will explain common email-based attacks like email spoofing, phishing, and pharming. They then go over ways to prevent email attacks using antispam, antivirus, Sender Policy Framework records, and PTR records.",
+          "length": "1642",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-2-1-email_protection-071318-PGM.00_28_24_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-2-1-email_protection-071318-PGM.00_28_24_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-2-1-email_protection-071318-PGM.00_28_24_05.Still001-sm.jpg",
+          "title": "Email Protection",
+          "transcript": "",
+          "url": "email-protection-mta98367",
+          "vimeoId": "280205513"
+        },
+        {
+          "description": "In this episode, Daniel and Zach explore common techniques and best practices for protecting a server. Here they cover separation of services, physical security, server hardening, principle of least privilege, applying updates, and more.",
+          "length": "1618",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-3-1-server_protection-071318-PGM.00_30_00_09.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-3-1-server_protection-071318-PGM.00_30_00_09.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mta98367-2018/microsoft-mta98367-2018-4-3-1-server_protection-071318-PGM.00_30_00_09.Still001-sm.jpg",
+          "title": "Server Protection",
+          "transcript": "",
+          "url": "server-protection-mta98367",
+          "vimeoId": "280204971"
+        }
+      ],
+      "title": "Understand Security Software"
+    }
+  ],
+  "url": "mta-security-fundamentals-98367-2018",
+  "vLab": false
+}
