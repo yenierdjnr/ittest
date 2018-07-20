@@ -6,5 +6,4 @@ RUN apt-get update && apt-get install --assume-yes \
   awscli \
   bzip2 \
   jq \
-  libpng-dev \
-  libvips-dev
+  libpng-dev
