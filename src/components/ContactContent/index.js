@@ -4,31 +4,31 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconBubbles, IconPhone, IconQuestionMark } from 'Elements/Icons';
-
+window.styles = styles
 
 const ContactContent = () =>
   <section className={ styles.capsule }>
-    <div className={ `${styles['col-lg-4']} ${styles.icon}` }>
-      <div className={ styles['icon-box'] }>
-        <IconQuestionMark className={ styles['faq-section'] }/>
+    <div className={ `${styles.cols} ${styles.icon}` }>
+      <div className={ styles.iconBox }>
+        <IconQuestionMark className={ styles.faqSection }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="4">Check the FAQ</Hx>
         <Para color={ styles.greyDark } className={ styles.subtitle }>Information about your membership, supported platforms, upgrading your plan, accessing labs &amp; exams, and more in the <a className={ styles['link'] } href="https://help.itpro.tv/" target="_blank" rel="noopener noreferrer">FAQ section</a>.</Para>
       </div>
     </div>
-    <div className={ `${styles['col-lg-4']} ${styles.icon}` }>
-      <div className={ styles['icon-box'] }>
-        <IconBubbles className={ styles['forum'] }/>
+    <div className={ `${styles.cols} ${styles.icon}` }>
+      <div className={ styles.iconBox }>
+        <IconBubbles className={ styles.forum }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="4">Q&A Forum</Hx>
         <Para color={ styles.greyDark } className={ styles.subtitle }>Interact with hosts and subject matter experts on technical questions about course content for your IT career in the <a className={ styles['link'] } href="https://forums.itpro.tv/" target="_blank" rel="noopener noreferrer">Q&amp;A Forum</a>.</Para>
       </div>
     </div>
-    <div className={ `${styles['col-lg-4']} ${styles.icon}` }>
-      <div className={ styles['icon-box'] }>
-        <IconPhone className={ styles['contact'] }/>
+    <div className={ `${styles.cols} ${styles.icon}` }>
+      <div className={ styles.iconBox }>
+        <IconPhone className={ styles.contact }/>
       </div>
       <div className={ styles.summary }>
         <Hx color={ styles.offBlack } className={ styles.title } size="4">Reach out</Hx>

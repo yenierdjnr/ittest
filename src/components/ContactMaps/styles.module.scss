@@ -17,6 +17,11 @@ $breakpoints: (
   background-color: $color-white;
 }
 
+.cols {
+  @extend .col-12;
+  @extend .col-lg-6;
+}
+
 .titleRow {
   @extend .row;
 }
@@ -57,11 +62,10 @@ $breakpoints: (
 }
 
 iframe {
+  height: 450px;
   @extend .row;
   @extend .justify-content-center;
   @extend .embed-responsive;
-  height: 550px;
-  max-width: 450px;
   margin: 2rem 0;
   .responsiveItem {
     @extend .embed-responsive-item;
@@ -69,9 +73,10 @@ iframe {
 }
 
 
-@include media('<tablet') {
+@include media('<=tablet') {
   .capsule {
     padding: 6.4rem 0 7.6rem;
+    margin: 0 1rem;
   }
 
   .title {
@@ -80,14 +85,12 @@ iframe {
   }
 
   .usa, .uk {
-    padding: 4rem 0;
-    margin: 0 8rem;
+    padding: 4rem 0.5rem;
   }
 }
 
 @include media('<lower-tablet') {
   .usa, .uk {
     padding: 4rem 0;
-    margin: 0 3rem;
   }
 }
