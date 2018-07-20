@@ -15,6 +15,13 @@ server {
 
   }
 
+  listen   80;
+  server_name    new-staging.itpro.tv;
+
+    if ($http_x_forwarded_proto = 'http') {
+      return 301 https://$server_name$request_uri;
+    }
+
   location /health-check {
     return 200 "Hit the health check";
   }
