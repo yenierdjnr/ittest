@@ -36,15 +36,15 @@
       "url": "mta-server1"
     },
     {
-      "courseLength": 51228,
-      "description": "The Microsoft Technology Associate (MTA) validates building-block technology concepts and helps students explore, discover and pursue successful careers in Information Technology (IT) in an exciting and rewarding way! As the first step in the Microsoft Technology Certification Series, this new, entry-level certification provides students with confidence, credibility, and differentiation while focusing on basic terminology, and concepts like CIA Triad, which is a set of core security principles that can provide as the foundation for security. To gain an MTA certification, you must pass only one MTA exam.",
-      "descriptionMD": "The Microsoft Technology Associate (MTA) validates building-block technology concepts and helps students explore, discover and pursue successful careers in Information Technology (IT) in an exciting and rewarding way! As the first step in the Microsoft Technology Certification Series, this new, entry-level certification provides students with confidence, credibility, and differentiation while focusing on basic terminology, and concepts like CIA Triad, which is a set of core security principles that can provide as the foundation for security. To gain an MTA certification, you must pass only one MTA exam.",
+      "courseLength": 39383,
+      "description": "Welcome to the Microsoft MTA Security Fundamentals series. This series is intended to explore the topics necessary to prepare for the 98-367 exam. Here we cover many computer security related concepts such as exploring their best practices and practical application. This includes important topics like security layers, operating system security, network security, and security software.",
+      "descriptionMD": "Welcome to the Microsoft MTA Security Fundamentals series. This series is intended to explore the topics necessary to prepare for the 98-367 exam. Here we cover many computer security related concepts such as exploring their best practices and practical application. This includes important topics like security layers, operating system security, network security, and security software.",
       "hidden": false,
-      "name": "MTA - Security Fundamentals  - 98-367 (2017)",
-      "productionEnd": "2017-06-02T23:00:00Z",
-      "productionStart": "2017-05-22T23:00:00Z",
+      "name": "MTA - Security Fundamentals  - 98-367 (2018)",
+      "productionEnd": "2018-07-05T04:00:00Z",
+      "productionStart": "2018-07-02T04:00:00Z",
       "subtitle": "Security Fundamentals",
-      "url": "mta-security-fundamentals-98367-2017"
+      "url": "mta-security-fundamentals-98367-2018"
     },
     {
       "courseLength": 37499,
@@ -80,7 +80,7 @@
       "url": "mcsa-windows-10"
     },
     {
-      "courseLength": 97906,
+      "courseLength": 108547,
       "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
       "descriptionMD": "_This show is still in production.  We are updating the recording to reflect new features and interface.  The previously recorded one will be moved to Legacy when this updated version is complete._Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
       "hidden": false,
@@ -102,7 +102,7 @@
       "url": "mcsa-windows-10-70698"
     },
     {
-      "courseLength": 120510,
+      "courseLength": 129538,
       "description": "In this series we will dive into the second exam that is required for a viewer to achieve an MCSA in Windows 10. The topics will range from installation of Windows 10, post-installation configurations, applying images, various deployment tools as well as monitoring and servicing Windows 10 and more. Exam candidates are encouraged to watch both Windows 10 series for the MCSA exams.",
       "descriptionMD": "_This show is still in production.  We are updating the recording to reflect new features and interface.  The previously recorded one will be moved to Legacy when this updated version is complete._ In this series we will dive into the second exam that is required for a viewer to achieve an MCSA in Windows 10. The topics will range from installation of Windows 10, post-installation configurations, applying images, various deployment tools as well as monitoring and servicing Windows 10 and more. Exam candidates are encouraged to watch both Windows 10 series for the MCSA exams.",
       "hidden": false,
@@ -399,17 +399,6 @@
       "url": "microsoft-desktop-optimization-pack"
     },
     {
-      "courseLength": 11162,
-      "description": "Hyper-V is the advanced virtualization platform created by Microsoft. It is a fully featured Type 1 hypervisor capable of supporting environments ranging from small businesses with a single server to massive datacenters containing thousands of servers. This skills series covers installing, managing and maintaining Hyper-V. ",
-      "descriptionMD": "",
-      "hidden": false,
-      "name": "Microsoft Hyper-V",
-      "productionEnd": "2014-06-06T04:00:00Z",
-      "productionStart": null,
-      "subtitle": "Microsoft Virtualization",
-      "url": "microsoft-hyperv"
-    },
-    {
       "courseLength": 45533,
       "description": "The Microsoft PowerShell is a secondary command line interface found in most Microsoft operating systems. The purpose of the PowerShell is to provide a much more feature rich scripting and automation environment than was previously possible in the base command shell. This series introduces the viewer to the PowerShell and its basic functions. It then moves in to specific areas like managing DNS, DHCP and Active Directory along with their typical commands. ",
       "descriptionMD": "",
@@ -485,6 +474,17 @@
       "productionStart": "2017-05-01T04:00:00Z",
       "subtitle": "Windows Hello for Business",
       "url": "windows-hellobusiness"
+    },
+    {
+      "courseLength": 70060,
+      "description": "The Windows Server 101 show is meant for those who have little to no experience in managing and maintaining Windows Server.  It fills in the gap for the desktop support technician who wants some basic and practical Window Server Skills, for the IT professional who may work in other areas and want learn more about Windows Server Administration as well as for the A+ and Network+ certified who need the learn just some Window Server Management and Maintenance before they dive into the MCSA to MCSE certification tracks. The goal is introduction and immediate skill development to manage Windows Server.   This is not for the professional who already has years of experience.",
+      "descriptionMD": "The Windows Server 101 show is meant for those who have little to no experience in managing and maintaining Windows Server.  It fills in the gap for the desktop support technician who wants some basic and practical Window Server Skills, for the IT professional who may work in other areas and want learn more about Windows Server Administration as well as for the A+ and Network+ certified who need the learn just some Window Server Management and Maintenance before they dive into the MCSA to MCSE certification tracks. The goal is introduction and immediate skill development to manage Windows Server.   This is not for the professional who already has years of experience.",
+      "hidden": false,
+      "name": "Windows Server 101",
+      "productionEnd": "2017-06-21T23:00:00Z",
+      "productionStart": "2017-05-22T04:00:00Z",
+      "subtitle": "Introduction to Windows Server",
+      "url": "server-101"
     },
     {
       "courseLength": 34024,

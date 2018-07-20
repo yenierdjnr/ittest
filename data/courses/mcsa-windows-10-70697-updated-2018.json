@@ -1,11 +1,11 @@
 {
   "description": "Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
   "descriptionMD": "_This show is still in production.  We are updating the recording to reflect new features and interface.  The previously recorded one will be moved to Legacy when this updated version is complete._Over 80% of computers run Microsoft Operating systems. As a result, the Microsoft Certified Solutions Associate is one of the first steps for those seeking to start a technical career. The 70-697 Configuring Windows Devices exam covers topics that are a “must know” for anyone responsible for deploying, maintaining and supporting Windows desktops and other devices in a corporate or enterprise environment. Most people know how to use Windows in a home environment, but there are many features under the hood that are designed for environments with a large quantity of computers. The MCSA dives into those and gives the viewer a whole new toolbox for ensuring their computing environment is functional and stable.",
-  "length": "97906",
+  "length": "108547",
   "name": "MCSA Windows 10 - 70-697 (UPDATED 2018)",
   "practiceExam": true,
   "subtitle": "Configuring Windows Devices",
-  "tagUrl": "help-desk",
+  "tagUrl": "microsoft",
   "topics": [
     {
       "episodes": [
@@ -288,6 +288,17 @@
           "transcript": "",
           "url": "configure-mobile-device-security",
           "vimeoId": "279318732"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike demonstrate implementing BitLocker in Windows 10. They use the GUI, manage-bde cli, and PowerShell to enable BitLocker on an OS drive as well as data drives.",
+          "length": "1239",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-2-configure-mobile-device-security_pt2-070918-PGM.01_26_15_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-2-configure-mobile-device-security_pt2-070918-PGM.01_26_15_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-2-4-2-configure-mobile-device-security_pt2-070918-PGM.01_26_15_10.Still001-sm.jpg",
+          "title": "Configure Mobile Device Security Part 2",
+          "transcript": "",
+          "url": "configure-mobile-device-security2",
+          "vimeoId": "279896872"
         }
       ],
       "title": "Plan Desktop and Device Deployment"
@@ -326,6 +337,17 @@
           "transcript": "",
           "url": "support-mobile-devices3",
           "vimeoId": "269671195"
+        },
+        {
+          "description": "In this episode, Cherokee and Mike cover broadband connectivity in Windows 10. They look at broadband tethering and metered networks. They also discuss supporting Mobile Device Management using Microsoft Intune.",
+          "length": "2004",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-4-support_mobile_devices_pt4-071018-PGM.00_33_52_19.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-4-support_mobile_devices_pt4-071018-PGM.00_33_52_19.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/microsoft-mcsa70697-2018/microsoft-windows70697-3-1-4-support_mobile_devices_pt4-071018-PGM.00_33_52_19.Still001-sm.jpg",
+          "title": "Support Mobile Devices Part 4",
+          "transcript": "",
+          "url": "support-mobile-devices4",
+          "vimeoId": "279732238"
         }
       ],
       "title": "Plan and Implement a Microsoft Intune Device Management Solution"
