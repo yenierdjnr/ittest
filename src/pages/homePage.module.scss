@@ -4,7 +4,8 @@
 $breakpoints: (
   'tablet': $tablet,
   'lower-tablet': $lower-tablet,
-  'phablet': $phablet
+  'phablet': $phablet,
+  'lower-phone': $lower-phone
 );
 
 
@@ -102,5 +103,11 @@ $breakpoints: (
     background-image: url('Images/home_video_mobile@1x.jpg');
     background-size: cover;
     background-position: 20% 20%;
+  }
+}
+
+@include media('retina2x', '>lower-phone') {
+  .Hero {
+    background-image: url('Images/home_hero@2x.jpg');
   }
 }
