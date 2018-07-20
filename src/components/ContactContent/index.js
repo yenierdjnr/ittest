@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
 import { IconBubbles, IconPhone, IconQuestionMark } from 'Elements/Icons';
-window.styles = styles
 
 const ContactContent = () =>
   <section className={ styles.capsule }>
