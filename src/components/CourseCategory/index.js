@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from 'Components/layout';
 import { graphql } from 'gatsby';
 
 import { CourseCategoryHero as Hero } from 'Components/Hero';
@@ -26,27 +27,30 @@ const CourseCategory = ({ data }) => {
           <meta name="description" content={ data.category.contentFull } />
         </Helmet>
 
-        <section className={ styles.Hero }>
-          <Hero title={ data.category.tagname } description={ data.category.contentFull }/>
-        </section>
+        <Layout location={ location }>
+          <section className={ styles.Hero }>
+            <Hero title={ data.category.tagname } description={ data.category.contentFull }/>
+          </section>
 
-        <section className={ styles.Courses }>
-          <div className={ styles.row }>
-            <div className={ styles.colXS12 }>
-              <ul className={ styles.list }>
-                {data.category.courses.map((course) =>
-                  <Course
-                    key={ course.url }
-                    url={ `/courses/${data.category.url}/${course.url}/` }
-                    title={ course.name }
-                    description={ course.subtitle }
-                    courseLength={ course.courseLength }
-                  />
-                )}
-              </ul>
+          <section className={ styles.Courses }>
+            <div className={ styles.row }>
+              <div className={ styles.colXS12 }>
+                <ul className={ styles.list }>
+                  {data.category.courses.map((course) =>
+                    <Course
+                      key={ course.url }
+                      url={ `/courses/${data.category.url}/${course.url}/` }
+                      title={ course.name }
+                      description={ course.subtitle }
+                      courseLength={ course.courseLength }
+                    />
+                  )}
+                </ul>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </Layout>
+
       </main>
     );
   }
