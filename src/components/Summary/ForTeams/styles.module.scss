@@ -94,6 +94,7 @@ $breakpoints: (
 
   .list {
     align-items: center;
+    padding: 4rem 0;
   }
 
   .item {
@@ -117,6 +118,10 @@ $breakpoints: (
         margin-top: 6rem;
       }
     }
+  }
+
+  .summary {
+  margin-left: 0;
   }
 
   .icon-box {
