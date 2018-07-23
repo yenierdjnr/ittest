@@ -92,13 +92,13 @@ exports.createPages = ({ actions: { createPage }, graphql}) => {
       }
       `)).then((result) => {
       return result.data.allTagsJson.edges.forEach((edge) => edge.node.courses.map((course) => {
-          return createPage({
-            path: `courses/${edge.node.url}/${course.url}`,
-            component: courseComponent,
-            context: {
-              courseUrl: course.url
-            }
-          });
+        return createPage({
+          path: `courses/${edge.node.url}/${course.url}`,
+          component: courseComponent,
+          context: {
+            courseUrl: course.url
+          }
+        });
       }));
     });
 }
