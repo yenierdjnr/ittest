@@ -11,8 +11,6 @@ server {
 
 server {
 
-  listen 443;
-
   location / {
 
     proxy_pass ${PROXY_URL};
