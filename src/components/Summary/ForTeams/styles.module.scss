@@ -32,6 +32,7 @@ $breakpoints: (
 .item {
   height: 12rem;
 
+
   @extend .d-flex;
   @extend .flex-nowrap;
   @extend .align-content-between;
@@ -52,6 +53,11 @@ $breakpoints: (
 
   border-radius: 6rem;
   background-color: $color-white-light;
+}
+
+.summary {
+  max-width: 37.6rem;
+  margin-left: 3.6rem;
 }
 
 .title {
