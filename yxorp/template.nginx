@@ -16,7 +16,10 @@ server {
   }
 
   location /health-check {
-    return 200 "Hit the health check";
+
+    default_type application/json;
+    return 200 true;
+
   }
 
   # blog redirects
