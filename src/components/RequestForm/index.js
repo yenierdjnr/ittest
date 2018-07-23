@@ -52,7 +52,7 @@ class RequestForm extends Component {
         <div className={ styles.formBox }>
           <Hx color={ styles.offBlack } size="3" className={ styles.formTitle }>Need pricing, demo, or trial? Get in touch!</Hx>
 
-          <form action="http://go.itpro.tv/l/425902/2018-02-28/86q1kh" method="post">
+          <form action="https://go.itpro.tv/l/425902/2018-02-28/86q1kh" method="post">
             <div className={ styles.aboutYou}>
               <input
                 className={ styles.item }
