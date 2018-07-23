@@ -13,4 +13,5 @@ RUN apt-get update && apt-get install --assume-yes \
   awscli \
   bzip2 \
   jq \
+  vips-dev \
   libpng-dev
