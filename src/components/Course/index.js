@@ -56,7 +56,7 @@ class CoursePage extends Component {
         </Helmet>
 
 
-        <Layout location={ location }>
+        <Layout location>
           <section className={ styles.Hero }>
             <Hero tagUrl={ data.course.tagUrl } title={ data.course.name } subtitle={ data.course.subtitle } length={ data.course.length } {...this.props} />
           </section>

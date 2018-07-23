@@ -13,7 +13,9 @@ $breakpoints: (
 }
 
 .capsule {
-  padding: 7.2rem 0 9.9rem;
+  @extend .container;
+  padding-top: 7.2rem;
+  padding-bottom: 9.9rem;
   background-color: $color-offwhite;
 }
 
@@ -21,12 +23,14 @@ $breakpoints: (
   max-width: 1035px;
   margin: 0 auto;
   @extend .row;
+  @extend .d-flex;
+  @extend .align-items-center;
 }
 
 .for-teams-capsule {
   margin-top: 1.3rem;
-  @extend .col-lg-8;
   @extend .col-12;
+  @extend .col-lg-7;
 }
 
 .img {
@@ -66,7 +70,7 @@ $breakpoints: (
 
 .intro {
   @extend .col-12;
-  @extend .col-lg-4;
+  @extend .col-lg-5;
   padding-right: 0;
 }
 
@@ -77,21 +81,21 @@ $breakpoints: (
   line-height: 3.0rem;
 }
 
-
 @include media('<tablet') {
   .capsule {
-    padding: 5.6rem 0 10.2rem;
+    padding-top: 5.6rem;
+    padding-bottom: 10.2rem;
   }
   .content {
-    max-width: none;
-    flex-flow: column nowrap;
-    align-items: center;
+    // max-width: none;
+    // flex-flow: column nowrap;
+    // align-items: center;
   }
 
-  .for-teams-capsule {
-    order: 2;
-    margin-top: 0;
-  }
+  // .for-teams-capsule {
+  //   order: 2;
+  //   margin-top: 0;
+  // }
 
   .intro {
     margin-bottom: 7.1rem;
@@ -106,20 +110,15 @@ $breakpoints: (
   }
 }
 
-
 @include media('<upper-phablet') {
-  .intro {
-    padding: 0 4rem;
-  }
-  .summary {
-    // width: 27.7rem;
+  .for-teams-capsule {
+    order: 2;
+    margin-top: 0;
   }
 }
 
+
 @include media('<video-width') {
-  .capsule {
-    padding-bottom: 0;
-  }
   .for-teams-capsule {
     width: 100%;
     padding: 0;

@@ -10,7 +10,7 @@ $breakpoints: (
   offBlack: $color-offblack;
 }
 
-.capsule {
+.formBox {
   max-width: 50rem;
   padding: 4.8rem 4rem;
 
@@ -20,7 +20,6 @@ $breakpoints: (
 }
 
 .form-title {
-  width: 35rem;
   margin-bottom: 4.8rem;
 }
 
@@ -111,7 +110,7 @@ $breakpoints: (
     background-color: $color-purple-dark;
     cursor:auto;
   }
-  width: 100%;
+  width: 100% !important;
 }
 
 @include media('<lower-tablet') {
