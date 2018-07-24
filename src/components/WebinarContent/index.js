@@ -22,12 +22,12 @@ const WebinarContent = () => {
           <div className={ styles.sideCol }>
           </div>
           <div className={ styles.cols }>
-            <Hx size="6"><a href="https://go.itpro.tv/ddos" color={ styles.title } target="_blank" rel="noopener noreferrer">Surviving a DDoS Attack: Our Story</a></Hx>
+            <Hx size="6"><a href="https://go.itpro.tv/ddosstory" color={ styles.title } target="_blank" rel="noopener noreferrer">Surviving a DDoS Attack: Our Story</a></Hx>
             <div className={ styles.content }>
               <img src={ Ddos } className={ styles.img } alt="DDOS webinar" />
               <Para color={ styles.darkGrey } className={ styles.summary }>What happens when an IT education company gets hit with a DDOS attack?</Para>
             </div>
-            <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/ddos">Learn More</TextLinkExternal>
+            <TextLinkExternal className={ styles.more } to="https://go.itpro.tv/ddosstory">Learn More</TextLinkExternal>
           </div>
           <div className={ styles.cols }>
           </div>
