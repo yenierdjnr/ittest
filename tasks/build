@@ -10,7 +10,7 @@ build_image() {
   docker pull "$latest" || true
 
   echo "== Building image: $image"
-  docker build --cache-from "$latest" --tag "$image" yxorp
+  docker build --tag "$image" yxorp
 }
 
 get_repository_uri() {
