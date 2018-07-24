@@ -35,23 +35,10 @@ $breakpoints: (
 .col12 {
   @extend .col-12;
   margin-top: 2rem;
-  margin-bottom: 4rem;
 }
 
-.subtitle {
-  @include proxima-semi-bold;
-  font-size: 3.6rem;
-  line-height: 3.4rem;
-  text-align: left;
-  position: relative;
-}
-
-.summary {
-  text-align: left;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  position: relative;
-  margin: 2rem 0;
+.podcastName {
+  padding-bottom: 1rem;
 }
 
 .link {
@@ -63,7 +50,7 @@ $breakpoints: (
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .askSME {
-    margin-top: -4rem;
+  .colRight {
+     margin-bottom: 4rem;
   }
 }
