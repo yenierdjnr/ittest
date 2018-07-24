@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { withPrefix } from 'gatsby-link'
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -8,6 +9,14 @@ import styles from '../styles.module.scss';
 
 
 class Exams extends PureComponent {
+
+  componentDidMount(){
+    if (typeof document !== 'undefined') {
+      const scriptElem =  document.createElement('script');
+      scriptElem.src = withPrefix('animations/ITP_Exams_1.hyperesources/itpexams1_hype_generated_script.js');
+      document.head.appendChild(scriptElem);
+    }
+  }
   render() {
     const { className } = this.props;
 
@@ -16,8 +25,11 @@ class Exams extends PureComponent {
         <div className={ styles.imgCols }>
           <div className={ styles.imgBox }>
             <img className={ styles.imgExams } src={ imageExams } alt="exams" />
+            <div id="itpexams1_hype_container" className={styles.aniExams} style={{ margin:'auto', position:'relative', width:'300px',height:'300px' }}>
+            </div>
           </div>
         </div>
+
         <div className={ styles.infoCols }>
           <div className={ styles.info }>
             <span className={ styles.sequenceNum }>_03</span>

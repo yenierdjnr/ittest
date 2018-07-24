@@ -43,6 +43,15 @@ $breakpoints: (
 
 .img-courses, .img-labs, .img-exams {
   position: absolute;
+  display: none;
+}
+
+.aniCourses, .aniLabs, .aniExams {
+  display: block;
+}
+
+.aniExams {
+  //left: -6px;
 }
 
 .sequence-num {
@@ -101,8 +110,17 @@ $breakpoints: (
     }
 }
 
-
 @include media('<tablet') {
+
+  .img-courses, .img-labs, .img-exams {
+    position: absolute;
+    display: inline;
+  }
+
+  .aniCourses, .aniLabs, .aniExams {
+    display: none;
+  }
+
   .img-cols {
     margin-bottom: 1rem;
   }
