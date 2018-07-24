@@ -1,0 +1,271 @@
+{
+  "description": "In this series, we will explore the use of community code, or code written by others that to solve a particular problem or provide a particular functionality. We will explore how you can obtain these created solutions to increase your problem solving speed. In order to do so, we will explore the use of tools like pip, pipenv, and conda which are solutions to the fetching and managing of outside dependency requirements. If you are looking to solve bigger and bigger problems or just explore something of interest, then you will need help from others. Want to learn more? Join us as we dive in to the wonderful world of Python!",
+  "descriptionMD": "In this series, we will explore the use of community code, or code written by others that to solve a particular problem or provide a particular functionality. We will explore how you can obtain these created solutions to increase your problem solving speed. In order to do so, we will explore the use of tools like pip, pipenv, and conda which are solutions to the fetching and managing of outside dependency requirements. If you are looking to solve bigger and bigger problems or just explore something of interest, then you will need help from others. Want to learn more? Join us as we dive in to the wonderful world of Python!",
+  "length": "29850",
+  "name": "Using Community Code",
+  "practiceExam": false,
+  "subtitle": "Do not reinvent the wheel..",
+  "tagUrl": "devprotv",
+  "topics": [
+    {
+      "episodes": [
+        {
+          "description": "In this series, we will explore the use of community code, or code written by others that to solve a particular problem or provide a particular functionality. We will explore how you can obtain these created solutions to increase your problem solving speed. In order to do so, we will explore the use of tools like pip, pipenv, and conda which are solutions to the fetching and managing of outside dependency requirements. If you are looking to solve bigger and bigger problems or just explore something of interest, then you will need help from others. Want to learn more? Join us as we dive in to the wonderful world of Python!",
+          "length": "256",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-0-0-0-overview-071218-PGM.00_00_05_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-0-0-0-overview-071218-PGM.00_00_05_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-0-0-0-overview-071218-PGM.00_00_05_29.Still001-sm.jpg",
+          "title": "Overview",
+          "transcript": "WEBVTT\n\n1\n00:00:00.149 --> 00:00:05.807\n[MUSIC]\n\n2\n00:00:05.807 --> 00:00:08.273\nHello, and thank you for\nwatching DevProTV.\n\n3\n00:00:08.273 --> 00:00:13.230\nWe're here to talk about using community\ncode with Mr. Justin Dennison.\n\n4\n00:00:13.230 --> 00:00:15.780\nNow, Justin, can you tell us\nwhat this course has to offer?\n\n5\n00:00:15.780 --> 00:00:17.110\n&gt;&gt; So this course is about,\n\n6\n00:00:17.110 --> 00:00:20.820\nwell, the reaching out to the community,\nseeing what has already been made so\n\n7\n00:00:20.820 --> 00:00:22.770\nyou don't have to reinvent the wheel.\n\n8\n00:00:22.770 --> 00:00:27.160\nAnd most of this time is gonna spend\naround the tooling, because, well,\n\n9\n00:00:27.160 --> 00:00:30.110\nthe community is vast, it's expansive.\n\n10\n00:00:30.110 --> 00:00:35.080\nWe can't take all the time to see every\nlittle library module or package.\n\n11\n00:00:35.080 --> 00:00:38.270\nSo it's about using the tooling to acquire\n\n12\n00:00:38.270 --> 00:00:41.470\nthat community code to solve\nproblems that you may have so\n\n13\n00:00:41.470 --> 00:00:44.100\nyou don't have to build it from scratch.\n&gt;&gt; Now\n\n14\n00:00:44.100 --> 00:00:47.245\nwho should be watching this course?\n&gt;&gt; So this course is aimed at\n\n15\n00:00:47.245 --> 00:00:49.907\nsomeone who's, you've been playing\naround with Python a little bit,\n\n16\n00:00:49.907 --> 00:00:51.820\nyou've been learning how to program.\n\n17\n00:00:51.820 --> 00:00:54.310\nYou're decently versed\nin the standard library.\n\n18\n00:00:54.310 --> 00:00:56.700\nYou don't have to know everything,\nthe standard library is giant.\n\n19\n00:00:57.770 --> 00:01:02.770\nBut now you're like, well, I need to\nreally do x, I need to maybe plot a graph.\n\n20\n00:01:02.770 --> 00:01:07.788\nOr, I really wanna build a web server,\nor, I really want to just,\n\n21\n00:01:07.788 --> 00:01:10.300\nI wanna do x or y or z, right?\n\n22\n00:01:10.300 --> 00:01:12.960\nSomething new that you can't\nfind in the standard library and\n\n23\n00:01:12.960 --> 00:01:14.620\nseems like a very large undertaking.\n\n24\n00:01:15.710 --> 00:01:19.240\nOr, you're like, well, I wanna do x but\n\n25\n00:01:19.240 --> 00:01:22.170\nin order to do that I have to\nbe able to read CSVs easily.\n\n26\n00:01:23.250 --> 00:01:26.390\nWell, I don't wanna do\nthe whole CSV thing by myself.\n\n27\n00:01:26.390 --> 00:01:29.850\nI wonder if there's somewhere in\nthe community that already has that\n\n28\n00:01:29.850 --> 00:01:31.290\ntaken care of for me.\n\n29\n00:01:31.290 --> 00:01:33.750\nAnd then you go, yeah, there it is.\n\n30\n00:01:33.750 --> 00:01:38.120\nAnd now you can utilize that to further\nyour own project without having to\n\n31\n00:01:39.210 --> 00:01:42.150\ncontinue to build everything\nfrom absolute ground up.\n\n32\n00:01:42.150 --> 00:01:44.190\n&gt;&gt; Is this a certification-based course?\n\n33\n00:01:44.190 --> 00:01:45.160\n&gt;&gt; It is not a certification.\n\n34\n00:01:45.160 --> 00:01:47.260\nIt's more about powering up your skills.\n\n35\n00:01:47.260 --> 00:01:54.370\nAbout seeing how working together as\na community throughout this Python and\n\n36\n00:01:54.370 --> 00:01:58.190\nthe feel, a lot of times other programming\nlanguages have similar communities.\n\n37\n00:01:58.190 --> 00:02:01.190\nAnd seeing, well,\ncan I take what maybe Aubri has done or\n\n38\n00:02:01.190 --> 00:02:06.910\nsomeone else has done and build upon that\nto power up my own understanding and\n\n39\n00:02:06.910 --> 00:02:10.380\nprogramming skills.\n&gt;&gt; What topics are we gonna cover in these\n\n40\n00:02:10.380 --> 00:02:12.950\nup coming episodes?\n&gt;&gt; So more specifically, we're going to be\n\n41\n00:02:12.950 --> 00:02:18.790\ntalking about how to use pip and how to\nlook at PyPi the Python Package Index.\n\n42\n00:02:18.790 --> 00:02:22.930\nTo search out for certain packages\nthat solve a particular problem.\n\n43\n00:02:22.930 --> 00:02:28.040\nSome of these are small like,\nhey where can I find URLs for cat images?\n\n44\n00:02:28.040 --> 00:02:32.660\nWell that might be on PyPi or\nit might be something more expansive where\n\n45\n00:02:32.660 --> 00:02:37.426\nyou're like, hey I need to figure out how\nto communicate between multiple computers.\n\n46\n00:02:37.426 --> 00:02:39.340\nIs that on PyPi?\n\n47\n00:02:39.340 --> 00:02:40.790\nSo that's our first step.\n\n48\n00:02:40.790 --> 00:02:45.870\nBut then we take a look that\npip has some shortcomings,\n\n49\n00:02:45.870 --> 00:02:49.110\nwe gotta figure out how\nto not mess things up.\n\n50\n00:02:49.110 --> 00:02:51.640\nSo we look into virtual environments.\n\n51\n00:02:51.640 --> 00:02:56.150\nVirtual environments are a way to kind\nof sandbox where you install these.\n\n52\n00:02:57.888 --> 00:03:02.000\nThen we realize that virtual environments\nstill have a little bit of a headache.\n\n53\n00:03:02.000 --> 00:03:04.530\nSo we looked at a brand new\ntool called pipenv, and\n\n54\n00:03:04.530 --> 00:03:09.620\nit's kinda hard to say, that allows\nus to track what we've installed and\n\n55\n00:03:09.620 --> 00:03:12.520\nmanage our virtual environments\nin a little more intuitive way.\n\n56\n00:03:13.610 --> 00:03:19.320\nAnd then as an added bonus, if you really\nwanna get crazy with your python packages\n\n57\n00:03:19.320 --> 00:03:23.710\nthen there's another tool that is\nmore scientific data analyst bent,\n\n58\n00:03:23.710 --> 00:03:26.830\ncalled Conda,\nthat we'll finish up the show with.\n\n59\n00:03:26.830 --> 00:03:29.740\nIt does the exact same thing as pipenv, or\n\n60\n00:03:29.740 --> 00:03:33.790\nVirtual Environments, but\nit manages a few other things for\n\n61\n00:03:33.790 --> 00:03:38.080\nthese very specialty libraries that are,\nsometimes, hard to install.\n\n62\n00:03:38.080 --> 00:03:41.710\nAnd, well when we take a look\nat both on Mac OS and Linux.\n\n63\n00:03:41.710 --> 00:03:43.860\nThat's predominantly where we are but\n\n64\n00:03:43.860 --> 00:03:48.510\nalso take a little detour to how we get to\nsetup on Windows so you can follow along.\n\n65\n00:03:48.510 --> 00:03:50.480\nSo, those are the high level topics.\n\n66\n00:03:50.480 --> 00:03:53.680\nWe're pretty deep into a few of them.\n&gt;&gt; Alright.\n\n67\n00:03:53.680 --> 00:03:54.610\nWell, thank you, Justin.\n\n68\n00:03:54.610 --> 00:03:56.240\nThank you all for joining us.\n\n69\n00:03:56.240 --> 00:03:59.110\nIf using community code sounds like\nsomething that you're interested in,\n\n70\n00:03:59.110 --> 00:04:01.120\nbe sure to watch every single episode.\n\n71\n00:04:01.120 --> 00:04:03.926\nYou'll become one step closer\nto being a Python Pro.\n\n72\n00:04:03.926 --> 00:04:04.581\nThanks for watching.\n\n73\n00:04:04.581 --> 00:04:09.469\n[MUSIC]\n\n",
+          "url": "overview-using-community-code",
+          "vimeoId": "279915421"
+        },
+        {
+          "description": "In this episode, Justin and Vonne discuss the what and the why of using code that is available in the Python community. Justin explores PYPI, a common source for Python libraries from the community. Additionally, Justin explores some popular Python libraries that solve some common problems as well as highlights the problems that using those libraries solve.",
+          "length": "1854",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-1-1-1-community_code_what_is_that-070218-PGM.00_32_50_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-1-1-1-community_code_what_is_that-070218-PGM.00_32_50_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-1-1-1-community_code_what_is_that-070218-PGM.00_32_50_12.Still001-sm.jpg",
+          "title": "Community Code: What is that",
+          "transcript": "",
+          "url": "community-codeis",
+          "vimeoId": "278507267"
+        },
+        {
+          "description": "In this episode, Justin and Vonne take a look at installing pip. Justin discusses that while most of the time pip comes preinstalled, there are times that it is not. Justin demonstrates resources for installing pip if the system does not have pip already installed. Moreover, Justin demonstrates the updating process for pip.",
+          "length": "1214",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-1-install_pip-070218-PGM.00_20_40_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-1-install_pip-070218-PGM.00_20_40_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-1-install_pip-070218-PGM.00_20_40_24.Still001-sm.jpg",
+          "title": "Install pip",
+          "transcript": "",
+          "url": "install-pip",
+          "vimeoId": "278507679"
+        },
+        {
+          "description": "In this episode, Justin and Vonne explore install system level Python packages using pip. Justin demonstrates that using system level packages can be handy for Python functionality that is needed everywhere but warns about issues that can crop up if you \"pollute\" the system packages too much.",
+          "length": "1275",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-2-1-install_system_packages-070318-PGM.00_21_08_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-2-1-install_system_packages-070318-PGM.00_21_08_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-2-1-install_system_packages-070318-PGM.00_21_08_17.Still001-sm.jpg",
+          "title": "Install System Packages",
+          "transcript": "",
+          "url": "install-system-packages",
+          "vimeoId": "278506953"
+        },
+        {
+          "description": "In this episode, Justin and Vonne explore the idea of a virtual environment as well as provide a reason behind needed to manage these. Justin takes small tour of multiple tools that allow for the creation of virtual environments, then demonstrates the preferred Python 3 way.",
+          "length": "1555",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-3-1-virtual_environments_create-070318-PGM.00_31_26_14.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-3-1-virtual_environments_create-070318-PGM.00_31_26_14.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-3-1-virtual_environments_create-070318-PGM.00_31_26_14.Still001-sm.jpg",
+          "title": "Virtual Environments: Create",
+          "transcript": "",
+          "url": "virtual-environments-create",
+          "vimeoId": "278507949"
+        },
+        {
+          "description": "In this episode, Justin and Aubri discuss how to appropriately manage virtual environments to keep those environments from being haphazardly placed everywhere on your computer. Justin demonstrates using environments from a centralized location or keeping those environments local to the project.",
+          "length": "1215",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-5-virtual_environments_manage-070518-PGM.00_21_56_11.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-5-virtual_environments_manage-070518-PGM.00_21_56_11.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-1-5-virtual_environments_manage-070518-PGM.00_21_56_11.Still001-sm.jpg",
+          "title": "Virtual Environment: Manage",
+          "transcript": "",
+          "url": "virtual-environment-manage",
+          "vimeoId": "279132471"
+        },
+        {
+          "description": "In this episode, Justin and Aubri demonstrate installing packages into virtual environments that are being managed in both the local and more centralized ways.",
+          "length": "1320",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-5-1-virtual_environments_inatall_packages-07051-PGM.00_26_33_12.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-5-1-virtual_environments_inatall_packages-07051-PGM.00_26_33_12.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-5-1-virtual_environments_inatall_packages-07051-PGM.00_26_33_12.Still001-sm.jpg",
+          "title": "Virtual Environment: Install Packages",
+          "transcript": "",
+          "url": "virtual-environment-install-packages",
+          "vimeoId": "279132157"
+        },
+        {
+          "description": "In this episode, Justin and Aubri utilize virtual environments to use PIL to modify images to a thumbnail representation.",
+          "length": "1882",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-6-1-project_resizing_images-070518-PGMtechskills-usingcommunitycode-2-6-1-project_resizing_images-070518.00_36_00_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-6-1-project_resizing_images-070518-PGMtechskills-usingcommunitycode-2-6-1-project_resizing_images-070518.00_36_00_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-2-6-1-project_resizing_images-070518-PGMtechskills-usingcommunitycode-2-6-1-project_resizing_images-070518.00_36_00_08.Still001-sm.jpg",
+          "title": "Project: Resizing Images",
+          "transcript": "",
+          "url": "project-resizing-images",
+          "vimeoId": "279131685"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a look at the pipenv tool that alleviates the pains with managing virtual environments. Justin installs pipenv and explores some of the options that are available for using pipenv.",
+          "length": "1117",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-1-1-install_pipenv-070618-PGM.00_20_57_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-1-1-install_pipenv-070618-PGM.00_20_57_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-1-1-install_pipenv-070618-PGM.00_20_57_16.Still001-sm.jpg",
+          "title": "Install pipenv",
+          "transcript": "",
+          "url": "install-pipenv",
+          "vimeoId": "279131044"
+        },
+        {
+          "description": "In this episode, Justin and Aubri use pipenv to create virtual environments. Additionally, Justin demonstrates the creation of virtual environments with different python versions, if available, and looks at the Pipfile that is created for the project when using pipenv.",
+          "length": "777",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-2-1-create_pipenv_environments-070618-PGM.00_15_23_10.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-2-1-create_pipenv_environments-070618-PGM.00_15_23_10.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-2-1-create_pipenv_environments-070618-PGM.00_15_23_10.Still001-sm.jpg",
+          "title": "Create pipenv Environments",
+          "transcript": "",
+          "url": "create-pipenv-environments",
+          "vimeoId": "279133101"
+        },
+        {
+          "description": "In this episode, Justin and Aubri expand on the creation of virtualenvs using pipenv by removing those virtualenv files. Additionally, Justin demonstrates the recreation of virtual environments utilizing the Pipfile contained in the project.",
+          "length": "1476",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-3-1-manage_pipenv_environments-070618-PGM.00_26_09_16.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-3-1-manage_pipenv_environments-070618-PGM.00_26_09_16.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-3-1-manage_pipenv_environments-070618-PGM.00_26_09_16.Still001-sm.jpg",
+          "title": "Manage pipenv Environments",
+          "transcript": "",
+          "url": "manage-pipenv-environments",
+          "vimeoId": "279132764"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a look at how to utilize pipenv environments with multiple projects. Justin demonstrates changing between multiple pipenv environments and how changes to each project can be tracked.",
+          "length": "1273",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-4-1-use_pipenv_environments-070918-PGM.00_21_07_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-4-1-use_pipenv_environments-070918-PGM.00_21_07_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-4-1-use_pipenv_environments-070918-PGM.00_21_07_23.Still001-sm.jpg",
+          "title": "Use pipenv Environments",
+          "transcript": "",
+          "url": "pipenv-environments",
+          "vimeoId": "279321730"
+        },
+        {
+          "description": "In this episode, Justin and Aubri take a look at using pipenv to create a project that will find all of the image links on a particular page. Justin further discusses the implications of utilizing this program on websites.",
+          "length": "1712",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-5-1-project_image_links_on_a_page-070918-PGM.00_33_27_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-5-1-project_image_links_on_a_page-070918-PGM.00_33_27_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-3-5-1-project_image_links_on_a_page-070918-PGM.00_33_27_01.Still001-sm.jpg",
+          "title": "Project: Image Links on a Page",
+          "transcript": "",
+          "url": "project-image-linksa-page",
+          "vimeoId": "279321447"
+        },
+        {
+          "description": "In this episode, Justin and Aubri explore the Anaconda Python distribution which comes with conda as a way to manage environments. Justin discusses why the distribution exists as well as why problems the conda tool solves with respect to pip and pipenv.",
+          "length": "1283",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-1-1-another_one_why_conda-070918-PGM.00_22_01_01.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-1-1-another_one_why_conda-070918-PGM.00_22_01_01.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-1-1-another_one_why_conda-070918-PGM.00_22_01_01.Still001-sm.jpg",
+          "title": "Another one? Why conda?",
+          "transcript": "",
+          "url": "oneconda",
+          "vimeoId": "279321919"
+        },
+        {
+          "description": "In this episode, Justin and Aubri install the conda tool using the miniconda installer, which keeps the installation relatively small. Justin additionally demonstrates how to change the environment variables to use the conda installation instead of the default Python installation.",
+          "length": "1441",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-1-install_conda-071018-PGM.00_30_11_05.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-1-install_conda-071018-PGM.00_30_11_05.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-1-install_conda-071018-PGM.00_30_11_05.Still001-sm.jpg",
+          "title": "Install conda",
+          "transcript": "",
+          "url": "install-conda",
+          "vimeoId": "279542296"
+        },
+        {
+          "description": "In this episode, Justin and Aubri install the conda tool using the miniconda installer, which keeps the installation relatively small. Justin additionally demonstrates how to change the environment variables to use the conda installation instead of the default Python installation in the Windows environment.",
+          "length": "749",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-2-install_conda_windows-071218.00_13_16_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-2-install_conda_windows-071218.00_13_16_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-2-2-install_conda_windows-071218.00_13_16_08.Still001-sm.jpg",
+          "title": "Install conda: Windows",
+          "transcript": "",
+          "url": "install-conda-windows",
+          "vimeoId": "279915644"
+        },
+        {
+          "description": "In this episode, Justin and Aubri create conda environments using the conda tool. Justin demonstrates the multiple settings that can be used when creating Python environments using the conda tool.",
+          "length": "1653",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-3-1-create_conda_environments-071018-PGM.00_33_08_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-3-1-create_conda_environments-071018-PGM.00_33_08_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-3-1-create_conda_environments-071018-PGM.00_33_08_18.Still001-sm.jpg",
+          "title": "Create conda Environments",
+          "transcript": "",
+          "url": "create-conda-environments",
+          "vimeoId": "279542928"
+        },
+        {
+          "description": "In this episode, Justin and Aubri dive a little deeper to understand how conda environments are tracked and how those environments can be removed if need be. Justin demonstrates how to output a file to track the environment as well as how to recreate an environment from the conda files.",
+          "length": "1568",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-1-manage_conda_environments-071018-PGM.00_26_01_23.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-1-manage_conda_environments-071018-PGM.00_26_01_23.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-1-manage_conda_environments-071018-PGM.00_26_01_23.Still001-sm.jpg",
+          "title": "Manage conda Environments",
+          "transcript": "",
+          "url": "manage-conda-environments",
+          "vimeoId": "279542611"
+        },
+        {
+          "description": "In this episode, Justin and Aubri continue exploring the conda tool for managing environments. Justin demonstrates how to export and reproduce environments using yaml files.",
+          "length": "1812",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-2-manage_conda_environments_reproduce-071118-PGM.00_30_05_29.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-2-manage_conda_environments_reproduce-071118-PGM.00_30_05_29.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-2-manage_conda_environments_reproduce-071118-PGM.00_30_05_29.Still001-sm.jpg",
+          "title": "Manage conda Environments: Reproduce",
+          "transcript": "",
+          "url": "manage-conda-environments-reproduce",
+          "vimeoId": "279682707"
+        },
+        {
+          "description": "In this episode, Justin and Aubri utilize the conda tool to clone a common environment as a foundation for other environments.",
+          "length": "1434",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-3-manage_conda_environments_clone-071118-PGM.00_23_48_24.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-3-manage_conda_environments_clone-071118-PGM.00_23_48_24.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-4-3-manage_conda_environments_clone-071118-PGM.00_23_48_24.Still001-sm.jpg",
+          "title": "Manage conda Environments: Clone",
+          "transcript": "",
+          "url": "manage-conda-environments-clone",
+          "vimeoId": "279683186"
+        },
+        {
+          "description": "In this episode, Justin and Aubri utilize conda to install pandas in order to explore population data for the world. Justin demonstrates using Python and conda to ascertain answers to questions that have great deal of data, but no way to explore or visualize.",
+          "length": "1675",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-5-1-project_analyze_population_data-071118-PGM.00_31_47_17.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-5-1-project_analyze_population_data-071118-PGM.00_31_47_17.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-5-1-project_analyze_population_data-071118-PGM.00_31_47_17.Still001-sm.jpg",
+          "title": "Project: Analyze Population Data",
+          "transcript": "",
+          "url": "project-analyze-population-data",
+          "vimeoId": "279682313"
+        },
+        {
+          "description": "In this episode, Justin and Aubri demonstrate how to remove conda from OSX and Linux based systems.",
+          "length": "743",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-1-uninstall_conda-071218-PGM.00_13_24_18.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-1-uninstall_conda-071218-PGM.00_13_24_18.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-1-uninstall_conda-071218-PGM.00_13_24_18.Still001-sm.jpg",
+          "title": "Uninstall conda",
+          "transcript": "",
+          "url": "uninstall-conda",
+          "vimeoId": "279915493"
+        },
+        {
+          "description": "In this episode, Justin and Aubri demonstrate how to remove conda from Windows systems.",
+          "length": "566",
+          "thumbnail": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-2-uninstall_conda_windows-071218-PGM.00_09_48_08.Still001.png",
+          "thumbnailMed": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-2-uninstall_conda_windows-071218-PGM.00_09_48_08.Still001-med.jpg",
+          "thumbnailSm": "https://itprotv-image-bucket.s3.amazonaws.com/techskills-usingcommunitycode/techskills-usingcommunitycode-4-6-2-uninstall_conda_windows-071218-PGM.00_09_48_08.Still001-sm.jpg",
+          "title": "Uninstall conda: Windows",
+          "transcript": "",
+          "url": "uninstall-conda-windows",
+          "vimeoId": "279915269"
+        }
+      ],
+      "title": "Using Community Code"
+    }
+  ],
+  "url": "using-community-code",
+  "vLab": false
+}
