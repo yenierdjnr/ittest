@@ -31,7 +31,6 @@ case "$TASK" in
               s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
           ./tasks/build "$REVISION"
           ;;
-
       *)
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           ;;
