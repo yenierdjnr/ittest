@@ -19,18 +19,19 @@ case "$TASK" in
 
   "build")
       case "$BRANCH_NAME" in
-      "production")
-          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
-          aws --region="$REGION" \
-              s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
-          ./tasks/build "$REVISION"
-          ;;
       "master")
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
            aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
           ./tasks/build "$REVISION"
           ;;
+      "production")
+          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          aws --region="$REGION" \
+              s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
+          ./tasks/build "$REVISION"
+          ;;
+
       *)
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           ;;
