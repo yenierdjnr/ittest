@@ -1,12 +1,16 @@
 import React from 'react';
 
 import Logo from 'Components/Logo';
+import BCTWF2018 from 'Images/BCTWF2018.png';
 import styles from './styles.module.scss';
 
 const FooterMenu = () =>
   <footer className={ styles.pageFooter }>
     <div id={ styles.upperFooter } className={ styles.pageFooterRow }>
-      <Logo className={ styles.pageFooter__logoBox }/>
+      <div className={ styles.pageFooter__logoBox }>
+        <Logo />
+        <img className={ styles.bctwf } src={ BCTWF2018 } alt="Best Company to Work For 2018" />
+      </div>
 
       <div className={ styles.pageFooter__nav }>
         <div className={ styles.pageFooterRow }>

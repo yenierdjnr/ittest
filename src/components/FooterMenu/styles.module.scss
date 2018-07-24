@@ -24,6 +24,13 @@ $footer-ht-unit: 30px;
   @extend .col-lg-3;
 }
 
+.bctwf {
+  @extend .img-fluid;
+  max-width: 72%;
+  height: auto;
+  padding-top: 3rem;
+}
+
 .page-footer__nav {
   @extend .col-sm-12;
   @extend .col-lg-9;
@@ -106,6 +113,12 @@ $footer-ht-unit: 30px;
 
   .page-footer__logo-box {
     margin-bottom: 2.4rem;
+  }
+
+  .bctwf {
+    max-width: 54%;
+    height: auto;
+    padding-top: 3rem;
   }
 
   .page-footer__menu {
