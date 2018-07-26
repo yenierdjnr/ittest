@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { withPrefix } from 'gatsby-link';
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -6,7 +7,15 @@ import imageLabs from 'Images/labs.svg';
 import styles from '../styles.module.scss';
 
 
-class Labs extends PureComponent {
+export default class Labs extends PureComponent {
+
+  componentDidMount(){
+    if (typeof document !== 'undefined') {
+      const scriptElem =  document.createElement('script');
+      scriptElem.src = withPrefix('animations/ITP_Servers_1.hyperesources/itpservers1_hype_generated_script.js');
+      document.head.appendChild(scriptElem);
+    }
+  }
   render() {
     const { className } = this.props;
 
@@ -22,12 +31,11 @@ class Labs extends PureComponent {
         <div className={ styles.imgCols }>
           <div className={ styles.imgBox }>
             <img className={ styles.imgLabs } src={ imageLabs } alt="labs" />
+            <div id="itpservers1_hype_container" className={ styles.aniLabs } style={{ margin:'auto', position:'relative', width:'400px',height:'400px' }}>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 }
-
-
-export default Labs;

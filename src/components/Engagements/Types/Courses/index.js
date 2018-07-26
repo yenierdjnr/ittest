@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { withPrefix } from 'gatsby-link'
 
 import Hx from 'Elements/Hx';
 import Para from 'Elements/Para';
@@ -7,7 +8,15 @@ import imageCourse from 'Images/courses.svg';
 import styles from '../styles.module.scss';
 
 
-class Exams extends PureComponent {
+export default class Exams extends PureComponent {
+
+  componentDidMount(){
+    if (typeof document !== 'undefined') {
+      const scriptElem =  document.createElement('script');
+      scriptElem.src = withPrefix('animations/ITP_Content_1.hyperesources/itpcontent1_hype_generated_script.js');
+      document.head.appendChild(scriptElem);
+    }
+  }
   render() {
     const { className } = this.props;
 
@@ -16,6 +25,8 @@ class Exams extends PureComponent {
         <div className={ styles.imgCols }>
           <div className={ styles.imgBox }>
             <img className={ styles.imgCourses } src={ imageCourse } alt="courses" />
+            <div id="itpcontent1_hype_container" className={ styles.aniCourses } style={{ margin:'auto', position:'relative', width:'400px',height:'400px' }}>
+            </div>
           </div>
         </div>
         <div className={ styles.infoCols }>
@@ -30,6 +41,3 @@ class Exams extends PureComponent {
     );
   }
 }
-
-
-export default Exams;
