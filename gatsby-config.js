@@ -1,8 +1,12 @@
-const currentEnv = process.env.MARKETING_ENV || 'development';
-
-require("dotenv").config({
-  path: `.env.production`,
+const res = require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
 });
+
+if (res.error) {
+    throw res.error;
+}
+
+console.log(res);
 
 module.exports = {
   siteMetadata: {
