@@ -23,7 +23,7 @@ case "$TASK" in
           # Gatsby is broken and only supports two environments so we place this hack to "correctly"
           # have a staging environment
           mv .env.ugh_gatsby.staging .env.production
-          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
            aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
           ./tasks/build "$REVISION"
@@ -32,13 +32,16 @@ case "$TASK" in
           # Gatsby is broken and only supports two environments so we place this hack to "correctly"
           # have a staging environment and production
           mv .env.ugh_gatsby.production .env.production
-          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+          docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
           ./tasks/build "$REVISION"
           ;;
-      *)
-          MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
+        *)
+          # Gatsby is broken and only supports two environments so we place this hack to "correctly"
+          # have a staging environment and production
+          mv .env.ugh_gatsby.staging .env.production
+          docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           ;;
       esac;
     ;;
