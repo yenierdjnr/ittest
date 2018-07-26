@@ -19,13 +19,19 @@ case "$TASK" in
 
   "build")
       case "$BRANCH_NAME" in
-      "master")
+        "master")
+          # Gatsby is broken and only supports two environments so we place this hack to "correctly"
+          # have a staging environment
+          mv .env.ugh_gatsby.staging .env.production
           MARKETING_ENV=staging docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
            aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-staging --exclude ./*.map --delete
           ./tasks/build "$REVISION"
           ;;
-      "production")
+        "production")
+          # Gatsby is broken and only supports two environments so we place this hack to "correctly"
+          # have a staging environment and production
+          mv .env.ugh_gatsby.production .env.production
           MARKETING_ENV=production docker-compose -f docker-compose.semaphore.yml up --exit-code-from marketing
           aws --region="$REGION" \
               s3 sync public s3://itprotv-marketing-production --exclude ./*.map --delete
@@ -40,12 +46,18 @@ case "$TASK" in
   "deploy")
     case "$BRANCH_NAME" in
       "master")
+          # Gatsby is broken and only supports two environments so we place this hack to "correctly"
+          # have a staging environment and production
+          mv .env.ugh_gatsby.staging .env.production
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           ./tasks/deploy staging "$REVISION"
           ;;
 
       "production")
+          # Gatsby is broken and only supports two environments so we place this hack to "correctly"
+          # have a staging environment and production
+          mv .env.ugh_gatsby.production .env.production
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> terraform/settings.env
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> terraform/settings.env
           ./tasks/deploy production "$REVISION"
