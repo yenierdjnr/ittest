@@ -1,7 +1,7 @@
 const currentEnv = process.env.MARKETING_ENV || 'development';
 
 require("dotenv").config({
-  path: `.env.${currentEnv}`,
+  path: `.env.production`,
 });
 
 module.exports = {
