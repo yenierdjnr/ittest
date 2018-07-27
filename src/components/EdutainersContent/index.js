@@ -136,7 +136,7 @@ const EdutainersContent = () =>
         <img className={ styles.headshot } src={ Aubri } alt="Aubri Spurgin-Kabinu" />
       </div>
       <div className={ styles.content }>
-        <Para className={ styles.name } color={ styles.offBlack }>Aurbianna Spurgin-Kabinu</Para>
+        <Para className={ styles.name } color={ styles.offBlack }>Aubrianna Spurgin-Kabinu</Para>
         <Para className={ styles.bio } color={ styles.offBlack }>Aubri combines her background in telecommunication with her passion for learning as an ITProTV show host. She works with the ITProTV subject matter experts to help members grow in their IT careers.</Para>
       </div>
     </div>
