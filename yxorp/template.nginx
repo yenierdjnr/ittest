@@ -25,253 +25,253 @@ server {
   # Consumer Web redirects
 
     location /macbreak {
-      return 302 http://go.itpro.tv/macbreak;
+      return 302 https://go.itpro.tv/macbreak;
     }
     location /securitynow {
-      return 302 http://go.itpro.tv/securitynow;
+      return 302 https://go.itpro.tv/securitynow;
     }
     location /sn {
-      return 302 http://go.itpro.tv/securitynow;
+      return 302 https://go.itpro.tv/securitynow;
     }
     location /windows {
-      return 302 http://go.itpro.tv/windows;
+      return 302 https://go.itpro.tv/windows;
     }
     location /ww {
-      return 302 http://go.itpro.tv/windows;
+      return 302 https://go.itpro.tv/windows;
     }
     location /twit {
-      return 302 http://go.itpro.tv/twit;
+      return 302 https://go.itpro.tv/twit;
     }
     location /enterprise {
-      return 302 http://go.itpro.tv/enterprise;
+      return 302 https://go.itpro.tv/enterprise;
     }
     location /youtube {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /youtube25 {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /itiq {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /promo {
-      return 302 http://go.itpro.tv/promo30;
+      return 302 https://go.itpro.tv/promo30;
     }
     location /promo30 {
-      return 302 http://go.itpro.tv/promo30;
+      return 302 https://go.itpro.tv/promo30;
     }
     location /knowhow {
-      return 302 http://go.itpro.tv/knowhow;
+      return 302 https://go.itpro.tv/knowhow;
     }
     location /allaboutandroid {
-      return 302 http://go.itpro.tv/allaboutandroid;
+      return 302 https://go.itpro.tv/allaboutandroid;
     }
     location /floss {
-      return 302 http://go.itpro.tv/floss;
+      return 302 https://go.itpro.tv/floss;
     }
     location /Floss {
-      return 302 http://go.itpro.tv/floss;
+      return 302 https://go.itpro.tv/floss;
     }
     location /FLOSS {
-      return 302 http://go.itpro.tv/floss;
+      return 302 https://go.itpro.tv/floss;
     }
     location /pc {
-      return 302 http://go.itpro.tv/pc;
+      return 302 https://go.itpro.tv/pc;
     }
     location /twich {
-      return 302 http://go.itpro.tv/twich;
+      return 302 https://go.itpro.tv/twich;
     }
     location /forums {
       return 302 https://forums.itpro.tv;
     }
     location /tss {
-      return 302 http://go.itpro.tv/nss;
+      return 302 https://go.itpro.tv/nss;
     }
     location /thescreensavers {
-      return 302 http://go.itpro.tv/nss;
+      return 302 https://go.itpro.tv/nss;
     }
     location /tnss {
-      return 302 http://go.itpro.tv/nss;
+      return 302 https://go.itpro.tv/nss;
     }
     location /nss {
-      return 302 http://go.itpro.tv/nss;
+      return 302 https://go.itpro.tv/nss;
     }
     location /snell {
-      return 302 http://go.itpro.tv/snell;
+      return 302 https://go.itpro.tv/snell;
     }
     location /analog {
-      return 302 http://go.itpro.tv/analog;
+      return 302 https://go.itpro.tv/analog;
     }
     location /analogue {
-      return 302 http://go.itpro.tv/analogue;
+      return 302 https://go.itpro.tv/analogue;
     }
     location /material {
-      return 302 http://go.itpro.tv/material;
+      return 302 https://go.itpro.tv/material;
     }
     location /upgrade {
-      return 302 http://go.itpro.tv/upgrade;
+      return 302 https://go.itpro.tv/upgrade;
     }
     location /spiceworks {
-      return 302 http://go.itpro.tv/spiceworks;
+      return 302 https://go.itpro.tv/spiceworks;
     }
     location /tackypeople {
-      return 302 http://go.itpro.tv/tackypeople;
+      return 302 https://go.itpro.tv/tackypeople;
     }
     location /learn {
-      return 302 http://go.itpro.tv/learn;
+      return 302 https://go.itpro.tv/learn;
     }
     location /hacknaked {
-      return 302 http://go.itpro.tv/hacknaked;
+      return 302 https://go.itpro.tv/hacknaked;
     }
     location /hack-naked {
-      return 302 http://go.itpro.tv/hacknaked;
+      return 302 https://go.itpro.tv/hacknaked;
     }
     location /wtt {
-      return 302 http://go.itpro.tv/wtt;
+      return 302 https://go.itpro.tv/wtt;
     }
     location /what-the-tech {
-      return 302 http://go.itpro.tv/wtt;
+      return 302 https://go.itpro.tv/wtt;
     }
     location /cyber {
-      return 302 http://go.itpro.tv/cyber;
+      return 302 https://go.itpro.tv/cyber;
     }
     location /networkbreak {
-      return 302 http://go.itpro.tv/networkbreak;
+      return 302 https://go.itpro.tv/networkbreak;
     }
     location /network-break {
-      return 302 http://go.itpro.tv/networkbreak;
+      return 302 https://go.itpro.tv/networkbreak;
     }
     location /30DayTrial {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /datanauts {
-      return 302 http://go.itpro.tv/datanauts;
+      return 302 https://go.itpro.tv/datanauts;
     }
     location /weeklyshow {
-      return 302 http://go.itpro.tv/weeklyshow;
+      return 302 https://go.itpro.tv/weeklyshow;
     }
     location /aitp {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /aitp-2 {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /sedaily {
-      return 302 http://go.itpro.tv/sedaily;
+      return 302 https://go.itpro.tv/sedaily;
     }
     location /enterprisesecurity {
-      return 302 http://go.itpro.tv/enterprisesecurity;
+      return 302 https://go.itpro.tv/enterprisesecurity;
     }
     location /enterprise-security-weekly {
-      return 302 http://go.itpro.tv/enterprisesecurity;
+      return 302 https://go.itpro.tv/enterprisesecurity;
     }
     location /volume {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /volume-new {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /sybex30 {
-      return 302 http://go.itpro.tv/sybex30;
+      return 302 https://go.itpro.tv/sybex30;
     }
     location /techguy {
-      return 302 http://go.itpro.tv/techguy;
+      return 302 https://go.itpro.tv/techguy;
     }
     location /securityweekly {
-      return 302 http://go.itpro.tv/securityweekly;
+      return 302 https://go.itpro.tv/securityweekly;
     }
     location /security-weekly {
-      return 302 http://go.itpro.tv/securityweekly;
+      return 302 https://go.itpro.tv/securityweekly;
     }
     location /startupsecurity {
-      return 302 http://go.itpro.tv/startupsecurity;
+      return 302 https://go.itpro.tv/startupsecurity;
     }
     location /startup-security-weekly {
-      return 302 http://go.itpro.tv/startupsecurity;
+      return 302 https://go.itpro.tv/startupsecurity;
     }
     location /bsides {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /now {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /quest {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /boss {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /wolf {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /jake {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /state {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /gps {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /360 {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /daily {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /itprotv-for-teams {
-      return 302 http://go.itpro.tv/itprotv-for-teams;
+      return 302 https://go.itpro.tv/itprotv-for-teams;
     }
     location /7dayfreetrial {
-      return 302 http://go.itpro.tv/7dayfreetrial;
+      return 302 https://go.itpro.tv/7dayfreetrial;
     }
     location /7DayFreeTrial {
-      return 302 http://go.itpro.tv/7dayfreetrial;
+      return 302 https://go.itpro.tv/7dayfreetrial;
     }
     location /itil {
-      return 302 http://go.itpro.tv/itil;
+      return 302 https://go.itpro.tv/itil;
     }
     location /itil-training {
-      return 302 http://go.itpro.tv/itil;
+      return 302 https://go.itpro.tv/itil;
     }
     location /leo {
-      return 302 http://go.itpro.tv/leo;
+      return 302 https://go.itpro.tv/leo;
     }
     location /access-word {
-      return 302 http://go.itpro.tv/access-word;
+      return 302 https://go.itpro.tv/access-word;
     }
     location /access-outlook {
-      return 302 http://go.itpro.tv/access-outlook;
+      return 302 https://go.itpro.tv/access-outlook;
     }
     location /access-powerpoint {
-      return 302 http://go.itpro.tv/access-powerpoint;
+      return 302 https://go.itpro.tv/access-powerpoint;
     }
     location /itinthed {
-      return 302 http://go.itpro.tv/itinthed;
+      return 302 https://go.itpro.tv/itinthed;
     }
     location /packetpushers {
-      return 302 http://go.itpro.tv/packetpushers;
+      return 302 https://go.itpro.tv/packetpushers;
     }
     location /tms {
-      return 302 http://go.itpro.tv/tms;
+      return 302 https://go.itpro.tv/tms;
     }
     location /riskybusiness {
-      return 302 http://go.itpro.tv/riskybusiness;
+      return 302 https://go.itpro.tv/riskybusiness;
     }
     location /7ms {
-      return 302 http://go.itpro.tv/7ms;
+      return 302 https://go.itpro.tv/7ms;
     }
     location /threatpost {
-      return 302 http://go.itpro.tv/threatpost;
+      return 302 https://go.itpro.tv/threatpost;
     }
     location /network {
-      return 302 http://go.itpro.tv/network;
+      return 302 https://go.itpro.tv/network;
     }
     location /data {
-      return 302 http://go.itpro.tv/data;
+      return 302 https://go.itpro.tv/data;
     }
     location /podcast {
-      return 302 http://itpro.tv/;
+      return 302 https://itpro.tv/;
     }
     location /library {
          return 302 /courses/;
