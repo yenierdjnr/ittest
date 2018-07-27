@@ -22,66 +22,349 @@ server {
 
   }
 
+  # Consumer Web redirects
+
+    location /macbreak {
+      return 302 https://go.itpro.tv/macbreak;
+    }
+    location /securitynow {
+      return 302 https://go.itpro.tv/securitynow;
+    }
+    location /sn {
+      return 302 https://go.itpro.tv/securitynow;
+    }
+    location /windows {
+      return 302 https://go.itpro.tv/windows;
+    }
+    location /ww {
+      return 302 https://go.itpro.tv/windows;
+    }
+    location /twit {
+      return 302 https://go.itpro.tv/twit;
+    }
+    location /enterprise {
+      return 302 https://go.itpro.tv/enterprise;
+    }
+    location /youtube {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /youtube25 {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /itiq {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /promo {
+      return 302 https://go.itpro.tv/promo30;
+    }
+    location /promo30 {
+      return 302 https://go.itpro.tv/promo30;
+    }
+    location /knowhow {
+      return 302 https://go.itpro.tv/knowhow;
+    }
+    location /allaboutandroid {
+      return 302 https://go.itpro.tv/allaboutandroid;
+    }
+    location /floss {
+      return 302 https://go.itpro.tv/floss;
+    }
+    location /Floss {
+      return 302 https://go.itpro.tv/floss;
+    }
+    location /FLOSS {
+      return 302 https://go.itpro.tv/floss;
+    }
+    location /pc {
+      return 302 https://go.itpro.tv/pc;
+    }
+    location /twich {
+      return 302 https://go.itpro.tv/twich;
+    }
+    location /forums {
+      return 302 https://forums.itpro.tv;
+    }
+    location /tss {
+      return 302 https://go.itpro.tv/nss;
+    }
+    location /thescreensavers {
+      return 302 https://go.itpro.tv/nss;
+    }
+    location /tnss {
+      return 302 https://go.itpro.tv/nss;
+    }
+    location /nss {
+      return 302 https://go.itpro.tv/nss;
+    }
+    location /snell {
+      return 302 https://go.itpro.tv/snell;
+    }
+    location /analog {
+      return 302 https://go.itpro.tv/analog;
+    }
+    location /analogue {
+      return 302 https://go.itpro.tv/analogue;
+    }
+    location /material {
+      return 302 https://go.itpro.tv/material;
+    }
+    location /upgrade {
+      return 302 https://go.itpro.tv/upgrade;
+    }
+    location /spiceworks {
+      return 302 https://go.itpro.tv/spiceworks;
+    }
+    location /tackypeople {
+      return 302 https://go.itpro.tv/tackypeople;
+    }
+    location /learn {
+      return 302 https://go.itpro.tv/learn;
+    }
+    location /hacknaked {
+      return 302 https://go.itpro.tv/hacknaked;
+    }
+    location /hack-naked {
+      return 302 https://go.itpro.tv/hacknaked;
+    }
+    location /wtt {
+      return 302 https://go.itpro.tv/wtt;
+    }
+    location /what-the-tech {
+      return 302 https://go.itpro.tv/wtt;
+    }
+    location /cyber {
+      return 302 https://go.itpro.tv/cyber;
+    }
+    location /networkbreak {
+      return 302 https://go.itpro.tv/networkbreak;
+    }
+    location /network-break {
+      return 302 https://go.itpro.tv/networkbreak;
+    }
+    location /30DayTrial {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /datanauts {
+      return 302 https://go.itpro.tv/datanauts;
+    }
+    location /weeklyshow {
+      return 302 https://go.itpro.tv/weeklyshow;
+    }
+    location /aitp {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /aitp-2 {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /sedaily {
+      return 302 https://go.itpro.tv/sedaily;
+    }
+    location /enterprisesecurity {
+      return 302 https://go.itpro.tv/enterprisesecurity;
+    }
+    location /enterprise-security-weekly {
+      return 302 https://go.itpro.tv/enterprisesecurity;
+    }
+    location /volume {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /volume-new {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /sybex30 {
+      return 302 https://go.itpro.tv/sybex30;
+    }
+    location /techguy {
+      return 302 https://go.itpro.tv/techguy;
+    }
+    location /securityweekly {
+      return 302 https://go.itpro.tv/securityweekly;
+    }
+    location /security-weekly {
+      return 302 https://go.itpro.tv/securityweekly;
+    }
+    location /startupsecurity {
+      return 302 https://go.itpro.tv/startupsecurity;
+    }
+    location /startup-security-weekly {
+      return 302 https://go.itpro.tv/startupsecurity;
+    }
+    location /bsides {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /now {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /quest {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /boss {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /wolf {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /jake {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /state {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /gps {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /360 {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /daily {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /itprotv-for-teams {
+      return 302 https://go.itpro.tv/itprotv-for-teams;
+    }
+    location /7dayfreetrial {
+      return 302 https://go.itpro.tv/7dayfreetrial;
+    }
+    location /7DayFreeTrial {
+      return 302 https://go.itpro.tv/7dayfreetrial;
+    }
+    location /itil {
+      return 302 https://go.itpro.tv/itil;
+    }
+    location /itil-training {
+      return 302 https://go.itpro.tv/itil;
+    }
+    location /leo {
+      return 302 https://go.itpro.tv/leo;
+    }
+    location /access-word {
+      return 302 https://go.itpro.tv/access-word;
+    }
+    location /access-outlook {
+      return 302 https://go.itpro.tv/access-outlook;
+    }
+    location /access-powerpoint {
+      return 302 https://go.itpro.tv/access-powerpoint;
+    }
+    location /itinthed {
+      return 302 https://go.itpro.tv/itinthed;
+    }
+    location /packetpushers {
+      return 302 https://go.itpro.tv/packetpushers;
+    }
+    location /tms {
+      return 302 https://go.itpro.tv/tms;
+    }
+    location /riskybusiness {
+      return 302 https://go.itpro.tv/riskybusiness;
+    }
+    location /7ms {
+      return 302 https://go.itpro.tv/7ms;
+    }
+    location /threatpost {
+      return 302 https://go.itpro.tv/threatpost;
+    }
+    location /network {
+      return 302 https://go.itpro.tv/network;
+    }
+    location /data {
+      return 302 https://go.itpro.tv/data;
+    }
+    location /podcast {
+      return 302 https://itpro.tv/;
+    }
+    location /library {
+         return 302 /courses/;
+    }
+    rewrite /join/30-day-trial/ /plans permanent;
+    rewrite /join/14-day-trial/ /plans permanent;
+    rewrite /join/14-day-trial-uk/ /plans permanent;
+    rewrite /join/free-membership/ /plans permanent;
+    rewrite /join/free-trial/ /plans permanent;
+    rewrite /join/get-started-in-it/ /for-you permanent;
+    rewrite /join/get-started-in-it-form/* /for-you permanent;
+    rewrite /join/itprotv-group-pricing/* /for-teams permanent;
+    rewrite /doug / permanent;
+    rewrite /onbeing / permanent;
+    rewrite /grace / permanent;
+    rewrite /nerdist / permanent;
+    rewrite /sirktv / permanent;
+    rewrite /jbtv / permanent;
+    rewrite /insidereel / permanent;
+    rewrite /xcorps / permanent;
+    rewrite /college / permanent;
+    rewrite /grad / permanent;
+    rewrite /tryitprotv / permanent;
+    rewrite /blogtalk / permanent;
+    rewrite /learn-it / permanent;
+    rewrite /ncs / permanent;
+    location /atd {
+         return 302 /plans;
+    }
+    location /plans/team-plans {
+      return 301 /for-teams;
+    }
+
   # blog redirects
-    rewrite ^/10-hottest-tech-skills-for-2016-to-skyrocket-your-it-career/?$ /blog/ redirect;
-    rewrite ^/2016-small-business-technology-trends-highlight-the-need-for-training/?$ /blog/ redirect;
-    rewrite ^/5-security-certifications-that-will-boost-your-career/?$ /blog/ redirect;
-    rewrite ^/6-common-career-and-job-search-misconceptions-that-are-holding-you-back/blog/?$ /blog/ redirect;
-    rewrite ^/add-a-avatar-or-profile-picture/?$ /blog/ redirect;
-    rewrite ^/boost-your-career-and-salary-with-it-certifications/blog/?$ /blog/ redirect;
-    rewrite ^/everything-you-need-to-learn-networking-from-home/blog/?$ /blog/ redirect;
-    rewrite ^/how-earning-the-sscp-certification-helps-your-career/?$ /blog/ redirect;
-    rewrite ^/how-to-bit-torrent-sync/?$ /blog/ redirect;
-    rewrite ^/how-to-download-itprotv-videos-to-itunes-annual-subscribers-only/?$ /blog/ redirect;
-    rewrite ^/how-to-download-itprotv-videos-to-itunes-annual-subscribers-only/blog/?$ /blog/ redirect;
-    rewrite ^/how-to-make-a-successful-transition-from-windows-to-linux-and-why-you-should-consider-making-the-switch/blog/?$ /blog/ redirect;
-    rewrite ^/how-to-pass-cissp-on-the-first-try/?$ /blog/ redirect;
-    rewrite ^/how-to-using-isostick/blog/?$ /blog/ redirect;
-    rewrite ^/howto-make-a-crossover-cable/?$ /blog/ redirect;
-    rewrite ^/howto-windows-8-1-create-a-backup/?$ /blog/ redirect;
-    rewrite ^/improve-your-career-with-self-directed-learning-2/blog/?$ /blog/ redirect;
-    rewrite ^/improve-your-career-with-self-directed-learning/blog/?$ /blog/ redirect;
-    rewrite ^/install-free-proxy-server-on-windows/?$ /blog/ redirect;
-    rewrite ^/interview-with-1e-inc-at-microsoft-ignite-2016/blog/?$ /blog/ redirect;
-    rewrite ^/interview-with-docker-at-microsoft-ignite-2016/blog/?$ /blog/ redirect;
-    rewrite ^/interview-with-hpe-azure-stack-at-microsoft-ignite-2016/blog/?$ /blog/ redirect;
-    rewrite ^/interview-with-hpe-cpm-at-microsoft-ignite-2016/blog/?$ /blog/ redirect;
-    rewrite ^/itpro-tv-partners-with-wiley-to-solve-it-training-challenge/?$ /blog/ redirect;
-    rewrite ^/itpro-tv-partners-with-wiley-to-solve-it-training-challenge/blog/?$ /blog/ redirect;
-    rewrite ^/itprotv-interview-with-huawei-at-rsa-2017/blog/?$ /blog/ redirect;
-    rewrite ^/itprotv-interview-with-lastpass-enterprise-at-rsa-2017/blog/?$ /blog/ redirect;
-    rewrite ^/itprotv-licensing-agreement-with-pluralsight-continues-momentum-from-recent-collaborations-with-wiley-marketing/?$ /blog/ redirect;
-    rewrite ^/itprotv-to-stream-live-from-microsoft-ignite/?$ /blog/ redirect;
-    rewrite ^/itprotv-to-stream-live-from-microsoft-ignite/blog/?$ /blog/ redirect;
-    rewrite ^/linux/blog/?$ /blog/ redirect;
-    rewrite ^/maximizing-virtualization-requires-minimizing-vulnerabilities/blog/?$ /blog/ redirect;
-    rewrite ^/mcsa-windows-server-2012configuring-disks/?$ /blog/ redirect;
-    rewrite ^/microsoft-project-springfield-at-microsoft-ignite-2016/blog/?$ /blog/ redirect;
-    rewrite ^/networking-setup-in-itprotvs-new-building/blog/?$ /blog/ redirect;
-    rewrite ^/no-more-excuses-how-to-create-a-culture-of-learning-in-your-organization/?$ /blog/ redirect;
-    rewrite ^/no-more-excuses-how-to-create-a-culture-of-learning-in-your-organization/blog/?$ /blog/ redirect;
-    rewrite ^/perfection-is-overrated-why-you-should-allow-employees-to-make-mistakes/blog/?$ /blog/ redirect;
-    rewrite ^/rsa-2016-interview-with-bastille/blog/?$ /blog/ redirect;
-    rewrite ^/rsa-2016-interview-with-dome9-security/blog/?$ /blog/ redirect;
-    rewrite ^/the-most-in-demand-cybersecurity-jobs-and-how-to-get-them/?$ /blog/ redirect;
-    rewrite ^/upcoming-pricing-and-plans-changes/?$ /blog/ redirect;
-    rewrite ^/what-windows-10-means-for-mcsa-for-now/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-annotating-websites-with-microsoft-edge/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-command-line-interface/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-improved-touch-screen-interface/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-quick-access/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-the-groove-music-app/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-the-mail-calendar-apps/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-the-photos-app/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-virtual-desktops/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-windowed-modern-ui-apps/?$ /blog/ redirect;
-    rewrite ^/whats-new-in-windows-10-windows-hello-authentication/?$ /blog/ redirect;
-    rewrite ^/whos-on-your-startup-team-the-people-you-need-the-most/?$ /blog/ redirect;
-    rewrite ^/whos-on-your-startup-team-the-people-you-need-the-most/blog/?$ /blog/ redirect;
-    rewrite ^/why-comptia-security-is-the-most-important-certification-for-it-newbies/?$ /blog/ redirect;
-    rewrite ^/why-cybersecurity-is-an-ideal-career-for-veterans/blog/?$ /blog/ redirect;
-    rewrite ^/why-its-a-good-sign-when-your-employees-are-being-headhunted/blog/?$ /blog/ redirect;
-    rewrite ^/why-the-it-security-job-market-is-so-hot-right-now-and-how-you-can-take-advantage/blog/?$ /blog/ redirect;
+    rewrite ^/10-hottest-tech-skills-for-2016-to-skyrocket-your-it-career/?$ https://blog.itpro.tv redirect;
+    rewrite ^/2016-small-business-technology-trends-highlight-the-need-for-training/?$ https://blog.itpro.tv redirect;
+    rewrite ^/5-security-certifications-that-will-boost-your-career/?$ https://blog.itpro.tv redirect;
+    rewrite ^/6-common-career-and-job-search-misconceptions-that-are-holding-you-back/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/add-a-avatar-or-profile-picture/?$ https://blog.itpro.tv redirect;
+    rewrite ^/boost-your-career-and-salary-with-it-certifications/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/everything-you-need-to-learn-networking-from-home/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-earning-the-sscp-certification-helps-your-career/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-bit-torrent-sync/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-download-itprotv-videos-to-itunes-annual-subscribers-only/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-download-itprotv-videos-to-itunes-annual-subscribers-only/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-make-a-successful-transition-from-windows-to-linux-and-why-you-should-consider-making-the-switch/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-pass-cissp-on-the-first-try/?$ https://blog.itpro.tv redirect;
+    rewrite ^/how-to-using-isostick/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/howto-make-a-crossover-cable/?$ https://blog.itpro.tv redirect;
+    rewrite ^/howto-windows-8-1-create-a-backup/?$ https://blog.itpro.tv redirect;
+    rewrite ^/improve-your-career-with-self-directed-learning-2/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/improve-your-career-with-self-directed-learning/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/install-free-proxy-server-on-windows/?$ https://blog.itpro.tv redirect;
+    rewrite ^/interview-with-1e-inc-at-microsoft-ignite-2016/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/interview-with-docker-at-microsoft-ignite-2016/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/interview-with-hpe-azure-stack-at-microsoft-ignite-2016/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/interview-with-hpe-cpm-at-microsoft-ignite-2016/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itpro-tv-partners-with-wiley-to-solve-it-training-challenge/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itpro-tv-partners-with-wiley-to-solve-it-training-challenge/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itprotv-interview-with-huawei-at-rsa-2017/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itprotv-interview-with-lastpass-enterprise-at-rsa-2017/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itprotv-licensing-agreement-with-pluralsight-continues-momentum-from-recent-collaborations-with-wiley-marketing/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itprotv-to-stream-live-from-microsoft-ignite/?$ https://blog.itpro.tv redirect;
+    rewrite ^/itprotv-to-stream-live-from-microsoft-ignite/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/linux/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/maximizing-virtualization-requires-minimizing-vulnerabilities/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/mcsa-windows-server-2012configuring-disks/?$ https://blog.itpro.tv redirect;
+    rewrite ^/microsoft-project-springfield-at-microsoft-ignite-2016/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/networking-setup-in-itprotvs-new-building/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/no-more-excuses-how-to-create-a-culture-of-learning-in-your-organization/?$ https://blog.itpro.tv redirect;
+    rewrite ^/no-more-excuses-how-to-create-a-culture-of-learning-in-your-organization/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/perfection-is-overrated-why-you-should-allow-employees-to-make-mistakes/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/rsa-2016-interview-with-bastille/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/rsa-2016-interview-with-dome9-security/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/the-most-in-demand-cybersecurity-jobs-and-how-to-get-them/?$ https://blog.itpro.tv redirect;
+    rewrite ^/upcoming-pricing-and-plans-changes/?$ https://blog.itpro.tv redirect;
+    rewrite ^/what-windows-10-means-for-mcsa-for-now/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-annotating-websites-with-microsoft-edge/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-command-line-interface/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-improved-touch-screen-interface/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-quick-access/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-the-groove-music-app/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-the-mail-calendar-apps/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-the-photos-app/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-virtual-desktops/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-windowed-modern-ui-apps/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whats-new-in-windows-10-windows-hello-authentication/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whos-on-your-startup-team-the-people-you-need-the-most/?$ https://blog.itpro.tv redirect;
+    rewrite ^/whos-on-your-startup-team-the-people-you-need-the-most/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/why-comptia-security-is-the-most-important-certification-for-it-newbies/?$ https://blog.itpro.tv redirect;
+    rewrite ^/why-cybersecurity-is-an-ideal-career-for-veterans/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/why-its-a-good-sign-when-your-employees-are-being-headhunted/blog/?$ https://blog.itpro.tv redirect;
+    rewrite ^/why-the-it-security-job-market-is-so-hot-right-now-and-how-you-can-take-advantage/blog/?$ https://blog.itpro.tv redirect;
 
   # course redirects
     rewrite ^/course-library/a-220902/?$ /courses/comptia/a-220902 redirect;
