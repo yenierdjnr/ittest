@@ -21,6 +21,8 @@ server {
     return 200 true;
 
   }
+  
+
 
   # blog redirects
     rewrite ^/10-hottest-tech-skills-for-2016-to-skyrocket-your-it-career/?$ /blog/ redirect;
