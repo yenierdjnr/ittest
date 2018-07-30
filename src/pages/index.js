@@ -19,9 +19,9 @@ const HomePage = ({ data, location }) =>
     <Head location={ location }/>
     <main className={ styles.home }>
 
-      <section className={ styles.Hero }>
+      <div className={ styles.Hero }>
         <Hero />
-      </section>
+      </div>
 
       <section className={ styles.For }>
         <ForTeamsYou />
