@@ -19,8 +19,10 @@ const HomePage = ({ data, location }) =>
     <Head location={ location }/>
     <main className={ styles.home }>
 
-      <div className={ styles.Hero }>
-        <Hero />
+      <div className={ styles.kaka }>
+        <div className={ styles.Hero }>
+          <Hero />
+        </div>
       </div>
 
       <section className={ styles.For }>
