@@ -80,9 +80,11 @@ $breakpoints: (
 }
 
 .Pamphlet {
-  @extend .container-fluid;
+  //@extend .container-fluid;
   background-color: $color-offblack;
   padding: 0;
+  width: 100%;
+  position: relative;
 }
 
 
