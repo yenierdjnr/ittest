@@ -7,22 +7,27 @@ $breakpoints: (
 );
 
 .capsule {
-  @extend .container;
+  //@extend .container;
   padding-top: 9.7rem;
   padding-bottom: 9.7rem;
+  background-color: #151746;
+  width: 100%;
 }
 
 .content {
-  @extend .col-12;
+  //@extend .col-12;
 
-  @extend .d-flex;
-  @extend .flex-nowrap;
-  @extend .justify-content-between;
-  @extend .align-items-center;
+  //@extend .d-flex;
+  //@extend .flex-nowrap;
+  //@extend .justify-content-between;
+  //@extend .align-items-center;
+  width: 960px;
+  margin: 0px auto;
 }
 
 .info {
   width: 66.7rem;
+  float: right;
 }
 
 .title {

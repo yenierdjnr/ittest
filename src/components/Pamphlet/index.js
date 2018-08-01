@@ -10,7 +10,7 @@ const orangePrimary = '#F6621C';
 const Pamphlet = ({ videoImg }) => {
   return (
     <section className={ styles.capsule }>
-      <div className={ styles.row }>
+      {/*<div className={ styles.row }>*/}
         <div className={ styles.content }>
           <ViewportAnimation>
             <Img fixed={ videoImg.fixed }/>
@@ -24,7 +24,7 @@ const Pamphlet = ({ videoImg }) => {
             </a>
           </div>
         </div>
-      </div>
+      {/*</div>*/}
     </section>
   );
 }
